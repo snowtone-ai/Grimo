@@ -1,0 +1,13 @@
+export type GoogleScope="gmail"|"calendar";
+const SCOPES:Record<GoogleScope,string>={gmail:"https://www.googleapis.com/auth/gmail.readonly",calendar:"https://www.googleapis.com/auth/calendar.readonly"};
+const tokens:Partial<Record<GoogleScope,string>>={}; const pending:Partial<Record<GoogleScope,Promise<string>>>={};
+type OAuth2={initTokenClient:(cfg:{client_id:string;scope:string;callback:(resp:{error?:string;access_token?:string})=>void})=>{requestAccessToken:(opts:{prompt:string})=>void};revoke?:(token:string)=>void};
+function oauth2():OAuth2|undefined{return (window as unknown as {google?:{accounts?:{oauth2?:OAuth2}}}).google?.accounts?.oauth2;}
+async function waitForGIS(timeoutMs=10000):Promise<OAuth2>{const now=oauth2();if(now)return now;return new Promise((resolve,reject)=>{const deadline=Date.now()+timeoutMs;const timer=setInterval(()=>{const api=oauth2();if(api){clearInterval(timer);resolve(api);}else if(Date.now()>=deadline){clearInterval(timer);reject(new Error("Google認証ライブラリの読み込みがタイムアウトしました"));}},200);});}
+export function getToken(scope:GoogleScope):string|null{return tokens[scope]??null;}
+export function clearToken(scope:GoogleScope):void{delete tokens[scope];}
+async function request(scope:GoogleScope):Promise<string>{const clientId=process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;if(!clientId)throw new Error("NEXT_PUBLIC_GOOGLE_CLIENT_ID is not configured");const api=await waitForGIS();return new Promise((resolve,reject)=>{const client=api.initTokenClient({client_id:clientId,scope:SCOPES[scope],callback:resp=>{if(resp.error||!resp.access_token){reject(new Error(resp.error??"access_denied"));return;}tokens[scope]=resp.access_token;resolve(resp.access_token);}});client.requestAccessToken({prompt:tokens[scope]?"":"consent"});});}
+export function requestGoogleToken(scope:GoogleScope):Promise<string>{if(pending[scope])return pending[scope]!;const p=request(scope).finally(()=>{delete pending[scope];});pending[scope]=p;return p;}
+export class GoogleAuthExpiredError extends Error{constructor(readonly scope:GoogleScope){super(`${scope} token expired`);this.name="GoogleAuthExpiredError";}}
+export async function googleAuthFetch(scope:GoogleScope,url:string,init?:RequestInit):Promise<Response>{const token=getToken(scope);if(!token)throw new GoogleAuthExpiredError(scope);const response=await fetch(url,{...init,headers:{...init?.headers,Authorization:`Bearer ${token}`}});if(response.status===401){clearToken(scope);throw new GoogleAuthExpiredError(scope);}return response;}
+export function revokeToken(scope:GoogleScope):void{const token=tokens[scope];if(!token)return;oauth2()?.revoke?.(token);delete tokens[scope];}

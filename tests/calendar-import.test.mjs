@@ -1,0 +1,4 @@
+import test from "node:test";import assert from "node:assert/strict";import { sameAppointmentText,plausiblePair,validAppointment } from "../src/domain/calendar/calendar-import.ts";
+test("appointment validation rejects impossible dates",()=>{assert.equal(validAppointment({title:"x",dueDate:"2026-02-30",dueTime:null}),false);});
+test("normalized titles compare equal",()=>{assert.equal(sameAppointmentText({title:" 面接　A ",dueDate:"2026-09-13",dueTime:"10:00"},{title:"面接 A",dueDate:"2026-09-13",dueTime:"10:00"}),true);});
+test("plausible pair is limited to same day and about one hour",()=>{assert.equal(plausiblePair({title:"a",dueDate:"2026-09-13",dueTime:"10:00"},{title:"b",dueDate:"2026-09-13",dueTime:"11:00"}),true);assert.equal(plausiblePair({title:"a",dueDate:"2026-09-13",dueTime:"10:00"},{title:"b",dueDate:"2026-09-13",dueTime:"11:01"}),false);});
