@@ -17,8 +17,10 @@
 | `src/grimo/interaction/` | Renderer-independent semantic zones and future gesture/state contracts |
 | `src/grimo/motion/` | Typed character motion parameters and pure motion helpers |
 | `assets/grimo/source/` | Canonical identity sources; never auto-overwrite |
+| `assets/grimo/source/app-icon.png` | User-provided immutable PWA icon source; derived public sizes live under `public/icons/` |
 | `assets/grimo/derived/` | Reproducible runtime manifests/derived working assets; never identity authority |
 | `public/grimo/` | Browser-ready runtime copies generated from immutable source assets |
+| `public/icons/` | Browser-ready PWA and Apple Touch icon sizes derived from the immutable app-icon source |
 | `scripts/prepare-carol-assets.mjs` | Reproduces Carol Phase 1 runtime asset/manifest from canonical source |
 | `docs/grimo/asset-generation-workflow.md` | On-demand, human-in-the-loop image-generation runbook |
 | `docs/product/source-pack/` | Current Grimo product source documents |
