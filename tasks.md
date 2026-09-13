@@ -4,7 +4,7 @@ Updated: 2026-09-13 JST
 
 ## Current position
 
-Carol PixiJS 8 layered 2.5D vertical slice — Phase 1 evidence ready on `codex/carol-phase1`; awaiting Human Gate 1 judgment.
+Carol PixiJS 8 layered 2.5D vertical slice — Human Gate 1 approved on `codex/carol-phase1`; Gate 2 idle is next and has not started.
 
 ## Acceptance state
 
@@ -20,10 +20,11 @@ Carol PixiJS 8 layered 2.5D vertical slice — Phase 1 evidence ready on `codex/
 - [x] `pnpm verify`
 - [x] Browser QA, 30-second frame capture, route remount, and 5-minute stability loop
 - [x] Human Gate 1 neutral/deformed captures and quantitative report
+- [x] Human Gate 1 judgment: same Carol, canonical appeal preserved, face survives deformation
 
 ## Next operation
 
-Stop for Human Gate 1 approval. After approval only: Gate 2 idle, then Gate 3 touch.
+Gate 2 idle only: study the visible body mechanics of suitable Pikachu/Eevee gameplay footage, then replace any whole-image breathing impression with localized, grounded Carol motion. Gate 3 touch remains blocked until Gate 2 approval.
 
 ## Acceptance criteria
 
@@ -35,7 +36,8 @@ Stop for Human Gate 1 approval. After approval only: Gate 2 idle, then Gate 3 to
 
 ## Unresolved
 
-- Human decision: same Carol / canonical appeal preserved / face survives deformation.
+- Gate 1 review feedback: the three identity checks passed, but a small whole-image stretch/shrink impression is not acceptable as the finished idle.
+- Gate 2 must keep the hooves grounded and make breathing/body/fleece movement read as connected parts rather than uniform image scaling.
 - Pixel 7a physical-device performance remains pending unless a target device becomes available.
 
 ## Verification
