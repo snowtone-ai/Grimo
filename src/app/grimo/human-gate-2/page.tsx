@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CarolViewport } from "@/components/grimo/CarolViewport";
+import { HumanGateFullscreenButton } from "@/components/grimo/HumanGateFullscreenButton";
 import { CAROL_IDLE_VARIANTS, parseCarolIdleVariant } from "@/grimo/motion/carol-motion";
 
 export default async function CarolHumanGateTwoPage({ searchParams }: { searchParams: Promise<{ idleVariant?: string }> }) {
@@ -30,6 +31,7 @@ export default async function CarolHumanGateTwoPage({ searchParams }: { searchPa
           </Link>
         ))}
       </nav>
+      <HumanGateFullscreenButton />
       <p className="human-gate__instruction">Chrome を全画面表示にし、A → B → C の順で各候補を30秒ずつ見比べてください。切替ごとに同じ初期状態から再生されます。</p>
     </main>
   );
