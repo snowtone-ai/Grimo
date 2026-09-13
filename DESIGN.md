@@ -817,6 +817,8 @@ For touch reactions, larger motion is allowed if contact causality remains legib
 
 Metrics narrow the search space; humans approve the feel.
 
+All Human Gate visual reviews must be conducted with the experience open in **Chrome full-screen**. Do not use a reduced browser window, embedded preview, or another browser as the basis for human visual approval.
+
 ## Gate 1 — Identity
 
 Inputs:

@@ -41,6 +41,7 @@ React = route/UI/app state/viewport host。PixiJS = character rendering/hit/seco
 - 1画面1主要目的/主要action。mobile safe area、片手操作、keyboard、semantic、contrast、loading/empty/success/error、reduced motionを扱う。
 - 高品質な既存primitiveは優先するがGrimo固有visual/character experienceは必要なら自作。旧 `border-radius:0` / dark-fantasy styleは継承しない。
 - UI変更は実Browserで主要経路と必要なconsole/network/runtimeを確認し、コード読解だけで完了にしない。
+- 人間による目視チェック（Human Gate を含む）は、必ず **Chrome を全画面表示** で開いて実施する。縮小ウィンドウ、埋め込みプレビュー、または別ブラウザの結果を人間目視の合否根拠にしない。
 
 ## Grimo品質
 
