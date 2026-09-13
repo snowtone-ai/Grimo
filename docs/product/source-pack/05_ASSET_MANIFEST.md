@@ -19,6 +19,13 @@
 
 合計: **32/32**
 
+## Physical import status
+
+2026-09-13: all 32 implementation references were imported into the repository at
+`assets/grimo/source/<character>/refs/`, using the filenames in `manifest/assets.json`.
+The four existing `canonical.png` files were preserved unchanged. The companion
+reference notes are in `docs/grimo/references/`.
+
 ## Per-character asset contract
 
 各キャラに以下を持つ:

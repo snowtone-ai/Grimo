@@ -1,0 +1,104 @@
+version: 2026-09-13
+references:
+  - id: letsgo-nose-sneeze
+    product: Pokemon Lets Go
+    channel: aika
+    url: "https://www.youtube.com/watch?v=0KSZwNZ5m1E&list=PLyNPy006ABoGutSw0Tj29MkGIXS-5tH-k&index=2"
+    timestamp: "00:09-00:18"
+    evidence: user_observation
+    principles: [local-contact, anticipation, sneeze, head-shake, settle]
+    priority: high
+  - id: letsgo-high-five
+    product: Pokemon Lets Go
+    channel: aika
+    url: "https://www.youtube.com/watch?v=0KSZwNZ5m1E&list=PLyNPy006ABoGutSw0Tj29MkGIXS-5tH-k&index=2"
+    timestamp: "00:30-00:45"
+    evidence: user_observation
+    principles: [self-initiated-interaction, partner-attention]
+    priority: high
+  - id: letsgo-emotion-vfx
+    product: Pokemon Lets Go
+    channel: aika
+    url: "https://www.youtube.com/watch?v=6tJzupfNSN8&list=PLyNPy006ABoGutSw0Tj29MkGIXS-5tH-k&index=1"
+    timestamps: ["00:30-00:34", "01:16-01:20", "02:42-02:45"]
+    evidence: user_observation
+    principles: [emotion-punctuation, restrained-vfx]
+    priority: high
+  - id: letsgo-feeding
+    product: Pokemon Lets Go
+    channel: aika
+    url: "https://www.youtube.com/watch?v=6tJzupfNSN8&list=PLyNPy006ABoGutSw0Tj29MkGIXS-5tH-k&index=1"
+    timestamp: "01:18-01:27"
+    evidence: user_observation
+    principles: [staged-consumption, three-step-bite]
+    priority: high
+  - id: letsgo-head-shake
+    product: Pokemon Lets Go
+    channel: aika
+    url: "https://www.youtube.com/watch?v=6tJzupfNSN8&list=PLyNPy006ABoGutSw0Tj29MkGIXS-5tH-k&index=1"
+    timestamp: "02:31-02:35"
+    evidence: user_observation
+    principles: [micro-motion, follow-through]
+    priority: medium
+  - id: letsgo-eevee-present
+    product: Pokemon Lets Go
+    channel: aika
+    url: "https://www.youtube.com/watch?v=KSS6UXwKqPk&list=PLyNPy006ABoGutSw0Tj29MkGIXS-5tH-k&index=3"
+    timestamp: "03:35-03:45"
+    evidence: user_observation
+    principles: [self-initiation, reward-bridge, controlled-randomness]
+    priority: high
+  - id: amie-mareep
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=2HORfDvm5d0"
+    evidence: candidate_only
+    grimo: carol
+  - id: amie-whimsicott
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=fntm3Dt6FYc"
+    evidence: candidate_only
+    grimo: carol
+  - id: amie-oshawott
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=M9kz1BNo6QU"
+    evidence: candidate_only
+    grimo: pino
+  - id: amie-buizel
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=8-XsSzwNJ_o"
+    evidence: candidate_only
+    grimo: pino
+  - id: amie-dragonite
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=xKC-XDnjuFo"
+    evidence: candidate_only
+    grimo: jill
+  - id: amie-noibat
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=yhl4WjEGOZo"
+    evidence: candidate_only
+    grimo: jill
+  - id: amie-teddiursa
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=crJpisgRwIQ"
+    evidence: candidate_only
+    grimo: shushu
+  - id: amie-pancham
+    product: Pokemon-Amie-or-Refresh
+    channel: seak
+    url: "https://www.youtube.com/watch?v=itwHTb59mnA"
+    evidence: candidate_only
+    grimo: shushu
+  - id: pokepoke-ui-screenshots
+    product: Pokemon TCG Pocket
+    evidence: user_supplied_screenshots_analyzed_locally
+    media_committed: false
+    screenshot_count: 7
+    notes: "Derived UI principles only; third-party screenshots are intentionally excluded from repo pack."

@@ -164,3 +164,17 @@ Reference clipを収集する場合:
 - Refresh: 4
 - Camp: 3
 を初期目安にする。
+
+## Imported reference notes
+
+詳細なURL・provenance・timestampは `docs/grimo/references/` に保存する。そこにある
+`pokemon-lets-go.md` の user-observation として、以下の事実だけを実装原則へ反映する。
+
+- 00:09–00:18: 鼻への接触から予備動作、くしゃみ、頭振り、通常状態へ戻る。
+- 00:30–00:45: ポケモン側からハイタッチを求める自己開始型の誘い。
+- 00:30–00:34 / 01:16–01:20 / 02:42–02:45: ♪・♡・☆の感情記号が反応に添えられる。
+- 01:18–01:27: 食べ物が一瞬で消えず、概ね3段階で進む。
+- 02:31–02:35: 小さな頭振りのマイクロモーション。
+- 03:35–03:45: ポケモン側からのプレゼントがアイテム取得へつながる。
+
+`pokemon-amie-refresh.md` は timestamp 付き観察をまだ持たない candidate-only reference として扱い、ここへ具体的な観察を追加しない。
