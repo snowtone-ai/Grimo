@@ -1,35 +1,67 @@
+import {
+  EEVEE_MOTION_CORPUS,
+  NEUTRAL_CAROL_POSE,
+  sampleEeveeMotion,
+  type CarolIdleAction,
+  type CarolMotionId,
+  type CarolMotionPose,
+} from "./eevee-motion-corpus.ts";
+
 export type CarolIdleVariant = "A" | "B" | "C";
+
+export type ScheduledCarolMotion = { atMs: number; motionId: CarolMotionId };
 
 export type CarolIdleConfig = {
   id: CarolIdleVariant;
   label: string;
   description: string;
-  baselineBodyLiftPx: number;
-  baselineHeadTiltDeg: number;
-  attentionTiltDeg: number;
-  earTiltDeg: number;
-  fleeceLagMs: number;
-  fleeceFollowPx: number;
-  actionOffsetsMs: readonly number[];
-  reducedMotionMultiplier: number;
+  cycleDurationMs: number;
+  schedule: readonly ScheduledCarolMotion[];
 };
 
-export type CarolIdlePose = {
-  bodyLiftPx: number;
-  headTiltDeg: number;
-  gazeShiftPx: number;
-  leftEarTiltDeg: number;
-  rightEarTiltDeg: number;
-  fleeceFollowPx: number;
-  activeAction: "quiet" | "glance" | "ear-settle" | "attention";
+export type CarolIdlePose = CarolMotionPose & {
+  activeAction: CarolIdleAction;
+  actionElapsedMs: number;
 };
 
-const IDLE_CYCLE_MS = 24_700;
+const CYCLE_DURATION_MS = 30_000;
 
 export const CAROL_IDLE_VARIANTS = {
-  A: { id: "A", label: "A — restrained / grounded", description: "最小限の呼吸と、長い静けさ。重さを最優先。", baselineBodyLiftPx: 0.72, baselineHeadTiltDeg: 0.55, attentionTiltDeg: 1.25, earTiltDeg: 0.8, fleeceLagMs: 190, fleeceFollowPx: 1.15, actionOffsetsMs: [5_600, 13_900, 20_900], reducedMotionMultiplier: 0.18 },
-  B: { id: "B", label: "B — balanced", description: "静かな視線、耳、遅れて追うフリースが読める基準案。", baselineBodyLiftPx: 0.92, baselineHeadTiltDeg: 0.72, attentionTiltDeg: 1.75, earTiltDeg: 1.15, fleeceLagMs: 160, fleeceFollowPx: 1.65, actionOffsetsMs: [4_800, 11_600, 18_900], reducedMotionMultiplier: 0.18 },
-  C: { id: "C", label: "C — expressive", description: "少しだけこちらを意識する、やわらかく明瞭な注意の移動。", baselineBodyLiftPx: 1.12, baselineHeadTiltDeg: 0.9, attentionTiltDeg: 2.35, earTiltDeg: 1.55, fleeceLagMs: 125, fleeceFollowPx: 2.05, actionOffsetsMs: [3_900, 10_200, 16_800], reducedMotionMultiplier: 0.18 },
+  A: {
+    id: "A",
+    label: "A — Eevee Calm",
+    description: "長い静止を主役に、視線と片耳の小さな気配だけを置く落ち着いた構成。",
+    cycleDurationMs: CYCLE_DURATION_MS,
+    schedule: [
+      { atMs: 0, motionId: "quiet-hold" },
+      { atMs: 8_400, motionId: "gaze-release-right" },
+      { atMs: 15_200, motionId: "soft-close-settle" },
+      { atMs: 24_600, motionId: "ear-sweep-settle" },
+    ],
+  },
+  B: {
+    id: "B",
+    label: "B — Eevee Balanced",
+    description: "静けさの間に、首振り、耳開き、重いお辞儀を一度ずつ見せる基準案。",
+    cycleDurationMs: CYCLE_DURATION_MS,
+    schedule: [
+      { atMs: 2_400, motionId: "gaze-release-right" },
+      { atMs: 8_000, motionId: "head-sweep-settle" },
+      { atMs: 16_000, motionId: "surprise-ear-open" },
+      { atMs: 22_400, motionId: "bow-afterglow" },
+    ],
+  },
+  C: {
+    id: "C",
+    label: "C — Eevee Attention-Seeking",
+    description: "こちらを意識する長い誘いと誇らしい提示を中心にした、密度の高い構成。",
+    cycleDurationMs: CYCLE_DURATION_MS,
+    schedule: [
+      { atMs: 1_000, motionId: "partner-invite" },
+      { atMs: 12_000, motionId: "surprise-ear-open" },
+      { atMs: 18_000, motionId: "present-invitation" },
+    ],
+  },
 } as const satisfies Record<CarolIdleVariant, CarolIdleConfig>;
 
 export const CAROL_PHASE_ONE_MOTION = CAROL_IDLE_VARIANTS.B;
@@ -43,27 +75,16 @@ export function smoothstep(edge0: number, edge1: number, value: number): number 
   return t * t * (3 - 2 * t);
 }
 
-function pulse(elapsedMs: number, startMs: number, durationMs: number) {
-  const progress = (elapsedMs - startMs) / durationMs;
-  return progress <= 0 || progress >= 1 ? 0 : Math.sin(progress * Math.PI);
-}
-
 export function getCarolIdlePose(elapsedMs: number, config: CarolIdleConfig, reducedMotion = false): CarolIdlePose {
-  const amplitude = reducedMotion ? config.reducedMotionMultiplier : 1;
-  const cycleTime = ((elapsedMs % IDLE_CYCLE_MS) + IDLE_CYCLE_MS) % IDLE_CYCLE_MS;
-  const breath = Math.sin((elapsedMs / 8_900) * Math.PI * 2);
-  const glance = pulse(cycleTime, config.actionOffsetsMs[0], 1_250);
-  const ear = pulse(cycleTime, config.actionOffsetsMs[1], 1_250);
-  const attention = pulse(cycleTime, config.actionOffsetsMs[2], 1_750);
-  const activeAction = attention ? "attention" : ear ? "ear-settle" : glance ? "glance" : "quiet";
-
-  return {
-    bodyLiftPx: (breath * config.baselineBodyLiftPx + attention * 0.52) * amplitude,
-    headTiltDeg: (breath * config.baselineHeadTiltDeg + glance * config.attentionTiltDeg - attention * config.attentionTiltDeg * 0.65) * amplitude,
-    gazeShiftPx: (glance * 0.8 - attention * 0.45) * amplitude,
-    leftEarTiltDeg: (ear * config.earTiltDeg + attention * config.earTiltDeg * 0.35) * amplitude,
-    rightEarTiltDeg: (-ear * config.earTiltDeg * 0.7 + glance * config.earTiltDeg * 0.25) * amplitude,
-    fleeceFollowPx: (breath * config.fleeceFollowPx + attention * config.fleeceFollowPx * 0.6) * amplitude,
-    activeAction,
-  };
+  const cycleTime = ((elapsedMs % config.cycleDurationMs) + config.cycleDurationMs) % config.cycleDurationMs;
+  const active = config.schedule.find(({ atMs, motionId }) => {
+    const duration = EEVEE_MOTION_CORPUS[motionId].durationMs;
+    return cycleTime >= atMs && cycleTime < atMs + duration;
+  });
+  if (!active) return { ...NEUTRAL_CAROL_POSE, activeAction: "quiet", actionElapsedMs: 0 };
+  const actionElapsedMs = cycleTime - active.atMs;
+  return { ...sampleEeveeMotion(active.motionId, actionElapsedMs, reducedMotion), activeAction: active.motionId, actionElapsedMs };
 }
+
+export { EEVEE_MOTION_CORPUS } from "./eevee-motion-corpus.ts";
+export type { CarolIdleAction, CarolMotionId, CarolMotionPose } from "./eevee-motion-corpus.ts";

@@ -16,8 +16,8 @@ import { FrameTimeMonitor } from "./frame-time-monitor";
 import type { CarolQaSnapshot, CarolRuntimeMode, InteractionTrace } from "../types/telemetry";
 
 const ALPHA_BOUNDS = { x: 97, y: 7, width: 640, height: 485 } as const;
-const VERTICES_X = 9;
-const VERTICES_Y = 7;
+const VERTICES_X = 13;
+const VERTICES_Y = 10;
 
 type RuntimeCounters = { active: number; mounts: number; destroys: number };
 type QaWindow = Window & {
@@ -136,7 +136,6 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
 
     const elapsedMs = mode === "deformed" ? 5_400 : frameTimestamp - startedAt;
     const pose = getCarolIdlePose(elapsedMs, motion, reducedMotion);
-    const delayedPose = getCarolIdlePose(elapsedMs - motion.fleeceLagMs, motion, reducedMotion);
     lastPose = pose;
     const tilt = pose.headTiltDeg * Math.PI / 180;
     const leftEarTilt = pose.leftEarTiltDeg * Math.PI / 180;
@@ -147,21 +146,41 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
       const y = basePositions[i + 1];
       const nx = x / CAROL_SOURCE_SIZE.width;
       const ny = y / CAROL_SOURCE_SIZE.height;
-      const grounded = smoothstep(0.78, 1, ny);
+      const grounded = smoothstep(0.76, 0.98, ny);
       const movementWeight = 1 - grounded;
-      const headWeight = smoothstep(0.18, 0.42, nx) * (1 - smoothstep(0.66, 0.86, ny));
+      const leftEarWeight = (1 - smoothstep(0.2, 0.37, nx)) * (1 - smoothstep(0.43, 0.61, ny));
+      const rightEarWeight = smoothstep(0.67, 0.84, nx) * (1 - smoothstep(0.43, 0.61, ny));
+      const earWeight = Math.min(1, leftEarWeight + rightEarWeight);
+      const headWeight = (1 - smoothstep(0.54, 0.76, ny)) * (1 - earWeight * 0.28);
       const faceWeight = smoothstep(0.36, 0.47, nx) * (1 - smoothstep(0.64, 0.76, nx)) * smoothstep(0.26, 0.38, ny) * (1 - smoothstep(0.60, 0.72, ny));
-      const leftEarWeight = (1 - smoothstep(0.18, 0.35, nx)) * (1 - smoothstep(0.42, 0.62, ny));
-      const rightEarWeight = smoothstep(0.68, 0.84, nx) * (1 - smoothstep(0.42, 0.62, ny));
-      const outerFleeceWeight = Math.max(Math.abs(nx - 0.56) * 1.25, 1 - ny) * movementWeight * (1 - faceWeight * 0.65);
-      const fleeceLag = (delayedPose.fleeceFollowPx - pose.fleeceFollowPx) * outerFleeceWeight;
+      const bodyWeight = smoothstep(0.36, 0.54, ny) * (1 - smoothstep(0.76, 0.91, ny)) * movementWeight;
+      const fleeceWeight = bodyWeight * (1 - faceWeight * 0.72);
       const earRotation = leftEarWeight * leftEarTilt + rightEarWeight * rightEarTilt;
-      positions[i] = x + (y - 286) * tilt * headWeight + pose.gazeShiftPx * faceWeight + (y - 180) * earRotation;
-      positions[i + 1] = y + pose.bodyLiftPx * movementWeight + fleeceLag;
+      positions[i] = x
+        + pose.bodyShiftXPx * movementWeight
+        + pose.headShiftXPx * headWeight
+        + pose.fleeceShiftXPx * fleeceWeight
+        + (y - 286) * tilt * headWeight
+        + pose.gazeShiftPx * faceWeight
+        + (y - 180) * earRotation;
+      positions[i + 1] = y
+        + pose.bodyLiftPx * movementWeight
+        + pose.bodyCompressionPx * bodyWeight
+        + pose.headLiftPx * headWeight
+        + pose.fleeceFollowPx * fleeceWeight;
     }
     positionBuffer.update();
   };
   app.ticker.add(update);
+
+  const visibilityChange = () => {
+    if (document.hidden) app.ticker.stop();
+    else if (!destroyed) {
+      lastFrame = performance.now();
+      app.ticker.start();
+    }
+  };
+  document.addEventListener("visibilitychange", visibilityChange);
 
   const eventToSource = (event: PointerEvent) => {
     const rect = app.canvas.getBoundingClientRect();
@@ -215,6 +234,7 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
       mode,
       idleVariant,
       idleAction: lastPose.activeAction,
+      idleActionElapsedMs: Math.round(lastPose.actionElapsedMs),
       reducedMotion,
       resolution,
       viewportCss: { width: app.screen.width, height: app.screen.height },
@@ -246,6 +266,7 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
       app.canvas.removeEventListener("pointerup", pointerUp);
       app.canvas.removeEventListener("pointercancel", pointerCancel);
       app.canvas.removeEventListener("lostpointercapture", lostPointerCapture);
+      document.removeEventListener("visibilitychange", visibilityChange);
       app.ticker.remove(update);
       counters.active -= 1;
       counters.destroys += 1;

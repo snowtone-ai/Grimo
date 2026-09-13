@@ -17,7 +17,7 @@ export default async function CarolHumanGateTwoPage({ searchParams }: { searchPa
         </div>
         <Link href="/grimo" className="human-gate__exit">グリモへ戻る</Link>
       </header>
-      <CarolViewport />
+      <CarolViewport key={idleVariant} />
       <nav className="human-gate__variants" aria-label="アイドル候補">
         {Object.values(CAROL_IDLE_VARIANTS).map((variant) => (
           <Link
@@ -30,7 +30,7 @@ export default async function CarolHumanGateTwoPage({ searchParams }: { searchPa
           </Link>
         ))}
       </nav>
-      <p className="human-gate__instruction">Chrome を全画面表示にし、同じ初期状態から各候補を20秒ずつ見比べてください。</p>
+      <p className="human-gate__instruction">Chrome を全画面表示にし、A → B → C の順で各候補を30秒ずつ見比べてください。切替ごとに同じ初期状態から再生されます。</p>
     </main>
   );
 }
