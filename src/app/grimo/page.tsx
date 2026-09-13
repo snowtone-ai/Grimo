@@ -1,2 +1,18 @@
 import { AppShell } from "@/components/app-shell/AppShell";
-export default function GrimoPage(){return <AppShell title="グリモ"><section className="grimo-stage"><div className="stage-placeholder" aria-hidden="true"><span>Carol</span></div><div className="stage-copy"><p className="eyebrow">2.5D VERTICAL SLICE</p><h1>会いにきた。</h1><p>ここがPixiJS 8のcharacter viewportになります。Canonicalを基準に、Carol一体のidle / tap / pet / reaction / settleをHuman Gateまで完成させてから4体へ展開します。</p></div><div className="grimo-actions"><button disabled>バッグ</button><button disabled>アルバム</button></div></section></AppShell>}
+import { CarolViewport } from "@/components/grimo/CarolViewport";
+
+export default function GrimoPage() {
+  return (
+    <AppShell title="グリモ">
+      <section className="grimo-stage" aria-labelledby="carol-title">
+        <div className="stage-copy">
+          <p className="eyebrow">夢雲のひつじ</p>
+          <h1 id="carol-title">Carol</h1>
+          <p>今日は、すこし近くにいたいみたい。</p>
+        </div>
+        <CarolViewport />
+        <p className="stage-hint">キャロルの様子を、そっと見守ってみよう</p>
+      </section>
+    </AppShell>
+  );
+}

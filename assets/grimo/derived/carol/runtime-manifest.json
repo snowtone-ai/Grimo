@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "character": "carol",
+  "identityAuthority": "assets/grimo/source/carol/canonical.png",
+  "sourceSha256": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce",
+  "sourceSize": {
+    "width": 768,
+    "height": 493
+  },
+  "alphaBounds": {
+    "x": 97,
+    "y": 7,
+    "width": 640,
+    "height": 485
+  },
+  "runtimeTexture": "/grimo/carol/canonical.png",
+  "runtimeLayers": [
+    "environment-back",
+    "ground-shadow",
+    "canonical-mesh",
+    "semantic-hit-overlay-dev"
+  ],
+  "note": "The canonical pixels remain unchanged. PixiJS derives mesh and semantic layers at runtime; generated references are not runtime identity sources."
+}

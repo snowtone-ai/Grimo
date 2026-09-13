@@ -4,8 +4,8 @@
 
 ## 開始・情報源
 
-1. `AGENTS.md`、`tasks.md`、`xp.md` を読む。必要時だけ `docs/state.md`、`docs/decisions.md`、`docs/repo-map.md`、対象コード、`docs/product/source-pack/` を読む。
-2. 優先順位: 現在のユーザー指示 > canonical画像 > 回答済み事前質問 > current docs > 実コード/実行結果 > 旧Grimoire repo > legacy。
+1. `AGENTS.md`、root `DESIGN.md`、`tasks.md`、`xp.md` を読む。必要時だけ `docs/state.md`、`docs/decisions.md`、`docs/repo-map.md`、対象コード、`docs/product/source-pack/` を読む。
+2. 優先順位: 現在のユーザー指示 > canonical画像 > root `DESIGN.md` > LOCKED repo/product/character docs > 実コード/実行結果 > other docs > external references > 旧Grimoire repo > legacy。
 3. 完了済みの本文・調査を理由なく再取得しない。
 
 ## 自律実行・確認境界
@@ -36,6 +36,7 @@ React = route/UI/app state/viewport host。PixiJS = character rendering/hit/seco
 
 ## UI / UX
 
+- frontend / interaction / motion / measurable quality は root `DESIGN.md` をnormative contractとして扱い、明示判断なしに逸脱しない。
 - UI/UX参照はPokémon Trading Card Game Pocket、触れ合い参照はPokémon Let's Go。原理を抽象化し、コピーしない。
 - 1画面1主要目的/主要action。mobile safe area、片手操作、keyboard、semantic、contrast、loading/empty/success/error、reduced motionを扱う。
 - 高品質な既存primitiveは優先するがGrimo固有visual/character experienceは必要なら自作。旧 `border-radius:0` / dark-fantasy styleは継承しない。

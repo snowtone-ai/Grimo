@@ -3,32 +3,45 @@
 Updated: 2026-09-13 JST
 
 ## Current position
-Milestone 0 — Foundation bootstrap prepared locally for the new `snowtone-ai/Grimo` repository.
+
+Carol PixiJS 8 layered 2.5D vertical slice — Phase 1 evidence ready on `codex/carol-phase1`; awaiting Human Gate 1 judgment.
 
 ## Acceptance state
-- [x] New product/repo naming fixed to Grimo
-- [x] New-repo architecture and context rules established
-- [x] Task/Calendar compatibility layer scaffolded from the old repo's proven behavior
-- [x] `/`, `/tasks`, `/grimo`, `/calendar`, `/settings` routes scaffolded
-- [x] Startup page preference (`tasks` or `grimo`) scaffolded
-- [x] PixiJS 8 / Dexie / Serwist / Playwright dependencies declared
-- [x] Google/Gemini integration boundaries scaffolded
-- [x] CI and unified verify command declared
-- [x] 32 implementation-reference PNGs imported under `assets/grimo/source/<character>/refs/`
-- [x] External reference notes imported under `docs/grimo/references/`
-- [x] Canonical identity files preserved; no third-party media imported
-- [ ] `pnpm install` / lockfile generation (requires package registry access)
-- [ ] `pnpm verify` on an environment with dependencies installed
-- [ ] Push bootstrap commit to GitHub (connector write was blocked; local artifact is ready)
-- [ ] User adds secret environment values locally/Vercel
+
+- [x] Foundation and production deployment configuration are present
+- [x] Root `DESIGN.md` integrated as the normative frontend/interaction contract
+- [x] Carol canonical + 8 implementation references visually reviewed
+- [x] Canonical-preserving runtime asset pipeline and manifest added
+- [x] PixiJS viewport lifecycle and responsive DPR-capped renderer implemented
+- [x] Neutral/light Carol deformation and delayed-fleece basis implemented
+- [x] Carol semantic-zone config added; back remains YELLOW / normal
+- [x] Phase 1 telemetry contracts and frame-time instrumentation added
+- [x] Focused renderer-independent tests added
+- [x] `pnpm verify`
+- [x] Browser QA, 30-second frame capture, route remount, and 5-minute stability loop
+- [x] Human Gate 1 neutral/deformed captures and quantitative report
 
 ## Next operation
-After the repository files are present in GitHub/local clone: run `corepack enable`, `pnpm install`, `pnpm verify`; fix any version/API drift revealed by the actual install. Then configure Google authorized origins and Vercel environment values. The reference-image import is complete; do not start character runtime implementation as part of that import.
 
-## Assumptions
-- Existing `NEXT_PUBLIC_GOOGLE_CLIENT_ID` and `GEMINI_API_KEY` will be reused.
-- Old production data migrates via the legacy JSON backup importer unless the final deployment intentionally reuses the exact old origin.
-- No Grimo reward schema is added before the first vertical slice proves the loop.
+Stop for Human Gate 1 approval. After approval only: Gate 2 idle, then Gate 3 touch.
+
+## Acceptance criteria
+
+- Canonical identity and face remain intact in neutral/light deformation captures.
+- Hooves remain visually grounded; no alpha seam, face drift, z-order, or source-scaling defect is visible.
+- Runtime remounts without duplicate Pixi applications/listeners/tickers.
+- Phase 1 measured frame summary is recorded; unmeasurable Pixel 7a device metrics are reported, not inferred.
+- No tap/pet/reward/other-character scope is implemented before Gate 1 approval.
+
+## Unresolved
+
+- Human decision: same Carol / canonical appeal preserved / face survives deformation.
+- Pixel 7a physical-device performance remains pending unless a target device becomes available.
 
 ## Verification
-Verified: context entry points pass; pure Task/Calendar TypeScript compile check passes; 8/8 pure-domain compatibility tests pass under Node 22 type stripping; reference import has 8/8 slots for each of Carol, Jill, Pino, and Shushu, with manifest filenames and unchanged canonical hashes. Full dependency install/lint/Next production build remains unverified because this isolated container cannot access the package registry.
+
+- `pnpm verify`: passed (typecheck, lint, 11 tests, production build).
+- Production Chromium, Pixel 7a-like 412×915 at DPR 2.625 (renderer cap 2): 30 s / 1,801 frames, 60.01 fps average, p95 17.1 ms, p99 17.3 ms, frames >50 ms 0%.
+- 300.631 s / 254 route remount cycles: active Pixi applications 1, mounts 255, destroys 254, pointer listeners 4, active pointers 0, reaction queue 0, cancel-after-action 0.
+- Narrow 360×740, desktop 1280×900, reduced motion, DPR backing-size, safe-area/nav, route remount, console/network, neutral/light deformation visually checked.
+- Evidence: ignored `artifacts/grimo-qa/gate-1/`.
