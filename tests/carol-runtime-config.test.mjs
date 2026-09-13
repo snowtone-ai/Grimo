@@ -1,17 +1,32 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { CAROL_PHASE_ONE_MOTION } from "../src/grimo/motion/carol-motion.ts";
+import { CAROL_IDLE_VARIANTS, getCarolIdlePose, parseCarolIdleVariant } from "../src/grimo/motion/carol-motion.ts";
 import { hitTestCarolZone } from "../src/grimo/interaction/carol-semantic-zones.ts";
 import { FrameTimeMonitor } from "../src/grimo/runtime/frame-time-monitor.ts";
 
-test("Carol motion stays inside the Gate 1 tuning envelope", () => {
-  assert.ok(CAROL_PHASE_ONE_MOTION.bodyTranslationRatio >= 0.01);
-  assert.ok(CAROL_PHASE_ONE_MOTION.bodyTranslationRatio <= 0.025);
-  assert.ok(CAROL_PHASE_ONE_MOTION.headRotationDeg >= 2);
-  assert.ok(CAROL_PHASE_ONE_MOTION.headRotationDeg <= 5);
-  assert.ok(CAROL_PHASE_ONE_MOTION.fleeceLagMs >= 120);
-  assert.ok(CAROL_PHASE_ONE_MOTION.fleeceLagMs <= 250);
-  assert.ok(CAROL_PHASE_ONE_MOTION.groundLockStart < 0.85);
+test("Carol Phase 2 candidates remain ordered from grounded to expressive", () => {
+  assert.ok(CAROL_IDLE_VARIANTS.A.baselineBodyLiftPx < CAROL_IDLE_VARIANTS.B.baselineBodyLiftPx);
+  assert.ok(CAROL_IDLE_VARIANTS.B.baselineBodyLiftPx < CAROL_IDLE_VARIANTS.C.baselineBodyLiftPx);
+  assert.ok(CAROL_IDLE_VARIANTS.A.attentionTiltDeg < CAROL_IDLE_VARIANTS.B.attentionTiltDeg);
+  assert.ok(CAROL_IDLE_VARIANTS.B.attentionTiltDeg < CAROL_IDLE_VARIANTS.C.attentionTiltDeg);
+  for (const candidate of Object.values(CAROL_IDLE_VARIANTS)) {
+    assert.ok(candidate.fleeceLagMs >= 120);
+    assert.ok(candidate.fleeceLagMs <= 250);
+  }
+});
+
+test("Carol Phase 2 idle sequence is deterministic and reduced motion preserves state", () => {
+  const balanced = CAROL_IDLE_VARIANTS.B;
+  assert.deepEqual(getCarolIdlePose(4_800, balanced), getCarolIdlePose(4_800, balanced));
+  assert.equal(getCarolIdlePose(5_300, balanced).activeAction, "glance");
+  assert.equal(getCarolIdlePose(12_100, balanced).activeAction, "ear-settle");
+  assert.equal(getCarolIdlePose(19_400, balanced).activeAction, "attention");
+  const regular = getCarolIdlePose(19_400, balanced);
+  const reduced = getCarolIdlePose(19_400, balanced, true);
+  assert.equal(reduced.activeAction, regular.activeAction);
+  assert.ok(Math.abs(reduced.headTiltDeg) < Math.abs(regular.headTiltDeg));
+  assert.equal(parseCarolIdleVariant("C"), "C");
+  assert.equal(parseCarolIdleVariant("unexpected"), "B");
 });
 
 test("Carol semantic zones preserve the back=normal revision lock", () => {

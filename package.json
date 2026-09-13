@@ -15,7 +15,8 @@
     "verify": "pnpm typecheck && pnpm lint && pnpm test && pnpm build",
     "context:check": "node scripts/context-check.mjs",
     "assets:carol": "node scripts/prepare-carol-assets.mjs",
-    "qa:carol": "node scripts/qa-carol-phase1.mjs"
+    "qa:carol": "node scripts/qa-carol-phase1.mjs",
+    "qa:carol:phase2": "node scripts/qa-carol-phase2.mjs"
   },
   "dependencies": {
     "@serwist/next": "9.5.12",

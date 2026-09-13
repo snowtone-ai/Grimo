@@ -4,7 +4,7 @@ Updated: 2026-09-13 JST
 
 ## Current position
 
-Carol PixiJS 8 layered 2.5D vertical slice — Human Gate 1 approved on `codex/carol-phase1`; Gate 2 idle is next and has not started.
+Carol PixiJS 8 layered 2.5D vertical slice — Human Gate 1 approved; Phase 2 idle/presence A/B/C candidates are implemented on `codex/carol-phase2-idle-hg2` and await Human Gate 2.
 
 ## Acceptance state
 
@@ -24,7 +24,7 @@ Carol PixiJS 8 layered 2.5D vertical slice — Human Gate 1 approved on `codex/c
 
 ## Next operation
 
-Gate 2 idle only: study the visible body mechanics of suitable Pikachu/Eevee gameplay footage, then replace any whole-image breathing impression with localized, grounded Carol motion. Gate 3 touch remains blocked until Gate 2 approval.
+Conduct Human Gate 2 in Chrome full-screen at `/grimo/human-gate-2?idleVariant=A`, `B`, and `C`; compare each deterministic candidate for 20 seconds. Select or revise an idle baseline before Gate 3. Touch remains blocked until Gate 2 approval.
 
 ## Acceptance criteria
 
@@ -37,7 +37,8 @@ Gate 2 idle only: study the visible body mechanics of suitable Pikachu/Eevee gam
 ## Unresolved
 
 - Gate 1 review feedback: the three identity checks passed, but a small whole-image stretch/shrink impression is not acceptable as the finished idle.
-- Gate 2 must keep the hooves grounded and make breathing/body/fleece movement read as connected parts rather than uniform image scaling.
+- Gate 2 candidates use localized mesh motion with ground-locked hooves, independent ear/head response, and delayed fleece follow-through; human approval is still pending.
+- Review URL: `/grimo/human-gate-2?idleVariant=A|B|C`; `pnpm qa:carol:phase2` produces deterministic 20-second captures under ignored `artifacts/grimo-qa/gate-2/`.
 - Pixel 7a physical-device performance remains pending unless a target device becomes available.
 
 ## Verification

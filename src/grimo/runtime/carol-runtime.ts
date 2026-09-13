@@ -6,7 +6,7 @@ import {
   MeshPlane,
   Texture,
 } from "pixi.js";
-import { CAROL_PHASE_ONE_MOTION, smoothstep } from "../motion/carol-motion";
+import { CAROL_IDLE_VARIANTS, getCarolIdlePose, parseCarolIdleVariant, smoothstep } from "../motion/carol-motion";
 import {
   CAROL_SEMANTIC_ZONES,
   CAROL_SOURCE_SIZE,
@@ -58,6 +58,7 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
   const params = new URLSearchParams(window.location.search);
   const requestedMode = params.get("motion");
   const mode: CarolRuntimeMode = requestedMode === "still" || requestedMode === "deformed" ? requestedMode : "idle";
+  const idleVariant = parseCarolIdleVariant(params.get("idleVariant"));
   const showZones = params.get("zones") === "1";
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const resolution = Math.min(window.devicePixelRatio || 1, 2);
@@ -123,7 +124,9 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
   };
   layout();
 
-  const motion = CAROL_PHASE_ONE_MOTION;
+  const motion = CAROL_IDLE_VARIANTS[idleVariant];
+  const startedAt = performance.now();
+  let lastPose = getCarolIdlePose(0, motion, reducedMotion);
   const update = () => {
     const frameTimestamp = performance.now();
     monitor.record(frameTimestamp, frameTimestamp - lastFrame);
@@ -131,25 +134,30 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
     layout();
     if (mode === "still") return;
 
-    const amplitude = reducedMotion ? motion.reducedMotionMultiplier : 1;
-    const now = mode === "deformed" ? motion.idleCycleMs * 0.25 : frameTimestamp;
-    const phase = (now % motion.idleCycleMs) / motion.idleCycleMs * Math.PI * 2;
-    const delayedPhase = ((now - motion.fleeceLagMs) % motion.idleCycleMs) / motion.idleCycleMs * Math.PI * 2;
-    const bodyLift = Math.sin(phase) * CAROL_SOURCE_SIZE.height * motion.bodyTranslationRatio * amplitude;
-    const fleeceDelta = (Math.sin(delayedPhase) - Math.sin(phase)) * motion.fleeceFollowPx * amplitude;
-    const tilt = Math.sin(phase * 0.5) * (motion.headRotationDeg * Math.PI / 180) * amplitude;
+    const elapsedMs = mode === "deformed" ? 5_400 : frameTimestamp - startedAt;
+    const pose = getCarolIdlePose(elapsedMs, motion, reducedMotion);
+    const delayedPose = getCarolIdlePose(elapsedMs - motion.fleeceLagMs, motion, reducedMotion);
+    lastPose = pose;
+    const tilt = pose.headTiltDeg * Math.PI / 180;
+    const leftEarTilt = pose.leftEarTiltDeg * Math.PI / 180;
+    const rightEarTilt = pose.rightEarTiltDeg * Math.PI / 180;
 
     for (let i = 0; i < positions.length; i += 2) {
       const x = basePositions[i];
       const y = basePositions[i + 1];
       const nx = x / CAROL_SOURCE_SIZE.width;
       const ny = y / CAROL_SOURCE_SIZE.height;
-      const grounded = smoothstep(motion.groundLockStart, 1, ny);
+      const grounded = smoothstep(0.78, 1, ny);
       const movementWeight = 1 - grounded;
-      const headWeight = smoothstep(0.22, 0.48, nx) * (1 - smoothstep(0.70, 0.88, ny));
-      const outerFleeceWeight = Math.max(Math.abs(nx - 0.58) * 1.5, 1 - ny) * movementWeight;
-      positions[i] = x + (y - 300) * tilt * headWeight;
-      positions[i + 1] = y + bodyLift * movementWeight + fleeceDelta * outerFleeceWeight;
+      const headWeight = smoothstep(0.18, 0.42, nx) * (1 - smoothstep(0.66, 0.86, ny));
+      const faceWeight = smoothstep(0.36, 0.47, nx) * (1 - smoothstep(0.64, 0.76, nx)) * smoothstep(0.26, 0.38, ny) * (1 - smoothstep(0.60, 0.72, ny));
+      const leftEarWeight = (1 - smoothstep(0.18, 0.35, nx)) * (1 - smoothstep(0.42, 0.62, ny));
+      const rightEarWeight = smoothstep(0.68, 0.84, nx) * (1 - smoothstep(0.42, 0.62, ny));
+      const outerFleeceWeight = Math.max(Math.abs(nx - 0.56) * 1.25, 1 - ny) * movementWeight * (1 - faceWeight * 0.65);
+      const fleeceLag = (delayedPose.fleeceFollowPx - pose.fleeceFollowPx) * outerFleeceWeight;
+      const earRotation = leftEarWeight * leftEarTilt + rightEarWeight * rightEarTilt;
+      positions[i] = x + (y - 286) * tilt * headWeight + pose.gazeShiftPx * faceWeight + (y - 180) * earRotation;
+      positions[i + 1] = y + pose.bodyLiftPx * movementWeight + fleeceLag;
     }
     positionBuffer.update();
   };
@@ -205,6 +213,8 @@ export async function mountCarolRuntime(host: HTMLDivElement): Promise<CarolRunt
   counters.mounts += 1;
   const snapshot = (): CarolQaSnapshot => ({
       mode,
+      idleVariant,
+      idleAction: lastPose.activeAction,
       reducedMotion,
       resolution,
       viewportCss: { width: app.screen.width, height: app.screen.height },

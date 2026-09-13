@@ -1,4 +1,5 @@
 import type { CarolSemanticZoneId } from "../interaction/carol-semantic-zones";
+import type { CarolIdleVariant } from "../motion/carol-motion";
 
 export type CarolRuntimeMode = "idle" | "still" | "deformed";
 
@@ -27,6 +28,8 @@ export type InteractionTrace = {
 
 export type CarolQaSnapshot = {
   mode: CarolRuntimeMode;
+  idleVariant: CarolIdleVariant;
+  idleAction: "quiet" | "glance" | "ear-settle" | "attention";
   reducedMotion: boolean;
   resolution: number;
   viewportCss: { width: number; height: number };
