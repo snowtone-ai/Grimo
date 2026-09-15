@@ -12,6 +12,8 @@ The reproducible environment bootstrap is recorded in `docs/setup/3D_TOOLCHAIN.m
 
 The repository currently contains no production GLB, glTF, or Blender source asset, by design. GLB CI validation skips cleanly until an asset is added. Android Platform Tools are installed and Xiaomi 14T Pro is connected as the real-device QA target; Pixel 7a-class remains the minimum device acceptance baseline. KTX-Software 4.4.2 is installed, on PATH, and its `ktx`, `toktx`, and `ktx2check` executables report v4.4.2. PlayCanvas Editor MCP is registered and the Grimo / Untitled Editor session has been connected and read-only verified.
 
+Carol production infrastructure is staged under `docs/production/carol/`, with no modeling started. The canonical Carol image is present, but no approved Carol 3D reference files or repository copy of the referenced `CAROL_MVP_MOTION_SPEC.md` has been located. The next session is routed to GPT-6 Astra / Medium for evidence-based geometry interpretation; routine Blender production remains blocked until that decision is complete.
+
 Lighthouse CI direct collection completed an audit successfully. On this Windows host, the full local autorun may exit during `chrome-launcher` temporary-profile cleanup with `EPERM`; this is recorded as a tooling limitation, not an application audit failure.
 
 ## Frontend production and QA state

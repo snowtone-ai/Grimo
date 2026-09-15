@@ -42,7 +42,17 @@ Active work is on `codex/phase0-3d-repository-reset`, created from the synchroni
 
 ## Next operation
 
-Human Gate review of this branch. Do not merge to `main` until that review is complete.
+Carol production infrastructure bootstrap is complete. Next operation is the GPT-6 Astra / Medium geometry interpretation session. Do not begin routine Blender blockout until `docs/production/carol/CAROL_GEOMETRY_DECISION.md` is completed.
+
+## 2026-09-16 — Carol production infrastructure
+
+- [x] Repository-scoped documented Codex multi-agent feature disabled
+- [x] Carol camera/modeling/state/geometry/review contracts created
+- [x] Carol production asset directories created without placeholder binaries
+- [x] Blender Gate-render and deterministic review-packet scaffolding created
+- [x] Next-session handoff written to root `prompt.md`
+- [ ] Locate/add the authoritative `CAROL_MVP_MOTION_SPEC.md` and approved Carol 3D references
+- [ ] GPT-6 Astra / Medium initial geometry interpretation and Human Gate
 
 ## Unresolved
 

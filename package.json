@@ -15,7 +15,6 @@
     "typecheck": "tsc --noEmit",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "verify": "pnpm typecheck && pnpm lint && pnpm test && pnpm build",
-    "context:check": "node scripts/context-check.mjs",
     "3d:doctor": "node scripts/3d/doctor.mjs",
     "3d:validate": "node scripts/3d/validate-glb.mjs",
     "3d:inspect": "node scripts/3d/inspect-glb.mjs",

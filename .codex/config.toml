@@ -1,0 +1,3 @@
+# Repository-scoped Codex policy. The key is supported by `codex features list`.
+[features]
+multi_agent = false

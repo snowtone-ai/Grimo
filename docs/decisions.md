@@ -37,3 +37,7 @@ The product is rebuilt in `snowtone-ai/Grimo` rather than continuing to modify t
 Storybook 10.6.0 with `@storybook/nextjs-vite` is the isolated component surface; Playwright is the screen-level browser and visual surface. Storybook MCP is localhost-only and registered as `storybook`. Vitest browser mode is the Storybook interaction/a11y gate. A small Windows path compatibility transform is kept inside the Vitest project because Storybook's generated file-URL execution guard otherwise skips every story on this host.
 
 Motion 13.3.0 is exact-pinned and permitted only for DOM/React UI motion. Radix is not a design system for Grimo: install only a directly-needed primitive, exact-pin it, and author all appearance in Grimo CSS/Tailwind. MUI, Chakra, Ant Design, Bootstrap, Mantine, and a full shadcn/ui library are prohibited. Local Storybook plus Playwright is preferred over Chromatic until team/PR snapshot requirements justify a hosted service.
+
+## 2026-09-16 — Carol interpretation gate before modeling
+
+Carol's first 3D production milestone is an evidence-based geometry interpretation recorded in `docs/production/carol/CAROL_GEOMETRY_DECISION.md`. GPT-6 Astra / Medium owns that interpretation and critical face/identity decisions; Sol Medium owns subsequent non-trivial Blender production. Routine modeling must not start before the decision is complete. The repository-scoped documented `multi_agent` feature is disabled for this write-heavy Carol workflow. Missing references and measurements remain explicit blockers rather than being guessed.
