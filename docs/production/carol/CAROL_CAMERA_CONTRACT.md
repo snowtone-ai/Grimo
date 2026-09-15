@@ -74,6 +74,21 @@ target height, focal length, orthographic scale, world-space dimensions, and
 near/far clipping planes are blockout calibration variables, not values to
 reverse-engineer from Eevee footage. No numeric 3D values are assigned here.
 
+## Aspect-ratio boundary and Blockout v001 evidence
+
+The numeric contract above originates from 16:9 benchmark footage. It must not
+be applied as simultaneous width/height requirements to the 412x915 phone
+viewport. Blockout v001 therefore separates evidence into 16:9 benchmark
+calibration at 1920x1080 and 412x915 portrait diagnostic renders. The portrait
+renders record bbox, face center, clipping and readability only; they do not
+finalize runtime portrait framing.
+
+The provisional camera values are calibrated against the actual Blockout v001,
+not inferred from Eevee footage. Perspective is currently the standard evidence
+alias (`Carol_Camera_front`), while Orthographic remains a first-class
+comparison candidate. Neither projection is production-final. Exact measured
+values are versioned in `evidence/blockout-v001/framing-metrics.json`.
+
 ## Acceptance procedure
 
 1. Build the authorized Carol neutral blockout.

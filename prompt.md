@@ -1,24 +1,26 @@
 # Handoff
 
-Target: CHATGPT_PLANNER
+Target: HUMAN
 Repository: snowtone-ai/Grimo
 Branch: codex/carol-geometry-interpretation
 
 ## Mission
 
-Read the latest pushed state after this camera-contract commit and produce one
-complete GPT-5.6 Luna / Low execution prompt for Carol's first Blender blockout
-+ front-camera calibration stage. The planner must not modify the repository.
+Review the pushed Carol Blockout v001 and its camera evidence at the next Human
+Gate. Do not finalize production camera or geometry from this blockout alone.
 
 ## Task
 
-Plan the next repository task: build the deliberately small first Carol Blender
-geometry blockout and calibrate a provisional front interaction camera against
-the approved screen-space contract. The Human Gate geometry result is
-**CONDITIONAL PASS** and G1–G5 remain accepted in principle. Do not begin this
-implementation in the planning task.
+Confirm that Blockout v001 preserves canonical identity and G1–G5, especially
+the broad fleece envelope, shallow face, low four-support chassis, attached
+motifs, and small subordinate rear tuft. Review the 16:9 front framing, choose
+or defer Perspective versus Orthographic, and decide how the 412x915 diagnostic
+should inform later portrait runtime framing without forcing 16:9 numbers onto
+the phone viewport.
 
-## Required repository inputs
+Evidence: `docs/production/carol/evidence/blockout-v001/`
+
+## Human Gate review inputs
 
 - `assets/grimo/source/carol/carol-Identity-canonical.png`
 - `assets/grimo/source/carol/approved-3d/`
@@ -30,16 +32,11 @@ implementation in the planning task.
 - `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md`
 - `docs/grimo/knowledge/character-production/GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`
 
-## Planning requirements
+## Review questions
 
-Use the latest pushed repository state only and do not re-ask already known
-project facts. Define the exact lean first blockout scope from the authoritative
-documents. Preserve canonical identity priority, approved G1–G5 geometry,
-including the independent subordinate expressive rear tuft/tail, and the
-screen-space camera contract without guessing unsupported dimensions. Include
-front-view camera calibration and evidence renders/captures suitable for the
-next Human Gate.
-
-Do not authorize rigging, final topology, animation, materials, GLB export, or
-PlayCanvas integration unless a later task explicitly does so. The resulting
-Luna prompt must include targeted validation and finish with commit and push.
+- Does Blockout v001 preserve canonical identity and G1–G5?
+- Is the rear tuft small, separate, and subordinate rather than a dominant tail?
+- Is the front read natural in the 16:9 benchmark evidence?
+- Is Perspective or Orthographic the better Carol candidate, or should projection
+  remain unresolved for a later runtime-stage calibration?
+- What portrait runtime framing policy should follow from the 412x915 diagnostic?

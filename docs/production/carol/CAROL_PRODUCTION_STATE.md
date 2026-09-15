@@ -2,25 +2,35 @@
 
 ## Current phase
 
-After initial 3D geometry interpretation and Human Gate conditional pass. The
-Partner Eevee camera/framing benchmark has been measured and Carol's initial
-2D/screen-space framing contract is formalized. No Carol modeling has started.
+After initial 3D geometry interpretation and Human Gate conditional pass. Carol
+Blockout v001 now exists as a reproducible Blender source with provisional
+front-camera candidates and evidence renders. This remains pending the next
+Human Gate and is not production geometry authorization.
 
 ## Human Gates
 
 - Conditionally passed: initial geometry interpretation / Human Gate review
   (2026-09-16; G1–G5 accepted in principle).
-- Pending: 3D camera calibration against the actual blockout, geometry
+- Pending: Human Gate review of Blockout v001, projection choice, geometry
   measurement gaps, and later production gates.
 
 ## Unresolved issues
 
 - The screen-space framing targets and ordinary safe envelope are resolved.
-- Exact 3D projection, FOV, distance, camera height, target height, focal length,
-  orthographic scale, world dimensions, and clipping planes remain intentionally
-  unresolved until blockout calibration.
-- Blender modeling has not started. The conditional pass in
-  `CAROL_GEOMETRY_DECISION.md` does not authorize blockout or other production.
+- Source: `assets/grimo/production/carol/blender/carol-blockout-v001.blend`
+- Generator: `scripts/blender/build-carol-blockout.py` (Blender 5.2.1)
+- Geometry status: Blockout v001 created; Human Gate pending. No rig, animation,
+  final materials, GLB, or runtime integration was created.
+- Camera candidates: Perspective and Orthographic front candidates are both
+  present. The standard `Carol_Camera_front` alias points to Perspective for
+  evidence only; production projection is not finalized.
+- 16:9 benchmark calibration: both candidates are within the current preferred
+  width/height/face-center ranges; see `evidence/blockout-v001/framing-metrics.json`.
+- Portrait diagnostic: both candidates were rendered at 412x915. These results
+  are diagnostic only and do not define runtime portrait framing.
+- Next Human Gate decisions: preserve G1–G5 and canonical identity, approve the
+  blockout silhouette/face/hoof read, select or defer projection, and decide how
+  later portrait runtime framing should be authored.
 
 ## Authoritative inputs
 
@@ -40,19 +50,14 @@ Partner Eevee camera/framing benchmark has been measured and Carol's initial
 
 ## Routing
 
-- Current completed handoff: GPT-6 Astra / Medium geometry interpretation,
-  conditionally passed by Human Gate.
-- Next planning route: ChatGPT Planner → GPT-5.6 Luna / Low.
-- Subsequent Blender production: route through ChatGPT Planner → Luna by
-  default; use Sol/Terra only when the documented local-iterative exception
-  applies, after the geometry decision is complete.
+- Completed implementation route: GPT-5.6 Luna / Low on
+  `codex/carol-geometry-interpretation`.
+- Next handoff: `HUMAN` for the Blockout v001 geometry and camera Human Gate.
 - Multi-Agent/subagent usage: disabled for this Carol write-heavy workflow.
 
 ## Next exact task
 
-Plan Carol's first Blender geometry blockout and simultaneously establish a
-provisional front camera that reproduces the approved screen-space contract.
-Calibrate only against the actual blockout; do not guess unsupported world-space
-dimensions or camera values. Require evidence renders/captures suitable for the
-next Human Gate. Blender modeling is the next authorized production problem,
-but this state record itself authorizes no implementation.
+Review `docs/production/carol/evidence/blockout-v001/` and decide whether the
+canonical identity, G1–G5 geometry direction, and provisional Perspective /
+Orthographic camera candidates are ready for the next production stage. Keep
+production projection and portrait runtime framing unresolved until that review.
