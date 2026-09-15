@@ -1,0 +1,86 @@
+{
+  "front-perspective": {
+    "canvas": [
+      1400,
+      1190
+    ],
+    "alphaBBox": [
+      265,
+      233,
+      1123,
+      972
+    ]
+  },
+  "front-orthographic": {
+    "canvas": [
+      1400,
+      1190
+    ],
+    "alphaBBox": [
+      255,
+      232,
+      1155,
+      962
+    ]
+  },
+  "three-quarter": {
+    "canvas": [
+      1400,
+      1190
+    ],
+    "alphaBBox": [
+      268,
+      241,
+      1131,
+      992
+    ]
+  },
+  "side": {
+    "canvas": [
+      1400,
+      1190
+    ],
+    "alphaBBox": [
+      299,
+      239,
+      1154,
+      968
+    ]
+  },
+  "back": {
+    "canvas": [
+      1400,
+      1190
+    ],
+    "alphaBBox": [
+      243,
+      240,
+      1136,
+      977
+    ]
+  },
+  "silhouette": {
+    "canvas": [
+      1400,
+      1190
+    ],
+    "alphaBBox": [
+      268,
+      239,
+      1132,
+      992
+    ]
+  },
+  "clay": {
+    "canvas": [
+      1400,
+      1190
+    ],
+    "alphaBBox": [
+      268,
+      241,
+      1131,
+      992
+    ]
+  }
+}

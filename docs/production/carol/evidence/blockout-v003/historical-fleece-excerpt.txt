@@ -1,0 +1,44 @@
+# (x, y, horizontal radius, vertical radius, raised depth). Broad, medium and
+# small locks retain directional rhythm; their ridges are not smoothed away.
+BODY_LOCKS = [
+    (289, 45, 53, 34, .28), (361, 35, 39, 27, .23), (320, 62, 57, 40, .25),
+    (229, 83, 30, 31, .19), (260, 113, 42, 30, .22), (201, 133, 42, 29, .23),
+    (154, 178, 31, 31, .20), (132, 215, 37, 24, .21), (173, 212, 31, 32, .24),
+    (186, 248, 39, 33, .27), (144, 272, 30, 36, .21), (168, 302, 37, 28, .26),
+    (211, 323, 39, 27, .21), (248, 341, 34, 23, .19), (285, 352, 31, 22, .20),
+    (337, 342, 40, 27, .24), (393, 343, 34, 25, .23), (452, 326, 33, 27, .20),
+    (492, 293, 31, 30, .25), (520, 247, 28, 29, .24), (519, 153, 25, 26, .21),
+    (452, 102, 32, 30, .22), (402, 62, 29, 25, .20), (222, 187, 53, 56, .18),
+    (263, 258, 47, 35, .24), (234, 291, 32, 24, .22), (300, 299, 26, 25, .20),
+]
+HEAD_LOCKS = [
+    (286, 215, 28, 24, .22), (290, 175, 24, 25, .24), (319, 156, 28, 23, .24),
+    (320, 122, 29, 26, .25), (355, 119, 34, 30, .25), (385, 100, 35, 27, .23),
+    (425, 95, 33, 25, .23), (456, 118, 35, 27, .26), (480, 140, 30, 27, .25),
+    (500, 160, 24, 28, .22), (406, 148, 39, 32, .26), (366, 165, 30, 27, .26),
+    (337, 191, 32, 23, .23), (324, 222, 25, 24, .24), (326, 267, 23, 29, .24),
+    (333, 295, 25, 22, .22), (365, 316, 29, 22, .24), (407, 317, 27, 23, .20),
+    (453, 306, 28, 25, .21), (490, 279, 20, 23, .20), (518, 234, 16, 24, .16),
+]
+
+
+def locks_depth(x, y, locks):
+    # Smooth maximum keeps individual broad ridges without ball intersections.
+    values = [depth * math.exp(-2.0 * (((x-cx)/rx)**2 + ((y-cy)/ry)**2))
+              for cx, cy, rx, ry, depth in locks]
+    return (sum(value**5 for value in values)) ** .2
+
+
+def body_front(x, y, r):
+    return .02 + .67 * math.sqrt(max(0, 1-r*r)) + locks_depth(x, y, BODY_LOCKS)
+
+
+def head_front(x, y, r):
+    base = .68 + .39 * math.sqrt(max(0, 1-r*r))
+    # Recess the face, so the fringe and cheek ruff sit around it in actual depth.
+    recess = .17 * math.exp(-(((x-426)/70)**4 + ((y-242)/58)**4))
+    return base + locks_depth(x, y, HEAD_LOCKS) - recess
+
+
+def face_front(x, y, r):
+    return 1.025 + .24 * math.sqrt(max(0, 1-r*r))

@@ -44,3 +44,20 @@ Durable chronological record of geometry and production Human Gates. Do not pre-
   weight transfer. Detailed limits are in the packet.
 - Follow-up owner: **HUMAN**. Review the questions in `prompt.md`; do not
   automatically advance to rigging or runtime work.
+
+### 2026-09-16 — Blockout v003 submitted; Human Gate pending
+
+- Reviewer: agent inspected actual renders; **Human review not yet performed**.
+- Result: **PENDING**, not historical acceptance inherited by v003.
+- Evidence: [v003 review packet](evidence/blockout-v003/README.md), full views,
+  clay comparison, eight-iteration record and final saved-surface checks.
+- Historical finding: actual 2026-09-10 Human acceptance recovered from local
+  task record; accepted experience was shallow relief with watercolor paint.
+  Exact final historical binary was not recovered. Source excerpt and surviving
+  predecessor screenshot have explicit provenance and limits.
+- Change: diffused full-depth envelope with global continuous Gaussian relief,
+  local crown correction and reattached motifs. Protected v002 anatomy retained.
+- Remaining: side/rear broad masses, heavy canopy/deep opening, coarse crescent;
+  historical beauty equivalence and deformation are not established.
+- Next owner: **HUMAN**, judge identity/continuity and regions needing revision.
+  No main merge, rigging or runtime work follows automatically.

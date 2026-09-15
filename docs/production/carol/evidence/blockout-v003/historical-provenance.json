@@ -1,0 +1,14 @@
+{
+  "legacyRepository": "snowtone-ai/grimoire",
+  "historicalTask": "01a0874f-e5ba-7753-92bc-1298900208e4",
+  "humanAcceptanceUTC": "2026-09-10T05:26:23.454Z",
+  "exactAcceptedBinaryRecovered": false,
+  "screenshotExactAcceptedRevisionVerified": false,
+  "sourceRead": "scripts/grimo/build-carol-reference.py excerpt from historical task output",
+  "screenshotOriginalRelativePath": "output/playwright/carol-2p5d-approved.png",
+  "sha256": {
+    "historical-relief-screenshot.png": "835792a0ee896d94d25641942e84ea562044a37620736ba5058a9c24123c6bd6",
+    "historical-fleece-excerpt.txt": "6282b553b3003ecf94b3e74d8073454da149fce68e7b937294c9e36f64ac4e96"
+  },
+  "excerptNormalization": "Trailing blank lines removed; UTF-8 LF text"
+}

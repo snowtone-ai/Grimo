@@ -34,3 +34,12 @@ independently movable front limbs, forebody lift and readable face/upper fleece
 above forehooves near/on the bottom viewport edge. Keep the neutral geometry
 compatible with this possibility; do not pose, rig or animate it in v002.
 The fleece is a design volume, not a rigid armor shell for future deformation.
+
+## v003 structural study authorization — 2026-09-16
+
+The current user request authorizes historical investigation, Blender modeling,
+render/inspect/correct/re-render, evidence, commit and push before HUMAN Gate.
+V003 may revise the fleece and attachment depths while preserving the v002
+Full-3D structure. Historical shallow relief/paint is research, not authority
+to flatten the body or remove supports. Main merge remains prohibited; final
+materials, rigging, motion and runtime integration are not authorized here.

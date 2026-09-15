@@ -2,11 +2,29 @@
 
 ## Current phase
 
-Carol Structural Blockout v002 is complete as a volume study and **awaiting a
-new Human Gate**. It is not approved production geometry. No automatic route
-to rigging follows this handoff.
+Carol Structural Blockout **v003** is submitted for **HUMAN Gate** on
+`codex/carol-structural-blockout-v003`, based on v002 commit `9ba1a18`.
+The historical continuous-relief principle has been transferred to the full
+3D shell. Human visual acceptance remains pending; historical beauty quality
+has not been certified. No main merge or automatic rigging advancement.
+
+### Current v003 artifacts
+
+- Source: `assets/grimo/production/carol/blender/carol-blockout-v003.blend`
+- Generator: `scripts/blender/build-carol-v003.py`
+- Evidence and limits: [v003 review packet](evidence/blockout-v003/README.md)
+- Saved surface: one closed connected component, 235,848 triangles, no detected
+  nonadjacent triangle intersections. V002 protected structures match by hash
+  and world matrix; canonical/v001/v002 files remain unchanged.
+- Historical recovery found the actual Human acceptance statement, source
+  excerpt and a predecessor screenshot; the exact accepted binary is unavailable.
+  The accepted experience used shallow 2.5D relief. V003 preserves Full-3D depth.
+- Remaining: broad smooth masses, heavy canopy/deep opening, coarse motif
+  sampling, watercolor fidelity and later deformation. All need appropriate review.
 
 ## Human Gates
+
+- Blockout v003: **PENDING**. See the current packet above.
 
 - Initial geometry interpretation: **CONDITIONAL PASS**, 2026-09-16; G1–G5
   accepted in principle.
@@ -17,7 +35,7 @@ to rigging follows this handoff.
 - Blockout v002: **PENDING**. Agent visual inspection and successful generation
   are supporting evidence, not a Human pass.
 
-## Current artifacts
+## Previous v002 artifacts (historical)
 
 - Source: `assets/grimo/production/carol/blender/carol-blockout-v002.blend`
 - Generator: `scripts/blender/build-carol-blockout.py`, Blender **5.2.1 LTS**
@@ -28,7 +46,7 @@ to rigging follows this handoff.
 - Scope: neutral geometry and diagnostic materials only; no rig, animation,
   shape keys, production retopology, UV work, fur, GLB/glTF or runtime changes.
 
-## Structural result and remaining uncertainty
+## Previous v002 structural result and uncertainty
 
 - G1–G5 remain valid. Implementation was revised substantially: deeper
   concealed chassis, real fore/rear separation, one continuous cloud surface,

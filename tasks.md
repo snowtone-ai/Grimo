@@ -1,3 +1,19 @@
+# Carol Structural Blockout v003
+
+Updated: 2026-09-16 JST
+
+- Current: v003 modeled, rendered, visually corrected and re-rendered; HUMAN Gate pending.
+- Branch: `codex/carol-structural-blockout-v003`; baseline `9ba1a18`.
+- Write scope: new v003 Blender source, generator/validation/comparison scripts, v003 evidence; production state/modeling/review/handoff records and this ledger. Existing v001/v002/canonical and application code preserved.
+- Acceptance: recover historical fleece principles with honest provenance; retain Full-3D anatomy; continuous surface; actual visual QA loop; commit/push; no main merge.
+- Verification: saved Blender reopen; protected structure hashes/matrices; closed connected fleece; finite coordinates; 0 self-intersections; seven uncropped captures; final all-view and 320-pixel visual inspection; diff check.
+- Unresolved: Human visual acceptance; historical exact binary unavailable; watercolor quality not recovered; broad side/rear masses, heavy canopy/deep face opening, coarse motif relief. No runtime/deformation acceptance.
+- Next: HUMAN review of `docs/production/carol/evidence/blockout-v003/README.md`. Do not merge or begin rigging automatically.
+
+---
+
+## Prior phase records (historical)
+
 # PHASE 0 — Repository / Branch Reset
 
 Updated: 2026-09-15 JST
