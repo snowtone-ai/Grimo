@@ -1,27 +1,43 @@
 # Long-lived decisions
 
-## 2026-09-13 — New repository
-The product and repository name are **Grimo**. The product is rebuilt in `snowtone-ai/Grimo` rather than continuing to modify the old `snowtone-ai/grimoire` repository.
+## 2026-09-15 — Full 3D production baseline
 
-The old repository remains a read-only behavioral reference for Task/Calendar persistence, backup, Google integrations, and security boundaries. Its old UI/gamification are not the design source of truth.
+Grimo's authoritative character architecture is Full 3D. Blender is the centered production tool, GLB/glTF is the interchange and shipping format, and PlayCanvas is the planned browser runtime. Phase 0 is repository cleanup only; it does not begin 3D implementation.
 
-## 2026-09-13 — Main information architecture
-Primary bottom navigation is **タスク / グリモ / カレンダー**. Inventory/Items belongs under Grimo rather than as a fourth peer destination. Settings is secondary navigation.
+Old PixiJS, 2D, and 2.5D implementation is obsolete. Historical material is isolated under `docs/archive/obsolete-2_5d/` and is not a current source of truth.
 
-`/` is a launch gate. A local preference selects `/tasks` or `/grimo`; default is `/tasks`.
+## 2026-09-15 — Preserve independent foundations
 
-## 2026-09-13 — Character runtime
-React owns route/UI/app state/viewport host. PixiJS 8 owns layered character rendering, pointer hit, secondary motion, particles, and the render loop. Gesture/reaction/affinity/cooldown logic remains renderer-independent TypeScript.
+Task and Calendar behavior, Dexie/IndexedDB compatibility, legacy backup recovery, Google read-only integrations, server-only Gemini handling, PWA behavior, the four canonical identity images, and the current app icon remain independent of the character runtime reset.
 
-Full 3D, Blender/Three.js mainline, Live2D and Spine are not the formal runtime.
+## 2026-09-15 — Product information architecture
 
-## 2026-09-13 — Data compatibility
-Task semantics, recurrence, streak behavior, Calendar import source-key idempotency, and the legacy `TaskManagerDB` tables are initially preserved. New Grimo data tables are deferred until the vertical slice validates their actual needs.
+Primary navigation remains Tasks / Grimo / Calendar. Settings is secondary navigation. Collection is a planned surface and is not implemented as part of Phase 0.
 
-Legacy Grimoire JSON backups are importable without deleting current records. New Grimo backup format will be versioned separately once Grimo-specific state exists.
+## 2026-09-15 — Data and security boundaries
 
-## 2026-09-13 — External integrations
-Google access remains browser OAuth token flow with read-only Gmail and Calendar scopes; access tokens are memory-only. Gemini key remains server-only behind fixed-purpose, validated requests. Secrets are not committed.
+The initial database preserves the existing `TaskManagerDB` tables and migrations. No reward, collection, or character database is added in Phase 0. Google access remains browser OAuth with read-only Gmail and Calendar scopes; access tokens remain memory-only. `GEMINI_API_KEY` remains server-only behind the existing fixed-purpose API route. Secrets are never committed.
 
-## 2026-09-13 — Agent quota policy
-For Plus usage, Sol Medium is the integration/default reasoning tier, Luna High handles scoped routine work, Terra Medium handles broader multi-file exploration, and Sol High is an escalation. Repeated subagent status polling and duplicated work are prohibited.
+## 2026-09-15 — Human acceptance
+
+Future character identity and interaction work requires a full-screen Chrome Human Gate. Automated checks support but do not replace human aesthetic acceptance.
+
+## 2026-09-15 — Reproducible 3D toolchain
+
+The 3D environment uses exact-pinned Blender 5.2.1 LTS, official Blender Lab MCP, PlayCanvas 2.22.2, `@playcanvas/react` 0.11.5, `sync-ammo` 0.1.2, glTF Transform 4.5.0, and Khronos `gltf-validator` 2.0.0-dev.3.10. The official PlayCanvas Skills plugin is installed through the current Codex marketplace integration. Editor MCP is an inspection/preview/QA surface and does not replace Git, Blender, GLB, or TypeScript as source of truth.
+
+The GLB pipeline is asset-optional until Carol exists: CI validates all committed `.glb`/`.gltf` assets when present and otherwise exits successfully. KTX-Software 4.4.2 is selected as the stable Windows texture-tool baseline; no source texture is converted during bootstrap. Automatic upgrades of Blender, rig extensions, PlayCanvas, physics, or MCP are prohibited; upgrades require a branch, automated checks, visual regression, Human Gate, and deliberate merge.
+
+## 2026-09-13 — Repository origin
+
+The product is rebuilt in `snowtone-ai/Grimo` rather than continuing to modify the old `snowtone-ai/grimoire` repository. The old repository remains a read-only behavioral reference for Task/Calendar persistence, backup, Google integrations, and security boundaries; its old UI and gamification are not design authority.
+
+## 2026-09-15 — Frontend production and QA toolchain
+
+Storybook 10.6.0 with `@storybook/nextjs-vite` is the isolated component surface; Playwright is the screen-level browser and visual surface. Storybook MCP is localhost-only and registered as `storybook`. Vitest browser mode is the Storybook interaction/a11y gate. A small Windows path compatibility transform is kept inside the Vitest project because Storybook's generated file-URL execution guard otherwise skips every story on this host.
+
+Motion 13.3.0 is exact-pinned and permitted only for DOM/React UI motion. Radix is not a design system for Grimo: install only a directly-needed primitive, exact-pin it, and author all appearance in Grimo CSS/Tailwind. MUI, Chakra, Ant Design, Bootstrap, Mantine, and a full shadcn/ui library are prohibited. Local Storybook plus Playwright is preferred over Chromatic until team/PR snapshot requirements justify a hosted service.
+
+## 2026-09-16 — Carol interpretation gate before modeling
+
+Carol's first 3D production milestone is an evidence-based geometry interpretation recorded in `docs/production/carol/CAROL_GEOMETRY_DECISION.md`. GPT-6 Astra / Medium owns that interpretation and critical face/identity decisions; Sol Medium owns subsequent non-trivial Blender production. Routine modeling must not start before the decision is complete. The repository-scoped documented `multi_agent` feature is disabled for this write-heavy Carol workflow. Missing references and measurements remain explicit blockers rather than being guessed.

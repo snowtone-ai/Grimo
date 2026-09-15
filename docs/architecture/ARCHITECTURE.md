@@ -1,20 +1,21 @@
 # Architecture
 
 ```text
-Next.js / React
+Next.js / React PWA
   routes + UI + app state + viewport host
         |
-        +--> domain TypeScript (task/calendar/reward/interaction)
+        +--> domain TypeScript (task/calendar)
         +--> Dexie repositories (local-first persistence)
         +--> Google/Gemini integrations
         |
-        `--> GrimoViewport host
+        `--> future Grimo 3D viewport host
                |
-               `--> PixiJS 8 layered 2.5D runtime
-                    rendering / hit / secondary / particles / ticker
+               `--> planned PlayCanvas runtime
+                    GLB/glTF assets authored in Blender
 ```
 
-The character renderer never becomes the owner of task persistence or application routing. React does not animate individual Grimo layers frame-by-frame.
+The character runtime must not own task persistence or application routing. Phase 0 does not implement the viewport, PlayCanvas runtime, Blender assets, models, animation, or touch interaction. The existing `/grimo` route remains a neutral placeholder so the PWA foundation continues to build.
 
-## Initial browser target
-Smartphone Chrome/PWA. Pixel 7a is the minimum quality/performance acceptance target; higher-end Android devices must not be required for basic interaction.
+## Browser target
+
+The product is smartphone-first and PWA-oriented. Pixel 7a-class Chrome is the minimum future quality target; basic Task and Calendar use must not depend on character runtime availability.
