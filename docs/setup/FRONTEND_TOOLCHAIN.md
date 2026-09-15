@@ -28,6 +28,11 @@ All new package versions are exact-pinned in `package.json`; `pnpm-lock.yaml` re
 
 ## Commands
 
+The diagnostic and QA commands below are available tools, not a checklist to
+run in every task. Use targeted checks for normal changes; reserve broader
+validation for explicit QA, release/Human Gate work, concrete regression risk,
+or high-blast-radius dependency/framework upgrades.
+
 ```text
 pnpm storybook
 pnpm storybook:build

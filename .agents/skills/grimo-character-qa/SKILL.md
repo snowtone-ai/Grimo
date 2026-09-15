@@ -1,3 +1,8 @@
+---
+name: grimo-character-qa
+description: Explicit character QA, Gate, and regression review only; not routine modeling or animation work.
+---
+
 # Grimo Character QA
 
 Use this skill for QA of Grimo character assets and their PlayCanvas runtime integration. This is a compact operational summary of the current repository rules; it does not create a new character specification.
@@ -15,7 +20,7 @@ Use this skill for QA of Grimo character assets and their PlayCanvas runtime int
 
 ## Evidence
 
-Run GLB structural validation and metrics, Playwright user-flow smoke, and Chrome DevTools diagnostics where available. Record errors, warnings, file size, triangles, vertices, materials, textures, bones, morph targets, animation names, console/runtime/network failures, and mobile observations. Do not treat an empty asset repository as a failed GLB check; validation becomes mandatory when an asset is added.
+Gather only the evidence needed for the requested gate. GLB validation, Playwright, and Chrome DevTools are separate opt-in checks, not a routine bundle. Do not treat an empty asset repository as a failed GLB check.
 
 ## Safety
 

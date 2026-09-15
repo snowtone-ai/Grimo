@@ -133,6 +133,11 @@ The source texture remains lossless. KTX-Software 4.4.2 is the selected stable W
 
 ## Reproduction and diagnostics
 
+The diagnostic and QA commands below are available tools, not a checklist to
+run in every task. For a changed/exported GLB, use targeted validation once;
+reserve inspection, PlayCanvas, browser/mobile, and full scans for an explicit
+milestone, release/Human Gate, or concrete regression risk.
+
 ```powershell
 pnpm install --frozen-lockfile
 pnpm 3d:doctor

@@ -15,9 +15,4 @@ jobs:
           node-version: 24
       - run: corepack enable
       - run: pnpm install --frozen-lockfile
-      - run: pnpm exec playwright install --with-deps chromium
-      - run: pnpm verify
-      - run: pnpm storybook:build
-      - run: pnpm test:ui
-      - run: pnpm 3d:validate:ci
-      - run: pnpm qa:browser:smoke
+      - run: pnpm check:full

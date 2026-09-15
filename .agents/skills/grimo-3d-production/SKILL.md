@@ -34,10 +34,12 @@ Reject whole-image squash/stretch, generic whole-body bobbing, physics-led hero 
 
 ## GLB workflow
 
-1. Inspect the source and current specifications before authoring.
+1. Inspect only the inputs needed for the current operation.
 2. Produce or update a version-controlled Blender source and deterministic export script.
 3. Export raw GLB, apply only documented runtime transforms/optimization to a separate runtime GLB, and generate the manifest.
-4. Run `pnpm 3d:validate -- <file.glb>` and `pnpm 3d:inspect -- <file.glb>`.
-5. Inspect in PlayCanvas, then run browser/mobile QA. Automated metrics are evidence; the final visual decision is the Human Gate.
+4. If a GLB was changed/exported, run targeted `pnpm 3d:validate -- <file.glb>` once.
+5. Run inspect, PlayCanvas, or browser/mobile QA only when the milestone or Human Gate requires it. Automated metrics are evidence; the final visual decision is the Human Gate.
+
+Do not repeat validation when no relevant asset changed.
 
 Temporary cubes and test scenes must be in-memory or disposable and must be deleted/cleaned before delivery. Never download an external asset or read credentials, `.env` files, browser profiles, or files outside the repository for routine production automation.

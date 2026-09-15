@@ -25,10 +25,14 @@ The repository reset does not implement the 3D runtime, Blender assets, characte
 
 ```text
 pnpm install
-pnpm verify
+pnpm dev
 ```
 
-The reproducible 3D environment and diagnostics are documented in [`docs/setup/3D_TOOLCHAIN.md`](docs/setup/3D_TOOLCHAIN.md). Useful checks are:
+For a lightweight local check, use `pnpm check:fast`. `pnpm check:full` and
+the compatibility alias `pnpm verify` are intended for PR, release, or
+troubleshooting validation, not as the default development command.
+
+The reproducible 3D environment and diagnostics are documented in [`docs/setup/3D_TOOLCHAIN.md`](docs/setup/3D_TOOLCHAIN.md). The following are opt-in specialized checks, not a default checklist:
 
 ```text
 pnpm 3d:doctor
@@ -37,4 +41,5 @@ pnpm 3d:validate:ci
 pnpm qa:browser:smoke
 ```
 
-Read `AGENTS.md`, `DESIGN.md`, `tasks.md`, and the relevant `docs/` files before implementation work.
+Read `AGENTS.md` and the documents directly relevant to the task before
+implementation work.
