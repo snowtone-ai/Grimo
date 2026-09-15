@@ -39,6 +39,24 @@ toolchain work). Do not routinely read `tasks.md`, `xp.md`, `docs/state.md`,
   cameras, and hit volumes. Do not put persistence or routing in the renderer.
 - Do not discard, reset, overwrite unrelated work, or auto-merge `main`.
 
+## AI Handoff / Execution
+
+- The default substantial-reasoning route is `ChatGPT Planner → Codex Luna / Low`:
+  ChatGPT reads the latest pushed GitHub state, completes investigation and
+  planning, and produces a concrete Luna execution prompt. ChatGPT does not
+  edit the repository.
+- Tracked changes include targeted validation when needed, `commit`, and
+  `push`, unless the user explicitly prohibits push, security or unresolved
+  failure blocks it, a Human Gate is required first, or the remote is
+  unavailable. Do not treat commit-only or unpushed local state as the
+  session handoff boundary.
+- Sol/Terra are exception-only for local iterative reasoning, unobservable
+  local state, a failed clearly specified Luna task requiring non-trivial
+  reasoning, or an explicit user request. Automatic escalation is forbidden.
+
+Use the short final handoff report: branch, commit, pushed status, validation,
+and next handoff (`CHATGPT_PLANNER`, `CODEX_LUNA`, `CODEX_ASTRA`, or `HUMAN`).
+
 ## Targeted verification
 
 Verification is change-based. Do not run tests merely because a task is

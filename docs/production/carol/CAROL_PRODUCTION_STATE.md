@@ -33,7 +33,9 @@ Production infrastructure bootstrap, immediately before initial 3D geometry inte
 
 - Current bootstrap: GPT-5.6 Luna / Low.
 - Next interpretation: GPT-6 Astra / Medium.
-- Subsequent Blender production: Sol / Medium, after the geometry decision is complete.
+- Subsequent Blender production: route through ChatGPT Planner → Luna by
+  default; use Sol/Terra only when the documented local-iterative exception
+  applies, after the geometry decision is complete.
 - Multi-Agent/subagent usage: disabled for this Carol write-heavy workflow.
 
 ## Next exact task
