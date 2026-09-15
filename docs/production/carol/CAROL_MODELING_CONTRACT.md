@@ -16,7 +16,21 @@
 - Do not begin geometry, rig, animation, or runtime implementation until the initial geometry interpretation and decision are complete.
 - The front-facing render must satisfy `docs/production/carol/CAROL_CAMERA_CONTRACT.md`.
 - Calibrate world-space geometry and camera settings together against that screen-space contract; production convenience may not distort canonical visible identity.
-- The actual Carol blockout remains a separately authorized task.
+- Structural Blockout v002 is explicitly authorized and awaits its own Human
+  Gate. This authorization does not extend to rigging, topology lock, animation,
+  final materials, UV/fur, GLB/glTF or runtime integration.
 - Physics must not decide hero acting, facial acting, primary touch reaction, main body acting, or primary fleece performance.
 - Keep hidden geometry and camera-dependent cheats subordinate to the canonical front-facing read.
 - Final visual acceptance remains a Human Gate; automated checks are supporting evidence only.
+
+## Neutral structure and future presentation
+
+The 2026-09-16 Human decision retains G1–G5. Full Companion uses the whole low
+quadruped body and permits Carol to turn, rotate, walk and show her back. A
+front-facing camera reference does not lock character orientation.
+
+The future Close Window-Lean state requires rear weight-bearing support,
+independently movable front limbs, forebody lift and readable face/upper fleece
+above forehooves near/on the bottom viewport edge. Keep the neutral geometry
+compatible with this possibility; do not pose, rig or animate it in v002.
+The fleece is a design volume, not a rigid armor shell for future deformation.

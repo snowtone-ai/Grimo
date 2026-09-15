@@ -1,0 +1,100 @@
+{
+  "schema": "grimo.carol.structural-blockout",
+  "version": 2,
+  "pass": 3,
+  "blenderVersion": "5.2.1 LTS",
+  "baseline": {
+    "objectCount": 43,
+    "modelExists": true
+  },
+  "preservedHashes": {
+    "canonical": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce",
+    "v001": "b6a75275ddb15662c1b8dc6a0000ad34f61a7df98d6581252400f46e3cb41d91"
+  },
+  "blendSha256": "9967c25f0a8fca0d3d5372a9dfabc3fc3495c76d1ec23a63e2cbefdc9ada79a6",
+  "generatorSha256": "39c90471cdf5999659007e1c2111c9499ff9f6886381ca1e49e0ff94487c72ff",
+  "checks": {
+    "supports": [
+      "Carol_Support_1",
+      "Carol_Support_2",
+      "Carol_Support_3",
+      "Carol_Support_4"
+    ],
+    "armatures": 0,
+    "actions": 0,
+    "shapeKeys": 0,
+    "rearTuftIndependent": true,
+    "fleeceConnectedComponents": 1,
+    "fleeceClosedVolume": true,
+    "boundsXYZ": {
+      "Carol_Fleece_Continuous": {
+        "min": [
+          -1.7958106994628906,
+          -1.4855272769927979,
+          0.25310981273651123
+        ],
+        "max": [
+          1.7961444854736328,
+          1.6852803230285645,
+          2.896873950958252
+        ]
+      },
+      "Carol_Face": {
+        "min": [
+          -0.8421955704689026,
+          -1.4500001668930054,
+          0.6200000047683716
+        ],
+        "max": [
+          0.8421950936317444,
+          -0.7099997997283936,
+          1.6799999475479126
+        ]
+      },
+      "Carol_Rear_Tuft": {
+        "min": [
+          -0.3363519012928009,
+          1.2543590068817139,
+          0.7622697353363037
+        ],
+        "max": [
+          0.33606263995170593,
+          2.035616874694824,
+          1.456480860710144
+        ]
+      },
+      "Carol_Chassis_Hidden": {
+        "min": [
+          -0.9200005531311035,
+          -0.9400002956390381,
+          0.33000001311302185
+        ],
+        "max": [
+          0.9200002551078796,
+          1.18000066280365,
+          1.1299999952316284
+        ]
+      }
+    },
+    "reviewCameras": [
+      "front-perspective",
+      "front-orthographic",
+      "three-quarter",
+      "side",
+      "back",
+      "silhouette",
+      "clay"
+    ],
+    "allRendersUncropped": true
+  },
+  "status": "awaiting Human Gate",
+  "renders": {
+    "front-perspective": "7c913dbd2db760d61af3748b6717b7d3e2b8fe5a3268caac8cfbc9a8e7865eca",
+    "front-orthographic": "de31c77bc7ff59e07bc651312bda22bdcca0b56d3c28d9b1f594c4029679d21f",
+    "three-quarter": "a28a5e3e2d06b673db59f4fda769e6b57113b325a077d39600bbbbca0d12ea93",
+    "side": "f2d7c587379d6c358df7649bc72e03bfe1413830ffd735f5fa6751289164f237",
+    "back": "c6d690b6d1132ad3aca4c0f905a916b30f105974c93e4cd9431fa75107158409",
+    "silhouette": "6939fff92b45ea8565485efd2cbe5ae24120a2b85a403bed880887ef1d19d9d8",
+    "clay": "e7c25a1e04ab77a705f7ccb69717a4447e4ede787dc77febb46ccf144fde2e6e"
+  }
+}

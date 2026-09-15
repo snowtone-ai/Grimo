@@ -16,9 +16,12 @@ modeling or runtime implementation.
 
 ## Front-facing invariant
 
-The normal Grimo companion interaction view remains front-facing. Side and back
-views are production references only. Camera orbit is forbidden as a fix for
-weak core interaction readability; core motion must read from the front view.
+The camera remains front-facing as the presentation reference. **This does not
+lock Carol's orientation.** Under the explicit Human decision of 2026-09-16,
+Full Companion shows her complete low quadruped body and allows turns,
+three-quarter/back views, rotation and walking. Side/back visibility therefore
+belongs to the future companion experience as well as production review.
+Camera orbit is not required and must not repair weak core interaction acting.
 
 ## Partner Eevee benchmark
 
@@ -55,6 +58,13 @@ conflict for Human Gate review rather than distorting Carol.
 
 ## Close / special framing
 
+The Human-defined **Close Window-Lean State** is a future separate interaction:
+Carol approaches, shifts weight rearward, raises the forebody, and places the
+front hooves near/on the bottom boundary of the 3D viewport. This is a character
+pose and proximity concept, not permission to flatten geometry or orbit the
+camera. Neither this state nor Full Companion runtime behavior is implemented
+by Blockout v002. Exact portrait framing remains deferred.
+
 An intentionally close interaction may have width 0.80–0.90+, height 0.90–1.00,
 and face center Y 0.52–0.58, with controlled clipping. It must be explicitly
 classified as a separate special state and must not redefine the default camera.
@@ -90,6 +100,11 @@ comparison candidate. Neither projection is production-final. Exact measured
 values are versioned in `evidence/blockout-v001/framing-metrics.json`.
 
 ## Acceptance procedure
+
+For the v002 structural Gate, use the uncropped geometry review views first.
+The calibration steps below belong to later presentation work; do not reshape
+v002 merely to match their screen-space metrics. Perspective remains primary
+and Orthographic comparative; production projection remains unselected.
 
 1. Build the authorized Carol neutral blockout.
 2. Render from the front interaction camera.

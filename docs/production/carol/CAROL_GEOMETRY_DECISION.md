@@ -1,11 +1,18 @@
 # Carol geometry decision
 
+> Current milestone (2026-09-16): v001 received Human **CONDITIONAL PASS**, with
+> external/final visual quality approximately **5/100** but useful structural
+> direction. v002 now awaits a new **HUMAN** Gate. The interpretation record
+> below remains the historical basis for G1–G5; its no-model statements describe
+> that earlier task. Current artifacts and measurements are in
+> [the v002 review packet](evidence/blockout-v002/README.md).
+
 Status: **CONDITIONAL PASS / geometry direction accepted in principle; production not authorized**
 Date: 2026-09-16
 Target / author: CODEX_ASTRA / GPT-6 Astra
 Evidence baseline: `cef0ed0ea4e7aab68e8feda40b121bdfc8601eaf`
 Human Gate: **CONDITIONAL PASS** (2026-09-16; Human Gate / user-approved)
-Next handoff: **CHATGPT_PLANNER** — first Blender blockout and front-camera calibration
+Current next handoff: **HUMAN** — Structural Blockout v002; no automatic rigging
 
 ## 1. Scope and decision status
 
@@ -255,3 +262,25 @@ against the approved screen-space contract. Camera values remain calibration
 variables, and approval of geometry direction does **not** authorize rigging,
 animation, GLB export or runtime work until separately authorized. This task
 ends with this document committed and pushed.
+
+## 14. v002 structural refinement and presentation clarification
+
+G1–G5 did not need reversal. v001 implementation choices did: its near-flat
+body, front-crowded support footprint, lateral rear terminal/tuft, elliptical
+lower shelf and common-plane motifs have been replaced. The v002 shell is a
+closed connected design volume; face, ears, supports and true rear tuft remain
+distinct structural parts. Dimensions are now measured in arbitrary Blender
+units in the v002 validation manifest, not asserted as source-image truth.
+
+The current Human architecture allows **Full Companion** to turn/show its back
+while the camera remains the front-facing reference. **Close Window-Lean** is a
+future approach/rear-weight-shift/forebody-lift pose with front hooves near/on
+the lower viewport boundary. These clarify orientation and capability; they do
+not change G1 into an upright default or authorize motion implementation.
+
+U1–U6 remain relevant approval limits, especially posed-to-neutral identity,
+lobe correspondence and hidden motif mapping. U7 has a concrete neutral
+four-support proposal and a limited coordinate-only lift estimate, not a tested
+COM/deformation envelope. U8's absence-of-blockout premise is historical; v001
+and v002 now exist, while production projection/portrait framing remain open.
+U9 remains a later motion-specification issue.

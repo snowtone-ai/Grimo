@@ -353,6 +353,14 @@ Touch during idle overlays local ACK; WAIT accepts offered-target touch; side ch
 
 ## 21. Front-View Readability
 
+**Human presentation clarification — 2026-09-16:** the front-facing camera is
+the reference, not a lock on Carol's orientation. Future Full Companion shows
+the whole low quadruped and allows turns, three-quarter/back views, rotation
+and walking. Future Close Window-Lean means approach, rear weight shift,
+forebody lift and front hooves near/on the bottom viewport boundary. These
+states are conceptual; v002 implements no runtime states or motion and does
+not change the adopted Family counts or approve a Close clip.
+
 Every adopted MVP Family is designed **HIGH** from the front interaction camera.
 
 No core interaction relies on back/tail visibility. Partial lateral/depth motion must have readable face/ear/fleece silhouette cues. Camera orbit is forbidden as a fix for weak acting.
