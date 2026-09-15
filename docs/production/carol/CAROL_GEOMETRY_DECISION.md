@@ -5,7 +5,7 @@ Date: 2026-09-16
 Target / author: CODEX_ASTRA / GPT-6 Astra
 Evidence baseline: `cef0ed0ea4e7aab68e8feda40b121bdfc8601eaf`
 Human Gate: **CONDITIONAL PASS** (2026-09-16; Human Gate / user-approved)
-Next handoff: **CHATGPT_PLANNER** — camera/framing measurement and specification
+Next handoff: **CHATGPT_PLANNER** — first Blender blockout and front-camera calibration
 
 ## 1. Scope and decision status
 
@@ -196,8 +196,10 @@ Reject hiding a visible identity conflict through camera choice, view-switching
 motifs, adding a second moon for a back view, or flattening the entire body into
 a billboard. C overrides D's generic camera-estimation workflow for this task:
 **do not invent FOV, distance, height, target height, ortho scale, projection or
-subject screen occupancy.** The Partner framing benchmark has not been measured
-here and supplies no numeric camera values.
+subject screen occupancy.** The screen-space benchmark / occupancy contract is
+**RESOLVED for initial production**. 3D FOV / camera distance / camera height /
+target height remain intentionally unresolved until actual Carol blockout
+calibration.
 
 ## 12. Unresolved conflicts and missing measurements
 
@@ -210,7 +212,7 @@ here and supplies no numeric camera values.
 | U5 | Rear tuft visible in S/P/B, but root obscured and canonical does not expose it | Retain supported appendage proposal and approved small expressive use; no invented tail mechanism | Root/neck, allowed outline and small motion envelope remain to be measured against front/oblique identity; generic wagging-dog-tail behavior remains disallowed |
 | U6 | Eye/face depth, lid closure and expression envelope absent in static images | Candidate construction only; no claimed prototype success | A separately authorized later prototype would establish ranges |
 | U7 | Four-foot grammar vs occluded contacts; head-to-shell clearance unmeasured | No skeleton dimensions, COM or contact polygon asserted | Later authorized geometry work measures foot positions, underside clearance, head cavity and ear-root clearance |
-| U8 | C lists all camera numbers pending | All remain pending, including projection choice | Framing owner records benchmark source/frame and screen-occupancy measurements; 3D camera calibration requires additional evidence, not one screenshot alone |
+| U8 | Screen-space targets are now defined, but no Carol blockout exists | Screen-space benchmark / occupancy contract is resolved; 3D projection and camera parameters remain pending | Blockout owner calibrates against the contract and supplies rendered bbox, face-center, margin and motion-envelope evidence |
 | U9 | V §21 says HIGH front readability for every family, while §27 rows include MED and LOW–MED | Treat HIGH as the requirement, not demonstrated performance; no camera workaround | Motion specification owner reconciles labels before later acceptance planning; this task does not rewrite motion scope |
 
 No pixel ratios, world-space dimensions, camera values, topology budgets or
@@ -247,9 +249,9 @@ This pre-production document review is distinct from later model-based identity,
 volume, face and deformation gates. Later capture requirements are recorded
 here to prevent a false pass, not to authorize creating those assets now.
 
-**Handoff: CHATGPT_PLANNER.** Plan the next repository task to measure and
-formalize Carol's front-facing companion camera/framing contract from the
-approved benchmark and repository sources. Camera values remain pending, and
-approval of geometry direction does **not** authorize Blender blockout, rigging,
-animation, GLB export or runtime work. This task ends with this document
-committed and pushed.
+**Handoff: CHATGPT_PLANNER.** Plan the next repository task for Carol's first
+Blender geometry blockout and simultaneous provisional front-camera calibration
+against the approved screen-space contract. Camera values remain calibration
+variables, and approval of geometry direction does **not** authorize rigging,
+animation, GLB export or runtime work until separately authorized. This task
+ends with this document committed and pushed.

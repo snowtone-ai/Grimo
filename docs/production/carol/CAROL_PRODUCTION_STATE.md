@@ -2,21 +2,23 @@
 
 ## Current phase
 
-After initial 3D geometry interpretation and Human Gate conditional pass. No
-Carol modeling has started.
+After initial 3D geometry interpretation and Human Gate conditional pass. The
+Partner Eevee camera/framing benchmark has been measured and Carol's initial
+2D/screen-space framing contract is formalized. No Carol modeling has started.
 
 ## Human Gates
 
 - Conditionally passed: initial geometry interpretation / Human Gate review
   (2026-09-16; G1–G5 accepted in principle).
-- Pending: camera/framing measurements and specification; geometry measurement
-  gaps and later production gates remain unresolved.
+- Pending: 3D camera calibration against the actual blockout, geometry
+  measurement gaps, and later production gates.
 
 ## Unresolved issues
 
-- Numeric camera FOV, distance, and height remain unmeasured.
-- Numeric camera/framing values remain unresolved, including projection, FOV,
-  distance, height, target height, and subject screen occupancy.
+- The screen-space framing targets and ordinary safe envelope are resolved.
+- Exact 3D projection, FOV, distance, camera height, target height, focal length,
+  orthographic scale, world dimensions, and clipping planes remain intentionally
+  unresolved until blockout calibration.
 - Blender modeling has not started. The conditional pass in
   `CAROL_GEOMETRY_DECISION.md` does not authorize blockout or other production.
 
@@ -34,6 +36,7 @@ Carol modeling has started.
 - `docs/grimo/references/rights-and-provenance.md`
 - `docs/production/carol/CAROL_CAMERA_CONTRACT.md`
 - `docs/production/carol/CAROL_MODELING_CONTRACT.md`
+- `docs/grimo/knowledge/research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_BENCHMARK.md`
 
 ## Routing
 
@@ -47,9 +50,9 @@ Carol modeling has started.
 
 ## Next exact task
 
-Define and measure the front-facing Carol companion camera/framing contract from
-the approved benchmark and relevant repository sources. Record the benchmark
-source/frame, landmark definitions, screen-occupancy measurements, projection
-assumptions, units, method, and uncertainty while preserving all unresolved
-gaps. This task must still forbid starting modeling, rigging, animation, GLB
-export, or PlayCanvas/runtime work.
+Plan Carol's first Blender geometry blockout and simultaneously establish a
+provisional front camera that reproduces the approved screen-space contract.
+Calibrate only against the actual blockout; do not guess unsupported world-space
+dimensions or camera values. Require evidence renders/captures suitable for the
+next Human Gate. Blender modeling is the next authorized production problem,
+but this state record itself authorizes no implementation.

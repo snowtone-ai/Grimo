@@ -14,6 +14,9 @@
 
 - Author in Blender and exchange/ship through GLB/glTF for the planned PlayCanvas runtime.
 - Do not begin geometry, rig, animation, or runtime implementation until the initial geometry interpretation and decision are complete.
+- The front-facing render must satisfy `docs/production/carol/CAROL_CAMERA_CONTRACT.md`.
+- Calibrate world-space geometry and camera settings together against that screen-space contract; production convenience may not distort canonical visible identity.
+- The actual Carol blockout remains a separately authorized task.
 - Physics must not decide hero acting, facial acting, primary touch reaction, main body acting, or primary fleece performance.
 - Keep hidden geometry and camera-dependent cheats subordinate to the canonical front-facing read.
 - Final visual acceptance remains a Human Gate; automated checks are supporting evidence only.
