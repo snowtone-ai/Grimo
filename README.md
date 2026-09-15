@@ -28,4 +28,13 @@ pnpm install
 pnpm verify
 ```
 
+The reproducible 3D environment and diagnostics are documented in [`docs/setup/3D_TOOLCHAIN.md`](docs/setup/3D_TOOLCHAIN.md). Useful checks are:
+
+```text
+pnpm 3d:doctor
+pnpm 3d:playcanvas
+pnpm 3d:validate:ci
+pnpm qa:browser:smoke
+```
+
 Read `AGENTS.md`, `DESIGN.md`, `tasks.md`, and the relevant `docs/` files before implementation work.

@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@12.3.4",
-  "engines": { "node": "24.x" },
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
@@ -13,18 +15,40 @@
     "typecheck": "tsc --noEmit",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "verify": "pnpm typecheck && pnpm lint && pnpm test && pnpm build",
-    "context:check": "node scripts/context-check.mjs"
+    "context:check": "node scripts/context-check.mjs",
+    "3d:doctor": "node scripts/3d/doctor.mjs",
+    "3d:validate": "node scripts/3d/validate-glb.mjs",
+    "3d:inspect": "node scripts/3d/inspect-glb.mjs",
+    "3d:validate:ci": "node scripts/3d/validate-all.mjs",
+    "3d:playcanvas": "node scripts/3d/verify-playcanvas.mjs",
+    "3d:blender:doctor": "node scripts/blender/run-doctor.mjs",
+    "qa:browser:smoke": "node scripts/qa/playwright-smoke.mjs",
+    "qa:lighthouse": "lhci autorun --config=lighthouserc.cjs",
+    "storybook": "storybook dev --port 6006",
+    "storybook:build": "storybook build",
+    "build-storybook": "storybook build",
+    "test:ui": "vitest run --project=storybook",
+    "test:visual": "playwright test tests/visual --config=playwright.config.ts",
+    "frontend:doctor": "node scripts/frontend/doctor.mjs"
   },
   "dependencies": {
+    "@playcanvas/react": "0.11.5",
     "@serwist/next": "9.5.12",
     "dexie": "4.4.6",
     "next": "16.3.4",
+    "playcanvas": "2.22.2",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "serwist": "9.5.12"
+    "serwist": "9.5.12",
+    "sync-ammo": "0.1.2",
+    "motion": "13.3.0"
   },
   "devDependencies": {
+    "@gltf-transform/cli": "4.5.0",
+    "@gltf-transform/core": "4.5.0",
+    "@lhci/cli": "0.15.1",
     "@playwright/test": "1.63.0",
+    "@sentry/nextjs": "10.74.0",
     "@tailwindcss/postcss": "4.3.3",
     "@types/node": "^24",
     "@types/react": "^19",
@@ -32,7 +56,20 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
     "fake-indexeddb": "6.2.5",
+    "gltf-validator": "2.0.0-dev.3.10",
     "tailwindcss": "4.3.3",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "storybook": "10.6.0",
+    "@storybook/nextjs-vite": "10.6.0",
+    "@storybook/addon-vitest": "10.6.0",
+    "@storybook/addon-a11y": "10.6.0",
+    "@storybook/addon-docs": "10.6.0",
+    "@storybook/addon-mcp": "10.6.0",
+    "vite": "8.3.0",
+    "eslint-plugin-storybook": "10.6.0",
+    "vitest": "4.1.11",
+    "playwright": "1.63.0",
+    "@vitest/browser-playwright": "4.1.11",
+    "@vitest/coverage-v8": "4.1.11"
   }
 }

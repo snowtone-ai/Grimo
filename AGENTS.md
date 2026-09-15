@@ -142,3 +142,13 @@ obsolete historyをcurrent truthとして扱わない。
 ## 12. 停止条件
 
 canonical identity失敗、Task/Calendar compatibility破壊、user dataを危険にするmigration、browser/PWA regression、secret handling不明、`DESIGN.md`から重大逸脱、未承認quality lossが必要、Human Gate不合格のいずれかでは、問題を隠さず停止して報告する。
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

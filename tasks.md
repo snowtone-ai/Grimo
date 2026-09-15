@@ -19,6 +19,27 @@ Active work is on `codex/phase0-3d-repository-reset`, created from the synchroni
 - [x] Phase 0 commit created and pushed
 - [ ] Human Gate review of this branch
 
+## 2026-09-15 — Full 3D environment bootstrap
+
+- [x] Blender 5.2.1 LTS, headless bpy execution, and official Blender Lab extensions verified
+- [x] Official Blender Lab MCP registered and live localhost bridge tested with temporary object create/delete
+- [x] PlayCanvas 2.22.2, `@playcanvas/react` 0.11.5, and `sync-ammo` 0.1.2 resolved and imported
+- [x] Official PlayCanvas Skills plugin and Editor MCP registration completed
+- [x] GLB validator/metrics scripts, Git LFS policy, Sentry opt-in scaffold, and mobile Playwright smoke added
+- [x] Chrome DevTools MCP snapshot, network, Lighthouse, and performance trace smoke completed
+- [x] Android Platform Tools 37.0.1 verified; Xiaomi 14T Pro is connected as the real-device QA target (`adb devices -l` reports `device`; Pixel 7a-class remains the minimum acceptance baseline)
+- [x] KTX-Software 4.4.2 Windows x64 executable installed and directly verified (`ktx`, `toktx`, `ktx2check` all report v4.4.2)
+- [x] PlayCanvas Editor project connection completed; Grimo / Untitled is connected and read-only verified
+
+## 2026-09-15 — Frontend production and QA toolchain bootstrap
+
+- [x] Storybook 10.6.0 with `@storybook/nextjs-vite`, MCP, Vitest browser tests, a11y checks, and component manifest configured
+- [x] Official Storybook agent skills, Vercel React best-practices, Vercel web-design-guidelines, and local `grimo-frontend` operational skill installed
+- [x] Motion 13.3.0 exact-pinned for DOM UI only; no Radix package bulk install and no generic UI library added
+- [x] Playwright visual foundation added for Pixel 7a-like viewport and Xiaomi 14T Pro-like viewport; physical Xiaomi QA remains separate
+- [x] `frontend:doctor`, Storybook build, interaction/a11y tests, and opt-in visual baseline workflow verified
+- [x] Storybook MCP registered as `storybook`; Figma registration was inspected only and not reinstalled
+
 ## Next operation
 
 Human Gate review of this branch. Do not merge to `main` until that review is complete.
@@ -26,3 +47,4 @@ Human Gate review of this branch. Do not merge to `main` until that review is co
 ## Unresolved
 
 - Collection remains a planned product surface and is intentionally not implemented in Phase 0.
+- Lighthouse CI direct collection passes; the full local autorun can exit after the audit on this Windows host when `chrome-launcher` cannot remove its temporary profile (`EPERM`).

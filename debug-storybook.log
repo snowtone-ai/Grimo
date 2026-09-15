@@ -1,0 +1,71 @@
+[21:09:43.773] [INFO] Running addon-a11y-addon-test automigration
+[21:09:43.773] [DEBUG] Extracting storybook data...
+[21:09:43.774] [DEBUG] Getting Storybook info...
+[21:09:43.783] [DEBUG] Getting stories paths...
+[21:09:43.804] [DEBUG] Getting package manager...
+[21:09:43.816] [DEBUG] Getting package.json info for C:/Users/chidj/project/プロダクト/Grimo/package.json...
+[21:09:43.816] [DEBUG] Getting Storybook version...
+[21:09:43.817] [DEBUG] Detecting CSF factory usage...
+[21:09:43.857] [INFO] Checking possible migrations..
+[21:09:43.857] [DEBUG] Running [36maddon-a11y-addon-test[39m migration checks
+[21:09:43.908] [DEBUG] End of [36maddon-a11y-addon-test[39m migration checks
+[21:09:43.908] [INFO] 🔎 found a '[36maddon-a11y-addon-test[39m' migration:
+[21:09:43.909] [INFO] ✅ ran [36maddon-a11y-addon-test[39m migration
+[21:09:43.910] [INFO] [32mMigration check ran successfully[39m
+[21:09:43.910] [INFO] [1mSuccessful migrations:[22m
+
+[32maddon-a11y-addon-test[39m
+
+─────────────────────────────────────────────────
+
+If you'd like to run the migrations again, you can do so by running 
+[36mnpx storybook automigrate[39m
+
+The automigrations try to migrate common patterns in your project, but might not contain everything needed to migrate to the latest version of Storybook.
+
+Please check the changelog and migration guide for manual migrations and more information: 
+https://storybook.js.org/docs/releases/migration-guide?ref=upgrade
+And reach out on Discord if you need help: https://discord.gg/storybook
+[21:09:43.910] [INFO] Installing dependencies...
+[21:09:43.910] [DEBUG] Executing command: pnpm install -w
+[21:09:43.911] [DEBUG] Resolved command variation: pnpm.cmd
+[21:09:44.135] [ERROR] Installation of dependencies failed! {"error":"SB_CLI_INIT_0013 (PnpmIgnoredBuildsError): pnpm blocked postinstall scripts for one or more packages.\n\nCommand failed with exit code 1: pnpm.cmd install -w\nError: ERR_PNPM_IGNORED_BUILDS\n\n  × installing dependencies\n  ╰─▶ Ignored build scripts: esbuild@0.28.2\n  help: Run \"pnpm approve-builds\" to pick which dependencies should be allowed\n        to run scripts.\n\nCommand failed with exit code 1: pnpm.cmd install -w\n\nError: ERR_PNPM_IGNORED_BUILDS\n\n  × installing dependencies\n  ╰─▶ Ignored build scripts: esbuild@0.28.2\n  help: Run \"pnpm approve-builds\" to pick which dependencies should be allowed\n        to run scripts.\n    at categorizeExecaError (file:///C:/Users/chidj/AppData/Local/pnpm-cache/dlx/e7ec977e7d383fed067a1641cce080ef/mu2mpvvc-274/node_modules/.pacquet/storybook@10.6.0_prettier@3.9.6_react@19.3.0/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:15540:671)\n    at categorize (file:///C:/Users/chidj/AppData/Local/pnpm-cache/dlx/e7ec977e7d383fed067a1641cce080ef/mu2mpvvc-274/node_modules/.pacquet/storybook@10.6.0_prettier@3.9.6_react@19.3.0/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:15550:31)\n    at file:///C:/Users/chidj/AppData/Local/pnpm-cache/dlx/e7ec977e7d383fed067a1641cce080ef/mu2mpvvc-274/node_modules/.pacquet/storybook@10.6.0_prettier@3.9.6_react@19.3.0/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:15553:61"}
+[21:09:44.135] [ERROR] [38;2;241;97;97mSB_CLI_INIT_0013 (PnpmIgnoredBuildsError): pnpm blocked postinstall scripts for one or more packages.
+
+Command failed with exit code 1: pnpm.cmd install -w
+Error: ERR_PNPM_IGNORED_BUILDS
+
+  × installing dependencies
+  ╰─▶ Ignored build scripts: esbuild@0.28.2
+  help: Run "pnpm approve-builds" to pick which dependencies should be allowed
+        to run scripts.
+
+Command failed with exit code 1: pnpm.cmd install -w
+
+Error: ERR_PNPM_IGNORED_BUILDS
+
+  × installing dependencies
+  ╰─▶ Ignored build scripts: esbuild@0.28.2
+  help: Run "pnpm approve-builds" to pick which dependencies should be allowed
+        to run scripts.[39m
+    at categorizeExecaError (file:///C:/Users/chidj/AppData/Local/pnpm-cache/dlx/e7ec977e7d383fed067a1641cce080ef/mu2mpvvc-274/node_modules/.pacquet/storybook@10.6.0_prettier@3.9.6_react@19.3.0/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:15540:671)
+    at categorize (file:///C:/Users/chidj/AppData/Local/pnpm-cache/dlx/e7ec977e7d383fed067a1641cce080ef/mu2mpvvc-274/node_modules/.pacquet/storybook@10.6.0_prettier@3.9.6_react@19.3.0/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:15550:31)
+    at file:///C:/Users/chidj/AppData/Local/pnpm-cache/dlx/e7ec977e7d383fed067a1641cce080ef/mu2mpvvc-274/node_modules/.pacquet/storybook@10.6.0_prettier@3.9.6_react@19.3.0/node_modules/storybook/dist/_node-chunks/chunk-IQHYYTFR.js:15553:61
+[21:09:45.404] [ERROR] SB_CLI_INIT_0013 (PnpmIgnoredBuildsError): pnpm blocked postinstall scripts for one or more packages.
+
+Command failed with exit code 1: pnpm.cmd install -w
+Error: ERR_PNPM_IGNORED_BUILDS
+
+  × installing dependencies
+  ╰─▶ Ignored build scripts: esbuild@0.28.2
+  help: Run "pnpm approve-builds" to pick which dependencies should be allowed
+        to run scripts.
+
+Command failed with exit code 1: pnpm.cmd install -w
+
+Error: ERR_PNPM_IGNORED_BUILDS
+
+  × installing dependencies
+  ╰─▶ Ignored build scripts: esbuild@0.28.2
+  help: Run "pnpm approve-builds" to pick which dependencies should be allowed
+        to run scripts.

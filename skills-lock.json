@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "stories": {
+      "source": "storybookjs/mcp",
+      "sourceType": "github",
+      "skillPath": "packages/claude-plugin/skills/stories/SKILL.md",
+      "computedHash": "8aed3449e67496defdfbfb3f48e3d7581e7d6ea2cee289f9f8789e8f3241cfea"
+    },
+    "storybook-init": {
+      "source": "storybookjs/mcp",
+      "sourceType": "github",
+      "skillPath": "packages/claude-plugin/skills/storybook-init/SKILL.md",
+      "computedHash": "9b2b0aa81e17bf07e7077ba354cfb678c3e40321b8d8292ababc9a5cfed17ae2"
+    },
+    "storybook-setup": {
+      "source": "storybookjs/mcp",
+      "sourceType": "github",
+      "skillPath": "packages/claude-plugin/skills/storybook-setup/SKILL.md",
+      "computedHash": "36a8f9f302542bc8ae8acfaeb371c72fb6edc159b5971187b5909ccc907f3f49"
+    },
+    "storybook-upgrade": {
+      "source": "storybookjs/mcp",
+      "sourceType": "github",
+      "skillPath": "packages/claude-plugin/skills/storybook-upgrade/SKILL.md",
+      "computedHash": "a2fa734550bc63864d83340425e90f47fccc2793a72fbace3f30cd3705c31ec0"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "6b526d013e28073246a36f99b529bc43745d30832ecfa8217b359c34f260ca6b"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "d8e7d3afe37dcc8a97b99ffb5afdb4d0919ae0092ea8b68f44eb201f035e33ac"
+    }
+  }
+}
