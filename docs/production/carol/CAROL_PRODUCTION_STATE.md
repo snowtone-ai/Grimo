@@ -2,17 +2,23 @@
 
 ## Current phase
 
-Production infrastructure bootstrap, immediately before initial 3D geometry interpretation. No Carol modeling has started.
+After initial 3D geometry interpretation and Human Gate conditional pass. No
+Carol modeling has started.
 
 ## Human Gates
 
-- Passed: none recorded in the repository.
-- Pending: initial geometry interpretation, then Human Gate review.
+- Conditionally passed: initial geometry interpretation / Human Gate review
+  (2026-09-16; G1–G5 accepted in principle).
+- Pending: camera/framing measurements and specification; geometry measurement
+  gaps and later production gates remain unresolved.
 
 ## Unresolved issues
 
 - Numeric camera FOV, distance, and height remain unmeasured.
-- Initial geometry interpretation and the Human Gate remain pending; `CAROL_GEOMETRY_DECISION.md` must not be treated as complete.
+- Numeric camera/framing values remain unresolved, including projection, FOV,
+  distance, height, target height, and subject screen occupancy.
+- Blender modeling has not started. The conditional pass in
+  `CAROL_GEOMETRY_DECISION.md` does not authorize blockout or other production.
 
 ## Authoritative inputs
 
@@ -31,8 +37,9 @@ Production infrastructure bootstrap, immediately before initial 3D geometry inte
 
 ## Routing
 
-- Current bootstrap: GPT-5.6 Luna / Low.
-- Next interpretation: GPT-6 Astra / Medium.
+- Current completed handoff: GPT-6 Astra / Medium geometry interpretation,
+  conditionally passed by Human Gate.
+- Next planning route: ChatGPT Planner → GPT-5.6 Luna / Low.
 - Subsequent Blender production: route through ChatGPT Planner → Luna by
   default; use Sol/Terra only when the documented local-iterative exception
   applies, after the geometry decision is complete.
@@ -40,4 +47,9 @@ Production infrastructure bootstrap, immediately before initial 3D geometry inte
 
 ## Next exact task
 
-The next session must use GPT-6 Astra / Medium to review the canonical image, every approved 3D reference, the contracts, and the Carol motion constraints; record an evidence-based initial geometry interpretation in `CAROL_GEOMETRY_DECISION.md`. Missing measurements and conflicts must be reported explicitly. Do not begin Blender blockout, rigging, animation, or GLB production in that session.
+Define and measure the front-facing Carol companion camera/framing contract from
+the approved benchmark and relevant repository sources. Record the benchmark
+source/frame, landmark definitions, screen-occupancy measurements, projection
+assumptions, units, method, and uncertainty while preserving all unresolved
+gaps. This task must still forbid starting modeling, rigging, animation, GLB
+export, or PlayCanvas/runtime work.

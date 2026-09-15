@@ -1,18 +1,20 @@
 # Carol geometry decision
 
-Status: **PRE-HUMAN-GATE / interpretation proposal recorded; geometry NOT approved**
+Status: **CONDITIONAL PASS / geometry direction accepted in principle; production not authorized**
 Date: 2026-09-16
 Target / author: CODEX_ASTRA / GPT-6 Astra
 Evidence baseline: `cef0ed0ea4e7aab68e8feda40b121bdfc8601eaf`
-Next handoff: **HUMAN**
+Human Gate: **CONDITIONAL PASS** (2026-09-16; Human Gate / user-approved)
+Next handoff: **CHATGPT_PLANNER** — camera/framing measurement and specification
 
 ## 1. Scope and decision status
 
 This record replaces the empty interpretation template with observations and a
-reviewable geometry proposal. The document task is complete; the geometry
-interpretation is **not accepted or production-ready** until the unresolved
-identity decisions and Human Gate result are recorded. Approval of the source
-packet is not approval of this reconstruction proposal.
+reviewable geometry proposal. The Human Gate result is now recorded as a
+**CONDITIONAL PASS**: G1–G5 are accepted in principle, subject to the explicit
+unresolved conflicts and measurements below. Geometry direction is approved in
+principle, but the result is not production authorization. Approval of the
+source packet is not approval of this reconstruction proposal.
 
 No Blender blockout, rig, animation, GLB or PlayCanvas implementation is part of
 this task. No new artwork or replacement reference was generated.
@@ -96,7 +98,7 @@ orthographic projection, matching scale or a single coherent source mesh.
 | G1 | Concealed low quadruped chassis with four support limbs; minimize anatomy that never affects support or deformation. | S cutaway; E §14.3; V §24. High requirement, Medium form | I's visible hoof overlap is compatible with concealment; do not expose generic shoulders, knees, belly or a long sheep neck. Lengths and contact footprint pending. |
 | G2 | Head is a rounded, shallow projecting acting region nested within a fleece opening; concealed transition allows lean/lower/turn. | I face boundary, P profile, V §§14/24. Medium | No protruding muzzle or distinct external neck. Face depth, opening depth and clearance are pending. |
 | G3 | Broad continuous fleece envelope surrounds the chassis, with regional cloud masses layered over it. | I silhouette; F/P/B; D §12. High structure, Medium depth | Recover I's broad cloud hierarchy where packet lobes become too granular; no traced one-ball-per-lobe construction. |
-| G4 | A compact rear cloud tuft/appendage is supported as hidden production geometry. | S diagram/cutaway, P/B. High existence, Medium attachment | D forbids an invented tail unless later approved references define one; A plus S/P/B supplies that evidence. I does not reveal a root. Exact stalk, axis and footprint remain pending; no wagging or new tail-driven behavior is authorized. |
+| G4 | A compact rear cloud tuft/appendage is supported as hidden production geometry and may act as an independent expressive appendage. | S diagram/cutaway, P/B. High existence, Medium attachment | A plus S/P/B supplies evidence for the rounded tuft. I does not reveal a root. Exact stalk, axis and footprint remain pending. Small cute “pyoko-pyoko” emotional motion is allowed, but it must remain Carol-like and subordinate to face/head/body/fleece acting; do not reinterpret it as a generic wagging dog tail or dominant motion driver. |
 | G5 | Moon and attached stars are body-relative identity features, distinguishable from detached atmosphere and wearable props. | I; S detail panels; V §§22/24. High role, Low depth/map | Propose shallow shaped surfaces only as a candidate. Back/front correspondence, count, bevel, thickness and anatomical side cannot be locked from the images. Never duplicate the moon merely to satisfy every plate. |
 
 ## 6. Volume hierarchy and deformation ownership
@@ -201,12 +203,12 @@ here and supplies no numeric camera values.
 
 | ID | Conflict / unknown and evidence | Current disposition | Owner / next evidence |
 |---|---|---|---|
-| U1 | I's posed broad cloud composition vs F's centered face and taller crown | I wins visible identity; do not declare either a calibrated neutral proportion match | HUMAN chooses frontal interpretation; subsequent measurement task annotates face/fleece/ear/hoof landmarks separately for I and F, excluding detached atmosphere |
-| U2 | I's broad cloud lobes vs denser S/F clumps | Preserve broad hierarchy; exact correspondence unresolved | HUMAN reviews major lobe map before any surface-detail lock |
-| U3 | Moon visible in F/P/B and varying stars across S/F/P/B/T | No duplicate/mirrored motifs or inferred full-body count | HUMAN confirms one physical attachment map with anatomical side, same-feature IDs, and opposite profile evidence where needed |
+| U1 | I's posed broad cloud composition vs F's centered face and taller crown | I wins visible identity; do not declare either a calibrated neutral proportion match | Subsequent camera/framing measurement task annotates face/fleece/ear/hoof landmarks separately for I and F, excluding detached atmosphere |
+| U2 | I's broad cloud lobes vs denser S/F clumps | Preserve broad hierarchy; exact correspondence unresolved | Major lobe map remains a condition for later surface-detail lock |
+| U3 | Moon visible in F/P/B and varying stars across S/F/P/B/T | No duplicate/mirrored motifs or inferred full-body count | One physical attachment map with anatomical side, same-feature IDs, and opposite profile evidence remains to be confirmed |
 | U4 | T's front/back direction and apparent length; no common scale/view axes | Do not derive body depth ratios by comparing canvas sizes | Reference authority owner supplies labeled orientation and common-scale landmarks/plates; exact depth remains pending |
-| U5 | Rear tuft visible in S/P/B, but root obscured and canonical does not expose it | Retain supported appendage proposal; no invented tail mechanism | HUMAN confirms root/neck of tuft and allowed outline against front/oblique identity |
-| U6 | Eye/face depth, lid closure and expression envelope absent in static images | Candidate construction only; no claimed prototype success | HUMAN approves construction direction; a separately authorized later prototype would establish ranges |
+| U5 | Rear tuft visible in S/P/B, but root obscured and canonical does not expose it | Retain supported appendage proposal and approved small expressive use; no invented tail mechanism | Root/neck, allowed outline and small motion envelope remain to be measured against front/oblique identity; generic wagging-dog-tail behavior remains disallowed |
+| U6 | Eye/face depth, lid closure and expression envelope absent in static images | Candidate construction only; no claimed prototype success | A separately authorized later prototype would establish ranges |
 | U7 | Four-foot grammar vs occluded contacts; head-to-shell clearance unmeasured | No skeleton dimensions, COM or contact polygon asserted | Later authorized geometry work measures foot positions, underside clearance, head cavity and ear-root clearance |
 | U8 | C lists all camera numbers pending | All remain pending, including projection choice | Framing owner records benchmark source/frame and screen-occupancy measurements; 3D camera calibration requires additional evidence, not one screenshot alone |
 | U9 | V §21 says HIGH front readability for every family, while §27 rows include MED and LOW–MED | Treat HIGH as the requirement, not demonstrated performance; no camera workaround | Motion specification owner reconciles labels before later acceptance planning; this task does not rewrite motion scope |
@@ -231,21 +233,23 @@ these blanks into permission to guess.
 | New isolated silhouette capture | **Not produced**; observations use reference outlines |
 | New clay capture | **Not produced**; S's gray chassis diagram is not our model or a passing clay render |
 | Deformation / animation / runtime evidence | **Not produced**, outside this task |
-| Human reviewer | **Pending** |
-| Human review date | **Pending** |
-| Human result / approved revision | **NOT REVIEWED / no accepted geometry revision** |
+| Human reviewer | **Human Gate / user-approved** |
+| Human review date | **2026-09-16** |
+| Human result / approved revision | **CONDITIONAL PASS** — G1–G5 accepted in principle; unresolved measurements and identity conditions remain explicit |
 
-Human review should record accept/revise/defer per G1–G5, resolve or explicitly
-retain U1–U9, and identify the approved frontal face/fleece relationship,
-clump hierarchy, rear tuft interpretation and motif attachment mapping.
-Record reviewer, date, document commit, reasoning and remaining conditions.
-Reference-packet approval must not be copied into these result fields.
+The recorded Human Gate accepts G1–G5 in principle and retains U1–U9 and the
+remaining measurement gaps as conditions. The approved direction includes the
+rounded rear tuft as an independent, small expressive appendage, subject to the
+acting hierarchy and identity caution above. Reference-packet approval must not
+be copied into these result fields.
 
 This pre-production document review is distinct from later model-based identity,
 volume, face and deformation gates. Later capture requirements are recorded
 here to prevent a false pass, not to authorize creating those assets now.
 
-**Handoff: HUMAN.** Review this evidence-based proposal. Geometry remains held;
-a subsequent task must explicitly define any remaining measurement work and
-permitted production stage. This task ends with this document committed and
-pushed, without beginning blockout, rigging, animation, GLB export or runtime.
+**Handoff: CHATGPT_PLANNER.** Plan the next repository task to measure and
+formalize Carol's front-facing companion camera/framing contract from the
+approved benchmark and repository sources. Camera values remain pending, and
+approval of geometry direction does **not** authorize Blender blockout, rigging,
+animation, GLB export or runtime work. This task ends with this document
+committed and pushed.
