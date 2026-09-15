@@ -1,25 +1,31 @@
 # Grimo
 
-**Grimo** is a mobile-first, local-first task management PWA built around high-quality interaction with four original Grimo characters: Carol, Jill, Pino, and Shushu.
+Grimo is a smartphone-first, local-first task management PWA built around four original characters: Carol, Jill, Pino, and Shushu.
 
-Core concept: **「グリモと触れ合いたすぎて逆にタスク管理ができなくなるタスク管理アプリ」**.
+## Main screens
 
-## Current foundation
+- `/tasks` — Tasks
+- `/calendar` — Calendar
+- `/grimo` — Grimo
+- Collection is a planned product surface; it is not implemented in Phase 0.
 
-- Next.js App Router + React + TypeScript
-- Dexie / IndexedDB local persistence
-- PixiJS 8 layered 2.5D character runtime (planned vertical slice starts with one character)
-- Google Identity Services + Gmail/Calendar read-only integrations
-- Server-only Gemini proxy for structured task extraction
-- Serwist PWA foundation
-- Playwright-ready QA structure
+The existing Task, Calendar, Dexie/IndexedDB, Google read-only integrations, server-only Gemini boundary, and Serwist PWA foundation are preserved.
 
-Main routes:
+## Character architecture
 
-- `/tasks` — タスク
-- `/grimo` — グリモ
-- `/calendar` — カレンダー
-- `/settings` — 設定
-- `/` — startup preference launch gate
+The authoritative production direction is:
 
-Read `AGENTS.md`, `tasks.md`, and `docs/decisions.md` before implementation work.
+```text
+Full 3D → Blender → GLB/glTF → PlayCanvas
+```
+
+The repository reset does not implement the 3D runtime, Blender assets, character motion, or touch interaction. The current `/grimo` route is intentionally a neutral placeholder until the Phase 1 foundation work begins.
+
+## Development
+
+```text
+pnpm install
+pnpm verify
+```
+
+Read `AGENTS.md`, `DESIGN.md`, `tasks.md`, and the relevant `docs/` files before implementation work.
