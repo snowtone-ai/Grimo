@@ -15,7 +15,7 @@ Active work is on `codex/phase0-3d-repository-reset`, created from the synchroni
 - [x] App icon and four canonical identity images preserved
 - [x] Obsolete 2D/2.5D references removed from active assets
 - [x] Historical source-pack isolated under `docs/archive/obsolete-2_5d/`
-- [x] Install, typecheck, tests, lint, build, verify, and context check completed
+- [x] Install, typecheck, tests, lint, build, and verify completed
 - [x] Phase 0 commit created and pushed
 - [ ] Human Gate review of this branch
 
@@ -51,8 +51,16 @@ Carol production infrastructure bootstrap is complete. Next operation is the GPT
 - [x] Carol production asset directories created without placeholder binaries
 - [x] Blender Gate-render and deterministic review-packet scaffolding created
 - [x] Next-session handoff written to root `prompt.md`
-- [ ] Ingest the authoritative `CAROL_MVP_MOTION_SPEC.md` and approved Carol 3D references; record hashes and authority paths (blocked by pre-existing Eevee Motion Master destination conflict)
+- [x] Ingest the authoritative `CAROL_MVP_MOTION_SPEC.md` and approved Carol 3D references; record hashes and authority paths
 - [ ] GPT-6 Astra / Medium initial geometry interpretation and Human Gate
+
+## 2026-09-16 — Phase 0 final reconciliation
+
+- [x] Eevee Motion Master is stored under `docs/grimo/knowledge/research/motion-masters/` with the Pikachu Motion Master
+- [x] Carol approved 3D authority manifest and Motion Spec are available from their formal paths
+- [x] Active state and handoff records no longer report source-ingestion blockage
+- [x] Next session handoff targets GPT-6 Astra / Medium geometry interpretation
+- [ ] Human Gate review of the reconciled Phase 0 branch
 
 ## Unresolved
 

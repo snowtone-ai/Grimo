@@ -11,7 +11,7 @@
 
 Formal inputs, in priority order:
 
-1. `carol-identity-canonical.png`
+1. `assets/grimo/source/carol/carol-Identity-canonical.png`
 2. approved Carol 3D production canonical / orthographic references
 3. `GRIMO_PRODUCT_FEATURE_SPEC.md`
 4. `GRIMO_DATA_MODEL_SPEC.md`

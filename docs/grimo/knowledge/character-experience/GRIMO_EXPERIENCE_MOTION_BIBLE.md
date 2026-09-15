@@ -37,7 +37,7 @@
 3. `Grimo「生きている相棒」体験設計 — Partner Pikachu / Eevee の感動を分解し、四匹へ再構成する.md`
 4. `GRIMO_PARTNER_PIKACHU_VIDEO_MOTION_ANALYSIS.md`（提供ファイル名は `(1)` suffix）
 5. `GRIMO_PARTNER_EEVEE_VIDEO_MOTION_ANALYSIS.md`（提供ファイル名は `(1)` suffix）
-6. `carol-canonical.png`
+6. `assets/grimo/source/carol/carol-Identity-canonical.png`
 7. `jill-canonical.png`
 8. `pino-canonical.png`
 9. `shushu-canonical.png`
@@ -852,7 +852,7 @@ Character may combine seated support with upright social gestures or quadruped r
 
 ## 14.1 Identity — canonical non-negotiables
 
-実視認した `carol-canonical.png` を唯一のvisual source of truthとする。
+実視認した `assets/grimo/source/carol/carol-Identity-canonical.png` を唯一のvisual source of truthとする。
 
 壊してはいけない特徴：
 

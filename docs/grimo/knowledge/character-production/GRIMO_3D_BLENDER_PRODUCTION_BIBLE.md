@@ -110,7 +110,7 @@ The current single-view artworks contain the strongest approved identity signal:
 
 Files:
 
-- `carol-identity-canonical.png`
+- `assets/grimo/source/carol/carol-Identity-canonical.png`
 - `jill-identity-canonical.png`
 - `pino-identity-canonical.png`
 - `shushu-identity-canonical.png`
@@ -1364,7 +1364,7 @@ Suggested per-character structure:
 ```text
 characters/carol/
   canonical/
-    carol-identity-canonical.png
+    carol-Identity-canonical.png
     carol-3d-production-canonical.png
     authority.json
   blender/
