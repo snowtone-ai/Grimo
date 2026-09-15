@@ -51,7 +51,7 @@ Carol production infrastructure bootstrap is complete. Next operation is the GPT
 - [x] Carol production asset directories created without placeholder binaries
 - [x] Blender Gate-render and deterministic review-packet scaffolding created
 - [x] Next-session handoff written to root `prompt.md`
-- [ ] Locate/add the authoritative `CAROL_MVP_MOTION_SPEC.md` and approved Carol 3D references
+- [ ] Ingest the authoritative `CAROL_MVP_MOTION_SPEC.md` and approved Carol 3D references; record hashes and authority paths (blocked by pre-existing Eevee Motion Master destination conflict)
 - [ ] GPT-6 Astra / Medium initial geometry interpretation and Human Gate
 
 ## Unresolved

@@ -10,9 +10,11 @@ Status: awaiting GPT-6 Astra / Medium interpretation. This is a decision record 
 
 ## Approved 3D reference observations
 
-- Reference path:
+- Reference path: `assets/grimo/source/carol/approved-3d/` (manifest: `assets/grimo/source/carol/approved-3d/authority.json`)
 - Observation:
 - Provenance / confidence:
+
+Motion constraints to review: `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md`.
 
 ## Hidden-geometry decisions
 

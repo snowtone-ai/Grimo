@@ -11,13 +11,14 @@ Production infrastructure bootstrap, immediately before initial 3D geometry inte
 
 ## Unresolved issues
 
-- `CAROL_MVP_MOTION_SPEC.md` is referenced by the bootstrap instruction but is not present in the repository.
-- No approved Carol 3D production reference files are present under `assets/grimo/source/carol/approved-3d/`.
 - Numeric camera FOV, distance, and height remain unmeasured.
+- `EEVEE_MOTION_MASTER_INVENTORY.md` has an existing empty destination at `docs/grimo/knowledge/research/motion-masters/EEVEE_MOTION_MASTER_INVENTORY.md`; the differing root source cannot be moved without resolving this conflict.
 
 ## Authoritative inputs
 
 - `assets/grimo/source/carol/carol-Identity-canonical.png`
+- `assets/grimo/source/carol/approved-3d/`
+- `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md`
 - `docs/product/README.md`
 - `docs/setup/3D_TOOLCHAIN.md`
 - `docs/grimo/references/README.md`
@@ -35,4 +36,4 @@ Production infrastructure bootstrap, immediately before initial 3D geometry inte
 
 ## Next exact task
 
-The next session must review the canonical image, every available approved 3D reference, and the contracts; record an evidence-based initial geometry interpretation in `CAROL_GEOMETRY_DECISION.md`. Missing references and conflicts must be reported explicitly.
+The next session must review the canonical image, every approved 3D reference, the contracts, and the Carol motion constraints; record an evidence-based initial geometry interpretation in `CAROL_GEOMETRY_DECISION.md`. Missing measurements and conflicts must be reported explicitly.

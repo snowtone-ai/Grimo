@@ -3,6 +3,8 @@
 ## Identity and evidence
 
 - `assets/grimo/source/carol/carol-Identity-canonical.png` is the highest visual authority for visible identity.
+- Approved 3D reference packet: `assets/grimo/source/carol/approved-3d/` (see `authority.json`).
+- Carol motion constraints: `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md`.
 - Approved 3D production references govern hidden geometry only when they do not conflict with visible canonical identity.
 - Preserve the sacred front-view identity: silhouette, face read, proportions, distinctive features, and appeal must survive the 3D interpretation.
 - Do not treat generic sheep anatomy as a substitute for Carol. Generic anatomy drift is prohibited.
