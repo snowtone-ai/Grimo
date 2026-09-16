@@ -1,0 +1,259 @@
+{
+  "version": 5,
+  "units": "Blender units; proposed height 3.0, not physical meters",
+  "axis": {
+    "front": "-Y",
+    "up": "+Z",
+    "image_right_front": "+X"
+  },
+  "registration_locked": true,
+  "registration_note": "Uniform scale per source; no anisotropic warping, no per-iteration refit. Illustrated plates are not mutually exact orthographic projections. Residuals must remain visible.",
+  "plates": {
+    "front": {
+      "file": "carol-front-ortho-transparent.png",
+      "pixels_per_unit": 325,
+      "origin_px": [
+        645,
+        1110
+      ],
+      "mapping": "X=(u-645)/325; Z=(1110-v)/325",
+      "width_px": 1254,
+      "height_px": 1254
+    },
+    "side": {
+      "file": "carol-side-ortho-transparent.png",
+      "pixels_per_unit": 295,
+      "origin_px": [
+        700,
+        995
+      ],
+      "mapping": "Y=(u-700)/295; Z=(995-v)/295",
+      "width_px": 1448,
+      "height_px": 1086
+    },
+    "back": {
+      "file": "carol-back-ortho-transparent.png",
+      "pixels_per_unit": 325,
+      "origin_px": [
+        635,
+        1110
+      ],
+      "mapping": "X=-(u-635)/325; Z=(1110-v)/325",
+      "width_px": 1254,
+      "height_px": 1254
+    },
+    "top": {
+      "file": "carol-top-plan-transparent.png",
+      "pixels_per_unit": 280,
+      "origin_px": [
+        630,
+        630
+      ],
+      "mapping": "X=(u-630)/280; Y=(v-630)/280",
+      "width_px": 1254,
+      "height_px": 1254
+    }
+  },
+  "front_landmarks_px": {
+    "crown": [
+      630,
+      140
+    ],
+    "face_center": [
+      654,
+      746
+    ],
+    "face_left": [
+      407,
+      739
+    ],
+    "face_right": [
+      926,
+      743
+    ],
+    "chin": [
+      651,
+      899
+    ],
+    "eye_L": [
+      503,
+      737
+    ],
+    "eye_R": [
+      814,
+      737
+    ],
+    "eye_tilt_degrees": [
+      -8,
+      8
+    ],
+    "nose": [
+      653,
+      745
+    ],
+    "mouth": [
+      655,
+      797
+    ],
+    "ear_root_L": [
+      362,
+      679
+    ],
+    "ear_root_R": [
+      966,
+      682
+    ],
+    "ear_tip_L": [
+      126,
+      751
+    ],
+    "ear_tip_R": [
+      1175,
+      751
+    ],
+    "inner_ear_L": [
+      242,
+      767
+    ],
+    "inner_ear_R": [
+      1068,
+      767
+    ],
+    "hoof_L": [
+      454,
+      1106
+    ],
+    "hoof_R": [
+      789,
+      1106
+    ],
+    "moon": [
+      356,
+      458
+    ],
+    "stars": [
+      [
+        624,
+        296
+      ],
+      [
+        706,
+        477
+      ],
+      [
+        194,
+        621
+      ],
+      [
+        312,
+        922
+      ],
+      [
+        646,
+        963
+      ]
+    ]
+  },
+  "proposed_landmarks_3d": {
+    "crown": [
+      0,
+      -0.75,
+      3.0
+    ],
+    "body_center": [
+      0,
+      0.15,
+      1.4
+    ],
+    "face_center": [
+      0.025,
+      -1.9,
+      1.12
+    ],
+    "face_dimensions": [
+      1.66,
+      0.46,
+      1.12
+    ],
+    "eye_L": [
+      -0.437,
+      -2.025,
+      1.148
+    ],
+    "eye_R": [
+      0.52,
+      -2.025,
+      1.148
+    ],
+    "nose": [
+      0.025,
+      -2.12,
+      1.12
+    ],
+    "mouth": [
+      0.03,
+      -2.1,
+      0.965
+    ],
+    "ear_root_L": [
+      -0.87,
+      -1.02,
+      1.36
+    ],
+    "ear_root_R": [
+      0.98,
+      -1.0,
+      1.35
+    ],
+    "ear_tip_L": [
+      -1.6,
+      -1.03,
+      1.1
+    ],
+    "ear_tip_R": [
+      1.63,
+      -0.99,
+      1.11
+    ],
+    "hoof_FL": [
+      -0.59,
+      -1.12,
+      0
+    ],
+    "hoof_FR": [
+      0.59,
+      -1.12,
+      0
+    ],
+    "hoof_RL": [
+      -0.59,
+      1.12,
+      0
+    ],
+    "hoof_RR": [
+      0.59,
+      1.12,
+      0
+    ],
+    "tuft": [
+      0,
+      1.94,
+      1.49
+    ]
+  },
+  "uncertainties": [
+    "Top plan scale reconciles depth but ear width differs from front.",
+    "Moon is one physical left-flank ornament; all three face-on depictions cannot be matched by one planar crescent.",
+    "Star correspondence between plates is not uniquely specified; placement proposal requires Human review.",
+    "Hidden dimensions and camera orthogonality are inferred, not measured ground truth."
+  ],
+  "protected_sha256": {
+    "assets\\grimo\\source\\carol\\carol-Identity-canonical.png": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-3d-production-canonical-sheet.png": "fc0e205aa2f4230e3372740bd5aa16fe511efe4c387a7658a0fe3d7b7fb9ffb3",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-back-ortho-transparent.png": "27282d961b942ce6b4d39f4bc7e8dab1e6972e7443bbc667e635b0e16e206e98",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-front-ortho-transparent.png": "fd2d2a7b5fb5d3c9cb1353a83eaab1888de557b759dcd348dd16a3cb3ce280b4",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-side-ortho-transparent.png": "870d4864d55c5f7d8938cdfa2cc1a8a1c3a38a7107a529a6d260b5a56093ae0e",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-top-plan-transparent.png": "0d63d4e66c5034cda7b8b5ae9fbf9bcdb0f30573d121afe13537ae7a7576400f",
+    "assets\\grimo\\production\\carol\\blender\\carol-blockout-v004.blend": "8f6f0b64bf81ce591856d46359b7d827c6a9f6403b70884c8677d461023f6c19"
+  }
+}

@@ -81,3 +81,20 @@ Durable chronological record of geometry and production Human Gates. Do not pre-
   face, ear, fleece, full and clay comparisons and causal three-loop QA.
 - Next owner: **HUMAN Geometry Gate**. No main merge, rigging, animation,
   production GLB export or runtime integration.
+
+### 2026-09-16 — v005 A/B construction-method comparison
+
+- User steering: preserve the zero-based attempt as A; try deforming the old 3D
+  with its liked paint/parts as B; show an A/B check page in Chrome.
+- A frozen after eight form/parts passes. B underwent four deformation trials.
+- Saved A and B `.blend` files and exact recovered historical GLB are retained.
+- Human review: **PENDING**. Agent hero-geometry recommendation: **FAIL**, both.
+- B preserves visible mesh UV bytes and original paint, but not appearance under
+  deformation: stretched sides, intersections and no independent four legs remain.
+- The historical binary is identified by SHA; identity with the exact accepted
+  historical deliverable is NOT established. No inherited approval.
+- Evidence: [A/B review packet](evidence/hero-geometry-v005/README.md).
+- Chrome page provides five common views, synchronized yaw, clay/reset and approved
+  plates. Saved A/B reopened; both preview GLBs have zero validator errors/warnings.
+- Next handoff: **HUMAN** for construction direction and intended-source comparison;
+  the original approved-hero objective is not complete. No rigging/runtime advance.

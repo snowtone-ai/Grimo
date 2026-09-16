@@ -1,5 +1,11 @@
 # Carol geometry decision
 
+> Latest scope update (2026-09-16): v005 A/B method comparison is recorded in
+> [the v005 packet](evidence/hero-geometry-v005/README.md). The user explicitly
+> authorized historical mesh deformation for B while preserving zero-based A.
+> Neither is approved hero geometry; the earlier conditional G1–G5 interpretation
+> below is not approval of A or B. Next handoff: HUMAN for method/source comparison.
+
 > Current milestone (2026-09-16): v001 received Human **CONDITIONAL PASS**, with
 > external/final visual quality approximately **5/100** but useful structural
 > direction. v002 now awaits a new **HUMAN** Gate. The interpretation record

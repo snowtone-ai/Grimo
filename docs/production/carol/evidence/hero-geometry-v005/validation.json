@@ -1,0 +1,138 @@
+{
+  "protected_inputs_unchanged": {
+    "assets\\grimo\\source\\carol\\carol-Identity-canonical.png": true,
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-3d-production-canonical-sheet.png": true,
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-back-ortho-transparent.png": true,
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-front-ortho-transparent.png": true,
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-side-ortho-transparent.png": true,
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-top-plan-transparent.png": true,
+    "assets\\grimo\\production\\carol\\blender\\carol-blockout-v004.blend": true
+  },
+  "preview_glb": {
+    "a": {
+      "file": "C:\\Users\\chidj\\project\\\u30d7\u30ed\u30c0\u30af\u30c8\\Grimo\\artifacts\\carol-v005\\ab\\carol-a.preview.glb",
+      "validator": {
+        "errors": 0,
+        "warnings": 0,
+        "infos": 12,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/12/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/13/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/14/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/15/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/17/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/18/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/19/primitives/0/attributes/TEXCOORD_0"
+          }
+        ]
+      },
+      "metrics": {
+        "fileSizeBytes": 15590312,
+        "triangleCount": 535048,
+        "vertexCount": 269374,
+        "materialCount": 9,
+        "textureCount": 0,
+        "deformBoneCount": 0,
+        "morphTargetCount": 0,
+        "animationClips": []
+      }
+    },
+    "b": {
+      "file": "C:\\Users\\chidj\\project\\\u30d7\u30ed\u30c0\u30af\u30c8\\Grimo\\artifacts\\carol-v005\\ab\\carol-b.preview.glb",
+      "validator": {
+        "errors": 0,
+        "warnings": 0,
+        "infos": 2,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "severity": 2,
+            "message": "This object may be unused.",
+            "pointer": "/meshes/8/primitives/1/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "severity": 2,
+            "message": "Image has non-power-of-two dimensions: 624x400.",
+            "pointer": "/images/8"
+          }
+        ]
+      },
+      "metrics": {
+        "fileSizeBytes": 9109528,
+        "triangleCount": 164800,
+        "vertexCount": 85761,
+        "materialCount": 13,
+        "textureCount": 12,
+        "deformBoneCount": 0,
+        "morphTargetCount": 0,
+        "animationClips": []
+      }
+    }
+  },
+  "scope": "Finite saved mesh and preview transport checks only. Both visual geometry gates FAIL; no claim of production topology readiness."
+}

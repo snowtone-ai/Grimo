@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,"><title>Carol A / B — 制作方式の比較</title>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef0f5;color:#283047;font:14px system-ui,sans-serif}header{padding:16px 24px 10px}h1{font-size:24px;margin:0 0 8px}p{line-height:1.7;margin:6px 0}small{color:#546079}nav{display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding:12px 24px;background:#fff;border-block:1px solid #d7dce7}button,select,input{font:inherit}button,select{padding:7px 12px;border:1px solid #abb4c8;border-radius:6px;background:#fff}button[aria-pressed=true]{background:#313b59;color:white}label{display:flex;gap:8px;align-items:center}main{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:14px 24px}.card{background:#f9fafc;border:1px solid #d5dbe7;border-radius:12px;overflow:hidden}.card h2{font-size:17px;margin:12px 18px 6px}.card p{padding:0 18px;min-height:48px;color:#59647b;font-size:13px}.stage{height:45vh;min-height:220px;max-height:460px;width:100%;background:radial-gradient(ellipse at center,#fff,#e1e6ef)}canvas{display:block;width:100%;height:100%;touch-action:none}#status{padding:0 28px;min-height:24px}details{margin:16px 24px;padding:16px;background:white;border-radius:10px}summary{cursor:pointer;font-weight:600}.refs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:12px}.refs img{width:100%;background:#e9edf4}figure{margin:0}figcaption{padding:8px 0}footer{padding:0 28px 26px;color:#59647b}a{color:#344ca2}@media(max-width:800px){main{grid-template-columns:1fr}.refs{grid-template-columns:1fr 1fr}}
+</style>
+<header><h1>Carol A / B <small>制作方式の比較</small></h1>
+<p>Aはゼロから制作した保存版。Bは旧3Dの頂点を変形し、元の塗りとUVを保持した試作です。<strong>両方とも未承認・制作途中</strong>です。</p></header>
+<nav aria-label="比較の表示設定"><div id="views">
+<button data-view="front" aria-pressed="true">正面</button> <button data-view="side" aria-pressed="false">側面</button> <button data-view="back" aria-pressed="false">背面</button> <button data-view="top" aria-pressed="false">上面</button> <button data-view="three-quarter" aria-pressed="false">斜め</button></div>
+<label>回転 <input id="yaw" type="range" min="-180" max="180" value="0"></label>
+<label>表示範囲 <input id="zoom" type="range" min="3.5" max="7" step=".1" value="4.3"></label>
+<label><input id="clay" type="checkbox">クレイ表示</label><button id="reset">表示をリセット</button></nav>
+<main><section class="card"><h2>キャロルA</h2><p>新規の立体造形。毛・耳・顔に未解決箇所。装飾未実装。</p><div class="stage" id="a" aria-label="キャロルAの3D表示"></div></section>
+<section class="card"><h2>キャロルB</h2><p>旧モデルの変形試作④。塗りを保持。側面の伸びと脚の不足が残ります。</p><div class="stage" id="b" aria-label="キャロルBの3D表示"></div></section>
+<section class="card"><h2>旧3D原本</h2><p>履歴 15bfa8e の取得済みGLB。無変形・原寸。ユーザー承認版との同一性は未確認。</p><div class="stage" id="original" aria-label="旧3D原本の3D表示"></div></section></main>
+<p id="status" role="status">3Dデータを読み込んでいます…</p>
+<details open><summary>正式な参照画像 — Front / Side / Back / Top</summary><p>参照画像は全体を表示しています。3Dと画像の表示倍率は一致していません。A・B・旧原本の3Dカメラは共通です。</p><div class="refs">
+<figure><img src="/ref/front.png" alt="正式な正面図"><figcaption>Front</figcaption></figure><figure><img src="/ref/side.png" alt="正式な側面図"><figcaption>Side</figcaption></figure><figure><img src="/ref/back.png" alt="正式な背面図"><figcaption>Back</figcaption></figure><figure><img src="/ref/top.png" alt="正式な上面図"><figcaption>Top</figcaption></figure></div></details>
+<footer><p>各3Dをドラッグすると3体が同時に回転します。正面だけでなく側面・背面・クレイも比較してください。</p><p>Bの旧原本は浅いレリーフ構造です。塗りの保持は確認できましたが、正式な四足の立体形状を変形だけで完成させた状態ではありません。</p><a href="/report">制作・比較記録</a></footer>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+const panels=[],clay=new THREE.MeshStandardMaterial({color:'#aaaab0',roughness:.9,side:THREE.DoubleSide});let view='front';
+const $=id=>document.getElementById(id),loader=new GLTFLoader();
+try{
+for(const key of ['a','b','original']){
+ const holder=$(key),renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.2;holder.appendChild(renderer.domElement);
+ const scene=new THREE.Scene(),camera=new THREE.OrthographicCamera(-2.9,2.9,2.9,-2.9,.1,60);
+ scene.add(new THREE.HemisphereLight('#ffffff','#8990ae',2));for(const [p,power] of [[[-4,6,7],3],[[4,3,-3],1.5]]){const l=new THREE.DirectionalLight('#ffffff',power);l.position.set(...p);scene.add(l);}
+ const gltf=await loader.loadAsync('/'+key+'.glb'),mats=new Map();gltf.scene.traverse(o=>{if(o.isMesh){if(o.morphTargetInfluences)o.morphTargetInfluences.fill(0);mats.set(o,o.material);if(key!=='a')for(const m of(Array.isArray(o.material)?o.material:[o.material])){m.toneMapped=false;m.side=THREE.DoubleSide;if(m.map)m.map.anisotropy=renderer.capabilities.getMaxAnisotropy();}}});scene.add(gltf.scene);panels.push({key,holder,renderer,scene,camera,mats});
+ let down=null;renderer.domElement.addEventListener('pointerdown',e=>{down=e.clientX;renderer.domElement.setPointerCapture(e.pointerId)});renderer.domElement.addEventListener('pointermove',e=>{if(down===null)return;view='custom';$('yaw').value=Math.max(-180,Math.min(180,+$('yaw').value+(e.clientX-down)*.4));down=e.clientX;draw()});for(const event of ['pointerup','pointercancel'])renderer.domElement.addEventListener(event,()=>down=null);
+}
+function draw(){
+ const span=+$('zoom').value, angle=+$('yaw').value*Math.PI/180;
+ for(const p of panels){const w=p.holder.clientWidth,h=p.holder.clientHeight;p.renderer.setSize(w,h,false);p.camera.left=-span*w/h/2;p.camera.right=span*w/h/2;p.camera.bottom=-span/2;p.camera.top=span/2;p.camera.updateProjectionMatrix();p.camera.up.set(0,1,0);let target=new THREE.Vector3(0,1.5,0);
+ if(view==='top'){p.camera.position.set(0,12,0);p.camera.up.set(0,0,1);target.set(0,0,0)}else if(view==='three-quarter'){p.camera.position.set(-8,6,10)}else p.camera.position.set(Math.sin(angle)*12,1.5,Math.cos(angle)*12);p.camera.lookAt(target);
+ for(const [o,m] of p.mats)o.material=$('clay').checked?clay:m;p.renderer.render(p.scene,p.camera);}
+ for(const b of document.querySelectorAll('[data-view]'))b.setAttribute('aria-pressed',String(b.dataset.view===view));$('status').textContent='読み込み完了 · A / B / 旧原本 · 共通カメラ · '+( $('clay').checked?'クレイ':'元のマテリアル')+' · '+view;document.body.dataset.ready='true';
+}
+for(const b of document.querySelectorAll('[data-view]'))b.addEventListener('click',()=>{view=b.dataset.view;if(view==='top'&&+$('zoom').value<5.8)$('zoom').value=5.8;$('yaw').value=({front:0,side:90,back:180,top:0,'three-quarter':-38.66})[view];draw()});$('yaw').addEventListener('input',()=>{view='custom';draw()});for(const id of ['clay','zoom'])$(id).addEventListener('input',draw);$('reset').addEventListener('click',()=>{view='front';$('yaw').value=0;$('zoom').value=4.3;$('clay').checked=false;draw()});new ResizeObserver(draw).observe(document.querySelector('main'));draw();window.carolReview={draw,panels};
+}catch(e){$('status').textContent='読み込み失敗: '+e.message;document.body.dataset.ready='error';console.error(e)}
+</script></html>

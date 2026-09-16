@@ -1,0 +1,473 @@
+{
+  "source": "C:\\Users\\chidj\\AppData\\Local\\Temp\\carol-v004-historical-15bfa8e\\public\\grimo\\carol-3d\\carol.glb",
+  "source_sha256": "0871f077abadedb716bdfad5cc57b28e36803da1c868ce23d61ded38a5d2fc21",
+  "objects": [
+    {
+      "name": "BodyWool",
+      "vertices": 17947,
+      "min": [
+        -1.6956268548965454,
+        -0.870015025138855,
+        0.005102009978145361
+      ],
+      "max": [
+        1.412591814994812,
+        0.2553176283836365,
+        2.7073769569396973
+      ],
+      "materials": [
+        "BodyWool \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "ChestStar",
+      "vertices": 1537,
+      "min": [
+        0.6194871664047241,
+        -0.5600371360778809,
+        0.38626375794410706
+      ],
+      "max": [
+        0.8591676950454712,
+        -0.405417799949646,
+        0.6159999966621399
+      ],
+      "materials": [
+        "ChestStar \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "CrownStar",
+      "vertices": 1537,
+      "min": [
+        0.0021914811804890633,
+        -1.2412265539169312,
+        1.6461924314498901
+      ],
+      "max": [
+        0.3270019292831421,
+        -1.0341631174087524,
+        1.9739999771118164
+      ],
+      "materials": [
+        "CrownStar \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "EarOuterL",
+      "vertices": 4631,
+      "min": [
+        -0.7543570399284363,
+        -1.0499999523162842,
+        0.679302453994751
+      ],
+      "max": [
+        -0.17054523527622223,
+        -0.8100000023841858,
+        1.104540467262268
+      ],
+      "materials": [
+        "EarOuterL \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "EarOuterR",
+      "vertices": 4631,
+      "min": [
+        1.2251092195510864,
+        -0.949999988079071,
+        1.2189311981201172
+      ],
+      "max": [
+        1.6575191020965576,
+        -0.7099999785423279,
+        1.6013973951339722
+      ],
+      "materials": [
+        "EarOuterR \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Face",
+      "vertices": 28123,
+      "min": [
+        0.0019600000232458115,
+        -1.2649999856948853,
+        0.6376203298568726
+      ],
+      "max": [
+        1.2241177558898926,
+        -0.9449999928474426,
+        1.5243951082229614
+      ],
+      "materials": [
+        "Face \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": [
+        "Basis",
+        "Blink",
+        "Smile",
+        "Surprise",
+        "Squint",
+        "LookLeft",
+        "LookRight",
+        "LookUp",
+        "LookDown"
+      ]
+    },
+    {
+      "name": "HeadWool",
+      "vertices": 17175,
+      "min": [
+        -0.5805093050003052,
+        -1.2812118530273438,
+        0.3864641487598419
+      ],
+      "max": [
+        1.3424732685089111,
+        -0.28271400928497314,
+        2.2857275009155273
+      ],
+      "materials": [
+        "HeadWool \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "LowerStar",
+      "vertices": 1537,
+      "min": [
+        -0.34967631101608276,
+        -0.5885742902755737,
+        0.351248562335968
+      ],
+      "max": [
+        -0.14917448163032532,
+        -0.5003756880760193,
+        0.5154697895050049
+      ],
+      "materials": [
+        "LowerStar \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Moon",
+      "vertices": 486,
+      "min": [
+        -1.1480000019073486,
+        -0.8149189949035645,
+        1.218000054359436
+      ],
+      "max": [
+        -0.6478476524353027,
+        -0.5903419852256775,
+        1.8899999856948853
+      ],
+      "materials": [
+        "Carol \u2022 original watercolor / projection UV",
+        "Carol \u2022 painted reverse / reconstructed"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "ReferenceContour",
+      "vertices": 17947,
+      "min": [
+        -1.698836088180542,
+        -0.8640150427818298,
+        0.0024802139960229397
+      ],
+      "max": [
+        1.41559898853302,
+        0.261317640542984,
+        2.7101597785949707
+      ],
+      "materials": [
+        "Carol \u2022 soft lavender contour"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "TailWool",
+      "vertices": 5083,
+      "min": [
+        -2.134559392929077,
+        -0.4099999964237213,
+        1.0648525953292847
+      ],
+      "max": [
+        -1.5215996503829956,
+        -0.10000000149011612,
+        1.5399999618530273
+      ],
+      "materials": [
+        "TailWool \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "TopStar",
+      "vertices": 1537,
+      "min": [
+        -0.3344835638999939,
+        -0.6930198669433594,
+        2.1370656490325928
+      ],
+      "max": [
+        -0.0029509931337088346,
+        -0.46628081798553467,
+        2.4639999866485596
+      ],
+      "materials": [
+        "TopStar \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "WoolStar",
+      "vertices": 1537,
+      "min": [
+        -1.208614468574524,
+        -0.6238645315170288,
+        0.6034693121910095
+      ],
+      "max": [
+        -0.9246582984924316,
+        -0.4805525541305542,
+        0.8889999985694885
+      ],
+      "materials": [
+        "WoolStar \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere00",
+      "vertices": 2811,
+      "min": [
+        -1.6782249212265015,
+        -0.07999999821186066,
+        1.7222180366516113
+      ],
+      "max": [
+        -1.2471404075622559,
+        0.18972373008728027,
+        2.0241808891296387
+      ],
+      "materials": [
+        "Atmosphere00 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere01",
+      "vertices": 2811,
+      "min": [
+        1.0920000076293945,
+        -0.07999999821186066,
+        1.8419140577316284
+      ],
+      "max": [
+        1.6571123600006104,
+        0.19980917870998383,
+        2.3172667026519775
+      ],
+      "materials": [
+        "Atmosphere01 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere02",
+      "vertices": 2811,
+      "min": [
+        -1.7645113468170166,
+        -0.07999999821186066,
+        0.11018192768096924
+      ],
+      "max": [
+        -1.1513603925704956,
+        0.20173022150993347,
+        0.5885181427001953
+      ],
+      "materials": [
+        "Atmosphere02 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere03",
+      "vertices": 2811,
+      "min": [
+        1.0429999828338623,
+        -0.07999999821186066,
+        0.19754749536514282
+      ],
+      "max": [
+        1.7370033264160156,
+        0.2026907354593277,
+        0.7215690016746521
+      ],
+      "materials": [
+        "Atmosphere03 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere04",
+      "vertices": 2811,
+      "min": [
+        -1.2256230115890503,
+        -0.07999999821186066,
+        -0.02076578699052334
+      ],
+      "max": [
+        -0.7570285201072693,
+        0.1868421733379364,
+        0.23855671286582947
+      ],
+      "materials": [
+        "Atmosphere04 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere05",
+      "vertices": 2811,
+      "min": [
+        0.7716673016548157,
+        -0.07999999821186066,
+        0.00030662983772344887
+      ],
+      "max": [
+        1.418339729309082,
+        0.1882157176733017,
+        0.3009999990463257
+      ],
+      "materials": [
+        "Atmosphere05 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere06",
+      "vertices": 2811,
+      "min": [
+        -1.3280400037765503,
+        -0.07999999821186066,
+        1.9189685583114624
+      ],
+      "max": [
+        -0.9737988114356995,
+        0.17000000178813934,
+        2.3435873985290527
+      ],
+      "materials": [
+        "Atmosphere06 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere07",
+      "vertices": 2811,
+      "min": [
+        0.7915449142456055,
+        -0.07999999821186066,
+        2.1853482723236084
+      ],
+      "max": [
+        1.1601284742355347,
+        0.17000000178813934,
+        2.6175804138183594
+      ],
+      "materials": [
+        "Atmosphere07 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere08",
+      "vertices": 2811,
+      "min": [
+        1.4709125757217407,
+        -0.07999999821186066,
+        1.6000216007232666
+      ],
+      "max": [
+        1.7209219932556152,
+        0.17000000178813934,
+        1.8477002382278442
+      ],
+      "materials": [
+        "Atmosphere08 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere09",
+      "vertices": 2811,
+      "min": [
+        1.4527748823165894,
+        -0.07999999821186066,
+        0.7507292628288269
+      ],
+      "max": [
+        1.8107109069824219,
+        0.17000000178813934,
+        1.0706102848052979
+      ],
+      "materials": [
+        "Atmosphere09 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    },
+    {
+      "name": "Atmosphere10",
+      "vertices": 2811,
+      "min": [
+        -1.8057152032852173,
+        -0.07999999821186066,
+        0.7427287697792053
+      ],
+      "max": [
+        -1.568670392036438,
+        0.17000000178813934,
+        0.9926103353500366
+      ],
+      "materials": [
+        "Atmosphere10 \u2022 continuous opaque watercolor"
+      ],
+      "uv": 1,
+      "morphs": []
+    }
+  ]
+}

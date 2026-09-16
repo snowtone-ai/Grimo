@@ -1,0 +1,363 @@
+{
+  "method": "historical vertex deformation; original topology, UVs, materials retained",
+  "status": "B trial; not Human approved; neutral only; no production GLB",
+  "source_sha256": "0871f077abadedb716bdfad5cc57b28e36803da1c868ce23d61ded38a5d2fc21",
+  "front_cage_pairs_source_and_approved_pixels": [
+    [
+      [
+        314,
+        8
+      ],
+      [
+        610,
+        137
+      ]
+    ],
+    [
+      [
+        184,
+        64
+      ],
+      [
+        337,
+        262
+      ]
+    ],
+    [
+      [
+        96,
+        181
+      ],
+      [
+        145,
+        576
+      ]
+    ],
+    [
+      [
+        116,
+        306
+      ],
+      [
+        166,
+        896
+      ]
+    ],
+    [
+      [
+        177,
+        365
+      ],
+      [
+        326,
+        1020
+      ]
+    ],
+    [
+      [
+        270,
+        380
+      ],
+      [
+        453,
+        1090
+      ]
+    ],
+    [
+      [
+        416,
+        376
+      ],
+      [
+        819,
+        1090
+      ]
+    ],
+    [
+      [
+        521,
+        334
+      ],
+      [
+        1080,
+        973
+      ]
+    ],
+    [
+      [
+        537,
+        267
+      ],
+      [
+        1100,
+        802
+      ]
+    ],
+    [
+      [
+        508,
+        150
+      ],
+      [
+        1000,
+        482
+      ]
+    ],
+    [
+      [
+        427,
+        51
+      ],
+      [
+        848,
+        211
+      ]
+    ],
+    [
+      [
+        375,
+        250
+      ],
+      [
+        503,
+        737
+      ]
+    ],
+    [
+      [
+        474,
+        216
+      ],
+      [
+        814,
+        737
+      ]
+    ],
+    [
+      [
+        431,
+        242
+      ],
+      [
+        653,
+        745
+      ]
+    ],
+    [
+      [
+        431,
+        265
+      ],
+      [
+        654,
+        824
+      ]
+    ],
+    [
+      [
+        430,
+        302
+      ],
+      [
+        650,
+        899
+      ]
+    ],
+    [
+      [
+        337,
+        264
+      ],
+      [
+        404,
+        802
+      ]
+    ],
+    [
+      [
+        512,
+        222
+      ],
+      [
+        914,
+        778
+      ]
+    ],
+    [
+      [
+        403,
+        182
+      ],
+      [
+        646,
+        592
+      ]
+    ],
+    [
+      [
+        304,
+        246
+      ],
+      [
+        362,
+        679
+      ]
+    ],
+    [
+      [
+        519,
+        186
+      ],
+      [
+        966,
+        682
+      ]
+    ],
+    [
+      [
+        218,
+        172
+      ],
+      [
+        356,
+        458
+      ]
+    ],
+    [
+      [
+        361,
+        137
+      ],
+      [
+        706,
+        477
+      ]
+    ],
+    [
+      [
+        314,
+        67
+      ],
+      [
+        624,
+        296
+      ]
+    ],
+    [
+      [
+        184,
+        287
+      ],
+      [
+        194,
+        621
+      ]
+    ],
+    [
+      [
+        443,
+        322
+      ],
+      [
+        646,
+        963
+      ]
+    ],
+    [
+      [
+        302,
+        332
+      ],
+      [
+        312,
+        922
+      ]
+    ]
+  ],
+  "objects": [
+    {
+      "name": "BodyWool",
+      "vertices": 17947,
+      "uv_before": "6f22b2954be86e26da86233b53a126c8472369df9f6bd53a541d2a0f31772a79",
+      "uv_after": "6f22b2954be86e26da86233b53a126c8472369df9f6bd53a541d2a0f31772a79",
+      "uv_preserved": true
+    },
+    {
+      "name": "ChestStar",
+      "vertices": 1537,
+      "uv_before": "dcf24e3ff04f83a3bf8be2fa49858794eb474ffb05f9e453d3428ebc904ab28d",
+      "uv_after": "dcf24e3ff04f83a3bf8be2fa49858794eb474ffb05f9e453d3428ebc904ab28d",
+      "uv_preserved": true
+    },
+    {
+      "name": "CrownStar",
+      "vertices": 1537,
+      "uv_before": "30ebdb4489edcc9fbc067fd2349097eaa524dbc0949cdf5738d2de00f33a917b",
+      "uv_after": "30ebdb4489edcc9fbc067fd2349097eaa524dbc0949cdf5738d2de00f33a917b",
+      "uv_preserved": true
+    },
+    {
+      "name": "EarOuterL",
+      "vertices": 4631,
+      "uv_before": "eb26f2ed5c86995a40d96bc7a1219aee18d432e35ee5491f102a7952db85c2e8",
+      "uv_after": "eb26f2ed5c86995a40d96bc7a1219aee18d432e35ee5491f102a7952db85c2e8",
+      "uv_preserved": true
+    },
+    {
+      "name": "EarOuterR",
+      "vertices": 4631,
+      "uv_before": "eb26f2ed5c86995a40d96bc7a1219aee18d432e35ee5491f102a7952db85c2e8",
+      "uv_after": "eb26f2ed5c86995a40d96bc7a1219aee18d432e35ee5491f102a7952db85c2e8",
+      "uv_preserved": true
+    },
+    {
+      "name": "Face",
+      "vertices": 28123,
+      "uv_before": "98ea6a208cf50f5ab0bc16564e821f4224dbdbedcc195eab5bb3ef22a3584fd6",
+      "uv_after": "98ea6a208cf50f5ab0bc16564e821f4224dbdbedcc195eab5bb3ef22a3584fd6",
+      "uv_preserved": true
+    },
+    {
+      "name": "HeadWool",
+      "vertices": 17175,
+      "uv_before": "58407d28bc31b684fb6bb0b0245736959310ff9b60bb7415a1420adc91b4bf4e",
+      "uv_after": "58407d28bc31b684fb6bb0b0245736959310ff9b60bb7415a1420adc91b4bf4e",
+      "uv_preserved": true
+    },
+    {
+      "name": "LowerStar",
+      "vertices": 1537,
+      "uv_before": "311ef3627575e78961bcb86021a5d73f5bd5e4c8f3890a59e022728b8162606a",
+      "uv_after": "311ef3627575e78961bcb86021a5d73f5bd5e4c8f3890a59e022728b8162606a",
+      "uv_preserved": true
+    },
+    {
+      "name": "Moon",
+      "vertices": 486,
+      "uv_before": "ca894e1e806b36a2ba2445d919a6a4cd3bf671b8b4b72218462096a4a3718300",
+      "uv_after": "ca894e1e806b36a2ba2445d919a6a4cd3bf671b8b4b72218462096a4a3718300",
+      "uv_preserved": true
+    },
+    {
+      "name": "TailWool",
+      "vertices": 5083,
+      "uv_before": "376e6f2c88dee138b55d95045f22fb7c3a42fd3cece5acf26758f48e42de9374",
+      "uv_after": "376e6f2c88dee138b55d95045f22fb7c3a42fd3cece5acf26758f48e42de9374",
+      "uv_preserved": true
+    },
+    {
+      "name": "TopStar",
+      "vertices": 1537,
+      "uv_before": "fd78fba57abab146c536ebfc91dcb052c7e0601ce5cacca282a728e25a701118",
+      "uv_after": "fd78fba57abab146c536ebfc91dcb052c7e0601ce5cacca282a728e25a701118",
+      "uv_preserved": true
+    },
+    {
+      "name": "WoolStar",
+      "vertices": 1537,
+      "uv_before": "e09a325db9e225c99bd2c48505d06bbcdbe368a31d74693a852c2851d7d84480",
+      "uv_after": "e09a325db9e225c99bd2c48505d06bbcdbe368a31d74693a852c2851d7d84480",
+      "uv_preserved": true
+    }
+  ]
+}

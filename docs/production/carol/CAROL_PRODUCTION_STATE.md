@@ -2,6 +2,29 @@
 
 ## Current phase
 
+Carol **v005 A/B method comparison** is available on
+`codex/carol-zero-based-hero-geometry-v005`. The zero-based attempt is frozen as
+`carol-a-v005.blend`. Under the user's subsequent explicit instruction, B reuses
+and deforms the recovered historical mesh, preserving its UVs and paint, and is
+saved as `carol-b-v005.blend`. This exception applies only to B.
+
+**The approved hero geometry master is NOT complete.** Agent visual recommendation
+is FAIL for both; Human comparison is pending. A retains unresolved fleece/face/
+ear geometry and missing motifs. B retains side stretching, part intersections
+and no independent four legs. Chrome comparison shows A, B and unmodified old
+source with common cameras. The exact historical accepted binary is still not
+established; the shown source is identified by commit and SHA-256.
+
+- [v005 A/B packet and reopen instructions](evidence/hero-geometry-v005/README.md)
+- A: `assets/grimo/production/carol/blender/carol-a-v005.blend`
+- B: `assets/grimo/production/carol/blender/carol-b-v005.blend`
+- Recovered source: `assets/grimo/source/carol/historical/carol-15bfa8e-reference.glb`
+- Local page: `http://127.0.0.1:3016/` while its dedicated server runs.
+- Next: **HUMAN**, construction-direction/source comparison only. No final
+  geometry approval, automatic rigging, production export or runtime integration.
+
+### Previous v004 submission
+
 Carol Structural Blockout **v004** is submitted for **HUMAN Geometry Gate** on
 `codex/carol-structural-blockout-v004`, based on latest pushed v003 `d2b5ddc`.
 V003 received explicit Human FAIL. V004 Human review is PENDING; agent supporting
