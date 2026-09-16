@@ -2,13 +2,29 @@
 
 ## Current phase
 
-Carol Structural Blockout **v003** is submitted for **HUMAN Gate** on
-`codex/carol-structural-blockout-v003`, based on v002 commit `9ba1a18`.
-The historical continuous-relief principle has been transferred to the full
-3D shell. Human visual acceptance remains pending; historical beauty quality
-has not been certified. No main merge or automatic rigging advancement.
+Carol Structural Blockout **v004** is submitted for **HUMAN Geometry Gate** on
+`codex/carol-structural-blockout-v004`, based on latest pushed v003 `d2b5ddc`.
+V003 received explicit Human FAIL. V004 Human review is PENDING; agent supporting
+review is FAIL for full canonical-quality convergence after three iterations.
+Face/eye/ear identity improved, but pillow-like side regions, repetitive valleys,
+a lower band and simplified facial features remain. No main merge or automatic
+rigging advancement.
 
-### Current v003 artifacts
+### Current v004 artifacts
+
+- Source: `assets/grimo/production/carol/blender/carol-blockout-v004.blend`
+- Generator: `scripts/blender/build-carol-v004.py`; extracted design data:
+  `scripts/blender/carol-v004-reference-data.json`
+- Evidence, provenance and three-loop QA: [v004 review packet](evidence/blockout-v004/README.md)
+- Historical restore source `15bfa8e` was inspected and captured before modeling;
+  direct old-page captures are distinguished from reconstructed diagnostics.
+- Saved fleece: one closed connected surface, 328,540 triangles, positive volume,
+  finite coordinates and zero detected nonadjacent triangle intersections.
+  Four supports/hooves, chassis and tuft match v003 by mesh hash/world matrix.
+- Canonical/approved images and v003 assets/evidence remain unchanged. No rig,
+  Actions, shape keys, production GLB export or runtime integration.
+
+### Previous v003 artifacts
 
 - Source: `assets/grimo/production/carol/blender/carol-blockout-v003.blend`
 - Generator: `scripts/blender/build-carol-v003.py`
@@ -24,7 +40,9 @@ has not been certified. No main merge or automatic rigging advancement.
 
 ## Human Gates
 
-- Blockout v003: **PENDING**. See the current packet above.
+- Blockout v004: **PENDING**. Agent supporting review: **FAIL** for full visual
+  convergence. See the current packet above.
+- Blockout v003: **FAIL**, explicit user instruction, 2026-09-16.
 
 - Initial geometry interpretation: **CONDITIONAL PASS**, 2026-09-16; G1–G5
   accepted in principle.
@@ -97,7 +115,7 @@ not be distorted to hit occupancy numbers.
 ## Routing
 
 - Current task: explicit Astra visual/spatial refinement, no subagents.
-- Next handoff: **HUMAN**, using `prompt.md` and the v002 evidence packet.
+- Next handoff: **HUMAN**, using `prompt.md` and the v004 evidence packet.
 - Review identity, silhouette, cloud hierarchy, embedding, ears, low chassis,
   supports, rear/tuft, motifs, off-axis consistency and Full/Close feasibility.
 - Rigging, topology lock, animation, export and runtime work require separate

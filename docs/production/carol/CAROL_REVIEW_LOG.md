@@ -61,3 +61,23 @@ Durable chronological record of geometry and production Human Gates. Do not pre-
   historical beauty equivalence and deformation are not established.
 - Next owner: **HUMAN**, judge identity/continuity and regions needing revision.
   No main merge, rigging or runtime work follows automatically.
+
+## 2026-09-16 — v003 Human FAIL; v004 submitted
+
+- V003: explicit Human FAIL in the v004 recovery request.
+- V004: **Human PENDING; agent supporting FAIL for full visual convergence**.
+- Historical restore source `15bfa8e` and actual page were inspected/captured
+  before modeling. Source traces and feature relationships were extracted;
+  direct captures and reconstructed diagnostics are labeled separately.
+- Three geometry correction loops recovered angled face/eyes and independent
+  ears; repaired rear radial fluting and concealed chassis; improved forehead
+  overlap and medium side relief. Canonical fleece rhythm remains incomplete.
+- Remaining: pillow-like side, repetitive dimples, conspicuous lower band,
+  exposed left ear root, raised eye details and simplified mouth.
+- Saved/reopened model: one closed connected fleece, 328,540 triangles,
+  positive volume, finite coordinates, zero detected nonadjacent intersections.
+  Chassis/supports/hooves/tuft and prior canonical/v003 evidence preserved.
+- Evidence: [v004 review packet](evidence/blockout-v004/README.md), including
+  face, ear, fleece, full and clay comparisons and causal three-loop QA.
+- Next owner: **HUMAN Geometry Gate**. No main merge, rigging, animation,
+  production GLB export or runtime integration.

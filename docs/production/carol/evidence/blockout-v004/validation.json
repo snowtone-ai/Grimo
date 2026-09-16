@@ -1,0 +1,409 @@
+{
+  "version": 4,
+  "pass": 3,
+  "baselineCommit": "d2b5ddc5a3e225469a432360ad202ca3cade62bb",
+  "checks": {
+    "supports": [
+      "Carol_Support_1",
+      "Carol_Support_2",
+      "Carol_Support_3",
+      "Carol_Support_4"
+    ],
+    "armatures": 0,
+    "actions": 0,
+    "shapeKeys": 0,
+    "rearTuftIndependent": true,
+    "fleeceConnectedComponents": 1,
+    "fleeceClosedVolume": true,
+    "boundsXYZ": {
+      "Carol_Fleece_Continuous": {
+        "min": [
+          -1.831101655960083,
+          -1.5733205080032349,
+          0.25032883882522583
+        ],
+        "max": [
+          1.7117235660552979,
+          1.8807871341705322,
+          2.985541343688965
+        ]
+      },
+      "Carol_Face": {
+        "min": [
+          0.09359999746084213,
+          -1.4800000190734863,
+          0.9148494005203247
+        ],
+        "max": [
+          1.3536338806152344,
+          -1.0199999809265137,
+          1.804752230644226
+        ]
+      },
+      "Carol_Rear_Tuft": {
+        "min": [
+          -0.3363519012928009,
+          1.2543590068817139,
+          0.7622697353363037
+        ],
+        "max": [
+          0.33606263995170593,
+          2.035616874694824,
+          1.456480860710144
+        ]
+      },
+      "Carol_Chassis_Hidden": {
+        "min": [
+          -0.9200005531311035,
+          -0.9400002956390381,
+          0.33000001311302185
+        ],
+        "max": [
+          0.9200002551078796,
+          1.18000066280365,
+          1.1299999952316284
+        ]
+      }
+    },
+    "reviewCameras": [
+      "front-perspective",
+      "front-orthographic",
+      "three-quarter",
+      "side",
+      "back",
+      "silhouette",
+      "clay"
+    ],
+    "allRendersUncropped": true,
+    "finiteGeometry": true,
+    "v003ProtectedStructureUnchanged": true,
+    "savedBlendReopened": true
+  },
+  "preservedHashes": {
+    "assets\\grimo\\production\\carol\\blender\\carol-blockout-v003.blend": "173da86094af894b85bdc41d9422a63c1c7078604b25d99721bab02d32a8d441",
+    "assets\\grimo\\source\\app-icon.png": "5597a9eb30ae81667f033698dd11c1992e5d1b830fbb6b21a16440ca43e0e37e",
+    "assets\\grimo\\source\\carol\\carol-Identity-canonical.png": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce",
+    "assets\\grimo\\source\\jill\\jill-Identity-canonical.png": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15",
+    "assets\\grimo\\source\\pino\\pino-Identity-canonical.png": "a3dd36ce1a186f68bca9a249e12d9bfe139b19c610d64b5eaf395856ade69fb7",
+    "assets\\grimo\\source\\shushu\\shushu-Identity-canonical.png": "21af6792b572caa06b2c5cfcfcc7e1f9e859fbf78a716e6755aaf25c7594cb10",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-3d-production-canonical-sheet.png": "fc0e205aa2f4230e3372740bd5aa16fe511efe4c387a7658a0fe3d7b7fb9ffb3",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-back-ortho-transparent.png": "27282d961b942ce6b4d39f4bc7e8dab1e6972e7443bbc667e635b0e16e206e98",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-front-ortho-transparent.png": "fd2d2a7b5fb5d3c9cb1353a83eaab1888de557b759dcd348dd16a3cb3ce280b4",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-side-ortho-transparent.png": "870d4864d55c5f7d8938cdfa2cc1a8a1c3a38a7107a529a6d260b5a56093ae0e",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol-top-plan-transparent.png": "0d63d4e66c5034cda7b8b5ae9fbf9bcdb0f30573d121afe13537ae7a7576400f",
+    "docs\\production\\carol\\evidence\\blockout-v003\\carol-v003-back.png": "c4ad373ce7bcbdc6972644681f154598bee96cdfaaf556a6c85f58f3a7df2613",
+    "docs\\production\\carol\\evidence\\blockout-v003\\carol-v003-clay.png": "0f96e719b0f7c87f8d462d43a7b3a2b49ffcb87c66ab728299825f82814958d6",
+    "docs\\production\\carol\\evidence\\blockout-v003\\carol-v003-front-orthographic.png": "fc86191ee3563341d7ab9594c458509d79a5015bb57eb641f4a590235f8450e3",
+    "docs\\production\\carol\\evidence\\blockout-v003\\carol-v003-front-perspective.png": "cdcd44b74caed63daa4c0006ff1cf4f298de9eb4005036315af96882c15270e7",
+    "docs\\production\\carol\\evidence\\blockout-v003\\carol-v003-side.png": "e2f31dec3b57c6ea3ab1f7424f2bb3de1fa6f8e1211c7c8685a7e135b85f75df",
+    "docs\\production\\carol\\evidence\\blockout-v003\\carol-v003-silhouette.png": "0ec21bf5eadbdfaebf647ea17ded336518b9a81f4dd171496cf2b6da1471a2a7",
+    "docs\\production\\carol\\evidence\\blockout-v003\\carol-v003-three-quarter.png": "b79646dfe91de68478fc0cd4b2bf3bb7a34ff25b46580ea0f98974a7d47e5adb",
+    "docs\\production\\carol\\evidence\\blockout-v003\\clay-comparison.png": "dace01ac0bcec73d947dfe7d53b199171b34a3d27335450ddc031014ec2910bc",
+    "docs\\production\\carol\\evidence\\blockout-v003\\front-at-320.png": "24460eb85eca8b75f6f0f2b0989b7d7e1394ddddf7156e2412c6c4762ead682c",
+    "docs\\production\\carol\\evidence\\blockout-v003\\historical-fleece-excerpt.txt": "6282b553b3003ecf94b3e74d8073454da149fce68e7b937294c9e36f64ac4e96",
+    "docs\\production\\carol\\evidence\\blockout-v003\\historical-provenance.json": "a6bf294346ba5370f5408a4b9693631d3de5940a3de6f675b24ace526ba8b6f9",
+    "docs\\production\\carol\\evidence\\blockout-v003\\historical-relief-screenshot.png": "835792a0ee896d94d25641942e84ea562044a37620736ba5058a9c24123c6bd6",
+    "docs\\production\\carol\\evidence\\blockout-v003\\image-metrics.json": "1e8a07057887bf3fa3b7419fc97197b71601e0f6f3122c7ea0ad53f86ae3e680",
+    "docs\\production\\carol\\evidence\\blockout-v003\\iteration-board.png": "c9a4e02224912d832c7fa565eedb68525719da26ecee05f085d3867bfae25080",
+    "docs\\production\\carol\\evidence\\blockout-v003\\README.md": "323e779ec8878f6e00f06d480104fafd70e48cbcf9471c823c5b36b99d275f31",
+    "docs\\production\\carol\\evidence\\blockout-v003\\review-board.png": "3b6ebe7f4a7ade0ff95ff072037643474275250b23e4aa1e1e9480a8593ef553",
+    "docs\\production\\carol\\evidence\\blockout-v003\\surface-validation.json": "f9a9d751f2d7088ac5a5cac42a52b5a2e9ebb0737417777b1c2324f227fb00e5",
+    "docs\\production\\carol\\evidence\\blockout-v003\\validation.json": "9f4330125e18c17d7d4d44c65771e685738dab134d93c4e5e4f6f262632dc4ed"
+  },
+  "protectedStructure": {
+    "Carol_Chassis_Hidden": {
+      "mesh": "06d216c0bc3a8b44302840e3579406a4ae44e1f1c7ba7262858963475a21a996",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.11999999731779099
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.7300000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Hoof_1": {
+      "mesh": "37e9bb08444b8635f8cf6dc786773c62a847b2c31d2dbcf45042503b3f8b4538",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6800000071525574
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7250000238418579
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.20000000298023224
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Hoof_2": {
+      "mesh": "37e9bb08444b8635f8cf6dc786773c62a847b2c31d2dbcf45042503b3f8b4538",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6800000071525574
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7250000238418579
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.20000000298023224
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Hoof_3": {
+      "mesh": "37e9bb08444b8635f8cf6dc786773c62a847b2c31d2dbcf45042503b3f8b4538",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.20000000298023224
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Hoof_4": {
+      "mesh": "37e9bb08444b8635f8cf6dc786773c62a847b2c31d2dbcf45042503b3f8b4538",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.20000000298023224
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Rear_Tuft": {
+      "mesh": "4f72a3ee75cbeb5389ec6de392c75f55cb57eb4123eab9cd4a41a719fe7aef3b",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.4299999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0199999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Support_1": {
+      "mesh": "3d43c6d5778f32a819181bb0c53b8e3206da45116e2cf4e4b6551633de7598d8",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.6800000071525574
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6899999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.4300000071525574
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Support_2": {
+      "mesh": "3d43c6d5778f32a819181bb0c53b8e3206da45116e2cf4e4b6551633de7598d8",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6800000071525574
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6899999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.4300000071525574
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Support_3": {
+      "mesh": "3d43c6d5778f32a819181bb0c53b8e3206da45116e2cf4e4b6551633de7598d8",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.9100000262260437
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.4300000071525574
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "Carol_Support_4": {
+      "mesh": "3d43c6d5778f32a819181bb0c53b8e3206da45116e2cf4e4b6551633de7598d8",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.7300000190734863
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.9100000262260437
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.4300000071525574
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "blendSha256": "8f6f0b64bf81ce591856d46359b7d827c6a9f6403b70884c8677d461023f6c19",
+  "generatorSha256": "2bf7b38551d510fa8d85d7d1e44da76043d9c587ce36b1e51dfbd140f0e59f0e",
+  "dataSha256": "77cc62f93f134eb108c9de3bb0d5b12285db532783bd385fb9e9c2426b81c5a4",
+  "status": "HUMAN Geometry Gate pending"
+}

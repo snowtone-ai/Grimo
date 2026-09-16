@@ -1,0 +1,109 @@
+{
+  "label": "user-designated historical visual benchmark",
+  "repository": "snowtone-ai/grimoire",
+  "branch": "codex/restore-carol-3d-check",
+  "commit": "15bfa8e4c3a8ba24c246fe806bd125b307d8f076",
+  "exactFinalAcceptedBinaryProven": false,
+  "sourceFiles": {
+    "scripts/grimo/build-carol-reference.py": "26e34c1ff4ad5b3d22dbe4c80b3383159fc683551699fbe0ab402f5c25536c26",
+    "scripts/grimo/build-carol-3d.py": "0fcea7007cc143259b34e902e6b4c5fc22a37076e79d3f04608e474d7d36973c",
+    "src/components/grimo/carol-3d-screen.tsx": "d01e375e97eb11a12660a550320a141f6bf87985fd5d6187e3a097debe64b315",
+    "src/components/grimo/carol-review-controls.tsx": "9537d154e06c9d5e36ac2870af590f5695069275fca6cebaae41bccf8421dbb0",
+    "src/components/grimo/carol-3d-world.ts": "2eb3afd00d632728eb2623d62683c1fa97a4cb90a3d1342f5baf62d00b14928d",
+    "public/grimo/carol-3d/carol.glb": "0871f077abadedb716bdfad5cc57b28e36803da1c868ce23d61ded38a5d2fc21",
+    "assets/grimo/source/carol-transparent.png": "a1a2ec59f62d4a799a7e891d44990489519ad38b03cfed125d1dff137c75fb81"
+  },
+  "builderUsedAsBlueprint": "scripts/grimo/build-carol-reference.py",
+  "genericContrastOnly": "scripts/grimo/build-carol-3d.py",
+  "historicalGLB": "public/grimo/carol-3d/carol.glb",
+  "directCapture": {
+    "url": "http://localhost:3000/plant/carol-3d",
+    "localCheckout": "task-plant-carol3d",
+    "files": [
+      "historical-page-front.png",
+      "historical-page-original.png",
+      "historical-page-slight-three-quarter.png"
+    ],
+    "capturedBeforeModeling": true,
+    "closeups": "Crops of the original pre-modeling front screenshot.",
+    "slightYawRadians": 0.12,
+    "renderer": {
+      "camera": "Orthographic",
+      "alpha": false,
+      "exposure": 1.15,
+      "toneMapping": "ACESFilmic",
+      "output": "sRGB",
+      "hemisphere": [
+        "#eff3ff",
+        "#afa6c2",
+        1.5
+      ],
+      "key": [
+        "#fff1db",
+        2,
+        [
+          -3,
+          6,
+          5
+        ]
+      ],
+      "rim": [
+        "#c2ceff",
+        2,
+        [
+          3,
+          3,
+          -4
+        ]
+      ],
+      "materialToneMapped": false,
+      "scaleFormula": "No model scale normalization; source geometry uses .007 BU/pixel. halfHeight=max(2.32,2.12/aspect)*distance/8.8; aim=(0,1.38,0)."
+    }
+  },
+  "reconstructedDiagnostic": {
+    "files": [
+      "canonical-benchmark-front.png",
+      "historical-benchmark-neutral-front.png",
+      "v003-benchmark-front.png",
+      "v004-benchmark-front.png"
+    ],
+    "renderer": "carol-v004-diagnostic.html; requested transparent ACES/sRGB exposure 1.65, warm key/cool rim/pink fill; not the renderer found at the verified HEAD.",
+    "historicalMaterialHandling": "Original GLB materials/textures; toneMapped=false and opaque textured Basic materials as in actual world source. DoubleSide and maximum texture anisotropy for diagnostics. Morph influences zero for neutral comparison.",
+    "camera": {
+      "orthoWidth": 5.5,
+      "orthoHeight": 4.5,
+      "position": [
+        0,
+        1.55,
+        9
+      ],
+      "target": [
+        0,
+        1.55,
+        0
+      ],
+      "canvas": [
+        1100,
+        900
+      ]
+    },
+    "registration": "Historical glTF scaleX=.0072/.007, position=(.0936,.272,0); v003/v004 convert Blender (X,Y,Z) to (X,Z,-Y). Canonical uses the identical source rectangle. No per-model bbox fit.",
+    "canonicalResolution": [
+      768,
+      493
+    ],
+    "historicalSourceResolution": [
+      624,
+      400
+    ],
+    "sourceResizeAspectDifferencePercent": 0.14042752379467283
+  },
+  "limitations": [
+    "Not proven to be the exact 2026-09-10 accepted binary.",
+    "Builder and checked-in binary can differ; no historical rebuild was used.",
+    "Historical source paints eyes, mouth, inner ears and fleece detail. Extraction explicitly distinguishes source landmarks from new measured approximations.",
+    "Historical obsolete lateral tail and atmosphere remain visible only in benchmark; not ported to v004.",
+    "Source illustration is a posed three-quarter composition; its transfer into a neutral Full-3D front remains a Human judgment.",
+    "Historical styling and production clay cannot certify the same material or geometry quality."
+  ]
+}

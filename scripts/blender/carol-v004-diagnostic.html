@@ -1,0 +1,55 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>Carol v004 — diagnostic comparison</title>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<body style="margin:0;background:#edf0f5;font:15px system-ui;color:#27314a">
+<nav style="height:48px;display:flex;gap:12px;align-items:center;padding:0 18px">
+<label>Source <select id="source"><option>canonical</option><option>historical</option><option>v003</option><option selected>v004</option></select></label>
+<label>Yaw <input id="yaw" type="range" min="-180" max="180" value="0"></label>
+<label><input id="clay" type="checkbox"> Clay</label>
+<span id="status">Loading…</span></nav>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(1);renderer.setSize(1100,900);renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.65;
+document.body.appendChild(renderer.domElement);
+const scene=new THREE.Scene(), camera=new THREE.OrthographicCamera(-2.75,2.75,2.25,-2.25,.1,60);
+camera.position.set(0,1.55,9);camera.lookAt(0,1.55,0);
+scene.add(new THREE.HemisphereLight('#ffffff','#6b6290',1.75));
+for(const [color,power,pos] of [['#fff0dc',3.2,[4.2,5.2,5.6]],['#9db5ff',1.8,[-4,3,-2.8]],['#ffc7dd',1.15,[.4,1.4,-4.2]]]){
+ const l=new THREE.DirectionalLight(color,power);l.position.set(...pos);scene.add(l);
+}
+const groups={}, mats=new Map(), clay=new THREE.MeshStandardMaterial({color:'#969696',roughness:1,side:THREE.DoubleSide});
+const loader=new GLTFLoader(); const gltf=await loader.loadAsync('/legacy.glb');
+// Same canonical coordinate registration for every source; no per-version bbox fitting.
+groups.historical=gltf.scene;gltf.scene.scale.x=.0072/.007;gltf.scene.position.set(.0936,.272,0);
+gltf.scene.traverse(o=>{if(o.isMesh){if(o.morphTargetInfluences)o.morphTargetInfluences.fill(0);for(const m of (Array.isArray(o.material)?o.material:[o.material])){
+ m.side=THREE.DoubleSide;m.toneMapped=false;
+ if(m.isMeshBasicMaterial&&m.map){m.transparent=false;m.alphaTest=0;m.alphaToCoverage=false;m.depthWrite=true;}
+ if(m.map)m.map.anisotropy=renderer.capabilities.getMaxAnisotropy();
+}}});
+for(const version of ['v003','v004']){
+ const entries=await (await fetch('/'+version+'-mesh.json')).json();const group=new THREE.Group();
+ for(const e of entries){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(e.positions.flatMap(([x,y,z])=>[x,z,-y]),3));
+ g.setIndex(e.triangles.flat());g.computeVertexNormals();const m=new THREE.MeshStandardMaterial({color:new THREE.Color().setRGB(...e.color.slice(0,3)),roughness:.8,side:THREE.DoubleSide});
+ const mesh=new THREE.Mesh(g,m);mesh.name=e.name;group.add(mesh);}groups[version]=group;
+}
+const tex=await new THREE.TextureLoader().loadAsync('/canonical.png');tex.colorSpace=THREE.SRGBColorSpace;
+const canon=new THREE.Mesh(new THREE.PlaneGeometry(624*.0072,400*.007),new THREE.MeshBasicMaterial({map:tex,transparent:true,toneMapped:false,depthWrite:false}));
+canon.position.set((312-324)*.0072,.37+(380-200)*.007,1.7);groups.canonical=canon;
+for(const g of Object.values(groups)){scene.add(g);g.traverse(o=>{if(o.isMesh)mats.set(o,o.material);});}
+function draw(){
+ const key=document.getElementById('source').value, yaw=Number(document.getElementById('yaw').value), useClay=document.getElementById('clay').checked;
+ for(const [name,g] of Object.entries(groups)){g.visible=name===key;}
+ for(const [o,m] of mats)o.material=useClay&&key!=='canonical'?clay:m;
+ const a=yaw*Math.PI/180;camera.position.set(Math.sin(a)*9,1.55,Math.cos(a)*9);camera.lookAt(0,1.55,0);renderer.render(scene,camera);
+ document.getElementById('status').textContent=key+' / '+yaw+'° / diagnostic reconstruction';document.body.dataset.ready='true';
+}
+for(const id of ['source','yaw','clay'])document.getElementById(id).addEventListener('input',draw);
+let down=null;renderer.domElement.addEventListener('pointerdown',e=>{down=e.clientX;renderer.domElement.setPointerCapture(e.pointerId);});
+renderer.domElement.addEventListener('pointermove',e=>{if(down===null)return;const v=document.getElementById('yaw');v.value=Math.max(-180,Math.min(180,Number(v.value)+(e.clientX-down)*.3));down=e.clientX;draw();});
+renderer.domElement.addEventListener('pointerup',()=>down=null);draw();
+</script>

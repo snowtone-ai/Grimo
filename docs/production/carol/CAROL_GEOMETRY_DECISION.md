@@ -284,3 +284,24 @@ four-support proposal and a limited coordinate-only lift estimate, not a tested
 COM/deformation envelope. U8's absence-of-blockout premise is historical; v001
 and v002 now exist, while production projection/portrait framing remain open.
 U9 remains a later motion-specification issue.
+
+## 15. V004 canonical-trace recovery — 2026-09-16
+
+The explicit v004 request authorizes rebuilding visible face, eyes, ears and
+fleece from restore source `15bfa8e`, while retaining v003 Full-3D anatomy.
+BODY_OUTLINE, FACE, independent EAR_L/EAR_R, HEAD and BODY/HEAD lock fields
+are extracted as reproducible design data and mapped through normalized source
+coordinates. Painted feature approximations are labeled separately from authored
+geometry. Historical shallow depth, lateral tail, paint and morphs are not
+transplanted into production structure.
+
+Three geometry iterations improved source-relative face/eye/ear relationships
+and replaced the rear oval. The final side still reads too much like a pillow;
+repetitive front valleys, a lower band and simplified face details remain.
+Agent supporting review: **FAIL for full canonical-quality convergence**.
+Human result: **PENDING**. No fourth correction loop or rigging advancement.
+
+The saved fleece is closed and connected, with finite coordinates, positive
+volume and zero detected nonadjacent triangle intersections. Protected four
+supports/hooves, low chassis and rear tuft match v003. These checks do not prove
+visual acceptance or deformation readiness. See the [v004 packet](evidence/blockout-v004/README.md).
