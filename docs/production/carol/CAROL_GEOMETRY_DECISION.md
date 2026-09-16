@@ -41,19 +41,22 @@ calibration. Do not promote a plausible sheep body into identity authority.
 ## 2. Evidence actually inspected
 
 All paths below are repository-relative. Image observations are direct visual
-inspection of the six PNGs, not deductions from their filenames. The five
-packet files were also checked against their manifest SHA-256 values: **5/5
-matched**. That establishes file identity, not geometric consistency.
+inspection of the seven approved packet PNGs, not deductions from their
+filenames. The seven packet files were also checked against their manifest
+SHA-256 values: **7/7 matched**. That establishes file identity, not geometric
+consistency.
 
 | ID | Source | Authority / inspected scope |
 |---|---|---|
-| I | [Identity canonical](../../../assets/grimo/source/carol/carol-Identity-canonical.png) | Highest visible identity authority; full image |
-| A | [authority.json](../../../assets/grimo/source/carol/approved-3d/authority.json) | Schema/version 1; packet and all five entries marked approved; visible identity precedence explicit |
+| I | [Identity canonical](../../../assets/grimo/source/carol/carol-Identity-canonical.png) | Identity, color, motifs and appeal reference; not a geometry override |
+| A | [authority.json](../../../assets/grimo/source/carol/approved-3d/authority.json) | Schema/version 2; six individual production views are the highest geometry authority |
 | S | [Production sheet](../../../assets/grimo/source/carol/approved-3d/carol-3d-production-canonical-sheet.png) | Large posed view, small turn views, eye/ear/motif details, gray chassis and partial fleece cutaway |
 | F | [Front reference](../../../assets/grimo/source/carol/approved-3d/carol-front-ortho-transparent.png) | Frontal face, fleece, ears, motifs and visible feet |
 | P | [Side reference](../../../assets/grimo/source/carol/approved-3d/carol-side-ortho-transparent.png) | Face toward image-left; body depth, short feet and rear cloud appendage |
 | B | [Back reference](../../../assets/grimo/source/carol/approved-3d/carol-back-ortho-transparent.png) | Rear fleece, central cloud appendage, ears, motifs and visible feet |
 | T | [Top-plan reference](../../../assets/grimo/source/carol/approved-3d/carol-top-plan-transparent.png) | Long cloud outline, ears, motifs and terminal cloud lobes; no axis labels |
+| L | [Left 3/4 reference](../../../assets/grimo/source/carol/approved-3d/carol-front-3q-left.png) | Left-side oblique face, ear-root/head connection, facial and body depth, fleece volume and fore/aft limb placement |
+| R | [Right 3/4 reference](../../../assets/grimo/source/carol/approved-3d/carol-front-3q-right.png) | Right-side oblique face, ear-root/head connection, facial and body depth, fleece volume and fore/aft limb placement |
 | C | [Camera contract](CAROL_CAMERA_CONTRACT.md) | Front-facing companion; all numeric calibration pending |
 | M | [Modeling contract](CAROL_MODELING_CONTRACT.md) | Sacred identity, conditional hidden-geometry authority and production boundary |
 | V | [Carol MVP Motion Spec](../../grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md) | §§0–2, 7, 9–25, 30–32: local acting, support, face/fleece capability, anchors, gates and open envelopes |
@@ -68,8 +71,29 @@ constraints; Pokémon poses, timing and anatomy supply no geometry shortcut.
 Confidence terms: **High** = clearly visible or explicitly required; **Medium**
 = supported interpretation with occlusion/view ambiguity; **Low / pending** =
 not sufficiently constrained. Confidence never substitutes for approval.
-Image-left/right below always means the viewer's image coordinates. Anatomical
-left/right has not been assigned to the asymmetric motif map.
+Image-left/right below always means the viewer's image coordinates. The new
+3/4 filenames use anatomical side as viewed from the corresponding front
+oblique: the image with the face toward image-right is `left`, and the image
+with the face toward image-left is `right`, consistent with the supplied Side
+reference. Anatomical left/right has not been assigned to the asymmetric motif
+map.
+
+### Geometry authority rule
+
+For all Carol 3D geometry, volume, proportion, depth, and part placement, the
+approved individual production views are the highest authority, in the set
+Front / Side / Back / Top / Left 3/4 / Right 3/4. Side and both 3/4 views must
+be consulted with Front when determining the face and body volume; flattening
+the face from Front alone is prohibited. The 3/4 views are formal evidence for
+facial front-to-back thickness, muzzle/cheek/forehead volume, eye-to-face depth,
+ear-root/head connection, fleece-to-face ordering, body depth, fore/aft limb
+placement, and total fleece volume.
+
+`carol-Identity-canonical.png` remains an identity, color, motif, and appeal
+reference. It must not be used to reverse-engineer or override concrete 3D
+depth, thickness, volume, or part placement when it conflicts with the six
+approved individual production views. `carol-3d-production-canonical-sheet.png`
+is supplementary and also yields to those six individual views.
 
 ## 3. Canonical observations and sacred identity
 
@@ -244,7 +268,7 @@ these blanks into permission to guess.
 | Approved 3/4 reference | S posed/turn views directly viewed; source evidence only |
 | Approved side/back/top references | P/B/T directly viewed; orientation/consistency limits recorded |
 | New matched canonical/front capture | **Not produced**; no model or calibrated camera |
-| New 3/4, side and back captures | **Not produced** |
+| New 3/4, side and back captures | The approved individual views in `authority.json` are the current geometry authority; do not replace them with Identity-canonical-derived shape assumptions. |
 | New isolated silhouette capture | **Not produced**; observations use reference outlines |
 | New clay capture | **Not produced**; S's gray chassis diagram is not our model or a passing clay render |
 | Deformation / animation / runtime evidence | **Not produced**, outside this task |

@@ -1,8 +1,9 @@
 {
   "schema": "grimo.carol.approved-3d-authority",
-  "version": 1,
+  "version": 2,
   "approvalStatus": "approved",
-  "identityAuthorityNote": "The existing carol-Identity-canonical.png remains the higher authority for visible identity. These approved 3D references govern approved hidden/off-axis geometry only when they do not conflict with visible identity.",
+  "geometryAuthorityRule": "For Carol 3D geometry, volume, proportion, depth, and part placement, the approved individual production views below are the highest authority: front, side, back, top, left three-quarter, and right three-quarter. Use Side and both three-quarter views together with Front when determining facial and body volume; never flatten the face from the Front view alone.",
+  "identityAuthorityNote": "carol-Identity-canonical.png remains a reference for Carol's identity, color, motif, and appeal. It must not be used to override the approved individual production views when they conflict on concrete 3D depth, thickness, volume, or part placement. The production canonical sheet is supplementary and yields to the individual approved views when they conflict.",
   "references": [
     {
       "path": "assets/grimo/source/carol/approved-3d/carol-3d-production-canonical-sheet.png",
@@ -33,6 +34,20 @@
       "sha256": "0D63D4E66C5034CDA7B8B5AE9FBF9BCDB0F30573D121AFE13537AE7A7576400F",
       "role": "top_plan",
       "approvalStatus": "approved"
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol-front-3q-left.png",
+      "sha256": "2D6DBD1728034ADA0A213EBDA168503DBA81C2C836F9EE0E6CBB88646234A9FE",
+      "role": "front_three_quarter_left",
+      "approvalStatus": "approved",
+      "geometryScope": ["facial_depth", "muzzle_cheek_forehead_volume", "eye_face_depth", "ear_root", "fleece_volume", "body_depth", "limb_fore_aft_placement"]
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol-front-3q-right.png",
+      "sha256": "1EDE4FD39585259745CD73616A03238E6E60F0202A2A0409D278F2F1A21F31F9",
+      "role": "front_three_quarter_right",
+      "approvalStatus": "approved",
+      "geometryScope": ["facial_depth", "muzzle_cheek_forehead_volume", "eye_face_depth", "ear_root", "fleece_volume", "body_depth", "limb_fore_aft_placement"]
     }
   ]
 }
