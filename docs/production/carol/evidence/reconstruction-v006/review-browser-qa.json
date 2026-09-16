@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "scope": "Review UI only; not character acceptance",
+  "checks": [
+    {
+      "view": "front",
+      "images": [
+        {
+          "role": "reference",
+          "visible": [
+            "front-reference.png"
+          ]
+        },
+        {
+          "role": "render",
+          "visible": [
+            "front-clay.png"
+          ]
+        },
+        {
+          "role": "old",
+          "visible": [
+            "front-old.png"
+          ]
+        }
+      ]
+    },
+    {
+      "view": "side",
+      "images": [
+        {
+          "role": "reference",
+          "visible": [
+            "side-reference.png"
+          ]
+        },
+        {
+          "role": "render",
+          "visible": [
+            "side-clay.png"
+          ]
+        },
+        {
+          "role": "old",
+          "visible": [
+            "side-old.png"
+          ]
+        }
+      ]
+    },
+    {
+      "view": "back",
+      "images": [
+        {
+          "role": "reference",
+          "visible": [
+            "back-reference.png"
+          ]
+        },
+        {
+          "role": "render",
+          "visible": [
+            "back-clay.png"
+          ]
+        },
+        {
+          "role": "old",
+          "visible": [
+            "back-old.png"
+          ]
+        }
+      ]
+    },
+    {
+      "view": "top",
+      "images": [
+        {
+          "role": "reference",
+          "visible": [
+            "top-reference.png"
+          ]
+        },
+        {
+          "role": "render",
+          "visible": [
+            "top-clay.png"
+          ]
+        },
+        {
+          "role": "old",
+          "visible": [
+            "top-old.png"
+          ]
+        }
+      ]
+    },
+    {
+      "view": "3q-left",
+      "images": [
+        {
+          "role": "reference",
+          "visible": [
+            "3q-left-reference.png"
+          ]
+        },
+        {
+          "role": "render",
+          "visible": [
+            "3q-left-clay.png"
+          ]
+        },
+        {
+          "role": "old",
+          "visible": [
+            "3q-left-old.png"
+          ]
+        }
+      ]
+    },
+    {
+      "view": "3q-right",
+      "images": [
+        {
+          "role": "reference",
+          "visible": [
+            "3q-right-reference.png"
+          ]
+        },
+        {
+          "role": "render",
+          "visible": [
+            "3q-right-clay.png"
+          ]
+        },
+        {
+          "role": "old",
+          "visible": [
+            "3q-right-old.png"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "overlay",
+      "active": "overlay"
+    },
+    {
+      "mode": "difference",
+      "active": "difference"
+    },
+    {
+      "mode": "silhouette",
+      "active": "silhouette"
+    },
+    {
+      "mode": "clay",
+      "active": "clay"
+    }
+  ],
+  "opacity": "0.8",
+  "landmark_count": 47,
+  "browser_bounds": {
+    "left": -7,
+    "top": -7,
+    "width": 1296,
+    "height": 688,
+    "windowState": "maximized"
+  },
+  "final_view": "front",
+  "final_mode": "clay",
+  "page_errors": []
+}

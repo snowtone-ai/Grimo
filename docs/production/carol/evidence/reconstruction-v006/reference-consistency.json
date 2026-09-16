@@ -1,0 +1,6 @@
+{
+  "front_back_mirror_iou": 0.9401906924256861,
+  "necessary_reference_iou_for_two_095_matches": 0.9,
+  "proof": "Opposite orthographic silhouettes of any opaque 3D object are identical under horizontal reflection. Jaccard distance is a metric: d(F,B) <= d(F,M)+d(M,B). Thus two IoU >= .95 require reference IoU >= .90. Bbox registration may add <=1 pixel rounding uncertainty.",
+  "status": "NO_CONTRADICTION_PROVEN"
+}

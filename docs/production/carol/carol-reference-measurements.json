@@ -1,0 +1,4630 @@
+{
+  "schema": "grimo.carol.reference-measurements",
+  "version": 1,
+  "generated_by": "scripts/qa/measure-carol-references.py",
+  "units": {
+    "pixel": "native image pixel",
+    "normalized": "visible bbox fraction",
+    "uncertainty": "pixel estimate"
+  },
+  "authority": "assets/grimo/source/carol/approved-3d/authority.json; individual six views highest geometry authority",
+  "views": {
+    "front": {
+      "view": "front",
+      "source_file": "assets/grimo/source/carol/approved-3d/carol-front-ortho-transparent.png",
+      "sha256": "fd2d2a7b5fb5d3c9cb1353a83eaab1888de557b759dcd348dd16a3cb3ce280b4",
+      "image": {
+        "width_px": 1254,
+        "height_px": 1254,
+        "channels": 4
+      },
+      "segmentation": {
+        "rule": "alpha>127",
+        "alpha_or_white_handling": "alpha",
+        "visible_bbox": {
+          "x0": 96,
+          "y0": 137,
+          "x1": 1176,
+          "y1": 1103,
+          "width": 1081,
+          "height": 967,
+          "area": 754873
+        }
+      },
+      "silhouette_mask_file": "docs/production/carol/reference-masks/front-silhouette-mask.png",
+      "coordinate_contract": "pixel=(x right,y down); normalized=bbox fraction. Anatomical L/R fixed by Front image. Side camera +X sees R; Back/Top image-left is R.",
+      "landmarks": {
+        "face_bounds": {
+          "pixel": {
+            "x0": 407,
+            "y0": 614,
+            "x1": 925,
+            "y1": 899,
+            "width": 518,
+            "height": 285
+          },
+          "normalized": {
+            "x0": 0.2877,
+            "y0": 0.49328,
+            "x1": 0.76688,
+            "y1": 0.788,
+            "width": 0.47919,
+            "height": 0.29473
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "face_center": {
+          "pixel": [
+            654,
+            746
+          ],
+          "normalized": [
+            0.51619,
+            0.62978
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_center": {
+          "pixel": [
+            503,
+            737
+          ],
+          "normalized": [
+            0.3765,
+            0.62048
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_center": {
+          "pixel": [
+            814,
+            737
+          ],
+          "normalized": [
+            0.6642,
+            0.62048
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_bounds": {
+          "pixel": {
+            "x0": 440,
+            "y0": 677,
+            "x1": 565,
+            "y1": 798,
+            "width": 125,
+            "height": 121
+          },
+          "normalized": {
+            "x0": 0.31822,
+            "y0": 0.55843,
+            "x1": 0.43386,
+            "y1": 0.68356,
+            "width": 0.11563,
+            "height": 0.12513
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "eye_R_bounds": {
+          "pixel": {
+            "x0": 752,
+            "y0": 677,
+            "x1": 877,
+            "y1": 798,
+            "width": 125,
+            "height": 121
+          },
+          "normalized": {
+            "x0": 0.60685,
+            "y0": 0.55843,
+            "x1": 0.72248,
+            "y1": 0.68356,
+            "width": 0.11563,
+            "height": 0.12513
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "ear_L_root": {
+          "pixel": [
+            362,
+            679
+          ],
+          "normalized": [
+            0.24607,
+            0.5605
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_root": {
+          "pixel": [
+            966,
+            682
+          ],
+          "normalized": [
+            0.80481,
+            0.5636
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_tip": {
+          "pixel": [
+            126,
+            751
+          ],
+          "normalized": [
+            0.02775,
+            0.63495
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_tip": {
+          "pixel": [
+            1175,
+            751
+          ],
+          "normalized": [
+            0.99815,
+            0.63495
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "nose_center": {
+          "pixel": [
+            653,
+            745
+          ],
+          "normalized": [
+            0.51526,
+            0.62875
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_center": {
+          "pixel": [
+            655,
+            797
+          ],
+          "normalized": [
+            0.51711,
+            0.68252
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_L": {
+          "pixel": [
+            605,
+            770
+          ],
+          "normalized": [
+            0.47086,
+            0.6546
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_R": {
+          "pixel": [
+            703,
+            770
+          ],
+          "normalized": [
+            0.56152,
+            0.6546
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_FL_center": {
+          "pixel": [
+            442,
+            1058
+          ],
+          "normalized": [
+            0.32007,
+            0.95243
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_FR_center": {
+          "pixel": [
+            795,
+            1060
+          ],
+          "normalized": [
+            0.64662,
+            0.9545
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "moon_center": {
+          "pixel": [
+            356,
+            458
+          ],
+          "normalized": [
+            0.24052,
+            0.33195
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_crown": {
+          "pixel": [
+            624,
+            296
+          ],
+          "normalized": [
+            0.48844,
+            0.16443
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_face": {
+          "pixel": [
+            706,
+            477
+          ],
+          "normalized": [
+            0.56429,
+            0.3516
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_L": {
+          "pixel": [
+            194,
+            621
+          ],
+          "normalized": [
+            0.09066,
+            0.50052
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_chest": {
+          "pixel": [
+            646,
+            963
+          ],
+          "normalized": [
+            0.50879,
+            0.85419
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_lower": {
+          "pixel": [
+            312,
+            922
+          ],
+          "normalized": [
+            0.19981,
+            0.81179
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        }
+      },
+      "uncertainties": [
+        "Reference is an illustrated plate; visible edge is measurable, hidden cross-section is not.",
+        "White fleece against white RGB background can lose sub-pixel edge; bbox is conservative and carries edge uncertainty."
+      ],
+      "measurements": {
+        "face_width_px": 518,
+        "face_height_px": 285,
+        "face_visible_area_proxy_px": 147630,
+        "face_to_overall_width": 0.47919,
+        "face_to_overall_height": 0.29473
+      },
+      "metrics": {
+        "overall_width": {
+          "pixel": 1081.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "overall_height": {
+          "pixel": 967.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "body_length": null,
+        "body_height": {
+          "pixel": 967.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_axis_proxy"
+        },
+        "maximum_fleece_width": {
+          "pixel": 1081.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_accessories"
+        },
+        "maximum_fleece_height": {
+          "pixel": 967.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_limbs"
+        },
+        "face_width": {
+          "pixel": 518,
+          "normalized": 0.47919,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "face_height": {
+          "pixel": 285,
+          "normalized": 0.29473,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "visible_face_skin_area_proxy": {
+          "pixel": 147630,
+          "normalized": 0.14123,
+          "uncertainty_px": 30,
+          "method": "manual_face_bounds_proxy"
+        },
+        "face_width_over_overall_width": 0.47919,
+        "face_height_over_overall_height": 0.29473,
+        "eye_L_width": {
+          "pixel": 125,
+          "normalized": 0.11563,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_width": {
+          "pixel": 125,
+          "normalized": 0.11563,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_height": {
+          "pixel": 121,
+          "normalized": 0.12513,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_height": {
+          "pixel": 121,
+          "normalized": 0.12513,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_spacing": {
+          "pixel": 311,
+          "normalized": 0.2877,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_spacing_over_face_width": 0.60039,
+        "nose": {
+          "width": {
+            "pixel": 29,
+            "normalized": 0.02683,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 21,
+            "normalized": 0.02172,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              653.5,
+              745.5
+            ],
+            "normalized": [
+              0.51573,
+              0.62927
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "mouth": {
+          "width": {
+            "pixel": 101,
+            "normalized": 0.09343,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "opening_height": {
+            "pixel": 68,
+            "normalized": 0.07032,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              653.5,
+              800.0
+            ],
+            "normalized": [
+              0.51573,
+              0.68563
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_L": {
+          "center": {
+            "pixel": [
+              442,
+              1058
+            ],
+            "normalized": [
+              0.32007,
+              0.95243
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 140,
+            "normalized": 0.12951,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 105,
+            "normalized": 0.10858,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_R": {
+          "center": {
+            "pixel": [
+              795,
+              1060
+            ],
+            "normalized": [
+              0.64662,
+              0.9545
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 140,
+            "normalized": 0.12951,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 105,
+            "normalized": 0.10858,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_RL": null,
+        "ear_L": {
+          "length": {
+            "pixel": 246.74,
+            "normalized": 0.22825,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 163.03,
+          "root": {
+            "pixel": [
+              362,
+              679
+            ],
+            "normalized": [
+              0.24607,
+              0.5605
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              126,
+              751
+            ],
+            "normalized": [
+              0.02775,
+              0.63495
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 220,
+            "normalized": 0.20352,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": 0.53
+        },
+        "ear_R": {
+          "length": {
+            "pixel": 220.1,
+            "normalized": 0.2036,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 18.27,
+          "root": {
+            "pixel": [
+              966,
+              682
+            ],
+            "normalized": [
+              0.80481,
+              0.5636
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              1175,
+              751
+            ],
+            "normalized": [
+              0.99815,
+              0.63495
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 220,
+            "normalized": 0.20352,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": 0.53
+        },
+        "major_fleece_clusters": [
+          {
+            "id": "FL_FRONT_001",
+            "center": {
+              "pixel": [
+                620,
+                205
+              ],
+              "normalized": [
+                0.48474,
+                0.07032
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              205,
+              145
+            ],
+            "depth_layer": "crown",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_FRONT_002",
+            "center": {
+              "pixel": [
+                380,
+                395
+              ],
+              "normalized": [
+                0.26272,
+                0.2668
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              210,
+              170
+            ],
+            "depth_layer": "moon-bed",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_FRONT_003",
+            "center": {
+              "pixel": [
+                800,
+                405
+              ],
+              "normalized": [
+                0.65125,
+                0.27715
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              240,
+              175
+            ],
+            "depth_layer": "forehead",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_FRONT_004",
+            "center": {
+              "pixel": [
+                240,
+                650
+              ],
+              "normalized": [
+                0.13321,
+                0.53051
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              180,
+              220
+            ],
+            "depth_layer": "left-flank",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_FRONT_005",
+            "center": {
+              "pixel": [
+                1040,
+                665
+              ],
+              "normalized": [
+                0.87327,
+                0.54602
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              180,
+              220
+            ],
+            "depth_layer": "right-flank",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_FRONT_006",
+            "center": {
+              "pixel": [
+                610,
+                930
+              ],
+              "normalized": [
+                0.47549,
+                0.82006
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              250,
+              160
+            ],
+            "depth_layer": "chest",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          }
+        ],
+        "face_depth_metrics": null
+      },
+      "components_over_80px2": [
+        {
+          "area": 754873,
+          "x0": 96,
+          "y0": 137,
+          "x1": 1176,
+          "y1": 1103,
+          "width": 1081,
+          "height": 967
+        }
+      ]
+    },
+    "side": {
+      "view": "side",
+      "source_file": "assets/grimo/source/carol/approved-3d/carol-side-ortho-transparent.png",
+      "sha256": "870d4864d55c5f7d8938cdfa2cc1a8a1c3a38a7107a529a6d260b5a56093ae0e",
+      "image": {
+        "width_px": 1448,
+        "height_px": 1086,
+        "channels": 4
+      },
+      "segmentation": {
+        "rule": "alpha>127",
+        "alpha_or_white_handling": "alpha",
+        "visible_bbox": {
+          "x0": 89,
+          "y0": 106,
+          "x1": 1373,
+          "y1": 990,
+          "width": 1285,
+          "height": 885,
+          "area": 809929
+        }
+      },
+      "silhouette_mask_file": "docs/production/carol/reference-masks/side-silhouette-mask.png",
+      "coordinate_contract": "pixel=(x right,y down); normalized=bbox fraction. Anatomical L/R fixed by Front image. Side camera +X sees R; Back/Top image-left is R.",
+      "landmarks": {
+        "face_bounds": {
+          "pixel": {
+            "x0": 91,
+            "y0": 473,
+            "x1": 423,
+            "y1": 798,
+            "width": 332,
+            "height": 325
+          },
+          "normalized": {
+            "x0": 0.00156,
+            "y0": 0.41469,
+            "x1": 0.25992,
+            "y1": 0.78192,
+            "width": 0.25837,
+            "height": 0.36723
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "face_center": {
+          "pixel": [
+            257,
+            636
+          ],
+          "normalized": [
+            0.13074,
+            0.59887
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_center": {
+          "pixel": [
+            222,
+            587
+          ],
+          "normalized": [
+            0.1035,
+            0.5435
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_center": null,
+        "ear_R_root": {
+          "pixel": [
+            420,
+            532
+          ],
+          "normalized": [
+            0.25759,
+            0.48136
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_tip": {
+          "pixel": [
+            676,
+            650
+          ],
+          "normalized": [
+            0.45681,
+            0.61469
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_root": null,
+        "ear_L_tip": null,
+        "nose_center": {
+          "pixel": [
+            105,
+            615
+          ],
+          "normalized": [
+            0.01245,
+            0.57514
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_center": {
+          "pixel": [
+            124,
+            665
+          ],
+          "normalized": [
+            0.02724,
+            0.63164
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_L": {
+          "pixel": [
+            99,
+            678
+          ],
+          "normalized": [
+            0.00778,
+            0.64633
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_R": {
+          "pixel": [
+            130,
+            678
+          ],
+          "normalized": [
+            0.03191,
+            0.64633
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_FR_center": {
+          "pixel": [
+            447,
+            944
+          ],
+          "normalized": [
+            0.2786,
+            0.94689
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_RR_center": {
+          "pixel": [
+            1095,
+            944
+          ],
+          "normalized": [
+            0.78288,
+            0.94689
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "moon_center": {
+          "pixel": [
+            725,
+            369
+          ],
+          "normalized": [
+            0.49494,
+            0.29718
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_front": {
+          "pixel": [
+            319,
+            259
+          ],
+          "normalized": [
+            0.17899,
+            0.17288
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_mid": {
+          "pixel": [
+            1004,
+            581
+          ],
+          "normalized": [
+            0.71206,
+            0.53672
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_back": {
+          "pixel": [
+            688,
+            769
+          ],
+          "normalized": [
+            0.46615,
+            0.74915
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        }
+      },
+      "uncertainties": [
+        "Reference is an illustrated plate; visible edge is measurable, hidden cross-section is not.",
+        "White fleece against white RGB background can lose sub-pixel edge; bbox is conservative and carries edge uncertainty.",
+        "Anatomical part correspondence is partially occluded in this view; null means not visible, not zero."
+      ],
+      "measurements": {
+        "face_width_px": 332,
+        "face_height_px": 325,
+        "face_visible_area_proxy_px": 107900,
+        "face_to_overall_width": 0.25837,
+        "face_to_overall_height": 0.36723
+      },
+      "metrics": {
+        "overall_width": {
+          "pixel": 1285.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "overall_height": {
+          "pixel": 885.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "body_length": {
+          "pixel": 1285.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_axis_proxy"
+        },
+        "body_height": {
+          "pixel": 885.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_axis_proxy"
+        },
+        "maximum_fleece_width": {
+          "pixel": 1285.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_accessories"
+        },
+        "maximum_fleece_height": {
+          "pixel": 885.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_limbs"
+        },
+        "face_width": {
+          "pixel": 332,
+          "normalized": 0.25837,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "face_height": {
+          "pixel": 325,
+          "normalized": 0.36723,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "visible_face_skin_area_proxy": {
+          "pixel": 107900,
+          "normalized": 0.09488,
+          "uncertainty_px": 30,
+          "method": "manual_face_bounds_proxy"
+        },
+        "face_width_over_overall_width": 0.25837,
+        "face_height_over_overall_height": 0.36723,
+        "eye_L_width": null,
+        "eye_R_width": null,
+        "eye_L_height": null,
+        "eye_R_height": null,
+        "eye_spacing": null,
+        "eye_spacing_over_face_width": null,
+        "nose": {
+          "width": {
+            "pixel": 21,
+            "normalized": 0.01634,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 19,
+            "normalized": 0.02147,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              104.5,
+              615.5
+            ],
+            "normalized": [
+              0.01206,
+              0.57571
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "mouth": {
+          "width": {
+            "pixel": 48,
+            "normalized": 0.03735,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "opening_height": {
+            "pixel": 60,
+            "normalized": 0.0678,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              121.0,
+              665.0
+            ],
+            "normalized": [
+              0.0249,
+              0.63164
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_L": null,
+        "hoof_R": {
+          "center": {
+            "pixel": [
+              447,
+              944
+            ],
+            "normalized": [
+              0.2786,
+              0.94689
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 150,
+            "normalized": 0.11673,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 100,
+            "normalized": 0.11299,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_RL": null,
+        "ear_L": null,
+        "ear_R": {
+          "length": {
+            "pixel": 281.89,
+            "normalized": 0.21937,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 24.75,
+          "root": {
+            "pixel": [
+              420,
+              532
+            ],
+            "normalized": [
+              0.25759,
+              0.48136
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              676,
+              650
+            ],
+            "normalized": [
+              0.45681,
+              0.61469
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.19455,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": 0.49
+        },
+        "major_fleece_clusters": [
+          {
+            "id": "FL_SIDE_001",
+            "center": {
+              "pixel": [
+                410,
+                240
+              ],
+              "normalized": [
+                0.24981,
+                0.15141
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              260,
+              180
+            ],
+            "depth_layer": "head-top",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_SIDE_002",
+            "center": {
+              "pixel": [
+                740,
+                350
+              ],
+              "normalized": [
+                0.50661,
+                0.27571
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              290,
+              220
+            ],
+            "depth_layer": "shoulder",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_SIDE_003",
+            "center": {
+              "pixel": [
+                1040,
+                480
+              ],
+              "normalized": [
+                0.74008,
+                0.4226
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              300,
+              250
+            ],
+            "depth_layer": "mid-body",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_SIDE_004",
+            "center": {
+              "pixel": [
+                1260,
+                650
+              ],
+              "normalized": [
+                0.91128,
+                0.61469
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              230,
+              260
+            ],
+            "depth_layer": "rump",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_SIDE_005",
+            "center": {
+              "pixel": [
+                690,
+                780
+              ],
+              "normalized": [
+                0.4677,
+                0.76158
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              330,
+              170
+            ],
+            "depth_layer": "belly",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          }
+        ],
+        "face_depth_metrics": {
+          "visible_cream_face_projected_width": {
+            "pixel": 332,
+            "normalized": 0.25837,
+            "uncertainty_px": 12,
+            "method": "manual_side_face_bounds"
+          },
+          "visible_cream_face_over_body_length": 0.25837,
+          "nose_protrusion_px": null,
+          "eye_front_position_px": 222,
+          "cheek_front_back_extent_px": 332,
+          "note": "Projected side measurements are observable; true 3D depth requires fitted camera and geometry."
+        }
+      },
+      "components_over_80px2": [
+        {
+          "area": 809929,
+          "x0": 89,
+          "y0": 106,
+          "x1": 1373,
+          "y1": 990,
+          "width": 1285,
+          "height": 885
+        }
+      ]
+    },
+    "back": {
+      "view": "back",
+      "source_file": "assets/grimo/source/carol/approved-3d/carol-back-ortho-transparent.png",
+      "sha256": "27282d961b942ce6b4d39f4bc7e8dab1e6972e7443bbc667e635b0e16e206e98",
+      "image": {
+        "width_px": 1254,
+        "height_px": 1254,
+        "channels": 4
+      },
+      "segmentation": {
+        "rule": "alpha>127",
+        "alpha_or_white_handling": "alpha",
+        "visible_bbox": {
+          "x0": 55,
+          "y0": 141,
+          "x1": 1198,
+          "y1": 1111,
+          "width": 1144,
+          "height": 971,
+          "area": 742336
+        }
+      },
+      "silhouette_mask_file": "docs/production/carol/reference-masks/back-silhouette-mask.png",
+      "coordinate_contract": "pixel=(x right,y down); normalized=bbox fraction. Anatomical L/R fixed by Front image. Side camera +X sees R; Back/Top image-left is R.",
+      "landmarks": {
+        "face_bounds": null,
+        "face_center": null,
+        "eye_L_center": null,
+        "eye_R_center": null,
+        "ear_R_root": {
+          "pixel": [
+            218,
+            603
+          ],
+          "normalized": [
+            0.14248,
+            0.4758
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_root": {
+          "pixel": [
+            1036,
+            603
+          ],
+          "normalized": [
+            0.85752,
+            0.4758
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_tip": {
+          "pixel": [
+            72,
+            648
+          ],
+          "normalized": [
+            0.01486,
+            0.52214
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_tip": {
+          "pixel": [
+            1182,
+            648
+          ],
+          "normalized": [
+            0.98514,
+            0.52214
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "nose_center": null,
+        "mouth_center": null,
+        "hoof_RR_center": {
+          "pixel": [
+            445,
+            1058
+          ],
+          "normalized": [
+            0.34091,
+            0.94439
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_RL_center": {
+          "pixel": [
+            811,
+            1058
+          ],
+          "normalized": [
+            0.66084,
+            0.94439
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "moon_center": {
+          "pixel": [
+            906,
+            414
+          ],
+          "normalized": [
+            0.74388,
+            0.28115
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_back_top": {
+          "pixel": [
+            632,
+            257
+          ],
+          "normalized": [
+            0.50437,
+            0.11946
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_back_L": {
+          "pixel": [
+            302,
+            575
+          ],
+          "normalized": [
+            0.21591,
+            0.44696
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_back_R": {
+          "pixel": [
+            986,
+            752
+          ],
+          "normalized": [
+            0.81381,
+            0.62925
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_back_lower_L": {
+          "pixel": [
+            306,
+            826
+          ],
+          "normalized": [
+            0.21941,
+            0.70546
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        }
+      },
+      "uncertainties": [
+        "Reference is an illustrated plate; visible edge is measurable, hidden cross-section is not.",
+        "White fleece against white RGB background can lose sub-pixel edge; bbox is conservative and carries edge uncertainty.",
+        "Anatomical part correspondence is partially occluded in this view; null means not visible, not zero."
+      ],
+      "measurements": {
+        "face_width_px": null,
+        "face_height_px": null,
+        "face_visible_area_proxy_px": null,
+        "face_to_overall_width": null,
+        "face_to_overall_height": null
+      },
+      "metrics": {
+        "overall_width": {
+          "pixel": 1144.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "overall_height": {
+          "pixel": 971.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "body_length": null,
+        "body_height": {
+          "pixel": 971.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_axis_proxy"
+        },
+        "maximum_fleece_width": {
+          "pixel": 1144.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_accessories"
+        },
+        "maximum_fleece_height": {
+          "pixel": 971.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_limbs"
+        },
+        "face_width": null,
+        "face_height": null,
+        "visible_face_skin_area_proxy": null,
+        "face_width_over_overall_width": null,
+        "face_height_over_overall_height": null,
+        "eye_L_width": null,
+        "eye_R_width": null,
+        "eye_L_height": null,
+        "eye_R_height": null,
+        "eye_spacing": null,
+        "eye_spacing_over_face_width": null,
+        "nose": null,
+        "mouth": null,
+        "hoof_L": null,
+        "hoof_R": null,
+        "hoof_RL": {
+          "center": {
+            "pixel": [
+              811,
+              1058
+            ],
+            "normalized": [
+              0.66084,
+              0.94439
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 150,
+            "normalized": 0.13112,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 100,
+            "normalized": 0.10299,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "ear_L": {
+          "length": {
+            "pixel": 152.78,
+            "normalized": 0.13355,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 17.13,
+          "root": {
+            "pixel": [
+              1036,
+              603
+            ],
+            "normalized": [
+              0.85752,
+              0.4758
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              1182,
+              648
+            ],
+            "normalized": [
+              0.98514,
+              0.52214
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.21853,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": 0.46
+        },
+        "ear_R": {
+          "length": {
+            "pixel": 152.78,
+            "normalized": 0.13355,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 162.87,
+          "root": {
+            "pixel": [
+              218,
+              603
+            ],
+            "normalized": [
+              0.14248,
+              0.4758
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              72,
+              648
+            ],
+            "normalized": [
+              0.01486,
+              0.52214
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.21853,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": 0.46
+        },
+        "major_fleece_clusters": [
+          {
+            "id": "FL_BACK_001",
+            "center": {
+              "pixel": [
+                620,
+                220
+              ],
+              "normalized": [
+                0.49388,
+                0.08136
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              250,
+              170
+            ],
+            "depth_layer": "crown",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_BACK_002",
+            "center": {
+              "pixel": [
+                390,
+                430
+              ],
+              "normalized": [
+                0.29283,
+                0.29763
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              250,
+              220
+            ],
+            "depth_layer": "left-back",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_BACK_003",
+            "center": {
+              "pixel": [
+                830,
+                420
+              ],
+              "normalized": [
+                0.67745,
+                0.28733
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              270,
+              230
+            ],
+            "depth_layer": "right-back",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_BACK_004",
+            "center": {
+              "pixel": [
+                610,
+                650
+              ],
+              "normalized": [
+                0.48514,
+                0.5242
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              330,
+              230
+            ],
+            "depth_layer": "spine",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_BACK_005",
+            "center": {
+              "pixel": [
+                350,
+                880
+              ],
+              "normalized": [
+                0.25787,
+                0.76107
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              250,
+              220
+            ],
+            "depth_layer": "left-lower",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_BACK_006",
+            "center": {
+              "pixel": [
+                900,
+                880
+              ],
+              "normalized": [
+                0.73864,
+                0.76107
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              280,
+              220
+            ],
+            "depth_layer": "right-lower",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          }
+        ],
+        "face_depth_metrics": null
+      },
+      "components_over_80px2": [
+        {
+          "area": 742336,
+          "x0": 55,
+          "y0": 141,
+          "x1": 1198,
+          "y1": 1111,
+          "width": 1144,
+          "height": 971
+        }
+      ]
+    },
+    "top": {
+      "view": "top",
+      "source_file": "assets/grimo/source/carol/approved-3d/carol-top-plan-transparent.png",
+      "sha256": "0d63d4e66c5034cda7b8b5ae9fbf9bcdb0f30573d121afe13537ae7a7576400f",
+      "image": {
+        "width_px": 1254,
+        "height_px": 1254,
+        "channels": 4
+      },
+      "segmentation": {
+        "rule": "alpha>127",
+        "alpha_or_white_handling": "alpha",
+        "visible_bbox": {
+          "x0": 192,
+          "y0": 36,
+          "x1": 1061,
+          "y1": 1245,
+          "width": 870,
+          "height": 1210,
+          "area": 642138
+        }
+      },
+      "silhouette_mask_file": "docs/production/carol/reference-masks/top-silhouette-mask.png",
+      "coordinate_contract": "pixel=(x right,y down); normalized=bbox fraction. Anatomical L/R fixed by Front image. Side camera +X sees R; Back/Top image-left is R.",
+      "landmarks": {
+        "face_bounds": null,
+        "face_center": null,
+        "eye_L_center": null,
+        "eye_R_center": null,
+        "ear_R_root": {
+          "pixel": [
+            287,
+            418
+          ],
+          "normalized": [
+            0.1092,
+            0.3157
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_root": {
+          "pixel": [
+            964,
+            418
+          ],
+          "normalized": [
+            0.88736,
+            0.3157
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_tip": {
+          "pixel": [
+            193,
+            430
+          ],
+          "normalized": [
+            0.00115,
+            0.32562
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_tip": {
+          "pixel": [
+            1062,
+            429
+          ],
+          "normalized": [
+            1.0,
+            0.32479
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "nose_center": null,
+        "mouth_center": null,
+        "hoof_FL_center": null,
+        "hoof_FR_center": null,
+        "moon_center": {
+          "pixel": [
+            404,
+            385
+          ],
+          "normalized": [
+            0.24368,
+            0.28843
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_top": {
+          "pixel": [
+            639,
+            263
+          ],
+          "normalized": [
+            0.51379,
+            0.1876
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_front": {
+          "pixel": [
+            818,
+            447
+          ],
+          "normalized": [
+            0.71954,
+            0.33967
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_mid_L": {
+          "pixel": [
+            459,
+            706
+          ],
+          "normalized": [
+            0.3069,
+            0.55372
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_mid_R": {
+          "pixel": [
+            829,
+            850
+          ],
+          "normalized": [
+            0.73218,
+            0.67273
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_back": {
+          "pixel": [
+            456,
+            1015
+          ],
+          "normalized": [
+            0.30345,
+            0.80909
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        }
+      },
+      "uncertainties": [
+        "Reference is an illustrated plate; visible edge is measurable, hidden cross-section is not.",
+        "White fleece against white RGB background can lose sub-pixel edge; bbox is conservative and carries edge uncertainty.",
+        "Anatomical part correspondence is partially occluded in this view; null means not visible, not zero."
+      ],
+      "measurements": {
+        "face_width_px": null,
+        "face_height_px": null,
+        "face_visible_area_proxy_px": null,
+        "face_to_overall_width": null,
+        "face_to_overall_height": null
+      },
+      "top_width_profile_100": [
+        {
+          "s": 0.0,
+          "y_px": 36,
+          "width_px": 20,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0101,
+          "y_px": 48,
+          "width_px": 100,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0202,
+          "y_px": 60,
+          "width_px": 138,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0303,
+          "y_px": 73,
+          "width_px": 165,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0404,
+          "y_px": 85,
+          "width_px": 183,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0505,
+          "y_px": 97,
+          "width_px": 196,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0606,
+          "y_px": 109,
+          "width_px": 257,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0707,
+          "y_px": 121,
+          "width_px": 297,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0808,
+          "y_px": 134,
+          "width_px": 322,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.0909,
+          "y_px": 146,
+          "width_px": 337,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.101,
+          "y_px": 158,
+          "width_px": 383,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1111,
+          "y_px": 170,
+          "width_px": 412,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1212,
+          "y_px": 183,
+          "width_px": 427,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1313,
+          "y_px": 195,
+          "width_px": 459,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1414,
+          "y_px": 207,
+          "width_px": 482,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1515,
+          "y_px": 219,
+          "width_px": 497,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1616,
+          "y_px": 231,
+          "width_px": 507,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1717,
+          "y_px": 244,
+          "width_px": 511,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1818,
+          "y_px": 256,
+          "width_px": 557,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.1919,
+          "y_px": 268,
+          "width_px": 579,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.202,
+          "y_px": 280,
+          "width_px": 593,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2121,
+          "y_px": 292,
+          "width_px": 601,
+          "center_x_px": 629.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2222,
+          "y_px": 305,
+          "width_px": 615,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2323,
+          "y_px": 317,
+          "width_px": 621,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2424,
+          "y_px": 329,
+          "width_px": 620,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2525,
+          "y_px": 341,
+          "width_px": 671,
+          "center_x_px": 626.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2626,
+          "y_px": 354,
+          "width_px": 723,
+          "center_x_px": 626.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2727,
+          "y_px": 366,
+          "width_px": 764,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2828,
+          "y_px": 378,
+          "width_px": 798,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.2929,
+          "y_px": 390,
+          "width_px": 827,
+          "center_x_px": 626.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.303,
+          "y_px": 402,
+          "width_px": 850,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3131,
+          "y_px": 415,
+          "width_px": 866,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3232,
+          "y_px": 427,
+          "width_px": 870,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3333,
+          "y_px": 439,
+          "width_px": 865,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3434,
+          "y_px": 451,
+          "width_px": 851,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3535,
+          "y_px": 463,
+          "width_px": 827,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3636,
+          "y_px": 476,
+          "width_px": 792,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3737,
+          "y_px": 488,
+          "width_px": 749,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3838,
+          "y_px": 500,
+          "width_px": 674,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.3939,
+          "y_px": 512,
+          "width_px": 625,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.404,
+          "y_px": 524,
+          "width_px": 624,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4141,
+          "y_px": 537,
+          "width_px": 615,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4242,
+          "y_px": 549,
+          "width_px": 601,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4343,
+          "y_px": 561,
+          "width_px": 572,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4444,
+          "y_px": 573,
+          "width_px": 526,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4545,
+          "y_px": 586,
+          "width_px": 516,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4646,
+          "y_px": 598,
+          "width_px": 511,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4747,
+          "y_px": 610,
+          "width_px": 499,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4848,
+          "y_px": 622,
+          "width_px": 477,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.4949,
+          "y_px": 634,
+          "width_px": 446,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5051,
+          "y_px": 647,
+          "width_px": 462,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5152,
+          "y_px": 659,
+          "width_px": 469,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5253,
+          "y_px": 671,
+          "width_px": 469,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5354,
+          "y_px": 683,
+          "width_px": 463,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5455,
+          "y_px": 695,
+          "width_px": 448,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5556,
+          "y_px": 708,
+          "width_px": 474,
+          "center_x_px": 629.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5657,
+          "y_px": 720,
+          "width_px": 502,
+          "center_x_px": 629.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5758,
+          "y_px": 732,
+          "width_px": 519,
+          "center_x_px": 629.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.5859,
+          "y_px": 744,
+          "width_px": 529,
+          "center_x_px": 629.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.596,
+          "y_px": 757,
+          "width_px": 534,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6061,
+          "y_px": 769,
+          "width_px": 534,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6162,
+          "y_px": 781,
+          "width_px": 529,
+          "center_x_px": 629.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6263,
+          "y_px": 793,
+          "width_px": 518,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6364,
+          "y_px": 805,
+          "width_px": 541,
+          "center_x_px": 626.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6465,
+          "y_px": 818,
+          "width_px": 559,
+          "center_x_px": 626.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6566,
+          "y_px": 830,
+          "width_px": 568,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6667,
+          "y_px": 842,
+          "width_px": 569,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6768,
+          "y_px": 854,
+          "width_px": 567,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.6869,
+          "y_px": 866,
+          "width_px": 600,
+          "center_x_px": 626.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.697,
+          "y_px": 879,
+          "width_px": 623,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7071,
+          "y_px": 891,
+          "width_px": 638,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7172,
+          "y_px": 903,
+          "width_px": 646,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7273,
+          "y_px": 915,
+          "width_px": 648,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7374,
+          "y_px": 927,
+          "width_px": 647,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7475,
+          "y_px": 940,
+          "width_px": 639,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7576,
+          "y_px": 952,
+          "width_px": 626,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7677,
+          "y_px": 964,
+          "width_px": 631,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7778,
+          "y_px": 976,
+          "width_px": 646,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.7879,
+          "y_px": 989,
+          "width_px": 658,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.798,
+          "y_px": 1001,
+          "width_px": 663,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8081,
+          "y_px": 1013,
+          "width_px": 664,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8182,
+          "y_px": 1025,
+          "width_px": 660,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8283,
+          "y_px": 1037,
+          "width_px": 653,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8384,
+          "y_px": 1050,
+          "width_px": 638,
+          "center_x_px": 627.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8485,
+          "y_px": 1062,
+          "width_px": 617,
+          "center_x_px": 628.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8586,
+          "y_px": 1074,
+          "width_px": 582,
+          "center_x_px": 628.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8687,
+          "y_px": 1086,
+          "width_px": 553,
+          "center_x_px": 630.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8788,
+          "y_px": 1098,
+          "width_px": 552,
+          "center_x_px": 629.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.8889,
+          "y_px": 1111,
+          "width_px": 546,
+          "center_x_px": 629.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.899,
+          "y_px": 1123,
+          "width_px": 532,
+          "center_x_px": 629.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9091,
+          "y_px": 1135,
+          "width_px": 511,
+          "center_x_px": 629.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9192,
+          "y_px": 1147,
+          "width_px": 469,
+          "center_x_px": 631.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9293,
+          "y_px": 1160,
+          "width_px": 387,
+          "center_x_px": 625.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9394,
+          "y_px": 1172,
+          "width_px": 366,
+          "center_x_px": 624.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9495,
+          "y_px": 1184,
+          "width_px": 329,
+          "center_x_px": 623.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9596,
+          "y_px": 1196,
+          "width_px": 210,
+          "center_x_px": 639.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9697,
+          "y_px": 1208,
+          "width_px": 167,
+          "center_x_px": 626.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9798,
+          "y_px": 1221,
+          "width_px": 132,
+          "center_x_px": 623.5,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 0.9899,
+          "y_px": 1233,
+          "width_px": 93,
+          "center_x_px": 627.0,
+          "uncertainty_px": 2
+        },
+        {
+          "s": 1.0,
+          "y_px": 1245,
+          "width_px": 13,
+          "center_x_px": 610.0,
+          "uncertainty_px": 2
+        }
+      ],
+      "metrics": {
+        "overall_width": {
+          "pixel": 870.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "overall_height": {
+          "pixel": 1210.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "body_length": {
+          "pixel": 1210.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_axis_proxy"
+        },
+        "body_height": null,
+        "maximum_fleece_width": {
+          "pixel": 870.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_accessories"
+        },
+        "maximum_fleece_height": {
+          "pixel": 1210.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_limbs"
+        },
+        "face_width": null,
+        "face_height": null,
+        "visible_face_skin_area_proxy": null,
+        "face_width_over_overall_width": null,
+        "face_height_over_overall_height": null,
+        "eye_L_width": null,
+        "eye_R_width": null,
+        "eye_L_height": null,
+        "eye_R_height": null,
+        "eye_spacing": null,
+        "eye_spacing_over_face_width": null,
+        "nose": null,
+        "mouth": null,
+        "hoof_L": null,
+        "hoof_R": null,
+        "hoof_RL": null,
+        "ear_L": {
+          "length": {
+            "pixel": 98.62,
+            "normalized": 0.11335,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 6.4,
+          "root": {
+            "pixel": [
+              964,
+              418
+            ],
+            "normalized": [
+              0.88736,
+              0.3157
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              1062,
+              429
+            ],
+            "normalized": [
+              1.0,
+              0.32479
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.28736,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": 0.48
+        },
+        "ear_R": {
+          "length": {
+            "pixel": 94.76,
+            "normalized": 0.10892,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 172.72,
+          "root": {
+            "pixel": [
+              287,
+              418
+            ],
+            "normalized": [
+              0.1092,
+              0.3157
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              193,
+              430
+            ],
+            "normalized": [
+              0.00115,
+              0.32562
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.28736,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": 0.48
+        },
+        "major_fleece_clusters": [
+          {
+            "id": "FL_TOP_001",
+            "center": {
+              "pixel": [
+                630,
+                170
+              ],
+              "normalized": [
+                0.50345,
+                0.11074
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              270,
+              210
+            ],
+            "depth_layer": "front-crown",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_TOP_002",
+            "center": {
+              "pixel": [
+                470,
+                390
+              ],
+              "normalized": [
+                0.31954,
+                0.29256
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              300,
+              240
+            ],
+            "depth_layer": "front-left",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_TOP_003",
+            "center": {
+              "pixel": [
+                770,
+                430
+              ],
+              "normalized": [
+                0.66437,
+                0.32562
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              300,
+              240
+            ],
+            "depth_layer": "front-right",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_TOP_004",
+            "center": {
+              "pixel": [
+                630,
+                655
+              ],
+              "normalized": [
+                0.50345,
+                0.51157
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              260,
+              220
+            ],
+            "depth_layer": "mid-indentation",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_TOP_005",
+            "center": {
+              "pixel": [
+                470,
+                900
+              ],
+              "normalized": [
+                0.31954,
+                0.71405
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              300,
+              250
+            ],
+            "depth_layer": "rear-left",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_TOP_006",
+            "center": {
+              "pixel": [
+                800,
+                970
+              ],
+              "normalized": [
+                0.69885,
+                0.7719
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              300,
+              250
+            ],
+            "depth_layer": "rear-right",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          }
+        ],
+        "top_width_profile_summary": {
+          "global_min_width_px": 13,
+          "global_max_width_px": 870,
+          "global_min_over_max": 0.01494,
+          "global_minimum_s": 1.0,
+          "interior_min_width_px_s10_s90": 383,
+          "interior_min_over_max": 0.44023,
+          "interior_minimum_s": 0.101,
+          "mid_body_min_width_px_s25_s85": 446,
+          "mid_body_min_over_max": 0.51264,
+          "mid_body_minimum_s": 0.4949,
+          "mean_width_px": 526.11,
+          "uncertainty_px": 2
+        },
+        "face_depth_metrics": null
+      },
+      "components_over_80px2": [
+        {
+          "area": 642138,
+          "x0": 192,
+          "y0": 36,
+          "x1": 1061,
+          "y1": 1245,
+          "width": 870,
+          "height": 1210
+        }
+      ]
+    },
+    "three_quarter_left": {
+      "view": "three_quarter_left",
+      "source_file": "assets/grimo/source/carol/approved-3d/carol-front-3q-left.png",
+      "sha256": "2d6dbd1728034ada0a213ebda168503dba81c2c836f9ee0e6cbb88646234a9fe",
+      "image": {
+        "width_px": 1254,
+        "height_px": 1254,
+        "channels": 3
+      },
+      "segmentation": {
+        "rule": "Border flood fill; neutral floor exclusion below native y=1030; provisional RGB mask",
+        "alpha_or_white_handling": "white_background_flood_fill_provisional",
+        "visible_bbox": {
+          "x0": 51,
+          "y0": 133,
+          "x1": 1217,
+          "y1": 1126,
+          "width": 1167,
+          "height": 994,
+          "area": 782314
+        }
+      },
+      "silhouette_mask_file": "docs/production/carol/reference-masks/three_quarter_left-silhouette-mask.png",
+      "coordinate_contract": "pixel=(x right,y down); normalized=bbox fraction. Anatomical L/R fixed by Front image. Side camera +X sees R; Back/Top image-left is R.",
+      "landmarks": {
+        "face_bounds": {
+          "pixel": {
+            "x0": 760,
+            "y0": 575,
+            "x1": 1130,
+            "y1": 899,
+            "width": 370,
+            "height": 324
+          },
+          "normalized": {
+            "x0": 0.60754,
+            "y0": 0.44467,
+            "x1": 0.92459,
+            "y1": 0.77062,
+            "width": 0.31705,
+            "height": 0.32596
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "face_center": {
+          "pixel": [
+            951,
+            751
+          ],
+          "normalized": [
+            0.77121,
+            0.62173
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_center": {
+          "pixel": [
+            856,
+            752
+          ],
+          "normalized": [
+            0.6898,
+            0.62274
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_center": {
+          "pixel": [
+            1070,
+            702
+          ],
+          "normalized": [
+            0.87318,
+            0.57243
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_bounds": {
+          "pixel": {
+            "x0": 796,
+            "y0": 687,
+            "x1": 918,
+            "y1": 815,
+            "width": 122,
+            "height": 128
+          },
+          "normalized": {
+            "x0": 0.63839,
+            "y0": 0.55734,
+            "x1": 0.74293,
+            "y1": 0.68612,
+            "width": 0.10454,
+            "height": 0.12877
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "eye_R_bounds": {
+          "pixel": {
+            "x0": 1038,
+            "y0": 644,
+            "x1": 1110,
+            "y1": 766,
+            "width": 72,
+            "height": 122
+          },
+          "normalized": {
+            "x0": 0.84576,
+            "y0": 0.51408,
+            "x1": 0.90746,
+            "y1": 0.63682,
+            "width": 0.0617,
+            "height": 0.12274
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "ear_L_root": {
+          "pixel": [
+            700,
+            687
+          ],
+          "normalized": [
+            0.55613,
+            0.55734
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_root": {
+          "pixel": [
+            1133,
+            636
+          ],
+          "normalized": [
+            0.92716,
+            0.50604
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_tip": {
+          "pixel": [
+            427,
+            778
+          ],
+          "normalized": [
+            0.32219,
+            0.64889
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_tip": {
+          "pixel": [
+            1212,
+            673
+          ],
+          "normalized": [
+            0.99486,
+            0.54326
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "nose_center": {
+          "pixel": [
+            1004,
+            749
+          ],
+          "normalized": [
+            0.81662,
+            0.61972
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_center": {
+          "pixel": [
+            1001,
+            805
+          ],
+          "normalized": [
+            0.81405,
+            0.67606
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_L": {
+          "pixel": [
+            969,
+            778
+          ],
+          "normalized": [
+            0.78663,
+            0.64889
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_R": {
+          "pixel": [
+            1037,
+            762
+          ],
+          "normalized": [
+            0.8449,
+            0.6328
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_FL_center": {
+          "pixel": [
+            709,
+            1064
+          ],
+          "normalized": [
+            0.56384,
+            0.93662
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_FR_center": {
+          "pixel": [
+            916,
+            1034
+          ],
+          "normalized": [
+            0.74122,
+            0.90644
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_RL_center": {
+          "pixel": [
+            339,
+            1005
+          ],
+          "normalized": [
+            0.24679,
+            0.87726
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_RR_center": {
+          "pixel": [
+            552,
+            1013
+          ],
+          "normalized": [
+            0.42931,
+            0.88531
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "moon_center": {
+          "pixel": [
+            466,
+            487
+          ],
+          "normalized": [
+            0.35561,
+            0.35614
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_crown": {
+          "pixel": [
+            800,
+            309
+          ],
+          "normalized": [
+            0.64182,
+            0.17706
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_face": {
+          "pixel": [
+            919,
+            492
+          ],
+          "normalized": [
+            0.74379,
+            0.36117
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_L": {
+          "pixel": [
+            279,
+            756
+          ],
+          "normalized": [
+            0.19537,
+            0.62676
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_chest": {
+          "pixel": [
+            953,
+            957
+          ],
+          "normalized": [
+            0.77292,
+            0.82897
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        }
+      },
+      "uncertainties": [
+        "Reference is an illustrated plate; visible edge is measurable, hidden cross-section is not.",
+        "White fleece against white RGB background can lose sub-pixel edge; bbox is conservative and carries edge uncertainty."
+      ],
+      "measurements": {
+        "face_width_px": 370,
+        "face_height_px": 324,
+        "face_visible_area_proxy_px": 119880,
+        "face_to_overall_width": 0.31705,
+        "face_to_overall_height": 0.32596
+      },
+      "metrics": {
+        "overall_width": {
+          "pixel": 1167.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "overall_height": {
+          "pixel": 994.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "body_length": null,
+        "body_height": {
+          "pixel": 994.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_axis_proxy"
+        },
+        "maximum_fleece_width": {
+          "pixel": 1167.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_accessories"
+        },
+        "maximum_fleece_height": {
+          "pixel": 994.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_limbs"
+        },
+        "face_width": {
+          "pixel": 370,
+          "normalized": 0.31705,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "face_height": {
+          "pixel": 324,
+          "normalized": 0.32596,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "visible_face_skin_area_proxy": {
+          "pixel": 119880,
+          "normalized": 0.10335,
+          "uncertainty_px": 30,
+          "method": "manual_face_bounds_proxy"
+        },
+        "face_width_over_overall_width": 0.31705,
+        "face_height_over_overall_height": 0.32596,
+        "eye_L_width": {
+          "pixel": 122,
+          "normalized": 0.10454,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_width": {
+          "pixel": 72,
+          "normalized": 0.0617,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_height": {
+          "pixel": 128,
+          "normalized": 0.12877,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_height": {
+          "pixel": 122,
+          "normalized": 0.12274,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_spacing": {
+          "pixel": 214,
+          "normalized": 0.18338,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_spacing_over_face_width": 0.57838,
+        "nose": {
+          "width": {
+            "pixel": 25,
+            "normalized": 0.02142,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 18,
+            "normalized": 0.01811,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              1004.5,
+              749.0
+            ],
+            "normalized": [
+              0.81705,
+              0.61972
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "mouth": {
+          "width": {
+            "pixel": 72,
+            "normalized": 0.0617,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "opening_height": {
+            "pixel": 82,
+            "normalized": 0.08249,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              1003.0,
+              803.0
+            ],
+            "normalized": [
+              0.81577,
+              0.67404
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_L": {
+          "center": {
+            "pixel": [
+              709,
+              1064
+            ],
+            "normalized": [
+              0.56384,
+              0.93662
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 150,
+            "normalized": 0.12853,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 100,
+            "normalized": 0.1006,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_R": {
+          "center": {
+            "pixel": [
+              916,
+              1034
+            ],
+            "normalized": [
+              0.74122,
+              0.90644
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 150,
+            "normalized": 0.12853,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 100,
+            "normalized": 0.1006,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_RL": {
+          "center": {
+            "pixel": [
+              339,
+              1005
+            ],
+            "normalized": [
+              0.24679,
+              0.87726
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 150,
+            "normalized": 0.12853,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 100,
+            "normalized": 0.1006,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "ear_L": {
+          "length": {
+            "pixel": 287.77,
+            "normalized": 0.24659,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 161.57,
+          "root": {
+            "pixel": [
+              700,
+              687
+            ],
+            "normalized": [
+              0.55613,
+              0.55734
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              427,
+              778
+            ],
+            "normalized": [
+              0.32219,
+              0.64889
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.21422,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": null
+        },
+        "ear_R": {
+          "length": {
+            "pixel": 87.24,
+            "normalized": 0.07475,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 25.1,
+          "root": {
+            "pixel": [
+              1133,
+              636
+            ],
+            "normalized": [
+              0.92716,
+              0.50604
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              1212,
+              673
+            ],
+            "normalized": [
+              0.99486,
+              0.54326
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.21422,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": null
+        },
+        "major_fleece_clusters": [
+          {
+            "id": "FL_THREE_QUARTER_LEFT_001",
+            "center": {
+              "pixel": [
+                690,
+                190
+              ],
+              "normalized": [
+                0.54756,
+                0.05734
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              260,
+              180
+            ],
+            "depth_layer": "crown",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_LEFT_002",
+            "center": {
+              "pixel": [
+                420,
+                430
+              ],
+              "normalized": [
+                0.3162,
+                0.29879
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              250,
+              220
+            ],
+            "depth_layer": "left-flank",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_LEFT_003",
+            "center": {
+              "pixel": [
+                980,
+                410
+              ],
+              "normalized": [
+                0.79606,
+                0.27867
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              260,
+              230
+            ],
+            "depth_layer": "face-side",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_LEFT_004",
+            "center": {
+              "pixel": [
+                260,
+                720
+              ],
+              "normalized": [
+                0.17909,
+                0.59054
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              260,
+              260
+            ],
+            "depth_layer": "near-flank",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_LEFT_005",
+            "center": {
+              "pixel": [
+                770,
+                860
+              ],
+              "normalized": [
+                0.61611,
+                0.73139
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              330,
+              220
+            ],
+            "depth_layer": "chest",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_LEFT_006",
+            "center": {
+              "pixel": [
+                1050,
+                780
+              ],
+              "normalized": [
+                0.85604,
+                0.65091
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              220,
+              220
+            ],
+            "depth_layer": "rear",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          }
+        ],
+        "face_depth_metrics": null
+      },
+      "components_over_80px2": [
+        {
+          "area": 782250,
+          "x0": 51,
+          "y0": 133,
+          "x1": 1217,
+          "y1": 1126,
+          "width": 1167,
+          "height": 994
+        }
+      ]
+    },
+    "three_quarter_right": {
+      "view": "three_quarter_right",
+      "source_file": "assets/grimo/source/carol/approved-3d/carol-front-3q-right.png",
+      "sha256": "1ede4fd39585259745cd73616a03238e6e60f0202a2a0409d278f2f1a21f31f9",
+      "image": {
+        "width_px": 1254,
+        "height_px": 1254,
+        "channels": 3
+      },
+      "segmentation": {
+        "rule": "Border flood fill; neutral floor exclusion below native y=1030; provisional RGB mask",
+        "alpha_or_white_handling": "white_background_flood_fill_provisional",
+        "visible_bbox": {
+          "x0": 45,
+          "y0": 150,
+          "x1": 1214,
+          "y1": 1116,
+          "width": 1170,
+          "height": 967,
+          "area": 760751
+        }
+      },
+      "silhouette_mask_file": "docs/production/carol/reference-masks/three_quarter_right-silhouette-mask.png",
+      "coordinate_contract": "pixel=(x right,y down); normalized=bbox fraction. Anatomical L/R fixed by Front image. Side camera +X sees R; Back/Top image-left is R.",
+      "landmarks": {
+        "face_bounds": {
+          "pixel": {
+            "x0": 149,
+            "y0": 579,
+            "x1": 559,
+            "y1": 883,
+            "width": 410,
+            "height": 304
+          },
+          "normalized": {
+            "x0": 0.08889,
+            "y0": 0.44364,
+            "x1": 0.43932,
+            "y1": 0.75801,
+            "width": 0.35043,
+            "height": 0.31437
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "face_center": {
+          "pixel": [
+            351,
+            737
+          ],
+          "normalized": [
+            0.26154,
+            0.60703
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_center": {
+          "pixel": [
+            204,
+            693
+          ],
+          "normalized": [
+            0.1359,
+            0.56153
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_center": {
+          "pixel": [
+            429,
+            738
+          ],
+          "normalized": [
+            0.32821,
+            0.60807
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_bounds": {
+          "pixel": {
+            "x0": 174,
+            "y0": 634,
+            "x1": 234,
+            "y1": 754,
+            "width": 60,
+            "height": 120
+          },
+          "normalized": {
+            "x0": 0.11026,
+            "y0": 0.50052,
+            "x1": 0.16154,
+            "y1": 0.62461,
+            "width": 0.05128,
+            "height": 0.1241
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "eye_R_bounds": {
+          "pixel": {
+            "x0": 357,
+            "y0": 672,
+            "x1": 485,
+            "y1": 800,
+            "width": 128,
+            "height": 128
+          },
+          "normalized": {
+            "x0": 0.26667,
+            "y0": 0.53981,
+            "x1": 0.37607,
+            "y1": 0.67218,
+            "width": 0.1094,
+            "height": 0.13237
+          },
+          "uncertainty_px": 6,
+          "method": "manual"
+        },
+        "ear_L_root": {
+          "pixel": [
+            133,
+            628
+          ],
+          "normalized": [
+            0.07521,
+            0.49431
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_root": {
+          "pixel": [
+            573,
+            678
+          ],
+          "normalized": [
+            0.45128,
+            0.54602
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_L_tip": {
+          "pixel": [
+            48,
+            670
+          ],
+          "normalized": [
+            0.00256,
+            0.53775
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "ear_R_tip": {
+          "pixel": [
+            841,
+            776
+          ],
+          "normalized": [
+            0.68034,
+            0.64736
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "nose_center": {
+          "pixel": [
+            270,
+            731
+          ],
+          "normalized": [
+            0.19231,
+            0.60083
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_center": {
+          "pixel": [
+            277,
+            783
+          ],
+          "normalized": [
+            0.19829,
+            0.6546
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_L": {
+          "pixel": [
+            240,
+            748
+          ],
+          "normalized": [
+            0.16667,
+            0.61841
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "mouth_corner_R": {
+          "pixel": [
+            311,
+            756
+          ],
+          "normalized": [
+            0.22735,
+            0.62668
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_FL_center": {
+          "pixel": [
+            290,
+            1007
+          ],
+          "normalized": [
+            0.2094,
+            0.88625
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_FR_center": {
+          "pixel": [
+            511,
+            1053
+          ],
+          "normalized": [
+            0.39829,
+            0.93382
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_RR_center": {
+          "pixel": [
+            917,
+            1009
+          ],
+          "normalized": [
+            0.7453,
+            0.88831
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "hoof_RL_center": null,
+        "moon_center": {
+          "pixel": [
+            773,
+            454
+          ],
+          "normalized": [
+            0.62222,
+            0.31437
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_crown": {
+          "pixel": [
+            409,
+            321
+          ],
+          "normalized": [
+            0.31111,
+            0.17684
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_face": {
+          "pixel": [
+            333,
+            493
+          ],
+          "normalized": [
+            0.24615,
+            0.35471
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_R": {
+          "pixel": [
+            1035,
+            777
+          ],
+          "normalized": [
+            0.84615,
+            0.6484
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        },
+        "star_chest": {
+          "pixel": [
+            328,
+            927
+          ],
+          "normalized": [
+            0.24188,
+            0.80352
+          ],
+          "uncertainty_px": 6,
+          "method": "manual_source_annotation"
+        }
+      },
+      "uncertainties": [
+        "Reference is an illustrated plate; visible edge is measurable, hidden cross-section is not.",
+        "White fleece against white RGB background can lose sub-pixel edge; bbox is conservative and carries edge uncertainty."
+      ],
+      "measurements": {
+        "face_width_px": 410,
+        "face_height_px": 304,
+        "face_visible_area_proxy_px": 124640,
+        "face_to_overall_width": 0.35043,
+        "face_to_overall_height": 0.31437
+      },
+      "metrics": {
+        "overall_width": {
+          "pixel": 1170.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "overall_height": {
+          "pixel": 967.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_derived"
+        },
+        "body_length": null,
+        "body_height": {
+          "pixel": 967.0,
+          "normalized": 1.0,
+          "uncertainty_px": 2,
+          "method": "visible_bbox_axis_proxy"
+        },
+        "maximum_fleece_width": {
+          "pixel": 1170.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_accessories"
+        },
+        "maximum_fleece_height": {
+          "pixel": 967.0,
+          "normalized": 1.0,
+          "uncertainty_px": 8,
+          "method": "visible_silhouette_proxy_includes_limbs"
+        },
+        "face_width": {
+          "pixel": 410,
+          "normalized": 0.35043,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "face_height": {
+          "pixel": 304,
+          "normalized": 0.31437,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "visible_face_skin_area_proxy": {
+          "pixel": 124640,
+          "normalized": 0.11017,
+          "uncertainty_px": 30,
+          "method": "manual_face_bounds_proxy"
+        },
+        "face_width_over_overall_width": 0.35043,
+        "face_height_over_overall_height": 0.31437,
+        "eye_L_width": {
+          "pixel": 60,
+          "normalized": 0.05128,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_width": {
+          "pixel": 128,
+          "normalized": 0.1094,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_L_height": {
+          "pixel": 120,
+          "normalized": 0.1241,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_R_height": {
+          "pixel": 128,
+          "normalized": 0.13237,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_spacing": {
+          "pixel": 225,
+          "normalized": 0.19231,
+          "uncertainty_px": 5,
+          "method": "manual_source_annotation"
+        },
+        "eye_spacing_over_face_width": 0.54878,
+        "nose": {
+          "width": {
+            "pixel": 25,
+            "normalized": 0.02137,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 18,
+            "normalized": 0.01861,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              270.5,
+              731.0
+            ],
+            "normalized": [
+              0.19274,
+              0.60083
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "mouth": {
+          "width": {
+            "pixel": 74,
+            "normalized": 0.06325,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "opening_height": {
+            "pixel": 73,
+            "normalized": 0.07549,
+            "uncertainty_px": 5,
+            "method": "manual_source_annotation"
+          },
+          "center": {
+            "pixel": [
+              276.0,
+              779.5
+            ],
+            "normalized": [
+              0.19744,
+              0.65098
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_L": {
+          "center": {
+            "pixel": [
+              290,
+              1007
+            ],
+            "normalized": [
+              0.2094,
+              0.88625
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 150,
+            "normalized": 0.12821,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 100,
+            "normalized": 0.10341,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_R": {
+          "center": {
+            "pixel": [
+              511,
+              1053
+            ],
+            "normalized": [
+              0.39829,
+              0.93382
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "width": {
+            "pixel": 150,
+            "normalized": 0.12821,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          },
+          "height": {
+            "pixel": 100,
+            "normalized": 0.10341,
+            "uncertainty_px": 12,
+            "method": "manual_source_annotation"
+          }
+        },
+        "hoof_RL": null,
+        "ear_L": {
+          "length": {
+            "pixel": 94.81,
+            "normalized": 0.08103,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 153.71,
+          "root": {
+            "pixel": [
+              133,
+              628
+            ],
+            "normalized": [
+              0.07521,
+              0.49431
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              48,
+              670
+            ],
+            "normalized": [
+              0.00256,
+              0.53775
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.21368,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": null
+        },
+        "ear_R": {
+          "length": {
+            "pixel": 285.36,
+            "normalized": 0.24389,
+            "uncertainty_px": 8,
+            "method": "manual_source_annotation"
+          },
+          "inclination_degrees": 20.09,
+          "root": {
+            "pixel": [
+              573,
+              678
+            ],
+            "normalized": [
+              0.45128,
+              0.54602
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "tip": {
+            "pixel": [
+              841,
+              776
+            ],
+            "normalized": [
+              0.68034,
+              0.64736
+            ],
+            "uncertainty_px": 6,
+            "method": "manual_source_annotation"
+          },
+          "projected_width": {
+            "pixel": 250,
+            "normalized": 0.21368,
+            "uncertainty_px": 15,
+            "method": "manual_ear_span_proxy"
+          },
+          "inner_area_ratio": null
+        },
+        "major_fleece_clusters": [
+          {
+            "id": "FL_THREE_QUARTER_RIGHT_001",
+            "center": {
+              "pixel": [
+                570,
+                200
+              ],
+              "normalized": [
+                0.44872,
+                0.05171
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              250,
+              180
+            ],
+            "depth_layer": "crown",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_RIGHT_002",
+            "center": {
+              "pixel": [
+                340,
+                430
+              ],
+              "normalized": [
+                0.25214,
+                0.28956
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              250,
+              230
+            ],
+            "depth_layer": "face-side",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_RIGHT_003",
+            "center": {
+              "pixel": [
+                820,
+                440
+              ],
+              "normalized": [
+                0.66239,
+                0.2999
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              270,
+              220
+            ],
+            "depth_layer": "right-flank",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_RIGHT_004",
+            "center": {
+              "pixel": [
+                220,
+                720
+              ],
+              "normalized": [
+                0.14957,
+                0.58945
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              230,
+              250
+            ],
+            "depth_layer": "near-flank",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_RIGHT_005",
+            "center": {
+              "pixel": [
+                560,
+                870
+              ],
+              "normalized": [
+                0.44017,
+                0.74457
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              320,
+              220
+            ],
+            "depth_layer": "chest",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          },
+          {
+            "id": "FL_THREE_QUARTER_RIGHT_006",
+            "center": {
+              "pixel": [
+                930,
+                760
+              ],
+              "normalized": [
+                0.75641,
+                0.63082
+              ],
+              "uncertainty_px": 6,
+              "method": "manual_source_annotation"
+            },
+            "size_px": [
+              240,
+              240
+            ],
+            "depth_layer": "rear",
+            "uncertainty_px": 15,
+            "method": "manual_major_cluster_annotation"
+          }
+        ],
+        "face_depth_metrics": null
+      },
+      "components_over_80px2": [
+        {
+          "area": 760636,
+          "x0": 45,
+          "y0": 150,
+          "x1": 1214,
+          "y1": 1116,
+          "width": 1170,
+          "height": 967
+        }
+      ]
+    }
+  },
+  "canonical_sheet": {
+    "source_file": "assets/grimo/source/carol/approved-3d/carol-3d-production-canonical-sheet.png",
+    "sha256": "fc0e205aa2f4230e3372740bd5aa16fe511efe4c387a7658a0fe3d7b7fb9ffb3",
+    "image": {
+      "width_px": 1448,
+      "height_px": 1086,
+      "channels": 4
+    },
+    "role": "supplementary production canonical sheet; individual six views remain geometry authority",
+    "segmentation": {
+      "rule": "alpha>127",
+      "visible_bbox": {
+        "x0": 22,
+        "y0": 80,
+        "x1": 1428,
+        "y1": 1019,
+        "width": 1407,
+        "height": 940,
+        "area": 575020
+      }
+    },
+    "major_components": [
+      {
+        "area": 176442,
+        "x0": 408,
+        "y0": 80,
+        "x1": 1014,
+        "y1": 525,
+        "width": 607,
+        "height": 446
+      },
+      {
+        "area": 37046,
+        "x0": 254,
+        "y0": 572,
+        "x1": 502,
+        "y1": 776,
+        "width": 249,
+        "height": 205
+      },
+      {
+        "area": 36487,
+        "x0": 1161,
+        "y0": 826,
+        "x1": 1425,
+        "y1": 1017,
+        "width": 265,
+        "height": 192
+      },
+      {
+        "area": 35547,
+        "x0": 781,
+        "y0": 569,
+        "x1": 1018,
+        "y1": 777,
+        "width": 238,
+        "height": 209
+      },
+      {
+        "area": 35110,
+        "x0": 593,
+        "y0": 824,
+        "x1": 772,
+        "y1": 1019,
+        "width": 180,
+        "height": 196
+      },
+      {
+        "area": 34912,
+        "x0": 210,
+        "y0": 824,
+        "x1": 388,
+        "y1": 1019,
+        "width": 179,
+        "height": 196
+      },
+      {
+        "area": 34615,
+        "x0": 402,
+        "y0": 824,
+        "x1": 578,
+        "y1": 1019,
+        "width": 177,
+        "height": 196
+      },
+      {
+        "area": 33773,
+        "x0": 516,
+        "y0": 594,
+        "x1": 770,
+        "y1": 774,
+        "width": 255,
+        "height": 181
+      },
+      {
+        "area": 33552,
+        "x0": 22,
+        "y0": 824,
+        "x1": 194,
+        "y1": 1019,
+        "width": 173,
+        "height": 196
+      },
+      {
+        "area": 32023,
+        "x0": 23,
+        "y0": 572,
+        "x1": 241,
+        "y1": 773,
+        "width": 219,
+        "height": 202
+      },
+      {
+        "area": 31040,
+        "x0": 1031,
+        "y0": 570,
+        "x1": 1247,
+        "y1": 777,
+        "width": 217,
+        "height": 208
+      },
+      {
+        "area": 27465,
+        "x0": 804,
+        "y0": 849,
+        "x1": 1079,
+        "y1": 1017,
+        "width": 276,
+        "height": 169
+      },
+      {
+        "area": 27008,
+        "x0": 1254,
+        "y0": 540,
+        "x1": 1428,
+        "y1": 786,
+        "width": 175,
+        "height": 247
+      }
+    ],
+    "uncertainties": [
+      "The sheet contains multiple crops and a gray construction inset; its components are not a single calibrated view.",
+      "Use for cluster vocabulary, motif presence, and identity cross-checks only."
+    ]
+  },
+  "reference_conflicts": [
+    {
+      "id": "REFERENCE_CONFLICT_FRAMING",
+      "description": "Six plates are independently framed illustrations. Raw pixel sizes and crop offsets cannot be compared across views; use per-view visible-bbox normalization.",
+      "resolution": "Keep each plate's native pixel measurements and compare normalized coordinates for cross-view fitting."
+    },
+    {
+      "id": "REFERENCE_CONFLICT_MOTIF_PROJECTION",
+      "description": "Moon/star locations differ with view and some motifs disappear behind fleece or limbs.",
+      "resolution": "Treat motif entries as visible projection landmarks; solve one 3D placement from Front/Side/Top/3Q and allow occlusion."
+    },
+    {
+      "id": "REFERENCE_CONFLICT_WHITE_FLEECE_EDGE",
+      "description": "The two 3Q references are RGB on white; white fleece has an ambiguous outer edge.",
+      "resolution": "Use conservative chromatic mask and retain edge uncertainty; do not create a false alpha contour."
+    }
+  ],
+  "measurement_policy": {
+    "manual_landmarks": "6 px nominal manual uncertainty; provisional, requires Human audit",
+    "silhouette_edge": "2 px nominal uncertainty",
+    "invisible": null,
+    "alpha_cutoff": 127,
+    "white_distance": 10,
+    "white_chroma": 7
+  }
+}

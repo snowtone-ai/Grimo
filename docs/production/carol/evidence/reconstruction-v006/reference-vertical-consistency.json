@@ -1,0 +1,103 @@
+{
+  "status": "REFERENCE_CORRESPONDENCE_CONFLICT",
+  "assumptions": [
+    "Same anatomical landmark, same pose, opaque full-body silhouette.",
+    "Front and Side are horizontal orthographic views; identical world vertical axis.",
+    "Independent uniform bbox-height normalization; no vertical stretching.",
+    "Manual annotation uncertainty is nominal, not statistically validated."
+  ],
+  "proof": "A horizontal orthographic camera rotation preserves every world Z coordinate and the whole-body min/max Z. Consequently normalized landmark height is invariant. A model cannot lie within both error intervals when those intervals do not overlap.",
+  "conclusion": "Eye and nose annotations require source/correspondence or projection/pose reconciliation before simultaneous strict acceptance can be certified. This does not excuse separate model shape failures.",
+  "landmarks": [
+    {
+      "landmark": "eye_R_center",
+      "values": [
+        {
+          "view": "front",
+          "normalized_height_from_bottom": 0.3795243019648397,
+          "annotation_uncertainty": 0.0062047569803516025
+        },
+        {
+          "view": "side",
+          "normalized_height_from_bottom": 0.45649717514124294,
+          "annotation_uncertainty": 0.006779661016949152
+        }
+      ],
+      "difference": 0.07697287317640322,
+      "two_view_error_plus_annotation_budget": 0.03298441799730076,
+      "incompatible_under_assumptions": true
+    },
+    {
+      "landmark": "nose_center",
+      "values": [
+        {
+          "view": "front",
+          "normalized_height_from_bottom": 0.37125129265770423,
+          "annotation_uncertainty": 0.0062047569803516025
+        },
+        {
+          "view": "side",
+          "normalized_height_from_bottom": 0.4248587570621469,
+          "annotation_uncertainty": 0.006779661016949152
+        }
+      ],
+      "difference": 0.05360746440444264,
+      "two_view_error_plus_annotation_budget": 0.03298441799730076,
+      "incompatible_under_assumptions": true
+    },
+    {
+      "landmark": "ear_R_root",
+      "values": [
+        {
+          "view": "front",
+          "normalized_height_from_bottom": 0.4364012409513961,
+          "annotation_uncertainty": 0.0062047569803516025
+        },
+        {
+          "view": "side",
+          "normalized_height_from_bottom": 0.5186440677966102,
+          "annotation_uncertainty": 0.006779661016949152
+        }
+      ],
+      "difference": 0.08224282684521411,
+      "two_view_error_plus_annotation_budget": 0.04298441799730075,
+      "incompatible_under_assumptions": true
+    },
+    {
+      "landmark": "ear_R_tip",
+      "values": [
+        {
+          "view": "front",
+          "normalized_height_from_bottom": 0.3650465356773526,
+          "annotation_uncertainty": 0.0062047569803516025
+        },
+        {
+          "view": "side",
+          "normalized_height_from_bottom": 0.38531073446327685,
+          "annotation_uncertainty": 0.006779661016949152
+        }
+      ],
+      "difference": 0.020264198785924226,
+      "two_view_error_plus_annotation_budget": 0.04298441799730075,
+      "incompatible_under_assumptions": false
+    },
+    {
+      "landmark": "hoof_FR_center",
+      "values": [
+        {
+          "view": "front",
+          "normalized_height_from_bottom": 0.045501551189245086,
+          "annotation_uncertainty": 0.0062047569803516025
+        },
+        {
+          "view": "side",
+          "normalized_height_from_bottom": 0.05310734463276836,
+          "annotation_uncertainty": 0.006779661016949152
+        }
+      ],
+      "difference": 0.007605793443523273,
+      "two_view_error_plus_annotation_budget": 0.04298441799730075,
+      "incompatible_under_assumptions": false
+    }
+  ]
+}

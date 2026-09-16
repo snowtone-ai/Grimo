@@ -1,5 +1,14 @@
 # Carol geometry decision
 
+> Current instruction (2026-09-17): A macro direction only; B retired completely;
+> old model look-only. v006 is an authored reconstruction, **NOT ACCEPTED**, paused
+> at the user-requested checkpoint. See [the current packet](evidence/reconstruction-v006/README.md).
+> Strict reference landmark correspondence has a documented Front/Side vertical
+> conflict. Model-specific failures remain independently. No production promotion.
+
+## Historical records — superseded where they conflict with the instruction above
+
+
 > Latest scope update (2026-09-16): v005 A/B method comparison is recorded in
 > [the v005 packet](evidence/hero-geometry-v005/README.md). The user explicitly
 > authorized historical mesh deformation for B while preserving zero-based A.

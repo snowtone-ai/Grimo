@@ -1,0 +1,1941 @@
+{
+  "schema_version": 1,
+  "status": "NOT_ACCEPTED",
+  "human_gate": "PENDING",
+  "render_stage": "CLAY_GEOMETRY",
+  "lookdev_status": "HELD_UNTIL_GEOMETRY_ACCEPTANCE",
+  "normalization": "Per view: center visible bbox and isotropically normalize equal bbox height. No anisotropic warp. Width differences retained.",
+  "views": {
+    "front": {
+      "silhouette_iou": 0.943511,
+      "target": 0.95,
+      "silhouette_status": "FAIL",
+      "landmark_error": 0.02410407867845422,
+      "face_depth": {
+        "visible_skin_width_body_ratio": 0.4491150442477876,
+        "visible_skin_area_px": 19831,
+        "skin_bbox_px": [
+          284,
+          343,
+          487,
+          508
+        ],
+        "method": "Visible surface ID mask; opaque fleece and all face parts occlude normally"
+      },
+      "top_width_error": null,
+      "reference_file": "assets\\grimo\\source\\carol\\approved-3d\\carol-front-ortho-transparent.png",
+      "render_file": "docs\\production\\carol\\evidence\\reconstruction-v006\\iterations\\pass-05-iteration-09\\front-clay.png",
+      "registration": {
+        "reference": {
+          "source_bbox": [
+            96,
+            137,
+            1177,
+            1104
+          ],
+          "scale": 0.4891416752843847,
+          "offset": [
+            72.04239917269908,
+            79.9875904860393
+          ],
+          "registered_bbox": [
+            119,
+            147,
+            648,
+            620
+          ]
+        },
+        "model": {
+          "source_bbox": [
+            158,
+            170,
+            610,
+            589
+          ],
+          "scale": 1.1288782816229117,
+          "offset": [
+            -49.362768496420045,
+            -44.909307875894996
+          ],
+          "registered_bbox": [
+            129,
+            147,
+            639,
+            620
+          ]
+        }
+      },
+      "model_landmarks": {
+        "face_left": [
+          261.8384642680676,
+          442.7663940029099
+        ],
+        "face_right": [
+          506.4145190254885,
+          442.7663940029099
+        ],
+        "face_top": [
+          384.12649164677805,
+          346.73199546650085
+        ],
+        "face_bottom": [
+          384.12649164677805,
+          531.0124005520258
+        ],
+        "eye_center_L": [
+          314.009311539461,
+          443.540448008972
+        ],
+        "eye_L_left": [
+          294.62478543010707,
+          443.540448008972
+        ],
+        "eye_L_right": [
+          342.01620190240317,
+          443.540448008972
+        ],
+        "eye_L_top": [
+          314.8920142235221,
+          411.33912440188465
+        ],
+        "eye_L_bottom": [
+          316.93499693950207,
+          475.7424950793136
+        ],
+        "eye_center_R": [
+          464.55813904536944,
+          443.540448008972
+        ],
+        "eye_R_left": [
+          437.32496679483563,
+          443.540448008972
+        ],
+        "eye_R_right": [
+          478.4126670673526,
+          443.540448008972
+        ],
+        "eye_R_top": [
+          462.43937355351045,
+          411.33858180444395
+        ],
+        "eye_R_bottom": [
+          459.9872982052459,
+          475.7424950793136
+        ],
+        "nose_center": [
+          388.08998508498894,
+          446.17232981388213
+        ],
+        "mouth_corner_L": [
+          364.39085331737,
+          455.61621243060347
+        ],
+        "mouth_corner_R": [
+          411.7686790156763,
+          455.61621243060347
+        ],
+        "ear_root_L": [
+          273.92298776266966,
+          413.3510240359067
+        ],
+        "ear_tip_L": [
+          130.2105262774556,
+          450.50726995718503
+        ],
+        "ear_root_R": [
+          494.32999553088644,
+          413.3510240359067
+        ],
+        "ear_tip_R": [
+          638.0424570161005,
+          450.50726995718503
+        ],
+        "hoof_front_L": [
+          301.64594463630624,
+          594.4876195502452
+        ],
+        "hoof_front_R": [
+          448.58608575424887,
+          594.4876195502452
+        ],
+        "hoof_rear_L": [
+          297.9885278305745,
+          594.4876712261919
+        ],
+        "hoof_rear_R": [
+          451.44438571975456,
+          594.4876712261919
+        ]
+      },
+      "landmark_status": "FAIL",
+      "segmentation_uncertainty": "alpha threshold 127; boundary uncertainty ~1-2 source pixels",
+      "reference_landmarks": {
+        "eye_center_L": [
+          318.0806618407446,
+          440.48500517063076
+        ],
+        "eye_center_R": [
+          470.2037228541882,
+          440.48500517063076
+        ],
+        "ear_root_L": [
+          249.11168562564634,
+          412.11478800413647
+        ],
+        "ear_root_R": [
+          544.5532574974147,
+          413.5822130299897
+        ],
+        "ear_tip_L": [
+          133.67425025853154,
+          447.3329886246122
+        ],
+        "ear_tip_R": [
+          646.7838676318511,
+          447.3329886246122
+        ],
+        "nose_center": [
+          391.4519131334023,
+          444.39813857290585
+        ],
+        "mouth_corner_L": [
+          367.97311271975184,
+          456.6266804550155
+        ],
+        "mouth_corner_R": [
+          415.9089968976215,
+          456.6266804550155
+        ],
+        "hoof_front_L": [
+          288.2430196483971,
+          597.4994829369183
+        ],
+        "hoof_front_R": [
+          460.9100310237849,
+          598.477766287487
+        ]
+      },
+      "landmark_errors": {
+        "eye_L_center": {
+          "normalized_error": 0.010047940504442214,
+          "delta_xy": [
+            -0.00769631436915612,
+            0.006459710017634808
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "eye_R_center": {
+          "normalized_error": 0.012474906942430057,
+          "delta_xy": [
+            -0.010672181113078907,
+            0.006459710017634808
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "ear_L_root": {
+          "normalized_error": 0.04697503702600702,
+          "delta_xy": [
+            0.046902272470743515,
+            0.0026136068324951463
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_root": {
+          "normalized_error": 0.09494126186017217,
+          "delta_xy": [
+            -0.09494000371744479,
+            -0.000488771657680818
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_L_tip": {
+          "normalized_error": 0.00937598265572623,
+          "delta_xy": [
+            -0.006547682383886445,
+            0.0067109541914859025
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_tip": {
+          "normalized_error": 0.01783515881416723,
+          "delta_xy": [
+            -0.01652440570085184,
+            0.0067109541914859025
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "nose_center": {
+          "normalized_error": 0.007379615100933634,
+          "delta_xy": [
+            -0.00635525150928799,
+            0.0037509328561866366
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_L": {
+          "normalized_error": 0.007100736040649808,
+          "delta_xy": [
+            -0.006771756904313518,
+            -0.0021362960346977475
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_R": {
+          "normalized_error": 0.008113002140037432,
+          "delta_xy": [
+            -0.007826687867571227,
+            -0.0021362960346977475
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "hoof_FL_center": {
+          "normalized_error": 0.026124246498265363,
+          "delta_xy": [
+            0.02533634213215342,
+            -0.006367575870344818
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_FR_center": {
+          "normalized_error": 0.02477697788016527,
+          "delta_xy": [
+            -0.023296682929179607,
+            -0.008435828197128634
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        }
+      },
+      "landmark_max_error": 0.09494126186017217
+    },
+    "side": {
+      "silhouette_iou": 0.936985,
+      "target": 0.95,
+      "silhouette_status": "FAIL",
+      "landmark_error": 0.06648765151292427,
+      "face_depth": {
+        "visible_skin_width_body_ratio": 0.2107843137254902,
+        "visible_skin_area_px": 5619,
+        "skin_bbox_px": [
+          78,
+          371,
+          207,
+          506
+        ],
+        "method": "Visible surface ID mask; opaque fleece and all face parts occlude normally",
+        "reference_width_body_ratio": 0.25837,
+        "status": "VISIBLE_NOT_ACCEPTED"
+      },
+      "top_width_error": null,
+      "reference_file": "assets\\grimo\\source\\carol\\approved-3d\\carol-side-ortho-transparent.png",
+      "render_file": "docs\\production\\carol\\evidence\\reconstruction-v006\\iterations\\pass-05-iteration-09\\side-clay.png",
+      "registration": {
+        "reference": {
+          "source_bbox": [
+            89,
+            106,
+            1374,
+            991
+          ],
+          "scale": 0.5344632768361582,
+          "offset": [
+            -7.567231638418086,
+            90.34689265536723
+          ],
+          "registered_bbox": [
+            40,
+            147,
+            727,
+            620
+          ]
+        },
+        "model": {
+          "source_bbox": [
+            72,
+            170,
+            684,
+            589
+          ],
+          "scale": 1.1288782816229117,
+          "offset": [
+            -43.279236276849645,
+            -44.909307875894996
+          ],
+          "registered_bbox": [
+            38,
+            147,
+            729,
+            620
+          ]
+        }
+      },
+      "model_landmarks": {
+        "face_left": [
+          210.55978360779247,
+          442.766187299123
+        ],
+        "face_right": [
+          210.5597577698191,
+          442.766187299123
+        ],
+        "face_top": [
+          210.5597577698191,
+          346.7317887627139
+        ],
+        "face_bottom": [
+          210.5597577698191,
+          531.0122196862122
+        ],
+        "eye_center_L": [
+          58.2381610733797,
+          443.54029298113187
+        ],
+        "eye_L_left": [
+          84.09220565759482,
+          443.54029298113187
+        ],
+        "eye_L_right": [
+          53.97685269467301,
+          443.5402671431584
+        ],
+        "eye_L_top": [
+          71.50832457075825,
+          411.3389693740444
+        ],
+        "eye_L_bottom": [
+          70.6474032982437,
+          475.74234005147343
+        ],
+        "eye_center_R": [
+          64.49896039940008,
+          443.5402671431584
+        ],
+        "eye_R_left": [
+          57.99155699609287,
+          443.5402671431584
+        ],
+        "eye_R_right": [
+          95.34957811087014,
+          443.5402671431584
+        ],
+        "eye_R_top": [
+          77.7472003763786,
+          411.33840093863034
+        ],
+        "eye_R_bottom": [
+          77.50837998856792,
+          475.74234005147343
+        ],
+        "nose_center": [
+          41.98880819261501,
+          446.17217478604186
+        ],
+        "mouth_corner_L": [
+          46.044853251418516,
+          455.61603156478986
+        ],
+        "mouth_corner_R": [
+          47.74052838892243,
+          455.61603156478986
+        ],
+        "ear_root_L": [
+          105.76375414135916,
+          413.3508431700932
+        ],
+        "ear_tip_L": [
+          270.4432142526267,
+          450.5070632533982
+        ],
+        "ear_root_R": [
+          105.76374122237249,
+          413.3508431700932
+        ],
+        "ear_tip_R": [
+          270.4432142526267,
+          450.5070632533982
+        ],
+        "hoof_front_L": [
+          210.55978360779247,
+          594.4874386844316
+        ],
+        "hoof_front_R": [
+          210.5597577698191,
+          594.4874128464583
+        ],
+        "hoof_rear_L": [
+          575.8487828876068,
+          594.4874386844316
+        ],
+        "hoof_rear_R": [
+          575.8487828876068,
+          594.4874128464583
+        ]
+      },
+      "landmark_status": "FAIL",
+      "segmentation_uncertainty": "alpha threshold 127; boundary uncertainty ~1-2 source pixels",
+      "reference_landmarks": {
+        "eye_center_R": [
+          111.08361581920903,
+          404.0768361581921
+        ],
+        "ear_root_R": [
+          216.90734463276837,
+          374.6813559322034
+        ],
+        "ear_tip_R": [
+          353.7299435028249,
+          437.7480225988701
+        ],
+        "nose_center": [
+          48.55141242937853,
+          419.0418079096046
+        ],
+        "mouth_corner_L": [
+          45.34463276836158,
+          452.71299435028254
+        ],
+        "mouth_corner_R": [
+          61.91299435028248,
+          452.71299435028254
+        ],
+        "hoof_front_R": [
+          231.33785310734464,
+          594.8802259887005
+        ],
+        "hoof_rear_R": [
+          577.6700564971752,
+          594.8802259887005
+        ]
+      },
+      "landmark_errors": {
+        "eye_R_center": {
+          "normalized_error": 0.10751263845973076,
+          "delta_xy": [
+            -0.06780881429375393,
+            0.08343220081388222
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "ear_R_root": {
+          "normalized_error": 0.18126439679806772,
+          "delta_xy": [
+            -0.16178108211120215,
+            0.08175367280737794
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_tip": {
+          "normalized_error": 0.12419724222259064,
+          "delta_xy": [
+            -0.12123250254759559,
+            0.026974715971518227
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "nose_center": {
+          "normalized_error": 0.05814808178569888,
+          "delta_xy": [
+            -0.009552553474182707,
+            0.05735806950620989
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_L": {
+          "normalized_error": 0.006221555813663449,
+          "delta_xy": [
+            0.0010192437890202885,
+            0.0061374993964213986
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_R": {
+          "normalized_error": 0.021523130272850625,
+          "delta_xy": [
+            -0.020629499215953497,
+            0.0061374993964213986
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "hoof_FR_center": {
+          "normalized_error": 0.030256079839870054,
+          "delta_xy": [
+            -0.030244680258406903,
+            -0.0008304717594974405
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_RR_center": {
+          "normalized_error": 0.0027780869109220404,
+          "delta_xy": [
+            -0.0026510532890369424,
+            -0.0008304717594974405
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        }
+      },
+      "landmark_max_error": 0.18126439679806772
+    },
+    "back": {
+      "silhouette_iou": 0.921448,
+      "target": 0.95,
+      "silhouette_status": "FAIL",
+      "landmark_error": 0.10922827313592526,
+      "face_depth": null,
+      "top_width_error": null,
+      "reference_file": "assets\\grimo\\source\\carol\\approved-3d\\carol-back-ortho-transparent.png",
+      "render_file": "docs\\production\\carol\\evidence\\reconstruction-v006\\iterations\\pass-05-iteration-09\\back-clay.png",
+      "registration": {
+        "reference": {
+          "source_bbox": [
+            55,
+            141,
+            1199,
+            1112
+          ],
+          "scale": 0.48712667353244077,
+          "offset": [
+            78.20803295571577,
+            78.31513903192585
+          ],
+          "registered_bbox": [
+            105,
+            147,
+            662,
+            620
+          ]
+        },
+        "model": {
+          "source_bbox": [
+            158,
+            170,
+            610,
+            589
+          ],
+          "scale": 1.1288782816229117,
+          "offset": [
+            -49.362768496420045,
+            -44.909307875894996
+          ],
+          "registered_bbox": [
+            129,
+            147,
+            639,
+            620
+          ]
+        }
+      },
+      "model_landmarks": {
+        "face_left": [
+          506.4145190254885,
+          442.76629065101645
+        ],
+        "face_right": [
+          261.8384642680676,
+          442.766264813043
+        ],
+        "face_top": [
+          384.12649164677805,
+          346.7318921146074
+        ],
+        "face_bottom": [
+          384.1264658088047,
+          531.0122972001324
+        ],
+        "eye_center_L": [
+          454.2436717540951,
+          443.54039633302534
+        ],
+        "eye_L_left": [
+          473.62819786344915,
+          443.54039633302534
+        ],
+        "eye_L_right": [
+          426.2367555531796,
+          443.5403704950519
+        ],
+        "eye_L_top": [
+          453.36094323206066,
+          411.33907272593785
+        ],
+        "eye_L_bottom": [
+          451.317986354054,
+          475.7424434033669
+        ],
+        "eye_center_R": [
+          303.69484424818677,
+          443.5403704950519
+        ],
+        "eye_R_left": [
+          330.9279906607471,
+          443.5403704950519
+        ],
+        "eye_R_right": [
+          289.8402903882302,
+          443.5403704950519
+        ],
+        "eye_R_top": [
+          305.8135839020722,
+          411.3385042905238
+        ],
+        "eye_R_bottom": [
+          308.26565925033674,
+          475.74241756539357
+        ],
+        "nose_center": [
+          380.16299820856716,
+          446.17227813793534
+        ],
+        "mouth_corner_L": [
+          403.86210413821277,
+          455.61613491668334
+        ],
+        "mouth_corner_R": [
+          356.48427843990646,
+          455.61613491668334
+        ],
+        "ear_root_L": [
+          494.32999553088644,
+          413.35094652198666
+        ],
+        "ear_tip_L": [
+          638.0424570161005,
+          450.507192443265
+        ],
+        "ear_root_R": [
+          273.92298776266966,
+          413.3509206840133
+        ],
+        "ear_tip_R": [
+          130.21050043948227,
+          450.5071149293449
+        ],
+        "hoof_front_L": [
+          466.6069869813032,
+          594.4875161983517
+        ],
+        "hoof_front_R": [
+          319.6668717013339,
+          594.4875161983517
+        ],
+        "hoof_rear_L": [
+          470.2644037870348,
+          594.4875161983517
+        ],
+        "hoof_rear_R": [
+          316.8085717358282,
+          594.4874645224049
+        ]
+      },
+      "landmark_status": "FAIL",
+      "segmentation_uncertainty": "alpha threshold 127; boundary uncertainty ~1-2 source pixels",
+      "reference_landmarks": {
+        "ear_root_L": [
+          582.8712667353244,
+          372.0525231719877
+        ],
+        "ear_root_R": [
+          184.40164778578787,
+          372.0525231719877
+        ],
+        "ear_tip_L": [
+          653.9917610710608,
+          393.97322348094747
+        ],
+        "ear_tip_R": [
+          113.2811534500515,
+          393.97322348094747
+        ],
+        "hoof_rear_L": [
+          473.2677651905252,
+          593.6951596292481
+        ],
+        "hoof_rear_R": [
+          294.97940267765193,
+          593.6951596292481
+        ]
+      },
+      "landmark_errors": {
+        "ear_L_root": {
+          "normalized_error": 0.18136131120283433,
+          "delta_xy": [
+            -0.15896098959504126,
+            0.08731167727272512
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_root": {
+          "normalized_error": 0.18290547002117638,
+          "delta_xy": [
+            0.16072053855813606,
+            0.08731162264698868
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_L_tip": {
+          "normalized_error": 0.12290428525018277,
+          "delta_xy": [
+            -0.02863429812380663,
+            0.11952213311272208
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_tip": {
+          "normalized_error": 0.12332592692080165,
+          "delta_xy": [
+            0.030393800699157574,
+            0.1195219692355125
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_RL_center": {
+          "normalized_error": 0.00564625572274087,
+          "delta_xy": [
+            -0.005392031245045656,
+            0.001675172450536189
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_RR_center": {
+          "normalized_error": 0.03922638969781556,
+          "delta_xy": [
+            0.03919060872203997,
+            0.001675063199063054
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        }
+      },
+      "landmark_max_error": 0.18290547002117638
+    },
+    "top": {
+      "silhouette_iou": 0.943943,
+      "target": 0.95,
+      "silhouette_status": "FAIL",
+      "landmark_error": 0.1453986727155822,
+      "face_depth": {
+        "visible_skin_width_body_ratio": 0.24336283185840707,
+        "visible_skin_area_px": 781,
+        "skin_bbox_px": [
+          336,
+          78,
+          446,
+          103
+        ],
+        "method": "Visible surface ID mask; opaque fleece and all face parts occlude normally"
+      },
+      "top_width_error": 0.031334,
+      "reference_file": "assets\\grimo\\source\\carol\\approved-3d\\carol-top-plan-transparent.png",
+      "render_file": "docs\\production\\carol\\evidence\\reconstruction-v006\\iterations\\pass-05-iteration-09\\top-clay.png",
+      "registration": {
+        "reference": {
+          "source_bbox": [
+            192,
+            36,
+            1062,
+            1246
+          ],
+          "scale": 0.39090909090909093,
+          "offset": [
+            138.94545454545454,
+            132.92727272727274
+          ],
+          "registered_bbox": [
+            214,
+            147,
+            554,
+            620
+          ]
+        },
+        "model": {
+          "source_bbox": [
+            158,
+            72,
+            610,
+            684
+          ],
+          "scale": 0.7728758169934641,
+          "offset": [
+            86.88562091503267,
+            91.35294117647058
+          ],
+          "registered_bbox": [
+            209,
+            147,
+            558,
+            620
+          ]
+        }
+      },
+      "model_landmarks": {
+        "face_left": [
+          467.3932736465355,
+          265.1413497176825
+        ],
+        "face_right": [
+          299.9466133242339,
+          265.1413497176825
+        ],
+        "face_top": [
+          383.6699346405229,
+          265.1413497176825
+        ],
+        "face_bottom": [
+          383.6699346405229,
+          265.1413497176825
+        ],
+        "eye_center_L": [
+          431.67503287122145,
+          160.8558297998765
+        ],
+        "eye_L_left": [
+          444.9464295829823,
+          178.55652102302102
+        ],
+        "eye_L_right": [
+          412.50036311928744,
+          157.93833444632736
+        ],
+        "eye_L_top": [
+          431.0706811543384,
+          169.94109494078393
+        ],
+        "eye_L_bottom": [
+          429.6719900891672,
+          169.35167335061465
+        ],
+        "eye_center_R": [
+          328.6031871995116,
+          165.14222672406365
+        ],
+        "eye_R_left": [
+          347.2481027989606,
+          160.68696369844324
+        ],
+        "eye_R_right": [
+          319.11779820061975,
+          186.26379207536286
+        ],
+        "eye_R_top": [
+          330.0537622239855,
+          174.21249097936294
+        ],
+        "eye_R_bottom": [
+          331.7325700622758,
+          174.04900255390243
+        ],
+        "nose_center": [
+          380.9564018000185,
+          149.73083339017978
+        ],
+        "mouth_corner_L": [
+          397.1817700753804,
+          152.50776620004692
+        ],
+        "mouth_corner_R": [
+          364.7449907165727,
+          153.6687073801078
+        ],
+        "ear_root_L": [
+          459.11975454193316,
+          193.39377668792127
+        ],
+        "ear_tip_L": [
+          557.5110939374936,
+          306.14000836540674
+        ],
+        "ear_root_R": [
+          308.2201678082834,
+          193.39374130847406
+        ],
+        "ear_tip_R": [
+          209.82878418841392,
+          306.1399729859595
+        ],
+        "hoof_front_L": [
+          440.1394594728557,
+          265.1413497176825
+        ],
+        "hoof_front_R": [
+          339.53830211614473,
+          265.1413497176825
+        ],
+        "hoof_rear_L": [
+          442.64343984765947,
+          515.2330188751221
+        ],
+        "hoof_rear_R": [
+          337.5813587537778,
+          515.2330188751221
+        ]
+      },
+      "landmark_status": "FAIL",
+      "segmentation_uncertainty": "alpha threshold 127; boundary uncertainty ~1-2 source pixels",
+      "reference_landmarks": {
+        "ear_root_L": [
+          515.7818181818182,
+          296.32727272727277
+        ],
+        "ear_root_R": [
+          251.13636363636363,
+          296.32727272727277
+        ],
+        "ear_tip_L": [
+          554.0909090909091,
+          300.6272727272727
+        ],
+        "ear_tip_R": [
+          214.39090909090908,
+          301.0181818181818
+        ]
+      },
+      "landmark_errors": {
+        "ear_L_root": {
+          "normalized_error": 0.274100395146213,
+          "delta_xy": [
+            -0.1666531283526029,
+            -0.21761838486120824
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_root": {
+          "normalized_error": 0.2748563903623217,
+          "delta_xy": [
+            0.167893541682117,
+            -0.21761845965919388
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_L_tip": {
+          "normalized_error": 0.015395648163104745,
+          "delta_xy": [
+            0.01005936719583661,
+            0.011654832215928156
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_tip": {
+          "normalized_error": 0.01724225719068934,
+          "delta_xy": [
+            -0.013418014419103402,
+            0.010828311136950743
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        }
+      },
+      "landmark_max_error": 0.2748563903623217,
+      "width_profile_reference_px": [
+        13.0,
+        41.0,
+        53.0,
+        65.0,
+        71.0,
+        77.0,
+        99.0,
+        116.0,
+        126.0,
+        131.0,
+        148.0,
+        161.0,
+        167.0,
+        177.0,
+        187.0,
+        195.0,
+        198.0,
+        199.0,
+        215.0,
+        226.0,
+        231.0,
+        235.0,
+        239.0,
+        243.0,
+        243.0,
+        258.0,
+        279.0,
+        293.0,
+        308.0,
+        320.0,
+        330.0,
+        336.0,
+        340.0,
+        339.0,
+        335.0,
+        327.0,
+        315.0,
+        299.0,
+        280.0,
+        244.0,
+        244.0,
+        242.0,
+        238.0,
+        229.0,
+        211.0,
+        201.0,
+        201.0,
+        197.0,
+        190.0,
+        178.0,
+        178.0,
+        182.0,
+        183.0,
+        183.0,
+        179.0,
+        177.0,
+        190.0,
+        200.0,
+        205.0,
+        208.0,
+        209.0,
+        208.0,
+        205.0,
+        204.0,
+        214.0,
+        220.0,
+        222.0,
+        222.0,
+        226.0,
+        238.0,
+        245.0,
+        250.0,
+        253.0,
+        253.0,
+        253.0,
+        249.0,
+        242.0,
+        247.0,
+        253.0,
+        257.0,
+        259.0,
+        259.0,
+        257.0,
+        255.0,
+        249.0,
+        241.0,
+        226.0,
+        216.0,
+        216.0,
+        213.0,
+        208.0,
+        198.0,
+        184.0,
+        151.0,
+        143.0,
+        131.0,
+        83.0,
+        65.0,
+        51.0,
+        38.0,
+        9.0
+      ],
+      "width_profile_model_px": [
+        6.0,
+        29.0,
+        51.0,
+        101.0,
+        120.0,
+        130.0,
+        136.0,
+        139.0,
+        153.0,
+        159.0,
+        171.0,
+        181.0,
+        193.0,
+        203.0,
+        213.0,
+        221.0,
+        229.0,
+        236.0,
+        243.0,
+        248.0,
+        251.0,
+        255.0,
+        259.0,
+        265.0,
+        273.0,
+        283.0,
+        295.0,
+        305.0,
+        317.0,
+        327.0,
+        337.0,
+        343.0,
+        349.0,
+        348.0,
+        332.0,
+        313.0,
+        302.0,
+        285.0,
+        268.0,
+        256.0,
+        249.0,
+        243.0,
+        237.0,
+        230.0,
+        223.0,
+        216.0,
+        206.0,
+        197.0,
+        189.0,
+        185.0,
+        184.0,
+        184.0,
+        183.0,
+        181.0,
+        180.0,
+        185.0,
+        193.0,
+        201.0,
+        205.0,
+        208.0,
+        207.0,
+        206.0,
+        209.0,
+        213.0,
+        218.0,
+        221.0,
+        225.0,
+        229.0,
+        236.0,
+        243.0,
+        247.0,
+        250.0,
+        251.0,
+        254.0,
+        254.0,
+        255.0,
+        254.0,
+        256.0,
+        258.0,
+        261.0,
+        262.0,
+        261.0,
+        256.0,
+        247.0,
+        242.0,
+        238.0,
+        231.0,
+        224.0,
+        220.0,
+        215.0,
+        207.0,
+        200.0,
+        174.0,
+        148.0,
+        140.0,
+        135.0,
+        90.0,
+        58.0,
+        42.0,
+        33.0,
+        11.0
+      ],
+      "top_width_status": "FAIL",
+      "width_profile_stats": {
+        "reference": {
+          "mid_min_px": 177.0,
+          "mid_location_s": 0.55,
+          "front_max_px": 340.0,
+          "rear_max_px": 259.0,
+          "mid_max_ratio": 0.5205882352941177
+        },
+        "model": {
+          "mid_min_px": 180.0,
+          "mid_location_s": 0.54,
+          "front_max_px": 349.0,
+          "rear_max_px": 262.0,
+          "mid_max_ratio": 0.5157593123209169
+        }
+      }
+    },
+    "3q-left": {
+      "silhouette_iou": 0.826143,
+      "target": 0.92,
+      "silhouette_status": "FAIL",
+      "landmark_error": 0.037123664200569347,
+      "face_depth": {
+        "visible_skin_width_body_ratio": 0.4225352112676056,
+        "visible_skin_area_px": 16719,
+        "skin_bbox_px": [
+          382,
+          352,
+          592,
+          512
+        ],
+        "method": "Visible surface ID mask; opaque fleece and all face parts occlude normally"
+      },
+      "top_width_error": null,
+      "reference_file": "assets\\grimo\\source\\carol\\approved-3d\\carol-front-3q-left.png",
+      "render_file": "docs\\production\\carol\\evidence\\reconstruction-v006\\iterations\\pass-05-iteration-09\\3q-left-clay.png",
+      "registration": {
+        "reference": {
+          "source_bbox": [
+            51,
+            133,
+            1218,
+            1127
+          ],
+          "scale": 0.47585513078470826,
+          "offset": [
+            81.73138832997988,
+            83.7112676056338
+          ],
+          "registered_bbox": [
+            106,
+            147,
+            661,
+            620
+          ]
+        },
+        "model": {
+          "source_bbox": [
+            142,
+            171,
+            639,
+            598
+          ],
+          "scale": 1.1077283372365339,
+          "offset": [
+            -49.2974238875878,
+            -42.421545667447276
+          ],
+          "registered_bbox": [
+            108,
+            147,
+            659,
+            620
+          ]
+        }
+      },
+      "model_landmarks": {
+        "face_left": [
+          370.8948695520048,
+          447.5292873695248
+        ],
+        "face_right": [
+          573.8471775814297,
+          430.86752247866195
+        ],
+        "face_top": [
+          467.74084554846445,
+          345.20641485924466
+        ],
+        "face_bottom": [
+          476.62571048066536,
+          525.5677227404414
+        ],
+        "eye_center_L": [
+          493.6605325024357,
+          447.46154177663476
+        ],
+        "eye_L_left": [
+          464.0920658870938,
+          448.3189596135946
+        ],
+        "eye_L_right": [
+          519.1232916588526,
+          445.6299007335368
+        ],
+        "eye_L_top": [
+          485.9200407291743,
+          415.6472022706507
+        ],
+        "eye_L_bottom": [
+          491.1694621459103,
+          478.557149221523
+        ],
+        "eye_center_R": [
+          615.3228955950055,
+          437.09324612047965
+        ],
+        "eye_R_left": [
+          596.1180848740303,
+          439.06509417281495
+        ],
+        "eye_R_right": [
+          610.7307991188638,
+          435.59673278951533
+        ],
+        "eye_R_top": [
+          605.1030976699722,
+          405.48323361041673
+        ],
+        "eye_R_bottom": [
+          606.2980264846838,
+          468.6888069134964
+        ],
+        "nose_center": [
+          563.7346266092126,
+          445.28181718384076
+        ],
+        "mouth_corner_L": [
+          542.4089123192101,
+          456.0667025992686
+        ],
+        "mouth_corner_R": [
+          580.8393239505955,
+          452.80870243760404
+        ],
+        "ear_root_L": [
+          434.1561199965466,
+          419.79362807620043
+        ],
+        "ear_tip_L": [
+          230.81209437350202,
+          462.99990117521975
+        ],
+        "ear_root_R": [
+          617.0526393559833,
+          404.7783954807969
+        ],
+        "ear_tip_R": [
+          652.2174700127273,
+          428.4038343228557
+        ],
+        "hoof_front_L": [
+          411.2426944348516,
+          593.311971874371
+        ],
+        "hoof_front_R": [
+          533.1754821134116,
+          583.3016731387279
+        ],
+        "hoof_rear_L": [
+          217.7079872649503,
+          587.0171588835169
+        ],
+        "hoof_rear_R": [
+          345.04759330660175,
+          576.5629642495505
+        ]
+      },
+      "landmark_status": "FAIL",
+      "segmentation_uncertainty": "3Q white-background mask can include soft floor shadow / exclude white contour",
+      "reference_landmarks": {
+        "eye_center_L": [
+          489.0633802816902,
+          441.5543259557344
+        ],
+        "eye_center_R": [
+          590.8963782696177,
+          417.761569416499
+        ],
+        "ear_root_L": [
+          414.8299798792757,
+          410.62374245472836
+        ],
+        "ear_root_R": [
+          620.8752515090542,
+          386.35513078470825
+        ],
+        "ear_tip_L": [
+          284.9215291750503,
+          453.9265593561368
+        ],
+        "ear_tip_R": [
+          658.4678068410462,
+          403.96177062374244
+        ],
+        "nose_center": [
+          559.489939637827,
+          440.1267605633803
+        ],
+        "mouth_corner_L": [
+          542.8350100603622,
+          453.9265593561368
+        ],
+        "mouth_corner_R": [
+          575.1931589537223,
+          446.31287726358147
+        ],
+        "hoof_front_L": [
+          419.11267605633805,
+          590.0211267605634
+        ],
+        "hoof_front_R": [
+          517.6146881287726,
+          575.7454728370221
+        ],
+        "hoof_rear_L": [
+          243.046277665996,
+          561.9456740442656
+        ],
+        "hoof_rear_R": [
+          344.40342052313883,
+          565.7525150905433
+        ]
+      },
+      "landmark_errors": {
+        "eye_L_center": {
+          "normalized_error": 0.014986044394743617,
+          "delta_xy": [
+            0.008283157154496396,
+            0.012488828373996567
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "eye_R_center": {
+          "normalized_error": 0.06006179504611279,
+          "delta_xy": [
+            0.04401174292862678,
+            0.040870352439705354
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "ear_L_root": {
+          "normalized_error": 0.0398548005525336,
+          "delta_xy": [
+            0.03482187408517276,
+            0.019386650362520245
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_root": {
+          "normalized_error": 0.03955410648309075,
+          "delta_xy": [
+            -0.006887589464992727,
+            0.03894981965346441
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_L_tip": {
+          "normalized_error": 0.099363690260101,
+          "delta_xy": [
+            -0.0974944771199068,
+            0.01918254084372715
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_tip": {
+          "normalized_error": 0.05288751393866864,
+          "delta_xy": [
+            -0.011261868159133244,
+            0.051674553275080866
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "nose_center": {
+          "normalized_error": 0.01331441128319205,
+          "delta_xy": [
+            0.00764808463312719,
+            0.01089863978955702
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_L": {
+          "normalized_error": 0.00458928947804105,
+          "delta_xy": [
+            -0.0007677436777514132,
+            0.0045246157360079794
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_R": {
+          "normalized_error": 0.01709085904483799,
+          "delta_xy": [
+            0.010173270264636313,
+            0.013733245611041375
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "hoof_FL_center": {
+          "normalized_error": 0.01579499401518196,
+          "delta_xy": [
+            -0.014180147065741317,
+            0.006957389246950451
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_FR_center": {
+          "normalized_error": 0.032269209311726214,
+          "delta_xy": [
+            0.028037466638989123,
+            0.015975053491978346
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_RL_center": {
+          "normalized_error": 0.06995639579136628,
+          "delta_xy": [
+            -0.04565457729918144,
+            0.05300525335993932
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_RR_center": {
+          "normalized_error": 0.02288452500780558,
+          "delta_xy": [
+            0.0011606716819151722,
+            0.02285507221777431
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        }
+      },
+      "landmark_max_error": 0.099363690260101
+    },
+    "3q-right": {
+      "silhouette_iou": 0.86742,
+      "target": 0.92,
+      "silhouette_status": "FAIL",
+      "landmark_error": 0.0419123670167403,
+      "face_depth": {
+        "visible_skin_width_body_ratio": 0.38028169014084506,
+        "visible_skin_area_px": 17492,
+        "skin_bbox_px": [
+          177,
+          347,
+          366,
+          511
+        ],
+        "method": "Visible surface ID mask; opaque fleece and all face parts occlude normally"
+      },
+      "top_width_error": null,
+      "reference_file": "assets\\grimo\\source\\carol\\approved-3d\\carol-front-3q-right.png",
+      "render_file": "docs\\production\\carol\\evidence\\reconstruction-v006\\iterations\\pass-05-iteration-09\\3q-right-clay.png",
+      "registration": {
+        "reference": {
+          "source_bbox": [
+            45,
+            150,
+            1215,
+            1117
+          ],
+          "scale": 0.4891416752843847,
+          "offset": [
+            75.98862461220268,
+            73.6287487073423
+          ],
+          "registered_bbox": [
+            98,
+            147,
+            670,
+            620
+          ]
+        },
+        "model": {
+          "source_bbox": [
+            128,
+            173,
+            625,
+            597
+          ],
+          "scale": 1.115566037735849,
+          "offset": [
+            -35.792452830188665,
+            -45.99292452830187
+          ],
+          "registered_bbox": [
+            107,
+            147,
+            661,
+            620
+          ]
+        }
+      },
+      "model_landmarks": {
+        "face_left": [
+          194.13887250648355,
+          427.52101784832075
+        ],
+        "face_right": [
+          400.42285670874253,
+          447.7427885667332
+        ],
+        "face_top": [
+          303.5577874993378,
+          343.06813578335743
+        ],
+        "face_bottom": [
+          291.51299872488346,
+          524.5265711658406
+        ],
+        "eye_center_L": [
+          160.2876793393549,
+          434.19988563825495
+        ],
+        "eye_L_left": [
+          157.14393250447398,
+          432.32505346694074
+        ],
+        "eye_L_right": [
+          181.7330686821128,
+          436.56036080054514
+        ],
+        "eye_L_top": [
+          169.91507926976905,
+          402.425020523791
+        ],
+        "eye_L_bottom": [
+          166.98897811601745,
+          466.0201233917812
+        ],
+        "eye_center_R": [
+          290.4637596382285,
+          446.5815094461981
+        ],
+        "eye_R_left": [
+          264.17048126796504,
+          444.39833738219056
+        ],
+        "eye_R_right": [
+          317.90713355226336,
+          447.4023278074444
+        ],
+        "eye_R_top": [
+          297.5484533849752,
+          414.5581544480234
+        ],
+        "eye_R_bottom": [
+          291.1487664816514,
+          477.7756201006331
+        ],
+        "nose_center": [
+          214.2980100883628,
+          443.0875609056004
+        ],
+        "mouth_corner_L": [
+          195.76383599695168,
+          450.38466601101857
+        ],
+        "mouth_corner_R": [
+          236.5900702386532,
+          454.28405750922434
+        ],
+        "ear_root_L": [
+          152.72596008372756,
+          400.65821966135275
+        ],
+        "ear_tip_L": [
+          113.2007486055482,
+          423.6299757327673
+        ],
+        "ear_root_R": [
+          338.62493930672696,
+          418.8816792650042
+        ],
+        "ear_tip_R": [
+          541.5239510086346,
+          465.61802529389
+        ],
+        "hoof_front_L": [
+          217.7971929514183,
+          580.2101871382515
+        ],
+        "hoof_front_R": [
+          341.73165011855787,
+          592.3593304292211
+        ],
+        "hoof_rear_L": [
+          401.29583956160633,
+          576.0633270875463
+        ],
+        "hoof_rear_R": [
+          530.7258757105412,
+          588.7511970591995
+        ]
+      },
+      "landmark_status": "FAIL",
+      "segmentation_uncertainty": "3Q white-background mask can include soft floor shadow / exclude white contour",
+      "reference_landmarks": {
+        "eye_center_L": [
+          175.77352637021716,
+          412.6039296794209
+        ],
+        "eye_center_R": [
+          285.8304033092037,
+          434.61530506721823
+        ],
+        "ear_root_L": [
+          141.04446742502586,
+          380.8097207859359
+        ],
+        "ear_root_R": [
+          356.2668045501551,
+          405.26680455015514
+        ],
+        "ear_tip_L": [
+          99.46742502585315,
+          401.35367114788005
+        ],
+        "ear_tip_R": [
+          487.3567735263702,
+          453.20268872802484
+        ],
+        "nose_center": [
+          208.05687693898653,
+          431.1913133402275
+        ],
+        "mouth_corner_L": [
+          193.38262668045502,
+          439.50672182006207
+        ],
+        "mouth_corner_R": [
+          228.11168562564632,
+          443.4198552223371
+        ],
+        "hoof_front_L": [
+          217.83971044467427,
+          566.1944157187177
+        ],
+        "hoof_front_R": [
+          325.94002068252325,
+          588.6949327817994
+        ],
+        "hoof_rear_R": [
+          524.5315408479835,
+          567.1726990692864
+        ]
+      },
+      "landmark_errors": {
+        "eye_L_center": {
+          "normalized_error": 0.05308064838161245,
+          "delta_xy": [
+            -0.027073159144864092,
+            0.04565741217512485
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "eye_R_center": {
+          "normalized_error": 0.026563697304139697,
+          "delta_xy": [
+            0.008100273302490945,
+            0.025298529342452122
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "ear_L_root": {
+          "normalized_error": 0.04666861032610737,
+          "delta_xy": [
+            0.020422189962765208,
+            0.041962999736610676
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_root": {
+          "normalized_error": 0.04218742507459071,
+          "delta_xy": [
+            -0.03084242175424498,
+            0.02878409030623481
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_L_tip": {
+          "normalized_error": 0.05286264695235069,
+          "delta_xy": [
+            0.024009306957508834,
+            0.04709578136339804
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "ear_R_tip": {
+          "normalized_error": 0.09826823659859271,
+          "delta_xy": [
+            0.09469786273123153,
+            0.02624806884960925
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "nose_center": {
+          "normalized_error": 0.027415426954693452,
+          "delta_xy": [
+            0.010911071939468974,
+            0.025150629102268295
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_L": {
+          "normalized_error": 0.02337151057329225,
+          "delta_xy": [
+            0.004162953350518646,
+            0.02299776784557399
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "mouth_corner_R": {
+          "normalized_error": 0.027336129181038213,
+          "delta_xy": [
+            0.014822350722040002,
+            0.022968715194264768
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.01
+        },
+        "hoof_FL_center": {
+          "normalized_error": 0.029631745279972754,
+          "delta_xy": [
+            -7.433128191600893e-05,
+            0.029631652049754438
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_FR_center": {
+          "normalized_error": 0.028674129598153363,
+          "delta_xy": [
+            0.027607743769291277,
+            0.0077471409036400955
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        },
+        "hoof_RR_center": {
+          "normalized_error": 0.04688819797633992,
+          "delta_xy": [
+            0.010829256752723344,
+            0.04562050314992199
+          ],
+          "source_uncertainty_px": 6,
+          "target": 0.015
+        }
+      },
+      "landmark_max_error": 0.09826823659859271
+    }
+  }
+}

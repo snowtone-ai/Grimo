@@ -1,6 +1,21 @@
 # Carol production state
 
-## Current phase
+## Current phase — v006 paused checkpoint
+
+2026-09-17: user requested interruption at a clean checkpoint and push.
+**NOT ACCEPTED / geometry FAIL / Human Gate PENDING.** Single-agent only.
+A supplies macro direction; B is retired; old source is look-only. New authored
+geometry, corrected reference measurements, six-view clay evidence and a working
+review are saved. Motifs/material lookdev, final convergence and production export
+are unfinished. See [v006 checkpoint and exact restart commands](evidence/reconstruction-v006/README.md).
+
+Asset: `assets/grimo/production/carol/blender/carol-a-v006.blend`.
+Review: http://127.0.0.1:3017/ while its server runs.
+Next handoff: **HUMAN** for reference correspondence/pose and visual direction.
+Do not interpret this checkpoint or structural topology checks as acceptance.
+
+
+## Previous v005 comparison
 
 Carol **v005 A/B method comparison** is available on
 `codex/carol-zero-based-hero-geometry-v005`. The zero-based attempt is frozen as
