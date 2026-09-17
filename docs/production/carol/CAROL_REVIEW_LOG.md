@@ -2,6 +2,23 @@
 
 Durable chronological record of geometry and production Human Gates. Do not pre-populate reviews.
 
+### 2026-09-17 — v006 structural correction, iterations 20–27
+
+- Reviewer: Agent supporting comparison; Human review has not occurred.
+- Inputs: six approved plates, canonical identity, iteration-16 baseline,
+  iterations 20–27 clay comparisons, saved-asset audit and browser review.
+- Result: **NOT ACCEPTED / geometry FAIL / Human Gate PENDING**.
+- Changes: rebuilt ears, cheek/muzzle sections, independent legs and shaped
+  hooves, volumetric tuft with recessed root, and welded unequal fleece lobes.
+  Narrower anterior mantle and fuller dorsal torso are a partial hierarchy fix.
+- Evidence: [current packet](evidence/reconstruction-v006/README.md), including
+  exact per-view deltas and the explicit shared section guide. Cameras unchanged.
+- Topology: 23 evaluated meshes, 579,406 triangles,
+  0 non-manifold edges, 0 non-finite vertices.
+- Remaining: 3Q identity/torso dominance, ear correspondence, main fleece
+  hierarchy and exact rear/hoof proportions. No full acceptance claim.
+- Follow-up: **HUMAN** — review the saved proposal and outstanding visual limits.
+
 ## Entry template
 
 ### YYYY-MM-DD — Gate / scope

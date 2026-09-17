@@ -1,0 +1,63 @@
+{
+  "baseline_iteration": 16,
+  "candidate_iteration": 27,
+  "human_gate": "PENDING",
+  "visual_acceptance": "NOT_ACCEPTED",
+  "cameras_changed": false,
+  "base_profile_fit_changed": false,
+  "section_refine": "iterations/pass-05-iteration-25/profile-fit.json",
+  "views": {
+    "front": {
+      "baseline_iou": 0.943511,
+      "candidate_iou": 0.936253,
+      "delta": -0.007258
+    },
+    "side": {
+      "baseline_iou": 0.936985,
+      "candidate_iou": 0.944835,
+      "delta": 0.00785
+    },
+    "back": {
+      "baseline_iou": 0.921448,
+      "candidate_iou": 0.934204,
+      "delta": 0.012756
+    },
+    "top": {
+      "baseline_iou": 0.943943,
+      "candidate_iou": 0.965988,
+      "delta": 0.022045
+    },
+    "3q-left": {
+      "baseline_iou": 0.826143,
+      "candidate_iou": 0.842496,
+      "delta": 0.016353
+    },
+    "3q-right": {
+      "baseline_iou": 0.86742,
+      "candidate_iou": 0.889279,
+      "delta": 0.021859
+    }
+  },
+  "changes": [
+    "Cheek-dependent facial sections, short muzzle relief and recessed smile",
+    "Curved thick ear bowls with upper fold and independent roots",
+    "Four tapered hoof walls with level soles, toe clefts and separate short legs",
+    "Volumetric tuft and recessed rear attachment, rump closure",
+    "Actual unequal lobe surfaces joined into a closed fleece shell",
+    "Compact anterior mantle and broader dorsal torso; same vertices in six views",
+    "Generator closes converted lip and philtrum boundaries"
+  ],
+  "remaining": [
+    "Full six-view reference acceptance is not established",
+    "3Q identity and head/torso visual hierarchy remain below requested quality",
+    "Ear correspondence, main fleece grouping, rear tuft size and hoof softness require Human review",
+    "Any residual view regressions are quantified; no claim of zero regression",
+    "Motifs, final materials, rigging and export remain held"
+  ],
+  "inputs": {
+    "scripts/blender/build-carol-v006.py": "77a3983a26bce3db6811c8a3ccd85f0a91cd41c55cbb6daa861f76d36967bafa",
+    "docs/production/carol/evidence/reconstruction-v006/iterations/pass-05-iteration-04/camera-fit.json": "7c07e3a3b5473c065060f0882c5f1871c9eb98dbbbb7e114b8af261520224a7d",
+    "docs/production/carol/evidence/reconstruction-v006/iterations/pass-05-iteration-07/profile-fit.json": "135161abfa2758475513f2252777166074469abb0dba79f75a6158dbc5222b9d",
+    "docs/production/carol/evidence/reconstruction-v006/iterations/pass-05-iteration-25/profile-fit.json": "c359e179917cc54112c96e15744fd9796510754811af0aac97d9ad2803ba59a3"
+  }
+}

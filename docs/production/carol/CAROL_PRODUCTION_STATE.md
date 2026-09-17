@@ -1,21 +1,20 @@
 # Carol production state
 
-## Current phase — v006 paused checkpoint
+## Current phase — v006 structural correction candidate
 
-2026-09-17: reconstruction resumed through candidate iteration 16. Camera-only
-3Q correspondence candidates and one shared rear/ear-volume candidate were
-rejected on measured regression; iteration 16 is a clean restore.
-**NOT ACCEPTED / geometry FAIL / Human Gate PENDING.** Single-agent only.
-A supplies macro direction; B is retired; old source is look-only. New authored
-geometry, corrected reference measurements, six-view clay evidence and a working
-review are saved. Motifs/material lookdev, final convergence and production export
-are unfinished. See [v006 checkpoint and exact restart commands](evidence/reconstruction-v006/README.md).
+2026-09-17: the explicit geometry request was executed through **pass 05 /
+iteration 27**, with six-view evidence for iterations 20–27. Ear roots/bowls,
+cheek/muzzle sections, independent legs/hooves, rump/tuft attachment and fleece
+junctions were rebuilt. Camera calibration and approved images are unchanged.
+**NOT ACCEPTED / geometry FAIL / Human Gate PENDING.** Single agent only.
+
+The exact saved asset has 0 non-manifold edges and
+0 non-finite vertices. Structural improvements do not
+establish full six-view identity or the required torso-dominant 3Q hierarchy.
+See [current evidence, measured tradeoffs and exact commands](evidence/reconstruction-v006/README.md).
 
 Asset: `assets/grimo/production/carol/blender/carol-a-v006.blend`.
-Review: http://127.0.0.1:3017/ while its server runs.
-Next handoff: **HUMAN** for reference correspondence/pose and visual direction.
-Do not interpret this checkpoint or structural topology checks as acceptance.
-
+Review: http://127.0.0.1:3017/ while its server runs. Next handoff: **HUMAN**.
 
 ## Previous v005 comparison
 
