@@ -1,8 +1,9 @@
 # Carol geometry decision
 
 > Current instruction (2026-09-17): A macro direction only; B retired completely;
-> old model look-only. v006 is an authored reconstruction, **NOT ACCEPTED**, paused
-> at the user-requested checkpoint. See [the current packet](evidence/reconstruction-v006/README.md).
+> old model look-only. v006 is an authored reconstruction, **NOT ACCEPTED** at
+> pass 05 / iteration 16 clean restore. Camera-only 3Q candidates and a shared
+> rear/ear candidate were measured and rejected; see [the current packet](evidence/reconstruction-v006/README.md).
 > Strict reference landmark correspondence has a documented Front/Side vertical
 > conflict. Model-specific failures remain independently. No production promotion.
 

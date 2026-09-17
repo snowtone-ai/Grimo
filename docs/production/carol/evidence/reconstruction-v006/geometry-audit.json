@@ -7,7 +7,7 @@
   ],
   "mesh_count": 166,
   "triangles": 905174,
-  "non_manifold_edges": 0,
+  "non_manifold_edges": 96,
   "non_finite_vertices": 0,
   "duplicate_vertex_arrays": [],
   "objects": [
@@ -2299,9 +2299,9 @@
     },
     {
       "name": "Philtrum",
-      "vertices": 588,
+      "vertices": 612,
       "triangles": 1172,
-      "non_manifold_edges": 0,
+      "non_manifold_edges": 48,
       "non_finite_vertices": 0,
       "hidden_render": false,
       "scale": [
@@ -2313,9 +2313,9 @@
     },
     {
       "name": "Smile_lip",
-      "vertices": 1740,
+      "vertices": 1764,
       "triangles": 3476,
-      "non_manifold_edges": 0,
+      "non_manifold_edges": 48,
       "non_finite_vertices": 0,
       "hidden_render": false,
       "scale": [

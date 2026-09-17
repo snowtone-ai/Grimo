@@ -13,6 +13,24 @@ Durable chronological record of geometry and production Human Gates. Do not pre-
 - Regressions or unresolved issues:
 - Follow-up owner and exact next task:
 
+### 2026-09-17 — v006 Agent Geometry Gate re-evaluation
+
+- Reviewer: Agent; automated measurements plus six-view clay evidence.
+- Inputs reviewed: pass-05-iterations 11–16, `metrics.json`, 3Q spatial residual
+  partition, camera-fit residuals and topology audit.
+- Result: **FAIL**. No Human result is implied.
+- Evidence: camera-only 3Q trials improved isolated masks only while violating
+  fitted landmark correspondence; a shared ear/rear-canopy trial regressed all
+  relevant silhouettes and produced 96 non-manifold edges. Iteration 16 cleanly
+  restores the prior valid mesh.
+- Regressions or unresolved issues: all six silhouette targets, top width profile,
+  face/ear/hoof landmark correspondence and 3Q identity remain unmet. Exact
+  Front/Side eye, nose and ear-root vertical conflicts are source-correspondence
+  conflicts only.
+- Follow-up owner and exact next task: **HUMAN** — resolve intended 3Q camera /
+  plate-pose correspondence and approve a coherent cloud/ear reconstruction
+  direction before additional mesh deformation.
+
 ### 2026-09-16 — Blockout v001 Human Gate
 
 - Reviewer: Human / explicit user decision supplied with the v002 task.

@@ -2,7 +2,9 @@
 
 ## Current phase — v006 paused checkpoint
 
-2026-09-17: user requested interruption at a clean checkpoint and push.
+2026-09-17: reconstruction resumed through candidate iteration 16. Camera-only
+3Q correspondence candidates and one shared rear/ear-volume candidate were
+rejected on measured regression; iteration 16 is a clean restore.
 **NOT ACCEPTED / geometry FAIL / Human Gate PENDING.** Single-agent only.
 A supplies macro direction; B is retired; old source is look-only. New authored
 geometry, corrected reference measurements, six-view clay evidence and a working

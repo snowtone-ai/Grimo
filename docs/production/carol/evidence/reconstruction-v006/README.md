@@ -1,15 +1,16 @@
-# Carol v006 — paused reconstruction checkpoint
+# Carol v006 — reconstruction evidence checkpoint
 
 Status: **NOT ACCEPTED / geometry FAIL / Human Gate PENDING**.
-User requested a clean stopping point and push on 2026-09-17. This is a resumable
-clay checkpoint, not a production-complete character. No further modeling is
-running. Continue with a single agent only when requested.
+This remains a resumable clay checkpoint, not a production-complete character.
+The latest valid state is **pass 05 / iteration 16**, a clean shared-geometry
+restore after three camera-correspondence candidates and one coherent rear/ear
+volume candidate were rejected.
 
 ## Current artifacts
 
 - Blender: `assets/grimo/production/carol/blender/carol-a-v006.blend`
 - Generator: `scripts/blender/build-carol-v006.py`
-- Final iteration: `iterations/pass-05-iteration-09/`
+- Final iteration: `iterations/pass-05-iteration-16/`
 - Current measurements: `../../carol-reference-measurements.json`
 - Final comparison: `metrics.json`, six sets of reference/render/clay/overlay/difference/silhouette images
 - Actual head sections and topology: `geometry-audit.json`
@@ -33,6 +34,33 @@ correction adjusts the waist and side crown; it is independent of the camera.
 All six views render the same mesh. Orthographic cameras remain orthographic.
 3Q camera candidates are fitted from explicit landmarks, with nonzero residuals;
 they are not asserted to recover an original physical camera.
+
+## Iterations 12–16 — residual decomposition and rejected candidates
+
+The 3Q residual was partitioned into crown, forehead, face, both ears, front /
+mid / rear fleece, both hoof groups, and lower contour with registered mask
+difference areas. At the valid baseline, all large 3Q residuals are model
+outward: the two ear zones, lower contour, front fleece and rear fleece are the
+largest contributors. The face interior is not the silhouette driver. This
+confirms that the rejected iteration-10 global anterior face-depth change is
+not a valid root-cause fix.
+
+Candidates 12–14 tested **camera correspondence only**, with the same mesh.
+Moving the 3Q cameras can raise raw mask IoU (best isolated values: left
+0.885679, right 0.888532), but creates normalized face/ear/hoof landmark
+residuals as high as 19%. It is therefore classified as **CAMERA / REFERENCE
+CORRESPONDENCE**, not a geometry fix, and is not retained. Candidate 15 tested
+a shared compact-ear and rear-canopy geometry group. It degraded Front from
+0.943511 to 0.934657, Back from 0.921448 to 0.919783, 3Q Left from 0.826143 to
+0.825074, and 3Q Right from 0.867420 to 0.864932; it also introduced 96
+non-manifold edges in audit. It is rejected. Iteration 16 restores the valid
+same-mesh baseline exactly and publishes its six-view packet.
+
+Classification: the persistent 3Q gap contains a **GEOMETRY** component in
+ear/lower/fleece volume, but cannot be certified separately from the documented
+**CAMERA / REFERENCE_CORRESPONDENCE** mismatch. The front/side vertical
+incompatibilities below remain `PROVEN_REFERENCE_CONFLICT` for only the named
+landmarks; they do not excuse the silhouette failures.
 
 **Known failures:** eye/ear correspondence and 3Q identity do not converge;
 ear/fleece intersections, generic facial detail, unfinished hoof shaping,
@@ -76,8 +104,11 @@ consistency finding, not a decision to alter or override the approved artwork.
 ## Targeted verification
 
 - 166 evaluated mesh objects; 905,174 triangles.
-- Non-manifold edges: 0; non-finite vertices: 0.
-- Converted lip/philtrum end caps were closed; the generator now also caps them.
+- Non-manifold edges: 96 (the two converted facial tube objects, `Smile_lip`
+  and `Philtrum`); non-finite vertices: 0. This is a topology failure, not a
+  rendering or segmentation exception, and prevents a geometry PASS.
+- The prior statement that the converted lip/philtrum end caps were closed was
+  corrected by reopening and auditing the exact tracked Blender asset.
 - Actual head eye-line AP depth: 1.328 world units.
 - Inter-object collision, production retopology, deformation and runtime performance are **not validated**.
 - Review browser checks cover six views, comparison modes, opacity, grid,
