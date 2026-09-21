@@ -2,7 +2,36 @@
   "schema": "grimo.carol.approved-3d-authority",
   "version": 2,
   "approvalStatus": "approved",
-  "geometryAuthorityRule": "For Carol 3D geometry, volume, proportion, depth, and part placement, the approved individual production views below are the highest authority: front, side, back, top, left three-quarter, and right three-quarter. Use Side and both three-quarter views together with Front when determining facial and body volume; never flatten the face from the Front view alone.",
+  "geometryAuthorityRule": "For Carol 3D geometry, the four definitive locked references and the formal parameter contract below are the current authority for normal and hidden underbody construction. The previously approved back, top, and three-quarter views remain supplementary off-axis evidence unless they conflict with the definitive package.",
+  "formalGeometryAuthority": {
+    "parameterFile": "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md",
+    "references": [
+      {
+        "path": "assets/grimo/source/carol/approved-3d/carol_front.png",
+        "role": "definitive_normal_front",
+        "approvalStatus": "final_locked",
+        "sha256": "164A646FBB2F335029E875A09EE4C337F52D8A09F650437420A6F1F83E024197"
+      },
+      {
+        "path": "assets/grimo/source/carol/approved-3d/carol_side.png",
+        "role": "definitive_normal_side",
+        "approvalStatus": "final_locked",
+        "sha256": "9484B7AC49B9D53A517E7F05AF6CA4F67F8CC8907CFBFEDFFE6D51CDA2D829B8"
+      },
+      {
+        "path": "assets/grimo/source/carol/approved-3d/carol_skin_front.png",
+        "role": "definitive_skin_underbody_front",
+        "approvalStatus": "final_locked",
+        "sha256": "BE21B4AE23578DEACA664E77DED2BD225A10693F5B2C01AD0C53E6AE49F9C6B2"
+      },
+      {
+        "path": "assets/grimo/source/carol/approved-3d/carol_skin_side.png",
+        "role": "definitive_skin_underbody_side",
+        "approvalStatus": "final_locked",
+        "sha256": "BD16825F4E43FD0F6A22F425B5D32F322B83739DD00967CDA40FB2C0A2C7B816"
+      }
+    ]
+  },
   "identityAuthorityNote": "carol-Identity-canonical.png remains a reference for Carol's identity, color, motif, and appeal. It must not be used to override the approved individual production views when they conflict on concrete 3D depth, thickness, volume, or part placement. The production canonical sheet is supplementary and yields to the individual approved views when they conflict.",
   "references": [
     {

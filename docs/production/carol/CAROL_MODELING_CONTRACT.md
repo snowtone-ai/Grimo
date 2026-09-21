@@ -3,8 +3,8 @@
 ## Identity and evidence
 
 - `assets/grimo/source/carol/approved-3d/authority.json` is the geometry authority for Carol's 3D production references.
-- For geometry, volume, proportion, depth, and part placement, the six approved individual production views are the highest authority: Front, Side, Back, Top, Left 3/4, and Right 3/4.
-- The six geometry authorities are `carol-front-ortho-transparent.png`, `carol-side-ortho-transparent.png`, `carol-back-ortho-transparent.png`, `carol-top-plan-transparent.png`, `carol-front-3q-left.png`, and `carol-front-3q-right.png`.
+- The current FINAL / LOCKED geometry package is `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` plus `carol_front.png`, `carol_side.png`, `carol_skin_front.png`, and `carol_skin_side.png` in the approved-3d directory.
+- The older Front, Side, Back, Top, Left 3/4, and Right 3/4 views remain supplementary off-axis evidence and must not override the definitive package when they conflict.
 - `assets/grimo/source/carol/carol-Identity-canonical.png` remains the reference for identity, color, motifs, and appeal, but must not override those six views for concrete 3D depth, thickness, volume, or part placement. The production canonical sheet is supplementary and yields to conflicting approved individual views.
 - Carol motion constraints: `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md`.
 - Side and both 3/4 views must be read together with Front when determining 3D volume. In particular, the face must never be flattened from the Front view alone.
