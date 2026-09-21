@@ -1,0 +1,667 @@
+{
+  "status": "AWAITING HUMAN REVIEW",
+  "blender": "5.2.1 LTS",
+  "generator_sha256": "567c5b4a1852c8f3821d5077853c97be41f645aea34b5a008d1a7f9143263ca6",
+  "reference_hashes": {
+    "assets/grimo/source/carol/approved-3d/carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "assets/grimo/source/carol/approved-3d/carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "assets/grimo/source/carol/approved-3d/carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "assets/grimo/source/carol/approved-3d/carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "projection": "orthographic; front/side same 1.52 H camera span; no view-dependent geometry",
+  "bounds": {
+    "HEAD cheek muzzle cranium": {
+      "min": [
+        0.01107229944318533,
+        -0.29549431800842285,
+        0.21515662968158722
+      ],
+      "max": [
+        0.5536399483680725,
+        0.29549431800842285,
+        0.6898425221443176
+      ]
+    },
+    "CHASSIS chest abdomen pelvis": {
+      "min": [
+        0.2055235505104065,
+        -0.3050000071525574,
+        0.13549266755580902
+      ],
+      "max": [
+        1.0597383975982666,
+        0.3050000071525574,
+        0.4498772919178009
+      ]
+    },
+    "TAIL independent hidden root and tuft": {
+      "min": [
+        0.9738776683807373,
+        -0.04617942124605179,
+        0.3278459310531616
+      ],
+      "max": [
+        1.2888193130493164,
+        0.04617941379547119,
+        0.4287562966346741
+      ]
+    },
+    "FLEECE_MASTER": {
+      "min": [
+        0.13145369291305542,
+        -0.5767045617103577,
+        0.11079782247543335
+      ],
+      "max": [
+        1.2886786460876465,
+        0.5767045617103577,
+        0.9995676279067993
+      ]
+    },
+    "HOOF fore_L": {
+      "min": [
+        0.2875560224056244,
+        0.06552530080080032,
+        0.0
+      ],
+      "max": [
+        0.49697527289390564,
+        0.2844747006893158,
+        0.11100000143051147
+      ]
+    },
+    "HOOF hind_L": {
+      "min": [
+        0.8175560235977173,
+        0.13552530109882355,
+        0.0
+      ],
+      "max": [
+        1.0269752740859985,
+        0.3544746935367584,
+        0.11100000143051147
+      ]
+    },
+    "HOOF fore_R": {
+      "min": [
+        0.2875560224056244,
+        -0.2844747006893158,
+        0.0
+      ],
+      "max": [
+        0.49697527289390564,
+        -0.06552530080080032,
+        0.11100000143051147
+      ]
+    },
+    "HOOF hind_R": {
+      "min": [
+        0.8175560235977173,
+        -0.3544746935367584,
+        0.0
+      ],
+      "max": [
+        1.0269752740859985,
+        -0.13552530109882355,
+        0.11100000143051147
+      ]
+    }
+  },
+  "support_centers": {
+    "fore": 0.39,
+    "hind": 0.92,
+    "separation": 0.53
+  },
+  "diagnostic_support_observed": {
+    "neutral": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "yaw": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "lean-L": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "lean-R": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "ears": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "COM": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "forehoof": {
+      "fore_L": {
+        "min_Z": 0.02199999988079071,
+        "centroid_XY": [
+          0.3785431077155997,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "compress": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "peek": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    },
+    "tail": {
+      "fore_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          0.17500000001232632
+        ]
+      },
+      "hind_L": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          0.24499999981044845
+        ]
+      },
+      "fore_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.39054310223197236,
+          -0.17500000001232632
+        ]
+      },
+      "hind_R": {
+        "min_Z": 0.0,
+        "centroid_XY": [
+          0.9205431036979836,
+          -0.24499999981044845
+        ]
+      }
+    }
+  },
+  "surface_anchor_bindings": {
+    "cheek_L": {
+      "owner": "HEAD cheek muzzle cranium",
+      "vertex": 6251,
+      "neutral_world_position": [
+        0.08936378359794617,
+        0.16260755062103271,
+        0.33403685688972473
+      ]
+    },
+    "ear_root_L": {
+      "owner": "EAR L",
+      "vertex": 39,
+      "neutral_world_position": [
+        0.35421156883239746,
+        0.2351980209350586,
+        0.5495898723602295
+      ]
+    },
+    "cheek_R": {
+      "owner": "HEAD cheek muzzle cranium",
+      "vertex": 6350,
+      "neutral_world_position": [
+        0.08938026428222656,
+        -0.16258925199508667,
+        0.333379328250885
+      ]
+    },
+    "ear_root_R": {
+      "owner": "EAR R",
+      "vertex": 39,
+      "neutral_world_position": [
+        0.34382063150405884,
+        -0.23780786991119385,
+        0.5441845655441284
+      ]
+    },
+    "forehead": {
+      "owner": "HEAD cheek muzzle cranium",
+      "vertex": 2943,
+      "neutral_world_position": [
+        0.07046018540859222,
+        -0.00012159322795923799,
+        0.5438586473464966
+      ]
+    },
+    "head_top": {
+      "owner": "HEAD cheek muzzle cranium",
+      "vertex": 9601,
+      "neutral_world_position": [
+        0.32922840118408203,
+        0.0003379574336577207,
+        0.6956844329833984
+      ]
+    },
+    "mouth_food": {
+      "owner": "HEAD cheek muzzle cranium",
+      "vertex": 2174,
+      "neutral_world_position": [
+        0.005819197744131088,
+        -0.0001360840687993914,
+        0.3483942449092865
+      ]
+    },
+    "prop_contact": {
+      "owner": "HEAD cheek muzzle cranium",
+      "vertex": 6260,
+      "neutral_world_position": [
+        0.06689870357513428,
+        0.14057567715644836,
+        0.3334176540374756
+      ]
+    },
+    "low_forehoof": {
+      "owner": "HOOF fore_L",
+      "vertex": 544,
+      "neutral_world_position": [
+        0.2900101840496063,
+        0.17633527517318726,
+        0.05386931821703911
+      ]
+    },
+    "fleece_front": {
+      "owner": "FLEECE_MASTER",
+      "vertex": 4608,
+      "neutral_world_position": [
+        0.16346585750579834,
+        -0.03711240366101265,
+        0.18997526168823242
+      ]
+    },
+    "front_fleece_opening": {
+      "owner": "FLEECE_MASTER",
+      "vertex": 37690,
+      "neutral_world_position": [
+        0.14673501253128052,
+        -2.9887885943935544e-08,
+        0.5867330431938171
+      ]
+    },
+    "star_crown": {
+      "owner": "FLEECE_MASTER",
+      "vertex": 46491,
+      "neutral_world_position": [
+        0.28437095880508423,
+        -3.4924596548080444e-10,
+        0.8754201531410217
+      ]
+    },
+    "star_brow": {
+      "owner": "FLEECE_MASTER",
+      "vertex": 37794,
+      "neutral_world_position": [
+        0.14457929134368896,
+        -0.043848950415849686,
+        0.6838234066963196
+      ]
+    },
+    "star_chest": {
+      "owner": "FLEECE_MASTER",
+      "vertex": 64071,
+      "neutral_world_position": [
+        0.19214332103729248,
+        0.002682212507352233,
+        0.1711711883544922
+      ]
+    },
+    "star_side": {
+      "owner": "FLEECE_MASTER",
+      "vertex": 67915,
+      "neutral_world_position": [
+        0.21323102712631226,
+        0.4791931211948395,
+        0.29890695214271545
+      ]
+    },
+    "moon": {
+      "owner": "FLEECE_MASTER",
+      "vertex": 100087,
+      "neutral_world_position": [
+        0.21459048986434937,
+        0.34029901027679443,
+        0.7004482746124268
+      ]
+    }
+  },
+  "diagnostic_amplitudes": {
+    "head_yaw_degrees": 10,
+    "pitch_degrees": 7,
+    "cheek_lean_H": 0.02,
+    "COM_shift_H": [
+      0.018,
+      -0.012,
+      0
+    ],
+    "forehoof_lift_H": 0.022,
+    "local_fleece_depth_H": 0.035,
+    "face_nestle_H": 0.045,
+    "tail_degrees": 12
+  },
+  "limitations": [
+    "Disposable analytic poses, no production rig/skinning.",
+    "Visual diagnostic evidence is not a collision solver or identity approval.",
+    "Blink closure envelope and small gaze offset tested separately; expression quality and combined motion remain unproven.",
+    "Skin Side support-footprint registration implies ~0.728H skull height versus ~0.69H Skin Front; locked head height retained.",
+    "Moon remains on the front-left surface; opposite side reference motif visibility is not reproduced by duplicating the motif."
+  ],
+  "observed_locked_checks": {
+    "height_H": {
+      "target": 1.0,
+      "observed": 0.9995676279067993,
+      "relative_error": -0.0004323720932006836,
+      "within_2_percent": true
+    },
+    "fleece_width_H": {
+      "target": 1.161,
+      "observed": 1.1534091234207153,
+      "relative_error": -0.006538222721175452,
+      "within_2_percent": true
+    },
+    "eye_width_H": {
+      "target": 0.137,
+      "observed": 0.13684966415166855,
+      "relative_error": -0.0010973419586238107,
+      "within_2_percent": true
+    },
+    "eye_height_H": {
+      "target": 0.149,
+      "observed": 0.14899998903274536,
+      "relative_error": -7.360573578679585e-08,
+      "within_2_percent": true
+    },
+    "forehoof_width_H": {
+      "target": 0.219,
+      "observed": 0.21894939988851547,
+      "relative_error": -0.0002310507373722731,
+      "within_2_percent": true
+    },
+    "forehoof_height_H": {
+      "target": 0.111,
+      "observed": 0.11100000143051147,
+      "relative_error": 1.288749074924401e-08,
+      "within_2_percent": true
+    },
+    "chassis_width_H": {
+      "target": 0.61,
+      "observed": 0.6100000143051147,
+      "relative_error": 2.345100780232201e-08,
+      "within_2_percent": true
+    },
+    "skin_head_height_max_H": {
+      "target": 0.69,
+      "observed": 0.6898425221443176,
+      "relative_error": -0.00022822877635118806,
+      "within_2_percent": true
+    }
+  },
+  "fleece_connected_components": [
+    208312
+  ],
+  "reference_registration": {
+    "normal-front": {
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front",
+      "basis": "contract H=1011; centerline=626.5"
+    },
+    "normal-side": {
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side",
+      "basis": "crown apex 82; ground 998; nose x144"
+    },
+    "skin-front": {
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front",
+      "basis": "eye-center separation ~322 / 0.324; ground 1075"
+    },
+    "skin-side": {
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side",
+      "basis": "near-hoof footprint centers x461 and x1001 at row1030; 540 / 0.530; origin=461-0.390*1019"
+    }
+  }
+}

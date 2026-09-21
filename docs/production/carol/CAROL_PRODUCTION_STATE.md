@@ -1,6 +1,26 @@
 # Carol production state
 
-## Current phase — v006 structural correction candidate
+## Current phase — v007 zero-based motion-capability geometry candidate
+
+2026-09-22: `codex/carol-final-reconstruction-v007` contains a new editable
+Blender candidate built without old Carol meshes or fitted shape arrays.
+Authority is the four FINAL / LOCKED Normal/Skin Front/Side images plus
+`CAROL_GEOMETRY_PARAMETERS.md`. Identity canonical is secondary support.
+Old six-view targets and v006 geometry are historical; Back/Top/3Q are now
+derived inspection views, never independent geometry targets.
+
+**NOT ACCEPTED. Technical geometry: CONDITIONAL. HUMAN GEOMETRY GATE:
+AWAITING REVIEW.** The packet includes shared-model Skin/Normal views,
+registered overlays, derived views, and disposable motion-clearance poses.
+Reference correspondence and full face-in-fleece clearance are not certified.
+
+Asset: `assets/grimo/production/carol/blender/carol-v007.blend`.
+Generator: `scripts/blender/build-carol-v007.py`.
+Evidence: [v007 packet](evidence/reconstruction-v007/README.md).
+Next handoff: **HUMAN**. No production rig, final retopology/skinning,
+animation, final materials, GLB or runtime integration.
+
+## Previous v006 structural correction candidate
 
 2026-09-17: the explicit geometry request was executed through **pass 05 /
 iteration 27**, with six-view evidence for iterations 20–27. Ear roots/bowls,

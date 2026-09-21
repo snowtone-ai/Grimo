@@ -4,11 +4,11 @@
 
 - `assets/grimo/source/carol/approved-3d/authority.json` is the geometry authority for Carol's 3D production references.
 - The current FINAL / LOCKED geometry package is `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` plus `carol_front.png`, `carol_side.png`, `carol_skin_front.png`, and `carol_skin_side.png` in the approved-3d directory.
-- The older Front, Side, Back, Top, Left 3/4, and Right 3/4 views remain supplementary off-axis evidence and must not override the definitive package when they conflict.
-- `assets/grimo/source/carol/carol-Identity-canonical.png` remains the reference for identity, color, motifs, and appeal, but must not override those six views for concrete 3D depth, thickness, volume, or part placement. The production canonical sheet is supplementary and yields to conflicting approved individual views.
+- Older six-view references and v006 geometry are historical, not current geometry targets. Back, Top and both 3/4 views must be derived from the new single model.
+- `assets/grimo/source/carol/carol-Identity-canonical.png` is secondary support for identity, color, motifs and appeal; it cannot override the four definitive references or numerical contract.
 - Carol motion constraints: `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md`.
-- Side and both 3/4 views must be read together with Front when determining 3D volume. In particular, the face must never be flattened from the Front view alone.
-- The Left/Right 3/4 views are formal evidence for muzzle/cheek/forehead volume, eye-to-face depth, ear-root/head connection, fleece-to-face ordering, body depth, fore/aft limb placement, and overall fleece volume.
+- Reconcile the four definitive views into one model. Derived 3/4 views inspect face depth, attachment, support and fleece coherence; they do not introduce new image-fitting targets.
+- Current candidate: v007, technical CONDITIONAL, NOT ACCEPTED. HUMAN GEOMETRY GATE remains AWAITING REVIEW; see `evidence/reconstruction-v007/README.md`.
 - Preserve the sacred front-view identity: silhouette, face read, proportions, distinctive features, and appeal must survive the 3D interpretation.
 - Do not treat generic sheep anatomy as a substitute for Carol. Generic anatomy drift is prohibited.
 - The absence of a reference or measurement is an unresolved issue, not permission to guess.
