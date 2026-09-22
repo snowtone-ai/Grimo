@@ -79,19 +79,6 @@ and next handoff (`CHATGPT_PLANNER`, `CODEX_LUNA`, `CODEX_ASTRA`, or `HUMAN`).
   a required routing layer. Use current task authority and actual framework or
   tool documentation instead.
 
-## Assumption Expansion / Unseen-Option Search
-
-ChatGPT Planner must not treat user-listed options or assumptions as the limit
-of the search space. Before an important design, technical, or workflow choice,
-it must compare relevant unseen options, including simpler or higher-quality
-methods, lower-token approaches, ways to remove an assumption, built-in
-alternatives to external tools, approaches that reduce later work, and ways to
-eliminate failure modes at their root. Respect explicit constraints, keep the
-search scoped, and do not stop merely because another option exists. Prefer
-current GitHub truth and verifiable evidence. Apply this rule to Mandatory
-Phase Tool Preflight: seek the best quality, token efficiency, and reliability
-for the actual problem space rather than choosing only among visible options.
-
 ## Targeted verification
 
 Verification is change-based. Do not run tests merely because a task is
