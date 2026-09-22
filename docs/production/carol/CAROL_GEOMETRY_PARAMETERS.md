@@ -527,6 +527,17 @@ Ear intent:
 
 Tail is a small independent expressive module.
 
+Skin/Normal interpretation clarification (2026-09-22): one `TAIL_PIVOT`
+owns the common `SKIN_TAIL_CORE` and the external `TAIL_FLEECE_SHELL`.
+The cream Skin core attaches directly to the rump through a tiny hidden
+overlap, remains present in both modes, and has no long visible connector.
+Its visible relationship follows locked Skin Side. The rearward visible
+base/tuft-center values below describe the **Normal external fleece read**;
+they do not require the cream core to extend to that location. The external
+tail shell hides with the other fleece in Skin mode and remains mechanically
+independent of the main rump fleece. These are one acting tail assembly,
+not two behavioral tails. No numerical lock values are changed.
+
 Locked intent:
 
 - internal root ≈ `x = 0.985`, `y = 0.355`
@@ -810,7 +821,8 @@ The following must remain the same objects / same neutral geometry in both modes
 - hidden torso
 - four limbs
 - four hooves
-- tail root / tail tuft
+- tail root / Skin tail core (the Normal external tail fleece shell hides
+  with the rest of the fleece; see section 8.8)
 
 Forbidden:
 

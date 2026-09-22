@@ -1,154 +1,141 @@
-# Carol v008 — blocked structured Skin cage
+# Carol v008 — Skin revision handoff
 
-**STATUS: BLOCKED_AT_V008_SKIN_INTERNAL_GATE**
-
+**STATUS: BLOCKED_AT_V008_SKIN_REVISION_GATE**
 **Human Geometry Gate: PENDING; not ready for Human submission.**
 
-Three Skin edit/render cycles were inspected in both Front and Side. Cycle 2
-is retained: cycle 3 broadened the ear in Side but worsened its shape and
-buried the mouth. No fleece was constructed. This is a blocked handoff to
-ChatGPT Planner, not a completed four-view candidate. v007 remains historical
-Human FAIL.
+Three newly authorized Skin revisions were inspected in both Front and Side.
+**Revision 2 is selected.** Tail attachment and buried limb roots improve the
+pushed baseline, but the ear bowl/profile and head/chest transition remain
+insufficiently fitted. Revision 3 made the rear jaw more angular and reduced
+the Side ear's root/bowl read. No fourth geometry revision ran.
 
 ## Source and reproduction
 
-- Branch: `codex/carol-final-reconstruction-v008`.
-- Base: `d5bacf212eef6dd141f39b2abbf51b40d29a6a53`, fetched from remote v007.
-- Candidate/source/evidence commit: `d65aba695c24faa037d2372cf7d86e384ea47e11`.
-  The following documentation-only commit records this immutable artifact ID.
+- Branch: `codex/carol-final-reconstruction-v008`; no new geometry track.
+- Fetched baseline: `601296e8e44f7eb4e6f9843bedcca61f940d7abb`; local/remote
+  agreed and the worktree was clean before editing.
+- Starting geometry: retained old cycle 2, never rejected old cycle 3.
 - Asset: `assets/grimo/production/carol/blender/carol-v008.blend`.
 - Generator: `scripts/blender/build-carol-v008.py`.
-- Evidence utility: `scripts/blender/carol-v008-evidence.py`.
-- Blender: **5.2.1 LTS**, build `9e2066aef7ef`; evidence utility uses Pillow.
-- One agent, Blender CLI only; no subagents, Blender MCP or MCP policy changes.
-
-From repository root:
+- Comparisons: `scripts/blender/carol-v008-evidence.py`.
+- Blender **5.2.1 LTS**, build `9e2066aef7ef`; Python/Pillow for evidence.
+- New execution context; one agent; Blender CLI/background only. No subagents,
+  Blender MCP, GUI production edits or new plugins. Existing project
+  `multi_agent = false` and disabled Blender MCP were preserved. This is a
+  continuation of the authorized v008 geometry phase with its existing toolset.
 
 ```powershell
-blender -b --python scripts/blender/build-carol-v008.py -- --iteration 2
-python scripts/blender/carol-v008-evidence.py --cycle 2 --publish-blocked
+blender -b --python scripts/blender/build-carol-v008.py -- --revision 2
+python scripts/blender/carol-v008-evidence.py --revision 2 --publish-blocked
 ```
 
-The generator starts from an empty scene, builds the selected cycle-2 controls,
-renders both Skin views at 640 px, saves the editable `.blend`, and exports
-measurements to `tmp-carol-v008/cycle-2/`. The iteration argument labels output
-only; it does not switch historical geometry. The evidence utility creates
-registered comparisons and copies only the blocked Skin packet here.
-Temporary renders, logs and source snapshots are ignored by Git.
-
-`rejected-cycle-3-sheet.png` preserves the rejected third comparison, not the
-saved model. Its source snapshot remains local under `tmp-carol-v008/`; the
-committed reproducibility claim is for cycle 2 only. No fourth geometry edit
-cycle ran. A separate clean-process build reproduced the selected controls.
+The generator builds the **selected revision-2 controls** from an empty scene,
+renders Skin Front/Side at 640 px, performs disposable numerical attachment
+probes, verifies neutral state, and saves the editable asset. Outputs go to
+`tmp-carol-v008/revision-2/`. The revision argument labels output only; it
+does not switch historical geometry. Only the selected candidate has a
+committed reproducible source; rejected-attempt snapshots/logs remain local.
 
 ## Authority and registration
 
-Geometry authority is exclusively `CAROL_GEOMETRY_PARAMETERS.md` plus the
-four FINAL/LOCKED images in `assets/grimo/source/carol/approved-3d/`:
-`carol_front.png`, `carol_side.png`, `carol_skin_front.png`, and
-`carol_skin_side.png`. SHA-256 values are checked before every build and
-recorded in `measurements.json`. The current
-`assets/grimo/source/carol/carol-Identity-canonical.png` was inspected for
-secondary identity only. No reference was changed or regenerated.
+Geometry authority remains the four FINAL/LOCKED images in
+`assets/grimo/source/carol/approved-3d/` plus `CAROL_GEOMETRY_PARAMETERS.md`.
+All four were inspected and hash-checked; none was edited or regenerated.
+`assets/grimo/source/carol/carol-Identity-canonical.png` supported identity
+only. Relevant Carol causality, touch, head/face, support and secondary-motion
+sections of the current motion and Blender production bibles were read.
 
-No old geometry authority was used. No historical Back/Top/3Q image was used
-as a target; no v005/v006 mesh, old fleece construction, or old torso array
-was imported. v007 supplied registration/rendering concepts and small utility,
-eye, closed-ear and planted-hoof concepts only, never a runtime dependency.
+The narrow contract edit clarifies common **Skin tail core versus external
+Normal tail fleece shell**, as authorized by the current handoff. Normal's
+numerical tail values are unchanged; they no longer force a floating cream core.
 
-X increases front to rear, Y is bilateral, Z is up; H=1 and ground Z=0.
-Both orthographic cameras use the same 1.52 H span. Skin Front registration
-uses 994 px/H from eye spacing, ground 1075 and centerline 626.5. Skin Side
-uses 1019 px/H from support spacing, ground 1037 and origin 64. These prior
-observational registrations were retained after verifying reference hashes
-and inspecting the actual images. They are not new contract values.
-Registered Skin Side skull height is about .728 H versus .698 H in Skin Front;
-the candidate maximum is about .703 H. This difference remains unresolved.
+Registration is unchanged: H=1, X front-to-rear, Y bilateral, Z up; both
+orthographic cameras span 1.52 H. Skin Front uses 994 px/H, ground 1075,
+centerline 626.5; Skin Side uses 1019 px/H, ground 1037, origin 64. These are
+observational registration values. Front/Side imply slightly different skull
+heights (about .698/.728 H); the candidate remains one head at maximum
+Z=.70294 H. There is no view-dependent correction.
 
-## Implemented architecture
+## Selected architecture
 
-- `TORSO_CAGE`: 160 control vertices / 158 quad faces, longitudinal stations
-  with X, bottom/top Z, Y half-width and exponent; named `chest`, `abdomen`,
-  and `pelvis_rump` groups.
-- `HEAD_CAGE`: 240 control vertices / 238 quad faces, horizontal cheek,
-  muzzle and cranial sections. Head placement was not shifted to fake
-  shorter torso length.
-- `SHORT_NECK_SOCKET`: short broad overlapping cage, no ellipsoid connector.
-- Four independent squat tapered limb cages, each 96 control vertices,
-  partially buried in the torso. Heavy independent hooves retain support
-  centers X=.390 and X=.920 with bilateral front placement.
-- Closed-volume ears, shared huge-eye concept and closed neutral mouth.
-- Non-rendered `TAIL_PIVOT` at (.985,0,.355), short independent
-  `TAIL_ATTACHMENT_PAD`, and `TAIL_TUFT`. No long renderable root tube.
-  This module is **not successfully attached to the rump**.
+- Semantic quad cages with unapplied Catmull-Clark subdivision.
+- Raised front chest overlaps lower head and short internal socket. The
+  connection improves but its visible segmentation remains unresolved.
+- Separate fore/hind cages broaden and bury proximal supports. Hind roots
+  slope inward into the pelvis; named groups distinguish proximal/taper/distal.
+- Locked support centers remain **X=.390/.920 H**. Fore transverse centers
+  changed from Y=+/-.175 to **+/-.145 H** to fit Skin Front; hind remain
+  +/-.245 H. This changes the common model; hoof dimensions are unchanged.
+- Ears have **8 local-frame stations**, explicit center XYZ, profile width and
+  thickness, and ROOT/MID/TIP groups: 128 control vertices / 126 quads each.
+  Side volume improves, but the triangle/inset still fails the broad soft bowl.
+- `SKIN_TAIL_CORE` replaces the detached tuft/pad: 72 vertices / 70 quads,
+  parented to `TAIL_PIVOT`, with no renderable rod/stalk. Pivot=(.985,0,.355),
+  center X=1.032 H, evaluated X extent=.98963–1.07437 H, and longitudinal
+  rump overlap=.06226 H. It is independent and directly attached.
+- All twelve requested empties carry DEBUG/NON_EXPORT/NON_PRODUCTION metadata.
+  Head, torso, limb and ear semantic groups remain editable.
+- No fleece, Normal tail shell, production rig, skinning, animation, final
+  retopology, final lookdev, GLB export or PlayCanvas work was implemented.
 
-Primary cages retain unapplied Catmull-Clark subdivision. No fleece voxel
-remesh or Boolean ear recess exists. There is no view-specific geometry,
-scaling, object replacement or neutral-pose change. Front/Side geometry
-digests match. Normal was not built, so Skin/Normal identity is not claimed;
-there is only one underbody and no alternate Normal chassis.
+## New revision history
 
-The coherent subdivision fleece cage, six macro regions, sparse regional
-fields and ear saddles remain **unimplemented** because Skin is blocked.
+| Revision | Change | Both-view decision |
+| --- | --- | --- |
+| 1 | Attach compact Skin core; rebuild ears with local-frame stations; debug landmarks. | Tail gap closed; Side ear area increased but distal outline stayed triangular. Chest/limb segmentation remained. |
+| 2 | Raise chest; separate fore/hind buried proximal shapes; fit fore transverse placement. | Improved support connection and stance. Ear and head/chest still block. **Selected.** |
+| 3 | Revise local ear frames/profile and retract lower rear head sections. | More angular rear jaw; diminished Side ear root/bowl. **Rejected.** |
 
-## Internal review and blockers
+The selected geometry was rebuilt once in a clean process after selection.
+Front/Side and the reloaded neutral asset share geometry digest
+`c6e4482465ae128e8fd04b4f48d47f8edc6d61f473a69184c73529f1fc18606a`.
+One rejected revision-3 sheet explains the selection. Old rejected-cycle-3
+evidence was removed from the current packet to avoid confusing the attempts.
 
-| Area | Observed result |
+## Internal findings and limits
+
+| Area | Finding |
 | --- | --- |
-| Skin Front | Huge head/eyes, four supports, broad ears and heavy planted hooves remain readable. Ear bowl/root shape differs; hind supports are more exposed and the socket/body join still needs fitting. |
-| Skin Side | Explicit chest/abdomen/rump is compact and support centers are fixed. Ear projection is narrow, head/chest overlap abrupt, limb roots too rounded, and tail visibly detached. |
-| Normal Front / Side | Not built or rendered; Skin prerequisite not satisfied. |
-| Derived coherence | Not generated; both primary gates required first. |
-| Motion clearance | Not performed; neutral Skin remains unresolved. |
+| Skin Front | Large face/eyes and heavy hooves preserved; stance improved. Ear inset/rim and support overlap differ; cranial/cheek shape remains squarer. |
+| Skin Side | Compact torso, fixed supports, attached tail. Ear still triangular; head/chest segmented; proximal silhouettes need fitting. |
+| Head / face | No face/eye shrink. Articulation and blink/cheek deformation clearance unproven; no production eyelid system. |
+| Support / COM | Neutral roots intersect torso; four hooves planted. Dynamic weight transfer unproven. |
+| Tail | Neutral attachment and numerical pivot contact confirmed; visual deformation and future shell relation unproven. |
+| Normal / fleece / derived views / motion sheet | Not reached; Skin prerequisite failed. |
 
-The strongest blocker is **tail/rump reconciliation**. The evaluated torso
-ends at X=1.05190; the short attachment starts at X=1.19220, leaving at least
-**.14031 H** longitudinal separation. The independent tuft spans
-X=1.20263–1.28737, retaining the contract's visible base/center intent and
-approximately .085 H length. Its internal pivot cannot close that visible gap.
+Evaluated-mesh BVH probes use virtual tail transforms without changing the
+scene. Core/rump surface-intersection pair counts: **92 neutral, 81 up 20°,
+98 down 20°, 92 at either lateral 7°**. These establish contact, not good
+deformation, acceptable penetration, motion clearance or Human approval.
+Head and all four limb roots also intersect the torso in neutral. Tail contact
+is therefore supported by surfaces, not just overlapping bounding boxes.
 
-Under the support-based registration, the Skin reference rump ends around
-X=1.04 and its tuft is directly attached. Connecting the current pad would
-require extending the visible rump, moving the tuft away from Normal's locked
-visible-X intent, or reinterpreting the shared attachment and registration.
-A long root tube would repeat the rejected v007 strategy. No such change was
-silently made. This is a conflict in this construction, not proof that no valid
-model exists. Planner must resolve the interpretation before the next attempt.
+Head yaw/pitch/tilt, cheek lean, ear sweep, COM transfer and forelimb-adjustment
+visual stress tests were **not reached**: their neutral prerequisites remain
+unsatisfactory. Fleece/shell clearance is absent. Measurements explicitly
+record these limits; no automatic Human PASS score is computed.
 
-Iteration history:
+## Targeted validation
 
-1. Fresh primary cages, fixed supports and contract-positioned tail. Both
-   views exposed the tail gap, weak Side ear read and narrow upper limb roots.
-2. Broader upper limb roots and adjusted ear root/sections improved support.
-   Tail detachment and narrow Side ears remained. Selected for preserved face.
-3. Rotated across-ear sections and added a local muzzle offset. Side ear area
-   increased but the outline worsened and mouth became buried. Rejected.
+Clean Blender rebuild and selected evidence regeneration; both Python files
+AST-parse; identical Front/Side neutral digests; unchanged reference hashes;
+fixed support X; no Boolean/remesh/armature modifiers or animation; no old
+v005/v006 runtime dependency or imported v007 geometry. The saved asset is
+reloaded to check its digest, neutral flag, debug metadata, cage modifiers and
+reference paths. Evaluated hoof minima=.0000224 H (negligible subdivision
+rounding above ground). No unrelated application test suite was run.
 
-## Targeted evidence and scope
-
-The retained candidate was rebuilt in a clean Blender process and the evidence
-utility ran successfully. Required blocked-stage files exist. All primary
-cages retain quad controls and `SUBSURF`; Front/Side neutral digests are equal.
-Four evaluated hoof minimum Z values are about .0000224 H, negligible
-subdivision rounding above ground. Tail separation uses evaluated geometry.
-Both Python files parse successfully. Source inspection finds no construction
-using remesh, Boolean difference or old geometry dependencies. The diff is
-limited to v008, production state and its temporary-output ignore rule.
-No unrelated application suite was run.
-
-Technical checks are evidence only and do not approve identity, geometry or
-motion. There is no production rig, final retopo lock, animation, final
-material/lookdev, GLB, or PlayCanvas integration.
+Only one underbody exists. Skin/Normal sameness cannot yet be demonstrated
+because Normal is unimplemented. Technical checks do not approve geometry.
 
 ## Evidence and next handoff
 
-- `skin-review-sheet.png`: retained reference/model/50% overlay for both views.
-- `skin-front.png`, `skin-side.png`: selected neutral 640 px renders.
-- `skin-front-overlay.png`, `skin-side-overlay.png`: registered 50% overlays.
-- `rejected-cycle-3-sheet.png`: final rejected attempt, both primary views.
-- `measurements.json`: reference hashes, registration, cage counts, evaluated
-  bounds, neutral digests and explicit blocked-stage scope.
+- [Selected comparison](skin-review-sheet.png): reference / revision 2 / 50% overlay.
+- [Skin Front](skin-front.png), [Skin Side](skin-side.png).
+- [Front overlay](skin-front-overlay.png), [Side overlay](skin-side-overlay.png).
+- [Rejected revision 3](rejected-revision-3-sheet.png): diagnostic history only.
+- [Measurements](measurements.json): hashes, cage counts, bounds, pivots and limits.
 
-Next handoff: **CHATGPT_PLANNER**. Resolve Skin attachment and primary fitting
-before another attempt. Fleece, derived views and motion clearance remain
-gated. Human Geometry Gate remains PENDING.
+**CHATGPT_PLANNER:** audit the pushed packet and specify a new bounded Skin
+revision for ear bowl/root and head/chest fitting. Retain attached core and
+fixed longitudinal supports. Do not proceed to fleece or Human submission.

@@ -1,10 +1,11 @@
 """Carol v008 structured cage prototype, built from an empty Blender scene.
 
-blender -b --python scripts/blender/build-carol-v008.py -- --iteration 2
+blender -b --python scripts/blender/build-carol-v008.py -- --revision 2
 Only Skin is implemented until its dual-orthographic internal gate is resolved.
 No previous generator is imported. Controls are normalized by H=1.
-Selected controls are cycle 2; cycle 3 worsened the ear silhouette and mouth.
-The iteration argument labels output only. It does not switch geometry.
+Continues the pushed selected cycle-2 controls, never the rejected cycle 3.
+Selected NEW revision 2; revision 3 worsened the rear jaw and ear-root read.
+The revision argument labels output only. It does not switch geometry.
 """
 import argparse
 import hashlib
@@ -17,6 +18,7 @@ from pathlib import Path
 import bpy
 import bmesh
 from mathutils import Matrix, Vector
+from mathutils.bvhtree import BVHTree
 
 ROOT = Path(__file__).resolve().parents[2]
 ASSET = ROOT / 'assets/grimo/production/carol/blender/carol-v008.blend'
@@ -26,11 +28,11 @@ REFERENCE = ROOT / 'assets/grimo/source/carol/approved-3d'
 # Longitudinal stations: region, X, bottom Z, top Z, half width Y, exponent.
 # Independent chest, abdomen and rump controls; these are not the v007 arrays.
 TORSO_STATIONS = [
-    ('chest', .255, .205, .300, .055, 1.0),
-    ('chest', .285, .155, .355, .165, .9),
-    ('chest', .365, .115, .399, .253, .9),
-    ('chest', .450, .098, .416, .291, .9),
-    ('abdomen', .575, .082, .410, .311, .9),
+    ('chest', .240, .215, .350, .070, 1.0),
+    ('chest', .280, .158, .414, .176, .9),
+    ('chest', .365, .118, .458, .253, .9),
+    ('chest', .450, .098, .460, .291, .9),
+    ('abdomen', .575, .082, .435, .311, .9),
     ('abdomen', .730, .085, .419, .320, .9),
     ('pelvis_rump', .865, .103, .433, .310, .85),
     ('pelvis_rump', .980, .153, .411, .255, .85),
@@ -58,15 +60,35 @@ SOCKET_STATIONS = [
     ('socket', .460, .220, .374, .231, .8),
     ('socket', .510, .246, .350, .185, .8),
 ]
-SUPPORT = {'FORE': {'x': .390, 'y': .175}, 'HIND': {'x': .920, 'y': .245}}
-# Z, X offset from planted center, radius X, radius Y: squat buried supports.
-LIMB_SECTIONS = [
-    (.074, 0, .065, .069), (.110, 0, .080, .079),
-    (.175, .003, .097, .085), (.235, .002, .120, .103),
-    (.282, .000, .103, .096), (.318, .000, .045, .045),
+SUPPORT = {'FORE': {'x': .390, 'y': .145}, 'HIND': {'x': .920, 'y': .245}}
+# Z, X offset, inward Y offset, radius X, radius Y. Only the fore transverse
+# placement is fitted to Skin Front; the locked longitudinal centers do not move.
+FORE_LIMB_SECTIONS = [
+    (.074, 0, 0, .065, .071), (.108, 0, 0, .082, .082),
+    (.155, .005, .004, .095, .090), (.210, .012, .015, .117, .103),
+    (.274, .016, .026, .136, .112), (.335, .023, .040, .123, .098),
+    (.385, .030, .050, .064, .060),
 ]
-TAIL = {'pivot': (.985, 0, .355), 'base': 1.205, 'center': 1.245,
+HIND_LIMB_SECTIONS = [
+    (.074, 0, 0, .065, .069), (.110, 0, .004, .080, .077),
+    (.163, -.009, .014, .106, .091), (.226, -.028, .042, .133, .111),
+    (.286, -.039, .070, .140, .119), (.338, -.047, .090, .106, .089),
+    (.370, -.053, .105, .040, .040),
+]
+TAIL = {'pivot': (.985, 0, .355), 'base': .985, 'center': 1.032,
         'length': .085, 'diameter': .095, 'angle_degrees': 20}
+# Region, center XYZ (positive-Y ear), profile radius, thickness, local major.
+# The changing frame opens the Side bowl; no rotation of the old global frame.
+EAR_STATIONS = [
+    ('ROOT', (.397,.221,.565), .028,.023, (.40,.10,.91)),
+    ('ROOT', (.420,.275,.533), .071,.025, (.51,.14,.85)),
+    ('MID',  (.459,.340,.477), .117,.025, (.61,.18,.77)),
+    ('MID',  (.510,.415,.414), .143,.024, (.65,.20,.73)),
+    ('MID',  (.566,.484,.382), .127,.023, (.65,.20,.73)),
+    ('TIP',  (.619,.543,.377), .085,.021, (.60,.18,.78)),
+    ('TIP',  (.651,.573,.385), .040,.016, (.55,.14,.82)),
+    ('TIP',  (.661,.581,.388), .008,.007, (.50,.10,.86)),
+]
 REGISTRATION = {
     'normal-front': dict(file='carol_front.png', h=1011, ground=1162, origin=626.5, view='front'),
     'normal-side': dict(file='carol_side.png', h=916, ground=998, origin=144, view='side'),
@@ -155,7 +177,32 @@ def horizontal_cage(name, sections, mat, y=0, face=False, n=16):
             power = (2.7 if c < 0 else .85) if face else 1.0
             vertices.append((center + rx*signed_power(c, power),
                              y + ry*signed_power(s, .90 if face else 1), z))
-    return mesh(name, vertices, ring_faces(len(sections), n), mat, 2)
+    obj = mesh(name, vertices, ring_faces(len(sections), n), mat, 2)
+    if face:
+        for region,indices in [('LOWER_CHEEK',range(4)),('FACE',range(3,6)),
+                               ('FOREHEAD',range(5,8)),('SKULL',range(7,len(sections)))]:
+            group = obj.vertex_groups.new(name=region)
+            for i in indices:
+                group.add(list(range(i*n,(i+1)*n)),1,'REPLACE')
+    return obj
+
+
+def limb(name, row, x, y, sign, mat):
+    sections = FORE_LIMB_SECTIONS if row == 'FORE' else HIND_LIMB_SECTIONS
+    n = 16
+    vertices = []
+    for z, dx, inward, rx, ry in sections:
+        for j in range(n):
+            theta = 2*math.pi*j/n
+            vertices.append((x+dx+rx*math.cos(theta),
+                             y-sign*inward+ry*math.sin(theta),z))
+    obj = mesh(name,vertices,ring_faces(len(sections),n),mat,2)
+    for region,indices in [('DISTAL',range(2)),('SHORT_TAPER',range(2,4)),
+                           ('BURIED_PROXIMAL',range(4,len(sections)))]:
+        group = obj.vertex_groups.new(name=region)
+        for i in indices:
+            group.add(list(range(i*n,(i+1)*n)),1,'REPLACE')
+    return obj
 
 
 def ellipsoid(name, location, scale, mat):
@@ -204,26 +251,44 @@ def hoof(name, x, y, mat):
 
 
 def ear(name, sign, brown, pink):
-    # Closed section volume, broad root and drooping distal bowl.
     vertices = []
-    count, n = 13, 12
-    for i in range(count):
-        u = i/(count-1)
-        center = Vector((.395+.245*u, sign*(.225+.355*u),
-                         .585-.166*u-.058*math.sin(math.pi*u)))
-        width = .012+.163*math.sin(math.pi*u)**.70
-        thickness = .022*(.75+.25*math.sin(math.pi*u))
+    count, n = len(EAR_STATIONS), 16
+    for i, (_, xyz, width, thickness, direction) in enumerate(EAR_STATIONS):
+        center = Vector((xyz[0], sign*xyz[1], xyz[2]))
+        major = Vector((direction[0],sign*direction[1],direction[2])).normalized()
+        before = Vector(EAR_STATIONS[max(0,i-1)][1])
+        after = Vector(EAR_STATIONS[min(count-1,i+1)][1])
+        tangent = after-before
+        tangent.y *= sign
+        normal = tangent.cross(major).normalized()*(-sign)
         for j in range(n):
             theta = 2*math.pi*j/n
-            vertices.append(tuple(center+Vector((-.66,sign*.12,.75))*width*math.cos(theta)
-                                  +Vector((-.75,sign*.10,-.66))*thickness*math.sin(theta)))
+            # A soft closed bowl: its lower half cups toward the front/side.
+            bowl = .012*math.sin(math.pi*i/(count-1))*max(0,-math.cos(theta))
+            vertices.append(tuple(center+major*width*math.cos(theta)
+                                  +normal*(thickness*math.sin(theta)+bowl)))
     obj = mesh(name, vertices, ring_faces(count,n), brown, 2)
     obj.data.materials.append(pink)
     for polygon in obj.data.polygons:
         if polygon.index < (count-1)*n:
             i,j = divmod(polygon.index,n)
-            if 2 <= i <= 10 and 3 <= j <= 5:
+            if 1 <= i <= 5 and 4 <= j <= 6:
                 polygon.material_index = 1
+    for region in ['ROOT','MID','TIP']:
+        group = obj.vertex_groups.new(name=region)
+        for i, station in enumerate(EAR_STATIONS):
+            if station[0] == region:
+                group.add(list(range(i*n,(i+1)*n)),1,'REPLACE')
+    return obj
+
+
+def debug_landmark(name, location):
+    obj = bpy.data.objects.new(name, None)
+    bpy.context.scene.collection.objects.link(obj)
+    obj.location = location
+    obj.empty_display_size = .025
+    obj.hide_render = True
+    obj['DEBUG'] = obj['NON_EXPORT'] = obj['NON_PRODUCTION'] = True
     return obj
 
 
@@ -248,12 +313,46 @@ def geometry_digest():
     return hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
 
 
+def attachment_diagnostics():
+    """Disposable evaluated-surface probes; no scene mutation or approval score.
+
+    Surface intersections establish contact, not acceptable penetration or
+    deformation. Tail rotation uses its real pivot and the evaluated neutral
+    core. Visual motion clearance remains gated by unresolved neutral Skin.
+    """
+    depsgraph = bpy.context.evaluated_depsgraph_get()
+
+    def surface(name, transform=None):
+        obj = bpy.data.objects[name].evaluated_get(depsgraph)
+        coords = [obj.matrix_world@v.co for v in obj.data.vertices]
+        if transform is not None:
+            coords = [transform@point for point in coords]
+        return BVHTree.FromPolygons(coords,[list(p.vertices) for p in obj.data.polygons])
+
+    torso = surface('TORSO_CAGE')
+    tail = {}
+    pivot = Vector(TAIL['pivot'])
+    for name,axis,degrees in [('neutral','Y',0),('up_20','Y',-20),
+                              ('down_20','Y',20),('lateral_L_7','Z',7),
+                              ('lateral_R_7','Z',-7)]:
+        transform = (Matrix.Translation(pivot) @ Matrix.Rotation(math.radians(degrees),4,axis)
+                     @ Matrix.Translation(-pivot))
+        tail[name] = {'surface_intersection_pairs':len(torso.overlap(surface('SKIN_TAIL_CORE',transform)))}
+    neutral_contacts = {}
+    for name in ['HEAD_CAGE','FORE_L','FORE_R','HIND_L','HIND_R']:
+        neutral_contacts[name] = {'torso_surface_intersection_pairs':len(torso.overlap(surface(name)))}
+    return dict(method='Evaluated mesh BVH surface intersections; virtual tail pivot transforms; no scene changes.',
+                tail_pivot_probes=tail,neutral_torso_contacts=neutral_contacts,
+                interpretation='Contact diagnostic only. Pair counts do not measure penetration quality or grant clearance.',
+                visual_motion_clearance='NOT REACHED: neutral Skin revision gate blocked')
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--iteration', type=int, choices=[1,2,3], default=2)
+    parser.add_argument('--revision', type=int, choices=[1,2,3], default=2)
     parser.add_argument('--resolution', type=int, default=640)
     options = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
-    output = TMP / ('cycle-'+str(options.iteration))
+    output = TMP / ('revision-'+str(options.revision))
     output.mkdir(parents=True, exist_ok=True)
     for name, expected in REFERENCE_HASHES.items():
         actual = hashlib.sha256((REFERENCE/name).read_bytes()).hexdigest()
@@ -277,7 +376,8 @@ def main():
     scene.render.threads = 12
     scene['authority'] = 'Four FINAL LOCKED references + CAROL_GEOMETRY_PARAMETERS.md'
     scene['coordinate_contract'] = 'H=1; X front to rear; Y bilateral; Z up; ground Z=0'
-    scene['stage'] = 'BLOCKED_AT_V008_SKIN_INTERNAL_GATE; selected cycle 2'
+    scene['stage'] = 'BLOCKED_AT_V008_SKIN_REVISION_GATE; selected revision 2; Human Gate PENDING'
+    scene['saved_pose'] = 'NEUTRAL'
     cream = material('DEBUG warm skin',(.83,.67,.55))
     brown = material('DEBUG cocoa',(.19,.075,.039))
     pink = material('DEBUG ear inset',(.64,.23,.20))
@@ -290,7 +390,7 @@ def main():
     for side, sign in [('L',1),('R',-1)]:
         for row, control in SUPPORT.items():
             x, y = control['x'], sign*control['y']
-            horizontal_cage(row+'_'+side, [(z,x+dx,rx,ry) for z,dx,rx,ry in LIMB_SECTIONS], cream,y)
+            limb(row+'_'+side,row,x,y,sign,cream)
             hoof('HOOF_'+row+'_'+side,x,y,brown)
         ear('EAR_'+side,sign,brown,pink)
         eye = ellipsoid('EYE_'+side,(.104,sign*.162,.398),(.038,.089,.0745),dark)
@@ -311,21 +411,21 @@ def main():
         mouth.append((.009+.009*(y/.0455)**2,y,.35-.010*math.sin(math.pi*abs(y)/.0455)))
     tube('MOUTH_closed',mouth,.0028,brown)
     tube('PHILTRUM',[(.007,0,.370),(.008,0,.350)],.0025,brown)
-    pivot = bpy.data.objects.new('TAIL_PIVOT',None)
-    scene.collection.objects.link(pivot)
-    pivot.location = TAIL['pivot']
-    pivot.empty_display_size = .025
-    pivot.hide_render = True
+    pivot = debug_landmark('TAIL_PIVOT', TAIL['pivot'])
+    debug_landmark('DEBUG_HEAD_PIVOT', (.410,0,.370))
+    debug_landmark('DEBUG_COM', (.630,0,.255))
+    debug_landmark('DEBUG_FOREHEAD', (.090,0,.535))
+    for side,sign in [('L',1),('R',-1)]:
+        debug_landmark('DEBUG_EAR_ROOT_'+side, (.397,sign*.221,.565))
+        debug_landmark('DEBUG_CHEEK_'+side, (.090,sign*.250,.320))
+        for row,control in SUPPORT.items():
+            debug_landmark('DEBUG_'+row+'_SUPPORT_'+side, (control['x'],sign*control['y'],0))
     tuft_stations = []
     for dx, radius in [(-.0425,.008),(-.034,.031),(-.014,.049),(.014,.049),(.034,.031),(.0425,.006)]:
-        z = .370+dx*math.tan(math.radians(TAIL['angle_degrees']))
+        z = .355+dx*math.tan(math.radians(TAIL['angle_degrees']))
         tuft_stations.append(('tuft',TAIL['center']+dx,z-radius,z+radius,radius,1.0))
-    tuft = longitudinal_cage('TAIL_TUFT',tuft_stations,cream,12)
-    pad = longitudinal_cage('TAIL_ATTACHMENT_PAD',[
-        ('attachment',1.192,.339,.385,.025,1),
-        ('attachment',1.205,.335,.390,.030,1),
-        ('attachment',1.218,.343,.389,.025,1)],cream,12)
-    for obj in [tuft,pad]:
+    tuft = longitudinal_cage('SKIN_TAIL_CORE',tuft_stations,cream,12)
+    for obj in [tuft]:
         obj.parent = pivot
         obj.matrix_parent_inverse = Matrix.Translation(-pivot.location)
     reference_collection = bpy.data.collections.new('REFERENCES locked H-registered')
@@ -371,6 +471,14 @@ def main():
         scene.render.filepath = str(output/('skin-'+view+'.png'))
         bpy.ops.render.render(write_still=True)
     scene.camera = cameras['front']
+    diagnostics = attachment_diagnostics()
+    assert geometry_digest() == neutral_digest, 'Diagnostic changed the neutral scene'
+    assert SUPPORT['FORE']['x'] == .390 and SUPPORT['HIND']['x'] == .920
+    assert all(probe['surface_intersection_pairs'] > 0
+               for probe in diagnostics['tail_pivot_probes'].values()), 'Tail/rump contact lost'
+    assert not any(obj.type == 'ARMATURE' or obj.animation_data for obj in scene.objects)
+    assert not any(mod.type in {'BOOLEAN','REMESH','ARMATURE'}
+                   for obj in scene.objects for mod in obj.modifiers)
     ASSET.parent.mkdir(parents=True,exist_ok=True)
     bpy.context.preferences.filepaths.save_version = 0
     bpy.ops.wm.save_as_mainfile(filepath=str(ASSET))
@@ -386,22 +494,37 @@ def main():
             modifiers=[mod.type for mod in obj.modifiers],
             min=[min(p[i] for p in coords) for i in range(3)],
             max=[max(p[i] for p in coords) for i in range(3)])
-    result = dict(blender=bpy.app.version_string,cycle=options.iteration,
-        stage='Skin internal gate',human_geometry_gate='PENDING; not ready for submission',
-        executor_disposition='BLOCKED_AT_V008_SKIN_INTERNAL_GATE',
-        selected_geometry_cycle=2,skin_edit_render_cycles_completed=3,
+    result = dict(blender=bpy.app.version_string,revision=options.revision,
+        stage='Skin revision gate',human_geometry_gate='PENDING; not ready for submission',
+        executor_disposition='BLOCKED_AT_V008_SKIN_REVISION_GATE',
+        selected_geometry_revision=2,skin_revision_render_cycles_completed=3,
+        baseline_commit='601296e8e44f7eb4e6f9843bedcca61f940d7abb',
         generator_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         reference_hashes=REFERENCE_HASHES,reference_registration=REGISTRATION,
         geometry_digest=neutral_digest,view_geometry_digests=view_digests,
-        support_targets=SUPPORT,tail_controls=TAIL,meshes=meshes,
-        tail_attachment_gap_X_H=meshes['TAIL_ATTACHMENT_PAD']['min'][0]-meshes['TORSO_CAGE']['max'][0],
+        support_targets=SUPPORT,tail_controls=TAIL,ear_stations=EAR_STATIONS,meshes=meshes,
+        tail_core_rump_X_overlap_H=meshes['TORSO_CAGE']['max'][0]-meshes['SKIN_TAIL_CORE']['min'][0],
+        tail_fleece_shell='NOT CONSTRUCTED; Skin gate prerequisite',
+        debug_landmarks={obj.name:list(obj.location) for obj in scene.objects if obj.get('NON_PRODUCTION')},
+        attachment_diagnostics=diagnostics,
+        motion_clearance={
+            'head_yaw_clearance':'NOT REACHED; head/chest neutral fitting blocked',
+            'head_pitch_clearance':'NOT REACHED; head/chest neutral fitting blocked',
+            'head_tilt_clearance':'NOT REACHED; head/chest neutral fitting blocked',
+            'cheek_lean_clearance':'NOT REACHED; neutral Skin gate blocked',
+            'ear_clearance':'NOT REACHED; neutral ear shape blocked; ROOT/MID/TIP groups only',
+            'com_shift_clearance':'NOT REACHED; neutral contact diagnostics do not prove weight transfer',
+            'fore_support_clearance':'NOT REACHED; buried root and planted neutral geometry only',
+            'tail_clearance':'Evaluated core/rump surfaces intersect at neutral, +/-20 vertical and +/-7 lateral; visual motion not approved',
+            'fleece_regional_clearance':'NOT REACHED; fleece not constructed'},
+        saved_pose='NEUTRAL',
         fleece_representation='NOT CONSTRUCTED; Skin gate prerequisite',
         voxel_remesh_fleece=False,boolean_ear_recess=False,view_specific_geometry=False,
         normal_skin_identity='Normal not constructed; one neutral underbody only',
         production_rig=False,animation=False,final_retopology=False,
-        limitations=['Locked tail X positions leave a visible gap to Skin-reference rump.',
-                     'Ear side volume and root relationship remain visibly incorrect.',
-                     'Head/chest overlap and rounded support-root appearance need further fitting.',
+        limitations=['Ear Side still reads triangular instead of a broad soft bowl; Front inset/rim differs.',
+                     'Head/chest transition remains visibly segmented; articulation clearance unproven.',
+                     'Proximal roots improved but support silhouettes remain insufficiently reference-fitted.',
                      'Skin Side support registration and Skin Front imply different skull heights.',
                      'Technical diagnostics do not grant Human approval.'])
     (output/'measurements.json').write_text(json.dumps(result,indent=2)+'\n')

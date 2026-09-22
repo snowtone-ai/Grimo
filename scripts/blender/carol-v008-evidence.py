@@ -1,6 +1,6 @@
 """Skin gate comparisons; uses frozen registration exported by the build.
 
-python scripts/blender/carol-v008-evidence.py --cycle 2
+python scripts/blender/carol-v008-evidence.py --revision 2
 Final/Normal packets are intentionally unavailable before the Skin gate.
 """
 import argparse
@@ -34,11 +34,11 @@ def registered(reg,size):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--cycle',type=int,choices=[1,2,3],default=2)
+    parser.add_argument('--revision',type=int,choices=[1,2,3],default=2)
     parser.add_argument('--publish-blocked',action='store_true',
                         help='Copy selected Skin evidence only; never implies a Human submission.')
     args = parser.parse_args()
-    directory = ROOT/'tmp-carol-v008'/('cycle-'+str(args.cycle))
+    directory = ROOT/'tmp-carol-v008'/('revision-'+str(args.revision))
     data = json.loads((directory/'measurements.json').read_text())
     for name,digest in data['reference_hashes'].items():
         assert hashlib.sha256((REF/name).read_bytes()).hexdigest()==digest, name
@@ -51,13 +51,15 @@ def main():
         reference = registered(data['reference_registration'][key],model.width)
         overlay = Image.blend(background(reference),background(model),.5)
         overlay.save(directory/(key+'-overlay.png'))
-        for col,(label,image) in enumerate([('LOCKED reference',reference),('same neutral model',model),('50% overlay',overlay)]):
+        for col,(label,image) in enumerate([('LOCKED reference',reference),
+                                           ('revision '+str(args.revision)+' | same neutral',model),
+                                           ('50% overlay',overlay)]):
             x,y = col*size,row*(size+32)
             draw.text((x+10,y+9),key+' | '+label,fill='#242137')
             sheet.paste(background(image).resize((size,size)),(x,y+32))
     sheet.save(directory/'skin-review-sheet.png')
     if args.publish_blocked:
-        if data.get('executor_disposition') != 'BLOCKED_AT_V008_SKIN_INTERNAL_GATE':
+        if data.get('executor_disposition') != 'BLOCKED_AT_V008_SKIN_REVISION_GATE':
             raise RuntimeError('Only an explicitly blocked Skin packet may be published here')
         final = ROOT/'docs/production/carol/evidence/reconstruction-v008'
         final.mkdir(parents=True,exist_ok=True)
