@@ -1,10 +1,10 @@
 """Carol v008 structured cage prototype, built from an empty Blender scene.
 
-blender -b --python scripts/blender/build-carol-v008.py -- --revision 9
+blender -b --python scripts/blender/build-carol-v008.py -- --revision 12
 Only Skin is implemented until its dual-orthographic internal gate is resolved.
 No previous generator is imported. Controls are normalized by H=1.
-Continues pushed revision 5 at 0fb3d38. Final-fit attempts 7-9; revision 9
-retains a local ear-root/inset refinement. The revision argument labels output
+Continues pushed revision 9 at 0235fbe. Identity reconstruction, Skin only.
+The revision argument labels output
 only; it does not switch historical geometry.
 """
 import argparse
@@ -17,6 +17,7 @@ from pathlib import Path
 
 import bpy
 import bmesh
+import numpy as np
 from mathutils import Matrix, Vector
 from mathutils.bvhtree import BVHTree
 
@@ -40,18 +41,23 @@ TORSO_STATIONS = [
     ('pelvis_rump', 1.052, .280, .307, .030, 1.0),
 ]
 # Horizontal cranial sections: Z, center X, depth radius X, half width Y.
-# Flattened cheek frontage with a rounded deep skull; fixed head placement.
+# Rounded skull with local muzzle and orbital housing; one shared placement.
 HEAD_SECTIONS = [
-    (.223, .285, .040, .060),
-    (.233, .265, .145, .175),
-    (.266, .263, .236, .279),
-    (.322, .268, .262, .309),
-    (.408, .285, .270, .301),
-    (.492, .300, .265, .283),
-    (.577, .321, .243, .266),
-    (.651, .331, .190, .219),
-    (.695, .332, .100, .133),
-    (.703, .332, .020, .025),
+    (.235, .285, .040, .065),
+    (.248, .266, .145, .165),
+    (.272, .260, .212, .248),
+    (.315, .266, .247, .297),
+    (.340, .275, .256, .303),
+    (.375, .288, .260, .304),
+    (.400, .296, .257, .302),
+    (.430, .304, .253, .296),
+    (.460, .311, .254, .288),
+    (.500, .320, .257, .277),
+    (.570, .334, .253, .253),
+    (.630, .344, .210, .218),
+    (.674, .345, .148, .164),
+    (.697, .342, .072, .080),
+    (.703, .340, .015, .018),
 ]
 # The socket is deliberately broad, short and overlapped by head and chest.
 SOCKET_STATIONS = [
@@ -64,13 +70,13 @@ SUPPORT = {'FORE': {'x': .390, 'y': .145}, 'HIND': {'x': .920, 'y': .245}}
 # Z, X offset, inward Y offset, radius X, radius Y. Only the fore transverse
 # placement is fitted to Skin Front; the locked longitudinal centers do not move.
 FORE_LIMB_SECTIONS = [
-    (.074, 0, 0, .065, .071), (.108, 0, 0, .082, .082),
+    (.074, .008, 0, .059, .063), (.108, .005, 0, .075, .076),
     (.155, .005, .004, .095, .090), (.210, .012, .015, .117, .103),
     (.274, .016, .026, .136, .112), (.335, .023, .040, .123, .098),
     (.385, .030, .050, .064, .060),
 ]
 HIND_LIMB_SECTIONS = [
-    (.074, 0, 0, .065, .069), (.110, 0, .004, .080, .077),
+    (.074, .008, 0, .059, .062), (.110, .005, .004, .073, .073),
     (.163, -.009, .014, .106, .091), (.226, -.028, .042, .133, .111),
     (.286, -.039, .070, .140, .119), (.338, -.047, .090, .106, .089),
     (.370, -.053, .105, .040, .040),
@@ -209,13 +215,25 @@ def horizontal_cage(name, sections, mat, y=0, face=False, n=16):
             rear = max(0,min(1,(c+.50)/1.50))
             rear = rear*rear*(3-2*rear)
             low = max(0,min(1,(.43-z)/.20)) if face else 0
-            vertices.append((center + rx*depth,
-                             y + ry*signed_power(s, .90 if face else 1),
-                             z+.065*rear*low*low))
+            muzzle = (.020*math.exp(-((z-.368)/.049)**2)
+                      *math.exp(-(ry*s/.080)**2)*max(0,-c)**8) if face else 0
+            yy=y + ry*signed_power(s, .90 if face else 1)
+            xx=center + rx*depth-muzzle
+            if face and c<0:
+                # Orbital housing belongs to the head itself. A nearly upright
+                # oblique surface explains both eyes without a separate globe.
+                u=(abs(yy)-.162)/.0685
+                v=(z-.418)/.0745
+                r=math.sqrt(u*u+v*v)
+                t=max(0,min(1,(1.75-r)/.65))
+                weight=t*t*(3-2*t)
+                target=.145+(abs(yy)-.162)*1.02+.006*v*v
+                xx=xx*(1-weight)+target*weight
+            vertices.append((xx, yy, z+.065*rear*low*low))
     obj = mesh(name, vertices, ring_faces(len(sections), n), mat, 2)
     if face:
-        for region,indices in [('LOWER_CHEEK',range(4)),('FACE',range(3,6)),
-                               ('FOREHEAD',range(5,8)),('SKULL',range(7,len(sections)))]:
+        for region,indices in [('LOWER_CHEEK',range(4)),('FACE',range(3,10)),
+                               ('FOREHEAD',range(9,13)),('SKULL',range(12,len(sections)))]:
             group = obj.vertex_groups.new(name=region)
             for i in indices:
                 group.add(list(range(i*n,(i+1)*n)),1,'REPLACE')
@@ -241,7 +259,7 @@ def limb(name, row, x, y, sign, mat):
 
 
 def ellipsoid(name, location, scale, mat):
-    # Reserved for the small eye/nose modules, never primary body construction.
+    # Reserved for the tiny nose, never primary body or eye construction.
     bpy.ops.mesh.primitive_uv_sphere_add(segments=40, ring_count=24, location=location)
     obj = bpy.context.object
     obj.name = name
@@ -269,19 +287,134 @@ def tube(name, points, radius, mat):
 
 
 def hoof(name, x, y, mat):
-    # Retains v007's successful planted, broad two-toe concept.
+    # Paired soft toes merge into one crown; width/height and supports fixed.
     vertices = []
-    n = 32
-    for z, radius in [(0,.85), (.004,.96), (.030,1.03), (.070,.99), (.102,.70), (.111,.18)]:
+    n = 48
+    rings = [(0,.64),(.002,.78),(.015,.96),(.037,1.025),(.064,1.025),
+             (.087,.96),(.104,.76),(.112,.40),(.113,.06)]
+    for z, radius in rings:
         for j in range(n):
             theta = 2*math.pi*j/n
             yy = .1095*math.sin(theta)*radius
-            xx = .109*math.cos(theta)*radius
+            xx = .102*math.cos(theta)*radius
+            zz = z
             if xx < 0:
-                xx += .017*math.exp(-(yy/.018)**2)
-            vertices.append((x+xx, y+yy, z))
-    obj = mesh(name, vertices, ring_faces(6,n), mat, 2)
-    # All bottom cap vertices lie on ground and a close support ring holds them.
+                split = math.exp(-(yy/.020)**2)*max(0,1-z/.104)
+                xx += .034*split
+                zz += .012*split
+            vertices.append((x+xx, y+yy, zz))
+    obj = mesh(name, vertices, ring_faces(len(rings),n), mat, 2)
+    # Paired toe contacts remain on ground; only the central cleft lifts.
+    return obj
+
+
+def eye_pixels(gaze=(0,0)):
+    """Neutral pigment, with optional disposable iris-only gaze offset."""
+    size = 512
+    v,u = np.mgrid[-1:1:complex(size),-1:1:complex(size)]
+    radius = np.sqrt(u*u+v*v)
+    iris_u,iris_v=u-gaze[0],v-gaze[1]
+    color = np.zeros((size,size,3),dtype=np.float32)
+    color[:] = (.019,.010,.018)
+    def mix(rgb, mask):
+        nonlocal color
+        color = color*(1-mask[...,None])+np.array(rgb)*mask[...,None]
+    lower = np.clip((-v+.10)/1.05,0,1)*np.clip((.97-radius)/.18,0,1)
+    mix((.21,.065,.024), lower*.85)
+    for cx,cy,rx,ry,opacity in [(-.38,-.32,.28,.33,.30),(.40,-.37,.28,.30,.37),
+                                 (-.12,-.08,.25,.30,.35)]:
+        q=((iris_u-cx)/rx)**2+((iris_v-cy)/ry)**2
+        mix((.42,.15,.047),np.clip((1-q)*5,0,1)*opacity)
+    q=(iris_u/.39)**2+((iris_v+.62)/.30)**2
+    glow=np.clip((1-q)*6,0,1)
+    mix((.95,.46,.070),glow)
+    mix((1,.70,.19),glow*np.clip((-.4-v)/.55,0,1)*.65)
+    # Narrow warm limbal edge stays on the eye surface.
+    rim=np.clip((radius-.89)/.09,0,1)*np.clip((1.02-radius)/.04,0,1)
+    mix((.27,.078,.033),rim*.70)
+    for cx,cy,rx,ry in [(-.28,.53,.22,.22),(-.07,.27,.067,.065)]:
+        q=((u-cx)/rx)**2+((v-cy)/ry)**2
+        mix((1,1,1),np.clip((1-q)*12,0,1))
+    star=(np.abs((u-.42)/.20)**.55+np.abs((v+.20)/.20)**.55)
+    mix((1,.96,.88),np.clip((1-star)*15,0,1))
+    pixels=np.ones((size,size,4),dtype=np.float32)
+    pixels[:,:,:3]=color
+    return pixels
+
+
+def eye_material():
+    """One packed UV pigment on a curved aperture; no iris/glint solids."""
+    pixels=eye_pixels()
+    size=pixels.shape[0]
+    im=bpy.data.images.new('EYE pigment diagnostic packed',width=size,height=size)
+    im.colorspace_settings.name='Non-Color'
+    im.pixels.foreach_set(pixels.ravel())
+    im.pack()
+    mat=material('DEBUG conformal eye pigment',(.04,.02,.02),.24)
+    nodes=mat.node_tree.nodes
+    texture=nodes.new('ShaderNodeTexImage')
+    texture.image=im
+    shader=nodes.get('Principled BSDF')
+    shader.inputs['Specular IOR Level'].default_value=.32
+    shader.inputs['Coat Weight'].default_value=.20
+    shader.inputs['Coat Roughness'].default_value=.20
+    mat.node_tree.links.new(texture.outputs['Color'],shader.inputs['Base Color'])
+    return mat
+
+
+def facial_surface(head):
+    bpy.context.view_layer.update()
+    evaluated=head.evaluated_get(bpy.context.evaluated_depsgraph_get())
+    tree=BVHTree.FromPolygons([evaluated.matrix_world@v.co for v in evaluated.data.vertices],
+                             [list(p.vertices) for p in evaluated.data.polygons])
+    def sample(y,z,relief=0):
+        hit=tree.ray_cast(Vector((-1,y,z)),Vector((1,0,0)))
+        if hit[0] is None:
+            raise RuntimeError('Facial patch left cranial surface')
+        return (hit[0].x-relief,y,z)
+    return sample
+
+
+def conformal_eye(side,sign,sample,pigment,skin,brown):
+    n, rings = 96,24
+    verts=[sample(sign*.162,.418,.014)]
+    uv=[(.5,.5)]
+    for k in range(1,rings+1):
+        r=k/rings
+        for j in range(n):
+            angle=2*math.pi*j/n
+            u,v=r*math.cos(angle),r*math.sin(angle)
+            verts.append(sample(sign*(.162+.0685*u),.418+.0745*v,
+                                .0008+.0132*(1-r*r)))
+            uv.append(((u+1)/2,(v+1)/2))
+    faces=[(0,1+j,1+(j+1)%n) for j in range(n)]
+    for k in range(rings-1):
+        for j in range(n):
+            a=1+k*n+j;b=1+k*n+(j+1)%n
+            faces.append((a,b,b+n,a+n))
+    obj=mesh('EYE_'+side,verts,faces,pigment)
+    layer=obj.data.uv_layers.new(name='APERTURE_UV')
+    for polygon in obj.data.polygons:
+        for loop in polygon.loop_indices:
+            layer.data[loop].uv=uv[obj.data.loops[loop].vertex_index]
+    obj['architecture']='head-conformal shallow patch; no globe'
+    obj['maximum_relief_H']=.014
+    # A broad, skin-colored transition with a very narrow pigmented inner edge.
+    verts=[]
+    for r,relief in [(1,.0012),(1.025,.0020),(1.065,.0010),(1.13,-.0003)]:
+        for j in range(n):
+            a=2*math.pi*j/n
+            verts.append(sample(sign*(.162+.0685*r*math.cos(a)),
+                                .418+.0745*r*math.sin(a),relief))
+    faces=[]
+    for k in range(3):
+        for j in range(n):
+            a=k*n+j;b=k*n+(j+1)%n
+            faces.append((a,b,b+n,a+n))
+    lid=mesh('EYELID_'+side,verts,faces,skin)
+    lid.data.materials.append(brown)
+    for p in lid.data.polygons:
+        if p.index<n: p.material_index=1
     return obj
 
 
@@ -389,7 +522,7 @@ def attachment_diagnostics():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision', type=int, choices=[9], default=9)
+    parser.add_argument('--revision', type=int, choices=[12], default=12)
     parser.add_argument('--resolution', type=int, default=640)
     options = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     output = TMP / ('revision-'+str(options.revision))
@@ -416,16 +549,16 @@ def main():
     scene.render.threads = 12
     scene['authority'] = 'Four FINAL LOCKED references + CAROL_GEOMETRY_PARAMETERS.md'
     scene['coordinate_contract'] = 'H=1; X front to rear; Y bilateral; Z up; ground Z=0'
-    scene['stage'] = 'BLOCKED_AT_V008_SKIN_FINAL_FIT; selected revision 9; Human Gate PENDING'
+    scene['stage'] = 'BLOCKED_AT_V008_SKIN_IDENTITY_FIT; Human Gate PENDING'
+    scene['selected_revision'] = options.revision
     scene['saved_pose'] = 'NEUTRAL'
     cream = material('DEBUG warm skin',(.83,.67,.55))
     brown = material('DEBUG cocoa',(.19,.075,.039))
     pink = material('DEBUG ear inset',(.64,.23,.20))
-    dark = material('DEBUG eye',(.022,.012,.018),.16)
-    amber = material('DEBUG amber',(.32,.13,.033),.25)
-    white = material('DEBUG glint',(.98,.98,1),.18)
+    pigment = eye_material()
     longitudinal_cage('TORSO_CAGE', TORSO_STATIONS, cream)
-    horizontal_cage('HEAD_CAGE', HEAD_SECTIONS, cream, face=True, n=24)
+    head = horizontal_cage('HEAD_CAGE', HEAD_SECTIONS, cream, face=True, n=64)
+    sample = facial_surface(head)
     longitudinal_cage('SHORT_NECK_SOCKET', SOCKET_STATIONS, cream)
     for side, sign in [('L',1),('R',-1)]:
         for row, control in SUPPORT.items():
@@ -433,24 +566,16 @@ def main():
             limb(row+'_'+side,row,x,y,sign,cream)
             hoof('HOOF_'+row+'_'+side,x,y,brown)
         ear('EAR_'+side,sign,brown,pink)
-        eye = ellipsoid('EYE_'+side,(.104,sign*.162,.398),(.038,.089,.0745),dark)
-        eye.rotation_euler.z = sign*math.radians(-45)
-        rim = []
-        for j in range(65):
-            t = 2*math.pi*j/64
-            rim.append((.104+.063*math.sin(t),sign*(.162+.063*math.sin(t)),.398+.0745*math.cos(t)))
-        tube('EYELID_'+side,rim,.0055,brown)
-        glint = ellipsoid('GLINT_'+side,(.075,sign*.170,.432),(.010,.015,.016),white)
-        glint.rotation_euler = eye.rotation_euler.copy()
-        iris = ellipsoid('IRIS_'+side,(.080,sign*.186,.36),(.006,.029,.020),amber)
-        iris.rotation_euler = eye.rotation_euler.copy()
-    ellipsoid('NOSE',(.011,0,.378),(.017,.0195,.0105),brown)
+        conformal_eye(side,sign,sample,pigment,cream,brown)
+    nose_x=sample(0,.378)[0]-.010
+    ellipsoid('NOSE',(nose_x,0,.378),(.017,.0195,.0105),brown)
     mouth = []
     for j in range(49):
         y = -.0455+.091*j/48
-        mouth.append((.009+.009*(y/.0455)**2,y,.35-.010*math.sin(math.pi*abs(y)/.0455)))
+        z=.35-.010*math.sin(math.pi*abs(y)/.0455)
+        mouth.append(sample(y,z,.002))
     tube('MOUTH_closed',mouth,.0028,brown)
-    tube('PHILTRUM',[(.007,0,.370),(.008,0,.350)],.0025,brown)
+    tube('PHILTRUM',[sample(0,.370,.002),sample(0,.350,.002)],.0025,brown)
     pivot = debug_landmark('TAIL_PIVOT', TAIL['pivot'])
     debug_landmark('DEBUG_HEAD_PIVOT', (.410,0,.370))
     debug_landmark('DEBUG_COM', (.630,0,.255))
@@ -535,15 +660,20 @@ def main():
             min=[min(p[i] for p in coords) for i in range(3)],
             max=[max(p[i] for p in coords) for i in range(3)])
     result = dict(blender=bpy.app.version_string,revision=options.revision,
-        stage='Skin final fit',human_geometry_gate='PENDING; not ready for submission',
-        executor_disposition='BLOCKED_AT_V008_SKIN_FINAL_FIT',
-        selected_geometry_revision=9,skin_revision_render_cycles_completed=6,
-        task_geometry_attempts=[7,8,9],prior_selected_revision=5,
-        baseline_commit='0fb3d38a67763eb87c780c848a8cbbefdf532942',
+        stage='Skin identity reconstruction',human_geometry_gate='PENDING; not ready for submission',
+        executor_disposition='BLOCKED_AT_V008_SKIN_IDENTITY_FIT',
+        selected_geometry_revision=options.revision,
+        task_geometry_attempts=list(range(10,options.revision+1)),prior_selected_revision=9,
+        baseline_commit='0235fbea56766b0edd85970d8f1111f244d96a3e',
         generator_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         reference_hashes=REFERENCE_HASHES,reference_registration=REGISTRATION,
         geometry_digest=neutral_digest,view_geometry_digests=view_digests,
         support_targets=SUPPORT,tail_controls=TAIL,
+        eye_architecture=dict(representation='head-conformal curved aperture + packed UV pigment',
+                              maximum_X_relief_H=.014,front_span_H=[.137,.149],
+                              bilateral_centers_Y_H=[-.162,.162],center_Z_H=.418,
+                              independent_globes=False,production_facial_rig=False),
+        head_controls=HEAD_SECTIONS,
         ear_controls=dict(perimeter=EAR_PERIMETER,inner_lip=EAR_INNER_LIP,
                           root_saddle=EAR_ROOT_SADDLE),meshes=meshes,
         tail_core_rump_X_overlap_H=meshes['TORSO_CAGE']['max'][0]-meshes['SKIN_TAIL_CORE']['min'][0],
@@ -556,8 +686,10 @@ def main():
             'head_tilt_clearance':'Separate disposable +/-5 degree X probes; see motion-clearance.json and visual review',
             'cheek_lean_clearance':'NOT REACHED; neutral Skin gate blocked',
             'ear_clearance':'Separate disposable right-ear +/-8 degree Z root sweeps; see motion-clearance.json and visual review',
-            'com_shift_clearance':'NOT REACHED; neutral contact diagnostics do not prove weight transfer',
-            'fore_support_clearance':'NOT REACHED; buried root and planted neutral geometry only',
+            'gaze_clearance':'Disposable iris-only +/-0.14 horizontal and +/-0.12 vertical UV offsets; see motion-clearance.json',
+            'blink_clearance':'Disposable conformal aperture closure; no production shape key or rig',
+            'com_shift_clearance':'Disposable +/-0.010 H longitudinal body shift and -.004 H settle; hooves fixed, graded limb deformation',
+            'fore_support_clearance':'Included in imposed support-shift probe; not a physical COM or weight-transfer approval',
             'tail_clearance':'Evaluated core/rump surfaces intersect at neutral, +/-20 vertical and +/-7 lateral; visual motion not approved',
             'fleece_regional_clearance':'NOT REACHED; fleece not constructed'},
         saved_pose='NEUTRAL',
@@ -565,10 +697,11 @@ def main():
         voxel_remesh_fleece=False,boolean_ear_recess=False,view_specific_geometry=False,
         normal_skin_identity='Normal not constructed; one neutral underbody only',
         production_rig=False,animation=False,final_retopology=False,
-        limitations=['Ear upper inset fold is marginally softer; narrow Side root is still unresolved.',
-                     'Separate head/chest exterior owners still slide under rigid probes.',
-                     'Proximal support silhouettes remain insufficiently reference-fitted.',
-                     'Skin Side support registration and Skin Front imply different skull heights.',
+        limitations=['Side eye has broad washed-out reflection and less vertical dominance than the locked image; identity still blocked.',
+                     'Hoof cleft/crown improved but Side remains too slab-like and Front overlap remains broad.',
+                     'Head/chest still has separate exterior owners; no continuous articulation solution adopted.',
+                     'Ear root remains narrow/abrupt; revision-9 distal bowl and root are unchanged.',
+                     'Skin Front/Side registered skull/feature heights differ; no per-view correction used.',
                      'Technical diagnostics do not grant Human approval.'])
     (output/'measurements.json').write_text(json.dumps(result,indent=2)+'\n')
     print('V008_BUILD_COMPLETE '+str(output))

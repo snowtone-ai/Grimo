@@ -1,0 +1,114 @@
+{
+  "selected_revision": 12,
+  "reloaded_neutral_digest": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
+  "clean_rebuild_matches_design": true,
+  "reference_hashes_unchanged": true,
+  "registration_unchanged": true,
+  "numerical_checks": {
+    "HOOF_FORE_L": {
+      "width_H": 0.22324343398213387,
+      "height_H": 0.11296687117464899,
+      "min_Z_H": 2.9155698939575814e-05
+    },
+    "HOOF_FORE_R": {
+      "width_H": 0.22324343398213387,
+      "height_H": 0.11296687117464899,
+      "min_Z_H": 2.9155698939575814e-05
+    },
+    "HOOF_HIND_L": {
+      "width_H": 0.22324343025684357,
+      "height_H": 0.11296687117464899,
+      "min_Z_H": 2.9155698939575814e-05
+    },
+    "HOOF_HIND_R": {
+      "width_H": 0.22324343025684357,
+      "height_H": 0.11296687117464899,
+      "min_Z_H": 2.9155698939575814e-05
+    },
+    "EYE_L": {
+      "width_H": 0.13699999451637268,
+      "height_H": 0.14900001883506775,
+      "center_Y_H": 0.16200000047683716,
+      "average_normal": [
+        -0.6945064663887024,
+        0.7009462714195251,
+        0.015091998502612114
+      ]
+    },
+    "EYE_R": {
+      "width_H": 0.13699999451637268,
+      "height_H": 0.14900001883506775,
+      "center_Y_H": -0.16200000047683716,
+      "average_normal": [
+        -0.6946633458137512,
+        -0.700751781463623,
+        0.015020370483398438
+      ]
+    }
+  },
+  "exact_renderable_inventory": [
+    "EAR_L",
+    "EAR_R",
+    "EYELID_L",
+    "EYELID_R",
+    "EYE_L",
+    "EYE_R",
+    "FORE_L",
+    "FORE_R",
+    "HEAD_CAGE",
+    "HIND_L",
+    "HIND_R",
+    "HOOF_FORE_L",
+    "HOOF_FORE_R",
+    "HOOF_HIND_L",
+    "HOOF_HIND_R",
+    "MOUTH_closed",
+    "NOSE",
+    "PHILTRUM",
+    "SHORT_NECK_SOCKET",
+    "SKIN_TAIL_CORE",
+    "TORSO_CAGE"
+  ],
+  "hidden_alternate_body": false,
+  "view_specific_geometry": false,
+  "production_rig": false,
+  "animation": false,
+  "keyframes": false,
+  "boolean_or_remesh": false,
+  "neutral_saved": true,
+  "generator_sha256": "9a8b8306679e54bc66c0613302fcd132bbf8c81fb138da1f4d26817ca8179348",
+  "packed_pigment_sha256": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+  "baseline_records_sha256": "80a2b608f6cd2eab57a0d99dcbb88a72a3ddd48f28754d7a2245227a8ed8aa9b",
+  "changed_objects": [
+    "EYELID_L",
+    "EYELID_R",
+    "EYE_L",
+    "EYE_R",
+    "FORE_L",
+    "FORE_R",
+    "HEAD_CAGE",
+    "HIND_L",
+    "HIND_R",
+    "HOOF_FORE_L",
+    "HOOF_FORE_R",
+    "HOOF_HIND_L",
+    "HOOF_HIND_R",
+    "MOUTH_closed",
+    "NOSE",
+    "PHILTRUM"
+  ],
+  "frozen_objects": [
+    "EAR_L",
+    "EAR_R",
+    "SHORT_NECK_SOCKET",
+    "SKIN_TAIL_CORE",
+    "TORSO_CAGE"
+  ],
+  "removed_objects": [
+    "GLINT_L",
+    "GLINT_R",
+    "IRIS_L",
+    "IRIS_R"
+  ],
+  "added_objects": []
+}
