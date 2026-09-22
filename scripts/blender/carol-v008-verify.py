@@ -28,9 +28,23 @@ def records():
     return json.loads(json.dumps(result))
 
 
+def scene_records():
+    result={}
+    for o in bpy.context.scene.objects:
+        if o.type in {'MESH','CURVE'}: continue
+        result[o.name]=dict(type=o.type,matrix=[list(r) for r in o.matrix_world],
+            hidden=o.hide_render,
+            ortho_scale=o.data.ortho_scale if o.type=='CAMERA' else None,
+            light_energy=o.data.energy if o.type=='LIGHT' else None,
+            light_size=o.data.size if o.type=='LIGHT' else None,
+            registration={k:o.get(k) for k in ('h','ground','origin') if k in o})
+    return json.loads(json.dumps(result))
+
+
 def main():
     p=argparse.ArgumentParser()
     p.add_argument('--baseline-records',type=Path)
+    p.add_argument('--baseline-scene',type=Path)
     p.add_argument('--design-measurements',type=Path)
     args=p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     scene=bpy.context.scene
@@ -86,12 +100,31 @@ def main():
         packed_pigment_sha256=hashlib.sha256(np.array(bpy.data.images['EYE pigment diagnostic packed'].pixels[:],dtype=np.float32).tobytes()).hexdigest())
     if args.baseline_records:
         previous=json.loads(args.baseline_records.read_text())
-        changed=sorted(name for name in set(current)&set(previous) if current[name]!=previous[name])
-        frozen=sorted(name for name in set(current)&set(previous) if current[name]==previous[name])
-        assert {'TORSO_CAGE','SHORT_NECK_SOCKET','SKIN_TAIL_CORE','EAR_L','EAR_R'}<=set(frozen)
+        def geometric_record(record):
+            result=dict(record)
+            # Blender may enumerate identical UV-sphere polygons in a different
+            # order on rebuild; compare connectivity, not polygon enumeration.
+            result['faces']=sorted(tuple(sorted(face)) for face in record['faces'])
+            return result
+        changed=sorted(name for name in set(current)&set(previous)
+                       if geometric_record(current[name])!=geometric_record(previous[name]))
+        frozen=sorted(name for name in set(current)&set(previous)
+                      if geometric_record(current[name])==geometric_record(previous[name]))
+        expected_frozen={'SHORT_NECK_SOCKET','EAR_L','EAR_R','NOSE',
+                         'FORE_L','FORE_R','HIND_L','HIND_R'}
+        assert expected_frozen<=set(frozen), sorted(expected_frozen-set(frozen))
+        assert {'TORSO_CAGE','HEAD_CAGE','MOUTH_closed','PHILTRUM','SKIN_TAIL_CORE',
+                'HOOF_FORE_L','HOOF_FORE_R','HOOF_HIND_L','HOOF_HIND_R'}<=set(changed)
         result.update(baseline_records_sha256=hashlib.sha256(args.baseline_records.read_bytes()).hexdigest(),
                       changed_objects=changed,frozen_objects=frozen,
                       removed_objects=sorted(set(previous)-set(current)),added_objects=sorted(set(current)-set(previous)))
+    if args.baseline_scene:
+        assert scene_records()==json.loads(args.baseline_scene.read_text())
+        result['camera_light_landmark_reference_records_unchanged']=True
+        result['baseline_scene_sha256']=hashlib.sha256(args.baseline_scene.read_bytes()).hexdigest()
+    baseline_validation=ROOT/'docs/production/carol/evidence/reconstruction-v008/baseline-revision-12/validation.json'
+    assert result['packed_pigment_sha256']==json.loads(baseline_validation.read_text())['packed_pigment_sha256']
+    result['packed_pigment_unchanged']=True
     (output/'validation.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 

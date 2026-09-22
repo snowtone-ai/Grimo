@@ -1,6 +1,6 @@
 """Skin gate comparisons; uses frozen registration exported by the build.
 
-python scripts/blender/carol-v008-evidence.py --revision 12
+python scripts/blender/carol-v008-evidence.py --revision 14
 Final/Normal packets are intentionally unavailable before the Skin gate.
 """
 import argparse
@@ -64,15 +64,44 @@ def face_detail(rows,path):
     sheet.save(path)
 
 
+def human_fit_sheet(data, baseline, directory):
+    """One seven-row review; every column in a row uses the same camera crop."""
+    width, height = 420, 214
+    rows = [
+        ('Full Skin Front', 'front', (25,200,600,550)),
+        ('Full Skin Side', 'side', (25,200,600,550)),
+        ('Front face', 'front', (170,225,470,445)),
+        ('Side face', 'side', (30,225,330,445)),
+        ('Front hooves', 'front', (155,465,485,545)),
+        ('Side hooves', 'side', (125,465,495,545)),
+        ('Side tail', 'side', (420,305,535,430)),
+    ]
+    sheet=Image.new('RGB',(4*width,len(rows)*height),'#f1f0f4')
+    draw=ImageDraw.Draw(sheet)
+    for r,(title,view,crop) in enumerate(rows):
+        key='skin-'+view
+        current=Image.open(directory/(key+'.png')).convert('RGBA')
+        reference=registered(data['reference_registration'][key],current.width)
+        prior=Image.open(baseline/(key+'.png')).convert('RGBA')
+        overlay=Image.blend(background(reference),background(current),.5)
+        for c,(label,im) in enumerate([('LOCKED',reference),('revision 12',prior),
+                                        ('revision 14',current),('50% overlay',overlay)]):
+            x,y=c*width,r*height
+            draw.text((x+8,y+6),title+' | '+label,fill='#242137')
+            panel=background(im).crop(crop)
+            panel.thumbnail((width-16,height-30),Image.Resampling.LANCZOS)
+            sheet.paste(panel,(x+(width-panel.width)//2,y+27+(height-30-panel.height)//2))
+    sheet.save(directory/'skin-human-fit-review.png')
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision',type=int,choices=[10,11,12],default=12)
+    parser.add_argument('--revision',type=int,choices=[14],default=14)
     parser.add_argument('--publish-blocked',action='store_true',
                         help='Copy selected Skin evidence only; never implies a Human submission.')
     parser.add_argument('--baseline-directory',type=Path,
-                        default=ROOT/'docs/production/carol/evidence/reconstruction-v008/baseline-revision-9',
+                        default=ROOT/'docs/production/carol/evidence/reconstruction-v008/baseline-revision-12',
                         help='Prior pushed evidence for an explicitly labelled before/after sheet.')
-    parser.add_argument('--include-clearance',action='store_true')
     args = parser.parse_args()
     directory = ROOT/'tmp-carol-v008'/('revision-'+str(args.revision))
     data = json.loads((directory/'measurements.json').read_text())
@@ -109,30 +138,8 @@ def main():
                 (view+' | 50% overlay',directory/(key+'-overlay.png'))])
         comparison_sheet(rows,directory/'skin-before-after.png')
         face_detail(rows,directory/'skin-face-detail.png')
-        extra.extend(['skin-before-after.png','skin-face-detail.png'])
-    if args.include_clearance:
-        probes = ROOT/'tmp-carol-v008/clearance-selected'
-        report = json.loads((probes/'motion-clearance.json').read_text())
-        assert report['neutral_geometry_digest'] == data['geometry_digest']
-        for kind,value,unit in [('head-yaw',8,'deg'),('head-pitch',6,'deg'),('head-roll',5,'deg'),
-                                ('ear-sweep',8,'deg'),('gaze-horizontal',.14,'UV'),
-                                ('gaze-vertical',.12,'UV'),('support-shift',.010,'H')]:
-            rows = []
-            for view in ['front','side']:
-                rows.append([
-                    (view+' | neutral',directory/('skin-'+view+'.png')),
-                    (view+' | '+kind+' -'+str(value)+' '+unit,probes/(kind+'-minus-'+view+'.png')),
-                    (view+' | '+kind+' +'+str(value)+' '+unit,probes/(kind+'-plus-'+view+'.png'))])
-            filename = 'clearance-'+kind+'.png'
-            comparison_sheet(rows,directory/filename)
-            extra.append(filename)
-        rows=[[(view+' | neutral',directory/('skin-'+view+'.png')),
-               (view+' | closed endpoint only',probes/('blink-closed-'+view+'.png'))]
-              for view in ['front','side']]
-        comparison_sheet(rows,directory/'clearance-blink.png')
-        extra.append('clearance-blink.png')
-        shutil.copy2(probes/'motion-clearance.json',directory/'motion-clearance.json')
-        extra.append('motion-clearance.json')
+        human_fit_sheet(data,args.baseline_directory,directory)
+        extra.extend(['skin-before-after.png','skin-face-detail.png','skin-human-fit-review.png'])
     if args.publish_blocked:
         if data.get('executor_disposition') not in {'BLOCKED_AT_V008_SKIN_REVISION_GATE',
                                                     'BLOCKED_AT_V008_SKIN_FINAL_FIT',

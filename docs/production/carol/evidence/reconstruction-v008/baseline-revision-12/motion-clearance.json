@@ -1,0 +1,412 @@
+{
+  "neutral_geometry_digest": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
+  "selected_revision": 12,
+  "method": "Disposable rigid head/ear transforms, iris pigment offsets, conformal blink endpoint and graded support shift. No rig.",
+  "diagnostic_script_sha256": "fdbfdb3241b7fe997e3dd271f5b2140b4000f49d723bb22fa0a9a0368cd02815",
+  "cases": [
+    {
+      "name": "head-yaw-minus",
+      "part": "head",
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "f7f66356ed3f51d7c14c2f97ae05d6fb3249a85f5c4d79a2ecb88827ec5a54a9",
+        "side": "f7f66356ed3f51d7c14c2f97ae05d6fb3249a85f5c4d79a2ecb88827ec5a54a9"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": -8,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ]
+    },
+    {
+      "name": "head-yaw-plus",
+      "part": "head",
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "441bb561b321d2ee6ff016cc27410963bf40de9d24cb1fb4dde2c69ddb14a11b",
+        "side": "441bb561b321d2ee6ff016cc27410963bf40de9d24cb1fb4dde2c69ddb14a11b"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": 8,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ]
+    },
+    {
+      "name": "head-pitch-minus",
+      "part": "head",
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "b98f777b9703db6df09e3a8ac214212a14e4f5d525960f77b9504d5383fdc38f",
+        "side": "b98f777b9703db6df09e3a8ac214212a14e4f5d525960f77b9504d5383fdc38f"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": -6,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ]
+    },
+    {
+      "name": "head-pitch-plus",
+      "part": "head",
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "82bc7330f5fc2683be283baf6d65eb5b885aa695aae7221a1156ce57acbcebc2",
+        "side": "82bc7330f5fc2683be283baf6d65eb5b885aa695aae7221a1156ce57acbcebc2"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": 6,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ]
+    },
+    {
+      "name": "head-roll-minus",
+      "part": "head",
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "602128ade8c9d1f99abdd8d40f3ebad12a2379366d15c9ba70ed133d9102b950",
+        "side": "602128ade8c9d1f99abdd8d40f3ebad12a2379366d15c9ba70ed133d9102b950"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": -5,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ]
+    },
+    {
+      "name": "head-roll-plus",
+      "part": "head",
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "5f02e080734f41d7b42d8e56c105a05efe76f438bcfa00cc384f9929d695735b",
+        "side": "5f02e080734f41d7b42d8e56c105a05efe76f438bcfa00cc384f9929d695735b"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": 5,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ]
+    },
+    {
+      "name": "ear-sweep-minus",
+      "part": "ear",
+      "objects": [
+        "EAR_R"
+      ],
+      "view_geometry_digests": {
+        "front": "acc905477885fb62e5fd3f3fcf75b0b65994c9a07796a016f0845e53c267f4ca",
+        "side": "acc905477885fb62e5fd3f3fcf75b0b65994c9a07796a016f0845e53c267f4ca"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": -8,
+      "pivot": [
+        0.3970000147819519,
+        -0.22100000083446503,
+        0.5649999976158142
+      ]
+    },
+    {
+      "name": "ear-sweep-plus",
+      "part": "ear",
+      "objects": [
+        "EAR_R"
+      ],
+      "view_geometry_digests": {
+        "front": "a4290008a7b279b4ba6409ec087d095b1f15ed536edbdac60023e4e069f33ef5",
+        "side": "a4290008a7b279b4ba6409ec087d095b1f15ed536edbdac60023e4e069f33ef5"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "degrees": 8,
+      "pivot": [
+        0.3970000147819519,
+        -0.22100000083446503,
+        0.5649999976158142
+      ]
+    },
+    {
+      "name": "gaze-horizontal-minus",
+      "part": "gaze",
+      "objects": [
+        "EYE_L",
+        "EYE_R"
+      ],
+      "view_geometry_digests": {
+        "front": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
+        "side": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d"
+      },
+      "pigment_digest": "d1ca5a04428b5606f4fd68e0372a209e1f187b2954492c3b3a1905747d8f90f3",
+      "neutral_restored": true,
+      "iris_UV_offset": [
+        -0.14,
+        0
+      ],
+      "aperture_unchanged": true,
+      "limitation": "Bilateral shared pigment tests attention range, not convergent target tracking."
+    },
+    {
+      "name": "gaze-horizontal-plus",
+      "part": "gaze",
+      "objects": [
+        "EYE_L",
+        "EYE_R"
+      ],
+      "view_geometry_digests": {
+        "front": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
+        "side": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d"
+      },
+      "pigment_digest": "aa8857ab409d5377f4b0d94369b1f1cdfb5a09766ed76b0466a13c300891b521",
+      "neutral_restored": true,
+      "iris_UV_offset": [
+        0.14,
+        0
+      ],
+      "aperture_unchanged": true,
+      "limitation": "Bilateral shared pigment tests attention range, not convergent target tracking."
+    },
+    {
+      "name": "gaze-vertical-minus",
+      "part": "gaze",
+      "objects": [
+        "EYE_L",
+        "EYE_R"
+      ],
+      "view_geometry_digests": {
+        "front": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
+        "side": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d"
+      },
+      "pigment_digest": "621fd508caaca4a1f877b53288ebb13923ee57d1004e3745ddd49d5c9e5237aa",
+      "neutral_restored": true,
+      "iris_UV_offset": [
+        0,
+        -0.12
+      ],
+      "aperture_unchanged": true,
+      "limitation": "Bilateral shared pigment tests attention range, not convergent target tracking."
+    },
+    {
+      "name": "gaze-vertical-plus",
+      "part": "gaze",
+      "objects": [
+        "EYE_L",
+        "EYE_R"
+      ],
+      "view_geometry_digests": {
+        "front": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
+        "side": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d"
+      },
+      "pigment_digest": "af0e0eaf59bd6e9cccc8270c8939a875f5e7e6af6a94323aeae8e598838b7ecf",
+      "neutral_restored": true,
+      "iris_UV_offset": [
+        0,
+        0.12
+      ],
+      "aperture_unchanged": true,
+      "limitation": "Bilateral shared pigment tests attention range, not convergent target tracking."
+    },
+    {
+      "name": "blink-closed",
+      "part": "blink",
+      "objects": [
+        "EYE_L",
+        "EYELID_L",
+        "EYE_R",
+        "EYELID_R"
+      ],
+      "view_geometry_digests": {
+        "front": "b9f82df36ab003e3649043af75e8f8dc8b60aa4740fba612af796ebcc3b9e28a",
+        "side": "b9f82df36ab003e3649043af75e8f8dc8b60aa4740fba612af796ebcc3b9e28a"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "method": "Compress conformal aperture to a shallow curved closed line; underlying skull remains present.",
+      "limitation": "Closed endpoint only; eyelid tissue travel and intermediate blink are not validated."
+    },
+    {
+      "name": "support-shift-minus",
+      "part": "support",
+      "objects": [
+        "TORSO_CAGE",
+        "HEAD_CAGE",
+        "SHORT_NECK_SOCKET",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "SKIN_TAIL_CORE",
+        "NOSE",
+        "FORE_L",
+        "HIND_L",
+        "FORE_R",
+        "HIND_R"
+      ],
+      "view_geometry_digests": {
+        "front": "ea2bcf8f41d94f6a3eea7a81734b49b76ec2508ab29315c4564cf23c47eb98d8",
+        "side": "ea2bcf8f41d94f6a3eea7a81734b49b76ec2508ab29315c4564cf23c47eb98d8"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "body_shift_H": [
+        -0.01,
+        0,
+        -0.004
+      ],
+      "planted_hooves": [
+        "HOOF_FORE_L",
+        "HOOF_HIND_L",
+        "HOOF_FORE_R",
+        "HOOF_HIND_R"
+      ],
+      "limitation": "Imposed support deformation; not a mass-weighted COM simulation.",
+      "evaluated_hoof_min_Z_H": {
+        "HOOF_FORE_L": 2.9155698939575814e-05,
+        "HOOF_HIND_L": 2.9155698939575814e-05,
+        "HOOF_FORE_R": 2.9155698939575814e-05,
+        "HOOF_HIND_R": 2.9155698939575814e-05
+      }
+    },
+    {
+      "name": "support-shift-plus",
+      "part": "support",
+      "objects": [
+        "TORSO_CAGE",
+        "HEAD_CAGE",
+        "SHORT_NECK_SOCKET",
+        "EAR_L",
+        "EYE_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYE_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "SKIN_TAIL_CORE",
+        "NOSE",
+        "FORE_L",
+        "HIND_L",
+        "FORE_R",
+        "HIND_R"
+      ],
+      "view_geometry_digests": {
+        "front": "5c8360447e8ed7a360040f98759a044dcaaa307954dfc00cb337542fa53cffe1",
+        "side": "5c8360447e8ed7a360040f98759a044dcaaa307954dfc00cb337542fa53cffe1"
+      },
+      "pigment_digest": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
+      "neutral_restored": true,
+      "body_shift_H": [
+        0.01,
+        0,
+        -0.004
+      ],
+      "planted_hooves": [
+        "HOOF_FORE_L",
+        "HOOF_HIND_L",
+        "HOOF_FORE_R",
+        "HOOF_HIND_R"
+      ],
+      "limitation": "Imposed support deformation; not a mass-weighted COM simulation.",
+      "evaluated_hoof_min_Z_H": {
+        "HOOF_FORE_L": 2.9155698939575814e-05,
+        "HOOF_HIND_L": 2.9155698939575814e-05,
+        "HOOF_FORE_R": 2.9155698939575814e-05,
+        "HOOF_HIND_R": 2.9155698939575814e-05
+      }
+    }
+  ],
+  "exact_neutral_restored": true,
+  "neutral_pigment_restored": true,
+  "asset_file_unchanged": true,
+  "production_poses_saved": false,
+  "automatic_motion_pass": false,
+  "interpretation": "Rejection probes only. Read image sheets and README findings; no Human or motion PASS."
+}

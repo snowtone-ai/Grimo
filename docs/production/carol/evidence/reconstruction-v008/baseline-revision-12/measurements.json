@@ -1,17 +1,18 @@
 {
   "blender": "5.2.1 LTS",
-  "revision": 14,
+  "revision": 12,
   "stage": "Skin identity reconstruction",
   "human_geometry_gate": "PENDING; not ready for submission",
   "executor_disposition": "BLOCKED_AT_V008_SKIN_IDENTITY_FIT",
-  "selected_geometry_revision": 14,
+  "selected_geometry_revision": 12,
   "task_geometry_attempts": [
-    13,
-    14
+    10,
+    11,
+    12
   ],
-  "prior_selected_revision": 12,
-  "baseline_commit": "4c3e55b6f37f5491bf20a9bf95bbe6ea0b42ed3e",
-  "generator_sha256": "66e36766ccb9975491f8d74abd28b7cd3e2567dec94f8134553581eee54cb688",
+  "prior_selected_revision": 9,
+  "baseline_commit": "0235fbea56766b0edd85970d8f1111f244d96a3e",
+  "generator_sha256": "9a8b8306679e54bc66c0613302fcd132bbf8c81fb138da1f4d26817ca8179348",
   "reference_hashes": {
     "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
     "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
@@ -48,10 +49,10 @@
       "view": "side"
     }
   },
-  "geometry_digest": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb",
+  "geometry_digest": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
   "view_geometry_digests": {
-    "front": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb",
-    "side": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb"
+    "front": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d",
+    "side": "a189086ab4f2414a38c020db3f478539d5e95e330dd486f17ab0be6dc534212d"
   },
   "support_targets": {
     "FORE": {
@@ -75,206 +76,6 @@
     "diameter": 0.095,
     "angle_degrees": 20
   },
-  "human_fit": {
-    "torso": {
-      "stations": [
-        [
-          "chest",
-          0.24,
-          0.215,
-          0.35,
-          0.07,
-          1.0
-        ],
-        [
-          "chest",
-          0.28,
-          0.158,
-          0.414,
-          0.176,
-          0.9
-        ],
-        [
-          "chest",
-          0.365,
-          0.118,
-          0.458,
-          0.248,
-          0.9
-        ],
-        [
-          "chest",
-          0.45,
-          0.103,
-          0.44,
-          0.284,
-          0.9
-        ],
-        [
-          "abdomen",
-          0.575,
-          0.089,
-          0.414,
-          0.303,
-          0.9
-        ],
-        [
-          "abdomen",
-          0.73,
-          0.092,
-          0.41,
-          0.305,
-          0.9
-        ],
-        [
-          "pelvis_rump",
-          0.865,
-          0.102,
-          0.417,
-          0.3,
-          0.85
-        ],
-        [
-          "pelvis_rump",
-          0.98,
-          0.145,
-          0.392,
-          0.248,
-          0.85
-        ],
-        [
-          "pelvis_rump",
-          1.043,
-          0.228,
-          0.357,
-          0.125,
-          1.0
-        ],
-        [
-          "pelvis_rump",
-          1.052,
-          0.28,
-          0.307,
-          0.03,
-          1.0
-        ]
-      ],
-      "maximum_evaluated_width_H": 0.5940419435501099,
-      "central_control_vertical_thickness_H": {
-        "x_0_575": 0.32499999999999996,
-        "x_0_730": 0.31799999999999995
-      },
-      "central_control_maximum_width_H": 0.61,
-      "evaluated_bbox": {
-        "control_vertices": 160,
-        "control_faces": 158,
-        "all_quads": true,
-        "modifiers": [
-          "SUBSURF"
-        ],
-        "min": [
-          0.24046014249324799,
-          -0.29702097177505493,
-          0.0946725457906723
-        ],
-        "max": [
-          1.0518964529037476,
-          0.29702097177505493,
-          0.44530147314071655
-        ]
-      },
-      "intersection_ratios_vs_revision_12": {
-        "HEAD_CAGE": 0.9900990099009901,
-        "FORE_L": 1.0491803278688525,
-        "FORE_R": 1.0491803278688525,
-        "HIND_L": 1.046875,
-        "HIND_R": 1.046875
-      }
-    },
-    "lower_face": {
-      "half_width_Y_H": {
-        "0.235": 0.07,
-        "0.248": 0.173,
-        "0.272": 0.256,
-        "0.315": 0.3
-      }
-    },
-    "mouth": {
-      "width_H": 0.091,
-      "base_Z_H": 0.3542,
-      "curve_depth_H": 0.0065,
-      "minimum_Z_H": 0.3477,
-      "mean_curve_Z_H": 0.35015221077658265
-    },
-    "hoof": {
-      "toe_lobe_count": 3,
-      "cleft_count": 2,
-      "evaluated_width_H": 0.21738478913903236,
-      "evaluated_height_H": 0.11198387225431361,
-      "evaluated_depth_X_H": 0.1885358989238739,
-      "evaluated_min_Z_H": 1.3605455933429766e-05,
-      "front_extent_H": 0.10416276693344118,
-      "rear_extent_H": 0.08437313199043273,
-      "cleft_centers_local_Y_H": [
-        -0.0365,
-        0.0365
-      ],
-      "max_cleft_depth_H": 0.011,
-      "sole_continuous": true,
-      "support_centers_unchanged": true
-    },
-    "tail": {
-      "pivot": [
-        0.985,
-        0,
-        0.355
-      ],
-      "center_X_H": 1.032,
-      "nominal_length_H": 0.085,
-      "nominal_diameter_H": 0.095,
-      "evaluated_bbox": {
-        "control_vertices": 108,
-        "control_faces": 106,
-        "all_quads": true,
-        "modifiers": [
-          "SUBSURF"
-        ],
-        "min": [
-          0.989601194858551,
-          -0.04442339390516281,
-          0.3105766475200653
-        ],
-        "max": [
-          1.0743988752365112,
-          0.04442339390516281,
-          0.39942339062690735
-        ]
-      },
-      "evaluated_spans_XYZ_H": [
-        0.0847976803779602,
-        0.08884678781032562,
-        0.08884674310684204
-      ],
-      "X_Z_aspect": 0.9544264360482785,
-      "motion_contact_result": {
-        "neutral": {
-          "surface_intersection_pairs": 110
-        },
-        "up_20": {
-          "surface_intersection_pairs": 97
-        },
-        "down_20": {
-          "surface_intersection_pairs": 134
-        },
-        "lateral_L_7": {
-          "surface_intersection_pairs": 110
-        },
-        "lateral_R_7": {
-          "surface_intersection_pairs": 110
-        }
-      }
-    }
-  },
   "eye_architecture": {
     "representation": "head-conformal curved aperture + packed UV pigment",
     "maximum_X_relief_H": 0.014,
@@ -295,25 +96,25 @@
       0.235,
       0.285,
       0.04,
-      0.07
+      0.065
     ],
     [
       0.248,
       0.266,
       0.145,
-      0.173
+      0.165
     ],
     [
       0.272,
       0.26,
       0.212,
-      0.256
+      0.248
     ],
     [
       0.315,
       0.266,
       0.247,
-      0.3
+      0.297
     ],
     [
       0.34,
@@ -585,13 +386,13 @@
       ],
       "min": [
         0.24046014249324799,
-        -0.29702097177505493,
-        0.0946725457906723
+        -0.30963340401649475,
+        0.08810879290103912
       ],
       "max": [
         1.0518964529037476,
-        0.29702097177505493,
-        0.44530147314071655
+        0.30963340401649475,
+        0.45356133580207825
       ]
     },
     "HEAD_CAGE": {
@@ -602,13 +403,13 @@
         "SUBSURF"
       ],
       "min": [
-        0.008356059901416302,
-        -0.3030952513217926,
+        0.008355730213224888,
+        -0.303087443113327,
         0.2408246099948883
       ],
       "max": [
         0.5811284780502319,
-        0.3030952513217926,
+        0.303087443113327,
         0.7029792666435242
       ]
     },
@@ -649,21 +450,21 @@
       ]
     },
     "HOOF_FORE_L": {
-      "control_vertices": 864,
-      "control_faces": 862,
+      "control_vertices": 432,
+      "control_faces": 430,
       "all_quads": true,
       "modifiers": [
         "SUBSURF"
       ],
       "min": [
-        0.28583723306655884,
-        0.03630762919783592,
-        1.3605455933429766e-05
+        0.29253220558166504,
+        0.03337828442454338,
+        2.9155698939575814e-05
       ],
       "max": [
-        0.47437313199043274,
-        0.2536924183368683,
-        0.11199747771024704
+        0.4939763844013214,
+        0.25662171840667725,
+        0.11299602687358856
       ]
     },
     "HIND_L": {
@@ -685,21 +486,21 @@
       ]
     },
     "HOOF_HIND_L": {
-      "control_vertices": 864,
-      "control_faces": 862,
+      "control_vertices": 432,
+      "control_faces": 430,
       "all_quads": true,
       "modifiers": [
         "SUBSURF"
       ],
       "min": [
-        0.8158372640609741,
-        0.13630764186382294,
-        1.3605455933429766e-05
+        0.8225322961807251,
+        0.1333783119916916,
+        2.9155698939575814e-05
       ],
       "max": [
-        1.0043731927871704,
-        0.3536924421787262,
-        0.11199747771024704
+        1.0239765644073486,
+        0.35662174224853516,
+        0.11299602687358856
       ]
     },
     "EAR_L": {
@@ -771,21 +572,21 @@
       ]
     },
     "HOOF_FORE_R": {
-      "control_vertices": 864,
-      "control_faces": 862,
+      "control_vertices": 432,
+      "control_faces": 430,
       "all_quads": true,
       "modifiers": [
         "SUBSURF"
       ],
       "min": [
-        0.28583723306655884,
-        -0.2536924183368683,
-        1.3605455933429766e-05
+        0.29253220558166504,
+        -0.25662171840667725,
+        2.9155698939575814e-05
       ],
       "max": [
-        0.47437313199043274,
-        -0.03630762919783592,
-        0.11199747771024704
+        0.4939763844013214,
+        -0.03337828442454338,
+        0.11299602687358856
       ]
     },
     "HIND_R": {
@@ -807,21 +608,21 @@
       ]
     },
     "HOOF_HIND_R": {
-      "control_vertices": 864,
-      "control_faces": 862,
+      "control_vertices": 432,
+      "control_faces": 430,
       "all_quads": true,
       "modifiers": [
         "SUBSURF"
       ],
       "min": [
-        0.8158372640609741,
-        -0.3536924421787262,
-        1.3605455933429766e-05
+        0.8225322961807251,
+        -0.35662174224853516,
+        2.9155698939575814e-05
       ],
       "max": [
-        1.0043731927871704,
-        -0.13630764186382294,
-        0.11199747771024704
+        1.0239765644073486,
+        -0.1333783119916916,
+        0.11299602687358856
       ]
     },
     "EAR_R": {
@@ -875,21 +676,21 @@
       ]
     },
     "SKIN_TAIL_CORE": {
-      "control_vertices": 108,
-      "control_faces": 106,
+      "control_vertices": 72,
+      "control_faces": 70,
       "all_quads": true,
       "modifiers": [
         "SUBSURF"
       ],
       "min": [
-        0.989601194858551,
-        -0.04442339390516281,
-        0.3105766475200653
+        0.9896323680877686,
+        -0.04609524458646774,
+        0.3064440190792084
       ],
       "max": [
-        1.0743988752365112,
-        0.04442339390516281,
-        0.39942339062690735
+        1.0743677616119385,
+        0.04609524458646774,
+        0.40355604887008667
       ]
     },
     "NOSE": {
@@ -909,7 +710,7 @@
       ]
     }
   },
-  "tail_core_rump_X_overlap_H": 0.06229525804519653,
+  "tail_core_rump_X_overlap_H": 0.062264084815979004,
   "tail_fleece_shell": "NOT CONSTRUCTED; Skin gate prerequisite",
   "debug_landmarks": {
     "TAIL_PIVOT": [
@@ -977,49 +778,52 @@
     "method": "Evaluated mesh BVH surface intersections; virtual tail pivot transforms; no scene changes.",
     "tail_pivot_probes": {
       "neutral": {
-        "surface_intersection_pairs": 110
+        "surface_intersection_pairs": 92
       },
       "up_20": {
-        "surface_intersection_pairs": 97
+        "surface_intersection_pairs": 81
       },
       "down_20": {
-        "surface_intersection_pairs": 134
+        "surface_intersection_pairs": 98
       },
       "lateral_L_7": {
-        "surface_intersection_pairs": 110
+        "surface_intersection_pairs": 92
       },
       "lateral_R_7": {
-        "surface_intersection_pairs": 110
+        "surface_intersection_pairs": 92
       }
     },
     "neutral_torso_contacts": {
       "HEAD_CAGE": {
-        "torso_surface_intersection_pairs": 400
+        "torso_surface_intersection_pairs": 404
       },
       "FORE_L": {
-        "torso_surface_intersection_pairs": 128
+        "torso_surface_intersection_pairs": 122
       },
       "FORE_R": {
-        "torso_surface_intersection_pairs": 128
+        "torso_surface_intersection_pairs": 122
       },
       "HIND_L": {
-        "torso_surface_intersection_pairs": 134
+        "torso_surface_intersection_pairs": 128
       },
       "HIND_R": {
-        "torso_surface_intersection_pairs": 134
+        "torso_surface_intersection_pairs": 128
       }
     },
     "interpretation": "Contact diagnostic only. Pair counts do not measure penetration quality or grant clearance.",
     "visual_motion_clearance": "Separate disposable visual probes: carol-v008-clearance.py; no automatic PASS"
   },
   "motion_clearance": {
-    "status": "NOT_RUN_STATIC_GATE_BLOCKED",
-    "head_yaw_pitch": "NOT RUN on revision 14",
-    "blink": "NOT RUN on revision 14",
-    "support_shift": "NOT RUN on revision 14",
-    "tail_visual": "NOT RUN on revision 14; virtual surface intersections only",
-    "ear_gaze_roll": "NOT RUN; frozen area and no selected valid static candidate",
+    "head_yaw_clearance": "Separate disposable +/-8 degree Z probes; see motion-clearance.json and visual review",
+    "head_pitch_clearance": "Separate disposable +/-6 degree Y probes; see motion-clearance.json and visual review",
+    "head_tilt_clearance": "Separate disposable +/-5 degree X probes; see motion-clearance.json and visual review",
     "cheek_lean_clearance": "NOT REACHED; neutral Skin gate blocked",
+    "ear_clearance": "Separate disposable right-ear +/-8 degree Z root sweeps; see motion-clearance.json and visual review",
+    "gaze_clearance": "Disposable iris-only +/-0.14 horizontal and +/-0.12 vertical UV offsets; see motion-clearance.json",
+    "blink_clearance": "Disposable conformal aperture closure; no production shape key or rig",
+    "com_shift_clearance": "Disposable +/-0.010 H longitudinal body shift and -.004 H settle; hooves fixed, graded limb deformation",
+    "fore_support_clearance": "Included in imposed support-shift probe; not a physical COM or weight-transfer approval",
+    "tail_clearance": "Evaluated core/rump surfaces intersect at neutral, +/-20 vertical and +/-7 lateral; visual motion not approved",
     "fleece_regional_clearance": "NOT REACHED; fleece not constructed"
   },
   "saved_pose": "NEUTRAL",
@@ -1032,8 +836,8 @@
   "animation": false,
   "final_retopology": false,
   "limitations": [
-    "Side eye has broad washed-out reflection and less vertical dominance than the locked image.",
-    "Three hoof clefts exist in one mesh but remain weak in the rendered Front; tire read persists.",
+    "Side eye has broad washed-out reflection and less vertical dominance than the locked image; identity still blocked.",
+    "Hoof cleft/crown improved but Side remains too slab-like and Front overlap remains broad.",
     "Head/chest still has separate exterior owners; no continuous articulation solution adopted.",
     "Ear root remains narrow/abrupt; revision-9 distal bowl and root are unchanged.",
     "Skin Front/Side registered skull/feature heights differ; no per-view correction used.",

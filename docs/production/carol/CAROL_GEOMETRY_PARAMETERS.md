@@ -422,6 +422,15 @@ Interpretation:
 
 **Status:** LOCKED
 
+### Hoof toe architecture — HUMAN LOCK 2026-09-22
+
+Each hoof has exactly **three rounded toe lobes** and exactly **two shallow
+clefts** in one continuous stylized hoof mass. The same single 3D toe
+architecture serves every view; camera projection may naturally hide part of
+one lobe. Per-view toe-count changes and detached toe objects are prohibited.
+Independent toe articulation is not required for MVP. Existing hoof width,
+height and support locks remain unchanged.
+
 ## 7.8 Front crown / fleece structure
 
 The approved Front locks the following readable hierarchy:
