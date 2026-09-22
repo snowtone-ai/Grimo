@@ -343,7 +343,9 @@
     "euler_characteristic": 2,
     "nonmanifold_edges": 0,
     "all_quads": true,
-    "evaluated_disjoint_face_intersection_pairs": 455
+    "evaluated_disjoint_face_intersection_pairs": 455,
+    "connected_components": 1,
+    "control_disjoint_face_intersection_pairs": 116
   },
   "frozen_objects": {
     "EAR_L": true,
@@ -393,5 +395,17 @@
     "architecture_implementation": "A1",
     "one_bounded_correction": "A2",
     "integrated_correction": "NOT_REACHED"
+  },
+  "phase_a_recovery": {
+    "source_commit": "01e19d27519d5731015d553cdae1acc572edf8c9",
+    "selected_candidate": "v009-A2",
+    "retained_asset_byte_identical": true,
+    "status": "BLOCKED_AT_V009_PHASE_A_ARCHITECTURE",
+    "stopped_after": "A4_STRUCTURAL_FAILURE; no A5",
+    "blocker": "Local portal/jaw/chest patch still intersects the head and upper-chest seam; A4 does not establish a clean exterior.",
+    "rejected_proofs": [
+      "phase-a-attempt-3/measurements.json",
+      "phase-a-attempt-4/measurements.json"
+    ]
   }
 }

@@ -10,7 +10,9 @@
     "euler_characteristic": 2,
     "nonmanifold_edges": 0,
     "all_quads": true,
-    "evaluated_disjoint_face_intersection_pairs": 455
+    "evaluated_disjoint_face_intersection_pairs": 455,
+    "connected_components": 1,
+    "control_disjoint_face_intersection_pairs": 116
   },
   "reference_hashes_unchanged": true,
   "reference_registration_unchanged": true,
@@ -71,5 +73,47 @@
   "runtime": false,
   "source_blend_sha256": "6e199ef976e09c1d8b1867c692a84ae65c40a67accff04a75f74bae14392cc1f",
   "retained_blend_sha256": "94b3b38122343024f76107dd69d3fec7cf3e66f91aa290a91287c809524c58fe",
-  "generator_sha256": "141525e091eff73fcd75fb44519782bafc75f310e221efbc1a5e4c6bf209f2b1"
+  "generator_sha256": "141525e091eff73fcd75fb44519782bafc75f310e221efbc1a5e4c6bf209f2b1",
+  "phase_a_recovery": {
+    "source_commit": "01e19d27519d5731015d553cdae1acc572edf8c9",
+    "selected_candidate": "v009-A2",
+    "retained_asset_byte_identical": true,
+    "status": "BLOCKED_AT_V009_PHASE_A_ARCHITECTURE",
+    "stopped_after": "A4_STRUCTURAL_FAILURE; no A5",
+    "attempts": {
+      "A3": {
+        "control_intersections": 114,
+        "evaluated_intersections": 393,
+        "frozen_vertices": false,
+        "frozen_objects": true,
+        "technical_pass": false
+      },
+      "A4": {
+        "control_intersections": 224,
+        "evaluated_intersections": 644,
+        "frozen_vertices": true,
+        "frozen_objects": true,
+        "technical_pass": false
+      }
+    },
+    "blocker": "Local portal/jaw/chest patch still intersects the head and upper-chest seam; A4 does not establish a clean exterior.",
+    "visual_review": "NOT_RUN_TECHNICAL_PREREQUISITE_FAILED",
+    "motion_probe": "NOT_RUN_TECHNICAL_PREREQUISITE_FAILED"
+  },
+  "recovery_final_reload": {
+    "geometry_digest": "865ce56cc7200a4437f326315355f8f622d04e424f5d855ac75258382f1b9c2a",
+    "blend_sha256": "94b3b38122343024f76107dd69d3fec7cf3e66f91aa290a91287c809524c58fe",
+    "byte_identical_to_start": true,
+    "topology": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "all_quads": true,
+      "euler": 2
+    },
+    "control_intersections": 116,
+    "evaluated_intersections": 455,
+    "reference_hashes_unchanged": true,
+    "reference_registration_unchanged": true,
+    "frozen_constraints": "PASS; retained asset byte-identical"
+  }
 }

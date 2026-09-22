@@ -12,6 +12,17 @@ This file is the single mutable Carol execution truth.
 - Executor-recorded static visual status: **FAIL**.
 - Motion preflight: **NOT_RUN_STATIC_PREREQUISITE_FAILED**.
 
+## Bounded Phase A recovery — A3 / A4
+
+- Starting HEAD: `01e19d27519d5731015d553cdae1acc572edf8c9`.
+- A3 replaced the global transition with a head-owned jaw closure, posterior underside portal, three interior neck rows, and a local dorsal chest portal. Its existing 64 head sectors were retained to avoid reduction poles under the jaw.
+- A3: one component, closed all-quads, Euler `2`; control / evaluated intersections **114 / 393**. Frozen objects passed; frozen seam coordinates failed. Rejected before visual rendering.
+- A4 made the bounded jaw-curvature, portal-seating, and frozen-seam correction. One component, closed all-quads, Euler `2`; control / evaluated intersections **224 / 644**. Frozen coordinates and objects passed. Rejected for structural failure; **no A5**.
+- Exact remaining blocker: the local portal/jaw/chest patch still intersects the head and upper-chest seam. A clean exterior and motion clearance are not established.
+- The retained `v009-A2` blend is **byte-identical to the starting asset**. Its existing comparison images remain A2 evidence; no rejected attempt was promoted or rendered as final evidence.
+- Recovery visual checks and deformation probes: **NOT RUN — technical prerequisite failed**. Human Geometry Gate remains **PENDING HUMAN REVIEW**; Phase B/C remain **not started**.
+- Cheap numerical proofs: `evidence/reconstruction-v009/phase-a-attempt-3/` and `phase-a-attempt-4/`. Further geometry work requires a new planner handoff.
+
 ## Current v009-A2 architecture
 
 - The current v009 exterior architecture is one authored `CENTRAL_CHASSIS` mesh. The old v008 exterior-owner combination is not current v009 architecture.
@@ -52,4 +63,4 @@ The following is historical v008 context only and is not current v009 production
 
 ## Next handoff
 
-**CHATGPT_PLANNER / HUMAN GEOMETRY REVIEW / Phase-A architecture correction.** Review the [v009 blocked comparison sheet](evidence/reconstruction-v009/human-comparison.png). Do not self-approve the Human Geometry Gate, start Phase B/C, or advance to fleece.
+**CHATGPT_PLANNER — Phase-A recovery blocked after A4.** Review the local intersection proofs and the retained [A2 comparison sheet](evidence/reconstruction-v009/human-comparison.png). Do not self-approve the Human Geometry Gate, start Phase B/C, or advance to fleece.
