@@ -1,0 +1,75 @@
+{
+  "candidate": "v009-A2",
+  "technical_status": "RECORDED; visual failure takes precedence",
+  "reloaded_neutral_digest": "865ce56cc7200a4437f326315355f8f622d04e424f5d855ac75258382f1b9c2a",
+  "build_digest_matches": true,
+  "central_topology": {
+    "vertices": 1232,
+    "edges": 2460,
+    "faces": 1230,
+    "euler_characteristic": 2,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "evaluated_disjoint_face_intersection_pairs": 455
+  },
+  "reference_hashes_unchanged": true,
+  "reference_registration_unchanged": true,
+  "frozen_objects": {
+    "EAR_L": true,
+    "EAR_R": true,
+    "FORE_L": true,
+    "FORE_R": true,
+    "HIND_L": true,
+    "HIND_R": true,
+    "HOOF_FORE_L": true,
+    "HOOF_FORE_R": true,
+    "HOOF_HIND_L": true,
+    "HOOF_HIND_R": true,
+    "SKIN_TAIL_CORE": true,
+    "TAIL_PIVOT": true,
+    "CAM front": true,
+    "CAM side": true
+  },
+  "torso_control_vertices_from_X_0575_exact": true,
+  "torso_evaluated_width_H": 0.5985711216926575,
+  "eyes": {
+    "EYE_L": {
+      "width_H": 0.13699999451637268,
+      "height_H": 0.14900001883506775,
+      "center_Y_H": 0.16200000047683716,
+      "depth_X_H": 0.10311566293239594
+    },
+    "EYE_R": {
+      "width_H": 0.13699999451637268,
+      "height_H": 0.14900001883506775,
+      "center_Y_H": -0.16200000047683716,
+      "depth_X_H": 0.10314597934484482
+    }
+  },
+  "packed_pigment_sha256": "4dd56441912bd5a0d163e4bb3caff440eab21157e226ed01361f1bf072d907ad",
+  "support_centers_H": {
+    "FORE": 0.39,
+    "HIND": 0.92,
+    "spacing": 0.53
+  },
+  "human_geometry_gate": "PENDING HUMAN REVIEW",
+  "static_visual_status": "FAIL",
+  "motion_preflight": "NOT_RUN_STATIC_PREREQUISITE_FAILED",
+  "blockers": [
+    "Phase A failed: lower cheek retains a hard shelf instead of a rounded jaw.",
+    "Continuous neck/chest loft stretches the under-chin surface; softness and very short transition are not established.",
+    "Evaluated central chassis has non-adjacent face intersections; a watertight control cage is not a clean exterior.",
+    "Side and 3Q face/eye identity still do not materially match the locked Skin references.",
+    "Ear reconstruction was not started: temporary v008 ears retain the rejected root and Top rod collapse.",
+    "Hoof reconstruction was not started: temporary v008 hooves retain the rejected tire-like 3Q form.",
+    "No internally valid integrated static candidate; motion readiness is unproven."
+  ],
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb_export": false,
+  "runtime": false,
+  "source_blend_sha256": "6e199ef976e09c1d8b1867c692a84ae65c40a67accff04a75f74bae14392cc1f",
+  "retained_blend_sha256": "94b3b38122343024f76107dd69d3fec7cf3e66f91aa290a91287c809524c58fe",
+  "generator_sha256": "141525e091eff73fcd75fb44519782bafc75f310e221efbc1a5e4c6bf209f2b1"
+}
