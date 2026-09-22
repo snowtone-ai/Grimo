@@ -1,11 +1,11 @@
-> Current Carol checkpoint (2026-09-17): v006 is paused at the user request, geometry FAIL / Human Gate PENDING. B is retired. The v005 A/B selection described below is historical. Follow [the v006 evidence and handoff](/docs/production/carol/evidence/reconstruction-v006/README.md) and /prompt.md for the current state. Single agent only; resume modeling only when requested.
+> Current Carol checkpoint (2026-09-22): v007 is the current zero-based geometry candidate. **HUMAN Geometry Gate = FAIL.** v005 and v006 are historical / superseded and must not be read as current state. Follow [`CAROL_PRODUCTION_STATE.md`](../production/carol/CAROL_PRODUCTION_STATE.md) and the [v007 evidence packet](../production/carol/evidence/reconstruction-v007/README.md). Next: v008 Geometry revision, then Human Geometry Gate re-review.
 
 # Grimo — Current Project Memory
 
-**Snapshot:** 2026-09-16
+**Snapshot:** 2026-09-22
 **Repository:** `snowtone-ai/Grimo`
-**Authoritative working branch:** `codex/carol-zero-based-hero-geometry-v005`
-**Snapshot base commit:** `4957470d0cbf9dfa2021c0f7bf7c59cee1809ec0`
+**Authoritative working branch:** `codex/carol-final-reconstruction-v007`
+**Snapshot HEAD:** `1131f48c4ebf16bb11fac4b1c590fff13c2cff58`
 
 This file is the compact durable memory for agents entering the project without prior chat context. It records current decisions and routing; detailed evidence remains in the linked specifications and production records.
 
@@ -46,18 +46,17 @@ Identity canonical must not be used to overwrite concrete depth/thickness/volume
 
 ## 3. Current Carol production state
 
-Current work is **Carol v005 A/B method comparison** on `codex/carol-zero-based-hero-geometry-v005`.
+The current production state is defined by [`CAROL_PRODUCTION_STATE.md`](../production/carol/CAROL_PRODUCTION_STATE.md) and the [v007 evidence packet](../production/carol/evidence/reconstruction-v007/README.md). Current work is **Carol v007 zero-based motion-capability geometry candidate** on `codex/carol-final-reconstruction-v007`.
 
-- **A — zero-based full-volume attempt:** `assets/grimo/production/carol/blender/carol-a-v005.blend`
-- **B — historical-mesh deformation experiment:** `assets/grimo/production/carol/blender/carol-b-v005.blend`
-- **Recovered historical source:** `assets/grimo/source/carol/historical/carol-15bfa8e-reference.glb`
-- **Review packet:** `docs/production/carol/evidence/hero-geometry-v005/README.md`
+- **v007 candidate:** `assets/grimo/production/carol/blender/carol-v007.blend`
+- **v007 generator:** `scripts/blender/build-carol-v007.py`
+- **v007 evidence:** `docs/production/carol/evidence/reconstruction-v007/README.md`
 
-Neither A nor B is approved hero geometry. Agent visual recommendation is **FAIL for both**; Human comparison is **PENDING**.
+v007 is **NOT ACCEPTED**. **HUMAN Geometry Gate = FAIL.** The candidate remains a geometry revision target; its technical checks and motion-readiness diagnostics do not establish production approval.
 
-Known A issues include unresolved fleece/face/ear geometry and missing motifs. Known B issues include side stretching, intersections and lack of independent four legs. The recovered historical GLB is not proven to be the exact binary previously accepted by the user.
+Next engineering step is **v008 Geometry revision**, followed by **Human Geometry Gate re-review**.
 
-B is the only explicitly authorized exception to the zero-based rule: it may reuse/deform the recovered historical mesh and preserve its UV/paint while evaluating whether the previously liked look can be retained. This exception does not make B approved.
+The v005 A/B comparison and v006 reconstruction are **historical / superseded** evidence only. They are not current production state and must not be used to infer the next handoff.
 
 ## 4. Gate history and what is NOT authorized
 
@@ -65,9 +64,11 @@ B is the only explicitly authorized exception to the zero-based rule: it may reu
 - v001: **CONDITIONAL PASS** structurally; external visual quality was judged very poor and did not authorize rigging.
 - v003: explicit Human **FAIL**.
 - v004: no Human approval recorded; supporting agent assessment remained FAIL for full convergence.
-- v005 A/B: **Human comparison pending**.
+- v005 A/B: **historical / superseded**; not current state.
+- v006: **historical / superseded**; not current state.
+- v007: **HUMAN Geometry Gate = FAIL**.
 
-Until a Human explicitly approves a hero geometry direction, do **not** treat any current model as final and do not advance automatically to:
+Until the v008 revision passes a new Human Geometry Gate, do **not** treat any current model as final and do **not** advance to:
 
 - rigging or topology lock;
 - production animation;
@@ -103,6 +104,6 @@ These are conceptual constraints only; neither is implemented as a runtime state
 
 ## 8. Knowledge routing
 
-Use `docs/grimo/knowledge/README.md` as the authority index and `docs/repo-map.md` as the repository map. Current execution/gate truth lives in `docs/production/carol/CAROL_PRODUCTION_STATE.md`; detailed v005 evidence lives in `docs/production/carol/evidence/hero-geometry-v005/`.
+Use `docs/grimo/knowledge/README.md` as the authority index and `docs/repo-map.md` as the repository map. Current execution/gate truth lives in `docs/production/carol/CAROL_PRODUCTION_STATE.md`; current evidence lives in `docs/production/carol/evidence/reconstruction-v007/`. v005 and v006 evidence are historical / superseded.
 
 Research evidence informs decisions but never silently overrides a newer explicit Human decision or a current Carol production contract. `docs/archive/obsolete-2_5d/` is historical only.
