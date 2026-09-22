@@ -1,24 +1,11 @@
 # Carol geometry decision
 
-> Current instruction (2026-09-22): zero-based reconstruction from the four
-> FINAL / LOCKED Normal Front, Normal Side, Skin Front and Skin Side references
-> plus `CAROL_GEOMETRY_PARAMETERS.md`. The current candidate is **v007,
-> NOT ACCEPTED / technical CONDITIONAL / HUMAN GEOMETRY GATE AWAITING REVIEW**.
-> Back/Top/3Q are derived from that one model; old six-view/v006 geometry is
-> historical, not a fitting target. See [v007 evidence](evidence/reconstruction-v007/README.md).
-> Next handoff: **HUMAN**. No production promotion, rigging or export.
+> Stable decision: the four FINAL / LOCKED Normal Front, Normal Side, Skin Front
+> and Skin Side references plus `CAROL_GEOMETRY_PARAMETERS.md` produce one
+> model; Back/Top/3Q are derived from it. Current candidate and gate truth live
+> only in [`CAROL_PRODUCTION_STATE.md`](CAROL_PRODUCTION_STATE.md).
 
-## Previous v006 instruction and result
-
-> Previous instruction (2026-09-17): actual six-view structural correction;
-> A supplies macro direction only, B is retired, historical geometry is not reused.
-> Previous candidate: **v006 pass 05 / iteration 27, NOT ACCEPTED**. Independent
-> organs and fleece construction were revised; cameras and approved sources
-> remain fixed. Supporting topology is closed, while visual hierarchy and
-> reference correspondence remain unresolved. See [the evidence packet](evidence/reconstruction-v006/README.md).
-> Next handoff: **HUMAN**. No production promotion, rigging or export.
-
-## Historical records — superseded where they conflict with the instruction above
+## Historical decision record
 
 
 > Latest scope update (2026-09-16): v005 A/B method comparison is recorded in

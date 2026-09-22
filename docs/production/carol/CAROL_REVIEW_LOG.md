@@ -2,6 +2,17 @@
 
 Durable chronological record of geometry and production Human Gates. Do not pre-populate reviews.
 
+### 2026-09-22 — v007 Human Geometry Gate
+
+- Reviewer: Human / user
+- Result: **FAIL**
+- Production method: retained — four FINAL / LOCKED references plus
+  `CAROL_GEOMETRY_PARAMETERS.md` produce one model with derived Back / Top / 3Q.
+- Main geometry failures: Skin Side long body; incorrect head/body transition;
+  incorrect fore/rear leg placement; long tail root; Normal Side helmet-like
+  fleece; incorrect ear recess; incorrect flank massing.
+- Follow-up: **v008 Geometry revision → Human Geometry Gate**.
+
 ### 2026-09-17 — v006 structural correction, iterations 20–27
 
 - Reviewer: Agent supporting comparison; Human review has not occurred.

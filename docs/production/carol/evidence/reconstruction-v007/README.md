@@ -2,9 +2,20 @@
 
 **TECHNICAL GEOMETRY CHECK: CONDITIONAL**
 
-**HUMAN GEOMETRY GATE: AWAITING REVIEW**
+**HUMAN GEOMETRY GATE: FAIL**
 
-**NOT ACCEPTED FOR PRODUCTION. Next handoff: HUMAN.**
+**NOT ACCEPTED FOR PRODUCTION. Human failure reasons are recorded below.**
+
+Human failure reasons:
+
+- Skin Side: body too long; head/body transition incorrect; front/rear leg
+  placement incorrect; tail root too long.
+- Normal Side: helmet-like fleece; ear recess incorrect; flank massing
+  incorrect.
+
+Technical checks remain supporting evidence only and cannot override Human
+FAIL. The next production step is v008 Geometry revision followed by Human
+Geometry Gate re-review.
 
 This is a zero-based, editable Blender reconstruction, not a production rig or
 an approved replacement for Carol. It provides a concrete geometry proposal

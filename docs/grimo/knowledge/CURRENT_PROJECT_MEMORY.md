@@ -1,109 +1,58 @@
-> Current Carol checkpoint (2026-09-22): v007 is the current zero-based geometry candidate. **HUMAN Geometry Gate = FAIL.** v005 and v006 are historical / superseded and must not be read as current state. Follow [`CAROL_PRODUCTION_STATE.md`](../production/carol/CAROL_PRODUCTION_STATE.md) and the [v007 evidence packet](../production/carol/evidence/reconstruction-v007/README.md). Next: v008 Geometry revision, then Human Geometry Gate re-review.
-
 # Grimo — Current Project Memory
 
-**Snapshot:** 2026-09-22
-**Repository:** `snowtone-ai/Grimo`
-**Authoritative working branch:** `codex/carol-final-reconstruction-v007`
-**Snapshot HEAD:** `1131f48c4ebf16bb11fac4b1c590fff13c2cff58`
+This file contains durable decisions and routing only. Mutable Carol candidate,
+Human Gate, evidence, blockers, and next-step facts belong exclusively to
+[`CAROL_PRODUCTION_STATE.md`](../production/carol/CAROL_PRODUCTION_STATE.md).
 
-This file is the compact durable memory for agents entering the project without prior chat context. It records current decisions and routing; detailed evidence remains in the linked specifications and production records.
+## Durable product and architecture decisions
 
-## 1. Stable product and architecture decisions
+- Grimo is a smartphone-first PWA with four fixed main areas: Task, Calendar,
+  Grimo, and Collection.
+- The character architecture is Full 3D + Blender-centered production +
+  GLB/glTF + PlayCanvas runtime. Archived PixiJS/2D/2.5D material is not
+  current architecture.
+- Carol is the first vertical slice; the remaining canonical identities follow
+  only after the pipeline is validated.
+- Human Gates govern visual identity, geometry, motion quality, and promotion.
+  Technical checks and evidence cannot override a Human decision.
 
-- Grimo is a smartphone-first PWA with four fixed main areas: Task, Calendar, Grimo, Collection.
-- Current character architecture is **Full 3D + Blender-centered production + GLB/glTF + PlayCanvas runtime**. The old PixiJS / 2D / 2.5D implementation direction is obsolete and non-authoritative.
-- Carol is the first vertical-slice character. Jill, Pino, and Shushu follow only after Carol validates the pipeline.
-- The interaction quality bar is a living companion: independent body-part motion, attention, touch causality, intentional stillness, autonomous initiative, interruption, settling and emotional afterglow. Whole-image squash/stretch animation is prohibited.
-- App/runtime product behavior is governed by the product/data specs; character experience by the Motion Bible; generic 3D production by the Blender Production Bible; Carol-specific motion by `CAROL_MVP_MOTION_SPEC.md`.
+## Carol authority and routing
 
-## 2. Carol visual and geometry authority
+Current Carol production truth:
+`docs/production/carol/CAROL_PRODUCTION_STATE.md`
 
-### Visible identity authority
+Current-version evidence: follow the evidence path named by
+`CAROL_PRODUCTION_STATE.md`.
 
-`assets/grimo/source/carol/carol-Identity-canonical.png`
+Geometry authority:
+`assets/grimo/source/carol/approved-3d/authority.json` and
+`docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md`.
 
-Use it for Carol's identity, palette, motifs, appeal, perceived softness/age, and the sacred recognizable front presentation.
+The current authority is four FINAL / LOCKED Normal Front, Normal Side, Skin
+Front, and Skin Side references plus the parameter contract, producing one
+model from which Back / Top / 3Q are derived. Do not promote derived views,
+historical evidence, or generated assets into authority.
 
-### Highest concrete 3D geometry authority
+## Mandatory Phase Tool Preflight
 
-`assets/grimo/source/carol/approved-3d/authority.json`
+Before any materially new Grimo production phase or task class, ChatGPT Planner
+must audit the latest pushed GitHub state and the actual Codex environment
+before substantive work begins. The audit must cover the current state and
+evidence, relevant contracts, `.codex/config.toml`, available repository
+Skills, and applicable `codex mcp list`, `codex plugin list`, `codex plugin
+marketplace list`, and `codex features list` results.
 
-The six approved individual production views are the highest authority for concrete Carol geometry, volume, proportion, depth and part placement:
+For each relevant tool, MCP, plugin, or Skill, evaluate phase relevance,
+quality gain, context/token cost, selection noise, side-effect risk,
+reproducibility, and whether built-in shell or repository scripts are better.
+Choose the minimum sufficient toolset for that phase; do not preserve or disable
+tools by habit.
 
-1. `carol-front-ortho-transparent.png`
-2. `carol-side-ortho-transparent.png`
-3. `carol-back-ortho-transparent.png`
-4. `carol-top-plan-transparent.png`
-5. `carol-front-3q-left.png`
-6. `carol-front-3q-right.png`
+ChatGPT Planner must then issue a dedicated Codex Luna configuration prompt
+before the production prompt. Use project-scoped configuration where supported,
+disable unused MCP servers/tools by their actual discovered IDs, avoid global
+uninstall when project scope is sufficient, and restart/stop before production
+if configuration changes require reload. Re-audit at every phase transition;
+the current geometry toolset is not permanent.
 
-Side and both 3/4 views must be read with Front. Never infer a flattened face from Front alone. The 3/4 images explicitly constrain facial depth, muzzle/cheek/forehead volume, eye-to-face depth, ear roots, fleece-to-face ordering, body depth, limb fore/aft placement, and overall fleece volume.
-
-`carol-3d-production-canonical-sheet.png` is supplementary; if it conflicts with an approved individual view, the individual view wins for concrete geometry.
-
-Identity canonical must not be used to overwrite concrete depth/thickness/volume/part placement already established by these approved views. Conversely, geometry work must preserve Carol's visible identity and appeal rather than using the geometry packet as permission to redesign her.
-
-## 3. Current Carol production state
-
-The current production state is defined by [`CAROL_PRODUCTION_STATE.md`](../production/carol/CAROL_PRODUCTION_STATE.md) and the [v007 evidence packet](../production/carol/evidence/reconstruction-v007/README.md). Current work is **Carol v007 zero-based motion-capability geometry candidate** on `codex/carol-final-reconstruction-v007`.
-
-- **v007 candidate:** `assets/grimo/production/carol/blender/carol-v007.blend`
-- **v007 generator:** `scripts/blender/build-carol-v007.py`
-- **v007 evidence:** `docs/production/carol/evidence/reconstruction-v007/README.md`
-
-v007 is **NOT ACCEPTED**. **HUMAN Geometry Gate = FAIL.** The candidate remains a geometry revision target; its technical checks and motion-readiness diagnostics do not establish production approval.
-
-Next engineering step is **v008 Geometry revision**, followed by **Human Geometry Gate re-review**.
-
-The v005 A/B comparison and v006 reconstruction are **historical / superseded** evidence only. They are not current production state and must not be used to infer the next handoff.
-
-## 4. Gate history and what is NOT authorized
-
-- Initial geometry interpretation: **CONDITIONAL PASS**.
-- v001: **CONDITIONAL PASS** structurally; external visual quality was judged very poor and did not authorize rigging.
-- v003: explicit Human **FAIL**.
-- v004: no Human approval recorded; supporting agent assessment remained FAIL for full convergence.
-- v005 A/B: **historical / superseded**; not current state.
-- v006: **historical / superseded**; not current state.
-- v007: **HUMAN Geometry Gate = FAIL**.
-
-Until the v008 revision passes a new Human Geometry Gate, do **not** treat any current model as final and do **not** advance to:
-
-- rigging or topology lock;
-- production animation;
-- final UV/material/shader lock;
-- production GLB export;
-- PlayCanvas runtime integration;
-- main merge.
-
-## 5. Current human decision
-
-The immediate decision is not “is Carol finished?” It is:
-
-> Which construction direction should survive into the next hero-geometry iteration: A, B, a hybrid derived from their strengths, or neither?
-
-Review the raw recovered source as well as A and B before deciding. The v005 packet uses common cameras and five-view comparison evidence. A has fuller volume; B preserves more of the historical painted identity. Neither currently satisfies the approved full-3D target.
-
-## 6. Presentation architecture already decided
-
-Two future presentation states are part of the production concept:
-
-- **Full Companion State:** whole body visible in a low quadruped posture; Carol may turn, walk, show three-quarter and back views. Front is a presentation reference, not an orientation lock.
-- **Close Window-Lean State:** Carol later approaches and leans toward the interaction viewport, with face, upper fleece and forehooves prominent. This requires preserved rear support, independent forelimbs and deformable front fleece regions.
-
-These are conceptual constraints only; neither is implemented as a runtime state yet.
-
-## 7. Camera status
-
-- Perspective is the current practical review candidate.
-- Orthographic views remain structural-comparison evidence.
-- Final production projection/framing remains unresolved.
-- Geometry must not be distorted merely to hit portrait occupancy numbers.
-- Partner Eevee camera/framing research now exists under `docs/grimo/knowledge/research/camera-framing/` and is research evidence, not permission to alter approved character geometry.
-
-## 8. Knowledge routing
-
-Use `docs/grimo/knowledge/README.md` as the authority index and `docs/repo-map.md` as the repository map. Current execution/gate truth lives in `docs/production/carol/CAROL_PRODUCTION_STATE.md`; current evidence lives in `docs/production/carol/evidence/reconstruction-v007/`. v005 and v006 evidence are historical / superseded.
-
-Research evidence informs decisions but never silently overrides a newer explicit Human decision or a current Carol production contract. `docs/archive/obsolete-2_5d/` is historical only.
+The latest pushed GitHub state is the ChatGPT↔Codex handoff boundary.

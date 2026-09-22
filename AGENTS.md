@@ -57,6 +57,28 @@ toolchain work). Do not routinely read `tasks.md`, `xp.md`, `docs/state.md`,
 Use the short final handoff report: branch, commit, pushed status, validation,
 and next handoff (`CHATGPT_PLANNER`, `CODEX_LUNA`, `CODEX_ASTRA`, or `HUMAN`).
 
+## Current truth and phase routing
+
+- `docs/production/carol/CAROL_PRODUCTION_STATE.md` is the single mutable
+  Carol execution truth. Stale prompts, memory snapshots, maps, contracts, or
+  repository-local Skills must not override it.
+- The latest pushed GitHub state is the ChatGPT↔Codex handoff boundary.
+- Before any materially new production phase or task class, ChatGPT Planner
+  must audit the latest pushed GitHub state and the actual Codex environment,
+  including current state/evidence, relevant contracts, `.codex/config.toml`,
+  available repository Skills, and applicable `codex mcp/plugin/features`
+  inventory commands. It must evaluate phase relevance, quality gain,
+  context/token cost, noise, side effects, reproducibility, and built-in
+  alternatives, then choose the minimum sufficient toolset.
+- Toolset optimization and project-scoped configuration must happen before
+  substantive phase execution. Planner must issue a dedicated Luna
+  configuration prompt first; if reload/restart is required, stop and resume
+  planning only after reload. Re-audit at every phase transition; no fixed
+  permanent phase tool list exists.
+- Repository-local `.agents/skills/` is intentionally not production truth or
+  a required routing layer. Use current task authority and actual framework or
+  tool documentation instead.
+
 ## Targeted verification
 
 Verification is change-based. Do not run tests merely because a task is
