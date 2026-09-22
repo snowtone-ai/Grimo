@@ -12,13 +12,14 @@
 > [the v005 packet](evidence/hero-geometry-v005/README.md). The user explicitly
 > authorized historical mesh deformation for B while preserving zero-based A.
 > Neither is approved hero geometry; the earlier conditional G1–G5 interpretation
-> below is not approval of A or B. Next handoff: HUMAN for method/source comparison.
+> below is not approval of A or B. Handoff recorded at that time: HUMAN for
+> method/source comparison.
 
-> Current milestone (2026-09-16): v001 received Human **CONDITIONAL PASS**, with
+> Historical milestone at 2026-09-16: v001 received Human **CONDITIONAL PASS**, with
 > external/final visual quality approximately **5/100** but useful structural
-> direction. v002 now awaits a new **HUMAN** Gate. The interpretation record
+> direction. At that time, v002 awaited a new **HUMAN** Gate. The interpretation record
 > below remains the historical basis for G1–G5; its no-model statements describe
-> that earlier task. Current artifacts and measurements are in
+> that earlier task. Artifacts and measurements recorded for that task are in
 > [the v002 review packet](evidence/blockout-v002/README.md).
 
 Status: **CONDITIONAL PASS / geometry direction accepted in principle; production not authorized**
@@ -26,7 +27,7 @@ Date: 2026-09-16
 Target / author: CODEX_ASTRA / GPT-6 Astra
 Evidence baseline: `cef0ed0ea4e7aab68e8feda40b121bdfc8601eaf`
 Human Gate: **CONDITIONAL PASS** (2026-09-16; Human Gate / user-approved)
-Current next handoff: **HUMAN** — Structural Blockout v002; no automatic rigging
+Handoff recorded at that time: **HUMAN** — Structural Blockout v002; no automatic rigging
 
 ## 1. Scope and decision status
 
@@ -57,7 +58,7 @@ consistency.
 | ID | Source | Authority / inspected scope |
 |---|---|---|
 | I | [Identity canonical](../../../assets/grimo/source/carol/carol-Identity-canonical.png) | Identity, color, motifs and appeal reference; not a geometry override |
-| A | [authority.json](../../../assets/grimo/source/carol/approved-3d/authority.json) | Schema/version 2; six individual production views are the highest geometry authority |
+| A | [authority.json](../../../assets/grimo/source/carol/approved-3d/authority.json) | Schema/version 2; six individual production views were treated as the highest geometry authority for this historical decision task; superseded for current production by the four FINAL / LOCKED references plus `CAROL_GEOMETRY_PARAMETERS.md` |
 | S | [Production sheet](../../../assets/grimo/source/carol/approved-3d/carol-3d-production-canonical-sheet.png) | Large posed view, small turn views, eye/ear/motif details, gray chassis and partial fleece cutaway |
 | F | [Front reference](../../../assets/grimo/source/carol/approved-3d/carol-front-ortho-transparent.png) | Frontal face, fleece, ears, motifs and visible feet |
 | P | [Side reference](../../../assets/grimo/source/carol/approved-3d/carol-side-ortho-transparent.png) | Face toward image-left; body depth, short feet and rear cloud appendage |
@@ -88,20 +89,25 @@ map.
 
 ### Geometry authority rule
 
-For all Carol 3D geometry, volume, proportion, depth, and part placement, the
-approved individual production views are the highest authority, in the set
-Front / Side / Back / Top / Left 3/4 / Right 3/4. Side and both 3/4 views must
-be consulted with Front when determining the face and body volume; flattening
-the face from Front alone is prohibited. The 3/4 views are formal evidence for
-facial front-to-back thickness, muzzle/cheek/forehead volume, eye-to-face depth,
+For the historical decision task recorded below, the approved individual
+production views were treated as the highest authority, in the set Front / Side
+/ Back / Top / Left 3/4 / Right 3/4. That historical six-view authority is
+superseded for current production by the four FINAL / LOCKED references plus
+`CAROL_GEOMETRY_PARAMETERS.md`, which produce one model and derive Back / Top /
+3Q. The historical task required Side and both 3/4 views to be consulted with
+Front when determining face and body volume; flattening the face from Front
+alone was prohibited. Those views were formal evidence at that time for facial
+front-to-back thickness, muzzle/cheek/forehead volume, eye-to-face depth,
 ear-root/head connection, fleece-to-face ordering, body depth, fore/aft limb
 placement, and total fleece volume.
 
-`carol-Identity-canonical.png` remains an identity, color, motif, and appeal
-reference. It must not be used to reverse-engineer or override concrete 3D
-depth, thickness, volume, or part placement when it conflicts with the six
-approved individual production views. `carol-3d-production-canonical-sheet.png`
-is supplementary and also yields to those six individual views.
+For that historical task, `carol-Identity-canonical.png` remained an identity,
+color, motif, and appeal reference. It was not to be used to reverse-engineer
+or override concrete 3D depth, thickness, volume, or part placement when it
+conflicted with the six then-approved individual production views.
+`carol-3d-production-canonical-sheet.png` was supplementary and also yielded
+to those six views. These statements describe that historical evidence model;
+they do not replace the current four-reference authority.
 
 ## 3. Canonical observations and sacred identity
 
@@ -276,7 +282,7 @@ these blanks into permission to guess.
 | Approved 3/4 reference | S posed/turn views directly viewed; source evidence only |
 | Approved side/back/top references | P/B/T directly viewed; orientation/consistency limits recorded |
 | New matched canonical/front capture | **Not produced**; no model or calibrated camera |
-| New 3/4, side and back captures | The approved individual views in `authority.json` are the current geometry authority; do not replace them with Identity-canonical-derived shape assumptions. |
+| New 3/4, side and back captures | At the time of this record, the approved individual views in `authority.json` were the geometry authority for the task; that historical six-view authority is superseded for current production by the four FINAL / LOCKED references plus `CAROL_GEOMETRY_PARAMETERS.md`. |
 | New isolated silhouette capture | **Not produced**; observations use reference outlines |
 | New clay capture | **Not produced**; S's gray chassis diagram is not our model or a passing clay render |
 | Deformation / animation / runtime evidence | **Not produced**, outside this task |
@@ -310,17 +316,18 @@ closed connected design volume; face, ears, supports and true rear tuft remain
 distinct structural parts. Dimensions are now measured in arbitrary Blender
 units in the v002 validation manifest, not asserted as source-image truth.
 
-The current Human architecture allows **Full Companion** to turn/show its back
+At that historical point, the Human architecture allowed **Full Companion** to turn/show its back
 while the camera remains the front-facing reference. **Close Window-Lean** is a
 future approach/rear-weight-shift/forebody-lift pose with front hooves near/on
 the lower viewport boundary. These clarify orientation and capability; they do
 not change G1 into an upright default or authorize motion implementation.
 
-U1–U6 remain relevant approval limits, especially posed-to-neutral identity,
+U1–U6 remain relevant approval limits in that historical record, especially posed-to-neutral identity,
 lobe correspondence and hidden motif mapping. U7 has a concrete neutral
 four-support proposal and a limited coordinate-only lift estimate, not a tested
 COM/deformation envelope. U8's absence-of-blockout premise is historical; v001
-and v002 now exist, while production projection/portrait framing remain open.
+and v002 existed in that historical record, while production projection/portrait
+framing remained open.
 U9 remains a later motion-specification issue.
 
 ## 15. V004 canonical-trace recovery — 2026-09-16
