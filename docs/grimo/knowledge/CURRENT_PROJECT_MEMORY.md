@@ -56,3 +56,16 @@ if configuration changes require reload. Re-audit at every phase transition;
 the current geometry toolset is not permanent.
 
 The latest pushed GitHub state is the ChatGPT↔Codex handoff boundary.
+
+## Assumption Expansion / Unseen-Option Search
+
+ChatGPT Planner must not treat user-listed options or assumptions as the limit
+of the search space. Before an important design, technical, or workflow choice,
+it must compare relevant unseen options: simpler or higher-quality methods,
+lower-token approaches, ways to remove an assumption, built-in alternatives to
+external tools, approaches that reduce later work, and ways to eliminate root
+failure modes. Explicit constraints remain binding; exploration must stay
+scoped, must not halt work merely because another option exists, and must favor
+current GitHub truth and verifiable evidence. This applies to Mandatory Phase
+Tool Preflight: optimize for the actual problem space's quality, token
+efficiency, and reliability, not only the user's initially visible options.

@@ -37,5 +37,6 @@ front-facing camera reference does not lock character orientation.
 The future Close Window-Lean state requires rear weight-bearing support,
 independently movable front limbs, forebody lift and readable face/upper fleece
 above forehooves near/on the bottom viewport edge. Keep the neutral geometry
-compatible with this possibility; do not pose, rig or animate it in v002.
+compatible with this possibility. Whether to proceed to posing, rigging, or
+animation is decided by `CAROL_PRODUCTION_STATE.md` at the relevant phase.
 The fleece is a design volume, not a rigid armor shell for future deformation.

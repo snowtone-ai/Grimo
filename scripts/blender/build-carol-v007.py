@@ -41,7 +41,7 @@ scene.world.color = (0.4, 0.4, 0.4)
 scene.render.threads_mode = 'FIXED'
 scene.render.threads = 12
 scene['authority'] = 'FOUR FINAL LOCKED references + CAROL_GEOMETRY_PARAMETERS.md'
-scene['human_geometry_gate'] = 'AWAITING REVIEW'
+scene['production_state_source'] = 'docs/production/carol/CAROL_PRODUCTION_STATE.md'
 scene['stage'] = args.stage
 scene['coordinate_contract'] = 'X front to rear; Y bilateral; Z up; ground Z=0; H=1'
 
