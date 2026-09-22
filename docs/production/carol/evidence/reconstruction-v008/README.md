@@ -14,7 +14,8 @@ Human FAIL.
 
 - Branch: `codex/carol-final-reconstruction-v008`.
 - Base: `d5bacf212eef6dd141f39b2abbf51b40d29a6a53`, fetched from remote v007.
-- Candidate/source/evidence commit: recorded after the candidate commit below.
+- Candidate/source/evidence commit: `d65aba695c24faa037d2372cf7d86e384ea47e11`.
+  The following documentation-only commit records this immutable artifact ID.
 - Asset: `assets/grimo/production/carol/blender/carol-v008.blend`.
 - Generator: `scripts/blender/build-carol-v008.py`.
 - Evidence utility: `scripts/blender/carol-v008-evidence.py`.
