@@ -1,0 +1,244 @@
+{
+  "neutral_geometry_digest": "a5fd36d929b747e48c6558f14a88bf03a536fd5b963f69964075a147be6a4dcb",
+  "selected_revision": 5,
+  "method": "Rigid disposable head assembly and independent right-ear root rotations; no skinning.",
+  "diagnostic_script_sha256": "43d78d38530bc005940a648887d6768feda5495d2a439da5ba336a44f4a549f3",
+  "head_pivot_scope": "Head, face and both ears; torso/socket/support/tail stay neutral.",
+  "cases": [
+    {
+      "name": "head-yaw-minus",
+      "part": "head",
+      "axis": "Z",
+      "degrees": -8,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ],
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "EYE_L",
+        "GLINT_L",
+        "IRIS_L",
+        "EYE_R",
+        "GLINT_R",
+        "IRIS_R",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "3a4e7bb5dc4c946d2fcb178b0c54316f6849523f34cb0a93863ff09dc69ad003",
+        "side": "3a4e7bb5dc4c946d2fcb178b0c54316f6849523f34cb0a93863ff09dc69ad003"
+      },
+      "neutral_restored": true
+    },
+    {
+      "name": "head-yaw-plus",
+      "part": "head",
+      "axis": "Z",
+      "degrees": 8,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ],
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "EYE_L",
+        "GLINT_L",
+        "IRIS_L",
+        "EYE_R",
+        "GLINT_R",
+        "IRIS_R",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "d6c08aac3c46024c05d196f41574c1c87563b796ca7ad81d5650d82bed64bb29",
+        "side": "d6c08aac3c46024c05d196f41574c1c87563b796ca7ad81d5650d82bed64bb29"
+      },
+      "neutral_restored": true
+    },
+    {
+      "name": "head-pitch-minus",
+      "part": "head",
+      "axis": "Y",
+      "degrees": -6,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ],
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "EYE_L",
+        "GLINT_L",
+        "IRIS_L",
+        "EYE_R",
+        "GLINT_R",
+        "IRIS_R",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "d587f87c2eef0091ebb66af8cc970459e636f69f8f3587d8ddfc7edd718330e4",
+        "side": "d587f87c2eef0091ebb66af8cc970459e636f69f8f3587d8ddfc7edd718330e4"
+      },
+      "neutral_restored": true
+    },
+    {
+      "name": "head-pitch-plus",
+      "part": "head",
+      "axis": "Y",
+      "degrees": 6,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ],
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "EYE_L",
+        "GLINT_L",
+        "IRIS_L",
+        "EYE_R",
+        "GLINT_R",
+        "IRIS_R",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "9bff553fd69b235d0f1b53872d14762ab28099afe11363cb484791c0fcbf2a40",
+        "side": "9bff553fd69b235d0f1b53872d14762ab28099afe11363cb484791c0fcbf2a40"
+      },
+      "neutral_restored": true
+    },
+    {
+      "name": "head-roll-minus",
+      "part": "head",
+      "axis": "X",
+      "degrees": -5,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ],
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "EYE_L",
+        "GLINT_L",
+        "IRIS_L",
+        "EYE_R",
+        "GLINT_R",
+        "IRIS_R",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "0d7c6a217bcd20d1ad0b7754c4a30a5d2b6e8645f993aac5188e9521454f2ff8",
+        "side": "0d7c6a217bcd20d1ad0b7754c4a30a5d2b6e8645f993aac5188e9521454f2ff8"
+      },
+      "neutral_restored": true
+    },
+    {
+      "name": "head-roll-plus",
+      "part": "head",
+      "axis": "X",
+      "degrees": 5,
+      "pivot": [
+        0.4099999964237213,
+        0.0,
+        0.3700000047683716
+      ],
+      "objects": [
+        "HEAD_CAGE",
+        "EAR_L",
+        "EYELID_L",
+        "EAR_R",
+        "EYELID_R",
+        "MOUTH_closed",
+        "PHILTRUM",
+        "EYE_L",
+        "GLINT_L",
+        "IRIS_L",
+        "EYE_R",
+        "GLINT_R",
+        "IRIS_R",
+        "NOSE"
+      ],
+      "view_geometry_digests": {
+        "front": "0b46a058fd122c101a01d8877ee09778b96113325333d60fe15546e9907a3f93",
+        "side": "0b46a058fd122c101a01d8877ee09778b96113325333d60fe15546e9907a3f93"
+      },
+      "neutral_restored": true
+    },
+    {
+      "name": "ear-sweep-minus",
+      "part": "ear",
+      "axis": "Z",
+      "degrees": -8,
+      "pivot": [
+        0.3970000147819519,
+        -0.22100000083446503,
+        0.5649999976158142
+      ],
+      "objects": [
+        "EAR_R"
+      ],
+      "view_geometry_digests": {
+        "front": "f8073e6eb01ee0bcc927332fe6b089d64c6b86f03e69d22c8574851043c95598",
+        "side": "f8073e6eb01ee0bcc927332fe6b089d64c6b86f03e69d22c8574851043c95598"
+      },
+      "neutral_restored": true
+    },
+    {
+      "name": "ear-sweep-plus",
+      "part": "ear",
+      "axis": "Z",
+      "degrees": 8,
+      "pivot": [
+        0.3970000147819519,
+        -0.22100000083446503,
+        0.5649999976158142
+      ],
+      "objects": [
+        "EAR_R"
+      ],
+      "view_geometry_digests": {
+        "front": "1d092c11702289937a9fca93e2ab5eaa5622a54016de7ec8b5cbb97e297735e3",
+        "side": "1d092c11702289937a9fca93e2ab5eaa5622a54016de7ec8b5cbb97e297735e3"
+      },
+      "neutral_restored": true
+    }
+  ],
+  "exact_neutral_restored": true,
+  "asset_file_unchanged": true,
+  "production_poses_saved": false,
+  "automatic_motion_pass": false,
+  "interpretation": "Read the four clearance image sheets and README visual findings. No Human PASS."
+}

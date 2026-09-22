@@ -1,6 +1,6 @@
 """Skin gate comparisons; uses frozen registration exported by the build.
 
-python scripts/blender/carol-v008-evidence.py --revision 2
+python scripts/blender/carol-v008-evidence.py --revision 5
 Final/Normal packets are intentionally unavailable before the Skin gate.
 """
 import argparse
@@ -32,11 +32,32 @@ def registered(reg,size):
         (1/scale,0,-ox/scale,0,1/scale,-oy/scale),resample=Image.Resampling.BICUBIC)
 
 
+def comparison_sheet(rows, path):
+    # Same fixed image-space crop for every diagnostic/before-after panel.
+    # This removes empty framing only; no geometry registration or scaling fit.
+    width,height = 480,316
+    result = Image.new('RGB',(3*width,len(rows)*height),'#f1f0f4')
+    draw = ImageDraw.Draw(result)
+    for r,row in enumerate(rows):
+        for c,(label,im) in enumerate(row):
+            draw.text((c*width+8,r*height+8),label,fill='#242137')
+            if isinstance(im,Path):
+                im = Image.open(im)
+            assert im.size == (640,640), 'Diagnostic crop is defined for 640 px renders'
+            panel = background(im).crop((25,200,600,550))
+            panel = panel.resize((width,292))
+            result.paste(panel,(c*width,r*height+24))
+    result.save(path)
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision',type=int,choices=[1,2,3],default=2)
+    parser.add_argument('--revision',type=int,choices=[4,5,6],default=5)
     parser.add_argument('--publish-blocked',action='store_true',
                         help='Copy selected Skin evidence only; never implies a Human submission.')
+    parser.add_argument('--baseline-directory',type=Path,
+                        help='Prior pushed evidence for an explicitly labelled before/after sheet.')
+    parser.add_argument('--include-clearance',action='store_true')
     args = parser.parse_args()
     directory = ROOT/'tmp-carol-v008'/('revision-'+str(args.revision))
     data = json.loads((directory/'measurements.json').read_text())
@@ -58,13 +79,44 @@ def main():
             draw.text((x+10,y+9),key+' | '+label,fill='#242137')
             sheet.paste(background(image).resize((size,size)),(x,y+32))
     sheet.save(directory/'skin-review-sheet.png')
+    extra = []
+    if args.baseline_directory:
+        prior = json.loads((args.baseline_directory/'measurements.json').read_text())
+        assert prior['reference_registration'] == data['reference_registration']
+        assert prior['reference_hashes'] == data['reference_hashes']
+        rows = []
+        for view in ['front','side']:
+            key = 'skin-'+view
+            rows.append([
+                (view+' | LOCKED',registered(data['reference_registration'][key],640)),
+                (view+' | prior selected '+str(prior['selected_geometry_revision']),args.baseline_directory/(key+'.png')),
+                (view+' | selected '+str(data['selected_geometry_revision']),directory/(key+'.png'))])
+        comparison_sheet(rows,directory/'skin-before-after.png')
+        extra.append('skin-before-after.png')
+    if args.include_clearance:
+        probes = ROOT/'tmp-carol-v008/clearance-selected'
+        report = json.loads((probes/'motion-clearance.json').read_text())
+        assert report['neutral_geometry_digest'] == data['geometry_digest']
+        for kind,degrees in [('head-yaw',8),('head-pitch',6),('head-roll',5),('ear-sweep',8)]:
+            rows = []
+            for view in ['front','side']:
+                rows.append([
+                    (view+' | neutral',directory/('skin-'+view+'.png')),
+                    (view+' | '+kind+' -'+str(degrees)+' deg',probes/(kind+'-minus-'+view+'.png')),
+                    (view+' | '+kind+' +'+str(degrees)+' deg',probes/(kind+'-plus-'+view+'.png'))])
+            filename = 'clearance-'+kind+'.png'
+            comparison_sheet(rows,directory/filename)
+            extra.append(filename)
+        shutil.copy2(probes/'motion-clearance.json',directory/'motion-clearance.json')
+        extra.append('motion-clearance.json')
     if args.publish_blocked:
-        if data.get('executor_disposition') != 'BLOCKED_AT_V008_SKIN_REVISION_GATE':
+        if data.get('executor_disposition') not in {'BLOCKED_AT_V008_SKIN_REVISION_GATE',
+                                                    'BLOCKED_AT_V008_SKIN_FINAL_FIT'}:
             raise RuntimeError('Only an explicitly blocked Skin packet may be published here')
         final = ROOT/'docs/production/carol/evidence/reconstruction-v008'
         final.mkdir(parents=True,exist_ok=True)
         for name in ['skin-front.png','skin-side.png','skin-front-overlay.png',
-                     'skin-side-overlay.png','skin-review-sheet.png','measurements.json']:
+                     'skin-side-overlay.png','skin-review-sheet.png','measurements.json']+extra:
             shutil.copy2(directory/name,final/name)
     print(directory/'skin-review-sheet.png')
 

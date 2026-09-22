@@ -1,10 +1,10 @@
 """Carol v008 structured cage prototype, built from an empty Blender scene.
 
-blender -b --python scripts/blender/build-carol-v008.py -- --revision 2
+blender -b --python scripts/blender/build-carol-v008.py -- --revision 5
 Only Skin is implemented until its dual-orthographic internal gate is resolved.
 No previous generator is imported. Controls are normalized by H=1.
-Continues the pushed selected cycle-2 controls, never the rejected cycle 3.
-Selected NEW revision 2; revision 3 worsened the rear jaw and ear-root read.
+Continues pushed revision 2 at 26cc5c7; selected continuation revision 5.
+Three local attempts (4-6); revision 6's exposed hooked ear root was rejected.
 The revision argument labels output only. It does not switch geometry.
 """
 import argparse
@@ -77,17 +77,23 @@ HIND_LIMB_SECTIONS = [
 ]
 TAIL = {'pivot': (.985, 0, .355), 'base': .985, 'center': 1.032,
         'length': .085, 'diameter': .095, 'angle_degrees': 20}
-# Region, center XYZ (positive-Y ear), profile radius, thickness, local major.
-# The changing frame opens the Side bowl; no rotation of the old global frame.
-EAR_STATIONS = [
-    ('ROOT', (.397,.221,.565), .028,.023, (.40,.10,.91)),
-    ('ROOT', (.420,.275,.533), .071,.025, (.51,.14,.85)),
-    ('MID',  (.459,.340,.477), .117,.025, (.61,.18,.77)),
-    ('MID',  (.510,.415,.414), .143,.024, (.65,.20,.73)),
-    ('MID',  (.566,.484,.382), .127,.023, (.65,.20,.73)),
-    ('TIP',  (.619,.543,.377), .085,.021, (.60,.18,.78)),
-    ('TIP',  (.651,.573,.385), .040,.016, (.55,.14,.82)),
-    ('TIP',  (.661,.581,.388), .008,.007, (.50,.10,.86)),
+# One 3D perimeter, independently controlled inner lip, and finite shell depth.
+# Positive-Y controls mirrored for the other ear; neither camera affects them.
+EAR_PERIMETER = [
+    (.390,.220,.611), (.440,.295,.600), (.530,.400,.540),
+    (.630,.510,.465), (.680,.570,.430), (.700,.590,.390),
+    (.697,.590,.353), (.675,.561,.323), (.640,.520,.305),
+    (.585,.460,.294), (.530,.402,.298), (.475,.341,.322),
+    (.430,.295,.362), (.398,.260,.428), (.375,.225,.510),
+    (.375,.215,.577),
+]
+EAR_INNER_LIP = [
+    (.392,.236,.515), (.430,.280,.450), (.510,.370,.403),
+    (.595,.470,.421), (.655,.540,.420), (.670,.554,.388),
+    (.661,.546,.350), (.637,.518,.329), (.608,.485,.317),
+    (.565,.436,.310), (.518,.382,.320), (.475,.334,.344),
+    (.444,.302,.383), (.415,.270,.429), (.395,.246,.480),
+    (.389,.236,.513),
 ]
 REGISTRATION = {
     'normal-front': dict(file='carol_front.png', h=1011, ground=1162, origin=626.5, view='front'),
@@ -152,6 +158,25 @@ def signed_power(value, exponent):
     return math.copysign(abs(value) ** exponent, value)
 
 
+def cranial_depth(c):
+    """C1 cheek-to-skull join; central frontage and rear apex stay fixed.
+
+    The old 2.7/.85 powers met at c=0 with zero/infinite slopes. Match their
+    values and derivatives outside the local side band instead of retracting
+    entire jaw rings or changing the face/eye frontage.
+    """
+    edge = .70
+    if c <= -edge:
+        return signed_power(c,2.7)
+    if c >= edge:
+        return signed_power(c,.85)
+    t = (c+edge)/(2*edge)
+    a,b = -edge**2.7,edge**.85
+    da,db = 2.7*edge**1.7,.85*edge**(-.15)
+    return ((2*t**3-3*t*t+1)*a+(t**3-2*t*t+t)*2*edge*da
+            +(-2*t**3+3*t*t)*b+(t**3-t*t)*2*edge*db)
+
+
 def longitudinal_cage(name, stations, mat, n=16):
     vertices = []
     for region, x, bottom, top, width, exponent in stations:
@@ -174,9 +199,15 @@ def horizontal_cage(name, sections, mat, y=0, face=False, n=16):
         for j in range(n):
             theta = 2 * math.pi * j / n
             c, s = math.cos(theta), math.sin(theta)
-            power = (2.7 if c < 0 else .85) if face else 1.0
-            vertices.append((center + rx*signed_power(c, power),
-                             y + ry*signed_power(s, .90 if face else 1), z))
+            depth = cranial_depth(c) if face else c
+            # Smoothly lift only the rear lower cranial quadrant. Face center,
+            # skull top, muzzle and primary facial modules are untouched.
+            rear = max(0,min(1,(c+.50)/1.50))
+            rear = rear*rear*(3-2*rear)
+            low = max(0,min(1,(.43-z)/.20)) if face else 0
+            vertices.append((center + rx*depth,
+                             y + ry*signed_power(s, .90 if face else 1),
+                             z+.065*rear*low*low))
     obj = mesh(name, vertices, ring_faces(len(sections), n), mat, 2)
     if face:
         for region,indices in [('LOWER_CHEEK',range(4)),('FACE',range(3,6)),
@@ -251,34 +282,35 @@ def hoof(name, x, y, mat):
 
 
 def ear(name, sign, brown, pink):
-    vertices = []
-    count, n = len(EAR_STATIONS), 16
-    for i, (_, xyz, width, thickness, direction) in enumerate(EAR_STATIONS):
-        center = Vector((xyz[0], sign*xyz[1], xyz[2]))
-        major = Vector((direction[0],sign*direction[1],direction[2])).normalized()
-        before = Vector(EAR_STATIONS[max(0,i-1)][1])
-        after = Vector(EAR_STATIONS[min(count-1,i+1)][1])
-        tangent = after-before
-        tangent.y *= sign
-        normal = tangent.cross(major).normalized()*(-sign)
-        for j in range(n):
-            theta = 2*math.pi*j/n
-            # A soft closed bowl: its lower half cups toward the front/side.
-            bowl = .012*math.sin(math.pi*i/(count-1))*max(0,-math.cos(theta))
-            vertices.append(tuple(center+major*width*math.cos(theta)
-                                  +normal*(thickness*math.sin(theta)+bowl)))
-    obj = mesh(name, vertices, ring_faces(count,n), brown, 2)
+    normal = Vector((-.76,.65,0)).normalized()
+    outside = [Vector(p) for p in EAR_PERIMETER]
+    inside = [Vector(p) for p in EAR_INNER_LIP]
+    center = Vector((.543,.408,.377))
+    # Walk from tiny back cap, across back shell and rolled perimeter, into
+    # the recessed bowl. The inset is part of this mesh, never an overlay card.
+    loops = [
+        [center+(p-center)*.025-normal*.018 for p in outside],
+        [center+(p-center)*.55-normal*.021 for p in outside],
+        [p-normal*.009 for p in outside],
+        [p+normal*.009 for p in outside],
+        [p+normal*.012 for p in inside],
+        [center+(p-center)*.60-normal*.001 for p in inside],
+        [center+(p-center)*.025-normal*.006 for p in inside],
+    ]
+    vertices = [(p.x,sign*p.y,p.z) for loop in loops for p in loop]
+    n = len(outside)
+    obj = mesh(name, vertices, ring_faces(len(loops),n), brown, 2)
     obj.data.materials.append(pink)
     for polygon in obj.data.polygons:
-        if polygon.index < (count-1)*n:
-            i,j = divmod(polygon.index,n)
-            if 1 <= i <= 5 and 4 <= j <= 6:
-                polygon.material_index = 1
+        if 4*n <= polygon.index < 6*n or polygon.index >= 6*n+(n-2)//2:
+            polygon.material_index = 1
     for region in ['ROOT','MID','TIP']:
         group = obj.vertex_groups.new(name=region)
-        for i, station in enumerate(EAR_STATIONS):
-            if station[0] == region:
-                group.add(list(range(i*n,(i+1)*n)),1,'REPLACE')
+        for i,vertex in enumerate(vertices):
+            u = max(0,min(1,(abs(vertex[1])-.24)/.33))
+            weights = {'ROOT':max(0,1-2*u),'MID':1-abs(2*u-1),'TIP':max(0,2*u-1)}
+            if weights[region] > 0:
+                group.add([i],weights[region],'REPLACE')
     return obj
 
 
@@ -344,12 +376,12 @@ def attachment_diagnostics():
     return dict(method='Evaluated mesh BVH surface intersections; virtual tail pivot transforms; no scene changes.',
                 tail_pivot_probes=tail,neutral_torso_contacts=neutral_contacts,
                 interpretation='Contact diagnostic only. Pair counts do not measure penetration quality or grant clearance.',
-                visual_motion_clearance='NOT REACHED: neutral Skin revision gate blocked')
+                visual_motion_clearance='Separate disposable visual probes: carol-v008-clearance.py; no automatic PASS')
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision', type=int, choices=[1,2,3], default=2)
+    parser.add_argument('--revision', type=int, choices=[4,5,6], default=5)
     parser.add_argument('--resolution', type=int, default=640)
     options = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     output = TMP / ('revision-'+str(options.revision))
@@ -376,7 +408,7 @@ def main():
     scene.render.threads = 12
     scene['authority'] = 'Four FINAL LOCKED references + CAROL_GEOMETRY_PARAMETERS.md'
     scene['coordinate_contract'] = 'H=1; X front to rear; Y bilateral; Z up; ground Z=0'
-    scene['stage'] = 'BLOCKED_AT_V008_SKIN_REVISION_GATE; selected revision 2; Human Gate PENDING'
+    scene['stage'] = 'BLOCKED_AT_V008_SKIN_FINAL_FIT; selected revision 5; Human Gate PENDING'
     scene['saved_pose'] = 'NEUTRAL'
     cream = material('DEBUG warm skin',(.83,.67,.55))
     brown = material('DEBUG cocoa',(.19,.075,.039))
@@ -495,24 +527,26 @@ def main():
             min=[min(p[i] for p in coords) for i in range(3)],
             max=[max(p[i] for p in coords) for i in range(3)])
     result = dict(blender=bpy.app.version_string,revision=options.revision,
-        stage='Skin revision gate',human_geometry_gate='PENDING; not ready for submission',
-        executor_disposition='BLOCKED_AT_V008_SKIN_REVISION_GATE',
-        selected_geometry_revision=2,skin_revision_render_cycles_completed=3,
-        baseline_commit='601296e8e44f7eb4e6f9843bedcca61f940d7abb',
+        stage='Skin final fit',human_geometry_gate='PENDING; not ready for submission',
+        executor_disposition='BLOCKED_AT_V008_SKIN_FINAL_FIT',
+        selected_geometry_revision=5,skin_revision_render_cycles_completed=3,
+        task_geometry_attempts=[4,5,6],prior_selected_revision=2,
+        baseline_commit='26cc5c79890d3bc10aaaece5802f3a63c323da0a',
         generator_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         reference_hashes=REFERENCE_HASHES,reference_registration=REGISTRATION,
         geometry_digest=neutral_digest,view_geometry_digests=view_digests,
-        support_targets=SUPPORT,tail_controls=TAIL,ear_stations=EAR_STATIONS,meshes=meshes,
+        support_targets=SUPPORT,tail_controls=TAIL,
+        ear_controls=dict(perimeter=EAR_PERIMETER,inner_lip=EAR_INNER_LIP),meshes=meshes,
         tail_core_rump_X_overlap_H=meshes['TORSO_CAGE']['max'][0]-meshes['SKIN_TAIL_CORE']['min'][0],
         tail_fleece_shell='NOT CONSTRUCTED; Skin gate prerequisite',
         debug_landmarks={obj.name:list(obj.location) for obj in scene.objects if obj.get('NON_PRODUCTION')},
         attachment_diagnostics=diagnostics,
         motion_clearance={
-            'head_yaw_clearance':'NOT REACHED; head/chest neutral fitting blocked',
-            'head_pitch_clearance':'NOT REACHED; head/chest neutral fitting blocked',
-            'head_tilt_clearance':'NOT REACHED; head/chest neutral fitting blocked',
+            'head_yaw_clearance':'Separate disposable +/-8 degree Z probes; see motion-clearance.json and visual review',
+            'head_pitch_clearance':'Separate disposable +/-6 degree Y probes; see motion-clearance.json and visual review',
+            'head_tilt_clearance':'Separate disposable +/-5 degree X probes; see motion-clearance.json and visual review',
             'cheek_lean_clearance':'NOT REACHED; neutral Skin gate blocked',
-            'ear_clearance':'NOT REACHED; neutral ear shape blocked; ROOT/MID/TIP groups only',
+            'ear_clearance':'Separate disposable right-ear +/-8 degree Z root sweeps; see motion-clearance.json and visual review',
             'com_shift_clearance':'NOT REACHED; neutral contact diagnostics do not prove weight transfer',
             'fore_support_clearance':'NOT REACHED; buried root and planted neutral geometry only',
             'tail_clearance':'Evaluated core/rump surfaces intersect at neutral, +/-20 vertical and +/-7 lateral; visual motion not approved',
@@ -522,8 +556,8 @@ def main():
         voxel_remesh_fleece=False,boolean_ear_recess=False,view_specific_geometry=False,
         normal_skin_identity='Normal not constructed; one neutral underbody only',
         production_rig=False,animation=False,final_retopology=False,
-        limitations=['Ear Side still reads triangular instead of a broad soft bowl; Front inset/rim differs.',
-                     'Head/chest transition remains visibly segmented; articulation clearance unproven.',
+        limitations=['Ear distal bowl is rounder in both views; root and upper inset curvature still need fitting.',
+                     'Head side ridge removed; short head/chest overlap is not yet a deformation solution.',
                      'Proximal roots improved but support silhouettes remain insufficiently reference-fitted.',
                      'Skin Side support registration and Skin Front imply different skull heights.',
                      'Technical diagnostics do not grant Human approval.'])
