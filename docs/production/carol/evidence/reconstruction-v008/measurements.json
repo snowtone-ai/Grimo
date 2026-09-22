@@ -1,0 +1,473 @@
+{
+  "blender": "5.2.1 LTS",
+  "cycle": 2,
+  "stage": "Skin internal gate",
+  "human_geometry_gate": "PENDING; not ready for submission",
+  "executor_disposition": "BLOCKED_AT_V008_SKIN_INTERNAL_GATE",
+  "selected_geometry_cycle": 2,
+  "skin_edit_render_cycles_completed": 3,
+  "generator_sha256": "be0328027b1edbec3dc4058b901e42539fd2fed078810c530ae75d13d0a538f8",
+  "reference_hashes": {
+    "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "reference_registration": {
+    "normal-front": {
+      "file": "carol_front.png",
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "normal-side": {
+      "file": "carol_side.png",
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side"
+    },
+    "skin-front": {
+      "file": "carol_skin_front.png",
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "skin-side": {
+      "file": "carol_skin_side.png",
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side"
+    }
+  },
+  "geometry_digest": "c1f72d09b70cc2c2fdcccac666caf8eb9317411dec2a16374f7566511e999f0a",
+  "view_geometry_digests": {
+    "front": "c1f72d09b70cc2c2fdcccac666caf8eb9317411dec2a16374f7566511e999f0a",
+    "side": "c1f72d09b70cc2c2fdcccac666caf8eb9317411dec2a16374f7566511e999f0a"
+  },
+  "support_targets": {
+    "FORE": {
+      "x": 0.39,
+      "y": 0.175
+    },
+    "HIND": {
+      "x": 0.92,
+      "y": 0.245
+    }
+  },
+  "tail_controls": {
+    "pivot": [
+      0.985,
+      0,
+      0.355
+    ],
+    "base": 1.205,
+    "center": 1.245,
+    "length": 0.085,
+    "diameter": 0.095,
+    "angle_degrees": 20
+  },
+  "meshes": {
+    "TORSO_CAGE": {
+      "control_vertices": 160,
+      "control_faces": 158,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.25534510612487793,
+        -0.30963340401649475,
+        0.08789795637130737
+      ],
+      "max": [
+        1.0518964529037476,
+        0.30963340401649475,
+        0.4235091209411621
+      ]
+    },
+    "HEAD_CAGE": {
+      "control_vertices": 240,
+      "control_faces": 238,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.01821272261440754,
+        -0.30118608474731445,
+        0.22307687997817993
+      ],
+      "max": [
+        0.5613678097724915,
+        0.30118608474731445,
+        0.7029386162757874
+      ]
+    },
+    "SHORT_NECK_SOCKET": {
+      "control_vertices": 64,
+      "control_faces": 62,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.345517635345459,
+        -0.2191903442144394,
+        0.22371309995651245
+      ],
+      "max": [
+        0.5094248652458191,
+        0.2191903442144394,
+        0.3684968948364258
+      ]
+    },
+    "FORE_L": {
+      "control_vertices": 96,
+      "control_faces": 94,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.2813756763935089,
+        0.07814395427703857,
+        0.07441414147615433
+      ],
+      "max": [
+        0.5022910833358765,
+        0.27185606956481934,
+        0.31758588552474976
+      ]
+    },
+    "HOOF_FORE_L": {
+      "control_vertices": 192,
+      "control_faces": 190,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.2874014973640442,
+        0.06493202596902847,
+        2.2403010007110424e-05
+      ],
+      "max": [
+        0.4995654225349426,
+        0.28506797552108765,
+        0.11094960570335388
+      ]
+    },
+    "HIND_L": {
+      "control_vertices": 96,
+      "control_faces": 94,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.8113757371902466,
+        0.1481439620256424,
+        0.07441414147615433
+      ],
+      "max": [
+        1.032291054725647,
+        0.34185612201690674,
+        0.31758588552474976
+      ]
+    },
+    "HOOF_HIND_L": {
+      "control_vertices": 192,
+      "control_faces": 190,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.8174015283584595,
+        0.1349320262670517,
+        2.2403010007110424e-05
+      ],
+      "max": [
+        1.029565453529358,
+        0.35506799817085266,
+        0.11094960570335388
+      ]
+    },
+    "EAR_L": {
+      "control_vertices": 156,
+      "control_faces": 154,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.3648087680339813,
+        0.22487540543079376,
+        0.30936524271965027
+      ],
+      "max": [
+        0.67019122838974,
+        0.5806497931480408,
+        0.6099399328231812
+      ]
+    },
+    "FORE_R": {
+      "control_vertices": 96,
+      "control_faces": 94,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.2813756763935089,
+        -0.27185606956481934,
+        0.07441414147615433
+      ],
+      "max": [
+        0.5022910833358765,
+        -0.07814395427703857,
+        0.31758588552474976
+      ]
+    },
+    "HOOF_FORE_R": {
+      "control_vertices": 192,
+      "control_faces": 190,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.2874014973640442,
+        -0.28506797552108765,
+        2.2403010007110424e-05
+      ],
+      "max": [
+        0.4995654225349426,
+        -0.06493202596902847,
+        0.11094960570335388
+      ]
+    },
+    "HIND_R": {
+      "control_vertices": 96,
+      "control_faces": 94,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.8113757371902466,
+        -0.34185612201690674,
+        0.07441414147615433
+      ],
+      "max": [
+        1.032291054725647,
+        -0.1481439620256424,
+        0.31758588552474976
+      ]
+    },
+    "HOOF_HIND_R": {
+      "control_vertices": 192,
+      "control_faces": 190,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.8174015283584595,
+        -0.35506799817085266,
+        2.2403010007110424e-05
+      ],
+      "max": [
+        1.029565453529358,
+        -0.1349320262670517,
+        0.11094960570335388
+      ]
+    },
+    "EAR_R": {
+      "control_vertices": 156,
+      "control_faces": 154,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        0.36480870842933655,
+        -0.5806499123573303,
+        0.30936524271965027
+      ],
+      "max": [
+        0.6701913475990295,
+        -0.22487540543079376,
+        0.6099398136138916
+      ]
+    },
+    "TAIL_TUFT": {
+      "control_vertices": 72,
+      "control_faces": 70,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        1.202632188796997,
+        -0.04609524458646774,
+        0.32144400477409363
+      ],
+      "max": [
+        1.2873679399490356,
+        0.04609524458646774,
+        0.4185560345649719
+      ]
+    },
+    "TAIL_ATTACHMENT_PAD": {
+      "control_vertices": 36,
+      "control_faces": 34,
+      "all_quads": true,
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "min": [
+        1.1922023296356201,
+        -0.02706802263855934,
+        0.3380219638347626
+      ],
+      "max": [
+        1.217797875404358,
+        0.02706802263855934,
+        0.3881078362464905
+      ]
+    },
+    "EYE_L": {
+      "control_vertices": 922,
+      "control_faces": 960,
+      "all_quads": false,
+      "modifiers": [],
+      "min": [
+        0.03572795167565346,
+        0.0937279537320137,
+        0.32350000739097595
+      ],
+      "max": [
+        0.17227202653884888,
+        0.2302720695734024,
+        0.4724999964237213
+      ]
+    },
+    "GLINT_L": {
+      "control_vertices": 922,
+      "control_faces": 960,
+      "all_quads": false,
+      "modifiers": [],
+      "min": [
+        0.06226280704140663,
+        0.15726280212402344,
+        0.41600000858306885
+      ],
+      "max": [
+        0.08773719519376755,
+        0.18273720145225525,
+        0.4480000138282776
+      ]
+    },
+    "IRIS_L": {
+      "control_vertices": 922,
+      "control_faces": 960,
+      "all_quads": false,
+      "modifiers": [],
+      "min": [
+        0.05908266082406044,
+        0.1650826632976532,
+        0.3400000035762787
+      ],
+      "max": [
+        0.10091732442378998,
+        0.20691734552383423,
+        0.3800000250339508
+      ]
+    },
+    "EYE_R": {
+      "control_vertices": 922,
+      "control_faces": 960,
+      "all_quads": false,
+      "modifiers": [],
+      "min": [
+        0.035727933049201965,
+        -0.2302720546722412,
+        0.32350000739097595
+      ],
+      "max": [
+        0.17227204144001007,
+        -0.0937279686331749,
+        0.4724999964237213
+      ]
+    },
+    "GLINT_R": {
+      "control_vertices": 922,
+      "control_faces": 960,
+      "all_quads": false,
+      "modifiers": [],
+      "min": [
+        0.06226280331611633,
+        -0.18273720145225525,
+        0.41600000858306885
+      ],
+      "max": [
+        0.08773719519376755,
+        -0.15726280212402344,
+        0.4480000138282776
+      ]
+    },
+    "IRIS_R": {
+      "control_vertices": 922,
+      "control_faces": 960,
+      "all_quads": false,
+      "modifiers": [],
+      "min": [
+        0.05908265709877014,
+        -0.20691734552383423,
+        0.3400000035762787
+      ],
+      "max": [
+        0.10091733187437057,
+        -0.1650826781988144,
+        0.3800000250339508
+      ]
+    },
+    "NOSE": {
+      "control_vertices": 922,
+      "control_faces": 960,
+      "all_quads": false,
+      "modifiers": [],
+      "min": [
+        -0.006000010296702385,
+        -0.01950000785291195,
+        0.367499977350235
+      ],
+      "max": [
+        0.028000004589557648,
+        0.019500000402331352,
+        0.38850000500679016
+      ]
+    }
+  },
+  "tail_attachment_gap_X_H": 0.14030587673187256,
+  "fleece_representation": "NOT CONSTRUCTED; Skin gate prerequisite",
+  "voxel_remesh_fleece": false,
+  "boolean_ear_recess": false,
+  "view_specific_geometry": false,
+  "normal_skin_identity": "Normal not constructed; one neutral underbody only",
+  "production_rig": false,
+  "animation": false,
+  "final_retopology": false,
+  "limitations": [
+    "Locked tail X positions leave a visible gap to Skin-reference rump.",
+    "Ear side volume and root relationship remain visibly incorrect.",
+    "Head/chest overlap and rounded support-root appearance need further fitting.",
+    "Skin Side support registration and Skin Front imply different skull heights.",
+    "Technical diagnostics do not grant Human approval."
+  ]
+}
