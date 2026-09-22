@@ -608,7 +608,7 @@ def bbox(ob):
             'max':[max(p[i] for p in coords) for i in range(3)]}
 
 authority=json.loads((ROOT/'assets/grimo/source/carol/approved-3d/authority.json').read_text())
-data={'status':'AWAITING HUMAN REVIEW','blender':bpy.app.version_string,
+data={'blender':bpy.app.version_string,
       'generator_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
       'reference_hashes':{r['path']:hashlib.sha256((ROOT/r['path']).read_bytes()).hexdigest()
                           for r in authority['formalGeometryAuthority']['references']},
