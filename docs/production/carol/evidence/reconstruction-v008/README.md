@@ -1,34 +1,27 @@
-# Carol v008 — bounded Human appeal fit
+# Carol v008 — final bounded static Skin pass
 
-**BLOCKED_AT_V008_SKIN_IDENTITY_FIT.** Revision **14** is retained as the best of two bounded local edits, but the static Skin identity is still not accepted. Human Geometry Gate **PENDING; do not submit for approval**. The primary review image is [skin-human-fit-review.png](skin-human-fit-review.png).
+**BLOCKED_AT_V008_SKIN_IDENTITY_FIT.** Revision **17** is retained as the best of three new shape attempts (15–17), but it is **not** a passing static candidate. Human Geometry Gate remains **PENDING**. Motion preflight was not run because no static candidate met the visual criteria. Do not advance to fleece.
 
-## Baseline and reproduction
+The primary [Human comparison sheet](skin-human-fit-review.png) shows LOCKED, revision 14, revision 17 and 50% overlays for full Skin Front/Side, face Front/Side, hooves Front/Side and tail Side. Derived [3Q](diagnostic-revision-17-3q.png) and [Top](diagnostic-revision-17-top.png) rows compare revisions 14/17 and have no invented locked reference. The [full-screen check page](human-review.html) offers all nine rows with zoom and keyboard navigation. Revision-14 evidence is preserved under [baseline-revision-14/](baseline-revision-14/); revision-12 evidence remains under [baseline-revision-12/](baseline-revision-12/).
 
-The exact pushed revision-12 renders, overlays, face detail, measurements, validation, motion report and clearance sheets were copied to [baseline-revision-12/](baseline-revision-12/) before any geometry edit. Starting remote HEAD: `4c3e55b6f37f5491bf20a9bf95bbe6ea0b42ed3e`; branch: `codex/carol-final-reconstruction-v008`. The four locked source image hashes and registration remain unchanged. Blender 5.2.1 LTS built the single neutral model in the unchanged Front/Side Skin cameras.
+| Owner | Revision-17 result |
+| --- | --- |
+| Torso | Abdomen half-width at X .575 increased `.303→.3055 H`, X .730 `.305→.3075 H`; other stations unchanged. Evaluated maximum width `.598571 H` is inside `.598–.600 H`. Head, fore and hind torso intersection pair counts remain 400, 128 each and 134 each, equal to revision 14. Front/Side/3Q retain compact volume. |
+| Hooves | One connected mesh and continuous planted sole per hoof. The crown has three intended rounded anterior Y/Z lobes separated by two valleys at local Y ±`.0365 H`; anterior bulges are carried through the lower face instead of the top edge. Nominal front/rear X extents are `.075/.076 H`. Evaluated width `.217385 H`, height `.111984 H`, depth `.173107 H`, ground min Z `.0000136 H`. Front read improves, but 3Q still resembles a brown tire. **Visual fail.** |
+| Head / Side face | Upper skull control Z at four top sections changed `.630/.674/.697/.703→.635/.689/.716/.722 H`. Lower-rear head lift changed `.065→.025 H`; orbital X target base/slope `.145/1.02→.130/1.12`. Side forehead moves toward the locked Skin Side, but eye/cheek hierarchy remains insufficient. Front eye width `.137 H`, height `.149 H`, bilateral Y centers ±`.162 H` and pigment are unchanged. Mouth width `.091 H`; nose and philtrum frozen. |
+| Head/chest | Separate HEAD_CAGE, SHORT_NECK_SOCKET and TORSO_CAGE still create a visible lower-head/chest ownership line. A disposable exact Boolean union and local smoothing test did not remove the crease and was rejected. Future head rotation risks sliding. **Static fail.** |
+| Ear | Four root perimeter controls widened the embedded saddle; distal perimeter and bowl controls are unchanged. Side/3Q emergence is still abrupt. **Static fail.** |
+| Tail | Unchanged from revision 14. Side remains round; partial Top occlusion alone is not a failure. No visual tail-motion claim. |
+
+Revision 15 introduced the torso, lower-crown, forehead/orbital/cheek and ear-root adjustments. Its upper hoof scallop still resembled a tire. Revision 16 raised the scallop too high and produced horn-like bumps at the leg boundary; rejected. Revision 17 moved relief down the anterior face and recovered a smooth hoof top. No fourth geometry attempt was made.
+
+Blender 5.2.1 LTS generated one neutral model for the unchanged Front/Side cameras. [measurements.json](measurements.json) stores control/evaluated geometry, support/contact diagnostics and the shared Front/Side digest. [validation.json](validation.json) records saved/reloaded geometry, exact revision-14 object comparison, unchanged camera/light/registration/landmark records, reference hashes and eye pigment. The verifier asserts torso width, hoof dimensions/ground contact/connectivity, support centers, eye dimensions and absence of hidden alternates, production rig/animation, Boolean or remesh. Visual failure takes precedence over numerical passes. [motion-clearance.json](motion-clearance.json) is `NOT_RUN_STATIC_GATE_BLOCKED`.
 
 ```powershell
-& 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe' -b --python scripts/blender/build-carol-v008.py -- --revision 14
+& 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe' -b --python scripts/blender/build-carol-v008.py -- --revision 17
 & 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe' -b assets/grimo/production/carol/blender/carol-v008.blend --python scripts/blender/carol-v008-verify.py
-python scripts/blender/carol-v008-evidence.py --revision 14 --publish-blocked
+& 'C:\Program Files\Blender Foundation\Blender 5.2\blender.exe' -b assets/grimo/production/carol/blender/carol-v008.blend --python scripts/blender/carol-v008-diagnostics.py
+python scripts/blender/carol-v008-evidence.py --revision 17 --baseline-directory docs/production/carol/evidence/reconstruction-v008/baseline-revision-14 --publish-blocked
 ```
 
-The final generator directly constructs revision 14 only. `measurements.json` contains all control and evaluated dimensions, contact ratios, reference hashes and the shared Front/Side neutral digest. `validation.json` verifies the saved/reloaded asset, scene inventory, geometry freeze, supports, eye dimensions, hashes, cameras/registration and absence of production rig or alternate view geometry. The exact revision-12 object record comparison was performed with a local extracted pushed `.blend` and is recorded by checksum in validation.
-
-## Changes and static result
-
-| Area | Revision 13 target and observation | Revision 14 / outcome |
-| --- | --- | --- |
-| Torso | Central stations `.575: bottom .089/top .414/halfY .303`, `.730: .092/.410/.305`; other stations follow the supplied array. Side is clearly slimmer, with smooth 3Q/Top volume and no visible detached limb root. Head/torso contact ratio `.990`, fore `1.049`, hind `1.047` vs revision 12. | Unchanged. Control maximum width `.610 H`; evaluated width `.59404 H`, below the stated `.595 H` guard by `.00096 H` because subdivision shrinks the target control cage. This numerical discrepancy needs Planner resolution. |
-| Lower face | Half widths at Z `.235/.248/.272/.315` became `.070/.173/.256/.300 H`. Mouth base `.3542`, depth `.0065`, min `.3477`, mean `.350152 H`; width `.091 H`. Front chin and mouth read slightly softer/higher. | Unchanged. Side eye/face hierarchy still falls short of the locked image. |
-| Hooves | One mesh per hoof, three intended rounded lobes and two shallow anterior clefts; continuous sole; front `.105`, rear `.085 H` nominal extent. Original limb geometry kept. Clefts nearly vanish after smoothing. | **Only revision-14 root cause:** hoof cleft sampling `48→96`, retraction `.009→.011 H`, notch `.0018→.0025 H`. Evaluated width `.217385`, height `.111984`, Side depth `.188536`, min Z `.0000136 H`, all within formal hoof bounds. Front and 3Q still read as broad brown tires. This is the static failure; no further geometry attempt ran. |
-| Tail | Pivot `(.985,0,.355)`, center X `1.032`, nine near-round sections, nominal `.085` length / `.095 H` diameter. Evaluated X/Z aspect `.954`. Side is rounder, with no visible stalk. | Unchanged. Top shows partial rump occlusion; do not claim final tail appeal or motion. |
-
-The Human decision **exactly three lobes / two clefts in one continuous hoof** is recorded narrowly in `CAROL_GEOMETRY_PARAMETERS.md`. No independent toes or supports were added. Frozen object records: `EAR_L/R`, `SHORT_NECK_SOCKET`, `NOSE`, `FORE_L/R`, `HIND_L/R`. Changed object records: `TORSO_CAGE`, `HEAD_CAGE`, `MOUTH_closed`, `PHILTRUM`, four hooves, `SKIN_TAIL_CORE`, and minute head-conformal `EYE_L/R`/`EYELID_L/R` resampling caused by the lower-cheek edit. Eye architecture, size/centers/relief and packed pigment are fixed; its pixel hash matches revision 12. Support centers, cameras, registration, materials outside the eye, and locked references remain fixed.
-
-## Evidence and unresolved work
-
-The [primary Human sheet](skin-human-fit-review.png) has four columns (locked, revision 12, revision 14, 50% overlay) and seven rows (full Front/Side, face Front/Side, hoof Front/Side, Side tail), with identical crop coordinates within each row. [Revision 13 sheet](rejected-revision-13-sheet.png), [3Q](diagnostic-revision-14-3q.png) and [Top](diagnostic-revision-14-top.png) are technical diagnostics, not reference authority. [Raw Front](skin-front.png), [raw Side](skin-side.png), [overlays](skin-review-sheet.png), [measurements](measurements.json) and [validation](validation.json) support inspection. The 3Q shows coherent body volume but tire-like hoof mass; Top shows no geometry split, though the small tail is partly occluded.
-
-[Motion record](motion-clearance.json) is explicitly **NOT_RUN_STATIC_GATE_BLOCKED**. The required order selects a convincing static candidate before preflight; revision 14 failed that gate. Numeric virtual tail/rump intersections remain positive at neutral, up/down 20°, lateral +/-7°, but no selected-revision support, yaw/pitch, blink or visual tail preflight was rendered. Revision-12 disposable motion evidence is archived under the baseline and does not validate revision 14. Continuous head/chest exterior ownership, final ear-root emergence, cheek/forehead deformation, intermediate blink tissue, target-convergent gaze, physical COM, fleece and final rig remain unresolved.
-
-**HANDOFF: CHATGPT_PLANNER.** Review this pushed static failure. Resolve the hoof visual owner and the evaluated torso-width guard before authorizing another shape attempt. Human Geometry Gate stays PENDING.
+The four source images/hashes, support centers, camera matrices, registration and coordinate system are unchanged. There is no fleece, production rig, animation, GLB or runtime work. Next handoff: **CHATGPT_PLANNER / HUMAN GEOMETRY REVIEW** of the bounded static failure, without self-approving the Human Gate.

@@ -1,18 +1,17 @@
 {
   "blender": "5.2.1 LTS",
-  "revision": 17,
+  "revision": 14,
   "stage": "Skin identity reconstruction",
   "human_geometry_gate": "PENDING; not ready for submission",
   "executor_disposition": "BLOCKED_AT_V008_SKIN_IDENTITY_FIT",
-  "selected_geometry_revision": 17,
+  "selected_geometry_revision": 14,
   "task_geometry_attempts": [
-    15,
-    16,
-    17
+    13,
+    14
   ],
-  "prior_selected_revision": 14,
-  "baseline_commit": "9ff90a7aa1da45b2609092f33968f52bc6404fe7",
-  "generator_sha256": "9bf5088d7b5e881ae7f46a7f457824ac9e2fde9f96efe55ceaabe3f6b970e81c",
+  "prior_selected_revision": 12,
+  "baseline_commit": "4c3e55b6f37f5491bf20a9bf95bbe6ea0b42ed3e",
+  "generator_sha256": "66e36766ccb9975491f8d74abd28b7cd3e2567dec94f8134553581eee54cb688",
   "reference_hashes": {
     "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
     "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
@@ -49,10 +48,10 @@
       "view": "side"
     }
   },
-  "geometry_digest": "7b3b8d2f672f6e29b61b0c54d1207eac5c7be1998fc41a9b3fb348b9656d369a",
+  "geometry_digest": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb",
   "view_geometry_digests": {
-    "front": "7b3b8d2f672f6e29b61b0c54d1207eac5c7be1998fc41a9b3fb348b9656d369a",
-    "side": "7b3b8d2f672f6e29b61b0c54d1207eac5c7be1998fc41a9b3fb348b9656d369a"
+    "front": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb",
+    "side": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb"
   },
   "support_targets": {
     "FORE": {
@@ -116,7 +115,7 @@
           0.575,
           0.089,
           0.414,
-          0.3055,
+          0.303,
           0.9
         ],
         [
@@ -124,7 +123,7 @@
           0.73,
           0.092,
           0.41,
-          0.3075,
+          0.305,
           0.9
         ],
         [
@@ -160,12 +159,12 @@
           1.0
         ]
       ],
-      "maximum_evaluated_width_H": 0.5985711216926575,
+      "maximum_evaluated_width_H": 0.5940419435501099,
       "central_control_vertical_thickness_H": {
         "x_0_575": 0.32499999999999996,
         "x_0_730": 0.31799999999999995
       },
-      "central_control_maximum_width_H": 0.615,
+      "central_control_maximum_width_H": 0.61,
       "evaluated_bbox": {
         "control_vertices": 160,
         "control_faces": 158,
@@ -175,12 +174,12 @@
         ],
         "min": [
           0.24046014249324799,
-          -0.29928556084632874,
+          -0.29702097177505493,
           0.0946725457906723
         ],
         "max": [
           1.0518964529037476,
-          0.29928556084632874,
+          0.29702097177505493,
           0.44530147314071655
         ]
       },
@@ -212,16 +211,15 @@
       "cleft_count": 2,
       "evaluated_width_H": 0.21738478913903236,
       "evaluated_height_H": 0.11198387225431361,
-      "evaluated_depth_X_H": 0.17310726642608643,
+      "evaluated_depth_X_H": 0.1885358989238739,
       "evaluated_min_Z_H": 1.3605455933429766e-05,
-      "front_extent_H": 0.0976677978038788,
-      "rear_extent_H": 0.07543946862220763,
+      "front_extent_H": 0.10416276693344118,
+      "rear_extent_H": 0.08437313199043273,
       "cleft_centers_local_Y_H": [
         -0.0365,
         0.0365
       ],
-      "crown_max_anterior_lobe_projection_H": 0.025,
-      "crown_max_valley_Z_depression_H": 0.004,
+      "max_cleft_depth_H": 0.011,
       "sole_continuous": true,
       "support_centers_unchanged": true
     },
@@ -360,25 +358,25 @@
       0.253
     ],
     [
-      0.635,
+      0.63,
       0.344,
       0.21,
       0.218
     ],
     [
-      0.689,
+      0.674,
       0.345,
       0.148,
       0.164
     ],
     [
-      0.716,
+      0.697,
       0.342,
       0.072,
       0.08
     ],
     [
-      0.722,
+      0.703,
       0.34,
       0.015,
       0.018
@@ -387,14 +385,14 @@
   "ear_controls": {
     "perimeter": [
       [
-        0.37,
-        0.215,
-        0.615
+        0.39,
+        0.22,
+        0.611
       ],
       [
-        0.45,
+        0.44,
         0.295,
-        0.605
+        0.6
       ],
       [
         0.53,
@@ -457,14 +455,14 @@
         0.428
       ],
       [
-        0.35,
-        0.21,
-        0.505
+        0.375,
+        0.225,
+        0.51
       ],
       [
-        0.35,
-        0.205,
-        0.58
+        0.375,
+        0.215,
+        0.577
       ]
     ],
     "inner_lip": [
@@ -587,12 +585,12 @@
       ],
       "min": [
         0.24046014249324799,
-        -0.29928556084632874,
+        -0.29702097177505493,
         0.0946725457906723
       ],
       "max": [
         1.0518964529037476,
-        0.29928556084632874,
+        0.29702097177505493,
         0.44530147314071655
       ]
     },
@@ -606,12 +604,12 @@
       "min": [
         0.008356059901416302,
         -0.3030952513217926,
-        0.2391171157360077
+        0.2408246099948883
       ],
       "max": [
         0.5811284780502319,
         0.3030952513217926,
-        0.7219799160957336
+        0.7029792666435242
       ]
     },
     "SHORT_NECK_SOCKET": {
@@ -658,12 +656,12 @@
         "SUBSURF"
       ],
       "min": [
-        0.2923322021961212,
+        0.28583723306655884,
         0.03630762919783592,
         1.3605455933429766e-05
       ],
       "max": [
-        0.46543946862220764,
+        0.47437313199043274,
         0.2536924183368683,
         0.11199747771024704
       ]
@@ -694,12 +692,12 @@
         "SUBSURF"
       ],
       "min": [
-        0.8223322629928589,
+        0.8158372640609741,
         0.13630764186382294,
         1.3605455933429766e-05
       ],
       "max": [
-        0.9954395294189453,
+        1.0043731927871704,
         0.3536924421787262,
         0.11199747771024704
       ]
@@ -712,14 +710,14 @@
         "SUBSURF"
       ],
       "min": [
-        0.3520568609237671,
-        0.20505693554878235,
+        0.37458115816116333,
+        0.21294653415679932,
         0.29723235964775085
       ],
       "max": [
         0.6957758069038391,
         0.5882143378257751,
-        0.607413649559021
+        0.603488028049469
       ]
     },
     "EYE_L": {
@@ -728,12 +726,12 @@
       "all_quads": false,
       "modifiers": [],
       "min": [
-        0.0557868629693985,
+        0.07507051527500153,
         0.09350000321865082,
         0.3434999883174896
       ],
       "max": [
-        0.2065904289484024,
+        0.21458853781223297,
         0.2304999977350235,
         0.4925000071525574
       ]
@@ -744,12 +742,12 @@
       "all_quads": true,
       "modifiers": [],
       "min": [
-        0.049602460116147995,
+        0.06741566210985184,
         0.08459500223398209,
         0.3338150084018707
       ],
       "max": [
-        0.21915514767169952,
+        0.22585482895374298,
         0.23940500617027283,
         0.5021849870681763
       ]
@@ -780,12 +778,12 @@
         "SUBSURF"
       ],
       "min": [
-        0.2923322021961212,
+        0.28583723306655884,
         -0.2536924183368683,
         1.3605455933429766e-05
       ],
       "max": [
-        0.46543946862220764,
+        0.47437313199043274,
         -0.03630762919783592,
         0.11199747771024704
       ]
@@ -816,12 +814,12 @@
         "SUBSURF"
       ],
       "min": [
-        0.8223322629928589,
+        0.8158372640609741,
         -0.3536924421787262,
         1.3605455933429766e-05
       ],
       "max": [
-        0.9954395294189453,
+        1.0043731927871704,
         -0.13630764186382294,
         0.11199747771024704
       ]
@@ -834,14 +832,14 @@
         "SUBSURF"
       ],
       "min": [
-        0.3520568907260895,
+        0.37458112835884094,
         -0.5882143974304199,
         0.29723235964775085
       ],
       "max": [
         0.6957757472991943,
-        -0.20505692064762115,
-        0.607413649559021
+        -0.21294651925563812,
+        0.603488028049469
       ]
     },
     "EYE_R": {
@@ -850,12 +848,12 @@
       "all_quads": false,
       "modifiers": [],
       "min": [
-        0.05587126314640045,
+        0.07515408098697662,
         -0.2304999977350235,
         0.3434999883174896
       ],
       "max": [
-        0.2065810114145279,
+        0.21457470953464508,
         -0.09350000321865082,
         0.4925000071525574
       ]
@@ -866,12 +864,12 @@
       "all_quads": true,
       "modifiers": [],
       "min": [
-        0.04964787885546684,
+        0.06746775656938553,
         -0.23940500617027283,
         0.3338150084018707
       ],
       "max": [
-        0.21914859116077423,
+        0.22584743797779083,
         -0.08459500223398209,
         0.5021849870681763
       ]
@@ -1016,11 +1014,11 @@
   },
   "motion_clearance": {
     "status": "NOT_RUN_STATIC_GATE_BLOCKED",
-    "head_yaw_pitch": "NOT RUN on revision 17",
-    "blink": "NOT RUN on revision 17",
-    "support_shift": "NOT RUN on revision 17",
-    "tail_visual": "NOT RUN on revision 17; virtual surface intersections only",
-    "ear_gaze_roll": "NOT RUN; no selected valid static candidate",
+    "head_yaw_pitch": "NOT RUN on revision 14",
+    "blink": "NOT RUN on revision 14",
+    "support_shift": "NOT RUN on revision 14",
+    "tail_visual": "NOT RUN on revision 14; virtual surface intersections only",
+    "ear_gaze_roll": "NOT RUN; frozen area and no selected valid static candidate",
     "cheek_lean_clearance": "NOT REACHED; neutral Skin gate blocked",
     "fleece_regional_clearance": "NOT REACHED; fleece not constructed"
   },
@@ -1034,10 +1032,10 @@
   "animation": false,
   "final_retopology": false,
   "limitations": [
-    "Side eye remains washed-out and flatter than the locked Skin Side despite forward orbital adjustment.",
-    "Three hoof crown lobes read somewhat better in Front but the hoof is still tire-like in 3Q; visual gate fails.",
-    "Head/chest still has separate exterior owners; exact Boolean union did not resolve the visible crease and was rejected.",
-    "Ear root perimeter is broader but its emergence remains abrupt; distal bowl is preserved.",
+    "Side eye has broad washed-out reflection and less vertical dominance than the locked image.",
+    "Three hoof clefts exist in one mesh but remain weak in the rendered Front; tire read persists.",
+    "Head/chest still has separate exterior owners; no continuous articulation solution adopted.",
+    "Ear root remains narrow/abrupt; revision-9 distal bowl and root are unchanged.",
     "Skin Front/Side registered skull/feature heights differ; no per-view correction used.",
     "Technical diagnostics do not grant Human approval."
   ]

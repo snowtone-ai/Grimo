@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carol v008 · Human Geometry Review</title>
+<style>
+  :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #171923; color: #f5f2ee; }
+  header { height: 76px; padding: 13px 24px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #444654; }
+  h1 { margin: 0; font-size: 23px; font-weight: 650; letter-spacing: .02em; }
+  header p { margin: 5px 0 0; font-size: 13px; color: #b5b8c8; }
+  .status { border: 1px solid #caad72; color: #ffe0a3; border-radius: 999px; padding: 8px 13px; font-size: 13px; white-space: nowrap; }
+  .layout { display: grid; grid-template-columns: 250px minmax(0,1fr); height: calc(100vh - 76px); }
+  nav { padding: 19px 13px; border-right: 1px solid #444654; overflow-y: auto; }
+  nav p { margin: 0 9px 13px; color: #aaaebf; font-size: 12px; text-transform: uppercase; letter-spacing: .12em; }
+  nav button { display: block; width: 100%; border: 0; border-radius: 9px; margin: 3px 0; padding: 12px 13px; text-align: left; background: transparent; color: #e5e5ee; font: inherit; font-size: 14px; cursor: pointer; }
+  nav button:hover, nav button.active { background: #373d52; }
+  nav button.active { box-shadow: inset 3px 0 #efc684; }
+  main { min-width: 0; display: flex; flex-direction: column; }
+  .toolbar { display: flex; align-items: center; gap: 20px; padding: 13px 24px; border-bottom: 1px solid #444654; }
+  #title { font-weight: 650; min-width: 180px; }
+  .toolbar label { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #c9cad5; }
+  .toolbar input { width: 160px; }
+  .toolbar a { color: #efc684; font-size: 13px; }
+  .viewer { flex: 1; min-height: 0; overflow: auto; padding: 22px; background: #242733; }
+  #row { display: block; width: 100%; max-width: none; height: auto; background: #f1f0f4; box-shadow: 0 14px 40px #0006; }
+  .note { padding: 11px 24px 14px; color: #b8bac8; font-size: 13px; border-top: 1px solid #444654; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 170px minmax(0,1fr); } nav button { font-size: 12px; } }
+</style>
+</head>
+<body>
+<header>
+  <div><h1>Carol v008 · Human Geometry Review</h1><p>LOCKED reference / revision 14 / revision 17 / 50% overlay · Same neutral geometry in all views</p></div>
+  <span class="status">STATIC BLOCKED · Human Gate PENDING</span>
+</header>
+<div class="layout">
+  <nav aria-label="Review views"><p>チェック項目</p><div id="menu"></div></nav>
+  <main>
+    <div class="toolbar"><span id="title"></span><label>拡大 <input id="zoom" type="range" min="100" max="300" step="10" value="100"><span id="percent">100%</span></label><a href="skin-human-fit-review.png" target="_blank">比較シート全体</a></div>
+    <div class="viewer" id="viewer"><img id="row" alt="Selected four-column comparison"></div>
+    <div class="note">左右キーで項目を移動。3Q・Top はモデルから生成した診断視点であり、固定参照画像はありません。蹄・側面顔・頭胸のつながりは未承認です。</div>
+  </main>
+</div>
+<script>
+const names = ['Skin Front 全体','Skin Side 全体','顔 Front','顔 Side','蹄 Front','蹄 Side','尾 Side','3Q 診断','Top / 尾 診断'];
+const menu = document.querySelector('#menu'), image = document.querySelector('#row');
+let selected = 0;
+names.forEach((name, i) => {
+  const button = document.createElement('button');
+  button.textContent = `${String(i+1).padStart(2,'0')}  ${name}`;
+  button.onclick = () => select(i);
+  menu.append(button);
+});
+function select(i) {
+  selected = (i + names.length) % names.length;
+  image.src = `review-row-${String(selected+1).padStart(2,'0')}.png`;
+  image.alt = `${names[selected]}: locked, revision 14, revision 17, overlay`;
+  document.querySelector('#title').textContent = names[selected];
+  [...menu.children].forEach((button, j) => button.classList.toggle('active', j === selected));
+  document.querySelector('#viewer').scrollTo(0, 0);
+}
+document.querySelector('#zoom').oninput = event => {
+  const value = Number(event.target.value);
+  image.style.width = `${value}%`;
+  document.querySelector('#percent').textContent = `${value}%`;
+};
+document.addEventListener('keydown', event => {
+  if (event.key === 'ArrowRight') select(selected+1);
+  if (event.key === 'ArrowLeft') select(selected-1);
+});
+select(0);
+</script>
+</body>
+</html>

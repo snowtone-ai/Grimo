@@ -1,29 +1,11 @@
 {
-  "label": "DISPOSABLE GEOMETRY PREFLIGHT",
-  "selected_revision": 14,
+  "selected_revision": 17,
   "status": "NOT_RUN_STATIC_GATE_BLOCKED",
-  "reason": "Revision 14 still reads as a tire in Front and 3Q; the bounded static fit failed. Motion preflight requires a selected valid static candidate.",
-  "neutral_geometry_digest": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb",
-  "tail_virtual_contact_diagnostic": {
-    "neutral": {
-      "surface_intersection_pairs": 110
-    },
-    "up_20": {
-      "surface_intersection_pairs": 97
-    },
-    "down_20": {
-      "surface_intersection_pairs": 134
-    },
-    "lateral_L_7": {
-      "surface_intersection_pairs": 110
-    },
-    "lateral_R_7": {
-      "surface_intersection_pairs": 110
-    }
-  },
-  "cases": [],
-  "production_poses_saved": false,
-  "automatic_motion_pass": false,
-  "human_geometry_gate": "PENDING",
-  "saved_pose_neutral": true
+  "head_yaw_pitch": "NOT RUN on revision 17",
+  "blink": "NOT RUN on revision 17",
+  "support_shift": "NOT RUN on revision 17",
+  "tail_visual": "NOT RUN on revision 17; virtual surface intersections only",
+  "ear_gaze_roll": "NOT RUN; no selected valid static candidate",
+  "cheek_lean_clearance": "NOT REACHED; neutral Skin gate blocked",
+  "fleece_regional_clearance": "NOT REACHED; fleece not constructed"
 }

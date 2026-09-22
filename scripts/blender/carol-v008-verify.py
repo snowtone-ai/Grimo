@@ -70,6 +70,8 @@ def main():
     current=records()
     assert set(current)==expected
     assert not any(record['hidden'] for record in current.values())
+    torso=m['human_fit']['torso']['maximum_evaluated_width_H']
+    assert .598<=torso<=.600, torso
     checks={}
     for row,x,y in [('FORE',.390,.145),('HIND',.920,.245)]:
         for side,sign in [('L',1),('R',-1)]:
@@ -80,7 +82,19 @@ def main():
             assert abs(width/.219-1)<=.02
             assert abs(height/.111-1)<=.02
             assert abs(b['min'][2])<.0001
-            checks[f'HOOF_{row}_{side}']=dict(width_H=width,height_H=height,min_Z_H=b['min'][2])
+            hoof=bpy.data.objects[f'HOOF_{row}_{side}']
+            assert hoof['toe_lobe_count']==3 and hoof['cleft_count']==2
+            neighbors={v.index:set() for v in hoof.data.vertices}
+            for edge in hoof.data.edges:
+                a,c=edge.vertices
+                neighbors[a].add(c);neighbors[c].add(a)
+            reached={0};frontier=[0]
+            while frontier:
+                for index in neighbors[frontier.pop()]-reached:
+                    reached.add(index);frontier.append(index)
+            assert len(reached)==len(neighbors), 'Hoof mesh is disconnected'
+            checks[f'HOOF_{row}_{side}']=dict(width_H=width,height_H=height,
+                min_Z_H=b['min'][2],single_connected_mesh=True,continuous_sole=True)
     for side,sign in [('L',1),('R',-1)]:
         b=m['meshes']['EYE_'+side]
         width=b['max'][1]-b['min'][1];height=b['max'][2]-b['min'][2]
@@ -110,10 +124,10 @@ def main():
                        if geometric_record(current[name])!=geometric_record(previous[name]))
         frozen=sorted(name for name in set(current)&set(previous)
                       if geometric_record(current[name])==geometric_record(previous[name]))
-        expected_frozen={'SHORT_NECK_SOCKET','EAR_L','EAR_R','NOSE',
+        expected_frozen={'NOSE','SKIN_TAIL_CORE','SHORT_NECK_SOCKET',
                          'FORE_L','FORE_R','HIND_L','HIND_R'}
         assert expected_frozen<=set(frozen), sorted(expected_frozen-set(frozen))
-        assert {'TORSO_CAGE','HEAD_CAGE','MOUTH_closed','PHILTRUM','SKIN_TAIL_CORE',
+        assert {'TORSO_CAGE','HEAD_CAGE','EAR_L','EAR_R',
                 'HOOF_FORE_L','HOOF_FORE_R','HOOF_HIND_L','HOOF_HIND_R'}<=set(changed)
         result.update(baseline_records_sha256=hashlib.sha256(args.baseline_records.read_bytes()).hexdigest(),
                       changed_objects=changed,frozen_objects=frozen,

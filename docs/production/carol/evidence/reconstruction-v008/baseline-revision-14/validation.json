@@ -1,6 +1,6 @@
 {
-  "selected_revision": 17,
-  "reloaded_neutral_digest": "7b3b8d2f672f6e29b61b0c54d1207eac5c7be1998fc41a9b3fb348b9656d369a",
+  "selected_revision": 14,
+  "reloaded_neutral_digest": "22585dbb8c3a2d29905d1c67f32eddc9967f8555024c47415d57ce0631f13fbb",
   "clean_rebuild_matches_design": true,
   "reference_hashes_unchanged": true,
   "registration_unchanged": true,
@@ -8,39 +8,31 @@
     "HOOF_FORE_L": {
       "width_H": 0.21738478913903236,
       "height_H": 0.11198387225431361,
-      "min_Z_H": 1.3605455933429766e-05,
-      "single_connected_mesh": true,
-      "continuous_sole": true
+      "min_Z_H": 1.3605455933429766e-05
     },
     "HOOF_FORE_R": {
       "width_H": 0.21738478913903236,
       "height_H": 0.11198387225431361,
-      "min_Z_H": 1.3605455933429766e-05,
-      "single_connected_mesh": true,
-      "continuous_sole": true
+      "min_Z_H": 1.3605455933429766e-05
     },
     "HOOF_HIND_L": {
       "width_H": 0.21738480031490326,
       "height_H": 0.11198387225431361,
-      "min_Z_H": 1.3605455933429766e-05,
-      "single_connected_mesh": true,
-      "continuous_sole": true
+      "min_Z_H": 1.3605455933429766e-05
     },
     "HOOF_HIND_R": {
       "width_H": 0.21738480031490326,
       "height_H": 0.11198387225431361,
-      "min_Z_H": 1.3605455933429766e-05,
-      "single_connected_mesh": true,
-      "continuous_sole": true
+      "min_Z_H": 1.3605455933429766e-05
     },
     "EYE_L": {
       "width_H": 0.13699999451637268,
       "height_H": 0.14900001883506775,
       "center_Y_H": 0.16200000047683716,
       "average_normal": [
-        -0.6638777852058411,
-        0.728262722492218,
-        0.015338757075369358
+        -0.6945376992225647,
+        0.700951337814331,
+        0.015237626619637012
       ]
     },
     "EYE_R": {
@@ -48,9 +40,9 @@
       "height_H": 0.14900001883506775,
       "center_Y_H": -0.16200000047683716,
       "average_normal": [
-        -0.6640263795852661,
-        -0.728049099445343,
-        0.015395600348711014
+        -0.694695234298706,
+        -0.7007561922073364,
+        0.015169275924563408
       ]
     }
   },
@@ -84,12 +76,10 @@
   "keyframes": false,
   "boolean_or_remesh": false,
   "neutral_saved": true,
-  "generator_sha256": "9bf5088d7b5e881ae7f46a7f457824ac9e2fde9f96efe55ceaabe3f6b970e81c",
+  "generator_sha256": "66e36766ccb9975491f8d74abd28b7cd3e2567dec94f8134553581eee54cb688",
   "packed_pigment_sha256": "2e9645997958c20cf84096756f74c049637e40c58ee6b74f4b5c6715f498e1b8",
-  "baseline_records_sha256": "73612b271600cbb7e30212297707088d9c78a1607f6fe9f56c98344bb945ed70",
+  "baseline_records_sha256": "dc8e6404a98e2dbe6002c4abab5b99ef86fe2332221c66f0e6c6df94e99892e3",
   "changed_objects": [
-    "EAR_L",
-    "EAR_R",
     "EYELID_L",
     "EYELID_R",
     "EYE_L",
@@ -100,17 +90,19 @@
     "HOOF_HIND_L",
     "HOOF_HIND_R",
     "MOUTH_closed",
+    "PHILTRUM",
+    "SKIN_TAIL_CORE",
     "TORSO_CAGE"
   ],
   "frozen_objects": [
+    "EAR_L",
+    "EAR_R",
     "FORE_L",
     "FORE_R",
     "HIND_L",
     "HIND_R",
     "NOSE",
-    "PHILTRUM",
-    "SHORT_NECK_SOCKET",
-    "SKIN_TAIL_CORE"
+    "SHORT_NECK_SOCKET"
   ],
   "removed_objects": [],
   "added_objects": [],

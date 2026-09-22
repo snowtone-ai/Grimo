@@ -1,6 +1,6 @@
 """Skin gate comparisons; uses frozen registration exported by the build.
 
-python scripts/blender/carol-v008-evidence.py --revision 14
+python scripts/blender/carol-v008-evidence.py --revision 15
 Final/Normal packets are intentionally unavailable before the Skin gate.
 """
 import argparse
@@ -65,8 +65,9 @@ def face_detail(rows,path):
 
 
 def human_fit_sheet(data, baseline, directory):
-    """One seven-row review; every column in a row uses the same camera crop."""
+    """One review sheet; each four-column row uses the same camera crop."""
     width, height = 420, 214
+    prior_revision = json.loads((baseline/'measurements.json').read_text())['selected_geometry_revision']
     rows = [
         ('Full Skin Front', 'front', (25,200,600,550)),
         ('Full Skin Side', 'side', (25,200,600,550)),
@@ -76,7 +77,7 @@ def human_fit_sheet(data, baseline, directory):
         ('Side hooves', 'side', (125,465,495,545)),
         ('Side tail', 'side', (420,305,535,430)),
     ]
-    sheet=Image.new('RGB',(4*width,len(rows)*height),'#f1f0f4')
+    sheet=Image.new('RGB',(4*width,(len(rows)+2)*height),'#f1f0f4')
     draw=ImageDraw.Draw(sheet)
     for r,(title,view,crop) in enumerate(rows):
         key='skin-'+view
@@ -84,23 +85,39 @@ def human_fit_sheet(data, baseline, directory):
         reference=registered(data['reference_registration'][key],current.width)
         prior=Image.open(baseline/(key+'.png')).convert('RGBA')
         overlay=Image.blend(background(reference),background(current),.5)
-        for c,(label,im) in enumerate([('LOCKED',reference),('revision 12',prior),
-                                        ('revision 14',current),('50% overlay',overlay)]):
+        for c,(label,im) in enumerate([('LOCKED',reference),('revision '+str(prior_revision),prior),
+                                        ('revision '+str(data['selected_geometry_revision']),current),('50% overlay',overlay)]):
             x,y=c*width,r*height
             draw.text((x+8,y+6),title+' | '+label,fill='#242137')
             panel=background(im).crop(crop)
             panel.thumbnail((width-16,height-30),Image.Resampling.LANCZOS)
             sheet.paste(panel,(x+(width-panel.width)//2,y+27+(height-30-panel.height)//2))
+        sheet.crop((0,r*height,4*width,(r+1)*height)).save(directory/f'review-row-{r+1:02}.png')
+    for r,(title,view) in enumerate([('3Q derived','3q'),('Top / tail derived','top')],start=len(rows)):
+        prior=Image.open(baseline/('diagnostic-revision-'+str(prior_revision)+'-'+view+'.png')).convert('RGBA')
+        current=Image.open(directory/('diagnostic-'+view+'.png')).convert('RGBA')
+        overlay=Image.blend(background(prior),background(current),.5)
+        for c,(label,im) in enumerate([('DERIVED VIEW',None),('revision '+str(prior_revision),prior),
+                                        ('revision '+str(data['selected_geometry_revision']),current),('50% overlay',overlay)]):
+            x,y=c*width,r*height
+            draw.text((x+8,y+6),title+' | '+label,fill='#242137')
+            if im is None:
+                draw.multiline_text((x+28,y+85),'No locked 3Q / Top image\nSingle-model diagnostic only',fill='#6f6574',spacing=9)
+            else:
+                panel=background(im).crop((70,65,580,590))
+                panel.thumbnail((width-16,height-30),Image.Resampling.LANCZOS)
+                sheet.paste(panel,(x+(width-panel.width)//2,y+27+(height-30-panel.height)//2))
+        sheet.crop((0,r*height,4*width,(r+1)*height)).save(directory/f'review-row-{r+1:02}.png')
     sheet.save(directory/'skin-human-fit-review.png')
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision',type=int,choices=[14],default=14)
+    parser.add_argument('--revision',type=int,choices=[15,16,17],default=15)
     parser.add_argument('--publish-blocked',action='store_true',
                         help='Copy selected Skin evidence only; never implies a Human submission.')
     parser.add_argument('--baseline-directory',type=Path,
-                        default=ROOT/'docs/production/carol/evidence/reconstruction-v008/baseline-revision-12',
+                        default=ROOT/'docs/production/carol/evidence/reconstruction-v008/baseline-revision-14',
                         help='Prior pushed evidence for an explicitly labelled before/after sheet.')
     args = parser.parse_args()
     directory = ROOT/'tmp-carol-v008'/('revision-'+str(args.revision))
@@ -140,6 +157,7 @@ def main():
         face_detail(rows,directory/'skin-face-detail.png')
         human_fit_sheet(data,args.baseline_directory,directory)
         extra.extend(['skin-before-after.png','skin-face-detail.png','skin-human-fit-review.png'])
+        extra.extend(f'review-row-{i:02}.png' for i in range(1,10))
     if args.publish_blocked:
         if data.get('executor_disposition') not in {'BLOCKED_AT_V008_SKIN_REVISION_GATE',
                                                     'BLOCKED_AT_V008_SKIN_FINAL_FIT',
@@ -150,6 +168,9 @@ def main():
         for name in ['skin-front.png','skin-side.png','skin-front-overlay.png',
                      'skin-side-overlay.png','skin-review-sheet.png','measurements.json','validation.json']+extra:
             shutil.copy2(directory/name,final/name)
+        for view in ('3q','top'):
+            shutil.copy2(directory/f'diagnostic-{view}.png',
+                         final/f'diagnostic-revision-{args.revision}-{view}.png')
     print(directory/'skin-review-sheet.png')
 
 

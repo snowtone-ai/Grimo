@@ -1,9 +1,9 @@
 """Carol v008 structured cage prototype, built from an empty Blender scene.
 
-blender -b --python scripts/blender/build-carol-v008.py -- --revision 14
+blender -b --python scripts/blender/build-carol-v008.py -- --revision 17
 Only Skin is implemented until its dual-orthographic internal gate is resolved.
 No previous generator is imported. Controls are normalized by H=1.
-Continues pushed revision 12 at 4c3e55b. Local Human appeal fit, Skin only.
+Continues pushed revision 14 at 9ff90a7. Final bounded Skin convergence.
 The revision argument labels the selected output; no historical geometry switch.
 """
 import argparse
@@ -32,8 +32,8 @@ TORSO_STATIONS = [
     ('chest', .280, .158, .414, .176, .9),
     ('chest', .365, .118, .458, .248, .9),
     ('chest', .450, .103, .440, .284, .9),
-    ('abdomen', .575, .089, .414, .303, .9),
-    ('abdomen', .730, .092, .410, .305, .9),
+    ('abdomen', .575, .089, .414, .3055, .9),
+    ('abdomen', .730, .092, .410, .3075, .9),
     ('pelvis_rump', .865, .102, .417, .300, .85),
     ('pelvis_rump', .980, .145, .392, .248, .85),
     ('pelvis_rump', 1.043, .228, .357, .125, 1.0),
@@ -53,10 +53,10 @@ HEAD_SECTIONS = [
     (.460, .311, .254, .288),
     (.500, .320, .257, .277),
     (.570, .334, .253, .253),
-    (.630, .344, .210, .218),
-    (.674, .345, .148, .164),
-    (.697, .342, .072, .080),
-    (.703, .340, .015, .018),
+    (.635, .344, .210, .218),
+    (.689, .345, .148, .164),
+    (.716, .342, .072, .080),
+    (.722, .340, .015, .018),
 ]
 # The socket is deliberately broad, short and overlapped by head and chest.
 SOCKET_STATIONS = [
@@ -85,12 +85,12 @@ TAIL = {'pivot': (.985, 0, .355), 'base': .985, 'center': 1.032,
 # One 3D perimeter, independently controlled inner lip, and finite shell depth.
 # Positive-Y controls mirrored for the other ear; neither camera affects them.
 EAR_PERIMETER = [
-    (.390,.220,.611), (.440,.295,.600), (.530,.400,.540),
+    (.370,.215,.615), (.450,.295,.605), (.530,.400,.540),
     (.630,.510,.465), (.680,.570,.430), (.700,.590,.390),
     (.697,.590,.353), (.675,.561,.323), (.640,.520,.305),
     (.585,.460,.294), (.530,.402,.298), (.475,.341,.322),
-    (.430,.295,.362), (.398,.260,.428), (.375,.225,.510),
-    (.375,.215,.577),
+    (.430,.295,.362), (.398,.260,.428), (.350,.210,.505),
+    (.350,.205,.580),
 ]
 EAR_INNER_LIP = [
     (.402,.245,.530), (.445,.300,.468), (.515,.380,.430),
@@ -226,9 +226,9 @@ def horizontal_cage(name, sections, mat, y=0, face=False, n=16):
                 r=math.sqrt(u*u+v*v)
                 t=max(0,min(1,(1.75-r)/.65))
                 weight=t*t*(3-2*t)
-                target=.145+(abs(yy)-.162)*1.02+.006*v*v
+                target=.130+(abs(yy)-.162)*1.12+.006*v*v
                 xx=xx*(1-weight)+target*weight
-            vertices.append((xx, yy, z+.065*rear*low*low))
+            vertices.append((xx, yy, z+.025*rear*low*low))
     obj = mesh(name, vertices, ring_faces(len(sections), n), mat, 2)
     if face:
         for region,indices in [('LOWER_CHEEK',range(4)),('FACE',range(3,10)),
@@ -286,7 +286,7 @@ def tube(name, points, radius, mat):
 
 
 def hoof(name, x, y, mat):
-    # One planted sole and one crown, with three shallow anterior toe lobes.
+    # One planted sole; the anterior crown is three rounded Y/Z lobes.
     vertices = []
     n = 96
     rings = [(0,.80,.80),(.006,.90,.90),(.018,.98,.98),(.040,1,1),
@@ -297,16 +297,17 @@ def hoof(name, x, y, mat):
             theta = 2*math.pi*j/n
             c = math.cos(theta)
             yy = .1095*math.sin(theta)*y_scale
-            xx = (.105 if c < 0 else .085)*c*x_scale
-            frontness = max(0,-c)**1.5
-            cleft_signal = min(1,math.exp(-.5*((yy+.0365)/.010)**2)
-                               +math.exp(-.5*((yy-.0365)/.010)**2))
-            rise = min(1,max(0,(z-.010)/.015))
-            fall = min(1,max(0,(.105-z)/.030))
-            height_mask = rise*rise*(3-2*rise)*fall*fall*(3-2*fall)
-            cleft = cleft_signal*frontness*height_mask
-            xx += .011*cleft
-            zz = z+.0025*cleft
+            xx = (.075 if c < 0 else .076)*c*x_scale
+            frontness = max(0,-c)**1.25
+            # Peaks at -.073, 0 and +.073 H; valleys at +/-.0365 H.
+            lobe = .5+.5*math.cos(2*math.pi*yy/.073)
+            rise = min(1,max(0,(z-.008)/.016))
+            fall = min(1,max(0,(.088-z)/.025))
+            rise = rise*rise*(3-2*rise)
+            fall = fall*fall*(3-2*fall)
+            crown = frontness*rise*fall
+            xx -= .025*lobe*crown
+            zz = z-.004*(1-lobe)*crown
             vertices.append((x+xx, y+yy, zz))
     obj = mesh(name, vertices, ring_faces(len(rings),n), mat, 2)
     obj['toe_lobe_count'] = 3
@@ -528,7 +529,7 @@ def attachment_diagnostics():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision', type=int, choices=[14], default=14)
+    parser.add_argument('--revision', type=int, choices=[17], default=17)
     parser.add_argument('--resolution', type=int, default=640)
     options = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     output = TMP / ('revision-'+str(options.revision))
@@ -685,7 +686,7 @@ def main():
         torso=dict(stations=TORSO_STATIONS,
                    maximum_evaluated_width_H=torso_bbox['max'][1]-torso_bbox['min'][1],
                    central_control_vertical_thickness_H={'x_0_575':.414-.089,'x_0_730':.410-.092},
-                   central_control_maximum_width_H=2*.305,
+                   central_control_maximum_width_H=2*.3075,
                    evaluated_bbox=torso_bbox,
                    intersection_ratios_vs_revision_12=contact_ratios),
         lower_face=dict(half_width_Y_H={str(z):HEAD_SECTIONS[i][3]
@@ -697,7 +698,9 @@ def main():
                   evaluated_min_Z_H=hoof_bbox['min'][2],
                   front_extent_H=.390-hoof_bbox['min'][0],
                   rear_extent_H=hoof_bbox['max'][0]-.390,
-                  cleft_centers_local_Y_H=[-.0365,.0365],max_cleft_depth_H=.011,
+                  cleft_centers_local_Y_H=[-.0365,.0365],
+                  crown_max_anterior_lobe_projection_H=.025,
+                  crown_max_valley_Z_depression_H=.004,
                   sole_continuous=True,support_centers_unchanged=True),
         tail=dict(pivot=TAIL['pivot'],center_X_H=TAIL['center'],
                   nominal_length_H=TAIL['length'],nominal_diameter_H=TAIL['diameter'],
@@ -708,8 +711,8 @@ def main():
         stage='Skin identity reconstruction',human_geometry_gate='PENDING; not ready for submission',
         executor_disposition='BLOCKED_AT_V008_SKIN_IDENTITY_FIT',
         selected_geometry_revision=options.revision,
-        task_geometry_attempts=[13,14],prior_selected_revision=12,
-        baseline_commit='4c3e55b6f37f5491bf20a9bf95bbe6ea0b42ed3e',
+        task_geometry_attempts=[15,16,17],prior_selected_revision=14,
+        baseline_commit='9ff90a7aa1da45b2609092f33968f52bc6404fe7',
         generator_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         reference_hashes=REFERENCE_HASHES,reference_registration=REGISTRATION,
         geometry_digest=neutral_digest,view_geometry_digests=view_digests,
@@ -727,11 +730,11 @@ def main():
         attachment_diagnostics=diagnostics,
         motion_clearance={
             'status':'NOT_RUN_STATIC_GATE_BLOCKED',
-            'head_yaw_pitch':'NOT RUN on revision 14',
-            'blink':'NOT RUN on revision 14',
-            'support_shift':'NOT RUN on revision 14',
-            'tail_visual':'NOT RUN on revision 14; virtual surface intersections only',
-            'ear_gaze_roll':'NOT RUN; frozen area and no selected valid static candidate',
+            'head_yaw_pitch':'NOT RUN on revision 17',
+            'blink':'NOT RUN on revision 17',
+            'support_shift':'NOT RUN on revision 17',
+            'tail_visual':'NOT RUN on revision 17; virtual surface intersections only',
+            'ear_gaze_roll':'NOT RUN; no selected valid static candidate',
             'cheek_lean_clearance':'NOT REACHED; neutral Skin gate blocked',
             'fleece_regional_clearance':'NOT REACHED; fleece not constructed'},
         saved_pose='NEUTRAL',
@@ -739,10 +742,10 @@ def main():
         voxel_remesh_fleece=False,boolean_ear_recess=False,view_specific_geometry=False,
         normal_skin_identity='Normal not constructed; one neutral underbody only',
         production_rig=False,animation=False,final_retopology=False,
-        limitations=['Side eye has broad washed-out reflection and less vertical dominance than the locked image.',
-                     'Three hoof clefts exist in one mesh but remain weak in the rendered Front; tire read persists.',
-                     'Head/chest still has separate exterior owners; no continuous articulation solution adopted.',
-                     'Ear root remains narrow/abrupt; revision-9 distal bowl and root are unchanged.',
+        limitations=['Side eye remains washed-out and flatter than the locked Skin Side despite forward orbital adjustment.',
+                     'Three hoof crown lobes read somewhat better in Front but the hoof is still tire-like in 3Q; visual gate fails.',
+                     'Head/chest still has separate exterior owners; exact Boolean union did not resolve the visible crease and was rejected.',
+                     'Ear root perimeter is broader but its emergence remains abrupt; distal bowl is preserved.',
                      'Skin Front/Side registered skull/feature heights differ; no per-view correction used.',
                      'Technical diagnostics do not grant Human approval.'])
     (output/'measurements.json').write_text(json.dumps(result,indent=2)+'\n')
