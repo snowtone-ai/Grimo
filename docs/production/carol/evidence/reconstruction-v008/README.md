@@ -1,152 +1,123 @@
-# Carol v008 — bounded Skin continuation
+# Carol v008 — Skin final-fit continuation
 
-**STATUS: BLOCKED_AT_V008_SKIN_FINAL_FIT**
-
-**Selected revision: 5. Human Geometry Gate: PENDING; not ready for submission.**
-
-Ear distal shape and head-side curvature improve prior selected revision 2.
-Three local attempts ran (4–6); revision 6 was rejected. Root, inset,
-head/chest deformation and support fitting still prevent advancement.
+**BLOCKED_AT_V008_SKIN_FINAL_FIT.** Selected revision **9**. Human Geometry
+Gate **PENDING**, not ready for submission. The neutral model remains one
+shared Front/Side geometry. Its upper ear inset is slightly softer than
+revision 5; the ear root and head/chest junction remain material blockers.
 
 ## Source and reproduction
 
 - Branch: `codex/carol-final-reconstruction-v008`.
-- Fetched starting HEAD: `26cc5c79890d3bc10aaaece5802f3a63c323da0a`.
-  Local/remote matched; worktree was clean.
+- Clean starting local/remote HEAD:
+  `0fb3d38a67763eb87c780c848a8cbbefdf532942`.
 - Asset: `assets/grimo/production/carol/blender/carol-v008.blend`.
 - Generator: `scripts/blender/build-carol-v008.py`.
 - Evidence: `scripts/blender/carol-v008-evidence.py`.
 - Disposable probes: `scripts/blender/carol-v008-clearance.py`.
 - Blender **5.2.1 LTS**, build `9e2066aef7ef`; Python/Pillow for sheets.
-- Existing session, one agent, no subagents; same geometry phase/toolset.
-  Blender CLI/background only; no configuration, plugin or MCP changes.
 
 ```powershell
-blender -b --python scripts/blender/build-carol-v008.py -- --revision 5
+blender -b --python scripts/blender/build-carol-v008.py -- --revision 9
 blender -b assets/grimo/production/carol/blender/carol-v008.blend --python scripts/blender/carol-v008-clearance.py
-python scripts/blender/carol-v008-evidence.py --revision 5 --include-clearance --publish-blocked
+python scripts/blender/carol-v008-evidence.py --revision 9 --include-clearance --publish-blocked
 ```
 
-The generator always contains selected revision-5 controls. `--revision` labels
-output only; it does not switch historical geometry. Rejected source snapshots
-remain local. Build outputs use `tmp-carol-v008/revision-5/`; probes use
-`tmp-carol-v008/clearance-selected/`. No diagnostic pose is saved to the asset.
+The generator contains selected revision-9 controls only. Its revision option
+labels output and does not reconstruct rejected historical geometry. Build
+outputs use `tmp-carol-v008/revision-9/`; probes use
+`tmp-carol-v008/clearance-selected/`. To remake the before/after sheet from a
+saved revision-5 evidence directory, add
+`--baseline-directory <revision-5-evidence-directory>` to the evidence
+command. The published sheet uses revision-5 evidence captured before edits.
 
-The before/after sheet uses prior pushed revision-2 evidence captured before
-editing. Reproduce it by adding `--baseline-directory <prior-evidence-directory>`
-to the evidence command. Reference registration and hashes must agree.
+## Representation diagnosis
 
-## Diagnosis and decision
-
-| Area | Root cause | Selected solution |
+| Area | Visible symptom and owning geometry | Underlying cause, cross-view risk and deformation consequence |
 | --- | --- | --- |
-| Ear | Swept ellipses coupled taper and frame orientation; a pink longitudinal face strip did not define a rim-bounded bowl. | Explicit 16-point 3D perimeter, independent inner lip and seven closed shell loops. Control depth separately from silhouette. |
-| Head / chest read | Front/back powers 2.7/.85 met at the widest side with zero/infinite slopes, producing a vertical ridge. Closed head/socket/torso overlap also lacks shared transition tangency. | Tangent-matched side-band interpolation and smooth rear-only underside lift. Preserve central frontage and head placement; keep chest unchanged. |
-| Support | Proximal mass and Front hoof overlap remain imperfect; placements are frozen. | Preserve them in this task and report remaining shape work. |
+| Ear root/inset | Side root is narrow; the upper pink boundary makes a hard fold. `EAR_L/R` own both. | The seven-loop rim/bowl topology closes as one oval at the skull and lacks a separately resolved emergence saddle. Moving perimeter controls alone exposes a hook in Side and alters Front width. A narrow pinch limits independent root motion. |
+| Head/chest | A line remains beneath the jaw; rigid head probes slide over the chest. `HEAD_CAGE`, `TORSO_CAGE` and buried `SHORT_NECK_SOCKET` share the junction. | Separate closed exteriors intersect without shared tangency or deformation ownership. Deleting the buried socket cannot solve the visible seam. A simple continuous chin-to-torso ring bridge instead produced a hard underside, so a local matched boundary is needed. Changes here can alter both Side jaw and Front chest/cheek. |
+| Front cheek | Lower cranial outline is more square than locked Skin Front. `HEAD_CAGE` owns it. | Its current lower horizontal sections are broad; narrowing them blindly risks large-eye/face scale and the improved Side profile. No cheek change was selected. |
+| Proximal supports | Front hoof overlap and Side upper-limb masses differ from locked Skin. Fore/hind limb cages and hooves own them. | Root taper, bury depth and torso emergence need local fitting; moving frozen support centers would violate the contract. Work was not reached because ear and head/chest remained blocked. |
 
-Scaling/rotating the bad ear, retracting whole jaw rings, shrinking/moving the
-head and enlarging the chest to hide the join were rejected as strategies.
-A wholesale fused body would exceed this local task and would not establish
-articulation. The socket is already buried; deleting it alone cannot repair
-surface ownership. The selected ear shares topology across back shell, rim and
-bowl; it is not a flat card or separate pink overlay. ROOT/MID/TIP weights
-support later local control, but are not a production skinning setup.
+The registered Front/Side skull-height discrepancy remains in the references.
+It was not corrected with camera-dependent shape, scale or registration.
 
-## Attempts
+## Three bounded attempts
 
-| Revision | Change | Both-view decision |
+| Revision | Hypothesis and both-view observation | Decision |
 | --- | --- | --- |
-| Prior 2 | Pushed baseline. | Attached tail/fixed supports; triangular ear and vertical cranial ridge. |
-| 4 / attempt 1 | Perimeter/rim/bowl ear shell. | Rounder distal Front/Side outline and readable inset. Retained; narrow root/upper fold remain. |
-| 5 / attempt 2 | Smooth cranial side join and rear underside. | Removes vertical ridge; softer rising jaw; Front equivalent. **Selected.** |
-| 6 / attempt 3 | Broaden ear root, soften inset depth and broaden first chest stations. | Exposed hooked Side root and abrupt Front attachment; insufficient chest benefit. **Rejected in full.** |
+| 7 | Move root perimeter and upper lip to widen/soften emergence. Front remained close, but Side developed a sharper exposed root. | Rejected in full. |
+| 8 | Replace separate head/socket/torso exteriors with one semantically grouped head-to-torso cage and short graded bridge. Both views showed a hard triangular underside; it did not read as Carol's soft short transition. | Rejected in full. |
+| 9 | Preserve revision-5 outer perimeter and rounded distal bowl. Add buried back-shell saddle controls, ease upper inner lip curvature. Front and Side retain silhouettes; the upper inset fold is mildly softer. | Selected as a limited improvement. |
 
-Exact revision-5 geometry controls were restored. Final deterministic rebuilds
-did not introduce another geometry attempt. Rejected revision 3 is historical
-evidence only, not an implementation source.
+No fourth geometry attempt ran. The simple full-ring bridge failure is
+specific to that construction; it does not rule out a better local exterior
+ownership solution. Rejected [revision 7](rejected-revision-7-sheet.png) and
+[revision 8](rejected-revision-8-sheet.png) sheets retain their two-view
+overlay evidence. [Revision 6](rejected-revision-6-sheet.png) and
+[revision 3](rejected-revision-3-sheet.png) remain historical evidence.
 
-## Changed and frozen geometry
+## Selected geometry and frozen controls
 
-Only **HEAD_CAGE, EAR_L, EAR_R** changed against the starting blend. Comparison
-covered coordinates, world matrices, oriented face connectivity, material slots,
-modifiers and render visibility. UV-sphere face enumeration differs between
-builds; canonical oriented connectivity agrees.
+Only **`EAR_L` and `EAR_R`** changed against pushed revision 5. Each retains
+112 controls, 110 quads, subdivision level 2 and ROOT/MID/TIP weights.
+`EAR_PERIMETER` is exactly unchanged; the edited `EAR_INNER_LIP` and buried
+`EAR_ROOT_SADDLE` are recorded in `measurements.json`. The selected ear has a
+softer upper inset but still does not achieve the broad rooted Side reference.
 
-- Ears: **112 vertices / 110 quads each**, previously 128/126. Seven loops,
-  rolled rim, recessed bowl and graded ROOT/MID/TIP groups. Positive-ear bounds:
-  X=.37363–.69578, Y=.21955–.58821, Z=.29723–.60051 H; mirrored opposite ear.
-- Head: **240 vertices / 238 quads** retained. Side profile joins original
-  powers at cos(theta)=+/-.70 with matching tangents. Smooth rear lower lift,
-  capped by .065 H control displacement. **70 central-front vertices unchanged**.
-  Evaluated X/Y bounds and maximum Z=.70294 H stay fixed. Minimum Z changes
-  .22308→.22800 H through underside smoothing. No head move, scaling or muzzle extension.
-- Eyes, eyelids, glints/irises, tiny nose, closed mouth and philtrum unchanged.
-- Torso, short socket, four limbs/hooves and tail core unchanged. Support
-  X=.390/.920; fore Y=+/-.145; hind Y=+/-.245 H.
-- Tail pivot=(.985,0,.355); core X=.98963–1.07437 H; rump overlap=.06226 H.
-  Independent tail architecture and all twelve debug landmarks retained.
-- Four references/hashes, registration, cameras, materials and geometry contract
-  unchanged. No new contract interpretation was needed.
+Renderable object comparison used coordinates, world transforms, oriented
+face connectivity, materials, modifiers and render visibility. All other
+renderables match revision 5, including `HEAD_CAGE`, eyes/lids/irises/glints,
+tiny nose, closed mouth, `TORSO_CAGE`, `SHORT_NECK_SOCKET`, four limbs/hooves
+and the attached independent tail. In particular, central face controls,
+head placement and cheek outline did not change.
 
-## Visual results and motion limits
+Frozen support centers: FORE X=.390, Y=+/-.145 H; HIND X=.920,
+Y=+/-.245 H. Tail pivot=(.985,0,.355), Skin core and rump overlap unchanged.
+Four reference files, SHA-256 hashes, H=1 registration, cameras and geometry
+contract remain unchanged. No fleece, Normal exterior, final retopology,
+armature, production animation, Boolean/remesh, GLB or runtime work was added.
 
-| Check | Finding |
-| --- | --- |
-| Skin Front | Better rounded ear/rim; face and grounded stance retained. Head remains squarer; proximal and hoof overlap still differ. |
-| Skin Side | Rounded distal ear replaces triangular taper; cranial ridge removed and rear jaw softened. Root and upper inset fold still miss the reference. |
-| Head/chest | More coherent neutral read without a new long neck. Separate overlapping surfaces are not a deforming anatomical bridge. |
-| Head yaw +/-8 degrees Z | No obvious immediate detachment; jaw/chest overlap slides. Far-ear visibility changes with rotation. |
-| Head pitch +/-6 degrees Y | No open gap/catastrophic collapse observed; underside boundary shifts and retains a seam. |
-| Head roll +/-5 degrees X | Contact visually retained in small rigid tilts; asymmetric overlap is not soft deformation. |
-| Right-ear sweep +/-8 degrees Z | No obvious root tear/detachment; bowl readable, upper inset fold persists. Root deformation/follow-through untested. |
-| Support / tail | Fixed during probes; planted read and repaired tail attachment retained. Dynamic COM/support transfer untested. |
+## Motion clearance and limits
 
-All eight transformed states were rendered and inspected in both locked views.
-Head probes rotate head, face and both ears about (.410,0,.370); socket/torso
-stay fixed. Ear-only probes rotate EAR_R about (.397,-.221,.565). These are
-**disposable rigid transforms, not animation or deformation approval**.
+Both views were inspected at head yaw +/-8 degrees, pitch +/-6 degrees, roll
++/-5 degrees and independent right-ear sweep +/-8 degrees. The bowl remains
+readable in the small ear sweep, with no obvious gap or collapse. Head/chest
+surfaces still slide in the rigid head probes; no soft junction deformation was
+demonstrated. Far-ear visibility changes under head rotation as expected.
 
-Each probe restored the exact neutral digest; the diagnostic left the blend
-file unchanged. No rig, keyframe or pose was saved. Cheek/forehead lean, blink,
-COM transfer, forelimb adjustment and fleece clearance remain untested. Future
-deformation must solve the sliding head/chest boundary and ear-root emergence.
+The disposable script restores exact neutral channels after each pose and
+checks the neutral geometry digest and asset bytes. It creates no rig,
+keyframe or saved pose. Cheek/forehead lean, blink, COM transfer and support
+adjustment remain untested. These probes reject obvious failures only; they
+are **not motion approval or a Human Geometry PASS**.
 
-Numerical tail surface-contact counts remain 92 neutral, 81 up 20 degrees,
-98 down 20 degrees, and 92 at either lateral 7 degrees. These establish contact
-only; they do not approve penetration quality, motion or Human geometry.
+## Technical checks and evidence
 
-## Technical validation
+The selected clean build, reloaded `.blend`, both camera digests and motion
+restoration agree at
+`a0e09b0deb26d349445cbb2ede3380f2f8d4133b1b7968e773a65d81f6ea270e`.
+Reference hashes/registration, frozen object comparison, supports, tail,
+unapplied quad subdivision and neutral save passed. The tail's evaluated
+surface contact remains at all prescribed static pivots; contact counts are
+not a penetration-quality or motion result. `measurements.json` records the
+exact geometry and diagnostic values. No unrelated app tests ran.
 
-Clean rebuild and independent deterministic rebuild produced neutral digest
-**a5fd36d929b747e48c6558f14a88bf03a536fd5b963f69964075a147be6a4dcb**.
-Both cameras and the reloaded asset match it. Frozen-object comparison,
-reference hashes/registration, fixed supports, planted hoof minima (.0000224 H),
-landmarks and resolved reference paths passed. Source hashes are recorded in
-measurements and the motion report.
-
-Primary cages retain quads and unapplied subdivision. No hidden alternate body,
-Boolean/remesh, armature, production animation, old v007 import or view-specific
-geometry was introduced. Python sources parse; diff whitespace is checked.
-No unrelated application tests ran. Technical checks do not grant Human PASS.
-
-## Evidence and next bounded task
-
-- [Before / after](skin-before-after.png): LOCKED / prior 2 / selected 5.
-- [Registered review](skin-review-sheet.png): LOCKED / selected / 50% overlay.
+- [Before / after revision 5 → 9](skin-before-after.png).
+- [Registered review sheet](skin-review-sheet.png).
 - [Front](skin-front.png), [Side](skin-side.png),
   [Front overlay](skin-front-overlay.png), [Side overlay](skin-side-overlay.png).
 - [Yaw](clearance-head-yaw.png), [Pitch](clearance-head-pitch.png),
-  [Roll](clearance-head-roll.png), [Ear sweep](clearance-ear-sweep.png).
-- [Motion report](motion-clearance.json), [Measurements](measurements.json).
-- [Rejected revision 6](rejected-revision-6-sheet.png);
-  [historical rejected revision 3](rejected-revision-3-sheet.png).
+  [Roll](clearance-head-roll.png), [Ear sweep](clearance-ear-sweep.png),
+  [motion report](motion-clearance.json), [measurements](measurements.json).
 
-Main overlays retain H=1 registration and 1.52-H orthographic span. Before/after
-and diagnostic panels share fixed crop (25,200)–(600,550) of 640-pixel renders
-solely to remove empty framing; no fitted rescaling or per-view correction.
-The registered Front/Side skull-height discrepancy remains visible.
+Main overlays retain H=1 registration and 1.52-H orthographic span.
+Before/after and diagnostic panels use the same fixed crop
+`(25,200)–(600,550)` from 640-pixel renders solely to remove empty framing.
+There is no fitted or per-view geometric correction.
 
-**CHATGPT_PLANNER:** scope ear-root/inset curvature and head/chest surface
-ownership next, then reassess proximal silhouettes at frozen support centers.
-Retain the improved bowl and smooth cranial side profile. Fleece, Normal and
-subsequent production phases remain unstarted. Human Gate remains **PENDING**.
+**CHATGPT_PLANNER:** use this pushed packet to scope a bounded local
+head/chest exterior boundary with matched tangents and deformation ownership,
+plus a true broad ear-root emergence. Preserve revision-5/9 distal bowl,
+central face and fixed supports. Reassess proximal fitting only after both
+authority Skin views improve. Human Gate stays **PENDING**.

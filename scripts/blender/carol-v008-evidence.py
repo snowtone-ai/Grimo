@@ -1,6 +1,6 @@
 """Skin gate comparisons; uses frozen registration exported by the build.
 
-python scripts/blender/carol-v008-evidence.py --revision 5
+python scripts/blender/carol-v008-evidence.py --revision 9
 Final/Normal packets are intentionally unavailable before the Skin gate.
 """
 import argparse
@@ -52,7 +52,7 @@ def comparison_sheet(rows, path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision',type=int,choices=[4,5,6],default=5)
+    parser.add_argument('--revision',type=int,choices=[9],default=9)
     parser.add_argument('--publish-blocked',action='store_true',
                         help='Copy selected Skin evidence only; never implies a Human submission.')
     parser.add_argument('--baseline-directory',type=Path,

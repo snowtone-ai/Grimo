@@ -31,7 +31,7 @@ def main():
     assert not any(o.type == 'ARMATURE' or o.animation_data for o in scene.objects)
     asset_hash = hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest()
     neutral = BUILD['geometry_digest']()
-    measurements = json.loads((ROOT/'tmp-carol-v008/revision-5/measurements.json').read_text())
+    measurements = json.loads((ROOT/'tmp-carol-v008/revision-9/measurements.json').read_text())
     assert neutral == measurements['geometry_digest']
     OUTPUT.mkdir(parents=True,exist_ok=True)
     head = [o for o in scene.objects if o.name == 'HEAD_CAGE' or
@@ -80,7 +80,7 @@ def main():
         bpy.context.view_layer.update()
     assert BUILD['geometry_digest']() == neutral
     assert hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest() == asset_hash
-    report = dict(neutral_geometry_digest=neutral,selected_revision=5,
+    report = dict(neutral_geometry_digest=neutral,selected_revision=9,
                   method='Rigid disposable head assembly and independent right-ear root rotations; no skinning.',
                   diagnostic_script_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                   head_pivot_scope='Head, face and both ears; torso/socket/support/tail stay neutral.',

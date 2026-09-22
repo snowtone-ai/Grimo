@@ -1,19 +1,19 @@
 {
   "blender": "5.2.1 LTS",
-  "revision": 5,
+  "revision": 9,
   "stage": "Skin final fit",
   "human_geometry_gate": "PENDING; not ready for submission",
   "executor_disposition": "BLOCKED_AT_V008_SKIN_FINAL_FIT",
-  "selected_geometry_revision": 5,
-  "skin_revision_render_cycles_completed": 3,
+  "selected_geometry_revision": 9,
+  "skin_revision_render_cycles_completed": 6,
   "task_geometry_attempts": [
-    4,
-    5,
-    6
+    7,
+    8,
+    9
   ],
-  "prior_selected_revision": 2,
-  "baseline_commit": "26cc5c79890d3bc10aaaece5802f3a63c323da0a",
-  "generator_sha256": "1344bcd43f0dff27bfc9c87eb407b1ec8db3d9ffaef99540260fb399e2049d49",
+  "prior_selected_revision": 5,
+  "baseline_commit": "0fb3d38a67763eb87c780c848a8cbbefdf532942",
+  "generator_sha256": "4e50202205861802528306f5b4ca678179cc92039f767e2e95460d9de1406264",
   "reference_hashes": {
     "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
     "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
@@ -50,10 +50,10 @@
       "view": "side"
     }
   },
-  "geometry_digest": "a5fd36d929b747e48c6558f14a88bf03a536fd5b963f69964075a147be6a4dcb",
+  "geometry_digest": "a0e09b0deb26d349445cbb2ede3380f2f8d4133b1b7968e773a65d81f6ea270e",
   "view_geometry_digests": {
-    "front": "a5fd36d929b747e48c6558f14a88bf03a536fd5b963f69964075a147be6a4dcb",
-    "side": "a5fd36d929b747e48c6558f14a88bf03a536fd5b963f69964075a147be6a4dcb"
+    "front": "a0e09b0deb26d349445cbb2ede3380f2f8d4133b1b7968e773a65d81f6ea270e",
+    "side": "a0e09b0deb26d349445cbb2ede3380f2f8d4133b1b7968e773a65d81f6ea270e"
   },
   "support_targets": {
     "FORE": {
@@ -162,24 +162,24 @@
     ],
     "inner_lip": [
       [
-        0.392,
-        0.236,
-        0.515
+        0.402,
+        0.245,
+        0.53
       ],
       [
-        0.43,
-        0.28,
-        0.45
+        0.445,
+        0.3,
+        0.468
       ],
       [
-        0.51,
-        0.37,
-        0.403
+        0.515,
+        0.38,
+        0.43
       ],
       [
         0.595,
         0.47,
-        0.421
+        0.429
       ],
       [
         0.655,
@@ -227,21 +227,48 @@
         0.383
       ],
       [
-        0.415,
-        0.27,
-        0.429
+        0.425,
+        0.275,
+        0.44
+      ],
+      [
+        0.4,
+        0.255,
+        0.49
       ],
       [
         0.395,
-        0.246,
-        0.48
-      ],
-      [
-        0.389,
-        0.236,
-        0.513
+        0.24,
+        0.525
       ]
-    ]
+    ],
+    "root_saddle": {
+      "13": [
+        0.385,
+        0.24,
+        0.445
+      ],
+      "14": [
+        0.36,
+        0.21,
+        0.5
+      ],
+      "15": [
+        0.36,
+        0.21,
+        0.56
+      ],
+      "0": [
+        0.38,
+        0.22,
+        0.59
+      ],
+      "1": [
+        0.415,
+        0.26,
+        0.59
+      ]
+    }
   },
   "meshes": {
     "TORSO_CAGE": {
@@ -378,14 +405,14 @@
         "SUBSURF"
       ],
       "min": [
-        0.3736332654953003,
-        0.2195539027452469,
+        0.37458115816116333,
+        0.21294653415679932,
         0.29723235964775085
       ],
       "max": [
         0.6957758069038391,
         0.5882143378257751,
-        0.6005114316940308
+        0.603488028049469
       ]
     },
     "FORE_R": {
@@ -468,14 +495,14 @@
         "SUBSURF"
       ],
       "min": [
-        0.3736332058906555,
+        0.37458112835884094,
         -0.5882143974304199,
         0.29723235964775085
       ],
       "max": [
         0.6957757472991943,
-        -0.21955391764640808,
-        0.6005114912986755
+        -0.21294651925563812,
+        0.603488028049469
       ]
     },
     "SKIN_TAIL_CORE": {
@@ -733,9 +760,9 @@
   "animation": false,
   "final_retopology": false,
   "limitations": [
-    "Ear distal bowl is rounder in both views; root and upper inset curvature still need fitting.",
-    "Head side ridge removed; short head/chest overlap is not yet a deformation solution.",
-    "Proximal roots improved but support silhouettes remain insufficiently reference-fitted.",
+    "Ear upper inset fold is marginally softer; narrow Side root is still unresolved.",
+    "Separate head/chest exterior owners still slide under rigid probes.",
+    "Proximal support silhouettes remain insufficiently reference-fitted.",
     "Skin Side support registration and Skin Front imply different skull heights.",
     "Technical diagnostics do not grant Human approval."
   ]

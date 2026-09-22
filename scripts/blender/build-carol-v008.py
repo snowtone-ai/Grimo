@@ -1,11 +1,11 @@
 """Carol v008 structured cage prototype, built from an empty Blender scene.
 
-blender -b --python scripts/blender/build-carol-v008.py -- --revision 5
+blender -b --python scripts/blender/build-carol-v008.py -- --revision 9
 Only Skin is implemented until its dual-orthographic internal gate is resolved.
 No previous generator is imported. Controls are normalized by H=1.
-Continues pushed revision 2 at 26cc5c7; selected continuation revision 5.
-Three local attempts (4-6); revision 6's exposed hooked ear root was rejected.
-The revision argument labels output only. It does not switch geometry.
+Continues pushed revision 5 at 0fb3d38. Final-fit attempts 7-9; revision 9
+retains a local ear-root/inset refinement. The revision argument labels output
+only; it does not switch historical geometry.
 """
 import argparse
 import hashlib
@@ -88,13 +88,17 @@ EAR_PERIMETER = [
     (.375,.215,.577),
 ]
 EAR_INNER_LIP = [
-    (.392,.236,.515), (.430,.280,.450), (.510,.370,.403),
-    (.595,.470,.421), (.655,.540,.420), (.670,.554,.388),
+    (.402,.245,.530), (.445,.300,.468), (.515,.380,.430),
+    (.595,.470,.429), (.655,.540,.420), (.670,.554,.388),
     (.661,.546,.350), (.637,.518,.329), (.608,.485,.317),
     (.565,.436,.310), (.518,.382,.320), (.475,.334,.344),
-    (.444,.302,.383), (.415,.270,.429), (.395,.246,.480),
-    (.389,.236,.513),
+    (.444,.302,.383), (.425,.275,.440), (.400,.255,.490),
+    (.395,.240,.525),
 ]
+EAR_ROOT_SADDLE = {
+    13:(.385,.240,.445),14:(.360,.210,.500),15:(.360,.210,.560),
+    0:(.380,.220,.590),1:(.415,.260,.590),
+}
 REGISTRATION = {
     'normal-front': dict(file='carol_front.png', h=1011, ground=1162, origin=626.5, view='front'),
     'normal-side': dict(file='carol_side.png', h=916, ground=998, origin=144, view='side'),
@@ -297,6 +301,10 @@ def ear(name, sign, brown, pink):
         [center+(p-center)*.60-normal*.001 for p in inside],
         [center+(p-center)*.025-normal*.006 for p in inside],
     ]
+    # The back shell has a buried, rounded saddle under the skull. Its distal
+    # perimeter and bowl stay unchanged; the rim fades into this wider root.
+    for index,co in EAR_ROOT_SADDLE.items():
+        loops[1][index] = Vector(co)
     vertices = [(p.x,sign*p.y,p.z) for loop in loops for p in loop]
     n = len(outside)
     obj = mesh(name, vertices, ring_faces(len(loops),n), brown, 2)
@@ -381,7 +389,7 @@ def attachment_diagnostics():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--revision', type=int, choices=[4,5,6], default=5)
+    parser.add_argument('--revision', type=int, choices=[9], default=9)
     parser.add_argument('--resolution', type=int, default=640)
     options = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     output = TMP / ('revision-'+str(options.revision))
@@ -408,7 +416,7 @@ def main():
     scene.render.threads = 12
     scene['authority'] = 'Four FINAL LOCKED references + CAROL_GEOMETRY_PARAMETERS.md'
     scene['coordinate_contract'] = 'H=1; X front to rear; Y bilateral; Z up; ground Z=0'
-    scene['stage'] = 'BLOCKED_AT_V008_SKIN_FINAL_FIT; selected revision 5; Human Gate PENDING'
+    scene['stage'] = 'BLOCKED_AT_V008_SKIN_FINAL_FIT; selected revision 9; Human Gate PENDING'
     scene['saved_pose'] = 'NEUTRAL'
     cream = material('DEBUG warm skin',(.83,.67,.55))
     brown = material('DEBUG cocoa',(.19,.075,.039))
@@ -529,14 +537,15 @@ def main():
     result = dict(blender=bpy.app.version_string,revision=options.revision,
         stage='Skin final fit',human_geometry_gate='PENDING; not ready for submission',
         executor_disposition='BLOCKED_AT_V008_SKIN_FINAL_FIT',
-        selected_geometry_revision=5,skin_revision_render_cycles_completed=3,
-        task_geometry_attempts=[4,5,6],prior_selected_revision=2,
-        baseline_commit='26cc5c79890d3bc10aaaece5802f3a63c323da0a',
+        selected_geometry_revision=9,skin_revision_render_cycles_completed=6,
+        task_geometry_attempts=[7,8,9],prior_selected_revision=5,
+        baseline_commit='0fb3d38a67763eb87c780c848a8cbbefdf532942',
         generator_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         reference_hashes=REFERENCE_HASHES,reference_registration=REGISTRATION,
         geometry_digest=neutral_digest,view_geometry_digests=view_digests,
         support_targets=SUPPORT,tail_controls=TAIL,
-        ear_controls=dict(perimeter=EAR_PERIMETER,inner_lip=EAR_INNER_LIP),meshes=meshes,
+        ear_controls=dict(perimeter=EAR_PERIMETER,inner_lip=EAR_INNER_LIP,
+                          root_saddle=EAR_ROOT_SADDLE),meshes=meshes,
         tail_core_rump_X_overlap_H=meshes['TORSO_CAGE']['max'][0]-meshes['SKIN_TAIL_CORE']['min'][0],
         tail_fleece_shell='NOT CONSTRUCTED; Skin gate prerequisite',
         debug_landmarks={obj.name:list(obj.location) for obj in scene.objects if obj.get('NON_PRODUCTION')},
@@ -556,9 +565,9 @@ def main():
         voxel_remesh_fleece=False,boolean_ear_recess=False,view_specific_geometry=False,
         normal_skin_identity='Normal not constructed; one neutral underbody only',
         production_rig=False,animation=False,final_retopology=False,
-        limitations=['Ear distal bowl is rounder in both views; root and upper inset curvature still need fitting.',
-                     'Head side ridge removed; short head/chest overlap is not yet a deformation solution.',
-                     'Proximal roots improved but support silhouettes remain insufficiently reference-fitted.',
+        limitations=['Ear upper inset fold is marginally softer; narrow Side root is still unresolved.',
+                     'Separate head/chest exterior owners still slide under rigid probes.',
+                     'Proximal support silhouettes remain insufficiently reference-fitted.',
                      'Skin Side support registration and Skin Front imply different skull heights.',
                      'Technical diagnostics do not grant Human approval.'])
     (output/'measurements.json').write_text(json.dumps(result,indent=2)+'\n')

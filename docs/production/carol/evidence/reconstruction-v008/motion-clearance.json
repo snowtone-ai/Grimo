@@ -1,8 +1,8 @@
 {
-  "neutral_geometry_digest": "a5fd36d929b747e48c6558f14a88bf03a536fd5b963f69964075a147be6a4dcb",
-  "selected_revision": 5,
+  "neutral_geometry_digest": "a0e09b0deb26d349445cbb2ede3380f2f8d4133b1b7968e773a65d81f6ea270e",
+  "selected_revision": 9,
   "method": "Rigid disposable head assembly and independent right-ear root rotations; no skinning.",
-  "diagnostic_script_sha256": "43d78d38530bc005940a648887d6768feda5495d2a439da5ba336a44f4a549f3",
+  "diagnostic_script_sha256": "1489580b831bd13aae12a93eeeb9c4f2f7284b3d481e7e8d60ed785b7899456e",
   "head_pivot_scope": "Head, face and both ears; torso/socket/support/tail stay neutral.",
   "cases": [
     {
@@ -32,8 +32,8 @@
         "NOSE"
       ],
       "view_geometry_digests": {
-        "front": "3a4e7bb5dc4c946d2fcb178b0c54316f6849523f34cb0a93863ff09dc69ad003",
-        "side": "3a4e7bb5dc4c946d2fcb178b0c54316f6849523f34cb0a93863ff09dc69ad003"
+        "front": "b494fd08aa2d8ec260e5506dac15e0f5a79377ca8848939e5a17a2aaa509331f",
+        "side": "b494fd08aa2d8ec260e5506dac15e0f5a79377ca8848939e5a17a2aaa509331f"
       },
       "neutral_restored": true
     },
@@ -64,8 +64,8 @@
         "NOSE"
       ],
       "view_geometry_digests": {
-        "front": "d6c08aac3c46024c05d196f41574c1c87563b796ca7ad81d5650d82bed64bb29",
-        "side": "d6c08aac3c46024c05d196f41574c1c87563b796ca7ad81d5650d82bed64bb29"
+        "front": "b984563d9ef8961b844085441e8d28f36702c46fa5331b859e82f052d1832770",
+        "side": "b984563d9ef8961b844085441e8d28f36702c46fa5331b859e82f052d1832770"
       },
       "neutral_restored": true
     },
@@ -96,8 +96,8 @@
         "NOSE"
       ],
       "view_geometry_digests": {
-        "front": "d587f87c2eef0091ebb66af8cc970459e636f69f8f3587d8ddfc7edd718330e4",
-        "side": "d587f87c2eef0091ebb66af8cc970459e636f69f8f3587d8ddfc7edd718330e4"
+        "front": "5dc61005da3218d6c7b4c71f5cf234b3ec2168639605cf50fded908294432c0b",
+        "side": "5dc61005da3218d6c7b4c71f5cf234b3ec2168639605cf50fded908294432c0b"
       },
       "neutral_restored": true
     },
@@ -128,8 +128,8 @@
         "NOSE"
       ],
       "view_geometry_digests": {
-        "front": "9bff553fd69b235d0f1b53872d14762ab28099afe11363cb484791c0fcbf2a40",
-        "side": "9bff553fd69b235d0f1b53872d14762ab28099afe11363cb484791c0fcbf2a40"
+        "front": "1e3d9d88895c537de45c5fb958aa4f4dbb29c8e6d9ceb9b23cb343a6b29ca8d9",
+        "side": "1e3d9d88895c537de45c5fb958aa4f4dbb29c8e6d9ceb9b23cb343a6b29ca8d9"
       },
       "neutral_restored": true
     },
@@ -160,8 +160,8 @@
         "NOSE"
       ],
       "view_geometry_digests": {
-        "front": "0d7c6a217bcd20d1ad0b7754c4a30a5d2b6e8645f993aac5188e9521454f2ff8",
-        "side": "0d7c6a217bcd20d1ad0b7754c4a30a5d2b6e8645f993aac5188e9521454f2ff8"
+        "front": "b83927bab34ec35c46f6af29af7de6a9896582f7da5cdd5c3adecc8e25d706d0",
+        "side": "b83927bab34ec35c46f6af29af7de6a9896582f7da5cdd5c3adecc8e25d706d0"
       },
       "neutral_restored": true
     },
@@ -192,8 +192,8 @@
         "NOSE"
       ],
       "view_geometry_digests": {
-        "front": "0b46a058fd122c101a01d8877ee09778b96113325333d60fe15546e9907a3f93",
-        "side": "0b46a058fd122c101a01d8877ee09778b96113325333d60fe15546e9907a3f93"
+        "front": "07eb6255ad01b89980e14bfea7e3c9cc2c9e7ddd5fbba660ba8791015ae1cab0",
+        "side": "07eb6255ad01b89980e14bfea7e3c9cc2c9e7ddd5fbba660ba8791015ae1cab0"
       },
       "neutral_restored": true
     },
@@ -211,8 +211,8 @@
         "EAR_R"
       ],
       "view_geometry_digests": {
-        "front": "f8073e6eb01ee0bcc927332fe6b089d64c6b86f03e69d22c8574851043c95598",
-        "side": "f8073e6eb01ee0bcc927332fe6b089d64c6b86f03e69d22c8574851043c95598"
+        "front": "f7fba9d42923c06e4cf9928674437bfa57105bdce677767dd474bc72830cb5c9",
+        "side": "f7fba9d42923c06e4cf9928674437bfa57105bdce677767dd474bc72830cb5c9"
       },
       "neutral_restored": true
     },
@@ -230,8 +230,8 @@
         "EAR_R"
       ],
       "view_geometry_digests": {
-        "front": "1d092c11702289937a9fca93e2ab5eaa5622a54016de7ec8b5cbb97e297735e3",
-        "side": "1d092c11702289937a9fca93e2ab5eaa5622a54016de7ec8b5cbb97e297735e3"
+        "front": "99a99c1422988a330b720b17f821e6ddcd054e58c61eb01cb416ff3141edf471",
+        "side": "99a99c1422988a330b720b17f821e6ddcd054e58c61eb01cb416ff3141edf471"
       },
       "neutral_restored": true
     }
