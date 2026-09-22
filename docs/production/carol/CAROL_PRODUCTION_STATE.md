@@ -2,27 +2,54 @@
 
 This file is the single mutable Carol execution truth.
 
-## Current state — 2026-09-22
+## Current state — 2026-09-23
 
 - Branch: `codex/carol-final-reconstruction-v009`.
-- Asset: `assets/grimo/production/carol/blender/carol-v009.blend`.
-- Retained geometry: Carol v009 candidate **v009-A2**, a bounded Phase A architecture attempt. It is **not an accepted static candidate**.
-- Evidence: `docs/production/carol/evidence/reconstruction-v009/` and [Human comparison sheet](evidence/reconstruction-v009/human-comparison.png).
+- Retained asset: `assets/grimo/production/carol/blender/carol-v009.blend`.
+- Retained candidate: **v009-A2**, a bounded Phase A architecture attempt; it is **not an accepted static candidate**.
 - Execution status: **BLOCKED_AT_V009_PHASE_A_ARCHITECTURE**.
-- Human Geometry Gate: **PENDING HUMAN REVIEW; do not self-approve**.
+- Human Geometry Gate: **PENDING HUMAN REVIEW**; this state file does not self-approve or reject that gate.
+- Executor-recorded static visual status: **FAIL**.
+- Motion preflight: **NOT_RUN_STATIC_PREREQUISITE_FAILED**.
 
-Revision-14 evidence is preserved in `baseline-revision-14/` and revision-12 evidence in `baseline-revision-12/`. The four definitive Normal/Skin Front/Side sources remain FINAL/LOCKED, with unchanged hashes and registration. One neutral model serves Front and Side; no camera-specific geometry is used.
+## Current v009-A2 architecture
 
-Revision 17 resolves the numerical torso-width ambiguity through two transverse station changes: X .575 half-width `.303→.3055 H`, X .730 `.305→.3075 H`, yielding `.598571 H` after subdivision. Torso/head and torso/limb surface intersection pair counts match revision 14. The hoof crown has three intended lower anterior lobes and two shallow valleys in one connected, grounded mesh per hoof. It is narrower in X (`.173107 H` evaluated depth versus `.188536 H` in revision 14) while retaining `.217385 H` evaluated Front width and `.111984 H` height. Front toe shading improves, but 3Q still reads as a broad tire; numerical pass does not override this visual failure. Revision 16's horn-like upper scallop was rejected.
+- The current v009 exterior architecture is one authored `CENTRAL_CHASSIS` mesh. The old v008 exterior-owner combination is not current v009 architecture.
+- `CENTRAL_CHASSIS` is one connected, closed, all-quad surface with nonmanifold edges = `0`; these topology facts do not make it a clean production exterior.
+- Evaluated disjoint face intersection pairs = `455`; this is the recorded geometric-cleanliness failure.
+- The selected eye prototype is an embedded partial ellipsoid with approximately `.029 H` central relief and six surrounding lid/socket loops.
+- Frozen geometry authority remains: torso evaluated width ≈ `.598571 H`; support centers `.390 H` / `.920 H` with spacing `.530 H`; Front eye width `.137 H`, height `.149 H`, centers `±.162 H`.
+- The four definitive Normal/Skin Front/Side sources remain FINAL/LOCKED. One neutral model serves Front and Side; no camera-specific geometry is used.
 
-v008 revision 17 is retained as the rejected predecessor and remains unchanged. Its Human Review FAIL is recorded for Side face / eye identity, head/chest transition, ear-root and true 3D ear volume, and hoof 3Q form.
+## Current blockers
 
-v009-A2 replaces the competing `HEAD_CAGE` / `SHORT_NECK_SOCKET` / `TORSO_CAGE` exterior owners with one authored `CENTRAL_CHASSIS` mesh. The chassis is a single connected, all-quad, closed surface with named `HEAD`, `FACE`, `LOWER_CHEEK`, `FOREHEAD`, `NECK_TRANSITION`, `CHEST`, `ABDOMEN` and `RUMP` groups. It preserves the evaluated torso width `.598571 H`, support centers `.390 H` and `.920 H`, and locked Front eye projections `.137 × .149 H` at Y ±`.162 H`. The selected eye prototype is an embedded partial ellipsoid with `.029 H` central relief and six surrounding lid/socket loops.
+- Hard lower-cheek shelf instead of a rounded jaw.
+- Over-stretched under-chin → chest transition.
+- Evaluated self-intersection in the central chassis (`455` disjoint face-intersection pairs).
+- Side / 3Q face-eye identity remains insufficient against the locked Skin references.
 
-The Phase A candidate is blocked because visual inspection still finds a hard lower-cheek shelf, an over-stretched under-chin/chest transition, Side/3Q eye identity failure, and evaluated non-adjacent face intersections. The ears and hooves are still temporary v008 modules; Phase B and Phase C were not started. Motion preflight was not run. No fleece, production rig, animation, GLB, PlayCanvas or runtime work was added.
+These visual blockers and the evaluated intersection failure keep Phase A blocked. Manifoldness, connectedness, and all-quad topology are recorded successes, not a Phase A pass.
 
-Upper skull, lower-rear cheek shaping and oblique orbital housing were adjusted; locked Front eye dimensions/centers and packed pigment remain unchanged. Side forehead moves closer to the locked reference, yet Side eye/cheek identity still falls short. Ear-root perimeter broadened while the distal bowl remained unchanged; emergence is still abrupt. Head, socket and torso retain separate exterior surfaces; a disposable exact-union/smoothing test left the visible crease and was rejected. Future small head rotation retains a sliding risk. Tail geometry is unchanged from revision 14; Side reads round and partial Top occlusion alone is not a fault.
+## Frozen / deferred modules
 
-**Motion preflight was not run:** the static-selection prerequisite failed. Numerical neutral and virtual tail/rump contacts are diagnostics only, not motion clearance. No fleece, production rig, animation, GLB, PlayCanvas or runtime work was added.
+- Ears remain unchanged temporary v008 modules; Ear Phase B was **not started**.
+- Hooves remain unchanged temporary v008 modules; Hoof Phase C was **not started**.
+- Fleece: **not started**.
+- Production rig: **false / not created**.
+- Animation: **false / not created**.
+- GLB export: **false / not performed**.
+- PlayCanvas/runtime integration: **false / not performed**.
+- Motion preflight was not run because the static prerequisite failed.
 
-Next handoff: **CHATGPT_PLANNER / HUMAN GEOMETRY REVIEW** of the [v009 blocked comparison sheet](evidence/reconstruction-v009/human-comparison.png), with the Phase A architecture blockers explicitly unresolved. Do not self-approve the Human Geometry Gate, start Phase B/C, or advance to fleece.
+## Historical predecessor context
+
+The following is historical v008 context only and is not current v009 production truth:
+
+- v008 revision 17 is the rejected predecessor. Its evidence records the earlier Human Review FAIL for Side face/eye identity, head/chest transition, ear-root and true 3D ear volume, and hoof 3Q form.
+- v008 used separate `HEAD_CAGE`, `SHORT_NECK_SOCKET`, and `TORSO_CAGE` exterior owners. v009 replaced those owners with the single authored `CENTRAL_CHASSIS` described above.
+- The v008 Boolean union / smoothing experiment was disposable and rejected; it does not describe the retained v009 architecture.
+- The temporary v008 ear and hoof modules are retained only because their replacement phases were not reached. Their historical failures are preserved in the v008 evidence package.
+
+## Next handoff
+
+**CHATGPT_PLANNER / HUMAN GEOMETRY REVIEW / Phase-A architecture correction.** Review the [v009 blocked comparison sheet](evidence/reconstruction-v009/human-comparison.png). Do not self-approve the Human Geometry Gate, start Phase B/C, or advance to fleece.
