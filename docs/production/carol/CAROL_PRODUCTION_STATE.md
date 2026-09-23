@@ -4,6 +4,21 @@ This file is the single mutable Carol execution truth.
 
 ## Current state — 2026-09-23
 
+- Branch: `codex/carol-final-reconstruction-v010`, from exact source HEAD `5de182d5eab04f84e3fa46926a953efa3527d679`.
+- Execution status: **BLOCKED_AT_V010_PHASE_A_VISUAL_RECONSTRUCTION** after three bounded attempts; **no A4**.
+- Retained v010 attempt: **A3, diagnostic only; not promoted**. Asset: `assets/grimo/production/carol/blender/carol-v010.blend`.
+- Architecture: cube-derived cranial patches, head-owned ventral jaw, matched short neck strip, open chest patch, and retained rear torso stations. One authored exterior; no Boolean or remesh.
+- Technical static gate: **PASS**. 533 vertices / 1,062 edges / 531 faces; one component, zero nonmanifold edges, all quads, Euler `2`; control / evaluated disjoint intersections **0 / 0**. Supplemental checks of 5,904 / 93,515 adjacent triangle pairs found **zero improper contacts**.
+- Executor visual precheck: **FAIL**. The hard jaw shelf is removed, but A3's Side ocular visibility produces horizontally stretched eyes in 3Q; Top has angular cranial shoulders and wedge-like anterior volume; the oblique under-jaw plane remains too dominant against locked Skin Side.
+- Motion clearance: **NOT_RUN_EXECUTOR_VISUAL_PRECHECK_FAILED**.
+- Human Geometry Gate for v010: **NOT_REVIEW_READY**. No Human decision is claimed.
+- Frozen reference hashes/registration, cameras, materials, unrelated modules, support centers `.390` / `.920 H`, and Front eye dimensions/centers remain unchanged. The `.575` seam was reconstructed; `.730` and rearward control stations are retained.
+- Source v009 blend remains byte-identical. The current user handoff records **v009-A2 HUMAN-REVIEWED FAIL**; the older pending label below is historical.
+- Phase B/C: **NOT STARTED**. Fleece, final retopology lock, production facial/body rig, animation, GLB and runtime integration: **NOT STARTED**.
+- Evidence: [v010 rejection record](evidence/reconstruction-v010/README.md) and [compact visual proof](evidence/reconstruction-v010/diagnostic-rejection.png).
+
+## Historical retained v009 state
+
 - Branch: `codex/carol-final-reconstruction-v009`.
 - Retained asset: `assets/grimo/production/carol/blender/carol-v009.blend`.
 - Retained candidate: **v009-A2**, a bounded Phase A architecture attempt; it is **not an accepted static candidate**.
@@ -23,7 +38,7 @@ This file is the single mutable Carol execution truth.
 - Recovery visual checks and deformation probes: **NOT RUN — technical prerequisite failed**. Human Geometry Gate remains **PENDING HUMAN REVIEW**; Phase B/C remain **not started**.
 - Cheap numerical proofs: `evidence/reconstruction-v009/phase-a-attempt-3/` and `phase-a-attempt-4/`. Further geometry work requires a new planner handoff.
 
-## Current v009-A2 architecture
+## Historical v009-A2 architecture
 
 - The current v009 exterior architecture is one authored `CENTRAL_CHASSIS` mesh. The old v008 exterior-owner combination is not current v009 architecture.
 - `CENTRAL_CHASSIS` is one connected, closed, all-quad surface with nonmanifold edges = `0`; these topology facts do not make it a clean production exterior.
@@ -32,7 +47,7 @@ This file is the single mutable Carol execution truth.
 - Frozen geometry authority remains: torso evaluated width ≈ `.598571 H`; support centers `.390 H` / `.920 H` with spacing `.530 H`; Front eye width `.137 H`, height `.149 H`, centers `±.162 H`.
 - The four definitive Normal/Skin Front/Side sources remain FINAL/LOCKED. One neutral model serves Front and Side; no camera-specific geometry is used.
 
-## Current blockers
+## Historical v009 blockers
 
 - Hard lower-cheek shelf instead of a rounded jaw.
 - Over-stretched under-chin → chest transition.
@@ -63,4 +78,4 @@ The following is historical v008 context only and is not current v009 production
 
 ## Next handoff
 
-**CHATGPT_PLANNER — Phase-A recovery blocked after A4.** Review the local intersection proofs and the retained [A2 comparison sheet](evidence/reconstruction-v009/human-comparison.png). Do not self-approve the Human Geometry Gate, start Phase B/C, or advance to fleece.
+**CHATGPT_PLANNER — v010 stopped after A3 visual failure.** Review the [v010 rejection evidence](evidence/reconstruction-v010/README.md). Clean topology is established for the diagnostic A3, but cranial cross-sections and multi-view eye/socket identity still need a new geometry handoff. Do not self-approve Human Geometry Gate, start Phase B/C, or advance the pipeline.

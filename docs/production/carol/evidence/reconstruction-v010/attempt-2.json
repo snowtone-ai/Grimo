@@ -1,0 +1,160 @@
+{
+  "candidate": "v010-A2",
+  "source_commit": "5de182d5eab04f84e3fa46926a953efa3527d679",
+  "architecture": "cube-derived cranial patches; anterior ventral jaw; matched short neck strip; open chest patch; retained rear stations",
+  "topology": {
+    "vertices": 561,
+    "edges": 1118,
+    "faces": 559,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "control": {
+    "count": 0,
+    "pairs": []
+  },
+  "evaluated": {
+    "count": 0,
+    "pairs": []
+  },
+  "frozen_objects": {
+    "FORE_L": true,
+    "HOOF_FORE_L": true,
+    "HIND_L": true,
+    "HOOF_HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HOOF_FORE_R": true,
+    "HIND_R": true,
+    "HOOF_HIND_R": true,
+    "EAR_R": true,
+    "TAIL_PIVOT": true,
+    "DEBUG_HEAD_PIVOT": true,
+    "DEBUG_COM": true,
+    "DEBUG_FOREHEAD": true,
+    "DEBUG_EAR_ROOT_L": true,
+    "DEBUG_CHEEK_L": true,
+    "DEBUG_FORE_SUPPORT_L": true,
+    "DEBUG_HIND_SUPPORT_L": true,
+    "DEBUG_EAR_ROOT_R": true,
+    "DEBUG_CHEEK_R": true,
+    "DEBUG_FORE_SUPPORT_R": true,
+    "DEBUG_HIND_SUPPORT_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CAM front": true,
+    "CAM side": true,
+    "key": true,
+    "fill": true,
+    "rim": true,
+    "low fill": true,
+    "REFERENCE carol_front.png": true,
+    "REFERENCE carol_side.png": true,
+    "REFERENCE carol_skin_front.png": true,
+    "REFERENCE carol_skin_side.png": true
+  },
+  "rear_control_stations_from_0730_unchanged": true,
+  "reference_hashes": {
+    "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "reference_registration": {
+    "normal-front": {
+      "file": "carol_front.png",
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "normal-side": {
+      "file": "carol_side.png",
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side"
+    },
+    "skin-front": {
+      "file": "carol_skin_front.png",
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "skin-side": {
+      "file": "carol_skin_side.png",
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side"
+    }
+  },
+  "technical_static_gate": "PASS",
+  "executor_visual_precheck": "FAIL",
+  "motion_clearance": "NOT_RUN_EXECUTOR_VISUAL_PRECHECK_FAILED",
+  "human_geometry_gate": "NOT_REVIEW_READY",
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb": false,
+  "runtime": false,
+  "geometry_digest": "155275b9dcf1089dfef545fd5b6f72236ae65565c3a62209907c7ca71e76865c",
+  "bounds": {
+    "CENTRAL_CHASSIS": {
+      "min": [
+        0.024549147114157677,
+        -0.305196076631546,
+        0.09446590393781662
+      ],
+      "max": [
+        1.0518964529037476,
+        0.305196076631546,
+        0.7019369006156921
+      ],
+      "span": [
+        1.0273473057895899,
+        0.610392153263092,
+        0.6074709966778755
+      ]
+    },
+    "EYE_L": {
+      "min": [
+        0.06532394140958786,
+        0.09349999576807022,
+        0.3434999883174896
+      ],
+      "max": [
+        0.17893962562084198,
+        0.2304999977350235,
+        0.4925000071525574
+      ],
+      "span": [
+        0.11361568421125412,
+        0.13700000196695328,
+        0.14900001883506775
+      ]
+    },
+    "EYE_R": {
+      "min": [
+        0.06527113169431686,
+        -0.2304999977350235,
+        0.3434999883174896
+      ],
+      "max": [
+        0.1789396107196808,
+        -0.09349999576807022,
+        0.4925000071525574
+      ],
+      "span": [
+        0.11366847902536392,
+        0.13700000196695328,
+        0.14900001883506775
+      ]
+    }
+  },
+  "rejection": "Residual anterior chest lip and insufficient Side ocular visibility.",
+  "rear_control_comparison_tolerance_H": 1e-07
+}

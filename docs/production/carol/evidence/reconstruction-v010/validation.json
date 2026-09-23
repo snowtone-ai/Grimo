@@ -1,0 +1,91 @@
+{
+  "candidate": "v010-A3",
+  "technical_static_gate": "PASS",
+  "topology": {
+    "vertices": 533,
+    "edges": 1062,
+    "faces": 531,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "control_disjoint_intersections": 0,
+  "evaluated_disjoint_intersections": 0,
+  "adjacency_audit": {
+    "control": {
+      "tested_adjacent_triangle_pairs": 5904,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    },
+    "evaluated": {
+      "tested_adjacent_triangle_pairs": 93515,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    }
+  },
+  "frozen_objects_after_reload": {
+    "FORE_L": true,
+    "HOOF_FORE_L": true,
+    "HIND_L": true,
+    "HOOF_HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HOOF_FORE_R": true,
+    "HIND_R": true,
+    "HOOF_HIND_R": true,
+    "EAR_R": true,
+    "TAIL_PIVOT": true,
+    "DEBUG_HEAD_PIVOT": true,
+    "DEBUG_COM": true,
+    "DEBUG_FOREHEAD": true,
+    "DEBUG_EAR_ROOT_L": true,
+    "DEBUG_CHEEK_L": true,
+    "DEBUG_FORE_SUPPORT_L": true,
+    "DEBUG_HIND_SUPPORT_L": true,
+    "DEBUG_EAR_ROOT_R": true,
+    "DEBUG_CHEEK_R": true,
+    "DEBUG_FORE_SUPPORT_R": true,
+    "DEBUG_HIND_SUPPORT_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CAM front": true,
+    "CAM side": true,
+    "key": true,
+    "fill": true,
+    "rim": true,
+    "low fill": true,
+    "REFERENCE carol_front.png": true,
+    "REFERENCE carol_side.png": true,
+    "REFERENCE carol_skin_front.png": true,
+    "REFERENCE carol_skin_side.png": true
+  },
+  "reference_hashes_unchanged": {
+    "carol_front.png": true,
+    "carol_side.png": true,
+    "carol_skin_front.png": true,
+    "carol_skin_side.png": true
+  },
+  "reference_registration_unchanged": true,
+  "geometry_digest": "23e635ded3b0ce1608671231feaf14c5c29f45246f8c38deb7acdf494f7a3fde",
+  "rear_control_stations_from_0730_unchanged": true,
+  "source_v009_unchanged": true,
+  "source_v009_sha256": "94b3b38122343024f76107dd69d3fec7cf3e66f91aa290a91287c809524c58fe",
+  "diagnostic_v010_sha256": "0f67da626df58aa9f9603fafb42c294900eb388bb9bd2d6ad05b320b7bc0443f",
+  "executor_visual_precheck": "FAIL",
+  "motion_clearance": "NOT_RUN_EXECUTOR_VISUAL_PRECHECK_FAILED",
+  "human_geometry_gate": "NOT_REVIEW_READY",
+  "blockers": [
+    "The wider Side ocular aperture becomes a horizontally stretched aperture in derived 3Q; the eye/socket system does not yet preserve Carol identity across views.",
+    "Derived Top retains pronounced angular posterolateral cranial shoulders and a wedge-like anterior volume instead of a convincingly rounded single head.",
+    "The lower cheek shelf is removed, but the oblique under-jaw plane is still too dominant relative to the soft locked Skin Side; visual reconstruction remains unapproved."
+  ],
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb": false,
+  "runtime": false,
+  "rear_control_comparison_tolerance_H": 1e-07
+}
