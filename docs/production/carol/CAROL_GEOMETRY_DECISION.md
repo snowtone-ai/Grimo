@@ -1,9 +1,18 @@
 # Carol geometry decision
 
-> Stable decision: the four FINAL / LOCKED Normal Front, Normal Side, Skin Front
-> and Skin Side references plus `CAROL_GEOMETRY_PARAMETERS.md` produce one
-> model; Back/Top/3Q are derived from it. Current candidate and gate truth live
-> only in [`CAROL_PRODUCTION_STATE.md`](CAROL_PRODUCTION_STATE.md).
+**Status:** HISTORICAL / INTERPRETIVE PROVENANCE WITH STABLE REFERENCE NOTES
+
+> Stable reference note: the four FINAL / LOCKED Normal Front, Normal Side,
+> Skin Front and Skin Side references plus `CAROL_GEOMETRY_PARAMETERS.md`
+> constrain one coherent Carol spatial character system. This does not require
+> one continuous mesh and does not impose a geometry-first production order.
+> Back/Top/3Q are derived diagnostics when relevant. Current candidate/gate
+> truth lives only in
+> [`CAROL_PRODUCTION_STATE.md`](CAROL_PRODUCTION_STATE.md).
+
+The detailed record below preserves historical decisions/evidence. It must not
+override the current Product North Star, Production Architecture, Production
+Operating System, or mutable production state.
 
 ## Historical decision record
 

@@ -30,27 +30,30 @@ Grimoは、**タスク管理 / カレンダー**と、4匹の「生きている�
 
 # 1. 上位の正式資料と優先順位
 
-この資料は、以下の既存Project Knowledgeを前提とする。
+Durable authority routing follows
+`docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md`.
 
-1. `GRIMO_TECHNOLOGY_AGNOSTIC_MINIMUM_REQUIREMENTS.md`
-2. `Grimo Character Production Architecture — Zero-Based Deep Research.md`
-3. `GRIMO_PARTNER_PIKACHU_VIDEO_MOTION_ANALYSIS.md`
-4. `GRIMO_PARTNER_EEVEE_VIDEO_MOTION_ANALYSIS.md`
-5. `GRIMO_EXPERIENCE_MOTION_BIBLE.md`
-6. `GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`
-7. 4匹の `*-identity-canonical.png`
-8. 承認済みの3D production canonical / orthographic references
+For this product-feature document:
+
+1. Product Goal / quality bar → `GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`
+2. Visible character identity → canonical identity images
+3. Companion experience → `GRIMO_CHARACTER_EXPERIENCE_SPEC.md`
+4. Production architecture → `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`
+5. Workflow / gates → `GRIMO_PRODUCTION_OPERATING_SYSTEM.md`
+6. Product feature / reward / Collection rules → **this document**
+7. Logical persistence contract → `GRIMO_DATA_MODEL_SPEC.md`
+8. Partner motion/video analyses → evidence, not workflow authority
 
 ## 1.1 優先ルール
 
-- 見た目 → identity canonicalが最優先。
-- 身体構造 → 承認済み3D production canonical。
-- 動き・触れ合い → Experience / Motion Bible。
-- Blender制作 → Blender Production Bible。
-- 商品機能・報酬・Collection → **本資料が最優先。**
-- 古い2D / 2.5D版のコード・資料から現在仕様を逆算してはいけない。
+- Grimo本人のかわいさ・生命感とProduct North Starをtechnical purityより優先する。
+- 見た目の最終identityはcanonical imageが最上位。
+- character experienceとproduction architectureを分離して読む。
+- Blender固有の実装手法はimplementation guideで扱い、工程順序を決めない。
+- 商品機能・報酬・Collectionのdomainでは本資料が最優先。
+- 古い2D / 2.5D版やhistorical Bible/researchから現在仕様を逆算しない。
 
-## 1.2 旧仕様からの重要な変更
+## 1.2 旧仕様からの重要な変更## 1.2 旧仕様からの重要な変更
 
 以下は過去案から変更済みであり、古い資料より本資料を優先する。
 

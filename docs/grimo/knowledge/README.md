@@ -1,64 +1,52 @@
-# Grimo knowledge authority index
+# Grimo Knowledge — Repository Routing
 
-This directory contains durable product, architecture, and routing knowledge.
-Mutable Carol execution truth is kept under `docs/production/carol/`.
+This directory mirrors the minimum durable knowledge needed by repository
+executors. It does **not** replace ChatGPT Project Memory.
 
-Start new work with:
+## Information layers
 
-1. `CURRENT_PROJECT_MEMORY.md` — durable decisions and mandatory routing
-2. the task-specific authority below
-3. `docs/production/carol/CAROL_PRODUCTION_STATE.md` for current Carol state
+1. **ChatGPT Project Memory** — reasoning principles and planning doctrine.
+2. **Project Knowledge** — durable authority/evidence, routed by
+   `GRIMO_PROJECT_KNOWLEDGE_INDEX.md`.
+3. **GitHub** — mutable execution truth.
 
-## Stable product authority
+For current Carol branch/candidate/attempt/blocker/Human-Gate/handoff, read only
+`docs/production/carol/CAROL_PRODUCTION_STATE.md`.
 
-| Domain | Authority |
+## Active durable authority
+
+| Question | Repository document |
 |---|---|
-| Product North Star / minimum quality | `research/GRIMO_TECHNOLOGY_AGNOSTIC_MINIMUM_REQUIREMENTS.md` |
-| Product behavior / reward / Collection | `product/GRIMO_PRODUCT_FEATURE_SPEC.md` |
+| Product Goal / quality bar | `GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` |
+| Companion experience | `GRIMO_CHARACTER_EXPERIENCE_SPEC.md` |
+| Production architecture | `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` |
+| Planner / Codex / Human workflow | `GRIMO_PRODUCTION_OPERATING_SYSTEM.md` |
+| Full routing / authority order | `GRIMO_PROJECT_KNOWLEDGE_INDEX.md` |
+| Product features | `product/GRIMO_PRODUCT_FEATURE_SPEC.md` |
 | Logical data model | `product/GRIMO_DATA_MODEL_SPEC.md` |
-| Living-companion motion / interaction | `character-experience/GRIMO_EXPERIENCE_MOTION_BIBLE.md` |
-| Current 3D-first / Blender production technique | `character-production/GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md` |
-| Carol-specific motion | `character-production/carol/CAROL_MVP_MOTION_SPEC.md` |
+| Carol motion vocabulary | `character-production/carol/CAROL_MVP_MOTION_SPEC.md` |
+| Blender implementation technique | `character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md` |
 
-The technology-agnostic Product North Star outranks implementation purity.
-Current architecture is the **Front-Optimized 3D-First Living Character**
-baseline hypothesis. It may move to an evidence-driven hybrid through
-Architecture Review. The Zero-Based Deep Research document is retained as
-architecture-research provenance; its old “final” Full-3D recommendation and
-strict gate-order/device wording do not override current durable memory.
+## Carol visual / geometry routing
 
-## Device truth
+Visible final identity is led by
+`assets/grimo/source/carol/carol-Identity-canonical.png`, then approved Normal
+Front/Side and fleece-included Hero appearance. Skin Front/Side plus
+`docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` are supporting underbody
+authority for support, rigging, deformation, attachment, and clearance.
 
-- Available real-device QA: **Xiaomi 14T Pro**.
-- **Pixel 7a-class**: lower-performance compatibility/design target.
-- Pixel 7a real-device status: **UNVERIFIED_TARGET** until actual or sufficiently
-  trustworthy target-class validation is available.
+## Evidence
 
-## Carol geometry authority
+Motion master inventories and detailed Partner Pikachu/Eevee analyses remain
+reference evidence. Camera evidence is routed through
+`research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_ANALYSIS.md`.
 
-Use these as the formal geometry authority:
+## Superseded material
 
-- `assets/grimo/source/carol/approved-3d/authority.json`
-- `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md`
+Older Minimum Requirements, Experience/Motion Bible, 3D/Blender Production
+Bible, Zero-Based Deep Research, old camera benchmark, and repository-local
+`CURRENT_PROJECT_MEMORY.md` are not active authority. Their full historical
+contents are retained under `docs/archive/grimo-legacy-knowledge/`.
 
-The authority is **4 FINAL / LOCKED Front/Side + Skin Front/Side → one model →
-derived Back/Top/3Q**. Derived views are validation evidence, not independent
-fitting targets.
-
-The formal package governs geometry. The identity canonical remains the highest
-authority for visible identity/appeal; it does not silently rewrite locked
-hidden-geometry numbers, and locked geometry numbers do not justify a visibly
-off-model final companion.
-
-## Production routing
-
-- Current mutable Carol state: `docs/production/carol/CAROL_PRODUCTION_STATE.md`
-- Current-version evidence: follow the evidence path named by that state file.
-- Stable geometry rules: `CAROL_MODELING_CONTRACT.md` and
-  `CAROL_GEOMETRY_DECISION.md`.
-- Review history: `CAROL_REVIEW_LOG.md`.
-- Research and archive material are non-authoritative unless a current task
-  explicitly makes them relevant.
-- Goal-backward repository rule: root `AGENTS.md`.
-
-Do not infer candidate, branch, HEAD, or Human Gate status from this index.
+Do not restore an archived recommendation merely because it was once labeled
+“final”, “Bible”, or “authority”.

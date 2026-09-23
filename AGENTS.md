@@ -1,150 +1,213 @@
-# Grimo — AGENTS.md
+# Grimo — Repository Operating Rules
 
-Grimo is a smartphone-first PWA. The current character-production baseline is
-**Front-Optimized 3D-First Living Character Architecture**, presently using
-Blender-centered authoring → GLB/glTF → PlayCanvas → Next.js/React where that
-stack best serves the final companion experience.
+Grimo is a smartphone-first task-management PWA whose emotional center is four
+living companion characters: Carol, Jill, Pino, and Shushu.
 
-## Authority
+## Authority and information boundary
 
-Resolve conflicts in this order:
+The repository implements decisions; it is not the highest source of durable
+product reasoning.
 
-1. Current explicit user instruction
-2. Canonical identity and approved production authority
-3. Task-specific current specification
-4. Current code and tests
-5. Archive / legacy
+- **ChatGPT Project Memory** = reasoning principles and current planning doctrine.
+- **Project Knowledge** = durable product/experience/architecture authority and
+  evidence. Route through
+  `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md`.
+- **GitHub** = mutable execution truth: code, branch/HEAD, current candidate,
+  blockers, evidence, tests, and handoff.
 
-Do not revive archived PixiJS / old layered-2D / old 2.5D architecture by
-inertia. A newly justified hybrid is allowed through Architecture Review when
-the current 3D-first hypothesis fails the Product Goal. Whole-character or
-single-finished-image warp/squash/scale pseudo-life is prohibited. Carol is the
-first vertical slice; preserve the four canonical identities and the approved
-Grimo icon unless the user explicitly changes them. The companion view is
-normally front-facing. Visual identity and motion quality require a Human Gate.
+The repository cannot read ChatGPT Project Memory by itself. Repository-local
+snapshots named "memory" are not substitutes for the live Project Memory.
 
-## Goal-Backward Production Rule
+For Carol, `docs/production/carol/CAROL_PRODUCTION_STATE.md` is the single
+mutable routing truth. Do not duplicate current branch/candidate/attempt/
+blocker/Human-Gate state into durable specifications.
 
-- Every materially new Grimo task must state the **user-visible Product Goal**
-  it serves before choosing an implementation target.
-- Work backward: **User Experience → observable behavior → required capability
-  → minimum sufficient implementation**.
-- Never optimize geometry, topology, rigging, tests, docs, or automation merely
-  because the intermediate artifact exists.
-- Technical PASS never overrides user-visible failure. Technical elegance is
-  not sufficient unless it materially improves identity, cuteness, life,
-  responsiveness, interaction quality, runtime feasibility, or production
-  scalability.
-- Before another bounded iteration on the same blocker, ask: **Would the final
-  user see, feel, or suffer from this defect?** If no, downgrade/remove it. If
-  unknown, prototype the final-use condition first. If yes, continue.
-- If essentially the same blocker survives **2 bounded implementation cycles**,
-  stop local repair and trigger Architecture Review before authorizing another
-  cycle. Do not default to attempt 3.
-- Test motion, deformation, and runtime risks as early as practical; a static
-  intermediate artifact need not be perfect before representative downstream
-  probes.
-- Hidden geometry receives only the fidelity justified by support, deformation,
-  attachment, collision/clearance, or possible motion exposure. Do not polish
-  permanently hidden surfaces to Hero quality without evidence.
-- Latest pushed GitHub is execution truth. Project Knowledge stores durable
-  principles, not mutable candidate status.
-- Final rule: **Never ask “How do we perfect the current artifact?” before
-  asking “Does perfecting this artifact materially improve the final companion
-  experience?”**
+## Product Goal
 
-## Lean reading policy
+The Goal is not a technically perfect 3D artifact. On a smartphone, each Grimo
+must feel cute, alive, aware of the user, causally responsive, capable of
+initiating interaction, and like a companion rather than a canned puppet during
+extended use.
 
-Default: read this file, files named by the user, and files directly changed by
-the task. Read additional specifications only when the task needs them (for
-example `DESIGN.md` for UI/UX, a character production contract for geometry,
-the motion spec for motion, the data model for persistence, or setup docs for
-toolchain work). Do not routinely read `tasks.md`, `xp.md`, `docs/state.md`,
-`docs/decisions.md`, or archive material. Archive is for explicit history work.
+Experience priority:
 
-## Safety and boundaries
+1. Cuteness / Appeal
+2. Healing / Comfort
+3. Attachment
+4. Fun
+5. Surprise
+6. Collection
 
-- Preserve Task/Calendar semantics, Dexie migrations/backward compatibility,
-  stable source keys/idempotency, Google read-only boundaries, PWA behavior,
-  server-only Gemini secrets, and user work.
-- Never print, commit, upload, or expose `.env.local`, credentials, OAuth
-  tokens, `GEMINI_API_KEY`, or private user data.
-- Keep React responsible for routes, DOM UI, app state, settings, and
-  accessibility; keep PlayCanvas responsible for 3D rendering, animation,
-  cameras, and hit volumes. Do not put persistence or routing in the renderer.
-- Do not discard, reset, overwrite unrelated work, or auto-merge `main`.
+Every implementation choice is subordinate to this outcome.
 
-## AI Handoff / Execution
+## Goal-Backward Spiral
 
-- The default substantial-reasoning route is `ChatGPT Planner → Codex Luna / Low`:
-  ChatGPT reads the latest pushed GitHub state, completes investigation and
-  planning, and produces a concrete Luna execution prompt. ChatGPT does not
-  edit the repository.
-- Tracked changes include targeted validation when needed, `commit`, and
-  `push`, unless the user explicitly prohibits push, security or unresolved
-  failure blocks it, a Human Gate is required first, or the remote is
-  unavailable. Do not treat commit-only or unpushed local state as the
-  session handoff boundary.
-- Sol/Terra are exception-only for local iterative reasoning, unobservable
-  local state, a failed clearly specified Luna task requiring non-trivial
-  reasoning, or an explicit user request. Automatic escalation is forbidden.
+```text
+Product Goal
+→ Acceptance Experience
+→ Risk / Unknown Map
+→ Decision Question
+→ Cheapest Falsifiable Probe
+→ Functional / Visual Prototype
+→ representative Motion / provisional Rig / provisional Fleece
+→ Human Experience Review
+↔ Targeted Correction
+→ Early GLB / PlayCanvas / Smartphone
+→ Human Experience Review
+→ Production Convergence
+→ Behavior Depth / Variation
+→ Device Optimization
+→ Companion Gate
+→ Architecture Freeze
+→ Jill / Pino / Shushu
+```
 
-Use the short final handoff report: branch, commit, pushed status, validation,
-and next handoff (`CHATGPT_PLANNER`, `CODEX_LUNA`, `CODEX_ASTRA`, or `HUMAN`).
+> **Experience → Prototype → Observe → Correct → Integrate → Observe → Productionize**
 
-## Current truth and phase routing
+This is a spiral, not an asset waterfall.
 
-- `docs/production/carol/CAROL_PRODUCTION_STATE.md` is the single mutable
-  Carol execution truth. Stale prompts, memory snapshots, maps, contracts, or
-  repository-local Skills must not override it.
-- The latest pushed GitHub state is the ChatGPT↔Codex handoff boundary.
-- Before any materially new production phase or task class, ChatGPT Planner
-  must audit the latest pushed GitHub state and the actual Codex environment,
-  including current state/evidence, relevant contracts, `.codex/config.toml`,
-  available repository Skills, and applicable `codex mcp/plugin/features`
-  inventory commands. It must evaluate phase relevance, quality gain,
-  context/token cost, noise, side effects, reproducibility, and built-in
-  alternatives, then choose the minimum sufficient toolset.
-- Toolset optimization and project-scoped configuration must happen before
-  substantive phase execution. Planner must issue a dedicated Luna
-  configuration prompt first; if reload/restart is required, stop and resume
-  planning only after reload. Re-audit at every phase transition; no fixed
-  permanent phase tool list exists.
-- Repository-local `.agents/skills/` is intentionally not production truth or
-  a required routing layer. Use current task authority and actual framework or
-  tool documentation instead.
+## Role separation
+
+### ChatGPT Planner
+
+Planner owns the next decision, not repetitive implementation. Confirm latest
+pushed execution state and Product Goal; define one Decision Question; map
+relevant risks/unknowns; choose the highest-value unknown and Cheapest
+Falsifiable Probe; predefine evidence, PASS/FAIL/UNKNOWN, attempt limit, and
+result-dependent next decisions; then produce a bounded Codex task. Interpret
+Codex/Human evidence and choose continue, targeted correction, blocker
+downgrade, or Architecture Review.
+
+Never continue polishing merely because an artifact exists.
+
+### Codex Executor
+
+Execute the bounded task with minimum sufficient implementation. Generate only
+decision-relevant evidence, run only targeted validation, report facts and
+uncertainty, and commit/push tracked changes unless explicitly prohibited or a
+real blocker prevents it.
+
+Do not introduce scope creep, opportunistic refactors, unrelated cleanup,
+over-engineering, excessive tests/verification, unrequested polish,
+architecture changes, Human-quality self-approval, or attempts beyond the
+declared limit.
+
+### Human
+
+Human judges identity, cuteness, appeal, life/presence, naturalness/weight,
+causal readability, personality, objectionable repetition, emotion, and
+companion quality. Do not spend Human attention grading permanently hidden
+topology unless it creates a visible, motion, interaction, export, or runtime
+consequence.
+
+## Gate hierarchy
+
+1. **EXPERIENCE GATE** — identity, cuteness, appeal, life, causality,
+   naturalness, personality, companion quality.
+2. **FUNCTIONAL GATE** — deformation, interaction/touch/attachment, export,
+   runtime, frame pacing, device behavior.
+3. **TECHNICAL HYGIENE** — topology cleanliness, intersections, edge flow,
+   hidden-surface quality, naming, structural elegance.
+
+Technical Hygiene exists to protect Experience or Function. A technical defect
+is a blocker when evidence ties it to a visible artifact, deformation failure,
+interaction/attachment failure, export failure, runtime instability, or another
+material final-use consequence. If consequence is unknown, probe final use
+before another polish cycle.
+
+## Two-Cycle Stop Rule
+
+If essentially the same blocker survives two bounded implementation cycles,
+stop local repair. Attempt 3 requires Architecture Review.
+
+Ask: **Will the final user see it, feel it, or suffer from it?**
+
+- YES → targeted correction.
+- NO → downgrade/remove the blocker.
+- UNKNOWN → cheapest final-use probe first.
+
+## Character-production architecture
+
+Current baseline hypothesis:
+**Front-Optimized 3D-First Living Character Architecture**.
+
+- Real spatial 3D is the default basis, not a purity goal.
+- The front-facing Hero interaction envelope gets the highest fidelity.
+- Uniform 360° Hero polish is not required.
+- Geometry classes: **HERO_VISIBLE**, **MOTION_EXPOSED**,
+  **FUNCTIONAL_HIDDEN**.
+- Modular/separate meshes are allowed; one continuous watertight Hero body is
+  not a product requirement.
+- Local 2D, shader, material, morph, and compositing techniques are allowed.
+- Whole-finished-character warp/squash/global-scale pseudo-life is prohibited.
+- Blender → GLB/glTF → PlayCanvas is the current implementation hypothesis and
+  may change through Architecture Review.
+- Provisional geometry, rig, fleece, representative motion, early export, and
+  runtime/device probes are allowed when they answer a material unknown more
+  cheaply than static polish.
+
+### Carol-specific
+
+Carol's fleece is a dominant visible identity system. Do not block fleece,
+motion, or runtime merely because naked Underbody is not visually perfect.
+
+```text
+Carol canonical identity
+↓
+Normal Front / Normal Side
+↓
+Fleece-included Hero appearance
+↓
+Motion-exposed geometry
+↓
+Skin Front / Skin Side / geometry parameters
+↓
+Functional hidden implementation
+```
+
+Skin references and numerical geometry remain locked supporting underbody
+authority for support, rigging, deformation, attachment, and clearance. They
+are not the highest Hero-appearance authority.
+
+## Device truth
+
+- Available real-device QA: **Xiaomi 14T Pro**.
+- **Pixel 7a-class**: lower-performance compatibility/design target.
+- A real Pixel 7a is unavailable; do not require or claim Pixel 7a real-device
+  PASS.
+- Pixel 7a status is **UNVERIFIED_TARGET** until actual target-class validation
+  exists.
+
+Runtime evidence may be gathered early because runtime constraints are
+architecture evidence, not only final optimization chores.
+
+## Lean reading and execution
+
+Start with the knowledge index, then load only task-relevant durable authority
+and the latest pushed current-state file. Do not load all research/evidence by
+habit. Historical documents under `docs/archive/` never override active
+authority.
+
+Preserve Task/Calendar semantics, persistence migrations, PWA behavior,
+server-only secrets, user work, approved source images, Blender/GLB assets, and
+unrelated changes. Never expose credentials or private data.
 
 ## Targeted verification
 
-Verification is change-based. Do not run tests merely because a task is
-complete, and do not run `pnpm verify` by default. Never repeat a passing check
-unless relevant files changed afterward; do not broaden a passing targeted
-check without a concrete unresolved risk. “Just in case”, “best practice”, or
-“Definition of Done” is not a reason for full validation.
+Verification is change- and risk-based.
 
-| Change | Default check |
-| --- | --- |
-| Markdown, image reference, or prompt only | None; optionally `git diff --check` |
-| Small TypeScript, CSS, or config change | At most one relevant check: `pnpm typecheck`, changed-file lint, or relevant test |
-| Bug fix | One relevant regression test only when reproducible and useful |
-| UI change | Targeted browser/component check only when the changed behavior needs it |
-| Changed/exported GLB | Once: `pnpm 3d:validate -- <changed-file.glb>` |
-| Dependency, framework, or build-config upgrade | Full checks are allowed as a rare high-blast-radius exception |
+- Markdown/routing-only work: content consistency checks and diff inspection are
+  normally sufficient.
+- Changed code/config: run the smallest check that covers the changed risk.
+- Changed/exported GLB: validate the changed asset when relevant.
+- Full build, full Playwright, Storybook, Blender, PlayCanvas, Lighthouse, or
+  device QA are opt-in when the Decision Question or blast radius requires them.
+- Do not repeat already-passing checks without relevant changes.
 
-Do not start Storybook, Playwright, Lighthouse, Blender, PlayCanvas, Chrome
-DevTools, or physical-device QA unless the task, release gate, Human Gate, or a
-concrete regression risk requires it. Do not inspect output unrelated to the
-changed scope. Specialized QA is opt-in. GitHub Actions owns full PR CI; local
-agents should run only targeted checks and investigate CI failures when they
-occur.
+Final operating rule:
 
-## Models
-
-Reserve Astra for high-value geometry, identity, and architecture reasoning.
-Astra must not perform routine validation, command execution, test-failure
-triage, or repository-wide scans. Luna handles deterministic clerical work and
-targeted checks; GitHub CI handles automated regression. Automatic escalation
-is forbidden. Keep `.codex/config.toml` `multi_agent = false`.
+> **Never ask “How do we perfect the current artifact?” before asking “Does
+> perfecting this artifact materially improve the final companion experience?”**
 
 <!-- BEGIN:nextjs-agent-rules -->
 

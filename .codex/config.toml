@@ -1,24 +1,5 @@
-# Repository-scoped Codex policy. The key is supported by `codex features list`.
+# Repository-scoped Codex invariant only.
+# Tool/MCP selection is task-specific and follows the active Decision Question;
+# do not permanently disable Blender/PlayCanvas/browser tools needed by an early probe.
 [features]
 multi_agent = false
-
-# This documentation/tool-routing task needs only built-in shell, filesystem,
-# and Git. These exact servers were present in the inspected Codex inventory;
-# keep them installed globally but disabled for this repository.
-[mcp_servers.blender]
-enabled = false
-
-[mcp_servers.chrome-devtools]
-enabled = false
-
-[mcp_servers.codegraph]
-enabled = false
-
-[mcp_servers.google-workspace]
-enabled = false
-
-[mcp_servers.playcanvas]
-enabled = false
-
-[mcp_servers.storybook]
-enabled = false

@@ -3,36 +3,38 @@
 
 **Status:** FINAL MVP MOTION DECISION  
 **Character:** Carol  
-**Runtime baseline:** Full 3D → Blender → GLB/glTF → PlayCanvas → smartphone-first PWA  
-**Companion camera:** front-facing fixed interaction view  
+**Runtime baseline hypothesis:** Front-Optimized 3D-First → Blender → GLB/glTF → PlayCanvas → smartphone-first PWA  
+**Companion camera:** front-facing primary Hero interaction view  
 **Core rule:** Built-in Carol is already a complete living companion. Special / Secret Motion / Gift add discovery; they do not repair missing life.
 
 ## 0. Authority / Source Rules
 
 Formal inputs, in priority order:
 
-1. `assets/grimo/source/carol/carol-Identity-canonical.png`
-2. approved Carol 3D production canonical / orthographic references
-3. `GRIMO_PRODUCT_FEATURE_SPEC.md`
-4. `GRIMO_DATA_MODEL_SPEC.md`
-5. `GRIMO_EXPERIENCE_MOTION_BIBLE.md`
-6. `PIKACHU_MOTION_MASTER_INVENTORY.md` — 47 Master Families / 103 normalized Variants
-7. `EEVEE_MOTION_MASTER_INVENTORY.md` — 77 Master Families / 156 normalized Variants
-8. `GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`
-9. `GRIMO_TECHNOLOGY_AGNOSTIC_MINIMUM_REQUIREMENTS.md`
-10. `Grimo Character Production Architecture — Zero-Based Deep Research.md`
-11. consolidated Partner Pikachu/Eevee video analyses only for timing/causality confirmation.
+1. `GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`
+2. `assets/grimo/source/carol/carol-Identity-canonical.png`
+3. `GRIMO_CHARACTER_EXPERIENCE_SPEC.md`
+4. `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`
+5. `GRIMO_PRODUCTION_OPERATING_SYSTEM.md`
+6. approved Carol Normal Front / Normal Side and fleece-included Hero appearance
+7. `CAROL_GEOMETRY_PARAMETERS.md` + Skin Front / Skin Side as supporting underbody authority
+8. `GRIMO_PRODUCT_FEATURE_SPEC.md`
+9. `GRIMO_DATA_MODEL_SPEC.md`
+10. `PIKACHU_MOTION_MASTER_INVENTORY.md`
+11. `EEVEE_MOTION_MASTER_INVENTORY.md`
+12. detailed Partner Pikachu/Eevee analyses as timing/causality evidence when needed.
 
 Conflict order:
 
 ```text
-Carol visible identity
-> approved 3D geometry/attachment
-> Product + Data Model
-> Carol Experience/Motion identity
-> observed Pikachu/Eevee vocabulary and causal structures
+Product North Star / Carol canonical identity
+> approved visible Normal + fleece Hero appearance
+> Character Experience requirements
+> required motion-exposed / functional capability
+> supporting Skin / numerical underbody contract
+> observed Partner evidence
 > production convenience
-> stale repo/code
+> stale repo / historical documents
 ```
 
 Pikachu/Eevee are principle references only:
@@ -41,9 +43,14 @@ Pikachu/Eevee are principle references only:
 observed principle → Carol anatomy → Carol personality → Carol body grammar → original Carol performance
 ```
 
-No exact pose, exact timing, animation asset, high-five identity, Eevee ear-dance, or speed-adjusted copy is permitted.
+No exact pose, exact timing, animation asset, high-five identity, Eevee
+ear-dance, or speed-adjusted copy is permitted.
 
-## 1. Executive Decision
+This specification defines motion/behavior coverage, not a sequential production
+waterfall. Representative motion may be used early as a falsifiable
+architecture/deformation probe.
+
+## 1. Executive Decision## 1. Executive Decision
 
 | Metric | Final |
 |---|---:|
