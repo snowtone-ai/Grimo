@@ -35,17 +35,20 @@ canonical identity
 ↓
 Normal Front / Normal Side
 ↓
-fleece-included Hero appearance
-↓
-MOTION_EXPOSED geometry
+full-spatial Carol exterior
+├─ HERO_PRIORITY
+├─ GENERAL_EXTERIOR
+└─ MOTION_CRITICAL
 ↓
 Skin Front / Skin Side / CAROL_GEOMETRY_PARAMETERS.md
 ↓
 FUNCTIONAL_HIDDEN implementation
 ```
 
-One coherent spatial Carol is required; one continuous mesh is not. Back/Top/3Q
-are derived diagnostics only when the active Decision Question needs them.
+One coherent full-spatial Carol is required; one continuous mesh is not. Front
+receives the highest polish, but practical 3/4 / Side / Rear / derived Top
+exposure must remain structurally coherent. Back/Top/3Q remain derived
+diagnostics rather than independent fitting authorities.
 
 ## Application map
 
