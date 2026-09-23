@@ -16,11 +16,16 @@ modeling or runtime implementation.
 
 ## Front-facing invariant
 
-The camera remains front-facing as the primary Hero interaction reference. **This does not
-make Carol flat or forbid approved off-axis motion.** Off-axis fidelity is
-required only to the degree approved motion exposes it; uniform 360° Hero
-quality is not a target. Camera orbit is not required and must not repair weak
-core interaction acting.
+The camera remains front-facing as the primary Hero interaction reference and
+highest-polish presentation. **This does not define the geometry envelope.**
+
+Carol is a full-spatial 3D character. Practical 3/4, Side, Rear and derived Top
+exposure must remain structurally coherent even if those views receive less
+cosmetic polish than Front. A future motion must not require rebuilding Carol
+merely because an additional angle becomes visible.
+
+Uniform 360° Hero beauty is not required. Camera orbit is not required and must
+not repair weak acting or broken off-axis geometry.
 
 ## Partner Eevee benchmark
 
@@ -108,12 +113,15 @@ fixed geometry phase. For a Hero-camera or runtime framing probe:
 3. measure bbox, face center, clipping, and motion envelope only as relevant;
 4. compare against the benchmark envelope without distorting Carol identity;
 5. include representative motion when framing under motion is the risk;
-6. treat numerical metrics as evidence, not final perceptual acceptance;
-7. submit user-visible evidence to Human when identity/appeal/naturalness must
-   be judged.
+6. when geometry changes an exterior region, separately verify enough 3/4 /
+   Side / Rear / derived Top views to protect full-spatial coherence;
+7. treat numerical metrics as evidence, not final perceptual acceptance;
+8. submit user-visible evidence to Human only when visible assets meet the
+   task's Human-Evaluable Fidelity Floor.
 
-This contract does not require a static Geometry Gate before motion/runtime
-framing experiments.
+This contract does not require production topology lock before motion/runtime
+framing experiments, but the camera must never be used to excuse spatially
+broken exterior geometry.
 
 ## Unknowns
 
