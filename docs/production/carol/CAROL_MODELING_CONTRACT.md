@@ -18,21 +18,24 @@ stable geometry and modeling rules; it must not duplicate current status.
 
 ## Production boundaries
 
-- Author in Blender and exchange/ship through GLB/glTF for the planned PlayCanvas runtime.
-- Do not begin geometry, rig, animation, or runtime implementation until the initial geometry interpretation and decision are complete.
+- Current baseline: author spatial character work in Blender and exchange/ship through GLB/glTF for the planned PlayCanvas runtime. This is a 3D-first hypothesis, not a purity goal; local 2D/material/shader/morph techniques are allowed when they improve final experience.
+- The initial geometry interpretation/decision remains required authority. After that, do **not** require static intermediate perfection before provisional rig, representative motion, or runtime probes when those probes answer a final-use risk.
 - The front-facing render must satisfy `docs/production/carol/CAROL_CAMERA_CONTRACT.md`.
 - Calibrate world-space geometry and camera settings together against that screen-space contract; production convenience may not distort canonical visible identity.
 - No downstream production phase is authorized by this stable contract alone;
   consult `CAROL_PRODUCTION_STATE.md` before acting.
 - Physics must not decide hero acting, facial acting, primary touch reaction, main body acting, or primary fleece performance.
-- Keep hidden geometry and camera-dependent cheats subordinate to the approved individual production views; do not derive concrete 3D shape from Identity-canonical when it conflicts with them.
+- Keep hidden geometry and camera-dependent cheats subordinate to the approved production geometry authority; do not derive concrete hidden 3D shape from Identity-canonical when it conflicts with that authority.
+- Classify geometry by final-use importance: **HERO_VISIBLE**, **MOTION_EXPOSED**, or **FUNCTIONAL_HIDDEN**. Permanently hidden torso surfaces require functional support/deformation/attachment/clearance quality, not Hero visual polish without evidence.
 - Final visual acceptance remains a Human Gate; automated checks are supporting evidence only.
 
 ## Neutral structure and future presentation
 
-The 2026-09-16 Human decision retains G1–G5. Full Companion uses the whole low
-quadruped body and permits Carol to turn, rotate, walk and show her back. A
-front-facing camera reference does not lock character orientation.
+The 2026-09-16 Human decision retains G1–G5. Carol may turn, rotate, walk, or
+expose non-front surfaces when approved behavior requires it, but this does
+**not** create an equal-fidelity 360-degree goal. A front-facing camera reference
+does not lock character orientation; off-axis fidelity is proportional to actual
+motion exposure and interaction need.
 
 The future Close Window-Lean state requires rear weight-bearing support,
 independently movable front limbs, forebody lift and readable face/upper fleece
