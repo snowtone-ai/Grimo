@@ -11,17 +11,16 @@ modeling or runtime implementation.
 
 - Visible identity: `assets/grimo/source/carol/carol-Identity-canonical.png`.
 - Hidden/off-axis geometry reference: `assets/grimo/source/carol/approved-3d/`.
-- Condensed benchmark: `docs/grimo/knowledge/research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_BENCHMARK.md`.
-- The benchmark derives from a separate full source-video analysis; that full analysis was not imported.
+- Current framing evidence: `docs/grimo/knowledge/research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_ANALYSIS.md`.
+- The older condensed benchmark is historical and superseded for routing.
 
 ## Front-facing invariant
 
-The camera remains front-facing as the presentation reference. **This does not
-lock Carol's orientation.** Under the explicit Human decision of 2026-09-16,
-Full Companion shows her complete low quadruped body and allows turns,
-three-quarter/back views, rotation and walking. Side/back visibility therefore
-belongs to the future companion experience as well as production review.
-Camera orbit is not required and must not repair weak core interaction acting.
+The camera remains front-facing as the primary Hero interaction reference. **This does not
+make Carol flat or forbid approved off-axis motion.** Off-axis fidelity is
+required only to the degree approved motion exposes it; uniform 360° Hero
+quality is not a target. Camera orbit is not required and must not repair weak
+core interaction acting.
 
 ## Partner Eevee benchmark
 
@@ -101,22 +100,20 @@ values are versioned in `evidence/blockout-v001/framing-metrics.json`.
 
 ## Acceptance procedure
 
-For the v002 structural Gate, use the uncropped geometry review views first.
-The calibration steps below belong to later presentation work; do not reshape
-v002 merely to match their screen-space metrics. Perspective remains primary
-and Orthographic comparative; production projection remains unselected.
+Camera evidence is selected by the current Decision Question rather than a
+fixed geometry phase. For a Hero-camera or runtime framing probe:
 
-1. Build the authorized Carol neutral blockout.
-2. Render from the front interaction camera.
-3. Measure rendered bbox and face center.
-4. Adjust camera/blockout relationship toward width ≈ 0.58, height ≈ 0.76, and
-   faceY ≈ 0.40.
-5. Test representative ordinary motion envelopes.
-6. Require ordinary frames to stay inside `x = 0.10–0.90`, `y = 0.08–0.94`.
-7. If motion alone exceeds the envelope, first review motion/root amplitude.
-8. Change the global camera only when the problem is systemic.
-9. Submit evidence renders/captures for Human Gate; the final result remains
-   Human Gate controlled.
+1. use the current Carol candidate/prototype appropriate to that probe;
+2. render/capture from the front Hero interaction camera;
+3. measure bbox, face center, clipping, and motion envelope only as relevant;
+4. compare against the benchmark envelope without distorting Carol identity;
+5. include representative motion when framing under motion is the risk;
+6. treat numerical metrics as evidence, not final perceptual acceptance;
+7. submit user-visible evidence to Human when identity/appeal/naturalness must
+   be judged.
+
+This contract does not require a static Geometry Gate before motion/runtime
+framing experiments.
 
 ## Unknowns
 

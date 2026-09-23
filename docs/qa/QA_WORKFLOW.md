@@ -13,8 +13,10 @@ Pull requests run the core regression through GitHub Actions:
 `pnpm check:full`. Local agents do not need to reproduce full CI; they should
 run the smallest relevant check and investigate a CI failure when one occurs.
 
-Automated checks are evidence, not approval of character identity, acting, or
-interaction feel. Those require human visual review through the Human Gate.
+Gate order for character work is **Experience → Functional → Technical Hygiene**.
+Automated checks are evidence, not approval of identity, acting, or interaction
+feel. Technical diagnostics block only when they protect a material visible or
+functional requirement; Human review judges perceptual experience.
 
 Do not run `pnpm verify` by default. It remains only as a compatibility alias
 for the full check.

@@ -2,15 +2,17 @@
 
 Status: bootstrap baseline verified 2026-09-15 (Asia/Tokyo)
 
-This document records the reproducible Full 3D environment for Grimo. It is intentionally a toolchain document, not a Carol modeling specification.
+This document records the reproducible toolchain for Grimo's current Front-Optimized 3D-First implementation hypothesis. It is an implementation/tooling guide, not architecture or production-order authority.
 
 ## Source of truth and non-negotiables
 
 The source of truth is Git repository content, Blender source assets, exported GLB/glTF, and TypeScript runtime code. PlayCanvas Editor is an authoring, inspection, preview, and QA surface; it is not the repository's new source of truth.
 
-The production path is:
+The current implementation hypothesis is:
 
 `Blender -> GLB/glTF -> PlayCanvas -> Next.js/React smartphone-first PWA`
+
+It remains subordinate to the Product North Star and may change only through evidence-driven Architecture Review.
 
 Carol is the first vertical slice. This bootstrap does not create a Carol mesh, rig, animation, or runtime fixture. It preserves the existing Task/Calendar semantics, Dexie compatibility, PWA/service worker, Google read-only boundary, server-only Gemini secret handling, app icon, and canonical character identities.
 
@@ -72,7 +74,7 @@ The verified probe read the default scene, executed `import bpy`, created `GRIMO
 
 ## PlayCanvas
 
-The runtime dependencies are exact-pinned in `package.json`. Do not add Three.js, React Three Fiber, Babylon.js, Unity, Godot, PixiJS replacement rendering, Rapier, Cannon, Oimo, or another primary physics backend. The current physics boundary is PlayCanvas-native Ammo/Bullet through `sync-ammo`; a future soft-body need may use a small adapter around direct Ammo APIs without coupling the whole app to Ammo.
+The runtime dependencies are exact-pinned in `package.json`. Do not introduce or switch a primary renderer/physics backend opportunistically inside a bounded implementation task. The current runtime hypothesis is PlayCanvas with the existing physics boundary; an alternative renderer/runtime may be considered only through Architecture Review when final-use evidence justifies it.
 
 The official PlayCanvas Skills are installed from the current [PlayCanvas Skills repository](https://github.com/playcanvas/skills) using the current Codex plugin path:
 
@@ -154,4 +156,4 @@ Run `pnpm qa:lighthouse` against a running production server on port 3000. For a
 
 ## Human action
 
-The previously required one-time external actions are complete: KTX-Software 4.4.2 is installed and verified, the Xiaomi 14T Pro is connected over adb, and the Grimo PlayCanvas Editor session is connected and read-only verified. No texture conversion is required yet. Pixel 7a-class remains the minimum acceptance baseline even though Xiaomi 14T Pro is the current real-device QA target.
+The previously required one-time external actions are complete: KTX-Software 4.4.2 is installed and verified, the Xiaomi 14T Pro is connected over adb, and the Grimo PlayCanvas Editor session is connected and read-only verified. No texture conversion is required yet. Xiaomi 14T Pro is the currently available real-device QA source. Pixel 7a-class is the lower-performance compatibility/design target and remains `UNVERIFIED_TARGET`; do not require or claim Pixel 7a real-device PASS without actual target-class validation.
