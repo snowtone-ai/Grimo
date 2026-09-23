@@ -2,7 +2,28 @@
 
 This file is the single mutable Carol execution truth.
 
-## Current Hero experience probe — Attempt 2, 2026-09-24
+
+## Current state — Full-Spatial architecture review, 2026-09-24
+
+- Current repository line for this doctrine update: `chore/full-spatial-3d-production-system`, branched from pushed Hero Probe Attempt-2 HEAD `d373b50c14e5febff791ff506942f52e97abdc50`.
+- Human review of Hero Experience Probe v001 Attempt 2 is complete. **Disposition: PROBE_INVALID.** It does **not** establish a v011 geometry FAIL or PASS.
+- Human-observed validity failures:
+  - transferred fleece/motion read like sticky/mochi-like material attached to the character rather than one naturally owned body system;
+  - ears visibly appeared/disappeared through the fleece during motion;
+  - the review artifact was video/images only, so it could not support a claim about actual touch-interaction feel;
+  - overall visible form/fleece quality was too low for a fair judgment of cuteness, naturalness, or whether v011 should continue.
+- Attempt 1 was likewise not decision-valid because its low-fidelity sphere fleece dominated the presentation. **No Attempt 3 is authorized.** Two invalid probe cycles trigger Architecture Review rather than another cosmetic probe.
+- v011-A3 therefore remains **NOT EVALUATED BY HERO PROBE v001**. Its historical static evidence remains unchanged.
+- Human observation on the retained v011 source: the current **front face is sufficiently high quality to serve as a meaningful visual-quality anchor**, but this is not full-model or multi-view acceptance.
+- v011 ears, limbs, and hooves remain separate/frozen predecessor modules; their historical temporary quality defects remain. They can be replaced as bounded modules without requiring a whole-character rebuild.
+- Historical full-3D fleece recovery: the pre-Skin-separation v006 line on `codex/carol-zero-based-hero-geometry-v005` contains `assets/grimo/production/carol/blender/carol-a-v006.blend`, generator `scripts/blender/build-carol-v006.py`, and six-view evidence under `evidence/reconstruction-v006/`. Pass 05 / iteration 27 recorded Front/Side/Back/Top/3Q silhouette alignment from one model (Front 0.936253, Side 0.944835, Back 0.934204, Top 0.965988, 3Q-L 0.842496, 3Q-R 0.889279 IoU under its historical metric). This is a **donor/benchmark candidate, not current authority or Human-approved production fleece**.
+- Architecture decision: adopt **Full-Spatial 3D Living Character Architecture with View-Weighted Polish**. Exterior geometry must remain coherent through practical Front/3Q/Side/Rear/derived-Top exposure so later Motion does not create view-debt; Front remains the highest-polish Hero view.
+- Human-facing perceptual probes now require a declared **Human-Evaluable Fidelity Floor**. If unrelated visible proxy quality dominates judgment, record `PROBE_INVALID`; do not infer candidate FAIL.
+- Visible asset production is **reuse-first**: inspect stronger existing/current/historical assets before generating a lower-quality replacement.
+- No geometry, fleece, rig, animation, GLB, runtime, or canonical/reference asset was promoted by this doctrine update.
+- **Next handoff: CHATGPT_PLANNER — choose the first production Decision Question under the Full-Spatial 3D architecture; do not resume Hero Experience Probe v001.**
+
+## Historical Hero experience probe — Attempt 2, 2026-09-24
 
 - Branch: `codex/carol-hero-experience-probe-v001`; execution started at exact pushed HEAD `c6f3df031adb72dd3e1697c9da91f6d56471fa3d`.
 - **Attempt 1 = UNKNOWN**: its newly generated sphere proxy fleece and loose head/fleece ownership confounded Human review. It is preserved in commit `c6f3df0`, not a v011 geometry or architecture failure.
