@@ -31,9 +31,12 @@ For current Carol branch/candidate/attempt/blocker/Human-Gate/handoff, read only
 
 Visible final identity is led by
 `assets/grimo/source/carol/carol-Identity-canonical.png`, then approved Normal
-Front/Side and fleece-included Hero appearance. Skin Front/Side plus
-`docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` are supporting underbody
-authority for support, rigging, deformation, attachment, and clearance.
+Front/Side and the full-spatial fleece-included Carol realization. Front Hero
+presentation receives the highest polish, but exterior geometry must remain
+coherent through practical 3/4, Side, Rear and derived Top exposure. Skin
+Front/Side plus `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` remain
+supporting underbody authority for support, rigging, deformation, attachment,
+clearance, and spatial continuity.
 
 ## Evidence
 
