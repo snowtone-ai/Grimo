@@ -2,7 +2,7 @@
   "schema": "grimo.carol.approved-3d-authority",
   "version": 2,
   "approvalStatus": "approved",
-  "geometryAuthorityRule": "Carol canonical identity is the highest authority for final visible identity/appeal. Normal Front/Side are locked visible neutral production references. Skin Front/Side and CAROL_GEOMETRY_PARAMETERS.md are locked supporting underbody authority for support, rigging, deformation, attachment, and clearance. Technical cleanliness is not an independent blocker without material final-use consequence.",
+  "geometryAuthorityRule": "Carol canonical identity is the highest authority for final visible identity/appeal. Normal Front/Side are locked visible neutral production references. Carol is realized as a full-spatial 3D character: practical exterior Front/3Q/Side/Rear/derived-Top exposure must remain coherent, while polish is weighted toward the Front Hero view. Skin Front/Side and CAROL_GEOMETRY_PARAMETERS.md remain locked supporting underbody authority for support, rigging, deformation, attachment, clearance, and spatial continuity. Technical cleanliness is not an independent blocker without material visible, motion, full-spatial, functional, export, or runtime consequence.",
   "formalGeometryAuthority": {
     "parameterFile": "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md",
     "references": [
@@ -36,7 +36,7 @@
       }
     ]
   },
-  "identityAuthorityNote": "carol-Identity-canonical.png is the highest final visible identity/appeal authority. It does not automatically rewrite locked hidden numerical support constraints. If supporting geometry creates a visible off-model companion, preserve both evidence sources and resolve via final-use probe, targeted correction, or Architecture Review; do not let hidden technical cleanliness override a Human-visible failure.",
+  "identityAuthorityNote": "carol-Identity-canonical.png is the highest final visible identity/appeal authority. Historical geometry may be reused as donor/benchmark evidence but cannot override current canonical/locked references. A Human-facing probe whose visible proxy quality prevents fair judgment is PROBE_INVALID rather than candidate FAIL.",
   "references": [
     {
       "path": "assets/grimo/source/carol/approved-3d/carol-3d-production-canonical-sheet.png",
@@ -99,5 +99,14 @@
       ]
     }
   ],
-  "heroIdentityAuthority": "assets/grimo/source/carol/carol-Identity-canonical.png"
+  "heroIdentityAuthority": "assets/grimo/source/carol/carol-Identity-canonical.png",
+  "productionArchitecture": {
+    "baseline": "Full-Spatial 3D Living Character Architecture with View-Weighted Polish",
+    "frontHeroPolishPriority": true,
+    "exteriorSpatialCoherenceRequired": true,
+    "uniform360HeroBeautyRequired": false,
+    "modularMeshesAllowed": true,
+    "reuseFirstForVisibleAssets": true,
+    "humanEvaluableFidelityFloorRequired": true
+  }
 }
