@@ -6,6 +6,20 @@ import sys
 
 root = Path(sys.argv[1])
 folder = root / 'docs/production/carol/evidence/hero-experience-probe-v001'
+authority = root / 'assets/grimo/source/carol/approved-3d/carol_front.png'
+comparison = Image.new('RGB',(1440,800),'#f7f6fb')
+cdraw = ImageDraw.Draw(comparison)
+cmp_font = ImageFont.truetype('C:/Windows/Fonts/segoeui.ttf',27)
+for i,(label,file) in enumerate([('Approved Normal Front',authority),('Attempt 2 / fixed Hero neutral',folder/'hero-neutral.png')]):
+    source = Image.open(file).convert('RGBA')
+    source.thumbnail((680,690))  # Uniform scaling only; authority aspect is preserved.
+    tile = Image.new('RGBA',source.size,'white')
+    tile.alpha_composite(source)
+    x = i*720 + (720-source.width)//2
+    y = 64 + (700-source.height)//2
+    comparison.paste(tile.convert('RGB'),(x,y))
+    cdraw.text((i*720+24,18),label,font=cmp_font,fill='#302c3c')
+comparison.save(folder/'hero-neutral-comparison.png')
 beats = [('Neutral','hero-neutral.png'), ('Immediate / local ACK','frame-ack.png'),
          ('Head commitment','frame-head.png'), ('Peak cheek lean','frame-peak.png'),
          ('Settle','frame-settle.png'), ('Afterglow','frame-afterglow.png')]
