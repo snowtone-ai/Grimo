@@ -1,0 +1,285 @@
+{
+  "candidate": "v011-A3",
+  "source_commit": "9569bea8e08e0e068ed7debadf242419e9655a40",
+  "source_v010_sha256": "0f67da626df58aa9f9603fafb42c294900eb388bb9bd2d6ad05b320b7bc0443f",
+  "architecture": "cube-derived cranial patches; anterior ventral jaw; matched short neck strip; open chest patch; retained rear stations",
+  "topology_family_retained": true,
+  "identical_face_connectivity": true,
+  "topology": {
+    "vertices": 533,
+    "edges": 1062,
+    "faces": 531,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "control": {
+    "count": 0,
+    "pairs": []
+  },
+  "evaluated": {
+    "count": 0,
+    "pairs": []
+  },
+  "adjacency_audit": {
+    "control": {
+      "tested_adjacent_triangle_pairs": 5903,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    },
+    "evaluated": {
+      "tested_adjacent_triangle_pairs": 93515,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    }
+  },
+  "reference_hashes": {
+    "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "reference_hashes_verified": {
+    "carol_front.png": true,
+    "carol_side.png": true,
+    "carol_skin_front.png": true,
+    "carol_skin_side.png": true
+  },
+  "reference_registration": {
+    "normal-front": {
+      "file": "carol_front.png",
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "normal-side": {
+      "file": "carol_side.png",
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side"
+    },
+    "skin-front": {
+      "file": "carol_skin_front.png",
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "skin-side": {
+      "file": "carol_skin_side.png",
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side"
+    }
+  },
+  "reference_registration_verified": true,
+  "rear_control_max_delta_H": 0.0,
+  "head_control_front_yz_max_delta_H": 0.02802717685699463,
+  "technical_static_gate": "PASS",
+  "executor_visual_precheck": "FAIL",
+  "motion_clearance": "NOT_RUN_EXECUTOR_VISUAL_PRECHECK_FAILED",
+  "human_geometry_gate": "NOT_REVIEW_READY",
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb": false,
+  "runtime": false,
+  "phase_b": "NOT_STARTED",
+  "phase_c": "NOT_STARTED",
+  "frozen_objects": {
+    "FORE_L": true,
+    "HOOF_FORE_L": true,
+    "HIND_L": true,
+    "HOOF_HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HOOF_FORE_R": true,
+    "HIND_R": true,
+    "HOOF_HIND_R": true,
+    "EAR_R": true,
+    "TAIL_PIVOT": true,
+    "DEBUG_HEAD_PIVOT": true,
+    "DEBUG_COM": true,
+    "DEBUG_FOREHEAD": true,
+    "DEBUG_EAR_ROOT_L": true,
+    "DEBUG_CHEEK_L": true,
+    "DEBUG_FORE_SUPPORT_L": true,
+    "DEBUG_HIND_SUPPORT_L": true,
+    "DEBUG_EAR_ROOT_R": true,
+    "DEBUG_CHEEK_R": true,
+    "DEBUG_FORE_SUPPORT_R": true,
+    "DEBUG_HIND_SUPPORT_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CAM front": true,
+    "CAM side": true,
+    "key": true,
+    "fill": true,
+    "rim": true,
+    "low fill": true,
+    "REFERENCE carol_front.png": true,
+    "REFERENCE carol_side.png": true,
+    "REFERENCE carol_skin_front.png": true,
+    "REFERENCE carol_skin_side.png": true
+  },
+  "bounds": {
+    "CENTRAL_CHASSIS": {
+      "min": [
+        0.0666162446141243,
+        -0.305196076631546,
+        0.09419030696153641
+      ],
+      "max": [
+        1.0518964529037476,
+        0.305196076631546,
+        0.7019369006156921
+      ],
+      "span": [
+        0.9852802082896233,
+        0.610392153263092,
+        0.6077465936541557
+      ]
+    },
+    "EYE_L": {
+      "min": [
+        0.08636774122714996,
+        0.09350000321865082,
+        0.3434999883174896
+      ],
+      "max": [
+        0.18805164098739624,
+        0.2304999977350235,
+        0.4925000071525574
+      ],
+      "span": [
+        0.10168389976024628,
+        0.13699999451637268,
+        0.14900001883506775
+      ]
+    },
+    "EYE_R": {
+      "min": [
+        0.0863659679889679,
+        -0.2304999977350235,
+        0.3434999883174896
+      ],
+      "max": [
+        0.18805165588855743,
+        -0.09350000321865082,
+        0.4925000071525574
+      ],
+      "span": [
+        0.10168568789958954,
+        0.13699999451637268,
+        0.14900001883506775
+      ]
+    }
+  },
+  "geometry_digest": "642b80eba18f2f28c09afef6571f97e3b0c5cc9ffd569dfce2b8fea4c5336bc8",
+  "visual_views": {
+    "skin_front": "Front aperture locks preserved; no meaningful silhouette drift; softer Front retained",
+    "skin_side": "FAIL: persistent oblique under-jaw surface and narrow exposed eye",
+    "diagnostic_3q": "Horizontal stretch substantially reduced; overall eye/socket gate still fails",
+    "diagnostic_top": "Posterolateral shoulders removed; slight anterior taper remains"
+  },
+  "status": "BLOCKED_AT_V011_PHASE_A_VISUAL_RECONSTRUCTION",
+  "selected_attempt": "A3 \u2014 diagnostic only; not promoted",
+  "blockers": [
+    "Side lower-cheek / chest still presents a long oblique underside rather than the required short soft turn.",
+    "Side eye projection is too narrow and the cap remains too exposed relative to locked Skin Side; multi-view socket identity is unresolved.",
+    "Top posterior shoulders are rounded, but the local anterior orbital shaping retains a slight taper; full cranial coherence is not accepted."
+  ],
+  "source_v010_unchanged": true,
+  "ocular_projection_v010": {
+    "EYE_L": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.1449940949678421,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.9731146083165271
+      },
+      "3q": {
+        "width_H": 0.02805681899189949,
+        "height_H": 0.1513541340827942,
+        "width_height_ratio": 0.18537200296459538
+      }
+    },
+    "EYE_R": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.14504022151231766,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.9734241824013908
+      },
+      "3q": {
+        "width_H": 0.19803344458341599,
+        "height_H": 0.14682061970233917,
+        "width_height_ratio": 1.3488122103346556
+      }
+    }
+  },
+  "ocular_projection_v011": {
+    "EYE_L": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.10168389976024628,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.6824421940026935
+      },
+      "3q": {
+        "width_H": 0.06794071942567825,
+        "height_H": 0.1490853726863861,
+        "width_height_ratio": 0.4557168701492761
+      }
+    },
+    "EYE_R": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.10168568789958954,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.682454194936366
+      },
+      "3q": {
+        "width_H": 0.15815069526433945,
+        "height_H": 0.14641894027590752,
+        "width_height_ratio": 1.080124572451658
+      }
+    }
+  },
+  "support_centers_H": {
+    "fore": 0.39,
+    "hind": 0.92,
+    "spacing": 0.53
+  },
+  "eye_contract_H": {
+    "width": 0.137,
+    "height": 0.149,
+    "centers": [
+      -0.162,
+      0.162
+    ]
+  },
+  "attempt_budget": "EXHAUSTED_AFTER_A3; no A4"
+}

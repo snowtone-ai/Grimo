@@ -1,0 +1,128 @@
+{
+  "candidate": "v011-A1",
+  "source_commit": "9569bea8e08e0e068ed7debadf242419e9655a40",
+  "source_v010_sha256": "0f67da626df58aa9f9603fafb42c294900eb388bb9bd2d6ad05b320b7bc0443f",
+  "architecture": "cube-derived cranial patches; anterior ventral jaw; matched short neck strip; open chest patch; retained rear stations",
+  "topology_family_retained": true,
+  "identical_face_connectivity": true,
+  "topology": {
+    "vertices": 533,
+    "edges": 1062,
+    "faces": 531,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "control": {
+    "count": 0,
+    "pairs": []
+  },
+  "evaluated": {
+    "count": 0,
+    "pairs": []
+  },
+  "adjacency_audit": {
+    "control": {
+      "tested_adjacent_triangle_pairs": 5903,
+      "improper_contacts": 2,
+      "proof": [
+        {
+          "faces": [
+            339,
+            424
+          ],
+          "triangles": [
+            679,
+            849
+          ],
+          "witness": [
+            0.3352005183696747,
+            -0.008500790223479271,
+            0.2103245109319687
+          ]
+        },
+        {
+          "faces": [
+            340,
+            424
+          ],
+          "triangles": [
+            681,
+            849
+          ],
+          "witness": [
+            0.3350546061992645,
+            0.0,
+            0.2102145105600357
+          ]
+        }
+      ],
+      "tolerance_H": 5e-07
+    },
+    "evaluated": {
+      "tested_adjacent_triangle_pairs": 93515,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    }
+  },
+  "reference_hashes": {
+    "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "reference_hashes_verified": {
+    "carol_front.png": true,
+    "carol_side.png": true,
+    "carol_skin_front.png": true,
+    "carol_skin_side.png": true
+  },
+  "reference_registration": {
+    "normal-front": {
+      "file": "carol_front.png",
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "normal-side": {
+      "file": "carol_side.png",
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side"
+    },
+    "skin-front": {
+      "file": "carol_skin_front.png",
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "skin-side": {
+      "file": "carol_skin_side.png",
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side"
+    }
+  },
+  "reference_registration_verified": true,
+  "rear_control_max_delta_H": 0.0,
+  "head_control_front_yz_max_delta_H": 0.0,
+  "technical_static_gate": "FAIL",
+  "executor_visual_precheck": "NOT_RUN_TECHNICAL_GATE_FAILED",
+  "motion_clearance": "NOT_RUN",
+  "human_geometry_gate": "NOT_REVIEW_READY",
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb": false,
+  "runtime": false,
+  "phase_b": "NOT_STARTED",
+  "phase_c": "NOT_STARTED",
+  "rejection": "Two adjacent control contacts at anterior chest cap; disjoint checks alone were zero."
+}

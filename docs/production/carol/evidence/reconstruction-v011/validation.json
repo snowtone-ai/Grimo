@@ -1,0 +1,101 @@
+{
+  "candidate": "v011-A3",
+  "topology": {
+    "vertices": 533,
+    "edges": 1062,
+    "faces": 531,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "technical_static_gate": "PASS",
+  "adjacency_audit": {
+    "control": {
+      "tested_adjacent_triangle_pairs": 5903,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    },
+    "evaluated": {
+      "tested_adjacent_triangle_pairs": 93515,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    }
+  },
+  "identical_face_connectivity": true,
+  "topology_family_retained": true,
+  "reference_hashes_verified": {
+    "carol_front.png": true,
+    "carol_side.png": true,
+    "carol_skin_front.png": true,
+    "carol_skin_side.png": true
+  },
+  "reference_registration_verified": true,
+  "rear_control_max_delta_H": 0.0,
+  "head_control_front_yz_max_delta_H": 0.02802717685699463,
+  "source_v010_sha256": "0f67da626df58aa9f9603fafb42c294900eb388bb9bd2d6ad05b320b7bc0443f",
+  "source_v010_unchanged": true,
+  "geometry_digest": "642b80eba18f2f28c09afef6571f97e3b0c5cc9ffd569dfce2b8fea4c5336bc8",
+  "executor_visual_precheck": "FAIL",
+  "visual_views": {
+    "skin_front": "Front aperture locks preserved; no meaningful silhouette drift; softer Front retained",
+    "skin_side": "FAIL: persistent oblique under-jaw surface and narrow exposed eye",
+    "diagnostic_3q": "Horizontal stretch substantially reduced; overall eye/socket gate still fails",
+    "diagnostic_top": "Posterolateral shoulders removed; slight anterior taper remains"
+  },
+  "motion_clearance": "NOT_RUN_EXECUTOR_VISUAL_PRECHECK_FAILED",
+  "human_geometry_gate": "NOT_REVIEW_READY",
+  "blockers": [
+    "Side lower-cheek / chest still presents a long oblique underside rather than the required short soft turn.",
+    "Side eye projection is too narrow and the cap remains too exposed relative to locked Skin Side; multi-view socket identity is unresolved.",
+    "Top posterior shoulders are rounded, but the local anterior orbital shaping retains a slight taper; full cranial coherence is not accepted."
+  ],
+  "phase_b": "NOT_STARTED",
+  "phase_c": "NOT_STARTED",
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb": false,
+  "runtime": false,
+  "control_disjoint_intersections": 0,
+  "evaluated_disjoint_intersections": 0,
+  "frozen_objects_after_reload": {
+    "FORE_L": true,
+    "HOOF_FORE_L": true,
+    "HIND_L": true,
+    "HOOF_HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HOOF_FORE_R": true,
+    "HIND_R": true,
+    "HOOF_HIND_R": true,
+    "EAR_R": true,
+    "TAIL_PIVOT": true,
+    "DEBUG_HEAD_PIVOT": true,
+    "DEBUG_COM": true,
+    "DEBUG_FOREHEAD": true,
+    "DEBUG_EAR_ROOT_L": true,
+    "DEBUG_CHEEK_L": true,
+    "DEBUG_FORE_SUPPORT_L": true,
+    "DEBUG_HIND_SUPPORT_L": true,
+    "DEBUG_EAR_ROOT_R": true,
+    "DEBUG_CHEEK_R": true,
+    "DEBUG_FORE_SUPPORT_R": true,
+    "DEBUG_HIND_SUPPORT_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CAM front": true,
+    "CAM side": true,
+    "key": true,
+    "fill": true,
+    "rim": true,
+    "low fill": true,
+    "REFERENCE carol_front.png": true,
+    "REFERENCE carol_side.png": true,
+    "REFERENCE carol_skin_front.png": true,
+    "REFERENCE carol_skin_side.png": true
+  },
+  "diagnostic_v011_sha256": "568fb4378b6ca3093ba5134d8d082f37a6723c9d5b5cf0b491a7c8e5f757aed3"
+}

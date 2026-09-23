@@ -1,0 +1,186 @@
+{
+  "candidate": "v011-A2",
+  "source_commit": "9569bea8e08e0e068ed7debadf242419e9655a40",
+  "source_v010_sha256": "0f67da626df58aa9f9603fafb42c294900eb388bb9bd2d6ad05b320b7bc0443f",
+  "architecture": "cube-derived cranial patches; anterior ventral jaw; matched short neck strip; open chest patch; retained rear stations",
+  "topology_family_retained": true,
+  "identical_face_connectivity": true,
+  "topology": {
+    "vertices": 533,
+    "edges": 1062,
+    "faces": 531,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "control": {
+    "count": 0,
+    "pairs": []
+  },
+  "evaluated": {
+    "count": 0,
+    "pairs": []
+  },
+  "adjacency_audit": {
+    "control": {
+      "tested_adjacent_triangle_pairs": 5904,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    },
+    "evaluated": {
+      "tested_adjacent_triangle_pairs": 93515,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    }
+  },
+  "reference_hashes": {
+    "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "reference_hashes_verified": {
+    "carol_front.png": true,
+    "carol_side.png": true,
+    "carol_skin_front.png": true,
+    "carol_skin_side.png": true
+  },
+  "reference_registration": {
+    "normal-front": {
+      "file": "carol_front.png",
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "normal-side": {
+      "file": "carol_side.png",
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side"
+    },
+    "skin-front": {
+      "file": "carol_skin_front.png",
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "skin-side": {
+      "file": "carol_skin_side.png",
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side"
+    }
+  },
+  "reference_registration_verified": true,
+  "rear_control_max_delta_H": 0.0,
+  "head_control_front_yz_max_delta_H": 0.0,
+  "technical_static_gate": "PASS",
+  "executor_visual_precheck": "FAIL",
+  "motion_clearance": "NOT_RUN",
+  "human_geometry_gate": "NOT_REVIEW_READY",
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb": false,
+  "runtime": false,
+  "phase_b": "NOT_STARTED",
+  "phase_c": "NOT_STARTED",
+  "frozen_objects": {
+    "FORE_L": true,
+    "HOOF_FORE_L": true,
+    "HIND_L": true,
+    "HOOF_HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HOOF_FORE_R": true,
+    "HIND_R": true,
+    "HOOF_HIND_R": true,
+    "EAR_R": true,
+    "TAIL_PIVOT": true,
+    "DEBUG_HEAD_PIVOT": true,
+    "DEBUG_COM": true,
+    "DEBUG_FOREHEAD": true,
+    "DEBUG_EAR_ROOT_L": true,
+    "DEBUG_CHEEK_L": true,
+    "DEBUG_FORE_SUPPORT_L": true,
+    "DEBUG_HIND_SUPPORT_L": true,
+    "DEBUG_EAR_ROOT_R": true,
+    "DEBUG_CHEEK_R": true,
+    "DEBUG_FORE_SUPPORT_R": true,
+    "DEBUG_HIND_SUPPORT_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CAM front": true,
+    "CAM side": true,
+    "key": true,
+    "fill": true,
+    "rim": true,
+    "low fill": true,
+    "REFERENCE carol_front.png": true,
+    "REFERENCE carol_side.png": true,
+    "REFERENCE carol_skin_front.png": true,
+    "REFERENCE carol_skin_side.png": true
+  },
+  "bounds": {
+    "CENTRAL_CHASSIS": {
+      "min": [
+        0.01992199383676052,
+        -0.305196076631546,
+        0.0941643938422203
+      ],
+      "max": [
+        1.0518964529037476,
+        0.305196076631546,
+        0.7019369006156921
+      ],
+      "span": [
+        1.031974459066987,
+        0.610392153263092,
+        0.6077725067734718
+      ]
+    },
+    "EYE_L": {
+      "min": [
+        0.01836923137307167,
+        0.09349999576807022,
+        0.343500018119812
+      ],
+      "max": [
+        0.12433657795190811,
+        0.2304999977350235,
+        0.4925000071525574
+      ],
+      "span": [
+        0.10596734657883644,
+        0.13700000196695328,
+        0.14899998903274536
+      ]
+    },
+    "EYE_R": {
+      "min": [
+        0.01836828514933586,
+        -0.2304999977350235,
+        0.343500018119812
+      ],
+      "max": [
+        0.12433645874261856,
+        -0.09349999576807022,
+        0.4925000071525574
+      ],
+      "span": [
+        0.1059681735932827,
+        0.13700000196695328,
+        0.14899998903274536
+      ]
+    }
+  },
+  "geometry_digest": "58c43cf6a848447ed2c13f0724e565165ef4b566e5eb2dd35c8169e22d812408",
+  "rejection": "Top and 3Q improved, but Side eye too far forward/exposed and under-cheek too long."
+}
