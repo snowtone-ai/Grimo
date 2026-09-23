@@ -2,25 +2,30 @@
 
 **Status:** ACTIVE SUPPORTING GEOMETRY AUTHORITY — FOUR-REFERENCE LOCK  
 **Character:** Carol  
-**Scope:** Locked Normal/Skin reference geometry, numerical registration, support, deformation, attachment, clearance, and motion-readiness constraints
-**Last Updated:** 2026-09-23
+**Scope:** Locked Normal/Skin reference geometry, numerical registration, full-spatial support, deformation, attachment, clearance, and motion-readiness constraints  
+**Last Updated:** 2026-09-24
 
 ---
 
 # 0. Purpose
 
-This file is Carol's **supporting geometry contract**. It locks the approved
-Normal/Skin reference package and numerical relationships needed for
-reconstruction, support, rigging, deformation, attachment, clearance, and
-motion readiness.
+This file is Carol's **supporting geometry contract**.
 
-It does **not** define the Product Goal, current production task, or a mandatory
-geometry-first phase order. It is not the highest authority for final visible
-Carol appeal: canonical identity and the actual fleece-included Hero experience
-remain above hidden underbody perfection.
+It locks the approved Normal/Skin reference package and numerical relationships needed for reconstruction, support, rigging, deformation, attachment, clearance, and motion readiness.
 
-Locked numbers remain authoritative inside their stated geometry/support domain
-unless a later explicit approved authority changes them.
+It does **not** define the Product Goal, current production task, or a mandatory geometry-first phase order.
+
+It is not the highest authority for final visible Carol appeal: canonical identity and the actual fleece-included Hero appearance remain above hidden underbody perfection.
+
+The geometry system must nevertheless support the current Grimo architecture:
+
+> **Full-Spatial 3D Living Character Architecture with View-Weighted Polish**
+
+That means Carol's exterior geometry must remain coherent across practical Front / 3/4 / Side / Rear / derived Top exposure and plausible motion, even when only the Front receives maximum Hero polish.
+
+Locked numbers remain authoritative inside their stated geometry/support domain unless a later explicit approved authority changes them.
+
+---
 
 # 1. Authority Hierarchy
 
@@ -28,74 +33,52 @@ unless a later explicit approved authority changes them.
 
 For production decisions:
 
-1. **Carol canonical identity** — highest authority for final visible
-   Carol-ness, cuteness, softness, proportions, palette relationships, motifs,
-   and appeal.
-2. **Approved Normal Front / Normal Side** — locked visible neutral production
-   references.
-3. **Fleece-included Hero appearance in the approved interaction envelope**.
-4. **MOTION_EXPOSED geometry**.
-5. **Approved Skin / Underbody Front + Skin / Underbody Side + this numerical
-   contract** — supporting underbody authority for support, rigging,
-   deformation, attachment, and clearance.
-6. **FUNCTIONAL_HIDDEN implementation** — functional structure; Hero polish is
-   unnecessary unless final-use evidence promotes the region.
+1. **Carol canonical identity** — highest authority for final visible Carol-ness, cuteness, softness, proportions, palette relationships, motifs, and appeal.
+2. **Approved Normal Front / Normal Side** — locked visible neutral production references.
+3. **Fleece-included full-spatial Hero character** — current visible 3D realization, judged with Front priority but multi-view coherence.
+4. **HERO_PRIORITY / MOTION_CRITICAL exterior geometry**.
+5. **Approved Skin / Underbody Front + Skin / Underbody Side + this numerical contract** — supporting underbody authority for support, rigging, deformation, attachment, clearance, and spatial continuity.
+6. **FUNCTIONAL_HIDDEN implementation** — functional structure; Hero polish is unnecessary unless the region becomes externally visible.
 
-The four production-reference images remain FINAL / LOCKED. This hierarchy
-changes their role, not their approved measurements.
+The four production-reference images remain FINAL / LOCKED. This hierarchy changes their role, not their approved measurements.
 
 ## 1.2 Conflict rule
 
-Do not redesign/regenerate the four locked references to solve implementation
-difficulty. Do not use old sheets, turnarounds, AI candidates, Back/Top/3Q
-images, or old 3D interpretations as current geometry authority.
+Do not redesign/regenerate the four locked references to solve implementation difficulty.
 
-A supporting underbody number also must not justify a visibly off-model final
-companion. If a supporting constraint and final visible identity appear to
-conflict, preserve the evidence, test actual final-use consequence, then route
-through targeted correction or Architecture Review rather than silently
-rewriting either authority.
+Do not use old sheets, turnarounds, AI candidates, Back/Top/3Q images, or old 3D interpretations as current geometry authority.
+
+Historical 3D assets may be used as **donors or benchmarks** when they improve current production efficiency, but they remain subordinate to current canonical identity, approved Normal/Skin references, and this contract.
+
+A supporting underbody number must not justify a visibly off-model final companion. Preserve evidence and route true conflicts through targeted correction or Architecture Review.
 
 ## 1.3 Domain roles
 
 ### Approved Normal Front
-Locks approved neutral front silhouette, facial structure, eye/ear/hoof read,
-centerline, crown separation, and front fleece organization.
+Locks approved neutral front silhouette, facial structure, eye/ear/hoof read, centerline, crown separation, and front fleece organization.
 
 ### Approved Normal Side
-Locks approved neutral side envelope, total length, support spacing, muzzle
-projection, ear profile, tail relationship, compactness, and side
-motion-readiness silhouette.
+Locks approved neutral side envelope, total length, support spacing, muzzle projection, ear profile, tail relationship, compactness, and side motion-readiness silhouette.
 
 ### Approved Skin / Underbody Front
-Supporting authority for hidden chassis width, head/body and
-chest/abdomen/pelvis relationships, bilateral support, short limbs, grounded
-hooves, and head/torso connection.
+Supporting authority for hidden chassis width, head/body and chest/abdomen/pelvis relationships, bilateral support, short limbs, grounded hooves, and head/torso connection.
 
 ### Approved Skin / Underbody Side
-Supporting authority for hidden head depth, minimal muzzle, longitudinal support
-structure, limb roots, support spacing, belly clearance, COM, tail/ear roots,
-and articulation/deformation clearance.
+Supporting authority for hidden head depth, minimal muzzle, longitudinal support structure, limb roots, support spacing, belly clearance, COM, tail/ear roots, and articulation/deformation clearance.
 
 ### This file
-Supporting authority for normalized coordinates, numerical locks/tolerances,
-support/COM logic, reconstruction constraints, tail intent, and
-motion/deformation clearance.
+Supporting authority for normalized coordinates, numerical locks/tolerances, support/COM logic, reconstruction constraints, tail intent, and motion/deformation clearance.
 
-### `carol-Identity-canonical.png`
-Highest final visible identity/appeal authority. It does not automatically
-rewrite locked hidden numerical support values; conflicts are resolved through
-final-use evidence.
+### `carol-identity-canonical.png`
+Highest final visible identity/appeal authority.
 
 ## 1.4 Numerical / visual conflict rule
 
-The numerical contract protects structural consistency; visible references
-protect their visible domains; canonical identity protects final Carol appeal.
+The numerical contract protects structural consistency; visible references protect their visible domains; canonical identity protects final Carol appeal.
+
 A few antialiasing/image-generation pixels are not grounds to rewrite a number.
 
-When a technical discrepancy has no demonstrated final-use consequence, do not
-polish it as an independent blocker. Probe the relevant Hero/motion/runtime
-condition first.
+When a technical discrepancy has no demonstrated visible, deformation, attachment, runtime, or future-spatial consequence, do not polish it as an independent goal.
 
 ## 1.5 Reference freeze / no-regeneration rule
 
@@ -105,8 +88,7 @@ condition first.
 - do NOT regenerate Skin Side
 - do NOT create a new AI Back / Top / 3/4 as geometry authority
 
-Back / Top / 3/4 are derived diagnostics from the coherent Carol spatial
-character system, not new fitting authorities.
+Back / Top / 3/4 are derived diagnostics from the coherent full-spatial Carol character system, not new fitting authorities.
 
 **Status:** LOCKED
 
@@ -367,12 +349,15 @@ Interpretation:
 
 ### Hoof toe architecture — HUMAN LOCK 2026-09-22
 
-Each hoof has exactly **three rounded toe lobes** and exactly **two shallow
-clefts** in one continuous stylized hoof mass. The same single 3D toe
-architecture serves every view; camera projection may naturally hide part of
-one lobe. Per-view toe-count changes and detached toe objects are prohibited.
-Independent toe articulation is not required for MVP. Existing hoof width,
-height and support locks remain unchanged.
+Each hoof has exactly **three rounded toe lobes** and exactly **two shallow clefts** in one continuous stylized hoof mass.
+
+The same single 3D toe architecture serves every view; camera projection may naturally hide part of one lobe.
+
+Per-view toe-count changes and detached toe objects are prohibited.
+
+Independent toe articulation is not required for MVP.
+
+Existing hoof width, height, and support locks remain unchanged.
 
 ## 7.8 Front crown / fleece structure
 
@@ -479,16 +464,19 @@ Ear intent:
 
 Tail is a small independent expressive module.
 
-Skin/Normal interpretation clarification (2026-09-22): one `TAIL_PIVOT`
-owns the common `SKIN_TAIL_CORE` and the external `TAIL_FLEECE_SHELL`.
-The cream Skin core attaches directly to the rump through a tiny hidden
-overlap, remains present in both modes, and has no long visible connector.
-Its visible relationship follows locked Skin Side. The rearward visible
-base/tuft-center values below describe the **Normal external fleece read**;
-they do not require the cream core to extend to that location. The external
-tail shell hides with the other fleece in Skin mode and remains mechanically
-independent of the main rump fleece. These are one acting tail assembly,
-not two behavioral tails. No numerical lock values are changed.
+Skin/Normal interpretation clarification (2026-09-22): one `TAIL_PIVOT` owns the common `SKIN_TAIL_CORE` and the external `TAIL_FLEECE_SHELL`.
+
+The cream Skin core attaches directly to the rump through a tiny hidden overlap, remains present in both modes, and has no long visible connector.
+
+Its visible relationship follows locked Skin Side.
+
+The rearward visible base/tuft-center values below describe the **Normal external fleece read**; they do not require the cream core to extend to that location.
+
+The external tail shell hides with the other fleece in Skin mode and remains mechanically independent of the main rump fleece.
+
+These are one acting tail assembly, not two behavioral tails.
+
+No numerical lock values are changed.
 
 Locked intent:
 
@@ -560,15 +548,26 @@ Motion causality:
 
 ## 9.4 Fleece / hidden-body relationship
 
-The fleece is an external silhouette and secondary-motion system built **around** the smaller hidden chassis.
+The fleece is an external full-spatial silhouette and secondary-motion system built around the smaller hidden chassis.
 
-It must not be used to conceal unresolved structural errors in the Skin model.
+It must preserve coherent real 3D volume across practical Front / 3/4 / Side / Rear / derived Top exposure.
 
-The production model must therefore pass hidden-body Front / Side validation **before** final fleece acceptance.
+The fleece must not be a camera-facing patch, front-only shell, ring of equal proxy balls, or view-specific cheat.
+
+The hidden chassis does **not** need Hero aesthetic perfection before fleece work can begin. However, the combined character must remain spatially coherent and motion-safe.
+
+Fleece may cover FUNCTIONAL_HIDDEN structure, but it must not be used to conceal a structural defect that causes:
+
+- exterior collapse from a plausible view
+- bad head/ear/limb/tail attachment
+- deformation failure
+- motion ownership failure
+- clipping/clearance failure
+- future plausible motion to require rebuilding the character
 
 The fleece must preserve clearance for:
 
-- head pitch / yaw
+- head pitch / yaw / small roll
 - cheek / forehead lean
 - ear-root motion
 - forelimb adjustment
@@ -576,13 +575,14 @@ The fleece must preserve clearance for:
 - local contact compression
 - delayed broad settle
 
-**Status:** LOCKED
+Existing validated historical full-3D fleece may be reused/adapted as a donor when it fits current authority better than rebuilding from scratch.
 
+**Status:** LOCKED
 ---
 
 # 10. Hidden Underbody Contract
 
-Underbody is normally not HERO_VISIBLE. It must provide sufficient support, deformation, attachment, collision/clearance, and spatial continuity for approved behavior. It may be modular; one continuous watertight Hero body is not a product requirement.
+Underbody is normally not HERO_PRIORITY. It must provide sufficient support, deformation, attachment, collision/clearance, and spatial continuity for the full-spatial Carol character. It may be modular; one continuous watertight Hero body is not a product requirement.
 
 It must support:
 
@@ -725,7 +725,7 @@ Interpretation rules:
 
 ## 10.6 Underbody construction interpretation
 
-The definitive Skin Front + Skin Side must be reconciled into **one coherent functional 3D underbody system**. Modular/separate meshes are allowed when required support, deformation, attachment, clearance, and motion continuity remain correct.
+The definitive Skin Front + Skin Side must be reconciled into **one coherent functional 3D underbody system**. Modular/separate meshes are allowed when required support, deformation, attachment, clearance, and spatial continuity remain correct.
 
 Recommended structural reading:
 
@@ -756,9 +756,9 @@ The chest, abdomen, and pelvis may blend smoothly in the final surface, but thei
 
 ## 10.7 Single-model Normal / Skin relationship
 
-There is one coherent Carol spatial character system; this forbids separate view-specific Carol characters, but does not require one continuous mesh.
+There is one coherent Carol spatial character system. This forbids separate view-specific Carol characters, but does not require one continuous mesh.
 
-The Skin and Normal references do not define separate characters or separate body meshes.
+The Skin and Normal references do not define separate characters.
 
 For validation:
 
@@ -773,8 +773,7 @@ The following must remain the same objects / same neutral geometry in both modes
 - hidden torso
 - four limbs
 - four hooves
-- tail root / Skin tail core (the Normal external tail fleece shell hides
-  with the rest of the fleece; see section 8.8)
+- tail root / tail tuft
 
 Forbidden:
 
@@ -930,51 +929,67 @@ The following remain formally locked:
 - Fleece macro-architecture rules
 - Supporting underbody envelope and support interpretation
 - Motion/deformation-readiness constraints
+- full-spatial single-character consistency: no view-specific Carol geometry
 
 These are durable references, not a current-state log.
 
 ## 13.2 Mutable state lives elsewhere
 
-Current branch, HEAD, selected candidate, attempt count, blocker, Human Gate,
-and next handoff live only in
-`docs/production/carol/CAROL_PRODUCTION_STATE.md`.
+Current branch, HEAD, selected candidate, attempt count, blocker, Human Gate, and next handoff live only in `docs/production/carol/CAROL_PRODUCTION_STATE.md`.
 
 This file must not prescribe a mutable “next production step”.
 
-## 13.3 No geometry-first waterfall
+## 13.3 Full-spatial production boundary
 
-This contract does not require naked Underbody perfection, final retopology,
-production rigging, or a static Geometry Gate before every downstream
-experiment.
+This contract does not require naked Underbody perfection, final retopology, production rigging, or a static Geometry Gate before every downstream experiment.
 
-When a Decision Question is better answered by provisional fleece, provisional
-rigging, representative motion, Hero-camera rendering, early GLB/PlayCanvas,
-or smartphone evidence, those probes are allowed before production lock.
+It **does** require that the character's exterior geometry remain spatially coherent beyond the primary Front view so that future motion does not routinely expose unbuilt/broken angles.
 
-Technical defects remain blockers when evidence ties them to visible,
-deformation, attachment, interaction, export, or runtime failure.
+Production order is selected by the Goal-Backward Production Operating System.
 
-# 14. Derived View / Diagnostic Policy
+For Carol, visible components used in Human perceptual review must first satisfy the task-specific **Human-Evaluable Fidelity Floor**. A visibly poor ear, hoof, fleece, or attachment cannot be mentally ignored when judging cuteness or motion ownership.
 
-## 14.1 Back / Top / 3/4
+When useful, existing high-quality historical full-3D assets may be adapted as donors instead of rebuilt from zero.
 
-Back / Top / 3/4 are **DERIVED diagnostic views**, not independent AI
-authorities or mandatory beauty targets.
+Final production topology/weights/shaders may remain provisional while representative motion is tested, provided the visible geometry is already representative enough for the Decision Question.
 
-When needed, derive them from the same coherent Carol spatial character system.
-Use them to expose relevant 3D failures such as flat head volume, support
-asymmetry, ear/tail attachment problems, motion-exposed discontinuity, or a
-visible artifact. Do not fit Carol to obsolete old Back/Top/3Q images.
+# 14. Derived View / Full-Spatial Diagnostic Policy
+
+## 14.1 Front / 3/4 / Side / Back / Top-derived views
+
+Normal Front and Normal Side remain the locked visible neutral references.
+
+Back / Top / 3/4 are **DERIVED diagnostic views**, not independent AI authorities.
+
+They must be derived from the same coherent spatial Carol system and are used to detect failures such as:
+
+- flat or camera-specific head volume
+- impossible torso transition
+- support asymmetry
+- ear-root failure
+- hoof/leg depth failure
+- tail fusion
+- fleece discontinuity
+- view-specific collapse
+- attachment/occlusion instability
+- motion-exposed clipping
+- unrealistic sheep drift
+
+Do not deform Carol to match obsolete old Back / Top / 3/4 artwork.
+
+There is no requirement that rear/top views receive equal Hero polish, but they must not reveal an obviously broken character.
 
 ## 14.2 Evidence is Decision-Question specific
 
-There is no permanent evidence packet every task must generate. Static geometry
-questions may use registered Front/Side renders, overlays, silhouettes, derived
-views, wire diagnostics, or intersection reports. Motion/fleece/touch/export/
-runtime questions should use evidence as close as practical to final use.
+There is no permanent evidence packet every task must generate.
 
-Automated geometry metrics are diagnostics. Human judgment is reserved for
-visible identity, appeal, naturalness, life, and companion quality.
+Geometry tasks claiming full-spatial coherence should use enough derived views to demonstrate the affected region remains valid.
+
+Human identity/appeal judgment should use representative-quality visible assets.
+
+Motion/touch/runtime questions should use evidence as close as practical to final use; if touch causality is the question, actual interactive input is preferred over a prerecorded clip.
+
+Automated geometry metrics are diagnostics. Human judgment controls visible identity, appeal, naturalness, life, and companion quality.
 
 **Status:** LOCKED as diagnostic policy
 
@@ -983,46 +998,3 @@ visible identity, appeal, naturalness, life, and companion quality.
 When geometry-related choices compete, prioritize:
 
 1. Product Goal and canonical identity / appeal
-2. approved Normal Front / Normal Side Hero read
-3. fleece-included Hero appearance in the actual interaction envelope
-4. MOTION_EXPOSED visual and deformation functionality
-5. supporting Skin / numerical underbody requirements
-6. technical hygiene to the level required by the above
-
-Do not optimize realism, hidden-surface beauty, all-quads purity, watertightness,
-or structural elegance as independent goals.
-
-If technical consequence is **UNKNOWN**, use the cheapest relevant final-use
-probe before another polish cycle. If essentially the same blocker survives two
-bounded cycles, return to Architecture Review before attempt 3.
-
-# 16. Summary Contract
-
-Carol must remain low, grounded, compact, soft, cute, fleece-dominant in the
-Normal/Hero presentation, non-realistic, riggable, motion-capable, and coherent
-as one spatial character across required views and behaviors.
-
-Locked reference package:
-
-- canonical identity for final visible Carol-ness / appeal
-- Normal Front / Normal Side for approved visible neutral shape
-- Skin / Underbody Front / Side + this file for supporting hidden structure and
-  numerical constraints
-
-The production system may use modular meshes and provisional implementation.
-Actual task order is selected by the Goal-Backward Production Operating System,
-not by this geometry contract.
-
-```text
-Product Goal / Carol identity
-        ↓
-approved visible Normal + fleece Hero appearance
-        ↓
-required motion / interaction / runtime capability
-        ↓
-supporting underbody + technical hygiene as needed
-```
-
-The target is not realistic sheep anatomy, a prettier replacement Carol, or a
-perfect naked chassis. The target is a faithful, motion-capable Carol whose
-technical structure is sufficient to deliver the approved companion experience.
