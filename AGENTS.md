@@ -1,7 +1,9 @@
 # Grimo — AGENTS.md
 
-Grimo is a smartphone-first PWA with a Full 3D character pipeline:
-`Blender → GLB/glTF → PlayCanvas → Next.js/React`.
+Grimo is a smartphone-first PWA. The current character-production baseline is
+**Front-Optimized 3D-First Living Character Architecture**, presently using
+Blender-centered authoring → GLB/glTF → PlayCanvas → Next.js/React where that
+stack best serves the final companion experience.
 
 ## Authority
 
@@ -13,10 +15,43 @@ Resolve conflicts in this order:
 4. Current code and tests
 5. Archive / legacy
 
-Do not revive archived PixiJS, 2D, or 2.5D architecture. Carol is the first
-vertical slice; preserve the four canonical identities and the approved Grimo
-icon unless the user explicitly changes them. The companion view is normally
-front-facing. Visual identity and motion quality require a Human Gate.
+Do not revive archived PixiJS / old layered-2D / old 2.5D architecture by
+inertia. A newly justified hybrid is allowed through Architecture Review when
+the current 3D-first hypothesis fails the Product Goal. Whole-character or
+single-finished-image warp/squash/scale pseudo-life is prohibited. Carol is the
+first vertical slice; preserve the four canonical identities and the approved
+Grimo icon unless the user explicitly changes them. The companion view is
+normally front-facing. Visual identity and motion quality require a Human Gate.
+
+## Goal-Backward Production Rule
+
+- Every materially new Grimo task must state the **user-visible Product Goal**
+  it serves before choosing an implementation target.
+- Work backward: **User Experience → observable behavior → required capability
+  → minimum sufficient implementation**.
+- Never optimize geometry, topology, rigging, tests, docs, or automation merely
+  because the intermediate artifact exists.
+- Technical PASS never overrides user-visible failure. Technical elegance is
+  not sufficient unless it materially improves identity, cuteness, life,
+  responsiveness, interaction quality, runtime feasibility, or production
+  scalability.
+- Before another bounded iteration on the same blocker, ask: **Would the final
+  user see, feel, or suffer from this defect?** If no, downgrade/remove it. If
+  unknown, prototype the final-use condition first. If yes, continue.
+- If essentially the same blocker survives **2 bounded implementation cycles**,
+  stop local repair and trigger Architecture Review before authorizing another
+  cycle. Do not default to attempt 3.
+- Test motion, deformation, and runtime risks as early as practical; a static
+  intermediate artifact need not be perfect before representative downstream
+  probes.
+- Hidden geometry receives only the fidelity justified by support, deformation,
+  attachment, collision/clearance, or possible motion exposure. Do not polish
+  permanently hidden surfaces to Hero quality without evidence.
+- Latest pushed GitHub is execution truth. Project Knowledge stores durable
+  principles, not mutable candidate status.
+- Final rule: **Never ask “How do we perfect the current artifact?” before
+  asking “Does perfecting this artifact materially improve the final companion
+  experience?”**
 
 ## Lean reading policy
 
