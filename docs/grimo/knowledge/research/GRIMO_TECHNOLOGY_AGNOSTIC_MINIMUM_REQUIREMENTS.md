@@ -295,7 +295,14 @@ Attachment should be strengthened through:
 
 Grimo is intended to be a **smartphone-first web/PWA product**.
 
-Minimum acceptance device class: **Google Pixel 7a**.
+Minimum compatibility / design target class: **Google Pixel 7a-class**.
+
+Current available real-device QA hardware is **Xiaomi 14T Pro**. A real Pixel 7a
+is not currently available, so Pixel 7a real-device PASS must not be required
+or claimed. Treat Pixel 7a-class as **UNVERIFIED_TARGET** until a real device or
+sufficiently trustworthy target-class validation environment is available.
+Runtime acceptance evidence is gathered on Xiaomi 14T Pro in the meantime,
+while lower-device performance margin is managed as a profile / budget.
 
 A technically superior solution that only works acceptably on flagship hardware is not sufficient.
 
