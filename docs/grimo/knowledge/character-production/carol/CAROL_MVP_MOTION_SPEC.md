@@ -50,7 +50,7 @@ This specification defines motion/behavior coverage, not a sequential production
 waterfall. Representative motion may be used early as a falsifiable
 architecture/deformation probe.
 
-## 1. Executive Decision## 1. Executive Decision
+## 1. Executive Decision
 
 | Metric | Final |
 |---|---:|

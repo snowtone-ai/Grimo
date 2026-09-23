@@ -53,7 +53,7 @@ For this product-feature document:
 - 商品機能・報酬・Collectionのdomainでは本資料が最優先。
 - 古い2D / 2.5D版やhistorical Bible/researchから現在仕様を逆算しない。
 
-## 1.2 旧仕様からの重要な変更## 1.2 旧仕様からの重要な変更
+## 1.2 旧仕様からの重要な変更
 
 以下は過去案から変更済みであり、古い資料より本資料を優先する。
 

@@ -110,7 +110,7 @@ character system, not new fitting authorities.
 
 **Status:** LOCKED
 
-# 2. Locked High-Level Character Rules# 2. Locked High-Level Character Rules
+# 2. Locked High-Level Character Rules
 
 ## 2.1 Character identity
 
