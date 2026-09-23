@@ -7,15 +7,18 @@ living companions: Carol, Jill, Pino, and Shushu.
 
 The product is judged by the companion experience, not by technical 3D purity.
 Carol is the first vertical slice; the current character-production baseline is
-**Front-Optimized 3D-First Living Character Architecture**.
+**Full-Spatial 3D Living Character Architecture with View-Weighted Polish**.
 
 ```text
-Experience → Prototype → Observe → Correct → Integrate → Observe → Productionize
+Experience → Valid Probe → Observe → Correct → Integrate → Observe → Productionize
 ```
 
 Blender-centered authoring → GLB/glTF → PlayCanvas remains the current
-implementation hypothesis. It is subordinate to the Product North Star and may
-change through Architecture Review when final-use evidence requires it.
+implementation hypothesis. Character geometry is full-spatial by default: exterior
+form must remain coherent through practical Front/3Q/Side/Rear exposure, while
+visual polish is weighted toward the front Hero experience. The implementation
+path remains subordinate to the Product North Star and may change through
+Architecture Review when evidence requires it.
 
 ## Read before character-production work
 
