@@ -2,6 +2,19 @@
 
 This file is the single mutable Carol execution truth.
 
+## Current Hero experience probe — 2026-09-23
+
+- Branch: `codex/carol-hero-experience-probe-v001`, from `chore/goal-backward-production-system` remote HEAD `578717efb221b82f4f55e5eac47402b802a2a79d`. No newer Carol production commit was present at execution start.
+- Selected attempt: **v001 Attempt 1**. Source geometry: **v011-A3**, provisional experiment source only. Probe asset: `assets/grimo/production/carol/blender/carol-hero-experience-probe-v001.blend`. The source `carol-v011.blend` remains unchanged.
+- Provisional fleece: large spatial torso/crown masses and a limited set of front/cheek scallops in ivory, periwinkle and lilac, plus one simple star cue. This is coarse appearance proxy geometry, not final fleece or final motif treatment.
+- Provisional controls: localized v011 cranial shape key; separate head/face pivot; upper-torso, contacted cheek, adjacent fleece and one-ear controls. Hooves and root stay fixed. No production rig or weights.
+- Motion tested: one fixed-front-camera, five-second cheek-touch phrase with immediate local compression, head-led contact-seeking lean, delayed local fleece/ear response, weighted settle and short residual hold.
+- Human evidence: [neutral](evidence/hero-experience-probe-v001/hero-neutral.png), [motion](evidence/hero-experience-probe-v001/hero-motion.mp4), [contact sheet](evidence/hero-experience-probe-v001/hero-contact-sheet.png), [review page](evidence/hero-experience-probe-v001/human-review.html).
+- Executor-observed limitations: the fleece uses visibly separate round proxy masses, the canonical moon and fuller star motif are absent, and the face-framing puffs crowd the outer eye/cheek region at peak lean. The known v011 Side under-jaw/head-to-chest and Side eye limitations were not repaired; the fixed front evidence does not establish their acceptability outside this Hero view. The response is one authored phrase with limited facial expression, not extended companion behavior.
+- Targeted checks: probe blend saved and reloaded with 120-frame scene, local shape key and animated controls; six required beats rendered; MP4 H.264 540×540/5.04 s decoded; page references resolve; source blend SHA-256 `568fb4378b6ca3093ba5134d8d082f37a6723c9d5b5cf0b491a7c8e5f757aed3` matches its Git LFS object; canonical and approved references remain unmodified.
+- Human Experience Review: **PENDING HUMAN REVIEW**. No production geometry promotion, production fleece, production rig, production animation approval, GLB/runtime work, or Human PASS is claimed.
+- Handoff: **CHATGPT_PLANNER — evaluate Carol Hero Experience Probe v001 with Human review**.
+
 ## Current state — 2026-09-23
 
 - Production-doctrine routing (2026-09-23): the same anterior/static blocker survived at least two bounded local repair cycles. Under the Two-Cycle Stop Rule, no third local repair is authorized by default. This repository migration deliberately does **not** select the next production probe; the next ChatGPT Planner must choose the first Decision Question under the new production system before authorizing further production work.
