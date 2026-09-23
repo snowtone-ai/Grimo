@@ -4,6 +4,20 @@ This file is the single mutable Carol execution truth.
 
 ## Current state — 2026-09-23
 
+- Branch: `codex/carol-final-reconstruction-v012`, from exact source HEAD `e95654fae3dc8434cbe651e7d6467aafe59dc667`.
+- Execution status: **BLOCKED_AT_V012_PHASE_A_VISUAL_RECONSTRUCTION** after bounded T1/T2 and O1/O2 probes; no further v012 probe.
+- Selected v012 attempt: **T2-O2, diagnostic only; not promoted**. Asset: `assets/grimo/production/carol/blender/carol-v012.blend`.
+- The v011 topology and exact face connectivity are retained: 533 vertices / 1,062 edges / 531 quads, one component, zero nonmanifold edges, Euler `2`. Control / evaluated disjoint intersections **0 / 0**; adjacent improper contacts **0 / 0**.
+- Chassis Y/Z delta **0**; `.575 H` and rearward delta **0**. T2 transition X delta at most `.050 H`; O2 local orbital seat X delta at most `.015 H`. Front eye locks remain `.137 × .149 H` at `±.162 H`.
+- Eye cap Side whole-span `.1286 H`, near-eye derived 3Q width/height `1.137`; both are numerical projection metrics, not visual acceptance.
+- Executor visual precheck: **FAIL**. The long oblique Side under-jaw/head-to-chest surface remains. The Side eye is wider but protrudes from the socket; Front under-chin transition is too sharp. Posterolateral Top rounding is retained; anterior taper is not clearly improved.
+- Motion clearance: **NOT_RUN_EXECUTOR_VISUAL_PRECHECK_FAILED**. Human Geometry Gate: **NOT_REVIEW_READY**. No Human decision or pass is claimed.
+- Frozen references and registration, cameras, lights, materials, ears, limbs, hooves, tail and support centers `.390` / `.920 H` remain unchanged. The v011 source blend is byte-identical.
+- Phase B/C: **NOT STARTED**. Fleece, retopology lock, production rig, animation, GLB and runtime integration: **NOT STARTED**.
+- Evidence: [v012 bounded reconstruction](evidence/reconstruction-v012/README.md) and [diagnostic sheet](evidence/reconstruction-v012/diagnostic-sheet.png).
+
+## Historical retained v011 state
+
 - Branch: `codex/carol-final-reconstruction-v011`, from exact source HEAD `9569bea8e08e0e068ed7debadf242419e9655a40`.
 - Execution status: **BLOCKED_AT_V011_PHASE_A_VISUAL_RECONSTRUCTION** after three bounded attempts; **no A4**.
 - Selected v011 attempt: **A3, diagnostic only; not promoted**. Asset: `assets/grimo/production/carol/blender/carol-v011.blend`.
@@ -92,4 +106,4 @@ The following is historical v008 context only and is not current v009 production
 
 ## Next handoff
 
-**CHATGPT_PLANNER — v011 stopped after A3 visual failure.** Review the [v011 evidence](evidence/reconstruction-v011/README.md). The v010 topology family remains clean; 3Q eye proportions and posterior cranial rounding improved, but the short soft Side head/chest turn and Side eye/socket identity remain unresolved. No topology-family necessity was established. Do not self-approve Human Geometry Gate, start Phase B/C, or advance the pipeline.
+**CHATGPT_PLANNER — v012 stopped after T2-O2 visual failure.** Review the [v012 evidence](evidence/reconstruction-v012/README.md). The v011 topology family remains technically clean; the bounded X-only transition and independent eye cap did not achieve the locked Side shape or integrated socket. Do not self-approve Human Geometry Gate, start Phase B/C, or advance the pipeline.

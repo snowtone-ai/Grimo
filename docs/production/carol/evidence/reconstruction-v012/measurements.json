@@ -1,0 +1,237 @@
+{
+  "candidate": "v012-T2-O2",
+  "source_commit": "e95654fae3dc8434cbe651e7d6467aafe59dc667",
+  "source_v011_sha256": "568fb4378b6ca3093ba5134d8d082f37a6723c9d5b5cf0b491a7c8e5f757aed3",
+  "selected_transition": "T2",
+  "selected_ocular": "O2",
+  "topology": {
+    "vertices": 533,
+    "edges": 1062,
+    "faces": 531,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "identical_face_connectivity": true,
+  "chassis_yz_max_delta_H": 0.0,
+  "transition_max_x_delta_H": 0.050000011920928955,
+  "chassis_total_max_x_delta_H": 0.050000011920928955,
+  "orbital_seat_max_x_delta_H": 0.015000000596046448,
+  "chassis_575_plus_max_delta_H": 0.0,
+  "control": {
+    "count": 0,
+    "pairs": []
+  },
+  "evaluated": {
+    "count": 0,
+    "pairs": []
+  },
+  "adjacency_audit": {
+    "control": {
+      "tested_adjacent_triangle_pairs": 5903,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    },
+    "evaluated": {
+      "tested_adjacent_triangle_pairs": 93515,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    }
+  },
+  "technical_static_gate": "PASS",
+  "reference_hashes": {
+    "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "reference_hashes_verified": {
+    "carol_front.png": true,
+    "carol_side.png": true,
+    "carol_skin_front.png": true,
+    "carol_skin_side.png": true
+  },
+  "reference_registration": {
+    "normal-front": {
+      "file": "carol_front.png",
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "normal-side": {
+      "file": "carol_side.png",
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side"
+    },
+    "skin-front": {
+      "file": "carol_skin_front.png",
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "skin-side": {
+      "file": "carol_skin_side.png",
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side"
+    }
+  },
+  "reference_registration_verified": true,
+  "ocular_search": [
+    {
+      "depth_H": 0.05,
+      "side_span_H": 0.10361804068088531,
+      "near_3q_ratio": 1.136949446790928
+    },
+    {
+      "depth_H": 0.055,
+      "side_span_H": 0.10861804336309433,
+      "near_3q_ratio": 1.136949446790928
+    },
+    {
+      "depth_H": 0.06,
+      "side_span_H": 0.11361804604530334,
+      "near_3q_ratio": 1.136949446790928
+    },
+    {
+      "depth_H": 0.065,
+      "side_span_H": 0.11861804127693176,
+      "near_3q_ratio": 1.136949446790928
+    },
+    {
+      "depth_H": 0.07,
+      "side_span_H": 0.12361804395914078,
+      "near_3q_ratio": 1.136949446790928
+    },
+    {
+      "depth_H": 0.075,
+      "side_span_H": 0.1286180466413498,
+      "near_3q_ratio": 1.136949446790928
+    },
+    {
+      "depth_H": 0.08,
+      "side_span_H": 0.1336180418729782,
+      "near_3q_ratio": 1.136949446790928
+    }
+  ],
+  "ocular_depth_H": 0.075,
+  "ocular_projection": {
+    "EYE_L": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.12862186133861542,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.8632338595942765
+      },
+      "3q": {
+        "width_H": 0.09710896015167236,
+        "height_H": 0.14978043735027313,
+        "width_height_ratio": 0.6483420790431768
+      }
+    },
+    "EYE_R": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.1286180466413498,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.8632082576024415
+      },
+      "3q": {
+        "width_H": 0.1665528640151024,
+        "height_H": 0.14649100229144096,
+        "width_height_ratio": 1.136949446790928
+      }
+    }
+  },
+  "geometry_digest": "cd3914161d2d69329d18a3d802a6ee39fd6a2eb656d9be2c57f500b69038961f",
+  "eye_contract_H": {
+    "EYE_L": {
+      "width_H": 0.13699999451637268,
+      "height_H": 0.14900001883506775,
+      "center_y_H": 0.16200000047683716
+    },
+    "EYE_R": {
+      "width_H": 0.13699999451637268,
+      "height_H": 0.14900001883506775,
+      "center_y_H": -0.16200000047683716
+    }
+  },
+  "frozen_objects": {
+    "FORE_L": true,
+    "HOOF_FORE_L": true,
+    "HIND_L": true,
+    "HOOF_HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HOOF_FORE_R": true,
+    "HIND_R": true,
+    "HOOF_HIND_R": true,
+    "EAR_R": true,
+    "TAIL_PIVOT": true,
+    "DEBUG_HEAD_PIVOT": true,
+    "DEBUG_COM": true,
+    "DEBUG_FOREHEAD": true,
+    "DEBUG_EAR_ROOT_L": true,
+    "DEBUG_CHEEK_L": true,
+    "DEBUG_FORE_SUPPORT_L": true,
+    "DEBUG_HIND_SUPPORT_L": true,
+    "DEBUG_EAR_ROOT_R": true,
+    "DEBUG_CHEEK_R": true,
+    "DEBUG_FORE_SUPPORT_R": true,
+    "DEBUG_HIND_SUPPORT_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CAM front": true,
+    "CAM side": true,
+    "key": true,
+    "fill": true,
+    "rim": true,
+    "low fill": true,
+    "MOUTH_closed": true,
+    "PHILTRUM": true,
+    "NOSE": true,
+    "REFERENCE carol_front.png": true,
+    "REFERENCE carol_side.png": true,
+    "REFERENCE carol_skin_front.png": true,
+    "REFERENCE carol_skin_side.png": true
+  },
+  "executor_visual_precheck": "FAIL",
+  "visual_views": {
+    "skin_front": "Front aperture and chassis Front projection preserved; under-chin transition reads more sharply than intended.",
+    "skin_side": "FAIL: long dominant oblique under-jaw surface remains; eye reads as exposed/protruding despite measured span.",
+    "diagnostic_3q": "Near-eye whole-cap ratio in target range; the socket/eye still looks exposed.",
+    "diagnostic_top": "Rounded posterior shoulders retained; anterior taper not clearly improved."
+  },
+  "motion_clearance": "NOT_RUN_EXECUTOR_VISUAL_PRECHECK_FAILED",
+  "human_geometry_gate": "NOT_REVIEW_READY",
+  "candidate_role": "DIAGNOSTIC ONLY \u2014 NOT PROMOTED",
+  "status": "BLOCKED_AT_V012_PHASE_A_VISUAL_RECONSTRUCTION",
+  "blockers": [
+    "Side lower-cheek/chest retains the dominant oblique turn instead of the locked very short rounded transition; Front under-chin crease is also too sharp.",
+    "Side eye reaches the numeric span but remains exposed/protruding; measured whole-cap width does not establish socket integration."
+  ],
+  "phase_b": "NOT_STARTED",
+  "phase_c": "NOT_STARTED",
+  "production_rig": false,
+  "animation": false,
+  "fleece": false,
+  "glb": false,
+  "runtime": false,
+  "source_v011_unchanged": true
+}
