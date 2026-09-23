@@ -1,0 +1,162 @@
+{
+  "candidate": "v012-T2-O1",
+  "source_commit": "e95654fae3dc8434cbe651e7d6467aafe59dc667",
+  "source_v011_sha256": "568fb4378b6ca3093ba5134d8d082f37a6723c9d5b5cf0b491a7c8e5f757aed3",
+  "selected_transition": "T2",
+  "selected_ocular": "O1",
+  "topology": {
+    "vertices": 533,
+    "edges": 1062,
+    "faces": 531,
+    "components": 1,
+    "nonmanifold_edges": 0,
+    "all_quads": true,
+    "euler": 2,
+    "degenerate_faces": 0
+  },
+  "identical_face_connectivity": true,
+  "chassis_yz_max_delta_H": 0.0,
+  "transition_max_x_delta_H": 0.050000011920928955,
+  "chassis_575_plus_max_delta_H": 0.0,
+  "control": {
+    "count": 0,
+    "pairs": []
+  },
+  "evaluated": {
+    "count": 0,
+    "pairs": []
+  },
+  "adjacency_audit": {
+    "control": {
+      "tested_adjacent_triangle_pairs": 5903,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    },
+    "evaluated": {
+      "tested_adjacent_triangle_pairs": 93515,
+      "improper_contacts": 0,
+      "proof": [],
+      "tolerance_H": 5e-07
+    }
+  },
+  "technical_static_gate": "PASS",
+  "reference_hashes": {
+    "carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "carol_skin_front.png": "be21b4ae23578deaca664e77ded2bd225a10693f5b2c01ad0c53e6ae49f9c6b2",
+    "carol_skin_side.png": "bd16825f4e43fd0f6a22f425b5d32f322b83739dd00967cda40fb2c0a2c7b816"
+  },
+  "reference_hashes_verified": {
+    "carol_front.png": true,
+    "carol_side.png": true,
+    "carol_skin_front.png": true,
+    "carol_skin_side.png": true
+  },
+  "reference_registration": {
+    "normal-front": {
+      "file": "carol_front.png",
+      "h": 1011,
+      "ground": 1162,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "normal-side": {
+      "file": "carol_side.png",
+      "h": 916,
+      "ground": 998,
+      "origin": 144,
+      "view": "side"
+    },
+    "skin-front": {
+      "file": "carol_skin_front.png",
+      "h": 994,
+      "ground": 1075,
+      "origin": 626.5,
+      "view": "front"
+    },
+    "skin-side": {
+      "file": "carol_skin_side.png",
+      "h": 1019,
+      "ground": 1037,
+      "origin": 64,
+      "view": "side"
+    }
+  },
+  "reference_registration_verified": true,
+  "ocular_search": [
+    {
+      "depth_H": 0.05,
+      "side_span_H": 0.0981757789850235,
+      "near_3q_ratio": 1.0801902176315585
+    },
+    {
+      "depth_H": 0.055,
+      "side_span_H": 0.10317578166723251,
+      "near_3q_ratio": 1.0801902176315585
+    },
+    {
+      "depth_H": 0.06,
+      "side_span_H": 0.10817578434944153,
+      "near_3q_ratio": 1.0801902176315585
+    },
+    {
+      "depth_H": 0.065,
+      "side_span_H": 0.11317577958106995,
+      "near_3q_ratio": 1.0801902176315585
+    },
+    {
+      "depth_H": 0.07,
+      "side_span_H": 0.11817578226327896,
+      "near_3q_ratio": 1.0801902176315585
+    },
+    {
+      "depth_H": 0.075,
+      "side_span_H": 0.12317578494548798,
+      "near_3q_ratio": 1.0801902176315585
+    },
+    {
+      "depth_H": 0.08,
+      "side_span_H": 0.1281757801771164,
+      "near_3q_ratio": 1.0801902176315585
+    }
+  ],
+  "ocular_depth_H": 0.08,
+  "ocular_projection": {
+    "EYE_L": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.12818078696727753,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.8602736292883586
+      },
+      "3q": {
+        "width_H": 0.10414033010601997,
+        "height_H": 0.14908911660313606,
+        "width_height_ratio": 0.6985106121678462
+      }
+    },
+    "EYE_R": {
+      "front": {
+        "width_H": 0.13699999451637268,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.919462934216282
+      },
+      "side": {
+        "width_H": 0.1281757801771164,
+        "height_H": 0.14900001883506775,
+        "width_height_ratio": 0.8602400266740753
+      },
+      "3q": {
+        "width_H": 0.15815987437963486,
+        "height_H": 0.14641853980720043,
+        "width_height_ratio": 1.0801902176315585
+      }
+    }
+  },
+  "geometry_digest": "0b0dbc01dd07e3f18e7d136bfa67bd6c6b0a02353da5c059f78e78acd5d511ef"
+}
