@@ -1,5 +1,21 @@
 # Grimo Character Production Architecture — Zero-Based Deep Research
 
+
+> **Current status note — 2026-09-23**
+>
+> This document is retained as **architecture-research provenance**, not as an
+> immutable architecture lock. Current durable policy is
+> `docs/grimo/knowledge/CURRENT_PROJECT_MEMORY.md` plus root `AGENTS.md`.
+> The former “final” Full-3D recommendation is now the **Front-Optimized
+> 3D-First Living Character Architecture baseline hypothesis**, subordinate to
+> the Product North Star. Historical passages that require static Gate A
+> perfection before representative motion/runtime work, imply equal-fidelity
+> 360° Full-3D purity, or name Pixel 7a as an already available real-device gate
+> are superseded. Pixel 7a-class remains an **UNVERIFIED_TARGET**; current
+> real-device evidence is Xiaomi 14T Pro. Preserve the research evidence and
+> comparisons; do not reinterpret this note as discarding the study.
+
+
 ## 最重要結論と Executive Recommendation
 
 **結論は一つです。Grimoのキャラクター基盤は、2D/2.5Dではなく「stylized full 3D character master + web-native realtime runtime」を採用するべきです。**  
