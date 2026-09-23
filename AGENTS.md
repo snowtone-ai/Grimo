@@ -47,7 +47,8 @@ Product Goal
 → Acceptance Experience
 → Risk / Unknown Map
 → Decision Question
-→ Cheapest Falsifiable Probe
+→ Reuse / Existing-Asset Audit
+→ Cheapest Falsifiable Valid Probe + Fidelity Floor
 → Functional / Visual Prototype
 → representative Motion / provisional Rig / provisional Fleece
 → Human Experience Review
@@ -62,7 +63,7 @@ Product Goal
 → Jill / Pino / Shushu
 ```
 
-> **Experience → Prototype → Observe → Correct → Integrate → Observe → Productionize**
+> **Experience → Valid Probe → Observe → Correct → Integrate → Observe → Productionize**
 
 This is a spiral, not an asset waterfall.
 
@@ -72,13 +73,17 @@ This is a spiral, not an asset waterfall.
 
 Planner owns the next decision, not repetitive implementation. Confirm latest
 pushed execution state and Product Goal; define one Decision Question; map
-relevant risks/unknowns; choose the highest-value unknown and Cheapest
-Falsifiable Probe; predefine evidence, PASS/FAIL/UNKNOWN, attempt limit, and
-result-dependent next decisions; then produce a bounded Codex task. Interpret
-Codex/Human evidence and choose continue, targeted correction, blocker
+relevant risks/unknowns; audit reusable current/historical assets when visible
+character work is involved; choose the highest-value unknown and the Cheapest
+Falsifiable Valid Probe; define the Human/functional Fidelity Floor; predefine
+evidence, PASS/FAIL/UNKNOWN/PROBE_INVALID, attempt limit, and result-dependent
+next decisions; then produce a bounded Codex task. Interpret Codex/Human
+evidence and choose continue, targeted correction, reuse/adaptation, blocker
 downgrade, or Architecture Review.
 
-Never continue polishing merely because an artifact exists.
+Never continue polishing merely because an artifact exists. Never ask Human to
+mentally subtract a dominant low-quality proxy in order to judge a different
+variable.
 
 ### Codex Executor
 
@@ -104,9 +109,13 @@ consequence.
 
 1. **EXPERIENCE GATE** — identity, cuteness, appeal, life, causality,
    naturalness, personality, companion quality.
-2. **FUNCTIONAL GATE** — deformation, interaction/touch/attachment, export,
+2. **PROBE VALIDITY / EVIDENCE GATE** — evidence must be representative enough
+   to answer the Decision Question. Dominant proxy defects, missing actual
+   interaction, wrong framing, or unclear provenance produce **PROBE_INVALID**,
+   not candidate FAIL.
+3. **FUNCTIONAL GATE** — deformation, interaction/touch/attachment, export,
    runtime, frame pacing, device behavior.
-3. **TECHNICAL HYGIENE** — topology cleanliness, intersections, edge flow,
+4. **TECHNICAL HYGIENE** — topology cleanliness, intersections, edge flow,
    hidden-surface quality, naming, structural elegance.
 
 Technical Hygiene exists to protect Experience or Function. A technical defect
@@ -128,23 +137,27 @@ Ask: **Will the final user see it, feel it, or suffer from it?**
 
 ## Character-production architecture
 
-Current baseline hypothesis:
-**Front-Optimized 3D-First Living Character Architecture**.
+Current baseline:
+**Full-Spatial 3D Living Character Architecture with View-Weighted Polish**.
 
-- Real spatial 3D is the default basis, not a purity goal.
-- The front-facing Hero interaction envelope gets the highest fidelity.
-- Uniform 360° Hero polish is not required.
-- Geometry classes: **HERO_VISIBLE**, **MOTION_EXPOSED**,
-  **FUNCTIONAL_HIDDEN**.
+- Exterior geometry must remain coherent through practical Front / 3/4 / Side /
+  Rear / derived Top exposure and plausible motion.
+- The front Hero presentation gets the highest identity/appeal polish, but
+  front priority is not permission for front-only geometry or off-axis collapse.
+- Geometry investment classes: **HERO_PRIORITY**, **GENERAL_EXTERIOR**,
+  **MOTION_CRITICAL**, **FUNCTIONAL_HIDDEN**.
 - Modular/separate meshes are allowed; one continuous watertight Hero body is
   not a product requirement.
-- Local 2D, shader, material, morph, and compositing techniques are allowed.
+- Local 2D, shader, material, morph, and compositing techniques may supplement
+  the spatial character but must not replace coherent exterior 3D.
 - Whole-finished-character warp/squash/global-scale pseudo-life is prohibited.
 - Blender → GLB/glTF → PlayCanvas is the current implementation hypothesis and
   may change through Architecture Review.
-- Provisional geometry, rig, fleece, representative motion, early export, and
-  runtime/device probes are allowed when they answer a material unknown more
-  cheaply than static polish.
+- Reuse stronger existing geometry/fleece before manufacturing lower-quality
+  replacements.
+- Provisional implementation is allowed only when it can validly answer the
+  Decision Question; Human-facing visible components must meet the declared
+  Fidelity Floor.
 
 ### Carol-specific
 
@@ -156,13 +169,14 @@ Carol canonical identity
 ↓
 Normal Front / Normal Side
 ↓
-Fleece-included Hero appearance
-↓
-Motion-exposed geometry
+Full-spatial Carol exterior
+├─ HERO_PRIORITY polish
+├─ GENERAL_EXTERIOR coherence
+└─ MOTION_CRITICAL deformation / attachment
 ↓
 Skin Front / Skin Side / geometry parameters
 ↓
-Functional hidden implementation
+FUNCTIONAL_HIDDEN implementation
 ```
 
 Skin references and numerical geometry remain locked supporting underbody
@@ -204,10 +218,16 @@ Verification is change- and risk-based.
   device QA are opt-in when the Decision Question or blast radius requires them.
 - Do not repeat already-passing checks without relevant changes.
 
-Final operating rule:
+Final operating rules:
 
 > **Never ask “How do we perfect the current artifact?” before asking “Does
 > perfecting this artifact materially improve the final companion experience?”**
+
+> **Never ask Human to judge through a proxy that visibly dominates the result.**
+
+> **Reuse a stronger existing asset before manufacturing a weaker approximation.**
+
+> **Build spatially coherent 3D first; weight polish toward what the user sees most.**
 
 <!-- BEGIN:nextjs-agent-rules -->
 
