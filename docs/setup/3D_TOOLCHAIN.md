@@ -2,7 +2,7 @@
 
 Status: bootstrap baseline verified 2026-09-15 (Asia/Tokyo)
 
-This document records the reproducible toolchain for Grimo's current Front-Optimized 3D-First implementation hypothesis. It is an implementation/tooling guide, not architecture or production-order authority.
+This document records the reproducible toolchain for Grimo's current Full-Spatial 3D implementation hypothesis. It is an implementation/tooling guide, not architecture or production-order authority.
 
 ## Source of truth and non-negotiables
 
@@ -45,7 +45,7 @@ Physics is reserved for props, collision, joints, environment interaction, bound
 | Playwright | 1.63.0 | Existing project dependency and browser cache verified | Mobile user-flow smoke | `pnpm qa:browser:smoke` |
 | Lighthouse CI | 0.15.1 | Exact dev dependency | PWA shell/startup/network/Core Web Vitals | `pnpm exec lhci --help` |
 | Sentry Next.js | 10.74.0 | Exact dev dependency; disabled by default | Env-driven future monitoring | `SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN` |
-| Android Platform Tools | 37.0.1 | Existing and verified | Xiaomi 14T Pro real-device QA; Pixel 7a-class minimum acceptance | `adb version` |
+| Android Platform Tools | 37.0.1 | Existing and verified | Xiaomi 14T Pro real-device QA; Pixel 7a-class compatibility target | `adb version` |
 | PlayCanvas Editor MCP | 0.7.1 | Codex-registered | Editor inspection/preview/QA bridge | `codex mcp get playcanvas` |
 | PlayCanvas official Skills | marketplace `playcanvas`, plugin `engine` 0.3.0 | Installed and enabled | Official agent guidance for PlayCanvas workflows | `codex plugin list` |
 
