@@ -4,6 +4,7 @@ This file is the single mutable Carol execution truth.
 
 ## Current state — 2026-09-23
 
+- Architecture Review outcome (2026-09-23): the same anterior/static blocker has survived at least two bounded local repair cycles. Under the repository Goal-Backward Production Rule, **do not authorize another local repair by default**. The next planner must first test whether the blocker is materially user-visible in the final front-optimized companion condition; if unknown, use the minimum functional visual/provisional-rig/representative-motion prototype needed to answer that question before further refinement.
 - Branch: `codex/carol-final-reconstruction-v013`. Bounded **v013-A-REPAIR** started from exact pushed HEAD `94761dfdcca7475480a173effe783993146fc484`; no new branch or v014.
 - Execution status: **TECHNICAL_FAIL** after two structural repair passes. Selected asset: `assets/grimo/production/carol/blender/carol-v013.blend`, **A-REPAIR-R2, diagnostic only; not promoted**.
 - Root cause: the original first facial-to-cranial bridge changed circumferential parameterization before spatial separation. Stored witnesses support this, but it was not the only defect. The rounded face perimeter is locally inset relative to adjacent cheek/forehead columns, and the gradual regularization bands still cross later cranial bands. R1 added a matched 48-vertex `CRANIUM_SEAT` and progressive 48-vertex `CRANIUM_TRANSITION`; control intersections were **52**. One allowed R2 seat/transition curvature adjustment left **51**. No R3.
@@ -132,4 +133,15 @@ The following is historical v008 context only and is not current v009 production
 
 ## Next handoff
 
-**CHATGPT_PLANNER — v013-A-REPAIR exhausted its two passes and remains TECHNICAL_FAIL.** Review the [v013 evidence](evidence/reconstruction-v013/README.md). R2 retains 51 control-face intersection pairs around face/seat and transition/front-dorsal connections; the remapping diagnosis was partially confirmed but a clean exterior was not established. Plan a newly bounded decision before further geometry work. Front/Side, eye integration and motion feasibility remain unproven. Do not self-approve Human Geometry Gate, start Phase B/C, or advance the pipeline.
+**CHATGPT_PLANNER — Goal-Backward Architecture Review is now the governing
+handoff.** v013-A-REPAIR remains a factual **TECHNICAL_FAIL** diagnostic with 51
+control-face intersections; that history is unchanged. Do **not** default to a
+third local structural repair. First determine whether the unresolved defect
+would be seen/felt in the final front-optimized companion experience. If its
+final-use impact is unknown, plan the minimum functional Carol prototype
+(including provisional deformation/representative motion and, where practical,
+early runtime framing) needed to expose that impact. Then either target only the
+geometry that materially blocks identity, motion, responsiveness, or runtime,
+or downgrade the blocker. Fleece is a dominant visible identity system; naked
+Underbody visual perfection is not an independent end-state gate. Do not
+self-approve a Human Gate or claim Pixel 7a real-device validation.
