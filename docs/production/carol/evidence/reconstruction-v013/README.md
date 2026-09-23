@@ -1,14 +1,14 @@
-# Carol v013-A — technical failure, diagnostic only
+# Carol v013-A-REPAIR — technical failure after two bounded passes
 
 **Executor status: TECHNICAL_FAIL. Human Geometry Gate: NOT_REVIEW_READY.**
-The bounded Option D anterior replacement failed its cheap control-mesh gate.
-It is saved for diagnosis, not promoted. No shaded visual gate or motion probe
-was run. Phase B/C remain **NOT STARTED**.
+The Option D semantic anterior chassis has still not reached a legitimate
+Front/Side visual test. The selected R2 blend is **DIAGNOSTIC ONLY — NOT
+PROMOTED**. Phase B/C remain **NOT STARTED**.
 
-- Source: `codex/carol-final-reconstruction-v012`, exact commit
-  `9d39680389b20677b6627491fd79bd6acbc51658` (expected parent and message matched).
+- Repair starting HEAD: `94761dfdcca7475480a173effe783993146fc484`.
+- Original source v012: `9d39680389b20677b6627491fd79bd6acbc51658`.
 - Working branch: `codex/carol-final-reconstruction-v013`.
-- Attempt executed/selected: **A only — DIAGNOSTIC ONLY; NOT PROMOTED**.
+- Repair passes: **R1 and R2; selected R2 — DIAGNOSTIC ONLY; NOT PROMOTED**.
 - Asset: `assets/grimo/production/carol/blender/carol-v013.blend`.
 - v012 source SHA-256: `c2aa573baa3dc5723d6b20b80ba5355fb464606f2e0814a1ee81747c532a2055`, unchanged.
 - All four locked image hashes and inherited reference registration verified.
@@ -32,16 +32,30 @@ Quad density transitions occur after the chest blend, ahead of the retained
 nonplanar `.575 H` station. No old head connectivity, remesh, Boolean, UV-sphere
 primitive, camera-specific mesh or hidden corrective shell is used.
 
-## Gate result and exact blocker
+## Repair and gate result
+
+Stored witnesses from original A support the suspected first-bridge angular
+remapping problem: facial quads crossed the first cranial loft on both sides.
+The face perimeter is also locally inset past neighboring cheek/forehead
+columns. A local extrusion can still sweep through those adjacent faces, and
+regularization farther back lets seat/transition bands overlap later cranial
+bands. The diagnosis was **partially confirmed**, not fully resolved.
+
+R1 added a 48-vertex `CRANIUM_SEAT` built from each matched face-boundary
+vertex, then a 48-vertex progressive `CRANIUM_TRANSITION`. It removed some
+original crossings but had **52** control intersections. R2 made one
+coordinated seat/transition curvature adjustment and had **51**. There was no
+R3. No facial/orbital, J0/J1/C0/C1, density-transition, rear, support or
+frozen-object redesign was made.
 
 | Check | Result |
 | --- | --- |
-| Chassis vertices / edges / faces | 825 / 1,646 / 823 |
+| R2 chassis vertices / edges / faces | 921 / 1,838 / 919 |
 | Face type | All quads |
 | Components / nonmanifold edges / Euler | 1 / 0 / 2 |
 | Degenerate / duplicate faces | 0 / 0 |
 | Consistent edge winding | Pass |
-| Disjoint control-face intersections | **36 pairs — FAIL** |
+| Disjoint control-face intersections | **51 pairs — FAIL** |
 | Source rear coordinates, edges, faces | Exact match, including `.575` interface |
 | Save/reload geometry and frozen objects | Match |
 | Full evaluated intersection / adjacency audit | Not run after cheap-gate failure |
@@ -49,14 +63,12 @@ primitive, camera-specific mesh or hidden corrective shell is used.
 | Derived 3Q / Top | Not run |
 | Motion probe | Not run |
 
-The lateral face boundary turns back through the first cranial loft bands.
-The first stored witness is between face 2 and face 413 on the negative-Y
-lateral face. This is an assembly failure in the anterior exterior, not proof
-that the chosen semantic architecture can never work. The source surface is
-not a clean candidate, regardless of closedness or all-quad counts.
+The remaining crossings include face-field to seat and seat/transition to
+Front/Dorsal cranial bands. This is still an anterior assembly failure.
+Closedness and all-quad counts do not make it a clean exterior.
 
-A is not structurally correct. Therefore B's prerequisite is unmet; no B/C or
-parameter rescue was attempted. The jaw/chest silhouette, integrated eye read,
+A-REPAIR is not structurally correct after its two allowed passes. No B/C or
+further parameter rescue was attempted. The jaw/chest silhouette, integrated eye read,
 rounded posterior cranium and accepted ear-root fit remain unproven. No visual
 PASS/FAIL is inferred from wires or numerical projection bounds.
 
@@ -69,9 +81,10 @@ Ear seating delta is zero. Support centers remain `.390` / `.920 H`.
 
 ## Evidence and reproduction
 
-`diagnostic-sheet.png` explicitly marks candidate, overlay and derived-view
-cells **NOT RUN**. It shows locked source thumbnails, not registered comparison
-renders. `structure-sheet.png` contains six wire-only diagnostic panels,
+The original `diagnostic-sheet.png` explicitly marks candidate, overlay and
+derived-view cells **NOT RUN**. Its old 825-vertex annotation is historical A
+data, not R2. It shows locked source thumbnails, not registered comparison
+renders. The updated `structure-sheet.png` contains six R2 wire-only panels,
 including the control/evaluated subdivision comparison and highlighted stored
 intersection witnesses. Neither sheet is a visual-acceptance render. This
 limited evidence respects the required technical-before-render ordering.
@@ -80,14 +93,14 @@ limited evidence respects the required technical-before-render ordering.
 Run from the repository root:
 
 ```text
-blender --background --python scripts/blender/build-carol-v013.py -- --render front,side
+blender --background --python scripts/blender/build-carol-v013.py
 blender --background --python scripts/blender/build-carol-v013.py -- --finalize-failure
-python scripts/blender/carol-v013-evidence.py
+python scripts/blender/carol-v013-evidence.py --structure-only
 ```
 
-The first command stops before rendering on the failed cheap gate. The second
+The first command saves R2 and stops at the failed control gate. The second
 records disposition and exports temporary wire coordinates without changing
-geometry. The last creates the two compact diagnostic sheets.
+geometry. The last updates only the structure sheet.
 
 Toolset: installed Blender 5.2 background Python, BMesh/mathutils, existing
 targeted validators, installed Python/Pillow, and Git/LFS. Existing project
@@ -97,4 +110,5 @@ research, frontend tests, browser, GLB, fleece, production rig or animation ran.
 
 At the user's explicit request, the pre-existing `tmp-carol-v012/` files are
 also committed intact as historical v012 trials. They are not v013 authority.
-Further geometry work requires a new bounded planner handoff.
+The A-REPAIR budget is exhausted. Further geometry work requires a new bounded
+planner handoff.

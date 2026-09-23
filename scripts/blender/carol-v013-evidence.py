@@ -1,5 +1,6 @@
 """Small technical-failure evidence package; never substitute wires for renders."""
 import json
+import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -77,8 +78,8 @@ def panel(sheet,box,view,bounds,evaluated=False):
 
 def structure():
     sheet=Image.new('RGB',(1440,1110),BG);d=ImageDraw.Draw(sheet)
-    label(d,(24,18),'v013-A | STRUCTURE DIAGNOSTIC - WIRE ONLY',27)
-    label(d,(24,56),'Red: saved intersection witnesses (first 12 of 36 pairs). All-depth wire projection; no shaded visual gate.',18)
+    label(d,(24,18),'v013-A-REPAIR-R2 | STRUCTURE DIAGNOSTIC - WIRE ONLY',27)
+    label(d,(24,56),'Red: saved intersection witnesses (first 12 of 51 pairs). All-depth wire projection; no shaded visual gate.',18)
     items=[('Front face','front',(-.34,.34,.23,.73)),
            ('Side face / cranial overlap','side',(-.01,.65,.23,.73)),
            ('Under-jaw transition','side',(.15,.66,.08,.40)),
@@ -98,5 +99,6 @@ def structure():
     sheet.save(OUT/'structure-sheet.png')
 
 
-diagnostic()
+if '--structure-only' not in sys.argv:
+    diagnostic()
 structure()

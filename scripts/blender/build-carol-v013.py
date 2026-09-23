@@ -155,8 +155,20 @@ def build(old, skin, brown):
             z=(top+bottom)/2+(top-bottom)/2*c
             row.append(vertex((x,width*s,z),label))
         return row
+    # The first band is a local extrusion of the exact face perimeter. It
+    # deliberately does not consume the angle map: index j stays beside j.
+    seat=[]
+    for v in prior:
+        p=v.co.copy()
+        p.x += .010
+        p.y *= 1.035
+        p.z = .435+(p.z-.435)*1.03
+        seat.append(vertex(p,'CRANIUM_SEAT'))
+    bridge(prior,seat)
+    prior=seat
     sections=[
-        ('CRANIUM_FRONT',.245,.680,.315,.185,.235,.300,.35),
+        ('CRANIUM_TRANSITION',.240,.660,.318,.160,.210,.355,.10),
+        ('CRANIUM_FRONT',.245,.680,.315,.185,.235,.420,.35),
         ('CRANIUM_DORSAL',.249,.716,.315,.270,.350,.390,1),
         ('CRANIUM_POSTERIOR',.265,.676,.285,.330,.455,.475,1),
         ('J0_JAW_TURNOVER',.277,.585,.256,.355,.545,.505,1),
@@ -307,23 +319,34 @@ def main():
         g=ob.vertex_groups[name].index
         ids=[v.index for v in ob.data.vertices if any(x.group==g for x in v.groups)]
         zone_audit[name]=dict(count=len(ids),valences=sorted(set(valences[i] for i in ids)))
-    passed=(top['components']==1 and top['nonmanifold_edges']==0 and top['degenerate_faces']==0
+    control_pass=(top['components']==1 and top['nonmanifold_edges']==0 and top['degenerate_faces']==0
             and control['count']==0 and normals and not duplicate
             and all(r['valences']==[4] for r in zone_audit.values()))
-    result=dict(candidate='v013-A',source_commit=SOURCE_COMMIT,source_v012_sha256=SOURCE_SHA,
+    evaluated=None
+    adjacency=None
+    if control_pass:
+        print('V013_CONTROL_GATE PASS; evaluating subdivision and adjacent contacts',flush=True)
+        evaluated_data=ob.evaluated_get(bpy.context.evaluated_depsgraph_get()).data
+        evaluated=v10.intersections(evaluated_data)
+        adjacency=dict(control=v10.adjacency_audit(ob.data),
+                       evaluated=v10.adjacency_audit(evaluated_data))
+    passed=(control_pass and evaluated['count']==0 and
+            all(a['improper_contacts']==0 for a in adjacency.values()))
+    result=dict(candidate='v013-A-REPAIR-R2',source_commit=SOURCE_COMMIT,source_v012_sha256=SOURCE_SHA,
                 architecture=ob['architecture'],topology=top,control_disjoint_intersections=control,
+                evaluated_disjoint_intersections=evaluated,adjacency_audit=adjacency,
                 consistent_normals=normals,duplicate_faces=duplicate,semantic_flow=zone_audit,
                 rear_fingerprint_before=digest(rear_before),rear_fingerprint_after=digest(rear_after),
                 rear_correspondence='Exact float coordinates plus coordinate-keyed faces/edges of source ABDOMEN/RUMP, including .575 interface',
                 rear_retained_vertices=len(rear_before['vertices']),rear_preserved=True,
                 frozen_objects=fixed,reference_hashes_verified=hashes,reference_registration_verified=True,
                 aperture_control_H=apertures,optical_relief_H=.030,
-                cheap_technical_gate='PASS' if passed else 'FAIL',technical_static_gate='NOT_COMPLETED' if passed else 'FAIL',
+                cheap_technical_gate='PASS' if control_pass else 'FAIL',technical_static_gate='PASS' if passed else 'FAIL',
                 executor_status='STATIC_REVIEW_PENDING' if passed else 'TECHNICAL_FAIL',
                 human_geometry_gate='NOT_REVIEW_READY',motion_probe='NOT_RUN_STATIC_PREREQUISITE_PENDING',
                 phase_b='NOT_STARTED',phase_c='NOT_STARTED',ear_seating_delta_H=0,
                 production_rig=False,animation=False,fleece=False,glb=False,runtime=False)
-    scene['selected_candidate']='v013-A'
+    scene['selected_candidate']='v013-A-REPAIR-R2'
     scene['candidate_role']='DIAGNOSTIC ONLY — NOT PROMOTED'
     scene['human_geometry_gate']='NOT_REVIEW_READY'
     scene['stage']=result['executor_status']
@@ -340,7 +363,10 @@ def main():
     result['frozen_objects_after_reload']=True
     result['source_v012_unchanged']=True
     v10.write(OUT/'measurements.json',result)
-    print('V013_CHEAP_GATE '+json.dumps(dict(topology=top,gate=result['cheap_technical_gate'],control_intersections=control['count'],rear_preserved=True)),flush=True)
+    print('V013_GATE '+json.dumps(dict(topology=top,control_intersections=control['count'],
+           evaluated_intersections=evaluated['count'] if evaluated else None,
+           adjacent_improper_contacts={k:v['improper_contacts'] for k,v in adjacency.items()} if adjacency else None,
+           gate=result['technical_static_gate'],rear_preserved=True)),flush=True)
     if passed and args.render:render(args.render.split(','))
 
 
@@ -348,6 +374,7 @@ def finalize_failure():
     """Disposition only; do not change geometry or rerun its passing checks."""
     result=json.loads((OUT/'measurements.json').read_text())
     assert result['cheap_technical_gate']=='FAIL'
+    control_count=result['control_disjoint_intersections']['count']
     bpy.ops.wm.open_mainfile(filepath=str(ASSET))
     ob=bpy.data.objects['CENTRAL_CHASSIS']
     # Wire-only inspection data, not beauty renders or a visual acceptance test.
@@ -359,18 +386,21 @@ def finalize_failure():
     cage['labels']=[[groups[g.group] for g in v.groups] for v in ob.data.vertices]
     v10.write(TMP/'wire.json',dict(control=cage,evaluated=evaluated))
     result.update(
-        selected_attempt='A — DIAGNOSTIC ONLY; NOT PROMOTED',attempts_executed=['A'],
+        selected_attempt='A-REPAIR-R2 — DIAGNOSTIC ONLY; NOT PROMOTED',
+        attempts_executed=['A','A-REPAIR-R1','A-REPAIR-R2'],repair_pass_count=2,
+        repair_history=dict(original_control_intersections=36,
+                            R1_control_intersections=52,R2_control_intersections=control_count),
         executor_status='TECHNICAL_FAIL',executor_visual_precheck='NOT_RUN_TECHNICAL_GATE_FAILED',
         skin_front='NOT_RUN_TECHNICAL_GATE_FAILED',skin_side='NOT_RUN_TECHNICAL_GATE_FAILED',
         eye_socket='NOT_RUN_TECHNICAL_GATE_FAILED',derived_3q_top='NOT_RUN_TECHNICAL_GATE_FAILED',
         motion_probe='NOT_RUN_TECHNICAL_GATE_FAILED',human_geometry_gate='NOT_REVIEW_READY',
         candidate_role='DIAGNOSTIC ONLY — NOT PROMOTED',
-        blockers=['36 disjoint control-face intersection pairs: the lateral face boundary and initial cranial loft overlap. The anterior replacement is not a valid exterior.',
+        blockers=[f'{control_count} disjoint control-face intersection pairs remain after R2. The lateral face field still crosses the first cranial loft, and seat/transition bands overlap later cranial bands.',
                   'No Front/Side visual decision is eligible. Jaw/chest shape, visible aperture, lens-edge occlusion and cranial/ear fit remain unproven.'],
-        attempts_b_c='NOT_RUN: A is not structurally correct; B requires a structurally correct A and C requires a near-review B.',
+        attempts_b_c='NOT_RUN: A-REPAIR exhausted its two structural passes before control eligibility; this task does not launch attempt B or C.',
         evaluated_intersections='NOT_RUN_CHEAP_GATE_FAILED',adjacent_overlap_audit='NOT_RUN_CHEAP_GATE_FAILED',
         subdivision_evaluation='EVALUATES_FOR_WIRE_DIAGNOSTIC; geometric cleanliness not established',
-        evidence_limit='Diagnostic sheet contains explicit NOT RUN cells; structure sheet is wire-only. No shaded candidate/overlay/derived renders were generated.',
+        evidence_limit='Existing diagnostic sheet remains a NOT RUN template; repaired structure sheet is wire-only. No shaded candidate/overlay/derived renders were generated.',
         support_centers_H=dict(fore=.390,hind=.920,spacing=.530),
         visible_aperture_contract_H=dict(width=.137,height=.149,centers=[-.162,.162],status='CAGE_AUTHORED; evaluated visible opening not accepted'),
         toolset='Existing Blender 5.2 background Python + bmesh/mathutils, inherited targeted validators, Python/Pillow evidence, Git/LFS. No plugin/config/dependency changes; multi_agent=false.')
@@ -384,7 +414,7 @@ def finalize_failure():
     v10.write(OUT/'measurements.json',result)
     omit={'aperture_control_H','frozen_objects'}
     v10.write(OUT/'validation.json',{k:v for k,v in result.items() if k not in omit})
-    print('V013_FINAL_DISPOSITION TECHNICAL_FAIL; NOT_REVIEW_READY; no geometry change',flush=True)
+    print('V013_A_REPAIR_FINAL TECHNICAL_FAIL; NOT_REVIEW_READY; two repair passes exhausted',flush=True)
 
 
 if __name__=='__main__':main()

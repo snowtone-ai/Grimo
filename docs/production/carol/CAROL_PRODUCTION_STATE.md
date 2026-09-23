@@ -4,8 +4,19 @@ This file is the single mutable Carol execution truth.
 
 ## Current state — 2026-09-23
 
+- Branch: `codex/carol-final-reconstruction-v013`. Bounded **v013-A-REPAIR** started from exact pushed HEAD `94761dfdcca7475480a173effe783993146fc484`; no new branch or v014.
+- Execution status: **TECHNICAL_FAIL** after two structural repair passes. Selected asset: `assets/grimo/production/carol/blender/carol-v013.blend`, **A-REPAIR-R2, diagnostic only; not promoted**.
+- Root cause: the original first facial-to-cranial bridge changed circumferential parameterization before spatial separation. Stored witnesses support this, but it was not the only defect. The rounded face perimeter is locally inset relative to adjacent cheek/forehead columns, and the gradual regularization bands still cross later cranial bands. R1 added a matched 48-vertex `CRANIUM_SEAT` and progressive 48-vertex `CRANIUM_TRANSITION`; control intersections were **52**. One allowed R2 seat/transition curvature adjustment left **51**. No R3.
+- R2 chassis: **921 vertices / 1,838 edges / 919 quads**, 1 component, nonmanifold edges `0`, Euler `2`, degenerate/duplicate faces `0`, consistent winding. Control disjoint intersections **51 — FAIL**. Evaluated intersections and adjacent improper contacts: **NOT_RUN_CONTROL_GATE_FAILED**.
+- `.575 H` interface and all **96** retained ABDOMEN/RUMP vertices, coordinate-keyed edges and faces match source after save/reload. Frozen objects, four reference hashes/registration and source v012 blend are unchanged. No eye/face-field, J0/J1/C0/C1, support or rear redesign.
+- Skin Front / Skin Side / eye/socket visual precheck: **NOT_RUN_TECHNICAL_GATE_FAILED**. Derived 3Q/Top and motion probe: **NOT RUN**. Human Geometry Gate: **NOT_REVIEW_READY**. No Human pass claimed.
+- Evidence: [v013 repair diagnostic](evidence/reconstruction-v013/README.md), [R2 structure wire](evidence/reconstruction-v013/structure-sheet.png), [measurements](evidence/reconstruction-v013/measurements.json), [validation](evidence/reconstruction-v013/validation.json). The original diagnostic sheet remains an explicit NOT RUN template, with historical A counts.
+- Phase B/C, fleece, production rig, animation, GLB and runtime integration: **NOT STARTED**.
+
+## Historical retained v013-A state
+
 - Branch: `codex/carol-final-reconstruction-v013`, from exact source HEAD `9d39680389b20677b6627491fd79bd6acbc51658`.
-- Execution status: **TECHNICAL_FAIL**. Selected attempt: **v013-A, DIAGNOSTIC ONLY — NOT PROMOTED**. Asset: `assets/grimo/production/carol/blender/carol-v013.blend`.
+- Execution status: **TECHNICAL_FAIL**. Selected attempt: **v013-A, DIAGNOSTIC ONLY — NOT PROMOTED**. Historical asset is preserved in commit `94761dfdcca7475480a173effe783993146fc484`; the working `carol-v013.blend` path now holds A-REPAIR-R2.
 - Architecture: **Option D — semantic anterior chassis replacement**. New BMesh-authored face fields, integrated 24-segment orbital R0–R3 grids and recessed basins, shallow optical lenses, section-based cranium, J0 jaw / J1 flex / C0 chest crest / C1 blend, connected to the retained `.575 H` interface. Old head connectivity and separate structural eyelid shells are replaced.
 - Topology: **825 vertices / 1,646 edges / 823 quads**, one component, zero nonmanifold edges, Euler `2`, no degenerate or duplicate faces, consistent edge winding. R0–R2 and J0/J1/C0 are pole-free with valence `4`.
 - Cheap technical gate: **FAIL — 36 disjoint control-face intersection pairs**. The lateral face boundary overlaps the initial cranial loft bands. Closedness and all-quad status do not make this a valid exterior. Full evaluated intersection/adjacent-contact validation was not run after this failure.
@@ -121,4 +132,4 @@ The following is historical v008 context only and is not current v009 production
 
 ## Next handoff
 
-**CHATGPT_PLANNER — v013-A stopped at its cheap technical gate.** Review the [v013 evidence](evidence/reconstruction-v013/README.md). The semantic anterior replacement has 36 disjoint control-face intersection pairs at the lateral face / cranial loft connection. A is not structurally correct, so B/C prerequisites were not met. Plan a new bounded correction before any further geometry execution. Front/Side, eye integration and motion feasibility remain unproven. Do not self-approve Human Geometry Gate, start Phase B/C, or advance the pipeline.
+**CHATGPT_PLANNER — v013-A-REPAIR exhausted its two passes and remains TECHNICAL_FAIL.** Review the [v013 evidence](evidence/reconstruction-v013/README.md). R2 retains 51 control-face intersection pairs around face/seat and transition/front-dorsal connections; the remapping diagnosis was partially confirmed but a clean exterior was not established. Plan a newly bounded decision before further geometry work. Front/Side, eye integration and motion feasibility remain unproven. Do not self-approve Human Geometry Gate, start Phase B/C, or advance the pipeline.
