@@ -3,14 +3,14 @@
 **Status:** Authoritative production specification candidate  
 **Date:** 2026-09-14  
 **Scope:** Carol first vertical slice; Jill / Pino / Shushu follow only after Carol passes all gates  
-**Production baseline:** Stylized Full 3D → Blender → glTF/GLB → PlayCanvas → smartphone PWA  
+**Production baseline hypothesis:** Front-Optimized 3D-First Living Character Architecture → Blender-centered authoring → GLB/glTF + PlayCanvas where validated → smartphone PWA  
 **Primary quality target:** world-class stylized character production; Partner Pikachu / Eevee-class living-companion interaction quality without copying their assets, poses, rigs, or exact animation
 
 ---
 
 ## 0. Authority and source policy
 
-This Bible normalizes the Grimo project around the current Full-3D direction. It must not be overridden by obsolete PixiJS layered-2D/2.5D implementation packs or by stale repository code that predates the technology-agnostic architecture decision.
+This Bible documents production technique for the current **front-optimized 3D-first** baseline. It must not be overridden by obsolete PixiJS / old layered-2D / old 2.5D implementation packs or stale repository code. However, 3D-first is a production hypothesis subordinate to the Product North Star, not a permanent purity lock; an evidence-driven hybrid may replace it through Architecture Review.
 
 ### 0.1 Grimo authority hierarchy
 
@@ -44,31 +44,48 @@ This Bible normalizes the Grimo project around the current Full-3D direction. It
 
 # 1. Executive production doctrine
 
-## 1.1 Single recommendation
+## 1.1 Current baseline hypothesis
 
-Grimo character production shall use:
+The current baseline is **Front-Optimized 3D-First Living Character
+Architecture**. It is selected because it is presently the strongest means to
+the companion experience, not because Full-3D purity is itself a Goal.
+
+Use a goal-backward feedback loop:
 
 ```text
-approved identity canonical
-        ↓
-approved 3D production canonical / geometry contract
-        ↓
-Blender 5.2.1 LTS — pinned production DCC
-        ↓
-model / retopo / lookdev / control rig / deform rig / facial system
-        ↓
-hand-authored primary animation + bounded secondary system
-        ↓
-export rig + glTF/GLB validation
-        ↓
-PlayCanvas behavior / layering / interruption / semantic touch
-        ↓
-smartphone PWA real-device validation
-        ↓
-Human Gate
+Product Goal
+→ Partner experience requirements
+→ minimum architecture hypothesis
+→ functional visual prototype
+→ provisional rig / representative motion
+→ Human experience review
+↔ targeted geometry correction
+→ production modeling / retopo / rig / fleece
+→ early GLB / runtime integration
+→ real-device QA
+→ content expansion
 ```
 
-**Blender is not merely an offline reference lab. It is the standard character-production DCC for the current Full-3D branch.** [G]
+This is **not** an inflexible waterfall. Motion, deformation, and runtime probes
+may deliberately occur before a static intermediate artifact is visually
+perfect when they answer a final-use risk.
+
+Within the current hypothesis:
+
+- spatial 3D structure is the default;
+- Hero fidelity is concentrated in the actual front-optimized interaction
+  envelope rather than equal-fidelity 360-degree coverage;
+- local 2D, material, shader, morph, or compositing techniques are allowed;
+- whole-character / single-finished-image warp, squash, scale, bounce, or
+  similar pseudo-life remains prohibited;
+- hidden geometry receives only the fidelity required by support, deformation,
+  attachment, collision/clearance, or possible motion exposure;
+- if functional Carol prototypes or Partner Experience Production Analysis
+  disprove the hypothesis, trigger Architecture Review and consider hybrid
+  presentation.
+
+**Blender remains the standard DCC for the current 3D-first baseline, not a
+Product Goal or an architecture purity requirement.** [G]
 
 ## 1.2 What determines world-class quality
 
@@ -986,7 +1003,7 @@ Character-specific masks and ownership must be validated in PlayCanvas rather th
 
 Do **not** make 20–50k triangles, 50 bones, 10–20 morphs, 10 draw calls, etc. authoritative simply because they sound plausible.
 
-The Minimum Requirements demand practical Pixel 7a-class PWA performance, sustained frame pacing, input latency, memory/load and thermal feasibility. Exact ceilings remain a prototype question. [G]
+The Minimum Requirements demand practical Pixel 7a-class PWA performance, sustained frame pacing, input latency, memory/load and thermal feasibility. **Xiaomi 14T Pro is the currently available real-device QA hardware; Pixel 7a-class is an UNVERIFIED_TARGET until actual or sufficiently trustworthy target-class validation is available.** Exact ceilings remain a prototype question. [G]
 
 ## 22.2 Target policy
 
@@ -1300,6 +1317,12 @@ Only after PASS may the architecture expand to Jill. Jill is the preferred secon
 ---
 
 # 28. Human Gate system
+
+These gates are **review dimensions, not a strict sequential waterfall**.
+Technical PASS cannot override user-visible failure. If a downstream final-use
+condition can cheaply determine whether an upstream defect matters, prototype
+that condition early. Repeated local blockers are subject to the repository
+Goal-Backward Production Rule.
 
 ## Gate A — Canonical Identity
 Neutral Carol is unmistakably Carol.
