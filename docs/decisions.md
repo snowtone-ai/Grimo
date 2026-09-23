@@ -4,6 +4,29 @@
 They remain useful provenance unless explicitly superseded below, but they must
 not override active Project Knowledge or current mutable production state.
 
+## 2026-09-24 — Full-Spatial 3D + View-Weighted Polish
+
+The character-production baseline is revised to
+**Full-Spatial 3D Living Character Architecture with View-Weighted Polish**.
+
+- Exterior geometry must remain coherent through practical Front/3Q/Side/Rear
+  exposure and plausible future motion.
+- Front remains the highest-polish Hero reference; uniform 360-degree beauty is
+  not required.
+- There is no exterior angle class that permits an obviously broken character.
+- Modular meshes remain allowed; full-spatial coherence does not mean one
+  watertight mesh.
+- Visible Human-facing probes require a declared Fidelity Floor.
+- `PROBE_INVALID` is distinct from candidate `FAIL`.
+- Visible asset work is reuse-first: audit stronger historical/current donors
+  before generating lower-fidelity replacements.
+- The Carol Hero Experience Probe v001 Attempts 1 and 2 did not validly evaluate
+  v011 because visible fleece/ownership quality dominated Human judgment.
+- The previous 2026-09-23 **Front-Optimized 3D-First** baseline is superseded by
+  this decision; its Goal-Backward, Two-Cycle Stop, and technical-hygiene
+  subordination principles remain active.
+
+---
 ## 2026-09-23 — Goal-Backward production system
 
 Current durable routing:
