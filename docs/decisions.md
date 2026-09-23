@@ -1,4 +1,32 @@
-# Long-lived decisions
+# Long-lived decisions / historical decision log
+
+**Current status:** Entries dated before 2026-09-23 are historical decisions.
+They remain useful provenance unless explicitly superseded below, but they must
+not override active Project Knowledge or current mutable production state.
+
+## 2026-09-23 — Goal-Backward production system
+
+Current durable routing:
+
+- Product Goal / quality: `GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`
+- Experience: `GRIMO_CHARACTER_EXPERIENCE_SPEC.md`
+- Architecture: `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`
+- Workflow: `GRIMO_PRODUCTION_OPERATING_SYSTEM.md`
+- Mutable Carol state: `docs/production/carol/CAROL_PRODUCTION_STATE.md`
+
+The prior “Full 3D is authoritative” wording is superseded by
+**Front-Optimized 3D-First Living Character Architecture as a falsifiable
+baseline hypothesis**. Prior geometry-first gate ordering, mandatory static
+perfection before representative motion/runtime, and fixed model-routing rules
+are superseded.
+
+Technical Hygiene is subordinate to Experience and Functional consequences.
+Two bounded failures on essentially the same blocker trigger Architecture Review
+before attempt 3.
+
+---
+
+## Historical entries
 
 ## 2026-09-15 — Full 3D production baseline
 

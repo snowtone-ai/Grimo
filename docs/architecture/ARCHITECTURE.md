@@ -1,5 +1,7 @@
 # Architecture
 
+## Product/runtime boundary
+
 ```text
 Next.js / React PWA
   routes + UI + app state + viewport host
@@ -8,14 +10,27 @@ Next.js / React PWA
         +--> Dexie repositories (local-first persistence)
         +--> Google/Gemini integrations
         |
-        `--> future Grimo 3D viewport host
+        `--> Grimo companion viewport
                |
-               `--> planned PlayCanvas runtime
+               `--> current hypothesis: PlayCanvas runtime
                     GLB/glTF assets authored in Blender
 ```
 
-The character runtime must not own task persistence or application routing. Phase 0 does not implement the viewport, PlayCanvas runtime, Blender assets, models, animation, or touch interaction. The existing `/grimo` route remains a neutral placeholder so the PWA foundation continues to build.
+The character runtime must not own task persistence or application routing.
 
-## Browser target
+Character production follows
+`docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`:
+Front-Optimized 3D-First is the current baseline hypothesis, not a Full-3D
+purity requirement. Local hybrid techniques are allowed; architecture may
+change through evidence-driven Architecture Review.
 
-The product is smartphone-first and PWA-oriented. Pixel 7a-class Chrome is the minimum future quality target; basic Task and Calendar use must not depend on character runtime availability.
+## Device boundary
+
+Grimo is smartphone-first.
+
+- available real-device QA: **Xiaomi 14T Pro**
+- Pixel 7a-class: lower-performance compatibility/design target
+- real Pixel 7a: unavailable
+- Pixel 7a status: **UNVERIFIED_TARGET**
+
+Task/Calendar must remain usable independently of character-runtime availability.

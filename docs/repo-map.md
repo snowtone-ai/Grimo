@@ -1,53 +1,58 @@
 # Repository map
 
-This map is durable routing. Mutable candidate, branch, HEAD, Human Gate,
-blocker, and next-step facts belong only to
+This map is durable routing. Mutable branch/HEAD/candidate/attempt/blocker/
+Human-Gate/next-handoff facts belong only to
 `docs/production/carol/CAROL_PRODUCTION_STATE.md`.
 
-## Authority and production map
+## Authority / production routing
 
 | Path | Responsibility |
 |---|---|
-| `AGENTS.md` | Repository guardrails and ChatGPT↔Codex handoff rules |
-| `.codex/config.toml` | Repository-scoped Codex policy and current tool surface |
-| `docs/grimo/knowledge/CURRENT_PROJECT_MEMORY.md` | Durable decisions and mandatory phase preflight |
-| `docs/grimo/knowledge/README.md` | Knowledge authority index and routing |
-| `docs/grimo/knowledge/product/` | Product and data specifications |
-| `docs/grimo/knowledge/character-experience/` | Companion motion and interaction principles |
-| `docs/grimo/knowledge/character-production/` | Full-3D/Blender and character production authority |
-| `docs/grimo/knowledge/research/` | Research evidence, not automatic production authority |
+| `AGENTS.md` | Minimum repository operating rules |
+| `.codex/config.toml` | Repository invariant only; task tooling is selected per Decision Question |
+| `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md` | Durable authority routing |
+| `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` | Highest durable product/quality authority |
+| `docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md` | What the companion must feel like |
+| `docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` | Current falsifiable production architecture |
+| `docs/grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md` | Planner / Codex / Human + Goal-Backward Spiral |
+| `docs/grimo/knowledge/product/` | Product feature and data contracts |
+| `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md` | Carol motion/behavior vocabulary |
+| `docs/grimo/knowledge/character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md` | Blender technique only |
+| `docs/grimo/knowledge/research/` | Reference evidence / superseded pointers, not automatic authority |
 | `docs/production/carol/CAROL_PRODUCTION_STATE.md` | Single mutable current Carol truth |
-| `docs/production/carol/evidence/` | Versioned review evidence; evidence is not approval |
-| `assets/grimo/source/carol/approved-3d/authority.json` | Machine-readable geometry authority |
-| `assets/grimo/source/carol/approved-3d/` | Four locked references and supplementary derived-view evidence |
-| `assets/grimo/production/carol/blender/` | Generated/working Blender assets; presence is not approval |
-| `scripts/blender/` | Blender generation and review automation |
-| `scripts/3d/` | 3D validation and review utilities |
-| `src/` | Next.js application and domain/runtime code |
-| `docs/archive/obsolete-2_5d/` | Historical, non-authoritative material |
+| `docs/production/carol/evidence/` | Versioned evidence/history; evidence is not approval |
+| `assets/grimo/source/carol/approved-3d/authority.json` | Machine-readable Carol authority roles |
+| `assets/grimo/production/carol/blender/` | Working/generated assets; presence is not approval |
+| `scripts/blender/` | Production and historical version-specific Blender utilities |
+| `scripts/3d/` | Opt-in GLB/runtime diagnostic utilities |
+| `docs/archive/` | Historical/non-authoritative material |
+| `src/` | Next.js application/runtime code |
 
-## Carol geometry routing
+## Carol routing
 
 ```text
-4 FINAL / LOCKED Front/Side + Skin Front/Side
-+ CAROL_GEOMETRY_PARAMETERS.md
-        ↓
-one single 3D model
-        ↓
-derived Back / Top / 3Q
+canonical identity
+↓
+Normal Front / Normal Side
+↓
+fleece-included Hero appearance
+↓
+MOTION_EXPOSED geometry
+↓
+Skin Front / Skin Side / CAROL_GEOMETRY_PARAMETERS.md
+↓
+FUNCTIONAL_HIDDEN implementation
 ```
 
-Use `authority.json` and `CAROL_GEOMETRY_PARAMETERS.md` for formal references.
-Use `CAROL_PRODUCTION_STATE.md` for current execution truth. Do not infer
-current status from this map, old prompts, historical branches, or generated
-assets.
+One coherent spatial Carol is required; one continuous mesh is not. Back/Top/3Q
+are derived diagnostics only when the active Decision Question needs them.
 
 ## Application map
 
 - `src/app/` — Next.js routes, manifest, service worker, server routes
-- `src/components/app-shell/` — mobile shell and navigation
-- `src/domain/` — pure task, calendar, and preference behavior
-- `src/data/` — local persistence and backup boundaries
-- `src/integrations/` — Google and Gemini integration boundaries
+- `src/components/app-shell/` — mobile shell/navigation
+- `src/domain/` — task/calendar/preference behavior
+- `src/data/` — local persistence/backup boundaries
+- `src/integrations/` — Google/Gemini boundaries
 - `public/` — PWA assets
-- `tests/` — domain, compatibility, and visual tests
+- `tests/` — domain/compatibility/visual tests

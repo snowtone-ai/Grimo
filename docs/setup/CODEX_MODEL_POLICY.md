@@ -1,76 +1,43 @@
-# Codex model policy — ChatGPT Planner / Luna Executor
+# Codex model / effort policy
 
-Updated 2026-09-16.
+**Updated:** 2026-09-23  
+**Status:** Routing guidance; Product/architecture authority lives elsewhere.
 
-## Default workflow
+Model choice follows the bounded task and Decision Question. Do not force one
+model across all Grimo work.
 
-The default cross-surface development loop is:
+## Current routing
 
-```text
-Codex task completes
-→ commit + push
-→ classify the next task
-→ simple/deterministic: Codex Luna / Low
-→ substantial reasoning: ChatGPT Planner
-  → read the latest pushed GitHub state
-  → investigate, reason, and produce a complete Luna / Low prompt
-  → Codex Luna executes, validates as needed, commits, and pushes
-→ Astra-class: Codex Astra / Medium directly
-```
+- **GPT-6 Luna — Low/Medium:** mechanical edits, repetitive file work, simple
+  fixes, docs, narrow searches, deterministic validation, low-ambiguity tasks.
+- **GPT-6 Sol — Medium:** default implementation workhorse for normal feature
+  work, TypeScript/React, refactors, tests, and medium-to-hard debugging.
+- **GPT-6 Sol — High:** harder bounded implementation/debugging where extra
+  reasoning materially reduces failure risk.
+- **GPT-6 Astra — Low/Medium/High:** architecture decisions, ambiguous
+  requirements, high-consequence spatial/identity reasoning, repo-wide
+  reasoning, and difficult failures where a wrong premise wastes substantial
+  human time.
+- Other high-cost models/efforts are exception-only when their expected value is
+  higher for the specific bounded task.
 
-GitHub's latest pushed state is the session handoff boundary. Unpushed local
-state is not a source of truth for the next session.
+Planner reasoning should happen before executor work so Codex receives a
+Decision Question, required evidence, PASS/FAIL/UNKNOWN, attempt limit, and next
+decision for each outcome.
 
-## ChatGPT Planner
-
-Use ChatGPT as the default planner for substantial planning, architecture and
-multi-file implementation planning, repository investigation, implementation
-or refactor strategy, debug strategy based on pushed logs/code, integration
-design, and task decomposition. The Planner reads the specified branch from
-GitHub, confirms the current repository state, completes the reasoning, and
-outputs one exact Codex Luna / Low execution prompt. It does not modify the
-repository.
-
-Planner prompts must require no re-asking of known information, no guessing
-about local-only state, enough specificity that Luna need not redesign, lean
-targeted validation, and `commit + push` at the end of the Luna task.
-
-## Codex Luna / Low
-
-Luna is the default executor for file editing, deterministic implementation,
-clerical changes, well-specified coding, moves and renames, documentation,
-targeted validation, and git operations including commit and push. A task that
-has been fully planned may be large and still belongs with Luna. Luna follows
-the prompt and does not independently redesign the solution.
-
-## Codex Astra / Medium
-
-Reserve Astra for Carol geometry interpretation, critical canonical identity
-decisions, high-value visual or spatial reasoning, explicitly selected special
-architecture reasoning, and other explicitly designated Astra-class work.
-Astra is not for routine implementation, validation, or git operations.
-
-## Codex Sol / Terra — exception only
-
-Sol and Terra are not part of default routing. Use them only when the
-ChatGPT-Planner-plus-Luna workflow cannot succeed and at least one condition
-holds: repeated local execute/observe/reason/edit loops are required; ChatGPT
-cannot observe required local state; Luna failed a clearly specified task and
-non-trivial local reasoning is needed; or the user explicitly requests Sol or
-Terra. A large task alone is not a reason to use them. Automatic escalation is
-prohibited.
-
-## Handoff and completion
-
-Tracked repository changes are complete by default only after:
+## Execution invariant
 
 ```text
-edit → targeted validation if needed → commit → push
+bounded edit
+→ targeted validation only if justified
+→ factual report
+→ commit
+→ push
 ```
 
-Exceptions are an explicit no-push instruction, a security concern, an
-unresolved merge/failure, an explicit Human Gate before commit/push, or an
-unavailable remote; report the exception clearly. The short final report must
-state branch, commit, pushed status, validation, and next handoff.
+Do not use model capability as a reason for scope creep, extra tests, broad repo
+cleanup, architecture changes, or Human-quality self-approval.
 
-Multi-agent remains disabled in `.codex/config.toml` (`multi_agent = false`).
+`.codex/config.toml` keeps multi-agent disabled. Tool/MCP selection is
+task-specific; do not permanently disable tools needed by future early
+fleece/motion/runtime probes.
