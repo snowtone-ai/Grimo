@@ -20,9 +20,12 @@ The character runtime must not own task persistence or application routing.
 
 Character production follows
 `docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`:
-Front-Optimized 3D-First is the current baseline hypothesis, not a Full-3D
-purity requirement. Local hybrid techniques are allowed; architecture may
-change through evidence-driven Architecture Review.
+**Full-Spatial 3D Living Character Architecture with View-Weighted Polish** is
+the current baseline. Exterior geometry remains spatially coherent through
+practical Front/3Q/Side/Rear exposure so future motion does not require
+view-specific rebuilds. The front Hero view receives the highest polish; hidden
+functional geometry does not. Modular meshes and local hybrid techniques remain
+allowed; architecture may change through evidence-driven Architecture Review.
 
 ## Device boundary
 
