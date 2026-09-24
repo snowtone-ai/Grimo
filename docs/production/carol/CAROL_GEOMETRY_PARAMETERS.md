@@ -37,12 +37,8 @@ For production decisions:
 2. **Approved Normal Front / Normal Side** — locked visible neutral production references.
 3. **Fleece-included full-spatial Hero character** — current visible 3D realization, judged with Front priority but multi-view coherence.
 4. **HERO_PRIORITY / MOTION_CRITICAL exterior geometry**.
-5. **Approved exposed-Hero module sheets** — localized construction helper authority for the ear and hoof modules only:
-   - `assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.webp`
-   - `assets/grimo/source/carol/approved-3d/modules/carol-hoof-module-authority.webp`
-   These remain subordinate to canonical identity and the four locked Normal/Skin references and may not redefine whole-character proportions.
-6. **Approved Skin / Underbody Front + Skin / Underbody Side + this numerical contract** — supporting underbody authority for support, rigging, deformation, attachment, clearance, and spatial continuity.
-7. **FUNCTIONAL_HIDDEN implementation** — functional structure; Hero polish is unnecessary unless the region becomes externally visible.
+5. **Approved Skin / Underbody Front + Skin / Underbody Side + this numerical contract** — supporting underbody authority for support, rigging, deformation, attachment, clearance, and spatial continuity.
+6. **FUNCTIONAL_HIDDEN implementation** — functional structure; Hero polish is unnecessary unless the region becomes externally visible.
 
 The four production-reference images remain FINAL / LOCKED. This hierarchy changes their role, not their approved measurements.
 
@@ -50,11 +46,9 @@ The four production-reference images remain FINAL / LOCKED. This hierarchy chang
 
 Do not redesign/regenerate the four locked references to solve implementation difficulty.
 
-Do not use old sheets, turnarounds, unapproved AI candidates, whole-character Back/Top/3Q images, or old 3D interpretations as current geometry authority.
+Do not use old sheets, turnarounds, AI candidates, Back/Top/3Q images, or old 3D interpretations as current geometry authority.
 
-The explicitly Human-approved ear/hoof module sheets are a narrow exception: they are localized construction helper authorities for those exposed modules only. Their Front/Side/Top panels constrain one coherent 3D module; their 3/4 panels are validation views, not independent fitting authorities. The cream attachment stubs communicate attachment direction only and are not geometry to copy literally.
-
-Historical 3D assets may be used as **donors or benchmarks** when they improve current production efficiency, but they remain subordinate to current canonical identity, approved Normal/Skin references, the approved exposed-Hero module sheets in their local domains, and this contract.
+Historical 3D assets may be used as **donors or benchmarks** when they improve current production efficiency, but they remain subordinate to current canonical identity, approved Normal/Skin references, and this contract.
 
 A supporting underbody number must not justify a visibly off-model final companion. Preserve evidence and route true conflicts through targeted correction or Architecture Review.
 
@@ -92,10 +86,9 @@ When a technical discrepancy has no demonstrated visible, deformation, attachmen
 - do NOT regenerate Normal Side
 - do NOT regenerate Skin Front
 - do NOT regenerate Skin Side
-- do NOT create a new whole-character AI Back / Top / 3/4 as geometry authority
-- the approved ear/hoof module sheets are allowed only as localized module construction helpers; their 3/4 panels remain validation-only
+- do NOT create a new AI Back / Top / 3/4 as geometry authority
 
-Whole-character Back / Top / 3/4 remain derived diagnostics from the coherent full-spatial Carol character system, not new fitting authorities.
+Back / Top / 3/4 are derived diagnostics from the coherent full-spatial Carol character system, not new fitting authorities.
 
 **Status:** LOCKED
 
@@ -329,101 +322,42 @@ Interpretation:
 
 **Status:** LOCKED
 
-## 7.6 Ears — exposed Hero module
+## 7.6 Ears — front read
 
-**Approved module helper:** `assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.webp`
-
-The sheet is the approved localized visual construction helper for one coherent Carol ear. The cream root stub is orientation-only and must not be copied as a visible final cut cylinder.
-
-Primary locks:
 - front ear angle ≈ `18°`
-- visible front thickness intent ≈ `0.028 H`
-- root-to-tip length ≈ `0.305 H`
-- maximum planform breadth ≈ `0.124 H`
-- root breadth ≈ `0.091 H`
-- tip breadth ≈ `0.042 H`
-
-Thickness profile:
-- root thickness ≈ `0.058 H`
-- mid thickness ≈ `0.043 H`
-- tip thickness ≈ `0.021 H`
-
-Projected / orientation targets:
-- front outward projection ≈ `0.235 H`
-- front downward drop ≈ `0.094 H`
-- side visible length ≈ `0.266 H`
-- side visible height ≈ `0.218 H`
-- side pitch down ≈ `31°`
-- top sweep back ≈ `10°`
-- tip twist out ≈ `8°`
-
-Inner-ear patch:
-- length ≈ `0.205 H`
-- maximum breadth ≈ `0.073 H`
-- soft brown rim remains visibly present around the pink inset
+- visible ear thickness intent ≈ `0.028 H`
 
 Interpretation:
-- broad, soft, side-drooping, plush, rounded
+- broad, soft, side-drooping
 - not thin realistic sheep ears
-- no sharp point or paper-flat flap
-- root must read structurally attached and remain suitable for independent expressive ear-root motion
-- one 3D ear family must satisfy Front / 3Q / Side / Top without per-view redesign
+- ear identity is protected
 
-Construction tolerances:
-- primary dimensions: approximately ±`0.010 H`
-- thickness values: approximately ±`0.008 H`
-- angles: approximately ±`3°`
-- visible identity in canonical/Normal references overrides invisible micro-precision
+**Status:** LOCKED
 
-**Status:** LOCKED — Human-approved module sheet + Planner-derived construction dimensions, 2026-09-24
+## 7.7 Hooves — front read
 
-## 7.7 Hooves — exposed Hero support module
-
-**Approved module helper:** `assets/grimo/source/carol/approved-3d/modules/carol-hoof-module-authority.webp`
-
-The sheet is the approved localized visual construction helper for one coherent front-hoof family. The cream pastern stub communicates insertion direction only and must not be copied as a visible final cut boundary.
-
-Primary locks:
-- visible front hoof width ≈ `0.219 H`
-- visible front hoof height ≈ `0.111 H`
-- hoof depth ≈ `0.150 H`
-- hoof top width ≈ `0.184 H`
-- hoof sole width ≈ `0.196 H`
-- hoof sole depth ≈ `0.112 H`
-
-Toe architecture — HUMAN LOCK 2026-09-22:
-- exactly **three rounded toe lobes**
-- exactly **two shallow clefts**
-- one continuous stylized hoof mass
-- center toe width ≈ `0.073 H`
-- left/right outer toe width ≈ `0.066 H` each
-- cleft width ≈ `0.007 H` each
-- cleft depth ≈ `0.023 H`
-- center toe may read slightly dominant, but not exaggerated
-
-Volume / support:
-- toe forward projection ≈ `0.014 H`
-- heel back projection ≈ `0.009 H`
-- front-face roundness radius ≈ `0.019 H`
-- upper-edge softness radius ≈ `0.016 H`
-- lower contact corner radius ≈ `0.010 H`
-- pastern insert width ≈ `0.148 H`
-- pastern insert depth ≈ `0.106 H`
-- pastern-to-hoof transition height ≈ `0.031 H`
+Visible front hoof read:
+- hoof width ≈ `0.219 H`
+- hoof height ≈ `0.111 H`
 
 Interpretation:
-- heavy, grounded, planted, soft-rounded
+- heavy and grounded
 - do not miniaturize hooves to fake elegance
-- no detached toe objects or per-view toe-count changes
-- same single 3D toe architecture serves every view; camera projection may naturally hide part of one lobe
-- independent toe articulation is not required for MVP
+- hoof read must remain strong
 
-Construction tolerances:
-- primary dimensions: approximately ±`0.008 H`
-- toe/cleft values: approximately ±`0.005 H`
-- support-center relationship remains visually exact
+**Status:** LOCKED
 
-**Status:** LOCKED — Human-approved module sheet + Planner-derived construction dimensions, 2026-09-24
+### Hoof toe architecture — HUMAN LOCK 2026-09-22
+
+Each hoof has exactly **three rounded toe lobes** and exactly **two shallow clefts** in one continuous stylized hoof mass.
+
+The same single 3D toe architecture serves every view; camera projection may naturally hide part of one lobe.
+
+Per-view toe-count changes and detached toe objects are prohibited.
+
+Independent toe articulation is not required for MVP.
+
+Existing hoof width, height, and support locks remain unchanged.
 
 ## 7.8 Front crown / fleece structure
 
@@ -621,7 +555,7 @@ Mesh separation is allowed for authoring, weighting, replacement, and deformatio
 
 ## 9.4 Fleece / hidden-body relationship
 
-The fleece is an external full-spatial, body-attached silhouette system built around the smaller hidden chassis. It may remain a separate production mesh, but its macro transform ownership is tightly bound to the corresponding head/torso region.
+The fleece is an external full-spatial silhouette and secondary-motion system built around the smaller hidden chassis.
 
 It must preserve coherent real 3D volume across practical Front / 3/4 / Side / Rear / derived Top exposure.
 
@@ -880,7 +814,7 @@ Body causality must remain:
 support
 → COM / hidden torso
 → head / primary body action
-→ ears / tail secondary response + fleece-local deformation when causally justified
+→ ears / fleece / tail secondary response
 ```
 
 **Status:** LOCKED
