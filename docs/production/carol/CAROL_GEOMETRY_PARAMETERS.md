@@ -1,8 +1,8 @@
 # CAROL_GEOMETRY_PARAMETERS.md
 
-**Status:** ACTIVE SUPPORTING GEOMETRY AUTHORITY — NORMAL LOCK + TARGETED SKIN HOOF CORRECTION
+**Status:** ACTIVE SUPPORTING GEOMETRY AUTHORITY — NORMAL / SKIN LOCK
 **Character:** Carol  
-**Scope:** Locked Normal geometry, Skin underbody geometry with a narrowly superseded distal-foot region, numerical registration, full-spatial support, deformation, attachment, clearance, and motion-readiness constraints
+**Scope:** Locked Normal and Skin geometry, localized ear-module authority, numerical registration, full-spatial support, deformation, attachment, clearance, and motion-readiness constraints
 **Last Updated:** 2026-09-24
 
 ---
@@ -11,9 +11,9 @@
 
 This file is Carol's **supporting geometry contract**.
 
-It locks the approved Normal/Skin reference package and numerical relationships needed for reconstruction, support, rigging, deformation, attachment, clearance, and motion readiness. The only active visual-reference exception is the **distal Skin foot / hoof depiction**, which is explicitly superseded by the hoof authority defined in §7.7 and is being corrected without redesigning the rest of the Skin references.
+It locks the approved Normal/Skin reference package and numerical relationships needed for reconstruction, support, rigging, deformation, attachment, clearance, and motion readiness. Skin Front and Skin Side are current supporting underbody authorities; their distal hoof appearance does not override the visible hoof authority defined in §7.7.
 
-It does **not** define the Product Goal, current production task, or a mandatory geometry-first phase order.
+It does **not** define the Product Goal or production workflow.
 
 It is not the highest authority for final visible Carol appeal: canonical identity and the actual fleece-included Hero appearance remain above hidden underbody perfection.
 
@@ -40,17 +40,17 @@ For production decisions:
 5. **Approved Skin / Underbody Front + Skin / Underbody Side + this numerical contract** — supporting underbody authority for support, rigging, deformation, attachment, clearance, and spatial continuity.
 6. **FUNCTIONAL_HIDDEN implementation** — functional structure; Hero polish is unnecessary unless the region becomes externally visible.
 
-Normal Front and Normal Side remain FINAL / LOCKED. Skin Front and Skin Side remain locked for every region **except the distal foot / hoof depiction**. That local Skin hoof region is superseded until corrected to the approved three-part Carol hoof architecture. No other Skin geometry is reopened.
+Normal Front and Normal Side remain FINAL / LOCKED. Skin Front and Skin Side are current supporting underbody authorities for leg/root/support/body geometry. Their visible distal hoof styling does not override the approved Normal Front / Normal Side authority for final visible hoof design. No generated hoof-module sheet is active authority.
 
 ## 1.2 Conflict rule
 
-Do not redesign/regenerate the locked references to solve implementation difficulty. The sole current exception is a **targeted Skin distal-foot correction** authorized to remove the incorrect paw-like hoof interpretation and replace it with Carol's approved hoof architecture.
+Do not redesign/regenerate the locked references to solve implementation difficulty. Final visible hoof form will be matched later on the completed fleece-included Carol using approved Normal Front / Normal Side as the primary visible hoof authority.
 
 Do not use old sheets, turnarounds, AI candidates, Back/Top/3Q images, or old 3D interpretations as current geometry authority.
 
 Historical 3D assets may be used as **donors or benchmarks** when they improve current production efficiency, but they remain subordinate to current canonical identity, approved Normal/Skin references, and this contract.
 
-A supporting underbody number must not justify a visibly off-model final companion. Preserve evidence and route true conflicts through targeted correction or Architecture Review.
+A supporting underbody number must not justify a visibly off-model final companion. Preserve the approved visible identity and geometry intent when resolving conflicts.
 
 ## 1.3 Domain roles
 
@@ -61,16 +61,19 @@ Locks approved neutral front silhouette, facial structure, eye/ear/hoof read, ce
 Locks approved neutral side envelope, total length, support spacing, muzzle projection, ear profile, tail relationship, compactness, and side motion-readiness silhouette.
 
 ### Approved Skin / Underbody Front
-Supporting authority for hidden chassis width, head/body and chest/abdomen/pelvis relationships, bilateral support, short limbs, and head/torso connection. The current distal foot / hoof drawing is **not hoof-shape authority** until the targeted correction is completed.
+Supporting authority for hidden chassis width, head/body and chest/abdomen/pelvis relationships, bilateral support, short limbs, leg/root/support/body geometry, and head/torso connection. Its visible distal hoof styling does not override Normal Front / Normal Side for final visible hoof design.
 
 ### Approved Skin / Underbody Side
-Supporting authority for hidden head depth, minimal muzzle, longitudinal support structure, limb roots, support spacing, belly clearance, COM, tail/ear roots, and articulation/deformation clearance. The current distal foot / hoof drawing is **not hoof-shape authority** until the targeted correction is completed.
+Supporting authority for hidden head depth, minimal muzzle, longitudinal support structure, limb roots, support spacing, belly clearance, COM, tail/ear roots, articulation/deformation clearance, and leg/root/support/body geometry. Its visible distal hoof styling does not override Normal Front / Normal Side for final visible hoof design.
 
 ### This file
 Supporting authority for normalized coordinates, numerical locks/tolerances, support/COM logic, reconstruction constraints, tail intent, and motion/deformation clearance.
 
 ### `carol-identity-canonical.png`
 Highest final visible identity/appeal authority.
+
+### `modules/carol-ear-module-authority.png`
+Localized Ear Module authority for ear 3D volume, thickness, root/base form, inner/outer ear relationship, Front / Side / Top / 3Q spatial consistency, and modeling/deformation/rigging-relevant ear structure. Normal Front / Normal Side still control the ear's relationship to the whole Carol character and overall visible identity.
 
 ## 1.4 Numerical / visual conflict rule
 
@@ -80,17 +83,16 @@ A few antialiasing/image-generation pixels are not grounds to rewrite a number.
 
 When a technical discrepancy has no demonstrated visible, deformation, attachment, runtime, or future-spatial consequence, do not polish it as an independent goal.
 
-## 1.5 Reference freeze / targeted-correction rule
+## 1.5 Reference freeze rule
 
 - do NOT regenerate Normal Front
 - do NOT regenerate Normal Side
 - do NOT redesign Skin Front
 - do NOT redesign Skin Side
-- Skin Front / Side may receive **only the authorized distal-foot / hoof correction**
-- the correction must preserve every non-foot pixel/shape relationship as closely as the image-edit system permits
+- Skin Front / Side are accepted current supporting underbody authorities; do not regenerate or further repair them now
 - do NOT create a new AI Back / Top / 3/4 as geometry authority
 
-The temporary cream-colored featureless leg/rod images used to erase prior hoof bias are **editing intermediates only**. They are never Carol geometry authority and must not be used to define hoof shape.
+No generated hoof-module sheet is active authority. The old temporary rod-neutralization workflow is historical only and is not a production instruction.
 
 Back / Top / 3/4 are derived diagnostics from the coherent full-spatial Carol character system, not new fitting authorities.
 
@@ -390,12 +392,9 @@ For hoof shape specifically:
 2. approved Normal Side hoof read
 3. Carol canonical identity hoof family
 4. this §7.7 hoof contract
-5. corrected Skin Front / Side hoof depiction after completion
-6. implementation convenience
+5. implementation convenience
 
-The **pre-correction Skin hoof depiction is explicitly deprecated as hoof-shape evidence** because it drifts toward a paw/dog-foot family. Do not average it with the Normal/Identity hoof.
-
-Temporary cream-colored featureless leg rods used during image editing are bias-neutralization intermediates only. They carry **zero hoof-shape authority**.
+Skin Front / Side distal hoof styling does not override the Normal/Identity hoof. No generated hoof-module sheet is active authority.
 
 Existing hoof width, height, support centers, and planted-contact requirements remain unchanged unless a later explicit Human decision changes them.
 
@@ -672,11 +671,9 @@ not visible-appearance replacement values.
 
 ## 10.3 Definitive underbody visual-reference decision
 
-The latest user-approved **Skin / Underbody Front** and **Skin / Underbody Side** remain locked **supporting underbody references outside the distal foot / hoof region**.
+The latest user-approved **Skin / Underbody Front** and **Skin / Underbody Side** are current supporting underbody references for leg/root/support/body geometry and all other stated underbody structure. Their visible distal hoof styling does not override Normal Front / Normal Side for final visible hoof design. Do not regenerate or further repair these Skin references now.
 
-Their current distal hoof depiction is locally superseded because it has drifted into a paw/dog-foot family that conflicts with the approved Normal/Identity hoof. The authorized workflow is: (1) neutralize only the distal foot into a featureless cream leg/rod intermediate, then (2) reconstruct the hoof from Normal Front / Normal Side / canonical identity + §7.7. After that targeted correction is approved, the corrected Skin references become the definitive supporting underbody references again.
-
-No other Skin anatomy is reopened. The temporary rod intermediate is not authority.
+Final visible hoof form will be matched later on the completed fleece-included Carol using approved Normal Front / Normal Side as the primary visible hoof authority. No generated hoof-module sheet is active authority.
 
 The hidden chassis must clearly support segmentation into:
 
@@ -711,7 +708,7 @@ It locks the visible interpretation of:
 - bilateral limb architecture
 - front and rear support relationship
 - short limbs
-- correct hoof support location and overall distal-foot envelope; **current pre-correction paw-like toe shape is excluded from authority**
+- correct hoof support location and overall distal-foot envelope; visible hoof styling follows the Normal / canonical hoof authority
 - low grounded stance
 - head / torso connection
 - broad ear identity without fleece occlusion
@@ -749,7 +746,7 @@ It locks the visible interpretation of:
 - short limb exposure
 - belly clearance
 - low center-of-mass read
-- planted hoof support relationship and contact location; **current pre-correction paw-like toe shape is excluded from authority**
+- planted hoof support relationship and contact location; visible hoof styling follows the Normal / canonical hoof authority
 - ear-root depth
 - independent tail-root relationship
 - articulation clearance required for future movement
@@ -956,7 +953,7 @@ These may exist in illustrations, but are not authority for production geometry.
 
 ---
 
-# 13. Stable Reference Lock and Workflow Boundary
+# 13. Stable Reference Lock and Geometry Boundary
 
 ## 13.1 Locked durable facts
 
@@ -975,25 +972,13 @@ The following remain formally locked:
 
 These are durable references, not a current-state log.
 
-## 13.2 Mutable state lives elsewhere
-
-Current branch, HEAD, selected candidate, attempt count, blocker, Human Gate, and next handoff live only in `docs/production/carol/CAROL_PRODUCTION_STATE.md`.
-
-This file must not prescribe a mutable “next production step”.
-
-## 13.3 Full-spatial production boundary
+## 13.2 Full-spatial geometry boundary
 
 This contract does not require naked Underbody perfection, final retopology, production rigging, or a static Geometry Gate before every downstream experiment.
 
 It **does** require that the character's exterior geometry remain spatially coherent beyond the primary Front view so that future motion does not routinely expose unbuilt/broken angles.
 
-Production order is selected by the Goal-Backward Production Operating System.
-
-For Carol, visible components used in Human perceptual review must first satisfy the task-specific **Human-Evaluable Fidelity Floor**. A visibly poor ear, hoof, fleece, or attachment cannot be mentally ignored when judging cuteness or motion ownership.
-
-When useful, existing high-quality historical full-3D assets may be adapted as donors instead of rebuilt from zero.
-
-Final production topology/weights/shaders may remain provisional while representative motion is tested, provided the visible geometry is already representative enough for the Decision Question.
+When useful, existing high-quality historical full-3D assets may be adapted as donors instead of rebuilt from zero. Production order, tools, modeling method, topology, rigging, and test sequence remain implementation choices outside this geometry contract.
 
 # 14. Derived View / Full-Spatial Diagnostic Policy
 
@@ -1021,21 +1006,7 @@ Do not deform Carol to match obsolete old Back / Top / 3/4 artwork.
 
 There is no requirement that rear/top views receive equal Hero polish, but they must not reveal an obviously broken character.
 
-## 14.2 Evidence is Decision-Question specific
-
-There is no permanent evidence packet every task must generate.
-
-Geometry tasks claiming full-spatial coherence should use enough derived views to demonstrate the affected region remains valid.
-
-Human identity/appeal judgment should use representative-quality visible assets.
-
-Motion/touch/runtime questions should use evidence as close as practical to final use; if touch causality is the question, actual interactive input is preferred over a prerecorded clip.
-
-Automated geometry metrics are diagnostics. Human judgment controls visible identity, appeal, naturalness, life, and companion quality.
-
-**Status:** LOCKED as diagnostic policy
-
-# 15. Decision Rules for Future Work
+# 15. Geometry Priority Rules
 
 When geometry-related choices compete, prioritize:
 
@@ -1050,10 +1021,6 @@ When geometry-related choices compete, prioritize:
 Do not optimize realism, hidden-surface beauty, all-quads purity, watertightness, or structural elegance as independent goals.
 
 Do not use front-only or camera-dependent geometry to avoid building valid 3D form.
-
-If a Human-facing probe is dominated by a low-quality visible proxy, classify the probe as `PROBE_INVALID`, not the underlying candidate as FAIL.
-
-If essentially the same blocker survives two bounded cycles, return to Architecture Review before attempt 3.
 
 # 16. Summary Contract
 
