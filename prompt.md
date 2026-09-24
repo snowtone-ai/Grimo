@@ -2,12 +2,53 @@
 
 ## Executor configuration
 
-**Recommended model:** GPT-6 Astra  
+**Recommended model:** GPT-6 Sol  
 **Reasoning effort:** High  
 **Subagents:** PROHIBITED  
 **Mode:** one cohesive bounded production task; do not delegate visual/geometry decisions to subagents.
 
 Read this file completely before changing anything.
+
+## Sol execution doctrine — IMPORTANT
+
+This prompt is intentionally over-specified because the executor is **GPT-6 Sol / High**.
+
+The planning/architecture work has already been done. Do **not** spend tokens reopening decisions that are settled here.
+
+Operate as an implementation executor:
+
+- follow the phase order below;
+- prefer direct inspection of named files over broad repository exploration;
+- reuse the named historical algorithms only where explicitly allowed;
+- do not perform new web research;
+- do not ask another agent/model to reinterpret the task;
+- do not produce a long speculative plan before coding;
+- do not create multiple competing implementations “to see which one works”;
+- do not refactor unrelated Carol code;
+- do not re-derive product philosophy;
+- do not reread large unrelated evidence trees after the required files are known;
+- use deterministic scripts and numerical diagnostics to spend compute instead of reasoning tokens;
+- when a local numeric fit is insufficient, change the small shared parameter set, not the architecture;
+- if a genuine contradiction is found, document it and stop rather than inventing a new authority.
+
+The intended token-efficient loop is:
+
+```text
+inspect exact source + exact authorities once
+→ snapshot frozen state
+→ extract module target profiles once
+→ build parametric ear
+→ fit ear
+→ build parametric hoof
+→ fit hoof
+→ integrate into v011 copy
+→ run focused gates
+→ at most two visual correction cycles
+→ evidence
+→ commit / push
+```
+
+Do not narrate intermediate reasoning in the Codex response. Put useful facts into evidence files and keep the final response compact.
 
 ---
 
@@ -37,9 +78,11 @@ Source branch:
 
 `chore/full-spatial-3d-production-system`
 
-At planner handoff, the execution state immediately before this task was:
+At planner handoff, the last production-state commit before prompt-only planning commits was:
 
 `ef1fc4602f0a481fbd1a2d095a30a073796434bb`
+
+The current source-branch HEAD also contains one or more **prompt-only planning commits**. Use the latest pushed remote source-branch HEAD that contains this finalized Sol prompt as the branch point.
 
 The branch may contain a later commit that only adds/updates this `prompt.md`. Treat the **latest pushed remote HEAD containing this prompt** as the task base unless another execution commit appeared after it.
 
@@ -133,6 +176,8 @@ Freeze every unrelated object.
 
 Record source hashes / frozen-object geometry digests before modification and prove they are unchanged afterward.
 
+For token and runtime efficiency, compute the frozen snapshot once before edits and once after final integration. Do not repeatedly hash every frozen object during optimizer iterations.
+
 The task may replace the ear/hoof meshes and may add narrowly scoped module helper objects/metadata/evidence. It must not redesign:
 
 - `CENTRAL_CHASSIS`
@@ -167,6 +212,109 @@ Recommended implementation file:
 `scripts/blender/build-carol-hero-modules-v001.py`
 
 You may create one small helper script only if it materially simplifies deterministic reference-mask comparison. Do not create a framework.
+
+## 4.1 Exact execution phases — DO NOT REORDER
+
+### Phase 0 — branch / materialization
+
+1. Fetch the current source branch.
+2. Verify the latest remote source HEAD contains this `prompt.md`.
+3. Create `codex/carol-hero-modules-v001` from that exact remote HEAD.
+4. Materialize only the LFS files required for this task, especially `carol-v011.blend`, if they are pointers locally.
+5. Verify Blender 5.2.1 is the executable being used.
+
+Do not run the app, Playwright, PlayCanvas, or full repository test suites.
+
+### Phase 1 — source snapshot and allowed-change set
+
+Open `carol-v011.blend` read-only for inspection first.
+
+Record:
+
+- source blend SHA-256;
+- object inventory;
+- transforms and mesh-data identity of the existing ears/hooves;
+- the presence and world locations of `DEBUG_EAR_ROOT_L/R` and support debug empties when available;
+- world bounds of current limbs and hooves;
+- material names/slots;
+- frozen-object digest for every object outside the allowed module set.
+
+Allowed visible geometry changes are only:
+
+```text
+EAR_L
+EAR_R
+HOOF_FORE_L
+HOOF_FORE_R
+HOOF_HIND_L
+HOOF_HIND_R
+```
+
+A tiny hidden distal-limb overlap may be created only if needed for gap-free hoof insertion. Do not visibly reshape the limbs.
+
+If object names differ, map the actual equivalent objects once and store that mapping in `measurements.json`.
+
+### Phase 2 — extract target geometry descriptors ONCE
+
+From each approved 2×2 module sheet:
+
+- split exact image halves;
+- identify Front / Side / Top / 3Q;
+- segment near-white background;
+- separate brown/pink module from cream orientation stub;
+- compute module-local bounding boxes;
+- compute binary silhouette masks;
+- sample normalized contour/profile data;
+- write the derived target descriptors to the evidence JSON.
+
+Do not repeatedly reopen/re-segment the reference inside every optimizer step.
+
+Suggested target profile sampling:
+
+- 17 evenly spaced samples along the major longitudinal axis;
+- 17 samples along the orthogonal width/height axis;
+- retain the full binary mask for final IoU.
+
+### Phase 3 — standalone ear
+
+Build and fit one left-ear master in an isolated temporary collection or temporary scene state.
+
+Do not integrate it into Carol until its standalone Front/Side/Top gates are close to converged.
+
+### Phase 4 — standalone hoof
+
+Build and fit one master hoof in isolation.
+
+Do not place four copies until the master Front/Side/Top gates are close to converged.
+
+### Phase 5 — bounded integration
+
+Integrate the converged master ear/hoof geometry into the copy of v011.
+
+Preserve object naming and semantic module identity.
+
+Mirror/copy cleanly.
+
+Re-run only local integration metrics and frozen-object checks.
+
+### Phase 6 — correction cycles
+
+Cycle 1:
+- inspect final shaded module comparisons and integrated Front/Side/3Q;
+- identify the **single largest remaining module mismatch** for ear and hoof separately;
+- apply one bounded shared-parameter correction pass.
+
+Cycle 2 is allowed only if a concrete visible mismatch remains after Cycle 1.
+
+No Cycle 3.
+
+### Phase 7 — evidence / state / Git
+
+Write only the compact evidence package in this prompt.
+
+Update current production state only with the new factual result.
+
+Commit, push, verify clean worktree, report.
 
 ---
 
@@ -279,6 +427,71 @@ buried/back root cap
 
 This is guidance, not a requirement to preserve old v008 coordinates.
 
+## 7.1.1 Ear parameterization — implement this first
+
+Use a **module-local coordinate system** before mapping into Carol world space:
+
+- `U` = root → tip longitudinal axis;
+- `V` = planform breadth axis;
+- `W` = shell thickness / bowl-normal axis.
+
+Do not optimize raw vertices directly.
+
+Use a small shared parameter set:
+
+1. root position/orientation;
+2. centerline control points along `U`;
+3. outer half-breadth profile `B(U)`;
+4. thickness profile `T(U)`;
+5. camber/bowl-depth profile `C(U)`;
+6. inner-patch scale/offset relative to outer shell;
+7. rim-width profile;
+8. global pitch / sweep / tip twist.
+
+Recommended production resolution:
+
+- **32 perimeter samples** around the outer/inner contour;
+- 7 conceptual nested loops from back cap through rim to recessed bowl;
+- quads between corresponding loops wherever practical;
+- close hidden root/back regions cleanly.
+
+Derive the initial outer planform from the Top sheet mask instead of hand-guessing it.
+
+A token-efficient initial construction is:
+
+```text
+Top mask
+→ normalized root-to-tip centerline
+→ sample left/right contour offsets at fixed U
+→ smooth offsets into B(U)
+→ create outer planform
+
+Front + Side masks
+→ fit centerline drop/camber + global orientation
+→ apply locked T(U)
+→ fit inner patch and rim
+```
+
+Use smooth interpolation between a small number of knots; do not keep all 17 sampled values as independent production parameters.
+
+Recommended final control knots:
+
+`U = [0.00, 0.18, 0.40, 0.65, 0.84, 1.00]`
+
+The root and tip may need support/control loops, but do not add arbitrary local bumps to chase antialiasing pixels.
+
+Thickness must be driven by the locked root/mid/tip values and smoothly interpolated. Do not infer thinness from shading.
+
+Inner bowl:
+
+- must be a real recessed surface region;
+- must remain connected to the outer shell;
+- brown rim must have finite width;
+- pink region is face material assignment, not a second hovering object;
+- bowl depression should be shallow and smooth; tune only enough to reproduce Side/3Q read without making the ear cup-like or realistic.
+
+Use Subdivision Surface only after the structured cage is stable. Default to level 2 viewport/render if it improves the shape; if used, all measurements and IoU are on the **evaluated subdivided mesh**.
+
 Use the approved new numerical contract in `CAROL_GEOMETRY_PARAMETERS.md`.
 
 Primary targets include:
@@ -305,6 +518,10 @@ These are construction constraints. The approved visible identity remains the fi
 ## 7.2 Ear root integration
 
 Preserve the current Carol ear-root location/relationship unless a tiny adjustment is necessary to satisfy the current locked Normal/Skin refs.
+
+Use the existing `DEBUG_EAR_ROOT_L/R` world positions if they are present and still correspond to the retained source. If those helpers are absent, derive the root anchor once from the current source ear/head relationship and record how it was derived.
+
+Do not search for a new root location by optimizing the whole head silhouette.
 
 The final root must:
 
@@ -359,6 +576,68 @@ A useful starting architecture is the historical v008 ring/section idea, but rep
 
 The production hoof must not be built as three spheres fused together.
 
+## 8.1.1 Hoof parameterization — implement this first
+
+Use a **module-local coordinate system**:
+
+- `U` = fore ↔ heel depth axis;
+- `V` = left ↔ right width axis;
+- `W` = ground ↔ top vertical axis.
+
+Build a structured closed loft, not independent lobes.
+
+Recommended topology:
+
+- 9–11 horizontal/near-horizontal shape rings from sole to pastern transition;
+- 48–64 samples around each ring;
+- aligned vertex correspondence between rings;
+- a flat or nearly flat lowest sole/contact loop;
+- one or two nearby support loops so smoothing does not lift Carol off the ground.
+
+The three-toe architecture is numerically convenient because the locked front widths sum exactly to the total width:
+
+```text
+left outer toe   = 0.066 H
+left cleft       = 0.007 H
+center toe       = 0.073 H
+right cleft      = 0.007 H
+right outer toe  = 0.066 H
+TOTAL            = 0.219 H
+```
+
+Therefore, in the normalized Front width interval `[-0.1095H, +0.1095H]`, use these boundaries as the initial front-profile partition:
+
+```text
+left toe     [-0.1095, -0.0435]
+left cleft   [-0.0435, -0.0365]
+center toe   [-0.0365, +0.0365]
+right cleft  [+0.0365, +0.0435]
+right toe    [+0.0435, +0.1095]
+```
+
+Treat cleft depth `0.023 H` as the approximate vertical notch depth from the ground/front-toe silhouette as shown by the approved Front view. Keep the valleys shallow and rounded.
+
+Construct the toe front using **three smooth rounded basis lobes** blended into one front mass, with two smooth negative notches at the cleft centers. Do not use a repeating sine function across the full hoof and do not create separate toe objects.
+
+Control only a small set of meaningful parameters:
+
+1. total width;
+2. total height;
+3. total depth;
+4. top width;
+5. sole width/depth;
+6. three lobe amplitudes;
+7. two cleft depths/roundness;
+8. toe-forward projection;
+9. heel-back projection;
+10. heel roundness;
+11. upper transition width/depth;
+12. front/side crown roundness.
+
+The center lobe should be only slightly dominant.
+
+Default to **no Subdivision modifier on the final hoof** if the dense structured loft already gives the correct smooth result, because ground contact and shallow clefts are easier to preserve explicitly. If Subdivision is used, add support loops and judge the evaluated surface; min world Z must still be on the intended ground plane.
+
 Do not use Voxel Remesh as the final result.
 
 ## 8.2 Numerical targets
@@ -387,6 +666,10 @@ Use the current locked contract:
 ## 8.3 Body integration
 
 Preserve the current support centers and current short-limb architecture.
+
+Prefer the existing `DEBUG_FORE_SUPPORT_L/R` and `DEBUG_HIND_SUPPORT_L/R` anchors when present; otherwise use the locked support centers from the geometry contract.
+
+The four final hooves should use the same approved master geometry family at 1:1 design scale. Do not silently make hind hooves smaller.
 
 Do not move the body/support system to make the new hoof fit.
 
@@ -494,7 +777,100 @@ A low-resolution diagnostic render is enough during fitting; render final eviden
 
 Use a low-dimensional parameter search / coordinate descent / bounded search. Do not add SciPy just for optimization.
 
-Compute work is cheap; repository complexity is not. Prefer one deterministic script over many manual intermediate files.
+## 10.1 Exact fitting strategy for Sol
+
+Do not invent a general optimizer.
+
+Implement the smallest deterministic search that solves these two modules.
+
+### Stage A — analytic/profile initialization
+
+Before any render-based search:
+
+- use target mask bounding box to establish normalized major/minor proportions;
+- use the sampled contour profiles to initialize planform widths and curvature;
+- apply the locked world dimensions directly;
+- place the initial orientation from the locked angles.
+
+This should get the module near the target without render iteration.
+
+### Stage B — cheap orthographic mask correction
+
+Use temporary flat-emission diagnostic materials and small orthographic renders, approximately 256–384 px per view.
+
+Optimize only the shared semantic parameters listed in the Ear/Hoof sections.
+
+A simple coordinate-descent schedule is sufficient:
+
+```text
+for pass in 1..3:
+  for parameter_group in priority_order:
+    test current, -step, +step
+    keep the best shared 3-view score
+  reduce step size
+  stop early if all required Front/Side/Top gates are met
+```
+
+Recommended score:
+
+```text
+score =
+  0.40 * Front_IoU
++ 0.35 * Side_IoU
++ 0.25 * Top_IoU
+- numeric_contract_penalty
+- topology_or_clearance_penalty
+```
+
+Do NOT include 3/4 in the optimization objective.
+
+Use 3/4 only after the shared orthographic fit is frozen.
+
+Parameter priority:
+
+### Ear
+1. overall scale / locked dimensions
+2. global orientation
+3. centerline/drop
+4. breadth profile
+5. thickness profile
+6. tip roundness
+7. bowl/inner-patch profile
+8. root saddle
+
+### Hoof
+1. total width/height/depth
+2. sole/contact footprint
+3. three lobe widths
+4. cleft depth/roundness
+5. toe-forward / heel-back profile
+6. top/pastern transition
+7. local roundness
+
+Never search more than necessary once the gate is met.
+
+### Mask implementation
+
+Use Blender image pixels or bundled Python only; no Pillow/SciPy dependency requirement.
+
+Segment by broad color/background role, not brittle exact RGB equality:
+
+- near-white low-chroma pixels → background;
+- cream low-saturation attachment stub → exclude;
+- brown and pink → module;
+- antialiased boundary pixels may be included by alpha/chroma threshold then morphologically cleaned with a tiny hand-written neighborhood pass if needed.
+
+Do not spend time perfecting mask segmentation beyond what changes geometry decisions.
+
+### Rendering
+
+Do not use Cycles for optimizer iterations.
+
+Use Eevee/Workbench/emission or another deterministic fast path.
+
+Final Human evidence may use the existing neutral material/light setup.
+
+Compute work is cheap; repository complexity and model tokens are not. Prefer one deterministic script over many manual intermediate files.
 
 ---
 
