@@ -1,0 +1,640 @@
+{
+  "face": {
+    "attempt": "F2",
+    "peak_control_displacement_H": 0.02,
+    "changed_vertices": [
+      {
+        "index": 38,
+        "before": [
+          0.056256674230098724,
+          0.0,
+          0.34294408559799194
+        ],
+        "after": [
+          0.036279626190662384,
+          0.0,
+          0.34294408559799194
+        ]
+      },
+      {
+        "index": 39,
+        "before": [
+          0.04706091433763504,
+          0.0,
+          0.3910154104232788
+        ],
+        "after": [
+          0.027060914784669876,
+          0.0,
+          0.3910154104232788
+        ]
+      }
+    ],
+    "changed_objects": [
+      "CENTRAL_CHASSIS",
+      "MOUTH_closed",
+      "NOSE",
+      "PHILTRUM"
+    ],
+    "features": {
+      "NOSE": {
+        "method": "rigid X shift from evaluated surface delta at existing center Y/Z",
+        "delta_x_H": -0.012418985366821289,
+        "baseline_center_relief_H": 0.010000120848417282
+      },
+      "MOUTH_closed": {
+        "method": "preserve source relief at each evaluated surface sample, X only",
+        "min_delta_x_H": -0.012086868286132812,
+        "max_delta_x_H": -0.0067136287689208984,
+        "source_relief_range_H": [
+          0.0020637884736061096,
+          0.002299085259437561
+        ]
+      },
+      "PHILTRUM": {
+        "method": "preserve source relief at each evaluated surface sample, X only",
+        "min_delta_x_H": -0.012655496597290039,
+        "max_delta_x_H": -0.012086868286132812,
+        "source_relief_range_H": [
+          0.0020332038402557373,
+          0.0020659342408180237
+        ]
+      }
+    },
+    "eye_surface_seating": {
+      "EYE_L": {
+        "source_min_relief_H": 0.0011008232831954956,
+        "candidate_min_relief_H": 0.00039789825677871704,
+        "max_surface_advance_H": 0.0007092952728271484,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 0,
+        "candidate_covered_control_points": 0
+      },
+      "EYE_R": {
+        "source_min_relief_H": 0.0011016204953193665,
+        "candidate_min_relief_H": 0.0003638043999671936,
+        "max_surface_advance_H": 0.0007433891296386719,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 0,
+        "candidate_covered_control_points": 0
+      },
+      "EYELID_L": {
+        "source_min_relief_H": -0.0007966011762619019,
+        "candidate_min_relief_H": -0.0018993094563484192,
+        "max_surface_advance_H": 0.001224517822265625,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 64,
+        "candidate_covered_control_points": 64
+      },
+      "EYELID_R": {
+        "source_min_relief_H": -0.0007969588041305542,
+        "candidate_min_relief_H": -0.0019448474049568176,
+        "max_surface_advance_H": 0.0012683868408203125,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 64,
+        "candidate_covered_control_points": 64
+      }
+    },
+    "other_objects_unchanged": true,
+    "sagittal_samples": [
+      {
+        "z": 0.3,
+        "source_x": 0.08729219436645508,
+        "candidate_x": 0.08675241470336914,
+        "delta_x": -0.0005397796630859375
+      },
+      {
+        "z": 0.32,
+        "source_x": 0.07976818084716797,
+        "candidate_x": 0.07501387596130371,
+        "delta_x": -0.004754304885864258
+      },
+      {
+        "z": 0.34,
+        "source_x": 0.07380175590515137,
+        "candidate_x": 0.06382274627685547,
+        "delta_x": -0.009979009628295898
+      },
+      {
+        "z": 0.3542,
+        "source_x": 0.07055139541625977,
+        "candidate_x": 0.05843329429626465,
+        "delta_x": -0.012118101119995117
+      },
+      {
+        "z": 0.365,
+        "source_x": 0.06872010231018066,
+        "candidate_x": 0.05604696273803711,
+        "delta_x": -0.012673139572143555
+      },
+      {
+        "z": 0.374,
+        "source_x": 0.06765532493591309,
+        "candidate_x": 0.055100440979003906,
+        "delta_x": -0.01255488395690918
+      },
+      {
+        "z": 0.39,
+        "source_x": 0.0667116641998291,
+        "candidate_x": 0.05533885955810547,
+        "delta_x": -0.011372804641723633
+      },
+      {
+        "z": 0.41,
+        "source_x": 0.0673973560333252,
+        "candidate_x": 0.05895113945007324,
+        "delta_x": -0.008446216583251953
+      },
+      {
+        "z": 0.43,
+        "source_x": 0.06956100463867188,
+        "candidate_x": 0.06451940536499023,
+        "delta_x": -0.005041599273681641
+      },
+      {
+        "z": 0.45,
+        "source_x": 0.07258772850036621,
+        "candidate_x": 0.07039427757263184,
+        "delta_x": -0.002193450927734375
+      }
+    ],
+    "yz_max_delta_H": 0.0
+  },
+  "face_rejected_attempt": {
+    "attempt": "F1",
+    "peak_control_displacement_H": 0.025,
+    "changed_vertices": [
+      {
+        "index": 29,
+        "before": [
+          0.10262506455183029,
+          -0.06860623508691788,
+          0.34413284063339233
+        ],
+        "after": [
+          0.09976528584957123,
+          -0.06860623508691788,
+          0.34413284063339233
+        ]
+      },
+      {
+        "index": 30,
+        "before": [
+          0.09809166938066483,
+          -0.07373534888029099,
+          0.3909730613231659
+        ],
+        "after": [
+          0.09677375108003616,
+          -0.07373534888029099,
+          0.3909730613231659
+        ]
+      },
+      {
+        "index": 38,
+        "before": [
+          0.056256674230098724,
+          0.0,
+          0.34294408559799194
+        ],
+        "after": [
+          0.0312853641808033,
+          0.0,
+          0.34294408559799194
+        ]
+      },
+      {
+        "index": 39,
+        "before": [
+          0.04706091433763504,
+          0.0,
+          0.3910154104232788
+        ],
+        "after": [
+          0.02206091396510601,
+          0.0,
+          0.3910154104232788
+        ]
+      },
+      {
+        "index": 47,
+        "before": [
+          0.10262506455183029,
+          0.06860623508691788,
+          0.34413284063339233
+        ],
+        "after": [
+          0.09976528584957123,
+          0.06860623508691788,
+          0.34413284063339233
+        ]
+      },
+      {
+        "index": 48,
+        "before": [
+          0.09809166938066483,
+          0.07373534888029099,
+          0.3909730613231659
+        ],
+        "after": [
+          0.09677375108003616,
+          0.07373534888029099,
+          0.3909730613231659
+        ]
+      }
+    ],
+    "changed_objects": [
+      "CENTRAL_CHASSIS",
+      "MOUTH_closed",
+      "NOSE",
+      "PHILTRUM"
+    ],
+    "features": {
+      "NOSE": {
+        "method": "rigid X shift from evaluated surface delta at existing center Y/Z",
+        "delta_x_H": -0.016107797622680664,
+        "baseline_center_relief_H": 0.010000120848417282
+      },
+      "MOUTH_closed": {
+        "method": "preserve source relief at each evaluated surface sample, X only",
+        "min_delta_x_H": -0.015831708908081055,
+        "max_delta_x_H": -0.009630680084228516,
+        "source_relief_range_H": [
+          0.0020637884736061096,
+          0.002299085259437561
+        ]
+      },
+      "PHILTRUM": {
+        "method": "preserve source relief at each evaluated surface sample, X only",
+        "min_delta_x_H": -0.016471385955810547,
+        "max_delta_x_H": -0.015831708908081055,
+        "source_relief_range_H": [
+          0.0020332038402557373,
+          0.0020659342408180237
+        ]
+      }
+    },
+    "other_objects_unchanged": true,
+    "sagittal_samples": [
+      {
+        "z": 0.3,
+        "source_x": 0.08729219436645508,
+        "candidate_x": 0.0865790843963623,
+        "delta_x": -0.0007131099700927734
+      },
+      {
+        "z": 0.32,
+        "source_x": 0.07976818084716797,
+        "candidate_x": 0.07348799705505371,
+        "delta_x": -0.006280183792114258
+      },
+      {
+        "z": 0.34,
+        "source_x": 0.07380175590515137,
+        "candidate_x": 0.06067180633544922,
+        "delta_x": -0.013129949569702148
+      },
+      {
+        "z": 0.3542,
+        "source_x": 0.07055139541625977,
+        "candidate_x": 0.05468440055847168,
+        "delta_x": -0.015866994857788086
+      },
+      {
+        "z": 0.365,
+        "source_x": 0.06872010231018066,
+        "candidate_x": 0.05219841003417969,
+        "delta_x": -0.016521692276000977
+      },
+      {
+        "z": 0.374,
+        "source_x": 0.06765532493591309,
+        "candidate_x": 0.0513455867767334,
+        "delta_x": -0.016309738159179688
+      },
+      {
+        "z": 0.39,
+        "source_x": 0.0667116641998291,
+        "candidate_x": 0.052019357681274414,
+        "delta_x": -0.014692306518554688
+      },
+      {
+        "z": 0.41,
+        "source_x": 0.0673973560333252,
+        "candidate_x": 0.05653214454650879,
+        "delta_x": -0.010865211486816406
+      },
+      {
+        "z": 0.43,
+        "source_x": 0.06956100463867188,
+        "candidate_x": 0.06308865547180176,
+        "delta_x": -0.006472349166870117
+      },
+      {
+        "z": 0.45,
+        "source_x": 0.07258772850036621,
+        "candidate_x": 0.06977367401123047,
+        "delta_x": -0.002814054489135742
+      }
+    ],
+    "yz_max_delta_H": 0.0,
+    "eye_surface_seating": {
+      "EYE_L": {
+        "source_min_relief_H": 0.0011008232831954956,
+        "candidate_min_relief_H": -0.00043561309576034546,
+        "max_surface_advance_H": 0.0015439987182617188,
+        "newly_covered_control_points": 7,
+        "source_covered_control_points": 0,
+        "candidate_covered_control_points": 7
+      },
+      "EYE_R": {
+        "source_min_relief_H": 0.0011016204953193665,
+        "candidate_min_relief_H": -0.0004946216940879822,
+        "max_surface_advance_H": 0.0016031265258789062,
+        "newly_covered_control_points": 7,
+        "source_covered_control_points": 0,
+        "candidate_covered_control_points": 7
+      },
+      "EYELID_L": {
+        "source_min_relief_H": -0.0007966011762619019,
+        "candidate_min_relief_H": -0.002948775887489319,
+        "max_surface_advance_H": 0.00228118896484375,
+        "newly_covered_control_points": 6,
+        "source_covered_control_points": 64,
+        "candidate_covered_control_points": 70
+      },
+      "EYELID_R": {
+        "source_min_relief_H": -0.0007969588041305542,
+        "candidate_min_relief_H": -0.0029655173420906067,
+        "max_surface_advance_H": 0.0022890567779541016,
+        "newly_covered_control_points": 6,
+        "source_covered_control_points": 64,
+        "candidate_covered_control_points": 70
+      }
+    },
+    "executor_visual_precheck": "FAIL",
+    "rejection": "Evaluated surface newly covers 7 eye points and 6 lid points per side; source eye seating not preserved."
+  },
+  "ear_attempts": {
+    "E1": {
+      "attempt": "E1",
+      "stations": [
+        [
+          0.0,
+          0.04,
+          -0.036,
+          0.029,
+          0.031,
+          0.0,
+          -0.02
+        ],
+        [
+          0.014,
+          0.052,
+          -0.047,
+          0.032,
+          0.031,
+          0.0,
+          -0.022
+        ],
+        [
+          0.04,
+          0.052,
+          -0.085,
+          0.038,
+          0.033,
+          0.001,
+          -0.032
+        ],
+        [
+          0.085,
+          0.033,
+          -0.136,
+          0.047,
+          0.035,
+          0.004,
+          -0.061
+        ],
+        [
+          0.145,
+          0.004,
+          -0.18,
+          0.076,
+          0.054,
+          0.016,
+          -0.102
+        ],
+        [
+          0.21,
+          -0.028,
+          -0.212,
+          0.086,
+          0.064,
+          0.04,
+          -0.117
+        ],
+        [
+          0.27,
+          -0.059,
+          -0.218,
+          0.074,
+          0.052,
+          0.046,
+          -0.114
+        ],
+        [
+          0.315,
+          -0.078,
+          -0.207,
+          0.061,
+          0.04,
+          0.034,
+          -0.12
+        ],
+        [
+          0.345,
+          -0.091,
+          -0.192,
+          0.053,
+          0.034,
+          0.019,
+          -0.166
+        ],
+        [
+          0.365,
+          -0.102,
+          -0.18,
+          0.045,
+          0.03,
+          0.008,
+          -0.162
+        ],
+        [
+          0.38,
+          -0.119,
+          -0.166,
+          0.029,
+          0.02,
+          0.002,
+          -0.155
+        ],
+        [
+          0.387,
+          -0.134,
+          -0.155,
+          0.014,
+          0.011,
+          0.0,
+          -0.149
+        ]
+      ],
+      "non_ear_objects_equal": true,
+      "changed_objects": [
+        "EAR_L",
+        "EAR_R"
+      ]
+    },
+    "E2": {
+      "attempt": "E2",
+      "stations": [
+        [
+          0.0,
+          0.04,
+          -0.036,
+          0.029,
+          0.031,
+          0.0,
+          -0.02
+        ],
+        [
+          0.014,
+          0.052,
+          -0.047,
+          0.032,
+          0.031,
+          0.0,
+          -0.022
+        ],
+        [
+          0.04,
+          0.052,
+          -0.085,
+          0.038,
+          0.033,
+          0.001,
+          -0.032
+        ],
+        [
+          0.085,
+          0.033,
+          -0.136,
+          0.047,
+          0.035,
+          0.003,
+          -0.061
+        ],
+        [
+          0.145,
+          0.004,
+          -0.18,
+          0.074,
+          0.053,
+          0.01,
+          -0.102
+        ],
+        [
+          0.21,
+          -0.028,
+          -0.212,
+          0.079,
+          0.054,
+          0.014,
+          -0.117
+        ],
+        [
+          0.27,
+          -0.059,
+          -0.218,
+          0.064,
+          0.043,
+          0.015,
+          -0.114
+        ],
+        [
+          0.315,
+          -0.078,
+          -0.207,
+          0.051,
+          0.033,
+          0.01,
+          -0.12
+        ],
+        [
+          0.345,
+          -0.091,
+          -0.192,
+          0.047,
+          0.031,
+          0.008,
+          -0.166
+        ],
+        [
+          0.365,
+          -0.102,
+          -0.18,
+          0.045,
+          0.03,
+          0.008,
+          -0.162
+        ],
+        [
+          0.38,
+          -0.119,
+          -0.166,
+          0.029,
+          0.02,
+          0.002,
+          -0.155
+        ],
+        [
+          0.387,
+          -0.134,
+          -0.155,
+          0.014,
+          0.011,
+          0.0,
+          -0.149
+        ]
+      ],
+      "non_ear_objects_equal": true,
+      "changed_objects": [
+        "EAR_L",
+        "EAR_R"
+      ]
+    }
+  },
+  "historical_signal": {
+    "commit": "5de182d5eab04f84e3fa46926a953efa3527d679",
+    "image": "docs/production/carol/evidence/reconstruction-v009/phase-a-attempt-2/face-side.png",
+    "sha256": "b1524630c1e0319fbf75341c187bb87df4e217a15e38fb2d6a843f41a1e9873f",
+    "use": "local projection signal and sampled feature lesson only; no historical mesh import"
+  },
+  "normal_side_diagnostic": {
+    "method": "approximate manual nose-center landmark under fixed source Normal registration, not a bbox fit",
+    "authority_nose_center_px": [
+      154,
+      645
+    ],
+    "source_nose_center_world_H": [
+      0.05725203827023506,
+      0,
+      0.3779999911785126
+    ],
+    "h": 916,
+    "ground": 998,
+    "origin": 144,
+    "source_nose_center_x_px": 196.44286705553532,
+    "candidate_nose_center_x_px": 185.06707645952702,
+    "note": "Partial recovery only; a full match with this field exceeds the .035 H local control cap. Skin Side registration is PROBE_INVALID."
+  }
+}
