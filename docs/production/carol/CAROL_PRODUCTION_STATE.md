@@ -2,11 +2,11 @@
 
 This file is the mutable Carol execution routing source.
 
-## Current state — 2026-09-24
+## Current state — 2026-09-25
 
-- Branch: `codex/carol-ear-production-v001`. Verify the exact current HEAD in Git rather than inferring it from this document.
-- Ear candidate: `assets/grimo/production/carol/blender/carol-ear-production-v001.blend`.
-- Ear evidence: `docs/production/carol/evidence/ear-production-v001/`.
+- Branch: `codex/carol-ear-production-v002`. Verify the exact current HEAD in Git rather than inferring it from this document.
+- Ear candidate: `assets/grimo/production/carol/blender/carol-ear-production-v002.blend`.
+- Ear evidence: `docs/production/carol/evidence/ear-production-v002/`.
 - Ear status: `READY_FOR_HUMAN_EAR_REVIEW`. Geometry and visible motion remain Human-unapproved; existing non-final fleece clearance is unresolved.
 - Active authority: `assets/grimo/source/carol/approved-3d/authority.json`.
 - Accepted visual references: Carol canonical identity and approved Normal Front / Normal Side.
