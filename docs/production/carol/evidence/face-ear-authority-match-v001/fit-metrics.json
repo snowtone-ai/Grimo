@@ -1,0 +1,132 @@
+{
+  "source": {
+    "skin_front": {
+      "contour_mean_absolute_error_px": 17.74726693994467,
+      "contour_rmse_px": 20.339584895267038,
+      "sample_count": 18
+    },
+    "skin_side": {
+      "contour_mean_absolute_error_px": 59.48891766775737,
+      "contour_rmse_px": 63.70940030390527,
+      "sample_count": 11
+    },
+    "normal_side": {
+      "contour_mean_absolute_error_px": 40.33212165037791,
+      "contour_rmse_px": 41.055889039355556,
+      "sample_count": 9
+    },
+    "features": {
+      "EYE_L": {
+        "min": [
+          0.10505136102437973,
+          0.09349999576807022,
+          0.343500018119812
+        ],
+        "max": [
+          0.18740083277225494,
+          0.2304999977350235,
+          0.4925000071525574
+        ]
+      },
+      "EYE_R": {
+        "min": [
+          0.10503848642110825,
+          -0.2304999977350235,
+          0.343500018119812
+        ],
+        "max": [
+          0.1874009519815445,
+          -0.09349999576807022,
+          0.4925000071525574
+        ]
+      },
+      "NOSE": {
+        "min": [
+          0.027833042666316032,
+          -0.01950000785291195,
+          0.367499977350235
+        ],
+        "max": [
+          0.061833057552576065,
+          0.019500000402331352,
+          0.38850000500679016
+        ]
+      }
+    },
+    "ear_front": {
+      "silhouette_IoU": 0.6104766605070758,
+      "symmetric_contour_distance_H": 0.02738727216578094,
+      "fixed_registration": true
+    },
+    "ear_top": {
+      "silhouette_IoU": 0.7295525840766899,
+      "symmetric_contour_distance_H": 0.015708206982348222,
+      "fixed_registration": true
+    }
+  },
+  "candidate": {
+    "skin_front": {
+      "contour_mean_absolute_error_px": 2.5438535097572506,
+      "contour_rmse_px": 3.208494396469946,
+      "sample_count": 18
+    },
+    "skin_side": {
+      "contour_mean_absolute_error_px": 3.2108031067658476,
+      "contour_rmse_px": 4.042410278700144,
+      "sample_count": 11
+    },
+    "normal_side": {
+      "contour_mean_absolute_error_px": 3.622019845992333,
+      "contour_rmse_px": 3.866256318014749,
+      "sample_count": 9
+    },
+    "features": {
+      "EYE_L": {
+        "min": [
+          0.07580316811800003,
+          0.09344548732042313,
+          0.3375000059604645
+        ],
+        "max": [
+          0.20578636229038239,
+          0.2305545061826706,
+          0.48649999499320984
+        ]
+      },
+      "EYE_R": {
+        "min": [
+          0.07554305344820023,
+          -0.2305545061826706,
+          0.3375000059604645
+        ],
+        "max": [
+          0.20578612387180328,
+          -0.09344548732042313,
+          0.48649999499320984
+        ]
+      },
+      "NOSE": {
+        "min": [
+          -0.0034551015123724937,
+          -0.01950000785291195,
+          0.367499977350235
+        ],
+        "max": [
+          0.02238490991294384,
+          0.019500000402331352,
+          0.38850000500679016
+        ]
+      }
+    },
+    "ear_front": {
+      "silhouette_IoU": 0.9660686873305679,
+      "symmetric_contour_distance_H": 0.007430280019261964,
+      "fixed_registration": true
+    },
+    "ear_top": {
+      "silhouette_IoU": 0.9613200687848397,
+      "symmetric_contour_distance_H": 0.0021237471467649973,
+      "fixed_registration": true
+    }
+  }
+}
