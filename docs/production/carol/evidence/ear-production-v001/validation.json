@@ -1,0 +1,156 @@
+{
+  "source_branch": "origin/codex/carol-hero-modules-v003",
+  "source_head": "f4c4d465b0adcb2ee8b7d95fe22aa9a3d4c878d5",
+  "donor": "assets/grimo/production/carol/blender/carol-hero-modules-v003.blend",
+  "donor_sha256": "fb9b793d7443e942f0ad118df99bb8703e056ea806815a32f2897581fb33b299",
+  "authority_sha256": "f10d6aad9201da6030798050aff5f057a76ee5f0645a1e231186d5798fb58384",
+  "authority_dimensions": [
+    1309,
+    1202
+  ],
+  "output_sha256": "db03fe99615a793d1acc0adfe921a7bedb57a6a537fe91dd9a2b02d4713277be",
+  "changed_objects": [
+    "EAR_L",
+    "EAR_R"
+  ],
+  "frozen_objects": {
+    "count": 39,
+    "equal_after_reload": true,
+    "record_sha256": {
+      "CAM front": "76b10bc7c8a21de6fe573956959d3eb7e2d38635eafb9285180c3ef1f955c634",
+      "CAM side": "4b619ac31c3689f1af4e56b5c6c8a7a7f04741708f22d5b0b5a18e860558a7d0",
+      "CENTRAL_CHASSIS": "7659c7db07d1188c74c56618aa8e1925081b3fdcc13269f6ef8551abc5925470",
+      "DEBUG_CHEEK_L": "07d114159d9d053dda74f68e2ee71aad3a83fab5829effc968bd9f7740eaa6a5",
+      "DEBUG_CHEEK_R": "97649cdec6d5f116cd5c31949f18104d7262cee9ba4f9875fe5cf146c360332f",
+      "DEBUG_COM": "8a1af53c7bf5a23502c1e303483732ac44d180c3ca4f1cc2f1899cb94c6e7ed0",
+      "DEBUG_EAR_ROOT_L": "b3b11e21e374b62ed1577849e5b8ac7b7b04909462cc2ac27c01523c2782bae7",
+      "DEBUG_EAR_ROOT_R": "4725c9c43a99b2b19d079ad090b6ae0d756bf610e2e5474202f68ba44586ef67",
+      "DEBUG_FORE_SUPPORT_L": "7504f680dea1c378f8d77e28980a06ca30ab671ba58d178b726084f1f3ec71ee",
+      "DEBUG_FORE_SUPPORT_R": "accd9d50d244233e47492f97d54563da30c4f8a6a0d23c54c2308d341538a263",
+      "DEBUG_FOREHEAD": "a0dc4447564c0ad8d915c84198ff36f0e405bff9d9f01b4a30dc5641f387e119",
+      "DEBUG_HEAD_PIVOT": "6964ac927726af96b8c30406c36a574aadc29a8e1b5a48e3a31981a2147de9ae",
+      "DEBUG_HIND_SUPPORT_L": "6a3151bd21119ec9194b6f2e3519866e13551771b6c833b61d46c35385a36d1e",
+      "DEBUG_HIND_SUPPORT_R": "edb4d72b4655fa4a0d14b243b654f1e012b8654acd8ffcff54f6a5c897f940cc",
+      "EYE_L": "68fe21096994cbab288090739c5ca8320c5d12c8b3c6f116dc8ba58863b725dd",
+      "EYE_R": "78d9772026955eddccde072bafb4467c0ba505f6f05a7054b62e06977f723ec2",
+      "EYELID_L": "3af7c49428c273f513bc8ef0501ccb91c73c7abf7b04754390b8fd814a1f7cf8",
+      "EYELID_R": "1895c4659228e105f1350d3f0e56d8ad81d2d88880aadf94204bfba1222feb33",
+      "fill": "5adb0251682b65cbfeaf4ebb6f46fb7bade4e77d78e78fed8d032e471c478b8c",
+      "FORE_L": "8a461f6e2246b96cba4505b596cb9a7d7c33250ec1e634d8c243f25fd483dd4b",
+      "FORE_R": "b772dcc0a457b7bba18ceb24bb8361282d074811a1f66248b6d4fc4a1932e637",
+      "HIND_L": "3d0dd2f631705e595d01fddacd20c49d0945f421fd91f65f39cab0888b1c1459",
+      "HIND_R": "86a75769c90fa4cc535f964c7ab09afe7ff6e02f25490183b7daaefe8e3e9422",
+      "HOOF_FORE_L": "5321b710735200338bbd3cf35f94b769f8da5c6e68f3fac5faa0018c5eb0906b",
+      "HOOF_FORE_R": "190509bae6bd22224449400767a874c93f0e41e7fa7d9e8c3c1b199e79ed0931",
+      "HOOF_HIND_L": "e3ad5d37b5994b0e9760974a075623d1611172a25652bbdb64f17b576bdbbffb",
+      "HOOF_HIND_R": "edf2edd92f78243a703be980cab147a8f123045fc9452f01e9df5dc1db4fb263",
+      "key": "d560fd0fffebce6cb48aa57b79af79cde8894ef3c41349f499a501fccaeddb72",
+      "low fill": "df7ff03d68f2f6da1296c84045277d01a5770231516513488ad70941ca0e832b",
+      "MOUTH_closed": "719415f1dd65e5e3b7c17a27cd1c4898e1ed1b48f21c2bcb629c20d1393d6b7c",
+      "NOSE": "bed07352f9d76cba60f8e467902b03163091ec143835218e8fb6fde0b1297712",
+      "PHILTRUM": "719415f1dd65e5e3b7c17a27cd1c4898e1ed1b48f21c2bcb629c20d1393d6b7c",
+      "REFERENCE carol_front.png": "719415f1dd65e5e3b7c17a27cd1c4898e1ed1b48f21c2bcb629c20d1393d6b7c",
+      "REFERENCE carol_side.png": "719415f1dd65e5e3b7c17a27cd1c4898e1ed1b48f21c2bcb629c20d1393d6b7c",
+      "REFERENCE carol_skin_front.png": "719415f1dd65e5e3b7c17a27cd1c4898e1ed1b48f21c2bcb629c20d1393d6b7c",
+      "REFERENCE carol_skin_side.png": "719415f1dd65e5e3b7c17a27cd1c4898e1ed1b48f21c2bcb629c20d1393d6b7c",
+      "rim": "a8d177aec4c6f6d69312ef88f5d11304a6465f9a141f66346cf7a1a06310a3f4",
+      "SKIN_TAIL_CORE": "23f2c479bfb8514d279b22bbed3d68f820e6b43c087f6a7bb454981ee0095e9d",
+      "TAIL_PIVOT": "df1d3b6e2fe36bedb66022ef48e7541a472db69ee03154f11972a94da1b75f64"
+    }
+  },
+  "same_geometry_all_views": true,
+  "cage_vertices_per_ear": 192,
+  "pink_same_closed_mesh": true,
+  "mirror_max_error_H": 0.0,
+  "positive_scale": true,
+  "poses": {
+    "Basis": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.007247296720035734,
+      "outward_normals": true,
+      "evaluated_vertices": 2946,
+      "volume_ratio_to_neutral": 1.0
+    },
+    "TEST lift": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.007368780645454239,
+      "outward_normals": true,
+      "evaluated_vertices": 2946,
+      "volume_ratio_to_neutral": 1.016762653733033
+    },
+    "TEST droop": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.007092861042769146,
+      "outward_normals": true,
+      "evaluated_vertices": 2946,
+      "volume_ratio_to_neutral": 0.9786905817117107
+    },
+    "TEST attention flick": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.007244455383928216,
+      "outward_normals": true,
+      "evaluated_vertices": 2946,
+      "volume_ratio_to_neutral": 0.9996079453874626
+    }
+  },
+  "attachment": {
+    "EAR_L": {
+      "root_center_inside_head": true,
+      "root_center_surface_distance_H": 0.05313437432050705,
+      "test_root_station_max_displacement_H": 2.9802322387695312e-08
+    },
+    "EAR_R": {
+      "root_center_inside_head": true,
+      "root_center_surface_distance_H": 0.05313439294695854,
+      "test_root_station_max_displacement_H": 2.9802322387695312e-08
+    }
+  },
+  "neutral_test_controls_zero": true,
+  "front_root_to_tip_station_angle_degrees": 18.122404469430034,
+  "human_review": "REQUIRED; no perceptual approval claimed",
+  "evidence": {
+    "authority_panel_dividers_px": [
+      654,
+      580
+    ],
+    "reference_3q_mirrored_for_handedness": true,
+    "images": {
+      "carol-ear-attached-front.png": {
+        "size": [
+          1400,
+          960
+        ],
+        "sha256": "eaa4f44f98616d4f81d77f3df729717e095dacf57fb1db6e0479419eefe1b5b7"
+      },
+      "carol-ear-attached-side.png": {
+        "size": [
+          1400,
+          960
+        ],
+        "sha256": "5fbe56b037170d61c6f840905f4462a5a8f3a5214a2e51bd1d1dd81840d2fef6"
+      },
+      "ear-deformation-check.png": {
+        "size": [
+          1600,
+          570
+        ],
+        "sha256": "62388e276ae16075fedc104426b0ad7d127bb08b75adc8faa03996e7f5bb01a8"
+      },
+      "ear-isolated-comparison.png": {
+        "size": [
+          1520,
+          940
+        ],
+        "sha256": "e5a7b375d66295491b665bb51b904af4f242a034e9099e344a92554314a7a067"
+      }
+    }
+  }
+}
