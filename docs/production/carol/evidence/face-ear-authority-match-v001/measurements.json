@@ -1,0 +1,487 @@
+{
+  "units": "H = total Normal height; module scale derived from attached ear span",
+  "source_commit": "656d6510b6ca81205cca1fced46d176f10d7aca7",
+  "registration": {
+    "normal_front": {
+      "ppH": 1011,
+      "origin": 646,
+      "ground": 1162,
+      "note": "face-local center; global body center stays 626.5"
+    },
+    "normal_side": {
+      "ppH": 916,
+      "origin": 144,
+      "ground": 998
+    },
+    "skin_front": {
+      "ppH": 994,
+      "origin": 626.5,
+      "ground": 1075
+    },
+    "skin_side": {
+      "ppH": 1160,
+      "origin": 82,
+      "ground": 945,
+      "note": "face-local similarity; nose/eye/chin registration, not whole-body fit"
+    }
+  },
+  "landmarks_px": {
+    "normal_front": {
+      "eye_left": [
+        488,
+        750
+      ],
+      "eye_right": [
+        814,
+        750
+      ],
+      "nose": [
+        645,
+        777
+      ],
+      "mouth": [
+        645,
+        803
+      ],
+      "chin": [
+        642,
+        933
+      ],
+      "eye_box": [
+        419,
+        674,
+        558,
+        825
+      ]
+    },
+    "normal_side": {
+      "nose": [
+        154,
+        646
+      ],
+      "eye": [
+        281,
+        615
+      ],
+      "chin": [
+        266,
+        773
+      ],
+      "forehead_break": [
+        174,
+        610
+      ],
+      "eye_box": [
+        221,
+        535,
+        342,
+        693
+      ]
+    },
+    "skin_front": {
+      "eye_left": [
+        464,
+        660
+      ],
+      "eye_right": [
+        784,
+        660
+      ],
+      "nose": [
+        624,
+        686
+      ],
+      "chin": [
+        624,
+        848
+      ],
+      "crown": [
+        626,
+        381
+      ],
+      "cheek_left": [
+        328,
+        731
+      ]
+    },
+    "skin_side": {
+      "nose": [
+        92,
+        506
+      ],
+      "eye": [
+        244,
+        476
+      ],
+      "chin": [
+        299,
+        678
+      ],
+      "crown": [
+        438,
+        183
+      ],
+      "forehead_break": [
+        118,
+        467
+      ],
+      "eye_box": [
+        169,
+        378,
+        320,
+        571
+      ]
+    }
+  },
+  "ear_stations": [
+    {
+      "pixel_x": 604,
+      "u": 0.0021699819168173604,
+      "top": 0.020976491862567816,
+      "bottom": -0.020253164556962026,
+      "front": 0.026039783001808318,
+      "back": 0.018806509945750453,
+      "pink_top": 0.020976491862567816,
+      "pink_bottom": 0.012296564195298374
+    },
+    {
+      "pixel_x": 598,
+      "u": 0.0065099457504520794,
+      "top": 0.035443037974683546,
+      "bottom": -0.03399638336347197,
+      "front": 0.04050632911392405,
+      "back": 0.03037974683544304,
+      "pink_top": null,
+      "pink_bottom": null
+    },
+    {
+      "pixel_x": 586,
+      "u": 0.01518987341772152,
+      "top": 0.045569620253164564,
+      "bottom": -0.054249547920433995,
+      "front": 0.051356238698010856,
+      "back": 0.03905967450271248,
+      "pink_top": null,
+      "pink_bottom": null
+    },
+    {
+      "pixel_x": 570,
+      "u": 0.026763110307414108,
+      "top": 0.04773960216998192,
+      "bottom": -0.09981916817359855,
+      "front": 0.05063291139240506,
+      "back": 0.0383363471971067,
+      "pink_top": -0.02820976491862568,
+      "pink_bottom": -0.05714285714285715
+    },
+    {
+      "pixel_x": 545,
+      "u": 0.04484629294755877,
+      "top": 0.045569620253164564,
+      "bottom": -0.15045207956600362,
+      "front": 0.04773960216998192,
+      "back": 0.034719710669077766,
+      "pink_top": -0.06437613019891501,
+      "pink_bottom": -0.11790235081374323
+    },
+    {
+      "pixel_x": 510,
+      "u": 0.0701627486437613,
+      "top": 0.0383363471971067,
+      "bottom": -0.1909584086799277,
+      "front": 0.054249547920433995,
+      "back": 0.04195298372513563,
+      "pink_top": -0.09620253164556962,
+      "pink_bottom": -0.1620253164556962
+    },
+    {
+      "pixel_x": 470,
+      "u": 0.09909584086799278,
+      "top": 0.026763110307414108,
+      "bottom": -0.21699819168173598,
+      "front": 0.06437613019891501,
+      "back": 0.05280289330922243,
+      "pink_top": -0.11717902350813743,
+      "pink_bottom": -0.19240506329113924
+    },
+    {
+      "pixel_x": 425,
+      "u": 0.13164556962025317,
+      "top": 0.011573236889692586,
+      "bottom": -0.23508137432188064,
+      "front": 0.07450271247739602,
+      "back": 0.0650994575045208,
+      "pink_top": -0.13164556962025317,
+      "pink_bottom": -0.21482820976491865
+    },
+    {
+      "pixel_x": 380,
+      "u": 0.1641952983725136,
+      "top": -0.0028933092224231465,
+      "bottom": -0.24737793851717904,
+      "front": 0.08245931283905968,
+      "back": 0.0759493670886076,
+      "pink_top": -0.13887884267631107,
+      "pink_bottom": -0.2285714285714286
+    },
+    {
+      "pixel_x": 335,
+      "u": 0.19674502712477399,
+      "top": -0.016636528028933093,
+      "bottom": -0.250994575045208,
+      "front": 0.08824593128390598,
+      "back": 0.08462929475587704,
+      "pink_top": -0.1410488245931284,
+      "pink_bottom": -0.23725135623869803
+    },
+    {
+      "pixel_x": 290,
+      "u": 0.22929475587703438,
+      "top": -0.029656419529837254,
+      "bottom": -0.2546112115732369,
+      "front": 0.09041591320072333,
+      "back": 0.09113924050632913,
+      "pink_top": -0.13743218806509946,
+      "pink_bottom": -0.24014466546112118
+    },
+    {
+      "pixel_x": 245,
+      "u": 0.26184448462929477,
+      "top": -0.04267631103074141,
+      "bottom": -0.2560578661844485,
+      "front": 0.08824593128390598,
+      "back": 0.09330922242314647,
+      "pink_top": -0.1301989150090416,
+      "pink_bottom": -0.23508137432188064
+    },
+    {
+      "pixel_x": 200,
+      "u": 0.2943942133815552,
+      "top": -0.05641952983725136,
+      "bottom": -0.24954792043399637,
+      "front": 0.08245931283905968,
+      "back": 0.09113924050632913,
+      "pink_top": -0.12368896925858952,
+      "pink_bottom": -0.22784810126582278
+    },
+    {
+      "pixel_x": 160,
+      "u": 0.32332730560578665,
+      "top": -0.07088607594936709,
+      "bottom": -0.2394213381555154,
+      "front": 0.07305605786618447,
+      "back": 0.08535262206148282,
+      "pink_top": -0.1244122965641953,
+      "pink_bottom": -0.21338155515370705
+    },
+    {
+      "pixel_x": 125,
+      "u": 0.34864376130198915,
+      "top": -0.08607594936708861,
+      "bottom": -0.22495479204339966,
+      "front": 0.06075949367088608,
+      "back": 0.07450271247739602,
+      "pink_top": -0.1352622061482821,
+      "pink_bottom": -0.19168173598553345
+    },
+    {
+      "pixel_x": 95,
+      "u": 0.37034358047016275,
+      "top": -0.10271247739602171,
+      "bottom": -0.21121157323688972,
+      "front": 0.04629294755877034,
+      "back": 0.060036166365280294,
+      "pink_top": null,
+      "pink_bottom": null
+    },
+    {
+      "pixel_x": 75,
+      "u": 0.3848101265822785,
+      "top": -0.11790235081374323,
+      "bottom": -0.1938517179023508,
+      "front": 0.03182640144665461,
+      "back": 0.04484629294755877,
+      "pink_top": null,
+      "pink_bottom": null
+    },
+    {
+      "pixel_x": 62,
+      "u": 0.39421338155515373,
+      "top": -0.13236889692585896,
+      "bottom": -0.1801084990958409,
+      "front": 0.018806509945750453,
+      "back": 0.029656419529837254,
+      "pink_top": null,
+      "pink_bottom": null
+    },
+    {
+      "pixel_x": 56,
+      "u": 0.39855334538878845,
+      "top": -0.14394213381555154,
+      "bottom": -0.16781193490054253,
+      "front": 0.007956600361663653,
+      "back": 0.018083182640144666,
+      "pink_top": null,
+      "pink_bottom": null
+    }
+  ],
+  "ear_registration": {
+    "length_H": 0.4,
+    "root_px_front": [
+      607,
+      157
+    ],
+    "root_px_top": [
+      607,
+      850
+    ],
+    "pixels_per_H": 1382.5
+  },
+  "limitations": [
+    "Illustrated views are not calibrated orthographic photographs.",
+    "Normal Front face is about 20 px right of the global centerline; symmetrized face reconstruction.",
+    "Skin Side cranium and eye scale cannot both exactly agree with Skin Front under one similarity transform. Normal visible face and locked eye size have priority."
+  ],
+  "authority_hashes": {
+    "assets\\grimo\\source\\carol\\approved-3d\\carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol_skin_front.png": "c5041d3ffff56824e9b6a010a036a87ee19c0a09bd55b7273e4518474a2454bd",
+    "assets\\grimo\\source\\carol\\approved-3d\\carol_skin_side.png": "fb31cdec48c95b194fd45abb6f4a8f2f4d7b7d08355d9dd116023765c24de64c",
+    "assets\\grimo\\source\\carol\\approved-3d\\modules\\carol-ear-module-authority.png": "f10d6aad9201da6030798050aff5f057a76ee5f0645a1e231186d5798fb58384",
+    "assets\\grimo\\source\\carol\\carol-Identity-canonical.png": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce"
+  },
+  "traced_contours_px": {
+    "skin_front": [
+      [
+        440,
+        428,
+        819
+      ],
+      [
+        480,
+        390,
+        860
+      ],
+      [
+        530,
+        365,
+        891
+      ],
+      [
+        600,
+        346,
+        907
+      ],
+      [
+        660,
+        334,
+        916
+      ],
+      [
+        720,
+        328,
+        921
+      ],
+      [
+        760,
+        337,
+        911
+      ],
+      [
+        800,
+        370,
+        878
+      ],
+      [
+        825,
+        434,
+        816
+      ]
+    ],
+    "skin_side": [
+      [
+        132,
+        410
+      ],
+      [
+        122,
+        444
+      ],
+      [
+        118,
+        467
+      ],
+      [
+        102,
+        480
+      ],
+      [
+        87,
+        526
+      ],
+      [
+        94,
+        560
+      ],
+      [
+        109,
+        589
+      ],
+      [
+        133,
+        616
+      ],
+      [
+        161,
+        638
+      ],
+      [
+        201,
+        659
+      ],
+      [
+        251,
+        675
+      ]
+    ],
+    "normal_side": [
+      [
+        185,
+        546
+      ],
+      [
+        179,
+        576
+      ],
+      [
+        174,
+        610
+      ],
+      [
+        157,
+        627
+      ],
+      [
+        149,
+        661
+      ],
+      [
+        154,
+        690
+      ],
+      [
+        170,
+        718
+      ],
+      [
+        196,
+        745
+      ],
+      [
+        226,
+        764
+      ]
+    ]
+  },
+  "contour_measurement_note": "Selected visible fitting contours; manual annotation uncertainty approximately +/- 3 px. Not whole-image similarity, held-out validation, or Human perceptual acceptance."
+}

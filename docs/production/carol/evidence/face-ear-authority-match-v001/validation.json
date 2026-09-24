@@ -1,0 +1,541 @@
+{
+  "source_commit": "656d6510b6ca81205cca1fced46d176f10d7aca7",
+  "changed_objects": [
+    "CENTRAL_CHASSIS",
+    "EAR_L",
+    "EAR_R",
+    "EYE_L",
+    "EYE_R",
+    "EYELID_L",
+    "EYELID_R",
+    "MOUTH_closed",
+    "NOSE",
+    "PHILTRUM"
+  ],
+  "features": {
+    "eye_width_H": 0.137,
+    "eye_height_H": 0.149,
+    "eye_spacing_H": 0.324,
+    "eye_center_Z_H": 0.412,
+    "sagittal_samples": [
+      [
+        0.25,
+        0.09891128540039062
+      ],
+      [
+        0.28,
+        0.04947853088378906
+      ],
+      [
+        0.32,
+        0.014418601989746094
+      ],
+      [
+        0.35,
+        0.006308078765869141
+      ],
+      [
+        0.378,
+        0.010464906692504883
+      ],
+      [
+        0.412,
+        0.023071765899658203
+      ],
+      [
+        0.46,
+        0.04156661033630371
+      ],
+      [
+        0.51,
+        0.056832075119018555
+      ],
+      [
+        0.56,
+        0.08329224586486816
+      ]
+    ]
+  },
+  "ears": {
+    "root_H": [
+      0.38600000739097595,
+      0.23499999940395355,
+      0.5789999961853027
+    ],
+    "sweep_degrees": 35,
+    "section_count": 95,
+    "section_vertices": 24,
+    "length_H": 0.413
+  },
+  "mesh_checks": {
+    "CENTRAL_CHASSIS": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.15086853368832487,
+      "outward_normals": true,
+      "evaluated_vertices": 8498
+    },
+    "EAR_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008247574927495765,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    },
+    "EAR_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008247574898170414,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    }
+  },
+  "non_head_chassis_vertices_unchanged": true,
+  "head_sections": [
+    [
+      0.225,
+      0.0,
+      0.205,
+      0.205,
+      0.205
+    ],
+    [
+      0.233,
+      0.132,
+      0.135,
+      0.245,
+      0.365
+    ],
+    [
+      0.25,
+      0.195,
+      0.09,
+      0.267,
+      0.428
+    ],
+    [
+      0.28,
+      0.266,
+      0.046,
+      0.284,
+      0.485
+    ],
+    [
+      0.32,
+      0.295,
+      0.01,
+      0.33,
+      0.529
+    ],
+    [
+      0.36,
+      0.304,
+      0.004,
+      0.345,
+      0.556
+    ],
+    [
+      0.38,
+      0.302,
+      0.012,
+      0.35,
+      0.568
+    ],
+    [
+      0.412,
+      0.299,
+      0.033,
+      0.355,
+      0.58
+    ],
+    [
+      0.46,
+      0.29,
+      0.034,
+      0.36,
+      0.585
+    ],
+    [
+      0.51,
+      0.28,
+      0.048,
+      0.362,
+      0.58
+    ],
+    [
+      0.56,
+      0.265,
+      0.077,
+      0.343,
+      0.566
+    ],
+    [
+      0.61,
+      0.232,
+      0.126,
+      0.35,
+      0.541
+    ],
+    [
+      0.66,
+      0.167,
+      0.209,
+      0.355,
+      0.496
+    ],
+    [
+      0.69,
+      0.075,
+      0.3,
+      0.356,
+      0.41
+    ],
+    [
+      0.7,
+      0.0,
+      0.356,
+      0.356,
+      0.356
+    ]
+  ],
+  "human_status": "PENDING",
+  "save_reload": {
+    "passed": true,
+    "changed_geometry_objects": [
+      "CENTRAL_CHASSIS",
+      "EAR_L",
+      "EAR_R",
+      "EYELID_L",
+      "EYELID_R",
+      "EYE_L",
+      "EYE_R",
+      "MOUTH_closed",
+      "NOSE",
+      "PHILTRUM"
+    ],
+    "preserved_object_snapshot_count": 31,
+    "torso_controls_379_onward_unchanged": true,
+    "eye_pigment_packed": true,
+    "authority_manifest_hashes": {
+      "assets/grimo/source/carol/carol-Identity-canonical.png": true,
+      "assets/grimo/source/carol/approved-3d/carol_front.png": true,
+      "assets/grimo/source/carol/approved-3d/carol_side.png": true,
+      "assets/grimo/source/carol/approved-3d/carol_skin_front.png": true,
+      "assets/grimo/source/carol/approved-3d/carol_skin_side.png": true,
+      "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md": true,
+      "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png": true
+    },
+    "blend_sha256": "73b3839f2c17f990d3b713cded48004987c35b56d1003e04203ade73aa0f661b"
+  },
+  "presentation_changes": {
+    "studio_lights": "key 310 W, fill 260 W, low fill 240 W, rim 170 W",
+    "world_gray": 0.3,
+    "exposure": -1.2,
+    "comparison": "Identical source and candidate settings; not included in geometry snapshot equality."
+  },
+  "fit_metrics": {
+    "source": {
+      "skin_front": {
+        "contour_mean_absolute_error_px": 17.74726693994467,
+        "contour_rmse_px": 20.339584895267038,
+        "sample_count": 18
+      },
+      "skin_side": {
+        "contour_mean_absolute_error_px": 59.48891766775737,
+        "contour_rmse_px": 63.70940030390527,
+        "sample_count": 11
+      },
+      "normal_side": {
+        "contour_mean_absolute_error_px": 40.33212165037791,
+        "contour_rmse_px": 41.055889039355556,
+        "sample_count": 9
+      },
+      "features": {
+        "EYE_L": {
+          "min": [
+            0.10505136102437973,
+            0.09349999576807022,
+            0.343500018119812
+          ],
+          "max": [
+            0.18740083277225494,
+            0.2304999977350235,
+            0.4925000071525574
+          ]
+        },
+        "EYE_R": {
+          "min": [
+            0.10503848642110825,
+            -0.2304999977350235,
+            0.343500018119812
+          ],
+          "max": [
+            0.1874009519815445,
+            -0.09349999576807022,
+            0.4925000071525574
+          ]
+        },
+        "NOSE": {
+          "min": [
+            0.027833042666316032,
+            -0.01950000785291195,
+            0.367499977350235
+          ],
+          "max": [
+            0.061833057552576065,
+            0.019500000402331352,
+            0.38850000500679016
+          ]
+        }
+      },
+      "ear_front": {
+        "silhouette_IoU": 0.6104766605070758,
+        "symmetric_contour_distance_H": 0.02738727216578094,
+        "fixed_registration": true
+      },
+      "ear_top": {
+        "silhouette_IoU": 0.7295525840766899,
+        "symmetric_contour_distance_H": 0.015708206982348222,
+        "fixed_registration": true
+      }
+    },
+    "candidate": {
+      "skin_front": {
+        "contour_mean_absolute_error_px": 2.5438535097572506,
+        "contour_rmse_px": 3.208494396469946,
+        "sample_count": 18
+      },
+      "skin_side": {
+        "contour_mean_absolute_error_px": 3.2108031067658476,
+        "contour_rmse_px": 4.042410278700144,
+        "sample_count": 11
+      },
+      "normal_side": {
+        "contour_mean_absolute_error_px": 3.622019845992333,
+        "contour_rmse_px": 3.866256318014749,
+        "sample_count": 9
+      },
+      "features": {
+        "EYE_L": {
+          "min": [
+            0.07580316811800003,
+            0.09344548732042313,
+            0.3375000059604645
+          ],
+          "max": [
+            0.20578636229038239,
+            0.2305545061826706,
+            0.48649999499320984
+          ]
+        },
+        "EYE_R": {
+          "min": [
+            0.07554305344820023,
+            -0.2305545061826706,
+            0.3375000059604645
+          ],
+          "max": [
+            0.20578612387180328,
+            -0.09344548732042313,
+            0.48649999499320984
+          ]
+        },
+        "NOSE": {
+          "min": [
+            -0.0034551015123724937,
+            -0.01950000785291195,
+            0.367499977350235
+          ],
+          "max": [
+            0.02238490991294384,
+            0.019500000402331352,
+            0.38850000500679016
+          ]
+        }
+      },
+      "ear_front": {
+        "silhouette_IoU": 0.9660686873305679,
+        "symmetric_contour_distance_H": 0.007430280019261964,
+        "fixed_registration": true
+      },
+      "ear_top": {
+        "silhouette_IoU": 0.9613200687848397,
+        "symmetric_contour_distance_H": 0.0021237471467649973,
+        "fixed_registration": true
+      }
+    }
+  },
+  "evidence": {
+    "attached-three-view.png": {
+      "size": [
+        1800,
+        1250
+      ],
+      "sha256": "fb4de8229a3ef5644325dc20f04e0174f6df4941e648f388d419a0273614c6c4",
+      "decoded": true
+    },
+    "authority-measurements.png": {
+      "size": [
+        1800,
+        850
+      ],
+      "sha256": "201097047f6c427422152d22ac861604d1deafb46794cd3c6b8cf99392a89d5f",
+      "decoded": true
+    },
+    "ear-contour-overlay.png": {
+      "size": [
+        1600,
+        1030
+      ],
+      "sha256": "23730b4be1d0d915bbeb5603b541839d716ceda66b4105413929d89dc1088ad7",
+      "decoded": true
+    },
+    "ear-four-view-comparison.png": {
+      "size": [
+        1800,
+        1530
+      ],
+      "sha256": "1461f00cb3e9342bac747a736fcb96598542c4c01888966096054ece73013a31",
+      "decoded": true
+    },
+    "ear-side-camera-diagnostic.png": {
+      "size": [
+        1500,
+        770
+      ],
+      "sha256": "1d0c95fb954c0317d5a72c6aacd4755ecb057dd2913d853cf97b9d4bc3e7e2f3",
+      "decoded": true
+    },
+    "face-front-comparison.png": {
+      "size": [
+        1800,
+        1170
+      ],
+      "sha256": "711e2e18139b1f7283f52f9a5258fe8a0d6b0ee943e5ca99b30904762da87066",
+      "decoded": true
+    },
+    "face-side-comparison.png": {
+      "size": [
+        1800,
+        1170
+      ],
+      "sha256": "916a1eeb716828477a088f569d42c83b9695fad1e54f53ea1faa8667c1f9faf5",
+      "decoded": true
+    },
+    "face-spatial-review.png": {
+      "size": [
+        1800,
+        1170
+      ],
+      "sha256": "bf2acb8f6ffa058ff447c8c5a379c92000f124ed67afae261c23f3c95049bf27",
+      "decoded": true
+    },
+    "human-review.png": {
+      "size": [
+        1800,
+        1160
+      ],
+      "sha256": "b9cd40ad45926b3664abba7262904a8b2a6f08878592794ed8d56e37153062f6",
+      "decoded": true
+    },
+    "renders/candidate-attached-3q.png": {
+      "size": [
+        1100,
+        1100
+      ],
+      "sha256": "9e7e41b5abdbde4d1ed7ced73cda5ece3f75b0736a1778b04120ea67ff427333",
+      "decoded": true
+    },
+    "renders/candidate-attached-front.png": {
+      "size": [
+        1100,
+        1100
+      ],
+      "sha256": "d135471b464ba0a802f773846097668c3601825532f95f19eafa3da54f77fedd",
+      "decoded": true
+    },
+    "renders/candidate-attached-side.png": {
+      "size": [
+        1100,
+        1100
+      ],
+      "sha256": "925f15f4935a546bc0eccdb5844a60f0971ed3abd95eba339e3ac2add587f516",
+      "decoded": true
+    },
+    "renders/candidate-ear-3q.png": {
+      "size": [
+        850,
+        850
+      ],
+      "sha256": "837a7ceb5e0bf6842bc2567b4fbdf3806ee41426264499b3fb349da0d2faf75b",
+      "decoded": true
+    },
+    "renders/candidate-ear-front.png": {
+      "size": [
+        850,
+        850
+      ],
+      "sha256": "dfdc54fff7d1929f56877cc3d28447abb9f7a5462dc12a473aae56c30f504ed6",
+      "decoded": true
+    },
+    "renders/candidate-ear-side-elevated.png": {
+      "size": [
+        850,
+        850
+      ],
+      "sha256": "e501bcb3fb129b8a9e198bc06105adec68ee08df2d5d9fc430117cd63abcd755",
+      "decoded": true
+    },
+    "renders/candidate-ear-side.png": {
+      "size": [
+        850,
+        850
+      ],
+      "sha256": "54247ca7bb9a8681d1f459791378d6a2ee028d6ae75ed8b8d4472199cbff8d7d",
+      "decoded": true
+    },
+    "renders/candidate-ear-top.png": {
+      "size": [
+        850,
+        850
+      ],
+      "sha256": "37081b99e1bb5cb9da5e4e48f6d4f977de4c27c30bb92a2a0e5fc3469cc4e42e",
+      "decoded": true
+    },
+    "renders/candidate-face-3q.png": {
+      "size": [
+        900,
+        900
+      ],
+      "sha256": "d496b811504c0df39d56096aeef1c1c00871b94dbcc1fed92dd4563fbb854282",
+      "decoded": true
+    },
+    "renders/candidate-face-front.png": {
+      "size": [
+        900,
+        900
+      ],
+      "sha256": "51e2ab66678cd87163cb8bc8736cf3f60f189c8f85fa9d87ff05c2831ca1b49b",
+      "decoded": true
+    },
+    "renders/candidate-face-side.png": {
+      "size": [
+        900,
+        900
+      ],
+      "sha256": "a5da217adcc784cfdf9ac3363b08f5259f3066e61cc698d55304fca1901aa68d",
+      "decoded": true
+    },
+    "renders/candidate-face-top.png": {
+      "size": [
+        900,
+        900
+      ],
+      "sha256": "b84d785056d4bdbbbbeb69b1641c7a17b7d47c2ace4cf87d77da2663791f10cd",
+      "decoded": true
+    }
+  }
+}
