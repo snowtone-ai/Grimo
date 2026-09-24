@@ -1,0 +1,432 @@
+{
+  "source_branch": "origin/codex/setup-codegraph-mcp",
+  "source_head": "880b35506c0b085fdbb4081c1de6c3f9bdc4e58a",
+  "branch": "codex/carol-face-ear-production-v003",
+  "source_asset_sha256": "bbff75858779a5b284e14c63c6f1bc3cfc206e1c6467a84a55eab64fa7c34fd7",
+  "candidate": "assets/grimo/production/carol/blender/carol-face-ear-production-v003.blend",
+  "output_sha256": "2fb160148207434ae5dde21b802328b673ec252c22bc3c129b07cd2f794925b2",
+  "authority_preflight": "PASS",
+  "authority": {
+    "assets/grimo/source/carol/carol-Identity-canonical.png": {
+      "sha256": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce",
+      "status": "PASS",
+      "bytes_basis": "source file"
+    },
+    "assets/grimo/source/carol/approved-3d/carol_front.png": {
+      "sha256": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+      "status": "PASS",
+      "bytes_basis": "source file"
+    },
+    "assets/grimo/source/carol/approved-3d/carol_side.png": {
+      "sha256": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+      "status": "PASS",
+      "bytes_basis": "source file"
+    },
+    "assets/grimo/source/carol/approved-3d/carol_skin_front.png": {
+      "sha256": "c5041d3ffff56824e9b6a010a036a87ee19c0a09bd55b7273e4518474a2454bd",
+      "status": "PASS",
+      "bytes_basis": "source file"
+    },
+    "assets/grimo/source/carol/approved-3d/carol_skin_side.png": {
+      "sha256": "fb31cdec48c95b194fd45abb6f4a8f2f4d7b7d08355d9dd116023765c24de64c",
+      "status": "PASS",
+      "bytes_basis": "source file"
+    },
+    "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md": {
+      "sha256": "656c1c512017fc548d7f5dfabf66085fd1085a95bd739bbefb7922f568d3b048",
+      "status": "PASS",
+      "bytes_basis": "canonical Git LF blob"
+    },
+    "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png": {
+      "sha256": "f10d6aad9201da6030798050aff5f057a76ee5f0645a1e231186d5798fb58384",
+      "status": "PASS",
+      "bytes_basis": "source file"
+    }
+  },
+  "manifest_repair": "pre-existing authority manifest hash drift repaired; no authority content or authority ordering changed.",
+  "face_executor_visual_precheck": "PASS",
+  "ear_executor_visual_precheck": "FAIL",
+  "technical_validation": "PASS",
+  "face": {
+    "selected": "F2",
+    "attempts_used": 2,
+    "source_topology": {
+      "vertices": 533,
+      "edges": 1062,
+      "faces": 531,
+      "quads": 531,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "euler": 2,
+      "connectivity_sha256": "e1cd2b3ab6e6c29417644156024ae68d55d7a2010460448aaf390053e510bd9d"
+    },
+    "final_topology": {
+      "vertices": 533,
+      "edges": 1062,
+      "faces": 531,
+      "quads": 531,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "euler": 2,
+      "connectivity_sha256": "e1cd2b3ab6e6c29417644156024ae68d55d7a2010460448aaf390053e510bd9d"
+    },
+    "max_control_displacement_H": 0.01999999974737875,
+    "changed_vertices": [
+      38,
+      39
+    ],
+    "control_yz_unchanged": true,
+    "check": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.15300839496654514,
+      "outward_normals": true,
+      "evaluated_vertices": 8498
+    },
+    "features": {
+      "EYE_L": {
+        "yz_max_delta_H": 0.0
+      },
+      "EYE_R": {
+        "yz_max_delta_H": 0.0
+      },
+      "EYELID_R": {
+        "yz_max_delta_H": 0.0
+      },
+      "EYELID_L": {
+        "yz_max_delta_H": 0.0
+      },
+      "NOSE": {
+        "yz_max_delta_H": 0.0,
+        "center_relief_H": 0.010000120848417282,
+        "local_mesh_unchanged": true
+      },
+      "PHILTRUM": {
+        "yz_max_delta_H": 0.0,
+        "max_source_relief_preservation_error_H": 0.0
+      },
+      "MOUTH_closed": {
+        "yz_max_delta_H": 0.0,
+        "max_source_relief_preservation_error_H": 0.0
+      }
+    },
+    "eye_surface_seating": {
+      "EYE_L": {
+        "source_min_relief_H": 0.0011008232831954956,
+        "candidate_min_relief_H": 0.00039789825677871704,
+        "max_surface_advance_H": 0.0007092952728271484,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 0,
+        "candidate_covered_control_points": 0
+      },
+      "EYE_R": {
+        "source_min_relief_H": 0.0011016204953193665,
+        "candidate_min_relief_H": 0.0003638043999671936,
+        "max_surface_advance_H": 0.0007433891296386719,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 0,
+        "candidate_covered_control_points": 0
+      },
+      "EYELID_L": {
+        "source_min_relief_H": -0.0007966011762619019,
+        "candidate_min_relief_H": -0.0018993094563484192,
+        "max_surface_advance_H": 0.001224517822265625,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 64,
+        "candidate_covered_control_points": 64
+      },
+      "EYELID_R": {
+        "source_min_relief_H": -0.0007969588041305542,
+        "candidate_min_relief_H": -0.0019448474049568176,
+        "max_surface_advance_H": 0.0012683868408203125,
+        "newly_covered_control_points": 0,
+        "source_covered_control_points": 64,
+        "candidate_covered_control_points": 64
+      }
+    }
+  },
+  "ear": {
+    "selected": "source",
+    "disposition": "EAR_V003_NOT_PROMOTED",
+    "attempts_used": 2,
+    "mirror_error_H": 0.0,
+    "poses": {
+      "EAR_L": {
+        "Basis": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.004935746175614276,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 1.0
+        },
+        "TEST lift": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.0050113520753051425,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 1.0153180283184755
+        },
+        "TEST droop": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.004838789106810086,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 0.9803561477121293
+        },
+        "TEST attention flick": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.004985704585159483,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 1.010121754192311
+        }
+      },
+      "EAR_R": {
+        "Basis": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.004935746276518826,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 1.0
+        },
+        "TEST lift": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.005011352207937097,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 1.0153180344334063
+        },
+        "TEST droop": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.004838788850045236,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 0.9803560756486102
+        },
+        "TEST attention flick": {
+          "finite": true,
+          "nonmanifold_edges": 0,
+          "nonadjacent_triangle_intersections": 0,
+          "volume_H3": 0.004985704394329223,
+          "outward_normals": true,
+          "evaluated_vertices": 2946,
+          "volume_ratio_to_neutral": 1.0101216948788607
+        }
+      }
+    },
+    "roots": {
+      "EAR_L": {
+        "root_center_inside_head": true,
+        "root_surface_distance_H": 0.053133051842451096,
+        "root_source_coordinate_delta_H": 0.0,
+        "test_root_station_max_displacement_H": 2.9802322387695312e-08,
+        "topology": {
+          "vertices": 192,
+          "edges": 368,
+          "faces": 178,
+          "quads": 176,
+          "components": 1,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "connectivity_sha256": "bcc97ee7448f2430bb4e7ba7dab5d338fb48bcf53342a473c9cafcc00d4be632"
+        }
+      },
+      "EAR_R": {
+        "root_center_inside_head": true,
+        "root_surface_distance_H": 0.05313308909535408,
+        "root_source_coordinate_delta_H": 0.0,
+        "test_root_station_max_displacement_H": 2.9802322387695312e-08,
+        "topology": {
+          "vertices": 192,
+          "edges": 368,
+          "faces": 178,
+          "quads": 176,
+          "components": 1,
+          "nonmanifold_edges": 0,
+          "euler": 2,
+          "connectivity_sha256": "4438aa2485bc4af08ab2f6ab74f61ab1a38d3ed69448328cd0f3533378758291"
+        }
+      }
+    },
+    "pink_same_closed_shell": true,
+    "materials_unchanged": true,
+    "controls_saved_zero": true
+  },
+  "frozen": {
+    "changed_objects": [
+      "CENTRAL_CHASSIS",
+      "MOUTH_closed",
+      "NOSE",
+      "PHILTRUM"
+    ],
+    "unchanged_count": 37,
+    "all_other_objects_exact": true,
+    "all_in_use_material_records_exact": true,
+    "save_reload_all_object_records_equal": true,
+    "serialization_note": "Blender session_uid is transient; two unreferenced v001 material datablocks are omitted automatically by Blender save. No in-use material changes.",
+    "eye_lid_digest_equality": {
+      "EYE_L": true,
+      "EYE_R": true,
+      "EYELID_L": true,
+      "EYELID_R": true
+    },
+    "source_record_sha256": {
+      "CAM front": "54832c9a36c5c4d70b580756a99520baddcf669bf38d676d41b92f4dba4ab533",
+      "CAM side": "2cff34c745a6e36ec4e457015a408e2fa7000dab7af4b10c84e9d240b249b1b2",
+      "CENTRAL_CHASSIS": "89a73901cea96329c756f09349a320b1027416714ca72b0c24b4c64ae79a44ba",
+      "DEBUG_CHEEK_L": "4f445aafe1c9086bebe154d66de74c0ac55b6412e801df783c06c5f7a416039a",
+      "DEBUG_CHEEK_R": "d4c2fc2a8b753ddaa1d81bb06f1aeb22939f11d2edd5d257e10a8f3de2f3aa4e",
+      "DEBUG_COM": "8c057ed76e32141720641178f7ddbe4b084f388ab3d41c2256f495b6afe24584",
+      "DEBUG_EAR_ROOT_L": "f09d11f78b8636d9697c1a5e1957b6439bceba7a902152ae58e12e043946bfbb",
+      "DEBUG_EAR_ROOT_R": "8dc59e2cf306d7fd93eec24975706c1ac5689fc44c7ef8fae99e498dc30502a1",
+      "DEBUG_FORE_SUPPORT_L": "40e3ce5426eab120da612a33ea1ae74e01a0a2351442cfd52b7b6a076fd1eaf5",
+      "DEBUG_FORE_SUPPORT_R": "be4b21c07aedd90888140ede95b8b813ed7dd47d315060d08acd1a0bf22c501f",
+      "DEBUG_FOREHEAD": "eec789e754431db3c4a2706bb131c4ff6099a8c2c3c624e9c037eb401d778c40",
+      "DEBUG_HEAD_PIVOT": "42d535396109f28a2be76328e42921579212c255eceae036e6ad4aeafae9f1b3",
+      "DEBUG_HIND_SUPPORT_L": "38927c10ec56024bac59f85fa123d3db0589856ab76ae122ef82f1977e8171a0",
+      "DEBUG_HIND_SUPPORT_R": "f816d36fff1b51611de96b03273c5b44380e96e530b102b398c7251c4b727ff0",
+      "EAR_L": "f5b4177b447de410f54ab259c81d412b9a8de47910158ed4966c5d4a0f67690e",
+      "EAR_R": "1ee62292fb3dc7d91cba5891df5f0a36c62d751fc6305880c73c40dbbbf42e0b",
+      "EYE_L": "81a6027d39850975c7c6ec4efe13dba7540be176afc5da8ebac8c7d039c7f8c1",
+      "EYE_R": "cec7888884738c336f53996b648d7ee474fde2c844bb0378afc74115372a217b",
+      "EYELID_L": "bf54623cc0de7b1e9656e27ee254895ca11c1c8831f70a84787815086cb0be20",
+      "EYELID_R": "cc8ef0dfcc13ad2599844bdc4e1e631fbade830ef6bab3adfe33e415b20deb2c",
+      "fill": "3c04b6bc52175cb9ec3668a352cebb4221eb4c115754a33f6c31f98d880dd040",
+      "FORE_L": "cde8dd6da6b6edf985125bda9aabe38152c6c7d1502074cffa40f3d9f6b923e4",
+      "FORE_R": "3b6adce40f874b9b9cefce7d140befd0b33392b1213384028a575318ee076f48",
+      "HIND_L": "3b5e491646ac3c3bb55120c2164bbf5f37adf4e00febf5afd11ddf55654bbe8b",
+      "HIND_R": "3acc212c74dc8d718c3b97ef03b12dddb07ebcdee1c992ef6b3d49419243e429",
+      "HOOF_FORE_L": "9df135e14269c86250cc13f33fd4f8fb78934d7b484b4293c356d7a69ebb6ce9",
+      "HOOF_FORE_R": "f26856ee6dadfeca2b300be2d7300897e9bebc7b021dc357d28af90f9b1e0081",
+      "HOOF_HIND_L": "a24e11f91cd7614c0037af8758f5862cc51729ea10b316d9c57ca8bd32769313",
+      "HOOF_HIND_R": "6f71fad975e329c948d4f5b11cc95356d420ef2342b1ff478e24e85c476fb673",
+      "key": "f6b0cff7715683737bb27e20d24f06ee7e1149ca73ac83c755f4740db0c95bb2",
+      "low fill": "3454266464313a8c5b6019c4571bce71c54ff2bfbb663355914a2929b3f6f61f",
+      "MOUTH_closed": "bee92705adcde895ca1a2da851d0c1742ea1efba8ebb8577f9ba27fec1112b35",
+      "NOSE": "6aa81e16dbcd1026eb161c0cb038d0e66d58e416fd48284ce4c2074906ad7c41",
+      "PHILTRUM": "5ea6b08e66c8e1c0768322c99aad9f64da86a6991a9d3c3d84a52afb0c488225",
+      "REFERENCE carol_front.png": "4b27036a91fb8313150c5f82d3f4613fafb0e6a00f495df94224d78318bc7e51",
+      "REFERENCE carol_side.png": "e3ab0bb78c0d20c7a73e54ffb8d5dd4eeaf8facd70f0a93e12b73dee8b6239fa",
+      "REFERENCE carol_skin_front.png": "cac3561ddcd717c9017b2fd3681623f843b1e6943f239630937d5bc1ae364235",
+      "REFERENCE carol_skin_side.png": "7f1f33684f3e5f89e2d4ee019bf4bf31b8d2c24d98acbcdcd641d69c1b7eb811",
+      "rim": "5eff4cbac90deabd6b64a67aeba8157429acf3025be24efee4a509905f1bb393",
+      "SKIN_TAIL_CORE": "ab08f0bcfef2b3370c68a4e57626b3d9c4de32903af15c213cebd378e775efd1",
+      "TAIL_PIVOT": "e51e26174bcfa7ed50adbb7510e9813fd7660e556c23ccc62dcf25bfdabfc2f8"
+    }
+  },
+  "source_technical_checks": {
+    "CENTRAL_CHASSIS": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.15288032685617578,
+      "outward_normals": true,
+      "evaluated_vertices": 8498
+    },
+    "EAR_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.004935746175614276,
+      "outward_normals": true,
+      "evaluated_vertices": 2946
+    },
+    "EAR_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.004935746276518826,
+      "outward_normals": true,
+      "evaluated_vertices": 2946
+    }
+  },
+  "registration": {
+    "normal_side": "Fixed source h=916 / ground=998 / origin=144; no fitting",
+    "skin_side_overlay": "PROBE_INVALID: inherited registration does not align current approved Skin Side face landmarks; qualitative reference only",
+    "skin_front_overlay": "Inspect as diagnostic; no candidate camera fitting",
+    "all_saved_camera_and_reference_objects_unchanged": true
+  },
+  "state": "READY_FOR_HUMAN_FACE_EAR_REVIEW",
+  "human_review": "REQUIRED; no Human Geometry, identity, cuteness or final production PASS",
+  "evidence": {
+    "candidate-attached.png": {
+      "size": [
+        1680,
+        1030
+      ],
+      "sha256": "fb5268c4ae3d97adcfd8da7b7ce4917d18eea3d4a180c750c90bb2a886dfd5ef",
+      "decoded": true
+    },
+    "ear-attempts-not-promoted.png": {
+      "size": [
+        1600,
+        1490
+      ],
+      "sha256": "bd8dadd39f9b46d8b142307295a6330afcf018c89836dbb3681ce5f384535d16",
+      "decoded": true
+    },
+    "ear-deformation-check.png": {
+      "size": [
+        1600,
+        650
+      ],
+      "sha256": "b9f701d4f62ee76b52cf4930a363eb881147ec945a63c71d9faca67676c983f0",
+      "decoded": true
+    },
+    "ear-isolated-retained.png": {
+      "size": [
+        1600,
+        1000
+      ],
+      "sha256": "537544ad5d3bbaa3d636e89cde0022d577bc511a8f6db28e5b8f250234c35f01",
+      "decoded": true
+    },
+    "face-front-preservation.png": {
+      "size": [
+        1680,
+        650
+      ],
+      "sha256": "9a873613af3c4530e455caccbc16bbcfc46980beacdb9a4e2f6a3cfae39ebba8",
+      "decoded": true
+    },
+    "face-side-review.png": {
+      "size": [
+        1680,
+        1080
+      ],
+      "sha256": "5e0bd2e018d656c00fdf0c5c8d790730cee66a30a5bd825cdc5a0d807d6ce1f5",
+      "decoded": true
+    },
+    "human-review.png": {
+      "size": [
+        1600,
+        1370
+      ],
+      "sha256": "d0a4307d965bcdc904da40aa961fc2853fc0bbc10e4e982286f9d1c52f4a500a",
+      "decoded": true
+    },
+    "skin-registration-diagnostic.png": {
+      "size": [
+        1440,
+        920
+      ],
+      "sha256": "81f8a48e0e24e3f0e1c514bcfc4afc88eedba2d31ca58ac67383da972917312b",
+      "decoded": true
+    }
+  }
+}
