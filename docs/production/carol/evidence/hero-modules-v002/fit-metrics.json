@@ -1,0 +1,187 @@
+{
+  "method": "Saturated approved module pixels versus ear candidate alpha or exposed brown hoof pixels with the frozen forelimb in Front/Side/3Q. Each silhouette is uniformly scaled to the same 440px longest axis and centered. Ear Top is presentation-axis rotated. This is shape-only: source sheets have no world-space registration. Pale helper stubs and shadows are excluded. Reference coral; candidate teal; overlap charcoal.",
+  "target_iou_primary": 0.99,
+  "target_iou_3q": 0.975,
+  "modules": {
+    "ear": {
+      "front": {
+        "normalized_silhouette_iou": 0.708,
+        "reference": {
+          "bbox_pixels": [
+            91,
+            144,
+            584,
+            501
+          ],
+          "aspect_width_over_height": 1.381
+        },
+        "candidate": {
+          "bbox_pixels": [
+            111,
+            130,
+            495,
+            459
+          ],
+          "aspect_width_over_height": 1.1672
+        },
+        "aspect_ratio_error_fraction": 0.1548
+      },
+      "side": {
+        "normalized_silhouette_iou": 0.5857,
+        "reference": {
+          "bbox_pixels": [
+            104,
+            119,
+            567,
+            536
+          ],
+          "aspect_width_over_height": 1.1103
+        },
+        "candidate": {
+          "bbox_pixels": [
+            149,
+            130,
+            436,
+            458
+          ],
+          "aspect_width_over_height": 0.875
+        },
+        "aspect_ratio_error_fraction": 0.2119
+      },
+      "top": {
+        "normalized_silhouette_iou": 0.6739,
+        "reference": {
+          "bbox_pixels": [
+            93,
+            121,
+            584,
+            406
+          ],
+          "aspect_width_over_height": 1.7228
+        },
+        "candidate": {
+          "bbox_pixels": [
+            111,
+            149,
+            495,
+            436
+          ],
+          "aspect_width_over_height": 1.338
+        },
+        "aspect_ratio_error_fraction": 0.2234
+      },
+      "3q": {
+        "normalized_silhouette_iou": 0.6888,
+        "reference": {
+          "bbox_pixels": [
+            112,
+            84,
+            576,
+            499
+          ],
+          "aspect_width_over_height": 1.1181
+        },
+        "candidate": {
+          "bbox_pixels": [
+            73,
+            133,
+            501,
+            466
+          ],
+          "aspect_width_over_height": 1.2853
+        },
+        "aspect_ratio_error_fraction": 0.1495
+      }
+    },
+    "hoof": {
+      "front": {
+        "normalized_silhouette_iou": 0.8598,
+        "reference": {
+          "bbox_pixels": [
+            92,
+            273,
+            533,
+            519
+          ],
+          "aspect_width_over_height": 1.7927
+        },
+        "candidate": {
+          "bbox_pixels": [
+            114,
+            188,
+            526,
+            440
+          ],
+          "aspect_width_over_height": 1.6349
+        },
+        "aspect_ratio_error_fraction": 0.088
+      },
+      "side": {
+        "normalized_silhouette_iou": 0.6696,
+        "reference": {
+          "bbox_pixels": [
+            92,
+            276,
+            536,
+            516
+          ],
+          "aspect_width_over_height": 1.85
+        },
+        "candidate": {
+          "bbox_pixels": [
+            72,
+            134,
+            512,
+            440
+          ],
+          "aspect_width_over_height": 1.4379
+        },
+        "aspect_ratio_error_fraction": 0.2228
+      },
+      "top": {
+        "normalized_silhouette_iou": 0.5799,
+        "reference": {
+          "bbox_pixels": [
+            95,
+            101,
+            530,
+            494
+          ],
+          "aspect_width_over_height": 1.1069
+        },
+        "candidate": {
+          "bbox_pixels": [
+            73,
+            114,
+            497,
+            526
+          ],
+          "aspect_width_over_height": 1.0291
+        },
+        "aspect_ratio_error_fraction": 0.0703
+      },
+      "3q": {
+        "normalized_silhouette_iou": 0.7674,
+        "reference": {
+          "bbox_pixels": [
+            78,
+            236,
+            534,
+            500
+          ],
+          "aspect_width_over_height": 1.7273
+        },
+        "candidate": {
+          "bbox_pixels": [
+            119,
+            227,
+            512,
+            500
+          ],
+          "aspect_width_over_height": 1.4396
+        },
+        "aspect_ratio_error_fraction": 0.1666
+      }
+    }
+  }
+}

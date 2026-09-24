@@ -2,6 +2,28 @@
 
 This file is the single mutable Carol execution truth.
 
+## Hero ear and hoof modules v002 — 2026-09-24
+
+- Execution branch: `codex/carol-hero-modules-v002`; source is the exact
+  `carol-v011.blend`, preserving its face, eyes, torso, support, tail, cameras,
+  and authority registration. Candidate:
+  `assets/grimo/production/carol/blender/carol-hero-modules-v002.blend`.
+- Approved localized sheets:
+  `assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png`
+  and
+  `assets/grimo/source/carol/approved-3d/modules/carol-hoof-module-authority.png`.
+  They are ear/hoof module authority, not whole-character authority. The 3Q
+  panels validate one Front/Side/Top spatial form; pale helper stubs indicate
+  orientation, not final visible cut lines.
+- The Human Geometry Gate remains **PENDING HUMAN REVIEW**. Review evidence is
+  at `docs/production/carol/evidence/hero-modules-v002/review.html`.
+- Technical Module Gate and Executor Visual Precheck are **ATTENTION**: source
+  freeze and module topology checks pass, but the bounded three-cycle fit did
+  not reach the stated multi-view silhouette targets. The localized module
+  decision now routes to Human review with the measured mismatch visible.
+- The body-attached stylized cloud fleece motion decision below remains in
+  force; this static module task does not revise it.
+
 
 ## Current state — Full-Spatial architecture review, 2026-09-24
 

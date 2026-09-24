@@ -324,6 +324,13 @@ Interpretation:
 
 ## 7.6 Ears — front read
 
+The approved localized ear module sheet is
+`assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png`.
+It guides the ear alone, not whole-character proportions. Front, Side, and Top
+constrain one coherent ear; its 3Q panel validates that shared form and is not
+an independent fitting authority. The pale helper stub shows orientation, not
+a visible final cut line.
+
 - front ear angle ≈ `18°`
 - visible ear thickness intent ≈ `0.028 H`
 
@@ -335,6 +342,13 @@ Interpretation:
 **Status:** LOCKED
 
 ## 7.7 Hooves — front read
+
+The approved localized hoof module sheet is
+`assets/grimo/source/carol/approved-3d/modules/carol-hoof-module-authority.png`.
+It guides the hoof alone, not whole-character proportions. Front, Side, and Top
+constrain one continuous hoof mass; its 3Q panel validates that shared form
+and is not an independent fitting authority. The pale helper stub shows
+orientation, not a visible final cut line.
 
 Visible front hoof read:
 - hoof width ≈ `0.219 H`
