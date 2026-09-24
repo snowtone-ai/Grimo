@@ -1,112 +1,45 @@
 {
   "schema": "grimo.carol.approved-3d-authority",
-  "version": 2,
-  "approvalStatus": "approved",
-  "geometryAuthorityRule": "Carol canonical identity is the highest authority for final visible identity/appeal. Normal Front/Side are locked visible neutral production references. Carol is realized as a full-spatial 3D character: practical exterior Front/3Q/Side/Rear/derived-Top exposure must remain coherent, while polish is weighted toward the Front Hero view. Skin Front/Side and CAROL_GEOMETRY_PARAMETERS.md remain locked supporting underbody authority for support, rigging, deformation, attachment, clearance, and spatial continuity. Technical cleanliness is not an independent blocker without material visible, motion, full-spatial, functional, export, or runtime consequence.",
-  "formalGeometryAuthority": {
-    "parameterFile": "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md",
-    "references": [
-      {
-        "path": "assets/grimo/source/carol/approved-3d/carol_front.png",
-        "role": "definitive_normal_front",
-        "approvalStatus": "final_locked",
-        "sha256": "164A646FBB2F335029E875A09EE4C337F52D8A09F650437420A6F1F83E024197",
-        "authorityClass": "HERO_VISIBLE_REFERENCE"
-      },
-      {
-        "path": "assets/grimo/source/carol/approved-3d/carol_side.png",
-        "role": "definitive_normal_side",
-        "approvalStatus": "final_locked",
-        "sha256": "9484B7AC49B9D53A517E7F05AF6CA4F67F8CC8907CFBFEDFFE6D51CDA2D829B8",
-        "authorityClass": "HERO_VISIBLE_REFERENCE"
-      },
-      {
-        "path": "assets/grimo/source/carol/approved-3d/carol_skin_front.png",
-        "role": "definitive_skin_underbody_front",
-        "approvalStatus": "final_locked",
-        "sha256": "BE21B4AE23578DEACA664E77DED2BD225A10693F5B2C01AD0C53E6AE49F9C6B2",
-        "authorityClass": "SUPPORTING_UNDERBODY"
-      },
-      {
-        "path": "assets/grimo/source/carol/approved-3d/carol_skin_side.png",
-        "role": "definitive_skin_underbody_side",
-        "approvalStatus": "final_locked",
-        "sha256": "BD16825F4E43FD0F6A22F425B5D32F322B83739DD00967CDA40FB2C0A2C7B816",
-        "authorityClass": "SUPPORTING_UNDERBODY"
-      }
-    ]
-  },
-  "identityAuthorityNote": "carol-Identity-canonical.png is the highest final visible identity/appeal authority. Historical geometry may be reused as donor/benchmark evidence but cannot override current canonical/locked references. A Human-facing probe whose visible proxy quality prevents fair judgment is PROBE_INVALID rather than candidate FAIL.",
-  "references": [
+  "version": 3,
+  "approvalStatus": "current",
+  "purpose": "Current Carol visual and supporting-geometry authority. Historical assets are not active authority.",
+  "authorityOrder": [
     {
-      "path": "assets/grimo/source/carol/approved-3d/carol-3d-production-canonical-sheet.png",
-      "sha256": "FC0E205AA2F4230E3372740BD5AA16FE511EFE4C387A7658A0FE3D7B7FB9FFB3",
-      "role": "production_canonical_sheet",
-      "approvalStatus": "approved"
+      "path": "assets/grimo/source/carol/carol-Identity-canonical.png",
+      "role": "canonical_visible_identity",
+      "sha256": "63DB4EBAD028D770FC5548D50BA1E57B5C20D6A006810EC542BBB046CB4347CE"
     },
     {
-      "path": "assets/grimo/source/carol/approved-3d/carol-front-ortho-transparent.png",
-      "sha256": "FD2D2A7B5FB5D3C9CB1353A83EAAB1888DE557B759DCD348DD16A3CB3CE280B4",
-      "role": "front_ortho",
-      "approvalStatus": "approved"
+      "path": "assets/grimo/source/carol/approved-3d/carol_front.png",
+      "role": "normal_front_visible_neutral_geometry",
+      "sha256": "164A646FBB2F335029E875A09EE4C337F52D8A09F650437420A6F1F83E024197"
     },
     {
-      "path": "assets/grimo/source/carol/approved-3d/carol-side-ortho-transparent.png",
-      "sha256": "870D4864D55C5F7D8938CDFA2CC1A8A1C3A38A7107A529A6D260B5A56093AE0E",
-      "role": "side_ortho",
-      "approvalStatus": "approved"
+      "path": "assets/grimo/source/carol/approved-3d/carol_side.png",
+      "role": "normal_side_visible_neutral_geometry",
+      "sha256": "9484B7AC49B9D53A517E7F05AF6CA4F67F8CC8907CFBFEDFFE6D51CDA2D829B8"
     },
     {
-      "path": "assets/grimo/source/carol/approved-3d/carol-back-ortho-transparent.png",
-      "sha256": "27282D961B942CE6B4D39F4BC7E8DAB1E6972E7443BBC667E635B0E16E206E98",
-      "role": "back_ortho",
-      "approvalStatus": "approved"
+      "path": "assets/grimo/source/carol/approved-3d/carol_skin_front.png",
+      "role": "supporting_skin_underbody_front",
+      "sha256": "C5041D3FFFF56824E9B6A010A036A87EE19C0A09BD55B7273E4518474A2454BD"
     },
     {
-      "path": "assets/grimo/source/carol/approved-3d/carol-top-plan-transparent.png",
-      "sha256": "0D63D4E66C5034CDA7B8B5AE9FBF9BCDB0F30573D121AFE13537AE7A7576400F",
-      "role": "top_plan",
-      "approvalStatus": "approved"
+      "path": "assets/grimo/source/carol/approved-3d/carol_skin_side.png",
+      "role": "supporting_skin_underbody_side",
+      "sha256": "FB31CDEC48C95B194FD45ABB6F4A8F2F4D7B7D08355D9DD116023765C24DE64C"
     },
     {
-      "path": "assets/grimo/source/carol/approved-3d/carol-front-3q-left.png",
-      "sha256": "2D6DBD1728034ADA0A213EBDA168503DBA81C2C836F9EE0E6CBB88646234A9FE",
-      "role": "front_three_quarter_left",
-      "approvalStatus": "approved",
-      "geometryScope": [
-        "facial_depth",
-        "muzzle_cheek_forehead_volume",
-        "eye_face_depth",
-        "ear_root",
-        "fleece_volume",
-        "body_depth",
-        "limb_fore_aft_placement"
-      ]
+      "path": "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md",
+      "role": "supporting_geometry_parameters",
+      "sha256": "32D16B90851E60D7E332D95DA5E3579055CA8173C86C2636AC5E3AA3AD2676E0"
     },
     {
-      "path": "assets/grimo/source/carol/approved-3d/carol-front-3q-right.png",
-      "sha256": "1EDE4FD39585259745CD73616A03238E6E60F0202A2A0409D278F2F1A21F31F9",
-      "role": "front_three_quarter_right",
-      "approvalStatus": "approved",
-      "geometryScope": [
-        "facial_depth",
-        "muzzle_cheek_forehead_volume",
-        "eye_face_depth",
-        "ear_root",
-        "fleece_volume",
-        "body_depth",
-        "limb_fore_aft_placement"
-      ]
+      "path": "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png",
+      "role": "localized_ear_module_authority",
+      "sha256": "F10D6AAD9201DA6030798050AFF5F057A76EE5F0645A1E231186D5798FB58384"
     }
   ],
-  "heroIdentityAuthority": "assets/grimo/source/carol/carol-Identity-canonical.png",
-  "productionArchitecture": {
-    "baseline": "Full-Spatial 3D Living Character Architecture with View-Weighted Polish",
-    "frontHeroPolishPriority": true,
-    "exteriorSpatialCoherenceRequired": true,
-    "uniform360HeroBeautyRequired": false,
-    "modularMeshesAllowed": true,
-    "reuseFirstForVisibleAssets": true,
-    "humanEvaluableFidelityFloorRequired": true
-  }
+  "hoofAuthority": "Normal Front, Normal Side, and canonical identity remain the visible hoof authority. No generated hoof module sheet is active authority.",
+  "implementationNote": "Method, tooling, and intermediate production architecture remain flexible. Visible identity and naturalness require Human perceptual acceptance."
 }

@@ -1,5 +1,0 @@
-# Repository-scoped Codex invariant only.
-# Tool/MCP selection is task-specific and follows the active Decision Question;
-# do not permanently disable Blender/PlayCanvas/browser tools needed by an early probe.
-[features]
-multi_agent = false

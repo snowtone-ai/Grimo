@@ -1,8 +1,8 @@
 # CAROL_GEOMETRY_PARAMETERS.md
 
-**Status:** ACTIVE SUPPORTING GEOMETRY AUTHORITY — FOUR-REFERENCE LOCK  
+**Status:** ACTIVE SUPPORTING GEOMETRY AUTHORITY — NORMAL LOCK + TARGETED SKIN HOOF CORRECTION
 **Character:** Carol  
-**Scope:** Locked Normal/Skin reference geometry, numerical registration, full-spatial support, deformation, attachment, clearance, and motion-readiness constraints  
+**Scope:** Locked Normal geometry, Skin underbody geometry with a narrowly superseded distal-foot region, numerical registration, full-spatial support, deformation, attachment, clearance, and motion-readiness constraints
 **Last Updated:** 2026-09-24
 
 ---
@@ -11,7 +11,7 @@
 
 This file is Carol's **supporting geometry contract**.
 
-It locks the approved Normal/Skin reference package and numerical relationships needed for reconstruction, support, rigging, deformation, attachment, clearance, and motion readiness.
+It locks the approved Normal/Skin reference package and numerical relationships needed for reconstruction, support, rigging, deformation, attachment, clearance, and motion readiness. The only active visual-reference exception is the **distal Skin foot / hoof depiction**, which is explicitly superseded by the hoof authority defined in §7.7 and is being corrected without redesigning the rest of the Skin references.
 
 It does **not** define the Product Goal, current production task, or a mandatory geometry-first phase order.
 
@@ -40,11 +40,11 @@ For production decisions:
 5. **Approved Skin / Underbody Front + Skin / Underbody Side + this numerical contract** — supporting underbody authority for support, rigging, deformation, attachment, clearance, and spatial continuity.
 6. **FUNCTIONAL_HIDDEN implementation** — functional structure; Hero polish is unnecessary unless the region becomes externally visible.
 
-The four production-reference images remain FINAL / LOCKED. This hierarchy changes their role, not their approved measurements.
+Normal Front and Normal Side remain FINAL / LOCKED. Skin Front and Skin Side remain locked for every region **except the distal foot / hoof depiction**. That local Skin hoof region is superseded until corrected to the approved three-part Carol hoof architecture. No other Skin geometry is reopened.
 
 ## 1.2 Conflict rule
 
-Do not redesign/regenerate the four locked references to solve implementation difficulty.
+Do not redesign/regenerate the locked references to solve implementation difficulty. The sole current exception is a **targeted Skin distal-foot correction** authorized to remove the incorrect paw-like hoof interpretation and replace it with Carol's approved hoof architecture.
 
 Do not use old sheets, turnarounds, AI candidates, Back/Top/3Q images, or old 3D interpretations as current geometry authority.
 
@@ -61,10 +61,10 @@ Locks approved neutral front silhouette, facial structure, eye/ear/hoof read, ce
 Locks approved neutral side envelope, total length, support spacing, muzzle projection, ear profile, tail relationship, compactness, and side motion-readiness silhouette.
 
 ### Approved Skin / Underbody Front
-Supporting authority for hidden chassis width, head/body and chest/abdomen/pelvis relationships, bilateral support, short limbs, grounded hooves, and head/torso connection.
+Supporting authority for hidden chassis width, head/body and chest/abdomen/pelvis relationships, bilateral support, short limbs, and head/torso connection. The current distal foot / hoof drawing is **not hoof-shape authority** until the targeted correction is completed.
 
 ### Approved Skin / Underbody Side
-Supporting authority for hidden head depth, minimal muzzle, longitudinal support structure, limb roots, support spacing, belly clearance, COM, tail/ear roots, and articulation/deformation clearance.
+Supporting authority for hidden head depth, minimal muzzle, longitudinal support structure, limb roots, support spacing, belly clearance, COM, tail/ear roots, and articulation/deformation clearance. The current distal foot / hoof drawing is **not hoof-shape authority** until the targeted correction is completed.
 
 ### This file
 Supporting authority for normalized coordinates, numerical locks/tolerances, support/COM logic, reconstruction constraints, tail intent, and motion/deformation clearance.
@@ -80,13 +80,17 @@ A few antialiasing/image-generation pixels are not grounds to rewrite a number.
 
 When a technical discrepancy has no demonstrated visible, deformation, attachment, runtime, or future-spatial consequence, do not polish it as an independent goal.
 
-## 1.5 Reference freeze / no-regeneration rule
+## 1.5 Reference freeze / targeted-correction rule
 
 - do NOT regenerate Normal Front
 - do NOT regenerate Normal Side
-- do NOT regenerate Skin Front
-- do NOT regenerate Skin Side
+- do NOT redesign Skin Front
+- do NOT redesign Skin Side
+- Skin Front / Side may receive **only the authorized distal-foot / hoof correction**
+- the correction must preserve every non-foot pixel/shape relationship as closely as the image-edit system permits
 - do NOT create a new AI Back / Top / 3/4 as geometry authority
+
+The temporary cream-colored featureless leg/rod images used to erase prior hoof bias are **editing intermediates only**. They are never Carol geometry authority and must not be used to define hoof shape.
 
 Back / Top / 3/4 are derived diagnostics from the coherent full-spatial Carol character system, not new fitting authorities.
 
@@ -324,13 +328,6 @@ Interpretation:
 
 ## 7.6 Ears — front read
 
-The approved localized ear module sheet is
-`assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png`.
-It guides the ear alone, not whole-character proportions. Front, Side, and Top
-constrain one coherent ear; its 3Q panel validates that shared form and is not
-an independent fitting authority. The pale helper stub shows orientation, not
-a visible final cut line.
-
 - front ear angle ≈ `18°`
 - visible ear thickness intent ≈ `0.028 H`
 
@@ -341,14 +338,7 @@ Interpretation:
 
 **Status:** LOCKED
 
-## 7.7 Hooves — front read
-
-The approved localized hoof module sheet is
-`assets/grimo/source/carol/approved-3d/modules/carol-hoof-module-authority.png`.
-It guides the hoof alone, not whole-character proportions. Front, Side, and Top
-constrain one continuous hoof mass; its 3Q panel validates that shared form
-and is not an independent fitting authority. The pale helper stub shows
-orientation, not a visible final cut line.
+## 7.7 Hooves — definitive Carol hoof architecture
 
 Visible front hoof read:
 - hoof width ≈ `0.219 H`
@@ -356,22 +346,58 @@ Visible front hoof read:
 
 Interpretation:
 - heavy and grounded
+- compact, broad, soft-edged stylized hoof
 - do not miniaturize hooves to fake elegance
 - hoof read must remain strong
+- **never read as a dog/cat paw**
 
 **Status:** LOCKED
 
-### Hoof toe architecture — HUMAN LOCK 2026-09-22
+### 7.7.1 Three-part toe architecture — HUMAN LOCK 2026-09-24
 
-Each hoof has exactly **three rounded toe lobes** and exactly **two shallow clefts** in one continuous stylized hoof mass.
+Each hoof has exactly **three visibly distinct rounded toe parts / lobes** arranged as one Carol hoof module.
 
-The same single 3D toe architecture serves every view; camera projection may naturally hide part of one lobe.
+Required visual structure:
+- exactly `3` rounded toe lobes
+- exactly `2` visible separation clefts / grooves
+- the two grooves must be clear enough that the hoof immediately reads as **three-part**, not as one paw-like blob
+- the three toe parts share one proximal hoof/root volume and behave as one load-bearing hoof module
+- the distal/front silhouette is formed by three rounded toe ends rather than a canine paw pad or mitten shape
+- the center toe may read slightly more forward/prominent where projection naturally supports it, but no toe may become a claw/finger
 
-Per-view toe-count changes and detached toe objects are prohibited.
+The same coherent 3D three-part architecture serves Front, Side, 3/4, Rear, and derived Top views. Camera projection may partially occlude a lobe, but the underlying 3D module still contains exactly three toe parts.
 
-Independent toe articulation is not required for MVP.
+### 7.7.2 Absolute hoof prohibitions
 
-Existing hoof width, height, and support locks remain unchanged.
+Do NOT introduce:
+- dog/cat paw anatomy
+- paw pads
+- four-toe or five-toe layouts
+- mitten-like two-lobe feet
+- a single undivided bulbous paw
+- claws or nails
+- detached floating toe pieces
+- realistic cloven sheep hoof anatomy
+- per-view toe-count changes
+
+The three toe parts do **not** require independent articulation for MVP. They may be modeled as three distal lobes that merge into a shared proximal hoof root, or as tightly joined submeshes under one hoof control, provided the visible three-part read and deformation stability are preserved.
+
+### 7.7.3 Hoof authority order
+
+For hoof shape specifically:
+
+1. approved Normal Front hoof read
+2. approved Normal Side hoof read
+3. Carol canonical identity hoof family
+4. this §7.7 hoof contract
+5. corrected Skin Front / Side hoof depiction after completion
+6. implementation convenience
+
+The **pre-correction Skin hoof depiction is explicitly deprecated as hoof-shape evidence** because it drifts toward a paw/dog-foot family. Do not average it with the Normal/Identity hoof.
+
+Temporary cream-colored featureless leg rods used during image editing are bias-neutralization intermediates only. They carry **zero hoof-shape authority**.
+
+Existing hoof width, height, support centers, and planted-contact requirements remain unchanged unless a later explicit Human decision changes them.
 
 ## 7.8 Front crown / fleece structure
 
@@ -549,21 +575,14 @@ Reconstruct instead as:
 
 **Status:** LOCKED
 
-## 9.3 Fleece motion / ownership rule — 2026-09-24
-
-Carol's fleece is a **body-attached stylized cloud mass**, not loose fur and not a second shell that visibly slides over Skin.
+## 9.3 Animation rule
 
 Motion causality:
-- primary head / hidden torso / support motion owns the macro fleece position
-- macro fleece follows its owning head/torso region with effectively zero perceptible positional lag
-- no visible shell sliding, delayed translation, delayed rotation, or independent cloud-ball jiggle
-- when interaction requires softness, use **local shape deformation**: compression, slight squash/stretch, opening/closing, and recovery
-- adjacent fleece may receive lower-amplitude shape deformation only when causally justified
-- an optional very small broad **shape settle** may occur after stronger authored actions, but the broad mass remains positionally attached to the body
-- if a secondary fleece effect reads as jelly, mochi skin, floating balls, or detached outer clothing, remove it rather than preserving it for “life”
-- life is carried primarily by face, gaze, ears, head/body weight transfer, limbs/hooves, and the independent tail
 
-Mesh separation is allowed for authoring, weighting, replacement, and deformation control; mesh separation does **not** imply independent motion ownership.
+- primary head / hidden torso / support motion occurs first
+- fleece follows with delayed softness
+- small residual settle may occur
+- fleece is secondary, not primary
 
 **Status:** LOCKED
 
@@ -594,7 +613,7 @@ The fleece must preserve clearance for:
 - forelimb adjustment
 - tail-root motion
 - local contact compression
-- optional broad shape settle with no visible positional drift
+- delayed broad settle
 
 Existing validated historical full-3D fleece may be reused/adapted as a donor when it fits current authority better than rebuilding from scratch.
 
@@ -653,9 +672,11 @@ not visible-appearance replacement values.
 
 ## 10.3 Definitive underbody visual-reference decision
 
-The latest user-approved **Skin / Underbody Front** and **Skin / Underbody Side** are FINAL / LOCKED **supporting underbody references**.
+The latest user-approved **Skin / Underbody Front** and **Skin / Underbody Side** remain locked **supporting underbody references outside the distal foot / hoof region**.
 
-They are authoritative for support/deformation/attachment/clearance and must not be regenerated or replaced by a new AI interpretation. They are not the highest authority for fleece-included Hero appearance.
+Their current distal hoof depiction is locally superseded because it has drifted into a paw/dog-foot family that conflicts with the approved Normal/Identity hoof. The authorized workflow is: (1) neutralize only the distal foot into a featureless cream leg/rod intermediate, then (2) reconstruct the hoof from Normal Front / Normal Side / canonical identity + §7.7. After that targeted correction is approved, the corrected Skin references become the definitive supporting underbody references again.
+
+No other Skin anatomy is reopened. The temporary rod intermediate is not authority.
 
 The hidden chassis must clearly support segmentation into:
 
@@ -690,7 +711,7 @@ It locks the visible interpretation of:
 - bilateral limb architecture
 - front and rear support relationship
 - short limbs
-- heavy planted hooves
+- correct hoof support location and overall distal-foot envelope; **current pre-correction paw-like toe shape is excluded from authority**
 - low grounded stance
 - head / torso connection
 - broad ear identity without fleece occlusion
@@ -728,7 +749,7 @@ It locks the visible interpretation of:
 - short limb exposure
 - belly clearance
 - low center-of-mass read
-- heavy planted hoof relationship
+- planted hoof support relationship and contact location; **current pre-correction paw-like toe shape is excluded from authority**
 - ear-root depth
 - independent tail-root relationship
 - articulation clearance required for future movement
@@ -768,7 +789,7 @@ Additional independent structures:
 
 - left / right ears
 - left / right eyes
-- four heavy hooves
+- four heavy Carol hooves, each using the §7.7 three-part toe architecture
 - tail root + small tail tuft
 
 The chest, abdomen, and pelvis may blend smoothly in the final surface, but their functional roles must remain understandable for deformation and support.
@@ -793,7 +814,7 @@ The following must remain the same objects / same neutral geometry in both modes
 - ears
 - hidden torso
 - four limbs
-- four hooves
+- four hooves; each hoof must use the same §7.7 three-part Carol architecture
 - tail root / tail tuft
 
 Forbidden:
@@ -810,7 +831,7 @@ Forbidden:
 
 ## 10.8 Underbody support / COM rule
 
-The hidden torso, limbs, and hooves form the real support system.
+The hidden torso, limbs, and hooves form the real support system. Each hoof is one load-bearing module with three visually distinct distal toe lobes as locked in §7.7.
 
 Locked support targets remain:
 
@@ -875,7 +896,7 @@ The neutral design must support:
 - hindlimb stability
 - invitation / reaction anticipation
 - settle back to neutral
-- local fleece compression / recovery where contact or authored pose requires it
+- delayed fleece follow-through
 - subtle ear response
 - subtle tail tuft response
 
@@ -895,7 +916,7 @@ Primary motion channels:
 
 Secondary motion channels:
 - ears
-- local fleece deformation / silhouette-safe authored shape settle (no macro transform lag)
+- fleece regional masses
 - tail tuft
 
 **Status:** LOCKED
@@ -1019,3 +1040,55 @@ Automated geometry metrics are diagnostics. Human judgment controls visible iden
 When geometry-related choices compete, prioritize:
 
 1. Product Goal and canonical identity / appeal
+2. full-spatial exterior coherence
+3. approved Normal Front / Normal Side read
+4. HERO_PRIORITY visible-part quality
+5. MOTION_CRITICAL deformation / attachment / interaction functionality
+6. supporting Skin / numerical underbody requirements
+7. technical hygiene to the level required by the above
+
+Do not optimize realism, hidden-surface beauty, all-quads purity, watertightness, or structural elegance as independent goals.
+
+Do not use front-only or camera-dependent geometry to avoid building valid 3D form.
+
+If a Human-facing probe is dominated by a low-quality visible proxy, classify the probe as `PROBE_INVALID`, not the underlying candidate as FAIL.
+
+If essentially the same blocker survives two bounded cycles, return to Architecture Review before attempt 3.
+
+# 16. Summary Contract
+
+Carol must remain:
+
+- low
+- grounded
+- compact
+- soft
+- cute
+- fleece-dominant in the Normal/Hero presentation
+- non-realistic
+- riggable
+- motion-capable
+- coherent as one full-spatial 3D character across practical views and behaviors
+
+Locked reference package:
+
+- canonical identity for final visible Carol-ness / appeal
+- Normal Front / Normal Side for approved visible neutral targets
+- Skin / Underbody Front / Side + this file for supporting hidden structure and numerical constraints
+
+The production implementation may use modular meshes. “One character” means one coherent spatial system, not one watertight mesh.
+
+Polish is **view-weighted**:
+
+```text
+Front Hero
+> important 3/4 / Side motion views
+> uncommon rear/top exterior views
+> permanently hidden functional geometry
+```
+
+But spatial validity is not view-weighted: exterior geometry must remain coherent wherever practical motion may expose it.
+
+The target is not realistic sheep anatomy, a prettier replacement Carol, a perfect naked chassis, or a Front-only illusion.
+
+The target is the **currently approved Carol realized as a faithful, full-spatial, motion-capable 3D character whose highest polish is concentrated where the user sees it most**.
