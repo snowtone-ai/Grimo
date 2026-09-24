@@ -1,0 +1,2455 @@
+{
+  "source_blend": "assets/grimo/production/carol/blender/carol-hero-modules-v002.blend",
+  "source_blend_sha256": "5731cc9064fec4907e8ed8c95ce8b9ff0b0d097159328588850645ce4394744a",
+  "starting_branch": "codex/carol-hero-modules-v002",
+  "starting_head": "c85b9ab202c5a9a9c663f246300b225ca47b617a",
+  "parameter_file_sha256": "b18cbbca19256b824ab62dcf713d0ecedde8b98b586223587e28d4d375f2a9fa",
+  "output_blend": "assets/grimo/production/carol/blender/carol-hero-modules-v003.blend",
+  "output_blend_sha256": "fb9b793d7443e942f0ad118df99bb8703e056ea806815a32f2897581fb33b299",
+  "authority_images": {
+    "ear": {
+      "path": "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png",
+      "sha256": "ca348f895689aefeea1844b12d7fb5a4af953e114859a552b6328311295e8563"
+    },
+    "hoof": {
+      "path": "assets/grimo/source/carol/approved-3d/modules/carol-hoof-module-authority.png",
+      "sha256": "00412f74458450d785b262403192979309e2b6d4ee5f33c6b1445cb36c4dbb7a"
+    }
+  },
+  "changed_objects": [
+    "EAR_L",
+    "EAR_R",
+    "EYELID_L",
+    "EYELID_R",
+    "EYE_L",
+    "EYE_R",
+    "HOOF_FORE_L",
+    "HOOF_FORE_R",
+    "HOOF_HIND_L",
+    "HOOF_HIND_R"
+  ],
+  "frozen_objects": {
+    "count": 31,
+    "verified": true,
+    "names": [
+      "CAM front",
+      "CAM side",
+      "CENTRAL_CHASSIS",
+      "DEBUG_CHEEK_L",
+      "DEBUG_CHEEK_R",
+      "DEBUG_COM",
+      "DEBUG_EAR_ROOT_L",
+      "DEBUG_EAR_ROOT_R",
+      "DEBUG_FOREHEAD",
+      "DEBUG_FORE_SUPPORT_L",
+      "DEBUG_FORE_SUPPORT_R",
+      "DEBUG_HEAD_PIVOT",
+      "DEBUG_HIND_SUPPORT_L",
+      "DEBUG_HIND_SUPPORT_R",
+      "FORE_L",
+      "FORE_R",
+      "HIND_L",
+      "HIND_R",
+      "MOUTH_closed",
+      "NOSE",
+      "PHILTRUM",
+      "REFERENCE carol_front.png",
+      "REFERENCE carol_side.png",
+      "REFERENCE carol_skin_front.png",
+      "REFERENCE carol_skin_side.png",
+      "SKIN_TAIL_CORE",
+      "TAIL_PIVOT",
+      "fill",
+      "key",
+      "low fill",
+      "rim"
+    ],
+    "before": {
+      "CAM front": {
+        "name": "CAM front",
+        "type": "CAMERA",
+        "matrix_world": [
+          -4e-08,
+          -4e-08,
+          -1.0,
+          -4.0,
+          -1.0,
+          0.0,
+          4e-08,
+          0.0,
+          0.0,
+          1.0,
+          -4e-08,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "CAM side": {
+        "name": "CAM side",
+        "type": "CAMERA",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.64999998,
+          0.0,
+          -1.6e-07,
+          -1.0,
+          -4.0,
+          0.0,
+          1.0,
+          -1.6e-07,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "CENTRAL_CHASSIS": {
+        "name": "CENTRAL_CHASSIS",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 533,
+        "faces": 531,
+        "mesh_sha256": "05a2bfd665787a32eb62683d169e8194d29edef24efe7454c196975a8bc970d1",
+        "world_bounds": {
+          "min": [
+            0.047061,
+            -0.311,
+            0.089
+          ],
+          "max": [
+            1.052,
+            0.311,
+            0.707
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "DEBUG_CHEEK_L": {
+        "name": "DEBUG_CHEEK_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.09,
+          0.0,
+          1.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          1.0,
+          0.31999999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_CHEEK_R": {
+        "name": "DEBUG_CHEEK_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.09,
+          0.0,
+          1.0,
+          0.0,
+          -0.25,
+          0.0,
+          0.0,
+          1.0,
+          0.31999999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_COM": {
+        "name": "DEBUG_COM",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.63,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.255,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_EAR_ROOT_L": {
+        "name": "DEBUG_EAR_ROOT_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.39700001,
+          0.0,
+          1.0,
+          0.0,
+          0.221,
+          0.0,
+          0.0,
+          1.0,
+          0.565,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_EAR_ROOT_R": {
+        "name": "DEBUG_EAR_ROOT_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.39700001,
+          0.0,
+          1.0,
+          0.0,
+          -0.221,
+          0.0,
+          0.0,
+          1.0,
+          0.565,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_FORE_SUPPORT_L": {
+        "name": "DEBUG_FORE_SUPPORT_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.38999999,
+          0.0,
+          1.0,
+          0.0,
+          0.145,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_FORE_SUPPORT_R": {
+        "name": "DEBUG_FORE_SUPPORT_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.38999999,
+          0.0,
+          1.0,
+          0.0,
+          -0.145,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_FOREHEAD": {
+        "name": "DEBUG_FOREHEAD",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.09,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.53500003,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_HEAD_PIVOT": {
+        "name": "DEBUG_HEAD_PIVOT",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.41,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.37,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_HIND_SUPPORT_L": {
+        "name": "DEBUG_HIND_SUPPORT_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.92000002,
+          0.0,
+          1.0,
+          0.0,
+          0.245,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_HIND_SUPPORT_R": {
+        "name": "DEBUG_HIND_SUPPORT_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.92000002,
+          0.0,
+          1.0,
+          0.0,
+          -0.245,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "fill": {
+        "name": "fill",
+        "type": "LIGHT",
+        "matrix_world": [
+          -0.76822126,
+          0.24271303,
+          -0.59239048,
+          -2.0,
+          -0.6401844,
+          -0.29125562,
+          0.71086854,
+          3.0,
+          0.0,
+          0.92534345,
+          0.37912986,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "FORE_L": {
+        "name": "FORE_L",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "d584ec63c2d7cc211758557c7eaf19b5393d04c616b107663620d1d4ef8b6109",
+        "world_bounds": {
+          "min": [
+            0.27,
+            0.007,
+            0.074
+          ],
+          "max": [
+            0.542,
+            0.233,
+            0.385
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "FORE_R": {
+        "name": "FORE_R",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "69f9fcd9b769068be8caf3255a2b22c869ec11264385eda374b3ed350ea2e03f",
+        "world_bounds": {
+          "min": [
+            0.27,
+            -0.233,
+            0.074
+          ],
+          "max": [
+            0.542,
+            -0.007,
+            0.385
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "HIND_L": {
+        "name": "HIND_L",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "0f0451c0342f934e3d431ad2ee50d55702bfc7f5c1e8db6d845a266b05cfb496",
+        "world_bounds": {
+          "min": [
+            0.741,
+            0.056,
+            0.074
+          ],
+          "max": [
+            1.025,
+            0.322,
+            0.37
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "HIND_R": {
+        "name": "HIND_R",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "b4b499dccedc7d2bcfb0333d4b9b2fb4064ae2b56a611a99c849282afbad5a4f",
+        "world_bounds": {
+          "min": [
+            0.741,
+            -0.322,
+            0.074
+          ],
+          "max": [
+            1.025,
+            -0.056,
+            0.37
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "key": {
+        "name": "key",
+        "type": "LIGHT",
+        "matrix_world": [
+          0.75257677,
+          0.43093243,
+          -0.49792117,
+          -3.0,
+          -0.65850455,
+          0.49249426,
+          -0.56905288,
+          -4.0,
+          -1e-08,
+          0.75613928,
+          0.65441072,
+          5.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "low fill": {
+        "name": "low fill",
+        "type": "LIGHT",
+        "matrix_world": [
+          8e-08,
+          -0.0570498,
+          -0.99837136,
+          -3.0,
+          -1.0,
+          -6e-08,
+          -7e-08,
+          0.0,
+          -6e-08,
+          0.99837136,
+          -0.0570498,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "MOUTH_closed": {
+        "name": "MOUTH_closed",
+        "type": "CURVE",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "NOSE": {
+        "name": "NOSE",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.05725204,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.37799999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 922,
+        "faces": 960,
+        "mesh_sha256": "523fc00f28f186d95f22335915520303898fbe6e3c88b9ecd14985d31bf870b4",
+        "world_bounds": {
+          "min": [
+            0.040252,
+            -0.0195,
+            0.3675
+          ],
+          "max": [
+            0.074252,
+            0.0195,
+            0.3885
+          ]
+        },
+        "material_slots": [
+          "DEBUG cocoa"
+        ]
+      },
+      "PHILTRUM": {
+        "name": "PHILTRUM",
+        "type": "CURVE",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_front.png": {
+        "name": "REFERENCE carol_front.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_side.png": {
+        "name": "REFERENCE carol_side.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_skin_front.png": {
+        "name": "REFERENCE carol_skin_front.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_skin_side.png": {
+        "name": "REFERENCE carol_skin_side.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "rim": {
+        "name": "rim",
+        "type": "LIGHT",
+        "matrix_world": [
+          -4e-08,
+          -0.82136995,
+          0.57039583,
+          3.0,
+          1.0,
+          -1e-07,
+          -7e-08,
+          0.0,
+          1.2e-07,
+          0.57039583,
+          0.82136995,
+          4.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "SKIN_TAIL_CORE": {
+        "name": "SKIN_TAIL_CORE",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 108,
+        "faces": 106,
+        "mesh_sha256": "c803a7ed343224469ed8809d48cf7d5842048838131be0b69604e9820f5ca61a",
+        "world_bounds": {
+          "min": [
+            0.9895,
+            -0.0475,
+            0.3075
+          ],
+          "max": [
+            1.0745,
+            0.0475,
+            0.4025
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "TAIL_PIVOT": {
+        "name": "TAIL_PIVOT",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.98500001,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.35499999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      }
+    },
+    "after_reload": {
+      "CAM front": {
+        "name": "CAM front",
+        "type": "CAMERA",
+        "matrix_world": [
+          -4e-08,
+          -4e-08,
+          -1.0,
+          -4.0,
+          -1.0,
+          0.0,
+          4e-08,
+          0.0,
+          0.0,
+          1.0,
+          -4e-08,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "CAM side": {
+        "name": "CAM side",
+        "type": "CAMERA",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.64999998,
+          0.0,
+          -1.6e-07,
+          -1.0,
+          -4.0,
+          0.0,
+          1.0,
+          -1.6e-07,
+          0.5,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "CENTRAL_CHASSIS": {
+        "name": "CENTRAL_CHASSIS",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 533,
+        "faces": 531,
+        "mesh_sha256": "05a2bfd665787a32eb62683d169e8194d29edef24efe7454c196975a8bc970d1",
+        "world_bounds": {
+          "min": [
+            0.047061,
+            -0.311,
+            0.089
+          ],
+          "max": [
+            1.052,
+            0.311,
+            0.707
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "DEBUG_CHEEK_L": {
+        "name": "DEBUG_CHEEK_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.09,
+          0.0,
+          1.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          1.0,
+          0.31999999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_CHEEK_R": {
+        "name": "DEBUG_CHEEK_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.09,
+          0.0,
+          1.0,
+          0.0,
+          -0.25,
+          0.0,
+          0.0,
+          1.0,
+          0.31999999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_COM": {
+        "name": "DEBUG_COM",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.63,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.255,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_EAR_ROOT_L": {
+        "name": "DEBUG_EAR_ROOT_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.39700001,
+          0.0,
+          1.0,
+          0.0,
+          0.221,
+          0.0,
+          0.0,
+          1.0,
+          0.565,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_EAR_ROOT_R": {
+        "name": "DEBUG_EAR_ROOT_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.39700001,
+          0.0,
+          1.0,
+          0.0,
+          -0.221,
+          0.0,
+          0.0,
+          1.0,
+          0.565,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_FORE_SUPPORT_L": {
+        "name": "DEBUG_FORE_SUPPORT_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.38999999,
+          0.0,
+          1.0,
+          0.0,
+          0.145,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_FORE_SUPPORT_R": {
+        "name": "DEBUG_FORE_SUPPORT_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.38999999,
+          0.0,
+          1.0,
+          0.0,
+          -0.145,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_FOREHEAD": {
+        "name": "DEBUG_FOREHEAD",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.09,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.53500003,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_HEAD_PIVOT": {
+        "name": "DEBUG_HEAD_PIVOT",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.41,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.37,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_HIND_SUPPORT_L": {
+        "name": "DEBUG_HIND_SUPPORT_L",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.92000002,
+          0.0,
+          1.0,
+          0.0,
+          0.245,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "DEBUG_HIND_SUPPORT_R": {
+        "name": "DEBUG_HIND_SUPPORT_R",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.92000002,
+          0.0,
+          1.0,
+          0.0,
+          -0.245,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "fill": {
+        "name": "fill",
+        "type": "LIGHT",
+        "matrix_world": [
+          -0.76822126,
+          0.24271303,
+          -0.59239048,
+          -2.0,
+          -0.6401844,
+          -0.29125562,
+          0.71086854,
+          3.0,
+          0.0,
+          0.92534345,
+          0.37912986,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "FORE_L": {
+        "name": "FORE_L",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "d584ec63c2d7cc211758557c7eaf19b5393d04c616b107663620d1d4ef8b6109",
+        "world_bounds": {
+          "min": [
+            0.27,
+            0.007,
+            0.074
+          ],
+          "max": [
+            0.542,
+            0.233,
+            0.385
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "FORE_R": {
+        "name": "FORE_R",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "69f9fcd9b769068be8caf3255a2b22c869ec11264385eda374b3ed350ea2e03f",
+        "world_bounds": {
+          "min": [
+            0.27,
+            -0.233,
+            0.074
+          ],
+          "max": [
+            0.542,
+            -0.007,
+            0.385
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "HIND_L": {
+        "name": "HIND_L",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "0f0451c0342f934e3d431ad2ee50d55702bfc7f5c1e8db6d845a266b05cfb496",
+        "world_bounds": {
+          "min": [
+            0.741,
+            0.056,
+            0.074
+          ],
+          "max": [
+            1.025,
+            0.322,
+            0.37
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "HIND_R": {
+        "name": "HIND_R",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 112,
+        "faces": 110,
+        "mesh_sha256": "b4b499dccedc7d2bcfb0333d4b9b2fb4064ae2b56a611a99c849282afbad5a4f",
+        "world_bounds": {
+          "min": [
+            0.741,
+            -0.322,
+            0.074
+          ],
+          "max": [
+            1.025,
+            -0.056,
+            0.37
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "key": {
+        "name": "key",
+        "type": "LIGHT",
+        "matrix_world": [
+          0.75257677,
+          0.43093243,
+          -0.49792117,
+          -3.0,
+          -0.65850455,
+          0.49249426,
+          -0.56905288,
+          -4.0,
+          -1e-08,
+          0.75613928,
+          0.65441072,
+          5.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "low fill": {
+        "name": "low fill",
+        "type": "LIGHT",
+        "matrix_world": [
+          8e-08,
+          -0.0570498,
+          -0.99837136,
+          -3.0,
+          -1.0,
+          -6e-08,
+          -7e-08,
+          0.0,
+          -6e-08,
+          0.99837136,
+          -0.0570498,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "MOUTH_closed": {
+        "name": "MOUTH_closed",
+        "type": "CURVE",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "NOSE": {
+        "name": "NOSE",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.05725204,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.37799999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 922,
+        "faces": 960,
+        "mesh_sha256": "523fc00f28f186d95f22335915520303898fbe6e3c88b9ecd14985d31bf870b4",
+        "world_bounds": {
+          "min": [
+            0.040252,
+            -0.0195,
+            0.3675
+          ],
+          "max": [
+            0.074252,
+            0.0195,
+            0.3885
+          ]
+        },
+        "material_slots": [
+          "DEBUG cocoa"
+        ]
+      },
+      "PHILTRUM": {
+        "name": "PHILTRUM",
+        "type": "CURVE",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_front.png": {
+        "name": "REFERENCE carol_front.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_side.png": {
+        "name": "REFERENCE carol_side.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_skin_front.png": {
+        "name": "REFERENCE carol_skin_front.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "REFERENCE carol_skin_side.png": {
+        "name": "REFERENCE carol_skin_side.png",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "rim": {
+        "name": "rim",
+        "type": "LIGHT",
+        "matrix_world": [
+          -4e-08,
+          -0.82136995,
+          0.57039583,
+          3.0,
+          1.0,
+          -1e-07,
+          -7e-08,
+          0.0,
+          1.2e-07,
+          0.57039583,
+          0.82136995,
+          4.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      },
+      "SKIN_TAIL_CORE": {
+        "name": "SKIN_TAIL_CORE",
+        "type": "MESH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": 108,
+        "faces": 106,
+        "mesh_sha256": "c803a7ed343224469ed8809d48cf7d5842048838131be0b69604e9820f5ca61a",
+        "world_bounds": {
+          "min": [
+            0.9895,
+            -0.0475,
+            0.3075
+          ],
+          "max": [
+            1.0745,
+            0.0475,
+            0.4025
+          ]
+        },
+        "material_slots": [
+          "DEBUG warm skin"
+        ]
+      },
+      "TAIL_PIVOT": {
+        "name": "TAIL_PIVOT",
+        "type": "EMPTY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.98500001,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.35499999,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "vertices": null,
+        "faces": null,
+        "mesh_sha256": null,
+        "world_bounds": null,
+        "material_slots": []
+      }
+    }
+  },
+  "module_records": {
+    "EAR_L": {
+      "name": "EAR_L",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 2352,
+      "faces": 2306,
+      "mesh_sha256": "e5250c4b49461c9cfcb07bf606e52d8e03cb83d4dafa767802596621959bb675",
+      "world_bounds": {
+        "min": [
+          0.289009,
+          0.177459,
+          0.321764
+        ],
+        "max": [
+          0.627575,
+          0.611074,
+          0.633575
+        ]
+      },
+      "material_slots": [
+        "DEBUG cocoa",
+        "CAROL ear blush v002"
+      ]
+    },
+    "EAR_R": {
+      "name": "EAR_R",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 2352,
+      "faces": 2306,
+      "mesh_sha256": "938961bcc3174dcc8504aa482c05ad2e0603e4c865b3b72696602871febebbf7",
+      "world_bounds": {
+        "min": [
+          0.289009,
+          -0.611074,
+          0.321764
+        ],
+        "max": [
+          0.627575,
+          -0.177459,
+          0.633575
+        ]
+      },
+      "material_slots": [
+        "DEBUG cocoa",
+        "CAROL ear blush v002"
+      ]
+    },
+    "EYELID_L": {
+      "name": "EYELID_L",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 256,
+      "faces": 192,
+      "mesh_sha256": "f79021ebba31046f313c5980d6cd4b9277cdded40b45ebcd27f0bced851c16ff",
+      "world_bounds": {
+        "min": [
+          0.10181,
+          0.084595,
+          0.333815
+        ],
+        "max": [
+          0.197062,
+          0.239405,
+          0.502185
+        ]
+      },
+      "material_slots": [
+        "DEBUG warm skin",
+        "DEBUG cocoa"
+      ]
+    },
+    "EYELID_R": {
+      "name": "EYELID_R",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 256,
+      "faces": 192,
+      "mesh_sha256": "f2a1578cf44991a1fef3e24d5ad4f77123c04b27522dc4c0ccb91bc36b03c547",
+      "world_bounds": {
+        "min": [
+          0.101804,
+          -0.239405,
+          0.333815
+        ],
+        "max": [
+          0.197061,
+          -0.084595,
+          0.502185
+        ]
+      },
+      "material_slots": [
+        "DEBUG warm skin",
+        "DEBUG cocoa"
+      ]
+    },
+    "EYE_L": {
+      "name": "EYE_L",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 769,
+      "faces": 768,
+      "mesh_sha256": "809828dde2d9dbd0b3070d312adc6c38356381156822da9dd8f386391efd343b",
+      "world_bounds": {
+        "min": [
+          0.105051,
+          0.0935,
+          0.3435
+        ],
+        "max": [
+          0.187401,
+          0.2305,
+          0.4925
+        ]
+      },
+      "material_slots": [
+        "DEBUG conformal eye pigment"
+      ]
+    },
+    "EYE_R": {
+      "name": "EYE_R",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 769,
+      "faces": 768,
+      "mesh_sha256": "c2bcab99fc95d5ec869b5f7e51f5bc3d1692d55864122dec28c4183d91dcfea8",
+      "world_bounds": {
+        "min": [
+          0.105038,
+          -0.2305,
+          0.3435
+        ],
+        "max": [
+          0.187401,
+          -0.0935,
+          0.4925
+        ]
+      },
+      "material_slots": [
+        "DEBUG conformal eye pigment"
+      ]
+    },
+    "HOOF_FORE_L": {
+      "name": "HOOF_FORE_L",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 864,
+      "faces": 770,
+      "mesh_sha256": "0e3c1d6648e021cfcad39f5c89a7f073f7e077771e7467fccee456553e387482",
+      "world_bounds": {
+        "min": [
+          0.266967,
+          0.0355,
+          0.0
+        ],
+        "max": [
+          0.487875,
+          0.2545,
+          0.146
+        ]
+      },
+      "material_slots": [
+        "DEBUG cocoa"
+      ]
+    },
+    "HOOF_FORE_R": {
+      "name": "HOOF_FORE_R",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 864,
+      "faces": 770,
+      "mesh_sha256": "5b841eb87a3e847830accec4f6446ace2827f7435a06fcac3cce63b45a7f5ba1",
+      "world_bounds": {
+        "min": [
+          0.266967,
+          -0.2545,
+          0.0
+        ],
+        "max": [
+          0.487875,
+          -0.0355,
+          0.146
+        ]
+      },
+      "material_slots": [
+        "DEBUG cocoa"
+      ]
+    },
+    "HOOF_HIND_L": {
+      "name": "HOOF_HIND_L",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 864,
+      "faces": 770,
+      "mesh_sha256": "d67eee22098663b442f4cf01a9b4abedc0e8585ad53bdfea699c6df82aed9942",
+      "world_bounds": {
+        "min": [
+          0.796967,
+          0.1355,
+          0.0
+        ],
+        "max": [
+          1.017875,
+          0.3545,
+          0.146
+        ]
+      },
+      "material_slots": [
+        "DEBUG cocoa"
+      ]
+    },
+    "HOOF_HIND_R": {
+      "name": "HOOF_HIND_R",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "vertices": 864,
+      "faces": 770,
+      "mesh_sha256": "458d6ad3e73b0aa5855e221c75fb9207335ccb11a909df1d6805d45e2c4e8c2c",
+      "world_bounds": {
+        "min": [
+          0.796967,
+          -0.3545,
+          0.0
+        ],
+        "max": [
+          1.017875,
+          -0.1355,
+          0.146
+        ]
+      },
+      "material_slots": [
+        "DEBUG cocoa"
+      ]
+    }
+  },
+  "eye_metrics": {
+    "visible_aperture_width_H": 0.137,
+    "visible_aperture_height_H": 0.149,
+    "visible_centers_y_H": [
+      -0.162,
+      0.162
+    ],
+    "central_relief_H": 0.013,
+    "edge_relief_H": 0.001,
+    "side_bulge_upper_bound_H": 0.013,
+    "raycast_visible_front": {
+      "L": {
+        "width_H": 0.137,
+        "height_H": 0.1485,
+        "center_y_H": 0.16175,
+        "center_z_H": 0.418
+      },
+      "R": {
+        "width_H": 0.137,
+        "height_H": 0.1485,
+        "center_y_H": -0.16175,
+        "center_z_H": 0.418
+      }
+    },
+    "front_aperture_within_tolerance": true,
+    "side_silhouette_bulge_H": 0
+  },
+  "ear_parameters": {
+    "lateral": 0.3912775457225844,
+    "drop": 0.1271337812989392,
+    "drop_ease": 2.750404664206626,
+    "fore_aft": 0.19,
+    "aft_ease": 1.2878518558065277,
+    "bend": 0.043405340802624676,
+    "root_x": 0.352,
+    "root_y": 0.205,
+    "root_z": 0.566,
+    "root_width": 0.01835412301454148,
+    "body_width": 0.097375968031146,
+    "tip_taper": 0.052271472167409225,
+    "root_cushion": 0.035625000000000004,
+    "body_cushion": 0.07267668696685867,
+    "cushion_taper": 0.36,
+    "root_fullness": 1.4,
+    "mid_fullness": 1.0,
+    "tip_roundness": 0.4,
+    "upper_fullness": 0.9875,
+    "lower_fullness": 0.9812500000000001,
+    "vertical_arch": -0.01960885863878622,
+    "bowl_width": 1.18,
+    "bowl_depth": 0.004,
+    "bowl_coverage": 0.34
+  },
+  "hoof_parameters": {
+    "width": 0.219,
+    "depth": 0.2175,
+    "crown": 0.111,
+    "overlap": 0.035,
+    "upper_taper": 0.7591826908712274,
+    "toe_projection": 0.01428899852161375,
+    "toe_spacing": 0.071,
+    "toe_roundness": 0.017826403884854847,
+    "cleft_depth": 0.023,
+    "cleft_width": 0.007,
+    "heel_fullness": 0.9,
+    "heel_taper": 0.22499999999999992,
+    "sole_curve": 0.009,
+    "front_roundness": 0.019
+  },
+  "numeric_contract": {
+    "ear_front_angle_degrees": 18,
+    "ear_thickness_intent_H": 0.028,
+    "hoof_width_H": 0.219,
+    "hoof_height_H": 0.111,
+    "front_support_x_H": 0.39,
+    "hind_support_x_H": 0.92
+  },
+  "topology": {
+    "EAR_L": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 2352,
+      "faces": 2306
+    },
+    "EAR_R": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 2352,
+      "faces": 2306
+    },
+    "HOOF_FORE_L": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    },
+    "HOOF_FORE_R": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    },
+    "HOOF_HIND_L": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    },
+    "HOOF_HIND_R": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    }
+  },
+  "ear_angle_degrees": 18.0,
+  "hoof_visible_width_H": 0.219,
+  "hoof_visible_crown_H": 0.111,
+  "hoof_full_mesh_height_H": 0.146,
+  "final_disposition": "STALLED_PARAMETERIZATION",
+  "executor_visual_precheck": "REJECTED: ear Front/Side/Top and hoof Top remain visibly unlike localized authority."
+}

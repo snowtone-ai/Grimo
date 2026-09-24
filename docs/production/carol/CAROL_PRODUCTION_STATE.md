@@ -2,6 +2,33 @@
 
 This file is the single mutable Carol execution truth.
 
+## Hero ear, hoof and eye/socket v003 — 2026-09-24
+
+- Local execution branch: `codex/carol-hero-modules-v003`, from v002 HEAD
+  `c85b9ab202c5a9a9c663f246300b225ca47b617a`. The locally supplied
+  `CAROL_HERO_MODULES_AND_EYE_PARAMETERS.md` was preserved and included.
+- Starting asset: `carol-hero-modules-v002.blend`; diagnostic candidate:
+  `assets/grimo/production/carol/blender/carol-hero-modules-v003.blend`.
+  Changed scope: both ears, all four hooves, both eyes, both eyelids. The
+  chassis and all other 31 objects are frozen and verified after save/reload.
+- **Disposition: STALLED_PARAMETERIZATION. Executor visual precheck: REJECTED.
+  Human Geometry Gate: NOT SUBMITTED.** The approved Ear Side/Top and Hoof Top
+  contours remain visibly different. The review page at
+  `docs/production/carol/evidence/hero-modules-v003/review.html` is diagnostic,
+  not a candidate for Human geometry approval.
+- Final normalized Ear Front/Side/Top/3Q IoU:
+  `0.8297 / 0.7553 / 0.7424 / 0.6970`; Front centerline angle `18.0°`.
+  Hoof: `0.9376 / 0.9037 / 0.6083 / 0.7929`; actual width `.219 H`,
+  nominal visible crown `.111 H`.
+- Eye/socket correction: visible Front aperture measured after occlusion
+  `.1370 × .1485 H`, centered at `±.16175 H`; central optical relief `.013 H`;
+  neutral Side eye does not extend beyond the anterior head silhouette.
+  This repairs the measured Front-size regression in an intermediate local
+  trial, but Human eye/identity acceptance remains unevaluated.
+- Next handoff: **CHATGPT_PLANNER — review the v003 diagnostic and choose a
+  new ear/hoof spatial section basis or another bounded probe before another
+  Human Geometry Gate.** Do not treat v003 as production geometry acceptance.
+
 ## Hero ear and hoof modules v002 — 2026-09-24
 
 - Execution branch: `codex/carol-hero-modules-v002`; source is the exact

@@ -1,0 +1,410 @@
+{
+  "rounds": {
+    "ear": [
+      {
+        "round": 1,
+        "group": [
+          "drop_ease",
+          "aft_ease",
+          "vertical_arch"
+        ],
+        "trial": {
+          "front": 0.8541220174310615,
+          "side": 0.6677547467493608,
+          "top": 0.7438028687017286
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8541220174310615,
+          "side": 0.6677547467493608,
+          "top": 0.7438028687017286
+        },
+        "weighted": 0.7576614007804834
+      },
+      {
+        "round": 2,
+        "group": [
+          "lateral",
+          "fore_aft",
+          "bend"
+        ],
+        "trial": {
+          "front": 0.8555436720142603,
+          "side": 0.6887420864299477,
+          "top": 0.7500734645900676
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8555436720142603,
+          "side": 0.6887420864299477,
+          "top": 0.7500734645900676
+        },
+        "weighted": 0.7671900706883362
+      },
+      {
+        "round": 3,
+        "group": [
+          "body_width",
+          "body_cushion",
+          "root_width"
+        ],
+        "trial": {
+          "front": 0.8555317630264097,
+          "side": 0.6966442953020134,
+          "top": 0.7444337598934833
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8555317630264097,
+          "side": 0.6966442953020134,
+          "top": 0.7444337598934833
+        },
+        "weighted": 0.768180623060237
+      },
+      {
+        "round": 4,
+        "group": [
+          "root_cushion",
+          "upper_fullness",
+          "lower_fullness"
+        ],
+        "trial": {
+          "front": 0.8597595473833097,
+          "side": 0.6952203600248293,
+          "top": 0.7444337598934833
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8597595473833097,
+          "side": 0.6952203600248293,
+          "top": 0.7444337598934833
+        },
+        "weighted": 0.7692184874344784
+      },
+      {
+        "round": 5,
+        "group": [
+          "root_fullness",
+          "tip_taper",
+          "tip_roundness"
+        ],
+        "trial": {
+          "front": 0.8697455363419092,
+          "side": 0.7150697461696776,
+          "top": 0.7473799926713082
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8697455363419092,
+          "side": 0.7150697461696776,
+          "top": 0.7473799926713082
+        },
+        "weighted": 0.7804461045821702
+      },
+      {
+        "round": 6,
+        "group": [
+          "drop_ease",
+          "aft_ease",
+          "vertical_arch"
+        ],
+        "trial": {
+          "front": 0.8785799313773546,
+          "side": 0.7109094022949135,
+          "top": 0.7473799926713082
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8785799313773546,
+          "side": 0.7109094022949135,
+          "top": 0.7473799926713082
+        },
+        "weighted": 0.7822119698775107
+      },
+      {
+        "round": 7,
+        "group": [
+          "lateral",
+          "fore_aft",
+          "bend"
+        ],
+        "trial": {
+          "front": 0.8785799313773546,
+          "side": 0.7109094022949135,
+          "top": 0.7473799926713082
+        },
+        "accepted": false,
+        "best": {
+          "front": 0.8785799313773546,
+          "side": 0.7109094022949135,
+          "top": 0.7473799926713082
+        },
+        "weighted": 0.7822119698775107
+      },
+      {
+        "round": 8,
+        "group": [
+          "body_width",
+          "body_cushion",
+          "root_width"
+        ],
+        "trial": {
+          "front": 0.8664752333094041,
+          "side": 0.7207728914626454,
+          "top": 0.7536326176534375
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8664752333094041,
+          "side": 0.7207728914626454,
+          "top": 0.7536326176534375
+        },
+        "weighted": 0.7830836523847162
+      },
+      {
+        "round": 9,
+        "group": [
+          "root_cushion",
+          "upper_fullness",
+          "lower_fullness"
+        ],
+        "trial": {
+          "front": 0.8606658446362515,
+          "side": 0.7328056288478452,
+          "top": 0.7536326176534375
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8606658446362515,
+          "side": 0.7328056288478452,
+          "top": 0.7536326176534375
+        },
+        "weighted": 0.7850834031733491
+      },
+      {
+        "round": 10,
+        "group": [
+          "root_fullness",
+          "tip_taper",
+          "tip_roundness"
+        ],
+        "trial": {
+          "front": 0.8625650665124349,
+          "side": 0.7349277235867905,
+          "top": 0.752306140098011
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8625650665124349,
+          "side": 0.7349277235867905,
+          "top": 0.752306140098011
+        },
+        "weighted": 0.7860906919933887
+      },
+      {
+        "round": 11,
+        "group": [
+          "drop_ease",
+          "aft_ease",
+          "vertical_arch"
+        ],
+        "trial": {
+          "front": 0.8726271554847124,
+          "side": 0.7219788563752118,
+          "top": 0.7553495007132668
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8726271554847124,
+          "side": 0.7219788563752118,
+          "top": 0.7553495007132668
+        },
+        "weighted": 0.7862234373560485
+      },
+      {
+        "round": 12,
+        "group": [
+          "lateral",
+          "fore_aft",
+          "bend"
+        ],
+        "trial": {
+          "front": 0.8724803121161766,
+          "side": 0.741364885861121,
+          "top": 0.746661956905687
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.8724803121161766,
+          "side": 0.741364885861121,
+          "top": 0.746661956905687
+        },
+        "weighted": 0.7901555606263109
+      }
+    ],
+    "hoof": [
+      {
+        "round": 1,
+        "group": [
+          "depth",
+          "heel_taper",
+          "heel_fullness"
+        ],
+        "trial": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6180994574145054
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6180994574145054
+        },
+        "weighted": 0.8125660969505542
+      },
+      {
+        "round": 2,
+        "group": [
+          "toe_projection",
+          "cleft_depth",
+          "toe_spacing"
+        ],
+        "trial": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6180994574145054
+        },
+        "accepted": false,
+        "best": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6180994574145054
+        },
+        "weighted": 0.8125660969505542
+      },
+      {
+        "round": 3,
+        "group": [
+          "upper_taper",
+          "toe_roundness"
+        ],
+        "trial": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "accepted": true,
+        "best": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "weighted": 0.8125845596216572
+      },
+      {
+        "round": 4,
+        "group": [
+          "depth",
+          "heel_taper",
+          "heel_fullness"
+        ],
+        "trial": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "accepted": false,
+        "best": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "weighted": 0.8125845596216572
+      },
+      {
+        "round": 5,
+        "group": [
+          "toe_projection",
+          "cleft_depth",
+          "toe_spacing"
+        ],
+        "trial": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "accepted": false,
+        "best": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "weighted": 0.8125845596216572
+      },
+      {
+        "round": 6,
+        "group": [
+          "upper_taper",
+          "toe_roundness"
+        ],
+        "trial": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "accepted": false,
+        "best": {
+          "front": 0.9198741949977535,
+          "side": 0.8705339691970917,
+          "top": 0.6181609996515159
+        },
+        "weighted": 0.8125845596216572
+      }
+    ]
+  },
+  "stop": {
+    "ear": "ROUND_CEILING",
+    "hoof": "STALLED"
+  },
+  "previous_stages": [
+    {
+      "basis": "v002-style swept section with independent width, cushion and longitudinal controls",
+      "ear_rounds": 5,
+      "hoof_rounds": 3,
+      "ear_best_local_iou": {
+        "front": 0.8159,
+        "side": 0.6703,
+        "top": 0.725
+      },
+      "hoof_best_local_iou": {
+        "front": 0.9203,
+        "side": 0.8685,
+        "top": 0.6183
+      },
+      "stop": "two-round stall"
+    },
+    {
+      "basis": "asymmetric ear cushion and broader hoof toe displacement",
+      "ear_rounds": 8,
+      "hoof_rounds": 6,
+      "ear_best_local_iou": {
+        "front": 0.8519,
+        "side": 0.6824,
+        "top": 0.7438
+      },
+      "hoof_best_local_iou": {
+        "front": 0.9199,
+        "side": 0.8705,
+        "top": 0.6182
+      },
+      "stop": "ear still improving weak view; hoof stalled"
+    }
+  ],
+  "postfit_contract_correction": {
+    "hoof_cleft_depth_H": 0.023,
+    "hoof_toe_spacing_H": 0.071,
+    "reason": "restore detailed local target after proxy optimizer selected visibly weak clefts"
+  },
+  "architecture_diagnosis": "At the 12-round ear ceiling Side remained below .75 in the local projector; the single swept elliptical section could not represent the approved asymmetric Front/Side/Top contours without trading one view against another. No extra local perturbation round was justified. Hoof Top remained near .62 in the local projector because the symmetric loft footprint did not reproduce the approved three-toe silhouette. Final Blender renders and visual overlays govern disposition."
+}
