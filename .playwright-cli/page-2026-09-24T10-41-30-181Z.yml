@@ -1,0 +1,164 @@
+- main [ref=e2]:
+  - generic [ref=e3]: CAROL / LOCAL EXECUTOR DIAGNOSTIC
+  - heading "Hero geometry v003" [level=1] [ref=e4]
+  - generic [ref=e5]: STALLED_PARAMETERIZATION · NOT A HUMAN GEOMETRY PASS
+  - paragraph [ref=e6]: The Front eye opening is preserved and the Side cap is shallow. The ear and hoof still differ visibly from their approved local sheets. This page exposes those differences; it is not a request to approve the current geometry.
+  - navigation [ref=e7]:
+    - link "Integrated Carol" [ref=e8] [cursor=pointer]:
+      - /url: "#integrated"
+    - link "Eye closeups" [ref=e9] [cursor=pointer]:
+      - /url: "#eye"
+    - link "Ear" [ref=e10] [cursor=pointer]:
+      - /url: "#ear"
+    - link "Hoof" [ref=e11] [cursor=pointer]:
+      - /url: "#hoof"
+    - link "Numbers" [ref=e12] [cursor=pointer]:
+      - /url: "#numbers"
+  - generic [ref=e13]:
+    - heading "Integrated Carol" [level=2] [ref=e14]
+    - generic [ref=e15]:
+      - figure "Front" [ref=e16]:
+        - img "Front" [ref=e17]
+      - figure "Side" [ref=e19]:
+        - img "Side" [ref=e20]
+      - figure "3Q Left" [ref=e22]:
+        - img "3Q Left" [ref=e23]
+      - figure "3Q Right" [ref=e25]:
+        - img "3Q Right" [ref=e26]
+  - generic [ref=e28]:
+    - heading "Eye and socket · closeups" [level=2] [ref=e29]
+    - generic [ref=e30]:
+      - figure "Front" [ref=e31]:
+        - img "Front" [ref=e32]
+      - figure "3Q Left" [ref=e34]:
+        - img "3Q Left" [ref=e35]
+      - figure "3Q Right" [ref=e37]:
+        - img "3Q Right" [ref=e38]
+      - figure "Side" [ref=e40]:
+        - img "Side" [ref=e41]
+  - generic [ref=e43]:
+    - heading "Ear · localized authority" [level=2] [ref=e44]
+    - article [ref=e45]:
+      - heading "FRONT · IoU 0.8297" [level=3] [ref=e46]
+      - generic [ref=e47]:
+        - figure "Approved reference" [ref=e48]:
+          - img "Approved reference" [ref=e49]
+        - figure "v003 candidate" [ref=e51]:
+          - img "v003 candidate" [ref=e52]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e54]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e55]
+    - article [ref=e57]:
+      - heading "SIDE · IoU 0.7553" [level=3] [ref=e58]
+      - generic [ref=e59]:
+        - figure "Approved reference" [ref=e60]:
+          - img "Approved reference" [ref=e61]
+        - figure "v003 candidate" [ref=e63]:
+          - img "v003 candidate" [ref=e64]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e66]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e67]
+    - article [ref=e69]:
+      - heading "TOP · IoU 0.7424" [level=3] [ref=e70]
+      - generic [ref=e71]:
+        - figure "Approved reference" [ref=e72]:
+          - img "Approved reference" [ref=e73]
+        - figure "v003 candidate" [ref=e75]:
+          - img "v003 candidate" [ref=e76]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e78]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e79]
+    - article [ref=e81]:
+      - heading "3Q · IoU 0.6970" [level=3] [ref=e82]
+      - generic [ref=e83]:
+        - figure "Approved reference" [ref=e84]:
+          - img "Approved reference" [ref=e85]
+        - figure "v003 candidate" [ref=e87]:
+          - img "v003 candidate" [ref=e88]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e90]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e91]
+  - generic [ref=e93]:
+    - heading "Hoof · localized authority" [level=2] [ref=e94]
+    - article [ref=e95]:
+      - heading "FRONT · IoU 0.9376" [level=3] [ref=e96]
+      - generic [ref=e97]:
+        - figure "Approved reference" [ref=e98]:
+          - img "Approved reference" [ref=e99]
+        - figure "v003 candidate" [ref=e101]:
+          - img "v003 candidate" [ref=e102]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e104]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e105]
+    - article [ref=e107]:
+      - heading "SIDE · IoU 0.9037" [level=3] [ref=e108]
+      - generic [ref=e109]:
+        - figure "Approved reference" [ref=e110]:
+          - img "Approved reference" [ref=e111]
+        - figure "v003 candidate" [ref=e113]:
+          - img "v003 candidate" [ref=e114]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e116]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e117]
+    - article [ref=e119]:
+      - heading "TOP · IoU 0.6083" [level=3] [ref=e120]
+      - generic [ref=e121]:
+        - figure "Approved reference" [ref=e122]:
+          - img "Approved reference" [ref=e123]
+        - figure "v003 candidate" [ref=e125]:
+          - img "v003 candidate" [ref=e126]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e128]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e129]
+    - article [ref=e131]:
+      - heading "3Q · IoU 0.7929" [level=3] [ref=e132]
+      - generic [ref=e133]:
+        - figure "Approved reference" [ref=e134]:
+          - img "Approved reference" [ref=e135]
+        - figure "v003 candidate" [ref=e137]:
+          - img "v003 candidate" [ref=e138]
+        - figure "Reference coral · candidate teal · overlap charcoal" [ref=e140]:
+          - img "Reference coral · candidate teal · overlap charcoal" [ref=e141]
+  - generic [ref=e143]:
+    - heading "Measurements and provenance" [level=2] [ref=e144]
+    - table [ref=e145]:
+      - rowgroup [ref=e146]:
+        - row [ref=e147]:
+          - rowheader "Disposition" [ref=e148]
+          - cell "STALLED_PARAMETERIZATION · executor precheck rejects Human handoff" [ref=e149]
+        - row [ref=e150]:
+          - rowheader "Ear Front / Side / Top / 3Q IoU" [ref=e151]
+          - cell "0.8297 / 0.7553 / 0.7424 / 0.6970" [ref=e152]
+        - row [ref=e153]:
+          - rowheader "Ear front centerline angle" [ref=e154]
+          - cell "18.00° · intended ~18°" [ref=e155]
+        - row [ref=e156]:
+          - rowheader "Hoof Front / Side / Top / 3Q IoU" [ref=e157]
+          - cell "0.9376 / 0.9037 / 0.6083 / 0.7929" [ref=e158]
+        - row [ref=e159]:
+          - rowheader "Hoof width / visible crown" [ref=e160]
+          - cell "0.2190 H / 0.1110 H" [ref=e161]
+        - row [ref=e162]:
+          - rowheader "Visible Front eye aperture" [ref=e163]
+          - cell "0.1370 × 0.1485 H · center Y 0.16175 H" [ref=e164]
+        - row [ref=e165]:
+          - rowheader "Eye relief / Side silhouette bulge" [ref=e166]
+          - cell "0.0130 H / 0.0000 H" [ref=e167]
+        - row [ref=e168]:
+          - rowheader "Convergence" [ref=e169]
+          - cell "Ear 12 final-basis rounds, ROUND_CEILING; Hoof 6 final-basis rounds, STALLED" [ref=e170]
+        - row [ref=e171]:
+          - rowheader "Frozen objects" [ref=e172]
+          - cell "31 unchanged after save/reload" [ref=e173]
+        - row [ref=e174]:
+          - rowheader "Source / candidate SHA-256" [ref=e175]
+          - cell "5731cc9064fec4907e8ed8c95ce8b9ff0b0d097159328588850645ce4394744a / fb9b793d7443e942f0ad118df99bb8703e056ea806815a32f2897581fb33b299" [ref=e176]
+        - row [ref=e177]:
+          - rowheader "Parameter SHA-256" [ref=e178]
+          - cell "b18cbbca19256b824ab62dcf713d0ecedde8b98b586223587e28d4d375f2a9fa" [ref=e179]
+    - paragraph [ref=e180]: Silhouette IoU centers each isolated contour and applies one uniform scale per view. It does not register the artwork to H space. The 3Q panels validate the shared 3D form. The pale hoof helper stub is excluded from the reference mask; Top candidate shows the hoof itself so the unchanged forelimb cannot hide its contour. The integrated images show the true limb attachment. A single stray shading pixel is removed from hoof masks before bounding-box normalization.
+    - paragraph [ref=e181]:
+      - link "Post-reload validation" [ref=e182] [cursor=pointer]:
+        - /url: validation.json
+      - text: ·
+      - link "Per-view fit" [ref=e183] [cursor=pointer]:
+        - /url: fit-metrics.json
+      - text: ·
+      - link "Convergence history" [ref=e184] [cursor=pointer]:
+        - /url: fit-history.json
+      - text: ·
+      - link "Diagnostic notes" [ref=e185] [cursor=pointer]:
+        - /url: README.md

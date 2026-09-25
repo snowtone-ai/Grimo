@@ -1,0 +1,71 @@
+00:06.765  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\carol\blender\carol-hero-modules-v003.blend"
+{
+  "topology": {
+    "EAR_L": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 2352,
+      "faces": 2306
+    },
+    "EAR_R": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 2352,
+      "faces": 2306
+    },
+    "HOOF_FORE_L": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    },
+    "HOOF_FORE_R": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    },
+    "HOOF_HIND_L": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    },
+    "HOOF_HIND_R": {
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_components": 1,
+      "vertices": 864,
+      "faces": 770
+    }
+  },
+  "eye": {
+    "visible_aperture_width_H": 0.137,
+    "visible_aperture_height_H": 0.149,
+    "visible_centers_y_H": [
+      -0.162,
+      0.162
+    ],
+    "central_relief_H": 0.013,
+    "edge_relief_H": 0.001,
+    "side_bulge_upper_bound_H": 0.013,
+    "raycast_visible_front": {
+      "L": {
+        "width_H": 0.137,
+        "height_H": 0.1485,
+        "center_y_H": 0.16175,
+        "center_z_H": 0.418
+      },
+      "R": {
+        "width_H": 0.137,
+        "height_H": 0.1485,
+        "center_y_H": -0.16175,
+        "center_z_H": 0.418
+      }
+    },
+    "front_aperture_within_tolerance": true,
+    "side_silhouette_bulge_H": 0
+  }
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
