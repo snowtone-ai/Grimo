@@ -1,0 +1,103 @@
+{
+  "source": "assets/grimo/production/carol/blender/carol-face-ear-authority-match-v001.blend",
+  "source_sha256": "73b3839f2c17f990d3b713cded48004987c35b56d1003e04203ade73aa0f661b",
+  "saved_asset_sha256": "fc291fd337d751c9aba025f7d589374da737927e76f271c5c99df3a35994c024",
+  "changed_geometry_objects": [
+    "CENTRAL_CHASSIS",
+    "FORE_L",
+    "FORE_R",
+    "HIND_L",
+    "HIND_R",
+    "HOOF_FORE_L",
+    "HOOF_FORE_R",
+    "HOOF_HIND_L",
+    "HOOF_HIND_R"
+  ],
+  "max_forehead_advance_H": 0.025,
+  "underbody_material": "DEBUG warm skin",
+  "rear_body_control_vertices_unchanged": true,
+  "mesh_checks": {
+    "HIND_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.009177578087783153,
+      "outward_normals": true,
+      "evaluated_vertices": 1762
+    },
+    "HOOF_HIND_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.000642143219610823,
+      "outward_normals": true,
+      "evaluated_vertices": 13058
+    },
+    "HIND_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.00917757801544301,
+      "outward_normals": true,
+      "evaluated_vertices": 1762
+    },
+    "CENTRAL_CHASSIS": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.15135483759215876,
+      "outward_normals": true,
+      "evaluated_vertices": 8498
+    },
+    "FORE_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008549382924708207,
+      "outward_normals": true,
+      "evaluated_vertices": 1762
+    },
+    "HOOF_FORE_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.000642143149131893,
+      "outward_normals": true,
+      "evaluated_vertices": 13058
+    },
+    "HOOF_FORE_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.000642143149243934,
+      "outward_normals": true,
+      "evaluated_vertices": 13058
+    },
+    "FORE_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008549382909292429,
+      "outward_normals": true,
+      "evaluated_vertices": 1762
+    },
+    "HOOF_HIND_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.0006421432201261129,
+      "outward_normals": true,
+      "evaluated_vertices": 13058
+    }
+  },
+  "authority_hashes": {
+    "assets/grimo/source/carol/carol-Identity-canonical.png": "63DB4EBAD028D770FC5548D50BA1E57B5C20D6A006810EC542BBB046CB4347CE",
+    "assets/grimo/source/carol/approved-3d/carol_front.png": "164A646FBB2F335029E875A09EE4C337F52D8A09F650437420A6F1F83E024197",
+    "assets/grimo/source/carol/approved-3d/carol_side.png": "9484B7AC49B9D53A517E7F05AF6CA4F67F8CC8907CFBFEDFFE6D51CDA2D829B8",
+    "assets/grimo/source/carol/approved-3d/carol_skin_front.png": "C5041D3FFFF56824E9B6A010A036A87EE19C0A09BD55B7273E4518474A2454BD",
+    "assets/grimo/source/carol/approved-3d/carol_skin_side.png": "FB31CDEC48C95B194FD45ABB6F4A8F2F4D7B7D08355D9DD116023765C24DE64C",
+    "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md": "656C1C512017FC548D7F5DFABF66085FD1085A95BD739BBEFB7922F568D3B048",
+    "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png": "F10D6AAD9201DA6030798050AFF5F057A76EE5F0645A1E231186D5798FB58384"
+  },
+  "human_skin_approval": "PENDING"
+}
