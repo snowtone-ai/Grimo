@@ -1,0 +1,173 @@
+{
+  "source_commit": "0d6f26a9554639d780f626d2466c48c23e2d9f06",
+  "source_asset": "assets/grimo/production/carol/blender/carol-skin-final-v001.blend",
+  "source_sha256": "fc291fd337d751c9aba025f7d589374da737927e76f271c5c99df3a35994c024",
+  "saved_asset_sha256": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a",
+  "head_vertical_scale": 1.06,
+  "head_pivot_Z_H": 0.45,
+  "head_lift_H": 0.027,
+  "eye_band_additional_vertical_scale": 0.06,
+  "ear_rigid_lift_H": 0.03473999999999999,
+  "ear_meshes_unchanged": true,
+  "torso_controls_379_onward_unchanged": true,
+  "limbs_hooves_tail_geometry_unchanged": true,
+  "eye_bounds_before": {
+    "EYE_L": {
+      "min": [
+        0.07580316811800003,
+        0.09344548732042313,
+        0.3375000059604645
+      ],
+      "max": [
+        0.20578636229038239,
+        0.2305545061826706,
+        0.48649999499320984
+      ]
+    },
+    "EYE_R": {
+      "min": [
+        0.07554305344820023,
+        -0.2305545061826706,
+        0.3375000059604645
+      ],
+      "max": [
+        0.20578612387180328,
+        -0.09344548732042313,
+        0.48649999499320984
+      ]
+    }
+  },
+  "eye_bounds_after": {
+    "EYE_L": {
+      "min": [
+        0.07580316811800003,
+        0.09344548732042313,
+        0.3532800078392029
+      ],
+      "max": [
+        0.20578636229038239,
+        0.2305545061826706,
+        0.5201600193977356
+      ]
+    },
+    "EYE_R": {
+      "min": [
+        0.07554305344820023,
+        -0.2305545061826706,
+        0.3532800078392029
+      ],
+      "max": [
+        0.20578612387180328,
+        -0.09344548732042313,
+        0.5201600193977356
+      ]
+    }
+  },
+  "eye_surface_clearance_before": {
+    "EYE_L": {
+      "min_signed_H": -0.0010782754980027676,
+      "max_signed_H": 0.01312169898301363
+    },
+    "EYE_R": {
+      "min_signed_H": -0.0010133631294593215,
+      "max_signed_H": 0.01312590017914772
+    }
+  },
+  "eye_surface_clearance_after": {
+    "EYE_L": {
+      "min_signed_H": -0.0010782165918499231,
+      "max_signed_H": 0.013122092001140118
+    },
+    "EYE_R": {
+      "min_signed_H": -0.0010134171461686492,
+      "max_signed_H": 0.013126296922564507
+    }
+  },
+  "body_linear_rgba": [
+    0.96,
+    0.8,
+    0.72,
+    1
+  ],
+  "face_linear_rgba": [
+    0.96,
+    0.82,
+    0.74,
+    1
+  ],
+  "skin_emission_strength": 0.16,
+  "world_gray_linear": 1.05,
+  "exposure_unchanged": -1.2,
+  "studio_light_watts": {
+    "key": 220,
+    "fill": 180,
+    "low fill": 100,
+    "rim": 170
+  },
+  "changed_objects": [
+    "CENTRAL_CHASSIS",
+    "DEBUG_CHEEK_L",
+    "DEBUG_CHEEK_R",
+    "DEBUG_EAR_ROOT_L",
+    "DEBUG_EAR_ROOT_R",
+    "DEBUG_FOREHEAD",
+    "DEBUG_HEAD_PIVOT",
+    "EAR_L",
+    "EAR_R",
+    "EYELID_L",
+    "EYELID_R",
+    "EYE_L",
+    "EYE_R",
+    "MOUTH_closed",
+    "NOSE",
+    "PHILTRUM"
+  ],
+  "mesh_checks": {
+    "CENTRAL_CHASSIS": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.15829864184743517,
+      "outward_normals": true,
+      "evaluated_vertices": 8498
+    },
+    "EAR_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008247574927495765,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    },
+    "EAR_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008247574898170414,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    }
+  },
+  "ear_root_checks": {
+    "L": {
+      "inside_head": true,
+      "surface_distance_H": 0.009471651166677475
+    },
+    "R": {
+      "inside_head": true,
+      "surface_distance_H": 0.009471647441387177
+    }
+  },
+  "authority_hashes": {
+    "assets/grimo/source/carol/carol-Identity-canonical.png": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce",
+    "assets/grimo/source/carol/approved-3d/carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "assets/grimo/source/carol/approved-3d/carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "assets/grimo/source/carol/approved-3d/carol_skin_front.png": "c5041d3ffff56824e9b6a010a036a87ee19c0a09bd55b7273e4518474a2454bd",
+    "assets/grimo/source/carol/approved-3d/carol_skin_side.png": "fb31cdec48c95b194fd45abb6f4a8f2f4d7b7d08355d9dd116023765c24de64c",
+    "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md": "656c1c512017fc548d7f5dfabf66085fd1085a95bd739bbefb7922f568d3b048",
+    "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png": "f10d6aad9201da6030798050aff5f057a76ee5f0645a1e231186d5798fb58384"
+  },
+  "packed_eye_pigment": true,
+  "save_reload_validated": true,
+  "human_skin_approval": "PENDING"
+}
