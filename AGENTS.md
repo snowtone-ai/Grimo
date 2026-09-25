@@ -17,7 +17,7 @@ For Carol, `docs/production/carol/CAROL_PRODUCTION_STATE.md` is the single mutab
 - Preserve all local and uncommitted user work. Never reset, clean, overwrite, or discard it without explicit direction.
 - Current explicit user decisions and canonical/approved references outrank stale implementation history. Read only the authority relevant to the task.
 - Production methods are flexible. Tooling, model choice, topology and rig strategy, testing, workflow order, and intermediate architecture may change when evidence supports a better route.
-- Make the minimum sufficient change. Avoid unrelated refactors, ritual verification, and work with no material product benefit.
+- Choose the scope and process that best achieve the requested outcome. Avoid unrelated work, but do not stop at a minimum patch when the task requires final-quality convergence. Diagnosis, decomposition, implementation strategy, tooling, iteration, and validation are executor-owned unless an explicit higher authority or external constraint says otherwise.
 - Validate proportionally to changed risk. Visible identity, cuteness, naturalness, and companion quality need Human perceptual acceptance.
 - Commit and push focused, requested changes; do not alter application behavior, secrets, user data, or unrelated assets.
 
