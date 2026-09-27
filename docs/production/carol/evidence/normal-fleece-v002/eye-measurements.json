@@ -1,0 +1,73 @@
+{
+  "method": "Alpha >128 outline; dark eye silhouette max RGB <125 and min RGB <85 in separate eye ROIs. Normalize by full character height, retaining aspect ratio. Pixel/antialias uncertainty about one pixel.",
+  "authority": {
+    "outline_bbox_px": [
+      38,
+      149,
+      1222,
+      1161
+    ],
+    "eyes": [
+      {
+        "bbox_px": [
+          419,
+          673,
+          557,
+          824
+        ],
+        "width_over_height": 0.13636363636363635,
+        "height_over_height": 0.1492094861660079
+      },
+      {
+        "bbox_px": [
+          745,
+          673,
+          883,
+          824
+        ],
+        "width_over_height": 0.13636363636363635,
+        "height_over_height": 0.1492094861660079
+      }
+    ]
+  },
+  "candidate": {
+    "outline_bbox_px": [
+      63,
+      124,
+      938,
+      892
+    ],
+    "eyes": [
+      {
+        "bbox_px": [
+          321,
+          515,
+          424,
+          631
+        ],
+        "width_over_height": 0.13411458333333334,
+        "height_over_height": 0.15104166666666666
+      },
+      {
+        "bbox_px": [
+          576,
+          515,
+          680,
+          631
+        ],
+        "width_over_height": 0.13541666666666666,
+        "height_over_height": 0.15104166666666666
+      }
+    ]
+  },
+  "relative_error_percent": [
+    {
+      "width_over_height": -1.649305555555547,
+      "height_over_height": 1.2279249448123641
+    },
+    {
+      "width_over_height": -0.694444444444442,
+      "height_over_height": 1.2279249448123641
+    }
+  ]
+}

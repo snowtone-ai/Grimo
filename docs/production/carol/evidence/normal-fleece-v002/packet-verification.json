@@ -1,0 +1,29 @@
+{
+  "result": "PASS_TECHNICAL_PACKET_ONLY",
+  "asset_sha256": "24d2cb5be9ee8f7261106f4927204b6fc8f332d876907efd2b049a29dfc0b3dc",
+  "human_review": "PENDING",
+  "motion_deformation_runtime_device": "NOT_PERFORMED",
+  "evidence_sha256": {
+    "01-authority-comparison.jpg": "d61769c500b078a5cd47f28cc3d7af48a6e8e0e8b69cedf20ac2f504cb94916f",
+    "02-spatial-review.jpg": "b3b5c361b931622619752a1f9ad365d3e0dfd878c33b17cf07b375255007313f",
+    "03-surface-review.jpg": "09761b89637b17a9929ae7da9189099925789f750b1430c605f8a6cb826d63ab",
+    "04-small-scale-review.jpg": "539dca2716f11b0ee53b3291366450ce0e465f5b836b87c514322ea614098363",
+    "3q.png": "5169e467901262619a786550509c1fe9160eb89cfa44a649353dc5a6ac967d7e",
+    "front.png": "4b164972181ccff53aa0924b5963a008c79286fcd35a8dd0aa440d5b264933a4",
+    "opposite_side.png": "51cc93682c42da709175496b852ce6042fe6b614f56ed4aae9ed56f25c2f2ff6",
+    "rear.png": "acc5ee1819f228026e6d6f0d27fd57ec05be68f48e2796e8869e65503e31c577",
+    "side.png": "58b350cd74bc31836fa087afd8524c4b1db35e1c43d4ec7b53cce70c225f8cb9",
+    "top.png": "380bd0c514e14f488e5fc63c3406914faa08a637370ed1e174a058aaf6c8d52a"
+  },
+  "source_sha256": {
+    "scripts/blender/build-carol-normal-fleece-v001.py": "1ac0fe05b9e8a3a08f5a7d288282f7c2616be67587327aec1fbcd60d4063ea41",
+    "scripts/blender/build-carol-normal-fleece-v002.py": "490d242e4767a642dba3a95acf5697c37a7f1bfeb5a5116d0c5de6749c066958",
+    "scripts/blender/audit-carol-normal-fleece-v002.py": "0d39b69c6dd7ab517e39b6c19c7788b5aa5cd0baf68eaf382d63e7276ada6076",
+    "scripts/blender/measure-carol-normal-fleece-v002.py": "982825d6486a929628cfe9a611719bcc614c417095a6108eb13f9b18e188295a",
+    "scripts/blender/compose-carol-normal-fleece-v002.py": "83f643c2f279c7fc10e8d7fb7c828991ef4887b9f1086625f4639239f417e47f",
+    "scripts/blender/verify-carol-normal-fleece-v002.py": "fa09880d84ec00906c4e5c352cebb69930b69d64eadcabe964b01effeb0ead3f",
+    "assets/grimo/source/carol/approved-3d/carol_front.png": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+    "assets/grimo/source/carol/approved-3d/carol_side.png": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+    "assets/grimo/source/carol/third-party/savino-star/star.obj": "0ebcc051ca22b502df833008407a4a8f3553d8a8ee5b8d56490d461a52106080"
+  }
+}

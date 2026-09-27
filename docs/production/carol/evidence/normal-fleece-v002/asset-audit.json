@@ -1,0 +1,207 @@
+{
+  "asset": "assets/grimo/production/carol/blender/carol-normal-fleece-v002.blend",
+  "sha256": "24d2cb5be9ee8f7261106f4927204b6fc8f332d876907efd2b049a29dfc0b3dc",
+  "accepted_skin_sha256": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a",
+  "verified_starting_pushed_commit": "091487fb842b9698cb09e753a7e029b18482e9fa",
+  "v001_human_review": "FAIL",
+  "v002_human_review": "PENDING",
+  "phase1_state": "NORMAL_FLEECE_V002_AWAITING_HUMAN_REVIEW",
+  "motion_gate": "NOT_PERFORMED",
+  "deformation_gate": "NOT_PERFORMED",
+  "runtime_gate": "NOT_PERFORMED",
+  "device_gate": "NOT_PERFORMED",
+  "third_party_source": "Savino Star, CC0; imported outline rounded and rebuilt with convex caps",
+  "eye_dimensions_evidence": "eye-measurements.json",
+  "camera_conditioned_geometry": false,
+  "compositing": false,
+  "render": {
+    "engine": "CYCLES",
+    "samples": 48,
+    "view_transform": "Standard",
+    "exposure": -0.8500000238418579
+  },
+  "owners": {
+    "FLEECE_HEAD_OWNER": [
+      "STAR_crown_anchor",
+      "STAR_crown",
+      "STAR_crown_glint",
+      "STAR_brow_anchor",
+      "STAR_brow",
+      "STAR_brow_glint",
+      "STAR_upper_left_anchor",
+      "STAR_upper_left",
+      "STAR_upper_left_glint",
+      "MOON_anchor",
+      "MOON",
+      "FLEECE_HEAD_SURFACE"
+    ],
+    "FLEECE_TORSO_OWNER": [
+      "STAR_chest_anchor",
+      "STAR_chest",
+      "STAR_chest_glint",
+      "STAR_lower_left_anchor",
+      "STAR_lower_left",
+      "STAR_lower_left_glint",
+      "STAR_rump_anchor",
+      "STAR_rump",
+      "STAR_rump_glint",
+      "STAR_rump_L_anchor",
+      "STAR_rump_L",
+      "STAR_rump_L_glint",
+      "fleece_front",
+      "pocket_front_L",
+      "pocket_front_R",
+      "gift_reveal",
+      "FLEECE_TORSO_SURFACE"
+    ],
+    "TAIL_PIVOT": [
+      "SKIN_TAIL_CORE",
+      "TAIL_FLEECE_SHELL"
+    ]
+  },
+  "anchors": {
+    "fleece_front": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "world_position": [
+        0.13999998569488525,
+        0.0,
+        0.22499999403953552
+      ]
+    },
+    "pocket_front_L": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "world_position": [
+        0.13999998569488525,
+        0.20000000298023224,
+        0.26499998569488525
+      ]
+    },
+    "pocket_front_R": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "world_position": [
+        0.13999998569488525,
+        -0.20000000298023224,
+        0.26499998569488525
+      ]
+    },
+    "gift_reveal": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "world_position": [
+        0.13999998569488525,
+        0.0,
+        0.24500000476837158
+      ]
+    }
+  },
+  "hooves": [
+    {
+      "name": "HOOF_FORE_L",
+      "vertices": 3746,
+      "construction": "Single tapered brown solid; two localized distal incisions; continuous proximal body. Visible silhouette requires Human review."
+    },
+    {
+      "name": "HOOF_HIND_L",
+      "vertices": 3746,
+      "construction": "Single tapered brown solid; two localized distal incisions; continuous proximal body. Visible silhouette requires Human review."
+    },
+    {
+      "name": "HOOF_FORE_R",
+      "vertices": 3746,
+      "construction": "Single tapered brown solid; two localized distal incisions; continuous proximal body. Visible silhouette requires Human review."
+    },
+    {
+      "name": "HOOF_HIND_R",
+      "vertices": 3746,
+      "construction": "Single tapered brown solid; two localized distal incisions; continuous proximal body. Visible silhouette requires Human review."
+    }
+  ],
+  "non_finite_vertices": 0,
+  "regional_masks": {
+    "FLEECE_TORSO_SURFACE": [
+      "touch_L",
+      "touch_R",
+      "crown",
+      "face_frame",
+      "chest_front",
+      "central_back",
+      "rump",
+      "lower_belly"
+    ],
+    "FLEECE_HEAD_SURFACE": [
+      "touch_L",
+      "touch_R",
+      "crown",
+      "face_frame",
+      "chest_front",
+      "central_back",
+      "rump",
+      "lower_belly"
+    ]
+  },
+  "external_images": [
+    {
+      "name": "carol_front.png",
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_front.png",
+      "packed": false
+    },
+    {
+      "name": "carol_side.png",
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_side.png",
+      "packed": false
+    },
+    {
+      "name": "carol_skin_front.png",
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_skin_front.png",
+      "packed": false
+    },
+    {
+      "name": "carol_skin_side.png",
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_skin_side.png",
+      "packed": false
+    },
+    {
+      "name": "eye-authority-pigment.png",
+      "path": "//carol-approved-eye-pigment.png",
+      "packed": true
+    }
+  ],
+  "fleece_channels": {
+    "FLEECE_TORSO_SURFACE": [
+      "Basis",
+      "Local_contact_L",
+      "Local_contact_R",
+      "Face_opening_corrective"
+    ],
+    "FLEECE_HEAD_SURFACE": [
+      "Basis",
+      "Local_contact_L",
+      "Local_contact_R",
+      "Face_opening_corrective"
+    ],
+    "TAIL_FLEECE_SHELL": [
+      "Basis",
+      "Local_contact_compress"
+    ]
+  },
+  "neutral_fleece_values": {
+    "FLEECE_TORSO_SURFACE": {
+      "Local_contact_L": 0.0,
+      "Local_contact_R": 0.0,
+      "Face_opening_corrective": 0.0
+    },
+    "FLEECE_HEAD_SURFACE": {
+      "Local_contact_L": 0.0,
+      "Local_contact_R": 0.0,
+      "Face_opening_corrective": 0.0
+    },
+    "TAIL_FLEECE_SHELL": {
+      "Local_contact_compress": 0.0
+    }
+  },
+  "limitations": [
+    "No finished production rig or head-turn collision validation.",
+    "Local channels preserve authoring affordances, not completed motion.",
+    "Procedural material is Blender authoring material; runtime appearance unvalidated.",
+    "Human perceptual approval remains outstanding."
+  ]
+}
