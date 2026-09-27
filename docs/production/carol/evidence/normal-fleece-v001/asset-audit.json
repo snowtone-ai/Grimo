@@ -1,0 +1,795 @@
+{
+  "asset": "assets\\grimo\\production\\carol\\blender\\carol-normal-fleece-v001.blend",
+  "sha256": "07aba3a510c6460acab471cb52ce74902e8d3a6ca8501626dd9ddd1d035dd83f",
+  "baseline_sha256": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a",
+  "accepted_skin_vertex_geometry_unchanged": {
+    "CENTRAL_CHASSIS": false,
+    "EYE_L": true,
+    "EYE_R": true,
+    "EYELID_L": true,
+    "EYELID_R": true,
+    "EAR_L": true,
+    "EAR_R": true,
+    "FORE_L": true,
+    "FORE_R": true,
+    "HIND_L": true,
+    "HIND_R": true,
+    "SKIN_TAIL_CORE": true,
+    "NOSE": true
+  },
+  "hoof_change": "Existing three-toe modules enlarged to Normal visible authority, same planted support centers; applies to both visibility modes in this candidate. Original accepted Skin file unmodified.",
+  "bounds_H": [
+    [
+      -0.0034551015123724937,
+      1.2590959072113037
+    ],
+    [
+      -0.5687623023986816,
+      0.5687623023986816
+    ],
+    [
+      4.414851719047874e-05,
+      0.9843071103096008
+    ]
+  ],
+  "evaluated_mesh_triangles": 569260,
+  "objects": [
+    {
+      "name": "FORE_L",
+      "vertices": 112,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "HOOF_FORE_L",
+      "vertices": 864,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "HIND_L",
+      "vertices": 112,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "HOOF_HIND_L",
+      "vertices": 864,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "EAR_L",
+      "vertices": 2280,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "FORE_R",
+      "vertices": 112,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "HOOF_FORE_R",
+      "vertices": 864,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "HIND_R",
+      "vertices": 112,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "HOOF_HIND_R",
+      "vertices": 864,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "EAR_R",
+      "vertices": 2280,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "SKIN_TAIL_CORE",
+      "vertices": 108,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "CENTRAL_CHASSIS",
+      "vertices": 533,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "EYE_L",
+      "vertices": 1537,
+      "non_manifold_edges": 96,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "EYELID_L",
+      "vertices": 384,
+      "non_manifold_edges": 192,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "EYE_R",
+      "vertices": 1537,
+      "non_manifold_edges": 96,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "EYELID_R",
+      "vertices": 384,
+      "non_manifold_edges": 192,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "STAR_crown",
+      "vertices": 1282,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "STAR_brow",
+      "vertices": 1282,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "STAR_chest",
+      "vertices": 1282,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "STAR_lower_left",
+      "vertices": 1282,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "STAR_rump",
+      "vertices": 1282,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "STAR_rump_L",
+      "vertices": 1282,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "NOSE",
+      "vertices": 922,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0
+    },
+    {
+      "name": "FL_Crown_apex",
+      "vertices": 4170,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "crown",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Crown_front",
+      "vertices": 3281,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "crown",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Crown_depth_bridge",
+      "vertices": 3620,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "crown",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Brow_center",
+      "vertices": 2089,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Brow_L",
+      "vertices": 2226,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Brow_R",
+      "vertices": 2363,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Chest_center",
+      "vertices": 2019,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "chest_front",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Back_dorsal",
+      "vertices": 6896,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "central_back",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Rump_center",
+      "vertices": 7145,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "rump",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Belly_center",
+      "vertices": 4416,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "lower_belly",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Crown_bank_R",
+      "vertices": 4021,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "crown",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Upper_flank_R",
+      "vertices": 5133,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "central_back",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Temple_bank_R",
+      "vertices": 3427,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Outer_brow_R",
+      "vertices": 1460,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Cheek_upper_R",
+      "vertices": 580,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Cheek_lower_R",
+      "vertices": 770,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Chest_wing_R",
+      "vertices": 2242,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "chest_front",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Lower_flank_R",
+      "vertices": 3014,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "lower_belly",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Belly_wrap_R",
+      "vertices": 1592,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "lower_belly",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Side_major_R",
+      "vertices": 5103,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "rump",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Side_bridge_R",
+      "vertices": 2191,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "central_back",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Rump_upper_R",
+      "vertices": 3195,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "rump",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Rump_lower_R",
+      "vertices": 2199,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "rump",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Crown_bank_L",
+      "vertices": 3647,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "crown",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Upper_flank_L",
+      "vertices": 5366,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "central_back",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Temple_bank_L",
+      "vertices": 2991,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Outer_brow_L",
+      "vertices": 1551,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Cheek_upper_L",
+      "vertices": 541,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Cheek_lower_L",
+      "vertices": 780,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "face_frame",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Chest_wing_L",
+      "vertices": 2467,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "chest_front",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress",
+        "Face_opening_corrective"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Lower_flank_L",
+      "vertices": 2992,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "lower_belly",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Belly_wrap_L",
+      "vertices": 1538,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "lower_belly",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Side_major_L",
+      "vertices": 5060,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "rump",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Side_bridge_L",
+      "vertices": 2500,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "central_back",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Rump_upper_L",
+      "vertices": 3767,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "rump",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Rump_lower_L",
+      "vertices": 2146,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "rump",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "FL_Crown_inner_transition",
+      "vertices": 8698,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "crown",
+      "owner": "head",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_HEAD_OWNER"
+    },
+    {
+      "name": "FL_Torso_inner_transition",
+      "vertices": 10995,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "central_back",
+      "owner": "torso",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "FLEECE_TORSO_OWNER"
+    },
+    {
+      "name": "TAIL_FLEECE_SHELL",
+      "vertices": 908,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "tail",
+      "owner": "tail",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "TAIL_PIVOT"
+    },
+    {
+      "name": "TAIL_FLEECE_ATTACHMENT",
+      "vertices": 1427,
+      "non_manifold_edges": 0,
+      "non_finite_vertices": 0,
+      "region": "tail",
+      "owner": "tail",
+      "shape_keys": [
+        "Basis",
+        "Local_contact_compress"
+      ],
+      "parent": "TAIL_PIVOT"
+    }
+  ],
+  "drivers": 0,
+  "camera_conditioned_geometry": false,
+  "human_approval": false,
+  "diagnostic_scope": "Neutral views, local contact and opening shape samples, independent tail. No full rig, animated motion, runtime, or Human deformation gate claimed.",
+  "skin_geometry_diffs": {
+    "CENTRAL_CHASSIS": {
+      "changed_vertices": 55,
+      "max_displacement_H": 0.06407142451972227,
+      "changed_baseline_bounds": [
+        [
+          0.46028417348861694,
+          1.0429999828338623
+        ],
+        [
+          -0.28635114431381226,
+          0.28635114431381226
+        ],
+        [
+          0.08900000154972076,
+          0.2280000001192093
+        ]
+      ]
+    },
+    "EYE_L": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "EYE_R": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "EYELID_L": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "EYELID_R": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "EAR_L": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "EAR_R": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "FORE_L": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "FORE_R": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "HIND_L": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "HIND_R": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "SKIN_TAIL_CORE": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    },
+    "NOSE": {
+      "changed_vertices": 0,
+      "max_displacement_H": 0,
+      "changed_baseline_bounds": null
+    }
+  },
+  "hidden_abdomen_change": "Only underside behind X=.46 and below Z=.23 tucked inside fleece to eliminate visible bare belly band; accepted Skin source untouched."
+}
