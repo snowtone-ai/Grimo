@@ -4,13 +4,13 @@ This file is the mutable Carol execution routing source.
 
 ## Current state — 2026-09-29
 
-- Branch: `codex/carol-skin-ear-correction-v001`. Verify exact HEAD in Git.
-- State: **`SKIN_EAR_CORRECTION_V001_AWAITING_HUMAN_REVIEW`**; ear-only candidate, not a new accepted Skin or completion of the Skin phase.
-- Candidate: `assets/grimo/production/carol/blender/carol-skin-ear-correction-v001.blend`.
-- Evidence and reproduction: `docs/production/carol/evidence/skin-ear-correction-v001/README.md`.
-- Explicit current scope: locally correct accepted Skin ears only. Candidate changes `EAR_L` and `EAR_R` vertex coordinates; head, face, eyes, torso, limbs, hooves and tail are retained. No Normal/Fleece construction was performed.
-- Accepted Skin remains `carol-skin-final-v002.blend` with the SHA256 below. The ear candidate is not promoted without Human perceptual acceptance.
-- Next minimal task: Human review of identical-camera Front/Side/front-weighted 3Q and ear Side/Top comparisons. Assess broad/soft/droop, root attachment and inner-ear end shape. Rig/deformation and future fleece integration remain unverified.
+- Branch: `codex/carol-skin-default-v003`. Verify exact HEAD in Git.
+- **`DEFAULT_BASELINE = PROMOTED`**: the working 3D Skin source is `assets/grimo/production/carol/blender/carol-skin-default-v003.blend`.
+- **`EAR_VISUAL_HUMAN_REVIEW = PENDING`**. This routing decision does not grant an ear, motion, deformation, runtime or full-character Human PASS.
+- Composition: saved v004 internal Skin geometry and materials, with `EAR_L` and `EAR_R` transplanted from and refined beyond `carol-skin-ear-correction-v001.blend`. The saved v004 lower-chin chassis correction and its Skin material emission settings are inherited. All 19 retained non-ear Skin structures match v004; external Fleece, Fleece backing, ornaments and atmosphere are excluded. The v004 Fleece was used only for temporary occlusion renders and was not edited.
+- Evidence, technical checks and reproduction: `docs/production/carol/evidence/skin-default-v003/README.md`.
+- Historical fallback: `carol-skin-final-v002.blend` remains intact, SHA256 `321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a`. The v001 ear candidate remains provenance, not the current default.
+- Next Human decision: review the ear authority, old/current/new and v004 Fleece occlusion boards. Decide whether the refined ear identity is visually approved or needs another local ear pass. Do not infer approval from this default promotion.
 
 ## Preserved Normal/Fleece checkpoint — 2026-09-28
 
@@ -31,7 +31,7 @@ This file is the mutable Carol execution routing source.
 
 ## Preserved authority and scope
 
-- Accepted Skin remains `assets/grimo/production/carol/blender/carol-skin-final-v002.blend`, SHA256 `321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a`. That source file is unchanged. Candidate-only face, ear and hoof changes do not constitute a new accepted Skin asset.
+- The former v002 Skin source remains preserved at `assets/grimo/production/carol/blender/carol-skin-final-v002.blend`, SHA256 `321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a`. It is historical fallback and provenance; the working Skin default is v003 above.
 - Current visible authority remains canonical identity and approved Normal Front/Side; approved Skin Front/Side and the active ear module are supporting authority. See `assets/grimo/source/carol/approved-3d/authority.json`.
 - v004-41 starts from the saved Normal/Fleece v002 scene (hash recorded in `anatomy-construction.json`), not by regenerating Skin or reusing the inflated v004-33 guide. Candidate-only lower chassis and regional wool edits do not change accepted Skin authority. Historical `snowtone-ai/grimoire` remains a visual-quality/method donor, not a compulsory recipe.
 - Front has the highest perceptual priority, alongside believable oblique anatomy. The restored ear span and hoof proportions must not be compressed merely to improve silhouette overlap. Collar integration, lobe hierarchy and semantic form refinement remain open.

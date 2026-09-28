@@ -1,0 +1,44 @@
+{
+  "asset": "assets/grimo/production/carol/blender/carol-skin-default-v003.blend",
+  "saved_reopened": true,
+  "non_ear_skin_objects_identical_to_v004": 19,
+  "non_ear_differences": [],
+  "non_ear_material_node_trees_identical_to_v004": true,
+  "ear_checks": {
+    "EAR_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.011433278654671598,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    },
+    "EAR_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.011433278618850453,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    }
+  },
+  "root_checks": {
+    "EAR_L": {
+      "inside_head": true,
+      "surface_distance_H": 0.0527305081486702
+    },
+    "EAR_R": {
+      "inside_head": true,
+      "surface_distance_H": 0.0527305081486702
+    }
+  },
+  "bilateral_max_mirror_error_H": 0.0,
+  "finite_skin_geometry": true,
+  "visible_geometry_exact_skin_subset": true,
+  "source_sha256_unchanged": {
+    "v004": true,
+    "ear_v001": true,
+    "skin_v002": true
+  },
+  "technical_checks_pass": true
+}
