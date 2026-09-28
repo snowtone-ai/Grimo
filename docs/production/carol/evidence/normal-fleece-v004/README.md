@@ -109,6 +109,8 @@ Trials 38-40 are archived in `artifacts/carol-fleece-v004/iteration-history/`.
 the torso, but the head's outer width still equaled the torso. 40 reduces that
 peripheral head mass while preserving the face aperture. 41 adds an internal
 head backing and lowers the body scale pivot to reduce exposed scalp/leg gaps.
+`iterations/33/spatial.png` is retained as the historical multi-view board for
+the Human-rejected v004-33 checkpoint; it is not active production evidence.
 
 ## Remaining Work
 
