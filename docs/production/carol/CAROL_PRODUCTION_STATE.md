@@ -2,7 +2,17 @@
 
 This file is the mutable Carol execution routing source.
 
-## Current state — 2026-09-28
+## Current state — 2026-09-29
+
+- Branch: `codex/carol-skin-ear-correction-v001`. Verify exact HEAD in Git.
+- State: **`SKIN_EAR_CORRECTION_V001_AWAITING_HUMAN_REVIEW`**; ear-only candidate, not a new accepted Skin or completion of the Skin phase.
+- Candidate: `assets/grimo/production/carol/blender/carol-skin-ear-correction-v001.blend`.
+- Evidence and reproduction: `docs/production/carol/evidence/skin-ear-correction-v001/README.md`.
+- Explicit current scope: locally correct accepted Skin ears only. Candidate changes `EAR_L` and `EAR_R` vertex coordinates; head, face, eyes, torso, limbs, hooves and tail are retained. No Normal/Fleece construction was performed.
+- Accepted Skin remains `carol-skin-final-v002.blend` with the SHA256 below. The ear candidate is not promoted without Human perceptual acceptance.
+- Next minimal task: Human review of identical-camera Front/Side/front-weighted 3Q and ear Side/Top comparisons. Assess broad/soft/droop, root attachment and inner-ear end shape. Rig/deformation and future fleece integration remain unverified.
+
+## Preserved Normal/Fleece checkpoint — 2026-09-28
 
 - Branch: `codex/carol-normal-fleece-v004`. Verify exact HEAD in Git.
 - State: **`NORMAL_FLEECE_V004_IN_PROGRESS`**.
@@ -29,6 +39,6 @@ This file is the mutable Carol execution routing source.
 - The existing Human ornament exception remains in force; it does not waive other visual requirements.
 - **No Human, motion, deformation, runtime or device PASS. Phase 2 has not started.** No rigging, animation clips, GLB/runtime/device acceptance, merge or PR was performed.
 
-## Next handoff
+## Preserved Normal/Fleece handoff (not the current task)
 
 Continue from v004-41's head/neck/body proportion study, not the rejected v004-33 construction. Compare with checkpoint 37 at identical camera scale using `iterations/41/neck-comparison.jpg`; equal-height normalization would conceal part of the requested reduction. Use the evidence README's explicit flags. Review Front, both front-quarter directions, Side, Rear and Top together. Keep the head mantle smaller than the body, behind the nose, and the lower collar rooted at the neck. Ear-root continuity, bead-like cheek wool, collar/foreleg transitions and charm mounting remain unresolved. The new head backing has no local contact shape keys; do not infer deformation readiness. Resolve known defects before changing the state to awaiting Human review. Historical evidence remains historical, not an active candidate.

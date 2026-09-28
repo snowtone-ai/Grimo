@@ -1,0 +1,1166 @@
+{
+  "source": "assets\\grimo\\production\\carol\\blender\\carol-skin-final-v002.blend",
+  "source_sha256": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a",
+  "candidate": "assets\\grimo\\production\\carol\\blender\\carol-skin-ear-correction-v001.blend",
+  "candidate_sha256": "ede33b88f0c07ff53ff8c1288153fa0b8779ff710fae61e5388dee28c2dc501c",
+  "changed_objects": [
+    "EAR_L",
+    "EAR_R"
+  ],
+  "unchanged_object_count": 39,
+  "unchanged_object_snapshots": {
+    "CAM front": {
+      "matrix": [
+        -0.0,
+        -0.0,
+        -1.0,
+        -4.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "CAM side": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.65,
+        0.0,
+        -2e-07,
+        -1.0,
+        -4.0,
+        0.0,
+        1.0,
+        -2e-07,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "CENTRAL_CHASSIS": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "64b83cff5914f235e870e23b1381200457b15a3b0972aeb0c07f8ea231d460ef",
+      "counts": [
+        533,
+        531
+      ],
+      "materials": [
+        "DEBUG warm skin",
+        "Carol cream and soft cheek blush"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "DEBUG_CHEEK_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.09,
+        0.0,
+        1.0,
+        0.0,
+        0.25,
+        0.0,
+        0.0,
+        1.0,
+        0.33368,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_CHEEK_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.09,
+        0.0,
+        1.0,
+        0.0,
+        -0.25,
+        0.0,
+        0.0,
+        1.0,
+        0.33368,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_COM": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.63,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.255,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_EAR_ROOT_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.386,
+        0.0,
+        1.0,
+        0.0,
+        0.235,
+        0.0,
+        0.0,
+        1.0,
+        0.61374,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_EAR_ROOT_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.386,
+        0.0,
+        1.0,
+        0.0,
+        -0.235,
+        0.0,
+        0.0,
+        1.0,
+        0.61374,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_FORE_SUPPORT_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.39,
+        0.0,
+        1.0,
+        0.0,
+        0.145,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_FORE_SUPPORT_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.39,
+        0.0,
+        1.0,
+        0.0,
+        -0.145,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_FOREHEAD": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.09,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.571704,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_HEAD_PIVOT": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.41,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.38968,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_HIND_SUPPORT_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.92,
+        0.0,
+        1.0,
+        0.0,
+        0.245,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "DEBUG_HIND_SUPPORT_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.92,
+        0.0,
+        1.0,
+        0.0,
+        -0.245,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "EYE_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "876816ba62137ce8d9b226befecbab9c9ca367f6288fe1d9473446700affdce8",
+      "counts": [
+        1537,
+        1536
+      ],
+      "materials": [
+        "Carol approved eye pigment"
+      ],
+      "parent": null,
+      "modifiers": []
+    },
+    "EYE_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "5f828aaf5aacfe31bd5aee6e4de175bb76b105a0e61d852ed7c8261812a69681",
+      "counts": [
+        1537,
+        1536
+      ],
+      "materials": [
+        "Carol approved eye pigment"
+      ],
+      "parent": null,
+      "modifiers": []
+    },
+    "EYELID_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "8d36e97ac470b8b51674ab8e16a2eab5835950439ea585452d7bd556be33b6c3",
+      "counts": [
+        384,
+        288
+      ],
+      "materials": [
+        "Carol cream and soft cheek blush",
+        "Carol fine umber eyelid"
+      ],
+      "parent": null,
+      "modifiers": []
+    },
+    "EYELID_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "5d6ecdcb9416e0e4968551d2cd7794f846e2dc648c3800ced1362e106c957136",
+      "counts": [
+        384,
+        288
+      ],
+      "materials": [
+        "Carol cream and soft cheek blush",
+        "Carol fine umber eyelid"
+      ],
+      "parent": null,
+      "modifiers": []
+    },
+    "fill": {
+      "matrix": [
+        -0.7682213,
+        0.242713,
+        -0.5923905,
+        -2.0,
+        -0.6401844,
+        -0.2912556,
+        0.7108685,
+        3.0,
+        0.0,
+        0.9253435,
+        0.3791299,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "FORE_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "d4d27b690dfa7abdf9c8d909884c93cdd109f1c51abce92d625c3f24def4964a",
+      "counts": [
+        112,
+        110
+      ],
+      "materials": [
+        "DEBUG warm skin"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "FORE_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "c984f164adc9e692b9fc1efe0c790c7f14ae6737dd1dcebfecdf3e07663f1b4a",
+      "counts": [
+        112,
+        110
+      ],
+      "materials": [
+        "DEBUG warm skin"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "HIND_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "9a9867b674801ce77a745876c5cba1bb4178fd38d8a8c32597228832b33f6053",
+      "counts": [
+        112,
+        110
+      ],
+      "materials": [
+        "DEBUG warm skin"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "HIND_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "24bfb9705284220921286048144e0a79e77d4cd3c1226cbcd4c0da2d99938bfc",
+      "counts": [
+        112,
+        110
+      ],
+      "materials": [
+        "DEBUG warm skin"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "HOOF_FORE_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e776fe5a419da42bc9e8936dc5a3fb078262634f973a90e96c9d24bf70d714a7",
+      "counts": [
+        864,
+        770
+      ],
+      "materials": [
+        "DEBUG cocoa"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "HOOF_FORE_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "971a19359698b3b075afa7e57e34fa0810924a88fcc0bf9805ad7e69cff6cc62",
+      "counts": [
+        864,
+        770
+      ],
+      "materials": [
+        "DEBUG cocoa"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "HOOF_HIND_L": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "f961ff269b5aad87ddab421a94383568f3319202f0b1bcb8de4e82369a6f3b08",
+      "counts": [
+        864,
+        770
+      ],
+      "materials": [
+        "DEBUG cocoa"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "HOOF_HIND_R": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "524dc2347c2fdbaac0556f226436b279ad76d84433393250da08e0dc3e416f2e",
+      "counts": [
+        864,
+        770
+      ],
+      "materials": [
+        "DEBUG cocoa"
+      ],
+      "parent": null,
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "key": {
+      "matrix": [
+        0.7525768,
+        0.4309324,
+        -0.4979212,
+        -3.0,
+        -0.6585045,
+        0.4924943,
+        -0.5690529,
+        -4.0,
+        -0.0,
+        0.7561393,
+        0.6544107,
+        5.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "low fill": {
+      "matrix": [
+        1e-07,
+        -0.0570498,
+        -0.9983714,
+        -3.0,
+        -1.0,
+        -1e-07,
+        -1e-07,
+        0.0,
+        -1e-07,
+        0.9983714,
+        -0.0570498,
+        0.2,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "MOUTH_closed": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "ae7235053a58606eed12d21633081b84df8dc06b0f76c6b66edd6f2376958100",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "NOSE": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0094649,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.378,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "d3c509c571dde0426944b4b8b40613a3010f4196135d6d75ef0206fb588634d0",
+      "counts": [
+        922,
+        960
+      ],
+      "materials": [
+        "Carol chocolate nose"
+      ],
+      "parent": null,
+      "modifiers": []
+    },
+    "PHILTRUM": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "47129c25215a2a0abd9768c2ed05864ec308716e233fa0f4a30fe0dc26128f16",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "REFERENCE carol_front.png": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "REFERENCE carol_side.png": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "REFERENCE carol_skin_front.png": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "REFERENCE carol_skin_side.png": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "rim": {
+      "matrix": [
+        -0.0,
+        -0.8213699,
+        0.5703958,
+        3.0,
+        1.0,
+        -1e-07,
+        -1e-07,
+        0.0,
+        1e-07,
+        0.5703958,
+        0.8213699,
+        4.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    },
+    "SKIN_TAIL_CORE": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "c803a7ed343224469ed8809d48cf7d5842048838131be0b69604e9820f5ca61a",
+      "counts": [
+        108,
+        106
+      ],
+      "materials": [
+        "DEBUG warm skin"
+      ],
+      "parent": "TAIL_PIVOT",
+      "modifiers": [
+        [
+          "Editable Catmull-Clark surface",
+          "SUBSURF"
+        ]
+      ]
+    },
+    "TAIL_PIVOT": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.985,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.355,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh_and_shape_keys": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "counts": null,
+      "materials": [],
+      "parent": null,
+      "modifiers": []
+    }
+  },
+  "topology_material_slots_transforms_retained": true,
+  "before_ear_checks": {
+    "EAR_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008247574898170414,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    },
+    "EAR_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.008247574927495765,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    }
+  },
+  "after_ear_checks": {
+    "EAR_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.010429858463632768,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    },
+    "EAR_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.010429858557676846,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    }
+  },
+  "root_checks": {
+    "EAR_L": {
+      "inside_head": true,
+      "surface_distance_H": 0.031442828476428986
+    },
+    "EAR_R": {
+      "inside_head": true,
+      "surface_distance_H": 0.03144283592700958
+    }
+  },
+  "save_reload_verified": true,
+  "human_acceptance": "PENDING; ear-only candidate, not accepted Skin replacement",
+  "rigging": "No rig or shape keys added; deformation readiness unverified"
+}
