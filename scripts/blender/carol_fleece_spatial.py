@@ -391,12 +391,29 @@ def anatomical_displacement(points, region):
         cheek=np.exp(-((abs(y)-.29)/.075)**4-((z-.40)/.17)**4-((x-.24)/.13)**4)
         delta[:,0]+=.024*cheek
         delta[:,1]-=np.sign(y)*.012*cheek
+        # A smaller head mantle sits in front of the larger thoracic fleece.
+        upper=np.clip((z-.56)/.24,0,1)
+        upper=upper*upper*(3-2*upper)
+        delta[:,0]+=.065-.14*x
+        delta[:,1]-=.13*y*upper
+        delta[:,1]-=.45*np.sign(y)*np.maximum(abs(y)-.30,0)
+        delta[:,2]-=.34*np.maximum(z-.60,0)
     if region=='BodyFleece':
         bib=np.exp(-((x-.18)/.19)**4-(y/.30)**4-((z-.205)/.085)**4)
         delta[:,0]+=.030*bib
         delta[:,2]+=.014*bib
         shoulder=np.exp(-((x-.55)/.20)**4-((z-.44)/.15)**4)
         delta[:,1]-=np.sign(y)*.020*shoulder*np.clip((abs(y)-.27)/.15,0,1)
+        # The low front wool belongs to the neck, not to the jaw or muzzle.
+        collar=np.exp(-((x-.22)/.23)**4)
+        delta[:,0]+=.055*collar
+        delta[:,1]-=.06*y*collar
+        delta[:,2]+=.020*collar*np.clip((.18-z)/.12,0,1)
+        neck=np.exp(-((x-.48)/.18)**2)
+        delta[:,1]-=.12*y*neck
+        delta[:,2]-=.085*np.maximum(z-.48,0)*neck
+        sculpted=points+delta
+        delta[:]=np.array([.74,0,.06])+(sculpted-np.array([.74,0,.06]))*np.array([.94,.93,.94])-points
     if region=='CENTRAL_CHASSIS':
         under_chin=np.clip((.255-z)/.085,0,1)*np.exp(-((x-.22)/.23)**4)
         delta[:,0]+=.090*under_chin
@@ -421,6 +438,33 @@ def sculpt_anatomy(ob):
             'mean_displacement':float(np.linalg.norm(delta,axis=1).mean()),
             'bounds_before':[points.min(axis=0).tolist(),points.max(axis=0).tolist()],
             'bounds_after':[(points+delta).min(axis=0).tolist(),(points+delta).max(axis=0).tolist()]}
+
+
+def head_backing(api):
+    """A quiet inner mantle bridges locks without enlarging the exterior."""
+    from mathutils.kdtree import KDTree
+    head=bpy.data.objects['HeadFleece']
+    tree=KDTree(len(head.data.vertices))
+    for vertex in head.data.vertices:tree.insert(head.matrix_world@vertex.co,vertex.index)
+    tree.balance()
+    bpy.ops.mesh.primitive_uv_sphere_add(segments=64,ring_count=40)
+    ob=bpy.context.object;ob.name='HeadFleeceBacking'
+    center=np.array([.39,0,.67]);radii=np.array([.235,.27,.16])
+    for vertex in ob.data.vertices:vertex.co=Vector(center+np.array(vertex.co)*radii)
+    ob.data.update()
+    colors=[]
+    pigment=head.data.color_attributes['WoolPigment']
+    for vertex in ob.data.vertices:
+        _,index,_=tree.find(vertex.co)
+        linear=np.clip(np.array(pigment.data[index].color[:3]),0,1)
+        colors.append(np.where(linear<=.0031308,linear*12.92,1.055*linear**(1/2.4)-.055))
+    continuous_pigment(ob,[],api,base_colors=colors)
+    for polygon in ob.data.polygons:polygon.use_smooth=True
+    group=ob.vertex_groups.new(name='head');group.add(list(range(len(ob.data.vertices))),1,'REPLACE')
+    ob['motion_owner']='head';ob['construction']='Inner scalp mantle within the smaller head lock envelope'
+    api['parent_keep'](ob,head.parent)
+    return {'center':center.tolist(),'radii':radii.tolist(),'purpose':'Bridge exposed scalp between reduced locks; no enlarged outer bounds',
+            'deformation':'Not validated; backing is head-owned but has no local contact shape keys'}
 
 
 def anatomical_base(api):
@@ -451,13 +495,15 @@ def anatomical_base(api):
             for node in mat.node_tree.nodes:
                 if node.type=='EMISSION':node.inputs['Strength'].default_value=1.0
     if '--sculpt-anatomy' in api['ARGS']:
+        report['head_backing']=head_backing(api)
         report['regions']['CENTRAL_CHASSIS']=sculpt_anatomy(bpy.data.objects['CENTRAL_CHASSIS'])
-        for name in ['STAR_chest','STAR_lower_left']:
+        for name in ['STAR_chest','STAR_lower_left','STAR_rump','STAR_rump_L','STAR_brow','STAR_crown','STAR_upper_left','MOON']:
             ob=bpy.data.objects.get(name)
             if ob:
-                # Charms retain their rigid shape while following the bib.
+                # Charms retain their rigid shape while following their mantle.
                 center=np.mean([ob.matrix_world@v.co for v in ob.data.vertices],axis=0)
-                shift=anatomical_displacement(center[None,:],'BodyFleece')[0]
+                region='BodyFleece' if name in ['STAR_chest','STAR_lower_left','STAR_rump','STAR_rump_L'] else 'HeadFleece'
+                shift=anatomical_displacement(center[None,:],region)[0]
                 for piece in [ob,bpy.data.objects.get(name+'_glint')]:
                     if piece is not None:
                         matrix=piece.matrix_world.copy();matrix.translation+=Vector(shift)

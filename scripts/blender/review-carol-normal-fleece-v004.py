@@ -84,8 +84,36 @@ def main():
     product.save(FOLDER/'product-scale.png')
     if '--anatomy-comparison' in sys.argv:
         anatomy_comparison()
+    if '--neck-comparison' in sys.argv:
+        neck_comparison()
     (FOLDER/'geometry-measurements.json').write_text(json.dumps(measurements,indent=2),encoding='utf-8')
     print(json.dumps(measurements))
+
+
+def neck_comparison():
+    """Keep identical camera scale so a smaller mantle is not normalized away."""
+    views=['front','yaw+45','yaw+90','top']
+    board=Image.new('RGB',(1600,880),'white')
+    sources=[]
+    baseline=json.loads((OUT/'iterations/37/render-manifest.json').read_text())
+    for row,(label,folder) in enumerate([('CHECKPOINT 37',OUT/'iterations/37'),('CURRENT / IN PROGRESS',FOLDER)]):
+        manifest=json.loads((folder/'render-manifest.json').read_text())
+        for col,view in enumerate(views):
+            path=folder/f'{view}.png'
+            digest=hashlib.sha256(path.read_bytes()).hexdigest()
+            assert digest==manifest['views'][view]['sha256'],f'Stale comparison source: {path}'
+            for key in ['camera_matrix','ortho_scale','size']:
+                assert manifest['views'][view][key]==baseline['views'][view][key],f'Comparison camera/size changed: {view}/{key}'
+            im=Image.open(path).convert('RGBA').resize((400,400),Image.Resampling.LANCZOS)
+            if view=='yaw+90':im=im.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+            board.paste(im,(col*400,row*440+35),im)
+            ImageDraw.Draw(board).text((col*400+10,row*440+8),label+' / '+view,font=FONT,fill='#303036')
+            sources.append({'path':path.relative_to(ROOT).as_posix(),'sha256':digest,
+                            'asset_sha256':manifest['asset_sha256'],'display_mirrored':view=='yaw+90'})
+    board.save(FOLDER/'neck-comparison.jpg',quality=94)
+    (FOLDER/'neck-comparison-sources.json').write_text(json.dumps({
+        'display':'Uncropped equal-size renders with unchanged review cameras; no per-character size normalization',
+        'sources':sources},indent=2),encoding='utf-8')
 
 
 def anatomy_comparison():

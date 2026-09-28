@@ -674,9 +674,9 @@ def render():
     if '--quick' in ARGS:sc.render.resolution_percentage=55;sc.cycles.samples=12
     if '--clay' in ARGS:
         mat=shader('Diagnostic diffuse clay',lit=1,color=(.78,.78,.78))
-        for name in ['BodyFleece','HeadFleece','TailFleece']:
-            ob=bpy.data.objects.get(name)
-            if ob:ob.data.materials.clear();ob.data.materials.append(mat)
+        for ob in sc.objects:
+            if ob.type=='MESH' and 'Fleece' in ob.name:
+                ob.data.materials.clear();ob.data.materials.append(mat)
         sc.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.35
         bpy.data.objects['Key'].data.energy=180
     manifest={'asset_sha256':sha(ASSET),'generator_hashes':json.loads(sc.get('generator_hashes','{}')),'diagnostic_clay':'--clay' in ARGS,'views':{}}

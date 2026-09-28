@@ -3,8 +3,8 @@
   "source_sha256": "24d2cb5be9ee8f7261106f4927204b6fc8f332d876907efd2b049a29dfc0b3dc",
   "regions": {
     "HeadFleece": {
-      "max_displacement": 0.026831578463315964,
-      "mean_displacement": 0.0017278188606724143,
+      "max_displacement": 0.135887011885643,
+      "mean_displacement": 0.0671912133693695,
       "bounds_before": [
         [
           -0.043759193271398544,
@@ -19,20 +19,20 @@
       ],
       "bounds_after": [
         [
-          -0.043759193271398544,
-          -0.5339346528053284,
+          0.027367088943719864,
+          -0.42864471673965454,
           0.2220292091369629
         ],
         [
-          0.7290169596672058,
-          0.5579128265380859,
-          0.9993696808815002
+          0.6919546127319336,
+          0.44185206294059753,
+          0.8635839819908142
         ]
       ]
     },
     "BodyFleece": {
-      "max_displacement": 0.03310573846101761,
-      "mean_displacement": 0.0026410447899252176,
+      "max_displacement": 0.11694353073835373,
+      "mean_displacement": 0.053797122091054916,
       "bounds_before": [
         [
           0.09577930718660355,
@@ -47,14 +47,14 @@
       ],
       "bounds_after": [
         [
-          0.11993753165006638,
-          -0.5487331748008728,
-          0.05286260321736336
+          0.2046341896057129,
+          -0.5085756182670593,
+          0.07161226123571396
         ],
         [
-          1.244638204574585,
-          0.5487331748008728,
-          0.998188853263855
+          1.2143598794937134,
+          0.5085756778717041,
+          0.909616231918335
         ]
       ]
     },
@@ -116,5 +116,19 @@
     }
   },
   "method": "Anatomical base with local smooth sculpt fields, no image outline fitting",
-  "human_acceptance": false
+  "human_acceptance": false,
+  "head_backing": {
+    "center": [
+      0.39,
+      0.0,
+      0.67
+    ],
+    "radii": [
+      0.235,
+      0.27,
+      0.16
+    ],
+    "purpose": "Bridge exposed scalp between reduced locks; no enlarged outer bounds",
+    "deformation": "Not validated; backing is head-owned but has no local contact shape keys"
+  }
 }

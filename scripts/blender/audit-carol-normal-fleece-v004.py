@@ -4,6 +4,8 @@ import bmesh
 import json
 import math
 import hashlib
+import sys
+import numpy as np
 from pathlib import Path
 from mathutils import Vector
 from mathutils.bvhtree import BVHTree
@@ -16,6 +18,68 @@ EXPECTED='321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a'
 
 
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def anatomical_contract(report):
+    """Geometric guards for the current neck/mantle revision, not visual approval."""
+    sys.path.insert(0,str(Path(__file__).resolve().parent))
+    from carol_fleece_spatial import anatomical_displacement
+    meshes=report['meshes']
+    head=meshes['HeadFleece']['bounds'];body=meshes['BodyFleece']['bounds']
+    nose=meshes['NOSE']['bounds']
+    backing=meshes.get('HeadFleeceBacking')
+    grid=np.stack(np.meshgrid(np.linspace(-.1,1.3,35),np.linspace(-.6,.6,33),
+                            np.linspace(0,1.05,31),indexing='ij'),axis=-1).reshape(-1,3)
+    checks={'head_fleece_behind_nose':head[0][0]>=nose[0][0],
+            'nose_to_fleece_clearance':head[0][0]-nose[0][0],
+            'head_crown_below_body_crown':head[1][2]<body[1][2],
+            'head_mantle_narrower_than_body':head[1][1]-head[0][1]<body[1][1]-body[0][1],
+            'fields':{}}
+    checks['backing_inside_head_bounds']=backing is None or bool(
+        np.all(np.array(backing['bounds'][0])>=np.array(head[0])) and
+        np.all(np.array(backing['bounds'][1])<=np.array(head[1])) and
+        backing['owner']==meshes['HeadFleece']['owner'])
+    mirrored=grid*np.array([1,-1,1])
+    step=1e-5
+    for region in ['HeadFleece','BodyFleece','CENTRAL_CHASSIS']:
+        delta=anatomical_displacement(grid,region)
+        jacobian=np.broadcast_to(np.eye(3),(len(grid),3,3)).copy()
+        for axis in range(3):
+            offset=np.eye(3)[axis]*step
+            jacobian[:,:,axis]+=(anatomical_displacement(grid+offset,region)-
+                                anatomical_displacement(grid-offset,region))/(2*step)
+        entry={'finite':bool(np.isfinite(delta).all()),
+               'bilaterally_symmetric':bool(np.allclose(anatomical_displacement(mirrored,region),delta*np.array([1,-1,1]))),
+               'minimum_sampled_jacobian':float(np.linalg.det(jacobian).min())}
+        checks['fields'][region]=entry
+    checks['pass']=bool(checks['head_fleece_behind_nose'] and checks['head_crown_below_body_crown'] and checks['head_mantle_narrower_than_body'] and checks['backing_inside_head_bounds'] and
+        all(e['finite'] and e['bilaterally_symmetric'] and e['minimum_sampled_jacobian']>0 for e in checks['fields'].values()))
+    checks['limitation']='Sampled neutral geometry only; does not establish attachment, visual appeal or deformation acceptance.'
+    return checks
+
+
+def source_preservation(source):
+    protected={ob.name:(np.array([v.co[:] for v in ob.data.vertices]),np.array(ob.matrix_world))
+               for ob in bpy.context.scene.objects if ob.type=='MESH' and
+               ob.name.startswith(('EAR_','EYE_','EYELID_','HOOF_','FORE_','HIND_','NOSE','MOUTH'))}
+    mapping={'HeadFleece':'FLEECE_HEAD_SURFACE','BodyFleece':'FLEECE_TORSO_SURFACE'}
+    def key_deltas(ob):
+        keys=ob.data.shape_keys.key_blocks
+        basis=np.array([v.co[:] for v in keys[0].data])
+        return {k.name:np.array([v.co[:] for v in k.data])-basis for k in list(keys)[1:]}
+    current={new:key_deltas(bpy.data.objects[new]) for new in mapping}
+    bpy.ops.wm.open_mainfile(filepath=str(source))
+    result={'protected_meshes':{},'shape_key_deltas':{}}
+    for name,(vertices,matrix) in protected.items():
+        ob=bpy.data.objects[name]
+        result['protected_meshes'][name]=bool(np.array_equal(vertices,np.array([v.co[:] for v in ob.data.vertices])) and
+                                             np.allclose(matrix,np.array(ob.matrix_world),rtol=0,atol=1e-7))
+    for new,old in mapping.items():
+        original=key_deltas(bpy.data.objects[old])
+        result['shape_key_deltas'][new]=bool(current[new].keys()==original.keys() and
+            all(np.allclose(current[new][k],original[k],rtol=0,atol=2e-7) for k in original))
+    result['pass']=all(result['protected_meshes'].values()) and all(result['shape_key_deltas'].values())
+    return result
 
 
 def main():
@@ -86,6 +150,10 @@ def main():
     report['technical_checks_pass']=bool(report['accepted_skin_source_unchanged'] and report['all_authorities_match'] and report['non_finite_vertices']==0 and report['all_images_embedded'] and report['fleece_closed_and_nondegenerate'] and report['generator_matches_saved_asset'] and report['ornament_glint_owners_match'])
     if 'anatomy_source' in report:
         report['technical_checks_pass'] &= report['anatomy_source']['matches_saved_asset']
+        report['anatomical_contract']=anatomical_contract(report)
+        report['technical_checks_pass'] &= report['anatomical_contract']['pass']
+        report['source_preservation']=source_preservation(source)
+        report['technical_checks_pass'] &= report['source_preservation']['pass']
     (OUT/'asset-audit.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps({k:report[k] for k in ['sha256','technical_checks_pass','non_finite_vertices','state']}))
     assert report['technical_checks_pass']

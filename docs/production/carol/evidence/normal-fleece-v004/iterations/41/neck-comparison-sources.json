@@ -1,0 +1,53 @@
+{
+  "display": "Uncropped equal-size renders with unchanged review cameras; no per-character size normalization",
+  "sources": [
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/37/front.png",
+      "sha256": "2fe374b09078b77587038189157bfa3389d12c1eef459d19c98cbc23ddea9a75",
+      "asset_sha256": "c5903e810d17b46f1223664b5275683ffdf2a2b20995635fc378e0c58cc0eeec",
+      "display_mirrored": false
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/37/yaw+45.png",
+      "sha256": "8f5489c4e6679ac1dae3ca02e5c3a8b30c8cb6013041ac8fb99d937db5fb6e34",
+      "asset_sha256": "c5903e810d17b46f1223664b5275683ffdf2a2b20995635fc378e0c58cc0eeec",
+      "display_mirrored": false
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/37/yaw+90.png",
+      "sha256": "bf682b923d58758c1f6763ffb9af8d78c29fb476a8363681263ebedcd5cb1a35",
+      "asset_sha256": "c5903e810d17b46f1223664b5275683ffdf2a2b20995635fc378e0c58cc0eeec",
+      "display_mirrored": true
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/37/top.png",
+      "sha256": "159318dd16c7bfcc8f44ab88a9b4c43330aed5b5e277f393ea55e909aa421e7b",
+      "asset_sha256": "c5903e810d17b46f1223664b5275683ffdf2a2b20995635fc378e0c58cc0eeec",
+      "display_mirrored": false
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/41/front.png",
+      "sha256": "b63c5e68bd0e06ca293d2a3f79a09aa1fbfd252b237f3d2102a7e7b5c089d327",
+      "asset_sha256": "a73426d8483e5431e60bc5949b96506c447928682ad92ead6af3cbd1d1092420",
+      "display_mirrored": false
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/41/yaw+45.png",
+      "sha256": "47f499490d00737569d6aeb58e49a013fd0032df03f5fe2c7bee880ad3cf633d",
+      "asset_sha256": "a73426d8483e5431e60bc5949b96506c447928682ad92ead6af3cbd1d1092420",
+      "display_mirrored": false
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/41/yaw+90.png",
+      "sha256": "8c429cad9fc7a1ae6225af969ff6d6b948e75a30da248cc8ee83060947ae2a6f",
+      "asset_sha256": "a73426d8483e5431e60bc5949b96506c447928682ad92ead6af3cbd1d1092420",
+      "display_mirrored": true
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/41/top.png",
+      "sha256": "75698ba4a250093cd038fae5a81ade6286d701070b6640797df1f3a7efb478a5",
+      "asset_sha256": "a73426d8483e5431e60bc5949b96506c447928682ad92ead6af3cbd1d1092420",
+      "display_mirrored": false
+    }
+  ]
+}
