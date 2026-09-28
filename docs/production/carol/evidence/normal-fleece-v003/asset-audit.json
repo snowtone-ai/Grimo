@@ -1,0 +1,343 @@
+{
+  "asset": "assets/grimo/production/carol/blender/carol-normal-fleece-v003.blend",
+  "sha256": "190a71ab4871f7e8e9a8f5cdc7ad694c4029929a5afa82341812cab0434af667",
+  "accepted_skin_sha256": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a",
+  "accepted_skin_unchanged": true,
+  "starting_pushed_commit": "ab8ce236055df5ab6d8c81039aed73bd961cf843",
+  "v002_human_review": "FAIL",
+  "v003_human_review": "PENDING",
+  "phase1_state": "NORMAL_FLEECE_V003_GEOMETRY_FAILED",
+  "geometry_attempt": 3,
+  "appearance_pass": 0,
+  "non_finite_vertices": 0,
+  "owners": {
+    "FLEECE_HEAD_OWNER": [
+      "STAR_upper_left_glint",
+      "STAR_upper_left",
+      "STAR_crown_glint",
+      "STAR_crown",
+      "STAR_brow_glint",
+      "STAR_brow",
+      "MOON",
+      "FLEECE_HEAD_SURFACE"
+    ],
+    "FLEECE_TORSO_OWNER": [
+      "STAR_rump_L_glint",
+      "STAR_rump_L",
+      "STAR_rump_glint",
+      "STAR_rump",
+      "STAR_lower_left_glint",
+      "STAR_lower_left",
+      "STAR_chest_glint",
+      "STAR_chest",
+      "FLEECE_TORSO_SURFACE",
+      "fleece_front",
+      "pocket_front_L",
+      "pocket_front_R",
+      "gift_reveal"
+    ],
+    "TAIL_PIVOT": [
+      "SKIN_TAIL_CORE",
+      "TAIL_FLEECE_SHELL"
+    ]
+  },
+  "meshes": {
+    "FORE_L": {
+      "vertices": 112,
+      "groups": [
+        "DISTAL",
+        "SHORT_TAPER",
+        "BURIED_PROXIMAL"
+      ]
+    },
+    "HIND_L": {
+      "vertices": 112,
+      "groups": [
+        "DISTAL",
+        "SHORT_TAPER",
+        "BURIED_PROXIMAL"
+      ]
+    },
+    "EAR_L": {
+      "vertices": 2280,
+      "groups": []
+    },
+    "FORE_R": {
+      "vertices": 112,
+      "groups": [
+        "DISTAL",
+        "SHORT_TAPER",
+        "BURIED_PROXIMAL"
+      ]
+    },
+    "HIND_R": {
+      "vertices": 112,
+      "groups": [
+        "DISTAL",
+        "SHORT_TAPER",
+        "BURIED_PROXIMAL"
+      ]
+    },
+    "EAR_R": {
+      "vertices": 2280,
+      "groups": []
+    },
+    "SKIN_TAIL_CORE": {
+      "vertices": 108,
+      "groups": [
+        "tuft"
+      ]
+    },
+    "CENTRAL_CHASSIS": {
+      "vertices": 533,
+      "groups": [
+        "HEAD",
+        "FACE",
+        "FOREHEAD",
+        "LOWER_CHEEK",
+        "NECK_TRANSITION",
+        "CHEST",
+        "ABDOMEN",
+        "RUMP"
+      ]
+    },
+    "STAR_upper_left_glint": {
+      "vertices": 4,
+      "groups": []
+    },
+    "STAR_upper_left": {
+      "vertices": 1282,
+      "groups": []
+    },
+    "STAR_rump_L_glint": {
+      "vertices": 4,
+      "groups": []
+    },
+    "STAR_rump_L": {
+      "vertices": 1282,
+      "groups": []
+    },
+    "STAR_rump_glint": {
+      "vertices": 4,
+      "groups": []
+    },
+    "STAR_rump": {
+      "vertices": 1282,
+      "groups": []
+    },
+    "STAR_lower_left_glint": {
+      "vertices": 4,
+      "groups": []
+    },
+    "STAR_lower_left": {
+      "vertices": 1282,
+      "groups": []
+    },
+    "STAR_crown_glint": {
+      "vertices": 4,
+      "groups": []
+    },
+    "STAR_crown": {
+      "vertices": 1282,
+      "groups": []
+    },
+    "STAR_chest_glint": {
+      "vertices": 4,
+      "groups": []
+    },
+    "STAR_chest": {
+      "vertices": 1282,
+      "groups": []
+    },
+    "STAR_brow_glint": {
+      "vertices": 4,
+      "groups": []
+    },
+    "STAR_brow": {
+      "vertices": 1282,
+      "groups": []
+    },
+    "MOON": {
+      "vertices": 3104,
+      "groups": []
+    },
+    "HOOF_HIND_R": {
+      "vertices": 3746,
+      "groups": []
+    },
+    "HOOF_HIND_L": {
+      "vertices": 3746,
+      "groups": []
+    },
+    "HOOF_FORE_R": {
+      "vertices": 3746,
+      "groups": []
+    },
+    "HOOF_FORE_L": {
+      "vertices": 3746,
+      "groups": []
+    },
+    "EYELID_R": {
+      "vertices": 384,
+      "groups": []
+    },
+    "EYELID_L": {
+      "vertices": 384,
+      "groups": []
+    },
+    "EYE_R": {
+      "vertices": 1537,
+      "groups": []
+    },
+    "EYE_L": {
+      "vertices": 1537,
+      "groups": []
+    },
+    "FLEECE_HEAD_SURFACE": {
+      "vertices": 35722,
+      "groups": [
+        "touch_L",
+        "touch_R",
+        "crown",
+        "face_frame",
+        "chest_front",
+        "central_back",
+        "rump",
+        "lower_belly",
+        "ear_socket"
+      ]
+    },
+    "FLEECE_TORSO_SURFACE": {
+      "vertices": 47532,
+      "groups": [
+        "touch_L",
+        "touch_R",
+        "crown",
+        "face_frame",
+        "chest_front",
+        "central_back",
+        "rump",
+        "lower_belly",
+        "ear_socket"
+      ]
+    },
+    "TAIL_FLEECE_SHELL": {
+      "vertices": 2498,
+      "groups": []
+    },
+    "NOSE": {
+      "vertices": 922,
+      "groups": []
+    }
+  },
+  "authorities": [
+    {
+      "path": "assets/grimo/source/carol/carol-Identity-canonical.png",
+      "sha256": "63db4ebad028d770fc5548d50ba1e57b5c20d6a006810ec542bbb046cb4347ce",
+      "matches_manifest": true
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol_front.png",
+      "sha256": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+      "matches_manifest": true
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol_side.png",
+      "sha256": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+      "matches_manifest": true
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol_skin_front.png",
+      "sha256": "c5041d3ffff56824e9b6a010a036a87ee19c0a09bd55b7273e4518474a2454bd",
+      "matches_manifest": true
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol_skin_side.png",
+      "sha256": "fb31cdec48c95b194fd45abb6f4a8f2f4d7b7d08355d9dd116023765c24de64c",
+      "matches_manifest": true
+    },
+    {
+      "path": "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md",
+      "sha256": "656c1c512017fc548d7f5dfabf66085fd1085a95bd739bbefb7922f568d3b048",
+      "matches_manifest": true
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png",
+      "sha256": "f10d6aad9201da6030798050aff5f057a76ee5f0645a1e231186d5798fb58384",
+      "matches_manifest": true
+    }
+  ],
+  "no_camera_conditioned_geometry": true,
+  "compositing": false,
+  "motion": "NOT_PERFORMED",
+  "deformation": "NOT_PERFORMED",
+  "runtime": "NOT_PERFORMED",
+  "device": "NOT_PERFORMED",
+  "anchors": {
+    "fleece_front": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "position": [
+        0.12000000476837158,
+        0.0,
+        0.20000000298023224
+      ]
+    },
+    "pocket_front_L": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "position": [
+        0.15000000596046448,
+        0.20000000298023224,
+        0.23999999463558197
+      ]
+    },
+    "pocket_front_R": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "position": [
+        0.15000000596046448,
+        -0.20000000298023224,
+        0.23999999463558197
+      ]
+    },
+    "gift_reveal": {
+      "parent": "FLEECE_TORSO_OWNER",
+      "position": [
+        0.13999998569488525,
+        0.0,
+        0.23000000417232513
+      ]
+    }
+  },
+  "neutral_shape_values": {},
+  "images": [
+    {
+      "name": "carol_front.png",
+      "packed": false,
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_front.png"
+    },
+    {
+      "name": "carol_side.png",
+      "packed": false,
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_side.png"
+    },
+    {
+      "name": "carol_skin_front.png",
+      "packed": false,
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_skin_front.png"
+    },
+    {
+      "name": "carol_skin_side.png",
+      "packed": false,
+      "path": "//..\\..\\..\\source\\carol\\approved-3d\\carol_skin_side.png"
+    },
+    {
+      "name": "eye-authority-pigment.png",
+      "packed": true,
+      "path": "//carol-approved-eye-pigment.png"
+    },
+    {
+      "name": "eye-authority-pigment.png.001",
+      "packed": true,
+      "path": "//carol-approved-eye-pigment.png"
+    }
+  ]
+}

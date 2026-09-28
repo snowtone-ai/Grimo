@@ -1,0 +1,29 @@
+{
+  "method": "600px equal outline height, aspect preserved, ground aligned and horizontally centered; Side mirrored for common orientation. Whole silhouette includes ears/hooves/tail and any protruding charms; ornament geometry is excluded from the macro-fitting contract. Distances normalized by character height. Diagnostics are not acceptance gates.",
+  "versions": {
+    "v002": {
+      "front": {
+        "silhouette_iou": 0.9483657536861048,
+        "symmetric_contour_distance_over_height": 0.012202650253702783,
+        "width_over_height": 1.1393229166666667
+      },
+      "side": {
+        "silhouette_iou": 0.8841972714186314,
+        "symmetric_contour_distance_over_height": 0.027675369517404295,
+        "width_over_height": 1.3181818181818181
+      }
+    },
+    "v003": {
+      "front": {
+        "silhouette_iou": 0.9352927644649457,
+        "symmetric_contour_distance_over_height": 0.015522463691503905,
+        "width_over_height": 1.154746423927178
+      },
+      "side": {
+        "silhouette_iou": 0.9126455046771207,
+        "symmetric_contour_distance_over_height": 0.01969240190321032,
+        "width_over_height": 1.3409090909090908
+      }
+    }
+  }
+}

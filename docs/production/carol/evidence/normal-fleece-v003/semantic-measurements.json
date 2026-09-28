@@ -1,0 +1,50 @@
+{
+  "method": "600px equal-height Front. Fixed ear/hoof ROIs and brown-color threshold; brightness from fixed image-aligned cheek-free lower-face/chin rectangles. Shading proxies, not material-independent geometry or Human acceptance.",
+  "samples": {
+    "authority": {
+      "ear_left": {
+        "width_px": 161,
+        "height_px": 117,
+        "height_over_width": 0.7267080745341615
+      },
+      "hoof_left": {
+        "width_px": 121,
+        "height_px": 63,
+        "height_over_width": 0.5206611570247934
+      },
+      "lower_face_luma": 246.65544243997405,
+      "chin_luma": 241.36156340852128,
+      "chin_minus_lower_face_luma": -5.293879031452775
+    },
+    "v002": {
+      "ear_left": {
+        "width_px": 158,
+        "height_px": 102,
+        "height_over_width": 0.6455696202531646
+      },
+      "hoof_left": {
+        "width_px": 118,
+        "height_px": 78,
+        "height_over_width": 0.6610169491525424
+      },
+      "lower_face_luma": 230.92406632057106,
+      "chin_luma": 221.73277944862153,
+      "chin_minus_lower_face_luma": -9.19128687194953
+    },
+    "v003": {
+      "ear_left": {
+        "width_px": 177,
+        "height_px": 133,
+        "height_over_width": 0.751412429378531
+      },
+      "hoof_left": {
+        "width_px": 134,
+        "height_px": 66,
+        "height_over_width": 0.4925373134328358
+      },
+      "lower_face_luma": 240.24331641791045,
+      "chin_luma": 203.81361754385964,
+      "chin_minus_lower_face_luma": -36.429698874050814
+    }
+  }
+}

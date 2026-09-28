@@ -1,0 +1,252 @@
+{
+  "asset_sha256": "190a71ab4871f7e8e9a8f5cdc7ad694c4029929a5afa82341812cab0434af667",
+  "asset": "assets/grimo/production/carol/blender/carol-normal-fleece-v003.blend",
+  "views": {
+    "front": {
+      "file": "front.png",
+      "sha256": "47f24c8e906ae8c8391d765f75c1c98820b092676030a220ea0d0e89e6772f30",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48,
+      "camera": "REVIEW_front",
+      "camera_matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -4.0
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.5099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.2999999523162842,
+      "geometry_attempt": 3,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    },
+    "side": {
+      "file": "side.png",
+      "sha256": "d263f88d8709aef16ed91bfca06b25a4cc40cd2215841902bffea691fa29fa0c",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48,
+      "camera": "REVIEW_side",
+      "camera_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          1.1399865765455465e-14,
+          0.6299999952316284
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          1.0,
+          4.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          -7.549790126404332e-08,
+          0.5099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.4199999570846558,
+      "geometry_attempt": 3,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    },
+    "3q": {
+      "file": "3q.png",
+      "sha256": "98dcaa33f807f91140656a38042177c7b877178fb407ccabc35ad0a264ef9ffc",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48,
+      "camera": "REVIEW_3q",
+      "camera_matrix": [
+        [
+          0.6649139523506165,
+          0.18146222829818726,
+          -0.7245418429374695,
+          -2.799999952316284
+        ],
+        [
+          -0.7469199299812317,
+          0.16153913736343384,
+          -0.6449927687644958,
+          -3.0
+        ],
+        [
+          4.192055058638289e-08,
+          0.9700394868850708,
+          0.24294739961624146,
+          1.600000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.5,
+      "geometry_attempt": 3,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    },
+    "opposite_side": {
+      "file": "opposite_side.png",
+      "sha256": "cf347a0c4f301e9c19cd1c7ca1264152c83b99409b35fef2ba416fc1f5a44f60",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48,
+      "camera": "REVIEW_opposite_side",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6299999952316284
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          0.5099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.4199999570846558,
+      "geometry_attempt": 3,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    },
+    "rear": {
+      "file": "rear.png",
+      "sha256": "71cd4b44d838c6315586336f6b0dbbe997e300bc7de472a840686262906d8cd1",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48,
+      "camera": "REVIEW_rear",
+      "camera_matrix": [
+        [
+          -4.371138828673793e-08,
+          4.371138828673793e-08,
+          1.0,
+          4.0
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.5099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.399999976158142,
+      "geometry_attempt": 3,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    },
+    "top": {
+      "file": "top.png",
+      "sha256": "de8a0fece4c758631aeca3666a3e94ed4a93316475d77a3e24de5552c0ca4596",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48,
+      "camera": "REVIEW_top",
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.6000000238418579
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.5,
+      "geometry_attempt": 3,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    }
+  }
+}

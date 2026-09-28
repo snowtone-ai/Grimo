@@ -1,0 +1,88 @@
+{
+  "technical_packet_verified": true,
+  "visual_production_success": false,
+  "state": "NORMAL_FLEECE_V003_GEOMETRY_FAILED",
+  "asset_sha256": "190a71ab4871f7e8e9a8f5cdc7ad694c4029929a5afa82341812cab0434af667",
+  "accepted_skin_sha256": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a",
+  "geometry_attempts": 3,
+  "appearance_passes": 0,
+  "final_native_views": {
+    "front": {
+      "sha256": "47f24c8e906ae8c8391d765f75c1c98820b092676030a220ea0d0e89e6772f30",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48
+    },
+    "side": {
+      "sha256": "d263f88d8709aef16ed91bfca06b25a4cc40cd2215841902bffea691fa29fa0c",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48
+    },
+    "3q": {
+      "sha256": "98dcaa33f807f91140656a38042177c7b877178fb407ccabc35ad0a264ef9ffc",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48
+    },
+    "opposite_side": {
+      "sha256": "cf347a0c4f301e9c19cd1c7ca1264152c83b99409b35fef2ba416fc1f5a44f60",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48
+    },
+    "rear": {
+      "sha256": "71cd4b44d838c6315586336f6b0dbbe997e300bc7de472a840686262906d8cd1",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48
+    },
+    "top": {
+      "sha256": "de8a0fece4c758631aeca3666a3e94ed4a93316475d77a3e24de5552c0ca4596",
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 48
+    }
+  },
+  "audit_sha256": "593d85cc9c3ef69e1ae17ba8299f7ec41ec7ceca1901521cf7fea161794b0a30",
+  "manifest_sha256": "1068b26fd7ba4257690c62fbd7af09f11d1cbb6789caad67886f32342c138b98",
+  "artifact_hashes": {
+    "01-authority-comparison.jpg": "fbb2157f95d5a18bac6ee163af33037382da30b242c85f3487faca7f90081711",
+    "02-geometry-overlay.jpg": "48220ed179d0bdd7eba83bd9471eb244fbddae6da7672ef444d8b15848c03ee6",
+    "03-spatial-review.jpg": "f2650e9f79805dde59a8e171ce9d5ce55beb25a6f0c30aeda6b34bc1d2bf7699",
+    "04-surface-review.jpg": "e28411bf3b887ae082f06c007eb9f06f0be3066b4c98690ecf3062701c4bb08b",
+    "05-small-scale-review.jpg": "1c9720de91b3130e5fea1626ceb9a5f3552e13e82240b8a47f2173a2b47abf0d",
+    "3q.png": "98dcaa33f807f91140656a38042177c7b877178fb407ccabc35ad0a264ef9ffc",
+    "asset-audit.json": "593d85cc9c3ef69e1ae17ba8299f7ec41ec7ceca1901521cf7fea161794b0a30",
+    "authority-contract.json": "311a3014fbc3ea0f0148283daeebb9cf64eb2b8ae13fe6ced21bf0881a69d513",
+    "front.png": "47f24c8e906ae8c8391d765f75c1c98820b092676030a220ea0d0e89e6772f30",
+    "geometry-measurements.json": "6a7f5d22f6595cc3aed723c1bdfd9e3a2e4285c9944e21176558f43f4141eded",
+    "opposite_side.png": "cf347a0c4f301e9c19cd1c7ca1264152c83b99409b35fef2ba416fc1f5a44f60",
+    "overlay-front.png": "40ad114a57ce82e293ece44509d8142f6b6c620712f04122706e8961c87ba857",
+    "overlay-side.png": "ddcad5479399bebc7f3f509fb95c9b06fd111646735cab2994f8235633fcdd03",
+    "README.md": "d399ee1d49f003bb45cb356eebbaddc91f322f43b7c0aaf05e5283297fdc8499",
+    "rear.png": "71cd4b44d838c6315586336f6b0dbbe997e300bc7de472a840686262906d8cd1",
+    "render-manifest.json": "1068b26fd7ba4257690c62fbd7af09f11d1cbb6789caad67886f32342c138b98",
+    "semantic-measurements.json": "9b8963fe52d058dc51d2949136e38be726d77bbe7d2f3ff9d11a6c71baf2ad40",
+    "side.png": "d263f88d8709aef16ed91bfca06b25a4cc40cd2215841902bffea691fa29fa0c",
+    "top.png": "de8a0fece4c758631aeca3666a3e94ed4a93316475d77a3e24de5552c0ca4596"
+  },
+  "limitations": [
+    "The final geometry failed internal visual review.",
+    "Iteration images belong to their historical saved attempts, not the final asset.",
+    "No Human, motion, deformation, runtime or device PASS. Phase 2 not started.",
+    "Git cleanliness and local/remote equality are checked after commit, outside this self-referential packet."
+  ]
+}

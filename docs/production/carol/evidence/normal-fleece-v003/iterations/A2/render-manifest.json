@@ -1,0 +1,129 @@
+{
+  "asset_sha256": "ce30a3bdb30051662eca8da33106421880a481552fdef443c65b50bee7da6f18",
+  "asset": "assets/grimo/production/carol/blender/carol-normal-fleece-v003.blend",
+  "views": {
+    "front": {
+      "file": "front.png",
+      "sha256": "bef68b8ae6b441a7868b9a6cf6d8f7d1a526647ffb636c3d1ee2c5a752eb60ea",
+      "resolution": [
+        600,
+        600
+      ],
+      "samples": 16,
+      "camera": "REVIEW_front",
+      "camera_matrix": [
+        [
+          -4.371138828673793e-08,
+          -4.371138828673793e-08,
+          -1.0,
+          -4.0
+        ],
+        [
+          -1.0,
+          1.910685676922942e-15,
+          4.371138828673793e-08,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.371138828673793e-08,
+          0.5099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.2999999523162842,
+      "geometry_attempt": 2,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    },
+    "side": {
+      "file": "side.png",
+      "sha256": "36125420094ae543f25db9c244803931bb01f2e05815c0b1b5ff599b88f0da46",
+      "resolution": [
+        600,
+        600
+      ],
+      "samples": 16,
+      "camera": "REVIEW_side",
+      "camera_matrix": [
+        [
+          -1.0,
+          -1.5099580252808664e-07,
+          1.1399865765455465e-14,
+          0.6299999952316284
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          1.0,
+          4.0
+        ],
+        [
+          -1.5099580252808664e-07,
+          1.0,
+          -7.549790126404332e-08,
+          0.5099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.4199999570846558,
+      "geometry_attempt": 2,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    },
+    "3q": {
+      "file": "3q.png",
+      "sha256": "0bf3a9184c61b12c2f3ae482a3e91a193646efc827b196072e73027835dcc186",
+      "resolution": [
+        600,
+        600
+      ],
+      "samples": 16,
+      "camera": "REVIEW_3q",
+      "camera_matrix": [
+        [
+          0.6649139523506165,
+          0.18146222829818726,
+          -0.7245418429374695,
+          -2.799999952316284
+        ],
+        [
+          -0.7469199299812317,
+          0.16153913736343384,
+          -0.6449927687644958,
+          -3.0
+        ],
+        [
+          4.192055058638289e-08,
+          0.9700394868850708,
+          0.24294739961624146,
+          1.600000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orthographic_scale": 1.5,
+      "geometry_attempt": 2,
+      "appearance_pass": 0,
+      "view_transform": "Standard",
+      "exposure": -0.8500000238418579
+    }
+  }
+}
