@@ -5,3 +5,8 @@
 *.exr filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
+
+# Preserve the source bytes recorded in the Carol v004 asset audit.
+scripts/blender/build-carol-normal-fleece-v004.py text eol=lf
+scripts/blender/carol-fleece-v004-authority.py text eol=lf
+scripts/blender/carol_fleece_spatial.py text eol=lf

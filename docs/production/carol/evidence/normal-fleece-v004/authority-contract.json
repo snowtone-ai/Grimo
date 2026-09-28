@@ -1,0 +1,32 @@
+{
+  "schema": "carol.v004.authority-contract",
+  "donor": {
+    "repository": "snowtone-ai/grimoire",
+    "commit": "15bfa8e4c3a8ba24c246fe806bd125b307d8f076",
+    "file": "scripts/grimo/build-carol-reference.py",
+    "role": "method only"
+  },
+  "front_mapping": {
+    "center_u": 630,
+    "ground_v": 1161,
+    "pixels_per_unit": 1012
+  },
+  "side_mapping": {
+    "face_tip_u": 145,
+    "ground_v": 999,
+    "pixels_per_unit": 918
+  },
+  "coordinates": "X rearward; Y character left; Z up; H=1",
+  "authorities": {
+    "front": {
+      "path": "assets/grimo/source/carol/approved-3d/carol_front.png",
+      "sha256": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197"
+    },
+    "side": {
+      "path": "assets/grimo/source/carol/approved-3d/carol_side.png",
+      "sha256": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8"
+    }
+  },
+  "priority": "Current explicit Front/Side geometry; canonical identity supports softness and appeal only",
+  "skin_sha256": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a"
+}
