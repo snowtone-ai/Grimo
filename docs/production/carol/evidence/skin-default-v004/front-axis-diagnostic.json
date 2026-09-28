@@ -1,0 +1,175 @@
+{
+  "method": "Camera-plane centerline uses complete ear ring centers only at stations with at least one visible surface vertex after ray tests against unchanged v004 Fleece. Silhouette ratio is exposed-vertex camera-plane height/width.",
+  "front_downward_angle_target_degrees": [
+    13,
+    23
+  ],
+  "front_visible_silhouette_ratio_target": [
+    0.7,
+    0.84
+  ],
+  "side_visible_silhouette_ratio_target": [
+    0.74,
+    0.9
+  ],
+  "comparison": {
+    "v003": {
+      "front": {
+        "EAR_L": {
+          "visible_stations": [
+            14,
+            94
+          ],
+          "visible_vertex_samples": 1371,
+          "camera_plane_axis_endpoints_H": [
+            [
+              -0.2801092565059662,
+              0.1257738322019577
+            ],
+            [
+              -0.5901430249214172,
+              0.06506454944610596
+            ]
+          ],
+          "axis_deltas_H": [
+            -0.31003376841545105,
+            -0.060709282755851746
+          ],
+          "downward_axis_angle_degrees": 11.079191224455768,
+          "visible_silhouette_ratio_height_to_width": 0.7488328110194976
+        },
+        "EAR_R": {
+          "visible_stations": [
+            14,
+            94
+          ],
+          "visible_vertex_samples": 1352,
+          "camera_plane_axis_endpoints_H": [
+            [
+              0.28010889887809753,
+              0.1257738322019577
+            ],
+            [
+              0.5901426672935486,
+              0.06506454944610596
+            ]
+          ],
+          "axis_deltas_H": [
+            0.31003376841545105,
+            -0.060709282755851746
+          ],
+          "downward_axis_angle_degrees": 11.079191224455768,
+          "visible_silhouette_ratio_height_to_width": 0.8010386588970496
+        }
+      },
+      "side": {
+        "EAR_L": {
+          "visible_stations": [],
+          "downward_axis_angle_degrees": null
+        },
+        "EAR_R": {
+          "visible_stations": [
+            1,
+            94
+          ],
+          "visible_vertex_samples": 1656,
+          "camera_plane_axis_endpoints_H": [
+            [
+              -0.16497671604156494,
+              0.20053142309188843
+            ],
+            [
+              0.10545945167541504,
+              0.06506416946649551
+            ]
+          ],
+          "axis_deltas_H": [
+            0.27043616771698,
+            -0.1354672536253929
+          ],
+          "downward_axis_angle_degrees": 26.607267760797708,
+          "visible_silhouette_ratio_height_to_width": 0.8262311825507818
+        }
+      }
+    },
+    "v004": {
+      "front": {
+        "EAR_L": {
+          "visible_stations": [
+            14,
+            94
+          ],
+          "visible_vertex_samples": 1350,
+          "camera_plane_axis_endpoints_H": [
+            [
+              -0.27946650981903076,
+              0.1257738322019577
+            ],
+            [
+              -0.5876561403274536,
+              0.06619539856910706
+            ]
+          ],
+          "axis_deltas_H": [
+            -0.30818963050842285,
+            -0.05957843363285065
+          ],
+          "downward_axis_angle_degrees": 10.941308174661323,
+          "visible_silhouette_ratio_height_to_width": 0.818164110796912
+        },
+        "EAR_R": {
+          "visible_stations": [
+            14,
+            94
+          ],
+          "visible_vertex_samples": 1333,
+          "camera_plane_axis_endpoints_H": [
+            [
+              0.2794661521911621,
+              0.1257738322019577
+            ],
+            [
+              0.587655782699585,
+              0.06619539856910706
+            ]
+          ],
+          "axis_deltas_H": [
+            0.30818963050842285,
+            -0.05957843363285065
+          ],
+          "downward_axis_angle_degrees": 10.941308174661323,
+          "visible_silhouette_ratio_height_to_width": 0.8585453010500679
+        }
+      },
+      "side": {
+        "EAR_L": {
+          "visible_stations": [],
+          "downward_axis_angle_degrees": null
+        },
+        "EAR_R": {
+          "visible_stations": [
+            1,
+            94
+          ],
+          "visible_vertex_samples": 1663,
+          "camera_plane_axis_endpoints_H": [
+            [
+              -0.16497671604156494,
+              0.20053142309188843
+            ],
+            [
+              0.10378074645996094,
+              0.06619501858949661
+            ]
+          ],
+          "axis_deltas_H": [
+            0.2687574625015259,
+            -0.13433640450239182
+          ],
+          "downward_axis_angle_degrees": 26.557831889349174,
+          "visible_silhouette_ratio_height_to_width": 0.9021577674558496
+        }
+      }
+    }
+  }
+}

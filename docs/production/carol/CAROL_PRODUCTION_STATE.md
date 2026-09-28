@@ -4,13 +4,13 @@ This file is the mutable Carol execution routing source.
 
 ## Current state — 2026-09-29
 
-- Branch: `codex/carol-skin-default-v003`. Verify exact HEAD in Git.
-- **`DEFAULT_BASELINE = PROMOTED`**: the working 3D Skin source is `assets/grimo/production/carol/blender/carol-skin-default-v003.blend`.
+- Branch: `codex/carol-skin-default-v004`. Verify exact HEAD in Git.
+- **`DEFAULT_BASELINE = PROMOTED`**: the working 3D Skin source is `assets/grimo/production/carol/blender/carol-skin-default-v004.blend` (SHA256 `c14f15e35af18e17a63506ea1f4c8ec0f69cb4f52882d27cfa22cb01db7e1f7d`).
 - **`EAR_VISUAL_HUMAN_REVIEW = PENDING`**. This routing decision does not grant an ear, motion, deformation, runtime or full-character Human PASS.
-- Composition: saved v004 internal Skin geometry and materials, with `EAR_L` and `EAR_R` transplanted from and refined beyond `carol-skin-ear-correction-v001.blend`. The saved v004 lower-chin chassis correction and its Skin material emission settings are inherited. All 19 retained non-ear Skin structures match v004; external Fleece, Fleece backing, ornaments and atmosphere are excluded. The v004 Fleece was used only for temporary occlusion renders and was not edited.
-- Evidence, technical checks and reproduction: `docs/production/carol/evidence/skin-default-v003/README.md`.
-- Historical fallback: `carol-skin-final-v002.blend` remains intact, SHA256 `321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a`. The v001 ear candidate remains provenance, not the current default.
-- Next Human decision: review the ear authority, old/current/new and v004 Fleece occlusion boards. Decide whether the refined ear identity is visually approved or needs another local ear pass. Do not infer approval from this default promotion.
+- Composition: v003 Skin baseline with only `EAR_L`, `EAR_R`, and their existing `SoftInnerBowl` point values refined. All 19 retained non-ear Skin structures and both ear material node trees match v003. The standalone v004 contains Skin geometry only. v003 remains preserved as provenance/fallback at SHA256 `4f4661b672f8b2022ca819241c0624f36693e36505775736042fe821b703915a`.
+- Evidence, technical checks and reproduction: `docs/production/carol/evidence/skin-default-v004/README.md`.
+- The unchanged v004 Fleece was used only for temporary occlusion renders; its SHA256 remains `a73426d8483e5431e60bc5949b96506c447928682ad92ead6af3cbd1d1092420`. Historical v002 remains intact at SHA256 `321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a`.
+- Next Human decision: compare the authority and v003/v004 boards. The front exposed-axis diagnostic is 10.94° (v003: 11.08°), below the 13–23° target; the inner pink trough is still subtle in the Front render. Decide whether the new fullness is enough or another local pass is needed. Do not infer approval from this default promotion.
 
 ## Preserved Normal/Fleece checkpoint — 2026-09-28
 

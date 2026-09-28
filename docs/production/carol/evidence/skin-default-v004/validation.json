@@ -1,0 +1,82 @@
+{
+  "asset": "assets/grimo/production/carol/blender/carol-skin-default-v004.blend",
+  "asset_sha256": "c14f15e35af18e17a63506ea1f4c8ec0f69cb4f52882d27cfa22cb01db7e1f7d",
+  "saved_reopened": true,
+  "default_baseline": "PROMOTED",
+  "ear_visual_human_review": "PENDING",
+  "non_ear_skin_objects_identical_to_v003": 19,
+  "non_ear_differences": [],
+  "non_ear_material_node_trees_identical_to_v003": true,
+  "ear_material_node_trees_identical_to_v003": true,
+  "ear_topology_unchanged_from_v003": true,
+  "base_vertices_per_ear": {
+    "EAR_L": 2280,
+    "EAR_R": 2280
+  },
+  "station_structure": {
+    "stations": 95,
+    "vertices_per_station": 24
+  },
+  "ear_checks": {
+    "EAR_L": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.011838466008904843,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    },
+    "EAR_R": {
+      "finite": true,
+      "nonmanifold_edges": 0,
+      "nonadjacent_triangle_intersections": 0,
+      "volume_H3": 0.011838466050441244,
+      "outward_normals": true,
+      "evaluated_vertices": 36290
+    }
+  },
+  "root_checks": {
+    "EAR_L": {
+      "inside_head": true,
+      "surface_distance_H": 0.0527305081486702
+    },
+    "EAR_R": {
+      "inside_head": true,
+      "surface_distance_H": 0.0527305081486702
+    }
+  },
+  "bilateral_max_mirror_error_H": 0.0,
+  "displacement_vs_v003": {
+    "EAR_L": {
+      "max_H": 0.01990000242305887,
+      "mean_H": 0.004311398000941189
+    },
+    "EAR_R": {
+      "max_H": 0.01990000242305887,
+      "mean_H": 0.004311398000941189
+    }
+  },
+  "finite_skin_geometry": true,
+  "visible_geometry_exact_skin_subset": true,
+  "pigment_checks": {
+    "EAR_L": {
+      "single_mesh_attribute": true,
+      "max_value": 1.0,
+      "outer_brown_perimeter_max": 0.0,
+      "distal_tip_max": 0.0
+    },
+    "EAR_R": {
+      "single_mesh_attribute": true,
+      "max_value": 1.0,
+      "outer_brown_perimeter_max": 0.0,
+      "distal_tip_max": 0.0
+    }
+  },
+  "source_sha256_unchanged": true,
+  "source_sha256": {
+    "v003": "4f4661b672f8b2022ca819241c0624f36693e36505775736042fe821b703915a",
+    "fleece_v004": "a73426d8483e5431e60bc5949b96506c447928682ad92ead6af3cbd1d1092420",
+    "skin_v002": "321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a"
+  },
+  "technical_checks_pass": true
+}
