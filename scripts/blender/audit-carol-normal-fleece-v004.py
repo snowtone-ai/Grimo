@@ -76,10 +76,16 @@ def main():
     )
     hashes=json.loads(scene.get('generator_hashes','{}'))
     report['generator_hashes']=hashes
+    if scene.get('anatomy_source'):
+        source=ASSET.with_name(scene['anatomy_source'])
+        report['anatomy_source']={'file':source.name,'sha256':sha(source),
+          'matches_saved_asset':sha(source)==scene['anatomy_source_sha256']}
     report['generator_matches_saved_asset']=bool(hashes) and all(sha(ROOT/'scripts/blender'/name)==value for name,value in hashes.items())
     report['no_compositing']=not scene.render.use_compositing
     report['skin_fleece_intersections']='Visual and spatial review required; boundary returns intentionally enter Skin. Not an automatic PASS.'
     report['technical_checks_pass']=bool(report['accepted_skin_source_unchanged'] and report['all_authorities_match'] and report['non_finite_vertices']==0 and report['all_images_embedded'] and report['fleece_closed_and_nondegenerate'] and report['generator_matches_saved_asset'] and report['ornament_glint_owners_match'])
+    if 'anatomy_source' in report:
+        report['technical_checks_pass'] &= report['anatomy_source']['matches_saved_asset']
     (OUT/'asset-audit.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps({k:report[k] for k in ['sha256','technical_checks_pass','non_finite_vertices','state']}))
     assert report['technical_checks_pass']

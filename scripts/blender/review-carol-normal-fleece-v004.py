@@ -82,8 +82,40 @@ def main():
         product.paste(small.crop((390,0,710,240)),(i*320,35))
         ImageDraw.Draw(product).text((i*320+15,12),label,font=FONT,fill='#303036')
     product.save(FOLDER/'product-scale.png')
+    if '--anatomy-comparison' in sys.argv:
+        anatomy_comparison()
     (FOLDER/'geometry-measurements.json').write_text(json.dumps(measurements,indent=2),encoding='utf-8')
     print(json.dumps(measurements))
+
+
+def anatomy_comparison():
+    """Historical images are labeled; only the last column is the current asset."""
+    board=Image.new('RGB',(2000,1060),'white')
+    draw=ImageDraw.Draw(board)
+    columns=[('APPROVED AUTHORITY',REF),
+             ('V002 / HISTORICAL',OUT.parent/'normal-fleece-v002'),
+             ('V004-33 / REJECTED SHAPE',OUT/'iterations/33'),
+             ('V004 / ANATOMICAL REVISION',FOLDER)]
+    sources=[]
+    for row,view in enumerate(['front','side']):
+        for col,(label,folder) in enumerate(columns):
+            filename=f'carol_{view}.png' if col==0 else f'{view}.png'
+            if view=='side' and col>=2:filename='yaw+90.png'
+            path=folder/filename
+            mask=WORK/f'silhouette-{view}.png' if col==0 else None
+            panel,_,_=normalized(path,height=390,maskpath=mask)
+            panel=panel.crop((300,0,800,470))
+            mirrored=col>0 and view=='side'
+            if mirrored:panel=panel.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+            board.paste(panel,(col*500,row*530+45))
+            draw.text((col*500+12,row*530+10),label,font=FONT,fill='#303036')
+            sources.append({'label':label,'view':view,'path':path.relative_to(ROOT).as_posix(),
+                            'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
+                            'display_mirrored':mirrored})
+    board.save(FOLDER/'anatomy-comparison.jpg',quality=94)
+    (FOLDER/'anatomy-comparison-sources.json').write_text(json.dumps({
+        'normalization':'Equal character height; no shape retouching; historical lighting differs',
+        'sources':sources},indent=2),encoding='utf-8')
 
 
 if __name__=='__main__':main()

@@ -28,6 +28,8 @@ SKIN = ASSET.with_name('carol-skin-final-v002.blend')
 SKIN_SHA = '321dccd9d7a9789eb3b496b2da2281c03cabb9dcf164f01447c81a9ba940cd7a'
 REF = ROOT/'assets/grimo/source/carol/approved-3d'
 ARGS = sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else ['build']
+if 'build' in ARGS and not any(flag in ARGS for flag in ['--spatial','--radial-diagnostic','--anatomical-base']):
+    ARGS += ['--anatomical-base','--sculpt-anatomy','--painted-shade']
 INVENTORY = json.loads((OUT/'tuft-inventory.json').read_text())
 SCALE = 1/1012
 SEGMENTS = 384
@@ -602,6 +604,18 @@ def save():
 
 def build():
     assert sha(SKIN)==SKIN_SHA
+    if '--anatomical-base' in ARGS:
+        sys.path.insert(0,str(Path(__file__).parent))
+        from carol_fleece_spatial import anatomical_base
+        anatomical_base(globals())
+        presentation()
+        for name,energy in [('Key',95),('Fill',40),('Rear',65),('Low',16)]:
+            bpy.data.objects[name].data.energy=energy
+        bpy.context.scene.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.50
+        bpy.context.scene['phase1_state']='NORMAL_FLEECE_V004_IN_PROGRESS'
+        bpy.context.scene['accepted_skin_sha256']=SKIN_SHA
+        save()
+        return
     bpy.ops.wm.open_mainfile(filepath=str(SKIN))
     bpy.context.scene.frame_set(1)
     # Keep the accepted attached facial modules while the fleece converges.

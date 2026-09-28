@@ -317,7 +317,7 @@ def regional_head(api, skin, parent):
     return ob
 
 
-def continuous_pigment(ob, records, api):
+def continuous_pigment(ob, records, api, base_colors=None):
     """Lock-attached pigment with spatial brush grain, no projected shading bands."""
     points=np.empty(len(ob.data.vertices)*3,np.float32);ob.data.vertices.foreach_get('co',points);points=points.reshape(-1,3)
     colors=np.zeros((len(points),3));weights=np.zeros(len(points))
@@ -333,6 +333,9 @@ def continuous_pigment(ob, records, api):
         color=np.minimum(1,color*.96+.035)
         colors+=weight[:,None]*color;weights+=weight
     colors/=np.maximum(1e-30,weights)[:,None]
+    if base_colors is not None:
+        colors=np.asarray(base_colors)
+        assert colors.shape==(len(points),3), 'Pigment must match mesh vertices'
     if patch_paint:
         forward=np.maximum(.65-points[:,0],0)
         cosine=forward/np.maximum(1e-8,np.hypot(forward,points[:,1]))
@@ -379,6 +382,93 @@ def continuous_pigment(ob, records, api):
         if node.type in ['BSDF_DIFFUSE','EMISSION']:links.new(pigment,node.inputs['Color'])
     ob.data.materials.clear();ob.data.materials.append(mat)
     for polygon in ob.data.polygons:polygon.material_index=0
+
+
+def anatomical_displacement(points, region):
+    """Sculpt by anatomical region, not by either image's silhouette."""
+    x,y,z=points.T;delta=np.zeros_like(points)
+    if region=='HeadFleece':
+        cheek=np.exp(-((abs(y)-.29)/.075)**4-((z-.40)/.17)**4-((x-.24)/.13)**4)
+        delta[:,0]+=.024*cheek
+        delta[:,1]-=np.sign(y)*.012*cheek
+    if region=='BodyFleece':
+        bib=np.exp(-((x-.18)/.19)**4-(y/.30)**4-((z-.205)/.085)**4)
+        delta[:,0]+=.030*bib
+        delta[:,2]+=.014*bib
+        shoulder=np.exp(-((x-.55)/.20)**4-((z-.44)/.15)**4)
+        delta[:,1]-=np.sign(y)*.020*shoulder*np.clip((abs(y)-.27)/.15,0,1)
+    if region=='CENTRAL_CHASSIS':
+        under_chin=np.clip((.255-z)/.085,0,1)*np.exp(-((x-.22)/.23)**4)
+        delta[:,0]+=.090*under_chin
+        delta[:,1]-=y*.10*under_chin
+    return delta
+
+
+def sculpt_anatomy(ob):
+    matrix=ob.matrix_world;inverse=matrix.inverted().to_3x3()
+    points=np.array([matrix@v.co for v in ob.data.vertices])
+    delta=anatomical_displacement(points,ob.name)
+    local=np.array([inverse@Vector(d) for d in delta])
+    keys=ob.data.shape_keys
+    key_points=[] if keys is None else [np.array([v.co[:] for v in key.data]) for key in keys.key_blocks]
+    original=np.array([v.co[:] for v in ob.data.vertices])
+    ob.data.vertices.foreach_set('co',(original+local).ravel())
+    if keys:
+        for key,coordinates in zip(keys.key_blocks,key_points):
+            key.data.foreach_set('co',(coordinates+local).ravel())
+    ob.data.update()
+    return {'max_displacement':float(np.linalg.norm(delta,axis=1).max()),
+            'mean_displacement':float(np.linalg.norm(delta,axis=1).mean()),
+            'bounds_before':[points.min(axis=0).tolist(),points.max(axis=0).tolist()],
+            'bounds_after':[(points+delta).min(axis=0).tolist(),(points+delta).max(axis=0).tolist()]}
+
+
+def anatomical_base(api):
+    """Keep the v002 spatial anatomy; replace shading independently of volume."""
+    source=api['ASSET'].with_name('carol-normal-fleece-v002.blend')
+    bpy.ops.wm.open_mainfile(filepath=str(source))
+    bpy.context.scene.frame_set(1)
+    report={'source':source.name,'source_sha256':api['sha'](source),'regions':{},
+            'method':'Anatomical base with local smooth sculpt fields, no image outline fitting',
+            'human_acceptance':False}
+    mapping={'FLEECE_HEAD_SURFACE':'HeadFleece',
+             'FLEECE_TORSO_SURFACE':'BodyFleece','TAIL_FLEECE_SHELL':'TailFleece'}
+    for old,new in mapping.items():
+        ob=bpy.data.objects[old];ob.name=new
+        if ob.data.shape_keys:
+            for key in ob.data.shape_keys.key_blocks:key.value=0
+        pigment=ob.data.color_attributes['pigment']
+        linear=np.empty(len(pigment.data)*4,np.float32)
+        pigment.data.foreach_get('color',linear)
+        linear=np.clip(linear.reshape(-1,4)[:,:3],0,1)
+        colors=np.where(linear<=.0031308,linear*12.92,1.055*linear**(1/2.4)-.055)
+        colors=colors*.82+.18
+        continuous_pigment(ob,[],api,base_colors=colors)
+        if '--sculpt-anatomy' in api['ARGS']:report['regions'][new]=sculpt_anatomy(ob)
+        ob['construction']='v002 spatial anatomy with v004 wool shading; no silhouette inflation'
+    for mat in bpy.data.objects['CENTRAL_CHASSIS'].data.materials:
+        if mat.use_nodes:
+            for node in mat.node_tree.nodes:
+                if node.type=='EMISSION':node.inputs['Strength'].default_value=1.0
+    if '--sculpt-anatomy' in api['ARGS']:
+        report['regions']['CENTRAL_CHASSIS']=sculpt_anatomy(bpy.data.objects['CENTRAL_CHASSIS'])
+        for name in ['STAR_chest','STAR_lower_left']:
+            ob=bpy.data.objects.get(name)
+            if ob:
+                # Charms retain their rigid shape while following the bib.
+                center=np.mean([ob.matrix_world@v.co for v in ob.data.vertices],axis=0)
+                shift=anatomical_displacement(center[None,:],'BodyFleece')[0]
+                for piece in [ob,bpy.data.objects.get(name+'_glint')]:
+                    if piece is not None:
+                        matrix=piece.matrix_world.copy();matrix.translation+=Vector(shift)
+                        piece.matrix_world=matrix
+    for ob in bpy.context.scene.objects:
+        if ob.name.endswith('_glint'):
+            base=bpy.data.objects.get(ob.name.removesuffix('_glint'))
+            if base:api['parent_keep'](ob,base.parent)
+    bpy.context.scene['anatomy_source_sha256']=api['sha'](source)
+    bpy.context.scene['anatomy_source']=source.name
+    (api['OUT']/'anatomy-construction.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 
 
 def solid_body(core, api, parent):

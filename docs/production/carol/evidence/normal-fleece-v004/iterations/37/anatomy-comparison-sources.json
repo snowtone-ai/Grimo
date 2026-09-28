@@ -1,0 +1,61 @@
+{
+  "normalization": "Equal character height; no shape retouching; historical lighting differs",
+  "sources": [
+    {
+      "label": "APPROVED AUTHORITY",
+      "view": "front",
+      "path": "assets/grimo/source/carol/approved-3d/carol_front.png",
+      "sha256": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+      "display_mirrored": false
+    },
+    {
+      "label": "V002 / HISTORICAL",
+      "view": "front",
+      "path": "docs/production/carol/evidence/normal-fleece-v002/front.png",
+      "sha256": "4b164972181ccff53aa0924b5963a008c79286fcd35a8dd0aa440d5b264933a4",
+      "display_mirrored": false
+    },
+    {
+      "label": "V004-33 / REJECTED SHAPE",
+      "view": "front",
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/33/front.png",
+      "sha256": "89114adea7003b780b05acda3410f361b6bdb733ce0d1460c1fa8c1f07496115",
+      "display_mirrored": false
+    },
+    {
+      "label": "V004 / ANATOMICAL REVISION",
+      "view": "front",
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/37/front.png",
+      "sha256": "2fe374b09078b77587038189157bfa3389d12c1eef459d19c98cbc23ddea9a75",
+      "display_mirrored": false
+    },
+    {
+      "label": "APPROVED AUTHORITY",
+      "view": "side",
+      "path": "assets/grimo/source/carol/approved-3d/carol_side.png",
+      "sha256": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+      "display_mirrored": false
+    },
+    {
+      "label": "V002 / HISTORICAL",
+      "view": "side",
+      "path": "docs/production/carol/evidence/normal-fleece-v002/side.png",
+      "sha256": "58b350cd74bc31836fa087afd8524c4b1db35e1c43d4ec7b53cce70c225f8cb9",
+      "display_mirrored": true
+    },
+    {
+      "label": "V004-33 / REJECTED SHAPE",
+      "view": "side",
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/33/yaw+90.png",
+      "sha256": "220348013382f66a5761363a42748681e194f5668fb576f10e3f590c6f7385d7",
+      "display_mirrored": true
+    },
+    {
+      "label": "V004 / ANATOMICAL REVISION",
+      "view": "side",
+      "path": "docs/production/carol/evidence/normal-fleece-v004/iterations/37/yaw+90.png",
+      "sha256": "bf682b923d58758c1f6763ffb9af8d78c29fb476a8363681263ebedcd5cb1a35",
+      "display_mirrored": true
+    }
+  ]
+}
