@@ -128,6 +128,51 @@ or deformation behavior on **the exported GLB in PlayCanvas**, not from the
 Blender viewport alone. These checks become mandatory only when relevant to
 the current Decision Question or production lock.
 
+### Video-transcript field notes (2026-10-10)
+
+**Evidence boundary.** The following notes were extracted from accessible,
+complete narration transcripts: the **official Blender Studio English VTT**
+where available, and YouTube transcript text for the other videos. These are
+**transcript-grounded summaries**, not claims of watching/visually inspecting
+every video frame or reproducing a technique inside Blender. Automatic
+transcripts can mistranscribe UI commands; verify actual Blender version and
+controls before use. Video advice is not automatically Grimo production law.
+
+#### A. Design, reference and sculpting
+
+- **Art style sets animation expectations** ([Defining Goals](https://studio.blender.org/training/stylized-character-workflow/5d3a1b3d4bc3ff1bb9513d38/), ~00:00–02:00, official subtitles): the character's design abstraction and detail level affect plausible acting. For Grimo, consult the approved identity and motion authority together; do not "improve" the face by accidentally switching visual style. `EXTERNAL_GUIDANCE`.
+- **Reference has distinct jobs** ([Julien Kaspar, complete workflow overview](https://www.youtube.com/watch?v=f-mx-Jfx9lA), ~01:30–03:00, matching [free Studio subtitles](https://studio.blender.org/training/stylized-character-workflow/5df42aaf5f68a29e408d6118/)): distinguish identity/concept, visual style, implementation examples (e.g. fur) and real-world anatomy/material behavior. Grimo identity art remains authority; observed reality is evidence for plausible weight/contact, not a replacement design. `EXTERNAL_GUIDANCE`.
+- **Block large forms using separate primitives before detailing** (Kaspar ~03:00–06:30; [Creating a Primitive Body](https://studio.blender.org/training/stylized-character-workflow/5d7f7cf055ccaf1a4a78102d/), ~00:00–06:00, official subtitles). Separate objects and symmetry allow fast proportion changes; sculpt/remesh can be used after mass relationships work. Preview color can conceal inaccurate volume, so periodically use clay/untextured inspection. `EXTERNAL_GUIDANCE`.
+- **A scripted basemesh and a sculpt are alternative tools, not opposing doctrines**: Kaspar starts by arranging/sculpting primitive forms; [Dikko's body blocking](https://www.youtube.com/watch?v=4vAqPaFv8QA), 01:00/04:25/11:30 chapters and transcript, uses orthographic references plus a mesh/blockout with articulation loops planned early. Both approaches have credible production rationale. Choose per observed defect, not dogmatic "professional means sculpting." `EXTERNAL_GUIDANCE`.
+- **Visualize a 2D concept as actual 3D masses and temporarily pose parts** ([Kaspar, Blender Conference 2023 live sculpting](https://www.youtube.com/watch?v=FDscc66fC90), transcript): independent objects, linked symmetric object data, and a side-by-side reference/camera help reveal pose and volume problems before detail. Treat 2D-to-3D interpretation as design work rather than one-camera pixel matching. A camera/lighting comparison alone is not a completed deformation test. `EXTERNAL_GUIDANCE`.
+
+#### B. Retopology, facial expression and motion
+
+- **Test expressions before investing in final topology** (Kaspar ~08:30–12:00): a rough, deformable head lets eyes/mouth tests expose a default design that fails during blinking/smiling. Later create efficient retopology for real articulation. For Carol, do not wait for a fully finished rig to ask whether closed eyelids, gaze or fleece attachment remain appealing. `EXTERNAL_GUIDANCE`.
+- **Blink mechanics** ([Basic Expression Shapekeys](https://studio.blender.org/training/stylized-character-workflow/5da05942e2e7bac4cc81bd5a/), ~00:00–03:00, official subtitles): eyelids slide over the eye surface; the upper lid does most of the closing and the lower lid moves less. A shape-key example starts with `Basis`, `eyes closed` and `mouth open`. This is an illustrative human/stylized workflow, **not** a numerical motion contract for Carol. `EXTERNAL_GUIDANCE`.
+- **Coupled visible parts must follow their parent expression** (same Studio lesson ~15:00): example drivers propagate head expression-key values to separate eyelashes. For Carol, test eye/socket, cheek fleece, ears and head ownership where applicable. Blender drivers may not survive glTF export as drivers; bake/recreate/export and test the resulting motion in PlayCanvas. `EXTERNAL_GUIDANCE` / Grimo export inference.
+- **Topology should serve deformation, not topology purity** ([Planning the Facial Retopology](https://studio.blender.org/training/stylized-character-workflow/5e5407ec8faf011a381510d7/), ~01:00–07:00, official subtitles): plan loops around articulating eyes/mouth, supporting landmark boundaries and anticipated compression; strategically redirect loops rather than creating uncontrolled spirals. Several loops support curved eyelid/lip arcs, but count and arrangement vary by model and motion. `EXTERNAL_GUIDANCE`.
+- **Avoid hardcoding human-face edge maps** ([Dikko, Retopologising the Face](https://www.youtube.com/watch?v=SwM19PgSdCM), full transcript): his equal upper/lower eyelid/lip span counts and deliberate edge-flow transitions make his example easier to rig; he explicitly rejects a universal required span count. Use these as *questions to test* on Carol's non-human face, not mandatory coordinates, vertex counts, or universal pole bans. `EXTERNAL_GUIDANCE`.
+- **Design may need revision after expression tests** (Kaspar ~10:00–11:45; Studio course expression section): when eyelids, eye shape or face proportions cannot sustain an appealing expression, revisit the static form before hiding the problem with shader/animation tricks. Final aesthetic approval remains Human-owned. `EXTERNAL_GUIDANCE`.
+
+#### C. Small Carol experiments that can validate these lessons
+
+These are **GRIMO_HYPOTHESIS / NOT_TESTED**, not work performed in this
+documentation update. Run only when they answer a current visible blocker or
+credible near-term motion risk; reuse the current candidate as the baseline.
+
+| Observed problem | Lowest-cost meaningful comparison | Evidence to retain |
+| --- | --- | --- |
+| Crown, cheek or neck fleece reads as swollen/colliding | Compare existing candidate to one separate-volume sculpt/shape variation; same Front/3/4/Side clay camera | Off-axis volume, face opening and neck continuity, approval pending |
+| Eyes look unsettling or blink appears impossible | Temporary `eyes closed` expression (shape key, mesh edit or equivalent) including visible eyelid/eyelash relationships | Open/half/closed comparison, socket and silhouette integrity |
+| Head turns reveal face/fleece slipping | Short yaw/pitch probe with owned attachments; no full rig required | Before/after seam/root positions, 3/4 and Side behavior |
+| Hooves/legs appear thin or lose ground contact | Low-cost articulation/support pose of affected limb | Contact, thickness and perceived weight in useful views |
+
+If a low-cost scripted solution passes the relevant comparison, **do not force
+a sculpting rebuild**. If it consistently fails perceptually, a small organic
+sculpting/retopology alternative can be evaluated. No test above awards a Human
+Gate or proves runtime performance without the required evidence.
+
 ### Learning notes: retain only useful, auditable insights
 
 When external material changes a real production decision, preserve a *small*
@@ -156,14 +201,21 @@ Primary professional evidence and product documentation:
 - [Blender Studio — Sprite Fright: Sculpting Advice (Julien Kaspar)](https://studio.blender.org/blog/sprite-fright-sculpting-advice-for-production/) — direct article; early 2D/3D iteration, sculpt-for-design, poses, detail timing.
 - [Blender Studio — Sculpting Pets (Julien Kaspar / Vivien Lulkowski)](https://studio.blender.org/blog/pets-expression-sculpting/) — direct article; parallel 2D concept and 3D character development.
 - [Blender Studio — Blender Fundamentals 4.5 LTS](https://studio.blender.org/training/blender-fundamentals-45-lts/) — course overview; several individual fundamentals lessons are free, full course includes paid material.
-- [Blender — Stylized Character Workflow with Blender (Julien Kaspar, YouTube)](https://www.youtube.com/watch?v=f-mx-Jfx9lA) — public video metadata/description verified; not a claim to have watched the full video.
-- [Dikko — Modeling for Animation 02 (YouTube)](https://www.youtube.com/watch?v=4vAqPaFv8QA) — public video metadata/description verified; broad articulation-planning reference, not Carol-specific proof.
+- [Blender — Stylized Character Workflow with Blender (Julien Kaspar, YouTube)](https://www.youtube.com/watch?v=f-mx-Jfx9lA) — transcript retrieved; relevant narration and official timestamped VTT inspected; not a visual-frame review.
+- [Dikko — Modeling for Animation 02 (YouTube)](https://www.youtube.com/watch?v=4vAqPaFv8QA) — transcript retrieved; relevant passages reviewed; broad articulation-planning reference, not Carol-specific proof.
+- [Blender Studio — Defining Goals](https://studio.blender.org/training/stylized-character-workflow/5d3a1b3d4bc3ff1bb9513d38/), [Creating a Primitive Body](https://studio.blender.org/training/stylized-character-workflow/5d7f7cf055ccaf1a4a78102d/), [Basic Expression Shapekeys](https://studio.blender.org/training/stylized-character-workflow/5da05942e2e7bac4cc81bd5a/), [Planning the Facial Retopology](https://studio.blender.org/training/stylized-character-workflow/5e5407ec8faf011a381510d7/) — free lessons; official downloadable English VTT transcripts retrieved and relevant passages distilled, not claims of frame-by-frame inspection.
+- [Dikko — Retopologising the Face](https://www.youtube.com/watch?v=SwM19PgSdCM) — transcript retrieved; relevant passages reviewed; example human topology, not a required Carol loop pattern.
+- [Blender Conference 2023 — Sculpting Live Session](https://www.youtube.com/watch?v=FDscc66fC90) — transcript retrieved; relevant passages reviewed; production sculpt blocking, linked symmetry and concept comparison.
+- [Blender Studio Rigging Tools](https://studio.blender.org/training/blender-studio-rigging-tools/) — free course previews/catalogue inspected; CloudRig clips and corrective shape-key addon were **not** reproduced or transcript-verified here; the CloudRig wiki warns that older video instructions can be outdated.
 - [Blender 4.5 LTS Manual — glTF 2.0 export and animation](https://docs.blender.org/manual/ja/4.5/addons/import_export/scene_gltf2.html) — direct technical documentation.
 - [PlayCanvas — Building Models](https://developer.playcanvas.com/user-manual/assets/models/building/) and [Exporting Assets](https://developer.playcanvas.com/user-manual/assets/models/exporting/) — direct engine documentation.
 
-All Grimo-specific examples above are **engineering inferences**, not
-reported successful experiments. The guide does not assert that any tutorial
-has been reproduced or any new Carol quality gate has been passed.
+All Grimo-specific experiments and transfer suggestions are **engineering
+hypotheses**, not verified Carol fixes. Eight video transcript sources were
+retrieved and their relevant passages reviewed in text form (Kaspar overview; Dikko body and face; 2023 sculpting
+session; Studio Defining Goals, Primitive Body, Shape Keys, and Facial
+Retopology — eight videos in total); none was visually frame-audited or
+reproduced in Blender. No new Carol quality gate has been passed.
 
 ## Prototype rule
 
