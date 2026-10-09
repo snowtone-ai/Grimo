@@ -15,6 +15,10 @@ Use this index to locate durable authority. Current execution truth is not durab
 - `assets/grimo/source/carol/approved-3d/authority.json` — active Carol visual and supporting-geometry authority
 - `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` — supporting geometry parameters
 
+## Blender implementation reference (non-authoritative)
+
+- [GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md](character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md) — practical character modeling, sculpt/design insights, deformation and GLB implementation, sourced examples, and validation boundaries. Consult relevant sections for Blender/3D character work; it does **not** override Product Goal, canonical identity, Production Architecture, Production Operating System, or current Carol production state.
+
 ## History
 
 `docs/archive/`, Carol evidence, historical source assets, and Git history preserve provenance. They do not override current explicit authority.
