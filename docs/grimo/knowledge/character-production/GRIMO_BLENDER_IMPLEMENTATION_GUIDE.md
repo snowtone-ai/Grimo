@@ -201,18 +201,18 @@ Primary professional evidence and product documentation:
 - [Blender Studio — Sprite Fright: Sculpting Advice (Julien Kaspar)](https://studio.blender.org/blog/sprite-fright-sculpting-advice-for-production/) — direct article; early 2D/3D iteration, sculpt-for-design, poses, detail timing.
 - [Blender Studio — Sculpting Pets (Julien Kaspar / Vivien Lulkowski)](https://studio.blender.org/blog/pets-expression-sculpting/) — direct article; parallel 2D concept and 3D character development.
 - [Blender Studio — Blender Fundamentals 4.5 LTS](https://studio.blender.org/training/blender-fundamentals-45-lts/) — course overview; several individual fundamentals lessons are free, full course includes paid material.
-- [Blender — Stylized Character Workflow with Blender (Julien Kaspar, YouTube)](https://www.youtube.com/watch?v=f-mx-Jfx9lA) — complete narration transcript reviewed; official timestamped VTT also inspected; not a visual-frame review.
-- [Dikko — Modeling for Animation 02 (YouTube)](https://www.youtube.com/watch?v=4vAqPaFv8QA) — complete narration transcript reviewed; broad articulation-planning reference, not Carol-specific proof.
-- [Blender Studio — Defining Goals](https://studio.blender.org/training/stylized-character-workflow/5d3a1b3d4bc3ff1bb9513d38/), [Creating a Primitive Body](https://studio.blender.org/training/stylized-character-workflow/5d7f7cf055ccaf1a4a78102d/), [Basic Expression Shapekeys](https://studio.blender.org/training/stylized-character-workflow/5da05942e2e7bac4cc81bd5a/), [Planning the Facial Retopology](https://studio.blender.org/training/stylized-character-workflow/5e5407ec8faf011a381510d7/) — free lessons; official downloadable English VTT transcripts read and distilled, not claims of frame-by-frame inspection.
-- [Dikko — Retopologising the Face](https://www.youtube.com/watch?v=SwM19PgSdCM) — complete narration transcript reviewed; example human topology, not a required Carol loop pattern.
-- [Blender Conference 2023 — Sculpting Live Session](https://www.youtube.com/watch?v=FDscc66fC90) — complete narration transcript reviewed; production sculpt blocking, linked symmetry and concept comparison.
+- [Blender — Stylized Character Workflow with Blender (Julien Kaspar, YouTube)](https://www.youtube.com/watch?v=f-mx-Jfx9lA) — transcript retrieved; relevant narration and official timestamped VTT inspected; not a visual-frame review.
+- [Dikko — Modeling for Animation 02 (YouTube)](https://www.youtube.com/watch?v=4vAqPaFv8QA) — transcript retrieved; relevant passages reviewed; broad articulation-planning reference, not Carol-specific proof.
+- [Blender Studio — Defining Goals](https://studio.blender.org/training/stylized-character-workflow/5d3a1b3d4bc3ff1bb9513d38/), [Creating a Primitive Body](https://studio.blender.org/training/stylized-character-workflow/5d7f7cf055ccaf1a4a78102d/), [Basic Expression Shapekeys](https://studio.blender.org/training/stylized-character-workflow/5da05942e2e7bac4cc81bd5a/), [Planning the Facial Retopology](https://studio.blender.org/training/stylized-character-workflow/5e5407ec8faf011a381510d7/) — free lessons; official downloadable English VTT transcripts retrieved and relevant passages distilled, not claims of frame-by-frame inspection.
+- [Dikko — Retopologising the Face](https://www.youtube.com/watch?v=SwM19PgSdCM) — transcript retrieved; relevant passages reviewed; example human topology, not a required Carol loop pattern.
+- [Blender Conference 2023 — Sculpting Live Session](https://www.youtube.com/watch?v=FDscc66fC90) — transcript retrieved; relevant passages reviewed; production sculpt blocking, linked symmetry and concept comparison.
 - [Blender Studio Rigging Tools](https://studio.blender.org/training/blender-studio-rigging-tools/) — free course previews/catalogue inspected; CloudRig clips and corrective shape-key addon were **not** reproduced or transcript-verified here; the CloudRig wiki warns that older video instructions can be outdated.
 - [Blender 4.5 LTS Manual — glTF 2.0 export and animation](https://docs.blender.org/manual/ja/4.5/addons/import_export/scene_gltf2.html) — direct technical documentation.
 - [PlayCanvas — Building Models](https://developer.playcanvas.com/user-manual/assets/models/building/) and [Exporting Assets](https://developer.playcanvas.com/user-manual/assets/models/exporting/) — direct engine documentation.
 
 All Grimo-specific experiments and transfer suggestions are **engineering
-hypotheses**, not verified Carol fixes. Seven primary narration sources were
-reviewed in text form (Kaspar overview; Dikko body and face; 2023 sculpting
+hypotheses**, not verified Carol fixes. Eight video transcript sources were
+retrieved and their relevant passages reviewed in text form (Kaspar overview; Dikko body and face; 2023 sculpting
 session; Studio Defining Goals, Primitive Body, Shape Keys, and Facial
 Retopology — eight videos in total); none was visually frame-audited or
 reproduced in Blender. No new Carol quality gate has been passed.
