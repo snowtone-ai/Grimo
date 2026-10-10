@@ -23,11 +23,20 @@ Use this index to locate durable authority. Current execution truth is not durab
 
 `docs/archive/`, Carol evidence, historical source assets, and Git history preserve provenance. They do not override current explicit authority.
 
-## 2026-10-11 Partial Project synchronization
+## 2026-10-11 Project Knowledge synchronization
 
 - [Lightweight ChatGPT Router](GRIMO_PROJECT_KNOWLEDGE_ROUTER.md): a compact path map and authority-check protocol.
 - `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`: scoped 2026-10-10 detachable-ornament addendum incorporated.
-- **Pending:** the newer complete Carol Geometry Parameters, Jill/Pino/Shushu Tripo generation-pose draft, expanded Eevee camera source, Project Experience Spec and old Carol MVP snapshot. Do **not** treat this partial branch as a full preservation of Project Knowledge.
-- **Not touched:** GitHub PNG reference images and existing active Carol MVP Motion Spec. Two Project Skin images differ by hash.
 
 See the router's Pending section before deleting Project attachments.
+
+### Reconciled additional sources
+- `GRIMO_CHARACTER_EXPERIENCE_SPEC.md` — complete Project version (expanded).
+- `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` — complete 2026-10-10 Project version.
+- `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` — complete 2026-10-10 geometry/ornament/hoof contract plus previously active localized ear-module authority preserved.
+- [Detailed Eevee camera evidence](research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_DETAILED_EVIDENCE.md) — full measured analysis; short framing summary remains intact.
+- [Tripo Generation Pose Contract](character-production/GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md) — **DRAFT**, Human approval and 3D validation still pending.
+- `docs/archive/grimo-legacy-knowledge/CAROL_MVP_MOTION_SPEC_PROJECT_SNAPSHOT_20261011.md` — Project-uploaded snapshot preserved with normalized line endings; the **active** Carol MVP Motion Spec retains newer fleece-body ownership corrections and takes precedence.
+- `GRIMO_PRODUCTION_OPERATING_SYSTEM.md` and seven other matching Markdown knowledge sources were already present; no redundant change necessary.
+
+**Unresolved visual evidence:** Uploaded Skin Front/Side do not match repository PNGs; no images were changed or promoted to authoritative status.

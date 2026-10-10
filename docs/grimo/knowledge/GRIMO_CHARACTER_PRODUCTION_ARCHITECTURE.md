@@ -1,7 +1,7 @@
 # Grimo — Character Production Architecture
 
 **Status:** Active durable production-architecture authority  
-**Updated:** 2026-10-10 (2026-10-10 ornament separation added)  
+**Updated:** 2026-10-10 (decorative-object separation decision added)  
 **Scope:** Grimo character capability envelope; Carol first, reusable for Jill / Pino / Shushu
 
 ---
@@ -117,6 +117,8 @@ For a character:
 
 A model must not redefine Carol, Jill, Pino, or Shushu to accommodate an easier topology or rig.
 
+**2026-10-10 Human decision — ornament separation:** Stars, moons, flowers and other clearly detachable decorative objects are independently authored assets/scene objects, not fused into the character's anatomy or base mesh. The completed adorned identity must still preserve the canonical motifs. A base-body input is not, by itself, an approved final character appearance.
+
 Supporting numbers help maintain consistency.
 
 They do not justify a visibly off-model final character.
@@ -125,15 +127,18 @@ They do not justify a visibly off-model final character.
 
 ## 3.1 Independent decoration / accessory boundary (Human decision 2026-10-10)
 
-For **Carol, Jill, Pino and Shushu**, identify detachable decorative **objects** (stars, moons, free flowers, wearable crowns, carried bouquets, bubbles, petals and butterflies) and author them as objects/assets separate from the base character mesh. Complete identity is reconstructed by composing body and decorations in the final scene.
+For **Carol, Jill, Pino and Shushu**, separate identifiable decorative **objects** (for example stars, moons, flowers, wearable crowns, loose blossoms, bubbles and other scene props) from the underlying body asset. Do not fuse them into the base character during image-to-3D generation merely because they are visible in the canonical artwork.
 
-- **Body assets retain** natural identity-critical anatomy and appearance: face and eyes, ears, fleece, limbs, hooves/paws, wings, horns, tail, natural head fronds or leaf mane, body markings and highlights.
-- **Decorative objects** have independent ownership and may be rigidly mounted, parented to their anatomical anchors, animated separately, or implemented as VFX as appropriate.
-- An apparent flower or leaf is not automatically removable decoration. **Classify anatomy versus ornament first**; for Jill this particularly concerns head leaves and tail structures.
-- A body-only 2D image is an **input derivative**, not a replacement for the canonical, fully decorated character identity. The approved completed-design silhouette and motifs must be restored.
-- Tripo, Blender and mixed asset techniques are implementation options; the rule does not weaken full-spatial geometry, expressive-motion or mobile-runtime requirements.
-- Carol's original ornamented Normal Front/Side remain completed-design references. Body-only candidates, when authorized, are only for the base-generation role and cannot silently reset numeric geometry authority.
-- If the final appearance and source references disagree, resolve by specific Human-authorized scope, never by relabeling a candidate as approved.
+- **Body assets** retain identity-critical anatomy and materials: face/eyes (including natural highlights), ears, wings/horns where anatomical, fleece, patterned fur, limbs, hooves, tail, organically growing or structurally attached forms as decided by the character-specific authority.
+- **Decorative assets** have independent object/mesh ownership; they may be rigidly attached, parented to the appropriate anatomical region, independently animated, or scene-level/VFX objects as the experience requires.
+- Preserve the completed silhouette and motifs by composing body + decorations **after** base generation. Scene graph separation does not mean decorative items must become player-owned collectible inventory.
+- A clear object/motif in an illustration is not automatically valid multi-view geometry authority: placement, occlusion, attachment and animation must be checked against the canonical design and actual 3D result.
+- In cases where a leaf, flower, pattern or highlight may be anatomy/material rather than a detachable ornament, **classify it explicitly before removal**. Do not remove the shape just to simplify Tripo.
+- The choice of **Blender, Tripo, scripted tools, custom mesh construction or mixed technique** remains an implementation choice within the approved full-spatial architecture. The decision does not mandate a new engine or weaken geometry, expressive-motion and mobile-runtime requirements.
+
+**Carol reference split:** The original decorated `carol_front.png` / `carol_side.png` remain completed-design authority. The 2026-10-10 accessory-free `carol_front_bodyonly_candidate.png` / `carol_side_bodyonly_candidate.png` serve only the *base model input* role while Tripo preflight is pending; details and gates are in `CAROL_GEOMETRY_PARAMETERS.md` §17.
+
+---
 
 ## 4. Full-spatial coherence
 

@@ -1,47 +1,50 @@
-# Grimo — Lightweight Project Knowledge Router
+# Grimo — Project Knowledge Router
 
-**Date:** 2026-10-11  
+**Updated:** 2026-10-11  
 **Repository:** https://github.com/snowtone-ai/Grimo  
-**Documentation branch:** `docs/project-knowledge-router-20261011` (not yet merged into `main`).  
-**Status:** Partial sync. This is a routing document; it does not replace detailed specifications.
+**Knowledge branch:** `docs/project-knowledge-router-20261011` (not merged into `main`).  
+**Purpose:** Keep ChatGPT Project Knowledge small; retrieve detailed specs from GitHub only when needed.
 
-## Grimo core
-- Smartphone-first PWA: **Task / Calendar / Grimo / Collection**.
-- Carol, Jill, Pino, Shushu: preserve canonical visual identity, original personality, natural intent, touch causality, intentional stillness, bidirectional interaction, interruption, afterglow and variety. No punishment for absence or affinity XP.
-- Full-spatial 3D / Blender / GLB-glTF / PlayCanvas. Front interaction receives maximum polish without side/rear collapse.
-- Human visual approval determines appeal; technical gates are evidence, not substitutes.
-- Planner provides Goal, Authority, State, acceptance and external limits; Codex chooses tools, construction technique and proportionate validation.
-- Detachable stars/moons/flowers/bouquets/bubbles are independent assets. Preserve biological/identity-critical fleece, leaves, wings, tail, facial material and patterns.
+## 1. Durable project contract
+Grimo is a smartphone-first **Task / Calendar / Grimo / Collection** PWA. Carol, Jill, Pino and Shushu are original living 3D companions. Priority: canonical appearance, cuteness, natural attention/autonomy, intentional stillness, causal touch, responsive local body action, emotional afterglow, interruption and variation. No absence penalties or relationship XP.
 
-## Repository map
-| Task | Location |
+Technical design: coherent full-spatial 3D, maximum perceptual polish in the front interaction view, with plausible 3/4/side/rear geometry. Blender and GLB/glTF through PlayCanvas in a mobile PWA. Human visual acceptance outranks metric PASS. Planner sets Goal, approved authorities and acceptance; Codex selects production method without arbitrary test/attempt requirements.
+
+**2026-10-10 approval:** Clearly detachable decorations (stars, moon motifs, bouquet, loose flowers, bubbles, floating particles) are separately authored assets. Identity-critical anatomy and markings (including fleece, head foliage, wings, tail, eyes) must remain. Body-only generation input is **not** the complete canonical identity.
+
+**2026-10-11 draft:** Jill/Pino/Shushu Tripo generation poses require Human visual approval. Generation pose, rig rest pose and in-game neutral are distinct; numerical draft ranges are hypotheses. Do not incur new paid costs without authorization.
+
+## 2. Fast repository map
+
+| Question | GitHub path |
 |---|---|
-| Repo rules / code layout | `README.md`, `AGENTS.md`, `docs/repo-map.md` |
-| Durable authority index | `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md` |
-| Product goal and quality | `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` |
-| Features / data model | `docs/grimo/knowledge/product/` |
-| Character experience | `docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md` |
-| Full-spatial production architecture | `docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` |
-| Planner/Codex/Human roles | `docs/grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md` |
-| Canonical character identity images | `assets/grimo/source/{carol,jill,pino,shushu}/` |
-| Carol visual authorities / registration | `assets/grimo/source/carol/approved-3d/`, `authority.json` |
-| Carol geometry contract | `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` |
-| Carol mutable work state | `docs/production/carol/CAROL_PRODUCTION_STATE.md` (on actual work branch) |
-| Carol motion authority | `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md` |
-| Pikachu/Eevee research | `docs/grimo/knowledge/research/`, `research/motion-masters/` |
-| Source / QA / tools | `src/`, `scripts/`, `tests/`, `docs/architecture/` |
-| Historical superseded files | `docs/archive/` |
+| Basic structure | `README.md`, `AGENTS.md`, `docs/repo-map.md` |
+| Authority index | `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md` |
+| Product North Star | `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` |
+| Product functions, Collection, rewards, data | `docs/grimo/knowledge/product/` |
+| Living companion experience | `docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md` |
+| Full spatial character architecture | `docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` |
+| Planner / Codex / Human workflow | `docs/grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md` |
+| Original identity artwork | `assets/grimo/source/{carol,jill,pino,shushu}/` |
+| Carol original completed-design and Skin references | `assets/grimo/source/carol/approved-3d/` + `authority.json` |
+| Carol geometry/hoof + 2026-10-10 body-only scope | `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` |
+| **Mutable** Carol production state | `docs/production/carol/CAROL_PRODUCTION_STATE.md` **on the execution branch** |
+| **Current** Carol MVP Motion (body-owned fleece) | `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md` |
+| Jill/Pino/Shushu Tripo **DRAFT** | `docs/grimo/knowledge/character-production/GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md` |
+| Partner Eevee / Pikachu motion analysis | `docs/grimo/knowledge/research/`, `research/motion-masters/` |
+| Full Eevee camera/framing measurements | `docs/grimo/knowledge/research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_DETAILED_EVIDENCE.md` |
+| App implementation, tests and 3D tooling | `src/`, `scripts/`, `tests/`, `docs/architecture/` |
+| Superseded/historical | `docs/archive/` |
 
-## Minimum retrieval policy
-1. Determine the actual relevant branch, HEAD, file and authorization. `main` is historically behind later October design changes; a state document dated September is not proof of current status.
-2. Read **1–3** relevant sources first; expand only when insufficient. Do not load the entire research corpus automatically.
-3. Separate canonical approval, scoped production references, draft hypotheses, current source code and historical evidence. Report path plus revision for important decisions.
-4. Direct Human identity/appearance decisions outrank apparently passing geometry metrics. Pokémon reference analyses convey general principles, not exact copyrighted animation instructions.
+## 3. Retrieval rules
+1. Check **relevant branch and current HEAD** before citing implementation state. `main` is a historical Phase-0 base; later files are present on other branches.
+2. Fetch **only 1–3 relevant documents first**; add research, historic evidence or code only if needed. Do not preload the entire repository.
+3. Keep separate: newer explicit Human decisions, canonical identity, scoped approved references, draft pose images, detailed evidence, historical candidates and model hypotheses. A "new" image does not automatically supersede a final reference.
+4. Carol’s current live Motion Spec contains later **no macro positional fleece lag** semantics than the Project-uploaded version; the upload was saved as a historical snapshot and never overrode it.
+5. For appearance review use actual images, not just text descriptions. For important conclusions mention inspected file and revision.
 
-## Pending, not yet repository-synchronized
-The Project versions of `CAROL_GEOMETRY_PARAMETERS.md` (2026-10-10), `GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md` (2026-10-11), expanded `GRIMO_CHARACTER_EXPERIENCE_SPEC.md`, the full Eevee camera analysis, and one older Carol MVP Motion snapshot require full-fidelity file transfer and comparison. **Do not remove those Project uploads yet.** In particular, keep the repository's *later* Carol MVP fleece/body-ownership corrections rather than overwriting with a previous snapshot.
+## 4. Remaining visual-authority caution
+Two Project-uploaded files (`carol_skin_front`, `carol_skin_side`) **do not match by bytes** the corresponding earlier inspected GitHub images. The authoritative version is not determined from file names alone. Their GitHub originals were **not overwritten** during Markdown synchronization; retain uploaded copies for a Human visual gate when needed. The other six character/Carol image uploads matched GitHub in the previous audit.
 
-Uploaded `carol_skin_front` and `carol_skin_side` do not byte-match the inspected GitHub images. No image was modified. The other six uploaded PNGs match. Keep both mismatched images until visual authority is resolved.
-
-**Partial synchronization note:** Only the compact router/index and the explicitly grounded 2026-10-10 decorative-object addition to Character Production Architecture are synchronized on this branch. Treat listed pending items as pending, not completed.
-
+## 5. Project Knowledge housekeeping
+The detailed uploaded Markdown documents are preserved or reconciled in this branch. Keep this compact router and useful source images in ChatGPT Project Knowledge; fetch detailed documents from GitHub as required. Changing the repository does not remove Project Knowledge attachments. Do not delete unmatched/sole copies before verifying accessible storage.

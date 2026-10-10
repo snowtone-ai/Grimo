@@ -4,9 +4,7 @@
 **Updated:** 2026-09-23  
 **Scope:** Carol / Jill / Pino / Shushu motion, attention, interaction, behavior and Human experience gates
 
-> Grimo is not a character that merely moves a lot. It is a companion whose
-> attention, intent, bodily causality, emotion, afterglow and agency make it feel
-> present.
+> Grimo is not a character that merely moves a lot. It is a companion whose attention, intent, bodily causality, emotion, afterglow and agency make it feel present.
 
 ## 1. Experience quality model
 
@@ -23,84 +21,96 @@ Identity Fidelity
 × Character Specificity
 ```
 
-Major failure factors include generic motion, latency, obvious repetition,
-off-model deformation, floaty/root-dominant motion, VFX dependence, and
-personality retargeting.
+Major failure factors include generic motion, latency, obvious repetition, off-model deformation, floaty/root-dominant motion, VFX dependence and personality retargeting.
 
 ## 2. Core terminology
 
-- **Living idle:** internal state/attention/tiny behavior remain readable without
-  user input.
-- **Moving hold:** pose/emotion holds while only small channels continue.
-- **Afterglow:** emotion/gaze/posture/next-action probability persist after the
-  main action.
-- **Local acknowledgement:** contacted region visibly receives input before
-  larger propagation.
-- **Behavior family:** reactions sharing semantic purpose.
-- **Performance variant:** timing/side/face/appendage/settle variation that
-  preserves meaning.
-- **Intentional stillness:** valid living behavior, not scheduler failure.
-- **Identity envelope:** allowed expression/deformation/pose range preserving
-  canonical identity.
+- **Living idle:** no user input, but internal state, attention, tiny behavior and intentional stillness remain readable.
+- **Moving hold:** pose/emotion is held while only small physiological/attention/secondary channels continue.
+- **Afterglow:** emotion, gaze, posture and next-action probability persist after the primary action ends.
+- **Local acknowledgement:** contacted region visibly receives input before larger body reaction.
+- **Behavior family:** reactions with the same semantic purpose.
+- **Performance variant:** timing/side/face/appendage/settle variation while preserving the same meaning.
+- **Intentional stillness:** explicitly valid living behavior, not scheduler failure.
+- **Identity envelope:** allowed facial, gaze, deformation and pose range that preserves canonical identity.
 
 ## 3. Motion philosophy
 
-- **Cause before motion.** Motion should arise from user input, attention,
-  internal state, reciprocal intention, or self-initiative.
-- **Local before global for touch.** Contact normally acknowledges locally
-  before larger body response.
-- **Correlated asynchrony.** Life comes from selective asynchronous channel
-  ownership, not random desynchronization or full-body animation on every event.
-- **Intentional stillness.** Constant oscillation is prohibited as a substitute
-  for life.
-- **Grounded weight.** Support/COM must make actions feel physically owned.
-- **Temporal phrase.** Anticipation → action → follow-through → settle →
-  afterglow.
-- **Context sensitivity.** Zone, side, gesture, duration, speed, current state,
-  recent history, and interruption context matter.
-- **Repetition suppression.** Variation exists both at behavior-family and
-  performance-execution levels.
+### Cause before motion
+Every meaningful motion should have a cause: user input, attention change, internal state, reciprocal intention or authored self-initiative.
 
-## 4. Attention / gaze
+### Local before global when touch supplies the cause
+Touch should normally read as local acknowledgement first, then face/head/body/secondary propagation when appropriate.
 
-Support natural blinking, gaze changes, attention toward interaction,
-environmental looking-away, coordinated head/eye behavior, smooth expression
-changes, and attention persistence. The character must not stare continuously.
+### Correlated asynchrony
+Life comes from selective, asynchronous channel ownership, not random desynchronization and not full-body animation on every event.
+
+### Intentional stillness
+Long quiet holds are valid. Constant oscillation is prohibited as a substitute for life.
+
+### Grounded weight
+The support base and center-of-mass read must make actions feel physically owned rather than floating.
+
+### Temporal phrase
+Use anticipation, action, follow-through, settle and afterglow as an authored temporal curve rather than snapping into one expression/pose.
+
+### Context sensitivity
+Reaction depends on contact zone, side, gesture, duration, speed, current state, recent history and interruption context.
+
+### Repetition suppression
+Variation is required at both behavior-family selection and performance execution level. Deterministic causality and stochastic variation are separate concerns.
+
+## 4. Attention and gaze
+
+The character should support:
+
+- natural blinking;
+- eye aim / gaze changes;
+- attention toward interaction;
+- looking away / environmental attention;
+- coordinated head/eye behavior;
+- expression changes without visible snapping;
+- attention persistence before and after user input.
+
+The character must not stare directly at the user continuously.
 
 ## 5. Touch grammar
 
-Runtime input should preserve semantic zone, left/right side, gesture class,
-speed, duration, and relevant direction/history.
+Runtime input should preserve at least:
 
-Typical positive chain:
+- semantic zone;
+- left/right side;
+- gesture class;
+- speed;
+- duration;
+- direction/history where relevant.
+
+A typical positive chain is:
 
 ```text
 touch
 → immediate local ACK
 → facial evaluation
-→ head / upper-body commitment
+→ head/upper-body commitment
 → optional contact-seeking lean
 → secondary follow-through
 → settle
 → positive afterglow
 ```
 
-Contact seeking may be bidirectional: the companion can move the contacted region
-toward accepted contact.
+Contact seeking is bidirectional: the companion may actively move the contacted body region toward accepted contact.
 
-Boundary grammar is non-hostile:
+Boundary grammar is characterful and non-hostile:
 
 ```text
 hint → mild refusal → withdrawal → recovery
 ```
 
-## 6. Agency / autonomy
+## 6. Agency and autonomy
 
-Required autonomous families include quiet living state, attention shifts,
-self-expression/grooming, environment/user checking, affection invitation,
-WAIT, recovery/settle, and rare signature behavior.
+Required autonomous families include quiet living state, attention shifts, self-grooming/self-expression, environment/user checking, affection invitation, WAIT state, recovery/settle and rare signature behavior.
 
-Character → User interaction is first-class:
+Character → User interaction is a first-class pattern:
 
 ```text
 character initiates
@@ -113,76 +123,105 @@ character initiates
 
 WAIT must feel alive without constant body motion.
 
-## 7. Emotion / interruption
+## 7. Emotion and continuity
 
-Emotion persists beyond a single-frame preset. Stronger emotion may recruit more
-channels; small reactions should not spend every channel at once.
+Emotion is a persistent state, not a one-frame preset. Stronger emotions may recruit progressively more channels. Small reactions should not spend face + ears + limbs + torso + tail/fleece + VFX all at once.
 
-New input must be able to interrupt/redirect current behavior without mandatory
-finish-to-neutral or clip queue spam.
+New user input must be able to interrupt/redirection current behavior without mandatory finish-to-neutral or clip queue spam.
 
 ## 8. Secondary motion
 
-Secondary systems reinforce primary acting; they do not create its meaning.
-Primary motion must read with sound/VFX/secondary motion disabled. Secondary
-structures may lag/overshoot/settle only inside character-specific limits.
+Secondary systems reinforce primary acting; they do not create the action's meaning.
 
-## 9. Character signatures
+Primary motion must be readable with sound/VFX/secondary motion disabled. Secondary structures should lag, overshoot or settle only within character-specific limits.
+
+## 9. Character-specific signatures
 
 ### Carol — attention-seeking + relaxed
-Grounded, reassuring, soft timing; short limbs/heavy hooves; face/eyes/ears carry
-subtle attention; cheek/head contact seeking is central; dream-cloud fleece is a
-dominant identity system with restrained delayed softness; avoid jelly-like
-global fleece motion.
+- grounded, reassuring, soft timing;
+- very short limbs and heavy hooves preserve low support;
+- face/eyes/ears carry subtle attention;
+- cheek/head contact seeking is central;
+- dream-cloud fleece is a dominant identity system and follows authored primary movement with restrained delayed softness;
+- avoid jelly-like global fleece motion.
 
 ### Jill — attention-seeking + energetic
-Emotion tends to begin chest/upper body then recruit wings/tail/leaves; rooted,
-heavy tail; delayed leaves/flowers.
+- emotion tends to begin chest/upper body then recruit wings/tail/leaves;
+- tail remains rooted/heavy;
+- leaves/flowers follow with delay;
+- avoid generic fast-dragon motion and overly long forelimbs.
 
 ### Pino — energetic + independent
-Soft rounded body, inward arm tendency, buoyant but grounded; thick tail follows
-with delay; water/bubbles are accents.
+- soft rounded body, inward hugging arm tendency;
+- buoyant but grounded, not hollow-balloon;
+- tail follows with delay;
+- water/bubbles are accents, not constant activity.
 
 ### Shushu — relaxed + independent
-Grounded plush weight, delayed compression/settle, small ear bounce, believable
-crown/bouquet attachment.
+- grounded seated/plush weight;
+- soft delayed compression and settle;
+- small ear bounce;
+- crown/bouquet attachment must remain believable.
 
-Share runtime semantics, not signature performance.
+Shared runtime semantics are allowed. Direct sharing of signature performance, identical invitation poses, identical gaze distributions or identical settle timing is not.
 
 ## 10. Carol Minimum Experience Set
 
-P0 Carol must eventually prove: canonical-faithful neutral identity; 15–30 s
-living idle; left/right-aware head + cheek touch causality; distinct touch
-outcomes; contact-seeking lean; self-initiated invitation + WAIT; mild
-boundary/withdrawal + recovery; one larger emotional phrase; representative
-interruption; history-aware repetition suppression; smartphone runtime
-feasibility.
+Coverage, not animation count, is authoritative.
 
-These are **acceptance scenes, not a mandatory sequential production
-waterfall**.
+P0 Carol must eventually prove:
+
+- canonical-faithful neutral identity;
+- 15–30 s living idle with multiple asynchronous micro-event combinations;
+- head + cheek touch causality, left/right aware;
+- distinct tap vs slow pet vs continuous/back-and-forth outcomes where applicable;
+- contact-seeking lean;
+- self-initiated affection invitation + WAIT;
+- mild boundary / withdrawal + recovery;
+- one larger affection/delight phrase with anticipation, peak, settle and afterglow;
+- interruption in representative scenarios;
+- history-aware repetition suppression;
+- smartphone runtime feasibility.
+
+These are **acceptance scenes**, not a mandatory sequential production waterfall.
 
 ## 11. Human Experience Gates
 
-- **Identity Gate:** unmistakably Carol; canonical appeal preserved.
-- **Living Idle Gate:** 15–30 s feels alive while allowing genuine quiet.
-- **Touch Causality Gate:** contact location, propagation, and settle are readable.
-- **Agency Gate:** invitation + WAIT read as intention, not loop.
-- **Hero Acting Gate:** larger phrase reads professionally without VFX/sound.
-- **Interruption Gate:** new input redirects without snap/queue spam/forced neutral.
-- **Repetition Gate:** repeated interaction avoids obvious identical/family spam.
-- **Runtime Experience Gate:** approved experience survives export/runtime/device.
-- **Companion Gate:** several minutes sustain identity, agency, responsiveness,
-  variation, continuity, and character specificity without canned-puppet feel.
+### Identity Gate
+Unmistakably Carol; canonical appeal preserved in the actual presentation envelope.
 
-## 12. Failure diagnosis priority
+### Living Idle Gate
+15–30 s feels alive while allowing genuine quiet and selective channel activity.
 
-Diagnose in this order:
+### Touch Causality Gate
+The viewer can read where contact occurred, how response propagated and how the body settled.
 
-1. identity / appeal
-2. causality / attention
-3. weight / support
-4. temporal phrase / settle / afterglow
-5. repetition / state continuity
-6. deformation or visual artifact causing the above
-7. technical implementation details only insofar as they cause user-visible or
-   functional failure
+### Agency Gate
+Character-initiated invitation and WAIT read as intention rather than a looping clip.
+
+### Hero Acting Gate
+A larger emotional phrase reads professionally with sound/VFX disabled.
+
+### Interruption Gate
+New input redirects behavior without snap, queue spam or forced neutral.
+
+### Repetition Gate
+Repeated interaction does not expose obvious identical-run or same-family spam.
+
+### Runtime Experience Gate
+The approved experience survives export/runtime/device constraints.
+
+### Companion Gate
+Several minutes sustain identity, agency, responsiveness, variation, continuity and character specificity without feeling like a technical demo or canned puppet.
+
+## 12. Failure diagnosis priorities
+
+When something feels wrong, diagnose in this order:
+
+1. identity / appeal;
+2. causality / attention;
+3. weight / support;
+4. temporal phrase / settle / afterglow;
+5. repetition / state continuity;
+6. deformation or visual artifact causing the above;
+7. technical implementation details only insofar as they cause user-visible or functional failure.
