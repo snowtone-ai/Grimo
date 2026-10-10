@@ -2,6 +2,17 @@
 
 This file is the mutable Carol execution routing source.
 
+## Normal semantic v001 — Human visual review pending — 2026-10-10
+
+- Branch: `codex/carol-normal-semantic-v001`, from legitimate baseline `b20afbcda1fe8ea246382f4b5e199af8997a9141`. Verify the candidate commit in Git.
+- State: **`NORMAL_SEMANTIC_V001_AWAITING_HUMAN_VISUAL_REVIEW`**.
+- Saved candidate: `assets/grimo/production/carol/blender/carol-normal-semantic-v001.blend`, SHA256 `11653ff54c62f102c07dbdba99ebe5395e049740a9a6b5c65bb24c2fc411f644`.
+- Head, torso and external tail fleece are reconstructed as three fused, softened regional surfaces with unequal anatomical volumes and selective cloud relief. Historical v002 supplies only gold ornaments; its fleece geometry and shaders are not reused. The crescent is torso-owned.
+- Frozen Skin v004 remains SHA256 `c14f15e35af18e17a63506ea1f4c8ec0f69cb4f52882d27cfa22cb01db7e1f7d`. All 19 original mesh/curve structures, shape-key coordinates, modifiers and material graphs are retained unchanged. The original chassis is hidden; a candidate-local renderable copy recesses 15 low-neck vertices below z=0.255 and x<0.40 (maximum displacement 0.043697). Its upper face and the original support arrangement remain unchanged. This is not a new Skin baseline; the ear Human review remains pending.
+- Evidence and reproduction: [normal-semantic-v001/README.md](evidence/normal-semantic-v001/README.md). Eleven stylized views, seven Clay views and four silhouettes come from the same saved asset hash. Same-scale spatial boards, approved Front/Side comparison and a form/look board accompany the reopened asset audit.
+- Technical sanity passed within its recorded scope: frozen-source preservation, finite/manifold coat surfaces, material/image integrity, ornament seating and render provenance. These checks do not grant visual or deformation acceptance.
+- Next Human decision: identity, cuteness, cloud hierarchy, smaller head/larger body integration, jaw/chest ownership, ear emergence and independent tail against approved authority. No Human visual PASS, production topology lock, rig, motion, runtime or device PASS is recorded.
+
 ## Normal/Fleece planning inputs registered — 2026-10-10
 
 - Human manually supplied [CAROL_NORMAL_SEMANTIC_RECONSTRUCTION_SPEC.md](CAROL_NORMAL_SEMANTIC_RECONSTRUCTION_SPEC.md) and [CAROL_AUTHORITY_MEASUREMENTS.md](CAROL_AUTHORITY_MEASUREMENTS.md). Both documents are dated 2026-10-02 and are preserved unchanged under `docs/production/carol/` for versioned provenance and subsequent production work.

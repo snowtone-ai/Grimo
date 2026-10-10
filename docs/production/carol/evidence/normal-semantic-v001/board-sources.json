@@ -1,0 +1,26 @@
+{
+  "asset_sha256": "11653ff54c62f102c07dbdba99ebe5395e049740a9a6b5c65bb24c2fc411f644",
+  "authority_comparison": "Equal visible height; side candidate mirrored only for comparison. Spatial board uses unchanged camera scale. No shape retouching.",
+  "sources": [
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol_front.png",
+      "sha256": "164a646fbb2f335029e875a09ee4c337f52d8a09f650437420a6f1f83e024197",
+      "display_mirrored": false
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-semantic-v001/beauty/front.png",
+      "sha256": "8fb1524075ebba8198fb869f35484cf4c43b5c0ef55e61e9ebe6639dc8aaa6ea",
+      "display_mirrored": false
+    },
+    {
+      "path": "assets/grimo/source/carol/approved-3d/carol_side.png",
+      "sha256": "9484b7ac49b9d53a517e7f05af6ca4f67f8cc8907cfbfedffe6d51cda2d829b8",
+      "display_mirrored": false
+    },
+    {
+      "path": "docs/production/carol/evidence/normal-semantic-v001/beauty/side.png",
+      "sha256": "4cce58c08ad85e3712c268a75e7d77aac536c62287aab41974a21d0bc864dd51",
+      "display_mirrored": true
+    }
+  ]
+}

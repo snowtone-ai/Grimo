@@ -1,0 +1,208 @@
+{
+  "asset_sha256": "11653ff54c62f102c07dbdba99ebe5395e049740a9a6b5c65bb24c2fc411f644",
+  "frozen_skin_sha256": "c14f15e35af18e17a63506ea1f4c8ec0f69cb4f52882d27cfa22cb01db7e1f7d",
+  "skin_geometry_unchanged": {
+    "FORE_L": true,
+    "HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HIND_R": true,
+    "EAR_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CENTRAL_CHASSIS": true,
+    "EYE_L": true,
+    "EYELID_L": true,
+    "EYE_R": true,
+    "EYELID_R": true,
+    "MOUTH_closed": true,
+    "PHILTRUM": true,
+    "HOOF_FORE_L": true,
+    "HOOF_HIND_L": true,
+    "HOOF_FORE_R": true,
+    "HOOF_HIND_R": true,
+    "NOSE": true
+  },
+  "skin_materials_unchanged": {
+    "FORE_L": true,
+    "HIND_L": true,
+    "EAR_L": true,
+    "FORE_R": true,
+    "HIND_R": true,
+    "EAR_R": true,
+    "SKIN_TAIL_CORE": true,
+    "CENTRAL_CHASSIS": true,
+    "EYE_L": true,
+    "EYELID_L": true,
+    "EYE_R": true,
+    "EYELID_R": true,
+    "MOUTH_closed": true,
+    "PHILTRUM": true,
+    "HOOF_FORE_L": true,
+    "HOOF_HIND_L": true,
+    "HOOF_FORE_R": true,
+    "HOOF_HIND_R": true,
+    "NOSE": true
+  },
+  "coat": {
+    "HeadFleece": {
+      "vertices": 67240,
+      "faces": 67240,
+      "triangles": 134480,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.09513522455916569,
+      "components": [
+        67240
+      ],
+      "finite": true,
+      "bounds": [
+        [
+          0.04224156588315964,
+          0.671981930732727
+        ],
+        [
+          -0.4389469623565674,
+          0.463267982006073
+        ],
+        [
+          0.29403841495513916,
+          0.9145689010620117
+        ]
+      ],
+      "owner": "FLEECE_HEAD_OWNER"
+    },
+    "BodyFleece": {
+      "vertices": 162330,
+      "faces": 162328,
+      "triangles": 324656,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.4784520328231119,
+      "components": [
+        162330
+      ],
+      "finite": true,
+      "bounds": [
+        [
+          0.22250013053417206,
+          1.2193117141723633
+        ],
+        [
+          -0.583211362361908,
+          0.5773381590843201
+        ],
+        [
+          0.080781951546669,
+          0.9999803304672241
+        ]
+      ],
+      "owner": "FLEECE_TORSO_OWNER"
+    },
+    "TailFleece": {
+      "vertices": 10746,
+      "faces": 10744,
+      "triangles": 21488,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0031848594299351838,
+      "components": [
+        10746
+      ],
+      "finite": true,
+      "bounds": [
+        [
+          1.110985517501831,
+          1.3378784656524658
+        ],
+        [
+          -0.08865571022033691,
+          0.09662262350320816
+        ],
+        [
+          0.35097768902778625,
+          0.5251100063323975
+        ]
+      ],
+      "owner": "TAIL_PIVOT"
+    }
+  },
+  "missing_images": [],
+  "human_visual_approval": false,
+  "candidate_neck_support": {
+    "original_chassis_retained_hidden": true,
+    "upper_face_z_ge_0255_unchanged": true,
+    "max_displacement": 0.043697138566683065,
+    "changed_vertices": 15,
+    "purpose": "Candidate-only low neck accommodation behind the bare jaw; not a Skin revision"
+  },
+  "generator_sha256": "d9c55cbdce9723de1821133384f4cfe60a2a2a4cc94e237a9c36aa1dd90d5224",
+  "ornament_contact": {
+    "STAR_upper_left": {
+      "owner": "FLEECE_TORSO_OWNER",
+      "region": "body",
+      "minimum_signed_surface_distance": -0.03771517053246498,
+      "maximum_signed_surface_distance": 0.048822857439517975,
+      "embedded_vertices": 329
+    },
+    "STAR_rump_L": {
+      "owner": "FLEECE_TORSO_OWNER",
+      "region": "body",
+      "minimum_signed_surface_distance": -0.017719043418765068,
+      "maximum_signed_surface_distance": 0.04005162790417671,
+      "embedded_vertices": 493
+    },
+    "STAR_rump": {
+      "owner": "FLEECE_TORSO_OWNER",
+      "region": "body",
+      "minimum_signed_surface_distance": -0.03750589117407799,
+      "maximum_signed_surface_distance": 0.0401872843503952,
+      "embedded_vertices": 515
+    },
+    "STAR_lower_left": {
+      "owner": "FLEECE_TORSO_OWNER",
+      "region": "body",
+      "minimum_signed_surface_distance": -0.019017595797777176,
+      "maximum_signed_surface_distance": 0.04951879754662514,
+      "embedded_vertices": 378
+    },
+    "STAR_crown": {
+      "owner": "FLEECE_HEAD_OWNER",
+      "region": "head",
+      "minimum_signed_surface_distance": -0.02331887185573578,
+      "maximum_signed_surface_distance": 0.04979680851101875,
+      "embedded_vertices": 488
+    },
+    "STAR_chest": {
+      "owner": "FLEECE_TORSO_OWNER",
+      "region": "body",
+      "minimum_signed_surface_distance": -0.012431713752448559,
+      "maximum_signed_surface_distance": 0.04169195517897606,
+      "embedded_vertices": 399
+    },
+    "STAR_brow": {
+      "owner": "FLEECE_HEAD_OWNER",
+      "region": "head",
+      "minimum_signed_surface_distance": -0.027531666681170464,
+      "maximum_signed_surface_distance": 0.06230063736438751,
+      "embedded_vertices": 380
+    },
+    "MOON": {
+      "owner": "FLEECE_TORSO_OWNER",
+      "region": "body",
+      "minimum_signed_surface_distance": -0.038119249045848846,
+      "maximum_signed_surface_distance": 0.10731914639472961,
+      "embedded_vertices": 932
+    }
+  },
+  "authority_verification": {
+    "assets/grimo/source/carol/carol-Identity-canonical.png": true,
+    "assets/grimo/source/carol/approved-3d/carol_front.png": true,
+    "assets/grimo/source/carol/approved-3d/carol_side.png": true,
+    "assets/grimo/source/carol/approved-3d/carol_skin_front.png": true,
+    "assets/grimo/source/carol/approved-3d/carol_skin_side.png": true,
+    "docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md": true,
+    "assets/grimo/source/carol/approved-3d/modules/carol-ear-module-authority.png": true
+  },
+  "technical_sanity": "PASS",
+  "scope": "Neutral geometry/material/source integrity only; no motion/topology/runtime approval"
+}
