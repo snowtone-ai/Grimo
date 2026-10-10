@@ -1,7 +1,7 @@
 # Grimo — Character Production Architecture
 
 **Status:** Active durable production-architecture authority  
-**Updated:** 2026-09-25  
+**Updated:** 2026-10-10 (2026-10-10 ornament separation added)  
 **Scope:** Grimo character capability envelope; Carol first, reusable for Jill / Pino / Shushu
 
 ---
@@ -122,6 +122,18 @@ Supporting numbers help maintain consistency.
 They do not justify a visibly off-model final character.
 
 ---
+
+## 3.1 Independent decoration / accessory boundary (Human decision 2026-10-10)
+
+For **Carol, Jill, Pino and Shushu**, identify detachable decorative **objects** (stars, moons, free flowers, wearable crowns, carried bouquets, bubbles, petals and butterflies) and author them as objects/assets separate from the base character mesh. Complete identity is reconstructed by composing body and decorations in the final scene.
+
+- **Body assets retain** natural identity-critical anatomy and appearance: face and eyes, ears, fleece, limbs, hooves/paws, wings, horns, tail, natural head fronds or leaf mane, body markings and highlights.
+- **Decorative objects** have independent ownership and may be rigidly mounted, parented to their anatomical anchors, animated separately, or implemented as VFX as appropriate.
+- An apparent flower or leaf is not automatically removable decoration. **Classify anatomy versus ornament first**; for Jill this particularly concerns head leaves and tail structures.
+- A body-only 2D image is an **input derivative**, not a replacement for the canonical, fully decorated character identity. The approved completed-design silhouette and motifs must be restored.
+- Tripo, Blender and mixed asset techniques are implementation options; the rule does not weaken full-spatial geometry, expressive-motion or mobile-runtime requirements.
+- Carol's original ornamented Normal Front/Side remain completed-design references. Body-only candidates, when authorized, are only for the base-generation role and cannot silently reset numeric geometry authority.
+- If the final appearance and source references disagree, resolve by specific Human-authorized scope, never by relabeling a candidate as approved.
 
 ## 4. Full-spatial coherence
 

@@ -22,3 +22,12 @@ Use this index to locate durable authority. Current execution truth is not durab
 ## History
 
 `docs/archive/`, Carol evidence, historical source assets, and Git history preserve provenance. They do not override current explicit authority.
+
+## 2026-10-11 Partial Project synchronization
+
+- [Lightweight ChatGPT Router](GRIMO_PROJECT_KNOWLEDGE_ROUTER.md): a compact path map and authority-check protocol.
+- `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`: scoped 2026-10-10 detachable-ornament addendum incorporated.
+- **Pending:** the newer complete Carol Geometry Parameters, Jill/Pino/Shushu Tripo generation-pose draft, expanded Eevee camera source, Project Experience Spec and old Carol MVP snapshot. Do **not** treat this partial branch as a full preservation of Project Knowledge.
+- **Not touched:** GitHub PNG reference images and existing active Carol MVP Motion Spec. Two Project Skin images differ by hash.
+
+See the router's Pending section before deleting Project attachments.
