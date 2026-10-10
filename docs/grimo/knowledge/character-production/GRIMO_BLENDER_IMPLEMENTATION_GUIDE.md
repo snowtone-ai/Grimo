@@ -104,11 +104,75 @@ Use these only when a corresponding visible issue or credible motion risk exists
   and ground contact, and how exposed seams/clearance behave with local turns,
   weight shifts, or bends.
 
-For the cheapest useful probe, compare one specific change to the current
-candidate using a consistent reference, camera and lighting setup. Keep
-evaluation snapshots attributable to the actual candidate. Human-facing
-identity and cuteness still require Human perceptual acceptance; automated
-overlap, intersections and topology diagnostics cannot award it.
+When a comparison could change the production decision, compare against the
+**strongest relevant baseline** (not automatically the newest checkpoint), with
+consistent camera, scale, lighting and source attribution. Do not normalize away
+a requested size change. Human-facing identity and cuteness remain Human-owned;
+silhouette overlap, closed meshes and topology diagnostics cannot award them.
+
+### Semantic 2D-to-3D translation — Carol's current high-risk craft problem
+
+**Evidence:** Carol's current production-state record rejects v004-33's inflated
+fleece despite strong outline fit; checkpoint 41 is an unapproved proportion
+study. The canonical and approved Normal Front/Side remain visual authorities.
+The following are `GRIMO_HYPOTHESIS / NOT_TESTED` decision aids, **not** a
+new geometry recipe, permission to edit approved art, or a claim that v004-41
+passes. The professional precedent is
+[Blender Studio's *Sculpting Pets*](https://studio.blender.org/blog/pets-expression-sculpting/):
+artists explored 2D/3D volumes and extreme expressions together before focused
+topology work; that film workflow is evidence of *design iteration*, not a
+required smartphone-game production sequence.
+
+- **Separate painted boundaries from actual volume boundaries.** In Carol's
+  moon/star/blue-white wool, a colored patch, highlight or drawn lobe edge does
+  not automatically justify a full-depth swelling, mesh island or groove.
+  Judge which masses carry the head, neck and torso, which smaller locks merely
+  overlap those masses, and which accents can remain shallow/material-owned.
+- **Check a readable head–neck–torso hierarchy.** The face projects from a
+  compact head; a smaller head/neck wool surround belongs to that region; the
+  larger rounded body sits behind it. Keep the lower wool rooted around the
+  neck instead of reading as a padded jaw; avoid a large inflated halo,
+  helmet/collar shelf or a seamless giant cloud with a pasted-on face. This
+  describes the *current observed defect and user intent*, not universal
+  sheep anatomy.
+- **Treat negative space as a designed shape.** Inspect the face opening,
+  side facial depth, ear-root pocket, neck constriction, belly-to-hoof
+  clearance and silhouette breaks. Uncontrolled smoothing, voxel remesh or
+  larger wool balls can erase them while improving numerical contour fit.
+- **Separate shape from rendering deception.** Inspect a readable clay/
+  value-neutral version to judge genuine depth and the production-like
+  colored, glossy version to judge identity; neither view alone proves
+  approval. In particular, painted shadows, emission and eye highlights may
+  mask a weak socket, jaw, or wool transition.
+- **Diagnose at the correct scale.** First distinguish a macro mass-placement
+  error from a local lobe/edge problem. A repeated patch to many small locks
+  should not disguise a wrong head-to-body relationship. Compare the relevant
+  alternatives under equal camera **and actual scale**, then allow Codex to
+  choose sculpt, scripted field, part replacement, or mixed edits.
+- **Do not transfer the rule mechanically to other Grimo.** Jill's wings,
+  Pino's otter torso and Shushu's floral elements have different spatial
+  signatures. Transfer *the questions* (primary masses, negative space,
+  silhouette/face appeal, motion ownership), not Carol's anatomy.
+
+### Appeal and deformation — different evidence questions
+
+A good neutral image is not a successful blink or cheek interaction. Before
+locking a motion-critical region, select only the nearby behaviors that could
+materially invalidate its shape: for example open/partial/closed eye and gaze
+for the eye socket; small yaw/lean plus ear motion for a head/neck-wool seam;
+local cheek compression for contact seeking; planted/support-shift pose for a
+hoof. Temporary sculpt variants or pose proxies can reveal risk **without**
+claiming a working rig. If the proxy is too crude to judge the relevant
+appearance, label its result inconclusive.
+
+Human-face retopology and the lesson's mostly-upper-eyelid closure are
+**examples**, not Carol deformation laws. The correct lid path, ocular surface,
+socket volume, eyelash/eye-highlight coordination and cuteness must be chosen
+from Carol's own approved identity and tested through actual visible
+expressions. Likewise shape-key storage requires compatible mesh topology;
+independent remeshed expression sculptures can be *design probes* but are not
+automatically usable as in-game morph targets. Keep attachment ownership clear
+when expressive head, ear, ornaments and wool regions move.
 
 ### Topology, motion and delivery boundary
 
@@ -119,14 +183,35 @@ Use a small relevant articulation or attachment probe to expose design limits
 when a plausible motion depends on them. Do not require final retopology or a
 full animation library before such a probe.
 
-Blender's glTF exporter documents object transforms, pose-bone animation and
-shape-key values as exportable animation channels; arbitrary Blender property
-animation is not universally exported. The export mode also affects how
-Actions/NLA tracks become clips. PlayCanvas documents GLB import support for
-skeletons/skinning and morph targets. Therefore validate any required motion
-or deformation behavior on **the exported GLB in PlayCanvas**, not from the
-Blender viewport alone. These checks become mandatory only when relevant to
-the current Decision Question or production lock.
+**Current exporter boundary (Blender 5.2; version-check before use):**
+[Blender's glTF manual](https://docs.blender.org/manual/en/5.2/addons/scene_gltf2.html)
+lists object transforms, pose bones and shape-key values as animation channels,
+not arbitrary modifier/driver/material behavior. Since Blender 4.4, action
+**slots** affect how `Actions` mode groups animation; `NLA Tracks` and
+other export modes have different clip behavior. The manual documents a
+specific exception for sampling shape keys driven by bone transformations:
+the mesh must be a direct child of the armature. A generic instruction to
+"bake drivers" is insufficient proof that every rig relationship survives.
+Inspect exported clip names, channels, rest poses and coupled deformations.
+
+**Materials are a separate high-risk boundary.** Blender-only combinations
+of diffuse/emission mixes, custom nodes, procedural paint and viewport color
+management must not be assumed to reproduce in glTF's supported material
+model. v004 currently uses a painted-shade system; its **runtime appearance is
+UNVERIFIED**. Compare a representative GLB's colors, eye gloss, wool shading
+and decoration against the approved Blender presentation and adapt shader,
+texture baking or PlayCanvas material behavior only if needed.
+
+[PlayCanvas GLB import](https://developer.playcanvas.com/user-manual/assets/models/building/)
+supports skinning and morph targets, but feature support is not a guarantee
+that this particular rig, custom material, or blending setup looks or acts
+the same. When export is relevant to the decision or production lock,
+validate the **actual GLB in PlayCanvas**. For smartphone feasibility, examine
+asset/texture memory, mesh/draw-call and morph costs, frame pacing and touch
+responsiveness on available hardware; use
+[PlayCanvas optimization guidance](https://developer.playcanvas.com/user-manual/optimization/guidelines/)
+as a diagnostic, not an arbitrary per-character budget. The available
+Xiaomi 14T Pro cannot certify an untested Pixel 7a-class device.
 
 ### Video-transcript field notes (2026-10-10)
 
@@ -207,6 +292,8 @@ Primary professional evidence and product documentation:
 - [Dikko — Retopologising the Face](https://www.youtube.com/watch?v=SwM19PgSdCM) — transcript retrieved; relevant passages reviewed; example human topology, not a required Carol loop pattern.
 - [Blender Conference 2023 — Sculpting Live Session](https://www.youtube.com/watch?v=FDscc66fC90) — transcript retrieved; relevant passages reviewed; production sculpt blocking, linked symmetry and concept comparison.
 - [Blender Studio Rigging Tools](https://studio.blender.org/training/blender-studio-rigging-tools/) — free course previews/catalogue inspected; CloudRig clips and corrective shape-key addon were **not** reproduced or transcript-verified here; the CloudRig wiki warns that older video instructions can be outdated.
+- [Blender 5.2 LTS Manual — glTF 2.0 animation, action slots and exporter limits](https://docs.blender.org/manual/en/5.2/addons/scene_gltf2.html) — current technical cross-check; documentation review, NOT a working Carol export test.
+- [PlayCanvas Optimization — General Guidelines](https://developer.playcanvas.com/user-manual/optimization/guidelines/) — current runtime constraints, not a measured Carol cost.
 - [Blender 4.5 LTS Manual — glTF 2.0 export and animation](https://docs.blender.org/manual/ja/4.5/addons/import_export/scene_gltf2.html) — direct technical documentation.
 - [PlayCanvas — Building Models](https://developer.playcanvas.com/user-manual/assets/models/building/) and [Exporting Assets](https://developer.playcanvas.com/user-manual/assets/models/exporting/) — direct engine documentation.
 
@@ -251,8 +338,9 @@ and mesh diagnostics are evidence. They become blockers when tied to a material
 visible, full-spatial, deformation, attachment, interaction, export, runtime, or
 credible future-motion failure.
 
-Unknown consequence should be tested with the cheapest **valid** probe before
-another polish cycle.
+Where consequences are uncertain and consequential, select a
+decision-useful comparison proportional to risk; cheap probes are often
+valuable, but there is no mandatory cheapest-first production gate.
 
 ## Export / runtime boundary
 
