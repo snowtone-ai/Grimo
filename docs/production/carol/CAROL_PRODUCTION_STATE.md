@@ -2,6 +2,14 @@
 
 This file is the mutable Carol execution routing source.
 
+## Normal/Fleece planning inputs registered — 2026-10-10
+
+- Human manually supplied [CAROL_NORMAL_SEMANTIC_RECONSTRUCTION_SPEC.md](CAROL_NORMAL_SEMANTIC_RECONSTRUCTION_SPEC.md) and [CAROL_AUTHORITY_MEASUREMENTS.md](CAROL_AUTHORITY_MEASUREMENTS.md). Both documents are dated 2026-10-02 and are preserved unchanged under `docs/production/carol/` for versioned provenance and subsequent production work.
+- Read both before the next Normal/Fleece reconstruction. Their recorded starting revision is `e77b8ef53df7a6dfe6a6c6f47f24b8d0d11d7d8e`; this is planning provenance, not a requirement to reset later legitimate Git history. Skin v004 remains frozen as the internal baseline for this phase.
+- Apply the Human-confirmed semantic and numeric-policy updates over conflicting historical instructions or supporting parameter interpretations: jaw/chin owns no fleece; the visible tail is an independent fluffy tuft with visually fitted size; macro body fleece follows the body nearly directly; conversational size examples are not numerical locks. Canonical identity and approved Normal Front/Side remain the visible authorities.
+- The preserved v004-41 checkpoint and handoff below are historical implementation evidence. They do not mandate the next construction method or starting asset; choose reuse or reconstruction according to the new inputs and current visual authority.
+- This registration records planning inputs only. No new Normal/Fleece candidate, geometry change or Human visual PASS is recorded.
+
 ## Current state — 2026-09-29
 
 - Branch: `codex/carol-skin-default-v004`. Verify exact HEAD in Git.

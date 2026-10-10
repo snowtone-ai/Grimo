@@ -13,6 +13,8 @@ Use this index to locate durable authority. Current execution truth is not durab
 
 - `docs/production/carol/CAROL_PRODUCTION_STATE.md` — current mutable Carol execution truth
 - `assets/grimo/source/carol/approved-3d/authority.json` — active Carol visual and supporting-geometry authority
+- [Carol Normal semantic reconstruction spec](../../production/carol/CAROL_NORMAL_SEMANTIC_RECONSTRUCTION_SPEC.md) — Human-confirmed Normal/Fleece meaning, spatial relationships and numeric-authority policy around frozen Skin v004
+- [Carol authority measurements](../../production/carol/CAROL_AUTHORITY_MEASUREMENTS.md) — companion measurement record separating direct raster facts, authority-derived locks and inferred 3D dimensions
 - `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` — supporting geometry parameters
 
 ## History
