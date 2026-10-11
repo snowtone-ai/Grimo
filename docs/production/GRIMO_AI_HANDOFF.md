@@ -2,7 +2,7 @@
 
 **Branch:** `coord/grimo-ai-handoff` (coordination-only; DO NOT use as the code-production base).
 **File:** `docs/production/GRIMO_AI_HANDOFF.md`.
-**Last interaction:** 2026-10-12 / ChatGPT Planner / recorded Human direction for motion-driven Shushu reference-image pack prior to any further 3D reconstruction. A ChatGPT-generated neutral portrait drifted severely from Canonical and was rejected. Human requested Codex-managed image production using direct repository image authorities; this is a proposal until image-generation capability and Human approvals are verified. Tripo remains responsible for final texturing. No production asset changes or Tripo spending.
+**Last interaction:** 2026-10-12 / ChatGPT Planner / recommended Codex GPT-6 Astra, Medium effort, fresh session for the Shushu visual reference pack. Image-generation tool availability in Codex is unverified; no generation, API spend or 3D edits were executed.
 **Status:** Last-known routing snapshot, **not** a substitute for Git/approved source files.
 
 ## 1. How to use / sync contract
