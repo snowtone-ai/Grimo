@@ -30,6 +30,28 @@ Place the four files for each character in:
 
 Here **left/right mean the direction the character faces *on the image***: `left` = nose facing screen left, `right` = nose facing screen right. They are **not** Tripo's left/right camera-slot labels. Establish actual camera/character coordinates and map slot names explicitly at upload.
 
+## 2.1 Byte-exact source verification (15 verified originals)
+
+The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11 conversation**, verified before this register was authored. Use them to distinguish approved artwork from similarly named old images. Different PNG canvas sizes are intentional source facts, **not** instructions to resize the artwork. If a user-supplied local file does not match, report the discrepancy rather than silently replacing it. Carol Back is not in this verified set.
+
+| File | Dimensions (px) | SHA-256 |
+| --- | --- | --- |
+| `carol_bodyonly_front.png` | 1254x1254 | `8b30a279067d55f7e9185b7bba173da05b1e40de30d83e3fea3b4a5726bc6c47` |
+| `carol_bodyonly_left.png` | 1448x1086 | `40c8c09826afc9e7d9b0e128cc63930df7a994ae12a13766084ad7944f9384eb` |
+| `carol_bodyonly_right.png` | 1448x1086 | `bdd05b4dc067e32f720f861d361f525e9c6eaebd82618fea0c78eac194dc8b4b` |
+| `jill_bodyonly_back.png` | 1122x1402 | `503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc` |
+| `jill_bodyonly_front.png` | 1122x1402 | `c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8` |
+| `jill_bodyonly_left.png` | 1122x1402 | `bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31` |
+| `jill_bodyonly_right.png` | 1145x1374 | `f745cbd01b8224b45354e9c3f1621b4668f51cc00df3cfc9287deda415ef019a` |
+| `pino_bodyonly_back.png` | 1086x1448 | `1762021a4d974fd8d9f3c3abbd43fdb31d14f5dff844b566592d7593f06ee5bf` |
+| `pino_bodyonly_front.png` | 1122x1402 | `c4163765b26523849cc32a7ba22499e36a9b89432ede37559c5cd19aa2e96589` |
+| `pino_bodyonly_left.png` | 1122x1402 | `787f7e58b302e6ce4288cd105192c128b7594c02ebed1a2d82d30b6dc9b02b28` |
+| `pino_bodyonly_right.png` | 1122x1402 | `183bf58cda989a1a645aa8bdb045d61a0a0d3b4bc5fafc79fb97bf75d1eb8be8` |
+| `shushu_bodyonly_back.png` | 1024x1536 | `a1ed01e201d6e125623d81e4289b7f17813bab354177e950b7a4836e6dda533d` |
+| `shushu_bodyonly_front.png` | 1086x1448 | `e35dfc9c58324b0454dd06b1222ca8f61f23b3b605a348ecf606255b6d087a18` |
+| `shushu_bodyonly_left.png` | 1122x1402 | `873fe2fbb950cbb21f2e0e64d2617650b5bac4128fb788f15dbd67e881616a61` |
+| `shushu_bodyonly_right.png` | 1024x1536 | `ad754267b4d446dcce9821ceb898304e60cb4a99526b1e0fec0b6169ca25751b` |
+
 ## 3. Registration requirements for local image-placement task
 
 - Start from actual current branch, working tree, and repository instructions; do not infer uploads exist in the remote. Locate newly added PNGs even when currently untracked.
