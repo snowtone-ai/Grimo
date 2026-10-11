@@ -2,7 +2,7 @@
 
 **Branch:** `coord/grimo-ai-handoff` (coordination-only; DO NOT use as the code-production base).
 **File:** `docs/production/GRIMO_AI_HANDOFF.md`.
-**Last interaction:** 2026-10-12 / Codex Executor / saved and pushed Shushu geometry v001: integrated blinking/mouth skin, short-leg foot-supported rest, reachable paw contact and local plush controls. Focused animated GLB reimport PASS; Human perceptual Gate PENDING. No Tripo credits/trials consumed.
+**Last interaction:** 2026-10-12 / ChatGPT Planner / independently checked geometry-v001 PRODUCTION_REVIEW and rendered before-after, face and support review boards against approved references. Bounded technical GO remains; Human Gate remains PENDING. Planner visual observations: less-soft/squarer lower head, pronounced side/rear head banding, closed eyelid depression/half-blink aesthetic; shallow foot-supported rest is promising but deep sit unproven. No production asset changed or Tripo credits spent.
 **Status:** Last-known routing snapshot, **not** a substitute for Git/approved source files.
 
 ## 1. How to use / sync contract
@@ -19,9 +19,9 @@
 ## 2. Last-verified active execution
 
 - **Primary production branch:** `codex/grimo-motion-zero-based-design-20261011`
-- **Verified remote production HEAD:** `a208e5911cfecabbb4fce5f713cefac9be4f152f` — editable Shushu geometry v001, animated/static GLBs, compact visual review and four reproduction scripts. Input HEAD was `749675cac5ebdb07587e715eb2cb59bfcae2768f`. No merge to main.
-- **Next owner:** Human / Planner: review identity, open/half/closed eyelids, small mouth and bounded low rest using the v001 boards/timelines; direct further local repairs if rejected. Final Rig/service decisions remain pending.
-- **Last Human instruction:** Converge original Tripo P2.0 Candidate B into an actual editable, motion-capable production geometry candidate; preserve proportions/source bytes, demonstrate deformation and GLB interchange, commit/push focused changes and sync this branch. No spending/trials/API authorization; no Game Neutral decision or Human Gate PASS.
+- **Verified remote production HEAD:** `a208e5911cfecabbb4fce5f713cefac9be4f152f` — Shushu geometry v001 asset and proof (unchanged in this Planner review); main not merged.
+- **Next owner:** Human perceptual reviewer to accept/require revision for Canonical face silhouette, eyelids, small mouth, side/rear head continuity and shallow support. Planner recommends a focused v002 visual-polish pass **only if Human agrees**, preserving validated v001 controls and not re-running unrelated diagnostics. No Tripo UV/Texture/Auto Rig spending until geometry acceptance.
+- **Last Human message:** Codex pushed editable Shushu geometry v001 and the measured GLB/pose evidence; bounded technical GO, final/Human HOLD. No user Human aesthetic acceptance is recorded. Planner independently inspected three pushed review PNGs and proposed remaining visual issues for review.
 
 ## 3. Shushu — current evidence-backed state
 
