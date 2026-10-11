@@ -1,6 +1,6 @@
-# Shushu Stage A v001 — Human review pending
+# Shushu Stage A v001 — Human accepted 2026-10-12
 
-Generated 2026-10-12 using built-in image_gen. Scope: Stage A only. No Human approval inferred; no Stage B–D or geometry/Tripo actions.
+Generated 2026-10-12 using built-in image_gen. Scope: Stage A only. Human explicitly accepted these three anchors in the next chat message on 2026-10-12. Subsequent full reference pack: ../reference-pack-v001/. No geometry/Tripo actions.
 
 ## Selected review candidates
 
@@ -26,7 +26,7 @@ The generator accepts at most five direct input paths. A six-input call (five au
 - Face candidate retains those eye/mouth features at close framing; fine brushwork/highlights differ and exact pixel/3D correspondence is not asserted.
 - Three-quarter candidate retains short limbs and cheek/head volume with visible foreshortening. Ear visibility, eye foreshortening and body depth remain Human-review items.
 - Closed mouth is a generated neutral interpretation of the top edge of the source open smile; the authorities do not supply an approved closed-mouth state.
-- This is stylized reference illustration, not geometry, topology, rigging or skinning validation. Human identity/cuteness gate remains pending for all three.
+- This is stylized reference illustration, not geometry, topology, rigging or skinning validation. Human subsequently accepted the identity/cuteness gate for all three on 2026-10-12.
 
 ## Exact successful prompts
 
