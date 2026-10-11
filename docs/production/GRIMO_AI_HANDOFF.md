@@ -2,7 +2,7 @@
 
 **Branch:** `coord/grimo-ai-handoff` (coordination-only; DO NOT use as the code-production base).
 **File:** `docs/production/GRIMO_AI_HANDOFF.md`.
-**Last interaction:** 2026-10-12 / ChatGPT Planner / recommended Codex GPT-6 Astra, Medium effort, fresh session for the Shushu visual reference pack. Image-generation tool availability in Codex is unverified; no generation, API spend or 3D edits were executed.
+**Last interaction:** 2026-10-12 / ChatGPT Planner / Human explicitly limited Codex model choice to Sol or below. Revised recommendation for motion-derived Shushu image reference preparation: GPT-6.1 Sol / High (fallback available GPT-6 Sol / High), fresh session without /compact. First verify an actual image generation/edit capability; one Canonical-grounded neutral anchor needs Human approval before batching. No image generation, Tripo operations, or production changes.
 **Status:** Last-known routing snapshot, **not** a substitute for Git/approved source files.
 
 ## 1. How to use / sync contract
