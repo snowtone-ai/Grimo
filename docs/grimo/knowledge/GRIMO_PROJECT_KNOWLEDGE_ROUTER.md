@@ -45,7 +45,7 @@ Technical design: coherent full-spatial 3D, maximum perceptual polish in the fro
 
 ## 3.1 2026-10-11 image registration handoff
 
-- [Body-only multiview asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) is the scoped source for proposed 16 names and `assets/grimo/source/<character>/tripo-generation-pose/` placement. **No assertion that image binaries have reached GitHub**; Codex must compare local candidates, record real hashes, then push.
+- [Body-only multiview asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) is the scoped source for the 16-name target and `assets/grimo/source/<character>/tripo-generation-pose/` placement. As of 2026-10-11, 15 hash-verified PNGs are registered locally; Carol Back is unavailable and pending. The local manifest records measured values; Tripo preflight remains pending.
 - Image names `*_bodyonly_left.png` / `*_bodyonly_right.png` indicate **face direction on the picture**, not Tripo camera-side semantics.
 - Jill/Pino/Shushu four-view 2D Human selections were accepted on 2026-10-11. Jill's peach-colored head appendages are treated as horn-like, not conventional ears. Carol Front/left/right are recoverable user-provided body-only inputs; confirm the *selected* Carol Back revision rather than promoting a historical Back by filename.
 - These inputs remain subordinate to canonical identity; all characters retain independent accessories in their completed appearance. 2D acceptance is not 3D mesh/rigging or Tripo technical acceptance.

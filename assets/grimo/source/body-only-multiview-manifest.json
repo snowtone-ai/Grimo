@@ -1,0 +1,198 @@
+{
+  "schema": "grimo.body-only-multiview-manifest",
+  "version": 1,
+  "status": "15/16 source PNGs registered; Carol Back unavailable and pending",
+  "technical_preflight": "PENDING for all registered images",
+  "assets": [
+    {
+      "character": "carol",
+      "role": "front",
+      "image_facing_direction": "forward",
+      "file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_front.png",
+      "original_source_filename": "carol_bodyonly_front.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8b30a279067d55f7e9185b7bba173da05b1e40de30d83e3fea3b4a5726bc6c47",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "carol",
+      "role": "left",
+      "image_facing_direction": "left",
+      "file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_left.png",
+      "original_source_filename": "carol_bodyonly_left.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "40c8c09826afc9e7d9b0e128cc63930df7a994ae12a13766084ad7944f9384eb",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "carol",
+      "role": "right",
+      "image_facing_direction": "right",
+      "file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_right.png",
+      "original_source_filename": "carol_bodyonly_right.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "bdd05b4dc067e32f720f861d361f525e9c6eaebd82618fea0c78eac194dc8b4b",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "jill",
+      "role": "front",
+      "image_facing_direction": "forward",
+      "file": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_front.png",
+      "original_source_filename": "jill_bodyonly_front.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "jill",
+      "role": "left",
+      "image_facing_direction": "left",
+      "file": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_left.png",
+      "original_source_filename": "jill_bodyonly_left.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "jill",
+      "role": "right",
+      "image_facing_direction": "right",
+      "file": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png",
+      "original_source_filename": "jill_bodyonly_right.png",
+      "width": 1145,
+      "height": 1374,
+      "sha256": "f745cbd01b8224b45354e9c3f1621b4668f51cc00df3cfc9287deda415ef019a",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "jill",
+      "role": "back",
+      "image_facing_direction": "rear",
+      "file": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_back.png",
+      "original_source_filename": "jill_bodyonly_back.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "pino",
+      "role": "front",
+      "image_facing_direction": "forward",
+      "file": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_front.png",
+      "original_source_filename": "pino_bodyonly_front.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "c4163765b26523849cc32a7ba22499e36a9b89432ede37559c5cd19aa2e96589",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "pino",
+      "role": "left",
+      "image_facing_direction": "left",
+      "file": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_left.png",
+      "original_source_filename": "pino_bodyonly_left.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "787f7e58b302e6ce4288cd105192c128b7594c02ebed1a2d82d30b6dc9b02b28",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "pino",
+      "role": "right",
+      "image_facing_direction": "right",
+      "file": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_right.png",
+      "original_source_filename": "pino_bodyonly_right.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "183bf58cda989a1a645aa8bdb045d61a0a0d3b4bc5fafc79fb97bf75d1eb8be8",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "pino",
+      "role": "back",
+      "image_facing_direction": "rear",
+      "file": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_back.png",
+      "original_source_filename": "pino_bodyonly_back.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "1762021a4d974fd8d9f3c3abbd43fdb31d14f5dff844b566592d7593f06ee5bf",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "shushu",
+      "role": "front",
+      "image_facing_direction": "forward",
+      "file": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_front.png",
+      "original_source_filename": "shushu_bodyonly_front.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "e35dfc9c58324b0454dd06b1222ca8f61f23b3b605a348ecf606255b6d087a18",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "shushu",
+      "role": "left",
+      "image_facing_direction": "left",
+      "file": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_left.png",
+      "original_source_filename": "shushu_bodyonly_left.png",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "873fe2fbb950cbb21f2e0e64d2617650b5bac4128fb788f15dbd67e881616a61",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "shushu",
+      "role": "right",
+      "image_facing_direction": "right",
+      "file": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_right.png",
+      "original_source_filename": "shushu_bodyonly_right.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ad754267b4d446dcce9821ceb898304e60cb4a99526b1e0fec0b6169ca25751b",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    },
+    {
+      "character": "shushu",
+      "role": "back",
+      "image_facing_direction": "rear",
+      "file": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_back.png",
+      "original_source_filename": "shushu_bodyonly_back.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a1ed01e201d6e125623d81e4289b7f17813bab354177e950b7a4836e6dda533d",
+      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
+      "technical_tripo_preflight_passed": false
+    }
+  ],
+  "pending": [
+    {
+      "character": "carol",
+      "role": "back",
+      "image_facing_direction": "rear",
+      "expected_file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_back.png",
+      "status": "REVIEW_PENDING_SOURCE_UNAVAILABLE",
+      "note": "User confirms no Carol Back source is available. No file, dimensions, hash, or visual approval is inferred."
+    }
+  ]
+}

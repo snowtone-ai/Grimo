@@ -1,6 +1,6 @@
 # Grimo — Body-only Multiview Asset Register
 
-**Status:** Human-reviewed 2D production inputs; repository binary registration and Tripo technical preflight are **pending** until checked by the executing agent.
+**Status:** 15/16 selected PNGs are registered at their production paths with hash-verified manifest entries. Carol Back is unavailable and remains pending. Tripo technical preflight is pending for all registered images.
 **Updated:** 2026-10-11
 **Scope:** Carol / Jill / Pino / Shushu, four orthographic-ish source views per character. This is a scoped production registry, **not** replacement canonical identity.
 
@@ -32,7 +32,7 @@ Here **left/right mean the direction the character faces *on the image***: `left
 
 ## 2.1 Byte-exact source verification (15 verified originals)
 
-The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11 conversation**, verified before this register was authored. Use them to distinguish approved artwork from similarly named old images. Different PNG canvas sizes are intentional source facts, **not** instructions to resize the artwork. If a user-supplied local file does not match, report the discrepancy rather than silently replacing it. Carol Back is not in this verified set.
+The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11 conversation**, verified before this register was authored. Use them to distinguish approved artwork from similarly named old images. Different PNG canvas sizes are intentional source facts, **not** instructions to resize the artwork. If a user-supplied local file does not match, report the discrepancy rather than silently replacing it. Carol Back is not in this verified set and is unavailable in the current import; the user confirmed no source is available. Its manifest entry is pending without fabricated dimensions or hash.
 
 | File | Dimensions (px) | SHA-256 |
 | --- | --- | --- |
@@ -72,4 +72,4 @@ The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11
 | Pino | Huge rounded *single* tail joining the rear pelvis, compact low body, short limbs, complete eye anatomy (original wink is an expression), underside paw pads |
 | Shushu | Large plush head, pink ear volumes and round body, short distinguishable limbs, grounded squat/sitting motion capability, sole/pad details; floral crown/bouquet are independent props |
 
-**Execution handoff:** Once the binaries have been registered and the manifest is populated with measured hashes, verify this registry's statuses and update local references as needed. This document records the intended interpretation; it does **not** claim any binary is already committed.
+**Execution status (2026-10-11):** Fifteen verified PNGs are registered under the paths above; `assets/grimo/source/body-only-multiview-manifest.json` records measured dimensions and hashes. Carol Back remains unavailable/pending. All registered assets remain `BODY_ONLY_REFERENCE_ACCEPTED / TRIPO_PREFLIGHT_PENDING`; no Tripo-ready status is claimed.

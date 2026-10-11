@@ -19,7 +19,7 @@ Use this index to locate durable authority. Current execution truth is not durab
 
 ## 2026-10-11 Body-only multi-view image import
 
-- [Four-character body-only multi-view asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) — expected 16 PNG names/paths, **image-facing** left/right convention, visual decision boundaries, Carol Back revision gate, and SHA manifest import requirements.
+- [Four-character body-only multi-view asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) — 15/16 registered PNGs, **image-facing** left/right convention, visual decision boundaries, Carol Back unavailable/pending status, and measured SHA manifest.
 - Body-only assets are **derivative Tripo inputs**, not canonical identities or replacements for completed Carol Normal/Skin. The local Codex import will confirm committed binaries and provenance; a GitHub Markdown registry does not mean the PNGs are pushed or Tripo-ready.
 - Jill's peach-colored head appendages are treated as **horn-like anatomy** by the latest Human interpretation; do not automatically recolor as ear backs. Final material identity (including canonical clover marking) still requires QA.
 
