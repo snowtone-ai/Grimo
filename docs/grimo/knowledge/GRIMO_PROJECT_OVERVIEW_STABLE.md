@@ -5,7 +5,7 @@
 **Basis:** Grimo の Product North Star、Character Experience、Production Architecture、Product Feature、Data Model（2026-10-12時点で確認した正式資料）。
 **Maintenance:** 原則として普段のターンでは書き換えない。Humanが製品の根本方針を変更した場合のみ、原典と整合させて版を更新する。「不変」は日々の作業状態を混ぜないという意味であり、永久に上書き不可という意味ではない。
 
-> この文書は**経緯の要約・状態台帳ではない**。現在の作業・コミット・Tripo残回数・未検証事項・次タスクは、専用ブランチ \`coord/grimo-ai-handoff\` の \`docs/production/GRIMO_AI_HANDOFF.md\` を**最新のremoteから**取得すること。アップロード済みのハンドオフの静的コピーを最新とはみなさない。
+> この文書は**経緯の要約・状態台帳ではない**。現在の作業・コミット・Tripo残回数・未検証事項・次タスクは、専用ブランチ `coord/grimo-ai-handoff` の `docs/production/GRIMO_AI_HANDOFF.md` を**最新のremoteから**取得すること。アップロード済みのハンドオフの静的コピーを最新とはみなさない。
 
 ## 1. Product North Star：何のためのGrimoか
 
@@ -55,7 +55,7 @@ Carolの羊毛は身体に所有される立体表現。広域の位置遅れで
 
 基本的な反応文法（すべての工程を毎回要求しない）：
 
-\`\`\`text
+```text
 入力・出来事
 → 実際に触れた部位の即時ACK
 → 注意・意図・ためらい
@@ -64,7 +64,7 @@ Carolの羊毛は身体に所有される立体表現。広域の位置遅れで
 → 静止・回復
 → 感情の余韻
 → 生きているIdleまたは次の行為
-\`\`\`
+```
 
 守る能力：
 - tap/poke、slow pet、continuous stroke、back-and-forthを区別し、触れた身体zone・左右・直前の履歴を尊重。
@@ -115,7 +115,7 @@ Carolの羊毛は身体に所有される立体表現。広域の位置遅れで
 
 **恒常的な内容：** このファイルと、リポジトリの正式なNorth Star／Experience／Production Architecture／Product Feature／Data Model。
 
-**変動する内容：** ブランチ・HEAD・進捗・制作候補・検証結果・Human Gateの現状・Tripoの残回数／料金／画面・次タスク。これらをこのファイルへ書き足してはいけない。最新の \`coord/grimo-ai-handoff:docs/production/GRIMO_AI_HANDOFF.md\` と現行のGit／各制作State／実証資料を読む。
+**変動する内容：** ブランチ・HEAD・進捗・制作候補・検証結果・Human Gateの現状・Tripoの残回数／料金／画面・次タスク。これらをこのファイルへ書き足してはいけない。最新の `coord/grimo-ai-handoff:docs/production/GRIMO_AI_HANDOFF.md` と現行のGit／各制作State／実証資料を読む。
 
 **権威と参照順:** 最新の明示Human決定 → Canonical Identity → 正式な製品・体験・3Dアーキテクチャ／商品仕様 → 現行制作Stateと実測 → 補助資料／過去記録。ハンドオフは探索用の索引であり、正式な決定やHuman承認を勝手に上書きしない。
 
@@ -123,14 +123,14 @@ Carolの羊毛は身体に所有される立体表現。広域の位置遅れで
 
 ## 8. 原典索引（repository-relative paths）
 
-- \`docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md\` — 正式資料の最新ルーター
-- \`docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md\` — 目的・品質・禁止原則
-- \`docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md\` — 生命感・注意・触れ合い・体験Gate
-- \`docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md\` — Full-Spatial／View-Weighted／独立制御
-- \`docs/grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md\` — Human／ChatGPT／Codexの役割と自律性
-- \`docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md\` — 4画面・報酬・Food/Wear/Special/Secret/Gift/Collection
-- \`docs/grimo/knowledge/product/GRIMO_DATA_MODEL_SPEC.md\` — 商品・反応発見・消費・所有の論理データ
-- \`AGENTS.md\` — GitHub作業ルール／ハンドオフ運用
+- `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md` — 正式資料の最新ルーター
+- `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` — 目的・品質・禁止原則
+- `docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md` — 生命感・注意・触れ合い・体験Gate
+- `docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` — Full-Spatial／View-Weighted／独立制御
+- `docs/grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md` — Human／ChatGPT／Codexの役割と自律性
+- `docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md` — 4画面・報酬・Food/Wear/Special/Secret/Gift/Collection
+- `docs/grimo/knowledge/product/GRIMO_DATA_MODEL_SPEC.md` — 商品・反応発見・消費・所有の論理データ
+- `AGENTS.md` — GitHub作業ルール／ハンドオフ運用
 - **最新ハンドオフ：** [coord/grimo-ai-handoff の GRIMO_AI_HANDOFF.md](https://github.com/snowtone-ai/Grimo/blob/coord/grimo-ai-handoff/docs/production/GRIMO_AI_HANDOFF.md)
 
 **ChatGPT Project Knowledge運用:** このMarkdownを固定の全体像として登録する。実行時には毎ターン上記のGitHubの最新ハンドオフを取得し、必要な原典のみ追加確認する。GitHubにアクセス不能なら最新把握を装わず、未同期と明示する。
