@@ -1,0 +1,1528 @@
+{
+  "input_production_head": "749675cac5ebdb07587e715eb2cb59bfcae2768f",
+  "blender": "5.2.1 LTS",
+  "source_classification": [
+    {
+      "component": 0,
+      "source_faces": 1574,
+      "role": "Head donor exterior"
+    },
+    {
+      "component": 1,
+      "source_faces": 996,
+      "role": "Torso donor exterior"
+    },
+    {
+      "component": 2,
+      "source_faces": 638,
+      "role": "Leg.R donor exterior"
+    },
+    {
+      "component": 3,
+      "source_faces": 637,
+      "role": "Leg.L donor exterior"
+    },
+    {
+      "component": 4,
+      "source_faces": 610,
+      "role": "Ear.L donor exterior"
+    },
+    {
+      "component": 5,
+      "source_faces": 605,
+      "role": "Ear.R donor exterior"
+    },
+    {
+      "component": 6,
+      "source_faces": 404,
+      "role": "Paw.L donor exterior"
+    },
+    {
+      "component": 7,
+      "source_faces": 402,
+      "role": "Paw.R donor exterior"
+    },
+    {
+      "component": 8,
+      "source_faces": 143,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 9,
+      "source_faces": 142,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 10,
+      "source_faces": 123,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 11,
+      "source_faces": 85,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 12,
+      "source_faces": 83,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 13,
+      "source_faces": 82,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 14,
+      "source_faces": 80,
+      "role": "generated eye caps replaced by controllable eyes"
+    },
+    {
+      "component": 15,
+      "source_faces": 80,
+      "role": "generated eye caps replaced by controllable eyes"
+    },
+    {
+      "component": 16,
+      "source_faces": 60,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 17,
+      "source_faces": 56,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 18,
+      "source_faces": 54,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 19,
+      "source_faces": 53,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 20,
+      "source_faces": 51,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 21,
+      "source_faces": 40,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 22,
+      "source_faces": 39,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 23,
+      "source_faces": 38,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 24,
+      "source_faces": 36,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 25,
+      "source_faces": 36,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 26,
+      "source_faces": 36,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 27,
+      "source_faces": 34,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 28,
+      "source_faces": 32,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 29,
+      "source_faces": 32,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 30,
+      "source_faces": 31,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 31,
+      "source_faces": 30,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 32,
+      "source_faces": 30,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 33,
+      "source_faces": 30,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 34,
+      "source_faces": 30,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 35,
+      "source_faces": 29,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 36,
+      "source_faces": 28,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 37,
+      "source_faces": 28,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 38,
+      "source_faces": 27,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 39,
+      "source_faces": 27,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 40,
+      "source_faces": 26,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 41,
+      "source_faces": 26,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 42,
+      "source_faces": 26,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 43,
+      "source_faces": 25,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 44,
+      "source_faces": 24,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 45,
+      "source_faces": 23,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 46,
+      "source_faces": 23,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 47,
+      "source_faces": 23,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 48,
+      "source_faces": 22,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 49,
+      "source_faces": 22,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 50,
+      "source_faces": 20,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 51,
+      "source_faces": 20,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 52,
+      "source_faces": 20,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 53,
+      "source_faces": 20,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 54,
+      "source_faces": 19,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 55,
+      "source_faces": 18,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 56,
+      "source_faces": 16,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 57,
+      "source_faces": 16,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 58,
+      "source_faces": 16,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 59,
+      "source_faces": 16,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 60,
+      "source_faces": 15,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 61,
+      "source_faces": 15,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 62,
+      "source_faces": 15,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 63,
+      "source_faces": 15,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 64,
+      "source_faces": 15,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 65,
+      "source_faces": 14,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 66,
+      "source_faces": 14,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 67,
+      "source_faces": 13,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 68,
+      "source_faces": 13,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 69,
+      "source_faces": 13,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 70,
+      "source_faces": 13,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 71,
+      "source_faces": 12,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 72,
+      "source_faces": 12,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 73,
+      "source_faces": 12,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 74,
+      "source_faces": 12,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 75,
+      "source_faces": 11,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 76,
+      "source_faces": 11,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 77,
+      "source_faces": 11,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 78,
+      "source_faces": 11,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 79,
+      "source_faces": 10,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 80,
+      "source_faces": 10,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 81,
+      "source_faces": 10,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 82,
+      "source_faces": 10,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 83,
+      "source_faces": 10,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 84,
+      "source_faces": 10,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 85,
+      "source_faces": 8,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 86,
+      "source_faces": 8,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 87,
+      "source_faces": 8,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 88,
+      "source_faces": 8,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 89,
+      "source_faces": 8,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 90,
+      "source_faces": 7,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 91,
+      "source_faces": 7,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 92,
+      "source_faces": 7,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 93,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 94,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 95,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 96,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 97,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 98,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 99,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 100,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 101,
+      "source_faces": 6,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 102,
+      "source_faces": 5,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 103,
+      "source_faces": 5,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 104,
+      "source_faces": 5,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 105,
+      "source_faces": 5,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 106,
+      "source_faces": 4,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 107,
+      "source_faces": 4,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 108,
+      "source_faces": 4,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 109,
+      "source_faces": 4,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 110,
+      "source_faces": 4,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 111,
+      "source_faces": 3,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 112,
+      "source_faces": 3,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 113,
+      "source_faces": 3,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 114,
+      "source_faces": 3,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 115,
+      "source_faces": 3,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 116,
+      "source_faces": 3,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 117,
+      "source_faces": 2,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 118,
+      "source_faces": 2,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 119,
+      "source_faces": 2,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 120,
+      "source_faces": 1,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 121,
+      "source_faces": 1,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    },
+    {
+      "component": 122,
+      "source_faces": 1,
+      "role": "thin generated overlapping strip/detail; preserved in hidden source, excluded from repaired exterior"
+    }
+  ],
+  "states": {
+    "neutral": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      }
+    },
+    "half": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.4844242334365845,
+          3.618546962738037
+        ],
+        "max_displacement": 0.04331889748573303
+      }
+    },
+    "closed": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.003201401559635997,
+          6.055295467376709
+        ],
+        "max_displacement": 0.08327488601207733
+      }
+    },
+    "left-closed": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.01884312741458416,
+          6.055295467376709
+        ],
+        "max_displacement": 0.08327488601207733
+      }
+    },
+    "right-closed": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.003201401559635997,
+          6.049445152282715
+        ],
+        "max_displacement": 0.08326790481805801
+      }
+    },
+    "gaze-blink": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.43495050072669983,
+          3.8635027408599854
+        ],
+        "max_displacement": 0.04743167757987976
+      }
+    },
+    "mouth-open": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.3775985538959503,
+          3.7583301067352295
+        ],
+        "max_displacement": 0.018799960613250732
+      }
+    },
+    "settle": {
+      "Torso": {
+        "minimum_z": 0.10525888204574585,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0000025033950806
+        ],
+        "max_displacement": 0.024700000882148743
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          0.7980610728263855,
+          1.0523189306259155
+        ],
+        "max_displacement": 0.02522267960011959,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          0.7982572913169861,
+          1.053410291671753
+        ],
+        "max_displacement": 0.02522270381450653,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.26181891560554504,
+        "edge_ratio_min_max": [
+          0.9999974966049194,
+          1.0000032186508179
+        ],
+        "max_displacement": 0.024700015783309937
+      },
+      "Paw.R": {
+        "minimum_z": 0.26179367303848267,
+        "edge_ratio_min_max": [
+          0.9999961853027344,
+          1.0000032186508179
+        ],
+        "max_displacement": 0.024700015783309937
+      },
+      "Head": {
+        "minimum_z": 0.44449615478515625,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.02469998598098755
+      }
+    },
+    "rest": {
+      "Torso": {
+        "minimum_z": 0.06495888531208038,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.06499999761581421
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          0.4710586369037628,
+          1.1395537853240967
+        ],
+        "max_displacement": 0.06637546420097351,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          0.4713445007801056,
+          1.1408413648605347
+        ],
+        "max_displacement": 0.06637552380561829,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.22151890397071838,
+        "edge_ratio_min_max": [
+          0.9999974966049194,
+          1.0000033378601074
+        ],
+        "max_displacement": 0.0650000274181366
+      },
+      "Paw.R": {
+        "minimum_z": 0.221493661403656,
+        "edge_ratio_min_max": [
+          0.9999961853027344,
+          1.0000032186508179
+        ],
+        "max_displacement": 0.0650000274181366
+      },
+      "Head": {
+        "minimum_z": 0.4041961431503296,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.06499999761581421
+      }
+    },
+    "offer": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.32035934925079346,
+        "edge_ratio_min_max": [
+          0.9999912977218628,
+          1.0000067949295044
+        ],
+        "max_displacement": 0.20073966681957245
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      }
+    },
+    "hold": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.36992108821868896,
+        "edge_ratio_min_max": [
+          0.9999886155128479,
+          1.000010371208191
+        ],
+        "max_displacement": 0.37343913316726685
+      },
+      "Paw.R": {
+        "minimum_z": 0.3699471354484558,
+        "edge_ratio_min_max": [
+          0.9999892115592957,
+          1.0000154972076416
+        ],
+        "max_displacement": 0.37346819043159485
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      }
+    },
+    "hold-touch": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.36992108821868896,
+        "edge_ratio_min_max": [
+          0.9999886155128479,
+          1.000010371208191
+        ],
+        "max_displacement": 0.37343913316726685
+      },
+      "Paw.R": {
+        "minimum_z": 0.3699471354484558,
+        "edge_ratio_min_max": [
+          0.9999892115592957,
+          1.0000154972076416
+        ],
+        "max_displacement": 0.37346819043159485
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.6978738903999329,
+          1.272035837173462
+        ],
+        "max_displacement": 0.056839488446712494
+      }
+    },
+    "head-turn": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.4339490830898285,
+          1.877020239830017
+        ],
+        "max_displacement": 0.12682180106639862
+      }
+    },
+    "pressure": {
+      "Torso": {
+        "minimum_z": 0.1299588829278946,
+        "edge_ratio_min_max": [
+          0.8986312747001648,
+          1.0392543077468872
+        ],
+        "max_displacement": 0.023933053016662598
+      },
+      "Leg.L": {
+        "minimum_z": 0.0010000010952353477,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 142
+      },
+      "Leg.R": {
+        "minimum_z": 0.0009999989997595549,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0,
+        "sole_max_displacement": 0.0,
+        "sole_samples": 144
+      },
+      "Paw.L": {
+        "minimum_z": 0.2865189015865326,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Paw.R": {
+        "minimum_z": 0.2864936590194702,
+        "edge_ratio_min_max": [
+          1.0,
+          1.0
+        ],
+        "max_displacement": 0.0
+      },
+      "Head": {
+        "minimum_z": 0.4691961407661438,
+        "edge_ratio_min_max": [
+          0.8207842707633972,
+          1.4313457012176514
+        ],
+        "max_displacement": 0.016726449131965637
+      }
+    }
+  },
+  "geometry": {
+    "Head": {
+      "vertices": 16850,
+      "triangles": 33326,
+      "bounds": [
+        [
+          -0.3038082420825958,
+          -0.25927460193634033,
+          0.4691961407661438
+        ],
+        [
+          0.3038162291049957,
+          0.2909119427204132,
+          0.9411987662315369
+        ]
+      ]
+    },
+    "Torso": {
+      "vertices": 6507,
+      "triangles": 13010,
+      "bounds": [
+        [
+          -0.24305064976215363,
+          -0.25202298164367676,
+          0.1299588829278946
+        ],
+        [
+          0.24308520555496216,
+          0.24964365363121033,
+          0.5169779658317566
+        ]
+      ]
+    },
+    "Leg.R": {
+      "vertices": 1764,
+      "triangles": 3524,
+      "bounds": [
+        [
+          -0.2446117103099823,
+          -0.12664228677749634,
+          0.0009999989997595549
+        ],
+        [
+          -0.02631557546555996,
+          0.12181944400072098,
+          0.23937593400478363
+        ]
+      ]
+    },
+    "Leg.L": {
+      "vertices": 1762,
+      "triangles": 3520,
+      "bounds": [
+        [
+          0.026202475652098656,
+          -0.1266344040632248,
+          0.0010000010952353477
+        ],
+        [
+          0.24446123838424683,
+          0.12175389379262924,
+          0.2393660843372345
+        ]
+      ]
+    },
+    "Ear.L": {
+      "vertices": 1766,
+      "triangles": 3528,
+      "bounds": [
+        [
+          0.10311180353164673,
+          -0.019201278686523438,
+          0.749653697013855
+        ],
+        [
+          0.3515249788761139,
+          0.18519699573516846,
+          0.9932339787483215
+        ]
+      ]
+    },
+    "Ear.R": {
+      "vertices": 1767,
+      "triangles": 3530,
+      "bounds": [
+        [
+          -0.3515082001686096,
+          -0.01920408569276333,
+          0.7496717572212219
+        ],
+        [
+          -0.10320135205984116,
+          0.18528549373149872,
+          0.994179368019104
+        ]
+      ]
+    },
+    "Paw.L": {
+      "vertices": 1474,
+      "triangles": 2944,
+      "bounds": [
+        [
+          0.11012478917837143,
+          -0.1144031509757042,
+          0.2865189015865326
+        ],
+        [
+          0.37830469012260437,
+          0.09055743366479874,
+          0.5104261636734009
+        ]
+      ]
+    },
+    "Paw.R": {
+      "vertices": 1474,
+      "triangles": 2944,
+      "bounds": [
+        [
+          -0.37839847803115845,
+          -0.11454346030950546,
+          0.2864936590194702
+        ],
+        [
+          -0.11008737236261368,
+          0.09059203416109085,
+          0.5103973150253296
+        ]
+      ]
+    }
+  },
+  "final_rig": false,
+  "human_gate": "PENDING",
+  "recovery_max_error": 0.0,
+  "plush_feature_displacement": {
+    "Shushu_Eye.L": 0.0,
+    "Shushu_Iris.L": 0.0,
+    "Shushu_HighlightMain.L": 0.0,
+    "Shushu_HighlightSmall.L": 0.0,
+    "Shushu_LidMargin.L": 0.0,
+    "Shushu_Eye.R": 0.0,
+    "Shushu_Iris.R": 0.0,
+    "Shushu_HighlightMain.R": 0.0,
+    "Shushu_HighlightSmall.R": 0.0,
+    "Shushu_LidMargin.R": 0.0,
+    "Shushu_Nose": 0.0,
+    "Shushu_MouthInterior": 0.0,
+    "Shushu_MouthFloor": 0.0,
+    "Shushu_Philtrum": 0.0
+  }
+}

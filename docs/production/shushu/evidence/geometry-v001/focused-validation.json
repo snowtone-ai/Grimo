@@ -1,0 +1,285 @@
+{
+  "samples": [
+    1,
+    9,
+    13,
+    19,
+    25,
+    31,
+    37,
+    43,
+    61,
+    73,
+    85,
+    91,
+    99,
+    105,
+    111,
+    120
+  ],
+  "coordinates": "Blender Z up/front -Y -> GLB Y up/front +Z; normalized character height about 1, scene unit scale 1",
+  "source_integrity": {
+    "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.fbx": "6420ce386c0dc1a19dc0a9b5dc827a3d247f91c6cc4f83cd883e79f5ff3fe06d",
+    "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.glb": "803937cd10bd48d5b15be9f6dca43a38183ec730ed0b62eb2820fd160d14d448"
+  },
+  "face_visibility": {
+    "neutral": {
+      "L": {
+        "exposed_eye_samples": 513,
+        "total_eye_samples": 513
+      },
+      "R": {
+        "exposed_eye_samples": 513,
+        "total_eye_samples": 513
+      }
+    },
+    "half": {
+      "L": {
+        "exposed_eye_samples": 312,
+        "total_eye_samples": 513
+      },
+      "R": {
+        "exposed_eye_samples": 312,
+        "total_eye_samples": 513
+      }
+    },
+    "closed": {
+      "L": {
+        "exposed_eye_samples": 0,
+        "total_eye_samples": 513
+      },
+      "R": {
+        "exposed_eye_samples": 0,
+        "total_eye_samples": 513
+      }
+    },
+    "left-closed": {
+      "L": {
+        "exposed_eye_samples": 0,
+        "total_eye_samples": 513
+      },
+      "R": {
+        "exposed_eye_samples": 513,
+        "total_eye_samples": 513
+      }
+    },
+    "right-closed": {
+      "L": {
+        "exposed_eye_samples": 513,
+        "total_eye_samples": 513
+      },
+      "R": {
+        "exposed_eye_samples": 0,
+        "total_eye_samples": 513
+      }
+    },
+    "gaze-blink": {
+      "L": {
+        "exposed_eye_samples": 296,
+        "total_eye_samples": 513
+      },
+      "R": {
+        "exposed_eye_samples": 513,
+        "total_eye_samples": 513
+      }
+    }
+  },
+  "contacts": {
+    "hold": {
+      "Torso": {
+        "prop_vertex_signed_clearance_min": 0.027397939935326576,
+        "minimum_absolute_surface_gap": 0.027397939935326576,
+        "penetrating_samples_beyond_1e-4": 0
+      },
+      "Head": {
+        "prop_vertex_signed_clearance_min": 0.032885439693927765,
+        "minimum_absolute_surface_gap": 0.032885439693927765,
+        "penetrating_samples_beyond_1e-4": 0
+      },
+      "Paw.L": {
+        "prop_vertex_signed_clearance_min": 6.195380410645157e-05,
+        "minimum_absolute_surface_gap": 6.195380410645157e-05,
+        "penetrating_samples_beyond_1e-4": 0
+      },
+      "Paw.R": {
+        "prop_vertex_signed_clearance_min": 5.8226763940183446e-05,
+        "minimum_absolute_surface_gap": 5.8226763940183446e-05,
+        "penetrating_samples_beyond_1e-4": 0
+      }
+    },
+    "hold-touch": {
+      "Torso": {
+        "prop_vertex_signed_clearance_min": 0.027397939935326576,
+        "minimum_absolute_surface_gap": 0.027397939935326576,
+        "penetrating_samples_beyond_1e-4": 0
+      },
+      "Head": {
+        "prop_vertex_signed_clearance_min": 0.028946904465556145,
+        "minimum_absolute_surface_gap": 0.028946904465556145,
+        "penetrating_samples_beyond_1e-4": 0
+      },
+      "Paw.L": {
+        "prop_vertex_signed_clearance_min": 6.195380410645157e-05,
+        "minimum_absolute_surface_gap": 6.195380410645157e-05,
+        "penetrating_samples_beyond_1e-4": 0
+      },
+      "Paw.R": {
+        "prop_vertex_signed_clearance_min": 5.8226763940183446e-05,
+        "minimum_absolute_surface_gap": 5.8226763940183446e-05,
+        "penetrating_samples_beyond_1e-4": 0
+      }
+    }
+  },
+  "topology": {
+    "Head": {
+      "boundary_edges": 376,
+      "nonmanifold_edges": 0
+    },
+    "Torso": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Leg.L": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Leg.R": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Paw.L": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    "Paw.R": {
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  },
+  "animated_source_amplitudes": {
+    "1": 0.0,
+    "9": 0.04331889748573303,
+    "13": 0.08346496522426605,
+    "19": 0.0,
+    "25": 0.08346496522426605,
+    "31": 0.08346496522426605,
+    "37": 0.04743167757987976,
+    "43": 0.01963835209608078,
+    "61": 0.02522270381450653,
+    "73": 0.06637552380561829,
+    "85": 0.0,
+    "91": 0.20073966681957245,
+    "99": 0.37346819043159485,
+    "105": 0.37346819043159485,
+    "111": 0.023933053016662598,
+    "120": 0.0
+  },
+  "canonical_reference_hashes_unchanged": true,
+  "glb": {
+    "sha256": "a4ec51afbed62769caf9e68bcdf2dc9ec8108f187e2f0d9ae0d422c6ec352d5b",
+    "nodes": 31,
+    "skins": 1,
+    "meshes": 22,
+    "animations": 1,
+    "joints": [
+      [
+        "Root",
+        "Foot.L",
+        "Foot.R",
+        "Head",
+        "Ear.L",
+        "Ear.R",
+        "Paw.L",
+        "Paw.R"
+      ]
+    ],
+    "channels": 46,
+    "morph_targets": {
+      "Shushu_Ear.L": 2,
+      "Shushu_Ear.R": 2,
+      "Shushu_Eye.L": 2,
+      "Shushu_Eye.R": 2,
+      "Shushu_Head": 8,
+      "Shushu_HighlightMain.L": 6,
+      "Shushu_HighlightMain.R": 6,
+      "Shushu_HighlightSmall.L": 6,
+      "Shushu_HighlightSmall.R": 6,
+      "Shushu_Iris.L": 6,
+      "Shushu_Iris.R": 6,
+      "Shushu_Leg.L": 2,
+      "Shushu_Leg.R": 2,
+      "Shushu_LidMargin.L": 3,
+      "Shushu_LidMargin.R": 3,
+      "Shushu_MouthFloor": 3,
+      "Shushu_MouthInterior": 3,
+      "Shushu_Nose": 2,
+      "Shushu_Paw.L": 2,
+      "Shushu_Paw.R": 2,
+      "Shushu_Philtrum": 2,
+      "Shushu_Torso": 3
+    },
+    "weight_sum_max_error": 0,
+    "max_influences": 2
+  },
+  "roundtrip": {
+    "per_frame": {
+      "1": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "9": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "13": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "19": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "25": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "31": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "37": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "43": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "61": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "73": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "85": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "91": {
+        "max_bidirectional_vertex_error": 2.3324007258906931e-07
+      },
+      "99": {
+        "max_bidirectional_vertex_error": 2.5463114639023843e-07
+      },
+      "105": {
+        "max_bidirectional_vertex_error": 1.7216484593518544e-06
+      },
+      "111": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      },
+      "120": {
+        "max_bidirectional_vertex_error": 1.9542689244644862e-07
+      }
+    },
+    "worst_error": 1.7216484593518544e-06,
+    "pass_tolerance": 2e-05,
+    "pass": true
+  },
+  "geometry_only": {
+    "path": "assets/grimo/production/shushu/runtime-probes/shushu-geometry-v001-static.glb",
+    "skins": 0,
+    "animations": 0,
+    "morph_targets": 0
+  }
+}
