@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-12",
+  "production_branch": "codex/grimo-motion-zero-based-design-20261011",
+  "input_revision": "1d52d842b4029bedf5f2a706e3176d1f4c02e8e9",
+  "human_geometry": "PENDING",
+  "tripo_compatibility": "UNKNOWN",
+  "files": [
+    {
+      "path": "assets/grimo/production/shushu/blender/shushu-geometry-v002.blend",
+      "bytes": 4538615,
+      "sha256": "fb7d69c333dd2450c458b9a4fd9f355bb498822143a180aa5d6b54c8d171c681"
+    },
+    {
+      "path": "assets/grimo/production/shushu/blender/shushu-geometry-v002-proof.blend",
+      "bytes": 4552677,
+      "sha256": "c044e2f0fe7512efb5943bdefb198ef3f2e377f01f74a32739a200a31e320cb4"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v002/shushu-geometry-v002-tripo.fbx",
+      "bytes": 1965164,
+      "sha256": "549df2f8a3d2b12e3bd86574fb21b4565b59ee93d2a2031e258d102023e1ff1f"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v002/shushu-geometry-v002-tripo.glb",
+      "bytes": 1823032,
+      "sha256": "fe9c40d6d0b0af8d2cbc54d5832495efcee32ef7da887499b44bcec2e8503d33"
+    },
+    {
+      "path": "assets/grimo/production/shushu/runtime-probes/shushu-geometry-v002-proof.glb",
+      "bytes": 6915020,
+      "sha256": "cd1eaafb2683a27a175f7436397a394cdcc5aefca20288f281c2e5c8ac08a0ed"
+    }
+  ]
+}

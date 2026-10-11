@@ -1,0 +1,33 @@
+{
+  "groom": {
+    "target": [
+      0.6013,
+      -0.26,
+      0.4
+    ],
+    "distal_signed_min": -4.243523653713055e-05,
+    "contact_point": [
+      0.2803046405315399,
+      -0.08070903271436691,
+      0.524039626121521
+    ],
+    "grid_trials": 100,
+    "method": "Rigid short-paw orientation only. Distal projection > .135 from original shoulder. Shoulder overlap excluded."
+  },
+  "chest-groom": {
+    "target": [
+      0.34,
+      -0.183,
+      0.35869999999999996
+    ],
+    "distal_signed_min": -1.1739940418920014e-05,
+    "contact_point": [
+      0.20009097456932068,
+      -0.10285264253616333,
+      0.36625105142593384
+    ],
+    "grid_trials": 120,
+    "method": "Rigid short-paw orientation only. Distal projection > .135 from original shoulder. Shoulder overlap excluded."
+  },
+  "calibration_note": "Targets fitted after donor jaw rounding, before final orbital/eyelid surface finishing. Stored fit measurements are calibration observations; focused-validation.json measures the final delivered geometry."
+}

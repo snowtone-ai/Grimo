@@ -1,0 +1,107 @@
+{
+  "blender": "5.2.1 LTS",
+  "source_fbx_sha256": "6420ce386c0dc1a19dc0a9b5dc827a3d247f91c6cc4f83cd883e79f5ff3fe06d",
+  "eye_fits": {
+    "R": [
+      3.347870074518789,
+      3.842414994118691,
+      -10.137475099213423,
+      9.951630518663691,
+      -2.7389604793609026,
+      7.454613986957837
+    ],
+    "L": [
+      3.353392836439379,
+      -3.859290860930055,
+      -10.151609786819687,
+      9.973710223019395,
+      2.7557733660260295,
+      7.464085949455765
+    ]
+  },
+  "animation_samples": {
+    "1": "neutral",
+    "9": "half",
+    "17": "closed",
+    "25": "smile",
+    "33": "left-closed",
+    "41": "right-closed",
+    "49": "mouth-open",
+    "57": "surprise",
+    "65": "combined",
+    "73": "chest-groom",
+    "81": "rest",
+    "89": "head-turn",
+    "97": "seat-0.25",
+    "105": "seat-0.5",
+    "113": "seat-0.75",
+    "121": "seat",
+    "129": "gaze-blink",
+    "137": "offer",
+    "145": "hold",
+    "153": "hold-touch",
+    "161": "groom",
+    "169": "pressure",
+    "177": "neutral"
+  },
+  "candidate_meshes": {
+    "Shushu_Head": {
+      "vertices": 24910,
+      "polygons": 29204
+    },
+    "Shushu_Torso": {
+      "vertices": 9347,
+      "polygons": 12499
+    },
+    "Shushu_Leg.R": {
+      "vertices": 2518,
+      "polygons": 3419
+    },
+    "Shushu_Leg.L": {
+      "vertices": 2519,
+      "polygons": 3407
+    },
+    "Shushu_Ear.L": {
+      "vertices": 2540,
+      "polygons": 3414
+    },
+    "Shushu_Ear.R": {
+      "vertices": 2542,
+      "polygons": 3444
+    },
+    "Shushu_Paw.L": {
+      "vertices": 2132,
+      "polygons": 2840
+    },
+    "Shushu_Paw.R": {
+      "vertices": 2129,
+      "polygons": 2836
+    },
+    "Shushu_Eye.L": {
+      "vertices": 513,
+      "polygons": 512
+    },
+    "Shushu_LidMargin.L": {
+      "vertices": 264,
+      "polygons": 258
+    },
+    "Shushu_Eye.R": {
+      "vertices": 513,
+      "polygons": 512
+    },
+    "Shushu_LidMargin.R": {
+      "vertices": 264,
+      "polygons": 258
+    },
+    "Shushu_Nose": {
+      "vertices": 482,
+      "polygons": 512
+    },
+    "Shushu_MouthInterior": {
+      "vertices": 65,
+      "polygons": 64
+    }
+  },
+  "neutral_source": "Original Candidate B; no v001 visible face used",
+  "appearance": "single neutral diagnostic clay; static export no authored material/UV/color/texture"
+}
