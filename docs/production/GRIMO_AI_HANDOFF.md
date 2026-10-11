@@ -2,7 +2,7 @@
 
 **Branch:** `coord/grimo-ai-handoff` (coordination-only; DO NOT use as the code-production base).
 **File:** `docs/production/GRIMO_AI_HANDOFF.md`.
-**Last interaction:** 2026-10-12 / ChatGPT Planner / cross-agent workflow + stable overview introduced.
+**Last interaction:** 2026-10-12 / ChatGPT Planner / refreshed Project Knowledge router file for upload; no Shushu production change.
 **Status:** Last-known routing snapshot, **not** a substitute for Git/approved source files.
 
 ## 1. How to use / sync contract
@@ -13,6 +13,8 @@
 4. Concurrency: re-fetch this branch immediately before writing; optimistic/lease-safe commit and push without force. On conflict re-read/reconcile; do not reset, stash, clean, overwrite, or merge unrelated user work. Codex may use a separate temporary worktree for this coordination branch.
 5. If connection/write access is unavailable, report **HANDOFF_SYNC_BLOCKED** with branch and path; never claim synchronization occurred. An inaccessible handoff never grants permission for paid Tripo operations or overwrites.
 6. This file routes to the actual source: Canonical, Product North Star, Product Feature, Production Architecture, active character production state, Git and test evidence outrank it. Project Knowledge static overview: `docs/grimo/knowledge/GRIMO_PROJECT_OVERVIEW_STABLE.md`.
+
+**Latest documentation note:** Produced `GRIMO_PROJECT_KNOWLEDGE_ROUTER_20261012.md` as a ChatGPT downloadable Project Knowledge replacement for the 2026-10-11 router. This output is not asserted to be committed to Grimo. The `GRIMO_PROJECT_OVERVIEW_STABLE.md` remains the stable product overview; the live remote handoff remains the mutable execution source.
 
 ## 2. Last-verified active execution
 
