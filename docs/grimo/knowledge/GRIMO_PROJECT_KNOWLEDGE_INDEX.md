@@ -8,6 +8,7 @@ Use this index to locate durable authority. Current execution truth is not durab
 - `GRIMO_CHARACTER_EXPERIENCE_SPEC.md` — companion experience authority
 - `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` — durable visible-character requirements
 - `GRIMO_PRODUCTION_OPERATING_SYSTEM.md` — flexible production principles
+- [Partner experience motion anatomy evidence](research/GRIMO_PARTNER_EXPERIENCE_MOTION_ANATOMY_EVIDENCE.md) — reference evidence for partner motion anatomy.
 
 ## Carol
 
