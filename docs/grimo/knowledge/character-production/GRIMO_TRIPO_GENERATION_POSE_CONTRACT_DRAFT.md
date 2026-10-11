@@ -128,12 +128,15 @@ Check:
 - Rig smoke checks per character (working motion, no clipping, preserving identity): (a) head yaw ±20–25°; (b) unilateral cheek/head touch response; (c) each forepaw reaches forward ~25–40° without torso fusion; (d) settle from rest into target Interaction Neutral (Jill low grounded stance, Pino sitting, Shushu plush deep sitting); (e) tail yaw ±15–20° if present; (f) Jill wing small flap 10–20°.
 - Joint-angle test values are **motion smoke-test initial estimates**, not new Grimo final-motion specs. Fix actual mesh/weights or pose before further paid generations.
 
-## 8. Decision and immediate next step
+## 8. Updated 2026-10-11 Human 2D milestone (supersedes earlier immediate-next-step guidance)
 
-**Working candidates:** `J-GEN-01` low creature A-stance; `P-GEN-01` soft upright neutral; `S-GEN-01` squat-to-sit convertible low standing. For Shushu, `S-GEN-02` modified seated remains a contingency only if low standing causes excessive identity or rig damage.
+**Human 2D selection, not Tripo/Blender PASS.** Jill / Pino / Shushu have now had their body-only Front, left-facing Side, right-facing Opposite Side, and Back visually selected as 2D image-to-3D candidates. All original canonical identity images retain higher final-appearance authority. Jill's peach-colored paired head appendages are interpreted as **horn-like anatomy** under the latest Human discussion, so an old "ears must be recolored on the back" assumption is not grounds for editing accepted art. Canonical body markings (including Jill's clover motif) still need later material/identity inspection.
 
-**Next action, BEFORE Tripo or completing all sheets:** Create **Jill Body-only Generation Pose Front candidate**, then Human review, then build same-pose side/back views. Pino and Shushu follow their own Human gates.
+Carol has separately recovered body-only Front, left-facing Side and right-facing Opposite Side references; the correct final Back must be verified against the actually chosen local file and Carol's hoof/taper constraints before registration.
 
+The immediate execution task is **file provenance, scoped placement, SHA-256 registration, and non-destructive archival/cleanup**, using [the body-only multiview asset register](GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md). Only after image preflight should Tripo Studio slot mapping and authorized paid generation be considered.
+
+The earlier section-8 directive to first create Jill Front is historical and is no longer the next step. **Generation pose ≠ rig rest pose ≠ game neutral**, and 2D image acceptance does not certify a 3D result.
 ## 9. Source links (external context)
 
 - Tripo official Help Center: https://www.tripo3d.ai/help/features/is-it-possible-to-upload-my-existing-model-for-animation
