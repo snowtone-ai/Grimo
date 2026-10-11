@@ -1059,3 +1059,48 @@ But spatial validity is not view-weighted: exterior geometry must remain coheren
 The target is not realistic sheep anatomy, a prettier replacement Carol, a perfect naked chassis, or a Front-only illusion.
 
 The target is the **currently approved Carol realized as a faithful, full-spatial, motion-capable 3D character whose highest polish is concentrated where the user sees it most**.
+
+
+---
+
+# 17. 2026-10-10 Carol Body-Only Image Registration and Tripo Preflight
+
+**Decision:** Human requested all star/moon/flower-like decorations as independent assets rather than fused character geometry. The supplied accessory-free Carol Front and Side may serve as **body-only reference inputs**. This does **not** certify them as registered, final Tripo-ready multi-view images or as numerical replacements for the prior Normal references.
+
+## 17.1 Source and output identity (do not confuse these images)
+
+| Role | Reference filename | Visual scope | Status |
+|---|---|---|---|
+| Original decorated front | `carol_front.png` | Completed design + moon/stars | Original locked completed-design authority |
+| Original decorated side | `carol_side.png` | Completed design + moon/stars | Original locked completed-design authority |
+| Newly supplied body-only front | `carol_front_bodyonly_candidate.png` | Carol base including wool, face, ears, hooves; no star/moon ornaments | Human-reviewed body-only candidate; Tripo technical QA pending |
+| Newly supplied body-only side | `carol_side_bodyonly_candidate.png` | The same character from profile, without star/moon ornaments | Human-reviewed body-only candidate; Tripo technical QA pending |
+| Original identity | `carol-identity-canonical.png` | Identity, proportions, completed visual appeal | Highest identity authority; not automatically a Tripo input |
+| Skin Front / Side | `carol_skin_front.png`, `carol_skin_side.png` | Underbody support; distal hoof exception §7.7 | Underbody supporting authority, not alternate normal-color inputs |
+
+The **candidate** files are byte-preserved copies of the newly supplied 2026-10-10 user images, rather than reconstructed copies of older files. The word `candidate` is deliberate: passing visual ornament removal is not the same as passing technical geometry and image registration checks.
+
+### 17.2 Registered source metadata
+
+- Original front: `1254 × 1254`, RGBA; original body occupies a smaller fraction of the canvas than the new candidate. The new Front is also `1254 × 1254`, RGBA, but **is not a pixel-locked subtraction of ornaments**: the subject is larger/reframed.
+- Original side: `1448 × 1086`, RGB; new Side has the same pixel dimensions and RGB mode, but visual identity alone is not proof of exact correspondence.
+- The two new files have **different background representations** (front alpha, side near-white RGB), so choose a consistent Tripo input background handling and inspect alpha edges/halos before upload.
+- The old §6 Front pixel landmarks, normalized frame assumptions, §8 Side dimensions and tolerances are **not newly measured from these edited images**. Do not transfer pixel positions one-to-one or silently update old numbers. Register front/side by anatomical landmarks and physical proportions, not by canvas-edge alignment.
+
+### 17.3 Tripo-specific input gate (must be checked, not assumed)
+
+1. Compare **new Front against original Front**, and **new Side against original Side**; check face, eye/ear shape, forehead fleece, broad crown, stance, hooves and tail; explicitly identify any genuine shape drift versus ornament removal.
+2. Cross-check new Front↔Side for one plausible 3D head/body ratio, eye and ear placement, body/hoof support and tail root. Side shall remain a true profile; Front shall remain a true frontal neutral view.
+3. Normalize canvas framing/scale and background by a reversible **derived export**; preserve the user's original new image bytes. Do not distort/anamorphose the character to force pixel alignment.
+4. Check Tripo's actual supported number/direction of views, file formats and input constraints in the currently available Studio UI. **2026-10-11 update:** a user-provided right-facing Carol body-only Opposite Side has since been recovered. It is not the historical decorated Normal Side; do not assume a particular older Back revision is finally approved. Use the [16-view asset register](../../grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) for the current scoped import and require explicit local-source identification and Human review of Carol Back/hoof/taper before promotion.
+5. Record results and Human acceptance before assigning `TRIPO_READY`. Until then use `BODY_ONLY_REFERENCE_ACCEPTED / TRIPO_PREFLIGHT_PENDING`.
+6. In generated 3D, verify that moon/star decorations were **not** fused into fleece or material baked as ornaments. Add ornaments later as individual Blender/PlayCanvas meshes/nodes; validate placement and motion attachment independently.
+7. Passing Tripo mesh generation does **not** imply approved geometry, rigging, animation, GLB runtime, mobile performance or completed final appearance.
+
+### 17.3a Updated source name mapping (2026-10-11)
+
+The legacy `carol_front_bodyonly_candidate.png` and `carol_side_bodyonly_candidate.png` identifiers in §17.1 are **historical provenance labels**, not a directive to overwrite the original locked Normal files. The proposed production-input filenames are `carol_bodyonly_front.png`, `carol_bodyonly_left.png`, `carol_bodyonly_right.png`, and (only once correct selected image is confirmed) `carol_bodyonly_back.png` under `assets/grimo/source/carol/tripo-generation-pose/`. `left/right` means **face direction on image**, never the Tripo left/right camera slot. The new images must keep original bytes and remain `TRIPO_PREFLIGHT_PENDING` until checked. Do not reapply §6 or §8 pixel targets without re-registration.
+
+### 17.4 Immutable visual boundaries
+
+The completed adorned Carol must still match canonical identity and original decorated Normal images. The body-only pair changes the *generation input role*, **not** Carol's identity or required completed motifs. Hoof structural exception §7.7 remains in force; no other Skin geometry is reopened.
