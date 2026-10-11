@@ -26,7 +26,7 @@ Primary evidence + present Grimo authority
 
 This work is **research and design only** until specifically authorized otherwise: no Tripo generation, Blender modeling/rigging, asset replacement, application code edits, Motion implementation, credit spend or old approved document replacement.
 
-Four canonical identity images govern external appearance. Current Human-approved 2D body-only views are subsidiary generation references, **not** proof of rig compatibility or a new canonical identity. As checked on 2026-10-11, 15/16 body-only views are registered; Carol Back remains outstanding; Tripo technical preflight is not passed.
+Four canonical identity images govern external appearance. Current Human-approved 2D body-only views are subsidiary generation references, **not** proof of rig compatibility or a new canonical identity. As updated on 2026-10-11, all 15 currently selected body-only images are registered; Carol Back is intentionally omitted by Human decision. Tripo support for the planned three-view input and technical preflight remain unverified.
 
 ## 1. Authority and relevant evidence
 

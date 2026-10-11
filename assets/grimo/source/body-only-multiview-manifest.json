@@ -1,7 +1,7 @@
 {
   "schema": "grimo.body-only-multiview-manifest",
   "version": 1,
-  "status": "15/16 source PNGs registered; Carol Back unavailable and pending",
+  "status": "15/15 selected source PNGs registered; Carol Back intentionally omitted by Human decision (3-view plan)",
   "technical_preflight": "PENDING for all registered images",
   "assets": [
     {
@@ -69,10 +69,10 @@
       "role": "right",
       "image_facing_direction": "right",
       "file": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png",
-      "original_source_filename": "jill_bodyonly_right.png",
+      "original_source_filename": "ChatGPT 画像 2026年10月11日 18_08_13.png",
       "width": 1145,
       "height": 1374,
-      "sha256": "f745cbd01b8224b45354e9c3f1621b4668f51cc00df3cfc9287deda415ef019a",
+      "sha256": "9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc",
       "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
       "technical_tripo_preflight_passed": false
     },
@@ -185,14 +185,15 @@
       "technical_tripo_preflight_passed": false
     }
   ],
-  "pending": [
+  "pending": [],
+  "human_decisions": [
     {
+      "date": "2026-10-11",
       "character": "carol",
       "role": "back",
-      "image_facing_direction": "rear",
-      "expected_file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_back.png",
-      "status": "REVIEW_PENDING_SOURCE_UNAVAILABLE",
-      "note": "User confirms no Carol Back source is available. No file, dimensions, hash, or visual approval is inferred."
+      "status": "OMITTED_BY_HUMAN_DECISION",
+      "decision": "Do not create or use a Carol Back image. Plan to try Tripo with approved Front, Left, and Right views; 3-view Studio support is UNKNOWN.",
+      "technical_tripo_preflight_passed": false
     }
   ]
 }

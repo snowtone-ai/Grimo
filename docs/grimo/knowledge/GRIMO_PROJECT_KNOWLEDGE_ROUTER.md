@@ -45,9 +45,9 @@ Technical design: coherent full-spatial 3D, maximum perceptual polish in the fro
 
 ## 3.1 2026-10-11 image registration handoff
 
-- [Body-only multiview asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) is the scoped source for the 16-name target and `assets/grimo/source/<character>/tripo-generation-pose/` placement. As of 2026-10-11, 15 hash-verified PNGs are registered locally; Carol Back is unavailable and pending. The local manifest records measured values; Tripo preflight remains pending.
+- [Body-only multiview asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) is the scoped source for the scoped production-input set and `assets/grimo/source/<character>/tripo-generation-pose/` placement. As of 2026-10-11, 15 selected PNGs are hash-verified locally. Carol Back is intentionally omitted by Human decision; try the approved three views if Tripo supports them. The local manifest records measured values; Tripo preflight remains pending.
 - Image names `*_bodyonly_left.png` / `*_bodyonly_right.png` indicate **face direction on the picture**, not Tripo camera-side semantics.
-- Jill/Pino/Shushu four-view 2D Human selections were accepted on 2026-10-11. Jill's peach-colored head appendages are treated as horn-like, not conventional ears. Carol Front/left/right are recoverable user-provided body-only inputs; confirm the *selected* Carol Back revision rather than promoting a historical Back by filename.
+- Jill/Pino/Shushu four-view 2D Human selections were accepted on 2026-10-11. Jill's peach-colored head appendages are treated as horn-like, not conventional ears. Carol Front/left/right are approved body-only inputs; Human decided not to create or use a Carol Back image. Three-view Studio support remains unknown.
 - These inputs remain subordinate to canonical identity; all characters retain independent accessories in their completed appearance. 2D acceptance is not 3D mesh/rigging or Tripo technical acceptance.
 
 ## 4. Remaining visual-authority caution

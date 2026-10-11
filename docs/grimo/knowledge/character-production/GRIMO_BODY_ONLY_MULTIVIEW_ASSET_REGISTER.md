@@ -1,8 +1,8 @@
 # Grimo — Body-only Multiview Asset Register
 
-**Status:** 15/16 selected PNGs are registered at their production paths with hash-verified manifest entries. Carol Back is unavailable and remains pending. Tripo technical preflight is pending for all registered images.
+**Status:** All 15 currently selected PNGs are registered at their production paths with hash-verified manifest entries. Carol Back is intentionally omitted by Human decision; the planned three-view Tripo input is not yet confirmed as supported. Tripo technical preflight is pending for all registered images.
 **Updated:** 2026-10-11
-**Scope:** Carol / Jill / Pino / Shushu, four orthographic-ish source views per character. This is a scoped production registry, **not** replacement canonical identity.
+**Scope:** Carol has three selected views; Jill, Pino, and Shushu have four each. This is a scoped production registry, **not** replacement canonical identity.
 
 ## 1. Authority and safety
 
@@ -10,7 +10,7 @@
 2. Approved full-design art and established Carol geometry/support documents are preserved; body-only views are **derived image-to-3D inputs only**.
 3. Retain anatomical/identity-critical fleece, leaves, horns, wings, ears, eyes, paws/hooves, tail, markings. Remove only independently authored props (Carol moon/stars; Jill loose flowers/butterflies; Pino bubbles/water; Shushu crown/bouquet/loose flowers).
 4. The 2026-10-11 Human visual decisions accept Jill/Pino/Shushu **Front, left-facing Side, right-facing Opposite Side, Back** as 2D candidates. Jill's peach-colored paired head appendages are interpreted as **horn-like anatomy**, rather than conventional ears; do not perform an automatic "ear-back recolor" that would rewrite accepted appearance. Preserve head leaves, wing and tail relationships. Body markings that may have drifted (e.g. Jill's canonical clover) remain a later identity/material QA obligation.
-5. Carol's body-only Front, left-facing Side and right-facing Opposite Side have been recovered from prior user images; **do not presume a particular historical Carol Back revision is final** without matching the user's selected local source. Carol Back should pass the Human-visible body taper and three-part hoof/rear-foot identity check before promotion.
+5. Carol's body-only Front, left-facing Side and right-facing Opposite Side are the approved inputs. Human decided on 2026-10-11 not to create or use a Back image because repeated Back candidates failed the lower-body taper, hoof shape, and three-dimensional connection quality checks. Try the three approved views in Tripo if supported; this does not guarantee accurate reconstruction of unseen rear anatomy.
 6. No 2D approval implies successful Tripo reconstruction, mesh topology, rigging, motion, material, or mobile performance. No paid Tripo use without approval.
 
 ## 2. Proposed canonical *production-input* placement
@@ -19,7 +19,7 @@ Create each file below, retaining the **original PNG bytes**. These paths are di
 
 | Character | Front | Left-facing Side | Right-facing Opposite | Back |
 | --- | --- | --- | --- | --- |
-| Carol | `carol_bodyonly_front.png` | `carol_bodyonly_left.png` | `carol_bodyonly_right.png` | `carol_bodyonly_back.png` |
+| Carol | `carol_bodyonly_front.png` | `carol_bodyonly_left.png` | `carol_bodyonly_right.png` | *intentionally omitted by Human decision* |
 | Jill | `jill_bodyonly_front.png` | `jill_bodyonly_left.png` | `jill_bodyonly_right.png` | `jill_bodyonly_back.png` |
 | Pino | `pino_bodyonly_front.png` | `pino_bodyonly_left.png` | `pino_bodyonly_right.png` | `pino_bodyonly_back.png` |
 | Shushu | `shushu_bodyonly_front.png` | `shushu_bodyonly_left.png` | `shushu_bodyonly_right.png` | `shushu_bodyonly_back.png` |
@@ -32,7 +32,7 @@ Here **left/right mean the direction the character faces *on the image***: `left
 
 ## 2.1 Byte-exact source verification (15 verified originals)
 
-The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11 conversation**, verified before this register was authored. Use them to distinguish approved artwork from similarly named old images. Different PNG canvas sizes are intentional source facts, **not** instructions to resize the artwork. If a user-supplied local file does not match, report the discrepancy rather than silently replacing it. Carol Back is not in this verified set and is unavailable in the current import; the user confirmed no source is available. Its manifest entry is pending without fabricated dimensions or hash.
+The registered SHA-256 values identify the original PNG bytes. Different PNG canvas sizes are intentional source facts, **not** instructions to resize the artwork. If a user-supplied local file does not match, report the discrepancy rather than silently replacing it. Carol Back has no selected or registered source by Human decision; no pending file entry is required.
 
 | File | Dimensions (px) | SHA-256 |
 | --- | --- | --- |
@@ -42,7 +42,7 @@ The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11
 | `jill_bodyonly_back.png` | 1122x1402 | `503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc` |
 | `jill_bodyonly_front.png` | 1122x1402 | `c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8` |
 | `jill_bodyonly_left.png` | 1122x1402 | `bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31` |
-| `jill_bodyonly_right.png` | 1145x1374 | `f745cbd01b8224b45354e9c3f1621b4668f51cc00df3cfc9287deda415ef019a` |
+| `jill_bodyonly_right.png` | 1145x1374 | `9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc` |
 | `pino_bodyonly_back.png` | 1086x1448 | `1762021a4d974fd8d9f3c3abbd43fdb31d14f5dff844b566592d7593f06ee5bf` |
 | `pino_bodyonly_front.png` | 1122x1402 | `c4163765b26523849cc32a7ba22499e36a9b89432ede37559c5cd19aa2e96589` |
 | `pino_bodyonly_left.png` | 1122x1402 | `787f7e58b302e6ce4288cd105192c128b7594c02ebed1a2d82d30b6dc9b02b28` |
@@ -55,7 +55,7 @@ The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11
 ## 3. Registration requirements for local image-placement task
 
 - Start from actual current branch, working tree, and repository instructions; do not infer uploads exist in the remote. Locate newly added PNGs even when currently untracked.
-- Inspect the 16 selected images visually or against an image contact sheet and check their original provenance. Identify Carol Back from the user's *actual* final candidate rather than filename order, modification time or the first "back" match. If ambiguous, leave it pending and report clearly; do not fabricate, overwrite or silently substitute.
+- Inspect the 15 selected images visually and check their original provenance. Carol Back is excluded by the current Human decision; do not create a substitute or treat its absence as a pending asset task.
 - Preserve the bytes of the selected approved sources; compare SHA-256 before and after move/copy, and check simple PNG readability and dimensions. Do not regenerate, upscale, crop, normalize, or resave originals.
 - Only canonicalize clear duplicates/old versions **within this import's scope**. Before archiving/removing an old file, check its references, original authority role and unique bytes. Keep historically approved art, `approved-3d/`, original Carol Normal/Skin and image evidence intact.
 - If a duplicate is referenced from code/docs, update only the relevant references after verifying the intended authority. No bulk text replace across unrelated documentation.
@@ -72,4 +72,10 @@ The following are **SHA-256 of the PNG bytes actually exported in the 2026-10-11
 | Pino | Huge rounded *single* tail joining the rear pelvis, compact low body, short limbs, complete eye anatomy (original wink is an expression), underside paw pads |
 | Shushu | Large plush head, pink ear volumes and round body, short distinguishable limbs, grounded squat/sitting motion capability, sole/pad details; floral crown/bouquet are independent props |
 
-**Execution status (2026-10-11):** Fifteen verified PNGs are registered under the paths above; `assets/grimo/source/body-only-multiview-manifest.json` records measured dimensions and hashes. Carol Back remains unavailable/pending. All registered assets remain `BODY_ONLY_REFERENCE_ACCEPTED / TRIPO_PREFLIGHT_PENDING`; no Tripo-ready status is claimed.
+**Execution status (2026-10-11):** Fifteen selected PNGs are registered under the paths above; `assets/grimo/source/body-only-multiview-manifest.json` records measured dimensions and hashes. The 15-image count reflects the current selected set: three Carol views and four views for each other character. Carol's three approved views are the planned Tripo input; Studio support for three views and any recovered rear quality are unknown. All registered assets remain `BODY_ONLY_REFERENCE_ACCEPTED / TRIPO_PREFLIGHT_PENDING`; no Tripo-ready status is claimed.
+
+### Decision log — 2026-10-11 (Human)
+
+- **Jill Right:** Exclude the previous Right image because it faced screen-left like the existing Left. Old SHA-256: `f745cbd01b8224b45354e9c3f1621b4668f51cc00df3cfc9287deda415ef019a`. Replace it with original `ChatGPT 画像 2026年10月11日 18_08_13.png` (1145×1374; SHA-256 `9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc`) at `assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png`. The new image faces screen-right.
+- **Carol Back:** Repeated generated Back candidates did not meet quality for the lower-body taper, hooves, and three-dimensional connections. Do not generate or use a Back source for this input plan; try the approved Front/Left/Right set only if Tripo supports three views.
+- **Still unverified:** Tripo camera-slot mapping, support for three-view input, and the quality of any generated Carol model, especially unseen rear anatomy. The 2D selections do not establish Tripo or Rig readiness.

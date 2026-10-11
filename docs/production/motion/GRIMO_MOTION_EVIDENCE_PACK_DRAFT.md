@@ -67,7 +67,7 @@
 | Generation Pose = Rest Pose = Game Neutralという誤同一視 | **P/U**。入力形状を読みやすくする姿勢、rigの基準姿勢、体験上の通常姿勢を分離。POSEの角度/clearanceは実測ではない。Pino/Shushu座位Game NeutralはPLAN上まだ候補 | POSE §§0,2–7; PLAN §1 |
 | 旧制作方式・budget・数値 | **P**。LIVINGのruntime/制作推奨、CAROL冒頭のruntime baseline hypothesis、CAMERAのCarol「Final contract」という見出しを新しい技術決定に昇格しない。Full-Spatial+View-Weighted Polishは現行能力要件。mesh/rig/骨数/solver/手順は未確定 | ARCH §§0,2,11,21; OPS §§2,13; ANATOMY authority boundary |
 | Tripo適合性 | **U**。Studio 3D/auto-rig/preset/eligible Text-to-Motionを優先評価し、不足はCodex/Blenderで修復/制作するという**Aの方針**。4匹に使えること、品質、StudioとAPIの同等性は未検証。POSEの外部Help/slot記述はXであり最新能力の保証ではない。credit使用は明示Human承認が必要 | PLAN §0, Phase 4; POSE §§7–9 |
-| 2D selection vs production readiness | **A/U**。VIEWSは15/16登録、Carol Back unavailable/pending、全画像TRIPO_PREFLIGHT_PENDING。Jillの桃色頭部付属は最新Human解釈でhorn-like。左右名はimage-facing方向であり解剖学/Studio slotと異なる。clover等のmaterial QAは未完 | VIEWS §§1–3,6; INDEX; POSE §8 |
+| 2D selection vs production readiness | **A/U**。VIEWSには現在選定された15画像を登録済み。Carol BackはHuman判断で不使用、全画像TRIPO_PREFLIGHT_PENDING。Jillの桃色頭部付属は最新Human解釈でhorn-like。左右名はimage-facing方向であり解剖学/Studio slotと異なる。clover等のmaterial QAは未完 | VIEWS §§1–3,6; INDEX; POSE §8 |
 | Carol実行状態の古い「Current state」見出し | **A/U**。STATE内の2026-10-10更新と保存checkpointを区別。v001はHuman visual review待ち、Skin v004 default promotionは耳・Motion・runtime PASSではない。このbranchのSTATE snapshotを他branchの最新結果で推測更新しない | STATE「Normal semantic v001」「Normal/Fleece planning inputs」「Current state — 2026-09-29」 |
 | Eevee分析が「Pikachu corpus absent」と記す | 文書自身の5本corpus限界。今回P-AN/P-Mは別に存在する。E-AN §25の欠落をプロジェクト全体の欠落と誤読しない | E-AN §§0,25; P-AN §2; P-M §1 |
 | 外部開発者証言の参照形式 | **X/U**。LIVINGはrendered citation IDで開発者/心理学主張を記録している。本Packはその帰属を報告するのみ。一次出典URL・原文未再確認の主張をO/Aへ昇格しない | LIVING「開発者側から見た『可愛さ』の作り方」「証拠強度と残る不確実性」 |

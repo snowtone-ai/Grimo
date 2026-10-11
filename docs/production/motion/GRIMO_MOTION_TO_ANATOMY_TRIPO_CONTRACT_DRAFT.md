@@ -32,7 +32,7 @@
 | [Phase 0 Evidence Pack](GRIMO_MOTION_EVIDENCE_PACK_DRAFT.md) A–D、[Phase 1 Identity](GRIMO_FOUR_CHARACTER_EXPERIENCE_IDENTITY_DRAFT.md) B–E,H、[Phase 2 Direction](GRIMO_FOUR_CHARACTER_BEHAVIOR_PERFORMANCE_DIRECTION_DRAFT.md) B–F,J | 観察/推論/提案を区別。Carolは安心を預ける、Jillは共有、Pinoは結果を見る、Shushuは選んだ快を保つという演技候補を能力へ翻訳 |
 | [Phase 3 Architecture](GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md) E–H全カード、I–K、M–O | 全130行の正本。408 profileの列挙、Variant差、支持/商品/割り込み、Carol原ID alias、Q01–Q13、未決定事項 |
 | [Zero-Based Plan](GRIMO_FOUR_CHARACTER_MOTION_ZERO_BASED_PLAN_20261011.md) Phase 4 | 工程の目的。旧Phase 0停止/モデル配分/週量制約は今回の明示Phase 4指示で置換 |
-| [Body-only Register](../../grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md)、[Generation Pose DRAFT](../../grimo/knowledge/character-production/GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md) §§0–8 | 15/16登録、画像側の左右、技術Preflight pending、Generation/Rest/Neutralの分離。古い耳解釈/座位指定/数値試験案を確定値にしない |
+| [Body-only Register](../../grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md)、[Generation Pose DRAFT](../../grimo/knowledge/character-production/GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md) §§0–8 | 15 selected images registered; Carol Back intentionally omitted by Human decision; image-facing left/right, technical Preflight pending, and Generation/Rest/Neutral separation.古い耳解釈/座位指定/数値試験案を確定値にしない |
 
 直接見たCanonicalは [Carol](../../../assets/grimo/source/carol/carol-Identity-canonical.png)、[Jill](../../../assets/grimo/source/jill/jill-Identity-canonical.png)、[Pino](../../../assets/grimo/source/pino/pino-Identity-canonical.png)、[Shushu](../../../assets/grimo/source/shushu/shushu-Identity-canonical.png)。登録済みBody-only 15枚も直接確認した。これは本書の入力観察であり、Humanの2D選定を取り消す判定や技術Preflight PASSではない。Project Memoryは未取得で、推測した内容をAuthorityへ追加しない。
 
@@ -494,7 +494,7 @@ ownerへ追従するanchor、装備assetの自前の位置/形、衝突reserve�
 
 三姿勢の一致はMUSTではない。生成姿勢で綺麗な隙間があることはRig時の可動保証ではなく、Restを変えるだけでも広域融合は治らない。Game姿勢へ移したときに首/腹/短脚/翼/太尾が成立するかが受入条件。既存pose DRAFTの角度/開き幅/座標は検証前の制作案としてのみ扱い、骨数/関節限界/本タスクの確定契約へ転用しない。
 
-Body-only 2DのHuman受入は「入力画像としての受入」。Canonicalを置換せず、現在のTripo Preflight完了や3D/Rig/NeutralのHuman承認を含まない。登録済み15枚と未登録Carol BackはO節で個別に扱う。
+Body-only 2DのHuman受入は「入力画像としての受入」。Canonicalを置換せず、現在のTripo Preflight完了や3D/Rig/NeutralのHuman承認を含まない。登録済み15枚とCarolのBack不使用方針は、O節および§Tの2026-10-11更新で扱う。
 
 ## N. Tripo-First / Blender-Fallback Production Strategy
 
@@ -540,7 +540,7 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 
 ### N3. 次回Studioで必要な最小観測
 
-1. UI上のmulti-view入力枚数/slot名/実camera向き/pose条件。画像側のleft/rightとcamera側を別記録し、Jill right矛盾とCarol Backを解決する。
+1. UI上のmulti-view入力枚数/slot名/実camera向き/pose条件。画像側のleft/rightとcamera側を別記録し、Jill Rightのcamera slotとCarolの3視点入力対応を確認する。
 2. 生成出力のmesh分割/接合/topology/裏面/口眼内部/texture、download形式と再編集可能性。
 3. Auto Rigが4体の体型/付属をどう分類し、実際のroot/chain/weights/bindをどう出すか。翼/太尾/短肢/fleeceは部分ごとに確認する。
 4. Preset/Text-to-Motionの実際の利用条件、target指定/prop/clip編集/retarget/複数clip出力。A/Bを採るなら該当Tの証拠が必要。
@@ -552,6 +552,8 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 ## O. 3D Input & Multiview Preflight Checklist
 
 ### O1. 登録と本書での直接観察
+
+**Historical Phase 4 observation:** この節の画像状態・Jill right・Carol Backに関する記述はPhase 4時点の記録。現在の入力選定は§Tの2026-10-11 Post-Phase-4 updateが優先する。
 
 画像のリンクは**現在の既存asset**。canvas/背景/向き/姿勢のscreeningは本タスクの観察に限り、画像の再編集や既存Registerの改訂はしていない。各個体のfront/left/right/backは画像側の名称である。
 
@@ -567,13 +569,13 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 ### O2. Preflight完了に必要なチェック
 
 - **Authority:** CanonicalとBody-onlyの用途を分ける。最新Register/Carol State/承認済みvisible参照を同一時点で照合。Normal review pendingを最終受入と誤読しない。
-- **slot:** view画像の実向き、Tripo slot/camera向き、前後/左右の対応を記録。Jill rightの矛盾は原画像/選定経緯の照合と正しいOppositeの確認が先。左右反転や再命名で解決したと仮定しない。
+- **slot:** view画像の実向き、Tripo slot/camera向き、前後/左右の対応を記録。Jill Rightは2026-10-11の新しいscreen-right原本へ差し替え済み。実slot/camera対応はStudioで確認する。Carolは三視点対応を確認し、非対応ならHOLD。
 - **同一個体/pose:** 頭/胴/肢の比率、眼/口/耳またはhorn/翼葉/尾/蹄、支持、露出した接合、marking、背景/scale/cropを照合。見え方と実pose差を区別する。
 - **body-only:** 冠/束/prop/通常Wearがbodyと融合していないか、除去跡で身体が欠落していないか。別asset候補の所有を確認。
 - **critical anatomy:** 首/頬、短肢root/腹の隙間、支持面、口/眼、Carol faceopening/下雲/尾、Jill wingroot/膜/葉/太尾、Pino内paw/太尾、Shushu腹腿足をG条件でscreening。
 - **出力検査計画:** C/D/J/Tと検査視点、再生成vs局所修正判定を添える。費用/入力対応/出力Rig等UNKNOWNをStudioの現行表示で解決する。入力受入が揃うまでTripo Readyと呼ばない。
 
-### O3. 追加/修正参照の提案（未作成・未承認）
+### O3. 追加/修正参照の提案（未作成・未承認; Phase 4 snapshot, current Carol decision superseded by §T)
 
 | 提案 | 目的 / 影響Motion | 追加が必要になる条件 |
 |---|---|---|
@@ -671,7 +673,7 @@ UNKNOWNは設計漏れでなく、決定者/必要証拠/次工程を指定し�
 ### S1. 次工程に渡す入力
 
 1. BのCanonical/最新visible Authority/Carol FINAL/商品・データ正本と、本書CのID→能力/Variant差、Dの逆引き、Jのstress、Qのfailure判定。
-2. 既存Body-only Register/15枚とGeneration Pose DRAFT。OのCarol Back未登録/Jill right矛盾/同pose/slot/canvas/足裏等の不確定を明示する。
+2. 既存Body-only Register/15枚とGeneration Pose DRAFT。OのCarolの3視点入力対応UNKNOWN/Jill Right差し替え/同pose/slot/canvas/足裏等の不確定を明示する。
 3. N3のStudio観測票に必要な項目、A/B/C/D/?の未採用候補、U/Hの未決定一覧。生成担当が独自に「Tripo Ready」と推定しない。
 4. 各出力について、入力/slot/設定/出力識別、修正内容、該当Motion/Q/T、検査画像/clip/実画面、技術結果とHuman結果を分けて記録する。証拠保存の具体ファイルは次タスクで決め、本タスクで補助成果物を増やさない。
 
@@ -679,7 +681,7 @@ UNKNOWNは設計漏れでなく、決定者/必要証拠/次工程を指定し�
 
 | Gate | 次へ進む条件 | HOLD/FAIL時 |
 |---|---|---|
-| G0 入力/Studio Preflight | Canonical/補助参照/slot/左右前後/同poseの照合。Carol Backの扱いとJill right矛盾解決。機能/出力/費用条件を観測し、必要なHuman入力受入を得る | 入力/現行機能UNKNOWNを解消。登録枚数だけで生成受入にしない |
+| G0 入力/Studio Preflight | Canonical/補助参照/slot/左右前後/同poseの照合。Carol 3視点対応の確認とJill Rightのslot照合。機能/出力/費用条件を観測し、必要なHuman入力受入を得る | 入力/現行機能UNKNOWNを解消。登録枚数だけで生成受入にしない |
 | G1 生成shape/Identity | 全viewで顔/比率/短肢/付属root/口/眼/自由領域のG条件をscreen。HumanがIdentity/可愛さを評価 | Q/Iの局所修復vs入力修正/再生成。Human review pendingをPASSにしない |
 | G2 topology/Rig能力 | Jの9カテゴリ以上/個体を試すための独立制御、支持、局所面/根/接合が揃う。T01–08の実結果と不成立域を記録 | 正常形状ならR/C/D修復。主要構造欠落ならG1へ、Canonとの衝突はH5 |
 | G3 Motion/接触stress | C全130の必須能力＋profile限定差を実物で照合、T14の組合せ/左右/入出/解放。OPTIONALは採否を分離 | clip/target/corrective/支持修正。候補不成立で必須Identity改変不可 |
@@ -704,3 +706,13 @@ MUST/OPTIONALは採用能力の要求区分。Jill/Pino/Shushuの具体演技は
 重点監査を実施済み。Phase 3の全ID/各V/重点QとCの130行を機械照合し、欠落/重複/V不一致/元の重点Q欠落は0。個体別46/156・27/81・29/86・28/85、合計130/408が一致した。全408profileの列挙をFamily共通能力と最終列/Lの追加差に照合し、D逆引きも一致した。G/R/M/T分離、Jの全4体9カテゴリ以上/計38検査姿勢、18failure、pose分離、入力HOLD/未知、Carol FINAL保護を確認した。表の列数不整合/既存参照リンク切れは0。変更対象は本書だけで、正式資料/画像/3D/アプリの変更なし。**coverageは設計の対応完了であり、408profileの実物成立証明ではない。**
 
 **PHASE_4_COMPLETE / DRAFT / HUMAN_REVIEW_PENDING。** 次は明示された別タスクでG0のTripo Preflightを行う。本タスクは本書の重点監査・commit/push後に停止し、モデル/Rig/clip生成やPhase 5へ進まない。
+
+
+## T. Post-Phase-4 Human Decision / Input Update (2026-10-11)
+
+This update records current input decisions after Phase 4. The direct observations in O1 above remain the Phase 4 snapshot. Where that historical snapshot or any earlier handoff text describes Carol Back or Jill Right as unresolved current work, this section supersedes that interpretation. The Phase 4 Motion/Anatomy/Rig Capability contract and its historical observations are unchanged.
+
+1. **Jill Right replaced:** The former Right image faced screen-left like Left. It is excluded from the current set (old SHA-256 `f745cbd01b8224b45354e9c3f1621b4668f51cc00df3cfc9287deda415ef019a`). New original `ChatGPT 画像 2026年10月11日 18_08_13.png` (1145×1374; SHA-256 `9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc`) is registered as `assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png` and faces screen-right. Jill's selected input is updated; camera-slot interpretation and technical preflight remain unverified.
+2. **Carol Back intentionally omitted:** Human decided not to create or use a Carol Back image after repeated generated candidates failed lower-body taper, hoof-shape, and three-dimensional-connection quality. Use approved Front, Left, and Right as the planned Tripo inputs if supported. This decision does not claim accurate reconstruction of unseen rear anatomy.
+3. **Studio support unknown:** Current Tripo support for three-view input and its camera-slot mapping have not been checked. If three views are unsupported or a required slot prevents this input plan, hold and decide the next input method separately. No Tripo operation or Credits use occurred in this update.
+4. **Readiness:** All 15 registered images remain `BODY_ONLY_REFERENCE_ACCEPTED`; technical Tripo preflight remains `PENDING`. This update does not declare Tripo Ready or Rig Ready.
