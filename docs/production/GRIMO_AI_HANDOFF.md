@@ -2,7 +2,7 @@
 
 **Branch:** `coord/grimo-ai-handoff` (coordination-only; DO NOT use as the code-production base).
 **File:** `docs/production/GRIMO_AI_HANDOFF.md`.
-**Last interaction:** 2026-10-12 / ChatGPT Planner / verified production remote HEAD and Candidate B test evidence, production/motion authorities; proposed Shushu identity-preserving regional geometry + deformation convergence as next Codex task. No geometry or Tripo action performed.
+**Last interaction:** 2026-10-12 / ChatGPT Planner / completed multi-source research (11 requested platform checks), revised proposed Shushu Tripo×Codex production workflow and Codex execution brief. No production artifact changed, no Tripo credits/trials consumed.
 **Status:** Last-known routing snapshot, **not** a substitute for Git/approved source files.
 
 ## 1. How to use / sync contract
@@ -19,11 +19,11 @@
 ## 2. Last-verified active execution
 
 - **Primary production branch:** `codex/grimo-motion-zero-based-design-20261011`
-- **Verified remote HEAD during 2026-10-12 Planner check:** `749675cac5ebdb07587e715eb2cb59bfcae2768f`; no new Shushu geometry in the checked HEAD.
+- **Verified remote HEAD during 2026-10-12 research:** `749675cac5ebdb07587e715eb2cb59bfcae2768f`; no Shushu geometry change was made by this Planner.
 - This latest commit and its two preceding ChatGPT documentation commits added the cross-agent rules + stable project overview; **Shushu production geometry was not modified** in them.
 - **Last material Shushu evidence commit:** `6d6f7326ea901658f9cbf1b4ffea92a4dd1e6a0b` — Candidate B original assets, Blender feasibility evidence and scripts. Verify newer Git changes before acting.
-- **Next owner:** Codex Executor (proposed, not executed): production-owned Candidate B derivative repairing canonical face/eyelid/mouth and short-leg seated support, then targeted shoulder/head/holding/plush deformation probes and compact Human review evidence. Planner recommendation, not Human perceptual approval.
-- **Last Human instruction:** Add one cross-agent live handoff file/rules; deliver a separate project-wide stable knowledge Markdown; continue work next session. No permission to spend Tripo credits or consume trials was given here.
+- **Next owner:** Codex Executor (proposed, no execution yet): start new GPT-6.1 Sol / High session, no pre-/compact; carry out Canonical-safe Candidate B geometry/deformation convergence with simultaneous actual pose testing, especially lids/mouth and lower-body support. Produce real Blender asset + concise motion/visual evidence; stop at Human perceptual Gate, not final Rig certification.
+- **Last Human instruction:** Thoroughly research Tripo + Codex user workflows on X, Discord, official docs, Axios, alphaXiv, Hugging Face, The Information, GitHub, Hacker News, BiliBili, Weibo, Reddit; reconstruct next Codex prompt. This is research/planning only, not permission for Tripo spending or Human approval.
 
 ## 3. Shushu — current evidence-backed state
 
@@ -44,6 +44,7 @@
 - Region Mesh Edit screen displayed **(×3)** remaining and user reported **one** remaining free whole-model generation. These are **last-seen/unverified current balances**, not entitlements we can spend. Neither should be consumed by default.
 - Tripo API **Rig Check** is documented as a free API endpoint, but no independent Studio UI control was verified; API access/credits are separate. Do not create API key/paid service without permission.
 - **2026-10-12 official documentation check:** Tripo Help Center states existing GLB/OBJ/STL/FBX models can be uploaded for Auto Rig (pose restrictions apply); public Studio Generate page shows Upload 3D Model; Tripo developer documentation also describes import and uploaded-model texture/rig workflows. This establishes documented support in some Tripo interfaces/APIs, **not verified availability, pricing, compatibility or no-cost behavior of the user's authenticated Studio session**. Sources: https://www.tripo3d.ai/help/features/is-it-possible-to-upload-my-existing-model-for-animation ; https://docs.tripo3d.ai/model-generation/import-model.html . Tripo geometry-changing remesh/segmentation operations do not preserve rigs; finish mesh changes before rigging.
+- **2026-10-12 cross-source research outcome:** Independent Tripo user posts (Reddit r/Tripo_ai) expose real Mixamo retarget axis/origin issues and stylized-rig shoulder/hip fold; Japanese independent panda character study (2026-09-26, https://xn--68jtc1d819rk6e.jp/diary/250016) finds unnecessary five-finger Humanoid/Mixamo bones and wrist twist even after re-rig. Tripo official imported-model Auto Rig help states T-pose humanoid / standard standing quadruped support; atypical Shushu A-pose short-limb compatibility is UNKNOWN (https://www.tripo3d.ai/help/features/is-it-possible-to-upload-my-existing-model-for-animation). Official pre-rig docs say geometry-remesh/segmentation destroys rig and skin (https://docs.tripo3d.ai/animation/pre-rig-check-v2-0-20250506.html). Blender 5.2 exporter and PlayCanvas GLB support shape keys/morphs/skinning but actual exported scene must be tested (https://developer.playcanvas.com/user-manual/assets/models/building/). User posts and press claims cannot override actual Shushu evidence. Research found no verifiable task-specific original Discord/Weibo posts, or directly relevant Axios/The Information pipeline tests; no invented consensus. Process implication: repair and deformation-test iteratively using temporary rig; avoid assuming Tripo Auto Rig as final. Optional Tripo suitability check only if zero-credit/no-trial; do not block geometry repairs on authenticated Studio access. After topology/staging gate, consider UV/Texture/Auto Rig only by user approval, verify morph/material preservation.
 - **Order:** preserve model and do consequential mesh/topology repairs before Smart UV / Texture / Auto Rig. Verify whether **uploaded, Blender-repaired GLB/FBX** can use those Studio operations before committing to that route. Tripo-generated content must be checked against Canonical, motion needs and rights. Repair may still be followed by Blender facial/corrective work.
 - **No Tripo Mesh Edit/Retopo/Texture/Auto Rig/generation/credits were executed by ChatGPT.** Screenshots show settings only; user action afterwards must be rechecked.
 
