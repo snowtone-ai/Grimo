@@ -2,6 +2,14 @@
 
 Use this index to locate durable authority. Current execution truth is not durable authority; check Git and the relevant production-state file.
 
+## Cross-agent live handoff (mutable coordination, not durable authority)
+
+- [Live ChatGPT / Codex handoff](https://github.com/snowtone-ai/Grimo/blob/coord/grimo-ai-handoff/docs/production/GRIMO_AI_HANDOFF.md) — **always read the `coord/grimo-ai-handoff` branch**, update on every Grimo interaction, verify production claims against the actual active branch and evidence. Rules are in `AGENTS.md`. Do not confuse this live routing snapshot with final Human approval or replace character production-state files.
+
+## Stable overview (ChatGPT Project Knowledge)
+
+- [GRIMO_PROJECT_OVERVIEW_STABLE.md](GRIMO_PROJECT_OVERVIEW_STABLE.md) — long-lived product and experience overview for ChatGPT Project Knowledge. **Not a production-state file**; for mutable status read the live coordination handoff from its dedicated branch.
+
 ## Product and experience
 
 - `GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` — product goal and minimum experience requirements
