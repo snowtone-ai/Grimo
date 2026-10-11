@@ -43,6 +43,13 @@ Technical design: coherent full-spatial 3D, maximum perceptual polish in the fro
 4. Carol’s current live Motion Spec contains later **no macro positional fleece lag** semantics than the Project-uploaded version; the upload was saved as a historical snapshot and never overrode it.
 5. For appearance review use actual images, not just text descriptions. For important conclusions mention inspected file and revision.
 
+## 3.1 2026-10-11 image registration handoff
+
+- [Body-only multiview asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) is the scoped source for proposed 16 names and `assets/grimo/source/<character>/tripo-generation-pose/` placement. **No assertion that image binaries have reached GitHub**; Codex must compare local candidates, record real hashes, then push.
+- Image names `*_bodyonly_left.png` / `*_bodyonly_right.png` indicate **face direction on the picture**, not Tripo camera-side semantics.
+- Jill/Pino/Shushu four-view 2D Human selections were accepted on 2026-10-11. Jill's peach-colored head appendages are treated as horn-like, not conventional ears. Carol Front/left/right are recoverable user-provided body-only inputs; confirm the *selected* Carol Back revision rather than promoting a historical Back by filename.
+- These inputs remain subordinate to canonical identity; all characters retain independent accessories in their completed appearance. 2D acceptance is not 3D mesh/rigging or Tripo technical acceptance.
+
 ## 4. Remaining visual-authority caution
 Two Project-uploaded files (`carol_skin_front`, `carol_skin_side`) **do not match by bytes** the corresponding earlier inspected GitHub images. The authoritative version is not determined from file names alone. Their GitHub originals were **not overwritten** during Markdown synchronization; retain uploaded copies for a Human visual gate when needed. The other six character/Carol image uploads matched GitHub in the previous audit.
 
