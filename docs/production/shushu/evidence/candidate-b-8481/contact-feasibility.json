@@ -1,0 +1,99 @@
+{
+  "method": "81 bounded pose/prop combinations; nearest actual triangle surface from per-part BVH; radius is tangent to the two paws; not solid collision, grasp physics or final prop fit",
+  "combination_count": 81,
+  "feasible_count": 1,
+  "best": {
+    "target_x": 0.08,
+    "target_y": -0.22,
+    "target_z": 0.445,
+    "proxy_center": [
+      0.0,
+      -0.28999999165534973,
+      0.4449999928474426
+    ],
+    "proxy_radius": 0.07803255319595337,
+    "L_R_contact_radius_difference": 0.00019353628158569336,
+    "torso_surface_clearance": 0.004137963056564331,
+    "head_surface_clearance": 0.01887589693069458,
+    "deformation": {
+      "finite": true,
+      "changed_vertices_gt1e-6": 602,
+      "max_displacement": 0.38382959241324793,
+      "area_ratio_min": 0.14430937731310525,
+      "area_ratio_max": 2.3839177723891973,
+      "edge_length_ratio_p01_p99": [
+        0.8783067898114476,
+        1.714458116852785
+      ],
+      "edge_length_ratio_min_max": [
+        0.16225920124823234,
+        2.738571025330555
+      ],
+      "sole_samples": {
+        "L": {
+          "vertices": 98,
+          "max_displacement": 0.0,
+          "minimum_z": 1.0633174341023732e-09,
+          "maximum_z": 0.01123047899454832
+        },
+        "R": {
+          "vertices": 98,
+          "max_displacement": 0.0,
+          "minimum_z": -1.0633146585448117e-09,
+          "maximum_z": 0.011230477131903172
+        }
+      },
+      "minimum_z": -1.0633146585448117e-09,
+      "bounds": [
+        [
+          -0.3518066704273224,
+          -0.291748046875,
+          -1.0633146585448117e-09
+        ],
+        [
+          0.3518066108226776,
+          0.291748046875,
+          0.99609375
+        ]
+      ]
+    }
+  },
+  "head_touch_while_holding": {
+    "head_angles_world_degrees": [
+      10,
+      0,
+      12
+    ],
+    "head_surface_clearance": 0.0019342824816703796,
+    "paw_max_displacement_from_held_pose": 0.0
+  },
+  "neutral_return_max_error": 0.0,
+  "verdict": "CONDITIONAL: bounded geometric contact exists; shoulder repair, real prop fit and natural grasp still required",
+  "local_pressure_isolation": {
+    "CheekPressure.L": {
+      "max_displacement": 0.004205748438835144,
+      "neighbor_displacements": {
+        "eyes": 0.0027713775634765625,
+        "distal_paws": 0.0,
+        "opposite_cheek": 0.0
+      }
+    },
+    "BellyPressure": {
+      "max_displacement": 0.02380940318107605,
+      "neighbor_displacements": {
+        "eyes": 0.0,
+        "distal_paws": 0.0,
+        "opposite_cheek": 0.0
+      }
+    },
+    "SupportCompression": {
+      "max_displacement": 0.016543343663215637,
+      "neighbor_displacements": {
+        "eyes": 0.0,
+        "distal_paws": 0.0,
+        "opposite_cheek": 0.0
+      }
+    },
+    "release_max_error": 0.0
+  }
+}

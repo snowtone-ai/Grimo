@@ -1,0 +1,215 @@
+{
+  "input_head": "65dcab996f0963ae2054d8474f07cf0fafaca608",
+  "files": [
+    {
+      "original_path": "cute panda 3d model 8481.fbx",
+      "path": "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.fbx",
+      "bytes": 361520,
+      "sha256": "6420ce386c0dc1a19dc0a9b5dc827a3d247f91c6cc4f83cd883e79f5ff3fe06d",
+      "role": "Original Tripo source",
+      "fbx_version": 7400
+    },
+    {
+      "original_path": "cute panda 3d model 8481.glb",
+      "path": "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.glb",
+      "bytes": 366032,
+      "sha256": "803937cd10bd48d5b15be9f6dca43a38183ec730ed0b62eb2820fd160d14d448",
+      "role": "Original Tripo source",
+      "glb": {
+        "asset": {
+          "version": "2.0",
+          "generator": "Tripo"
+        },
+        "chunks": [
+          {
+            "type": 1313821514,
+            "bytes": 1540
+          },
+          {
+            "type": 5130562,
+            "bytes": 364464
+          }
+        ],
+        "nodes": [
+          {
+            "name": "RootNode",
+            "children": [
+              1
+            ]
+          },
+          {
+            "name": "tripo_1d2c99e4_31df_4c22_b8d7_ef2d0673505f",
+            "mesh": 0,
+            "extras": {
+              "UserProperties": "",
+              "IsNull": false,
+              "DefaultAttributeIndex": 0,
+              "InheritType": 1,
+              "RotationActive": true,
+              "ScalingMax": null
+            }
+          }
+        ],
+        "meshes": [
+          {
+            "name": "tripo_1d2c99e4_31df_4c22_b8d7_ef2d0673505f",
+            "primitives": [
+              {
+                "extensions": {
+                  "FB_ngon_encoding": {}
+                },
+                "mode": 4,
+                "material": 0,
+                "indices": 2,
+                "attributes": {
+                  "POSITION": 0,
+                  "NORMAL": 1
+                }
+              }
+            ]
+          }
+        ],
+        "materials": [
+          {
+            "name": "tripo_1d2c99e4_31df_4c22_b8d7_ef2d0673505f",
+            "pbrMetallicRoughness": {
+              "baseColorFactor": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+              ],
+              "metallicFactor": 0.0,
+              "roughnessFactor": 0.5
+            }
+          }
+        ],
+        "images": [],
+        "skins": 0,
+        "animations": 0,
+        "extensionsUsed": [
+          "KHR_materials_volume",
+          "FB_ngon_encoding"
+        ]
+      }
+    },
+    {
+      "original_path": "shushu_mesh_audit_data.json",
+      "path": "docs/production/shushu/evidence/candidate-b-8481/historical/shushu_mesh_audit_data.json",
+      "bytes": 10125,
+      "sha256": "3a0f626b79cb11b2899daa881c1bac1910911bbfa771db77a433700c3d70c0ab",
+      "role": "Historical supplied diagnostics; secondary evidence",
+      "json": {
+        "root_type": "dict",
+        "keys": [
+          "A 5038",
+          "B 8481",
+          "C 16000",
+          "X bunny 12000"
+        ],
+        "formal_schema_present": false,
+        "note": "multi-candidate content; only B independently validated"
+      }
+    },
+    {
+      "original_path": "shushu_topology_zones.json",
+      "path": "docs/production/shushu/evidence/candidate-b-8481/historical/shushu_topology_zones.json",
+      "bytes": 3188,
+      "sha256": "d7114d89bd0a46b9d88169a62c2d22f0addf6a16c3b74b8e5a4bb756a8acf18f",
+      "role": "Historical supplied diagnostics; secondary evidence",
+      "json": {
+        "root_type": "dict",
+        "keys": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "formal_schema_present": false,
+        "note": "multi-candidate content; only B independently validated"
+      }
+    },
+    {
+      "original_path": "shushu_clay_5view_comparison.png",
+      "path": "docs/production/shushu/evidence/candidate-b-8481/historical/shushu_clay_5view_comparison.png",
+      "bytes": 796972,
+      "sha256": "ef7ebb3796359082ec0f5fe203d3a9bf7737ecdf8851ee3f0f085b0775de8ac3",
+      "role": "Historical supplied diagnostics; secondary evidence",
+      "image": {
+        "format": "PNG",
+        "size": [
+          2050,
+          1960
+        ],
+        "mode": "RGB"
+      }
+    },
+    {
+      "original_path": "shushu_quad_topology_visual.png",
+      "path": "docs/production/shushu/evidence/candidate-b-8481/historical/shushu_quad_topology_visual.png",
+      "bytes": 2281133,
+      "sha256": "c5b4a0a39f796db3dc26622d33bb35830343193cc1b9e099b82ec2b8951734fc",
+      "role": "Historical supplied diagnostics; secondary evidence",
+      "image": {
+        "format": "PNG",
+        "size": [
+          1800,
+          1860
+        ],
+        "mode": "RGB"
+      }
+    }
+  ],
+  "references": [
+    {
+      "path": "assets/grimo/source/shushu/shushu-Identity-canonical.png",
+      "bytes": 584187,
+      "sha256": "21af6792b572caa06b2c5cfcfcc7e1f9e859fbf78a716e6755aaf25c7594cb10",
+      "size": [
+        768,
+        512
+      ]
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_back.png",
+      "bytes": 1583287,
+      "sha256": "a1ed01e201d6e125623d81e4289b7f17813bab354177e950b7a4836e6dda533d",
+      "size": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_front.png",
+      "bytes": 1371764,
+      "sha256": "e35dfc9c58324b0454dd06b1222ca8f61f23b3b605a348ecf606255b6d087a18",
+      "size": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_left.png",
+      "bytes": 1587131,
+      "sha256": "873fe2fbb950cbb21f2e0e64d2617650b5bac4128fb788f15dbd67e881616a61",
+      "size": [
+        1122,
+        1402
+      ]
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_right.png",
+      "bytes": 1579115,
+      "sha256": "ad754267b4d446dcce9821ceb898304e60cb4a99526b1e0fec0b6169ca25751b",
+      "size": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "historical_B_hash_match": true,
+  "tripo_trials": {
+    "remaining": 1,
+    "untouched": true
+  }
+}

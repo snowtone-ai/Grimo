@@ -1,0 +1,158 @@
+{
+  "A": {
+    "winding_inconsistent_shared2": 0,
+    "boundary_closed_loops_graph": 86,
+    "boundary_open_chains_graph": 0,
+    "boundary_branched_graph": 11,
+    "nonmanifold_zones": {
+      "bands": {
+        "foot": 0,
+        "belly": 0,
+        "neck": 0,
+        "face": 0,
+        "ear-top": 0
+      },
+      "front_pct": 0,
+      "med_xyz": []
+    },
+    "boundary_zones": {
+      "bands": {
+        "foot": 109,
+        "belly": 302,
+        "neck": 187,
+        "face": 472,
+        "ear-top": 634
+      },
+      "front_pct": 45.8,
+      "med_xyz": [
+        -0.005859359516762197,
+        0.7625732421875,
+        -0.015869151800870895
+      ]
+    },
+    "bounds_y": [
+      0.0,
+      0.99951171875
+    ]
+  },
+  "B": {
+    "winding_inconsistent_shared2": 11,
+    "boundary_closed_loops_graph": 88,
+    "boundary_open_chains_graph": 9,
+    "boundary_branched_graph": 16,
+    "nonmanifold_zones": {
+      "bands": {
+        "foot": 1,
+        "belly": 5,
+        "neck": 0,
+        "face": 2,
+        "ear-top": 20
+      },
+      "front_pct": 14.3,
+      "med_xyz": [
+        0.1287841647863388,
+        0.913818359375,
+        -0.07629397325217724
+      ]
+    },
+    "boundary_zones": {
+      "bands": {
+        "foot": 400,
+        "belly": 484,
+        "neck": 277,
+        "face": 524,
+        "ear-top": 861
+      },
+      "front_pct": 25.1,
+      "med_xyz": [
+        0.00012206204701215029,
+        0.662353515625,
+        -0.06396481674164534
+      ]
+    },
+    "bounds_y": [
+      0.0,
+      0.99951171875
+    ]
+  },
+  "C": {
+    "winding_inconsistent_shared2": 443,
+    "boundary_closed_loops_graph": 34,
+    "boundary_open_chains_graph": 305,
+    "boundary_branched_graph": 47,
+    "nonmanifold_zones": {
+      "bands": {
+        "foot": 889,
+        "belly": 1022,
+        "neck": 345,
+        "face": 955,
+        "ear-top": 1000
+      },
+      "front_pct": 36.5,
+      "med_xyz": [
+        0.005859372497070581,
+        0.5068359375,
+        -0.058105431497097015
+      ]
+    },
+    "boundary_zones": {
+      "bands": {
+        "foot": 228,
+        "belly": 312,
+        "neck": 229,
+        "face": 417,
+        "ear-top": 317
+      },
+      "front_pct": 35.5,
+      "med_xyz": [
+        -0.017334015108644962,
+        0.54541015625,
+        -0.039794936776161194
+      ]
+    },
+    "bounds_y": [
+      0.0,
+      0.99951171875
+    ]
+  },
+  "D": {
+    "winding_inconsistent_shared2": 160,
+    "boundary_closed_loops_graph": 49,
+    "boundary_open_chains_graph": 172,
+    "boundary_branched_graph": 41,
+    "nonmanifold_zones": {
+      "bands": {
+        "foot": 126,
+        "belly": 509,
+        "neck": 458,
+        "face": 126,
+        "ear-top": 85
+      },
+      "front_pct": 62.0,
+      "med_xyz": [
+        0.02246095146983862,
+        0.4560546875,
+        0.025756834540516138
+      ]
+    },
+    "boundary_zones": {
+      "bands": {
+        "foot": 420,
+        "belly": 428,
+        "neck": 391,
+        "face": 557,
+        "ear-top": 386
+      },
+      "front_pct": 43.7,
+      "med_xyz": [
+        0.002563454407209065,
+        0.49853515625,
+        -0.022216814570128918
+      ]
+    },
+    "bounds_y": [
+      0.0,
+      0.99951171875
+    ]
+  }
+}

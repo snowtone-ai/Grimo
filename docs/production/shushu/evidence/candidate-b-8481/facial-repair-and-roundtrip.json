@@ -1,0 +1,480 @@
+{
+  "purpose": "Local eye reconstruction and mouth-interior capacity proof; not canonical-final face. Eight-core scratch deliberately omits original eye-cap islands; raw mesh remains in scene.",
+  "tests": {
+    "eyes-open": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.10266000032424927,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 1,
+      "gaze": null,
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "left-half": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.051329970359802246,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 1,
+      "gaze": null,
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "left-closed": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.0,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 1,
+      "gaze": null,
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "right-closed": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.10266000032424927,
+        "R": 0.0
+      },
+      "mouth_close": 1,
+      "gaze": null,
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "both-closed": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "mouth_close": 1,
+      "gaze": null,
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "gaze-left": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.10266000032424927,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 1,
+      "gaze": "GazeLeft",
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "gaze-right": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.10266000032424927,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 1,
+      "gaze": "GazeRight",
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "gaze-down": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.10266000032424927,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 1,
+      "gaze": "GazeDown",
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "mouth-small-open": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.10266000032424927,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 0,
+      "gaze": null,
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "mouth-small-chew": {
+      "eyeball_geometry_change": {
+        "FacialRepair_Eyeball.L": 0.0,
+        "FacialRepair_Eyeball.R": 0.0
+      },
+      "central_lid_aperture": {
+        "L": 0.10266000032424927,
+        "R": 0.10266000032424927
+      },
+      "mouth_close": 0.4,
+      "gaze": null,
+      "scope": "mechanical local proof; Human eye shape/identity acceptance pending"
+    },
+    "food-contact": {
+      "center": [
+        0,
+        -0.31,
+        0.582
+      ],
+      "radius": 0.018,
+      "head_min_vertex_distance_minus_radius": 0.026955733023527165,
+      "limitation": "bounded proxy and vertex samples; triangle contact, final prop shape and semantics not approved"
+    },
+    "wear-chest": {
+      "center": [
+        0.09,
+        -0.245,
+        0.405
+      ],
+      "radius": 0.018,
+      "head_min_vertex_distance_minus_radius": 0.12243984830585315,
+      "limitation": "bounded proxy and vertex samples; triangle contact, final prop shape and semantics not approved"
+    },
+    "bouquet-low": {
+      "center": [
+        0,
+        -0.28,
+        0.35
+      ],
+      "radius": 0.065,
+      "head_min_vertex_distance_minus_radius": 0.13284701288317724,
+      "limitation": "bounded proxy and vertex samples; triangle contact, final prop shape and semantics not approved"
+    }
+  },
+  "glb_path": "assets/grimo/production/shushu/runtime-probes/shushu-candidate-b-diagnostic.glb",
+  "support_corrective_trial": {
+    "method": "10 local Laplacian steps at 0.35 with original sole region fixed; baked disposable copy",
+    "before_min_z": -0.045631326735019684,
+    "after_min_z": -0.01504241961137838,
+    "verdict": "FAIL if ground penetration persists; smoothing is not deformation-oriented retopology"
+  },
+  "unsupported_functionality": [
+    "Blender dual-quaternion preserve-volume skinning; temporary IK solved and baked as explicit joint transforms; Workbench diagnostic lighting"
+  ],
+  "export_structure": {
+    "bytes": 608036,
+    "nodes": 23,
+    "meshes": 10,
+    "skins": 1,
+    "animations": [
+      {
+        "name": "Scene",
+        "channels": 44,
+        "paths": [
+          "rotation",
+          "scale",
+          "translation",
+          "weights"
+        ]
+      }
+    ],
+    "morph_counts": {
+      "CandidateB_ScratchCore_Mesh": 7,
+      "Sphere.002": 0,
+      "Sphere.003": 0,
+      "FacialRepair_Iris.L.001": 3,
+      "FacialRepair_Iris.R.001": 3,
+      "FacialRepair_LidLower.L.001": 1,
+      "FacialRepair_LidLower.R.001": 1,
+      "FacialRepair_LidUpper.L.001": 1,
+      "FacialRepair_LidUpper.R.001": 1,
+      "FacialRepair_MouthPocket.001": 1
+    }
+  },
+  "export_time_range_seconds": [
+    0.0416666679084301,
+    1.0
+  ],
+  "export_fps": 24.0,
+  "resolved_export_setup_issue": "Default scene export split rig and each morph owner into 9 glTF animations. Blender imported only the active clip; a stressed sample differed by up to 0.05 model units. export_anim_scene_split_object=False merges the shared timeline into one animation, then vertex agreement is retested.",
+  "roundtrip_samples": {
+    "1": {
+      "import_frame": 1,
+      "meshes": {
+        "CandidateB_ScratchCore": {
+          "original_vertices": 4700,
+          "reimport_vertices": 4756,
+          "triangles": 9323,
+          "max_nearest_vertex_error": 1.506786730942622e-07,
+          "rms_nearest_vertex_error": 3.195300532010591e-08,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Eyeball.L": {
+          "original_vertices": 610,
+          "reimport_vertices": 691,
+          "triangles": 1216,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidUpper.L": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidLower.L": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Iris.L": {
+          "original_vertices": 33,
+          "reimport_vertices": 33,
+          "triangles": 32,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Eyeball.R": {
+          "original_vertices": 610,
+          "reimport_vertices": 691,
+          "triangles": 1216,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidUpper.R": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidLower.R": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Iris.R": {
+          "original_vertices": 33,
+          "reimport_vertices": 33,
+          "triangles": 32,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_MouthPocket": {
+          "original_vertices": 129,
+          "reimport_vertices": 161,
+          "triangles": 224,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        }
+      }
+    },
+    "12": {
+      "import_frame": 12,
+      "meshes": {
+        "CandidateB_ScratchCore": {
+          "original_vertices": 4700,
+          "reimport_vertices": 4756,
+          "triangles": 9323,
+          "max_nearest_vertex_error": 5.647225407301448e-07,
+          "rms_nearest_vertex_error": 3.8301833865206626e-08,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Eyeball.L": {
+          "original_vertices": 610,
+          "reimport_vertices": 691,
+          "triangles": 1216,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidUpper.L": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidLower.L": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Iris.L": {
+          "original_vertices": 33,
+          "reimport_vertices": 33,
+          "triangles": 32,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Eyeball.R": {
+          "original_vertices": 610,
+          "reimport_vertices": 691,
+          "triangles": 1216,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidUpper.R": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidLower.R": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Iris.R": {
+          "original_vertices": 33,
+          "reimport_vertices": 33,
+          "triangles": 32,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_MouthPocket": {
+          "original_vertices": 129,
+          "reimport_vertices": 161,
+          "triangles": 224,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        }
+      }
+    },
+    "24": {
+      "import_frame": 24,
+      "meshes": {
+        "CandidateB_ScratchCore": {
+          "original_vertices": 4700,
+          "reimport_vertices": 4756,
+          "triangles": 9323,
+          "max_nearest_vertex_error": 1.506786730942622e-07,
+          "rms_nearest_vertex_error": 3.195300532010591e-08,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Eyeball.L": {
+          "original_vertices": 610,
+          "reimport_vertices": 691,
+          "triangles": 1216,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidUpper.L": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidLower.L": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Iris.L": {
+          "original_vertices": 33,
+          "reimport_vertices": 33,
+          "triangles": 32,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Eyeball.R": {
+          "original_vertices": 610,
+          "reimport_vertices": 691,
+          "triangles": 1216,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidUpper.R": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_LidLower.R": {
+          "original_vertices": 209,
+          "reimport_vertices": 209,
+          "triangles": 368,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_Iris.R": {
+          "original_vertices": 33,
+          "reimport_vertices": 33,
+          "triangles": 32,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        },
+        "FacialRepair_MouthPocket": {
+          "original_vertices": 129,
+          "reimport_vertices": 161,
+          "triangles": 224,
+          "max_nearest_vertex_error": 0.0,
+          "rms_nearest_vertex_error": 0.0,
+          "limitation": "nearest-vertex correspondence tolerates normal-split export duplication; not an animation-quality judgment"
+        }
+      }
+    }
+  },
+  "source_sample_motion_amplitudes": {
+    "CandidateB_ScratchCore": 0.17513749489467426,
+    "FacialRepair_Eyeball.L": 0.034999966621398926,
+    "FacialRepair_LidUpper.L": 0.08774874515153289,
+    "FacialRepair_LidLower.L": 0.034999966621398926,
+    "FacialRepair_Iris.L": 0.03539703294425126,
+    "FacialRepair_Eyeball.R": 0.034999966621398926,
+    "FacialRepair_LidUpper.R": 0.034999966621398926,
+    "FacialRepair_LidLower.R": 0.034999966621398926,
+    "FacialRepair_Iris.R": 0.03539703377853382,
+    "FacialRepair_MouthPocket": 0.06199991703033447
+  }
+}

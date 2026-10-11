@@ -1,0 +1,430 @@
+{
+  "A 5038": {
+    "glb": {
+      "verts": 5333,
+      "tris": 8764,
+      "edges": 13998,
+      "boundary_edges": 1704,
+      "edge_mult_gt2": 0,
+      "weld_vertices": 5333,
+      "weld_boundary_edges": 1704,
+      "weld_edge_mult_gt2": 0,
+      "edge_connected_components": 65,
+      "component_faces_top10": [
+        8658,
+        9,
+        8,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "component_largest_tri_fraction": 0.988,
+      "tiny_components_lt10": 64,
+      "area_top1_fraction": 0.989,
+      "area_lt10_components_fraction": 0.01125,
+      "degenerate_1e-12": 0,
+      "invalid_indices": 0,
+      "min_triangle_area": 2.92002e-07,
+      "area_p01": 6.5758e-06,
+      "area_p50": 0.0001728,
+      "area_p99": 0.00190134,
+      "aspect_ratio_p95": 0.81,
+      "area": 2.7979,
+      "bounds": [
+        -0.380615234375,
+        0.0,
+        -0.293212890625,
+        0.380615234375,
+        0.99951171875,
+        0.293212890625
+      ],
+      "face_band": [
+        {
+          "band": "0.0-0.2",
+          "tri": 1886,
+          "area_fraction": 0.185,
+          "density": 3642.25
+        },
+        {
+          "band": "0.2-0.4",
+          "tri": 1747,
+          "area_fraction": 0.2,
+          "density": 3124.57
+        },
+        {
+          "band": "0.4-0.6",
+          "tri": 1423,
+          "area_fraction": 0.236,
+          "density": 2151.43
+        },
+        {
+          "band": "0.6-0.8",
+          "tri": 1459,
+          "area_fraction": 0.17,
+          "density": 3061.62
+        },
+        {
+          "band": "0.8-1.0",
+          "tri": 2249,
+          "area_fraction": 0.208,
+          "density": 3857.63
+        }
+      ]
+    },
+    "fbx": {
+      "version": 7400,
+      "stats": [
+        {
+          "name": "c78eaeea_b6d4_4dce_b5f3_396a4589df42\u0000\u0001Geometry",
+          "verts": 5333,
+          "faces": 5038,
+          "quads": 3726,
+          "tris": 1312,
+          "ngon": 0,
+          "quad_fraction": 0.7396,
+          "fbx_bounds": [
+            -0.380615234375,
+            0.0,
+            -0.293212890625,
+            0.380615234375,
+            0.99951171875,
+            0.293212890625
+          ],
+          "native_vert_dup": 0
+        }
+      ],
+      "materials": 1,
+      "deformers": 0,
+      "connections": 3
+    },
+    "sha256": {
+      "glb": "31fc2550d530eb107d18ff2b56aafbda90fb80d1bc0b62642dc5e921e3e74677",
+      "fbx": "b420ab5c7965a0ec33923281868917621bab99dab4f6475541986eb2979ebb0a"
+    }
+  },
+  "B 8481": {
+    "glb": {
+      "verts": 8259,
+      "tris": 13854,
+      "edges": 22039,
+      "boundary_edges": 2546,
+      "edge_mult_gt2": 28,
+      "weld_vertices": 8259,
+      "weld_boundary_edges": 2546,
+      "weld_edge_mult_gt2": 28,
+      "edge_connected_components": 96,
+      "component_faces_top10": [
+        13706,
+        11,
+        6,
+        6,
+        5,
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      "component_largest_tri_fraction": 0.989,
+      "tiny_components_lt10": 94,
+      "area_top1_fraction": 0.988,
+      "area_lt10_components_fraction": 0.01074,
+      "degenerate_1e-12": 0,
+      "invalid_indices": 0,
+      "min_triangle_area": 1.215701e-06,
+      "area_p01": 1.09252e-05,
+      "area_p50": 0.00013022,
+      "area_p99": 0.00170519,
+      "aspect_ratio_p95": 0.79,
+      "area": 2.9412,
+      "bounds": [
+        -0.379150390625,
+        0.0,
+        -0.291748046875,
+        0.379150390625,
+        0.99951171875,
+        0.291748046875
+      ],
+      "face_band": [
+        {
+          "band": "0.0-0.2",
+          "tri": 3271,
+          "area_fraction": 0.177,
+          "density": 6269.02
+        },
+        {
+          "band": "0.2-0.4",
+          "tri": 2348,
+          "area_fraction": 0.191,
+          "density": 4183.38
+        },
+        {
+          "band": "0.4-0.6",
+          "tri": 2373,
+          "area_fraction": 0.244,
+          "density": 3300.83
+        },
+        {
+          "band": "0.6-0.8",
+          "tri": 2333,
+          "area_fraction": 0.173,
+          "density": 4594.74
+        },
+        {
+          "band": "0.8-1.0",
+          "tri": 3529,
+          "area_fraction": 0.215,
+          "density": 5587.96
+        }
+      ]
+    },
+    "fbx": {
+      "version": 7400,
+      "stats": [
+        {
+          "name": "tripo_1d2c99e4_31df_4c22_b8d7_ef2d0673505f\u0000\u0001Geometry",
+          "verts": 8259,
+          "faces": 8481,
+          "quads": 5373,
+          "tris": 3108,
+          "ngon": 0,
+          "quad_fraction": 0.6335,
+          "fbx_bounds": [
+            -0.379150390625,
+            0.0,
+            -0.291748046875,
+            0.379150390625,
+            0.99951171875,
+            0.291748046875
+          ],
+          "native_vert_dup": 0
+        }
+      ],
+      "materials": 1,
+      "deformers": 0,
+      "connections": 3
+    },
+    "sha256": {
+      "glb": "803937cd10bd48d5b15be9f6dca43a38183ec730ed0b62eb2820fd160d14d448",
+      "fbx": "6420ce386c0dc1a19dc0a9b5dc827a3d247f91c6cc4f83cd883e79f5ff3fe06d"
+    }
+  },
+  "C 16000": {
+    "glb": {
+      "verts": 17636,
+      "tris": 34811,
+      "edges": 52538,
+      "boundary_edges": 2182,
+      "edge_mult_gt2": 1304,
+      "weld_vertices": 17636,
+      "weld_boundary_edges": 2182,
+      "weld_edge_mult_gt2": 1304,
+      "edge_connected_components": 219,
+      "component_faces_top10": [
+        34395,
+        17,
+        8,
+        4,
+        4,
+        4,
+        4,
+        4,
+        3,
+        3
+      ],
+      "component_largest_tri_fraction": 0.988,
+      "tiny_components_lt10": 217,
+      "area_top1_fraction": 0.988,
+      "area_lt10_components_fraction": 0.01165,
+      "degenerate_1e-12": 0,
+      "invalid_indices": 0,
+      "min_triangle_area": 4.4604e-07,
+      "area_p01": 1.22683e-05,
+      "area_p50": 0.00012333,
+      "area_p99": 0.0008569,
+      "aspect_ratio_p95": 0.94,
+      "area": 5.6262,
+      "bounds": [
+        -0.381103515625,
+        0.0,
+        -0.297119140625,
+        0.381103515625,
+        0.99951171875,
+        0.297119140625
+      ],
+      "face_band": [
+        {
+          "band": "0.0-0.2",
+          "tri": 6315,
+          "area_fraction": 0.191,
+          "density": 5866.56
+        },
+        {
+          "band": "0.2-0.4",
+          "tri": 7151,
+          "area_fraction": 0.21,
+          "density": 6055.05
+        },
+        {
+          "band": "0.4-0.6",
+          "tri": 9097,
+          "area_fraction": 0.257,
+          "density": 6302.85
+        },
+        {
+          "band": "0.6-0.8",
+          "tri": 5323,
+          "area_fraction": 0.146,
+          "density": 6502.2
+        },
+        {
+          "band": "0.8-1.0",
+          "tri": 6925,
+          "area_fraction": 0.197,
+          "density": 6256.97
+        }
+      ]
+    },
+    "fbx": {
+      "version": 7400,
+      "stats": [
+        {
+          "name": "c17c65b6_a7bf_4fe7_8308_16b8686307c7\u0000\u0001Geometry",
+          "verts": 17636,
+          "faces": 22396,
+          "quads": 12415,
+          "tris": 9981,
+          "ngon": 0,
+          "quad_fraction": 0.5543,
+          "fbx_bounds": [
+            -0.381103515625,
+            0.0,
+            -0.297119140625,
+            0.381103515625,
+            0.99951171875,
+            0.297119140625
+          ],
+          "native_vert_dup": 0
+        }
+      ],
+      "materials": 1,
+      "deformers": 0,
+      "connections": 3
+    },
+    "sha256": {
+      "glb": "b36e465aa04f5ecd4fde43a4c7a0a0e7599e3e546c974e248d7be3ef0817dca3",
+      "fbx": "f0919c0101fc08c986dd75caebc30fb6a362ccad3da8e0d3fd0726480aafd028"
+    }
+  },
+  "X bunny 12000": {
+    "glb": {
+      "verts": 12902,
+      "tris": 28784,
+      "edges": 41145,
+      "boundary_edges": 1503,
+      "edge_mult_gt2": 4211,
+      "weld_vertices": 12902,
+      "weld_boundary_edges": 1503,
+      "weld_edge_mult_gt2": 4211,
+      "edge_connected_components": 157,
+      "component_faces_top10": [
+        28513,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "component_largest_tri_fraction": 0.991,
+      "tiny_components_lt10": 156,
+      "area_top1_fraction": 0.991,
+      "area_lt10_components_fraction": 0.00925,
+      "degenerate_1e-12": 0,
+      "invalid_indices": 0,
+      "min_triangle_area": 4.76841e-07,
+      "area_p01": 1.5328e-05,
+      "area_p50": 0.00015826,
+      "area_p99": 0.00086665,
+      "aspect_ratio_p95": 1.21,
+      "area": 5.8643,
+      "bounds": [
+        -0.385986328125,
+        0.0,
+        -0.289794921875,
+        0.385986328125,
+        0.99951171875,
+        0.289794921875
+      ],
+      "face_band": [
+        {
+          "band": "0.0-0.2",
+          "tri": 6342,
+          "area_fraction": 0.195,
+          "density": 5538.56
+        },
+        {
+          "band": "0.2-0.4",
+          "tri": 5867,
+          "area_fraction": 0.192,
+          "density": 5209.68
+        },
+        {
+          "band": "0.4-0.6",
+          "tri": 5350,
+          "area_fraction": 0.216,
+          "density": 4228.27
+        },
+        {
+          "band": "0.6-0.8",
+          "tri": 3923,
+          "area_fraction": 0.159,
+          "density": 4206.03
+        },
+        {
+          "band": "0.8-1.0",
+          "tri": 7302,
+          "area_fraction": 0.238,
+          "density": 5234.26
+        }
+      ]
+    },
+    "fbx": {
+      "version": 7400,
+      "stats": [
+        {
+          "name": "tripo_35e3b004_4e34_4f9f_9d30_90f9d0a741af\u0000\u0001Geometry",
+          "verts": 12902,
+          "faces": 18720,
+          "quads": 10064,
+          "tris": 8656,
+          "ngon": 0,
+          "quad_fraction": 0.5376,
+          "fbx_bounds": [
+            -0.385986328125,
+            0.0,
+            -0.289794921875,
+            0.385986328125,
+            0.99951171875,
+            0.289794921875
+          ],
+          "native_vert_dup": 0
+        }
+      ],
+      "materials": 1,
+      "deformers": 0,
+      "connections": 3
+    },
+    "sha256": {
+      "glb": "b7b3503a9675eb1a09e852cc0574435e48a54362e3aff965536eb8084ab82b9f",
+      "fbx": "0ec666da805761d3021ff01078af737a114c91dcbaa2b18f1faa1f0184425b5a"
+    }
+  }
+}

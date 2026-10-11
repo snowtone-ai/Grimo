@@ -1,0 +1,3 @@
+# Preserve supplied diagnostic JSON bytes across Windows/Linux checkouts.
+shushu_mesh_audit_data.json -text
+shushu_topology_zones.json -text
