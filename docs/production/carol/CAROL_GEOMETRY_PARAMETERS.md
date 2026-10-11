@@ -1132,10 +1132,14 @@ The **candidate** files are byte-preserved copies of the newly supplied 2026-10-
 1. Compare **new Front against original Front**, and **new Side against original Side**; check face, eye/ear shape, forehead fleece, broad crown, stance, hooves and tail; explicitly identify any genuine shape drift versus ornament removal.
 2. Cross-check new Front↔Side for one plausible 3D head/body ratio, eye and ear placement, body/hoof support and tail root. Side shall remain a true profile; Front shall remain a true frontal neutral view.
 3. Normalize canvas framing/scale and background by a reversible **derived export**; preserve the user's original new image bytes. Do not distort/anamorphose the character to force pixel alignment.
-4. Check Tripo's actual supported number/direction of views, file formats and input constraints in the currently available Studio UI. Back/right images are **not** already approved and shall never be invented or presumed available.
+4. Check Tripo's actual supported number/direction of views, file formats and input constraints in the currently available Studio UI. **2026-10-11 update:** a user-provided right-facing Carol body-only Opposite Side has since been recovered. It is not the historical decorated Normal Side; do not assume a particular older Back revision is finally approved. Use the [16-view asset register](../../grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) for the current scoped import and require explicit local-source identification and Human review of Carol Back/hoof/taper before promotion.
 5. Record results and Human acceptance before assigning `TRIPO_READY`. Until then use `BODY_ONLY_REFERENCE_ACCEPTED / TRIPO_PREFLIGHT_PENDING`.
 6. In generated 3D, verify that moon/star decorations were **not** fused into fleece or material baked as ornaments. Add ornaments later as individual Blender/PlayCanvas meshes/nodes; validate placement and motion attachment independently.
 7. Passing Tripo mesh generation does **not** imply approved geometry, rigging, animation, GLB runtime, mobile performance or completed final appearance.
+
+### 17.3a Updated source name mapping (2026-10-11)
+
+The legacy `carol_front_bodyonly_candidate.png` and `carol_side_bodyonly_candidate.png` identifiers in §17.1 are **historical provenance labels**, not a directive to overwrite the original locked Normal files. The proposed production-input filenames are `carol_bodyonly_front.png`, `carol_bodyonly_left.png`, `carol_bodyonly_right.png`, and (only once correct selected image is confirmed) `carol_bodyonly_back.png` under `assets/grimo/source/carol/tripo-generation-pose/`. `left/right` means **face direction on image**, never the Tripo left/right camera slot. The new images must keep original bytes and remain `TRIPO_PREFLIGHT_PENDING` until checked. Do not reapply §6 or §8 pixel targets without re-registration.
 
 ### 17.4 Immutable visual boundaries
 
