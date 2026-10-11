@@ -1,6 +1,6 @@
 # Shushu Reference Pack v001
 
-Completed 2026-10-12 with built-in image_gen. Human explicitly accepted all three Stage A anchors in this chat: “人間レビューは合格だ。そのまま完遂しろ。” This acceptance is Stage A only; the thirteen new expression/pose/extended images remain Human review pending. No geometry, topology, rigging, skinning or Tripo operations were performed.
+Completed 2026-10-12 with built-in image_gen. Human explicitly accepted all three Stage A anchors in this chat: “人間レビューは合格だ。そのまま完遂しろ。” This acceptance is Stage A only; the fourteen new expression/pose/extended/additional images remain Human review pending. No geometry, topology, rigging, skinning or Tripo operations were performed.
 
 Open [review.html](review.html) for grouped clickable full-resolution review. Exact final prompts and direct-input order are in [manifest.json](manifest.json). Each successful generation directly attached canonical identity plus all four body-only authority PNGs. The tool has a five-path limit, so generated anchors were used for visual comparison and consistency decisions, not attached as a sixth input. This is a documented limitation relative to the requested anchor-input workflow.
 
@@ -25,6 +25,8 @@ Open [review.html](review.html) for grouped clickable full-resolution review. Ex
 | 15 | [セルフグルーミング・3/4](extended/15-self-groom-three-quarter.png) | AI selected; Human review pending |
 | 16 | [食べ物への期待・3/4](extended/16-food-anticipation-three-quarter.png) | AI selected; Human review pending |
 
+| 17 | [座位・正面ニュートラル](additional/17-seated-neutral-front.png) | AI selected; Human review pending |
+
 ## Selection and corrections
 
 - Main anchors: 01 front for proportions, 02 face for identity/expression, 03 3/4 for volume; all three Human accepted.
@@ -37,3 +39,7 @@ Open [review.html](review.html) for grouped clickable full-resolution review. Ex
 
 These images are stylized appearance references, not measured orthographic geometry. Brushwork, framing, eye foreshortening and subtle ear/head dimensions vary. Standing anchors govern base proportions, not individual pose silhouettes. The low rest is deliberately shallow; front/side are not quantitatively calibrated to identical lowering. Head-tilt output is visibly stronger than the prompt's approximate 8-degree request; do not treat the prompt as a measured angle. Cheek compression is a localized shallow dimple, not a validated 3D indentation field. Short-paw self-contact, helper-bar clearance and feeding positions need actual 3D reach/collision/deformation tests. Nothing here establishes topology, rigging or skinning success or final geometry acceptance.
 
+
+## Additional seated reference
+
+17 was explicitly requested by Human after the 16-image pack. It depicts true rump-supported seated front, distinct from shallow feet-supported rest. Canonical central/three-toe sole pads are directly grounded in the canonical image. This adds an appearance target; actual seated 3D mechanics and any choice of standing versus seated Game Neutral remain unapproved/unproven.
