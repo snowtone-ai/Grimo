@@ -19,7 +19,7 @@ The authoritative production direction is:
 Full 3D → Blender → GLB/glTF → PlayCanvas
 ```
 
-The repository reset does not implement the 3D runtime, Blender assets, character motion, or touch interaction. The current `/grimo` route is intentionally a neutral placeholder until the Phase 1 foundation work begins.
+`main` contains the stable Phase-0 application foundation. Current character-production artifacts and status may live on separate feature branches; verify the active execution branch and evidence rather than treating `main` as the latest production result.
 
 ## Development
 
@@ -41,5 +41,12 @@ pnpm 3d:validate:ci
 pnpm qa:browser:smoke
 ```
 
-Read `AGENTS.md` and the documents directly relevant to the task before
-implementation work.
+## Project context
+
+- [`AGENTS.md`](AGENTS.md) — local Codex rules and safety boundaries
+- [Production Goal√map](docs/grimo/knowledge/Goal%E2%88%9Amap.md) — character production WHY, not the overall product loop
+- [Knowledge index](docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md) — canonical product, experience, technical and app specifications
+- [Handoff](docs/production/Handoff.md) — last-known pointer only; check the actual execution branch
+- [Repository map](docs/repo-map.md) — source, assets, evidence and history
+
+Read only documents relevant to the current task. Historical Phase-0 prompts and task logs are in [`docs/archive/phase0/`](docs/archive/phase0/).

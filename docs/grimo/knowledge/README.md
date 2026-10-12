@@ -1,20 +1,11 @@
-# Grimo knowledge authority index
+# Grimo Knowledge
 
-This folder contains imported Grimo product, character, production, and research sources. Operational Carol production records remain under `docs/production/carol/`.
+**Start at [GRIMO_PROJECT_KNOWLEDGE_INDEX.md](GRIMO_PROJECT_KNOWLEDGE_INDEX.md).** This is the sole routing index for current formally approved product/character specifications.
 
-## Current authoritative production inputs
+- Product North Star, Character Experience Spec, Character Production Architecture, and Production Operating System are separate durable authorities with distinct scopes.
+- [Goal√map](Goal%E2%88%9Amap.md) is for **character production WHY**, not an alternative Product North Star or a mandatory production procedure.
+- `product/` defines Task/Calendar/Grimo/Collection, reward and persistence rules.
+- `research/` is evidence, not authoritative implementation instructions.
+- Older motion/Blender “Bible” documents remain accessible but do **not** override newer formal sources.
 
-- Visible identity: `assets/grimo/source/carol/carol-Identity-canonical.png`
-- Approved Carol 3D geometry references: `assets/grimo/source/carol/approved-3d/`
-- Product: `docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md`, `docs/grimo/knowledge/product/GRIMO_DATA_MODEL_SPEC.md`
-- Experience: `docs/grimo/knowledge/character-experience/GRIMO_EXPERIENCE_MOTION_BIBLE.md`
-- 3D production: `docs/grimo/knowledge/character-production/GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`
-- Carol motion: `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md`
-
-The identity canonical wins for visible identity. Approved 3D references govern approved hidden/off-axis geometry only when they do not conflict with that identity. `CAROL_MVP_MOTION_SPEC.md` is the current Carol motion implementation authority.
-
-## Research/reference evidence
-
-Technology-agnostic requirements, zero-based production architecture research, the consolidated Partner Pikachu/Eevee video analyses, and the Pikachu/Eevee Motion Master inventories are under `docs/grimo/knowledge/research/`. Motion Masters are evidence, not motions to copy directly.
-
-The obsolete 2D/2.5D archive is non-authoritative. Research does not override newer explicit project decisions.
+Mutable production state and Human approval must be established from the **actual work branch** and its approved assets/Evidence. [Handoff](../../production/Handoff.md) is a last-known pointer only, not a live state ledger or automatic approval.

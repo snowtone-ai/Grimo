@@ -16,3 +16,8 @@ storybook-static/
 artifacts/
 .DS_Store
 Thumbs.db
+
+# Local diagnostics and temporary comparison output
+/.playwright-cli/
+/tmp-*.log
+/tmp-carol-v*/

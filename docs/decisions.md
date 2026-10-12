@@ -1,5 +1,7 @@
 # Long-lived decisions
 
+> **時系列の判断履歴です。** 旧決定も消さずに保持しますが、最新のHuman決定と正式仕様を優先します。現行の制作WHYは`docs/grimo/knowledge/Goal√map.md`、製品North Starは`docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`、4画面・報酬は`docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md`を参照。以下に残る2026-09-15の「Tasks / Grimo / Calendar」3画面記述は**後続の4画面確定判断によってsuperseded**されています。2026-09-16の工程・モデル指定は当時の作業記録であり、恒久的なCodex工程命令ではありません。
+
 ## 2026-09-15 — Full 3D production baseline
 
 Grimo's authoritative character architecture is Full 3D. Blender is the centered production tool, GLB/glTF is the interchange and shipping format, and PlayCanvas is the planned browser runtime. Phase 0 is repository cleanup only; it does not begin 3D implementation.

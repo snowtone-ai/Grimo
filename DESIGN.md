@@ -44,20 +44,13 @@ Pokémonのlogo、card art、character art、UI image asset、proprietary icon f
 
 # 1. 権威順位
 
-visible productのdecisionが競合する場合は、次の順で優先する。
+**この文書はUI/UXのDesign Contractであり、製品目的やキャラクターの正式Experience/Production Authorityを上書きしない。**
 
-1. 現在のユーザー明示指示。
-2. 承認済みGrimo canonical character asset / 承認済み3D production reference。
-3. 本 `DESIGN.md`。
-4. `GRIMO_PRODUCT_FEATURE_SPEC.md`。
-5. `GRIMO_DATA_MODEL_SPEC.md`。
-6. `GRIMO_EXPERIENCE_MOTION_BIBLE.md`。
-7. `GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`。
-8. 現在のrepository decisionと実測implementation behavior。
-9. 外部reference research。
-10. archive / legacy資料。
+適用範囲ごとに正本を判断する。最新の明示Human判断は最優先。外観はCanonical Identityと承認済み視覚資料、製品の目的は`docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`、キャラクター体験は`GRIMO_CHARACTER_EXPERIENCE_SPEC.md`、立体能力は`GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`を参照する。
 
-旧PixiJS / 2D / 2.5D UI前提は権威を持たない。
+4画面・報酬などの機能は`docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md`、データ契約は`GRIMO_DATA_MODEL_SPEC.md`、UI/UXの具体化は本`DESIGN.md`、制作の役割分担は`GRIMO_PRODUCTION_OPERATING_SYSTEM.md`を適用する。
+
+`docs/grimo/knowledge/Goal√map.md`はキャラクター制作のWHYを説明し、技術手段や数値指標を上位目的化しない。旧`GRIMO_EXPERIENCE_MOTION_BIBLE.md`および`GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`は歴史的補助資料であり、上記の現行正本に優先しない。対象外の古いPixiJS / 2D / 2.5D前提、過去の研究・実装案も現在のAuthorityではない。
 
 ---
 

@@ -1,21 +1,27 @@
-# Repository map
+# Grimo Repository map
 
-| Path | Responsibility |
-|---|---|
-| `src/app/` | Next.js routes, launch gate, manifest, service worker, server routes |
-| `src/components/app-shell/` | Mobile shell and bottom navigation |
-| `src/domain/task/` | Pure task date/recurrence/streak logic |
-| `src/domain/calendar/` | Pure Calendar import validation/dedup planning |
-| `src/domain/preferences/` | Startup-page preference contract |
-| `src/data/db/` | Dexie schema and data types, including compatibility stores |
-| `src/data/repositories/` | Persistence operations |
-| `src/data/backup/` | Legacy import and future backup boundaries |
-| `src/integrations/google/` | GIS token flow, Gmail and Calendar API clients |
-| `src/integrations/gemini/` | Prompt and Gemini server client boundaries |
-| `assets/grimo/source/` | Immutable character identity canonicals and app-icon source |
-| `public/icons/` | Browser-ready icon derivatives; preserve byte-for-byte |
-| `docs/archive/obsolete-2_5d/` | Historical 2D/2.5D source material, not current authority |
-| `docs/setup/` | Local, Google Cloud, Vercel, and contributor setup notes |
-| `tests/` | Pure-domain and compatibility tests |
+This is a **locator**, not a second authority specification or a live progress report.
 
-The future Full 3D foundation may add a focused character/runtime structure in a later phase. Do not create empty runtime skeletons during Phase 0. Do not place generated QA captures or build output in tracked source paths.
+| Area | Role |
+| --- | --- |
+| `AGENTS.md` | Automatically read root execution and safety rules |
+| `docs/grimo/knowledge/Goal√map.md` | Character production goal/WHY; tools and metrics are means |
+| `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md` | Single entrypoint to canonical product, character, and workflow specs |
+| `docs/grimo/knowledge/product/` | Formal four-screen, reward, inventory and data contracts |
+| `DESIGN.md` | Formal application UI/UX design contract |
+| `docs/production/Handoff.md` | Last verified cross-session pointer; not live approval |
+| `docs/production/<character>/` | Per-character scoped working state, decisions and evidence; verify execution branch |
+| `docs/production/motion/` | Working motion drafts, evidence and proposals; status may be DRAFT |
+| `assets/grimo/source/` | Canonical identity and approved source inputs; provenance must be preserved |
+| `assets/grimo/production/` | Candidate/generated character assets; not automatically canonical |
+| `docs/grimo/knowledge/research/` | Measured and inferred references; not product authority |
+| `docs/archive/` | Superseded work and historical prompts; not current instructions |
+| `src/app/`, `src/components/` | Next.js routes, PWA UI and application shell |
+| `src/domain/`, `src/data/`, `src/integrations/` | Domain logic, persistence, external service boundaries |
+| `scripts/`, `tests/`, `.github/workflows/` | Tooling, targeted validation and CI |
+| `public/` | Shipped browser-visible assets |
+| `.agents/skills/`, `.codex/` | Optional task tooling and configuration |
+
+**Branch boundary:** `main` is the shared docs and app base, not necessarily the latest 3D-production state. Feature branches can contain many additional sources, experiments and evidence. Do not merge or rewrite an active branch merely to reorganize it.
+
+**Evidence hygiene:** Keep decision-useful comparisons and provenance. Do not automatically commit repeated disposable renders, browser traces, build logs or temporary experiments. Never delete existing evidence or move active production assets as part of routine cleanup.
