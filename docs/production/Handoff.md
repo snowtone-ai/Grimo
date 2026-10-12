@@ -1,7 +1,7 @@
 # Grimo — Handoff
 
 **Canonical:** `coord/grimo-ai-handoff:docs/production/Handoff.md`. **Limit 4,000 Unicode characters**. NOW / next action only.
-**Last interaction:** 2026-10-12 ChatGPT — audited global/Grimo project custom instructions and prepared two paste-ready revisions. No production, authority or workflow changes; previous geometry gates remain unchanged.
+**Last interaction:** 2026-10-12 ChatGPT — prepared a new-session, read-only repository context-performance audit prompt prioritizing the semantic validity of every Goal√map goal, edge and acceptance gate. No production or authority decisions changed.
 
 ## Verified last-known execution
 - **Production branch:** `codex/grimo-motion-zero-based-design-20261011`; **verified remote HEAD:** `2812a9a3baad7f805e0bb8195be46b0313861beb` (AGENTS-only change atop `1b0663a982eeea7d74905092c5306608f13e33cd`, which added Shushu references #18–26). No v003 output shown by this docs commit. Recheck later remote commits; local uncommitted state UNKNOWN.
