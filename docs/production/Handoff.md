@@ -1,10 +1,10 @@
 # Grimo — Handoff
 
 **Canonical:** `coord/grimo-ai-handoff:docs/production/Handoff.md`. **Limit 4,000 Unicode characters**. NOW / next action only.
-**Last interaction:** 2026-10-12 ChatGPT — introduced compact 3-file operating system. Documentation only, no new v003 technical/visual acceptance.
+**Last interaction:** 2026-10-12 ChatGPT — installed 3-file operating system on coordination branch; bootstrapped `AGENTS.md` in production and `main`. Documentation only; no new v003 acceptance.
 
 ## Verified last-known execution
-- **Production branch:** `codex/grimo-motion-zero-based-design-20261011`; **last checked remote HEAD:** `1b0663a982eeea7d74905092c5306608f13e33cd` (Shushu reference images #18–26). Check current remote HEAD again before acting; local uncommitted state UNKNOWN.
+- **Production branch:** `codex/grimo-motion-zero-based-design-20261011`; **verified remote HEAD:** `2812a9a3baad7f805e0bb8195be46b0313861beb` (AGENTS-only change atop `1b0663a982eeea7d74905092c5306608f13e33cd`, which added Shushu references #18–26). No v003 output shown by this docs commit. Recheck later remote commits; local uncommitted state UNKNOWN.
 - **Shushu v003:** Codex Astra **IN PROGRESS (user report)**. Completion/acceptance not independently verified. Avoid overlapping its active geometry edits.
 - **Active Goal√map nodes:** G1 identity/cuteness → G2 believable expression/sitting/Motion → G3 original-donor-faithful deformable mesh; G4 validation supports, never overrides, appearance.
 - **Shushu v002:** focused Technical PASS within demonstrated tests; **Human visual FAIL** (shallow side profile and implausible seated abdomen/short-leg silhouette). User judgment supersedes earlier PENDING in `docs/production/shushu/evidence/geometry-v002/PRODUCTION_REVIEW.md`.
