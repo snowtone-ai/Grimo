@@ -1,21 +1,16 @@
 # Grimo — AGENTS.md
 
-## Required on every Grimo task/turn
-**Codex and ChatGPT: fetch and read these 3 files from GitHub branch `coord/grimo-ai-handoff` before working:**
-1. `AGENTS.md` — operating rules.
-2. `docs/grimo/knowledge/Goal√map.md` — ゴール√マップ (WHY).
-3. `docs/production/Handoff.md` — current state.
-
-Codex reads local AGENTS automatically; then fetch the **3 remote files**. ChatGPT fetches all 3 via GitHub each Grimo turn. Do not reuse memory, previous turns, `main` or feature-branch copies. Verify actual production HEAD separately. Failure: report `CONTEXT_SYNC_BLOCKED` and missing path. Coordination branch is not for production code.
-
-## Division / limits
-AGENTS = startup/safety ≤2,500 chars. Goal√map = durable goals/WHY ≤5,000. Handoff = current facts/next action ≤4,000. ChatGPT→Codex prompt = task delta (goal/problem/authority/constraints/acceptance) ≤1,500. Count Unicode characters including markup/whitespace; link detail rather than duplicating.
+## Local-first
+Codex reads local AGENTS.md automatically: do not re-fetch it. Verify working branch/HEAD and uncommitted state. For 3D/character/Rig/Motion tasks read local `docs/grimo/knowledge/Goal√map.md` (WHY). For continuation read local `docs/production/Handoff.md` as a last-known pointer and verify NOW on the execution branch. App/data work uses relevant product specs. If an old branch lacks a required document, read the verified `main` version and record its revision. Avoid unrelated preload.
 
 ## Authority
-Latest explicit Human decisions and canonical/approved references outrank summaries. Higher user-visible goals outweigh lower technical proxies; Human visual FAIL overrides technical PASS. Safety/data integrity/authorization always apply. ChatGPT specifies outcome and gates; Codex chooses methods and targeted tests. Preserve user work, secrets, approved assets, Task/Calendar data and compatibility. No destructive reset, force-push, paid service or unrelated changes without consent. Use relevant specs only; no legacy 2D.
+Latest explicit Human decisions, canonical/approved visuals and applicable Product/Experience/Feature specs define outcomes; code/assets/evidence on the actual branch define NOW. Goal map explains WHY, Handoff is not approval. **Cuteness, comfort, attachment and believable life are goals; tools, mesh scores, topology and bone counts are means.** Technical PASS cannot overrule Human visual FAIL, and appearance PASS does not excuse broken Motion, runtime, features or data. Unknown is not PASS.
 
-## Coordination
-Update Handoff briefly for new facts or last interaction, not history. Re-fetch, reconcile concurrent changes, commit safely, verify remote HEAD; otherwise report `HANDOFF_SYNC_BLOCKED`. Goal√map changes only with material goal decisions. No full build for docs-only edits.
+## Execution/safety
+Human/ChatGPT specify outcomes and acceptance; Codex owns method, iteration and targeted verification. Preserve approved identity, user work, Task/Calendar/Collection data, secrets and compatibility. Respect approved full-spatial 3D and smartphone requirements. No force-push, destructive reset, unrelated destructive changes, unapproved payment or silent product/architecture change. No punitive neglect or affinity XP.
+
+## Maintenance
+Change Goal map only for material goal decisions. Update Handoff only for consequential state, blocker, decision or owner change; link evidence, not every chat. Recheck concurrent edits before writing; no routine full build for docs-only changes. Unicode caps: AGENTS 2,500; Goal map 5,000; Handoff 4,000; Codex brief 1,500.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
