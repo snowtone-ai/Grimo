@@ -1,3 +1,10 @@
-# Repository-scoped Codex policy. The key is supported by `codex features list`.
+# Grimo-wide fallback for trusted Codex Desktop + CLI worktrees.
+# Desktop model picker does not select model-specific context presets.
+# CLI scripts/codex-grimo.ps1 overrides these values per model with -c.
+# Keep the model picker free: never pin `model` here.
+model_context_window = 500000
+model_auto_compact_token_limit = 280000
+model_auto_compact_token_limit_scope = "total"
+
 [features]
 multi_agent = false
