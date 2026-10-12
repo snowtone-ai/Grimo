@@ -1,75 +1,21 @@
 # Grimo — AGENTS.md
 
-Grimo is a smartphone-first PWA with a Full 3D character pipeline:
-`Blender → GLB/glTF → PlayCanvas → Next.js/React`.
+## Required on every Grimo task/turn
+**Codex and ChatGPT: fetch and read these 3 files from GitHub branch `coord/grimo-ai-handoff` before working:**
+1. `AGENTS.md` — operating rules.
+2. `docs/grimo/knowledge/Goal√map.md` — ゴール√マップ (WHY).
+3. `docs/production/Handoff.md` — current state.
+
+Codex reads local AGENTS automatically; then fetch the **3 remote files**. ChatGPT fetches all 3 via GitHub each Grimo turn. Do not reuse memory, previous turns, `main` or feature-branch copies. Verify actual production HEAD separately. Failure: report `CONTEXT_SYNC_BLOCKED` and missing path. Coordination branch is not for production code.
+
+## Division / limits
+AGENTS = startup/safety ≤2,500 chars. Goal√map = durable goals/WHY ≤5,000. Handoff = current facts/next action ≤4,000. ChatGPT→Codex prompt = task delta (goal/problem/authority/constraints/acceptance) ≤1,500. Count Unicode characters including markup/whitespace; link detail rather than duplicating.
 
 ## Authority
+Latest explicit Human decisions and canonical/approved references outrank summaries. Higher user-visible goals outweigh lower technical proxies; Human visual FAIL overrides technical PASS. Safety/data integrity/authorization always apply. ChatGPT specifies outcome and gates; Codex chooses methods and targeted tests. Preserve user work, secrets, approved assets, Task/Calendar data and compatibility. No destructive reset, force-push, paid service or unrelated changes without consent. Use relevant specs only; no legacy 2D.
 
-Resolve conflicts in this order:
-
-1. Current explicit user instruction
-2. Canonical identity and approved production authority
-3. Task-specific current specification
-4. Current code and tests
-5. Archive / legacy
-
-Do not revive archived PixiJS, 2D, or 2.5D architecture. Carol is the first
-vertical slice; preserve the four canonical identities and the approved Grimo
-icon unless the user explicitly changes them. The companion view is normally
-front-facing. Visual identity and motion quality require a Human Gate.
-
-## Lean reading policy
-
-Default: read this file, files named by the user, and files directly changed by
-the task. Read additional specifications only when the task needs them (for
-example `DESIGN.md` for UI/UX, a character production contract for geometry,
-the motion spec for motion, the data model for persistence, or setup docs for
-toolchain work). Do not routinely read `tasks.md`, `xp.md`, `docs/state.md`,
-`docs/decisions.md`, or archive material. Archive is for explicit history work.
-
-## Safety and boundaries
-
-- Preserve Task/Calendar semantics, Dexie migrations/backward compatibility,
-  stable source keys/idempotency, Google read-only boundaries, PWA behavior,
-  server-only Gemini secrets, and user work.
-- Never print, commit, upload, or expose `.env.local`, credentials, OAuth
-  tokens, `GEMINI_API_KEY`, or private user data.
-- Keep React responsible for routes, DOM UI, app state, settings, and
-  accessibility; keep PlayCanvas responsible for 3D rendering, animation,
-  cameras, and hit volumes. Do not put persistence or routing in the renderer.
-- Do not discard, reset, overwrite unrelated work, or auto-merge `main`.
-
-## Targeted verification
-
-Verification is change-based. Do not run tests merely because a task is
-complete, and do not run `pnpm verify` by default. Never repeat a passing check
-unless relevant files changed afterward; do not broaden a passing targeted
-check without a concrete unresolved risk. “Just in case”, “best practice”, or
-“Definition of Done” is not a reason for full validation.
-
-| Change | Default check |
-| --- | --- |
-| Markdown, image reference, or prompt only | None; optionally `git diff --check` |
-| Small TypeScript, CSS, or config change | At most one relevant check: `pnpm typecheck`, changed-file lint, or relevant test |
-| Bug fix | One relevant regression test only when reproducible and useful |
-| UI change | Targeted browser/component check only when the changed behavior needs it |
-| Changed/exported GLB | Once: `pnpm 3d:validate -- <changed-file.glb>` |
-| Dependency, framework, or build-config upgrade | Full checks are allowed as a rare high-blast-radius exception |
-
-Do not start Storybook, Playwright, Lighthouse, Blender, PlayCanvas, Chrome
-DevTools, or physical-device QA unless the task, release gate, Human Gate, or a
-concrete regression risk requires it. Do not inspect output unrelated to the
-changed scope. Specialized QA is opt-in. GitHub Actions owns full PR CI; local
-agents should run only targeted checks and investigate CI failures when they
-occur.
-
-## Models
-
-Reserve Astra for high-value geometry, identity, and architecture reasoning.
-Astra must not perform routine validation, command execution, test-failure
-triage, or repository-wide scans. Luna handles deterministic clerical work and
-targeted checks; GitHub CI handles automated regression. Automatic escalation
-is forbidden. Keep `.codex/config.toml` `multi_agent = false`.
+## Coordination
+Update Handoff briefly for new facts or last interaction, not history. Re-fetch, reconcile concurrent changes, commit safely, verify remote HEAD; otherwise report `HANDOFF_SYNC_BLOCKED`. Goal√map changes only with material goal decisions. No full build for docs-only edits.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
