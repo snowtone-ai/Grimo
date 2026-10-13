@@ -1,0 +1,18 @@
+{
+  "center": [
+    0.0,
+    -0.30000001192092896,
+    0.4099999964237213
+  ],
+  "radius": 0.07599081844091415,
+  "paw_surface_distance": [
+    0.0760069191455841,
+    0.0759747177362442
+  ],
+  "paw_gap": [
+    1.6100704669952393e-05,
+    -1.6100704669952393e-05
+  ],
+  "torso_clearance": 0.0022709593176841736,
+  "meaning": "Tangent inspection sphere; no grasp force or collision simulation claim."
+}

@@ -1,0 +1,360 @@
+{
+  "authority_main": "2fcb1b8198e5ffdab9cc2face3a7dda347870db2",
+  "human_visual_gate": "PENDING",
+  "Tripo_Studio": "UNKNOWN; no upload",
+  "source_profile_samples": {
+    "nose": {
+      "donor_y": -0.2915142774581909,
+      "v003_y": -0.29124724864959717,
+      "difference": 0.00026702880859375
+    },
+    "muzzle": {
+      "donor_y": -0.2696934938430786,
+      "v003_y": -0.2687872052192688,
+      "difference": 0.0009062886238098145
+    },
+    "cheek_left": {
+      "donor_y": -0.10878872871398926,
+      "v003_y": -0.1053282618522644,
+      "difference": 0.0034604668617248535
+    },
+    "cheek_right": {
+      "donor_y": -0.10878884792327881,
+      "v003_y": -0.10541874170303345,
+      "difference": 0.0033701062202453613
+    },
+    "forehead": {
+      "donor_y": -0.21537530422210693,
+      "v003_y": -0.21161144971847534,
+      "difference": 0.003763854503631592
+    }
+  },
+  "editable_asset": {
+    "character_meshes": 11,
+    "armatures": 0,
+    "total_shape_controls": 224
+  },
+  "bounded_eye_parallax_checks": {
+    "upright": [
+      {
+        "blink_left": 0,
+        "blink_right": 0,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.25,
+        "blink_right": 0.25,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.5,
+        "blink_right": 0.5,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.7,
+        "blink_right": 0.7,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.85,
+        "blink_right": 0.85,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.95,
+        "blink_right": 0.95,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 1,
+        "blink_right": 1,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.7,
+        "blink_right": 1,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 1,
+        "blink_right": 0.7,
+        "sample_rays": 1728,
+        "rear_head_or_missing_hits": 0
+      }
+    ],
+    "rest": [
+      {
+        "blink_left": 0,
+        "blink_right": 0,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.25,
+        "blink_right": 0.25,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.5,
+        "blink_right": 0.5,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.7,
+        "blink_right": 0.7,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.85,
+        "blink_right": 0.85,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.95,
+        "blink_right": 0.95,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 1,
+        "blink_right": 1,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 0.7,
+        "blink_right": 1,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      },
+      {
+        "blink_left": 1,
+        "blink_right": 0.7,
+        "sample_rays": 588,
+        "rear_head_or_missing_hits": 0
+      }
+    ]
+  },
+  "glb_payload": {
+    "meshes": 11,
+    "materials": 0,
+    "textures": 0,
+    "images": 0,
+    "skins": 0,
+    "animations": 0,
+    "cameras": 0
+  },
+  "identical_review_camera_pairs": {
+    "front": true,
+    "left": true,
+    "right": true,
+    "three-quarter": true,
+    "rear": true
+  },
+  "proof": {
+    "frame_start": 1,
+    "frame_end": 285,
+    "fps": 24,
+    "markers": [
+      {
+        "frame": 1,
+        "name": "neutral"
+      },
+      {
+        "frame": 9,
+        "name": "half"
+      },
+      {
+        "frame": 13,
+        "name": "closed"
+      },
+      {
+        "frame": 17,
+        "name": "half"
+      },
+      {
+        "frame": 23,
+        "name": "neutral"
+      },
+      {
+        "frame": 29,
+        "name": "wink"
+      },
+      {
+        "frame": 35,
+        "name": "neutral"
+      },
+      {
+        "frame": 41,
+        "name": "gaze-left"
+      },
+      {
+        "frame": 47,
+        "name": "gaze-right"
+      },
+      {
+        "frame": 53,
+        "name": "gaze-up"
+      },
+      {
+        "frame": 59,
+        "name": "neutral"
+      },
+      {
+        "frame": 65,
+        "name": "mouth-open"
+      },
+      {
+        "frame": 71,
+        "name": "smile"
+      },
+      {
+        "frame": 77,
+        "name": "surprise"
+      },
+      {
+        "frame": 83,
+        "name": "neutral"
+      },
+      {
+        "frame": 89,
+        "name": "turn-tilt"
+      },
+      {
+        "frame": 101,
+        "name": "neutral"
+      },
+      {
+        "frame": 109,
+        "name": "seat25"
+      },
+      {
+        "frame": 117,
+        "name": "seat50"
+      },
+      {
+        "frame": 125,
+        "name": "seat75"
+      },
+      {
+        "frame": 133,
+        "name": "seat100"
+      },
+      {
+        "frame": 149,
+        "name": "rest"
+      },
+      {
+        "frame": 157,
+        "name": "seat100"
+      },
+      {
+        "frame": 165,
+        "name": "seat75"
+      },
+      {
+        "frame": 173,
+        "name": "seat50"
+      },
+      {
+        "frame": 181,
+        "name": "seat25"
+      },
+      {
+        "frame": 189,
+        "name": "neutral"
+      },
+      {
+        "frame": 201,
+        "name": "offer"
+      },
+      {
+        "frame": 213,
+        "name": "hold"
+      },
+      {
+        "frame": 225,
+        "name": "hold"
+      },
+      {
+        "frame": 237,
+        "name": "release"
+      },
+      {
+        "frame": 249,
+        "name": "neutral"
+      },
+      {
+        "frame": 261,
+        "name": "self-contact"
+      },
+      {
+        "frame": 273,
+        "name": "neutral"
+      },
+      {
+        "frame": 285,
+        "name": "neutral"
+      }
+    ],
+    "neutral_return_max_errors": {
+      "1": 0.0,
+      "23": 0.0,
+      "35": 0.0,
+      "59": 0.0,
+      "83": 0.0,
+      "101": 0.0,
+      "189": 0.0,
+      "249": 0.0,
+      "273": 0.0,
+      "285": 0.0
+    },
+    "release_prop_displacement": 0.1225765106414429,
+    "prop_hidden_after_release": true
+  },
+  "unchanged_original_donors": [
+    {
+      "path": "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.fbx",
+      "sha256": "6420ce386c0dc1a19dc0a9b5dc827a3d247f91c6cc4f83cd883e79f5ff3fe06d"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.glb",
+      "sha256": "803937cd10bd48d5b15be9f6dca43a38183ec730ed0b62eb2820fd160d14d448"
+    }
+  ],
+  "delivered_files": [
+    {
+      "path": "assets/grimo/production/shushu/blender/shushu-geometry-v003.blend",
+      "bytes": 4566237,
+      "sha256": "8fae813673312d2b1c81f47c54427538adac12a5586f8743a71062fe701fefa5"
+    },
+    {
+      "path": "assets/grimo/production/shushu/blender/shushu-geometry-v003-proof.blend",
+      "bytes": 4569330,
+      "sha256": "3295b5d4bb7eabc3e4edbac0f54762bfe7f38d471bb4c8cd486d4d22602d70c2"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/shushu-geometry-v003-tripo.glb",
+      "bytes": 2232332,
+      "sha256": "14725ccc54f36c1acf3e0522780182aad4d75ea919500618aac54ab0fbd2aaf4"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/shushu-geometry-v003-tripo.fbx",
+      "bytes": 2404044,
+      "sha256": "55b6123b4f72b77b0b84e5584123385b4d4e717a7effce33be623e2f9896f808"
+    }
+  ]
+}

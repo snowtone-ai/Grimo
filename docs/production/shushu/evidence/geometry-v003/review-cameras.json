@@ -1,0 +1,722 @@
+{
+  "neutral-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "neutral-left": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "neutral-right": {
+    "direction": [
+      -1,
+      0,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "neutral-three-quarter": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "neutral-rear": {
+    "direction": [
+      0,
+      1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "donor-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "donor-left": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "donor-right": {
+    "direction": [
+      -1,
+      0,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "donor-three-quarter": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "donor-rear": {
+    "direction": [
+      0,
+      1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "donor-face": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-neutral": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-neutral-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.58,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-half": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-closed": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-reopen": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-wink": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-gaze-left": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-gaze-right": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-mouth-open": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-smile": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-smile-three-quarter": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.58,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-surprise": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.5,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "seat25": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "seat50": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "seat75": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "seat100": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "seated-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "seated-left": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "seated-rear-three-quarter": {
+    "direction": [
+      1,
+      0.35,
+      0.1
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "hold": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "hold-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "offer": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "self-contact": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "self-contact-detail": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.59
+    ],
+    "orthographic_scale": 0.72,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "turn-tilt": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "rest": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "release": {
+    "direction": [
+      1,
+      -1,
+      0.12
+    ],
+    "target": [
+      0,
+      0,
+      0.49
+    ],
+    "orthographic_scale": 1.15,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-partial-three-quarter": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.58,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  },
+  "face-closed-three-quarter": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0,
+      -0.04,
+      0.65
+    ],
+    "orthographic_scale": 0.58,
+    "engine": "CYCLES",
+    "resolution": [
+      640,
+      720
+    ]
+  }
+}

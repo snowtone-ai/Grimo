@@ -1,0 +1,42 @@
+{
+  "Head": {
+    "original_vertices": 1227,
+    "filled_boundary_edges": 74,
+    "nonmanifold": 34
+  },
+  "Torso": {
+    "original_vertices": 768,
+    "filled_boundary_edges": 12,
+    "nonmanifold": 0
+  },
+  "Leg.R": {
+    "original_vertices": 542,
+    "filled_boundary_edges": 4,
+    "nonmanifold": 0
+  },
+  "Leg.L": {
+    "original_vertices": 545,
+    "filled_boundary_edges": 13,
+    "nonmanifold": 0
+  },
+  "Ear.L": {
+    "original_vertices": 460,
+    "filled_boundary_edges": 25,
+    "nonmanifold": 0
+  },
+  "Ear.R": {
+    "original_vertices": 460,
+    "filled_boundary_edges": 23,
+    "nonmanifold": 4
+  },
+  "Paw.L": {
+    "original_vertices": 349,
+    "filled_boundary_edges": 8,
+    "nonmanifold": 0
+  },
+  "Paw.R": {
+    "original_vertices": 349,
+    "filled_boundary_edges": 8,
+    "nonmanifold": 4
+  }
+}
