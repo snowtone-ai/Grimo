@@ -1,0 +1,180 @@
+{
+  "Human": "PENDING",
+  "Tripo": "HOLD",
+  "saved_candidate_views": 8,
+  "before_views": 8,
+  "pairs": {
+    "after-neutral-clay-front": {
+      "before": "before-neutral-clay-front",
+      "cameras_identical": true
+    },
+    "after-neutral-clay-side": {
+      "before": "before-neutral-clay-side",
+      "cameras_identical": true
+    },
+    "after-neutral-clay-3q": {
+      "before": "before-neutral-clay-3q",
+      "cameras_identical": true
+    },
+    "after-smile-colour-front": {
+      "before": "before-smile-colour-front",
+      "cameras_identical": true
+    },
+    "after-smile-colour-side": {
+      "before": "before-smile-colour-side",
+      "cameras_identical": true
+    },
+    "after-smile-colour-3q": {
+      "before": "before-smile-colour-3q",
+      "cameras_identical": true
+    },
+    "after-small-colour-3q": {
+      "before": "before-small-colour-3q",
+      "cameras_identical": true
+    },
+    "after-full-colour-3q": {
+      "before": "before-full-colour-3q",
+      "cameras_identical": true
+    }
+  },
+  "images": {
+    "before-neutral-clay-front": {
+      "sha256": "4e77dcedd1a3758af733186dd41a925bb8519382160c2ff5e4fb07d476551ee0",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "before-neutral-clay-side": {
+      "sha256": "d1a4bcefbef9a905b5cf817d32347bef271b20a6fa48ac61bc57d5a457cdf996",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "before-neutral-clay-3q": {
+      "sha256": "fa44ab545cf7c7de596c671a6ddd3a728d7c99cb71f1ea10f97247591d5c7307",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "before-smile-colour-front": {
+      "sha256": "0caf5e93060d135c6273782b358c5e4ebb80154a02e421264535fe90b29b5da2",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "before-smile-colour-side": {
+      "sha256": "2b90ffb2ec2212b85537ace69b2a84e7d3cf1d3535444eb6b4e97a0f3f087d79",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "before-smile-colour-3q": {
+      "sha256": "a3f6802966f194048623e0fe78244cd4cb840d6bd9af06ac8792182eca6aab28",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "before-small-colour-3q": {
+      "sha256": "7aa53a0b90ba9878afe70806e4df1d1437eb2aac7d0bd21a64813e14f759af21",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "before-full-colour-3q": {
+      "sha256": "7bceb9caef3942be2b7dc5f3b6bcc3e53732a657c29e685bd6631b3a280233d0",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-neutral-clay-front": {
+      "sha256": "6ef42a26089ca8546593b63e1ee075be2163c1244063017ba74b8387a9fe3ff5",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-neutral-clay-side": {
+      "sha256": "858c95cce69c94cdff8d59f27b43e92d592b58864c2d4d1d86ae5da2640656dd",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-neutral-clay-3q": {
+      "sha256": "bf4fd6a71316afb56186f2c322b5069fb8dc934e28115a43a16fb55cbc816b88",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-smile-colour-front": {
+      "sha256": "d14f16a92b06a90efa52d415a325652143aa6c230334b113ebd25117727aa63c",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-smile-colour-side": {
+      "sha256": "b369058bbc4853260b597eeb8ea965d6a913a0753b6e6ecbd75e1552debc7926",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-smile-colour-3q": {
+      "sha256": "dfd464fd0e5c4bf86f9c72d77a84e7e3cdb0e66e8ab209fec5414960d1df62b4",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-small-colour-3q": {
+      "sha256": "530983bcd7dded8b5fd977aecd26c240c54c9cf268ecececb62e21fb26f8a17f",
+      "size": [
+        640,
+        640
+      ]
+    },
+    "after-full-colour-3q": {
+      "sha256": "74a0da74d5282900122dd19fb9995b292f7c348a17ccfdfd1435c99939133133",
+      "size": [
+        640,
+        640
+      ]
+    }
+  },
+  "reference_crops": {
+    "front": {
+      "source": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_front.png",
+      "source_sha256": "e35dfc9c58324b0454dd06b1222ca8f61f23b3b605a348ecf606255b6d087a18",
+      "crop_bbox": [
+        263,
+        264,
+        815,
+        816
+      ],
+      "crop_sha256": "f6001c4c8c51d38a93d897202e5ceda824922f3f7c8115f37540c32124bb0d07"
+    },
+    "side": {
+      "source": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_left.png",
+      "source_sha256": "873fe2fbb950cbb21f2e0e64d2617650b5bac4128fb788f15dbd67e881616a61",
+      "crop_bbox": [
+        148,
+        225,
+        703,
+        780
+      ],
+      "crop_sha256": "845e555dc881c32072b98b0dfcb89aff61b34bf6292ea51989b8aa4e8981c33e"
+    }
+  },
+  "image_operations": "Reference crop; resize, arrangement and labels only. No retouch/warp of reference or 3D renders.",
+  "projection_note": "2D approved illustrations do not supply a calibrated 3D camera. Before/after Blender pairs use identical recorded cameras; reference crops are visual authorities, not a pixel-exact projection proof."
+}

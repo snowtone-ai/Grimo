@@ -1,0 +1,79 @@
+{
+  "base": "530f75c4cc7e4fbc06545c420b337155e67c8212",
+  "Human": "PENDING",
+  "Tripo": "HOLD",
+  "saved": {
+    "assets/grimo/production/shushu/blender/shushu-geometry-v003.blend": {
+      "before": "d6b5e86361d9667ff0e09c0995e83b45d149e85c4a6314c535459ebe6bba1b64",
+      "after": "9efec92a34756069edaba8275a3f378ce3501e980ba48b9b145aa991fed04d7e",
+      "local_edit": {
+        "changed_head_vertices": 1684,
+        "total_head_vertices": 11299,
+        "max_depth_move": 0.012809057984722705,
+        "scope": {
+          "abs_x_lt": 0.046,
+          "z_range": [
+            0.602,
+            0.65
+          ],
+          "y_lt": -0.235
+        },
+        "xz_changed": false,
+        "nose_cap": {
+          "center_z": 0.636,
+          "half_height": 0.0095,
+          "half_width": 0.0175,
+          "upper_width_factor": 0.28,
+          "center_y": -0.274,
+          "depth_radius": 0.012,
+          "profile_tilt": -0.25,
+          "saved_object": {
+            "object": "Shushu_Nose",
+            "source_vertices": 858,
+            "cap_vertices": 722,
+            "philtrum_vertices": 136,
+            "keys": 70,
+            "attachment": "Barycentric relative deformations; existing head pose compositions, action and drivers"
+          }
+        },
+        "preserved": "Original topology, relative facial/seat deltas, mouth aperture; head compositions recomputed"
+      }
+    },
+    "assets/grimo/production/shushu/blender/shushu-geometry-v003-proof.blend": {
+      "before": "ca124de9d217decfec0493992b78487a2ead504ae5c71ce905c0525c89a3220b",
+      "after": "c077c55ac2f27a86df8cfaec1643d26ec6b33a64a9fece91a1cb5585a67d8b47",
+      "local_edit": {
+        "changed_head_vertices": 1684,
+        "total_head_vertices": 11299,
+        "max_depth_move": 0.012809057984722705,
+        "scope": {
+          "abs_x_lt": 0.046,
+          "z_range": [
+            0.602,
+            0.65
+          ],
+          "y_lt": -0.235
+        },
+        "xz_changed": false,
+        "nose_cap": {
+          "center_z": 0.636,
+          "half_height": 0.0095,
+          "half_width": 0.0175,
+          "upper_width_factor": 0.28,
+          "center_y": -0.274,
+          "depth_radius": 0.012,
+          "profile_tilt": -0.25,
+          "saved_object": {
+            "object": "Shushu_Nose",
+            "source_vertices": 858,
+            "cap_vertices": 722,
+            "philtrum_vertices": 136,
+            "keys": 70,
+            "attachment": "Barycentric relative deformations; existing head pose compositions, action and drivers"
+          }
+        },
+        "preserved": "Original topology, relative facial/seat deltas, mouth aperture; head compositions recomputed"
+      }
+    }
+  }
+}

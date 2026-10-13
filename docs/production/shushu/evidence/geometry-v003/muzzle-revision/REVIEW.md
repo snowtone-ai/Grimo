@@ -1,5 +1,7 @@
 # Shushu v003 — 鼻先〜鼻下のHuman再判定候補
 
+**履歴:** 最新Humanが提示した側面鼻への候補は [nose-reference-revision](../nose-reference-revision/REVIEW.md)。以下は `530f75c` 時点の奥行き修正の比較として保持する。Human=PENDING / Tripo=HOLD。
+
 2026-10-14。**Human=PENDING / Tripo=HOLD**。実作業branch `codex/grimo-motion-zero-based-design-20261011`、開始HEAD `6f4822362aaec9e795023f08349d4bb14c5188e0`。保存済みappeal revisionを継続編集した。鼻先〜鼻下の局所奥行きだけを変更し、最終Rig・高密度外皮の方式は今回の対象に含めていない。
 
 ## Humanが比較する画像

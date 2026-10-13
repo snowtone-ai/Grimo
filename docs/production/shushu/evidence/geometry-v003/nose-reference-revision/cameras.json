@@ -1,0 +1,338 @@
+{
+  "before-neutral-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "clay",
+    "state": "neutral"
+  },
+  "before-neutral-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.12999999523162842,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "clay",
+    "state": "neutral"
+  },
+  "before-neutral-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "clay",
+    "state": "neutral"
+  },
+  "before-smile-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "smile"
+  },
+  "before-smile-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.12999999523162842,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "smile"
+  },
+  "before-smile-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "smile"
+  },
+  "before-small-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "small"
+  },
+  "before-full-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "full"
+  },
+  "after-neutral-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "clay",
+    "state": "neutral"
+  },
+  "after-neutral-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.12999999523162842,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "clay",
+    "state": "neutral"
+  },
+  "after-neutral-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "clay",
+    "state": "neutral"
+  },
+  "after-smile-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "smile"
+  },
+  "after-smile-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.12999999523162842,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "smile"
+  },
+  "after-smile-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "smile"
+  },
+  "after-small-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "small"
+  },
+  "after-full-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.05999999865889549,
+      0.6349999904632568
+    ],
+    "ortho_scale": 0.36,
+    "resolution": [
+      640,
+      640
+    ],
+    "engine": "CYCLES",
+    "samples": 16,
+    "kind": "colour",
+    "state": "full"
+  }
+}
