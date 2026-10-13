@@ -1,7 +1,7 @@
 {
-  "authority_main": "2fcb1b8198e5ffdab9cc2face3a7dda347870db2",
+  "authority_main": "d655f9606b2785ac8be7484e5f22b84dbaee9f55",
   "human_visual_gate": "PENDING",
-  "Tripo_Studio": "UNKNOWN; no upload",
+  "Tripo_Studio": "HOLD; no upload",
   "source_profile_samples": {
     "nose": {
       "donor_y": -0.2915142774581909,
@@ -30,9 +30,9 @@
     }
   },
   "editable_asset": {
-    "character_meshes": 11,
+    "character_meshes": 13,
     "armatures": 0,
-    "total_shape_controls": 236
+    "total_shape_controls": 374
   },
   "bounded_eye_parallax_checks": {
     "upright": [
@@ -338,23 +338,23 @@
   "delivered_files": [
     {
       "path": "assets/grimo/production/shushu/blender/shushu-geometry-v003.blend",
-      "bytes": 4717411,
-      "sha256": "eafdb7903354e262bca77960090e2407a8bdd8b025db160597fa9d3019dd6b0c"
+      "bytes": 5034684,
+      "sha256": "83136d6de46bc34f817a6fba93bc62fbe483f924760e13d312c12ca04fb4258e"
     },
     {
       "path": "assets/grimo/production/shushu/blender/shushu-geometry-v003-proof.blend",
-      "bytes": 4731477,
-      "sha256": "ee91be110afea09711fd4c647620dcc8f5caf8b46f816e9970b8ce074c43ef6f"
+      "bytes": 5043418,
+      "sha256": "166c98cf4057f8e7e5c0f50e73aefb55fae291ba8d06e517901223509ae7ebe4"
     },
     {
       "path": "assets/grimo/production/shushu/tripo/geometry-v003/shushu-geometry-v003-tripo.glb",
-      "bytes": 2232324,
-      "sha256": "46f68d7cc2ca8112bcf4eee837daf22c559f7a7175387629df217f291b84af81"
+      "bytes": 11769936,
+      "sha256": "98ff80f1bec9d840947667bfc7d3dbe444f796cae46245f5bdcf0a615077373b"
     },
     {
       "path": "assets/grimo/production/shushu/tripo/geometry-v003/shushu-geometry-v003-tripo.fbx",
-      "bytes": 2403260,
-      "sha256": "3de2eecfd00b79af054c617ddb15e19b8f8aa20c6ee35405f8be4486fe1bbf17"
+      "bytes": 9296252,
+      "sha256": "2cb56f2078ab385cfc1c47d1d90196ea359df58d3e59209f87c456c96d385914"
     }
   ]
 }

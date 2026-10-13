@@ -1,5 +1,7 @@
 # Shushu v003 — Human Geometry Gate 再判定資料
 
+**履歴資料：このページは2031076の基点を示す。現行の口・座位・まぶたの再判定は[appeal-revision](../appeal-revision/REVIEW.md)を参照。**
+
 2026-10-13。**Human Geometry Gate PENDING / Tripo HOLD**。`93869a8771045d7ed79ab036bd61d66ed97bd437`の保存済みv003を局所編集した続き。再制作・Donorの再生成ではない。
 
 ## 今回の比較

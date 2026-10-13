@@ -1,26 +1,26 @@
 {
   "fbx": {
     "meshes": 11,
-    "vertices": 62234,
-    "triangles": 123270,
+    "vertices": 259183,
+    "triangles": 516694,
     "forward_max_surface_error": 1.6049041562382627e-07,
     "reverse_max_surface_error": 1.51805579662323e-07,
     "shape_keys": 0,
     "armatures": 0,
     "uv_layers": 0,
-    "bytes": 2403260,
-    "sha256": "3de2eecfd00b79af054c617ddb15e19b8f8aa20c6ee35405f8be4486fe1bbf17"
+    "bytes": 9296252,
+    "sha256": "2cb56f2078ab385cfc1c47d1d90196ea359df58d3e59209f87c456c96d385914"
   },
   "glb": {
     "meshes": 11,
-    "vertices": 62234,
-    "triangles": 123270,
+    "vertices": 259183,
+    "triangles": 516694,
     "forward_max_surface_error": 0.0,
     "reverse_max_surface_error": 0.0,
     "shape_keys": 0,
     "armatures": 0,
     "uv_layers": 0,
-    "bytes": 2232324,
-    "sha256": "46f68d7cc2ca8112bcf4eee837daf22c559f7a7175387629df217f291b84af81"
+    "bytes": 11769936,
+    "sha256": "98ff80f1bec9d840947667bfc7d3dbe444f796cae46245f5bdcf0a615077373b"
   }
 }

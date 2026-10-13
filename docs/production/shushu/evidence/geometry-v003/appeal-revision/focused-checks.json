@@ -1,0 +1,874 @@
+{
+  "baseline": "2031076828185dd714cf9aca8438c289942986fd",
+  "Human": "PENDING",
+  "Tripo": "HOLD",
+  "scope": "Saved geometry and proof controls, not final rig or smartphone runtime",
+  "continuity": {
+    "Shushu_Ear.L": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 2104,
+      "render_visible": true
+    },
+    "Shushu_Ear.R": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 2121,
+      "render_visible": true
+    },
+    "Shushu_Eye.L": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 706,
+      "render_visible": true
+    },
+    "Shushu_Eye.R": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 706,
+      "render_visible": true
+    },
+    "Shushu_Head": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 11299,
+      "render_visible": true
+    },
+    "Shushu_Leg.L": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 2360,
+      "render_visible": false
+    },
+    "Shushu_Leg.R": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 2360,
+      "render_visible": false
+    },
+    "Shushu_LidWall.L": {
+      "added_aperture_sleeve": true,
+      "all_head_control_names": true
+    },
+    "Shushu_LidWall.R": {
+      "added_aperture_sleeve": true,
+      "all_head_control_names": true
+    },
+    "Shushu_MouthInterior": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": false,
+      "vertices": 450,
+      "render_visible": true
+    },
+    "Shushu_Paw.L": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 1490,
+      "render_visible": true
+    },
+    "Shushu_Paw.R": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 1495,
+      "render_visible": true
+    },
+    "Shushu_Torso": {
+      "control_names_and_driver_expressions_identical": true,
+      "source_basis_identical": true,
+      "vertices": 3532,
+      "render_visible": true
+    }
+  },
+  "visible_eyes": {
+    "L": {
+      "width": 0.09626666666666667,
+      "height": 0.10482352941176476,
+      "method": "Nearest front hit including new physical lid sleeve, not pink mask"
+    },
+    "R": {
+      "width": 0.09626666666666667,
+      "height": 0.10482352941176476,
+      "method": "Nearest front hit including new physical lid sleeve, not pink mask"
+    }
+  },
+  "seat_skin": [
+    {
+      "seat": 0.0,
+      "visible_skin_min_z": 7.525838736910373e-05,
+      "vertices": 204190,
+      "triangles": 408376,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 1.350746151729254e-05,
+          "plantar_to_skin_max_distance": 0.0006253954488784075
+        },
+        "R": {
+          "source_min_z": 1.3302420484251343e-05,
+          "plantar_to_skin_max_distance": 0.0006262012757360935
+        }
+      }
+    },
+    {
+      "seat": 0.05,
+      "visible_skin_min_z": 0.0023424667306244373,
+      "vertices": 201872,
+      "triangles": 403740,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0020472852047532797,
+          "plantar_to_skin_max_distance": 0.0006342495908029377
+        },
+        "R": {
+          "source_min_z": 0.002047284971922636,
+          "plantar_to_skin_max_distance": 0.0006349151954054832
+        }
+      }
+    },
+    {
+      "seat": 0.1,
+      "visible_skin_min_z": 0.003275732509791851,
+      "vertices": 199876,
+      "triangles": 399748,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0028712281491607428,
+          "plantar_to_skin_max_distance": 0.0008659742306917906
+        },
+        "R": {
+          "source_min_z": 0.002871226752176881,
+          "plantar_to_skin_max_distance": 0.0008682649931870401
+        }
+      }
+    },
+    {
+      "seat": 0.15000000000000002,
+      "visible_skin_min_z": 0.003327026264742017,
+      "vertices": 198382,
+      "triangles": 396760,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0028670094907283783,
+          "plantar_to_skin_max_distance": 0.0010188017040491104
+        },
+        "R": {
+          "source_min_z": 0.0028670073952525854,
+          "plantar_to_skin_max_distance": 0.0010263016447424889
+        }
+      }
+    },
+    {
+      "seat": 0.2,
+      "visible_skin_min_z": 0.0026143265422433615,
+      "vertices": 197120,
+      "triangles": 394236,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0021896534599363804,
+          "plantar_to_skin_max_distance": 0.0010526111582294106
+        },
+        "R": {
+          "source_min_z": 0.0021896520629525185,
+          "plantar_to_skin_max_distance": 0.0010533678578212857
+        }
+      }
+    },
+    {
+      "seat": 0.25,
+      "visible_skin_min_z": 0.0016131351003423333,
+      "vertices": 195430,
+      "triangles": 390852,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0010000038892030716,
+          "plantar_to_skin_max_distance": 0.0012597491731867194
+        },
+        "R": {
+          "source_min_z": 0.0010000020265579224,
+          "plantar_to_skin_max_distance": 0.0012601653579622507
+        }
+      }
+    },
+    {
+      "seat": 0.30000000000000004,
+      "visible_skin_min_z": 0.002170440973713994,
+      "vertices": 193286,
+      "triangles": 386568,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0014057409716770053,
+          "plantar_to_skin_max_distance": 0.0012460688594728708
+        },
+        "R": {
+          "source_min_z": 0.0014057343360036612,
+          "plantar_to_skin_max_distance": 0.001246974105015397
+        }
+      }
+    },
+    {
+      "seat": 0.35000000000000003,
+      "visible_skin_min_z": 0.002433019457384944,
+      "vertices": 191560,
+      "triangles": 383116,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.001639733323827386,
+          "plantar_to_skin_max_distance": 0.0012884996831417084
+        },
+        "R": {
+          "source_min_z": 0.001639725174754858,
+          "plantar_to_skin_max_distance": 0.0012852418003603816
+        }
+      }
+    },
+    {
+      "seat": 0.4,
+      "visible_skin_min_z": 0.002505556447431445,
+      "vertices": 190508,
+      "triangles": 381008,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0016358960419893265,
+          "plantar_to_skin_max_distance": 0.0013462243368849158
+        },
+        "R": {
+          "source_min_z": 0.0016358941793441772,
+          "plantar_to_skin_max_distance": 0.0013462573988363147
+        }
+      }
+    },
+    {
+      "seat": 0.45,
+      "visible_skin_min_z": 0.0024226130917668343,
+      "vertices": 189822,
+      "triangles": 379640,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0013179508969187737,
+          "plantar_to_skin_max_distance": 0.0013555657351389527
+        },
+        "R": {
+          "source_min_z": 0.0013179481029510498,
+          "plantar_to_skin_max_distance": 0.001356029068119824
+        }
+      }
+    },
+    {
+      "seat": 0.5,
+      "visible_skin_min_z": 0.0021600150503218174,
+      "vertices": 189594,
+      "triangles": 379184,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0010000057518482208,
+          "plantar_to_skin_max_distance": 0.0013778693974018097
+        },
+        "R": {
+          "source_min_z": 0.0010000020265579224,
+          "plantar_to_skin_max_distance": 0.0013766379561275244
+        }
+      }
+    },
+    {
+      "seat": 0.55,
+      "visible_skin_min_z": 0.002429637359455228,
+      "vertices": 189556,
+      "triangles": 379108,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0013394143898040056,
+          "plantar_to_skin_max_distance": 0.001430685049854219
+        },
+        "R": {
+          "source_min_z": 0.0013394097331911325,
+          "plantar_to_skin_max_distance": 0.0014282643096521497
+        }
+      }
+    },
+    {
+      "seat": 0.6000000000000001,
+      "visible_skin_min_z": 0.0025807966012507677,
+      "vertices": 189842,
+      "triangles": 379680,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0012913518585264683,
+          "plantar_to_skin_max_distance": 0.0014383748639374971
+        },
+        "R": {
+          "source_min_z": 0.001291349995881319,
+          "plantar_to_skin_max_distance": 0.00143830431625247
+        }
+      }
+    },
+    {
+      "seat": 0.65,
+      "visible_skin_min_z": 0.0026066226419061422,
+      "vertices": 190762,
+      "triangles": 381520,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0012432904914021492,
+          "plantar_to_skin_max_distance": 0.0014387775445356965
+        },
+        "R": {
+          "source_min_z": 0.0012432914227247238,
+          "plantar_to_skin_max_distance": 0.001438320497982204
+        }
+      }
+    },
+    {
+      "seat": 0.7000000000000001,
+      "visible_skin_min_z": 0.002528643235564232,
+      "vertices": 191996,
+      "triangles": 383988,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0011952267959713936,
+          "plantar_to_skin_max_distance": 0.0014374793972820044
+        },
+        "R": {
+          "source_min_z": 0.0011952323839068413,
+          "plantar_to_skin_max_distance": 0.0014380665961652994
+        }
+      }
+    },
+    {
+      "seat": 0.75,
+      "visible_skin_min_z": 0.0023192153312265873,
+      "vertices": 193906,
+      "triangles": 387808,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0010000169277191162,
+          "plantar_to_skin_max_distance": 0.0014929494354873896
+        },
+        "R": {
+          "source_min_z": 0.0010000094771385193,
+          "plantar_to_skin_max_distance": 0.0014915841165930033
+        }
+      }
+    },
+    {
+      "seat": 0.8,
+      "visible_skin_min_z": 0.0025568625424057245,
+      "vertices": 195434,
+      "triangles": 390864,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0011327923275530338,
+          "plantar_to_skin_max_distance": 0.0014743226347491145
+        },
+        "R": {
+          "source_min_z": 0.0011327862739562988,
+          "plantar_to_skin_max_distance": 0.0014741161139681935
+        }
+      }
+    },
+    {
+      "seat": 0.8500000000000001,
+      "visible_skin_min_z": 0.0026902048848569393,
+      "vertices": 197072,
+      "triangles": 394140,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0012655695900321007,
+          "plantar_to_skin_max_distance": 0.0014547934988513589
+        },
+        "R": {
+          "source_min_z": 0.0012655621394515038,
+          "plantar_to_skin_max_distance": 0.0014562690630555153
+        }
+      }
+    },
+    {
+      "seat": 0.9,
+      "visible_skin_min_z": 0.0027010717894881964,
+      "vertices": 199210,
+      "triangles": 398416,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0013983463868498802,
+          "plantar_to_skin_max_distance": 0.0014541522832587361
+        },
+        "R": {
+          "source_min_z": 0.0013983389362692833,
+          "plantar_to_skin_max_distance": 0.001456503407098353
+        }
+      }
+    },
+    {
+      "seat": 0.9500000000000001,
+      "visible_skin_min_z": 0.00262643420137465,
+      "vertices": 201726,
+      "triangles": 403448,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0013113953173160553,
+          "plantar_to_skin_max_distance": 0.0014526606537401676
+        },
+        "R": {
+          "source_min_z": 0.0013114027678966522,
+          "plantar_to_skin_max_distance": 0.0014552285429090261
+        }
+      }
+    },
+    {
+      "seat": 1.0,
+      "visible_skin_min_z": 0.002424440113827586,
+      "vertices": 204510,
+      "triangles": 409016,
+      "foot_min_z": {
+        "L": {
+          "source_min_z": 0.0010000020265579224,
+          "plantar_to_skin_max_distance": 0.0014433671021834016
+        },
+        "R": {
+          "source_min_z": 0.0010000094771385193,
+          "plantar_to_skin_max_distance": 0.0014430719893425703
+        }
+      }
+    }
+  ],
+  "seated_visible_skin_topology": {
+    "connected_components": 1,
+    "non_two_face_edges": 0
+  },
+  "mouth_states": [
+    {
+      "state": "neutral",
+      "rim_width_height": [
+        0.052000001072883606,
+        0.004869818687438965
+      ]
+    },
+    {
+      "state": "small",
+      "rim_width_height": [
+        0.0560000017285347,
+        0.014999985694885254
+      ]
+    },
+    {
+      "state": "full",
+      "rim_width_height": [
+        0.07500000298023224,
+        0.058000028133392334
+      ]
+    },
+    {
+      "state": "smile",
+      "rim_width_height": [
+        0.07840000092983246,
+        0.04977107048034668
+      ]
+    },
+    {
+      "state": "happy-closed",
+      "rim_width_height": [
+        0.06000000238418579,
+        0.01157069206237793
+      ]
+    }
+  ],
+  "mouth_combination_sweep": [
+    {
+      "transition": "closed-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.16666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.3333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.5,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.6666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.8333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 1.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.16666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.3333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.5,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.6666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.8333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "closed-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 1.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.16666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.3333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.5,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.6666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.8333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 0,
+      "tilt": 0,
+      "t": 1.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.16666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.3333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.5,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.6666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.8333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-full",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 1.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.16666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.3333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.5,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.6666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 0,
+      "tilt": 0,
+      "t": 0.8333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 0,
+      "tilt": 0,
+      "t": 1.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.16666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.3333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.5,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.6666666666666666,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 0.8333333333333333,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "full-smile",
+      "seat": 1,
+      "tilt": 0.7,
+      "t": 1.0,
+      "rays": 144,
+      "rear_or_missing_hits": 0
+    }
+  ],
+  "hold_visible_skin": {
+    "paw_gaps": [
+      1.6100704669952393e-05,
+      -1.6100704669952393e-05
+    ],
+    "body_clearance": 0.0027638226747512817
+  },
+  "functional_states": {
+    "self-contact": {
+      "Shushu_Ear.L": 2104,
+      "Shushu_Ear.R": 2121,
+      "Shushu_Eye.L": 706,
+      "Shushu_Eye.R": 706,
+      "Shushu_Head": 44667,
+      "Shushu_LidWall.L": 624,
+      "Shushu_LidWall.R": 630,
+      "Shushu_MouthInterior": 450,
+      "Shushu_Paw.L": 1490,
+      "Shushu_Paw.R": 1495,
+      "Shushu_Torso": 204190
+    },
+    "offer": {
+      "Shushu_Ear.L": 2104,
+      "Shushu_Ear.R": 2121,
+      "Shushu_Eye.L": 706,
+      "Shushu_Eye.R": 706,
+      "Shushu_Head": 44667,
+      "Shushu_LidWall.L": 624,
+      "Shushu_LidWall.R": 630,
+      "Shushu_MouthInterior": 450,
+      "Shushu_Paw.L": 1490,
+      "Shushu_Paw.R": 1495,
+      "Shushu_Torso": 204190
+    },
+    "turn-tilt": {
+      "Shushu_Ear.L": 2104,
+      "Shushu_Ear.R": 2121,
+      "Shushu_Eye.L": 706,
+      "Shushu_Eye.R": 706,
+      "Shushu_Head": 44667,
+      "Shushu_LidWall.L": 624,
+      "Shushu_LidWall.R": 630,
+      "Shushu_MouthInterior": 450,
+      "Shushu_Paw.L": 1490,
+      "Shushu_Paw.R": 1495,
+      "Shushu_Torso": 204190
+    },
+    "rest": {
+      "Shushu_Ear.L": 2104,
+      "Shushu_Ear.R": 2121,
+      "Shushu_Eye.L": 706,
+      "Shushu_Eye.R": 706,
+      "Shushu_Head": 44667,
+      "Shushu_LidWall.L": 624,
+      "Shushu_LidWall.R": 630,
+      "Shushu_MouthInterior": 450,
+      "Shushu_Paw.L": 1490,
+      "Shushu_Paw.R": 1495,
+      "Shushu_Torso": 204510
+    }
+  },
+  "authority_and_user_input_hashes_preserved": true,
+  "surface_limit": "The continuous torso/legs use evaluated remeshing. Editable original controls and proof retained; evaluated topology varies per pose, requiring final rig/retopology work before game runtime."
+}

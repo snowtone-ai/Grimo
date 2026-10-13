@@ -18,7 +18,7 @@ def bvh(o):
 
 def check_eye_parallax():
     """Check the inspected eye regions for rays falling through to the rear head."""
-    objects=[bpy.data.objects[name] for name in ['Shushu_Head','Shushu_Eye.L','Shushu_Eye.R']]
+    objects=[bpy.data.objects[name] for name in ['Shushu_Head','Shushu_Eye.L','Shushu_Eye.R','Shushu_LidWall.L','Shushu_LidWall.R'] if name in bpy.data.objects]
     def key(name,value):
         for o in bpy.data.objects:
             if o.type=='MESH' and o.data.shape_keys and name in o.data.shape_keys.key_blocks:o.data.shape_keys.key_blocks[name].value=value
@@ -44,7 +44,7 @@ def check_eye_parallax():
     return checks
 
 def main():
-    result={'authority_main':'2fcb1b8198e5ffdab9cc2face3a7dda347870db2','human_visual_gate':'PENDING','Tripo_Studio':'UNKNOWN; no upload'}
+    result={'authority_main':'d655f9606b2785ac8be7484e5f22b84dbaee9f55','human_visual_gate':'PENDING','Tripo_Studio':'HOLD; no upload'}
     bpy.ops.wm.open_mainfile(filepath=str(ASSET))
     head=bvh(bpy.data.objects['Shushu_Head']);source=bvh(bpy.data.objects['Original_CandidateB_REFERENCE_ONLY']);profiles={}
     for label,x,z in [('nose',0,.64),('muzzle',.03,.63),('cheek_left',.23,.56),('cheek_right',-.23,.56),('forehead',0,.81)]:
