@@ -1,0 +1,96 @@
+{
+  "source_head": "c728772e6113ad1c5741051f493e47fba838da33",
+  "rendered_candidate_sha256": "8d4420d5e8baae6c1cd3d0c4b215d89af5ee157be1c1a3e54df4721d5a5eac09",
+  "protected_inputs_checked": 717,
+  "changed_protected_inputs": [],
+  "matched_cameras": true,
+  "render_differences": {
+    "front": {
+      "different_pixels": 7652,
+      "above_3_levels_pixels": 5353,
+      "above_3_levels_bbox": [
+        406,
+        628,
+        617,
+        716
+      ],
+      "max_channel_delta": 200,
+      "eye_and_upper_face_pixels_changed": 0,
+      "outside_eye_mouth_bounding_region_pixels": 0
+    },
+    "left-three-quarter": {
+      "different_pixels": 5555,
+      "above_3_levels_pixels": 3999,
+      "above_3_levels_bbox": [
+        673,
+        630,
+        830,
+        715
+      ],
+      "max_channel_delta": 201,
+      "eye_and_upper_face_pixels_changed": 0
+    },
+    "right-three-quarter": {
+      "different_pixels": 5655,
+      "above_3_levels_pixels": 3777,
+      "above_3_levels_bbox": [
+        193,
+        628,
+        351,
+        717
+      ],
+      "max_channel_delta": 197,
+      "eye_and_upper_face_pixels_changed": 0
+    },
+    "left-side": {
+      "different_pixels": 3126,
+      "above_3_levels_pixels": 2253,
+      "above_3_levels_bbox": [
+        845,
+        629,
+        897,
+        715
+      ],
+      "max_channel_delta": 200,
+      "eye_and_upper_face_pixels_changed": 0
+    },
+    "right-side": {
+      "different_pixels": 3202,
+      "above_3_levels_pixels": 2133,
+      "above_3_levels_bbox": [
+        126,
+        628,
+        178,
+        716
+      ],
+      "max_channel_delta": 197,
+      "eye_and_upper_face_pixels_changed": 0
+    }
+  },
+  "files": {
+    "00-authority-before-candidate.png": "60d236714b7d3279a1f36b3773ae162b319d1bde1dd4f0dbafe8e88fe6967ea0",
+    "01-five-angle-before-candidate-difference.png": "7a78d7b3cef987f21a4c8a2904072645b8081767e1b3a28dface43c1331e75b3",
+    "02-approved-sides-before-candidate.png": "7e07cdf8aa7797b664f82855dbb2bc3b2b346d9f0981ca2bb7b03a5a54a51c8b",
+    "rejected-eye-trial/front.png": "d6a5a20fa51deab2a5f869a5b0536e8d399da08f8eeb5c56e46e2cc96a1371c0",
+    "rejected-eye-trial/left-side.png": "0efde4ddc09045b9c28e043d021834585a5070a4e470a971f8cec2eb7399309a",
+    "rejected-eye-trial/left-three-quarter.png": "0e4a76fe47f3ba7d392f66091de0c4365fd5c1312214e5d2f31e12622f7916a6",
+    "rejected-trial/front.png": "ae62274337e72badc809c719b197a85c1d77c10829bcf2f1d249387117206d61",
+    "rejected-trial/left-three-quarter.png": "e7e3a2f09e434f3a6fa0d7c18470997bc46684e34dd846491a2c535d14d96fb2",
+    "renders/before-front.png": "4b10a891808f05899a512bda39ea70322ddda1759794e3a84fadfb2f670249dd",
+    "renders/before-left-side.png": "ddd739c4b7e8229228f1bf6be41b46ff07944bfa092566ab427b81d69f92cd97",
+    "renders/before-left-three-quarter.png": "8ef110ca5619406305e9658a5ffa4cf4dc2d3a222c2897969ae43c54209910e3",
+    "renders/before-right-side.png": "e6d7115fe8cbc702c7772851bdeebd9fe60830b1d694b2bf75ef23609329f215",
+    "renders/before-right-three-quarter.png": "f3a2e4f7d15e5044f3f15f8603656db2cd212b50e7f14357bf47bfe6c898dcf1",
+    "renders/candidate-front.png": "f97194115d050954df7d947dec497177ee34f132031b55802ed4a088e147cef9",
+    "renders/candidate-left-side.png": "6c8def3ef0f254b0391c3bd99a77b6f374974813d18b53735a6fb17c7330bb72",
+    "renders/candidate-left-three-quarter.png": "7c69e24a5bd355faabf9c5c332b3644dad94a1044fcaf5fd7a466a05db3f1977",
+    "renders/candidate-right-side.png": "40c127c16662f7ab1c123a1394caa809d0ac46849a3ee5a20b966bc50bed6729",
+    "renders/candidate-right-three-quarter.png": "47e6883d7dbefbad0e3e923abca7261f1b2daa5e68f745c5c63065a928159e6a",
+    "renders/diagnostic-flat-head.png": "b3a096216c6785eef42a4bf13330b989ef1aeed463800fd443ddfd320484a340",
+    "renders/diagnostic-head-only.png": "1ee09516d0c506d96f9cac805ef51848ca3968c6f6fa6fb5519d0aa2028af2c0",
+    "renders/diagnostic-modules-only.png": "f298743c41ce29ea6bb87f8eccf9b6b27097bc6e8283f094fa36b121f95f2497",
+    "textures/changed-texels.png": "0cf4964b51f0b62640268041d384f8ce5a0e2d1e7e6cc3f9277baa062d00cf9c",
+    "textures/head-candidate.png": "3fb69b6cd74266b6fc7c1cd1325475b91214990e82245cc9203584d172b947fa",
+    "textures/imagegen-local-repair-projection.png": "2b0403834c477cc0e9775e0fc5210a1ad499debbaa4cf3c678a7668dad621a4e"
+  }
+}
