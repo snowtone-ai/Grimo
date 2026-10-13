@@ -1,0 +1,59 @@
+{
+  "base": "b92aa7683beb2c1ca7d0c7a4e0173c5ee32773d9",
+  "Human": "PENDING",
+  "Tripo": "HOLD",
+  "saved": {
+    "assets/grimo/production/shushu/blender/shushu-geometry-v003.blend": {
+      "before": "9efec92a34756069edaba8275a3f378ce3501e980ba48b9b145aa991fed04d7e",
+      "after": "23b03718db70a8457edf04b6af9b5133655fb54595ff2f2217f4ad6696f8bd78",
+      "local_edit": {
+        "Shushu_Head": {
+          "MouthOpen": {
+            "changed_vertices": 136,
+            "maximum_depth_recession": 0.005485719683933743
+          },
+          "MouthDonorOpen": {
+            "changed_vertices": 180,
+            "maximum_depth_recession": 0.024748459535847617
+          }
+        },
+        "Shushu_MouthInterior": {
+          "MouthOpen": {
+            "changed_vertices": 309,
+            "maximum_depth_recession": 0.005489200245857251
+          },
+          "MouthDonorOpen": {
+            "changed_vertices": 384,
+            "maximum_depth_recession": 0.024753203939056445
+          }
+        }
+      }
+    },
+    "assets/grimo/production/shushu/blender/shushu-geometry-v003-proof.blend": {
+      "before": "c077c55ac2f27a86df8cfaec1643d26ec6b33a64a9fece91a1cb5585a67d8b47",
+      "after": "745c5eedc1e51d0b39cf7adecc199cecbfc1b359f23dc904f34758f31ae872a4",
+      "local_edit": {
+        "Shushu_Head": {
+          "MouthOpen": {
+            "changed_vertices": 136,
+            "maximum_depth_recession": 0.005485719683933743
+          },
+          "MouthDonorOpen": {
+            "changed_vertices": 180,
+            "maximum_depth_recession": 0.024748459535847617
+          }
+        },
+        "Shushu_MouthInterior": {
+          "MouthOpen": {
+            "changed_vertices": 309,
+            "maximum_depth_recession": 0.005489200245857251
+          },
+          "MouthDonorOpen": {
+            "changed_vertices": 384,
+            "maximum_depth_recession": 0.024753203939056445
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "Human": "PENDING",
+  "Tripo": "HOLD",
+  "pairs": {
+    "after-smile-colour-front": {
+      "before": "before-smile-colour-front",
+      "cameras_equal": true
+    },
+    "after-smile-colour-side": {
+      "before": "before-smile-colour-side",
+      "cameras_equal": true
+    },
+    "after-smile-colour-3q": {
+      "before": "before-smile-colour-3q",
+      "cameras_equal": true
+    },
+    "after-smile-clay-side": {
+      "before": "before-smile-clay-side",
+      "cameras_equal": true
+    },
+    "after-small-colour-side": {
+      "before": "before-small-colour-side",
+      "cameras_equal": true
+    },
+    "after-full-colour-side": {
+      "before": "before-full-colour-side",
+      "cameras_equal": true
+    }
+  },
+  "renders": {
+    "before-smile-colour-front": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "d14f16a92b06a90efa52d415a325652143aa6c230334b113ebd25117727aa63c"
+    },
+    "before-smile-colour-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "b369058bbc4853260b597eeb8ea965d6a913a0753b6e6ecbd75e1552debc7926"
+    },
+    "before-smile-colour-3q": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "dfd464fd0e5c4bf86f9c72d77a84e7e3cdb0e66e8ab209fec5414960d1df62b4"
+    },
+    "before-smile-clay-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "b62d21f6897f6bf0ce720cab84a8c246be69eae39f6d884c0a8a6aaa403df39a"
+    },
+    "before-small-colour-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "c10cde61285e80e9e07348e56738f040a6cca7dbedfe1c4cfa465eceb4686499"
+    },
+    "before-full-colour-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "9fbe97d561e5052d49ee55c3fe1275ce9435b08d068004674adb9a2e872cce61"
+    },
+    "after-smile-colour-front": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "e4cd8658e76c252f617ace40e3e0a5b8eaf2621bb300e1e4cc6ce86fde3e4418"
+    },
+    "after-smile-colour-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "d0a3f16170b056e07e59385528e6c7d9bf7552d1890211915d776cd89dcd7c0a"
+    },
+    "after-smile-colour-3q": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "469f33171f32c846d2a2158e6a97cc91d7433edc08dc830ff5407e0794254bef"
+    },
+    "after-smile-clay-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "ff4f483605b559e74f48685bc053250c3187d66d5e43105f22581ac858467f29"
+    },
+    "after-small-colour-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "f77a8b28129005396d64c50b57b4b13071691f5165353cf9c1cdfb6d6f95f4c7"
+    },
+    "after-full-colour-side": {
+      "size": [
+        640,
+        640
+      ],
+      "sha256": "136be85410cda8aa634c533b1bc9810ea4aac7f73c930f46939df0bf10b409bc"
+    }
+  },
+  "operations": "Crop existing approved reference, resize and arrange only; no retouch or warp.",
+  "reference_note": "An illustrated reference has no calibrated physical scale or 3D camera. No exact millimetre/pixel match is asserted."
+}

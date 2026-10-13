@@ -1,0 +1,290 @@
+{
+  "base": "b92aa7683beb2c1ca7d0c7a4e0173c5ee32773d9",
+  "Human": "PENDING",
+  "Tripo": "HOLD",
+  "saved": {
+    "shushu-geometry-v003.blend": {
+      "all_actions_topology_controls_modifiers_weights_identical": true,
+      "other_objects_all_shapes_exact": true,
+      "local_edits": {
+        "Shushu_Head": {
+          "changed_keys": {
+            "MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.005485713481903076
+            },
+            "Corrective.Compose.HeadTurn.L.MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.0020549842447508126
+            },
+            "Corrective.Compose.HeadTurn.R.MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.0020549844193737954
+            },
+            "Corrective.Compose.HeadRest.MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.000952601432800293
+            },
+            "MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.024748459458351135
+            },
+            "Corrective.Compose.HeadTurn.L.MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.009270935202948749
+            },
+            "Corrective.Compose.HeadTurn.R.MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.009270935435779393
+            },
+            "Corrective.Compose.HeadRest.MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.004297494888305664
+            }
+          },
+          "changed_source_vertices": 180,
+          "neutral_and_other_expressions_exact": true,
+          "opening_xz_exact": true
+        },
+        "Shushu_MouthInterior": {
+          "changed_keys": {
+            "MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0054892003536224365
+            },
+            "Corrective.Compose.HeadTurn.L.MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0020562904537655413
+            },
+            "Corrective.Compose.HeadTurn.R.MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0020562904537655413
+            },
+            "Corrective.Compose.HeadRest.MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0009531974792480469
+            },
+            "MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.02475319802761078
+            },
+            "Corrective.Compose.HeadTurn.L.MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.009272710420191288
+            },
+            "Corrective.Compose.HeadTurn.R.MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.009272710420191288
+            },
+            "Corrective.Compose.HeadRest.MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.0042983293533325195
+            }
+          },
+          "changed_source_vertices": 384,
+          "neutral_and_other_expressions_exact": true,
+          "opening_xz_exact": true
+        }
+      }
+    },
+    "shushu-geometry-v003-proof.blend": {
+      "all_actions_topology_controls_modifiers_weights_identical": true,
+      "other_objects_all_shapes_exact": true,
+      "local_edits": {
+        "Shushu_Head": {
+          "changed_keys": {
+            "MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.005485713481903076
+            },
+            "Corrective.Compose.HeadTurn.L.MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.0020549842447508126
+            },
+            "Corrective.Compose.HeadTurn.R.MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.0020549844193737954
+            },
+            "Corrective.Compose.HeadRest.MouthOpen": {
+              "vertices": 136,
+              "max_difference": 0.000952601432800293
+            },
+            "MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.024748459458351135
+            },
+            "Corrective.Compose.HeadTurn.L.MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.009270935202948749
+            },
+            "Corrective.Compose.HeadTurn.R.MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.009270935435779393
+            },
+            "Corrective.Compose.HeadRest.MouthDonorOpen": {
+              "vertices": 180,
+              "max_difference": 0.004297494888305664
+            }
+          },
+          "changed_source_vertices": 180,
+          "neutral_and_other_expressions_exact": true,
+          "opening_xz_exact": true
+        },
+        "Shushu_MouthInterior": {
+          "changed_keys": {
+            "MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0054892003536224365
+            },
+            "Corrective.Compose.HeadTurn.L.MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0020562904537655413
+            },
+            "Corrective.Compose.HeadTurn.R.MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0020562904537655413
+            },
+            "Corrective.Compose.HeadRest.MouthOpen": {
+              "vertices": 309,
+              "max_difference": 0.0009531974792480469
+            },
+            "MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.02475319802761078
+            },
+            "Corrective.Compose.HeadTurn.L.MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.009272710420191288
+            },
+            "Corrective.Compose.HeadTurn.R.MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.009272710420191288
+            },
+            "Corrective.Compose.HeadRest.MouthDonorOpen": {
+              "vertices": 384,
+              "max_difference": 0.0042983293533325195
+            }
+          },
+          "changed_source_vertices": 384,
+          "neutral_and_other_expressions_exact": true,
+          "opening_xz_exact": true
+        }
+      }
+    }
+  },
+  "surface": [
+    {
+      "state": "neutral",
+      "objects": {
+        "Shushu_Head": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        },
+        "Shushu_MouthInterior": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        }
+      }
+    },
+    {
+      "state": "small",
+      "objects": {
+        "Shushu_Head": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        },
+        "Shushu_MouthInterior": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        }
+      }
+    },
+    {
+      "state": "full",
+      "objects": {
+        "Shushu_Head": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        },
+        "Shushu_MouthInterior": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        }
+      }
+    },
+    {
+      "state": "smile",
+      "objects": {
+        "Shushu_Head": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        },
+        "Shushu_MouthInterior": {
+          "new_collapsed_triangles": 0,
+          "front_projected_winding_changes": 0,
+          "evaluated_xz_max_error": 0.0
+        }
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "state": "neutral",
+      "mouth_surface_rays": 72,
+      "rear_or_missing": 0
+    },
+    {
+      "state": "small",
+      "mouth_surface_rays": 72,
+      "rear_or_missing": 0
+    },
+    {
+      "state": "full",
+      "mouth_surface_rays": 72,
+      "rear_or_missing": 0
+    },
+    {
+      "state": "smile",
+      "mouth_surface_rays": 72,
+      "rear_or_missing": 0
+    },
+    {
+      "state": "happy-closed",
+      "mouth_surface_rays": 72,
+      "rear_or_missing": 0
+    },
+    {
+      "state": "half",
+      "mouth_surface_rays": 72,
+      "rear_or_missing": 0
+    },
+    {
+      "state": "companion",
+      "mouth_surface_rays": 72,
+      "rear_or_missing": 0
+    }
+  ],
+  "proof": {
+    "frame_range": [
+      1,
+      285
+    ],
+    "neutral_returns": {
+      "1": 0.0,
+      "83": 0.0,
+      "189": 0.0,
+      "249": 0.0,
+      "285": 0.0
+    },
+    "release_displacement": 0.1225765106414429,
+    "hidden_after_release": true
+  },
+  "protected_inputs_unchanged": 56
+}

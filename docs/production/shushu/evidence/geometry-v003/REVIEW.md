@@ -2,9 +2,9 @@
 
 2026-10-13 (resumed from 2026-10-12). **Human Geometry Gate: PENDING. Downstream Tripo work: HOLD.**
 
-**Current Human Gate revision:** see [the Human-specified rounded nose comparison](nose-reference-revision/REVIEW.md), continuing the saved v003 at `530f75c`. The compact nose/philtrum area gains a smooth nose surface driven by the existing Head controls, with local Head depth correction. The mouth aperture, eye/lid geometry, seated skin and existing Motion controls are retained. Human=PENDING / Tripo=HOLD. Current saved-file checks are linked from that review; the earlier boards/GIFs and checks below are historical. The evaluated body topology still varies with pose and is not a final runtime rig.
+**Current Human Gate revision:** see [the opened lower-lip / chin comparison](lower-mouth-revision/REVIEW.md), continuing saved v003 at `b92aa76`. Only lower opening depth on the Head and corresponding mouth interior changed, with existing head-pose compositions updated. Neutral geometry, opening X/Z, nose, upper mouth, eyes/lids, body/seating and Motion controls are preserved. Human=PENDING / Tripo=HOLD. Current saved-file checks are linked from that review; earlier comparisons below are historical.
 
-The preceding [muzzle depth comparison](muzzle-revision/REVIEW.md), [mouth / continuous seated body / soft-lid appeal comparison](appeal-revision/REVIEW.md) and [2031076 eye/seating/full-mouth evidence](human-gate-revision/REVIEW.md) retain the previous comparisons. The old whole-eye "20–30% enlargement" estimate remains withdrawn. Use the nose reference revision for the latest visual decision and current limitations.
+The preceding [rounded nose](nose-reference-revision/REVIEW.md), [muzzle depth](muzzle-revision/REVIEW.md), [appeal](appeal-revision/REVIEW.md) and [eye/seating/full-mouth](human-gate-revision/REVIEW.md) evidence remain as history. The old whole-eye "20–30% enlargement" estimate remains withdrawn. Use the lower mouth revision for the latest visual decision and limitations.
 
 This continues the interrupted v003 work. It does not restart from v001/v002 geometry and does not supersede any Human rejection or approved art. The current purpose is a recognizable, appealing Shushu that can blink, sit with believable support, and participate in gentle contact. Mesh counts and export success only support that purpose.
 

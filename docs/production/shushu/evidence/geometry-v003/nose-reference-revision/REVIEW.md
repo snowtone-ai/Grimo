@@ -1,5 +1,7 @@
 # Shushu v003 — Human指定の丸い鼻への再判定候補
 
+
+**後続修正:** 開口した下側口縁〜顎のみを修正した[最新保存候補](../lower-mouth-revision/REVIEW.md)を参照。この鼻比較はb92aa76時点の履歴。鼻自体は後続で変更していない。
 2026-10-14。**Human=PENDING / Tripo=HOLD**。開始HEAD `530f75c4cc7e4fbc06545c420b337155e67c8212`、実作業branch `codex/grimo-motion-zero-based-design-20261011`。保存済みv003を継続編集した。
 
 最新Human指示「鼻はこんなふうになる。これにぴったりにして。」とスクリーンショット(525)を鼻の基準とした。画面に表示された承認済み `shushu_bodyonly_left.png`、同じ4方向のFront、Canonical Identityを参照。承認#18–26と元Donorは保護し、未承認#27は採用根拠にしていない。[参照hash](authority.json)。
