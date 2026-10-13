@@ -1,0 +1,44 @@
+{
+  "shushu-geometry-v003.blend": {
+    "baseline_sha256": "83136d6de46bc34f817a6fba93bc62fbe483f924760e13d312c12ca04fb4258e",
+    "after_sha256": "d6b5e86361d9667ff0e09c0995e83b45d149e85c4a6314c535459ebe6bba1b64",
+    "local_edit": {
+      "vertices": 1823,
+      "max_delta": 0.018304910587047498,
+      "basis_bounds": [
+        [
+          -0.045957185328006744,
+          -0.27933603525161743,
+          0.6020132899284363
+        ],
+        [
+          0.04595724865794182,
+          -0.2366401106119156,
+          0.6667046546936035
+        ]
+      ],
+      "scope": "Head local Y only; expression/seat relative deltas retained; head rotations recomposed"
+    }
+  },
+  "shushu-geometry-v003-proof.blend": {
+    "baseline_sha256": "166c98cf4057f8e7e5c0f50e73aefb55fae291ba8d06e517901223509ae7ebe4",
+    "after_sha256": "ca124de9d217decfec0493992b78487a2ead504ae5c71ce905c0525c89a3220b",
+    "local_edit": {
+      "vertices": 1823,
+      "max_delta": 0.018304910587047498,
+      "basis_bounds": [
+        [
+          -0.045957185328006744,
+          -0.27933603525161743,
+          0.6020132899284363
+        ],
+        [
+          0.04595724865794182,
+          -0.2366401106119156,
+          0.6667046546936035
+        ]
+      ],
+      "scope": "Head local Y only; expression/seat relative deltas retained; head rotations recomposed"
+    }
+  }
+}

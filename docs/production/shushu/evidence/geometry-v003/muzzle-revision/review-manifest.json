@@ -1,0 +1,278 @@
+{
+  "Human": "PENDING",
+  "Tripo": "HOLD",
+  "candidate_views": 14,
+  "recaptured_predecessor_views": 3,
+  "reused_predecessor_renders": 11,
+  "pairs": {
+    "after-neutral-clay-front": {
+      "before": "before-neutral-clay-front",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-neutral-clay-front"
+    },
+    "after-neutral-clay-side": {
+      "before": "before-neutral-clay-side",
+      "cameras_identical": true,
+      "predecessor_source": "Saved 6f48223 model, same translated side camera"
+    },
+    "after-neutral-clay-3q": {
+      "before": "before-neutral-clay-3q",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-neutral-clay-3q"
+    },
+    "after-neutral-colour-front": {
+      "before": "before-neutral-colour-front",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-neutral-colour-front"
+    },
+    "after-neutral-colour-side": {
+      "before": "before-neutral-colour-side",
+      "cameras_identical": true,
+      "predecessor_source": "Saved 6f48223 model, same translated side camera"
+    },
+    "after-neutral-colour-3q": {
+      "before": "before-neutral-colour-3q",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-neutral-colour-3q"
+    },
+    "after-smile-clay-front": {
+      "before": "before-smile-clay-front",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-smile-clay-front"
+    },
+    "after-smile-clay-side": {
+      "before": "before-smile-clay-side",
+      "cameras_identical": true,
+      "predecessor_source": "Saved 6f48223 model, same translated side camera"
+    },
+    "after-smile-clay-3q": {
+      "before": "before-smile-clay-3q",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-smile-clay-3q"
+    },
+    "after-companion-colour-front": {
+      "before": "before-companion-colour-front",
+      "cameras_identical": true,
+      "predecessor_source": "companion-colour-front"
+    },
+    "after-companion-colour-side": {
+      "before": "before-companion-colour-side",
+      "cameras_identical": true,
+      "predecessor_source": "companion-colour-side"
+    },
+    "after-companion-colour-3q": {
+      "before": "before-companion-colour-3q",
+      "cameras_identical": true,
+      "predecessor_source": "companion-colour-3q"
+    },
+    "after-small-colour-3q": {
+      "before": "before-small-colour-3q",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-small-colour-3q"
+    },
+    "after-full-colour-3q": {
+      "before": "before-full-colour-3q",
+      "cameras_identical": true,
+      "predecessor_source": "mouth-full-colour-3q"
+    }
+  },
+  "images": {
+    "after-neutral-clay-front": {
+      "sha256": "d6bd9787abb6b82f53ea764052298b8bb1f9da22fad3b24affeade2d9f85c13c",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-neutral-clay-front": {
+      "sha256": "60a898e5a349d0043777b0ed28069c90325a0de4227ac427129ffe245f7f62f7",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-neutral-clay-side": {
+      "sha256": "55877ece9b855ec00c171f889685a881109149a1e82834d0c9400d4ff9fb8ba7",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-neutral-clay-side": {
+      "sha256": "d7c8887dcf289c8a1d87b8bc6bb85cbe99cd735790dfb7378a23c0e0af2fe7ec",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-neutral-clay-3q": {
+      "sha256": "e52693e6fe0b54d227846025f358ddade46a8b90ee8f68aa75562a67e9e3cb05",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-neutral-clay-3q": {
+      "sha256": "2fbde59b9e1e48dfd052588635c8f99650aaf87eb0e94e98c191b6ca33318173",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-neutral-colour-front": {
+      "sha256": "a2b1377744c2f6fd5bcff59c38fa9c106155a2efd0fe516e9515af6b82a6b1d2",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-neutral-colour-front": {
+      "sha256": "4e8988c886dbee7147b6f5c18262a57c3bcebb79537d4f6c461a56d1d92973fe",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-neutral-colour-side": {
+      "sha256": "290e081b7ad060df51d1bbd1a7d8f0dce7fe62c5d01ab6c437085fbf8b494151",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-neutral-colour-side": {
+      "sha256": "65ee09c7174749f3381b82f50b751dd86540342772f8b003badc90a34f30935a",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-neutral-colour-3q": {
+      "sha256": "0753977c6584605e54934022f038de0da3e659bcf95a9a4381b12bbaa467272c",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-neutral-colour-3q": {
+      "sha256": "9eb0ac2b4252847432b01af0cfaefacb0c4ca870e4deb2b24293393e1e814ff0",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-smile-clay-front": {
+      "sha256": "91505fc3526014d354ef260d0dd4a4603b86372e96b8afd66e0a781e5afe82c6",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-smile-clay-front": {
+      "sha256": "8ec805bc63d54c64a030b623570c516c1081d69fe6485345300776e7079f1f56",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-smile-clay-side": {
+      "sha256": "c7d22c2891095af359327674c0b22784363e6b3a14d2a486ebe3a937ee4063d6",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-smile-clay-side": {
+      "sha256": "6d8b3c92efe556275ae074fd4b1fd67c2cc623c09c08f996c45d1905074eaabd",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-smile-clay-3q": {
+      "sha256": "4e84365f0c54e0d0eaf6d506f4ccfeb250cff520c94651f4b1c06fe7f6a0bf0e",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-smile-clay-3q": {
+      "sha256": "c756d7f2dbc5d4f8d866ffce5be27ac46a6ef07e848abed68d14566e5cb69816",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-companion-colour-front": {
+      "sha256": "745163d4317fec972e78feb17a614e45d2edbda13aa1caf9c27622aa2785931b",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-companion-colour-front": {
+      "sha256": "a0af218d0bb4cf8f6dc30e44a00511c6ff5d0bac624bcb0a0d04a9fae474bd16",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-companion-colour-side": {
+      "sha256": "1f58b08f2087595704e96692b0d8c7e75ad2295d01936b782639db7b4ce510ee",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-companion-colour-side": {
+      "sha256": "6d16b4c217de3fb93d6fc3288209ee309c59b5c073a5ddcfd531dbe149eb935b",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-companion-colour-3q": {
+      "sha256": "c4eb43a02eb64383b36287749f1c96dbf2f35c6444af2bc846d54ec47c39611d",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-companion-colour-3q": {
+      "sha256": "48c0e3e031726f595ba3195f25b9d88c7ce4aaba22dd3ae034d5b648441a764f",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-small-colour-3q": {
+      "sha256": "22c9d44b378c219123e3468b9fec173679f5f8f9f9ecc0a71662fdac06054add",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-small-colour-3q": {
+      "sha256": "24898bba0ffeccd15807b49ba535d177b9b59f52e963493068a4056217a875f6",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "after-full-colour-3q": {
+      "sha256": "c759dea7a81a640abb21832da39ac076ecabb7fe9176cb037006cd503e7c9be4",
+      "size": [
+        480,
+        540
+      ]
+    },
+    "before-full-colour-3q": {
+      "sha256": "d91b981d09e3fdc6d1efd5af9a21dc3b5d7d6525896f87a68eeb422e53116880",
+      "size": [
+        480,
+        540
+      ]
+    }
+  },
+  "board_operations": "Resize, arrangement and labels only; no pixel retouch or render warping"
+}
