@@ -1,0 +1,175 @@
+{
+  "baseline_commit": "93869a8771045d7ed79ab036bd61d66ed97bd437",
+  "baseline_blend_sha256": "8fae813673312d2b1c81f47c54427538adac12a5586f8743a71062fe701fefa5",
+  "method": "Identical front orthographic rays; 0.000633 x 0.000647 world-unit grid. Visible nearest-hit eye surface, not pink pattern or hidden volume.",
+  "eyes": {
+    "L": {
+      "donor_component_bounds": [
+        [
+          0.06127931922674179,
+          -0.19702142477035522,
+          0.58740234375
+        ],
+        [
+          0.1838379055261612,
+          -0.12231437116861343,
+          0.7314453125
+        ]
+      ],
+      "donor_component_width_height": [
+        0.1225585862994194,
+        0.14404296875
+      ],
+      "v003_front_cap_width_height": [
+        0.10905714333057404,
+        0.13197654485702515
+      ],
+      "donor_visible": {
+        "width": 0.09626666666666665,
+        "height": 0.10482352941176465,
+        "center": [
+          0.13443333333333332,
+          0.6606470588235294
+        ],
+        "projected_area": 0.007895692156863147,
+        "grid_step": [
+          0.000633333333333333,
+          0.000647058823529445
+        ],
+        "bounds": [
+          [
+            0.0863,
+            0.6082352941176471
+          ],
+          [
+            0.18256666666666665,
+            0.7130588235294117
+          ]
+        ]
+      },
+      "v003_visible": {
+        "width": 0.10956666666666665,
+        "height": 0.13264705882352934,
+        "center": [
+          0.12905,
+          0.6596764705882353
+        ],
+        "projected_area": 0.011292147058824102,
+        "grid_step": [
+          0.000633333333333333,
+          0.000647058823529445
+        ],
+        "bounds": [
+          [
+            0.07426666666666668,
+            0.5933529411764706
+          ],
+          [
+            0.18383333333333332,
+            0.726
+          ]
+        ]
+      },
+      "visible_ratio_width_height": [
+        1.138157894736842,
+        1.2654320987654322
+      ]
+    },
+    "R": {
+      "donor_component_bounds": [
+        [
+          -0.1838378757238388,
+          -0.1970214545726776,
+          0.58740234375
+        ],
+        [
+          -0.06079099327325821,
+          -0.12231441587209702,
+          0.7314453125
+        ]
+      ],
+      "donor_component_width_height": [
+        0.1230468824505806,
+        0.14404296875
+      ],
+      "v003_front_cap_width_height": [
+        0.10905714333057404,
+        0.13197654485702515
+      ],
+      "donor_visible": {
+        "width": 0.09626666666666665,
+        "height": 0.10482352941176465,
+        "center": [
+          -0.13443333333333332,
+          0.6606470588235294
+        ],
+        "projected_area": 0.00789159411764746,
+        "grid_step": [
+          0.000633333333333333,
+          0.000647058823529445
+        ],
+        "bounds": [
+          [
+            -0.18256666666666665,
+            0.6082352941176471
+          ],
+          [
+            -0.0863,
+            0.7130588235294117
+          ]
+        ]
+      },
+      "v003_visible": {
+        "width": 0.10956666666666665,
+        "height": 0.13264705882352934,
+        "center": [
+          -0.12905,
+          0.6596764705882353
+        ],
+        "projected_area": 0.011287639215686847,
+        "grid_step": [
+          0.000633333333333333,
+          0.000647058823529445
+        ],
+        "bounds": [
+          [
+            -0.18383333333333332,
+            0.5933529411764706
+          ],
+          [
+            -0.07426666666666668,
+            0.726
+          ]
+        ]
+      },
+      "visible_ratio_width_height": [
+        1.138157894736842,
+        1.2654320987654322
+      ]
+    }
+  },
+  "pink_pattern": {
+    "donor": "UNENCODED in original FBX/GLB; cannot measure as eyeball",
+    "diagnostic": "Temporary head vertex colour mask, separately labelled; no new visual authority"
+  },
+  "donor_mouth_boundary": {
+    "edges": 0
+  },
+  "donor_mouth_deep_cavity_proxy": {
+    "bounds": [
+      [
+        -0.0355,
+        0.56
+      ],
+      [
+        0.035500000000000004,
+        0.612
+      ]
+    ],
+    "width_height": [
+      0.07100000000000001,
+      0.051999999999999935
+    ],
+    "definition": "Depth residual >0.010 from quadratic continuation of same-z muzzle samples x +/-0.052; search x +/-0.046, z 0.557..0.612. Approximate recessed cavity, not exact lip segmentation; includes upper central cleft."
+  }
+}

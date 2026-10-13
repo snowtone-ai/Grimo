@@ -2,6 +2,10 @@
 
 2026-10-13 (resumed from 2026-10-12). **Human Geometry Gate: PENDING. Downstream Tripo work: HOLD.**
 
+**Current Human Gate revision:** see [the focused eye / seating / full-mouth comparison](human-gate-revision/REVIEW.md). It locally edits the saved v003 at `93869a8771045d7ed79ab036bd61d66ed97bd437`, preserving topology, original controls, contact mechanisms and the 285-frame timeline. Current editable/static assets and machine checks below were updated. The original review boards and GIFs below show the preceding geometry and are retained as history; use the new Clay + diagnostic-colour boards for the current visual decision.
+
+The current candidate restores the **visible** eye width/height to donor measurements while preserving the eye/lid mechanism, softens only the intermediate lid annulus, tucks the proximal seated thigh into the pelvis without moving the foot/standing Basis, and adds `MouthDonorOpen` without replacing the small-mouth/smile controls. Actual donor eye-component size, visible aperture, eyelid/orbital regions and the temporary pink mask are recorded separately. The old whole-eye "20–30% enlargement" estimate remains withdrawn. Human acceptance remains PENDING.
+
 This continues the interrupted v003 work. It does not restart from v001/v002 geometry and does not supersede any Human rejection or approved art. The current purpose is a recognizable, appealing Shushu that can blink, sit with believable support, and participate in gentle contact. Mesh counts and export success only support that purpose.
 
 ## Authority and continuity

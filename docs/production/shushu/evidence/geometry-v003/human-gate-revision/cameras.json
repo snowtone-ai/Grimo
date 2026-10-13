@@ -1,0 +1,2162 @@
+{
+  "eye-before-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-before-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-before-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat-before-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat-before-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat-before-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-before-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-before-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-before-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-size-only-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-size-only-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-size-only-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-size-only-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-size-only-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-size-only-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-surround-only-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-surround-only-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-surround-only-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-surround-only-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-surround-only-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-surround-only-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-combined-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-combined-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-combined-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat-combined-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat-combined-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat-combined-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "eye-combined-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-combined-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "eye-combined-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "donor-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "donor-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "donor-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "donor-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "donor-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "donor-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-neutral-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-neutral-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-neutral-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-small-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-small-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-small-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-donor-open-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-donor-open-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-donor-open-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-smile-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-smile-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-smile-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "standing-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "standing-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "standing-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat25-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat25-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat25-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat50-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat50-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat50-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat75-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat75-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seat75-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seated-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seated-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "seated-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-half-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-half-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-half-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-closed-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-closed-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-closed-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-wink-clay-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-wink-clay-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "blink-wink-clay-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "clay"
+  },
+  "mouth-neutral-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-neutral-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-neutral-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-small-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-small-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-small-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-donor-open-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-donor-open-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-donor-open-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-smile-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-smile-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "mouth-smile-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "standing-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "standing-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "standing-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat25-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat25-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat25-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat50-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat50-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat50-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat75-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat75-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seat75-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seated-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seated-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "seated-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      0.0,
+      0.49000000953674316
+    ],
+    "ortho_scale": 1.15,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-half-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-half-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-half-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-closed-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-closed-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-closed-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-wink-colour-front": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-wink-colour-side": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  },
+  "blink-wink-colour-3q": {
+    "direction": [
+      1,
+      -1,
+      0
+    ],
+    "target": [
+      0.0,
+      -0.03999999910593033,
+      0.6499999761581421
+    ],
+    "ortho_scale": 0.54,
+    "resolution": [
+      480,
+      540
+    ],
+    "engine": "CYCLES",
+    "samples": 12,
+    "colour": "diagnostic"
+  }
+}

@@ -1,0 +1,1385 @@
+{
+  "Human_Geometry_Gate": "PENDING",
+  "measurement_units": "Donor normalised to approximately 1 unit tall; projection dimensions are scene units",
+  "scope": "Local eye, mouth and proximal-thigh checks; no final rig/runtime claim",
+  "separated_projected_regions": {
+    "before": {
+      "L": {
+        "front": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                0.07447143644094467,
+                0.5940117835998535
+              ],
+              [
+                0.1835285872220993,
+                0.7259883880615234
+              ]
+            ],
+            "width_height": [
+              0.10905715078115463,
+              0.13197660446166992
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                0.07454629242420197,
+                0.5940922498703003
+              ],
+              [
+                0.18349984288215637,
+                0.7258539199829102
+              ]
+            ],
+            "width_height": [
+              0.1089535504579544,
+              0.13176167011260986
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                0.05099205672740936,
+                0.571452260017395
+              ],
+              [
+                0.2070079743862152,
+                0.7485479116439819
+              ]
+            ],
+            "width_height": [
+              0.15601591765880585,
+              0.17709565162658691
+            ]
+          }
+        },
+        "side": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.19665122032165527,
+                0.5940117239952087
+              ],
+              [
+                -0.1431875377893448,
+                0.7259882688522339
+              ]
+            ],
+            "width_height": [
+              0.053463682532310486,
+              0.13197654485702515
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.1908738613128662,
+                0.5940921306610107
+              ],
+              [
+                -0.14250415563583374,
+                0.7258539199829102
+              ]
+            ],
+            "width_height": [
+              0.04836970567703247,
+              0.13176178932189941
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.24623215198516846,
+                0.5714522004127502
+              ],
+              [
+                -0.13304120302200317,
+                0.7485477924346924
+              ]
+            ],
+            "width_height": [
+              0.11319094896316528,
+              0.17709559202194214
+            ]
+          }
+        },
+        "3q": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.08260460942983627,
+                0.594011664390564
+              ],
+              [
+                0.028525516390800476,
+                0.7259882092475891
+              ]
+            ],
+            "width_height": [
+              0.11113012582063675,
+              0.13197654485702515
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.08210963010787964,
+                0.5940921902656555
+              ],
+              [
+                0.028985127806663513,
+                0.7258538603782654
+              ]
+            ],
+            "width_height": [
+              0.11109475791454315,
+              0.13176167011260986
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.1340388059616089,
+                0.5714522004127502
+              ],
+              [
+                0.05122596025466919,
+                0.7485477924346924
+              ]
+            ],
+            "width_height": [
+              0.18526476621627808,
+              0.17709559202194214
+            ]
+          }
+        },
+        "wall_thickness": 0.029999999329447746
+      },
+      "R": {
+        "front": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.1835285872220993,
+                0.5940117835998535
+              ],
+              [
+                -0.07447143644094467,
+                0.7259883880615234
+              ]
+            ],
+            "width_height": [
+              0.10905715078115463,
+              0.13197660446166992
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.1835000365972519,
+                0.5940923094749451
+              ],
+              [
+                -0.07454629242420197,
+                0.7258540391921997
+              ]
+            ],
+            "width_height": [
+              0.10895374417304993,
+              0.13176172971725464
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.2070079743862152,
+                0.571452260017395
+              ],
+              [
+                -0.05099206790328026,
+                0.7485479116439819
+              ]
+            ],
+            "width_height": [
+              0.15601590275764465,
+              0.17709565162658691
+            ]
+          }
+        },
+        "side": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.19667822122573853,
+                0.5940117239952087
+              ],
+              [
+                -0.14323745667934418,
+                0.7259882688522339
+              ]
+            ],
+            "width_height": [
+              0.05344076454639435,
+              0.13197654485702515
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.19104281067848206,
+                0.5940921902656555
+              ],
+              [
+                -0.14254705607891083,
+                0.7258539199829102
+              ]
+            ],
+            "width_height": [
+              0.04849575459957123,
+              0.13176172971725464
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.2462272047996521,
+                0.5714522004127502
+              ],
+              [
+                -0.1330420970916748,
+                0.7485477924346924
+              ]
+            ],
+            "width_height": [
+              0.1131851077079773,
+              0.17709559202194214
+            ]
+          }
+        },
+        "3q": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.23288027942180634,
+                0.5940117239952087
+              ],
+              [
+                -0.1876262128353119,
+                0.7259883284568787
+              ]
+            ],
+            "width_height": [
+              0.045254066586494446,
+              0.13197660446166992
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.23054999113082886,
+                0.5940922498703003
+              ],
+              [
+                -0.18713651597499847,
+                0.7258539199829102
+              ]
+            ],
+            "width_height": [
+              0.04341347515583038,
+              0.13176167011260986
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.24355804920196533,
+                0.5714521408081055
+              ],
+              [
+                -0.18701334297657013,
+                0.7485477924346924
+              ]
+            ],
+            "width_height": [
+              0.0565447062253952,
+              0.17709565162658691
+            ]
+          }
+        },
+        "wall_thickness": 0.029999999329447746
+      },
+      "pink_diagnostic_only": {
+        "front": {
+          "bounds": [
+            [
+              -0.2070079743862152,
+              0.5621874928474426
+            ],
+            [
+              0.2070079743862152,
+              0.7348092794418335
+            ]
+          ],
+          "width_height": [
+            0.4140159487724304,
+            0.17262178659439087
+          ]
+        },
+        "side": {
+          "bounds": [
+            [
+              -0.2400607466697693,
+              0.5621874332427979
+            ],
+            [
+              -0.13650862872600555,
+              0.734809160232544
+            ]
+          ],
+          "width_height": [
+            0.10355211794376373,
+            0.1726217269897461
+          ]
+        },
+        "3q": {
+          "bounds": [
+            [
+              -0.24355804920196533,
+              0.5621874332427979
+            ],
+            [
+              0.04975318908691406,
+              0.734809160232544
+            ]
+          ],
+          "width_height": [
+            0.2933112382888794,
+            0.1726217269897461
+          ]
+        }
+      },
+      "pink_donor_measurement": null,
+      "pink_limit": "Original donor FBX/GLB has no encoded pink pattern. Diagnostic mask is separately projected and never counted as eyeball; final texture extent remains UNKNOWN."
+    },
+    "after": {
+      "L": {
+        "front": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                0.0810905173420906,
+                0.6078532934188843
+              ],
+              [
+                0.17690950632095337,
+                0.7121468782424927
+              ]
+            ],
+            "width_height": [
+              0.09581898897886276,
+              0.1042935848236084
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                0.08115628361701965,
+                0.6079168915748596
+              ],
+              [
+                0.176884263753891,
+                0.7120407223701477
+              ]
+            ],
+            "width_height": [
+              0.09572798013687134,
+              0.10412383079528809
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                0.05217570438981056,
+                0.573773980140686
+              ],
+              [
+                0.2058243453502655,
+                0.7462263107299805
+              ]
+            ],
+            "width_height": [
+              0.15364864468574524,
+              0.17245233058929443
+            ]
+          }
+        },
+        "side": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.19665123522281647,
+                0.6078531742095947
+              ],
+              [
+                -0.1431875228881836,
+                0.7121468782424927
+              ]
+            ],
+            "width_height": [
+              0.053463712334632874,
+              0.10429370403289795
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.1908738613128662,
+                0.6079167723655701
+              ],
+              [
+                -0.14250415563583374,
+                0.7120406031608582
+              ]
+            ],
+            "width_height": [
+              0.04836970567703247,
+              0.10412383079528809
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.24586604535579681,
+                0.5737738609313965
+              ],
+              [
+                -0.13267511129379272,
+                0.7462261915206909
+              ]
+            ],
+            "width_height": [
+              0.11319093406200409,
+              0.17245233058929443
+            ]
+          }
+        },
+        "3q": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.0779445618391037,
+                0.6078531742095947
+              ],
+              [
+                0.02384510636329651,
+                0.7121468186378479
+              ]
+            ],
+            "width_height": [
+              0.10178966820240021,
+              0.10429364442825317
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.07744957506656647,
+                0.6079167723655701
+              ],
+              [
+                0.024307161569595337,
+                0.7120406031608582
+              ]
+            ],
+            "width_height": [
+              0.1017567366361618,
+              0.10412383079528809
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.13297411799430847,
+                0.5737738609313965
+              ],
+              [
+                0.05065326392650604,
+                0.7462261319160461
+              ]
+            ],
+            "width_height": [
+              0.18362738192081451,
+              0.17245227098464966
+            ]
+          }
+        },
+        "wall_thickness": 0.029999999329447746
+      },
+      "R": {
+        "front": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.17690950632095337,
+                0.6078532934188843
+              ],
+              [
+                -0.0810905173420906,
+                0.7121468782424927
+              ]
+            ],
+            "width_height": [
+              0.09581898897886276,
+              0.1042935848236084
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.17688441276550293,
+                0.6079168319702148
+              ],
+              [
+                -0.08115628361701965,
+                0.7120407819747925
+              ]
+            ],
+            "width_height": [
+              0.09572812914848328,
+              0.10412395000457764
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.2058243453502655,
+                0.573773980140686
+              ],
+              [
+                -0.05217571556568146,
+                0.7462262511253357
+              ]
+            ],
+            "width_height": [
+              0.15364862978458405,
+              0.17245227098464966
+            ]
+          }
+        },
+        "side": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.19667822122573853,
+                0.6078531742095947
+              ],
+              [
+                -0.14323744177818298,
+                0.7121468186378479
+              ]
+            ],
+            "width_height": [
+              0.05344077944755554,
+              0.10429364442825317
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.19104284048080444,
+                0.6079167723655701
+              ],
+              [
+                -0.14254707098007202,
+                0.7120406627655029
+              ]
+            ],
+            "width_height": [
+              0.04849576950073242,
+              0.10412389039993286
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.24586111307144165,
+                0.5737738609313965
+              ],
+              [
+                -0.13267599046230316,
+                0.7462261915206909
+              ]
+            ],
+            "width_height": [
+              0.11318512260913849,
+              0.17245233058929443
+            ]
+          }
+        },
+        "3q": {
+          "front_eye_cap": {
+            "bounds": [
+              [
+                -0.23013174533843994,
+                0.6078531742095947
+              ],
+              [
+                -0.1921982616186142,
+                0.7121468186378479
+              ]
+            ],
+            "width_height": [
+              0.037933483719825745,
+              0.10429364442825317
+            ]
+          },
+          "aperture_lid_inner_edge": {
+            "bounds": [
+              [
+                -0.22587205469608307,
+                0.6079167723655701
+              ],
+              [
+                -0.1916947066783905,
+                0.7120406627655029
+              ]
+            ],
+            "width_height": [
+              0.034177348017692566,
+              0.10412389039993286
+            ]
+          },
+          "orbital_edit_region": {
+            "bounds": [
+              [
+                -0.24247419834136963,
+                0.5737738609313965
+              ],
+              [
+                -0.19098934531211853,
+                0.7462261915206909
+              ]
+            ],
+            "width_height": [
+              0.0514848530292511,
+              0.17245233058929443
+            ]
+          }
+        },
+        "wall_thickness": 0.029999999329447746
+      },
+      "pink_diagnostic_only": {
+        "front": {
+          "bounds": [
+            [
+              -0.2058243453502655,
+              0.5621874928474426
+            ],
+            [
+              0.2058243453502655,
+              0.7345691323280334
+            ]
+          ],
+          "width_height": [
+            0.411648690700531,
+            0.17238163948059082
+          ]
+        },
+        "side": {
+          "bounds": [
+            [
+              -0.2393123060464859,
+              0.5621874332427979
+            ],
+            [
+              -0.13525861501693726,
+              0.7345690131187439
+            ]
+          ],
+          "width_height": [
+            0.10405369102954865,
+            0.17238157987594604
+          ]
+        },
+        "3q": {
+          "bounds": [
+            [
+              -0.24247419834136963,
+              0.5621874332427979
+            ],
+            [
+              0.04917509853839874,
+              0.7345690131187439
+            ]
+          ],
+          "width_height": [
+            0.2916492819786072,
+            0.17238157987594604
+          ]
+        }
+      },
+      "pink_donor_measurement": null,
+      "pink_limit": "Original donor FBX/GLB has no encoded pink pattern. Diagnostic mask is separately projected and never counted as eyeball; final texture extent remains UNKNOWN."
+    }
+  },
+  "control_and_standing_continuity": {
+    "Shushu_Ear.L": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": []
+    },
+    "Shushu_Ear.R": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": []
+    },
+    "Shushu_Eye.L": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 704,
+      "basis_max_displacement": 0.019180193543434143,
+      "added_keys": []
+    },
+    "Shushu_Eye.R": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 704,
+      "basis_max_displacement": 0.019180193543434143,
+      "added_keys": []
+    },
+    "Shushu_Head": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 1672,
+      "basis_max_displacement": 0.013910324312746525,
+      "added_keys": [
+        "MouthDonorOpen",
+        "Corrective.Compose.HeadTurn.L.MouthDonorOpen",
+        "Corrective.Compose.HeadTurn.R.MouthDonorOpen",
+        "Corrective.Compose.HeadTilt.L.MouthDonorOpen",
+        "Corrective.Compose.HeadTilt.R.MouthDonorOpen",
+        "Corrective.Compose.HeadRest.MouthDonorOpen"
+      ]
+    },
+    "Shushu_Leg.L": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": []
+    },
+    "Shushu_Leg.R": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": []
+    },
+    "Shushu_MouthInterior": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": [
+        "MouthDonorOpen",
+        "Corrective.Compose.HeadTurn.L.MouthDonorOpen",
+        "Corrective.Compose.HeadTurn.R.MouthDonorOpen",
+        "Corrective.Compose.HeadTilt.L.MouthDonorOpen",
+        "Corrective.Compose.HeadTilt.R.MouthDonorOpen",
+        "Corrective.Compose.HeadRest.MouthDonorOpen"
+      ]
+    },
+    "Shushu_Paw.L": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": []
+    },
+    "Shushu_Paw.R": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": []
+    },
+    "Shushu_Torso": {
+      "existing_keys_retained": true,
+      "existing_driver_expressions_retained": true,
+      "basis_changed_vertices": 0,
+      "basis_max_displacement": 0.0,
+      "added_keys": []
+    }
+  },
+  "local_thigh": {
+    "L": {
+      "changed_vertices": 1073,
+      "max_displacement": 0.040786273777484894,
+      "distal_foot_max_displacement": 0.0
+    },
+    "R": {
+      "changed_vertices": 1080,
+      "max_displacement": 0.040786296129226685,
+      "distal_foot_max_displacement": 0.0
+    }
+  },
+  "mouth_apertures": [
+    {
+      "state": "neutral",
+      "rim_bounds": [
+        [
+          -0.026000000536441803,
+          -0.2657192051410675,
+          0.5961301922798157
+        ],
+        [
+          0.026000000536441803,
+          -0.2641479969024658,
+          0.6010000109672546
+        ]
+      ],
+      "rim_width_height": [
+        0.052000001072883606,
+        0.004869818687438965
+      ]
+    },
+    {
+      "state": "small",
+      "rim_bounds": [
+        [
+          -0.026000000536441803,
+          -0.26650384068489075,
+          0.588886559009552
+        ],
+        [
+          0.026000000536441803,
+          -0.26404112577438354,
+          0.609000027179718
+        ]
+      ],
+      "rim_width_height": [
+        0.052000001072883606,
+        0.020113468170166016
+      ]
+    },
+    {
+      "state": "full",
+      "rim_bounds": [
+        [
+          -0.03400000184774399,
+          -0.2693561911582947,
+          0.5607474446296692
+        ],
+        [
+          0.03400000184774399,
+          -0.26378488540649414,
+          0.6140000224113464
+        ]
+      ],
+      "rim_width_height": [
+        0.06800000369548798,
+        0.053252577781677246
+      ]
+    },
+    {
+      "state": "smile",
+      "rim_bounds": [
+        [
+          -0.031200001016259193,
+          -0.26806479692459106,
+          0.573657751083374
+        ],
+        [
+          0.031200001016259193,
+          -0.26364392042160034,
+          0.6094500422477722
+        ]
+      ],
+      "rim_width_height": [
+        0.06240000203251839,
+        0.03579229116439819
+      ]
+    }
+  ],
+  "full_mouth_combination_sweep": [
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.125,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.25,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.375,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.5,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.625,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.75,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.875,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 1.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.125,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.25,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.375,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.5,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.625,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.75,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.875,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "neutral-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 1.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.125,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.25,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.375,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.5,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.625,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.75,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 0.875,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 0,
+      "head_tilt": 0,
+      "full_open": 1.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.125,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.25,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.375,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.5,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.625,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.75,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 0.875,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    },
+    {
+      "transition": "small-to-full",
+      "seat": 1,
+      "head_tilt": 0.7,
+      "full_open": 1.0,
+      "mouth_surface_rays": 96,
+      "rear_or_missing_hits": 0
+    }
+  ],
+  "proof_continuity": {
+    "frame_range": [
+      1,
+      285
+    ],
+    "markers": [
+      [
+        "neutral",
+        1
+      ],
+      [
+        "half",
+        9
+      ],
+      [
+        "closed",
+        13
+      ],
+      [
+        "half",
+        17
+      ],
+      [
+        "neutral",
+        23
+      ],
+      [
+        "wink",
+        29
+      ],
+      [
+        "neutral",
+        35
+      ],
+      [
+        "gaze-left",
+        41
+      ],
+      [
+        "gaze-right",
+        47
+      ],
+      [
+        "gaze-up",
+        53
+      ],
+      [
+        "neutral",
+        59
+      ],
+      [
+        "mouth-open",
+        65
+      ],
+      [
+        "smile",
+        71
+      ],
+      [
+        "surprise",
+        77
+      ],
+      [
+        "neutral",
+        83
+      ],
+      [
+        "turn-tilt",
+        89
+      ],
+      [
+        "neutral",
+        101
+      ],
+      [
+        "seat25",
+        109
+      ],
+      [
+        "seat50",
+        117
+      ],
+      [
+        "seat75",
+        125
+      ],
+      [
+        "seat100",
+        133
+      ],
+      [
+        "rest",
+        149
+      ],
+      [
+        "seat100",
+        157
+      ],
+      [
+        "seat75",
+        165
+      ],
+      [
+        "seat50",
+        173
+      ],
+      [
+        "seat25",
+        181
+      ],
+      [
+        "neutral",
+        189
+      ],
+      [
+        "offer",
+        201
+      ],
+      [
+        "hold",
+        213
+      ],
+      [
+        "hold",
+        225
+      ],
+      [
+        "release",
+        237
+      ],
+      [
+        "neutral",
+        249
+      ],
+      [
+        "self-contact",
+        261
+      ],
+      [
+        "neutral",
+        273
+      ],
+      [
+        "neutral",
+        285
+      ]
+    ]
+  },
+  "original_donor_and_visual_authority_hashes_rechecked": [
+    {
+      "path": "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.fbx",
+      "sha256": "6420ce386c0dc1a19dc0a9b5dc827a3d247f91c6cc4f83cd883e79f5ff3fe06d",
+      "bytes": 361520
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/candidate-b-8481/cute panda 3d model 8481.glb",
+      "sha256": "803937cd10bd48d5b15be9f6dca43a38183ec730ed0b62eb2820fd160d14d448",
+      "bytes": 366032
+    },
+    {
+      "path": "assets/grimo/source/shushu/shushu-Identity-canonical.png",
+      "sha256": "21af6792b572caa06b2c5cfcfcc7e1f9e859fbf78a716e6755aaf25c7594cb10",
+      "bytes": 584187
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_back.png",
+      "sha256": "a1ed01e201d6e125623d81e4289b7f17813bab354177e950b7a4836e6dda533d",
+      "bytes": 1583287
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_front.png",
+      "sha256": "e35dfc9c58324b0454dd06b1222ca8f61f23b3b605a348ecf606255b6d087a18",
+      "bytes": 1371764
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_left.png",
+      "sha256": "873fe2fbb950cbb21f2e0e64d2617650b5bac4128fb788f15dbd67e881616a61",
+      "bytes": 1587131
+    },
+    {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_right.png",
+      "sha256": "ad754267b4d446dcce9821ceb898304e60cb4a99526b1e0fec0b6169ca25751b",
+      "bytes": 1579115
+    }
+  ]
+}

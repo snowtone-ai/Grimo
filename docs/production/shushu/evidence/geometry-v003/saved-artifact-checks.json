@@ -32,7 +32,7 @@
   "editable_asset": {
     "character_meshes": 11,
     "armatures": 0,
-    "total_shape_controls": 224
+    "total_shape_controls": 236
   },
   "bounded_eye_parallax_checks": {
     "upright": [
@@ -338,23 +338,23 @@
   "delivered_files": [
     {
       "path": "assets/grimo/production/shushu/blender/shushu-geometry-v003.blend",
-      "bytes": 4566237,
-      "sha256": "8fae813673312d2b1c81f47c54427538adac12a5586f8743a71062fe701fefa5"
+      "bytes": 4717411,
+      "sha256": "eafdb7903354e262bca77960090e2407a8bdd8b025db160597fa9d3019dd6b0c"
     },
     {
       "path": "assets/grimo/production/shushu/blender/shushu-geometry-v003-proof.blend",
-      "bytes": 4569330,
-      "sha256": "3295b5d4bb7eabc3e4edbac0f54762bfe7f38d471bb4c8cd486d4d22602d70c2"
+      "bytes": 4731477,
+      "sha256": "ee91be110afea09711fd4c647620dcc8f5caf8b46f816e9970b8ce074c43ef6f"
     },
     {
       "path": "assets/grimo/production/shushu/tripo/geometry-v003/shushu-geometry-v003-tripo.glb",
-      "bytes": 2232332,
-      "sha256": "14725ccc54f36c1acf3e0522780182aad4d75ea919500618aac54ab0fbd2aaf4"
+      "bytes": 2232324,
+      "sha256": "46f68d7cc2ca8112bcf4eee837daf22c559f7a7175387629df217f291b84af81"
     },
     {
       "path": "assets/grimo/production/shushu/tripo/geometry-v003/shushu-geometry-v003-tripo.fbx",
-      "bytes": 2404044,
-      "sha256": "55b6123b4f72b77b0b84e5584123385b4d4e717a7effce33be623e2f9896f808"
+      "bytes": 2403260,
+      "sha256": "3de2eecfd00b79af054c617ddb15e19b8f8aa20c6ee35405f8be4486fe1bbf17"
     }
   ]
 }
