@@ -7,26 +7,39 @@
 
 ## 実行契約（最初にここだけ読む）
 
-**目的:** Pinoにまた会いたくなる可愛さ・生命感・愛着（G0/G1）を生むため、実動作に使える独立表情・短肢・腹・太尾・支持・接触の候補画像を34枚作る。最初の3枚でIdentity/横顔/短肢可動の破綻を検査する。34枚作る行為自体を合格条件にしない。
+**目的と判定境界:** Pinoにまた会いたくなる可愛さ・生命感・愛着（G0/G1）を実現するRig / Shape Key / Motion用の独立2Dリファレンス34枚を生成する。各Referenceは独立した静止画検査候補であり、34枚は34個のクリップ・Shape Key・必須演技を意味しない。2D候補の生成完了 ≠ Human可愛さPASS ≠ Motion DRAFTの採用 ≠ 3D/Rig/GLB/スマホ実機PASS。Game Neutral / Rig Rest / Tripo Generation Poseも別概念として扱う。
 
-**正式Authority:**
-- 最新のHuman判断と `assets/grimo/source/pino/pino-Identity-canonical.png` が個体外観の最上位。原典は改変禁止。
-- `assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_{front,left,right,back}.png` は選定済み形状派生基準。left/rightは画面内で鼻が向く左右。絶対に実際の視点を未確認のままslot対応させない。
-- `docs/grimo/knowledge/Goal√map.md`, `docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md`。
-- `docs/production/motion/GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md`, `docs/production/motion/GRIMO_MOTION_TO_ANATOMY_TRIPO_CONTRACT_DRAFT.md`。P01–P29はDRAFT。各画像は候補演技の観察・検査用で、FINALの追加ではない。
-- `docs/grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md`。正式画像の元バイト列は保護する。
+**Codex実行推奨:** GPT-6 Luna / Low（利用可能な場合）。新規セッション、`/compact`不要、サブエージェント不使用。下位モデルに仕様や全34プロンプトの再設計を委ねない。高度な判断は本文で確定済みだが、本人らしさ・可愛さの最終判断はHumanに残す。生成そのものの画像生成ツール消費量とCodexのテキスト推論コストを混同しない。
 
-**実行方法・トークン節約:**
-1. ローカル`AGENTS.md`と該当するGoal map、Handoffを最短経路で確認。画像生成には公式`imagegen` skillの**内蔵`image_gen`が実際に使えるか確認**する。Windows Codex Desktopではskillだけあってtoolがない事例がある。使用不能なら`IMAGE_TOOL_BLOCKED`として停止し、API/CLI・外部課金・別サービス・偽のSVG/スクリプト画像へ勝手に切り替えない。
-2. 実画像A〜Eの5枚を**各生成呼び出しへ必ず画像として渡す**。テキストでパス名を並べるだけでは参照入力の保証にならない。5枚同時添付が不可なら`REFERENCE_INPUT_BLOCKED`で停止。元画像の改変・保存し直しは禁止。
-3. 最初は#01〜#03を各1候補ずつ生成して、原画同一性/横顔/短前肢・腹・尾の明白な崩壊を最小限に検査。重大な破綻時は元生成を残し、最大1回だけ局所修正再生成してよい。失敗を黙ってPASSにしない。人間の好みの判定は代行しない。
-4. 使用可能なら#04〜#34も順番に各1枚だけ生成。各呼び出しは**該当番号の独立フルプロンプトと同じA〜Eの5参照**。過去の生成画像を追加Authorityにせず、原画を優先する。不要な長い会話・再計画・サブエージェント・外部Web調査・同じテストの反復は禁止。
-5. 出力は既存承認資産を上書きせず`assets/grimo/source/pino/rig-motion-reference-candidates/pino-ref-NN.png`。失敗再試行は`-v2`等を使用。内蔵ツール出力を正式候補パスへコピーし、真のPNGファイルを確認。保存不可なら成功と報告しない。
-6. 候補一覧（ID、対応P-ID、保存先、生成状態、明白な懸念、Human gate=PENDING）を同フォルダ`README.md`に短く記録。簡単な一覧コンタクトシートは手元ツールがあれば制作し、元画像を縮小破壊せず別ファイルにする。余計な画像解析機能・自動スコア・大規模テストを実装しない。
-7. 既存制作ブランチや他キャラクターを変更しない。専用ブランチに限定してcommit/pushし、リモート確認。Handoff同期はAGENTSに従い、画像制作の状態が変わった場合のみ安全に最小限で行う。最後に生成済み数/ブロックした理由/保存先/コミット/Human未承認を簡潔に報告。
-8. **画像生成プロンプトは各節が完全独立**。一つのNo.だけを取り出し実行できる。全34本を一度にモデル会話へ貼らない。対象セクションだけファイル範囲指定や文字列抽出で取り出し、都度消費を抑える。下位モデルに改めて34本の創作・仕様設計をさせない。
+**正式Authority（優先順）:**
+1. 最新の明示Human判断と `assets/grimo/source/pino/pino-Identity-canonical.png`：個体の顔・目・耳・頬・鼻・口・ひげ・頭頂毛束、青白い配色、可愛さの最上位。Canonicalの片眼ウインクは一時表情であり、両眼・左右独立瞼を必ず保つ。
+2. `assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_front.png`, `pino_bodyonly_left.png`, `pino_bodyonly_right.png`, `pino_bodyonly_back.png`：Human選定済みの形状・比率・短肢・腹・単一の太尾・支持の派生基準。left/rightは**画面内の鼻先の向き**であり、解剖学的左右やツールのcamera slotではない。実際の5画像を確認し、無条件ミラー扱いしない。
+3. `docs/grimo/knowledge/Goal√map.md`、`docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md`。
+4. `docs/production/motion/GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md`、`docs/production/motion/GRIMO_MOTION_TO_ANATOMY_TRIPO_CONTRACT_DRAFT.md`。P01–P29の具体演技は**DRAFT**で、正式採用・実物可動性は未確定。
+5. `docs/grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md`（登録した元画像のバイト列・役割を保護）。
 
-**品質Gates:** Pino本人の可愛さ/両眼/青白い色が最優先、短肢・腹の分離、足支持、太い尾の連続、接触点と視線の因果、穏やかな好意、方向の一致。生成した2DだけでRig/Motion/スマホ実機PASSとは言わない。P03の床到達は未検証なので腕を伸長せず同じ到達内の可愛い代替を取る。過剰な人間化・泡による演出依存は禁止。
+**事前条件（最小限）:**
+- 作業開始時に現行ブランチ/HEAD/未コミット変更とローカル`AGENTS.md`を確認し、その運用を守る。必要なGoal√map/Handoffと適用資料は最短で読む。古いHandoffを制作状態の証拠にしない。
+- 現在の**プロンプト原本ブランチは `docs/pino-motion-reference-prompts-20261015`**。実画像生成はそこを起点とする独立した新規作業ブランチ/worktreeで行い、他キャラクターの制作やユーザーの未コミット変更と衝突させない。新規worktreeが無理なら安全に隔離してから実行。原本を変更・上書きしない。
+- 各生成呼び出しに**当該REF-NN節のフルプロンプト1本と正式画像A〜Eの実ファイル5枚**を画像入力として渡す。画像パスの文字列だけでは画像入力として認めない。元ファイルのクロップ・再保存・色変更・上書きはしない。
+- 公式のCodex内蔵画像生成（利用可能なら`image_gen` / `imagegen`スキル）を使用する。ただしスキルの表示だけではツールが動作する証拠にならない。**追加API課金、APIキーの要求、CLI/APIへの勝手なfallback、外部画像サービス、Tripo、代用品のSVGや擬似PNGを禁止**する。5枚の実画像を同時に参照入力できない場合は `REFERENCE_INPUT_BLOCKED`、ツール不存在・実行不能・network error等では `IMAGEGEN_UNAVAILABLE` と報告して停止。存在しない成功画像を記録しない。
+
+**制作順序と自動停止条件:**
+1. **#01だけを1回生成**し、画像生成ツールの実動作、正式5画像の投入、PNG出力と保存が成立するか確認。失敗したらその場で停止し、理由を短く報告。#02以降に進まない。
+2. #01が生成できたら、#02と#03を順に各1枚生成。3枚を最小限の視認で診断：#01はPino Identity・両眼・重心、#02は真横90°・鼻/頬/顎の奥行き・太い尾、#03は短前肢・腹の非融合・両足支持。**明白なIdentity崩壊、部位の増減・融合、前肢長大化、尾の切断/平板化、重大な非支持、反対方向のSide、偽の継ぎ目**などの致命的欠陥が残る場合はここで停止し、生成済みを保全する。見た目の好みについてHuman PASSは宣言しない。
+3. #01〜03に重大な問題がなければ#04〜34を番号順に独立生成。**各原則1回**。修正は誤りが局所的かつ明白な場合のみ**各ID最大1回**まで。前候補を失わず改訂は`-v2`のように別名保存。全画像に毎回A〜Eを投入し、以前の生成画像を新たなAuthorityへ昇格させない。
+4. 1枚ごとの長い批評・全画像の再計画・他キャラの分析・サブエージェント・大規模テスト・無限再試行を行わない。生成結果の存在と明白な破綻だけ最小限確認し、Humanが後から一覧レビューできる状態にする。
+5. **一括生成中に致命的な共通破綻が連続、参照入力不能、ツール障害、画像保存失敗、予期せぬ課金要求が出たら停止**。進行可能数を偽らず、成功分を残して報告。小さな問題だけで最初から全件やり直さない。
+
+**成果物と保存:**
+- 出力先：`assets/grimo/production/pino/references/pino-ref-NN.png`（NN=01〜34、元生成画像は上書き禁止）。画像生成ツールの一時保存先から必要なPNGだけコピーする。PNG署名・ファイル存在と少数の画像可読性を簡潔に確認する。大きいBinaryやGit制約でpush不可ならローカル成果を保持し、原因を報告。
+- **必須**：同フォルダへ見やすい`contact-sheet.png`と簡潔な`REVIEW.md`を作成。コンタクトシートは生成に成功した画像のサムネイルとIDだけを並べる。サムネイルを作るために元PNGを改変しない。全34枚未達でも成功分を一覧化する。
+- `REVIEW.md`は各ID・対応Motion(DRAFT)・生成結果（success/failed/skipped）・出力ファイル・重大な懸念・再試行有無・`Human Review=PENDING`を簡潔な表で管理。機械的自己採点、Human可愛さ認定、Rig/Runtime合格を記さない。
+- 作業差分と衝突を確認し、**Pino関連生成物だけ**を安全にcommit/pushして遠隔HEADを再確認。Handoff同期は実際の重要状態変化がある場合のみRepository規則に従って安全に行う。報告は成功数、失敗/未着手ID、停止理由、生成物のパス、branch/HEAD、Human=PENDINGの順で短く記載する。
+
+**コスト最適化:** 各画像の生成時にはこの文件の全文（約9万文字）や全34節をチャットへ展開しない。必要な`### REF-NN`節1つを範囲抽出し、それをそのまま画像生成ツールへ渡す。共有の外部ベース文やJillプロンプトの読み込みは不要。画像の生成品質を犠牲にするプロンプト短縮、引用先だけによる5画像省略は禁止する。
+
+**品質Gate:** Pino本人の可愛さ・両眼・青白い色 → 短肢と腹の非融合 → 足の荷重と重い太尾の連続 → 触点と視線の因果 → 自発性・好意・余韻。P03の床到達は未実証なので前肢を伸ばさず同じ到達域の代替をHumanレビュー候補とする。34枚の静止画像生成は最終Motion採用でもRig/3D合格でもない。
 
 ## 画像ID → Motion対応（DRAFT）
 
