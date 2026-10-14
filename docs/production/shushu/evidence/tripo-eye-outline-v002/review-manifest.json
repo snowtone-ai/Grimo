@@ -1,0 +1,109 @@
+{
+  "source_head": "cfc10d459c09f1e781b544c9d56b59a00c7aa16f",
+  "rendered_candidate_sha256": "d9bfbac01404c39a22fe14306a4d225c7b8efde34b3402cca0e9e9933d40b4d7",
+  "protected_inputs_checked": 758,
+  "changed_protected_inputs": [],
+  "matched_cameras": true,
+  "render_differences": {
+    "front": {
+      "different_pixels": 33908,
+      "above_3_levels_pixels": 24047,
+      "above_3_levels_bbox": [
+        167,
+        431,
+        859,
+        665
+      ],
+      "max_channel_delta": 121,
+      "eye_and_upper_face_pixels_changed": 29736,
+      "outside_eye_regions_pixels": 0,
+      "mouth_and_lower_face_pixels_changed": 0
+    },
+    "left-three-quarter": {
+      "different_pixels": 28389,
+      "above_3_levels_pixels": 19111,
+      "above_3_levels_bbox": [
+        373,
+        431,
+        863,
+        663
+      ],
+      "max_channel_delta": 122,
+      "eye_and_upper_face_pixels_changed": 25265
+    },
+    "right-three-quarter": {
+      "different_pixels": 23888,
+      "above_3_levels_pixels": 18575,
+      "above_3_levels_bbox": [
+        157,
+        433,
+        652,
+        665
+      ],
+      "max_channel_delta": 131,
+      "eye_and_upper_face_pixels_changed": 21036
+    },
+    "left-side": {
+      "different_pixels": 19218,
+      "above_3_levels_pixels": 13576,
+      "above_3_levels_bbox": [
+        659,
+        432,
+        823,
+        661
+      ],
+      "max_channel_delta": 117,
+      "eye_and_upper_face_pixels_changed": 16987
+    },
+    "right-side": {
+      "different_pixels": 15875,
+      "above_3_levels_pixels": 13266,
+      "above_3_levels_bbox": [
+        198,
+        438,
+        364,
+        665
+      ],
+      "max_channel_delta": 131,
+      "eye_and_upper_face_pixels_changed": 13832
+    }
+  },
+  "files": {
+    "00-authority-before-candidate.png": "9d4ed4aee806cb06cec1d8a20872897a6b65144458f79b971d9c3aa235369b91",
+    "01-five-angle-before-candidate-difference.png": "11eaf2d51f94201fad63a2633845d9b59a9bde56dacd9c327f64b99aa99befee",
+    "02-approved-sides-before-candidate.png": "e340960335ae912dbf45602cea97ac548beb76172f7836a861edd483121f88df",
+    "03-local-mask-overlay.png": "47c75b3e1bc7ba2ee1c079e0fcaa1f9264852dd7acda899934847033fc5b950f",
+    "04-eye-closeups.png": "53184f1d135bf4ac2630341a2a2d07b749f13f04c74e6aec7c04ddfbc18dfe56",
+    "head-only-diagnostic.png": "1ee09516d0c506d96f9cac805ef51848ca3968c6f6fa6fb5519d0aa2028af2c0",
+    "human-annotation.png": "0098001d88a666af7724165319defa7eea52955fbbd06888b1a541ebe0e7ffb7",
+    "rejected-trial-01/candidate-front.png": "c3633797ee6cacc908e72c68a1bee11a0c996f6fdafb1294cbf387f7e5bb92d8",
+    "rejected-trial-01/candidate-left-three-quarter.png": "de2640d611755081bc86c7e44abc75641847dd946e263042c8ce16f6daeefe26",
+    "rejected-trial-01/candidate-right-three-quarter.png": "c95caced04fbbe22612496be3317c2f7f043a9199b3cfebcfc00964331e1e585",
+    "rejected-trial-02/candidate-front.png": "b659d71d953626ed71188f2e8336797c348dd7f96a183efc41fe4f81a3ccc165",
+    "rejected-trial-02/candidate-left-three-quarter.png": "0103a1120853f1ecc1fb972bc3880887f057fb21ca519d549846795ac24fc727",
+    "rejected-trial-02/candidate-right-three-quarter.png": "4ade0b25822aa8b994f9af86d6898f1db55ab18eca03a612581f2ed55f2c6ccb",
+    "rejected-trial-03/candidate-front.png": "9464ce49ea9e0b6d52c47e233f31b87b618ba579245d0c7b6d3db52cb2f94be2",
+    "rejected-trial-03/candidate-right-three-quarter.png": "50943a427d4ddf68aaaaacecd97717c1684e424011fe3e4da6684cc83446e4c1",
+    "rejected-trial-04/candidate-front.png": "cb0ce1f9da24c900c2b14ee37da8160abf557ef0cf83f84fbc8ec0a8a19f31ab",
+    "rejected-trial-05/candidate-front.png": "486d8f44f7433d474ef0d8c904b278cf5fa3f490958475207526ab4e9d71f6b4",
+    "rejected-trial-05/candidate-right-three-quarter.png": "6ae6ba3db3ace2904dcd989f81905e2481c8bafc88d2b6f6a0ff099535199eb5",
+    "rejected-trial-06/candidate-front.png": "966934e5ed7b2789e81d2912bb8ff0d4e693fa5eba904a4c15d9b47a9ad977ce",
+    "rejected-trial-07/candidate-front.png": "938877925399c9c9f86cc045ec2aacf10bbb2ef3e6821a40580ac2d80b886f7a",
+    "rejected-trial-08/candidate-front.png": "b6882186a755d790e014bc696e90cb6f1e1aedd509b1fa85670319ecd26abc13",
+    "rejected-trial-09/candidate-front.png": "cae8df64b6d0889cb3639f9322a333b3aca79f2245146b7e18275e4864059309",
+    "renders/before-front.png": "5520eae3d003961faf565e317795749e6a9cd01e77a7719eb57cac2694def87a",
+    "renders/before-left-side.png": "181ad657d791e12880f827d006952c520dc7546b7cc4f8b7848e866b733a86ec",
+    "renders/before-left-three-quarter.png": "32c669fce646705f464a02d3d67600d9e22dee95ad52789d192eb16561e1026e",
+    "renders/before-right-side.png": "af82e72eb9303119e4500bc0cf94f16bcddbe2c4b7302c4d7b205af7ff184e68",
+    "renders/before-right-three-quarter.png": "d2a2ba6b996414fba67532ba68a35dc5ef3fdc402cc80e6fb1ca6981263ee10b",
+    "renders/candidate-front.png": "aa76b3cba66e5f51c7582032ac19a76551b3c5269353aa7ecd9a08f3bd79c5c2",
+    "renders/candidate-left-side.png": "094c4adb1c92af5b5ddfc00fe60ad75630f44f38068387d1d0573854e85fa310",
+    "renders/candidate-left-three-quarter.png": "550143b41f529cf67b8004d9c20cb371ec98899cc5b3a5502a8e7a04772ec2e4",
+    "renders/candidate-right-side.png": "993d00aafb3ff6a625d64e500502165f4b5051a2ff92d99eeeafe0ae037da39b",
+    "renders/candidate-right-three-quarter.png": "facc1bac55478a69161029500346d0a1112217c5f5e1ffd14b04d3158dcfa1c1",
+    "textures/changed-texels.png": "471238b0d3470c19c4f3144dfe146188503e56c9158cd5fa84b5cee0817332ec",
+    "textures/head-before.png": "3fb69b6cd74266b6fc7c1cd1325475b91214990e82245cc9203584d172b947fa",
+    "textures/head-candidate.png": "047d0694f8c0e79bef056cdd5d82a14703d897b4e95e67f605482ff59b172bb1",
+    "textures/imagegen-local-repair-projection.png": "9513c5ac53ec110e23db908d12b02644bdd5ceea92ee43141ae913dd47fb4eed"
+  }
+}

@@ -4,8 +4,9 @@ const path = require('path');
 const crypto = require('crypto');
 const sharp = require(process.env.SHUSHU_SHARP_MODULE || 'sharp');
 const root = path.resolve(__dirname, '../..');
-const out = path.join(root, 'docs/production/shushu/evidence/tripo-texture-v003');
-const candidate = path.join(root, 'assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v001.glb');
+const config = process.argv[3] ? JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) : null;
+const out = path.join(root, config?.evidence || 'docs/production/shushu/evidence/tripo-texture-v003');
+const candidate = path.join(root, config?.candidate || 'assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v001.glb');
 const hash = x => crypto.createHash('sha256').update(x).digest('hex');
 function readGlb(file) {
   const raw = fs.readFileSync(file), size = raw.readUInt32LE(12);
@@ -34,8 +35,8 @@ function inside(x,y,poly) {
   return hit;
 }
 async function main() {
-  const source = readGlb(path.join(root, 'shushu-geometry-v003-tripo.glb.glb'));
-  if (hash(source.raw) !== '338ad5f8c67906917579ddbb804a4f7f51d8fec6c42328bb545adc87c1bf077b') throw Error('Source changed');
+  const source = readGlb(path.join(root, config?.base || 'shushu-geometry-v003-tripo.glb.glb'));
+  if (hash(source.raw) !== (config?.base_sha256 || '338ad5f8c67906917579ddbb804a4f7f51d8fec6c42328bb545adc87c1bf077b')) throw Error('Source changed');
   const edit = process.argv[2]; if (!edit) throw Error('Provide local ImageGen edit path');
   const dir = path.join(out, 'textures'); fs.mkdirSync(dir, {recursive:true});
   fs.copyFileSync(edit, path.join(dir, 'imagegen-local-repair-projection.png'));
@@ -44,9 +45,9 @@ async function main() {
   const original = await sharp(imageBytes(source,4)).removeAlpha().raw().toBuffer();
   const result = Buffer.from(original), mask = Buffer.alloc(2048*2048);
   const masks=JSON.parse(fs.readFileSync(path.join(out,'projection-masks.json')));
-  const polygons=[masks['mouth-screen-left'],masks['mouth-screen-right']];
-  // Eye trial was visually inconclusive. Final review candidate repairs only
-  // confirmed mouth ghosts and preserves all eye-surround Head texels.
+  const polygons=config ? Object.values(masks) : [masks['mouth-screen-left'],masks['mouth-screen-right']];
+  // Default preserves the historical mouth-only candidate; configured eye mode
+  // selects only the independently traced duplicate bands on the v001 base.
   const coreMap = JSON.parse(fs.readFileSync(path.join(out,'projection-map.json'))).filter(p=>polygons.some(poly=>inside(p[2],p[3],poly)));
   const expanded = new Map(coreMap.map(p=>[p[1]*2048+p[0],p]));
   // Include two atlas texels around mapped UV edges so bilinear sampling cannot
@@ -58,24 +59,26 @@ async function main() {
   const map=[...expanded.values()];
   fs.writeFileSync(path.join(out,'applied-projection-map.json'),JSON.stringify(map)+'\n');
   const beforeRender=await sharp(path.join(out,'renders/before-front.png')).removeAlpha().raw().toBuffer();
-  const probes=[[430,570],[594,570],[395,720],[629,720]];
+  const probes=config ? config.color_match_probes : [[430,570],[594,570],[395,720],[629,720]];
   const biases=probes.map(([x,y])=>sample(generated,x,y).map((v,c)=>v-sample(beforeRender,x,y)[c]));
   let changed = 0, rejectedTarget = 0;
   for (const [x,y,sx,sy] of map) {
     const i = (y*2048+x)*3;
-    const bias=biases[(sy<630?0:2)+(sx>512?1:0)];
+    const outer=config && [...polygons.slice(0,2),...polygons.slice(4)].some(p=>inside(sx,sy,p));
+    const sourceScreen=sample(beforeRender,sx,sy);
+    const bias=biases[config ? ((outer?0:2)+(sx>512?1:0)) : (sy<630?0:2)+(sx>512?1:0)];
     const color = sample(generated,sx,sy).map((v,c)=>Math.max(0,Math.min(255,v-bias[c]))), targetLuma=.2126*color[0]+.7152*color[1]+.0722*color[2];
-    // Sample only repaired cream, so the central smile/tongue cannot be copied
-    // into a second position when the generated preview has small alignment drift.
-    if (targetLuma < 210) { rejectedTarget++; continue; }
+    // Eye mode protects the dark rim and rejects generated dark features.
+    // Legacy mouth mode samples only repaired cream to avoid copying the smile.
+    if (config ? (sourceScreen[0]<120 || sourceScreen[1]<60 || color[0]<180 || color[1]<100) : targetLuma < 210) { rejectedTarget++; continue; }
     const nearby = polygons.filter(p => sx >= Math.min(...p.map(v=>v[0])) && sx <= Math.max(...p.map(v=>v[0])) && sy >= Math.min(...p.map(v=>v[1])) && sy <= Math.max(...p.map(v=>v[1])));
     const distance = Math.min(...nearby.flatMap(p => p.map((v,k)=>segmentDistance(sx,sy,v,p[(k+1)%p.length]))));
-    const t = Math.min(1,distance/1), weight=t*t*(3-2*t);
+    const t = Math.min(1,distance/1), fade=Math.max(0,Math.min(1,(650-sy)/30)), weight=config?(outer?fade*fade*(3-2*fade):1):t*t*(3-2*t);
     for (let c=0;c<3;c++) result[i+c]=Math.round(original[i+c]*(1-weight)+color[c]*weight);
     if (!result.subarray(i,i+3).equals(original.subarray(i,i+3))) {mask[y*2048+x]=255;changed++;}
   }
   const png = await sharp(result,{raw:{width:2048,height:2048,channels:3}}).png().toBuffer();
-  fs.writeFileSync(path.join(dir,'head-before.jpg'),imageBytes(source,4));
+  fs.writeFileSync(path.join(dir,config?'head-before.png':'head-before.jpg'),imageBytes(source,4));
   fs.writeFileSync(path.join(dir,'head-candidate.png'),png);
   await sharp(mask,{raw:{width:2048,height:2048,channels:1}}).png().toFile(path.join(dir,'changed-texels.png'));
   // Append replacement image. All original binary data stays byte-identical.
@@ -98,6 +101,14 @@ async function main() {
   for(let p=0;p<2048*2048;p++) if(!allowed.has(p)&&!original.subarray(p*3,p*3+3).equals(result.subarray(p*3,p*3+3)))outside++;
   if(outside || !otherImages.every(i=>i.identical))throw Error('Unexpected texture change');
   const report={source_sha256:hash(source.raw),candidate:path.relative(root,candidate).replaceAll('\\','/'),candidate_sha256:hash(fs.readFileSync(candidate)),human_gate:'PENDING',scope:'Confirmed mouth ghosts only; eye edit rejected and reverted',appearance_completion:'WITHHELD; eye contour unresolved',imagegen:{tool:'built-in image_gen',original_size:[metadata.width,metadata.height],projection_size:[1024,1024],preview_is_not_model_evidence:true},core_projection_texels:coreMap.length,atlas_padding_texels:2,color_match_probes:probes,color_match_biases:biases,selected_head_texels:map.length,changed_head_texels:changed,head_total_texels:2048*2048,changed_outside_projection_mask:outside,rejected_noncream_targets:rejectedTarget,unchanged_json_subtrees:unchanged,original_binary_prefix_identical:true,other_images:otherImages,head_encoding:'JPEG decoded to lossless PNG; decoded pixels outside selected texels exactly preserved'};
+  if(config) Object.assign(report,{scope:'Both eye-surround duplicate bands only; v001 mouth retained',appearance_completion:'Awaiting saved GLB visual review',head_encoding:'Lossless PNG retained; decoded pixels outside selected texels exactly preserved',rejected_protected_dark_targets:rejectedTarget});
+  if(config) {
+    delete report.rejected_noncream_targets;
+    report.repair_config_sha256=hash(fs.readFileSync(process.argv[3]));
+    report.imagegen.input_edit_sha256=hash(fs.readFileSync(edit));
+    report.source_render_sha256=hash(fs.readFileSync(path.join(out,'renders/before-front.png')));
+    report.patch_color_method='Generated local single-boundary pink/cream material sampled at matched screen coordinates; local color probes match unchanged neighboring pink and cream; outer-band edits taper into the protected blush between screen y620 and y650. Protected dark screen pixels and generated dark targets excluded; 2 atlas texels of padding.';
+  }
   fs.writeFileSync(path.join(out,'candidate-validation.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify(report,null,2));
 }

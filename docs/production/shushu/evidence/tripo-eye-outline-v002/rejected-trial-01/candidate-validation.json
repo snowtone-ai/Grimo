@@ -1,0 +1,144 @@
+{
+  "source_sha256": "8d4420d5e8baae6c1cd3d0c4b215d89af5ee157be1c1a3e54df4721d5a5eac09",
+  "candidate": "assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v002.glb",
+  "candidate_sha256": "0962fee11148b8deb08e89027ff649d507628ea743f1044c7ae7afe16adb442f",
+  "human_gate": "PENDING",
+  "scope": "Both eye-surround duplicate bands only; v001 mouth retained",
+  "appearance_completion": "Awaiting saved GLB visual review",
+  "imagegen": {
+    "tool": "built-in image_gen",
+    "original_size": [
+      1254,
+      1254
+    ],
+    "projection_size": [
+      1024,
+      1024
+    ],
+    "preview_is_not_model_evidence": true,
+    "input_edit_sha256": "9513c5ac53ec110e23db908d12b02644bdd5ceea92ee43141ae913dd47fb4eed"
+  },
+  "core_projection_texels": 53986,
+  "atlas_padding_texels": 2,
+  "color_match_probes": [
+    [
+      274,
+      482
+    ],
+    [
+      750,
+      482
+    ],
+    [
+      418,
+      580
+    ],
+    [
+      605,
+      580
+    ]
+  ],
+  "color_match_biases": [
+    [
+      0.5,
+      0.25,
+      0
+    ],
+    [
+      2.25,
+      4.25,
+      1.25
+    ],
+    [
+      2,
+      1.5,
+      0.5
+    ],
+    [
+      0.5,
+      -0.5,
+      -1.25
+    ]
+  ],
+  "selected_head_texels": 69495,
+  "changed_head_texels": 62753,
+  "head_total_texels": 4194304,
+  "changed_outside_projection_mask": 0,
+  "rejected_noncream_targets": 1027,
+  "unchanged_json_subtrees": {
+    "meshes": true,
+    "accessors": true,
+    "nodes": true,
+    "materials": true,
+    "textures": true,
+    "samplers": true,
+    "skins": true,
+    "animations": true,
+    "scenes": true,
+    "scene": true,
+    "extensions": true,
+    "extensionsUsed": true,
+    "extensionsRequired": true
+  },
+  "original_binary_prefix_identical": true,
+  "other_images": [
+    {
+      "index": 0,
+      "sha256": "9451b3ec45090ad87ea39b6b7ef5ea526cd213f0368a9c12f777b69d787bebef",
+      "identical": true
+    },
+    {
+      "index": 1,
+      "sha256": "4637149c4d9e8387f4343d3a5d060143bc1bda42d0a91e5ee9b2b62f4c7b4c02",
+      "identical": true
+    },
+    {
+      "index": 2,
+      "sha256": "2bd12b235ea4000486ba8f3258b7ccf8699b39bfed3ce6396a1cc0f8b02b6815",
+      "identical": true
+    },
+    {
+      "index": 3,
+      "sha256": "a3b48f12b7d208c5ff1575d517e6184d42d460954480807b53bb0cb6c6ebd820",
+      "identical": true
+    },
+    {
+      "index": 5,
+      "sha256": "6f0328120b3676245d573c120db56d23436c4b62ac960761f2721c3d67cc40be",
+      "identical": true
+    },
+    {
+      "index": 6,
+      "sha256": "5c8f6e96a02f5fc72e38ba323f3a344e24e4875b5d629fb4902b1841ea711a3e",
+      "identical": true
+    },
+    {
+      "index": 7,
+      "sha256": "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+      "identical": true
+    },
+    {
+      "index": 8,
+      "sha256": "69272dc14e01d8a292c1e2d393d70534fa4c8c81bb9fc119be36ed84e4936c8f",
+      "identical": true
+    },
+    {
+      "index": 9,
+      "sha256": "d65f8fec15ffe4f1be556c5ffc3f38cf4f624a06f8ec29f03852f864575ae297",
+      "identical": true
+    },
+    {
+      "index": 10,
+      "sha256": "912ef58427f6421b0c50ee1d6816219587169c0ad300d8fe0ebd5f9f8c4e69c0",
+      "identical": true
+    },
+    {
+      "index": 11,
+      "sha256": "de71cb8705ee3cad21b7278353a733df30201c6332f311fd3931eeecb4e59979",
+      "identical": true
+    }
+  ],
+  "head_encoding": "Lossless PNG retained; decoded pixels outside selected texels exactly preserved",
+  "rejected_protected_dark_targets": 1027,
+  "repair_config_sha256": "65f71906020f6c1e48ff8df3b90049e8ba9aae2ae924a88de2a4749088c2885a"
+}

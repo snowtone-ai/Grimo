@@ -6,6 +6,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT/'docs/production/shushu/evidence/tripo-texture-v003'
 SOURCE = ROOT/'shushu-geometry-v003-tripo.glb.glb'
+EYE_CONFIG = json.loads(Path(sys.argv[sys.argv.index('--eye-config')+1]).read_text(encoding='utf-8')) if '--eye-config' in sys.argv else None
+if EYE_CONFIG:
+    OUT = ROOT/EYE_CONFIG['evidence']
+    SOURCE = ROOT/EYE_CONFIG['base']
+OUT.mkdir(parents=True,exist_ok=True)
 
 def sha(data): return hashlib.sha256(data).hexdigest()
 
@@ -39,7 +44,8 @@ def protect():
     paths=subprocess.check_output(['git','ls-files','-z','assets/grimo','docs/production/shushu'],cwd=ROOT).decode().split('\0')
     paths+=subprocess.check_output(['git','ls-files','-m','-o','--exclude-standard','-z'],cwd=ROOT).decode().split('\0')
     paths+=['shushu-geometry-v003-tripo.glb.glb']
-    protected={p:sha((ROOT/p).read_bytes()) for p in sorted(set(paths)) if p and (ROOT/p).is_file() and not p.startswith(('scripts/blender/review-shushu-tripo','docs/production/shushu/evidence/tripo-texture-v003/'))}
+    excluded=('scripts/blender/review-shushu-tripo','scripts/3d/patch-shushu-tripo-texture-v003.cjs', (EYE_CONFIG['evidence']+'/' if EYE_CONFIG else 'docs/production/shushu/evidence/tripo-texture-v003/'))
+    protected={p:sha((ROOT/p).read_bytes()) for p in sorted(set(paths)) if p and (ROOT/p).is_file() and not p.startswith(excluded) and (not EYE_CONFIG or p!=EYE_CONFIG['candidate'])}
     (OUT/'protected-inputs.json').write_text(json.dumps(protected,indent=2)+'\n',encoding='utf-8')
     print('Protected',len(protected),'inputs')
 
@@ -104,6 +110,11 @@ def projection():
     eye=[[389,508],[397,519],[405,545],[408,573],[405,599],[396,624],[382,643],[360,658],[332,666],[308,667],[308,661],[332,660],[357,652],[377,637],[389,617],[397,596],[400,573],[398,548],[391,524]]
     mouth=[[405,629],[432,629],[434,646],[451,652],[459,665],[467,714],[451,721],[428,713],[415,685],[408,660]]
     masks={'eye-screen-left':eye,'eye-screen-right':[[1024-x,y] for x,y in eye], 'mouth-screen-left':mouth,'mouth-screen-right':[[1024-x,y] for x,y in mouth]}
+    if EYE_CONFIG: masks=EYE_CONFIG['masks']
+    points=[p for poly in masks.values() for p in poly]
+    xmin,xmax=min(p[0] for p in points),max(p[0] for p in points)
+    ymin,ymax=min(p[1] for p in points),max(p[1] for p in points)
+    if not EYE_CONFIG: xmin,xmax,ymin,ymax=300,724,500,720
     (OUT/'projection-masks.json').write_text(json.dumps(masks,indent=2)+'\n')
     def inside(x,y,poly):
         hit=np.zeros(x.shape,dtype=bool)
@@ -116,7 +127,7 @@ def projection():
         world=np.array([head.matrix_world@mesh.vertices[v].co for v in tri.vertices])
         if world[:,1].min()>-.1 or tri.normal.y>-.15:continue
         screen=np.column_stack(((world[:,0]-target[0])/scale*1024+512,512-(world[:,2]-target[2])/scale*1024))
-        if screen[:,0].max()<300 or screen[:,0].min()>724 or screen[:,1].max()<500 or screen[:,1].min()>720:continue
+        if screen[:,0].max()<xmin or screen[:,0].min()>xmax or screen[:,1].max()<ymin or screen[:,1].min()>ymax:continue
         tex=np.array([[uv[i].uv.x*2048,(1-uv[i].uv.y)*2048] for i in tri.loops])
         lo=np.maximum(np.floor(tex.min(0)).astype(int),0);hi=np.minimum(np.ceil(tex.max(0)).astype(int),2047)
         xx,yy=np.meshgrid(np.arange(lo[0],hi[0]+1),np.arange(lo[1],hi[1]+1))
@@ -149,12 +160,20 @@ def boards():
         visible=np.any(delta>3,axis=2);yy,xx=np.where(visible)
         differences[name]={'different_pixels':int(changed.sum()),'above_3_levels_pixels':int(visible.sum()),'above_3_levels_bbox':[int(xx.min()),int(yy.min()),int(xx.max()),int(yy.max())] if len(xx) else None,'max_channel_delta':int(delta.max())}
         differences[name]['eye_and_upper_face_pixels_changed']=int(changed[:625].sum())
-        assert not changed[:625].any(),'Unexpected eye / upper face render change'
+        if not EYE_CONFIG: assert not changed[:625].any(),'Unexpected eye / upper face render change'
+        if EYE_CONFIG and name=='front':
+            outside=changed.copy()
+            for poly in EYE_CONFIG['masks'].values():
+                px,py=zip(*poly)
+                outside[max(0,min(py)-6):min(1024,max(py)+7),max(0,min(px)-6):min(1024,max(px)+7)]=False
+            assert not outside.any(),'Unexpected non-eye render change'
+            differences[name]['outside_eye_regions_pixels']=int(outside.sum())
+            differences[name]['mouth_and_lower_face_pixels_changed']=int(changed[670:].sum())
         diff=Image.fromarray(np.minimum(delta*4,255).astype('uint8'))
         for col,(label,im) in enumerate([('BEFORE / source GLB',before),('CANDIDATE / saved GLB',after),('DIFFERENCE x4',diff)]):
             draw.text((col*512+10,row*544+8),f'{name} - {label}',fill=(40,30,30))
             sheet.paste(im.resize((512,512)),(col*512,row*544+32))
-        if name=='front':
+        if name=='front' and not EYE_CONFIG:
             outside=changed.copy();outside[490:732,230:795]=False
             differences[name]['outside_eye_mouth_bounding_region_pixels']=int(outside.sum())
     sheet.save(OUT/'01-five-angle-before-candidate-difference.png')
@@ -170,6 +189,14 @@ def boards():
         for col,(label,im) in enumerate([('Approved Body-only / head crop',ref),('BEFORE / source GLB',Image.open(OUT/'renders'/f'before-{view}.png')),('CANDIDATE / saved GLB',Image.open(OUT/'renders'/f'candidate-{view}.png'))]):
             draw.text((col*512+10,row*544+8),f'{view} - {label}',fill=(40,30,30));im.thumbnail((512,512));panel.paste(im,(col*512+(512-im.width)//2,row*544+32+(512-im.height)//2))
     panel.save(OUT/'02-approved-sides-before-candidate.png')
+    if EYE_CONFIG:
+        panel=Image.new('RGB',(1710,1654),(245,242,239));draw=ImageDraw.Draw(panel)
+        for row,(side,box) in enumerate([('screen-left',(145,425,430,690)),('screen-right',(595,425,880,690))]):
+            for col,version in enumerate(['before','candidate']):
+                im=Image.open(OUT/'renders'/f'{version}-front.png').crop(box).resize((855,795))
+                draw.text((col*855+10,row*827+8),f'{side} / {version} saved GLB / crop x3',fill=(40,30,30))
+                panel.paste(im,(col*855,row*827+32))
+        panel.save(OUT/'04-eye-closeups.png')
     # Original model renders above remain unretouched. Boards only scale/layout.
     cameras=json.loads((OUT/'before-cameras.json').read_text());assert cameras==json.loads((OUT/'candidate-cameras.json').read_text())
     protected=json.loads((OUT/'protected-inputs.json').read_text())
