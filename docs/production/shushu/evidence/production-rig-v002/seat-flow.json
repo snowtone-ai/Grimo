@@ -1,0 +1,45 @@
+{
+  "method": "v001 evaluated lower-body crease corridor / UV-seam-coherent Taubin relaxation with protected sole and support / inverse LBS, eight bounded seat samples",
+  "samples": [
+    {
+      "seat": 0.125,
+      "correction_max": 0.002050315495580435,
+      "affected_vertices": 2874
+    },
+    {
+      "seat": 0.25,
+      "correction_max": 0.0053828260861337185,
+      "affected_vertices": 2909
+    },
+    {
+      "seat": 0.375,
+      "correction_max": 0.009401804767549038,
+      "affected_vertices": 2919
+    },
+    {
+      "seat": 0.5,
+      "correction_max": 0.013831935822963715,
+      "affected_vertices": 2923
+    },
+    {
+      "seat": 0.625,
+      "correction_max": 0.01807367615401745,
+      "affected_vertices": 2934
+    },
+    {
+      "seat": 0.75,
+      "correction_max": 0.023345977067947388,
+      "affected_vertices": 2946
+    },
+    {
+      "seat": 0.875,
+      "correction_max": 0.02727244794368744,
+      "affected_vertices": 2953
+    },
+    {
+      "seat": 1,
+      "correction_max": 0.02581462636590004,
+      "affected_vertices": 2928
+    }
+  ]
+}

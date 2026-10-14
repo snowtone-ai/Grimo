@@ -1,0 +1,43 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><title>Shushu v002 isolated GLB acceptance</title>
+<style>html,body{margin:0;background:#ddd6dc;font:16px system-ui}canvas{width:100vw;height:90vh;display:block}#info{padding:10px}button{margin:0 6px}</style>
+<link rel="icon" href="data:,"><canvas id="canvas"></canvas><div id="info">Loading isolated proof…</div>
+<script type="module">
+import * as pc from '/node_modules/playcanvas/build/playcanvas.mjs';
+const app=new pc.Application(document.getElementById('canvas'),{graphicsDeviceOptions:{antialias:true,preserveDrawingBuffer:true}});
+app.setCanvasFillMode(pc.FILLMODE_FILL_WINDOW);app.setCanvasResolution(pc.RESOLUTION_AUTO);app.resizeCanvas();window.addEventListener('resize',()=>app.resizeCanvas());
+app.scene.ambientLight=new pc.Color(.8,.8,.8);
+const camera=new pc.Entity('ReviewCamera');camera.addComponent('camera',{clearColor:new pc.Color(.62,.60,.62),projection:pc.PROJECTION_ORTHOGRAPHIC,orthoHeight:.59,nearClip:.01,farClip:20});camera.setPosition(0,.5,3);camera.lookAt(0,.5,0);app.root.addChild(camera);
+const light=new pc.Entity('Key');light.addComponent('light',{type:'directional',intensity:.6});light.setEulerAngles(45,30,0);app.root.addChild(light);
+const floor=new pc.Entity('SupportFloor');floor.addComponent('render',{type:'plane'});floor.setLocalScale(4,1,4);floor.setLocalPosition(0,-.002,0);const material=new pc.StandardMaterial();material.useMetalness=true;material.metalness=0;material.diffuse=new pc.Color(.68,.65,.67);material.update();floor.render.meshInstances[0].material=material;app.root.addChild(floor);
+const path='/assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v002.glb';
+const asset=new pc.Asset('Shushu v002','container',{url:path});app.assets.add(asset);
+asset.on('error',error=>{document.getElementById('info').textContent=String(error);window.qaError=String(error)});
+asset.ready(()=>{
+ const res=asset.resource, root=res.instantiateRenderEntity();app.root.addChild(root);
+ if(!res.animations.length)throw new Error('No exported clip');root.addComponent('anim',{activate:true});root.anim.assignAnimation('Capability',res.animations[0].resource);
+ const meshes=root.findComponents('render').flatMap(c=>c.meshInstances);
+ const bones=[...new Set(meshes.flatMap(m=>m.skinInstance?.bones||[]))];const anchors=[];root.forEach(node=>{if(node.name.startsWith('ANCHOR_'))anchors.push(node)});
+ const matrix=node=>Array.from(node.getWorldTransform().data);
+ const sample=t=>{root.anim.baseLayer.activeStateCurrentTime=t;root.anim.update(0);app.renderNextFrame=true;return {requestedTime:t,time:root.anim.baseLayer.activeStateCurrentTime,progress:root.anim.baseLayer.activeStateProgress,speed:root.anim.speed,bones:bones.map(node=>({name:node.name,parent:node.parent?.name,matrix:matrix(node)})),morphs:meshes.filter(m=>m.morphInstance).map(m=>({node:m.node.name,weights:m.morphInstance.morph.targets.map((_,i)=>m.morphInstance.getWeight(i))})),anchors:anchors.map(node=>({name:node.name,matrix:matrix(node)}))}};
+ window.qa={app,root,camera,res,sample,summary:()=>({engine:pc.version,clipNames:res.animations.map(a=>a.name),duration:res.animations[0].resource.duration,meshCount:meshes.length,skinMeshes:meshes.filter(m=>m.skinInstance).length,jointNames:bones.map(b=>b.name),anchors:anchors.map(a=>a.name),vertexFormats:meshes.map(m=>({node:m.node.name,elements:m.mesh.vertexBuffer.format.elements.map(e=>({semantic:e.name,components:e.numComponents}))})),textures:meshes.map(m=>({node:m.node.name,material:m.material.name,diffuseMap:!!m.material.diffuseMap,dimensions:m.material.diffuseMap?[m.material.diffuseMap.width,m.material.diffuseMap.height]:null})),graphics:app.graphicsDevice.deviceType})};
+ window.qa.verify=async()=>{
+  const ref=await (await fetch('./runtime-reference.json')).json();const rows=[],missing=[];const delta=(a,b)=>Math.max(...a.map((v,i)=>Math.abs(v-b[i])));
+  for(const expected of ref.states){const actual=sample(expected.time);let matrixError=0,morphError=0;
+   for(const [name,mat] of Object.entries(expected.nodes)){const node=root.findByName(name);if(!node){missing.push(name);continue;}matrixError=Math.max(matrixError,delta(matrix(node),mat));}
+   for(const [name,weights] of Object.entries(expected.morphs)){const morph=actual.morphs.find(m=>m.node===name);if(!morph){missing.push('morph:'+name);continue;}morphError=Math.max(morphError,delta(morph.weights,weights));}
+   rows.push({state:expected.state,time:actual.time,matrixError,morphError,finite:Number.isFinite(actual.time)&&Number.isFinite(actual.progress)&&Number.isFinite(actual.speed)});
+  }
+  const advance=[];
+  for(const [suffix,start] of [[':Head',0],[':LeftForeArm',Math.max(0,ref.states.find(s=>s.state==='hold-L').time-.4)]]){
+   const node=bones.find(b=>b.name.endsWith(suffix));sample(start);const before=matrix(node),t0=root.anim.baseLayer.activeStateCurrentTime;root.anim.speed=1;
+   for(let i=0;i<8;i++)await new Promise(requestAnimationFrame);
+   advance.push({joint:node.name,beforeTime:t0,afterTime:root.anim.baseLayer.activeStateCurrentTime,worldMatrixDelta:delta(matrix(node),before)});root.anim.speed=0;
+  }
+  const report={summary:window.qa.summary(),glbSha256:ref.glb_sha256,states:rows,missing:[...new Set(missing)],maxMatrixError:Math.max(...rows.map(r=>r.matrixError)),maxMorphError:Math.max(...rows.map(r=>r.morphError)),advance,scope:'Container/texture/clip/morph/joint/anchor acceptance only. Full skin HOLD: stock 2.22.2 loader omits JOINTS_1/WEIGHTS_1.'};
+  report.gate=report.missing.length===0&&report.maxMatrixError<1e-5&&report.maxMorphError<5e-5&&rows.every(r=>r.finite)&&advance.every(r=>r.afterTime>r.beforeTime&&r.worldMatrixDelta>1e-5)&&report.summary.jointNames.length===67&&report.summary.anchors.length===7&&report.summary.textures.filter(t=>t.diffuseMap).length===12?'PASS bounded loading/animation/morph/anchor/texture':'FAIL';
+  window.qaReport=report;sample(ref.states.find(s=>s.state==='seat-joy').time);return report;
+ };
+ document.getElementById('info').textContent='v002 proof / Human PENDING / product & smartphone HOLD';root.anim.speed=0;sample(0);window.qaReady=true;
+});
+app.assets.load(asset);app.start();
+</script></html>

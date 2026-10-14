@@ -1,0 +1,62 @@
+{
+  "size": [
+    640,
+    640
+  ],
+  "samples": 16,
+  "seed": 0,
+  "denoise": false,
+  "display": "AgX, exposure -0.5",
+  "ortho_scale": 1.14,
+  "target": [
+    0,
+    0,
+    0.5
+  ],
+  "distance": 3,
+  "floor_z": -0.002,
+  "views": [
+    [
+      "front",
+      [
+        0,
+        -1,
+        0
+      ]
+    ],
+    [
+      "3q-L",
+      [
+        -0.65,
+        -0.76,
+        0
+      ]
+    ],
+    [
+      "3q-R",
+      [
+        0.65,
+        -0.76,
+        0
+      ]
+    ],
+    [
+      "left",
+      [
+        -1,
+        0,
+        0
+      ]
+    ],
+    [
+      "right",
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  ],
+  "lighting": "Same setup as prior Auto Rig Gate; fixed world/key/fill/camera",
+  "source": "v001/v002/approved-static and GLB: fixed identical cameras, lights, samples; capability witnesses, Human PENDING"
+}

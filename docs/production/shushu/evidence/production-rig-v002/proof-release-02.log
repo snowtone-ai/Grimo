@@ -1,0 +1,134 @@
+00:04.812  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v002.blend"
+PROXY_TRACK 120
+PROXY_TRACK 240
+PROXY_TRACK 360
+PROXY_TRACK 480
+PROXY_TRACK 600
+PROXY_TRACK 720
+PROXY_TRACK 840
+PROXY_TRACK 960
+Info: No new files have been packed
+Info: Saved as "shushu-v006-production-rig-v002-proof.blend"
+SAMPLING 120
+SAMPLING 240
+SAMPLING 360
+SAMPLING 480
+SAMPLING 600
+SAMPLING 720
+SAMPLING 840
+SAMPLING 960
+BAKING 120
+BAKING 240
+BAKING 360
+BAKING 480
+BAKING 600
+BAKING 720
+BAKING 840
+BAKING 960
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+07:33:13 | INFO: Starting glTF 2.0 export
+07:33:13 | INFO: Extracting primitive: ShushuStatic_Ear_L
+07:33:13 | INFO: Primitives created: 1
+07:33:13 | INFO: Extracting primitive: ShushuStatic_Ear_R
+07:33:13 | INFO: Primitives created: 1
+07:33:13 | INFO: Extracting primitive: ShushuStatic_Eye_L
+07:33:13 | INFO: Primitives created: 1
+07:33:13 | INFO: Extracting primitive: ShushuStatic_Eye_R
+07:33:13 | INFO: Primitives created: 1
+07:33:13 | INFO: Extracting primitive: ShushuStatic_Head
+07:33:18 | INFO: Primitives created: 1
+07:33:18 | INFO: Extracting primitive: ShushuStatic_LidWall_L
+07:33:18 | INFO: Primitives created: 1
+07:33:18 | INFO: Extracting primitive: ShushuStatic_LidWall_R
+07:33:18 | INFO: Primitives created: 1
+07:33:18 | INFO: Extracting primitive: ShushuStatic_MouthInterior
+07:33:18 | INFO: Primitives created: 1
+07:33:18 | INFO: Extracting primitive: ShushuStatic_Nose
+07:33:18 | INFO: Primitives created: 1
+07:33:18 | INFO: Extracting primitive: ShushuStatic_OralBowl
+07:33:18 | INFO: Primitives created: 1
+07:33:18 | INFO: Extracting primitive: ShushuStatic_Paw_L
+07:33:19 | INFO: Primitives created: 1
+07:33:19 | INFO: Extracting primitive: ShushuStatic_Paw_R
+07:33:19 | INFO: Primitives created: 1
+07:33:19 | INFO: Extracting primitive: ShushuStatic_Tongue
+07:33:19 | INFO: Primitives created: 1
+07:33:19 | INFO: Extracting primitive: ShushuStatic_Torso
+07:33:20 | INFO: Primitives created: 1
+07:33:31 | INFO: Finished glTF 2.0 export in 17.68839383125305 s
+
+07:33:31 | INFO: Starting glTF 2.0 export
+07:33:31 | INFO: Extracting primitive: Sphere
+07:33:31 | INFO: Primitives created: 1
+07:33:31 | INFO: Extracting primitive: ShushuStatic_Ear_L
+07:33:31 | INFO: Primitives created: 1
+07:33:31 | INFO: Extracting primitive: ShushuStatic_Ear_R
+07:33:31 | INFO: Primitives created: 1
+07:33:31 | INFO: Extracting primitive: ShushuStatic_Eye_L
+07:33:31 | INFO: Primitives created: 1
+07:33:31 | INFO: Extracting primitive: ShushuStatic_Eye_R
+07:33:31 | INFO: Primitives created: 1
+07:33:31 | INFO: Extracting primitive: ShushuStatic_Head
+07:33:35 | INFO: Primitives created: 1
+07:33:36 | INFO: Extracting primitive: ShushuStatic_LidWall_L
+07:33:36 | INFO: Primitives created: 1
+07:33:36 | INFO: Extracting primitive: ShushuStatic_LidWall_R
+07:33:36 | INFO: Primitives created: 1
+07:33:36 | INFO: Extracting primitive: ShushuStatic_MouthInterior
+07:33:36 | INFO: Primitives created: 1
+07:33:36 | INFO: Extracting primitive: ShushuStatic_Nose
+07:33:36 | INFO: Primitives created: 1
+07:33:36 | INFO: Extracting primitive: ShushuStatic_OralBowl
+07:33:36 | INFO: Primitives created: 1
+07:33:36 | INFO: Extracting primitive: ShushuStatic_Paw_L
+07:33:36 | INFO: Primitives created: 1
+07:33:36 | INFO: Extracting primitive: ShushuStatic_Paw_R
+07:33:37 | INFO: Primitives created: 1
+07:33:37 | INFO: Extracting primitive: ShushuStatic_Tongue
+07:33:37 | INFO: Primitives created: 1
+07:33:37 | INFO: Extracting primitive: ShushuStatic_Torso
+07:33:37 | INFO: Primitives created: 1
+07:33:48 | INFO: Finished glTF 2.0 export in 17.290266036987305 s
+
+PROOF_SAVED {'frames': 961, 'bake_max': 7.683134413127846e-07, 'floor_min': -1.0688522422697133e-07}
+07:33:48 | INFO: Starting glTF 2.0 export
+07:33:48 | INFO: Extracting primitive: Sphere.003
+07:33:48 | INFO: Primitives created: 1
+07:33:48 | INFO: Extracting primitive: Sphere
+07:33:48 | INFO: Primitives created: 1
+07:33:48 | INFO: Extracting primitive: Cylinder
+07:33:48 | INFO: Primitives created: 1
+07:33:48 | INFO: Extracting primitive: ShushuStatic_Ear_L
+07:33:48 | INFO: Primitives created: 1
+07:33:48 | INFO: Extracting primitive: ShushuStatic_Ear_R
+07:33:48 | INFO: Primitives created: 1
+07:33:48 | INFO: Extracting primitive: ShushuStatic_Eye_L
+07:33:48 | INFO: Primitives created: 1
+07:33:48 | INFO: Extracting primitive: ShushuStatic_Eye_R
+07:33:48 | INFO: Primitives created: 1
+07:33:48 | INFO: Extracting primitive: ShushuStatic_Head
+07:33:53 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_LidWall_L
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_LidWall_R
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_MouthInterior
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_Nose
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_OralBowl
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_Paw_L
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_Paw_R
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_Tongue
+07:33:54 | INFO: Primitives created: 1
+07:33:54 | INFO: Extracting primitive: ShushuStatic_Torso
+07:33:55 | INFO: Primitives created: 1
+07:34:06 | INFO: Finished glTF 2.0 export in 18.196419954299927 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

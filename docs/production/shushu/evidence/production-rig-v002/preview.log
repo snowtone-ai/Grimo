@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+Error: Cannot read file "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v002.blend": No such file or directory
+  File "C:\Users\chidj\project\プロダクト\Grimo\scripts\blender\prove-shushu-production-rig-v002.py", line 69, in <module>
+    if '--preview' in sys.argv:preview()
+                               ~~~~~~~^^
+  File "C:\Users\chidj\project\プロダクト\Grimo\scripts\blender\prove-shushu-production-rig-v002.py", line 21, in preview
+    rig,meshes=v.load(v.V001 if before else v.ASSET);scene,cam=b.setup_review(640,16)
+               ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chidj\project\プロダクト\Grimo\scripts\blender\build-shushu-production-rig-v002.py", line 30, in load
+    bpy.ops.wm.open_mainfile(filepath=str(path))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Cannot read file "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v002.blend": No such file or directory
+
+
+Error: script failed, file: 'scripts/blender/prove-shushu-production-rig-v002.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

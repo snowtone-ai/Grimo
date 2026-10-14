@@ -1,0 +1,136 @@
+{
+  "file": "C:\\Users\\chidj\\project\\プロダクト\\Grimo\\assets\\grimo\\production\\shushu\\tripo\\geometry-v003\\rigging\\shushu-v006-production-rig-v002-contacts.glb",
+  "validator": {
+    "errors": 0,
+    "warnings": 14,
+    "infos": 5,
+    "messages": [
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/12/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/15/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/77"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/78"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/79"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/80"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/81"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/82"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/83"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/84"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/85"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/86"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/87"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/88"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/89"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/90"
+      }
+    ]
+  },
+  "metrics": {
+    "fileSizeBytes": 23541352,
+    "triangleCount": 102737,
+    "vertexCount": 59639,
+    "materialCount": 15,
+    "textureCount": 12,
+    "deformBoneCount": 0,
+    "morphTargetCount": 0,
+    "animationClips": [
+      "Shushu_RigCapability_Proof"
+    ]
+  }
+}

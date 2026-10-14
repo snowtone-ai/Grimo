@@ -1,0 +1,866 @@
+[
+  {
+    "state": "food-small",
+    "step": 0,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 1,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 2,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 3,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 4,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 5,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 6,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 7,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 8,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 9,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 10,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-small",
+    "step": 11,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 0,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 1,
+    "gap": 0.00010000174492597567,
+    "outside": true,
+    "mouth_distance": 0.0415602825715616,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 2,
+    "gap": 0.00010000686720013606,
+    "outside": true,
+    "mouth_distance": 0.03338467679130712,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 3,
+    "gap": 0.00010001850873231875,
+    "outside": true,
+    "mouth_distance": 0.019259783865445638,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 4,
+    "gap": 0.00010001478344202029,
+    "outside": true,
+    "mouth_distance": 0.01826648193686839,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 5,
+    "gap": 0.00010002689063549029,
+    "outside": true,
+    "mouth_distance": 0.01745350461969402,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 6,
+    "gap": 0.00010001897439360606,
+    "outside": true,
+    "mouth_distance": 0.016794878593592053,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 7,
+    "gap": 0.0001000031419098376,
+    "outside": true,
+    "mouth_distance": 0.016280239944406416,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 8,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.015905246277835294,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 9,
+    "gap": 0.00010000453889369952,
+    "outside": true,
+    "mouth_distance": 0.015651097940995312,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 10,
+    "gap": 0.00010001198947429644,
+    "outside": true,
+    "mouth_distance": 0.014183486042950427,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-a",
+    "step": 11,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.014092053890179536,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 0,
+    "gap": 0.00010001198947429644,
+    "outside": true,
+    "mouth_distance": 0.01384060284913551,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 1,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.014092053890179536,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 2,
+    "gap": 0.00010001198947429644,
+    "outside": true,
+    "mouth_distance": 0.014183486042950427,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 3,
+    "gap": 0.00010000453889369952,
+    "outside": true,
+    "mouth_distance": 0.015651097940995312,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 4,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.015905246277835294,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 5,
+    "gap": 0.0001000031419098376,
+    "outside": true,
+    "mouth_distance": 0.016280239944406416,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 6,
+    "gap": 0.00010001897439360606,
+    "outside": true,
+    "mouth_distance": 0.016794878593592053,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 7,
+    "gap": 0.00010002689063549029,
+    "outside": true,
+    "mouth_distance": 0.01745350461969402,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 8,
+    "gap": 0.00010001478344202029,
+    "outside": true,
+    "mouth_distance": 0.01826648193686839,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 9,
+    "gap": 0.00010001850873231875,
+    "outside": true,
+    "mouth_distance": 0.019259783865445638,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 10,
+    "gap": 0.00010000686720013606,
+    "outside": true,
+    "mouth_distance": 0.03338467679130712,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-close",
+    "step": 11,
+    "gap": 0.00010000174492597567,
+    "outside": true,
+    "mouth_distance": 0.0415602825715616,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 0,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 1,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.041078294690332876,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 2,
+    "gap": 0.00010000081360340106,
+    "outside": true,
+    "mouth_distance": 0.041054305076860205,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 3,
+    "gap": 0.00010000826418399798,
+    "outside": true,
+    "mouth_distance": 0.04103021915531676,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 4,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.04100621632109309,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 5,
+    "gap": 0.00010001245513558375,
+    "outside": true,
+    "mouth_distance": 0.035158583609960964,
+    "owner": "Head"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 6,
+    "gap": 0.00010001245513558375,
+    "outside": true,
+    "mouth_distance": 0.022268817331864567,
+    "owner": "OralBowl"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 7,
+    "gap": 0.00010001385211944568,
+    "outside": true,
+    "mouth_distance": 0.017274892368302947,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 8,
+    "gap": 0.00010001385211944568,
+    "outside": true,
+    "mouth_distance": 0.015795845401253564,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 9,
+    "gap": 0.00010000407323241221,
+    "outside": true,
+    "mouth_distance": 0.014676608375879233,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 10,
+    "gap": 0.00010002363100647914,
+    "outside": true,
+    "mouth_distance": 0.014259434307300457,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-multi-b",
+    "step": 11,
+    "gap": 0.00010000500455498683,
+    "outside": true,
+    "mouth_distance": 0.014137496447172581,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-lick",
+    "step": 0,
+    "gap": 0.00010001385211944568,
+    "outside": true,
+    "mouth_distance": 0.014209640617738363,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-lick",
+    "step": 1,
+    "gap": 0.00010002176836132991,
+    "outside": true,
+    "mouth_distance": 0.013858374979217936,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-lick",
+    "step": 2,
+    "gap": 0.00010001571476459491,
+    "outside": true,
+    "mouth_distance": 0.0140230068125475,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-lick",
+    "step": 3,
+    "gap": 0.00010002176836132991,
+    "outside": true,
+    "mouth_distance": 0.014676647204306127,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-lick",
+    "step": 4,
+    "gap": 0.00010001711174845683,
+    "outside": true,
+    "mouth_distance": 0.01579588614090868,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-lick",
+    "step": 5,
+    "gap": 0.00010001245513558375,
+    "outside": true,
+    "mouth_distance": 0.01727487769544616,
+    "owner": "Tongue"
+  },
+  {
+    "state": "food-lick",
+    "step": 6,
+    "gap": 0.0001000091955065726,
+    "outside": true,
+    "mouth_distance": 0.02226877847756476,
+    "owner": "OralBowl"
+  },
+  {
+    "state": "food-lick",
+    "step": 7,
+    "gap": 0.00010000267624855029,
+    "outside": true,
+    "mouth_distance": 0.03522456057542033,
+    "owner": "Head"
+  },
+  {
+    "state": "food-lick",
+    "step": 8,
+    "gap": 0.00010000826418399798,
+    "outside": true,
+    "mouth_distance": 0.04077068210102424,
+    "owner": "Head"
+  },
+  {
+    "state": "food-lick",
+    "step": 9,
+    "gap": 0.0001000036075711249,
+    "outside": true,
+    "mouth_distance": 0.04075064817415643,
+    "owner": "Head"
+  },
+  {
+    "state": "food-lick",
+    "step": 10,
+    "gap": 0.00010001152381300914,
+    "outside": true,
+    "mouth_distance": 0.04072124100576972,
+    "owner": "Head"
+  },
+  {
+    "state": "food-lick",
+    "step": 11,
+    "gap": 0.00010000872984528529,
+    "outside": true,
+    "mouth_distance": 0.04062850488680397,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 0,
+    "gap": 0.00010000127926468837,
+    "outside": true,
+    "mouth_distance": 0.04057467332756342,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 1,
+    "gap": 0.00010000779852271068,
+    "outside": true,
+    "mouth_distance": 0.04061859821935359,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 2,
+    "gap": 0.00010000872984528529,
+    "outside": true,
+    "mouth_distance": 0.0406624816005338,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 3,
+    "gap": 0.00010002037137746798,
+    "outside": true,
+    "mouth_distance": 0.04070637497010589,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 4,
+    "gap": 0.00010000686720013606,
+    "outside": true,
+    "mouth_distance": 0.04075034801109545,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 5,
+    "gap": 0.00010001245513558375,
+    "outside": true,
+    "mouth_distance": 0.040794304922955694,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 6,
+    "gap": 0.00010001944005489337,
+    "outside": true,
+    "mouth_distance": 0.040838227455457995,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 7,
+    "gap": 0.00010001571476459491,
+    "outside": true,
+    "mouth_distance": 0.04088221036815055,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 8,
+    "gap": 0.00010000407323241221,
+    "outside": true,
+    "mouth_distance": 0.04092618240309349,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 9,
+    "gap": 0.0001000091955065726,
+    "outside": true,
+    "mouth_distance": 0.0409703398102612,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 10,
+    "gap": 0.00010001012682914721,
+    "outside": true,
+    "mouth_distance": 0.041014172693234735,
+    "owner": "Head"
+  },
+  {
+    "state": "food-drink",
+    "step": 11,
+    "gap": 0.0001000031419098376,
+    "outside": true,
+    "mouth_distance": 0.04105817867093353,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 0,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 1,
+    "gap": 0.00010000174492597567,
+    "outside": true,
+    "mouth_distance": 0.0415602825715616,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 2,
+    "gap": 0.00010000686720013606,
+    "outside": true,
+    "mouth_distance": 0.03338467679130712,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 3,
+    "gap": 0.00010001850873231875,
+    "outside": true,
+    "mouth_distance": 0.019259783865445638,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 4,
+    "gap": 0.00010001478344202029,
+    "outside": true,
+    "mouth_distance": 0.01826648193686839,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 5,
+    "gap": 0.00010002689063549029,
+    "outside": true,
+    "mouth_distance": 0.01745350461969402,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 6,
+    "gap": 0.00010001897439360606,
+    "outside": true,
+    "mouth_distance": 0.016794878593592053,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 7,
+    "gap": 0.0001000031419098376,
+    "outside": true,
+    "mouth_distance": 0.016280239944406416,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 8,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.015905246277835294,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 9,
+    "gap": 0.00010000453889369952,
+    "outside": true,
+    "mouth_distance": 0.015651097940995312,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 10,
+    "gap": 0.00010001198947429644,
+    "outside": true,
+    "mouth_distance": 0.014183486042950427,
+    "owner": "Head"
+  },
+  {
+    "state": "food-large",
+    "step": 11,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.014092053890179536,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 0,
+    "gap": 0.00010001198947429644,
+    "outside": true,
+    "mouth_distance": 0.01384060284913551,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 1,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.014092053890179536,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 2,
+    "gap": 0.00010001198947429644,
+    "outside": true,
+    "mouth_distance": 0.014183486042950427,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 3,
+    "gap": 0.00010000453889369952,
+    "outside": true,
+    "mouth_distance": 0.015651097940995312,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 4,
+    "gap": 0.00010000547021627414,
+    "outside": true,
+    "mouth_distance": 0.015905246277835294,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 5,
+    "gap": 0.0001000031419098376,
+    "outside": true,
+    "mouth_distance": 0.016280239944406416,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 6,
+    "gap": 0.00010001897439360606,
+    "outside": true,
+    "mouth_distance": 0.016794878593592053,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 7,
+    "gap": 0.00010002689063549029,
+    "outside": true,
+    "mouth_distance": 0.01745350461969402,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 8,
+    "gap": 0.00010001478344202029,
+    "outside": true,
+    "mouth_distance": 0.01826648193686839,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 9,
+    "gap": 0.00010001850873231875,
+    "outside": true,
+    "mouth_distance": 0.019259783865445638,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 10,
+    "gap": 0.00010000686720013606,
+    "outside": true,
+    "mouth_distance": 0.03338467679130712,
+    "owner": "Head"
+  },
+  {
+    "state": "food-cancel",
+    "step": 11,
+    "gap": 0.00010000174492597567,
+    "outside": true,
+    "mouth_distance": 0.0415602825715616,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 0,
+    "gap": 0.00010000640153884875,
+    "outside": true,
+    "mouth_distance": 0.04110234535886983,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 1,
+    "gap": 0.00010000686720013606,
+    "outside": true,
+    "mouth_distance": 0.04102209939833049,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 2,
+    "gap": 0.00010002176836132991,
+    "outside": true,
+    "mouth_distance": 0.040941976233587044,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 3,
+    "gap": 0.0001000091955065726,
+    "outside": true,
+    "mouth_distance": 0.04086178712877476,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 4,
+    "gap": 0.00010001152381300914,
+    "outside": true,
+    "mouth_distance": 0.040781731517048794,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 5,
+    "gap": 0.00010000826418399798,
+    "outside": true,
+    "mouth_distance": 0.04070170936392553,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 6,
+    "gap": 0.00010001198947429644,
+    "outside": true,
+    "mouth_distance": 0.04062186774113454,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 7,
+    "gap": 0.00010000127926468837,
+    "outside": true,
+    "mouth_distance": 0.04054193779713099,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 8,
+    "gap": 0.00010001105815172183,
+    "outside": true,
+    "mouth_distance": 0.023294548186996333,
+    "owner": "OralBowl"
+  },
+  {
+    "state": "food-resume",
+    "step": 9,
+    "gap": 0.00010002642497420298,
+    "outside": true,
+    "mouth_distance": 0.02255775436257685,
+    "owner": "OralBowl"
+  },
+  {
+    "state": "food-resume",
+    "step": 10,
+    "gap": 0.00010000127926468837,
+    "outside": true,
+    "mouth_distance": 0.03002280087888432,
+    "owner": "Head"
+  },
+  {
+    "state": "food-resume",
+    "step": 11,
+    "gap": 0.00010001385211944568,
+    "outside": true,
+    "mouth_distance": 0.02993680606954012,
+    "owner": "Head"
+  }
+]

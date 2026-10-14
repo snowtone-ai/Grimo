@@ -1,0 +1,9 @@
+{
+  "priority": [
+    "Hold",
+    "SelfContact",
+    "Offer"
+  ],
+  "method": "Bounded residual weights applied to targets, shoulder/IK and all corresponding correctives",
+  "product_policy": "Deferred offer scheduling and item ownership are outside rig scope"
+}

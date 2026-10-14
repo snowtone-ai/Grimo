@@ -1,0 +1,13 @@
+{
+  "initial_count": 3146,
+  "changed": [
+    "docs/production/Handoff.md",
+    "docs/production/shushu-v002-inspect.log"
+  ],
+  "authorized_changes": [
+    "docs/production/Handoff.md",
+    "docs/production/shushu-v002-inspect.log"
+  ],
+  "created_output_relocation": "This run created docs/production/shushu-v002-inspect.log during initial inspection; it was moved into production-rig-v002/inspect.log. It is not a pre-existing user input.",
+  "unexpected_changes": []
+}

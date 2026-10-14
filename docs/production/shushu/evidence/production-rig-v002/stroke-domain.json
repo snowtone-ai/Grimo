@@ -1,0 +1,70 @@
+{
+  "method": "Bilinear moving local Gaussian displacement fields on current Basis; skin follows current owner, no lag or global scale",
+  "zones": [
+    {
+      "zone": 0,
+      "name": "Forehead",
+      "owner": "Head",
+      "local_x": [
+        -0.1,
+        0.1
+      ],
+      "local_z": [
+        0.77,
+        0.83
+      ],
+      "depth_max": 0.01,
+      "radius": 0.048,
+      "eye_nose_mouth_exclusion": true
+    },
+    {
+      "zone": 1,
+      "name": "Cheek.L",
+      "owner": "Head",
+      "local_x": [
+        0.18,
+        0.25
+      ],
+      "local_z": [
+        0.565,
+        0.63
+      ],
+      "depth_max": 0.01,
+      "radius": 0.042,
+      "eye_nose_mouth_exclusion": true
+    },
+    {
+      "zone": 2,
+      "name": "Cheek.R",
+      "owner": "Head",
+      "local_x": [
+        -0.25,
+        -0.18
+      ],
+      "local_z": [
+        0.565,
+        0.63
+      ],
+      "depth_max": 0.01,
+      "radius": 0.042,
+      "eye_nose_mouth_exclusion": true
+    },
+    {
+      "zone": 3,
+      "name": "Belly",
+      "owner": "Torso",
+      "local_x": [
+        -0.15,
+        0.15
+      ],
+      "local_z": [
+        0.225,
+        0.395
+      ],
+      "depth_max": 0.014,
+      "radius": 0.065,
+      "eye_nose_mouth_exclusion": false
+    }
+  ],
+  "limits": "Bounded continuous paths within each safe zone. Crossing eyes/mouth/accessory contact or arbitrary rear surfaces requires domain-specific authoring."
+}

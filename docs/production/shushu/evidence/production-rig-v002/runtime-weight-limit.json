@@ -1,0 +1,22 @@
+{
+  "engine": "Installed PlayCanvas 2.22.2",
+  "primary_source": "node_modules/playcanvas/build/playcanvas.mjs gltfToEngineSemanticMap lines 93943–93959 maps JOINTS_0/WEIGHTS_0, no JOINTS_1/WEIGHTS_1",
+  "affected": [
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertices_with_secondary_weights": 15,
+      "secondary_weight_sum_max": 0.014542823657393456
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertices_with_secondary_weights": 8,
+      "secondary_weight_sum_max": 0.021814296022057533
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertices_with_secondary_weights": 280,
+      "secondary_weight_sum_max": 0.0880075991153717
+    }
+  ],
+  "gate": "Full stock PlayCanvas skin deformation HOLD; load/clip/morph/anchor test is separate. Preserve six-influence rig and its proven deformation; do not silently prune or change PWA."
+}

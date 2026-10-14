@@ -1,0 +1,1153 @@
+{
+  "summary": {
+    "engine": "2.22.2",
+    "clipNames": [
+      "Shushu v002/animation/0"
+    ],
+    "duration": 40.04166793823242,
+    "meshCount": 14,
+    "skinMeshes": 14,
+    "jointNames": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "Ear.L",
+      "Ear.R",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4"
+    ],
+    "anchors": [
+      "ANCHOR_Hold.L",
+      "ANCHOR_WearEar.L",
+      "ANCHOR_WearEar.R",
+      "ANCHOR_Crown",
+      "ANCHOR_Mouth",
+      "ANCHOR_Hold.R",
+      "ANCHOR_WearChest"
+    ],
+    "vertexFormats": [
+      {
+        "node": "ShushuStatic_Ear_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Ear_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Eye_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Eye_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Head",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_LidWall_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_LidWall_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_MouthInterior",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Nose",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_OralBowl",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Paw_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Paw_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Tongue",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "node": "ShushuStatic_Torso",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      }
+    ],
+    "textures": [
+      {
+        "node": "ShushuStatic_Ear_L",
+        "material": "ShushuStatic_Ear_L_material",
+        "diffuseMap": true,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "node": "ShushuStatic_Ear_R",
+        "material": "ShushuStatic_Ear_R_material",
+        "diffuseMap": true,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "node": "ShushuStatic_Eye_L",
+        "material": "ShushuStatic_Eye_L_material",
+        "diffuseMap": true,
+        "dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "node": "ShushuStatic_Eye_R",
+        "material": "ShushuStatic_Eye_R_material",
+        "diffuseMap": true,
+        "dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "node": "ShushuStatic_Head",
+        "material": "ShushuStatic_Head_material",
+        "diffuseMap": true,
+        "dimensions": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "node": "ShushuStatic_LidWall_L",
+        "material": "ShushuStatic_LidWall_L_material",
+        "diffuseMap": true,
+        "dimensions": [
+          256,
+          256
+        ]
+      },
+      {
+        "node": "ShushuStatic_LidWall_R",
+        "material": "ShushuStatic_LidWall_R_material",
+        "diffuseMap": true,
+        "dimensions": [
+          256,
+          256
+        ]
+      },
+      {
+        "node": "ShushuStatic_MouthInterior",
+        "material": "ShushuStatic_MouthInterior_material",
+        "diffuseMap": true,
+        "dimensions": [
+          128,
+          128
+        ]
+      },
+      {
+        "node": "ShushuStatic_Nose",
+        "material": "ShushuStatic_Nose_material",
+        "diffuseMap": true,
+        "dimensions": [
+          128,
+          128
+        ]
+      },
+      {
+        "node": "ShushuStatic_OralBowl",
+        "material": "Shushu local oral cavity",
+        "diffuseMap": false,
+        "dimensions": null
+      },
+      {
+        "node": "ShushuStatic_Paw_L",
+        "material": "ShushuStatic_Paw_L_material",
+        "diffuseMap": true,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "node": "ShushuStatic_Paw_R",
+        "material": "ShushuStatic_Paw_R_material",
+        "diffuseMap": true,
+        "dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "node": "ShushuStatic_Tongue",
+        "material": "Shushu controlled tongue",
+        "diffuseMap": false,
+        "dimensions": null
+      },
+      {
+        "node": "ShushuStatic_Torso",
+        "material": "ShushuStatic_Torso_material",
+        "diffuseMap": true,
+        "dimensions": [
+          2048,
+          2048
+        ]
+      }
+    ],
+    "graphics": "webgl2"
+  },
+  "glbSha256": "862f23c23d9abda706fa452a090242090ed15da4e9d436c2307c8b359d226606",
+  "states": [
+    {
+      "state": "neutral",
+      "time": 0.041666666666666664,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 0,
+      "finite": true
+    },
+    {
+      "state": "head-left",
+      "time": 0.5416666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 0,
+      "finite": true
+    },
+    {
+      "state": "head-right",
+      "time": 1.0416666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.198871727946491e-08,
+      "finite": true
+    },
+    {
+      "state": "head-tilt-blink",
+      "time": 1.5416666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 9.536724991932033e-07,
+      "finite": true
+    },
+    {
+      "state": "neck",
+      "time": 2.0416666666666665,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 1.239773919220477e-07,
+      "finite": true
+    },
+    {
+      "state": "ear-L",
+      "time": 2.5416666666666665,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 0,
+      "finite": true
+    },
+    {
+      "state": "ear-R",
+      "time": 3.0416666666666665,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 0,
+      "finite": true
+    },
+    {
+      "state": "half",
+      "time": 3.5416666666666665,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.198865332152081e-08,
+      "finite": true
+    },
+    {
+      "state": "closed",
+      "time": 4.041666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.8146681691220152e-06,
+      "finite": true
+    },
+    {
+      "state": "wink-L",
+      "time": 4.541666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.8146681691220152e-06,
+      "finite": true
+    },
+    {
+      "state": "wink-R",
+      "time": 5.041666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.8146681691220152e-06,
+      "finite": true
+    },
+    {
+      "state": "gaze-L",
+      "time": 5.541666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.178890235673275e-07,
+      "finite": true
+    },
+    {
+      "state": "gaze-up",
+      "time": 6.041666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357781039412203e-07,
+      "finite": true
+    },
+    {
+      "state": "gaze-down",
+      "time": 6.541666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.178890235673275e-07,
+      "finite": true
+    },
+    {
+      "state": "smile",
+      "time": 7.041666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.178890235673275e-07,
+      "finite": true
+    },
+    {
+      "state": "joy",
+      "time": 7.541666666666667,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.1788893830597686e-06,
+      "finite": true
+    },
+    {
+      "state": "surprise",
+      "time": 8.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "hesitate",
+      "time": 8.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "discomfort",
+      "time": 9.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "mouth-close",
+      "time": 9.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "mouth-close-override",
+      "time": 10.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 3.178884835364215e-07,
+      "finite": true
+    },
+    {
+      "state": "mouth-open",
+      "time": 10.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "mouth-open-max",
+      "time": 11.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 2.5431096872807757e-07,
+      "finite": true
+    },
+    {
+      "state": "tongue",
+      "time": 11.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778765675448e-07,
+      "finite": true
+    },
+    {
+      "state": "pressure-L",
+      "time": 12.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "pressure-R",
+      "time": 12.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "shift-L",
+      "time": 13.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 6.357778766091782e-07,
+      "finite": true
+    },
+    {
+      "state": "shift-R",
+      "time": 13.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 0,
+      "finite": true
+    },
+    {
+      "state": "foot-lift-L",
+      "time": 14.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 0,
+      "finite": true
+    },
+    {
+      "state": "foot-lift-R",
+      "time": 14.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 0,
+      "finite": true
+    },
+    {
+      "state": "seat-entry",
+      "time": 15.041666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 1.271555753246112e-06,
+      "finite": true
+    },
+    {
+      "state": "seat-mid",
+      "time": 15.541666666666666,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 1.2715548437514101e-06,
+      "finite": true
+    },
+    {
+      "state": "seat",
+      "time": 16.041666666666668,
+      "matrixError": 2.6881866743395925e-07,
+      "morphError": 5.086108079875845e-07,
+      "finite": true
+    },
+    {
+      "state": "seat-rest",
+      "time": 16.541666666666668,
+      "matrixError": 2.583504693509653e-07,
+      "morphError": 8.264925274537721e-07,
+      "finite": true
+    },
+    {
+      "state": "seat-joy",
+      "time": 17.041666666666668,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 1.2715266504925715e-05,
+      "finite": true
+    },
+    {
+      "state": "recovery-mid",
+      "time": 17.541666666666668,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 5.0861066019920535e-06,
+      "finite": true
+    },
+    {
+      "state": "standing-return",
+      "time": 18.041666666666668,
+      "matrixError": 2.3262535142620777e-07,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "offer-L",
+      "time": 18.541666666666668,
+      "matrixError": 4.659103636769912e-06,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "offer-R",
+      "time": 19.041666666666668,
+      "matrixError": 5.359598019671896e-06,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "wrist-L",
+      "time": 19.541666666666668,
+      "matrixError": 4.351899910187695e-06,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "wrist-R",
+      "time": 20.041666666666668,
+      "matrixError": 5.359598019671896e-06,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "self-L",
+      "time": 20.541666666666668,
+      "matrixError": 3.969759286459595e-06,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "self-R",
+      "time": 21.041666666666668,
+      "matrixError": 3.521904347270066e-06,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "hold-L",
+      "time": 21.541666666666668,
+      "matrixError": 3.279823950208538e-07,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "hold-both",
+      "time": 22.041666666666668,
+      "matrixError": 3.5552932716731434e-06,
+      "morphError": 5.0861066019920535e-06,
+      "finite": true
+    },
+    {
+      "state": "hold-L-touch-R",
+      "time": 22.541666666666668,
+      "matrixError": 5.63173068346412e-07,
+      "morphError": 1.0172216841851902e-05,
+      "finite": true
+    },
+    {
+      "state": "seat-hold-interrupt",
+      "time": 23.041666666666668,
+      "matrixError": 3.6801294366617388e-06,
+      "morphError": 1.0172214113451057e-05,
+      "finite": true
+    },
+    {
+      "state": "hold-resume",
+      "time": 23.541666666666668,
+      "matrixError": 3.905393317460426e-06,
+      "morphError": 5.0861066019920535e-06,
+      "finite": true
+    },
+    {
+      "state": "release",
+      "time": 24.041666666666668,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 2.543053983096238e-06,
+      "finite": true
+    },
+    {
+      "state": "seat-quarter",
+      "time": 24.541666666666668,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 5.0861066019920535e-06,
+      "finite": true
+    },
+    {
+      "state": "seat-three-quarter",
+      "time": 25.041666666666668,
+      "matrixError": 4.368876892448386e-07,
+      "morphError": 2.543051482062353e-06,
+      "finite": true
+    },
+    {
+      "state": "seat-lowhead",
+      "time": 25.541666666666668,
+      "matrixError": 4.6701074790655994e-07,
+      "morphError": 4.958954937355896e-07,
+      "finite": true
+    },
+    {
+      "state": "seat-shift-L",
+      "time": 26.041666666666668,
+      "matrixError": 2.96832719404172e-07,
+      "morphError": 1.6953700799487992e-06,
+      "finite": true
+    },
+    {
+      "state": "seat-shift-R",
+      "time": 26.541666666666668,
+      "matrixError": 1.5928386157548768e-06,
+      "morphError": 1.5258323443845256e-05,
+      "finite": true
+    },
+    {
+      "state": "hold-conflict-L",
+      "time": 27.041666666666668,
+      "matrixError": 5.615424489655381e-07,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "hold-conflict-R",
+      "time": 27.541666666666668,
+      "matrixError": 2.001279706898007e-06,
+      "morphError": 9.748373412396633e-06,
+      "finite": true
+    },
+    {
+      "state": "extreme-face",
+      "time": 28.041666666666668,
+      "matrixError": 4.3845492929406316e-06,
+      "morphError": 1.2715266504925715e-05,
+      "finite": true
+    },
+    {
+      "state": "stroke-belly-start",
+      "time": 28.541666666666668,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 2.331132041011319e-06,
+      "finite": true
+    },
+    {
+      "state": "stroke-belly-end",
+      "time": 29.041666666666668,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 2.331132041011319e-06,
+      "finite": true
+    },
+    {
+      "state": "stroke-reverse",
+      "time": 29.541666666666668,
+      "matrixError": 3.3696984667672482e-06,
+      "morphError": 1.0172214113451057e-05,
+      "finite": true
+    },
+    {
+      "state": "stroke-cheek-L",
+      "time": 30.041666666666668,
+      "matrixError": 3.883118817937792e-06,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "stroke-cheek-R",
+      "time": 30.541666666666668,
+      "matrixError": 3.905393317460426e-06,
+      "morphError": 5.0861066019920535e-06,
+      "finite": true
+    },
+    {
+      "state": "stroke-forehead",
+      "time": 31.041666666666668,
+      "matrixError": 2.655704577358975e-07,
+      "morphError": 5.086107966192476e-06,
+      "finite": true
+    },
+    {
+      "state": "interrupt-return",
+      "time": 31.541666666666668,
+      "matrixError": 1.4910424466461902e-06,
+      "morphError": 5.0861066019920535e-06,
+      "finite": true
+    },
+    {
+      "state": "capability-neutral-return",
+      "time": 32.041666666666664,
+      "matrixError": 6.239607288072158e-07,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "proxy-both-acquire",
+      "time": 32.541666666666664,
+      "matrixError": 7.720090583085426e-06,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "proxy-both-seat",
+      "time": 33.041666666666664,
+      "matrixError": 1.1341754020525772e-06,
+      "morphError": 2.0344428226848343e-05,
+      "finite": true
+    },
+    {
+      "state": "proxy-both-interrupt",
+      "time": 33.541666666666664,
+      "matrixError": 6.469010675747011e-07,
+      "morphError": 3.0516646887690513e-05,
+      "finite": true
+    },
+    {
+      "state": "proxy-both-resume",
+      "time": 34.041666666666664,
+      "matrixError": 7.212698336922507e-07,
+      "morphError": 1.0172205928249411e-05,
+      "finite": true
+    },
+    {
+      "state": "proxy-both-release",
+      "time": 34.541666666666664,
+      "matrixError": 6.689666217363222e-07,
+      "morphError": 5.0861066019924905e-06,
+      "finite": true
+    },
+    {
+      "state": "food-small",
+      "time": 35.041666666666664,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 1.0172205928249411e-05,
+      "finite": true
+    },
+    {
+      "state": "food-multi-a",
+      "time": 35.541666666666664,
+      "matrixError": 7.678380276328925e-06,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "food-multi-close",
+      "time": 36.041666666666664,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 2.5430533010517564e-06,
+      "finite": true
+    },
+    {
+      "state": "food-multi-b",
+      "time": 36.541666666666664,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 4.874186251502266e-06,
+      "finite": true
+    },
+    {
+      "state": "food-lick",
+      "time": 37.041666666666664,
+      "matrixError": 7.857234148402059e-06,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "food-drink",
+      "time": 37.541666666666664,
+      "matrixError": 9.161263139212394e-07,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "food-large",
+      "time": 38.041666666666664,
+      "matrixError": 7.857234148402059e-06,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "food-cancel",
+      "time": 38.541666666666664,
+      "matrixError": 9.161263139212394e-07,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "food-resume",
+      "time": 39.041666666666664,
+      "matrixError": 2.0877310547007255e-07,
+      "morphError": 4.874186251502266e-06,
+      "finite": true
+    },
+    {
+      "state": "food-return",
+      "time": 39.541666666666664,
+      "matrixError": 1.0861991351640565e-06,
+      "morphError": 1.0172213203984981e-05,
+      "finite": true
+    },
+    {
+      "state": "neutral-return",
+      "time": 40.041666666666664,
+      "matrixError": 2.97023200757085e-07,
+      "morphError": 2.0344428226848343e-05,
+      "finite": true
+    }
+  ],
+  "missing": [],
+  "maxMatrixError": 7.857234148402059e-06,
+  "maxMorphError": 3.0516646887690513e-05,
+  "advance": [
+    {
+      "joint": "mixamorig:Head",
+      "beforeTime": 0,
+      "afterTime": 0.14990000000000148,
+      "worldMatrixDelta": 0.05590420216321945
+    },
+    {
+      "joint": "mixamorig:LeftForeArm",
+      "beforeTime": 21.14166666666667,
+      "afterTime": 21.275366666666663,
+      "worldMatrixDelta": 0.7529743020422757
+    }
+  ],
+  "scope": "Container/texture/clip/morph/joint/anchor acceptance only. Full skin HOLD: stock 2.22.2 loader omits JOINTS_1/WEIGHTS_1.",
+  "gate": "PASS bounded loading/animation/morph/anchor/texture"
+}

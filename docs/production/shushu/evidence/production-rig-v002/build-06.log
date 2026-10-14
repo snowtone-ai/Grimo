@@ -1,0 +1,55 @@
+00:10.343  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v001.blend"
+
+Error in PyDriver: expression failed: (0.05438232421875+(0.0017722100019454956)*s)+min(l,r)*((-0.00023508512822445482)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(-1.1734137217445095e-08)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(-0.0044844006188213825)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-
+For target: (type=Object, name="ANCHOR_Hold.R", property=location, property_index=0)
+
+  File "<bpy driver>", line 1
+    (0.05438232421875+(0.0017722100019454956)*s)+min(l,r)*((-0.00023508512822445482)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(-1.1734137217445095e-08)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(-0.0044844006188213825)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-
+                                                                                                                                                                                                                                                                ^
+SyntaxError: '(' was never closed
+
+Error in PyDriver: expression failed: (0.059917137026786804+(0.005928114056587219)*s)+min(l,r)*((0.00023924760171212256)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(0.0)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.0044714719988405704)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1))))+(0.001197554
+For target: (type=Object, name="ANCHOR_Hold.L", property=location, property_index=0)
+
+  File "<bpy driver>", line 1
+    (0.059917137026786804+(0.005928114056587219)*s)+min(l,r)*((0.00023924760171212256)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(0.0)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.0044714719988405704)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1))))+(0.001197554
+                                                                                                                                                                                                                                                       ^
+SyntaxError: '(' was never closed
+
+Error in PyDriver: expression failed: (-0.016803709790110588+(-0.020238110795617104)*s)+min(l,r)*((4.509539394348394e-06)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(-3.3091784867878005e-09)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(-0.0011844303226098418)*(max(0,1-abs(s-0)/.5)*max(0,1-abs
+For target: (type=Object, name="ANCHOR_Hold.R", property=location, property_index=1)
+
+  File "<bpy driver>", line 1
+    (-0.016803709790110588+(-0.020238110795617104)*s)+min(l,r)*((4.509539394348394e-06)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(-3.3091784867878005e-09)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(-0.0011844303226098418)*(max(0,1-abs(s-0)/.5)*max(0,1-abs
+                                                                                                                                                                                                                                                           ^
+SyntaxError: '(' was never closed
+
+Error in PyDriver: expression failed: (-0.021016530692577362+(-0.0026720017194747925)*s)+min(l,r)*((-6.206443504197523e-05)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(0.0)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.0008860642556101084)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1))))+(-0.00023
+For target: (type=Object, name="ANCHOR_Hold.L", property=location, property_index=1)
+
+  File "<bpy driver>", line 1
+    (-0.021016530692577362+(-0.0026720017194747925)*s)+min(l,r)*((-6.206443504197523e-05)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(0.0)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.0008860642556101084)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1))))+(-0.00023
+                                                                                                                                                                                                                                                          ^
+SyntaxError: '(' was never closed
+
+Error in PyDriver: expression failed: (-0.04781442880630493+(0.0019974485039711)*s)+min(l,r)*((0.00011959387484239414)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(-2.719443870091709e-08)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.0020260366145521402)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1
+For target: (type=Object, name="ANCHOR_Hold.R", property=location, property_index=2)
+
+  File "<bpy driver>", line 1
+    (-0.04781442880630493+(0.0019974485039711)*s)+min(l,r)*((0.00011959387484239414)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(-2.719443870091709e-08)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.0020260366145521402)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1
+                                                                                                                                                                                                                                                                 ^
+SyntaxError: '(' was never closed
+
+Error in PyDriver: expression failed: (-0.03163236379623413+(0.017156999558210373)*s)+min(l,r)*((9.213294833898544e-05)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(0.0)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.002199664944782853)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1))))+(0.00018036410
+For target: (type=Object, name="ANCHOR_Hold.L", property=location, property_index=2)
+
+  File "<bpy driver>", line 1
+    (-0.03163236379623413+(0.017156999558210373)*s)+min(l,r)*((9.213294833898544e-05)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(-1))))+(0.0)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(0))))+(0.002199664944782853)*(max(0,1-abs(s-0)/.5)*max(0,1-abs(w-(1))))+(0.00018036410
+                                                                                                                                                                                                                                                     ^
+SyntaxError: '(' was never closed
+Info: No new files have been packed
+Info: Saved as "shushu-v006-production-rig-v002.blend"
+V002_SAVED
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

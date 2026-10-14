@@ -1,0 +1,247 @@
+[
+  {
+    "state": "neutral",
+    "view": "front",
+    "mean_abs_RGB_255": 0.0007861328125,
+    "max_abs_RGB": 8.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral",
+    "view": "3q-L",
+    "mean_abs_RGB_255": 0.0010270182291666667,
+    "max_abs_RGB": 11.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral",
+    "view": "3q-R",
+    "mean_abs_RGB_255": 0.0007486979166666667,
+    "max_abs_RGB": 8.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral",
+    "view": "left",
+    "mean_abs_RGB_255": 0.0005818684895833333,
+    "max_abs_RGB": 10.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral",
+    "view": "right",
+    "mean_abs_RGB_255": 0.00045654296875,
+    "max_abs_RGB": 11.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat",
+    "view": "front",
+    "mean_abs_RGB_255": 0.00089599609375,
+    "max_abs_RGB": 23.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat",
+    "view": "3q-L",
+    "mean_abs_RGB_255": 0.00088623046875,
+    "max_abs_RGB": 13.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat",
+    "view": "3q-R",
+    "mean_abs_RGB_255": 0.0007755533854166667,
+    "max_abs_RGB": 31.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat",
+    "view": "left",
+    "mean_abs_RGB_255": 0.0006795247395833333,
+    "max_abs_RGB": 9.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat",
+    "view": "right",
+    "mean_abs_RGB_255": 0.0006437174479166667,
+    "max_abs_RGB": 11.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-rest",
+    "view": "front",
+    "mean_abs_RGB_255": 0.0009236653645833333,
+    "max_abs_RGB": 23.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-rest",
+    "view": "3q-L",
+    "mean_abs_RGB_255": 0.0009334309895833333,
+    "max_abs_RGB": 11.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-rest",
+    "view": "3q-R",
+    "mean_abs_RGB_255": 0.0007454427083333333,
+    "max_abs_RGB": 31.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-rest",
+    "view": "left",
+    "mean_abs_RGB_255": 0.0006697591145833333,
+    "max_abs_RGB": 10.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-rest",
+    "view": "right",
+    "mean_abs_RGB_255": 0.0006217447916666667,
+    "max_abs_RGB": 10.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-joy",
+    "view": "front",
+    "mean_abs_RGB_255": 0.00084228515625,
+    "max_abs_RGB": 23.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-joy",
+    "view": "3q-L",
+    "mean_abs_RGB_255": 0.000859375,
+    "max_abs_RGB": 13.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-joy",
+    "view": "3q-R",
+    "mean_abs_RGB_255": 0.0007845052083333333,
+    "max_abs_RGB": 31.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-joy",
+    "view": "left",
+    "mean_abs_RGB_255": 0.00068115234375,
+    "max_abs_RGB": 9.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "seat-joy",
+    "view": "right",
+    "mean_abs_RGB_255": 0.0006339518229166667,
+    "max_abs_RGB": 11.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "extreme-face",
+    "view": "front",
+    "mean_abs_RGB_255": 0.0009749348958333333,
+    "max_abs_RGB": 27.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "extreme-face",
+    "view": "3q-L",
+    "mean_abs_RGB_255": 0.0010302734375,
+    "max_abs_RGB": 20.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "extreme-face",
+    "view": "3q-R",
+    "mean_abs_RGB_255": 0.0009407552083333334,
+    "max_abs_RGB": 12.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "extreme-face",
+    "view": "left",
+    "mean_abs_RGB_255": 0.0006453450520833334,
+    "max_abs_RGB": 38.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "extreme-face",
+    "view": "right",
+    "mean_abs_RGB_255": 0.0007698567708333333,
+    "max_abs_RGB": 27.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "stroke-belly-end",
+    "view": "front",
+    "mean_abs_RGB_255": 0.0009147135416666666,
+    "max_abs_RGB": 29.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "stroke-belly-end",
+    "view": "3q-L",
+    "mean_abs_RGB_255": 0.0009025065104166667,
+    "max_abs_RGB": 13.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "stroke-belly-end",
+    "view": "3q-R",
+    "mean_abs_RGB_255": 0.0007462565104166667,
+    "max_abs_RGB": 31.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "stroke-belly-end",
+    "view": "left",
+    "mean_abs_RGB_255": 0.0007071940104166666,
+    "max_abs_RGB": 9.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "stroke-belly-end",
+    "view": "right",
+    "mean_abs_RGB_255": 0.0005476888020833333,
+    "max_abs_RGB": 12.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral-return",
+    "view": "front",
+    "mean_abs_RGB_255": 0.0007861328125,
+    "max_abs_RGB": 8.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral-return",
+    "view": "3q-L",
+    "mean_abs_RGB_255": 0.0010270182291666667,
+    "max_abs_RGB": 11.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral-return",
+    "view": "3q-R",
+    "mean_abs_RGB_255": 0.0007486979166666667,
+    "max_abs_RGB": 8.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral-return",
+    "view": "left",
+    "mean_abs_RGB_255": 0.0005818684895833333,
+    "max_abs_RGB": 10.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  },
+  {
+    "state": "neutral-return",
+    "view": "right",
+    "mean_abs_RGB_255": 0.00045654296875,
+    "max_abs_RGB": 11.0,
+    "note": "Render-path/normal/light differences are visual evidence; numeric vertex and texture audits decide interchange integrity"
+  }
+]

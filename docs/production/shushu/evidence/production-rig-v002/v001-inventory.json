@@ -1,0 +1,409 @@
+{
+  "meshes": [
+    {
+      "name": "ShushuStatic_Ear_L",
+      "bounds": [
+        [
+          0.10423274338245392,
+          -0.016784725710749626,
+          0.7560425400733948
+        ],
+        [
+          0.3533324599266052,
+          0.18815602362155914,
+          0.9998780488967896
+        ]
+      ],
+      "keys": [],
+      "drivers": 0
+    },
+    {
+      "name": "ShushuStatic_Ear_R",
+      "bounds": [
+        [
+          -0.35333263874053955,
+          -0.016778917983174324,
+          0.75640869140625
+        ],
+        [
+          -0.10422524809837341,
+          0.1881408542394638,
+          1.0000001192092896
+        ]
+      ],
+      "keys": [],
+      "drivers": 0
+    },
+    {
+      "name": "ShushuStatic_Eye_L",
+      "bounds": [
+        [
+          0.06338490545749664,
+          -0.19690127670764923,
+          0.5926513075828552
+        ],
+        [
+          0.19667048752307892,
+          -0.055444709956645966,
+          0.73773193359375
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "GazeLeft.L",
+        "GazeRight.L",
+        "GazeUp.L",
+        "GazeDown.L",
+        "Corrective.ClosedRetraction.L",
+        "Corrective.ClosedSeal.L"
+      ],
+      "drivers": 6
+    },
+    {
+      "name": "ShushuStatic_Eye_R",
+      "bounds": [
+        [
+          -0.19667066633701324,
+          -0.1969318389892578,
+          0.5926513075828552
+        ],
+        [
+          -0.06338512897491455,
+          -0.055448561906814575,
+          0.73773193359375
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "GazeLeft.R",
+        "GazeRight.R",
+        "GazeUp.R",
+        "GazeDown.R",
+        "Corrective.ClosedRetraction.R",
+        "Corrective.ClosedSeal.R"
+      ],
+      "drivers": 6
+    },
+    {
+      "name": "ShushuStatic_Head",
+      "bounds": [
+        [
+          -0.30444344878196716,
+          -0.2716979384422302,
+          0.47470083832740784
+        ],
+        [
+          0.3049926459789276,
+          0.2870787978172302,
+          0.9458009004592896
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Blink.L",
+        "Blink.R",
+        "Corrective.HalfBlink.L",
+        "Corrective.HalfBlink.R",
+        "Smile",
+        "JoyLids",
+        "MouthOpen",
+        "Surprise",
+        "CheekPressure.L",
+        "CheekPressure.R",
+        "Hesitate",
+        "Discomfort",
+        "MouthClose",
+        "Corrective.MouthCavity"
+      ],
+      "drivers": 14
+    },
+    {
+      "name": "ShushuStatic_LidWall_L",
+      "bounds": [
+        [
+          0.08183278143405914,
+          -0.1910552978515625,
+          0.6127318739891052
+        ],
+        [
+          0.17826835811138153,
+          -0.11813357472419739,
+          0.71759033203125
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Blink.L",
+        "Corrective.HalfBlink.L",
+        "Smile",
+        "JoyLids"
+      ],
+      "drivers": 4
+    },
+    {
+      "name": "ShushuStatic_LidWall_R",
+      "bounds": [
+        [
+          -0.17826855182647705,
+          -0.19122308492660522,
+          0.6127318739891052
+        ],
+        [
+          -0.08183300495147705,
+          -0.11818690598011017,
+          0.71759033203125
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Blink.R",
+        "Corrective.HalfBlink.R",
+        "Smile",
+        "JoyLids"
+      ],
+      "drivers": 4
+    },
+    {
+      "name": "ShushuStatic_MouthInterior",
+      "bounds": [
+        [
+          -0.026207109913229942,
+          -0.2665099501609802,
+          0.6008300185203552
+        ],
+        [
+          0.026206841692328453,
+          -0.2446288764476776,
+          0.6057128310203552
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Smile",
+        "MouthOpen",
+        "Surprise",
+        "MouthClose",
+        "Tongue"
+      ],
+      "drivers": 5
+    },
+    {
+      "name": "ShushuStatic_Nose",
+      "bounds": [
+        [
+          -0.018058914691209793,
+          -0.2870787978172302,
+          0.6062011122703552
+        ],
+        [
+          0.018058642745018005,
+          -0.2626342177391052,
+          0.6505126953125
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Smile",
+        "MouthOpen",
+        "Surprise"
+      ],
+      "drivers": 3
+    },
+    {
+      "name": "ShushuStatic_OralBowl",
+      "bounds": [
+        [
+          -0.022999977692961693,
+          -0.011999992653727531,
+          -0.01600000075995922
+        ],
+        [
+          0.022999992594122887,
+          0.012000000104308128,
+          0.01600000075995922
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Corrective.ClosedOralRetraction"
+      ],
+      "drivers": 1
+    },
+    {
+      "name": "ShushuStatic_Paw_L",
+      "bounds": [
+        [
+          0.11193836480379105,
+          -0.11328888684511185,
+          0.2891235649585724
+        ],
+        [
+          0.3806151747703552,
+          0.09244530647993088,
+          0.5138550400733948
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Corrective.Hold025.Seat0",
+        "Corrective.Hold025.Seat1",
+        "Corrective.Hold050.Seat0",
+        "Corrective.Hold050.Seat1",
+        "Corrective.Hold075.Seat0",
+        "Corrective.Hold075.Seat1",
+        "Corrective.Hold100.Seat0",
+        "Corrective.Hold100.Seat1",
+        "Corrective.Offer025.Seat0",
+        "Corrective.Offer025.Seat1",
+        "Corrective.Offer050.Seat0",
+        "Corrective.Offer050.Seat1",
+        "Corrective.Offer075.Seat0",
+        "Corrective.Offer075.Seat1",
+        "Corrective.Offer100.Seat0",
+        "Corrective.Offer100.Seat1",
+        "Corrective.SelfContact025.Seat0",
+        "Corrective.SelfContact025.Seat1",
+        "Corrective.SelfContact050.Seat0",
+        "Corrective.SelfContact050.Seat1",
+        "Corrective.SelfContact075.Seat0",
+        "Corrective.SelfContact075.Seat1",
+        "Corrective.SelfContact100.Seat0",
+        "Corrective.SelfContact100.Seat1"
+      ],
+      "drivers": 24
+    },
+    {
+      "name": "ShushuStatic_Paw_R",
+      "bounds": [
+        [
+          -0.38061532378196716,
+          -0.11328879743814468,
+          0.28912344574928284
+        ],
+        [
+          -0.11187749356031418,
+          0.0924530103802681,
+          0.5138549208641052
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Corrective.Hold025.Seat0",
+        "Corrective.Hold025.Seat1",
+        "Corrective.Hold050.Seat0",
+        "Corrective.Hold050.Seat1",
+        "Corrective.Hold075.Seat0",
+        "Corrective.Hold075.Seat1",
+        "Corrective.Hold100.Seat0",
+        "Corrective.Hold100.Seat1",
+        "Corrective.Offer025.Seat0",
+        "Corrective.Offer025.Seat1",
+        "Corrective.Offer050.Seat0",
+        "Corrective.Offer050.Seat1",
+        "Corrective.Offer075.Seat0",
+        "Corrective.Offer075.Seat1",
+        "Corrective.Offer100.Seat0",
+        "Corrective.Offer100.Seat1",
+        "Corrective.SelfContact025.Seat0",
+        "Corrective.SelfContact025.Seat1",
+        "Corrective.SelfContact050.Seat0",
+        "Corrective.SelfContact050.Seat1",
+        "Corrective.SelfContact075.Seat0",
+        "Corrective.SelfContact075.Seat1",
+        "Corrective.SelfContact100.Seat0",
+        "Corrective.SelfContact100.Seat1"
+      ],
+      "drivers": 24
+    },
+    {
+      "name": "ShushuStatic_Tongue",
+      "bounds": [
+        [
+          -0.010999994352459908,
+          -0.006999998353421688,
+          -0.0035000001080334187
+        ],
+        [
+          0.010999998077750206,
+          0.007000000216066837,
+          0.0035000001080334187
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "Tongue",
+        "Corrective.ClosedOralRetraction"
+      ],
+      "drivers": 2
+    },
+    {
+      "name": "ShushuStatic_Torso",
+      "bounds": [
+        [
+          -0.2447344809770584,
+          -0.24803157150745392,
+          1.0552838602961856e-08
+        ],
+        [
+          0.24470512568950653,
+          0.25241053104400635,
+          0.5185547471046448
+        ]
+      ],
+      "keys": [
+        "Basis",
+        "BellyPressure",
+        "Breath",
+        "Corrective.SeatVolume025",
+        "Corrective.SeatVolume050",
+        "Corrective.SeatVolume075",
+        "Corrective.SeatVolume100"
+      ],
+      "drivers": 6
+    }
+  ],
+  "bone_count": 67,
+  "properties": {
+    "Seat": 0.0,
+    "Rest": 0.0,
+    "Blink.L": 0.0,
+    "Blink.R": 0.0,
+    "Smile": 0.0,
+    "Joy": 0.0,
+    "Surprise": 0.0,
+    "Hesitate": 0.0,
+    "Discomfort": 0.0,
+    "MouthClose": 0.0,
+    "MouthOpen": 0.0,
+    "Tongue": 0.0,
+    "CheekPressure.L": 0.0,
+    "CheekPressure.R": 0.0,
+    "BellyPressure": 0.0,
+    "Breath": 0.0,
+    "Hold.L": 0.0,
+    "Hold.R": 0.0,
+    "Offer.L": 0.0,
+    "Offer.R": 0.0,
+    "SelfContact.L": 0.0,
+    "SelfContact.R": 0.0,
+    "FootLift.L": 0.0,
+    "FootLift.R": 0.0,
+    "WeightShift": 0.0,
+    "HeadYaw": 0.0,
+    "HeadPitch": 0.0,
+    "HeadRoll": 0.0,
+    "NeckPitch": 0.0,
+    "Ear.L": 0.0,
+    "Ear.R": 0.0,
+    "Wrist.L": 0.0,
+    "Wrist.R": 0.0,
+    "FootSide.L": 0.0,
+    "FootSide.R": 0.0,
+    "FootForward.L": 0.0,
+    "FootForward.R": 0.0,
+    "GazeX.L": 0.0,
+    "GazeX.R": 0.0,
+    "GazeY.L": 0.0,
+    "GazeY.R": 0.0
+  }
+}
