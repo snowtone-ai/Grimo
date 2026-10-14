@@ -1,0 +1,258 @@
+{
+  "asset_sha256": "780f1f9c3ebd6a39050500398f190ff21e6c18c7de4c7c0730040ab1cdf41309",
+  "blender": "5.2.1 LTS",
+  "cameras": {
+    "body-front": {
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "scale": 1.14,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "resolution": 768,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "body-left-three-quarter": {
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "scale": 1.14,
+      "direction": [
+        -0.7071067811865476,
+        -0.7071067811865476,
+        0
+      ],
+      "resolution": 768,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "body-right-three-quarter": {
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "scale": 1.14,
+      "direction": [
+        0.7071067811865476,
+        -0.7071067811865476,
+        0
+      ],
+      "resolution": 768,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "body-left-side": {
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "scale": 1.14,
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "resolution": 768,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "body-right-side": {
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "scale": 1.14,
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "resolution": 768,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "eyes-front": {
+      "target": [
+        0,
+        -0.17,
+        0.67
+      ],
+      "scale": 0.48,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "mouth-front": {
+      "target": [
+        0,
+        -0.22,
+        0.58
+      ],
+      "scale": 0.185,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "mouth-left-side": {
+      "target": [
+        0,
+        -0.22,
+        0.58
+      ],
+      "scale": 0.185,
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "mouth-right-side": {
+      "target": [
+        0,
+        -0.22,
+        0.58
+      ],
+      "scale": 0.185,
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "original materials / AgX -0.5"
+    },
+    "face-front": {
+      "target": [
+        0,
+        0,
+        0.712
+      ],
+      "scale": 0.72,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "base color emission / Standard"
+    },
+    "face-left-three-quarter": {
+      "target": [
+        0,
+        0,
+        0.712
+      ],
+      "scale": 0.72,
+      "direction": [
+        -0.7071067811865476,
+        -0.7071067811865476,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "base color emission / Standard"
+    },
+    "face-right-three-quarter": {
+      "target": [
+        0,
+        0,
+        0.712
+      ],
+      "scale": 0.72,
+      "direction": [
+        0.7071067811865476,
+        -0.7071067811865476,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "base color emission / Standard"
+    },
+    "face-left-side": {
+      "target": [
+        0,
+        0,
+        0.712
+      ],
+      "scale": 0.72,
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "base color emission / Standard"
+    },
+    "face-right-side": {
+      "target": [
+        0,
+        0,
+        0.712
+      ],
+      "scale": 0.72,
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "resolution": 1024,
+      "samples": 16,
+      "seed": 0,
+      "engine": "CYCLES",
+      "mode": "base color emission / Standard"
+    }
+  }
+}

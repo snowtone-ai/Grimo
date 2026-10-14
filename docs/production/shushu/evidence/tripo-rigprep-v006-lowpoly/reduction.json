@@ -1,0 +1,168 @@
+{
+  "source": "assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-mouth-candidate-v006.glb",
+  "source_sha256": "9c479122232170f65a0f5976cf2c07180cf342c08f37a95d50b53a90ff34f10f",
+  "output": "assets/grimo/production/shushu/tripo/geometry-v003/rigprep/shushu-v006-rigprep-lowpoly-v001.glb",
+  "output_sha256": "780f1f9c3ebd6a39050500398f190ff21e6c18c7de4c7c0730040ab1cdf41309",
+  "meshoptimizer": "1.2.0",
+  "method": "simplifyWithAttributes; source vertices retained exactly; no texture transfer",
+  "flags": [
+    "LockBorder",
+    "RegularizeLight"
+  ],
+  "weights": [
+    0.1,
+    0.1,
+    0.1,
+    0.2,
+    0.2
+  ],
+  "target_error": 0.003,
+  "records": [
+    {
+      "name": "ShushuStatic_Ear_L",
+      "before": 4204,
+      "after": 4204,
+      "vertices": 2223,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 4204
+    },
+    {
+      "name": "ShushuStatic_Ear_R",
+      "before": 4238,
+      "after": 4238,
+      "vertices": 2199,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 4238
+    },
+    {
+      "name": "ShushuStatic_Eye_R",
+      "before": 1408,
+      "after": 1408,
+      "vertices": 801,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 1408
+    },
+    {
+      "name": "ShushuStatic_Eye_L",
+      "before": 1408,
+      "after": 1408,
+      "vertices": 779,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 1408
+    },
+    {
+      "name": "ShushuStatic_Head",
+      "before": 88639,
+      "after": 63619,
+      "vertices": 34637,
+      "locked_vertices": 32788,
+      "protected_faces": 60176,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0.0029969578608870506,
+      "target": 35000
+    },
+    {
+      "name": "ShushuStatic_LidWall_L",
+      "before": 832,
+      "after": 832,
+      "vertices": 627,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 832
+    },
+    {
+      "name": "ShushuStatic_LidWall_R",
+      "before": 840,
+      "after": 840,
+      "vertices": 713,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 840
+    },
+    {
+      "name": "ShushuStatic_MouthInterior",
+      "before": 768,
+      "after": 768,
+      "vertices": 450,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 768
+    },
+    {
+      "name": "ShushuStatic_Nose",
+      "before": 7008,
+      "after": 7008,
+      "vertices": 3740,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 7008
+    },
+    {
+      "name": "ShushuStatic_Paw_L",
+      "before": 2976,
+      "after": 2976,
+      "vertices": 1681,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 2976
+    },
+    {
+      "name": "ShushuStatic_Paw_R",
+      "before": 2986,
+      "after": 2986,
+      "vertices": 1716,
+      "locked_vertices": 0,
+      "protected_faces": 0,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 0,
+      "attribute_error": 0,
+      "target": 2986
+    },
+    {
+      "name": "ShushuStatic_Torso",
+      "before": 408376,
+      "after": 9278,
+      "vertices": 5621,
+      "locked_vertices": 1887,
+      "protected_faces": 219,
+      "protected_faces_lost": 0,
+      "degenerate_repair_passes": 1,
+      "attribute_error": 0.002996965544298291,
+      "target": 9000
+    }
+  ],
+  "total_before": 523683,
+  "total_after": 99565
+}

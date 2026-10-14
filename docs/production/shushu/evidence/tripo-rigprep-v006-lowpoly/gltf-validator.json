@@ -1,0 +1,26 @@
+{
+  "file": "C:\\Users\\chidj\\project\\プロダクト\\Grimo\\assets\\grimo\\production\\shushu\\tripo\\geometry-v003\\rigprep\\shushu-v006-rigprep-lowpoly-v001.glb",
+  "validator": {
+    "errors": 0,
+    "warnings": 0,
+    "infos": 1,
+    "messages": [
+      {
+        "code": "UNSUPPORTED_EXTENSION",
+        "severity": 2,
+        "message": "Cannot validate an extension as it is not supported by the validator: 'FB_ngon_encoding'.",
+        "pointer": "/extensionsUsed/1"
+      }
+    ]
+  },
+  "metrics": {
+    "fileSizeBytes": 6071060,
+    "triangleCount": 99565,
+    "vertexCount": 55187,
+    "materialCount": 12,
+    "textureCount": 12,
+    "deformBoneCount": 0,
+    "morphTargetCount": 0,
+    "animationClips": []
+  }
+}

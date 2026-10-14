@@ -1,0 +1,587 @@
+{
+  "source_sha256": "9c479122232170f65a0f5976cf2c07180cf342c08f37a95d50b53a90ff34f10f",
+  "candidate_sha256": "780f1f9c3ebd6a39050500398f190ff21e6c18c7de4c7c0730040ab1cdf41309",
+  "triangles": 99565,
+  "all_12_image_bytes_identical": true,
+  "materials_nodes_textures_samplers_identical": true,
+  "source_vertex_position_normal_uv_rows_retained_exactly": true,
+  "protected_inputs": 991,
+  "protected_changes": [],
+  "meshes": [
+    {
+      "name": "ShushuStatic_Ear_L",
+      "triangles": 4204,
+      "vertices": 2223,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 1.3267557505969307e-06,
+      "normal_length_range": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.000244140625,
+          0.000244140625
+        ],
+        [
+          0.883056640625,
+          0.999755859375
+        ]
+      ],
+      "bounds": [
+        [
+          0.10423276573419571,
+          0.75604248046875,
+          -0.18815617263317108
+        ],
+        [
+          0.3533324897289276,
+          0.9998779296875,
+          0.016784626990556717
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Ear_R",
+      "triangles": 4238,
+      "vertices": 2199,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 1.1059345439434765e-07,
+      "normal_length_range": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.001708984375,
+          0.000244140625
+        ],
+        [
+          0.999755859375,
+          0.998291015625
+        ]
+      ],
+      "bounds": [
+        [
+          -0.3533325493335724,
+          0.756439208984375,
+          -0.1881408542394638
+        ],
+        [
+          -0.10422518104314804,
+          1.0,
+          0.01677894964814186
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Eye_R",
+      "triangles": 1408,
+      "vertices": 801,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 1.995680349864415e-06,
+      "normal_length_range": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.000732421875,
+          0.014892578125
+        ],
+        [
+          0.999267578125,
+          0.999267578125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.1966705322265625,
+          0.5926437377929688,
+          0.055450454354286194
+        ],
+        [
+          -0.0633849948644638,
+          0.7377166748046875,
+          0.1969299465417862
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Eye_L",
+      "triangles": 1408,
+      "vertices": 779,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 1.9990166038041934e-06,
+      "normal_length_range": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.00048828125,
+          0.03857421875
+        ],
+        [
+          0.99951171875,
+          0.99951171875
+        ]
+      ],
+      "bounds": [
+        [
+          0.0633850246667862,
+          0.5926437377929688,
+          0.05544659495353699
+        ],
+        [
+          0.1966705322265625,
+          0.7377166748046875,
+          0.1968993991613388
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Head",
+      "triangles": 63619,
+      "vertices": 34637,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 2.9105606813573104e-11,
+      "normal_length_range": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.00048828125,
+          0.00048828125
+        ],
+        [
+          0.96923828125,
+          0.99951171875
+        ]
+      ],
+      "bounds": [
+        [
+          -0.304443359375,
+          0.4747028350830078,
+          -0.287078857421875
+        ],
+        [
+          0.30499267578125,
+          0.945831298828125,
+          0.271697998046875
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 675,
+        "geometric_nonmanifold_edges": 62
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 675,
+        "geometric_nonmanifold_edges": 62
+      }
+    },
+    {
+      "name": "ShushuStatic_LidWall_L",
+      "triangles": 832,
+      "vertices": 627,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 8.156005151249701e-07,
+      "normal_length_range": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.000244140625,
+          0.000244140625
+        ],
+        [
+          0.17626953125,
+          0.999755859375
+        ]
+      ],
+      "bounds": [
+        [
+          0.0818329006433487,
+          0.6127166748046875,
+          0.11813351511955261
+        ],
+        [
+          0.1782684475183487,
+          0.717620849609375,
+          0.1910552829504013
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 416,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 416,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_LidWall_R",
+      "triangles": 840,
+      "vertices": 713,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 8.156005151249701e-07,
+      "normal_length_range": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.001220703125,
+          0.001220703125
+        ],
+        [
+          0.998779296875,
+          0.998779296875
+        ]
+      ],
+      "bounds": [
+        [
+          -0.1782684177160263,
+          0.6127166748046875,
+          0.11818696558475494
+        ],
+        [
+          -0.0818328708410263,
+          0.717620849609375,
+          0.1912231594324112
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 420,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 420,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_MouthInterior",
+      "triangles": 768,
+      "vertices": 450,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 3.036111806409281e-08,
+      "normal_length_range": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.001708984375,
+          0.069091796875
+        ],
+        [
+          0.998291015625,
+          0.998291015625
+        ]
+      ],
+      "bounds": [
+        [
+          -0.026206940412521362,
+          0.6008071899414062,
+          0.24462890625
+        ],
+        [
+          0.026207000017166138,
+          0.605712890625,
+          0.266510009765625
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 128,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 128,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Nose",
+      "triangles": 7008,
+      "vertices": 3740,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 2.9571237902814573e-08,
+      "normal_length_range": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.00341796875,
+          0.08544921875
+        ],
+        [
+          0.9970703125,
+          0.99658203125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.018058747053146362,
+          0.6062088012695312,
+          0.26263427734375
+        ],
+        [
+          0.018058806657791138,
+          0.650543212890625,
+          0.287078857421875
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Paw_L",
+      "triangles": 2976,
+      "vertices": 1681,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 2.6820671337191015e-06,
+      "normal_length_range": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.00048828125,
+          0.00048828125
+        ],
+        [
+          0.94921875,
+          0.99951171875
+        ]
+      ],
+      "bounds": [
+        [
+          0.1119384765625,
+          0.28912353515625,
+          -0.09244540333747864
+        ],
+        [
+          0.380615234375,
+          0.5138521194458008,
+          0.11328884959220886
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Paw_R",
+      "triangles": 2986,
+      "vertices": 1716,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 1.6600962453594548e-06,
+      "normal_length_range": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.000732421875,
+          0.00048828125
+        ],
+        [
+          0.994140625,
+          0.999267578125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.380615234375,
+          0.28912353515625,
+          -0.09245297312736511
+        ],
+        [
+          -0.11187744140625,
+          0.5138444900512695,
+          0.11328892409801483
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "all_triangle_attribute_corners_identical": true
+    },
+    {
+      "name": "ShushuStatic_Torso",
+      "triangles": 9278,
+      "vertices": 5621,
+      "source_attribute_rows_exact": true,
+      "degenerate_faces": 0,
+      "source_degenerate_faces": 0,
+      "minimum_area": 1.0474511924485341e-08,
+      "normal_length_range": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "uv_bounds": [
+        [
+          0.000732421875,
+          0.014404296875
+        ],
+        [
+          0.99951171875,
+          0.999267578125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.2447356879711151,
+          0.0,
+          -0.252410888671875
+        ],
+        [
+          0.2447052150964737,
+          0.5185413360595703,
+          0.2480316311120987
+        ]
+      ],
+      "topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "source_topology": {
+        "geometric_boundary_edges": 0,
+        "geometric_nonmanifold_edges": 0
+      },
+      "joint_bands": [
+        {
+          "height": 0.065,
+          "vertices_in_025_band": 394,
+          "triangles_in_025_band": 707
+        },
+        {
+          "height": 0.13,
+          "vertices_in_025_band": 663,
+          "triangles_in_025_band": 1170
+        },
+        {
+          "height": 0.205,
+          "vertices_in_025_band": 560,
+          "triangles_in_025_band": 1026
+        },
+        {
+          "height": 0.265,
+          "vertices_in_025_band": 213,
+          "triangles_in_025_band": 370
+        },
+        {
+          "height": 0.46,
+          "vertices_in_025_band": 483,
+          "triangles_in_025_band": 836
+        },
+        {
+          "height": 0.505,
+          "vertices_in_025_band": 511,
+          "triangles_in_025_band": 900
+        }
+      ],
+      "lower_leg_horizontal_gap": 0.0645751953125,
+      "edge_length_percentiles": [
+        0.015367669053375721,
+        0.028590717818588015,
+        0.03327110782265663,
+        0.04453719034790993
+      ],
+      "forearm_torso_horizontal_gaps_at_height_0295_0325": {
+        "ShushuStatic_Paw_L": -0.0134735107421875,
+        "ShushuStatic_Paw_R": -0.012725830078125
+      }
+    }
+  ],
+  "rig_animation_skin_counts": [
+    0,
+    0
+  ],
+  "gltf_y_up_front_positive_z": true,
+  "pose": "source standing A-like pose preserved; not a T pose; future Auto Rig acceptance UNKNOWN"
+}

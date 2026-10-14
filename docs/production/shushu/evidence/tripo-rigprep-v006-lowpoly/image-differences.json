@@ -1,0 +1,209 @@
+{
+  "same_cameras_lighting_resolution_samples_seed": true,
+  "source_sha256": "9c479122232170f65a0f5976cf2c07180cf342c08f37a95d50b53a90ff34f10f",
+  "candidate_sha256": "780f1f9c3ebd6a39050500398f190ff21e6c18c7de4c7c0730040ab1cdf41309",
+  "metrics": {
+    "body-front": {
+      "resolution": [
+        768,
+        768
+      ],
+      "mean_absolute_rgb_255": 0.17812036584924767,
+      "foreground_mean_absolute_rgb_255": 0.417226652808592,
+      "rgb_rmse_255": 0.8833062445687537,
+      "pixels_max_channel_gt3_percent": 1.6535441080729167,
+      "silhouette_mask_xor_pixels": 293,
+      "foreground_pixels": 250155
+    },
+    "body-left-three-quarter": {
+      "resolution": [
+        768,
+        768
+      ],
+      "mean_absolute_rgb_255": 0.1630379005714699,
+      "foreground_mean_absolute_rgb_255": 0.4409204439194842,
+      "rgb_rmse_255": 0.8135423196531382,
+      "pixels_max_channel_gt3_percent": 1.5380859375,
+      "silhouette_mask_xor_pixels": 354,
+      "foreground_pixels": 216736
+    },
+    "body-right-three-quarter": {
+      "resolution": [
+        768,
+        768
+      ],
+      "mean_absolute_rgb_255": 0.15958150227864584,
+      "foreground_mean_absolute_rgb_255": 0.4318266072898159,
+      "rgb_rmse_255": 0.8038629163535806,
+      "pixels_max_channel_gt3_percent": 1.4109293619791665,
+      "silhouette_mask_xor_pixels": 287,
+      "foreground_pixels": 216695
+    },
+    "body-left-side": {
+      "resolution": [
+        768,
+        768
+      ],
+      "mean_absolute_rgb_255": 0.11486872920283565,
+      "foreground_mean_absolute_rgb_255": 0.3694800147732472,
+      "rgb_rmse_255": 0.6365687309066582,
+      "pixels_max_channel_gt3_percent": 0.9331597222222222,
+      "silhouette_mask_xor_pixels": 510,
+      "foreground_pixels": 181409
+    },
+    "body-right-side": {
+      "resolution": [
+        768,
+        768
+      ],
+      "mean_absolute_rgb_255": 0.11866590711805555,
+      "foreground_mean_absolute_rgb_255": 0.3844284262082987,
+      "rgb_rmse_255": 0.6372275751774643,
+      "pixels_max_channel_gt3_percent": 0.8948432074652778,
+      "silhouette_mask_xor_pixels": 534,
+      "foreground_pixels": 180350
+    },
+    "face-front": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.08971405029296875,
+      "foreground_mean_absolute_rgb_255": 0.1202669412210003,
+      "rgb_rmse_255": 0.9961218337544316,
+      "pixels_max_channel_gt3_percent": 0.464630126953125,
+      "silhouette_mask_xor_pixels": 551,
+      "foreground_pixels": 774103,
+      "eye_right": {
+        "box": [
+          210,
+          450,
+          450,
+          695
+        ],
+        "mean_absolute_rgb_255": 0.0010714285714285715,
+        "max_rgb": 7.0,
+        "changed_pixels": 87
+      },
+      "eye_left": {
+        "box": [
+          575,
+          450,
+          815,
+          695
+        ],
+        "mean_absolute_rgb_255": 0.0008900226757369615,
+        "max_rgb": 4.0,
+        "changed_pixels": 70
+      },
+      "mouth": {
+        "box": [
+          410,
+          630,
+          615,
+          845
+        ],
+        "mean_absolute_rgb_255": 0.009831726224238986,
+        "max_rgb": 5.0,
+        "changed_pixels": 661
+      }
+    },
+    "face-left-three-quarter": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.0654910405476888,
+      "foreground_mean_absolute_rgb_255": 0.10503881213940386,
+      "rgb_rmse_255": 0.699233980208315,
+      "pixels_max_channel_gt3_percent": 0.3241539001464844,
+      "silhouette_mask_xor_pixels": 257,
+      "foreground_pixels": 650312
+    },
+    "face-right-three-quarter": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.08006000518798828,
+      "foreground_mean_absolute_rgb_255": 0.12856721027085885,
+      "rgb_rmse_255": 0.8730244815011163,
+      "pixels_max_channel_gt3_percent": 0.3780364990234375,
+      "silhouette_mask_xor_pixels": 320,
+      "foreground_pixels": 650228
+    },
+    "face-left-side": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.06514708201090495,
+      "foreground_mean_absolute_rgb_255": 0.1227810606293549,
+      "rgb_rmse_255": 0.6740212868518283,
+      "pixels_max_channel_gt3_percent": 0.22554397583007812,
+      "silhouette_mask_xor_pixels": 366,
+      "foreground_pixels": 552873
+    },
+    "face-right-side": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.07026418050130208,
+      "foreground_mean_absolute_rgb_255": 0.13253450053356003,
+      "rgb_rmse_255": 0.6550689241676453,
+      "pixels_max_channel_gt3_percent": 0.23412704467773438,
+      "silhouette_mask_xor_pixels": 367,
+      "foreground_pixels": 552890
+    },
+    "eyes-front": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.24930413564046225,
+      "foreground_mean_absolute_rgb_255": 0.24858873553058167,
+      "rgb_rmse_255": 1.1609047338723002,
+      "pixels_max_channel_gt3_percent": 2.3390769958496094,
+      "silhouette_mask_xor_pixels": 400,
+      "foreground_pixels": 1047583
+    },
+    "mouth-front": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.04999955495198568,
+      "foreground_mean_absolute_rgb_255": 0.05002200950607106,
+      "rgb_rmse_255": 0.3649492153563633,
+      "pixels_max_channel_gt3_percent": 0.39310455322265625,
+      "silhouette_mask_xor_pixels": 1,
+      "foreground_pixels": 1048032
+    },
+    "mouth-left-side": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.021225611368815105,
+      "foreground_mean_absolute_rgb_255": 0.021627159407994333,
+      "rgb_rmse_255": 0.24062573981893845,
+      "pixels_max_channel_gt3_percent": 0.1796722412109375,
+      "silhouette_mask_xor_pixels": 20,
+      "foreground_pixels": 1027828
+    },
+    "mouth-right-side": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "mean_absolute_rgb_255": 0.021564165751139324,
+      "foreground_mean_absolute_rgb_255": 0.03318948434541371,
+      "rgb_rmse_255": 0.23227890276089647,
+      "pixels_max_channel_gt3_percent": 0.16794204711914062,
+      "silhouette_mask_xor_pixels": 1,
+      "foreground_pixels": 681270
+    }
+  },
+  "limitations": "lit differences include path-traced sampling/indirect lighting; silhouette mask excludes background by RGB threshold, not geometric proof; image metrics do not grant Human approval"
+}
