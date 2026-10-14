@@ -1,5 +1,5 @@
 """Read-only source inspection and isolated renders; never opens production blends."""
-import json, struct, hashlib, io, sys
+import gzip, json, struct, hashlib, io, sys
 import subprocess, math
 from pathlib import Path
 
@@ -78,6 +78,9 @@ def render():
     camdata.type='ORTHO'; camdata.ortho_scale=(mx[0]-mn[0])*1.18
     views={'front':(0,-1,0),'left-three-quarter':(-.707,-.707,0),'right-three-quarter':(.707,-.707,0),'left-side':(-1,0,0),'right-side':(1,0,0)}
     if EYE_CONFIG: views.update(EYE_CONFIG.get('extra_views',{}))
+    if '--render-views' in sys.argv:
+        requested=sys.argv[sys.argv.index('--render-views')+1].split(',')
+        views={name:views[name] for name in requested}
     folder=OUT/'renders';folder.mkdir(exist_ok=True)
     cameras={}
     for name,direction in views.items():
@@ -163,7 +166,11 @@ def projection():
             hit,loc,normal,face=head.ray_cast(inverse@origin,inverse.to_3x3()@(-direction))
             if not hit or face!=tri.polygon_index:continue
             mapping[(int(x),int(y))]=[int(x),int(y),round(float(u),4),round(float(v),4)]
-    (OUT/(f'projection-map-{view}.json' if EYE_CONFIG and EYE_CONFIG.get('mode')=='fur-seam' else 'projection-map.json')).write_text(json.dumps(list(mapping.values()),separators=(',',':'))+'\n')
+    packed=json.dumps(list(mapping.values()),separators=(',',':'))+'\n'
+    if EYE_CONFIG and EYE_CONFIG.get('mode')=='fur-seam':
+        with gzip.open(OUT/f'projection-map-{view}.json.gz','wt',encoding='utf-8',compresslevel=6) as stream: stream.write(packed)
+    else:
+        (OUT/'projection-map.json').write_text(packed)
     print('Selected Head texels',len(mapping),flush=True)
 
 def boards():

@@ -1,0 +1,53 @@
+{
+  "base_sha256": "3eb85dcd3fa18d07874b36bbb7922d502bda1bf88855f3b79a91eb6a9a66b119",
+  "candidate_sha256": "a9c1681c5c245d15e0266002c2a618d607d1f6844cfe2bbecfa97827ca536982",
+  "same_mesh_uv_nodes_materials_and_other_structure": {
+    "meshes": true,
+    "accessors": true,
+    "nodes": true,
+    "materials": true,
+    "textures": true,
+    "samplers": true,
+    "skins": true,
+    "animations": true,
+    "scenes": true,
+    "scene": true,
+    "extensions": true,
+    "extensionsUsed": true,
+    "extensionsRequired": true
+  },
+  "same_original_binary_prefix": true,
+  "same_other_11_embedded_textures": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true,
+    "11": true
+  },
+  "head_changed_texels": 247007,
+  "head_change_mask_exact": true,
+  "head_pixels_changed_outside_mask": 0,
+  "prior_eye_mouth_protected_texel_overlap": 0,
+  "same_saved_v004_before_renders": {
+    "front": true,
+    "left-three-quarter": true,
+    "right-three-quarter": true,
+    "left-side": true,
+    "right-side": true,
+    "top": true,
+    "back": true
+  },
+  "same_camera_conditions": true,
+  "front_face_eye_mouth_boxes_pixel_identical": {
+    "left_eye": true,
+    "right_eye": true,
+    "mouth": true
+  },
+  "human_gate": "PENDING"
+}

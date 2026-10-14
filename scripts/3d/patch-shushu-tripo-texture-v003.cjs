@@ -2,12 +2,17 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const zlib = require('zlib');
 const sharp = require(process.env.SHUSHU_SHARP_MODULE || 'sharp');
 const root = path.resolve(__dirname, '../..');
 const config = process.argv[3] ? JSON.parse(fs.readFileSync(process.argv[3], 'utf8')) : null;
 const out = path.join(root, config?.evidence || 'docs/production/shushu/evidence/tripo-texture-v003');
 const candidate = path.join(root, config?.candidate || 'assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v001.glb');
 const hash = x => crypto.createHash('sha256').update(x).digest('hex');
+function projectionMap(view) {
+  const name=path.join(out,`projection-map-${view}.json`);
+  return JSON.parse(fs.existsSync(name)?fs.readFileSync(name,'utf8'):zlib.gunzipSync(fs.readFileSync(`${name}.gz`)).toString('utf8'));
+}
 function readGlb(file) {
   const raw = fs.readFileSync(file), size = raw.readUInt32LE(12);
   return { raw, json: JSON.parse(raw.subarray(20, 20 + size)), bin: raw.subarray(28 + size) };
@@ -34,10 +39,40 @@ function inside(x,y,poly) {
   }
   return hit;
 }
+function seamBridge(buf,x,y,points,radius,fade) {
+  if(y<points[0][1]||y>points.at(-1)[1])return sample(buf,x,y);
+  let k=0;while(k+1<points.length-1&&y>points[k+1][1])k++;
+  const [ax,ay]=points[k],[bx,by]=points[k+1];
+  const center=ax+(bx-ax)*(y-ay)/(by-ay);
+  if(Math.abs(x-center)>=radius)return sample(buf,x,y);
+  const left=sample(buf,center-radius,y),right=sample(buf,center+radius,y);
+  const t=(x-center+radius)/(2*radius);
+  const bridge=left.map((v,c)=>v*(1-t)+right[c]*t);
+  const smooth=t=>{t=Math.max(0,Math.min(1,t));return t*t*(3-2*t)};
+  const weight=smooth((y-fade[0])/(fade[1]-fade[0]))*smooth((fade[3]-y)/(fade[3]-fade[2]));
+  const native=sample(buf,x,y);
+  return native.map((v,c)=>v*(1-weight)+bridge[c]*weight);
+}
+function seamGeneratedCorrection(before,generated,x,y,points,radius,fade) {
+  if(y<points[0][1]||y>points.at(-1)[1])return sample(before,x,y);
+  let k=0;while(k+1<points.length-1&&y>points[k+1][1])k++;
+  const [ax,ay]=points[k],[bx,by]=points[k+1];
+  const center=ax+(bx-ax)*(y-ay)/(by-ay),distance=Math.abs(x-center);
+  if(distance>=radius)return sample(before,x,y);
+  const t=(x-center+radius)/(2*radius),smooth=z=>{z=Math.max(0,Math.min(1,z));return z*z*(3-2*z)};
+  const left=sample(generated,center-radius,y).map((v,c)=>v-sample(before,center-radius,y)[c]);
+  const right=sample(generated,center+radius,y).map((v,c)=>v-sample(before,center+radius,y)[c]);
+  const native=sample(before,x,y),made=sample(generated,x,y);
+  const edge=smooth(Math.min(x-center+radius,center+radius-x)/18);
+  const vertical=smooth((y-fade[0])/(fade[1]-fade[0]))*smooth((fade[3]-y)/(fade[3]-fade[2]));
+  return native.map((v,c)=>v+(made[c]-v-left[c]*(1-t)-right[c]*t)*edge*vertical);
+}
 async function furComposite(original, edit) {
   const generatedBoard=await sharp(edit).resize(2048,2048).removeAlpha().raw().toBuffer();
   const panels={}, before={}, biases={};
-  for(const [view,xy] of Object.entries({'left-side':[0,0],'right-side':[1024,0],top:[0,1024]})) {
+  const panelPositions={'left-side':[0,0],'right-side':[1024,0],top:[0,1024]};
+  for(const view of config.fur_views || Object.keys(panelPositions)) {
+    const xy=panelPositions[view];if(!xy)throw Error('Unsupported fur view '+view);
     panels[view]=await sharp(generatedBoard,{raw:{width:2048,height:2048,channels:3}}).extract({left:xy[0],top:xy[1],width:1024,height:1024}).raw().toBuffer();
     before[view]=await sharp(path.join(out,`renders/before-${view}.png`)).removeAlpha().raw().toBuffer();
     biases[view]=[0,1,2].map(c=>config.color_match_probes[view].reduce((sum,[x,y])=>sum+sample(panels[view],x,y)[c]-sample(before[view],x,y)[c],0)/config.color_match_probes[view].length);
@@ -50,7 +85,7 @@ async function furComposite(original, edit) {
   const selected=new Map();
   for(const view of Object.keys(panels)) {
     const polys=Object.entries(config.masks).filter(([k])=>k.startsWith(view)).map(([,p])=>p);
-    const core=JSON.parse(fs.readFileSync(path.join(out,`projection-map-${view}.json`)));
+    const core=projectionMap(view);
     for(const [x,y,sx,sy] of core) {
       const active=polys.filter(p=>inside(sx,sy,p));if(!active.length)continue;
       const distance=Math.max(...active.map(p=>Math.min(...p.map((v,k)=>segmentDistance(sx,sy,v,p[(k+1)%p.length])))));
@@ -65,14 +100,20 @@ async function furComposite(original, edit) {
   const result=Buffer.from(original),mask=Buffer.alloc(2048*2048);let changed=0,rejectedTarget=0;
   const map=[...selected.values()];
   for(const [x,y,sx,sy,view,weight] of map) {
-    const source=sample(before[view],sx,sy),color=sample(panels[view],sx,sy).map((v,c)=>Math.max(0,Math.min(255,v-biases[view][c])));
+    const source=sample(before[view],sx,sy);
+    const trace=config.seam_rebuild_centerlines?.[view];
+    const mode=config.seam_material_modes?.[view] || config.seam_material_mode;
+    const material=trace?(mode==='imagegen'?seamGeneratedCorrection(before[view],panels[view],sx,sy,trace,config.seam_rebuild_radius,config.seam_rebuild_vertical_fade):seamBridge(before[view],sx,sy,trace,config.seam_rebuild_radius,config.seam_rebuild_vertical_fade)):sample(panels[view],sx,sy);
+    // A render includes lighting. Transfer only the local repair difference to
+    // the atlas, otherwise the same lighting is baked into the texture twice.
+    const i=(y*2048+x)*3;
+    const color=material.map((v,c)=>Math.max(0,Math.min(255,trace?(mode==='bridge-absolute'?v:original[i+c]+v-source[c]):v-biases[view][c])));
     // Do not copy actual pink ears, dark features, or shifted model background.
     if(source[0]<180||source[1]<(view==='top'?145:170)||color[0]<220||color[1]<195) {rejectedTarget++;continue;}
-    const i=(y*2048+x)*3;
     for(let c=0;c<3;c++)result[i+c]=Math.round(original[i+c]*(1-weight)+color[c]*weight);
     if(!result.subarray(i,i+3).equals(original.subarray(i,i+3))){mask[y*2048+x]=255;changed++;}
   }
-  fs.writeFileSync(path.join(out,'applied-projection-map.json'),JSON.stringify(map)+'\n');
+  fs.writeFileSync(path.join(out,'applied-projection-map.json.gz'),zlib.gzipSync(JSON.stringify(map)+'\n',{level:6}));
   return {result,mask,map,changed,rejectedTarget,coreMap:map,probes:config.color_match_probes,biases};
 }
 async function main() {
@@ -154,7 +195,7 @@ async function main() {
     report.source_render_sha256=hash(fs.readFileSync(path.join(out,'renders/before-front.png')));
     report.patch_color_method='Generated local single-boundary pink/cream material sampled at matched screen coordinates; local color probes match unchanged neighboring pink and cream; outer-band edits taper into the protected blush between screen y620 and y650. Protected dark screen pixels and generated dark targets excluded; 2 atlas texels of padding.';
   }
-  if(config?.mode==='fur-seam') Object.assign(report,{scope:'Only bilateral ear-to-shoulder fur seam and crown band; Human-approved v002 eyes and v001 mouth protected',eye_repair_human_gate:'APPROVED by current explicit Human message',appearance_completion:'Awaiting saved GLB visual review',core_projection_texels_by_view:Object.fromEntries(['left-side','right-side','top'].map(view=>[view,JSON.parse(fs.readFileSync(path.join(out,`projection-map-${view}.json`))).length])),imagegen:{...report.imagegen,projection_size:[2048,2048],panel_size:[1024,1024]},patch_color_method:'Matched 2x2 ImageGen local material; masked multi-view Head projection only with local edge feathering, 2 atlas texels padding, prior eye/mouth changed texels excluded.'});
+  if(config?.mode==='fur-seam') Object.assign(report,{scope:config.scope || 'Only bilateral ear-to-shoulder fur seam; Human-approved eyes and mouth protected',eye_repair_human_gate:'APPROVED by current explicit Human message',appearance_completion:'Local saved-GLB visual review recorded separately; Human PENDING',core_projection_texels_by_view:Object.fromEntries((config.fur_views || ['left-side','right-side','top']).map(view=>[view,projectionMap(view).length])),imagegen:{...report.imagegen,projection_size:[2048,2048],panel_size:[1024,1024]},patch_color_method:'Left profile: local cream bridge across traced seam. Right profile: built-in ImageGen clean material registered to the saved render, with edge-matched correction transferred to Head texels. Screen masks and vertical fades are local; 2 atlas texels of padding are included; prior eye/mouth changed texels are excluded.'});
   fs.writeFileSync(path.join(out,'candidate-validation.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify(report,null,2));
 }

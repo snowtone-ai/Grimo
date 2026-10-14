@@ -1,0 +1,9 @@
+{
+  "source": "Independently reopened saved v004 and v005 GLBs, with 1024x1024 orthographic emission renders and the approved Body-only side images",
+  "opened_native_views": ["front", "left-three-quarter", "right-three-quarter", "left-side", "right-side", "top", "back"],
+  "opened_zoom": "03-side-seam-closeups.png, 1.5x from the native side renders",
+  "user_feedback": "Eyes OK; v004 bilateral ear-to-shoulder line still reads as a head-part seam. Prior v004 seam PASS withdrawn.",
+  "local_visual_judgment": "PASS: The continuous parting line is no longer visible on either side at native or 1.5x. Remaining soft cream/pink fur and ear-root shading blend into the adjacent head. The front and three-quarter eyes, flower irises, highlights, blush, mouth and overall cute expression retain the approved appearance. No new white outline or hard patch edge observed.",
+  "human_gate": "PENDING",
+  "scope_limit": "Offline saved-GLB views under the recorded render conditions; other lighting and smartphone runtime not assessed."
+}

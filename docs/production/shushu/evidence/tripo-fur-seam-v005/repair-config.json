@@ -1,0 +1,303 @@
+{
+  "mode": "fur-seam",
+  "base": "assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v004.glb",
+  "base_sha256": "3eb85dcd3fa18d07874b36bbb7922d502bda1bf88855f3b79a91eb6a9a66b119",
+  "candidate": "assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v005.glb",
+  "evidence": "docs/production/shushu/evidence/tripo-fur-seam-v005",
+  "extra_views": {
+    "top": [
+      0,
+      0,
+      1
+    ],
+    "back": [
+      0,
+      1,
+      0
+    ]
+  },
+  "diagnostic_views": [
+    "left-side",
+    "right-side",
+    "top"
+  ],
+  "masks": {
+    "left-side": [
+      [
+        350,
+        440
+      ],
+      [
+        315,
+        490
+      ],
+      [
+        292,
+        540
+      ],
+      [
+        271,
+        600
+      ],
+      [
+        274,
+        650
+      ],
+      [
+        298,
+        700
+      ],
+      [
+        336,
+        750
+      ],
+      [
+        364,
+        785
+      ],
+      [
+        400,
+        840
+      ],
+      [
+        660,
+        840
+      ],
+      [
+        624,
+        785
+      ],
+      [
+        596,
+        750
+      ],
+      [
+        558,
+        700
+      ],
+      [
+        534,
+        650
+      ],
+      [
+        531,
+        600
+      ],
+      [
+        552,
+        540
+      ],
+      [
+        575,
+        490
+      ],
+      [
+        610,
+        440
+      ]
+    ],
+    "right-side": [
+      [
+        415,
+        440
+      ],
+      [
+        424,
+        490
+      ],
+      [
+        428,
+        540
+      ],
+      [
+        437,
+        600
+      ],
+      [
+        428,
+        650
+      ],
+      [
+        415,
+        700
+      ],
+      [
+        400,
+        750
+      ],
+      [
+        392,
+        785
+      ],
+      [
+        380,
+        840
+      ],
+      [
+        640,
+        840
+      ],
+      [
+        652,
+        785
+      ],
+      [
+        660,
+        750
+      ],
+      [
+        675,
+        700
+      ],
+      [
+        688,
+        650
+      ],
+      [
+        697,
+        600
+      ],
+      [
+        688,
+        540
+      ],
+      [
+        684,
+        490
+      ],
+      [
+        675,
+        440
+      ]
+    ]
+  },
+  "color_match_probes": {
+    "left-side": [
+      [
+        405,
+        542
+      ],
+      [
+        532,
+        572
+      ]
+    ],
+    "right-side": [
+      [
+        532,
+        558
+      ],
+      [
+        670,
+        564
+      ]
+    ],
+    "top": [
+      [
+        453,
+        365
+      ],
+      [
+        523,
+        717
+      ]
+    ]
+  },
+  "feather_screen_pixels": 25,
+  "projection_view": "left-side",
+  "fur_views": [
+    "left-side",
+    "right-side"
+  ],
+  "scope": "Remaining bilateral side-head parting seam only; v004 eye placement, v002 eye repair, v001 mouth and v003 crown preserved",
+  "seam_rebuild_centerlines": {
+    "left-side": [
+      [
+        480,
+        440
+      ],
+      [
+        445,
+        490
+      ],
+      [
+        422,
+        540
+      ],
+      [
+        401,
+        600
+      ],
+      [
+        404,
+        650
+      ],
+      [
+        428,
+        700
+      ],
+      [
+        466,
+        750
+      ],
+      [
+        494,
+        785
+      ],
+      [
+        530,
+        840
+      ]
+    ],
+    "right-side": [
+      [
+        545,
+        440
+      ],
+      [
+        554,
+        490
+      ],
+      [
+        558,
+        540
+      ],
+      [
+        567,
+        600
+      ],
+      [
+        558,
+        650
+      ],
+      [
+        545,
+        700
+      ],
+      [
+        530,
+        750
+      ],
+      [
+        522,
+        785
+      ],
+      [
+        510,
+        840
+      ]
+    ]
+  },
+  "seam_rebuild_radius": 70,
+  "seam_rebuild_vertical_fade": [
+    405,
+    475,
+    785,
+    850
+  ],
+  "seam_material_mode": "imagegen",
+  "seam_material_modes": {
+    "right-side": "imagegen",
+    "left-side": "bridge-absolute"
+  }
+}
