@@ -1,0 +1,14 @@
+[
+  {
+    "mesh": "ShushuStatic_Eye_L",
+    "blender_y_offset": -0.005998561158776283,
+    "reference_sha256": "780f1f9c3ebd6a39050500398f190ff21e6c18c7de4c7c0730040ab1cdf41309",
+    "method": "Uniform eye-depth shift matching approved static reference bounds; no old shape-key coordinates."
+  },
+  {
+    "mesh": "ShushuStatic_Eye_R",
+    "blender_y_offset": -0.005998672917485237,
+    "reference_sha256": "780f1f9c3ebd6a39050500398f190ff21e6c18c7de4c7c0730040ab1cdf41309",
+    "method": "Uniform eye-depth shift matching approved static reference bounds; no old shape-key coordinates."
+  }
+]

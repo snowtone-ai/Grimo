@@ -1,0 +1,1754 @@
+[
+  {
+    "frame": 517,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 517,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 517,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 518,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 518,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3535085928440094,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 518,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 519,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 519,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3534705054759979,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 519,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 520,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 520,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 520,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 521,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 521,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.35323205709457395,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 521,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 522,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 522,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3535578858852386,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 522,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 523,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 523,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.33642152070999143,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 523,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 524,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 524,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3196563136577606,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 524,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 525,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 525,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.300711156129837,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 525,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 526,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 526,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.27956113338470456,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 526,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 527,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 527,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2701234233379364,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 527,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 528,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 528,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.25729978203773496,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 528,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 529,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 529,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.24242597937583923,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 529,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 530,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 530,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.24526533603668213,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 530,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 531,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 531,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2440137279033661,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 531,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 532,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 532,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.23607918739318848,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 532,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 533,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 533,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.22119972229003906,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 533,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 534,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 534,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.20607583343982697,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 534,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 535,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 535,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.19158916294574738,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 535,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 536,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 536,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.20755596578121185,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 536,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 537,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 537,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2247461986541748,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 537,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 538,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 538,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.23908347010612488,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 538,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 539,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 539,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2546383154392242,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 539,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 540,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 540,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2629684221744537,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 540,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 541,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 541,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.26547390341758725,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 541,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 542,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009701748192310344,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 542,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2655215275287628,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 542,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05214318007230759,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 543,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009458374977111828,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 543,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2655611944198608,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 543,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05193846791982651,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 544,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009268180280923854,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 544,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.26559257626533506,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 544,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05177853375673294,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 545,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009132989495992672,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 545,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.26561510682106015,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 545,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05166395872831345,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 546,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009051908552646648,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 546,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2656282794475555,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 546,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.051595055758953096,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 547,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009024602174758922,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 547,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2656326901912689,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 547,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05157206326723099,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 548,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009051908552646648,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 548,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2656281006336212,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 548,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05159499615430832,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 549,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009133287519216549,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 549,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2656147193908691,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 549,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05166392147541046,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 550,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009268925338983547,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 550,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.26559212923049924,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 550,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05177853375673294,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 551,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009458225965499889,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 551,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.265560747385025,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 551,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.051938430666923524,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 552,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009701748192310344,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 552,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.26552116990089414,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 552,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05214320242404938,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 553,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 553,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.26547387361526487,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": false,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 553,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05239201456308365,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 554,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009701748192310344,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 554,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.27668577551841733,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 554,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05214320242404938,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 555,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009458225965499889,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 555,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.28520375609397886,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 555,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.051938430666923524,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 556,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009268925338983547,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 556,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.2922409188747406,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 556,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05177853375673294,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 557,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009132989495992672,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 557,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3133829843997955,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 557,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05166392147541046,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 558,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009051908552646648,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 558,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3341722500324249,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 558,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05159499615430832,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 559,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009024602174758922,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 559,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3514792931079864,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 559,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05157206326723099,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 560,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009051908552646648,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 560,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3516942274570465,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 560,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.0515950408577919,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 561,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009133287519216549,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 561,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3519746971130371,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 561,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.051663988530635835,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 562,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009268180280923854,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 562,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3530178678035736,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 562,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05177853375673294,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 563,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009458225965499889,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 563,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.3530897510051727,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 563,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05193852007389069,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 564,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009701748192310344,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 564,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.35330012559890744,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 564,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.05214320242404938,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 565,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.0009999883174896251,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 565,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 565,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 566,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.019260720610618592,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 566,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 566,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 567,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.036156141459941865,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 567,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 567,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 568,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.04941935956478119,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 568,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 568,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 569,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.06750240296125412,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 569,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 569,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 570,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.08297264695167542,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 570,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 570,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 571,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.09610186636447907,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 571,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 571,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 572,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.11760291576385498,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 572,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 572,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 573,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.1350974303483963,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 573,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 573,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 574,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.1439613562822342,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 574,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 574,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 575,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.15133926391601563,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 575,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 575,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 576,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.15694929778575897,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 576,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 576,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 577,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 577,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 577,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 578,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 578,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 578,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 579,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 579,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 579,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 580,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 580,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 580,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 581,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 581,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 581,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 582,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 582,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 582,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 583,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 583,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 583,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 584,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 584,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 584,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 585,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 585,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 585,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 586,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 586,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 586,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 587,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 587,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 587,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 588,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 588,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 588,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 589,
+    "mesh": "ShushuStatic_Paw_L",
+    "sphere_surface_clearance": 0.16119007885456085,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 589,
+    "mesh": "ShushuStatic_Paw_R",
+    "sphere_surface_clearance": 0.353600503206253,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  },
+  {
+    "frame": 589,
+    "mesh": "ShushuStatic_Torso",
+    "sphere_surface_clearance": 0.052392051815986634,
+    "center_outside_mesh_aabb": true,
+    "center_on_outside_of_nearest_face": true,
+    "method": "Nearest triangle distance to spherical fixture center minus radius. AABB excludes containment when available; nearest-face orientation is local evidence, not a watertight winding-number test or force/friction solver."
+  }
+]

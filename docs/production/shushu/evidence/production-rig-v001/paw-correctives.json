@@ -1,0 +1,482 @@
+[
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 0.25,
+    "seat": 0,
+    "world_correction_max": 0.0205233171582222,
+    "local_max": 0.02053027927598455,
+    "skin_condition_max": 1.0045887198682644,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 0.25,
+    "seat": 1,
+    "world_correction_max": 0.023907070979475975,
+    "local_max": 0.023913917020619853,
+    "skin_condition_max": 1.0061163558153003,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 0.5,
+    "seat": 0,
+    "world_correction_max": 0.13810229301452637,
+    "local_max": 0.13822112826898808,
+    "skin_condition_max": 1.247268833650436,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 0.5,
+    "seat": 1,
+    "world_correction_max": 0.09069324284791946,
+    "local_max": 0.09069928157374742,
+    "skin_condition_max": 1.0997927232864244,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 0.75,
+    "seat": 0,
+    "world_correction_max": 0.19847454130649567,
+    "local_max": 0.19889384538416535,
+    "skin_condition_max": 1.8762282652574143,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 0.75,
+    "seat": 1,
+    "world_correction_max": 0.16399841010570526,
+    "local_max": 0.1641821583169727,
+    "skin_condition_max": 1.4595988812191485,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 1.0,
+    "seat": 0,
+    "world_correction_max": 0.21730083227157593,
+    "local_max": 0.5419975238492722,
+    "skin_condition_max": 5.0817121579608715,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Hold",
+    "value": 1.0,
+    "seat": 1,
+    "world_correction_max": 0.20087432861328125,
+    "local_max": 0.2892528631258858,
+    "skin_condition_max": 2.720506021345512,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 0.25,
+    "seat": 0,
+    "world_correction_max": 0.0224173441529274,
+    "local_max": 0.022417461456884523,
+    "skin_condition_max": 1.0001996302839022,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 0.25,
+    "seat": 1,
+    "world_correction_max": 0.014599557965993881,
+    "local_max": 0.014599559006705102,
+    "skin_condition_max": 1.0020627199788743,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 0.5,
+    "seat": 0,
+    "world_correction_max": 0.017003236338496208,
+    "local_max": 0.017006860453409975,
+    "skin_condition_max": 1.0049936293060349,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 0.5,
+    "seat": 1,
+    "world_correction_max": 0.0416739359498024,
+    "local_max": 0.0416739942935031,
+    "skin_condition_max": 1.0189988801603005,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 0.75,
+    "seat": 0,
+    "world_correction_max": 0.13669848442077637,
+    "local_max": 0.13678043539068074,
+    "skin_condition_max": 1.2668928776870694,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 0.75,
+    "seat": 1,
+    "world_correction_max": 0.08373048901557922,
+    "local_max": 0.08373254558720551,
+    "skin_condition_max": 1.093103613601135,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 1.0,
+    "seat": 0,
+    "world_correction_max": 0.19771575927734375,
+    "local_max": 0.23442633532688426,
+    "skin_condition_max": 2.911126877689077,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "Offer",
+    "value": 1.0,
+    "seat": 1,
+    "world_correction_max": 0.13356295228004456,
+    "local_max": 0.13476789915464948,
+    "skin_condition_max": 1.3784228827857492,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 0.25,
+    "seat": 0,
+    "world_correction_max": 0.018437881022691727,
+    "local_max": 0.018455587370657448,
+    "skin_condition_max": 1.0014696046434295,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 0.25,
+    "seat": 1,
+    "world_correction_max": 0.02075338363647461,
+    "local_max": 0.020761312150460922,
+    "skin_condition_max": 1.0046400041690178,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 0.5,
+    "seat": 0,
+    "world_correction_max": 0.15047305822372437,
+    "local_max": 0.1508374218953393,
+    "skin_condition_max": 1.3053493389233863,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 0.5,
+    "seat": 1,
+    "world_correction_max": 0.08687246590852737,
+    "local_max": 0.08689388823146177,
+    "skin_condition_max": 1.0899620548340647,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 0.75,
+    "seat": 0,
+    "world_correction_max": 0.21232861280441284,
+    "local_max": 0.21470137832292974,
+    "skin_condition_max": 2.0980774403724145,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 0.75,
+    "seat": 1,
+    "world_correction_max": 0.17366643249988556,
+    "local_max": 0.17453370528088336,
+    "skin_condition_max": 1.5093115423565904,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 1.0,
+    "seat": 0,
+    "world_correction_max": 0.23939239978790283,
+    "local_max": 0.7593425965934427,
+    "skin_condition_max": 7.872937746352733,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "L",
+    "mode": "SelfContact",
+    "value": 1.0,
+    "seat": 1,
+    "world_correction_max": 0.2248498648405075,
+    "local_max": 0.3291968919500473,
+    "skin_condition_max": 3.108448536336947,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 0.25,
+    "seat": 0,
+    "world_correction_max": 0.015366205014288425,
+    "local_max": 0.015389091629947666,
+    "skin_condition_max": 1.0029218093440588,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 0.25,
+    "seat": 1,
+    "world_correction_max": 0.02111046388745308,
+    "local_max": 0.02111666329385692,
+    "skin_condition_max": 1.005177330835638,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 0.5,
+    "seat": 0,
+    "world_correction_max": 0.1313098669052124,
+    "local_max": 0.13150996254301434,
+    "skin_condition_max": 1.2218563443196429,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 0.5,
+    "seat": 1,
+    "world_correction_max": 0.08288291096687317,
+    "local_max": 0.08290139235683078,
+    "skin_condition_max": 1.0855034106429322,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 0.75,
+    "seat": 0,
+    "world_correction_max": 0.19866426289081573,
+    "local_max": 0.20052121155857913,
+    "skin_condition_max": 1.8400223387759795,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 0.75,
+    "seat": 1,
+    "world_correction_max": 0.1612289547920227,
+    "local_max": 0.16220464412749025,
+    "skin_condition_max": 1.4336830064201518,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 1.0,
+    "seat": 0,
+    "world_correction_max": 0.22782458364963531,
+    "local_max": 0.4849215162580866,
+    "skin_condition_max": 4.771028120010574,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Hold",
+    "value": 1.0,
+    "seat": 1,
+    "world_correction_max": 0.20882298052310944,
+    "local_max": 0.27224062962674234,
+    "skin_condition_max": 2.5965478059064475,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 0.25,
+    "seat": 0,
+    "world_correction_max": 0.01894279569387436,
+    "local_max": 0.018944218290948375,
+    "skin_condition_max": 1.0001409470822793,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 0.25,
+    "seat": 1,
+    "world_correction_max": 0.013809535652399063,
+    "local_max": 0.013812866473789443,
+    "skin_condition_max": 1.0019119549306643,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 0.5,
+    "seat": 0,
+    "world_correction_max": 0.017733771353960037,
+    "local_max": 0.017742309514612534,
+    "skin_condition_max": 1.0035734621031442,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 0.5,
+    "seat": 1,
+    "world_correction_max": 0.03784927353262901,
+    "local_max": 0.037849291946494765,
+    "skin_condition_max": 1.0158759974167675,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 0.75,
+    "seat": 0,
+    "world_correction_max": 0.11380024254322052,
+    "local_max": 0.11380074164455248,
+    "skin_condition_max": 1.1623373773142307,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 0.75,
+    "seat": 1,
+    "world_correction_max": 0.07778187841176987,
+    "local_max": 0.07778199643794585,
+    "skin_condition_max": 1.0724133812219114,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 1.0,
+    "seat": 0,
+    "world_correction_max": 0.20822666585445404,
+    "local_max": 0.24125637917599915,
+    "skin_condition_max": 2.7020595134556062,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "Offer",
+    "value": 1.0,
+    "seat": 1,
+    "world_correction_max": 0.13123567402362823,
+    "local_max": 0.13125240455192927,
+    "skin_condition_max": 1.2705831497542706,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 0.25,
+    "seat": 0,
+    "world_correction_max": 0.01548034232109785,
+    "local_max": 0.01550221582805042,
+    "skin_condition_max": 1.0022427098555349,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 0.25,
+    "seat": 1,
+    "world_correction_max": 0.018437383696436882,
+    "local_max": 0.018450972706086328,
+    "skin_condition_max": 1.0040308121361037,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 0.5,
+    "seat": 0,
+    "world_correction_max": 0.14293962717056274,
+    "local_max": 0.1434489704198782,
+    "skin_condition_max": 1.2718366284772897,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 0.5,
+    "seat": 1,
+    "world_correction_max": 0.07748748362064362,
+    "local_max": 0.07753914002584296,
+    "skin_condition_max": 1.0737419351363044,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 0.75,
+    "seat": 0,
+    "world_correction_max": 0.21200430393218994,
+    "local_max": 0.21696806890670506,
+    "skin_condition_max": 2.0741399972113763,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 0.75,
+    "seat": 1,
+    "world_correction_max": 0.16920295357704163,
+    "local_max": 0.17173231216195312,
+    "skin_condition_max": 1.4755026623893093,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 1.0,
+    "seat": 0,
+    "world_correction_max": 0.24368317425251007,
+    "local_max": 0.6852709565490052,
+    "skin_condition_max": 7.669465504418099,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  },
+  {
+    "side": "R",
+    "mode": "SelfContact",
+    "value": 1.0,
+    "seat": 1,
+    "world_correction_max": 0.22740291059017181,
+    "local_max": 0.31454036466881236,
+    "skin_condition_max": 3.0744010803511728,
+    "method": "Current neutral surface displacement; smooth attached-root rotation, plush cross section retained, distal surface contact clearance, inverse LBS corrective."
+  }
+]

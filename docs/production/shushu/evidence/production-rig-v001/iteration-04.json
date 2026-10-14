@@ -1,0 +1,182 @@
+[
+  {
+    "name": "neutral",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "head-left",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "head-right",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "head-tilt-blink",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "ear-L",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "ear-R",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "half",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "closed",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "wink-L",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "wink-R",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "gaze-L",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "gaze-R",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "smile",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "joy",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "surprise",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "hesitate",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "discomfort",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "mouth-close",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "mouth-open-tongue",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "pressure-L",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "pressure-R",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "shift-L",
+    "torso_min_z": 3.839705442487684e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "shift-R",
+    "torso_min_z": 4.957255228532631e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "seat-entry",
+    "torso_min_z": -1.9256799532740843e-07,
+    "below_floor": 0
+  },
+  {
+    "name": "seat-mid",
+    "torso_min_z": -3.639309795744339e-07,
+    "below_floor": 0
+  },
+  {
+    "name": "seat",
+    "torso_min_z": 8.310068722039432e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "seat-rest",
+    "torso_min_z": 8.310068722039432e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "seat-joy",
+    "torso_min_z": 8.310068722039432e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "offer-L",
+    "torso_min_z": 3.0946445406243583e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "offer-R",
+    "torso_min_z": 4.2122202614791604e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "self-L",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "self-R",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "hold-L-touch-R",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "hold-both",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "seat-hold-interrupt",
+    "torso_min_z": 8.310068722039432e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "release",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  }
+]

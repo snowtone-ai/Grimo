@@ -1,0 +1,54 @@
+[
+  {
+    "seat": 0.25,
+    "local_corrective_max": 0.04885259300115035,
+    "world_correction_max": 0.03265507606688265,
+    "worst_vertex_rest": [
+      0.21109004318714142,
+      0.07502741366624832,
+      0.204803466796875
+    ],
+    "max_skin_condition": 1.5863396594607078,
+    "rump_smooth_sag": 0.0,
+    "method": "inverse LBS / preserve round lower abdomen, smooth posterior support bulge; no per-vertex floor flattening"
+  },
+  {
+    "seat": 0.5,
+    "local_corrective_max": 0.05244083883772366,
+    "world_correction_max": 0.034007828952476754,
+    "worst_vertex_rest": [
+      0.21109004318714142,
+      0.07502741366624832,
+      0.204803466796875
+    ],
+    "max_skin_condition": 1.6200296807150856,
+    "rump_smooth_sag": 0.0,
+    "method": "inverse LBS / preserve round lower abdomen, smooth posterior support bulge; no per-vertex floor flattening"
+  },
+  {
+    "seat": 0.75,
+    "local_corrective_max": 0.05831820145784075,
+    "world_correction_max": 0.0374999906632189,
+    "worst_vertex_rest": [
+      0.21109004318714142,
+      0.07502741366624832,
+      0.204803466796875
+    ],
+    "max_skin_condition": 1.7568734285621819,
+    "rump_smooth_sag": 0.0375,
+    "method": "inverse LBS / preserve round lower abdomen, smooth posterior support bulge; no per-vertex floor flattening"
+  },
+  {
+    "seat": 1.0,
+    "local_corrective_max": 0.07025198429153147,
+    "world_correction_max": 0.03724942591445631,
+    "worst_vertex_rest": [
+      0.1878966987133026,
+      0.08396143466234207,
+      0.177001953125
+    ],
+    "max_skin_condition": 2.0411537167633464,
+    "rump_smooth_sag": 0.01957034330919023,
+    "method": "inverse LBS / preserve round lower abdomen, smooth posterior support bulge; no per-vertex floor flattening"
+  }
+]

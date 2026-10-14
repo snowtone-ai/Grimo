@@ -1,0 +1,211 @@
+{
+  "source_sha256": "23b03718db70a8457edf04b6af9b5133655fb54595ff2f2217f4ad6696f8bd78",
+  "method": "read-only evaluated displacement fields with stable vertex count per key; no old absolute coordinates copied; triangulation can change",
+  "objects": {
+    "Ear_L": {
+      "bounds": [
+        [
+          0.10340587794780731,
+          -0.01795906201004982,
+          0.7501361966133118
+        ],
+        [
+          0.35054486989974976,
+          0.18535518646240234,
+          0.9920443892478943
+        ]
+      ],
+      "vertices": 2104,
+      "keys": []
+    },
+    "Ear_R": {
+      "bounds": [
+        [
+          -0.35054489970207214,
+          -0.017954234033823013,
+          0.7505403161048889
+        ],
+        [
+          -0.10340101271867752,
+          0.1853412389755249,
+          0.9921695590019226
+        ]
+      ],
+      "vertices": 2121,
+      "keys": []
+    },
+    "Eye_L": {
+      "bounds": [
+        [
+          0.06288489699363708,
+          -0.19665123522281647,
+          0.588037371635437
+        ],
+        [
+          0.1951151043176651,
+          -0.05631669610738754,
+          0.7319626212120056
+        ]
+      ],
+      "vertices": 706,
+      "keys": [
+        "Blink.L",
+        "GazeLeft",
+        "GazeRight",
+        "GazeUp",
+        "GazeDown"
+      ]
+    },
+    "Eye_R": {
+      "bounds": [
+        [
+          -0.1951151043176651,
+          -0.19667822122573853,
+          0.588037371635437
+        ],
+        [
+          -0.06288489699363708,
+          -0.05632171407341957,
+          0.7319626212120056
+        ]
+      ],
+      "vertices": 706,
+      "keys": [
+        "Blink.R",
+        "GazeLeft",
+        "GazeRight",
+        "GazeUp",
+        "GazeDown"
+      ]
+    },
+    "Head": {
+      "bounds": [
+        [
+          -0.3027137517929077,
+          -0.27085915207862854,
+          0.47102510929107666
+        ],
+        [
+          0.30276769399642944,
+          0.2835051417350769,
+          0.9390962719917297
+        ]
+      ],
+      "vertices": 44667,
+      "keys": [
+        "Blink.L",
+        "Blink.R",
+        "Corrective.HalfBlink.L",
+        "Corrective.HalfBlink.R",
+        "GentleSmile",
+        "HappyLids",
+        "MouthOpen",
+        "MouthDonorOpen",
+        "Surprise",
+        "CheekPressure.L"
+      ]
+    },
+    "LidWall_L": {
+      "bounds": [
+        [
+          0.08118514716625214,
+          -0.19085228443145752,
+          0.6079504489898682
+        ],
+        [
+          0.17685477435588837,
+          -0.11850535124540329,
+          0.7120202779769897
+        ]
+      ],
+      "vertices": 624,
+      "keys": [
+        "Blink.L",
+        "Blink.R",
+        "Corrective.HalfBlink.L",
+        "Corrective.HalfBlink.R",
+        "GentleSmile",
+        "HappyLids",
+        "MouthOpen",
+        "MouthDonorOpen",
+        "Surprise",
+        "CheekPressure.L"
+      ]
+    },
+    "LidWall_R": {
+      "bounds": [
+        [
+          -0.17685499787330627,
+          -0.1910184919834137,
+          0.6079504489898682
+        ],
+        [
+          -0.08118514716625214,
+          -0.11855786293745041,
+          0.7120204567909241
+        ]
+      ],
+      "vertices": 630,
+      "keys": [
+        "Blink.L",
+        "Blink.R",
+        "Corrective.HalfBlink.L",
+        "Corrective.HalfBlink.R",
+        "GentleSmile",
+        "HappyLids",
+        "MouthOpen",
+        "MouthDonorOpen",
+        "Surprise",
+        "CheekPressure.L"
+      ]
+    },
+    "MouthInterior": {
+      "bounds": [
+        [
+          -0.026000000536441803,
+          -0.2657192051410675,
+          0.5961301922798157
+        ],
+        [
+          0.026000000536441803,
+          -0.24400000274181366,
+          0.6010000109672546
+        ]
+      ],
+      "vertices": 450,
+      "keys": [
+        "GentleSmile",
+        "MouthOpen",
+        "MouthDonorOpen",
+        "Surprise"
+      ]
+    },
+    "Nose": {
+      "bounds": [
+        [
+          -0.017916357144713402,
+          -0.28612110018730164,
+          0.6014896035194397
+        ],
+        [
+          0.017916357144713402,
+          -0.26187893748283386,
+          0.6454828381538391
+        ]
+      ],
+      "vertices": 3508,
+      "keys": [
+        "Blink.L",
+        "Blink.R",
+        "Corrective.HalfBlink.L",
+        "Corrective.HalfBlink.R",
+        "GentleSmile",
+        "HappyLids",
+        "MouthOpen",
+        "MouthDonorOpen",
+        "Surprise",
+        "CheekPressure.L"
+      ]
+    }
+  }
+}

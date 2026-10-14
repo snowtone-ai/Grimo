@@ -1,0 +1,111 @@
+{
+  "minimum_retained_weight": 0.0001,
+  "reason": "Exporter/importer omit very small bone influences; normalize before authoring inverse LBS correctives so saved GLB matches editable rig.",
+  "meshes": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "changed_vertices": 2223,
+      "groups_after": [
+        "Ear.L",
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "changed_vertices": 2199,
+      "groups_after": [
+        "Ear.R",
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "changed_vertices": 684,
+      "groups_after": [
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "changed_vertices": 698,
+      "groups_after": [
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "changed_vertices": 28597,
+      "groups_after": [
+        "mixamorig:Head",
+        "mixamorig:Neck"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "changed_vertices": 567,
+      "groups_after": [
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "changed_vertices": 584,
+      "groups_after": [
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "changed_vertices": 450,
+      "groups_after": [
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "changed_vertices": 3740,
+      "groups_after": [
+        "mixamorig:Head"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "changed_vertices": 1420,
+      "groups_after": [
+        "mixamorig:Spine2",
+        "mixamorig:LeftShoulder",
+        "mixamorig:LeftArm",
+        "mixamorig:LeftForeArm",
+        "mixamorig:LeftHand"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "changed_vertices": 1234,
+      "groups_after": [
+        "mixamorig:Spine2",
+        "mixamorig:RightShoulder",
+        "mixamorig:RightArm",
+        "mixamorig:RightForeArm",
+        "mixamorig:RightHand"
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "changed_vertices": 5454,
+      "groups_after": [
+        "mixamorig:Spine2",
+        "mixamorig:Hips",
+        "mixamorig:Spine1",
+        "mixamorig:Spine",
+        "mixamorig:RightFoot",
+        "mixamorig:RightUpLeg",
+        "mixamorig:LeftFoot",
+        "mixamorig:RightLeg",
+        "mixamorig:LeftUpLeg",
+        "mixamorig:LeftLeg",
+        "mixamorig:Neck"
+      ]
+    }
+  ]
+}

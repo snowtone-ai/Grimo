@@ -1,0 +1,123 @@
+[
+  {
+    "mesh": "ShushuStatic_Eye_L",
+    "mapping": "nearest triangle barycentric displacement / current Basis unchanged",
+    "registration_scale": [
+      1.008,
+      1.008,
+      1.008
+    ],
+    "surface_distance_max": 0.001327992300502956,
+    "surface_distance_p95": 0.0012805903912521898,
+    "keys": {
+      "GazeLeft": 0.004033290770339802,
+      "GazeRight": 0.004164010247192027,
+      "GazeUp": 0.0023904357534053843,
+      "GazeDown": 0.002385322364144974
+    }
+  },
+  {
+    "mesh": "ShushuStatic_Eye_R",
+    "mapping": "nearest triangle barycentric displacement / current Basis unchanged",
+    "registration_scale": [
+      1.008,
+      1.008,
+      1.008
+    ],
+    "surface_distance_max": 0.0013269990449771285,
+    "surface_distance_p95": 0.0012868342455476522,
+    "keys": {
+      "GazeLeft": 0.004165509103823581,
+      "GazeRight": 0.004035342796858659,
+      "GazeUp": 0.002390946704900596,
+      "GazeDown": 0.0023854794570650627
+    }
+  },
+  {
+    "mesh": "ShushuStatic_Head",
+    "mapping": "nearest triangle barycentric displacement / current Basis unchanged",
+    "registration_scale": [
+      1.008,
+      1.008,
+      1.008
+    ],
+    "surface_distance_max": 0.01120466273277998,
+    "surface_distance_p95": 0.007400960195809603,
+    "keys": {
+      "Blink.L": 0.06541642715703049,
+      "Blink.R": 0.06554012605446188,
+      "Corrective.HalfBlink.L": 0.024491151858906275,
+      "Corrective.HalfBlink.R": 0.024485760994185483,
+      "Smile": 0.009660867645177769,
+      "JoyLids": 0.00953368400564888,
+      "MouthOpen": 0.011542502682043916,
+      "Surprise": 0.012932951794882075
+    }
+  },
+  {
+    "mesh": "ShushuStatic_LidWall_L",
+    "mapping": "nearest triangle barycentric displacement / current Basis unchanged",
+    "registration_scale": [
+      1.008,
+      1.008,
+      1.008
+    ],
+    "surface_distance_max": 0.001336140907369554,
+    "surface_distance_p95": 0.0013179575093090533,
+    "keys": {
+      "Blink.L": 0.06541417471186724,
+      "Corrective.HalfBlink.L": 0.024495741223277103,
+      "Smile": 0.00012215805574016238,
+      "JoyLids": 0.009534544694567474
+    }
+  },
+  {
+    "mesh": "ShushuStatic_LidWall_R",
+    "mapping": "nearest triangle barycentric displacement / current Basis unchanged",
+    "registration_scale": [
+      1.008,
+      1.008,
+      1.008
+    ],
+    "surface_distance_max": 0.0013325955951586366,
+    "surface_distance_p95": 0.001318982138764113,
+    "keys": {
+      "Blink.R": 0.06554301004426608,
+      "Corrective.HalfBlink.R": 0.024490878042821157,
+      "Smile": 0.00012202837910448429,
+      "JoyLids": 0.009534716411185366
+    }
+  },
+  {
+    "mesh": "ShushuStatic_MouthInterior",
+    "mapping": "nearest triangle barycentric displacement / current Basis unchanged",
+    "registration_scale": [
+      1.008,
+      1.008,
+      1.008
+    ],
+    "surface_distance_max": 0.0024993771221488714,
+    "surface_distance_p95": 0.0013204536691773683,
+    "keys": {
+      "Smile": 0.0091482577414023,
+      "MouthOpen": 0.011672331499796238,
+      "Surprise": 0.012703100219073185
+    }
+  },
+  {
+    "mesh": "ShushuStatic_Nose",
+    "mapping": "nearest triangle barycentric displacement / current Basis unchanged",
+    "registration_scale": [
+      1.008,
+      1.008,
+      1.008
+    ],
+    "surface_distance_max": 0.001345567055977881,
+    "surface_distance_p95": 0.001269918755860999,
+    "keys": {
+      "Smile": 7.6865781753377e-05,
+      "MouthOpen": 0.0018693702596633294,
+      "Surprise": 0.00939675819356125
+    }
+  }
+]

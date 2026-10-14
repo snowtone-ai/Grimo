@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "assets": [
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v001.blend",
+      "bytes": 10264600,
+      "sha256": "0d4369a444a42d9f363e52ded59ae6189c40e37813c3ceedc5274f1740411f4d"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v001.glb",
+      "bytes": 16464716,
+      "sha256": "84ad4038c03e0ed7ae599327d1382a4a0c04fc141b1e515d1a6a06ddec40b47b"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v001-proof.blend",
+      "bytes": 10318944,
+      "sha256": "4bc5a808bda9f14a0bd4f3fe3085519e52faf735f76ca0e6bc694a5fa84d8bfc"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v001-proof.glb",
+      "bytes": 16521468,
+      "sha256": "d0c30cb14c487cde30fb6ae17863dc74d70de7a2a255e411fdc93a1b551f8e11"
+    }
+  ],
+  "human_gate": "PENDING for this rig; historical v006 static Human PASS remains valid",
+  "authority": "Local branch assets/evidence, Goal map, prior gate, v006 Human decision, Motion-to-Anatomy DRAFT requirements; no DRAFT performance promoted to FINAL"
+}

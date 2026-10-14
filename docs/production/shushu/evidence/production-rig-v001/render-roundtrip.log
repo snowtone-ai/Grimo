@@ -1,0 +1,64 @@
+04:51:44 | INFO: Data are loaded, start creating Blender stuff
+04:51:44 | INFO: Blender create Mesh node ShushuStatic_Ear_L
+04:51:44 | INFO: Blender create Mesh node ShushuStatic_Ear_R
+04:51:44 | INFO: Blender create Mesh node ShushuStatic_OralBowl
+04:51:44 | INFO: Blender create Mesh node ShushuStatic_Eye_L
+04:51:44 | INFO: Blender create Mesh node ShushuStatic_Eye_R
+04:51:44 | INFO: Blender create Mesh node ShushuStatic_Head
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_LidWall_L
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_LidWall_R
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_MouthInterior
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_Nose
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_Paw_L
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_Paw_R
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_Tongue
+04:51:45 | INFO: Blender create Mesh node ShushuStatic_Torso
+04:51:46 | INFO: glTF import finished in 2.38s
+00:17.468  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-front.png'
+00:27.078  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-3q.png'
+00:34.765  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-left.png'
+00:40.578  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-right.png'
+RENDERED reimport neutral
+00:46.187  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\closed-front.png'
+00:51.328  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\closed-3q.png'
+00:55.468  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\closed-left.png'
+00:59.625  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\closed-right.png'
+RENDERED reimport closed
+01:05.406  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\mouth-open-max-front.png'
+01:10.468  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\mouth-open-max-3q.png'
+01:14.812  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\mouth-open-max-left.png'
+01:19.140  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\mouth-open-max-right.png'
+RENDERED reimport mouth-open-max
+01:25.218  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\tongue-front.png'
+01:30.797  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\tongue-3q.png'
+01:34.531  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\tongue-left.png'
+01:38.468  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\tongue-right.png'
+RENDERED reimport tongue
+01:43.453  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-front.png'
+01:48.140  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-3q.png'
+01:51.859  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-left.png'
+01:55.484  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-right.png'
+RENDERED reimport seat
+02:00.328  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-rest-front.png'
+02:04.531  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-rest-3q.png'
+02:08.218  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-rest-left.png'
+02:11.437  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-rest-right.png'
+RENDERED reimport seat-rest
+02:15.609  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\hold-L-touch-R-front.png'
+02:19.750  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\hold-L-touch-R-3q.png'
+02:23.203  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\hold-L-touch-R-left.png'
+02:26.593  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\hold-L-touch-R-right.png'
+RENDERED reimport hold-L-touch-R
+02:30.593  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-hold-interrupt-front.png'
+02:34.062  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-hold-interrupt-3q.png'
+02:37.265  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-hold-interrupt-left.png'
+02:40.297  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\seat-hold-interrupt-right.png'
+RENDERED reimport seat-hold-interrupt
+02:44.703  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-return-front.png'
+02:48.578  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-return-3q.png'
+02:51.609  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-return-left.png'
+02:54.750  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v001\renders\reimport\neutral-return-right.png'
+RENDERED reimport neutral-return
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-15",
+  "rig_human_gate": "HOLD / PENDING",
+  "units": "Blender normalized character height approximately 1; values are local scene units",
+  "support_conditions": 603,
+  "support_min_z": -1.1433554902851029e-07,
+  "support_vertices_below_minus_001": 0,
+  "planted_sole_xy_drift_max": 4.752629649829032e-07,
+  "seat_rump_support": {
+    "seat": 1.0,
+    "shift": 0,
+    "min_z": -6.590842360765237e-08,
+    "below_minus_001": 0,
+    "feet": {
+      "L": {
+        "min_z": 3.0377868824871257e-05,
+        "near_floor_vertices": 12,
+        "sole_xy_drift_max": 9.996002603429588e-08
+      },
+      "R": {
+        "min_z": -6.590842360765237e-08,
+        "near_floor_vertices": 8,
+        "sole_xy_drift_max": 1.802055038524486e-07
+      }
+    },
+    "rump_min_z": 0.0003000199794769287,
+    "rump_near_floor_vertices": 10,
+    "finite": true
+  },
+  "proof_frames": 589,
+  "proof_markers": 50,
+  "proof_fps": 24,
+  "proof_min_z": -1.0688522422697133e-07,
+  "proof_vertices_below_minus_001": 0,
+  "neutral_return_max": 0.0,
+  "arm_head_isolation_max": 0.0,
+  "foot_control": [
+    {
+      "control": "FootLift.L",
+      "active_sole_movement": 0.039999935775995255,
+      "opposite_sole_movement": 0.0,
+      "upper_torso_movement": 0.0,
+      "head_movement": 0.0
+    },
+    {
+      "control": "FootSide.L",
+      "active_sole_movement": 0.025000080466270447,
+      "opposite_sole_movement": 0.0,
+      "upper_torso_movement": 0.0,
+      "head_movement": 0.0
+    },
+    {
+      "control": "FootForward.L",
+      "active_sole_movement": 0.0250004380941391,
+      "opposite_sole_movement": 0.0,
+      "upper_torso_movement": 0.0,
+      "head_movement": 0.0
+    },
+    {
+      "control": "FootLift.R",
+      "active_sole_movement": 0.03999992832541466,
+      "opposite_sole_movement": 0.0,
+      "upper_torso_movement": 0.0,
+      "head_movement": 0.0
+    },
+    {
+      "control": "FootSide.R",
+      "active_sole_movement": 0.02500002831220627,
+      "opposite_sole_movement": 0.0,
+      "upper_torso_movement": 0.0,
+      "head_movement": 0.0
+    },
+    {
+      "control": "FootForward.R",
+      "active_sole_movement": 0.0250004380941391,
+      "opposite_sole_movement": 0.0,
+      "upper_torso_movement": 0.0,
+      "head_movement": 0.0
+    }
+  ],
+  "closed_eye_potentially_visible_vertices": 0,
+  "closed_oral_potentially_visible_vertices": 0,
+  "distal_paw_signed_gap_min": 0.0004356067399555741,
+  "bake_world_error_max": 7.132739483495243e-07,
+  "glb_world_error_max": 1.0430280781292822e-06,
+  "glb_anchor_matrix_error_max": 1.4603137969970703e-06,
+  "glb_fixture_matrix_error_max": 1.0132789611816406e-06,
+  "glb_floor_min_z": -3.7519194506785425e-07,
+  "glb_below_minus_001": 0,
+  "glb_sha256": "84ad4038c03e0ed7ae599327d1382a4a0c04fc141b1e515d1a6a06ddec40b47b",
+  "original_texture_bytes_equal": true,
+  "original_texture_count": 12,
+  "original_uv_corners_equal": true,
+  "glb_original_materials_equal": true,
+  "glb_triangles": 101053,
+  "glb_joints": [
+    67
+  ],
+  "morph_targets_per_mesh": {
+    "ShushuStatic_Ear_L": 0,
+    "ShushuStatic_Ear_R": 0,
+    "ShushuStatic_Eye_L": 6,
+    "ShushuStatic_Eye_R": 6,
+    "ShushuStatic_Head": 14,
+    "ShushuStatic_LidWall_L": 4,
+    "ShushuStatic_LidWall_R": 4,
+    "ShushuStatic_MouthInterior": 5,
+    "ShushuStatic_Nose": 3,
+    "ShushuStatic_OralBowl": 1,
+    "ShushuStatic_Paw_L": 24,
+    "ShushuStatic_Paw_R": 24,
+    "ShushuStatic_Tongue": 2,
+    "ShushuStatic_Torso": 6
+  },
+  "glb_animations": [
+    {
+      "name": "Shushu_RigCapability_Proof",
+      "seconds": 24.54166603088379,
+      "channels": {
+        "translation": 69,
+        "rotation": 67,
+        "scale": 67,
+        "weights": 12
+      }
+    }
+  ],
+  "fixture_anchor_gap_max": 0.0,
+  "fixture_selected_surface_gap_range": [
+    0.000902460999208262,
+    0.0009999884657151993
+  ],
+  "neutral_return_pixels_equal": true,
+  "image_reimport_count": 44,
+  "scope": "PASS only for measured rig domain; Human appearance, arbitrary stroke masks, physical COM, real items/Food styles/mobile/runtime remain HOLD.",
+  "fixture_clearance_min": 0.0009024602174758922,
+  "fixture_clearance_frames": 73,
+  "released_fixture_to_left_paw_clearance": 0.16119007885456085
+}

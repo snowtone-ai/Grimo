@@ -1,0 +1,58 @@
+[
+  {
+    "bone": "mixamorig:LeftUpLeg",
+    "old_head": [
+      0.1308593600988388,
+      -0.0019531550351530313,
+      0.1269531100988388
+    ],
+    "old_tail": [
+      0.1347655951976776,
+      0.001953087979927659,
+      0.0839843824505806
+    ],
+    "reason": "Thigh root surface near Z .21; original .127 joint inside lower leg cannot support the short seated thigh."
+  },
+  {
+    "bone": "mixamorig:RightUpLeg",
+    "old_head": [
+      -0.12695308029651642,
+      -0.0019531084690243006,
+      0.12695316970348358
+    ],
+    "old_tail": [
+      -0.13085925579071045,
+      0.0019531671423465014,
+      0.08398444950580597
+    ],
+    "reason": "Thigh root surface near Z .21; original .127 joint inside lower leg cannot support the short seated thigh."
+  },
+  {
+    "bone": "Ear.L",
+    "head": [
+      0.20200000703334808,
+      0.07400000095367432,
+      0.8270000219345093
+    ],
+    "tail": [
+      0.2370000034570694,
+      0.07999999821186066,
+      0.9359999895095825
+    ],
+    "reason": "Independent existing ear mesh owner, rooted within attached ear volume."
+  },
+  {
+    "bone": "Ear.R",
+    "head": [
+      -0.20200000703334808,
+      0.07400000095367432,
+      0.8270000219345093
+    ],
+    "tail": [
+      -0.2370000034570694,
+      0.07999999821186066,
+      0.9359999895095825
+    ],
+    "reason": "Independent existing ear mesh owner, rooted within attached ear volume."
+  }
+]

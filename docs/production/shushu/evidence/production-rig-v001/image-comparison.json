@@ -1,0 +1,335 @@
+{
+  "reimport": [
+    {
+      "image": "closed-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009383138020833333,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "closed-front.png",
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0007779947916666666,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "closed-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.00054443359375,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "closed-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.000478515625,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "hold-L-touch-R-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009423828125,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "hold-L-touch-R-front.png",
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0008292643229166666,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "hold-L-touch-R-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.000615234375,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "hold-L-touch-R-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0004890950520833334,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009602864583333333,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-front.png",
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.000859375,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0005851236979166666,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-override-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009602864583333333,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-override-front.png",
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0008219401041666667,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-override-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0005704752604166666,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-override-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00048502604166666665,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-close-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00048828125,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-open-max-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009358723958333334,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-open-max-front.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.00089111328125,
+      "pixels_over_8": 3,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-open-max-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0005533854166666667,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "mouth-open-max-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.0004923502604166667,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009366861979166666,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-front.png",
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.00085205078125,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0005607096354166667,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-return-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009366861979166666,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-return-front.png",
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.00085205078125,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-return-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0005607096354166667,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-return-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00048828125,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "neutral-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00048828125,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-3q.png",
+      "max_channel_difference": 15,
+      "mean_channel_difference": 0.0009635416666666667,
+      "pixels_over_8": 4,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-front.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.0008365885416666667,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-hold-interrupt-3q.png",
+      "max_channel_difference": 15,
+      "mean_channel_difference": 0.0009480794270833333,
+      "pixels_over_8": 3,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-hold-interrupt-front.png",
+      "max_channel_difference": 14,
+      "mean_channel_difference": 0.0009391276041666667,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-hold-interrupt-left.png",
+      "max_channel_difference": 44,
+      "mean_channel_difference": 0.0007340494791666667,
+      "pixels_over_8": 3,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-hold-interrupt-right.png",
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0005891927083333334,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-left.png",
+      "max_channel_difference": 44,
+      "mean_channel_difference": 0.0007332356770833334,
+      "pixels_over_8": 5,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-rest-3q.png",
+      "max_channel_difference": 15,
+      "mean_channel_difference": 0.0009627278645833333,
+      "pixels_over_8": 4,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-rest-front.png",
+      "max_channel_difference": 15,
+      "mean_channel_difference": 0.0009375,
+      "pixels_over_8": 3,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-rest-left.png",
+      "max_channel_difference": 44,
+      "mean_channel_difference": 0.00068603515625,
+      "pixels_over_8": 4,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-rest-right.png",
+      "max_channel_difference": 7,
+      "mean_channel_difference": 0.0006103515625,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "seat-right.png",
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0006583658854166667,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "tongue-3q.png",
+      "max_channel_difference": 16,
+      "mean_channel_difference": 0.0009488932291666667,
+      "pixels_over_8": 2,
+      "pixel_count": 409600
+    },
+    {
+      "image": "tongue-front.png",
+      "max_channel_difference": 8,
+      "mean_channel_difference": 0.0008756510416666666,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    },
+    {
+      "image": "tongue-left.png",
+      "max_channel_difference": 12,
+      "mean_channel_difference": 0.00056884765625,
+      "pixels_over_8": 1,
+      "pixel_count": 409600
+    },
+    {
+      "image": "tongue-right.png",
+      "max_channel_difference": 6,
+      "mean_channel_difference": 0.00048502604166666665,
+      "pixels_over_8": 0,
+      "pixel_count": 409600
+    }
+  ],
+  "neutral_return": [
+    {
+      "view": "front",
+      "pixels_identical": true,
+      "max_channel_difference": 0
+    },
+    {
+      "view": "3q",
+      "pixels_identical": true,
+      "max_channel_difference": 0
+    },
+    {
+      "view": "left",
+      "pixels_identical": true,
+      "max_channel_difference": 0
+    },
+    {
+      "view": "right",
+      "pixels_identical": true,
+      "max_channel_difference": 0
+    }
+  ],
+  "interpretation": "Rendering differences reported without substituting an image score for Human cuteness. Source images retained."
+}

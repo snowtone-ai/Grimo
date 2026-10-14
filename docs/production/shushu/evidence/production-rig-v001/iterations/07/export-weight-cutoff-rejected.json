@@ -1,0 +1,1801 @@
+[
+  {
+    "state": "shift-L",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.2196880308911204e-05,
+    "expected": [
+      0.19234737753868103,
+      -0.09780044853687286,
+      0.08578719198703766
+    ],
+    "actual": [
+      0.1923675388097763,
+      -0.09780928492546082,
+      0.08578433841466904
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "shift-L",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1528,
+    "source_vertex": 1528,
+    "error": 2.2196880308911204e-05,
+    "expected": [
+      0.19234737753868103,
+      -0.09780044853687286,
+      0.08578719198703766
+    ],
+    "actual": [
+      0.1923675388097763,
+      -0.09780928492546082,
+      0.08578433841466904
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "shift-L",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 5165,
+    "source_vertex": 5165,
+    "error": 2.393967042735312e-05,
+    "expected": [
+      -0.0790046751499176,
+      0.18986205756664276,
+      0.1969049572944641
+    ],
+    "actual": [
+      -0.07898437231779099,
+      0.18987473845481873,
+      0.19690464437007904
+    ],
+    "weights_before": {
+      "mixamorig:Hips": 0.9991950392723083,
+      "mixamorig:RightUpLeg": 0.0003648284764494747,
+      "mixamorig:Spine1": 0.0003474556724540889,
+      "mixamorig:RightLeg": 9.265485277865082e-05
+    },
+    "weights_after": {
+      "mixamorig:Hips": 0.9992876648902893,
+      "mixamorig:RightUpLeg": 0.0003648622951004654,
+      "mixamorig:Spine1": 0.00034748789039440453
+    }
+  },
+  {
+    "state": "shift-R",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1528,
+    "source_vertex": 1528,
+    "error": 2.2313042791211046e-05,
+    "expected": [
+      0.19234639406204224,
+      -0.09780213981866837,
+      0.08578339219093323
+    ],
+    "actual": [
+      0.19236750900745392,
+      -0.09780925512313843,
+      0.08578457683324814
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "shift-R",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.2313042791211046e-05,
+    "expected": [
+      0.19234639406204224,
+      -0.09780213981866837,
+      0.08578339219093323
+    ],
+    "actual": [
+      0.19236750900745392,
+      -0.09780925512313843,
+      0.08578457683324814
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "shift-R",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 5165,
+    "source_vertex": 5165,
+    "error": 2.522144677641336e-05,
+    "expected": [
+      -0.12700335681438446,
+      0.18985146284103394,
+      0.19688153266906738
+    ],
+    "actual": [
+      -0.12698350846767426,
+      0.189866304397583,
+      0.19688621163368225
+    ],
+    "weights_before": {
+      "mixamorig:Hips": 0.9991950392723083,
+      "mixamorig:RightUpLeg": 0.0003648284764494747,
+      "mixamorig:Spine1": 0.0003474556724540889,
+      "mixamorig:RightLeg": 9.265485277865082e-05
+    },
+    "weights_after": {
+      "mixamorig:Hips": 0.9992876648902893,
+      "mixamorig:RightUpLeg": 0.0003648622951004654,
+      "mixamorig:Spine1": 0.00034748789039440453
+    }
+  },
+  {
+    "state": "foot-lift-L",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1528,
+    "source_vertex": 1528,
+    "error": 2.66281385847833e-05,
+    "expected": [
+      0.1923423409461975,
+      -0.0978015884757042,
+      0.1257823258638382
+    ],
+    "actual": [
+      0.1923678070306778,
+      -0.09780889749526978,
+      0.1257849931716919
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "foot-lift-L",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.66281385847833e-05,
+    "expected": [
+      0.1923423409461975,
+      -0.0978015884757042,
+      0.1257823258638382
+    ],
+    "actual": [
+      0.1923678070306778,
+      -0.09780889749526978,
+      0.1257849931716919
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "foot-lift-L",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.66281385847833e-05,
+    "expected": [
+      0.1923423409461975,
+      -0.0978015884757042,
+      0.1257823258638382
+    ],
+    "actual": [
+      0.1923678070306778,
+      -0.09780889749526978,
+      0.1257849931716919
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "foot-lift-R",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1528,
+    "source_vertex": 1528,
+    "error": 2.24548093683552e-05,
+    "expected": [
+      0.1923469603061676,
+      -0.09780068695545197,
+      0.08578665554523468
+    ],
+    "actual": [
+      0.1923675686120987,
+      -0.09780929982662201,
+      0.08578434586524963
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "foot-lift-R",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.24548093683552e-05,
+    "expected": [
+      0.1923469603061676,
+      -0.09780068695545197,
+      0.08578665554523468
+    ],
+    "actual": [
+      0.1923675686120987,
+      -0.09780929982662201,
+      0.08578434586524963
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "foot-lift-R",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.24548093683552e-05,
+    "expected": [
+      0.1923469603061676,
+      -0.09780068695545197,
+      0.08578665554523468
+    ],
+    "actual": [
+      0.1923675686120987,
+      -0.09780929982662201,
+      0.08578434586524963
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-entry",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1528,
+    "source_vertex": 1528,
+    "error": 2.5983164960052818e-05,
+    "expected": [
+      0.1923431158065796,
+      -0.09780030697584152,
+      0.08578531444072723
+    ],
+    "actual": [
+      0.19236761331558228,
+      -0.09780894219875336,
+      0.0857846587896347
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-entry",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.5983164960052818e-05,
+    "expected": [
+      0.1923431158065796,
+      -0.09780030697584152,
+      0.08578531444072723
+    ],
+    "actual": [
+      0.19236761331558228,
+      -0.09780894219875336,
+      0.0857846587896347
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-entry",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.5983164960052818e-05,
+    "expected": [
+      0.1923431158065796,
+      -0.09780030697584152,
+      0.08578531444072723
+    ],
+    "actual": [
+      0.19236761331558228,
+      -0.09780894219875336,
+      0.0857846587896347
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-mid",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.7452320864540525e-05,
+    "expected": [
+      0.19234201312065125,
+      -0.09779935330152512,
+      0.08578502386808395
+    ],
+    "actual": [
+      0.19236786663532257,
+      -0.0978085845708847,
+      0.0857849270105362
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-mid",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1528,
+    "source_vertex": 1528,
+    "error": 2.7452320864540525e-05,
+    "expected": [
+      0.19234201312065125,
+      -0.09779935330152512,
+      0.08578502386808395
+    ],
+    "actual": [
+      0.19236786663532257,
+      -0.0978085845708847,
+      0.0857849270105362
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-mid",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.7452320864540525e-05,
+    "expected": [
+      0.19234201312065125,
+      -0.09779935330152512,
+      0.08578502386808395
+    ],
+    "actual": [
+      0.19236786663532257,
+      -0.0978085845708847,
+      0.0857849270105362
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 5181,
+    "source_vertex": 5181,
+    "error": 4.3685213313438e-05,
+    "expected": [
+      -0.015300209634006023,
+      0.24757647514343262,
+      0.03446287661790848
+    ],
+    "actual": [
+      -0.01530060451477766,
+      0.2476094663143158,
+      0.034491509199142456
+    ],
+    "weights_before": {
+      "mixamorig:Hips": 0.9996880292892456,
+      "mixamorig:Spine1": 0.00014097585517447442,
+      "mixamorig:RightUpLeg": 9.898305142996833e-05,
+      "mixamorig:LeftUpLeg": 7.198766979854554e-05
+    },
+    "weights_after": {
+      "mixamorig:Hips": 0.9998590350151062,
+      "mixamorig:Spine1": 0.00014099996769800782
+    }
+  },
+  {
+    "state": "seat-rest",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-rest",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-rest",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 5181,
+    "source_vertex": 5181,
+    "error": 4.3685213313438e-05,
+    "expected": [
+      -0.015300209634006023,
+      0.24757647514343262,
+      0.03446287661790848
+    ],
+    "actual": [
+      -0.01530060451477766,
+      0.2476094663143158,
+      0.034491509199142456
+    ],
+    "weights_before": {
+      "mixamorig:Hips": 0.9996880292892456,
+      "mixamorig:Spine1": 0.00014097585517447442,
+      "mixamorig:RightUpLeg": 9.898305142996833e-05,
+      "mixamorig:LeftUpLeg": 7.198766979854554e-05
+    },
+    "weights_after": {
+      "mixamorig:Hips": 0.9998590350151062,
+      "mixamorig:Spine1": 0.00014099996769800782
+    }
+  },
+  {
+    "state": "seat-joy",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-joy",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-joy",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 5181,
+    "source_vertex": 5181,
+    "error": 4.3685213313438e-05,
+    "expected": [
+      -0.015300209634006023,
+      0.24757647514343262,
+      0.03446287661790848
+    ],
+    "actual": [
+      -0.01530060451477766,
+      0.2476094663143158,
+      0.034491509199142456
+    ],
+    "weights_before": {
+      "mixamorig:Hips": 0.9996880292892456,
+      "mixamorig:Spine1": 0.00014097585517447442,
+      "mixamorig:RightUpLeg": 9.898305142996833e-05,
+      "mixamorig:LeftUpLeg": 7.198766979854554e-05
+    },
+    "weights_after": {
+      "mixamorig:Hips": 0.9998590350151062,
+      "mixamorig:Spine1": 0.00014099996769800782
+    }
+  },
+  {
+    "state": "recovery-mid",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.7452320864540525e-05,
+    "expected": [
+      0.19234201312065125,
+      -0.09779935330152512,
+      0.08578502386808395
+    ],
+    "actual": [
+      0.19236786663532257,
+      -0.0978085845708847,
+      0.0857849270105362
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "recovery-mid",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1528,
+    "source_vertex": 1528,
+    "error": 2.7452320864540525e-05,
+    "expected": [
+      0.19234201312065125,
+      -0.09779935330152512,
+      0.08578502386808395
+    ],
+    "actual": [
+      0.19236786663532257,
+      -0.0978085845708847,
+      0.0857849270105362
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "recovery-mid",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.7452320864540525e-05,
+    "expected": [
+      0.19234201312065125,
+      -0.09779935330152512,
+      0.08578502386808395
+    ],
+    "actual": [
+      0.19236786663532257,
+      -0.0978085845708847,
+      0.0857849270105362
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "offer-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 5.48958450963255e-06,
+    "expected": [
+      0.1149214580655098,
+      -0.002448087790980935,
+      0.4654541611671448
+    ],
+    "actual": [
+      0.11491835862398148,
+      -0.0024525902699679136,
+      0.4654536545276642
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "offer-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 8.222960786952171e-06,
+    "expected": [
+      0.2853986322879791,
+      -0.10160425305366516,
+      0.4255072772502899
+    ],
+    "actual": [
+      0.28540366888046265,
+      -0.10160670429468155,
+      0.42551329731941223
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  },
+  {
+    "state": "offer-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.1295564036117867e-05,
+    "expected": [
+      0.12704457342624664,
+      -0.02602577768266201,
+      0.4685974717140198
+    ],
+    "actual": [
+      0.12703850865364075,
+      -0.026035306975245476,
+      0.4685974419116974
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "wrist-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 5.48958450963255e-06,
+    "expected": [
+      0.1149214580655098,
+      -0.002448087790980935,
+      0.4654541611671448
+    ],
+    "actual": [
+      0.11491835862398148,
+      -0.0024525902699679136,
+      0.4654536545276642
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "wrist-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 7.890865163062699e-06,
+    "expected": [
+      0.2840355634689331,
+      -0.09780491143465042,
+      0.42366501688957214
+    ],
+    "actual": [
+      0.2840404510498047,
+      -0.09780705720186234,
+      0.42367082834243774
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  },
+  {
+    "state": "wrist-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.1295564036117867e-05,
+    "expected": [
+      0.12704457342624664,
+      -0.02602577768266201,
+      0.4685974717140198
+    ],
+    "actual": [
+      0.12703850865364075,
+      -0.026035306975245476,
+      0.4685974419116974
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "self-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 7.663896212761756e-06,
+    "expected": [
+      0.1149214655160904,
+      -0.002448087790980935,
+      0.4654541611671448
+    ],
+    "actual": [
+      0.11491411179304123,
+      -0.002448512939736247,
+      0.4654562771320343
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "self-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.2107677321182564e-05,
+    "expected": [
+      0.12704455852508545,
+      -0.02602577768266201,
+      0.4685974717140198
+    ],
+    "actual": [
+      0.12703362107276917,
+      -0.026026776060461998,
+      0.46860256791114807
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "self-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 1.3075461538392119e-05,
+    "expected": [
+      0.2117103934288025,
+      -0.15607137978076935,
+      0.45918846130371094
+    ],
+    "actual": [
+      0.2117089480161667,
+      -0.15607815980911255,
+      0.45919954776763916
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  },
+  {
+    "state": "self-R",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1151,
+    "source_vertex": 1151,
+    "error": 7.226632988022175e-06,
+    "expected": [
+      -0.11370091885328293,
+      0.03576662391424179,
+      0.4666748046875
+    ],
+    "actual": [
+      -0.11369393020868301,
+      0.035767458379268646,
+      0.4666764438152313
+    ],
+    "weights_before": {
+      "mixamorig:RightShoulder": 0.007523836102336645,
+      "mixamorig:RightArm": 5.9476966271176934e-05,
+      "mixamorig:Spine2": 0.9924166798591614
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.992475688457489,
+      "mixamorig:RightShoulder": 0.007524283602833748
+    }
+  },
+  {
+    "state": "self-R",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1558,
+    "source_vertex": 1558,
+    "error": 8.977751349448226e-06,
+    "expected": [
+      -0.1945801079273224,
+      0.0834045335650444,
+      0.4687804877758026
+    ],
+    "actual": [
+      -0.19458821415901184,
+      0.08340796828269958,
+      0.4687822461128235
+    ],
+    "weights_before": {
+      "mixamorig:RightArm": 0.0007074330351315439,
+      "mixamorig:RightShoulder": 0.00026579853147268295,
+      "mixamorig:RightForeArm": 6.951653631404042e-05,
+      "mixamorig:Spine2": 0.9989572763442993
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9990267157554626,
+      "mixamorig:RightArm": 0.0007074822206050158,
+      "mixamorig:RightShoulder": 0.000265817012405023
+    }
+  },
+  {
+    "state": "self-R",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 327,
+    "source_vertex": 327,
+    "error": 1.419542695657583e-05,
+    "expected": [
+      -0.21268931031227112,
+      -0.15759959816932678,
+      0.46468663215637207
+    ],
+    "actual": [
+      -0.21268755197525024,
+      -0.15760524570941925,
+      0.46469953656196594
+    ],
+    "weights_before": {
+      "mixamorig:RightForeArm": 0.9175691604614258,
+      "mixamorig:RightArm": 0.08234595507383347,
+      "mixamorig:Spine2": 8.487807644996792e-05
+    },
+    "weights_after": {
+      "mixamorig:RightForeArm": 0.9176470637321472,
+      "mixamorig:RightArm": 0.08235294371843338
+    }
+  },
+  {
+    "state": "hold-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 6.910771844559349e-06,
+    "expected": [
+      0.1149214580655098,
+      -0.0024480875581502914,
+      0.46545419096946716
+    ],
+    "actual": [
+      0.11491475254297256,
+      -0.0024493939708918333,
+      0.46545523405075073
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "hold-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.1552321666385978e-05,
+    "expected": [
+      0.12704454362392426,
+      -0.02602577768266201,
+      0.4685974717140198
+    ],
+    "actual": [
+      0.12703390419483185,
+      -0.026028623804450035,
+      0.46860095858573914
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "hold-L",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 1.2337045518506784e-05,
+    "expected": [
+      0.19865570962429047,
+      -0.16104891896247864,
+      0.4424438178539276
+    ],
+    "actual": [
+      0.1986539214849472,
+      -0.16105780005455017,
+      0.44245219230651855
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  },
+  {
+    "state": "hold-both",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 6.910771844559349e-06,
+    "expected": [
+      0.1149214580655098,
+      -0.0024480875581502914,
+      0.46545419096946716
+    ],
+    "actual": [
+      0.11491475254297256,
+      -0.0024493939708918333,
+      0.46545523405075073
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "hold-both",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.1552321666385978e-05,
+    "expected": [
+      0.12704454362392426,
+      -0.02602577768266201,
+      0.4685974717140198
+    ],
+    "actual": [
+      0.12703390419483185,
+      -0.026028623804450035,
+      0.46860095858573914
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "hold-both",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 1.2337045518506784e-05,
+    "expected": [
+      0.19865570962429047,
+      -0.16104891896247864,
+      0.4424438178539276
+    ],
+    "actual": [
+      0.1986539214849472,
+      -0.16105780005455017,
+      0.44245219230651855
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  },
+  {
+    "state": "hold-both",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1151,
+    "source_vertex": 1151,
+    "error": 6.335435500659514e-06,
+    "expected": [
+      -0.11370091885328293,
+      0.03576662018895149,
+      0.4666748344898224
+    ],
+    "actual": [
+      -0.11369463801383972,
+      0.03576704114675522,
+      0.4666755497455597
+    ],
+    "weights_before": {
+      "mixamorig:RightShoulder": 0.007523836102336645,
+      "mixamorig:RightArm": 5.9476966271176934e-05,
+      "mixamorig:Spine2": 0.9924166798591614
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.992475688457489,
+      "mixamorig:RightShoulder": 0.007524283602833748
+    }
+  },
+  {
+    "state": "hold-both",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1558,
+    "source_vertex": 1558,
+    "error": 7.471862772945315e-06,
+    "expected": [
+      -0.1945801079273224,
+      0.0834045335650444,
+      0.468780517578125
+    ],
+    "actual": [
+      -0.19458603858947754,
+      0.08340826630592346,
+      0.46878311038017273
+    ],
+    "weights_before": {
+      "mixamorig:RightArm": 0.0007074330351315439,
+      "mixamorig:RightShoulder": 0.00026579853147268295,
+      "mixamorig:RightForeArm": 6.951653631404042e-05,
+      "mixamorig:Spine2": 0.9989572763442993
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9990267157554626,
+      "mixamorig:RightArm": 0.0007074822206050158,
+      "mixamorig:RightShoulder": 0.000265817012405023
+    }
+  },
+  {
+    "state": "hold-both",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 327,
+    "source_vertex": 327,
+    "error": 1.2428336958691943e-05,
+    "expected": [
+      -0.19980363547801971,
+      -0.16334094107151031,
+      0.44742846488952637
+    ],
+    "actual": [
+      -0.1998017430305481,
+      -0.16334813833236694,
+      0.44743841886520386
+    ],
+    "weights_before": {
+      "mixamorig:RightForeArm": 0.9175691604614258,
+      "mixamorig:RightArm": 0.08234595507383347,
+      "mixamorig:Spine2": 8.487807644996792e-05
+    },
+    "weights_after": {
+      "mixamorig:RightForeArm": 0.9176470637321472,
+      "mixamorig:RightArm": 0.08235294371843338
+    }
+  },
+  {
+    "state": "hold-L-touch-R",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 6.910771844559349e-06,
+    "expected": [
+      0.1149214580655098,
+      -0.0024480875581502914,
+      0.46545419096946716
+    ],
+    "actual": [
+      0.11491475254297256,
+      -0.0024493939708918333,
+      0.46545523405075073
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "hold-L-touch-R",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.1552321666385978e-05,
+    "expected": [
+      0.12704454362392426,
+      -0.02602577768266201,
+      0.4685974717140198
+    ],
+    "actual": [
+      0.12703390419483185,
+      -0.026028623804450035,
+      0.46860095858573914
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "hold-L-touch-R",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 1.2337045518506784e-05,
+    "expected": [
+      0.19865570962429047,
+      -0.16104891896247864,
+      0.4424438178539276
+    ],
+    "actual": [
+      0.1986539214849472,
+      -0.16105780005455017,
+      0.44245219230651855
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  },
+  {
+    "state": "hold-L-touch-R",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1151,
+    "source_vertex": 1151,
+    "error": 7.226632988022175e-06,
+    "expected": [
+      -0.11370091885328293,
+      0.03576662391424179,
+      0.4666748046875
+    ],
+    "actual": [
+      -0.11369393020868301,
+      0.035767458379268646,
+      0.4666764438152313
+    ],
+    "weights_before": {
+      "mixamorig:RightShoulder": 0.007523836102336645,
+      "mixamorig:RightArm": 5.9476966271176934e-05,
+      "mixamorig:Spine2": 0.9924166798591614
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.992475688457489,
+      "mixamorig:RightShoulder": 0.007524283602833748
+    }
+  },
+  {
+    "state": "hold-L-touch-R",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1558,
+    "source_vertex": 1558,
+    "error": 8.977751349448226e-06,
+    "expected": [
+      -0.1945801079273224,
+      0.0834045335650444,
+      0.4687804877758026
+    ],
+    "actual": [
+      -0.19458821415901184,
+      0.08340796828269958,
+      0.4687822461128235
+    ],
+    "weights_before": {
+      "mixamorig:RightArm": 0.0007074330351315439,
+      "mixamorig:RightShoulder": 0.00026579853147268295,
+      "mixamorig:RightForeArm": 6.951653631404042e-05,
+      "mixamorig:Spine2": 0.9989572763442993
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9990267157554626,
+      "mixamorig:RightArm": 0.0007074822206050158,
+      "mixamorig:RightShoulder": 0.000265817012405023
+    }
+  },
+  {
+    "state": "hold-L-touch-R",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 327,
+    "source_vertex": 327,
+    "error": 1.419542695657583e-05,
+    "expected": [
+      -0.21268931031227112,
+      -0.15759959816932678,
+      0.46468663215637207
+    ],
+    "actual": [
+      -0.21268755197525024,
+      -0.15760524570941925,
+      0.46469953656196594
+    ],
+    "weights_before": {
+      "mixamorig:RightForeArm": 0.9175691604614258,
+      "mixamorig:RightArm": 0.08234595507383347,
+      "mixamorig:Spine2": 8.487807644996792e-05
+    },
+    "weights_after": {
+      "mixamorig:RightForeArm": 0.9176470637321472,
+      "mixamorig:RightArm": 0.08235294371843338
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 6.625694368267432e-06,
+    "expected": [
+      0.1149214655160904,
+      0.052551910281181335,
+      0.3504541516304016
+    ],
+    "actual": [
+      0.1149149239063263,
+      0.05255085974931717,
+      0.3504542112350464
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 9.993928870244417e-06,
+    "expected": [
+      0.19865572452545166,
+      -0.10604891926050186,
+      0.32744377851486206
+    ],
+    "actual": [
+      0.19865398108959198,
+      -0.10605636239051819,
+      0.3274502158164978
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.101682755688671e-05,
+    "expected": [
+      0.12704452872276306,
+      0.028974225744605064,
+      0.3535974621772766
+    ],
+    "actual": [
+      0.1270337998867035,
+      0.028972076252102852,
+      0.3535987436771393
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1151,
+    "source_vertex": 1151,
+    "error": 6.908970590302488e-06,
+    "expected": [
+      -0.11370091140270233,
+      0.09076662361621857,
+      0.35167479515075684
+    ],
+    "actual": [
+      -0.11369409412145615,
+      0.09076769649982452,
+      0.3516751229763031
+    ],
+    "weights_before": {
+      "mixamorig:RightShoulder": 0.007523836102336645,
+      "mixamorig:RightArm": 5.9476966271176934e-05,
+      "mixamorig:Spine2": 0.9924166798591614
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.992475688457489,
+      "mixamorig:RightShoulder": 0.007524283602833748
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 1558,
+    "source_vertex": 1558,
+    "error": 9.183565452985931e-06,
+    "expected": [
+      -0.1945801079273224,
+      0.13840451836585999,
+      0.35378050804138184
+    ],
+    "actual": [
+      -0.1945873200893402,
+      0.13840731978416443,
+      0.3537854552268982
+    ],
+    "weights_before": {
+      "mixamorig:RightArm": 0.0007074330351315439,
+      "mixamorig:RightShoulder": 0.00026579853147268295,
+      "mixamorig:RightForeArm": 6.951653631404042e-05,
+      "mixamorig:Spine2": 0.9989572763442993
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9990267157554626,
+      "mixamorig:RightArm": 0.0007074822206050158,
+      "mixamorig:RightShoulder": 0.000265817012405023
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Paw_R",
+    "import_vertex": 327,
+    "source_vertex": 327,
+    "error": 1.1957715287280735e-05,
+    "expected": [
+      -0.21268928050994873,
+      -0.1025996133685112,
+      0.3496865928173065
+    ],
+    "actual": [
+      -0.21268755197525024,
+      -0.10260304063558578,
+      0.34969791769981384
+    ],
+    "weights_before": {
+      "mixamorig:RightForeArm": 0.9175691604614258,
+      "mixamorig:RightArm": 0.08234595507383347,
+      "mixamorig:Spine2": 8.487807644996792e-05
+    },
+    "weights_after": {
+      "mixamorig:RightForeArm": 0.9176470637321472,
+      "mixamorig:RightArm": 0.08235294371843338
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1527,
+    "source_vertex": 1527,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 1529,
+    "source_vertex": 1529,
+    "error": 2.8524584195110947e-05,
+    "expected": [
+      0.1923418641090393,
+      -0.09779700636863708,
+      0.08578456193208694
+    ],
+    "actual": [
+      0.1923680305480957,
+      -0.0978083610534668,
+      0.08578436076641083
+    ],
+    "weights_before": {
+      "mixamorig:LeftFoot": 0.9998789429664612,
+      "mixamorig:LeftUpLeg": 8.068793249549344e-05,
+      "mixamorig:LeftLeg": 4.034396624774672e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftFoot": 1.0
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "mesh": "ShushuStatic_Torso",
+    "import_vertex": 5181,
+    "source_vertex": 5181,
+    "error": 4.3685213313438e-05,
+    "expected": [
+      -0.015300209634006023,
+      0.24757647514343262,
+      0.03446287661790848
+    ],
+    "actual": [
+      -0.01530060451477766,
+      0.2476094663143158,
+      0.034491509199142456
+    ],
+    "weights_before": {
+      "mixamorig:Hips": 0.9996880292892456,
+      "mixamorig:Spine1": 0.00014097585517447442,
+      "mixamorig:RightUpLeg": 9.898305142996833e-05,
+      "mixamorig:LeftUpLeg": 7.198766979854554e-05
+    },
+    "weights_after": {
+      "mixamorig:Hips": 0.9998590350151062,
+      "mixamorig:Spine1": 0.00014099996769800782
+    }
+  },
+  {
+    "state": "hold-resume",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 16,
+    "source_vertex": 16,
+    "error": 6.910771844559349e-06,
+    "expected": [
+      0.1149214580655098,
+      -0.0024480875581502914,
+      0.46545419096946716
+    ],
+    "actual": [
+      0.11491475254297256,
+      -0.0024493939708918333,
+      0.46545523405075073
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.013934146612882614,
+      "mixamorig:LeftArm": 5.485884685185738e-05,
+      "mixamorig:Spine2": 0.9860109686851501
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9860650897026062,
+      "mixamorig:LeftShoulder": 0.013934911228716373
+    }
+  },
+  {
+    "state": "hold-resume",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 204,
+    "source_vertex": 204,
+    "error": 1.1552321666385978e-05,
+    "expected": [
+      0.12704454362392426,
+      -0.02602577768266201,
+      0.4685974717140198
+    ],
+    "actual": [
+      0.12703390419483185,
+      -0.026028623804450035,
+      0.46860095858573914
+    ],
+    "weights_before": {
+      "mixamorig:LeftShoulder": 0.0012902767630293965,
+      "mixamorig:LeftArm": 8.637836435809731e-05,
+      "mixamorig:Spine2": 0.9986233711242676
+    },
+    "weights_after": {
+      "mixamorig:Spine2": 0.9987096190452576,
+      "mixamorig:LeftShoulder": 0.001290388172492385
+    }
+  },
+  {
+    "state": "hold-resume",
+    "mesh": "ShushuStatic_Paw_L",
+    "import_vertex": 332,
+    "source_vertex": 332,
+    "error": 1.2337045518506784e-05,
+    "expected": [
+      0.19865570962429047,
+      -0.16104891896247864,
+      0.4424438178539276
+    ],
+    "actual": [
+      0.1986539214849472,
+      -0.16105780005455017,
+      0.44245219230651855
+    ],
+    "weights_before": {
+      "mixamorig:LeftForeArm": 0.5764216184616089,
+      "mixamorig:LeftHand": 0.35291120409965515,
+      "mixamorig:LeftArm": 0.07058224081993103,
+      "mixamorig:Spine2": 8.493799396092072e-05
+    },
+    "weights_after": {
+      "mixamorig:LeftForeArm": 0.5764705538749695,
+      "mixamorig:LeftHand": 0.3529411554336548,
+      "mixamorig:LeftArm": 0.07058823108673096
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "neutral",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "half",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "closed",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "smile",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "mouth-close",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "mouth-open-tongue",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "seat-mid",
+    "torso_min_z": -3.639309795744339e-07,
+    "below_floor": 0
+  },
+  {
+    "name": "seat",
+    "torso_min_z": -0.010837540030479431,
+    "below_floor": 24
+  },
+  {
+    "name": "offer-L",
+    "torso_min_z": 3.0946445406243583e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "self-L",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  },
+  {
+    "name": "hold-both",
+    "torso_min_z": 1.0938507877256143e-08,
+    "below_floor": 0
+  }
+]

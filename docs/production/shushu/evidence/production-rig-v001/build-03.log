@@ -1,0 +1,22 @@
+02:55:06 | INFO: Data are loaded, start creating Blender stuff
+02:55:06 | INFO: Blender create Mesh node Mesh_0.001
+02:55:06 | INFO: Blender create Mesh node Mesh_1.001
+02:55:06 | INFO: Blender create Mesh node Mesh_2.001
+02:55:06 | INFO: Blender create Mesh node Mesh_3.001
+02:55:06 | INFO: Blender create Mesh node Mesh_4.001
+02:55:06 | INFO: Blender create Mesh node Mesh_5.001
+02:55:06 | INFO: Blender create Mesh node Mesh_6.001
+02:55:06 | INFO: Blender create Mesh node Mesh_7.001
+02:55:06 | INFO: Blender create Mesh node Mesh_8.001
+02:55:06 | INFO: Blender create Mesh node Mesh_9.001
+02:55:06 | INFO: Blender create Mesh node Mesh_10.001
+02:55:07 | INFO: Blender create Mesh node Mesh_11.001
+02:55:07 | INFO: glTF import finished in 0.76s
+C:\Users\chidj\project\プロダクト\Grimo\scripts\blender\build-shushu-production-rig-v001.py:255: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Shushu controlled tongue');mat.use_nodes=True;bs=mat.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(1,.36,.28,1);bs.inputs['Roughness'].default_value=.65;o.data.materials.append(mat)
+Info: No new files have been packed
+Info: Saved as "shushu-v006-production-rig-v001.blend"
+BUILD_SAVED
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

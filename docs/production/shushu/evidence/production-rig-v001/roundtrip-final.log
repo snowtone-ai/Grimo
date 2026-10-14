@@ -1,0 +1,30 @@
+00:04.922  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v001.blend"
+04:51:34 | INFO: Data are loaded, start creating Blender stuff
+04:51:34 | INFO: Blender create Mesh node ShushuStatic_Ear_L
+04:51:34 | INFO: Blender create Mesh node ShushuStatic_Ear_R
+04:51:34 | INFO: Blender create Mesh node ShushuStatic_OralBowl
+04:51:34 | INFO: Blender create Mesh node ShushuStatic_Eye_L
+04:51:34 | INFO: Blender create Mesh node ShushuStatic_Eye_R
+04:51:34 | INFO: Blender create Mesh node ShushuStatic_Head
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_LidWall_L
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_LidWall_R
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_MouthInterior
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_Nose
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_Paw_L
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_Paw_R
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_Tongue
+04:51:35 | INFO: Blender create Mesh node ShushuStatic_Torso
+04:51:36 | INFO: glTF import finished in 1.51s
+Traceback (most recent call last):
+  File "C:\Users\chidj\project\プロダクト\Grimo\scripts\blender\prove-shushu-production-rig-v001.py", line 304, in <module>
+    audit() if '--audit' in sys.argv else proof() if '--proof' in sys.argv else roundtrip() if '--roundtrip' in sys.argv else render()
+                                                                                ~~~~~~~~~^^
+  File "C:\Users\chidj\project\プロダクト\Grimo\scripts\blender\prove-shushu-production-rig-v001.py", line 265, in roundtrip
+    assert max(x['world_error']['max'] for x in rows)<1e-5,'GLB deformation mismatch'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: GLB deformation mismatch
+
+Error: script failed, file: 'scripts/blender/prove-shushu-production-rig-v001.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

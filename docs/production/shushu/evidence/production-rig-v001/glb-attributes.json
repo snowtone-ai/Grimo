@@ -1,0 +1,828 @@
+{
+  "source_sha256": "803aeec97cb455a289e28baa9dd8cd281b97d2b54b92048a2e782228172f8932",
+  "saved_sha256": "84ad4038c03e0ed7ae599327d1382a4a0c04fc141b1e515d1a6a06ddec40b47b",
+  "original_texture_count": 12,
+  "saved_texture_count": 12,
+  "all_original_texture_bytes_equal": true,
+  "meshes": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "vertices_source": 2223,
+      "vertices_saved": 2223,
+      "uv_unique_count": [
+        2223,
+        2223
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "9451b3ec45090ad87ea39b6b7ef5ea526cd213f0368a9c12f777b69d787bebef",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "9451b3ec45090ad87ea39b6b7ef5ea526cd213f0368a9c12f777b69d787bebef",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "vertices_source": 2199,
+      "vertices_saved": 2199,
+      "uv_unique_count": [
+        2199,
+        2199
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "4637149c4d9e8387f4343d3a5d060143bc1bda42d0a91e5ee9b2b62f4c7b4c02",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "4637149c4d9e8387f4343d3a5d060143bc1bda42d0a91e5ee9b2b62f4c7b4c02",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "vertices_source": 779,
+      "vertices_saved": 779,
+      "uv_unique_count": [
+        779,
+        779
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "a3b48f12b7d208c5ff1575d517e6184d42d460954480807b53bb0cb6c6ebd820",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "a3b48f12b7d208c5ff1575d517e6184d42d460954480807b53bb0cb6c6ebd820",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 6
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "vertices_source": 801,
+      "vertices_saved": 801,
+      "uv_unique_count": [
+        801,
+        801
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "2bd12b235ea4000486ba8f3258b7ccf8699b39bfed3ce6396a1cc0f8b02b6815",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "2bd12b235ea4000486ba8f3258b7ccf8699b39bfed3ce6396a1cc0f8b02b6815",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 6
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "vertices_source": 34667,
+      "vertices_saved": 34679,
+      "uv_unique_count": [
+        34153,
+        34153
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "2e1a7abf98bec3fe77d92567450d8c7e25c3cb93db5f64c0f123097ce695bead",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "2e1a7abf98bec3fe77d92567450d8c7e25c3cb93db5f64c0f123097ce695bead",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 14
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "vertices_source": 633,
+      "vertices_saved": 639,
+      "uv_unique_count": [
+        627,
+        627
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "6f0328120b3676245d573c120db56d23436c4b62ac960761f2721c3d67cc40be",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "6f0328120b3676245d573c120db56d23436c4b62ac960761f2721c3d67cc40be",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 4
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "vertices_source": 723,
+      "vertices_saved": 725,
+      "uv_unique_count": [
+        713,
+        713
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "5c8f6e96a02f5fc72e38ba323f3a344e24e4875b5d629fb4902b1841ea711a3e",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "5c8f6e96a02f5fc72e38ba323f3a344e24e4875b5d629fb4902b1841ea711a3e",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 4
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "vertices_source": 450,
+      "vertices_saved": 450,
+      "uv_unique_count": [
+        450,
+        450
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 5
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "vertices_source": 3740,
+      "vertices_saved": 3740,
+      "uv_unique_count": [
+        3740,
+        3740
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "69272dc14e01d8a292c1e2d393d70534fa4c8c81bb9fc119be36ed84e4936c8f",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "69272dc14e01d8a292c1e2d393d70534fa4c8c81bb9fc119be36ed84e4936c8f",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 0.0,
+      "influence_sets": 1,
+      "morphs": 3
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertices_source": 1681,
+      "vertices_saved": 1681,
+      "uv_unique_count": [
+        1681,
+        1681
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "d65f8fec15ffe4f1be556c5ffc3f38cf4f624a06f8ec29f03852f864575ae297",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "d65f8fec15ffe4f1be556c5ffc3f38cf4f624a06f8ec29f03852f864575ae297",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 1.7881393432617188e-07,
+      "influence_sets": 2,
+      "morphs": 24
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertices_source": 1716,
+      "vertices_saved": 1716,
+      "uv_unique_count": [
+        1716,
+        1716
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "912ef58427f6421b0c50ee1d6816219587169c0ad300d8fe0ebd5f9f8c4e69c0",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "912ef58427f6421b0c50ee1d6816219587169c0ad300d8fe0ebd5f9f8c4e69c0",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 1.1920928955078125e-07,
+      "influence_sets": 2,
+      "morphs": 24
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertices_source": 5621,
+      "vertices_saved": 5621,
+      "uv_unique_count": [
+        5621,
+        5621
+      ],
+      "uv_unique_set_equal": true,
+      "material_semantics_equal": true,
+      "material_source": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "de71cb8705ee3cad21b7278353a733df30201c6332f311fd3931eeecb4e59979",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "material_saved": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421,
+        "alphaMode": "OPAQUE",
+        "alphaCutoff": 0.5,
+        "doubleSided": true,
+        "emissiveFactor": [
+          0,
+          0,
+          0
+        ],
+        "baseColorTexture": {
+          "image_sha256": "de71cb8705ee3cad21b7278353a733df30201c6332f311fd3931eeecb4e59979",
+          "texCoord": 0,
+          "scale": 1,
+          "strength": 1,
+          "extensions": {}
+        },
+        "extensions": {}
+      },
+      "weights_sum_error": 1.1920928955078125e-07,
+      "influence_sets": 2,
+      "morphs": 6
+    }
+  ],
+  "total_character_meshes": 14,
+  "triangles": 101053,
+  "skins": [
+    67
+  ],
+  "animations": [
+    {
+      "name": "Shushu_RigCapability_Proof",
+      "seconds": 24.54166603088379,
+      "channels": {
+        "translation": 69,
+        "rotation": 67,
+        "scale": 67,
+        "weights": 12
+      }
+    }
+  ],
+  "anchors": [
+    "ANCHOR_Hold.L",
+    "ANCHOR_WearEar.L",
+    "ANCHOR_WearEar.R",
+    "ANCHOR_Crown",
+    "ANCHOR_Mouth",
+    "ANCHOR_Hold.R",
+    "ANCHOR_WearChest"
+  ],
+  "external_buffers": false
+}
