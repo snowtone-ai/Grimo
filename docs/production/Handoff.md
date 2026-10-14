@@ -1,7 +1,7 @@
 # Grimo — Handoff
 
 **Canonical:** `coord/grimo-ai-handoff:docs/production/Handoff.md`. **Limit 4,000 Unicode characters**. NOW / next action only.
-**Last interaction:** 2026-10-15 ChatGPT — authored 34 independent Pino Rig/Motion 2D reference prompts on dedicated docs branch; no images generated, no authority promoted.
+**Last interaction:** 2026-10-15 ChatGPT — revised Pino 34-reference execution contract to incorporate Jill pilot→structure gate→batch→contact sheet/REVIEW flow; no images generated and no Human approvals claimed.
 
 ## Verified last-known execution
 - **Production branch:** `codex/grimo-motion-zero-based-design-20261011`; **verified remote HEAD:** `2812a9a3baad7f805e0bb8195be46b0313861beb` (AGENTS-only change atop `1b0663a982eeea7d74905092c5306608f13e33cd`, which added Shushu references #18–26). No v003 output shown by this docs commit. Recheck later remote commits; local uncommitted state UNKNOWN.
@@ -13,7 +13,7 @@
 - **Tripo:** imported-model animal Rig suitability, current credits and Studio operations UNKNOWN. Paid Texture/Rig/Retopo/Mesh Edit HOLD pending explicit user approval. No paid actions in this documentation task.
 
 ## Pino reference task
-- Branch `docs/pino-motion-reference-prompts-20261015` commit `3b200e13364cf2dfe022aebd28466841206e3377`, root `pino-prompt.md` (34 full prompts). Codex may attempt built-in image generation only if available and five image inputs actually attach; Human review remains pending. No API fallback approval.
+- Branch `docs/pino-motion-reference-prompts-20261015`, `pino-prompt.md`, HEAD `96eb293f51183084ce875b9e9abf28d908e6e63a`: all 34 independent prompts preserved; #01 imagegen preflight, #01–03 structural gate, then #04–34, contact sheet and REVIEW.md. Built-in imagegen/five actual references required; no API fallback. Human=PENDING.
 
 ## Next owner / gates
 **Codex:** finish and push v003 if still active. **ChatGPT:** verify production branch/HEAD, source Candidate B, front/side/3Q neutral and seated views, expression/deformation and FBX/GLB evidence before Human appearance review. **v003 Technical PENDING; Visual PENDING; Motion readiness PENDING; Studio import UNKNOWN.** Standing/seated game neutral undecided.
