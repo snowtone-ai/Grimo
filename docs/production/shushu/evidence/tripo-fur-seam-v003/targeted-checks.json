@@ -1,0 +1,90 @@
+{
+  "source_sha256": "d9bfbac01404c39a22fe14306a4d225c7b8efde34b3402cca0e9e9933d40b4d7",
+  "candidate_sha256": "ed94fbc4f6f78eb21d9f4ca8e3a4e4741be23fcc1109653710a3d31aaad6e9ee",
+  "head_changed_texels": 120113,
+  "previous_eye_and_mouth_texels_changed": 0,
+  "protected_inputs_checked": 825,
+  "protected_inputs_changed": [],
+  "matched_cameras": true,
+  "rendered_saved_candidate_sha256": "ed94fbc4f6f78eb21d9f4ca8e3a4e4741be23fcc1109653710a3d31aaad6e9ee",
+  "render_differences": {
+    "front": {
+      "different_pixels": 8646,
+      "above_3_levels_pixels": 2365,
+      "above_3_levels_bbox": [
+        376,
+        176,
+        941,
+        703
+      ],
+      "max_channel_delta": 55
+    },
+    "left-three-quarter": {
+      "different_pixels": 17444,
+      "above_3_levels_pixels": 4104,
+      "above_3_levels_bbox": [
+        149,
+        176,
+        632,
+        786
+      ],
+      "max_channel_delta": 80
+    },
+    "right-three-quarter": {
+      "different_pixels": 22092,
+      "above_3_levels_pixels": 6076,
+      "above_3_levels_bbox": [
+        393,
+        176,
+        832,
+        786
+      ],
+      "max_channel_delta": 56
+    },
+    "left-side": {
+      "different_pixels": 23253,
+      "above_3_levels_pixels": 3735,
+      "above_3_levels_bbox": [
+        408,
+        176,
+        632,
+        786
+      ],
+      "max_channel_delta": 58
+    },
+    "right-side": {
+      "different_pixels": 24065,
+      "above_3_levels_pixels": 5697,
+      "above_3_levels_bbox": [
+        415,
+        176,
+        592,
+        787
+      ],
+      "max_channel_delta": 28
+    },
+    "top": {
+      "different_pixels": 84398,
+      "above_3_levels_pixels": 52378,
+      "above_3_levels_bbox": [
+        83,
+        381,
+        665,
+        665
+      ],
+      "max_channel_delta": 112
+    },
+    "back": {
+      "different_pixels": 18130,
+      "above_3_levels_pixels": 8415,
+      "above_3_levels_bbox": [
+        97,
+        176,
+        938,
+        786
+      ],
+      "max_channel_delta": 56
+    }
+  },
+  "human_gate": "PENDING"
+}

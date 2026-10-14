@@ -1,0 +1,22 @@
+{
+  "review_date": "2026-10-14",
+  "asset": "v004",
+  "basis": "Independently reloaded saved GLB renders at native 1024x1024 and approved Body-only imagery",
+  "codex_local_appearance": "PASS",
+  "human_gate": "PENDING",
+  "visual_judgment": "Both side-view irises protrude less with 0.006 posterior offset. Front and three-quarter expression, floral irises, highlights, smile and blush remain cute and coherent; 0.012 trial rejected for detached rim.",
+  "reviewed_sha256": {
+    "renders/candidate-front.png": "713e4f4c844536067b46550d229427bdc2867b850dceb29fd50df4fda50e54a8",
+    "renders/candidate-left-three-quarter.png": "c3d90496297fe5bdd9034d261de603207285df89e1599213a4711c0538e30da6",
+    "renders/candidate-right-three-quarter.png": "419855f32077551abbf2de9b7a03834c845b05578ac28379cec29bc105fe5287",
+    "renders/candidate-left-side.png": "453604a35241f59f8a2db6f0ffcc7c00d6172e048902b7f4700830984f33a2ed",
+    "renders/candidate-right-side.png": "47a7dd99bfba5f202269781676476b9e284a68addc4f5b8b8b906c5e35c07900",
+    "renders/candidate-top.png": "6b19aa972d0e0e088362669bd36e1d1656d0e1b311523ebf592c57f1cebd800e",
+    "renders/candidate-back.png": "f040f23a912450b37db24546033e919f6b3f67bdb7030f9d87afe938d1b3bf5a",
+    "01-seven-angle-eye-depth-comparison.png": "9859f60881fdcf050f1e47bde364086cfcb608be8b0546c3fbbd57f7d4612589",
+    "02-v002-to-v004-seven-angle-comparison.png": "b0bee58519528f03d9d6071b15dd03f73f45318f81233c0303ef503e74940e43",
+    "03-depth-trials.png": "363151c0a7c7eb7c819c0f27a00dc69f045d14cb9e105c973ef77c916c586706",
+    "04-approved-side-reference.png": "ec989513b4e98cc3690fc5006280a12db7a8d58d2df721938b44f9ddce67a072",
+    "05-eye-closeups.png": "b85bbfb9e121056ea797405a62207539f24b15221e4242c659be50382a0dfec3"
+  }
+}

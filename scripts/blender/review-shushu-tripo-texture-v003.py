@@ -77,6 +77,7 @@ def render():
     camdata=bpy.data.cameras.new('ReviewCamera');cam=bpy.data.objects.new('ReviewCamera',camdata);scene.collection.objects.link(cam);scene.camera=cam
     camdata.type='ORTHO'; camdata.ortho_scale=(mx[0]-mn[0])*1.18
     views={'front':(0,-1,0),'left-three-quarter':(-.707,-.707,0),'right-three-quarter':(.707,-.707,0),'left-side':(-1,0,0),'right-side':(1,0,0)}
+    if EYE_CONFIG: views.update(EYE_CONFIG.get('extra_views',{}))
     folder=OUT/'renders';folder.mkdir(exist_ok=True)
     cameras={}
     for name,direction in views.items():
@@ -93,6 +94,18 @@ def render():
         em=nodes.new('ShaderNodeEmission');em.inputs['Color'].default_value=(.92,.84,.76,1);out=nodes.new('ShaderNodeOutputMaterial');mat.node_tree.links.new(em.outputs[0],out.inputs[0])
         head.data.materials.clear();head.data.materials.append(mat)
         scene.render.filepath=str(folder/'diagnostic-flat-head.png');bpy.ops.render.render(write_still=True)
+    if EYE_CONFIG and EYE_CONFIG.get('diagnostic_views') and version=='before':
+        for o in objects:o.hide_render=o!=head
+        for name in EYE_CONFIG['diagnostic_views']:
+            d=Vector(views[name]);cam.location=target+d*3;cam.rotation_euler=(-d).to_track_quat('-Z','Y').to_euler()
+            scene.render.filepath=str(folder/f'diagnostic-head-only-{name}.png');bpy.ops.render.render(write_still=True)
+        flat=bpy.data.materials.new('Diagnostic flat fur Head');flat.use_nodes=True;nodes=flat.node_tree.nodes;nodes.clear()
+        em=nodes.new('ShaderNodeEmission');em.inputs['Color'].default_value=(.92,.84,.76,1);out=nodes.new('ShaderNodeOutputMaterial');flat.node_tree.links.new(em.outputs[0],out.inputs[0])
+        head.data.materials.clear();head.data.materials.append(flat)
+        for o in objects:o.hide_render=False
+        for name in EYE_CONFIG['diagnostic_views']:
+            d=Vector(views[name]);cam.location=target+d*3;cam.rotation_euler=(-d).to_track_quat('-Z','Y').to_euler()
+            scene.render.filepath=str(folder/f'diagnostic-flat-head-{name}.png');bpy.ops.render.render(write_still=True)
     (OUT/f'{version}-cameras.json').write_text(json.dumps(cameras,indent=2)+'\n')
     print('ISOLATED_RENDER_COMPLETE',version,flush=True)
 
@@ -105,17 +118,20 @@ def projection():
     bpy.ops.import_scene.gltf(filepath=str(SOURCE))
     head=bpy.data.objects['ShushuStatic_Head']; mesh=head.data
     mesh.calc_loop_triangles(); uv=mesh.uv_layers.active.data
-    camera=json.loads((OUT/'before-cameras.json').read_text())['front']
+    view=(sys.argv[sys.argv.index('--projection-view')+1] if '--projection-view' in sys.argv else EYE_CONFIG.get('projection_view','front')) if EYE_CONFIG else 'front'
+    camera=json.loads((OUT/'before-cameras.json').read_text())[view]
     target=camera['target']; scale=camera['orthographic_scale']
+    direction=Vector(camera['direction']).normalized();rotation=(-direction).to_track_quat('-Z','Y')
+    right=rotation@Vector((1,0,0));up=rotation@Vector((0,1,0));inverse=head.matrix_world.inverted()
     eye=[[389,508],[397,519],[405,545],[408,573],[405,599],[396,624],[382,643],[360,658],[332,666],[308,667],[308,661],[332,660],[357,652],[377,637],[389,617],[397,596],[400,573],[398,548],[391,524]]
     mouth=[[405,629],[432,629],[434,646],[451,652],[459,665],[467,714],[451,721],[428,713],[415,685],[408,660]]
     masks={'eye-screen-left':eye,'eye-screen-right':[[1024-x,y] for x,y in eye], 'mouth-screen-left':mouth,'mouth-screen-right':[[1024-x,y] for x,y in mouth]}
-    if EYE_CONFIG: masks=EYE_CONFIG['masks']
+    if EYE_CONFIG: masks=({k:v for k,v in EYE_CONFIG['masks'].items() if k.startswith(view)} if EYE_CONFIG.get('mode')=='fur-seam' else EYE_CONFIG['masks'])
     points=[p for poly in masks.values() for p in poly]
     xmin,xmax=min(p[0] for p in points),max(p[0] for p in points)
     ymin,ymax=min(p[1] for p in points),max(p[1] for p in points)
     if not EYE_CONFIG: xmin,xmax,ymin,ymax=300,724,500,720
-    (OUT/'projection-masks.json').write_text(json.dumps(masks,indent=2)+'\n')
+    (OUT/(f'projection-masks-{view}.json' if EYE_CONFIG and EYE_CONFIG.get('mode')=='fur-seam' else 'projection-masks.json')).write_text(json.dumps(masks,indent=2)+'\n')
     def inside(x,y,poly):
         hit=np.zeros(x.shape,dtype=bool)
         for p,q in zip(poly,poly[1:]+poly[:1]):
@@ -125,8 +141,11 @@ def projection():
     mapping={}
     for tri in mesh.loop_triangles:
         world=np.array([head.matrix_world@mesh.vertices[v].co for v in tri.vertices])
-        if world[:,1].min()>-.1 or tri.normal.y>-.15:continue
-        screen=np.column_stack(((world[:,0]-target[0])/scale*1024+512,512-(world[:,2]-target[2])/scale*1024))
+        if view=='front':
+            if world[:,1].min()>-.1 or tri.normal.y>-.15:continue
+        elif (head.matrix_world.to_3x3()@tri.normal).dot(direction)<.15:continue
+        relative=world-np.array(target)
+        screen=np.column_stack((relative@np.array(right)/scale*1024+512,512-relative@np.array(up)/scale*1024))
         if screen[:,0].max()<xmin or screen[:,0].min()>xmax or screen[:,1].max()<ymin or screen[:,1].min()>ymax:continue
         tex=np.array([[uv[i].uv.x*2048,(1-uv[i].uv.y)*2048] for i in tri.loops])
         lo=np.maximum(np.floor(tex.min(0)).astype(int),0);hi=np.minimum(np.ceil(tex.max(0)).astype(int),2047)
@@ -140,11 +159,11 @@ def projection():
         for poly in masks.values():selected|=inside(sx,sy,poly)
         for x,y,u,v in zip(xx[valid&selected],yy[valid&selected],sx[valid&selected],sy[valid&selected]):
             # Exclude concealed texels: do not paint a rear or hidden Head face.
-            origin=Vector(((u-512)/1024*scale+target[0],-2,target[2]+(512-v)/1024*scale))
-            hit,loc,normal,face=head.ray_cast(origin,Vector((0,1,0)))
+            origin=Vector(target)+right*((u-512)/1024*scale)+up*((512-v)/1024*scale)+direction*3
+            hit,loc,normal,face=head.ray_cast(inverse@origin,inverse.to_3x3()@(-direction))
             if not hit or face!=tri.polygon_index:continue
             mapping[(int(x),int(y))]=[int(x),int(y),round(float(u),4),round(float(v),4)]
-    (OUT/'projection-map.json').write_text(json.dumps(list(mapping.values()),separators=(',',':'))+'\n')
+    (OUT/(f'projection-map-{view}.json' if EYE_CONFIG and EYE_CONFIG.get('mode')=='fur-seam' else 'projection-map.json')).write_text(json.dumps(list(mapping.values()),separators=(',',':'))+'\n')
     print('Selected Head texels',len(mapping),flush=True)
 
 def boards():

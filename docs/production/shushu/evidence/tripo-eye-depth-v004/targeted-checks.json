@@ -1,0 +1,170 @@
+{
+  "source_sha256": "ed94fbc4f6f78eb21d9f4ca8e3a4e4741be23fcc1109653710a3d31aaad6e9ee",
+  "candidate_sha256": "3eb85dcd3fa18d07874b36bbb7922d502bda1bf88855f3b79a91eb6a9a66b119",
+  "eye_node_translation_gltf_z": -0.006,
+  "eye_node_translation_blender_y": 0.006,
+  "only_nodes_changed": [
+    3,
+    4
+  ],
+  "binary_chunk_identical": true,
+  "other_nodes_mesh_accessors_uv_materials_textures_identical": true,
+  "front_outside_eye_region_pixels_changed": 0,
+  "front_mouth_and_lower_face_pixels_changed": 0,
+  "matched_cameras": true,
+  "rendered_saved_candidate_sha256": "3eb85dcd3fa18d07874b36bbb7922d502bda1bf88855f3b79a91eb6a9a66b119",
+  "render_differences": {
+    "front": {
+      "different_pixels": 1726,
+      "above_3_levels_pixels": 697,
+      "above_3_levels_bbox": [
+        258,
+        501,
+        765,
+        652
+      ],
+      "max_channel_delta": 36
+    },
+    "left-three-quarter": {
+      "different_pixels": 21128,
+      "above_3_levels_pixels": 17139,
+      "above_3_levels_bbox": [
+        483,
+        501,
+        848,
+        667
+      ],
+      "max_channel_delta": 211
+    },
+    "right-three-quarter": {
+      "different_pixels": 21150,
+      "above_3_levels_pixels": 17745,
+      "above_3_levels_bbox": [
+        175,
+        501,
+        540,
+        666
+      ],
+      "max_channel_delta": 215
+    },
+    "left-side": {
+      "different_pixels": 9043,
+      "above_3_levels_pixels": 8574,
+      "above_3_levels_bbox": [
+        725,
+        501,
+        803,
+        652
+      ],
+      "max_channel_delta": 212
+    },
+    "right-side": {
+      "different_pixels": 9031,
+      "above_3_levels_pixels": 8801,
+      "above_3_levels_bbox": [
+        220,
+        501,
+        299,
+        651
+      ],
+      "max_channel_delta": 227
+    },
+    "top": {
+      "different_pixels": 2197,
+      "above_3_levels_pixels": 2165,
+      "above_3_levels_bbox": [
+        265,
+        221,
+        758,
+        288
+      ],
+      "max_channel_delta": 207
+    },
+    "back": {
+      "different_pixels": 0,
+      "above_3_levels_pixels": 0,
+      "above_3_levels_bbox": null,
+      "max_channel_delta": 0
+    }
+  },
+  "combined_vs_v002_render_differences": {
+    "front": {
+      "different_pixels": 10372,
+      "above_3_levels_pixels": 3062,
+      "above_3_levels_bbox": [
+        258,
+        176,
+        941,
+        703
+      ],
+      "max_channel_delta": 55
+    },
+    "left-three-quarter": {
+      "different_pixels": 38572,
+      "above_3_levels_pixels": 21243,
+      "above_3_levels_bbox": [
+        149,
+        176,
+        848,
+        786
+      ],
+      "max_channel_delta": 211
+    },
+    "right-three-quarter": {
+      "different_pixels": 43242,
+      "above_3_levels_pixels": 23821,
+      "above_3_levels_bbox": [
+        175,
+        176,
+        832,
+        786
+      ],
+      "max_channel_delta": 215
+    },
+    "left-side": {
+      "different_pixels": 32296,
+      "above_3_levels_pixels": 12309,
+      "above_3_levels_bbox": [
+        408,
+        176,
+        803,
+        786
+      ],
+      "max_channel_delta": 212
+    },
+    "right-side": {
+      "different_pixels": 33096,
+      "above_3_levels_pixels": 14498,
+      "above_3_levels_bbox": [
+        220,
+        176,
+        592,
+        787
+      ],
+      "max_channel_delta": 227
+    },
+    "top": {
+      "different_pixels": 86595,
+      "above_3_levels_pixels": 54543,
+      "above_3_levels_bbox": [
+        83,
+        221,
+        758,
+        665
+      ],
+      "max_channel_delta": 207
+    },
+    "back": {
+      "different_pixels": 18130,
+      "above_3_levels_pixels": 8415,
+      "above_3_levels_bbox": [
+        97,
+        176,
+        938,
+        786
+      ],
+      "max_channel_delta": 56
+    }
+  },
+  "human_gate": "PENDING"
+}

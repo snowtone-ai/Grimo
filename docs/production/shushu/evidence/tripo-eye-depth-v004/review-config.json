@@ -1,0 +1,19 @@
+{
+  "base": "assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v003.glb",
+  "candidate": "assets/grimo/production/shushu/tripo/geometry-v003/texture-cleanup/shushu-geometry-v003-tripo-texture-candidate-v004.glb",
+  "evidence": "docs/production/shushu/evidence/tripo-eye-depth-v004",
+  "extra_views": {
+    "top": [
+      0,
+      0,
+      1
+    ],
+    "back": [
+      0,
+      1,
+      0
+    ]
+  },
+  "masks": {},
+  "diagnostic_views": []
+}

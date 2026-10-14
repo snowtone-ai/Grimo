@@ -1,0 +1,19 @@
+{
+  "review_date": "2026-10-14",
+  "asset": "v003",
+  "basis": "Independently reloaded saved GLB renders at native 1024x1024 and approved Body-only imagery",
+  "codex_local_appearance": "PASS",
+  "human_gate": "PENDING",
+  "visual_judgment": "Bilateral ear-to-shoulder continuous seam softened into natural fur tone; pink crown band removed. Faint side shading remains; face, ears and silhouette retain cuteness.",
+  "reviewed_sha256": {
+    "renders/candidate-front.png": "b62a2c7369072b4ff593a7be560a88d4ea60c1cfd9786911dc5b3241dc5bc45c",
+    "renders/candidate-left-three-quarter.png": "c06897652e337404aad6954b01db6a7331fbf0b3ab91d97ac47375874296b733",
+    "renders/candidate-right-three-quarter.png": "4531fb4a367996a106add3e7405197c84ac38baac1573c0e76b803c74f776490",
+    "renders/candidate-left-side.png": "8474227e5366a4915c2c6c3c6c42aa6dc1004674a6a20be933b70fe4c25806ee",
+    "renders/candidate-right-side.png": "14ad10b4881717a1a4a78165ce9a50cdc49e901bd85d8994f7fcafde63f77cc0",
+    "renders/candidate-top.png": "3d7c57395187a948c3fdee94920b01460608478c13b52fca5f277a192f978922",
+    "renders/candidate-back.png": "d7555cdc23521cf4bc5d3ed76a8d13b8359bcb5f5f221ea4cb67152b072fac38",
+    "01-seven-angle-fur-comparison.png": "5a010bed83772ee42bd96ba77a8849e191e9bfa8d4dcf577bda560bb19822079",
+    "02-local-mask-overlay.png": "da57fb71e27898bfe3dd395fbbb4735318a93f3e9f2581a328a29ea0e40615f4"
+  }
+}

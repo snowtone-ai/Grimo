@@ -34,6 +34,47 @@ function inside(x,y,poly) {
   }
   return hit;
 }
+async function furComposite(original, edit) {
+  const generatedBoard=await sharp(edit).resize(2048,2048).removeAlpha().raw().toBuffer();
+  const panels={}, before={}, biases={};
+  for(const [view,xy] of Object.entries({'left-side':[0,0],'right-side':[1024,0],top:[0,1024]})) {
+    panels[view]=await sharp(generatedBoard,{raw:{width:2048,height:2048,channels:3}}).extract({left:xy[0],top:xy[1],width:1024,height:1024}).raw().toBuffer();
+    before[view]=await sharp(path.join(out,`renders/before-${view}.png`)).removeAlpha().raw().toBuffer();
+    biases[view]=[0,1,2].map(c=>config.color_match_probes[view].reduce((sum,[x,y])=>sum+sample(panels[view],x,y)[c]-sample(before[view],x,y)[c],0)/config.color_match_probes[view].length);
+  }
+  const protectedMask=Buffer.alloc(2048*2048);
+  for(const folder of ['tripo-texture-v003','tripo-eye-outline-v002']) {
+    const m=await sharp(path.join(root,'docs/production/shushu/evidence',folder,'textures/changed-texels.png')).greyscale().raw().toBuffer();
+    for(let i=0;i<m.length;i++)if(m[i])protectedMask[i]=255;
+  }
+  const selected=new Map();
+  for(const view of Object.keys(panels)) {
+    const polys=Object.entries(config.masks).filter(([k])=>k.startsWith(view)).map(([,p])=>p);
+    const core=JSON.parse(fs.readFileSync(path.join(out,`projection-map-${view}.json`)));
+    for(const [x,y,sx,sy] of core) {
+      const active=polys.filter(p=>inside(sx,sy,p));if(!active.length)continue;
+      const distance=Math.max(...active.map(p=>Math.min(...p.map((v,k)=>segmentDistance(sx,sy,v,p[(k+1)%p.length])))));
+      const t=Math.min(1,distance/config.feather_screen_pixels),weight=t*t*(3-2*t);
+      for(let dy=-2;dy<=2;dy++)for(let dx=-2;dx<=2;dx++) {
+        const xx=x+dx,yy=y+dy,key=yy*2048+xx;
+        if(xx<0||xx>=2048||yy<0||yy>=2048||protectedMask[key])continue;
+        const old=selected.get(key);if(!old||weight>old[5])selected.set(key,[xx,yy,sx,sy,view,weight]);
+      }
+    }
+  }
+  const result=Buffer.from(original),mask=Buffer.alloc(2048*2048);let changed=0,rejectedTarget=0;
+  const map=[...selected.values()];
+  for(const [x,y,sx,sy,view,weight] of map) {
+    const source=sample(before[view],sx,sy),color=sample(panels[view],sx,sy).map((v,c)=>Math.max(0,Math.min(255,v-biases[view][c])));
+    // Do not copy actual pink ears, dark features, or shifted model background.
+    if(source[0]<180||source[1]<(view==='top'?145:170)||color[0]<220||color[1]<195) {rejectedTarget++;continue;}
+    const i=(y*2048+x)*3;
+    for(let c=0;c<3;c++)result[i+c]=Math.round(original[i+c]*(1-weight)+color[c]*weight);
+    if(!result.subarray(i,i+3).equals(original.subarray(i,i+3))){mask[y*2048+x]=255;changed++;}
+  }
+  fs.writeFileSync(path.join(out,'applied-projection-map.json'),JSON.stringify(map)+'\n');
+  return {result,mask,map,changed,rejectedTarget,coreMap:map,probes:config.color_match_probes,biases};
+}
 async function main() {
   const source = readGlb(path.join(root, config?.base || 'shushu-geometry-v003-tripo.glb.glb'));
   if (hash(source.raw) !== (config?.base_sha256 || '338ad5f8c67906917579ddbb804a4f7f51d8fec6c42328bb545adc87c1bf077b')) throw Error('Source changed');
@@ -43,12 +84,15 @@ async function main() {
   const metadata = await sharp(edit).metadata();
   const generated = await sharp(edit).resize(1024,1024).removeAlpha().raw().toBuffer();
   const original = await sharp(imageBytes(source,4)).removeAlpha().raw().toBuffer();
-  const result = Buffer.from(original), mask = Buffer.alloc(2048*2048);
+  let result,mask,map,coreMap,probes,biases,changed,rejectedTarget;
+  if(config?.mode==='fur-seam') ({result,mask,map,coreMap,probes,biases,changed,rejectedTarget}=await furComposite(original,edit));
+  else {
+  result = Buffer.from(original); mask = Buffer.alloc(2048*2048);
   const masks=JSON.parse(fs.readFileSync(path.join(out,'projection-masks.json')));
   const polygons=config ? Object.values(masks) : [masks['mouth-screen-left'],masks['mouth-screen-right']];
   // Default preserves the historical mouth-only candidate; configured eye mode
   // selects only the independently traced duplicate bands on the v001 base.
-  const coreMap = JSON.parse(fs.readFileSync(path.join(out,'projection-map.json'))).filter(p=>polygons.some(poly=>inside(p[2],p[3],poly)));
+  coreMap = JSON.parse(fs.readFileSync(path.join(out,'projection-map.json'))).filter(p=>polygons.some(poly=>inside(p[2],p[3],poly)));
   const expanded = new Map(coreMap.map(p=>[p[1]*2048+p[0],p]));
   // Include two atlas texels around mapped UV edges so bilinear sampling cannot
   // reintroduce the old JPEG color from island padding. Core samples take priority.
@@ -56,12 +100,12 @@ async function main() {
     const xx=x+dx,yy=y+dy,key=yy*2048+xx;
     if(xx>=0&&xx<2048&&yy>=0&&yy<2048&&!expanded.has(key))expanded.set(key,[xx,yy,sx,sy]);
   }
-  const map=[...expanded.values()];
+  map=[...expanded.values()];
   fs.writeFileSync(path.join(out,'applied-projection-map.json'),JSON.stringify(map)+'\n');
   const beforeRender=await sharp(path.join(out,'renders/before-front.png')).removeAlpha().raw().toBuffer();
-  const probes=config ? config.color_match_probes : [[430,570],[594,570],[395,720],[629,720]];
-  const biases=probes.map(([x,y])=>sample(generated,x,y).map((v,c)=>v-sample(beforeRender,x,y)[c]));
-  let changed = 0, rejectedTarget = 0;
+  probes=config ? config.color_match_probes : [[430,570],[594,570],[395,720],[629,720]];
+  biases=probes.map(([x,y])=>sample(generated,x,y).map((v,c)=>v-sample(beforeRender,x,y)[c]));
+  changed = 0; rejectedTarget = 0;
   for (const [x,y,sx,sy] of map) {
     const i = (y*2048+x)*3;
     const outer=config && [...polygons.slice(0,2),...polygons.slice(4)].some(p=>inside(sx,sy,p));
@@ -76,6 +120,7 @@ async function main() {
     const t = Math.min(1,distance/1), fade=Math.max(0,Math.min(1,(650-sy)/30)), weight=config?(outer?fade*fade*(3-2*fade):1):t*t*(3-2*t);
     for (let c=0;c<3;c++) result[i+c]=Math.round(original[i+c]*(1-weight)+color[c]*weight);
     if (!result.subarray(i,i+3).equals(original.subarray(i,i+3))) {mask[y*2048+x]=255;changed++;}
+  }
   }
   const png = await sharp(result,{raw:{width:2048,height:2048,channels:3}}).png().toBuffer();
   fs.writeFileSync(path.join(dir,config?'head-before.png':'head-before.jpg'),imageBytes(source,4));
@@ -109,6 +154,7 @@ async function main() {
     report.source_render_sha256=hash(fs.readFileSync(path.join(out,'renders/before-front.png')));
     report.patch_color_method='Generated local single-boundary pink/cream material sampled at matched screen coordinates; local color probes match unchanged neighboring pink and cream; outer-band edits taper into the protected blush between screen y620 and y650. Protected dark screen pixels and generated dark targets excluded; 2 atlas texels of padding.';
   }
+  if(config?.mode==='fur-seam') Object.assign(report,{scope:'Only bilateral ear-to-shoulder fur seam and crown band; Human-approved v002 eyes and v001 mouth protected',eye_repair_human_gate:'APPROVED by current explicit Human message',appearance_completion:'Awaiting saved GLB visual review',core_projection_texels_by_view:Object.fromEntries(['left-side','right-side','top'].map(view=>[view,JSON.parse(fs.readFileSync(path.join(out,`projection-map-${view}.json`))).length])),imagegen:{...report.imagegen,projection_size:[2048,2048],panel_size:[1024,1024]},patch_color_method:'Matched 2x2 ImageGen local material; masked multi-view Head projection only with local edge feathering, 2 atlas texels padding, prior eye/mouth changed texels excluded.'});
   fs.writeFileSync(path.join(out,'candidate-validation.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify(report,null,2));
 }
