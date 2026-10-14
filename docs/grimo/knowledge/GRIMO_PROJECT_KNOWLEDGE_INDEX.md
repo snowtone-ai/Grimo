@@ -1,31 +1,46 @@
-# Grimo — Project Knowledge index
+# Grimo Project Knowledge index
 
-**Role:** Single entry point to durable specifications on `main`. Read only sources relevant to the task. The working tree and current execution branch, not this index or Handoff, determine the actual implementation state.
+Use this index to locate durable authority. Current execution truth is not durable authority; check Git and the relevant production-state file.
 
-## Durable authority (by subject)
-| Subject | Source |
-| --- | --- |
-| Product goal and companion quality | [Product North Star](GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md) |
-| Character experience, attention and Human gates | [Character Experience Spec](GRIMO_CHARACTER_EXPERIENCE_SPEC.md) |
-| Coherent 3D capability, visual authority and runtime | [Character Production Architecture](GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md) |
-| Human/Planner/Codex autonomy and workflow | [Production Operating System](GRIMO_PRODUCTION_OPERATING_SYSTEM.md) |
-| **Character production WHY** (goals → means) | [Goal√map](Goal√map.md) |
-| Four screens, reward, item, collection rules | [Product Feature Spec](product/GRIMO_PRODUCT_FEATURE_SPEC.md) |
-| Task/reward persistence and item data | [Data Model Spec](product/GRIMO_DATA_MODEL_SPEC.md) |
-| UI/UX, navigation and visual design | [DESIGN.md](../../../DESIGN.md) |
-| Canonical identity images | `assets/grimo/source/{carol,jill,pino,shushu}/` |
-| Implementation routing | [repo-map](../../repo-map.md) |
+## Cross-agent live handoff (mutable coordination, not durable authority)
 
-## Production state and evidence
-- [Handoff](../../production/Handoff.md): last-known cross-session pointer, **not a live state or Human approval**. It must be checked against the real branch/HEAD.
-- `docs/production/<character>/`, `docs/production/motion/`: scoped working contracts, drafts and review evidence. These may exist **only on an execution branch**; read them there, not from an older `main` copy.
-- `assets/grimo/production/`: versioned candidate meshes, reference inputs and generated artifacts. Presence is not acceptance. Canonical identity and separately approved references outrank candidate assets.
-- [Carol Motion Spec](character-production/carol/CAROL_MVP_MOTION_SPEC.md): character-specific motions, consult when relevant. Later approved no-macro-fleece-lag decisions outrank generic earlier mentions of fleece delay.
+- [Live ChatGPT / Codex handoff](https://github.com/snowtone-ai/Grimo/blob/coord/grimo-ai-handoff/docs/production/Handoff.md) — **always read the `coord/grimo-ai-handoff` branch**, update on every Grimo interaction, verify production claims against the actual active branch and evidence. Rules are in `AGENTS.md`. Do not confuse this live routing snapshot with final Human approval or replace character production-state files.
 
-## Supporting and historical sources
-- `research/`: analysis and inspiration, never automatically promote measured/inferred reference values to product specifications.
-- `character-experience/GRIMO_EXPERIENCE_MOTION_BIBLE.md` and `character-production/GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`: older reference documents, **not current primary authorities**.
-- `docs/archive/`: superseded or historical material including Phase-0 prompts. Git history preserves previous decisions.
-- `.agents/skills/` and `.codex/`: task-specific tooling and local policies, **not** replacements for product specs.
+## ゴール√マップ — durable WHY
 
-**Priority:** latest explicit Human decision and applicable approved canonical/specification → current actual implementation/evidence → supporting research/history. For visible approval, view the actual image, motion or runtime; text and technical PASS alone do not establish Human acceptance.
+- [Goal√map.md](Goal√map.md) — upper-layer goal precedence and causal objectives; read alongside AGENTS and Handoff each Grimo task.
+
+## Stable overview (ChatGPT Project Knowledge)
+
+- [GRIMO_PROJECT_OVERVIEW_STABLE.md](GRIMO_PROJECT_OVERVIEW_STABLE.md) — long-lived product and experience overview for ChatGPT Project Knowledge. **Not a production-state file**; for mutable status read the live coordination handoff from its dedicated branch.
+
+## Product and experience
+
+- `GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` — product goal and minimum experience requirements
+- `GRIMO_CHARACTER_EXPERIENCE_SPEC.md` — companion experience authority
+- `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` — durable visible-character requirements
+- `GRIMO_PRODUCTION_OPERATING_SYSTEM.md` — flexible production principles
+- [Living companion experience research](research/GRIMO_LIVING_COMPANION_EXPERIENCE_RESEARCH.md) — research evidence for companion experience design.
+- [Partner Eevee camera framing analysis (full source)](research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_ANALYSIS_FULL_SOURCE.md) — detailed camera framing evidence; the shorter summaries remain alongside it.
+- [Partner experience motion anatomy evidence](research/GRIMO_PARTNER_EXPERIENCE_MOTION_ANATOMY_EVIDENCE.md) — reference evidence for partner motion anatomy.
+
+## Carol
+
+- `docs/production/carol/CAROL_PRODUCTION_STATE.md` — current mutable Carol execution truth
+- `assets/grimo/source/carol/approved-3d/authority.json` — active Carol visual and supporting-geometry authority
+- [Carol Normal semantic reconstruction spec](../../production/carol/CAROL_NORMAL_SEMANTIC_RECONSTRUCTION_SPEC.md) — Human-confirmed Normal/Fleece meaning, spatial relationships and numeric-authority policy around frozen Skin v004
+- [Carol authority measurements](../../production/carol/CAROL_AUTHORITY_MEASUREMENTS.md) — companion measurement record separating direct raster facts, authority-derived locks and inferred 3D dimensions
+- `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` — supporting geometry parameters
+
+## 2026-10-11 Body-only multi-view image import
+
+- [Four-character body-only multi-view asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) — 15 currently selected PNGs, **image-facing** left/right convention, visual decision boundaries, Carol three-view Human decision, and measured SHA manifest.
+- Body-only assets are **derivative Tripo inputs**, not canonical identities or replacements for completed Carol Normal/Skin. The local Codex import will confirm committed binaries and provenance; a GitHub Markdown registry does not mean the PNGs are pushed or Tripo-ready.
+- Jill's peach-colored head appendages are treated as **horn-like anatomy** by the latest Human interpretation; do not automatically recolor as ear backs. Final material identity (including canonical clover marking) still requires QA.
+
+## Blender implementation reference (non-authoritative)
+
+- [GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md](character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md) — practical character modeling, sculpt/design insights, deformation and GLB implementation, sourced examples, and validation boundaries. Consult relevant sections for Blender/3D character work; it does **not** override Product Goal, canonical identity, Production Architecture, Production Operating System, or current Carol production state.
+## History
+
+`docs/archive/`, Carol evidence, historical source assets, and Git history preserve provenance. They do not override current explicit authority.
