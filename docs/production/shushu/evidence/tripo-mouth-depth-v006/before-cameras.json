@@ -1,0 +1,149 @@
+{
+  "front": {
+    "target": [
+      3.0517578125e-05,
+      0.0076904296875,
+      0.7106027603149414
+    ],
+    "direction": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "orthographic_scale": 0.7201428413391113,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "color": "Standard / emission base color",
+    "engine": "CYCLES",
+    "samples": 8,
+    "denoise": false
+  },
+  "left-three-quarter": {
+    "target": [
+      3.0517578125e-05,
+      0.0076904296875,
+      0.7106027603149414
+    ],
+    "direction": [
+      -0.7070000171661377,
+      -0.7070000171661377,
+      0.0
+    ],
+    "orthographic_scale": 0.7201428413391113,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "color": "Standard / emission base color",
+    "engine": "CYCLES",
+    "samples": 8,
+    "denoise": false
+  },
+  "right-three-quarter": {
+    "target": [
+      3.0517578125e-05,
+      0.0076904296875,
+      0.7106027603149414
+    ],
+    "direction": [
+      0.7070000171661377,
+      -0.7070000171661377,
+      0.0
+    ],
+    "orthographic_scale": 0.7201428413391113,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "color": "Standard / emission base color",
+    "engine": "CYCLES",
+    "samples": 8,
+    "denoise": false
+  },
+  "left-side": {
+    "target": [
+      3.0517578125e-05,
+      0.0076904296875,
+      0.7106027603149414
+    ],
+    "direction": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "orthographic_scale": 0.7201428413391113,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "color": "Standard / emission base color",
+    "engine": "CYCLES",
+    "samples": 8,
+    "denoise": false
+  },
+  "right-side": {
+    "target": [
+      3.0517578125e-05,
+      0.0076904296875,
+      0.7106027603149414
+    ],
+    "direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "orthographic_scale": 0.7201428413391113,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "color": "Standard / emission base color",
+    "engine": "CYCLES",
+    "samples": 8,
+    "denoise": false
+  },
+  "left-oblique": {
+    "target": [
+      3.0517578125e-05,
+      0.0076904296875,
+      0.7106027603149414
+    ],
+    "direction": [
+      -0.9240000247955322,
+      -0.382999986410141,
+      0.0
+    ],
+    "orthographic_scale": 0.7201428413391113,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "color": "Standard / emission base color",
+    "engine": "CYCLES",
+    "samples": 8,
+    "denoise": false
+  },
+  "right-oblique": {
+    "target": [
+      3.0517578125e-05,
+      0.0076904296875,
+      0.7106027603149414
+    ],
+    "direction": [
+      0.9240000247955322,
+      -0.382999986410141,
+      0.0
+    ],
+    "orthographic_scale": 0.7201428413391113,
+    "resolution": [
+      1024,
+      1024
+    ],
+    "color": "Standard / emission base color",
+    "engine": "CYCLES",
+    "samples": 8,
+    "denoise": false
+  }
+}

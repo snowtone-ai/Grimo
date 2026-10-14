@@ -1,0 +1,152 @@
+{
+  "candidate_sha256": "9c479122232170f65a0f5976cf2c07180cf342c08f37a95d50b53a90ff34f10f",
+  "outside_allowed_byte_changes": 0,
+  "json_byte_identical": true,
+  "textures_byte_identical": [
+    "9451b3ec45090ad87ea39b6b7ef5ea526cd213f0368a9c12f777b69d787bebef",
+    "4637149c4d9e8387f4343d3a5d060143bc1bda42d0a91e5ee9b2b62f4c7b4c02",
+    "2bd12b235ea4000486ba8f3258b7ccf8699b39bfed3ce6396a1cc0f8b02b6815",
+    "a3b48f12b7d208c5ff1575d517e6184d42d460954480807b53bb0cb6c6ebd820",
+    "2e1a7abf98bec3fe77d92567450d8c7e25c3cb93db5f64c0f123097ce695bead",
+    "6f0328120b3676245d573c120db56d23436c4b62ac960761f2721c3d67cc40be",
+    "5c8f6e96a02f5fc72e38ba323f3a344e24e4875b5d629fb4902b1841ea711a3e",
+    "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+    "69272dc14e01d8a292c1e2d393d70534fa4c8c81bb9fc119be36ed84e4936c8f",
+    "d65f8fec15ffe4f1be556c5ffc3f38cf4f624a06f8ec29f03852f864575ae297",
+    "912ef58427f6421b0c50ee1d6816219587169c0ad300d8fe0ebd5f9f8c4e69c0",
+    "de71cb8705ee3cad21b7278353a733df30201c6332f311fd3931eeecb4e59979"
+  ],
+  "other_10_meshes_attributes_identical": true,
+  "UV_indices_materials_nodes_accessors_metadata_identical": true,
+  "front_eyes_pixel_identical": true,
+  "front_render_difference": {
+    "changed_pixels": 30,
+    "max_channel_delta": 3,
+    "bbox": [
+      471,
+      638,
+      637,
+      714
+    ]
+  },
+  "render_differences": {
+    "front": {
+      "changed_pixels": 30,
+      "max_channel_delta": 3,
+      "bbox": [
+        471,
+        638,
+        637,
+        714
+      ]
+    },
+    "left-three-quarter": {
+      "changed_pixels": 18100,
+      "max_channel_delta": 239,
+      "bbox": [
+        596,
+        619,
+        833,
+        806
+      ]
+    },
+    "right-three-quarter": {
+      "changed_pixels": 18312,
+      "max_channel_delta": 244,
+      "bbox": [
+        190,
+        619,
+        423,
+        806
+      ]
+    },
+    "left-side": {
+      "changed_pixels": 8097,
+      "max_channel_delta": 211,
+      "bbox": [
+        773,
+        620,
+        909,
+        804
+      ]
+    },
+    "right-side": {
+      "changed_pixels": 7959,
+      "max_channel_delta": 243,
+      "bbox": [
+        114,
+        619,
+        246,
+        804
+      ]
+    },
+    "left-oblique": {
+      "changed_pixels": 13090,
+      "max_channel_delta": 205,
+      "bbox": [
+        700,
+        620,
+        894,
+        804
+      ]
+    },
+    "right-oblique": {
+      "changed_pixels": 13171,
+      "max_channel_delta": 244,
+      "bbox": [
+        129,
+        620,
+        316,
+        803
+      ]
+    }
+  },
+  "matched_cameras": true,
+  "shaded_conditions_identical": true,
+  "meshes": {
+    "ShushuStatic_Head": {
+      "position_mask_vertices": 12266,
+      "actual_position_vertices": 12254,
+      "normal_vertices": 12266,
+      "min_changed_triangle_area_ratio": 0.02521709526203185,
+      "nondegenerate": true,
+      "signed_front_projection_unchanged": true,
+      "finite_unit_normals": true
+    },
+    "ShushuStatic_MouthInterior": {
+      "position_mask_vertices": 44,
+      "actual_position_vertices": 44,
+      "normal_vertices": 44,
+      "min_changed_triangle_area_ratio": 0.6919735900124603,
+      "nondegenerate": true,
+      "signed_front_projection_unchanged": true,
+      "finite_unit_normals": true
+    }
+  },
+  "protected_inputs": 949,
+  "changed_protected_inputs": [],
+  "references": {
+    "left-side": {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_right.png",
+      "sha256": "ad754267b4d446dcce9821ceb898304e60cb4a99526b1e0fec0b6169ca25751b",
+      "crop": [
+        805,
+        505,
+        944,
+        660
+      ]
+    },
+    "right-side": {
+      "path": "assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_left.png",
+      "sha256": "873fe2fbb950cbb21f2e0e64d2617650b5bac4128fb788f15dbd67e881616a61",
+      "crop": [
+        164,
+        465,
+        282,
+        610
+      ]
+    }
+  },
+  "Human": "PENDING",
+  "boards": "crop/resize/layout only; no retouch of model renders or reference"
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-14",
+  "reviewer": "Codex actual image inspection",
+  "candidate_sha256": "9c479122232170f65a0f5976cf2c07180cf342c08f37a95d50b53a90ff34f10f",
+  "appearance_completion": "NOT_MET",
+  "candidate_adopted": false,
+  "Human": "PENDING",
+  "emission_views_inspected": [
+    "front",
+    "left-three-quarter",
+    "right-three-quarter",
+    "left-side",
+    "right-side",
+    "left-oblique",
+    "right-oblique"
+  ],
+  "original_material_lit_views_inspected": [
+    "front",
+    "left-three-quarter",
+    "right-three-quarter",
+    "left-side",
+    "right-side"
+  ],
+  "references": [
+    "shushu_bodyonly_left.png",
+    "shushu_bodyonly_right.png",
+    "shushu-Identity-canonical.png"
+  ],
+  "preserved": [
+    "cute front smile",
+    "flower pupils and highlights",
+    "pink eye surround",
+    "cheeks",
+    "approved eye depth",
+    "all texture bytes"
+  ],
+  "improvement": "Both profiles show a wider opening and a clearer upper smile corner; final shaded chin transition is smoother than rejected trials.",
+  "remaining": "The true side lower lip is still narrow and tapers to a point instead of the approved illustration's rounded opening/tongue. The shallow separate upper-mouth strip remains visible under original-material lighting.",
+  "rejected_trials": "Stronger depth adjustments occluded the far lip or tongue at three-quarter views; earlier normals/curve endpoints produced bright transition bands.",
+  "scope_limit": "Static offline local depth repair, no new cavity, topology, rig, or production-asset replacement. Technical PASS does not establish appearance PASS.",
+  "inspected_evidence_sha256": {
+    "01-seven-angle-before-v006-difference.png": "5f7296f99272cef00f0a41c10f59f94a5bdb66d0a9a508884febbe5bb534e86f",
+    "02-reference-mouth-closeups.png": "26e5c86cdac8112d593b6717ad92c9bdb8c2f42aa648a54db9e3b882a9a5a9ff",
+    "03-shaded-five-angle-before-v006.png": "13f2bf02e5c5f1e146b8e81087c1a18fe35b5dae146016e7a3e03db8e8a43634",
+    "04-rejected-trials.png": "1bca8aa89f5dd795515de7a25bf241be6b577e5d5725e10e9082aa132c427db6",
+    "renders/before-front.png": "5558f3074b92fea463c94f2e548d0c0f6f29d56aa0f2c5591a6ac58ab96d792e",
+    "renders/before-left-oblique.png": "a87465118147130c1da216a0d897aca743332bb2493b5b492e3788807ed3015e",
+    "renders/before-left-side.png": "f9b95547784c655f1c4447faaec94df9d93c28faa135f29adc59b41c6cf64cff",
+    "renders/before-left-three-quarter.png": "f103fb2abc78045626f9e9e46c73d449fade57e0851c10ced57aeb22b072480d",
+    "renders/before-right-oblique.png": "f777453f4464cfc0f5eb906af6d5b4e4e3255184af85897578c995199e1fd94f",
+    "renders/before-right-side.png": "929754d8454bacbd52be7fc9a32ed7bf08c56f3d9d0a0a91f0836c5315ae0593",
+    "renders/before-right-three-quarter.png": "970d0c396ac6fb597ec5aa2e2f738b874c7947b0176c95fa4f9b19c8210df091",
+    "renders/candidate-front.png": "c677e52e218b6c0d6f4bafa6e1f581be0a601c5e15ca822b6fc277cb63e5eab4",
+    "renders/candidate-left-oblique.png": "3f312d6a8001ec11229d8525e0a078744c1551e4e7eb2db9eab4fd1305b7909d",
+    "renders/candidate-left-side.png": "03d1f8381ca176a898e2fe110e8bcd9ba2055d63a8aaa4b9ba660e22d4dbcaa3",
+    "renders/candidate-left-three-quarter.png": "62ecac0e4d205d1d13cd4f643418293188496b934418bae45f2412afe49026ae",
+    "renders/candidate-right-oblique.png": "9e0fb9f9481b4d1062eeae297ff4f8077e41d217922aeed6c0aa22301e6b040f",
+    "renders/candidate-right-side.png": "9cd7237d4fe26e9837f041b4115eea4dd376865c84a10ffb9e7776323e20f4c0",
+    "renders/candidate-right-three-quarter.png": "6ca70c08c874c5bd93f6dd648cb08a8cde2eba25b72f6ab05dc87148b914905d",
+    "shaded/before-front.png": "60101b2765a66fec94e460adf6df2ea28d5bf4d13260e68470e93fca625a9543",
+    "shaded/before-left-side.png": "2bc1bef68a0b7c2299f16d710e9721c2b1c784c15890899ae5a07b021fac2674",
+    "shaded/before-left-three-quarter.png": "6559945f98943245c0233654b3a599ab9f3429a82fc706b3a1a614f225308b57",
+    "shaded/before-right-side.png": "6fc1c631df74bf9502235bc3ae0aa35549b0eb0fe056f8715d38fb6542fe60a8",
+    "shaded/before-right-three-quarter.png": "ddd1e32ad6e469ac494eb90966ee06a007b11ae138da53f56556186a454468da",
+    "shaded/candidate-front.png": "b308560f1e95947454599eee96213ccc92d596e6d7dde0e91f7502a1b2a64841",
+    "shaded/candidate-left-side.png": "aa67994c561b44428416c887ae8f28f8c9f651f9f29f1187a24a2229cdc2ee27",
+    "shaded/candidate-left-three-quarter.png": "8c7f2a1242e3cc3dfbd751b2139271feadc0f09ee5ab80f1c923c55c8fe08fbb",
+    "shaded/candidate-right-side.png": "3f8cb448bda21615eac9b279b24f54cbcf3622541e708382812411f451a8afd5",
+    "shaded/candidate-right-three-quarter.png": "556b706b198401711eb0fe4f15aaa037b8c587e6c9b2de6946a9b3dbcb76f6fd"
+  }
+}

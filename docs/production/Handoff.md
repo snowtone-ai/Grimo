@@ -3,7 +3,8 @@
 実行時のNOWは実作業branch/HEAD、未コミット差分、保存成果とEvidenceで再確認する。Goal・Canonical・Human承認を上書きしない。
 
 ## Last verified: 2026-10-14 / Codex
-- **最新のoffline Shushu候補:** Humanはv004の目をOKとし、両側の耳→肩に「頭を半分に分ける」毛線が残ると再指摘。先行のv004毛線外観PASS判断は撤回。[v005局所Texture修正・原寸/拡大比較](shushu/evidence/tripo-fur-seam-v005/REVIEW.md)を独立保存。v004を基準にHead 247,007 texelのみ変更し、正面の両目・口は画素一致。v004の眼球奥行き、v002の承認済み目囲み、v001の口、v003の頭頂修正を保持。Codexの局所外観は7角度とBody-onlyでPASS、**v005 Human Gate=PENDING**。v005 SHA256 `a9c1681c…536982`。元Tripo GLB・v001–v004・正式Geometry/Rig/Motion・他キャラ・既存ユーザー差分は保持。正式Rig置換なし。
+- **最新offline口候補v006 / 外観未達:** HumanはSideの口をBody-onlyと比べて不自然と指摘。開始HEAD `d9704fa36050c138594651709dd6d0d5e7944f0b`、v005基準でHeadの口角〜頬/顎と対応MouthInteriorの奥行き/法線だけ変更。[参照・7角度・照明5角度・調査・検証](shushu/evidence/tripo-mouth-depth-v006/REVIEW.md)。左右の開口/口角は改善、正面の両目は画素一致、全12 Texture/UV/材質/他10メッシュ/保護949入力一致。しかし真横の下側口縁はまだ細く尖り、参照の丸みには未達。**v006未採用 / 外観完了未達 / Human=PENDING**。SHA256 `9c479122…34f10f`。強い変形は斜めの口縁/舌を隠したため棄却。新規口腔/Rig/正式Geometryへの置換なし。
+- **先行offline毛線v005:** Humanはv004の目をOKとし、両側の耳→肩に「頭を半分に分ける」毛線が残ると再指摘。先行v004毛線外観PASSを撤回。[v005局所Texture・原寸/拡大比較](shushu/evidence/tripo-fur-seam-v005/REVIEW.md)を独立保存。Head 247,007 texelのみ変更、正面の両目/口は画素一致。v004眼球奥行き、v002目囲み、v001口、v003頭頂修正を保持。Codex局所外観PASS、**v005 Human=PENDING**。SHA256 `a9c1681c…536982`。元Tripo GLB・先行候補・正式Geometry/Rig/Motion・他キャラ・ユーザー差分を保持。
 - **Latest offline Texture task:** 開始HEAD `cfc10d459c09f1e781b544c9d56b59a00c7aa16f`、下記Production branchを継続。Humanの黒線をもとに、両目のピンク目囲み上〜外周の淡い並走帯と鼻側〜下側の白い二重境界だけを修正。ピンク面本体・濃い輪郭・瞳・チーク・v001の口修正を保持。元GLB実LFS hash `338ad5f8…bf077b`とv001 `8d4420d5…a5eac09`を照合。正式Geometry/Rig/Motionへの置換は禁止。
 - **先行Texture v002:** [v002の保存GLB5角度・承認画像・拡大・マスク・検証](shushu/evidence/tripo-eye-outline-v002/REVIEW.md)。Headの約3.0734%だけ変更、選択範囲外画素0、口修正texelとの交差0。メッシュ/UV/材質設定・他11 Texture・保護758入力は一致。SHA256 `d9bfbac0…3d40b4d7`。保存時のCodex局所外観PASSに加え、**今回Humanが目囲み修正を「完璧」と明示**。これは新規v003/v004や正式Rigの承認ではない。
 - **Production branch:** `codex/grimo-motion-zero-based-design-20261011`。先行Geometry修正の開始HEAD `b92aa7683beb2c1ca7d0c7a4e0173c5ee32773d9`。対象成果のみcommit/pushし、最終HEADはGit照合。
@@ -15,4 +16,4 @@
 - **外部Tripo:** upload・試行・Auto Rig・課金なし。今回の既存Textureのoffline局所編集とは別。保存/技術PASSをGOにしない。
 
 ## Next
-Humanはv002の目囲みとv004の目を肯定済み。v005で両側頭部の残存毛線と全角度の可愛さを判定できる。Codexの局所外観PASSはHuman承認や正式Rig採用を代用しない。正式Geometryの下側口縁〜顎とFrontも先行判定待ち。外部Tripo操作は別途明示承認が必要。Goal√map変更なし。
+v006は側面下側口縁の丸みと3/4の奥側口縁を両立する追加修正が必要。Human承認へ回す完成候補とは扱わない。v002目囲み/v004目はHuman肯定済み、v005毛線と正式Geometry下側口縁〜顎は判定待ち。技術PASSは外観PASS/正式Rig採用を代用しない。外部Tripo操作は別途明示承認が必要。Goal√map変更なし。
