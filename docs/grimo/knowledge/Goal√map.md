@@ -1,26 +1,45 @@
-# Grimo — 制作ゴール√マップ（WHY）
+# Grimo — ゴール√マップ
 
-**Scope:** Codexのキャラクター制作判断を、ユーザーに感じられる価値から逆算する。これは製品全体の「タスク→報酬→再訪」循環モデルではなく、制作の目的・能力・手段の地図。固定工程・特定の制作レシピではない。Humanの最新明示判断、正式Product North Star/Character Experience Spec、Canonical Identityを上位権威とする。
+**Canonical:** `coord/grimo-ai-handoff:docs/grimo/knowledge/Goal√map.md`. **Limit 5,000 Unicode characters**, including Markdown and whitespace. Stable WHY and goal priorities; not a task log or implementation recipe. Original approved product specs and Human decisions remain authoritative.
 
-## 目的から手段への逆算
-`G0 ← G1 ← G2 ← G3 ← G4` は**下位が上位を支える**という意味。上位ほど大切で、制作順序は自由。各層は多対多でつながり、すべての手段が常に必須ではない。
+## Higher-level goals have higher importance
+**Lower-level PASS does not justify damage to a higher-level outcome.** If quality conflicts, seek a different method; if the conflict is unavoidable/uncertain, expose it for Human judgment. Never reinterpret this rule as permission to disregard safety, data integrity, approved canonical art or paid-action approval.
 
-| 層 | Goal（何を成立させるか） | WHY |
+| Level | Desired outcome | WHY |
 | --- | --- | --- |
-| **G0 最終目的** | **ユーザーがタスク管理をしてでも会いたくなるほど、Grimoとの触れ合いを魅力的にする。** | 「タスクを済ませたら会いたい」「また会いたい」と感じる相棒体験こそ、この制作の目的。技術展示ではない。 |
-| **G1 感じられる価値** | **可愛さ・魅力、癒やし・安心、愛着**を核に、生命感・面白さ・驚き・発見を生む。 | 相棒への関心と再訪動機は、モデル精度ではなく、キャラクター本人の存在と交流の印象から生まれる。 |
-| **G2 知覚される表現品質** | 正しい顔・目・輪郭・配色・柔らかさ。生きた静けさ、視線・意図・自発性、接触の局所因果、重さと接地、予備動作・反応・余韻、割込み・変化、4匹固有の演技。 | G1を実際の画面と触れ合いで感じさせる要素。常時運動、単純なループ、派手な演出だけでは代替できない。 |
-| **G3 必要な制作能力** | Canonicalを守る空間的に一貫した造形、必要部位の独立制御と自然な変形、表情・身体・付属物の協調、座位・支持・接点、状態/履歴/入力に応じたMotion、スマホでの応答性。 | G2を様々な視点・姿勢・接触・反復利用でも破綻なく表現するため。Rig等は能力の実現手段。 |
-| **G4 技術・測定・検証手段** | Blender、Tripo、ボーン、Shape Keys、トポロジー、GLB、PlayCanvas、寸法/メッシュ数値、変形・端末テスト等を目的に応じて選ぶ。 | G3を実現し確かめる選択肢であり、**特定の技術や数値達成それ自体には価値がない。** |
+| **G0 Product** | Completing useful tasks makes users want to return to meet their Grimo | Ultimate value |
+| **G1 Experience** | Cute, unmistakable, comforting, lovable, living and attentive companions | Emotional motivation for G0 |
+| **G2 Capabilities** | Self-initiated but calm idle, gaze/intent, independent face/body/appendage reactions, causal touch, interruption/variation, natural seating and gifts, usable Task/Calendar/Grimo/Collection | Makes G1 real |
+| **G3 Production** | Identity-faithful 3D, expressive Rig/Motion, GLB/PlayCanvas, reliable smartphone PWA | Enables G2 |
+| **G4 Hygiene** | Topology, remesh/smooth, mesh metrics, format testing, code cleanliness and efficiency | Supports G3 only when consequential |
 
-## 制作の判断原則
-- **WHYをたどる:** 技術変更の価値は「G3の何を可能にし、G2をどう改善し、G1/G0にどう寄与するか」で説明する。説明できない局所最適化は目的化しない。
-- **Human Gateと技術Gateは独立:** 数値・トポロジー・GLBのPASSは可愛さや自然さの承認ではない。逆に見た目のPASSもRig、動作、実機性能の不成立を許さない。未検証はUNKNOWN。
-- **手段は自由、成果は厳格:** Codexが造形/Rig/Motion/診断/検証方法を選ぶ。Canonical Identity、承認済みFull-Spatial 3D、外部費用・データ安全などの確定境界は守る。
-- **利用者に見える品質を優先:** 正面ふれあい視点へ重点を置き、実際に見える3/4・側面・背面・座位・触れ合いでも本人らしさと自然な立体を保つ。見えない場所の磨き込みは必要な変形・支持・実行条件に寄与する範囲で行う。
-- **優先価値:** 可愛さ・魅力→癒やし・安心→愛着→面白さ→驚き→収集。下位の指標でこの優先順位を逆転しない。
+This hierarchy is a **causal map, not an ordered waterfall**; production methods and order are flexible.
 
-## 他の製品ゴールとの境界
-Task / Calendar / Grimo / Collectionの4画面、タスク・報酬・Collection・保存の仕様は正式なProduct Feature/Data Modelに属し、**制作マップのG2能力リストではない**。相棒への愛着はタスク管理の実用性やデータ保護を犠牲にする理由にならない。
+## WHY connections / protection
+- **G0 ← G1:** 3D technical perfection is not the emotional reason to return.
+- **G1 ← G2:** anticipation, local causality, living stillness and variation prevent a canned-puppet impression.
+- **G2 ← G3:** expressive deformation must preserve canonical face volume/profile, eye appeal, proportions, softness and believable anatomy.
+- **G3 ← G4:** clean meshes and tests show bounded technical success, not visual identity or natural sitting.
+- **Always protect:** approved canonical silhouettes and personality, signature body parts, app functionality/data and user-facing appeal. Local exterior shape changes may be necessary; justify and review them instead of banning all edits.
 
-原典: `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`、`GRIMO_CHARACTER_EXPERIENCE_SPEC.md`、`GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`、各キャラクターのCanonical/approved refs。必要な原典だけ確認し、現物の状態は作業ブランチのコード/資産/Evidenceで確認する。
+## Independent gates
+| Level | Evidence | Gate |
+| --- | --- | --- |
+| G1 | Approved identity vs candidate at relevant front/side/3Q, expressions and sustained user impression | Human visual/experience |
+| G2 | Representative real motion, seating, touch/contact, interruptibility and variation | Functional + Human |
+| G3 | Actual geometry/Rig/GLB/runtime checks for the relevant risk | Focused technical |
+| G4 | Risk-related mesh, export and regression checks | Supporting only |
+
+**Technical PASS ≠ Human quality PASS. Missing evidence = UNKNOWN.** Chargeable Tripo use requires explicit approval.
+
+## Character / app anchors
+- **Carol:** young dream-cloud sheep; fleece/Normal appearance is more important than hidden Underbody polish.
+- **Jill:** green dragon; lively wings, leaves and tail.
+- **Pino:** playful blue otter; buoyant but grounded.
+- **Shushu:** white/pink panda; soft face depth, plush mass, short-limbed realistic sitting.
+- **App:** smartphone-first Task / Calendar / Grimo / Collection; preserve task utility, data integrity and mobile usability.
+
+## Authority and task tracing
+Durable truth: `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`, `GRIMO_CHARACTER_EXPERIENCE_SPEC.md`, `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`, `GRIMO_PRODUCTION_OPERATING_SYSTEM.md`, `DESIGN.md`, canonical art; locate more through `GRIMO_PROJECT_KNOWLEDGE_INDEX.md`. Actual branch/HEAD, assets and production-state files determine NOW; `Handoff.md` routes them.
+
+For each task trace **task → G3/G2 → G1 → G0**, identify quality risks and measure relevant evidence. Handoff stores active G-node IDs; Codex prompt contains only the new task. Only update map after material goal/WHY/priority changes, labeling Human decisions, verified facts and hypotheses distinctly.
