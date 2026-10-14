@@ -1,7 +1,7 @@
 # Grimo — Handoff
 
 **Canonical:** `coord/grimo-ai-handoff:docs/production/Handoff.md`. **Limit 4,000 Unicode characters**. NOW / next action only.
-**Last interaction:** 2026-10-15 ChatGPT — revised Pino 34-reference execution contract to incorporate Jill pilot→structure gate→batch→contact sheet/REVIEW flow; no images generated and no Human approvals claimed.
+**Last interaction:** 2026-10-15 ChatGPT — audited all 41 branches, selectively promoted 60 shared asset/knowledge files to main; verified fast-forward remote HEAD `bf02e0061d46dc9f97b9f7402d0c13fcba3cfb49`. No image generation or Human approval implied.
 
 ## Verified last-known execution
 - **Production branch:** `codex/grimo-motion-zero-based-design-20261011`; **verified remote HEAD:** `2812a9a3baad7f805e0bb8195be46b0313861beb` (AGENTS-only change atop `1b0663a982eeea7d74905092c5306608f13e33cd`, which added Shushu references #18–26). No v003 output shown by this docs commit. Recheck later remote commits; local uncommitted state UNKNOWN.
@@ -12,8 +12,11 @@
 - **References:** original 17 reference images Human-approved. Revised #18–26 present as of last verified HEAD; separate corrected #27 not confirmed. False vertical cheek seam and rear-3/4 angle require individual visual checks; newer reference images are not automatically canonical.
 - **Tripo:** imported-model animal Rig suitability, current credits and Studio operations UNKNOWN. Paid Texture/Rig/Retopo/Mesh Edit HOLD pending explicit user approval. No paid actions in this documentation task.
 
+## Shared references on main
+- `main` commit `bf02e0061d46dc9f97b9f7402d0c13fcba3cfb49`: four Canonical Identities unchanged, all 15 selected Body-only PNGs, SHA-256 manifest, Carol current front/side Normal/Skin, motion DRAFTs, routed knowledge and both Jill/Pino prompt documents. Promotion audit: `docs/grimo/knowledge/character-production/SHARED_REFERENCE_SYNC_20261015.md`. Existing working branches must explicitly import updated assets; no blanket merges/claim of 3D readiness.
+
 ## Pino reference task
-- Branch `docs/pino-motion-reference-prompts-20261015`, `pino-prompt.md`, HEAD `96eb293f51183084ce875b9e9abf28d908e6e63a`: all 34 independent prompts preserved; #01 imagegen preflight, #01–03 structural gate, then #04–34, contact sheet and REVIEW.md. Built-in imagegen/five actual references required; no API fallback. Human=PENDING.
+- `pino-prompt.md` now available on `main`; 34 candidate prompts, #01 imagegen preflight, #01–03 gate. Image tool/five images required, Human=PENDING.
 
 ## Next owner / gates
 **Codex:** finish and push v003 if still active. **ChatGPT:** verify production branch/HEAD, source Candidate B, front/side/3Q neutral and seated views, expression/deformation and FBX/GLB evidence before Human appearance review. **v003 Technical PENDING; Visual PENDING; Motion readiness PENDING; Studio import UNKNOWN.** Standing/seated game neutral undecided.
