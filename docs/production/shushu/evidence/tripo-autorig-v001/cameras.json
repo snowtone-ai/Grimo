@@ -1,0 +1,1619 @@
+{
+  "neutral": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "head-yaw-L": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "return-yaw-L": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "head-yaw-R": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "return-yaw-R": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "head-tilt": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "return-tilt": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "head-nod": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "return-nod": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "paw-Left": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "return-paw-Left": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "paw-Right": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "return-paw-Right": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "seat-entry": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "seat-attempt": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "seat-recovery": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "return-seat": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "input-neutral": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "saved-neutral": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "lowpoly": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  },
+  "v006": {
+    "front": {
+      "location": [
+        0.0,
+        -3.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "3q": {
+      "location": [
+        -2.1213202476501465,
+        -2.1213202476501465,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        1.490736281084537e-07,
+        -0.7853981256484985
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    },
+    "side": {
+      "location": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        -1.5707963705062866
+      ],
+      "ortho_scale": 1.1399999856948853,
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 16,
+      "seed": 0,
+      "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+    }
+  }
+}

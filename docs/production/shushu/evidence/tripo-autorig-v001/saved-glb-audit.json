@@ -1,0 +1,1320 @@
+{
+  "source_sha256": "803aeec97cb455a289e28baa9dd8cd281b97d2b54b92048a2e782228172f8932",
+  "saved_sha256": "9cd083f971bc5256e3118c56d9c339dec180a6dbb9cd36152164d89d5df40e3d",
+  "original_BIN_prefix_exact": true,
+  "original_nodes_skins_materials_meshes_images_UV_weights_accessors_exact": true,
+  "joints": 65,
+  "skinned_meshes": 12,
+  "triangles": 99565,
+  "textures": [
+    {
+      "index": 0,
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "9451b3ec45090ad87ea39b6b7ef5ea526cd213f0368a9c12f777b69d787bebef",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 1,
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "4637149c4d9e8387f4343d3a5d060143bc1bda42d0a91e5ee9b2b62f4c7b4c02",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 2,
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "a3b48f12b7d208c5ff1575d517e6184d42d460954480807b53bb0cb6c6ebd820",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 3,
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "2bd12b235ea4000486ba8f3258b7ccf8699b39bfed3ce6396a1cc0f8b02b6815",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 4,
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "2e1a7abf98bec3fe77d92567450d8c7e25c3cb93db5f64c0f123097ce695bead",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 5,
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "6f0328120b3676245d573c120db56d23436c4b62ac960761f2721c3d67cc40be",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 6,
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "5c8f6e96a02f5fc72e38ba323f3a344e24e4875b5d629fb4902b1841ea711a3e",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 7,
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 8,
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "69272dc14e01d8a292c1e2d393d70534fa4c8c81bb9fc119be36ed84e4936c8f",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 9,
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "d65f8fec15ffe4f1be556c5ffc3f38cf4f624a06f8ec29f03852f864575ae297",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 10,
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "912ef58427f6421b0c50ee1d6816219587169c0ad300d8fe0ebd5f9f8c4e69c0",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    },
+    {
+      "index": 11,
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "de71cb8705ee3cad21b7278353a733df30201c6332f311fd3931eeecb4e59979",
+      "matching_lowpoly_image_bytes": true,
+      "decoded_pixel_match_lowpoly": true
+    }
+  ],
+  "morph_targets": 0,
+  "animation_count": 1,
+  "coordinate_system": "glTF Y-up / front +Z / neutral height ~1 / feet Y=0; meters by convention, no measured animal scale",
+  "hierarchy": [
+    {
+      "node": 64,
+      "name": "mixamorig:Hips",
+      "parent": 77,
+      "world_joint": [
+        0.001953125,
+        0.1894530951976776,
+        0.0019531254656612873
+      ]
+    },
+    {
+      "node": 4,
+      "name": "mixamorig:LeftUpLeg",
+      "parent": 64,
+      "world_joint": [
+        0.13085937308335052,
+        0.12695312849749357,
+        0.001953155625395621
+      ]
+    },
+    {
+      "node": 3,
+      "name": "mixamorig:LeftLeg",
+      "parent": 4,
+      "world_joint": [
+        0.1347655810432842,
+        0.08398439667747903,
+        -0.0019530974757535759
+      ]
+    },
+    {
+      "node": 2,
+      "name": "mixamorig:LeftFoot",
+      "parent": 3,
+      "world_joint": [
+        0.13476560761939732,
+        0.03320314594852387,
+        -0.017578063021542002
+      ]
+    },
+    {
+      "node": 1,
+      "name": "mixamorig:LeftToeBase",
+      "parent": 2,
+      "world_joint": [
+        0.1425778697109939,
+        0.033203177857259215,
+        0.1191402901635957
+      ]
+    },
+    {
+      "node": 0,
+      "name": "mixamorig:LeftToe_End",
+      "parent": 1,
+      "world_joint": [
+        0.14782380059595276,
+        0.03320319441614978,
+        0.21094714649767213
+      ]
+    },
+    {
+      "node": 9,
+      "name": "mixamorig:RightUpLeg",
+      "parent": 64,
+      "world_joint": [
+        -0.1269531120154819,
+        0.12695312895308308,
+        0.0019530954810517529
+      ]
+    },
+    {
+      "node": 8,
+      "name": "mixamorig:RightLeg",
+      "parent": 9,
+      "world_joint": [
+        -0.1308592940067106,
+        0.08398439944367007,
+        -0.001953186933656774
+      ]
+    },
+    {
+      "node": 7,
+      "name": "mixamorig:RightFoot",
+      "parent": 8,
+      "world_joint": [
+        -0.13085934088707257,
+        0.03320321489510313,
+        -0.017578110637860838
+      ]
+    },
+    {
+      "node": 6,
+      "name": "mixamorig:RightToeBase",
+      "parent": 7,
+      "world_joint": [
+        -0.13867039939177006,
+        0.033203370937842105,
+        0.11913995521482922
+      ]
+    },
+    {
+      "node": 5,
+      "name": "mixamorig:RightToe_End",
+      "parent": 6,
+      "world_joint": [
+        -0.14391549216242053,
+        0.0332034539719417,
+        0.21094670822706468
+      ]
+    },
+    {
+      "node": 63,
+      "name": "mixamorig:Spine",
+      "parent": 64,
+      "world_joint": [
+        0.0019531214535211151,
+        0.20117184449918582,
+        0.021484377328306038
+      ]
+    },
+    {
+      "node": 62,
+      "name": "mixamorig:Spine1",
+      "parent": 63,
+      "world_joint": [
+        0.0019531242830092173,
+        0.28320323862134533,
+        0.02148437531099301
+      ]
+    },
+    {
+      "node": 61,
+      "name": "mixamorig:Spine2",
+      "parent": 62,
+      "world_joint": [
+        0.0019531184237194291,
+        0.37695304684955644,
+        0.01757811860416577
+      ]
+    },
+    {
+      "node": 33,
+      "name": "mixamorig:LeftShoulder",
+      "parent": 61,
+      "world_joint": [
+        0.1425780929097984,
+        0.4472656113363322,
+        -0.01757809505204677
+      ]
+    },
+    {
+      "node": 32,
+      "name": "mixamorig:LeftArm",
+      "parent": 33,
+      "world_joint": [
+        0.18164058515861745,
+        0.43554684431725915,
+        -0.017578077879863836
+      ]
+    },
+    {
+      "node": 31,
+      "name": "mixamorig:LeftForeArm",
+      "parent": 32,
+      "world_joint": [
+        0.24414053327743385,
+        0.40039065180532923,
+        -0.017578066647833176
+      ]
+    },
+    {
+      "node": 30,
+      "name": "mixamorig:LeftHand",
+      "parent": 31,
+      "world_joint": [
+        0.3125068315142612,
+        0.35354391168889976,
+        0.07650104288420281
+      ]
+    },
+    {
+      "node": 13,
+      "name": "mixamorig:LeftHandIndex1",
+      "parent": 30,
+      "world_joint": [
+        0.35613089019989214,
+        0.34077582485178365,
+        0.05681705752722013
+      ]
+    },
+    {
+      "node": 12,
+      "name": "mixamorig:LeftHandIndex2",
+      "parent": 13,
+      "world_joint": [
+        0.37262295152962205,
+        0.3423719096880971,
+        0.046709026472938175
+      ]
+    },
+    {
+      "node": 11,
+      "name": "mixamorig:LeftHandIndex3",
+      "parent": 12,
+      "world_joint": [
+        0.3827309279400459,
+        0.34343591565998643,
+        0.03766500428044793
+      ]
+    },
+    {
+      "node": 10,
+      "name": "mixamorig:LeftHandIndex4",
+      "parent": 11,
+      "world_joint": [
+        0.39257259168009073,
+        0.34447193006795,
+        0.02885925624409675
+      ]
+    },
+    {
+      "node": 17,
+      "name": "mixamorig:LeftHandMiddle1",
+      "parent": 30,
+      "world_joint": [
+        0.3550670495771322,
+        0.3546079164808181,
+        0.05415701957058752
+      ]
+    },
+    {
+      "node": 16,
+      "name": "mixamorig:LeftHandMiddle2",
+      "parent": 17,
+      "world_joint": [
+        0.3726230668324377,
+        0.3567359931396149,
+        0.037664982606925496
+      ]
+    },
+    {
+      "node": 15,
+      "name": "mixamorig:LeftHandMiddle3",
+      "parent": 16,
+      "world_joint": [
+        0.3859230677699342,
+        0.3577999545871247,
+        0.025428925464557987
+      ]
+    },
+    {
+      "node": 14,
+      "name": "mixamorig:LeftHandMiddle4",
+      "parent": 15,
+      "world_joint": [
+        0.3992361295833425,
+        0.35886507009246627,
+        0.01318086774401057
+      ]
+    },
+    {
+      "node": 21,
+      "name": "mixamorig:LeftHandPinky1",
+      "parent": 30,
+      "world_joint": [
+        0.34868283206105555,
+        0.38014381356264176,
+        0.053624976157381696
+      ]
+    },
+    {
+      "node": 20,
+      "name": "mixamorig:LeftHandPinky2",
+      "parent": 21,
+      "world_joint": [
+        0.3635789591434478,
+        0.38173990062614055,
+        0.037664905747467795
+      ]
+    },
+    {
+      "node": 19,
+      "name": "mixamorig:LeftHandPinky3",
+      "parent": 20,
+      "world_joint": [
+        0.3742191206087504,
+        0.3822718779376358,
+        0.030216948578049713
+      ]
+    },
+    {
+      "node": 18,
+      "name": "mixamorig:LeftHandPinky4",
+      "parent": 19,
+      "world_joint": [
+        0.3849884397109093,
+        0.38281038577453996,
+        0.022678425099719488
+      ]
+    },
+    {
+      "node": 25,
+      "name": "mixamorig:LeftHandRing1",
+      "parent": 30,
+      "world_joint": [
+        0.3529389119569687,
+        0.36737589258472303,
+        0.05309305606589521
+      ]
+    },
+    {
+      "node": 24,
+      "name": "mixamorig:LeftHandRing2",
+      "parent": 25,
+      "world_joint": [
+        0.36943097413407,
+        0.36950397840996385,
+        0.035004990807292795
+      ]
+    },
+    {
+      "node": 23,
+      "name": "mixamorig:LeftHandRing3",
+      "parent": 24,
+      "world_joint": [
+        0.380071105730584,
+        0.37056790610242657,
+        0.02330094606723899
+      ]
+    },
+    {
+      "node": 22,
+      "name": "mixamorig:LeftHandRing4",
+      "parent": 23,
+      "world_joint": [
+        0.38960840938486124,
+        0.371521643914281,
+        0.012809744535239045
+      ]
+    },
+    {
+      "node": 29,
+      "name": "mixamorig:LeftHandThumb1",
+      "parent": 30,
+      "world_joint": [
+        0.3178269525901923,
+        0.3407759899544009,
+        0.0765010638763906
+      ]
+    },
+    {
+      "node": 28,
+      "name": "mixamorig:LeftHandThumb2",
+      "parent": 29,
+      "world_joint": [
+        0.34283107815002595,
+        0.3258799136045324,
+        0.07650105648036375
+      ]
+    },
+    {
+      "node": 27,
+      "name": "mixamorig:LeftHandThumb3",
+      "parent": 28,
+      "world_joint": [
+        0.3561310666053903,
+        0.3205599702488309,
+        0.07650103593958785
+      ]
+    },
+    {
+      "node": 26,
+      "name": "mixamorig:LeftHandThumb4",
+      "parent": 27,
+      "world_joint": [
+        0.3661714298422001,
+        0.3165438008140271,
+        0.07650101898126141
+      ]
+    },
+    {
+      "node": 36,
+      "name": "mixamorig:Neck",
+      "parent": 61,
+      "world_joint": [
+        0.0019531164829156378,
+        0.47851542199523345,
+        -0.017578118802365858
+      ]
+    },
+    {
+      "node": 35,
+      "name": "mixamorig:Head",
+      "parent": 36,
+      "world_joint": [
+        0.001953114085978009,
+        0.5253902920430007,
+        -0.009765635614870663
+      ]
+    },
+    {
+      "node": 34,
+      "name": "mixamorig:HeadTop_End",
+      "parent": 35,
+      "world_joint": [
+        0.0019531049996938245,
+        0.6371440988389182,
+        0.008859992712389846
+      ]
+    },
+    {
+      "node": 60,
+      "name": "mixamorig:RightShoulder",
+      "parent": 61,
+      "world_joint": [
+        -0.1386719288411644,
+        0.4472654845533897,
+        -0.017578138179012034
+      ]
+    },
+    {
+      "node": 59,
+      "name": "mixamorig:RightArm",
+      "parent": 60,
+      "world_joint": [
+        -0.17773437528704022,
+        0.43554666647242896,
+        -0.017578148950387076
+      ]
+    },
+    {
+      "node": 58,
+      "name": "mixamorig:RightForeArm",
+      "parent": 59,
+      "world_joint": [
+        -0.24023444277617667,
+        0.4003905035240584,
+        -0.01757817210519035
+      ]
+    },
+    {
+      "node": 57,
+      "name": "mixamorig:RightHand",
+      "parent": 58,
+      "world_joint": [
+        -0.3215202541094753,
+        0.3404633853555872,
+        0.07894982536797752
+      ]
+    },
+    {
+      "node": 40,
+      "name": "mixamorig:RightHandIndex1",
+      "parent": 57,
+      "world_joint": [
+        -0.3223896498490369,
+        0.3375500376117247,
+        0.07768821913793356
+      ]
+    },
+    {
+      "node": 39,
+      "name": "mixamorig:RightHandIndex2",
+      "parent": 40,
+      "world_joint": [
+        -0.3215202609280251,
+        0.3404633888795765,
+        0.07894974505518955
+      ]
+    },
+    {
+      "node": 38,
+      "name": "mixamorig:RightHandIndex3",
+      "parent": 39,
+      "world_joint": [
+        -0.3215306902034448,
+        0.33974976367442644,
+        0.07922824180604901
+      ]
+    },
+    {
+      "node": 37,
+      "name": "mixamorig:RightHandIndex4",
+      "parent": 38,
+      "world_joint": [
+        -0.32036794622657355,
+        0.34214085498052454,
+        0.0796626935529814
+      ]
+    },
+    {
+      "node": 44,
+      "name": "mixamorig:RightHandMiddle1",
+      "parent": 57,
+      "world_joint": [
+        -0.3225277345306951,
+        0.3410543819630997,
+        0.07828428076589895
+      ]
+    },
+    {
+      "node": 43,
+      "name": "mixamorig:RightHandMiddle2",
+      "parent": 44,
+      "world_joint": [
+        -0.32152031760829286,
+        0.3404632893101863,
+        0.07894987447389099
+      ]
+    },
+    {
+      "node": 42,
+      "name": "mixamorig:RightHandMiddle3",
+      "parent": 43,
+      "world_joint": [
+        -0.32221198285128216,
+        0.34069191915678687,
+        0.07843104127975041
+      ]
+    },
+    {
+      "node": 41,
+      "name": "mixamorig:RightHandMiddle4",
+      "parent": 42,
+      "world_joint": [
+        -0.32244638380856205,
+        0.34002519048515395,
+        0.08144454122192483
+      ]
+    },
+    {
+      "node": 48,
+      "name": "mixamorig:RightHandPinky1",
+      "parent": 57,
+      "world_joint": [
+        -0.2943784142406916,
+        0.34046344079782587,
+        0.07894982581434774
+      ]
+    },
+    {
+      "node": 47,
+      "name": "mixamorig:RightHandPinky2",
+      "parent": 48,
+      "world_joint": [
+        -0.29352703346084913,
+        0.34062244267661734,
+        0.07910553244343412
+      ]
+    },
+    {
+      "node": 46,
+      "name": "mixamorig:RightHandPinky3",
+      "parent": 47,
+      "world_joint": [
+        -0.29538095873905085,
+        0.34175113312878913,
+        0.07899723206429157
+      ]
+    },
+    {
+      "node": 45,
+      "name": "mixamorig:RightHandPinky4",
+      "parent": 46,
+      "world_joint": [
+        -0.2943783436204814,
+        0.3404633399595462,
+        0.0789498283782794
+      ]
+    },
+    {
+      "node": 52,
+      "name": "mixamorig:RightHandRing1",
+      "parent": 57,
+      "world_joint": [
+        -0.3207093917437642,
+        0.3393648372876763,
+        0.07898196114892841
+      ]
+    },
+    {
+      "node": 51,
+      "name": "mixamorig:RightHandRing2",
+      "parent": 52,
+      "world_joint": [
+        -0.32152026320359967,
+        0.34046337065537713,
+        0.07894984653342246
+      ]
+    },
+    {
+      "node": 50,
+      "name": "mixamorig:RightHandRing3",
+      "parent": 51,
+      "world_joint": [
+        -0.3214397907296073,
+        0.34185288685894455,
+        0.07761167990535198
+      ]
+    },
+    {
+      "node": 49,
+      "name": "mixamorig:RightHandRing4",
+      "parent": 50,
+      "world_joint": [
+        -0.3215202822894861,
+        0.34046329672788567,
+        0.07894980893648093
+      ]
+    },
+    {
+      "node": 56,
+      "name": "mixamorig:RightHandThumb1",
+      "parent": 57,
+      "world_joint": [
+        -0.3204456427889493,
+        0.3392147027852937,
+        0.07670944541576223
+      ]
+    },
+    {
+      "node": 55,
+      "name": "mixamorig:RightHandThumb2",
+      "parent": 56,
+      "world_joint": [
+        -0.3215202355872723,
+        0.3404634118145401,
+        0.07894982400122469
+      ]
+    },
+    {
+      "node": 54,
+      "name": "mixamorig:RightHandThumb3",
+      "parent": 55,
+      "world_joint": [
+        -0.32279579285322524,
+        0.3419151380399152,
+        0.08056703999140467
+      ]
+    },
+    {
+      "node": 53,
+      "name": "mixamorig:RightHandThumb4",
+      "parent": 54,
+      "world_joint": [
+        -0.3215201713181041,
+        0.34046337653545156,
+        0.07894976658158712
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ShushuStatic_Ear_L",
+      "vertices": 2223,
+      "triangles": 4204,
+      "bind_max_displacement": 1.314639532918221e-07,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.8980392217636108,
+        0.9176470637321472
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.09237825779015557,
+        "mixamorig:Head": 0.907621749660425
+      },
+      "uv_bounds": [
+        [
+          0.000244140625,
+          0.000244140625
+        ],
+        [
+          0.883056640625,
+          0.999755859375
+        ]
+      ],
+      "bounds": [
+        [
+          0.10423272103071213,
+          0.7560425400733948,
+          -0.1881561279296875
+        ],
+        [
+          0.35333243012428284,
+          0.9998780488967896,
+          0.01678466796875
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.063697585278014e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.063697585278014e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Ear_R",
+      "vertices": 2199,
+      "triangles": 4238,
+      "bind_max_displacement": 1.092046678640431e-07,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.8980392217636108,
+        0.9176470637321472
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.09155855356305227,
+        "mixamorig:Head": 0.9084414538875283
+      },
+      "uv_bounds": [
+        [
+          0.001708984375,
+          0.000244140625
+        ],
+        [
+          0.999755859375,
+          0.998291015625
+        ]
+      ],
+      "bounds": [
+        [
+          -0.35333260893821716,
+          0.75640869140625,
+          -0.1881408989429474
+        ],
+        [
+          -0.10422524064779282,
+          1.0000001192092896,
+          0.016778908669948578
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.0637074834374596e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.0637074834374596e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Eye_L",
+      "vertices": 779,
+      "triangles": 1408,
+      "bind_max_displacement": 1.0761708646863048e-07,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.9803921580314636,
+        1.0
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.010405497669704994,
+        "mixamorig:Head": 0.989594503376389
+      },
+      "uv_bounds": [
+        [
+          0.00048828125,
+          0.03857421875
+        ],
+        [
+          0.99951171875,
+          0.99951171875
+        ]
+      ],
+      "bounds": [
+        [
+          0.06338490545749664,
+          0.5926513671875,
+          0.04944610595703125
+        ],
+        [
+          0.19667045772075653,
+          0.73773193359375,
+          0.1909026950597763
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 0.006000566600356349,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 0.0060005703258019915,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Eye_R",
+      "vertices": 801,
+      "triangles": 1408,
+      "bind_max_displacement": 1.067489910449244e-07,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.9803921580314636,
+        1.0
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.009835744981238905,
+        "mixamorig:Head": 0.9901642560512386
+      },
+      "uv_bounds": [
+        [
+          0.000732421875,
+          0.014892578125
+        ],
+        [
+          0.999267578125,
+          0.999267578125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.19667063653469086,
+          0.5926513671875,
+          0.04944989085197449
+        ],
+        [
+          -0.06338511407375336,
+          0.73773193359375,
+          0.19093318283557892
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 0.006000641105198766,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 0.006000641105198766,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Head",
+      "vertices": 34667,
+      "triangles": 63619,
+      "bind_max_displacement": 1.370949733535004e-07,
+      "weight_sum_error": 5.960464477539063e-08,
+      "head_weight_range": [
+        0.0,
+        1.0
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.022243112590582283,
+        "mixamorig:LeftShoulder": 0.00016526990904406868,
+        "mixamorig:Neck": 0.0006624370831154259,
+        "mixamorig:Head": 0.9767523739425359,
+        "mixamorig:RightShoulder": 0.00017680825999683998
+      },
+      "uv_bounds": [
+        [
+          0.00048828125,
+          0.00048828125
+        ],
+        [
+          0.96923828125,
+          0.99951171875
+        ]
+      ],
+      "bounds": [
+        [
+          -0.3044434189796448,
+          0.4747008681297302,
+          -0.287078857421875
+        ],
+        [
+          0.3049926161766052,
+          0.9458009004592896,
+          0.2716979384422302
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.4133353272276565e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.4133353272276565e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_LidWall_L",
+      "vertices": 633,
+      "triangles": 832,
+      "bind_max_displacement": 1.038367814511132e-07,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.9803921580314636,
+        1.0
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.010463712016035218,
+        "mixamorig:Head": 0.9895362890727147
+      },
+      "uv_bounds": [
+        [
+          0.000244140625,
+          0.000244140625
+        ],
+        [
+          0.17626953125,
+          0.999755859375
+        ]
+      ],
+      "bounds": [
+        [
+          0.08183278143405914,
+          0.61273193359375,
+          0.118133544921875
+        ],
+        [
+          0.17826834321022034,
+          0.71759033203125,
+          0.1910552829504013
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.051781459270632e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.051781459270632e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_LidWall_R",
+      "vertices": 723,
+      "triangles": 840,
+      "bind_max_displacement": 1.0541684141703702e-07,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.9803921580314636,
+        1.0
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.009600521138074447,
+        "mixamorig:Head": 0.9903994798660278
+      },
+      "uv_bounds": [
+        [
+          0.001220703125,
+          0.001220703125
+        ],
+        [
+          0.998779296875,
+          0.998779296875
+        ]
+      ],
+      "bounds": [
+        [
+          -0.17826852202415466,
+          0.61273193359375,
+          0.11818692088127136
+        ],
+        [
+          -0.08183299005031586,
+          0.71759033203125,
+          0.19122309982776642
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.051789917494098e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.051789917494098e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_MouthInterior",
+      "vertices": 450,
+      "triangles": 768,
+      "bind_max_displacement": 9.890690340177073e-08,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.9960784316062927,
+        0.9960784316062927
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.003921568859368563,
+        "mixamorig:Head": 0.9960784316062927
+      },
+      "uv_bounds": [
+        [
+          0.001708984375,
+          0.069091796875
+        ],
+        [
+          0.998291015625,
+          0.998291015625
+        ]
+      ],
+      "bounds": [
+        [
+          -0.0262070894241333,
+          0.600830078125,
+          0.2446288764476776
+        ],
+        [
+          0.026206854730844498,
+          0.605712890625,
+          0.2665099501609802
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.305340064694411e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.305340064694411e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Nose",
+      "vertices": 3740,
+      "triangles": 7008,
+      "bind_max_displacement": 9.877973035750051e-08,
+      "weight_sum_error": 0.0,
+      "head_weight_range": [
+        0.9921568632125854,
+        0.9960784316062927
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.007557932710783048,
+        "mixamorig:Head": 0.9924420681866732
+      },
+      "uv_bounds": [
+        [
+          0.00341796875,
+          0.08544921875
+        ],
+        [
+          0.9970703125,
+          0.99658203125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.0180588960647583,
+          0.606201171875,
+          0.2626342177391052
+        ],
+        [
+          0.0180586576461792,
+          0.6505126953125,
+          0.2870787978172302
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.051801621763737e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.051801621763737e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Paw_L",
+      "vertices": 1681,
+      "triangles": 2976,
+      "bind_max_displacement": 1.6537664769584514e-07,
+      "weight_sum_error": 1.1920928955078125e-07,
+      "head_weight_range": [
+        0.0,
+        0.7333333492279053
+      ],
+      "mean_weights": {
+        "mixamorig:Spine2": 0.0001423055885591229,
+        "mixamorig:LeftShoulder": 0.20090049261211737,
+        "mixamorig:LeftArm": 0.2485472028834024,
+        "mixamorig:LeftForeArm": 0.2892232718387179,
+        "mixamorig:LeftHand": 0.02876672413336431,
+        "mixamorig:LeftHandIndex1": 0.057314158179883105,
+        "mixamorig:LeftHandIndex2": 0.004535115730895005,
+        "mixamorig:LeftHandMiddle1": 0.01891731142062541,
+        "mixamorig:LeftHandMiddle2": 0.0027761253678438777,
+        "mixamorig:LeftHandPinky1": 0.03231269951077629,
+        "mixamorig:LeftHandPinky2": 0.005778539905037591,
+        "mixamorig:LeftHandRing1": 0.00774282367555408,
+        "mixamorig:LeftHandRing2": 0.00673735295552572,
+        "mixamorig:LeftHandThumb1": 0.06714257482768372,
+        "mixamorig:LeftHandThumb2": 0.01837375069980037,
+        "mixamorig:Head": 0.010789562911482208
+      },
+      "uv_bounds": [
+        [
+          0.00048828125,
+          0.00048828125
+        ],
+        [
+          0.94921875,
+          0.99951171875
+        ]
+      ],
+      "bounds": [
+        [
+          0.11193838715553284,
+          0.28912365436553955,
+          -0.09244535118341446
+        ],
+        [
+          0.3806151747703552,
+          0.51385498046875,
+          0.11328887939453125
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.0637030436233454e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.0637030436233454e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Paw_R",
+      "vertices": 1716,
+      "triangles": 2986,
+      "bind_max_displacement": 1.4583180049840212e-07,
+      "weight_sum_error": 5.960464477539063e-08,
+      "head_weight_range": [
+        0.0,
+        0.7372549176216125
+      ],
+      "mean_weights": {
+        "mixamorig:RightUpLeg": 0.0003450797674830108,
+        "mixamorig:Spine2": 0.00013026189317357983,
+        "mixamorig:Head": 0.010151286811637312,
+        "mixamorig:RightShoulder": 0.19251108519425766,
+        "mixamorig:RightArm": 0.2489396259218502,
+        "mixamorig:RightForeArm": 0.3922871296735815,
+        "mixamorig:RightHand": 0.06399058600880057,
+        "mixamorig:RightHandIndex1": 0.02968828566887987,
+        "mixamorig:RightHandIndex2": 0.02968828566887987,
+        "mixamorig:RightHandPinky1": 0.013352987104115057,
+        "mixamorig:RightHandPinky2": 0.012018373960874419,
+        "mixamorig:RightHandPinky3": 0.006897024599735415
+      },
+      "uv_bounds": [
+        [
+          0.000732421875,
+          0.00048828125
+        ],
+        [
+          0.994140625,
+          0.999267578125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.3806152939796448,
+          0.28912353515625,
+          -0.0924530029296875
+        ],
+        [
+          -0.11187750101089478,
+          0.51385498046875,
+          0.11328880488872528
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.051765794726654e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.051765794726654e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    },
+    {
+      "name": "ShushuStatic_Torso",
+      "vertices": 5621,
+      "triangles": 9278,
+      "bind_max_displacement": 1.2239997632542693e-06,
+      "weight_sum_error": 1.1920928955078125e-07,
+      "head_weight_range": [
+        0.0,
+        0.0
+      ],
+      "mean_weights": {
+        "mixamorig:Hips": 0.12838759596892504,
+        "mixamorig:LeftUpLeg": 0.10360936619479887,
+        "mixamorig:LeftLeg": 0.03886197098244026,
+        "mixamorig:LeftFoot": 0.07192147138921699,
+        "mixamorig:RightUpLeg": 0.10674955118326591,
+        "mixamorig:RightLeg": 0.04211866592702066,
+        "mixamorig:RightFoot": 0.07666977163251132,
+        "mixamorig:Spine": 0.004447607231571451,
+        "mixamorig:Spine1": 0.1672167773979019,
+        "mixamorig:Spine2": 0.08237247669257805,
+        "mixamorig:LeftShoulder": 0.07369074757999411,
+        "mixamorig:Neck": 0.034523897404436024,
+        "mixamorig:RightShoulder": 0.0629662584410369,
+        "mixamorig:RightArm": 0.001988342088418374,
+        "mixamorig:RightForeArm": 0.004475513867817831
+      },
+      "uv_bounds": [
+        [
+          0.000732421875,
+          0.014404296875
+        ],
+        [
+          0.99951171875,
+          0.999267578125
+        ]
+      ],
+      "bounds": [
+        [
+          -0.24473552405834198,
+          0.0,
+          -0.25241076946258545
+        ],
+        [
+          0.24470485746860504,
+          0.5185546875,
+          0.2480316013097763
+        ]
+      ],
+      "lowpoly_bidirectional_nearest_vertex_max": 3.051773273870763e-05,
+      "lowpoly_bidirectional_UV_set_max": 0.0,
+      "lowpoly_bidirectional_position_UV_set_max": 3.051773273870763e-05,
+      "comparison_limit": "nearest attribute sets tolerate reorder; not an exact triangle correspondence or surface-Hausdorff proof"
+    }
+  ]
+}

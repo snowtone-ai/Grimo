@@ -1,0 +1,27 @@
+{
+  "head": "718b618762d5375407191f5cd4fe06948a2c3b60",
+  "branch": "codex/grimo-motion-zero-based-design-20261011",
+  "status": " M docs/production/shushu/evidence/geometry-v002/review-01-identity.png\n M docs/production/shushu/evidence/geometry-v002/review-02-face.png\n M docs/production/shushu/evidence/geometry-v002/review-03-support-contact.png\n?? 18-face-neutral-left-profile.png\n?? 19-face-small-mouth-open-left-profile.png\n?? 20-face-closed-eyes-left-profile.png\n?? 21-face-neutral-front-three-quarter.png\n?? 22-face-closed-eye-smile-front-three-quarter.png\n?? 23-seated-left-profile.png\n?? 24-seated-front-three-quarter.png\n?? 25-seated-rear-three-quarter.png\n?? 26-standing-to-seated-transition-left-profile.png\n?? 27-seated-low-one-paw-offer-front-three-quarter.png\n?? README_18-27_revised_v003.md\n?? assets/grimo/production/shushu/tripo/geometry-v003/rigging/\n?? docs/production/shushu/evidence/tripo-autorig-v001/\n?? manifest_18-27_revised_v003.json\n?? scripts/3d/probe-shushu-autorig-v001.py\n?? scripts/blender/review-shushu-autorig-v001.py\n",
+  "source_sha256": "803aeec97cb455a289e28baa9dd8cd281b97d2b54b92048a2e782228172f8932",
+  "snapshot_note": "branch/HEAD checked before work; status captured during diagnostic setup. Initial user changes are listed separately.",
+  "initial_user_changes": [
+    "docs/production/shushu/evidence/geometry-v002/review-01-identity.png",
+    "docs/production/shushu/evidence/geometry-v002/review-02-face.png",
+    "docs/production/shushu/evidence/geometry-v002/review-03-support-contact.png"
+  ],
+  "initial_untracked_inputs": [
+    "18-face-neutral-left-profile.png",
+    "19-face-small-mouth-open-left-profile.png",
+    "20-face-closed-eyes-left-profile.png",
+    "21-face-neutral-front-three-quarter.png",
+    "22-face-closed-eye-smile-front-three-quarter.png",
+    "23-seated-left-profile.png",
+    "24-seated-front-three-quarter.png",
+    "25-seated-rear-three-quarter.png",
+    "26-standing-to-seated-transition-left-profile.png",
+    "27-seated-low-one-paw-offer-front-three-quarter.png",
+    "README_18-27_revised_v003.md",
+    "manifest_18-27_revised_v003.json",
+    "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-tripo-autorig-v001.glb"
+  ]
+}

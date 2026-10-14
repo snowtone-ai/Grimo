@@ -1,0 +1,1759 @@
+{
+  "blender": "5.2.1 LTS",
+  "saved_blend_sha256": "42bddd063e4a82efa7ac6e1cc0d2cae8ed57d8e86819cb770efb13038baee692",
+  "armature_bones": 65,
+  "armature_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "actions": [
+    {
+      "name": "Shushu_AutoRig_DIAGNOSTIC_NOT_PRODUCTION",
+      "frame_range": [
+        0.0,
+        384.0
+      ]
+    }
+  ],
+  "cameras": {
+    "neutral": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "head-yaw-L": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "return-yaw-L": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "head-yaw-R": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "return-yaw-R": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "head-tilt": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "return-tilt": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "head-nod": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "return-nod": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "paw-Left": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "return-paw-Left": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "paw-Right": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "return-paw-Right": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "seat-entry": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "seat-attempt": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "seat-recovery": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "return-seat": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    }
+  },
+  "deformation": [
+    {
+      "name": "neutral",
+      "frame": 0,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "head-yaw-L",
+      "frame": 24,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0864085853099823,
+        "ShushuStatic_Ear_R": 0.0876714438199997,
+        "ShushuStatic_Eye_L": 0.060249388217926025,
+        "ShushuStatic_Eye_R": 0.061087466776371,
+        "ShushuStatic_Head": 0.07414024323225021,
+        "ShushuStatic_LidWall_L": 0.060066599398851395,
+        "ShushuStatic_LidWall_R": 0.06099944934248924,
+        "ShushuStatic_MouthInterior": 0.07190411537885666,
+        "ShushuStatic_Nose": 0.07688581198453903,
+        "ShushuStatic_Paw_L": 0.02819216251373291,
+        "ShushuStatic_Paw_R": 0.029064873233437538,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "return-yaw-L",
+      "frame": 48,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "head-yaw-R",
+      "frame": 72,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0864086002111435,
+        "ShushuStatic_Ear_R": 0.08767148852348328,
+        "ShushuStatic_Eye_L": 0.060249410569667816,
+        "ShushuStatic_Eye_R": 0.06108752265572548,
+        "ShushuStatic_Head": 0.0741402879357338,
+        "ShushuStatic_LidWall_L": 0.060066644102334976,
+        "ShushuStatic_LidWall_R": 0.06099948287010193,
+        "ShushuStatic_MouthInterior": 0.07190414518117905,
+        "ShushuStatic_Nose": 0.07688584178686142,
+        "ShushuStatic_Paw_L": 0.028192173689603806,
+        "ShushuStatic_Paw_R": 0.029064884409308434,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "return-yaw-R",
+      "frame": 96,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "head-tilt",
+      "frame": 120,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.09128157794475555,
+        "ShushuStatic_Ear_R": 0.09157212823629379,
+        "ShushuStatic_Eye_L": 0.050157126039266586,
+        "ShushuStatic_Eye_R": 0.05051609128713608,
+        "ShushuStatic_Head": 0.07509263604879379,
+        "ShushuStatic_LidWall_L": 0.04669783636927605,
+        "ShushuStatic_LidWall_R": 0.047056060284376144,
+        "ShushuStatic_MouthInterior": 0.022449519485235214,
+        "ShushuStatic_Nose": 0.029747869819402695,
+        "ShushuStatic_Paw_L": 0.018286826089024544,
+        "ShushuStatic_Paw_R": 0.018885858356952667,
+        "ShushuStatic_Torso": 0.006556901149451733
+      }
+    },
+    {
+      "name": "return-tilt",
+      "frame": 144,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "head-nod",
+      "frame": 168,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.09994610399007797,
+        "ShushuStatic_Ear_R": 0.10046712309122086,
+        "ShushuStatic_Eye_L": 0.06236035376787186,
+        "ShushuStatic_Eye_R": 0.06229240447282791,
+        "ShushuStatic_Head": 0.09033790975809097,
+        "ShushuStatic_LidWall_L": 0.062492601573467255,
+        "ShushuStatic_LidWall_R": 0.06230230629444122,
+        "ShushuStatic_MouthInterior": 0.06475866585969925,
+        "ShushuStatic_Nose": 0.07196827232837677,
+        "ShushuStatic_Paw_L": 0.00729936920106411,
+        "ShushuStatic_Paw_R": 0.007327172439545393,
+        "ShushuStatic_Torso": 0.013280960731208324
+      }
+    },
+    {
+      "name": "return-nod",
+      "frame": 192,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "paw-Left",
+      "frame": 216,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.12069155275821686,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "return-paw-Left",
+      "frame": 240,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "paw-Right",
+      "frame": 264,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.12230578064918518,
+        "ShushuStatic_Torso": 0.062245309352874756
+      }
+    },
+    {
+      "name": "return-paw-Right",
+      "frame": 288,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    },
+    {
+      "name": "seat-entry",
+      "frame": 312,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.02648700401186943,
+        "ShushuStatic_Ear_R": 0.02648700401186943,
+        "ShushuStatic_Eye_L": 0.02648700401186943,
+        "ShushuStatic_Eye_R": 0.02648700401186943,
+        "ShushuStatic_Head": 0.02648705616593361,
+        "ShushuStatic_LidWall_L": 0.026487000286579132,
+        "ShushuStatic_LidWall_R": 0.026487000286579132,
+        "ShushuStatic_MouthInterior": 0.026487000286579132,
+        "ShushuStatic_Nose": 0.026487000286579132,
+        "ShushuStatic_Paw_L": 0.02648703008890152,
+        "ShushuStatic_Paw_R": 0.031544409692287445,
+        "ShushuStatic_Torso": 0.06562712043523788
+      }
+    },
+    {
+      "name": "seat-attempt",
+      "frame": 336,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.08475840836763382,
+        "ShushuStatic_Ear_R": 0.08475840836763382,
+        "ShushuStatic_Eye_L": 0.08475840836763382,
+        "ShushuStatic_Eye_R": 0.08475840836763382,
+        "ShushuStatic_Head": 0.0847584679722786,
+        "ShushuStatic_LidWall_L": 0.08475840836763382,
+        "ShushuStatic_LidWall_R": 0.08475840836763382,
+        "ShushuStatic_MouthInterior": 0.08475840091705322,
+        "ShushuStatic_Nose": 0.08475840836763382,
+        "ShushuStatic_Paw_L": 0.08475850522518158,
+        "ShushuStatic_Paw_R": 0.09647547453641891,
+        "ShushuStatic_Torso": 0.16181862354278564
+      }
+    },
+    {
+      "name": "seat-recovery",
+      "frame": 360,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.02648700401186943,
+        "ShushuStatic_Ear_R": 0.02648700401186943,
+        "ShushuStatic_Eye_L": 0.02648700401186943,
+        "ShushuStatic_Eye_R": 0.02648700401186943,
+        "ShushuStatic_Head": 0.02648705616593361,
+        "ShushuStatic_LidWall_L": 0.026487000286579132,
+        "ShushuStatic_LidWall_R": 0.026487000286579132,
+        "ShushuStatic_MouthInterior": 0.026487000286579132,
+        "ShushuStatic_Nose": 0.026487000286579132,
+        "ShushuStatic_Paw_L": 0.02648703008890152,
+        "ShushuStatic_Paw_R": 0.031544409692287445,
+        "ShushuStatic_Torso": 0.06562712043523788
+      }
+    },
+    {
+      "name": "return-seat",
+      "frame": 384,
+      "max_mesh_displacement": {
+        "ShushuStatic_Ear_L": 0.0,
+        "ShushuStatic_Ear_R": 0.0,
+        "ShushuStatic_Eye_L": 0.0,
+        "ShushuStatic_Eye_R": 0.0,
+        "ShushuStatic_Head": 0.0,
+        "ShushuStatic_LidWall_L": 0.0,
+        "ShushuStatic_LidWall_R": 0.0,
+        "ShushuStatic_MouthInterior": 0.0,
+        "ShushuStatic_Nose": 0.0,
+        "ShushuStatic_Paw_L": 0.0,
+        "ShushuStatic_Paw_R": 0.0,
+        "ShushuStatic_Torso": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ShushuStatic_Ear_L",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Ear_R",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Eye_L",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Eye_R",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Head",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_LidWall_L",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_LidWall_R",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_MouthInterior",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Nose",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Paw_L",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Paw_R",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    },
+    {
+      "name": "ShushuStatic_Torso",
+      "uv_layers": 1,
+      "armature_modifiers": [
+        "Armature"
+      ],
+      "shape_keys": 0
+    }
+  ],
+  "saved_glb_sha256": "9cd083f971bc5256e3118c56d9c339dec180a6dbb9cd36152164d89d5df40e3d",
+  "importer_auxiliary": "Blender glTF bone-display Icosphere in hidden-render special collection; excluded from character counts and measurements"
+}

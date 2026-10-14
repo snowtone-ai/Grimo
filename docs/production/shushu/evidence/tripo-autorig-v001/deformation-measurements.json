@@ -1,0 +1,3555 @@
+[
+  {
+    "name": "neutral",
+    "time": 0,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "head-yaw-L",
+    "time": 1,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.08640856980154642,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9358267610369115,
+          0.9757314886831965,
+          0.997831531785129,
+          1.0021307644572222,
+          1.0400780785143504
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.00861545111631283,
+          0.008977513470063958
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.08767145594335757,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9623123408381895,
+          0.9956329220028549,
+          0.998032844651028,
+          1.0214172091065823,
+          1.0942725521467054
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.008603383119147304,
+          0.009053957724445675
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.060249390897136726,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.8320584556487349,
+          0.9646666025037407,
+          0.9998286979435467,
+          1.0285292859288093,
+          1.1030042200702594
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0010623751590238828,
+          0.0011720927239753656
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.06108748052137045,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9195885340515702,
+          0.9695856402004212,
+          0.9997865493554587,
+          1.0337636606616059,
+          1.3485526077509458
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0010631479215992149,
+          0.0011800865497474556
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.07414026473431756,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.362695335410334,
+          0.9300187404928987,
+          0.9998948032854068,
+          1.0676557623840568,
+          2.6138456596696273
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.004121620365566647,
+          0.023271281321332257
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.060066601937043114,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.8633914658518635,
+          0.9893175515621906,
+          0.999866902780221,
+          1.0129743260678288,
+          1.233184402463365
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.001125160830635607,
+          0.0011822551929804683
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0609994542372658,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.8289760446183031,
+          0.9831041527395878,
+          0.9997348242552695,
+          1.0163259741559405,
+          1.170734363117087
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.001119155300150796,
+          0.001191280290559472
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.07190412370525237,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9998668603492367,
+          0.9998668647546649,
+          0.9998674202455646,
+          0.9999428986414669,
+          0.9999817642793297
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.00028260414371872935,
+          0.0002830871003940593
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.07688582256190092,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.42941484090940224,
+          0.9997347820393295,
+          0.9997693865314421,
+          0.9999984398478,
+          1.1519784794952954
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0006036325882445844,
+          0.0006077930598874223
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.028192164605259994,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.6786870724275589,
+          0.8182001122439232,
+          1.0,
+          1.0847091980247778,
+          2.212159397786618
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9931329487005153
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.029064885528111588,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.7877686231815207,
+          0.9658700123314854,
+          1.0,
+          1.1967388756697892,
+          1.9817263700129215
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0071901030831105
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "return-yaw-L",
+    "time": 2,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "head-yaw-R",
+    "time": 3,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.08640856960413057,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9601275806071706,
+          0.9958096970845697,
+          0.9980178422535166,
+          1.0194775265244655,
+          1.0666630990123878
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.008615451123659324,
+          0.008977513449553321
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.08767145339669734,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9072604726523815,
+          0.9744776562858617,
+          0.9978672593662407,
+          1.001520904425425,
+          1.0371366035695304
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.008603382857116782,
+          0.009053957461757916
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0602493898099106,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9004028354850909,
+          0.9728408097871002,
+          0.9997722858396324,
+          1.032712236625479,
+          1.1731691373709017
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0010623751415096427,
+          0.0011720926940983452
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.06108748225084428,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.6680572531313057,
+          0.9656397865318952,
+          0.9998568312815223,
+          1.030845671480705,
+          1.1921672808285153
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0010631479538983283,
+          0.0011800865791921132
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.07414026332338286,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.3870079856978936,
+          0.9341578239695417,
+          0.9998953338914323,
+          1.0725239440073004,
+          2.2432139699881146
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.004121620368192989,
+          0.02327128183682851
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.060066600327518364,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.7976063393996979,
+          0.9833569454753176,
+          0.9997367344203206,
+          1.0156303439607544,
+          1.1344196494098704
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.001125160803573437,
+          0.001182255161882581
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.060999455512640174,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.8345397626739907,
+          0.9863033287029426,
+          0.9998668666201156,
+          1.0131870373947345,
+          1.1975444350046256
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0011191553255433101,
+          0.001191280316562384
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.07190412523209147,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9998668603937184,
+          0.9998668683746156,
+          0.999867433941569,
+          0.9999428762688497,
+          0.9999817674976282
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.00028260414914682374,
+          0.0002830871064052218
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.07688582403367895,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9674455555022097,
+          0.9997347823045382,
+          0.999769500743237,
+          0.9999984406916247,
+          2.140698734959751
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0006036326003092126,
+          0.0006077930715220144
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.028192163805214308,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.7395231657010876,
+          0.9718001293119217,
+          1.0,
+          1.19769063067888,
+          1.8864913025879166
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0072974091006808
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.029064885388914708,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.5910385126716825,
+          0.8177156913925728,
+          1.0,
+          1.0953416322898997,
+          2.4384866361894164
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9932426703196584
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "return-yaw-R",
+    "time": 4,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "head-tilt",
+    "time": 5,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.09128160482021117,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9398155629348326,
+          0.9821535287452852,
+          0.9989693225082026,
+          1.0188185654865325,
+          1.0596572521089733
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.009038796840957812,
+          0.009421875060774599
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.09157202705155718,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9462924546376054,
+          0.9802242797324336,
+          0.9989438851869044,
+          1.018949835035506,
+          1.0534576910647755
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.008938742811378426,
+          0.009224667569610061
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.050157160738421074,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9100679135841563,
+          0.9752710182188001,
+          0.9998472513072413,
+          1.0135749123531144,
+          1.0616225376940296
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0008824781859706422,
+          0.0009340660418108125
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.050516000724592884,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.8934056365859007,
+          0.9865780513080449,
+          0.999887549460122,
+          1.0245735479043985,
+          1.19962170387469
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0008765419412825435,
+          0.0009413042289876831
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.07509259851643867,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.48409522352793544,
+          0.962733189087736,
+          0.9999379916437608,
+          1.0363372085222209,
+          1.3120541294770218
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.003870124013662432,
+          0.00846086217992335
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.04669788226643927,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.8465261043562549,
+          0.9708658252973975,
+          0.9999989391970006,
+          1.0014796256038567,
+          1.079635759965374
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0009314235232332625,
+          0.0009339579831475146
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.04705593523786626,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9172262323803267,
+          0.99820539263242,
+          0.9999996506742588,
+          1.0386633411357207,
+          1.1814888702322617
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0009370050365258634,
+          0.0009411190888554161
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.022449501580015054,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999406456100984,
+          0.9999406526348614,
+          0.9999463717817705,
+          0.9999997934172373,
+          0.9999999969360152
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.705509292538565e-05,
+          8.838396518102607e-05
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.029747854099453283,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9656505301466519,
+          0.9998817785217069,
+          0.9999085147004103,
+          0.9999996269944058,
+          1.3696307728557997
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0002348981898373593,
+          0.00023516110593238375
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.018286861173089943,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.7416454659823245,
+          0.982600199897426,
+          1.0,
+          1.0848716594293386,
+          1.8364092182304612
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0059553885134151
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.018885809459042762,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.7124509431925625,
+          0.943246485826117,
+          1.0,
+          1.0343280787532878,
+          1.5793648477812405
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9943705110131441
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.006556886928054532,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.7969231073068602,
+          0.9810059019395218,
+          1.0,
+          1.0237942527360482,
+          1.2129533189537716
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.999990875512209,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0010100948766514,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "return-tilt",
+    "time": 6,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "head-nod",
+    "time": 7,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.09994613380356034,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9606528558651809,
+          0.9954082460879065,
+          0.9987186972812873,
+          1.0298341816377399,
+          1.0859409217692741
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.009966489208111827,
+          0.010330050676469839
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.10046715761330466,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9770759398056126,
+          0.993905626447649,
+          0.9987566471842417,
+          1.0304697793154871,
+          1.0886459390099783
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.00985817040293132,
+          0.010294266713675088
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.06236042388020665,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9679398496028045,
+          0.9846989364418888,
+          0.9998633651828737,
+          1.0293887045212526,
+          1.1281396031745319
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0010637834649769693,
+          0.001229608827277519
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.06229237077611507,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9769226943374807,
+          0.9898868472210016,
+          0.9998723496225693,
+          1.031400593041467,
+          1.2438513738235955
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0010662456541727394,
+          0.0012309403777058814
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.090337937846207,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.80456447924186,
+          0.9942745811685837,
+          0.9999459010044032,
+          1.0742016941521166,
+          2.1947030796118603
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.00327049673615705,
+          0.017649133901780283
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.06249260644568467,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9838512544443848,
+          0.984805150989858,
+          0.9997761600583314,
+          1.0613137977068592,
+          1.1730614022940644
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0011847105055076404,
+          0.001242766188388398
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.06230235285190728,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9488335801802018,
+          0.9825742920712989,
+          0.9997894627389228,
+          1.061418282993588,
+          1.216147195212598
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0011985389233302747,
+          0.0012444789072624818
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.06475868799958646,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999914626444625,
+          0.9999146402122921,
+          0.9999894007112389,
+          1.0000000000000004,
+          1.0000000000000273
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.00025348239386377745,
+          0.0002549555125819176
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.07196823248704835,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9998299280963542,
+          0.9998299362071715,
+          0.9999136219076719,
+          0.9999998863335462,
+          1.5366723009709065
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          0.0005660054649926482,
+          0.0005689189484874277
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.007299389732313254,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.6655778154783971,
+          0.9698014496363925,
+          1.0,
+          1.0291586337851502,
+          1.2243422772211872
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9983859821111196
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.007327162741968601,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.6271933427575012,
+          0.9695496220270962,
+          1.0,
+          1.0287321756899201,
+          1.2378653380986608
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9984454957525979
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.013280931243806885,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.8793176236277145,
+          0.9753072464843499,
+          1.0,
+          1.0499511600105023,
+          1.5155786004348564
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.004869358120634,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.022573235575076,
+            1.0092731043497676
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "return-nod",
+    "time": 8,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "paw-Left",
+    "time": 9,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.12069151648343715,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.5820018600735424,
+          0.7431187075201571,
+          1.0000000190495415,
+          1.2544032444815636,
+          1.3743619626899786
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9529058040632202
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "return-paw-Left",
+    "time": 10,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "paw-Right",
+    "time": 11,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.12230587634846966,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.3835655835549144,
+          0.681322463105159,
+          0.9990180211026108,
+          1.2828937699708105,
+          1.914571853358424
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9550912660019427
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.062245341842922686,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.2008504372159836,
+          0.951249456517719,
+          1.0,
+          1.0699205018818545,
+          2.653501542327849
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9998437863498919,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            0.9999999987777196,
+            1.0069703964846999,
+            1.0
+          ],
+          "rump": [
+            0.9999999982317868,
+            1.0,
+            1.1045457463502748
+          ],
+          "thigh": [
+            0.9999999985340193,
+            1.0605616013275727,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "return-paw-Right",
+    "time": 12,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "seat-entry",
+    "time": 13,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.026487025322865256,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.99999999999994,
+          0.9999999999999787,
+          1.0,
+          1.0000000000000218,
+          1.0000000000000575
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.9734376435466495e-10,
+          1.973438691439953e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.026487025322865256,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999999999999637,
+          0.9999999999999785,
+          1.0,
+          1.000000000000022,
+          1.0000000000009095
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.9734378033504268e-10,
+          1.973438691439953e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.026487025174857487,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999820022648,
+          0.9999999968697885,
+          1.0,
+          1.000000000357116,
+          1.0000000017415274
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933599577559784e-11,
+          4.9336100564947186e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.02648702517485748,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999666288856,
+          0.999999996740246,
+          1.0,
+          1.0000000001218854,
+          1.000000001357879
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933598660654612e-11,
+          4.9336091395914936e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.02648702630958351,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999620761190149,
+          0.9999999947132789,
+          1.0,
+          1.0000000012378352,
+          1.0000104093368072
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.9734375747786576e-10,
+          2.4667964387960093e-09
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.02648702517485739,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999999981226003,
+          0.9999999990323225,
+          1.0,
+          1.0000000000004057,
+          1.0000000006734642
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933599577559784e-11,
+          4.9336004944665425e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.02648702517485739,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999706947325,
+          0.9999999993256824,
+          1.0,
+          1.000000000215473,
+          1.000000000907357
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933599577559784e-11,
+          4.933600494466738e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.026487025137855433,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999999988874,
+          0.9999999999998909,
+          1.0,
+          1.000000000000151,
+          1.0000000000015614
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.233403660258476e-11,
+          1.2334054940917459e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.026487025150189556,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999849518465,
+          0.9999999999997663,
+          1.0,
+          1.0000000000002185,
+          1.0000000039502626
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          2.4668073205164395e-11,
+          2.466817799445781e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.026487026506927424,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999993396521287,
+          0.9999997978261088,
+          1.0,
+          1.0000002065459812,
+          1.0000009960706924
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9999999997793366
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.03154446693316093,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.6135509621416788,
+          0.9999997954449661,
+          1.0,
+          1.0000002107973653,
+          1.3981138684407894
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0001385908931928
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.06562700525936656,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.33719702232983,
+          0.7423976981823274,
+          0.9999999999999963,
+          1.2396160820125561,
+          3.346187778472937
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9926365257701275,
+        "foot_low_band_max_shift": 0.018316440868880096,
+        "lowest_y": -0.017159917429266872,
+        "vertices_below_ground": 184,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            0.9999999999999999,
+            0.9849581835965214,
+            1.156435309545768
+          ],
+          "rump": [
+            0.9999999999999999,
+            1.0348639156229866,
+            1.0729788510992115
+          ],
+          "thigh": [
+            0.9999999999999997,
+            1.1221665991585574,
+            0.9997587603177207
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "seat-attempt",
+    "time": 14,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.08475848103316842,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999999999264,
+          0.9999999999999735,
+          1.0,
+          1.000000000000026,
+          1.0000000000000666
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.31499993016317e-10,
+          6.315000978056459e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.08475848103316842,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999999995453,
+          0.9999999999999735,
+          1.0,
+          1.000000000000027,
+          1.0000000000000533
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.31499993016317e-10,
+          6.315000978056459e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.08475848055954348,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999424071613,
+          0.9999999899832764,
+          1.0,
+          1.000000001142764,
+          1.0000000055728946
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.5787505110719748e-10,
+          1.5787516002261039e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.08475848055954348,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999998932122917,
+          0.9999999895687568,
+          1.0,
+          1.000000000390041,
+          1.0000000043452182
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.5787505064874426e-10,
+          1.5787516002261039e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.08475848419066759,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9988390436880348,
+          0.9999999830824885,
+          1.0,
+          1.0000000039610775,
+          1.000033310047153
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.314999222835215e-10,
+          7.893748617900829e-09
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.08475848055954348,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999399232908,
+          0.9999999969034336,
+          1.0,
+          1.000000000000479,
+          1.000000002155087
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.578750524825571e-10,
+          1.5787516002261039e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.08475848055954348,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999062231397,
+          0.9999999978421834,
+          1.0,
+          1.0000000006895058,
+          1.0000000029035347
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.5787505064874426e-10,
+          1.578751600226098e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.08475848044113726,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999999999997775,
+          0.9999999999997814,
+          1.0,
+          1.0000000000003715,
+          1.000000000002874
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          3.946891870009544e-11,
+          3.946893703817914e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.08475848048060608,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999518464208,
+          0.9999999999997292,
+          1.0,
+          1.0000000000002591,
+          1.0000000126406383
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          7.893764615956567e-11,
+          7.893776928702774e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.08475848482216759,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999978868872809,
+          0.9999993530436467,
+          1.0,
+          1.00000066094722,
+          1.0000031874269097
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9999999992938761
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.09647555897229763,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.41002000541527933,
+          0.9999993658318517,
+          1.0,
+          1.0000006904191874,
+          1.7639507338966498
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0004913122052688
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.16181853657946701,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.16806265135359913,
+          0.5663155221384674,
+          0.9999999999999951,
+          1.5318480189955794,
+          5.706079786665572
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.964378634151492,
+        "foot_low_band_max_shift": 0.05807471140281464,
+        "lowest_y": -0.05344503424858937,
+        "vertices_below_ground": 513,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            0.9999999999999999,
+            0.9769237629948397,
+            1.324503894974259
+          ],
+          "rump": [
+            0.9999999999999999,
+            1.0377134703896593,
+            1.1328407780114582
+          ],
+          "thigh": [
+            0.9999999999999998,
+            1.1511647614970715,
+            0.9795386479982076
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "seat-recovery",
+    "time": 15,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.026487025322865256,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.99999999999994,
+          0.9999999999999787,
+          1.0,
+          1.0000000000000218,
+          1.0000000000000575
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.9734376435466495e-10,
+          1.973438691439953e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.026487025322865256,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999999999999637,
+          0.9999999999999785,
+          1.0,
+          1.000000000000022,
+          1.0000000000009095
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.9734378033504268e-10,
+          1.973438691439953e-10
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.026487025174857487,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999820022648,
+          0.9999999968697885,
+          1.0,
+          1.000000000357116,
+          1.0000000017415274
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933599577559784e-11,
+          4.9336100564947186e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.02648702517485748,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999666288856,
+          0.999999996740246,
+          1.0,
+          1.0000000001218854,
+          1.000000001357879
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933598660654612e-11,
+          4.9336091395914936e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.02648702630958351,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999620761190149,
+          0.9999999947132789,
+          1.0,
+          1.0000000012378352,
+          1.0000104093368072
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.9734375747786576e-10,
+          2.4667964387960093e-09
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.02648702517485739,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.999999981226003,
+          0.9999999990323225,
+          1.0,
+          1.0000000000004057,
+          1.0000000006734642
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933599577559784e-11,
+          4.9336004944665425e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.02648702517485739,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999706947325,
+          0.9999999993256824,
+          1.0,
+          1.000000000215473,
+          1.000000000907357
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          4.933599577559784e-11,
+          4.933600494466738e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.026487025137855433,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999999988874,
+          0.9999999999998909,
+          1.0,
+          1.000000000000151,
+          1.0000000000015614
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.233403660258476e-11,
+          1.2334054940917459e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.026487025150189556,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999999849518465,
+          0.9999999999997663,
+          1.0,
+          1.0000000000002185,
+          1.0000000039502626
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          2.4668073205164395e-11,
+          2.466817799445781e-11
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.026487026506927424,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.9999993396521287,
+          0.9999997978261088,
+          1.0,
+          1.0000002065459812,
+          1.0000009960706924
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9999999997793366
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.03154446693316093,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.6135509621416788,
+          0.9999997954449661,
+          1.0,
+          1.0000002107973653,
+          1.3981138684407894
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0001385908931928
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.06562700525936656,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          0.33719702232983,
+          0.7423976981823274,
+          0.9999999999999963,
+          1.2396160820125561,
+          3.346187778472937
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 0.9926365257701275,
+        "foot_low_band_max_shift": 0.018316440868880096,
+        "lowest_y": -0.017159917429266872,
+        "vertices_below_ground": 184,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            0.9999999999999999,
+            0.9849581835965214,
+            1.156435309545768
+          ],
+          "rump": [
+            0.9999999999999999,
+            1.0348639156229866,
+            1.0729788510992115
+          ],
+          "thigh": [
+            0.9999999999999997,
+            1.1221665991585574,
+            0.9997587603177207
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "return-seat",
+    "time": 16,
+    "meshes": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          6.938893903907228e-18,
+          6.938893903907228e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.962615573354719e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          1.3877787807814457e-17,
+          1.3877787807814457e-17
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          8.673617379884035e-18,
+          8.673617379884035e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "rigid_head_residual_p95_max": [
+          9.107298248878237e-18,
+          9.540979117872439e-18
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "max_displacement": 0.0,
+        "edge_length_ratio_p01_p50_p99_extremes": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "finite": true,
+        "signed_surface_volume_ratio": 1.0,
+        "foot_low_band_max_shift": 0.0,
+        "lowest_y": 2.2937663355560392e-08,
+        "vertices_below_ground": 0,
+        "regional_bbox_ratios_not_physical_volume": {
+          "belly": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rump": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "thigh": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -2,7 +2,8 @@
 
 実行時のNOWは実作業branch/HEAD、未コミット差分、保存成果とEvidenceで再確認する。Goal・Canonical・Human承認を上書きしない。
 
-## Last verified: 2026-10-14 / Codex
+## Last verified: 2026-10-15 / Codex
+- **Shushu Auto Rig Gate:** 開始HEAD `718b618762d5375407191f5cd4fe06948a2c3b60`。Human提供入力SHA `803aeec9…172f8932`を保護し、別GLB/Blenderに17代表時点の診断のみ追加。[変形・解剖根拠・補修/再利用経路](shushu/evidence/tripo-autorig-v001/REVIEW.md)。65 joints/12 skin mesh/99,565面、元BIN/UV/12 Texture/weights保持。Bind残差≤1.224e-6、7復帰点は頂点/3方向画素一致。**骨階層は補修の出発点として条件付き採用、現状Rig正式採用HOLD**。頭→paw混入、右腕→胴引きつれ、座位途中の足貫通/腹凹み。眼球はrigprep比約0.006奥へ。押圧/臀支持/物理COM/Human自然さは未達・UNKNOWN。v003は骨Rigなし、457 Shape Keys/290 drivers/285f proofを参照再利用し直接コピーしない。原本/正式資産/ユーザー差分等1,035入力を保護、更新は本書と解剖notesのEvidence追記のみ。Goal変更なし。
 - **v006最新Human判断:** 2026-10-14、Humanがv006の静的外観PASSを明示。SHA256 `9c479122…34f10f`。旧[口v006 REVIEW](shushu/evidence/tripo-mouth-depth-v006/REVIEW.md)の未達/PENDINGは当時の履歴として保持し、現承認を上書きしない。正式Rig/Motionの承認ではない。
 - **最新offline lowpoly v001:** 開始HEAD `6805096e811246401599651cbfaa9fc23834e459`。v006から別名GLBを作成、523,683→99,565三角形（80.99%削減）、6.07 MB。顔/チーク/頭下端60,176面と他10メッシュを保持、頭後部と胴体を属性考慮削減。[成果・14組比較・保存検証・未検証](shushu/evidence/tripo-rigprep-v006-lowpoly/REVIEW.md)。全12 Textureバイト/材質一致、残した位置/法線/UVは元頂点と一致、退化0、新しい境界/非多様体辺増加0、保護991入力一致。足首の退化試行は局所保護で解消。**Codex相対静的外観保持PASS / lowpoly Human未検証 / Tripo受入UNKNOWN**。SHA256 `780f1f9c…f41309`。原本/歴代候補/正式v003 Blender・Shape Keys・285f proof/他キャラ/ユーザー差分は不変。
 - **先行offline毛線v005:** Humanはv004の目をOKとし、両側の耳→肩に「頭を半分に分ける」毛線が残ると再指摘。先行v004毛線外観PASSを撤回。[v005局所Texture・原寸/拡大比較](shushu/evidence/tripo-fur-seam-v005/REVIEW.md)を独立保存。Head 247,007 texelのみ変更、正面の両目/口は画素一致。v004眼球奥行き、v002目囲み、v001口、v003頭頂修正を保持。Codex局所外観PASS、**v005 Human=PENDING**。SHA256 `a9c1681c…536982`。元Tripo GLB・先行候補・正式Geometry/Rig/Motion・他キャラ・ユーザー差分を保持。
@@ -17,4 +18,4 @@
 - **外部Tripo:** upload・試行・Auto Rig・課金なし。今回の既存Textureのoffline局所編集とは別。保存/技術PASSをGOにしない。
 
 ## Next
-v006の静的Human PASSを基準に、独立lowpoly v001の人型/Mixamo入力候補を用意済み。Tripoの正確なRig上限、元の下げた腕のA-like姿勢（公式HelpはTポーズ）、頭部に継承した境界/非多様体構造の受入はUNKNOWN。Rig・Motion/runtime完成とは扱わない。必要なら実制限を確認後に入力専用姿勢/追加削減を別候補として同条件再評価。外部upload・Rig生成・課金なし。外部Tripo操作は別途明示承認が必要。Goal√map変更なし。
+Auto Rigの実入力受入はHuman提供成果で確認済み。次はv006眼球奥行き差を比較管理し、別候補でHead/前肢/胴の局所所有weightsと足支持を補修、同じGateを再実施。支持成立後に腹/臀/腿・関節の必要局所correctiveとv003表情制御の移植を検討する。座位Neutral決定や正式Rig/Motion/runtime完成とは扱わない。今回外部upload・Rig再実行・課金なし。外部操作は別途明示承認が必要。

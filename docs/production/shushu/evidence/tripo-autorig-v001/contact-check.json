@@ -1,0 +1,209 @@
+{
+  "type": "single geometric tangency to forwardmost LEFT paw vertex; no holding, pressure, muscle model or stability PASS",
+  "poses": [
+    {
+      "name": "contact-tangent",
+      "frame": 216,
+      "sphere_center": [
+        0.31417831778526306,
+        -0.1683455890417099,
+        0.43512773513793945
+      ],
+      "radius": 0.035,
+      "surface_distance_minus_radius": {
+        "ShushuStatic_Ear_L": 0.360174503326416,
+        "ShushuStatic_Ear_R": 0.5824403429031372,
+        "ShushuStatic_Eye_L": 0.1929893010854721,
+        "ShushuStatic_Eye_R": 0.4035644197463989,
+        "ShushuStatic_Head": 0.11799338102340698,
+        "ShushuStatic_LidWall_L": 0.20523139476776123,
+        "ShushuStatic_LidWall_R": 0.42009365200996396,
+        "ShushuStatic_MouthInterior": 0.3116657698154449,
+        "ShushuStatic_Nose": 0.33613720178604123,
+        "ShushuStatic_Paw_L": -3.5762786898541066e-09,
+        "ShushuStatic_Paw_R": 0.42427050709724423,
+        "ShushuStatic_Torso": 0.11349656820297241
+      }
+    },
+    {
+      "name": "contact-release",
+      "frame": 240,
+      "sphere_center": [
+        0.31417831778526306,
+        -0.1683455890417099,
+        0.43512773513793945
+      ],
+      "radius": 0.035,
+      "surface_distance_minus_radius": {
+        "ShushuStatic_Ear_L": 0.360174503326416,
+        "ShushuStatic_Ear_R": 0.5824403429031372,
+        "ShushuStatic_Eye_L": 0.1929893010854721,
+        "ShushuStatic_Eye_R": 0.4035644197463989,
+        "ShushuStatic_Head": 0.11799338102340698,
+        "ShushuStatic_LidWall_L": 0.20523139476776123,
+        "ShushuStatic_LidWall_R": 0.42009365200996396,
+        "ShushuStatic_MouthInterior": 0.3116657698154449,
+        "ShushuStatic_Nose": 0.33613720178604123,
+        "ShushuStatic_Paw_L": 0.04192107558250427,
+        "ShushuStatic_Paw_R": 0.42427050709724423,
+        "ShushuStatic_Torso": 0.11349656820297241
+      }
+    }
+  ],
+  "cameras": {
+    "contact-tangent": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    },
+    "contact-release": {
+      "front": {
+        "location": [
+          0.0,
+          -3.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "3q": {
+        "location": [
+          -2.1213202476501465,
+          -2.1213202476501465,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          1.490736281084537e-07,
+          -0.7853981256484985
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      },
+      "side": {
+        "location": [
+          -3.0,
+          0.0,
+          0.5
+        ],
+        "rotation": [
+          1.5707963705062866,
+          -0.0,
+          -1.5707963705062866
+        ],
+        "ortho_scale": 1.1399999856948853,
+        "target": [
+          0,
+          0,
+          0.5
+        ],
+        "resolution": [
+          768,
+          768
+        ],
+        "samples": 16,
+        "seed": 0,
+        "lighting": "original material / AgX exposure -0.5 / same ground at -0.002"
+      }
+    }
+  }
+}

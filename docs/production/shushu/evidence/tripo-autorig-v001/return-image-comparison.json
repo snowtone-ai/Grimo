@@ -1,0 +1,191 @@
+[
+  {
+    "view": "front",
+    "state": "return-yaw-L",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "return-yaw-R",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "return-tilt",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "return-nod",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "return-paw-Left",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "return-paw-Right",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "return-seat",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "input-neutral",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "front",
+    "state": "saved-neutral",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "return-yaw-L",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "return-yaw-R",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "return-tilt",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "return-nod",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "return-paw-Left",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "return-paw-Right",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "return-seat",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "input-neutral",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "3q",
+    "state": "saved-neutral",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "return-yaw-L",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "return-yaw-R",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "return-tilt",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "return-nod",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "return-paw-Left",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "return-paw-Right",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "return-seat",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "input-neutral",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  },
+  {
+    "view": "side",
+    "state": "saved-neutral",
+    "max_RGB_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "changed_pixels": 0
+  }
+]

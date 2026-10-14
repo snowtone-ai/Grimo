@@ -35,3 +35,9 @@ Research checked 2026-10-12. These are production hints, not new character autho
 ## Limits
 
 The source is a stylized, very short-limbed panda-like character, not a measured animal. Internal anatomy is a working proxy. This stage does not establish final animation timing, muscle simulation, a production skeleton, or Tripo compatibility. No remote upload, credit use, texture operation or automatic rigging is authorized by this research.
+
+## 2026-10-15 — Auto Rig Gateへの適用
+
+既存研究を[保存GLBのDeformation Gate](../tripo-autorig-v001/REVIEW.md)へ適用した。頭→pawの誤連動、右腕→胴の引きつれ、座位途中の足貫通・腹の凹みを、観察→根拠→原因仮説→最小補修に整理。Ellisらの犬の実験/モデルは多関節と支持の協調の類推に限定し、角度/体型/荷重をShushuへ転用しない。Pixarのprofile制御は局所輪郭correctiveの根拠として再利用。総volume維持を可愛い輪郭のPASSにしない。
+
+不足していた通常skinの関節縮みとweight所有の説明だけ、[Blender公式 Armature Modifier](https://docs.blender.org/manual/en/4.4/modeling/modifiers/deform/armature.html)およびbundled `manual/modeling/modifiers/deform/armature.rst`で追加確認。Preserve Volumeのquaternion方式は縮みを改善し得るが、誤所有・接地を直す根拠ではなく、GLB/runtimeへの同等受渡しも未検証。今回方式変更・形状補修は行わず、骨階層を補修の出発点として条件付き採用、現状Rig正式採用HOLD。押圧/臀支持/物理COMは未達・UNKNOWNを保持する。
