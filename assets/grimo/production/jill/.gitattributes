@@ -1,0 +1,5 @@
+# Keep audit-script bytes stable across Windows checkouts; never normalize FBX.
+*.py text eol=lf
+*.md text eol=lf
+*.fbx -text
+.gitattributes text eol=lf

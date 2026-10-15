@@ -1,0 +1,1085 @@
+{
+  "scope": "Only Jill deliverables; manifest excludes itself and Python bytecode",
+  "files": [
+    {
+      "path": "assets/grimo/production/jill/.gitattributes",
+      "bytes": 153,
+      "sha256": "84b0c2c9dce6fc8399d2b8fa311df49fe555a005cdbb23bb8cd0dadf820ac482"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/input/cute dragon 3d model (1).fbx",
+      "bytes": 1133424,
+      "sha256": "5e9339437af5ad209c01597997006e96bd90d5489a08c28531ab5faa2b3f31db"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/input/cute dragon 3d model (1).glb",
+      "bytes": 1327164,
+      "sha256": "fb960ddb3a6a346508b77e0850c57ce9c6f4cdc7e8aaab035ff31ce03feafad1"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/jill-geometry-master.blend",
+      "bytes": 3248120,
+      "sha256": "6b8ec3a53772686e6bf49491acf4f53e190eb2c9cda7ba1039893266b7608fe0"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/jill-original-inspection.blend",
+      "bytes": 3085531,
+      "sha256": "787c724bb3faeff2c19c0fb68388c644f2c62283531836589a403d3000c4edb1"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/jill-repaired-neutral.glb",
+      "bytes": 1000852,
+      "sha256": "3064317a85ef6218e3968c91639f3edb115f453f3d0fc01d834681728ff573ad"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/README.md",
+      "bytes": 2181,
+      "sha256": "0b19e43a8cdabeee267a532574da8df71e76661497b0e97d210cab96e00e7d37"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/analyze.py",
+      "bytes": 2416,
+      "sha256": "1320549eb6d1d363a67492b72e36c85141294758a2167b2ff3df9764e9f535ed"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/appearance_lock.py",
+      "bytes": 666,
+      "sha256": "fd328719440760955a9a93326e1c6b518986309c2c0a90353a517a4df1cb7974"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/audit_common.py",
+      "bytes": 5264,
+      "sha256": "77b606fe11fe6c5e7876ef86df4e6a0aaa8913bcde8c4dd29c49a4c31ccc6fa1"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/build_master.py",
+      "bytes": 5743,
+      "sha256": "bbcd8b69fd321f73958a9c9f0c0945d7872a8e0c5ad001db268bde6517e18849"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/capture_review.py",
+      "bytes": 1777,
+      "sha256": "5658333bde95f83162e8e09891fc33e2dcf13f44349049524f3b33acb1952f8e"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/deformation_proof.py",
+      "bytes": 8434,
+      "sha256": "291b436bc0765430cfd3b8fa484f2d8decd232cde4688cabf28fbd01015561e0"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/finalize_provenance.py",
+      "bytes": 4358,
+      "sha256": "06750ac691a9c17eb83ae2e3119b660221ff0ce47640a04ba519a909a749ea5f"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/package_review.py",
+      "bytes": 5112,
+      "sha256": "f9b5966dc6f25f88808b1814c1038b3729d34fe29307ff862f87611b964ae812"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/plate_preview.py",
+      "bytes": 2033,
+      "sha256": "ab2614cc2bf13b135fe15f9e7f03ba29e29c1006cd3b1da7c3841ca24c2b6093"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/raw_check.py",
+      "bytes": 1448,
+      "sha256": "3e4e819552ddd5bb40f338b31643d107b0dcceabef1019397524194b0512e1fe"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/select_authority.py",
+      "bytes": 3792,
+      "sha256": "a6d058560919dc6a0588c58edc0ce20b0ec1cb64b27042f5e09f6bdf8eac03f9"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/verify_master.py",
+      "bytes": 5177,
+      "sha256": "bc0dad337f520093b5afc16b61b80b8b1f9bd11565469f8f516ad3a5911a694b"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/smartmesh25k-v001/scripts/visibility_details.py",
+      "bytes": 1135,
+      "sha256": "26e974980ffe8af136b98004385310450f239383e5e3b890d8e4b3810ad873cb"
+    },
+    {
+      "path": "docs/production/jill/.gitattributes",
+      "bytes": 127,
+      "sha256": "b6f586fa548d7cc03ad8d7664a06f03a42fcbf6b087c3a436b819244213e65b0"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/00-approved-authority.jpg",
+      "bytes": 342262,
+      "sha256": "b224cb94c0ff2d2ab831a3949f9898b2b5488caa6c927f91686412ecd32de978"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/01-orthographic.jpg",
+      "bytes": 312667,
+      "sha256": "495d73a7880e2bdb77625eb8c0356551dd0684832c27d094351574e040d2a9cf"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/02-three-quarter.jpg",
+      "bytes": 245731,
+      "sha256": "3903f0323f9096cc5b3cae2f4c5023511d5c206d1cad7a228eb0b22bb1655f1c"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/03-wings.jpg",
+      "bytes": 284537,
+      "sha256": "a3c9aa294c2dab24b8057ef579250c19dfaf7bda418af55bd81912ab35415515"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/03b-wing-undersides.jpg",
+      "bytes": 172978,
+      "sha256": "9d68f30d6233296a0aa10de2a7f65734dac2e26c1419d98d9356abf6ac839bf2"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/04-tail-feet-face.jpg",
+      "bytes": 354113,
+      "sha256": "fc70827baac88010dbad1537469e48aa0a9319e3eaa70c4bf2ea1ff7fa58f6cc"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/05-posed-appearance.jpg",
+      "bytes": 407931,
+      "sha256": "e172a4cb4a1b48c174b847bdb9fc20cfa8b1a057607b98f85f4484af36c7be85"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/06-posed-appearance.jpg",
+      "bytes": 407772,
+      "sha256": "c01af0253d57444e295959bda5ba1c10811a46fcae85c3849de199e227b50e37"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/07-posed-appearance.jpg",
+      "bytes": 410603,
+      "sha256": "55da6b44739f6145361593cb2f84a83e00a80ab874047d92ba70d02f67dc2da1"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/08-contact-screen.jpg",
+      "bytes": 414171,
+      "sha256": "5c6aa9a4ab910e99038870f3f09eaec1ae2bd2e70db329f1d38bde9fcbb5bfc4"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/09-contact-screen.jpg",
+      "bytes": 332552,
+      "sha256": "4bd9a6c7473a032a9a2277bfcb2427904d7599aeeb4a43b6b8dabe24e79dddb0"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/diagnostic-arms-tail.gif",
+      "bytes": 2435933,
+      "sha256": "1e1eaace70ba2a3ec60fcd1771b3fb4da707d8ebcf7e76f07c7af437f2809d45"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/diagnostic-combined.gif",
+      "bytes": 2665154,
+      "sha256": "cf7cc6789506e0a481b236a6284f0733901bb5324aec7b4ff08027e3887c2c62"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/boards/diagnostic-wings.gif",
+      "bytes": 2116051,
+      "sha256": "704d9a575a23f802840648b2c4318a7e0b8f77b745c472ac81d0ae4d3d6e424b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/collision-screen.json",
+      "bytes": 218979,
+      "sha256": "19ce206f8474fe177dcc9f4c347bda99a21bac547c3730058aba507e402b26bc"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/deformation-validation.json",
+      "bytes": 26075,
+      "sha256": "877caf967fe2e25065abacf50c972d8ef1d9dc290dd8168b3a5e3f20a5c9034b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/diagnostic-masks.json",
+      "bytes": 488849,
+      "sha256": "9ce0ff4a3ee68d9fc4fd7079a81d243074f6f4a269842b43be4268454c562a25"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/diagnostic-positions.npz",
+      "bytes": 2875274,
+      "sha256": "f1d6cd38d8c54246820453d8ab2b349a7c37bae005b6bd6adae789dbea4edd2b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/editing-source-selection.json",
+      "bytes": 1689,
+      "sha256": "4b16b2ec28472a3c52af1630bbdf8fd5d827e219be7a8f02ab3ced9f4eaf0a99"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/fbx-glb-equivalence.json",
+      "bytes": 547,
+      "sha256": "d00217718fdaa9dce599ecdd09e4cf017d72e9b1e0ebd3bd67e6b82bd781549c"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/plate-investigation.json",
+      "bytes": 6693,
+      "sha256": "1a9167b5c452a02e0720eb6202079e82373a71ec34b8d18dcae0234974c30a7b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/provenance.json",
+      "bytes": 2353,
+      "sha256": "2e08348a3dc75d4cd360c82860b325f51acf0b45f2a80ea5d8d038ef2b5eeba6"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/raw-glb-audit.json",
+      "bytes": 50434,
+      "sha256": "273490936af95570e2f4f946f19e076687da783435ae8595f496f6da7888caae"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/raw-import-comparison.json",
+      "bytes": 1718,
+      "sha256": "efe517eb198f14ce199204c6b4e41eefe0d7b3ac4b5836340886877d76f809c6"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-back.png",
+      "bytes": 722929,
+      "sha256": "0b3ddd4dfed41b600bb614c0f15896f333b6afe92d0b1ffb4bb3143e7e8f9ff8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-face-front.png",
+      "bytes": 984011,
+      "sha256": "a7bc440ebab7707d5538edcc3640d2676652212deac640e7d04f73261186382d"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-face-three-quarter.png",
+      "bytes": 970245,
+      "sha256": "02773c8e1ba1f8c4289f711de87073c052e9c640a9a7a10c07afb26d55e2f420"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-front-three-quarter.png",
+      "bytes": 726607,
+      "sha256": "c131ecfe29ac3bb25f5b977ce6cf5ef4456fb574cad69ad43959e8ca5f4ecbcd"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-front.png",
+      "bytes": 719714,
+      "sha256": "b5bfbf01e48db0fd56719869a64c8a543deded0052e08fd5b5b5559d55f8e736"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-left-facing-side.png",
+      "bytes": 712715,
+      "sha256": "72e28136b1b911460f0adfb930d4974d9e718dd5c3a3681723b0a196288d8de9"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-opposite-front-three-quarter.png",
+      "bytes": 706154,
+      "sha256": "ea52f3a3e8ad9587f58f54127cc90160a829114d2a89e49c3bec77d1ddb267ad"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-rear-three-quarter.png",
+      "bytes": 729437,
+      "sha256": "2eee468e4a3f7acea6c7bc25624a05bd6fe04ce43d744381c8fb61ab2f53940a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-right-facing-side.png",
+      "bytes": 678724,
+      "sha256": "dbe45b28864cf454c520f573ae79915bdfbf9d4ca305b7492ad08bad7b61a517"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-soles.png",
+      "bytes": 776005,
+      "sha256": "d0e4c2d6845e7ce3da1dc0519c361dff5c1d57fe17d8f6b0163d4e75f164f505"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-tail-root.png",
+      "bytes": 840644,
+      "sha256": "917579f2d196c83883a4652a13d03f8efecebb858fbee7663065078bf1c256db"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-wing-root-left.png",
+      "bytes": 1071647,
+      "sha256": "372ccc6d9566422397673213f5b6c97b3d923c8f620b8b7ae1f1e7c7616f89f3"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-wing-root-right.png",
+      "bytes": 1045400,
+      "sha256": "dd3c2c2f19383a3f8b6065401f6a6ddfd1fac2159c2eb68c990bcd97eb37e7a4"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-wing-underside-detail-left.png",
+      "bytes": 885318,
+      "sha256": "776a4bfa1f0146d023d9b56fbc43ed70b2a450a1400fced32c7e06ecdd459073"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-wing-underside-detail-right.png",
+      "bytes": 864475,
+      "sha256": "8f7c8521787db239ef4aa67ffb1c8f575ea6e342d4dafbfe75183dc2a519f632"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/after-fbx-wing-underside.png",
+      "bytes": 790601,
+      "sha256": "5672fc9364628c0809212850cdd52c93c14e7f2286269b43430d3f380f7f4ae0"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/audit-original-front.png",
+      "bytes": 736548,
+      "sha256": "604eae51f4d6dfb499e65e4538c590d9e924b0bc6fb1b2a801e0db227563ffa9"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/audit-original-three-quarter.png",
+      "bytes": 730232,
+      "sha256": "f079225dd368a402d1f4682f3530d68ac3fe6c2d4a9940d390e8518d855d96ac"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-back.png",
+      "bytes": 732389,
+      "sha256": "060a7bc95d7aa63fcc9151bcdfdc74e1be7c36b3b18203cb76f90b570feb1cca"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-face-front.png",
+      "bytes": 981740,
+      "sha256": "da67725d8c0567b8e6237652508d9f60a7a1b51c7ef9c98519b93df1146ebe92"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-face-three-quarter.png",
+      "bytes": 957670,
+      "sha256": "94b4f7e393e87c4c0d38862eca4d9d5c043b7af596a6e273f34e7c39d05a2dae"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-front-three-quarter.png",
+      "bytes": 732209,
+      "sha256": "d2ad2f03918dce084a3895cb73e19de2e6a6d723e2e0a4c09b16690fc004f63f"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-front.png",
+      "bytes": 734393,
+      "sha256": "339574500f2c4a74d616378b75efb5840ad19ac8b25937a86097a5a04cee142b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-left-facing-side.png",
+      "bytes": 718868,
+      "sha256": "aeca44303b8286ca57a51c7f7b4858faaf44bc53f19e91370f55d24a6717fb4c"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-opposite-front-three-quarter.png",
+      "bytes": 710226,
+      "sha256": "8b9621fcf49b19bf848b1922609ad1295046cb7d3eddf477f0f43aa4f8f73c1f"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-rear-three-quarter.png",
+      "bytes": 732618,
+      "sha256": "4380a36709d63b84d85dde77ee8b59db20b7c32dda2d72b30980e2ed4abc4c94"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-right-facing-side.png",
+      "bytes": 685532,
+      "sha256": "b859eb963e593bb8ca19b475c3211e5c29994f4f751fa11e00ae66e4e6eef6ec"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-soles.png",
+      "bytes": 785322,
+      "sha256": "cd5b3c2ae6067506288e78e5aaa8062c6b297799dca7f7f0da56f3b809b9a5ab"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-tail-root.png",
+      "bytes": 839767,
+      "sha256": "ae66e8224fc92950d363ae7bde2dc69a719ec9a3e0f69a2821a60620b35e6c7b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-wing-root-left.png",
+      "bytes": 1069026,
+      "sha256": "db79f1012e1aea93d68d5275d9c517c3386c1e05dbda3894e9b0cf7bfefb3734"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-wing-root-right.png",
+      "bytes": 1046279,
+      "sha256": "dcdb95e5c377ebcecd650c6d0c8cc2fd3f37a4cb14351c244d3bcaa6ced25288"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-wing-underside-detail-left.png",
+      "bytes": 881284,
+      "sha256": "55ac544e0623ed2d843b77f92c2abebe530227547963efbbd80f631a24359948"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-wing-underside-detail-right.png",
+      "bytes": 870785,
+      "sha256": "02d0d34202d8d22350d22cb7a68cb32ae9187f2e0420fe40cd11c723927d4727"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/before-fbx-wing-underside.png",
+      "bytes": 782936,
+      "sha256": "ce505c08c35d7493b694d284ed18cb98240b486b4d190f74691eefa87699ef7e"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-ArmL_Offer.png",
+      "bytes": 967139,
+      "sha256": "f30690f7fc7987611504945af4e614bdcd42f75afb71e8442c77ef111f69bb9b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-ArmR_Offer.png",
+      "bytes": 964038,
+      "sha256": "67ea25a292c10de45fa8c72976307b626c945a0b979d78ad3ea36fe8f0af99be"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-Tail_Left.png",
+      "bytes": 841764,
+      "sha256": "acd140b3861fe730e2e1ff64e5f3385afb82286eb87811f4424016118d65534e"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-Tail_Right.png",
+      "bytes": 840857,
+      "sha256": "d87b780148b4518f79eea86429c4d08406c9600a3fb3ee5275b69a8e6b81c4b0"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-WingL_Close.png",
+      "bytes": 1072756,
+      "sha256": "073d00ef0063dbfc22dc1a744d5cbd8256ff5916a6faa867612557c7df9e3264"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-WingL_Open.png",
+      "bytes": 1076431,
+      "sha256": "77248ceab07c4958b0583452f0637ee604c8c024ff50488475d08001cc3cd058"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-WingR_Close.png",
+      "bytes": 1046427,
+      "sha256": "1ee95a091f343f773def2b7552fbcbe45a0e99c7a13412c42bbffa1eafa4460a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-neutral-WingR_Open.png",
+      "bytes": 1049682,
+      "sha256": "5580c1f609a472e7236f5fbe257120d55e5c243a04f3955228787ca499094701"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-ArmL_Offer.png",
+      "bytes": 963658,
+      "sha256": "82d3b2996a0a239269c579dfa19b2495c25ccb1b72df76a9e802e420cd09bc5a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-ArmR_Offer.png",
+      "bytes": 954809,
+      "sha256": "c642095526fb75a42441e9abd8f8d0b559c983acc3fcbe92887c8ec961dedbe3"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-Tail_Left.png",
+      "bytes": 826210,
+      "sha256": "bb5d713d45f2329925a3143e7ad7cae2a1ce529b6aff12be225b12c986e9cccd"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-Tail_Right.png",
+      "bytes": 856145,
+      "sha256": "7951d73b1aac545c4a5abc2b9314287e3e7f20f15d0ddef5c04b9a2a6dd630c0"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-WingL_Close.png",
+      "bytes": 1070723,
+      "sha256": "7207afe78eff914e01df2e563cb6c11f059a30cf5798ef08b6d5ad11233e6abd"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-WingL_Open.png",
+      "bytes": 1067474,
+      "sha256": "49af9ede4db3597893d3a64bfe84536ddcc296c35eedda00b832e95a4e0a189f"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-WingR_Close.png",
+      "bytes": 1042149,
+      "sha256": "cd52a5e1ef70c0821d7d687b2648df323daeaf047bfc0124bd029baec5b01a6a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/contact-screen-WingR_Open.png",
+      "bytes": 1044383,
+      "sha256": "957c718fa0d2b613df7a1dd5aef48d32069d4636612fefb0fd1114fb4a36a53c"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-ArmL_Offer-front.png",
+      "bytes": 720774,
+      "sha256": "4929dd42da35710606983c38d9b393c19d8b06b86fee471cd6bcc9df82cff62f"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-ArmL_Offer-front3q.png",
+      "bytes": 725929,
+      "sha256": "f32c29ef12c5507f11f8b6f28fdfaadb8f6dcdd7f247cfb301cdb696412f4c9e"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-ArmL_Offer-rear.png",
+      "bytes": 728817,
+      "sha256": "f411838efeb4557daa8b1127bb89a4177d0b825e38e5640c246e84d0b78da7b0"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-ArmR_Offer-front.png",
+      "bytes": 718651,
+      "sha256": "3b6aa873d0f3fdd43a923a8cfa5d2be744883af84f75e258c09059b48f2b01f2"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-ArmR_Offer-front3q.png",
+      "bytes": 727344,
+      "sha256": "0bf2d956bb6f457f4d40fb5c64b5ba98327eec572486b53b312b8e4aacab2428"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-ArmR_Offer-rear.png",
+      "bytes": 728601,
+      "sha256": "8bdde8c24026d96d6b5a97dadaa9ce53002d12a41b8d80ef6f0e70dd017719af"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-BothWings_Close-front.png",
+      "bytes": 714708,
+      "sha256": "110f4b1015b63ff26e5ab7a36a8b8972dbd7a9dc1881f9db19c7bb0a7038e986"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-BothWings_Close-front3q.png",
+      "bytes": 724556,
+      "sha256": "bb5e6a5920fec89bc4acf853b16ebb7495d7240bf3d58f8452cce95b8d484322"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-BothWings_Close-rear.png",
+      "bytes": 729136,
+      "sha256": "375de3cacb5a49a09d9b37385a019a3262272bf118d5d43f9fffc261f2ba5f6d"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-BothWings_Open-front.png",
+      "bytes": 721273,
+      "sha256": "32d9fef6027c81bbbfa803563ca190588ca8d00527ebea127b22bcdd6fb0c8a8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-BothWings_Open-front3q.png",
+      "bytes": 728414,
+      "sha256": "50c3464572a64528c9ee90194ce1ce597511b5ae9305c9d18a45110eab715c1e"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-BothWings_Open-rear.png",
+      "bytes": 729398,
+      "sha256": "f1898e2673a0006192e165a7e18e02ba554dfe32562e69af1d88b27624dc0293"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Combined_Left-front.png",
+      "bytes": 718390,
+      "sha256": "ffd51d92f8c3f576fe1ddd27706ceeb2e5f84becc5f22b1261a30f61fde362e5"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Combined_Left-front3q.png",
+      "bytes": 728505,
+      "sha256": "fbdbfebf1ec74a20542275662879aa7147b3727024a6f0179f9a4a791208d335"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Combined_Left-rear.png",
+      "bytes": 727605,
+      "sha256": "db65c62be85cb1fa7d52928926fea4660d5ba91fc858fd946cc1d3fe6e05c459"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Combined_Right-front.png",
+      "bytes": 715375,
+      "sha256": "683a1ba1985a53bcd71012c9cd598b915f900f8a350961bc0df0c9e4cfd687aa"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Combined_Right-front3q.png",
+      "bytes": 723153,
+      "sha256": "016e5080844d3546ff43c16bf14500363e938f24056e400a180c96826d04a995"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Combined_Right-rear.png",
+      "bytes": 730983,
+      "sha256": "724e1d73f18c953982a2be640e07b855f203706e2cdb8283462f28d7aa0d5e98"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Tail_Left-front.png",
+      "bytes": 719850,
+      "sha256": "a5c74f5230d04ad8a00218320b290513c78a736d58f18efcc99f2dba492f2809"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Tail_Left-front3q.png",
+      "bytes": 729464,
+      "sha256": "2b1eba1a6bb2dd973681df961843a86f539394bd700022d4092ee80b16d7a216"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Tail_Left-rear.png",
+      "bytes": 726289,
+      "sha256": "b779d921f421796da1cc85ce73e388ecb212fa0fbd7df75f355ff60c005878cd"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Tail_Right-front.png",
+      "bytes": 719850,
+      "sha256": "7331e6be07015c00536410045e7da41c550e85e206724753162fc4c4124e0964"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Tail_Right-front3q.png",
+      "bytes": 723860,
+      "sha256": "8760e081dba29aed1c2d760be8289e3caacdfc5e539016ce0bcb6fd544b7bd4b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-Tail_Right-rear.png",
+      "bytes": 731718,
+      "sha256": "a66a744a2178fdf81ffc3cc7f1b72d819126fdb3d73e73b2a1dae9b68dad4abd"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingL_Close-front.png",
+      "bytes": 717825,
+      "sha256": "943a2670f704538574740edf6d22819570b7f08708a52cc1a5bcf6bc4b8a13ca"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingL_Close-front3q.png",
+      "bytes": 725949,
+      "sha256": "f4b52f66f236f1d6ae9b8de876fc9b220a3c3af4f07f630667e20ffe2f15ac39"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingL_Close-rear.png",
+      "bytes": 729730,
+      "sha256": "9dc399724a23eed89d34cfb32fc79497b37edf76dc454745a2311de1531c6a70"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingL_Open-front.png",
+      "bytes": 720392,
+      "sha256": "05fda0dcac0ea9e5266e7d39821edb8f890678de33623b12dcb8882875c8aed4"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingL_Open-front3q.png",
+      "bytes": 726057,
+      "sha256": "d23b6eb0a3c6106b45f0ea4e38c8480f4919ba19d4f18475abc9a26dca67d4f6"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingL_Open-rear.png",
+      "bytes": 730130,
+      "sha256": "42c643a5c1c7b4bab3059eae629e7a007aa929c5028bdea4afeb5ba71f7dd71b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingR_Close-front.png",
+      "bytes": 717281,
+      "sha256": "ba6b153a845a5de71c3d7caa7a73fd2bc7801a942717731dc421d4c31b79cf27"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingR_Close-front3q.png",
+      "bytes": 725730,
+      "sha256": "f4dfd04b991dabf737ddda4b5ffba4fa879461772b5c6edd7b4dc39470a72fe8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingR_Close-rear.png",
+      "bytes": 728077,
+      "sha256": "417a6e328c6749a2f82cd46f9fcda6ac2313238168f62d899b0b572798ea2b0f"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingR_Open-front.png",
+      "bytes": 721285,
+      "sha256": "25f266d0f40cd86c819492a989de86ab9d841f78b09f72de444989828ff567ea"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingR_Open-front3q.png",
+      "bytes": 728867,
+      "sha256": "39264643dbcb3ed29d02fdced16578bd62b0f95752a8860a0577674fffabca7b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/half-WingR_Open-rear.png",
+      "bytes": 728158,
+      "sha256": "f7d1c2484e9ea4eedf1c9048c01588cbe2d4486585d031740d4b67cd4340a5f2"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-ArmL-front.png",
+      "bytes": 732136,
+      "sha256": "b3c75fabefead32ae1754eb4ffff023da63bfee9c822dd1f4e237d458a759cce"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-ArmL-rear.png",
+      "bytes": 731326,
+      "sha256": "d2725ff799811ebac4ccb5306d2c433cffc8280b630976877dc73c1fc2567f8a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-ArmR-front.png",
+      "bytes": 731086,
+      "sha256": "497518e23d1954bdbc700d3bce6c690d7118602a44618fb2bdec25fbaa3cd3d0"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-ArmR-rear.png",
+      "bytes": 730355,
+      "sha256": "1f35c94f9925c4af660999b504eacdc60155d53618ab993e5eaf8b17c20d64c9"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-Tail-front.png",
+      "bytes": 729979,
+      "sha256": "a9229e43e660f3505526835990edde7e07989b286bcdca0e1ff57d626b1ba1c8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-Tail-rear.png",
+      "bytes": 733936,
+      "sha256": "65aee64ec1b4feae8a933879c47d33754cc15e78993576ce4c993192758b2771"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-WingL-front.png",
+      "bytes": 731498,
+      "sha256": "1478c78e6c082e0a060e5d35edd2c274eea144f3ea5c05fc0d76e1321fd89805"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-WingL-rear.png",
+      "bytes": 732663,
+      "sha256": "ffaef5fabf8bcacc4a4b7e346ce1369adb9fa7d8094d63275910355589efcfeb"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-WingR-front.png",
+      "bytes": 728894,
+      "sha256": "9ccfa97d9d54f2f1dd5a9b6cdb431f423a8ed5b57a178036b02ee97d3af079a8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/mask-WingR-rear.png",
+      "bytes": 733909,
+      "sha256": "0ef2236ed7d0df3f03f659cc99c255c374a5aadd95cbffee601a2ab8c6c43005"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmL_Offer-front.png",
+      "bytes": 721352,
+      "sha256": "95f7bdd5a86f89e4c8a075bcf80ecd4da8ac0e3a4a1937f4e1f724a69a94fa4a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmL_Offer-front3q.png",
+      "bytes": 724605,
+      "sha256": "b0e05543dc7ee4d0f8c0f026ad9c68cb6cffe6cd0f8af9df581e0313ac8332d1"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmL_Offer-rear.png",
+      "bytes": 729342,
+      "sha256": "4141cf2fc9c8b162b67395d265918efa68ce8a581679f01f6914f0fdd40ec3c8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmL_Offer-side.png",
+      "bytes": 712752,
+      "sha256": "eed67ff64f692ce59a254f725bc857d42efb4fb3142016ee84cecf545555ba12"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmR_Offer-front.png",
+      "bytes": 719196,
+      "sha256": "20e54abd31b3f5b81b34879468f9e2ffe696c507f3411a0a2565497f38932481"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmR_Offer-front3q.png",
+      "bytes": 727922,
+      "sha256": "68b020825f92492020e6ed38e256fd304f0fed6a560e433b19a9767f16599bc3"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmR_Offer-opposite-side.png",
+      "bytes": 678830,
+      "sha256": "5ed9579f015a08df8d7e01d4a6733333679d9931035857dced60614429559a7d"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmR_Offer-rear.png",
+      "bytes": 728465,
+      "sha256": "5f8ec61cf4256f29fd4a538e04337a7fab3f1d16b45905f3a627620967a76729"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-ArmR_Offer-side.png",
+      "bytes": 712851,
+      "sha256": "bb7676eb016279ea2eaf6232401efcaba70cb83b288da11eabe9f327ff2366b6"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Close-front.png",
+      "bytes": 708559,
+      "sha256": "e22c58978e5e1d5bed26c6f6346aa53b56216a1cee2fa3a5a1a5b868461b8402"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Close-front3q.png",
+      "bytes": 724553,
+      "sha256": "9832baa304a6e379ece265b903dafa704ae383ba5ea807077fe88cbe34e9a0e5"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Close-rear.png",
+      "bytes": 729650,
+      "sha256": "dce21ae45e41fda5627c71c3ffb93884cf10e0e0a23ddab0322bda918a93920a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Close-root.png",
+      "bytes": 1069314,
+      "sha256": "6c5dd972bc5798fc0ef5d3f681a6f776dc532c0d463e68b947cf32e2edd724f6"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Close-side.png",
+      "bytes": 724400,
+      "sha256": "3705558c5dfac1518609de8865b3b83e40d3563413b72a67843ce6582579369c"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Open-front.png",
+      "bytes": 723380,
+      "sha256": "4c91f0c02ec18b842a3058f8ac3adb5eab9ae3c0005003c5ac6664ca913e44b7"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Open-front3q.png",
+      "bytes": 727882,
+      "sha256": "3657ad28750a22c63dc676aa641d35343114cf2e724dfe81d583b33427e4adaa"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Open-rear.png",
+      "bytes": 729137,
+      "sha256": "d03ec8cb41d2c9a76132af5385a12e0d05f80a36066d68817266d21b4aad08e4"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Open-root.png",
+      "bytes": 1062370,
+      "sha256": "65d06f1e9160736da0f11ce244905a5767dacb82c6574fdd5696151858145338"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-BothWings_Open-side.png",
+      "bytes": 706013,
+      "sha256": "780cea1b9143e3e82beb478a523647c9b1a3e8bdfd54863a4b9795a8f37496f7"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Left-front.png",
+      "bytes": 716540,
+      "sha256": "32ed76b024ba97182dbfaf49bab6f37610ffa0af3525e7612102cab1340889e1"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Left-front3q.png",
+      "bytes": 730032,
+      "sha256": "6d3075fa894a1883ee99706a52845a2267ecd608789b46a0bc854275a899dff3"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Left-rear.png",
+      "bytes": 725490,
+      "sha256": "0cb183da29c3c6ec89c55dfe080d39087fea3d4ee8a8c9323cb0d27b2882ca1d"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Left-side.png",
+      "bytes": 725229,
+      "sha256": "e3009f79abbafbbef81fc70df67d7f9fab05ae347cc0ece29969709d1cfba904"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Right-front.png",
+      "bytes": 713526,
+      "sha256": "14c50a896280d1e3456de6b7c7cde070acadfac6260fc28535b4d1cb49e1ba27"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Right-front3q.png",
+      "bytes": 721000,
+      "sha256": "c22d7603c856288eab4c4def59d76b22eb9a41993dac3a94ca8b375974233797"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Right-opposite-side.png",
+      "bytes": 688689,
+      "sha256": "0a742b1d5bd04c8232fbad7f3d5c886f263ca3c25e34e50afd6eceaa75a8c22b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Right-rear.png",
+      "bytes": 735647,
+      "sha256": "5ba2adf9d498317e335585a2ecee742393d406b80cf55fa8e51db4e61a16e436"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Combined_Right-side.png",
+      "bytes": 722030,
+      "sha256": "af6fe08f837ae840403b12d6362e33f742f2f7c2c9ad48928718236a27b39d6a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-neutral-front3q.png",
+      "bytes": 726743,
+      "sha256": "b22346a70d677c5db1b4f2718800e3e912553ae474c017168d6702d399e98507"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-neutral-rear.png",
+      "bytes": 728961,
+      "sha256": "338bf8fd7fa53fa507bc04924335e23d4c0a3b144a937fbdb78268a0cf49affb"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-neutral-return-front.png",
+      "bytes": 719850,
+      "sha256": "39c43dd53ebb14d58f497b2519b32389656e59b2845f3f6fb94f4a5905292afd"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Left-front.png",
+      "bytes": 719850,
+      "sha256": "24cd6a59e69840f32f0fa7d696deecbe1c3ac967299593f29659c3907861b902"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Left-front3q.png",
+      "bytes": 732263,
+      "sha256": "1e9d4e0a4a715bea172bfb6e3cc5edd80a7f3b9b62f3e837ae1b95418a64017a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Left-rear.png",
+      "bytes": 723527,
+      "sha256": "415f7da38cf7687b817dd841914ef19fa679f07ba129a3a70693b099f52835d8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Left-root.png",
+      "bytes": 825603,
+      "sha256": "6192653b6f838e49abc36eea1dd99e4bb13a9674b62226ce3024182f1f74c26f"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Left-side.png",
+      "bytes": 713654,
+      "sha256": "4d7c94392125f5feb9b24668768a475bdc5fd146221094435f49b4d5782d67d8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Right-front.png",
+      "bytes": 719850,
+      "sha256": "0e09ad01d4ef6b83ca1465897497c55369520bcb6529dbfab6d4a6e07c4c1e36"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Right-front3q.png",
+      "bytes": 722388,
+      "sha256": "cab91c638d4c7daa50ae5eeb6d5f51484b74df9b15798f73579f7a962c7a03b7"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Right-rear.png",
+      "bytes": 735496,
+      "sha256": "62260545068c2a5360177725b6b57626f573bbf5e1750d84e82dc3625aab3cfc"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Right-root.png",
+      "bytes": 856074,
+      "sha256": "7b2af6c6bad2e82815d1fdf8aee748c60a03d099640bac9be7b26982b087389d"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-Tail_Right-side.png",
+      "bytes": 711572,
+      "sha256": "3345cb4af290e6ce798b8eaa765d956a1ec93789122fdf4c614ca099049eda73"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Close-front.png",
+      "bytes": 714997,
+      "sha256": "0f22777fb2611f56781132124c2c4333bfa7faea78d502e0ba1d3018e6e6153a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Close-front3q.png",
+      "bytes": 725752,
+      "sha256": "361893e7259118f0842e48f59e2a0e47e0b51c9be2908b69749995a1ff861d4e"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Close-rear.png",
+      "bytes": 729985,
+      "sha256": "c6c27cab46fe7ed3e23d5d13d403391d51c096d5e64b85328364cff207a709d9"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Close-root.png",
+      "bytes": 1070141,
+      "sha256": "5b369bd2896ba10ad630afaffb6eeb9ef07712dbe11c250c06b6274a36544015"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Close-side.png",
+      "bytes": 724322,
+      "sha256": "a73105d0119e1e739cc9ab8a1113fce5c33c18a407e300301fac487d34906a7e"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Open-front.png",
+      "bytes": 721452,
+      "sha256": "7a815eecc80f8ce7bcf97c157347fc82f67632286a686b16c3eb5dc39aaa08f7"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Open-front3q.png",
+      "bytes": 725001,
+      "sha256": "57f6ef52680044749e15e01603fe52663f72cd24a9f8cf3f8ef5c825ca6831dd"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Open-rear.png",
+      "bytes": 731186,
+      "sha256": "b8a8fb5c54cf5f7582599b12d43d46676bbb55fba84c35b975cadd12ff0c8c29"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Open-root.png",
+      "bytes": 1064955,
+      "sha256": "93d776f51c8f1a1de67d4dfb22ff798fe7e36844f9e0f1593b139e4251bdb427"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingL_Open-side.png",
+      "bytes": 713299,
+      "sha256": "90180ae9384b2fcd27a9854af6fd33934ba871e1c4e5b7c50996ea45c5c13454"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Close-front.png",
+      "bytes": 714783,
+      "sha256": "2badcc79d6eb61a7c8868d084ee1747d8bdcb779fdaa199546d914e6c3817d29"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Close-front3q.png",
+      "bytes": 725730,
+      "sha256": "880895e8cef18dd7889fe4a31c387b7743c8e7edddc4bdf14be31ddab9a140f8"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Close-opposite-side.png",
+      "bytes": 689444,
+      "sha256": "d8915d394fd0fd3a3ebb67781f47f353cc42b44bfd1a9cada40a065eb197288b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Close-rear.png",
+      "bytes": 729175,
+      "sha256": "ea71e22cbf176b207d7826b2fdadb5ae6efec55b32fa876c28d5353d169fc47b"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Close-root.png",
+      "bytes": 1041853,
+      "sha256": "4f37d4d0f549951351479972be457fe0babf1aefcdd50a1d2770a488355665e1"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Close-side.png",
+      "bytes": 723178,
+      "sha256": "c2ad7cb0226ff7a643311573a2e5ca693564b8b131b8aa3ff2aae6d244398a79"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Open-front.png",
+      "bytes": 721841,
+      "sha256": "321c12549017953d95992a08c18b69719cbaaa07f0702de23c28506a9fccbb3a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Open-front3q.png",
+      "bytes": 729984,
+      "sha256": "07c25b757f567e00889746e3fa65bc96890203e1a307b7e0a46a4fd015f2345a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Open-opposite-side.png",
+      "bytes": 679159,
+      "sha256": "32fb38e547fc629bdcf6fde7b5312bea165fe086121f9a2de2e3a5f693093272"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Open-rear.png",
+      "bytes": 726912,
+      "sha256": "99daca952cfbc281562869abd54a8642cf3343c0378cca03672c07a6a82c21ee"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Open-root.png",
+      "bytes": 1042089,
+      "sha256": "0996007d23f0874abc38136690ab2be429315a1f3abbaa7fac2da9a087b37646"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/proof-WingR_Open-side.png",
+      "bytes": 712864,
+      "sha256": "a09e83e5f4cfd36439d11233c87c99dd9ac154e9b970f9cec20cd3ce685eeb1c"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/raw-original-front.png",
+      "bytes": 752230,
+      "sha256": "0051b31875c965456ab724e8100e67775f4bb4302a6e8d95bccbea814dfdb103"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/suspect-highlight-3q.png",
+      "bytes": 739377,
+      "sha256": "637b013c39c8f9f3ca8bc5661455b5197259617c712914887c90bc6dd1c611a4"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/suspect-highlight-back.png",
+      "bytes": 740622,
+      "sha256": "56f37aa657640ed5b8e43e119bb5f9c198841c401a203ffda0e05e98d92fd689"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/suspect-highlight-front.png",
+      "bytes": 743876,
+      "sha256": "c62286013e93c7907092d2745b2d79684ea8cfd2aecfb6ba66b5fa3a5a3d5b22"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/suspect-highlight-rear3q.png",
+      "bytes": 726180,
+      "sha256": "3f6939f3013c220b86130dcb6f49da98f4cf71bd7da7f05d5fc2321da2e9f67d"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/suspect-highlight-side.png",
+      "bytes": 727577,
+      "sha256": "dcab921bb3636a304fa90e1555683c56f86881d243efa1481a54e9e0d958584a"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/renders/suspect-isolated.png",
+      "bytes": 521601,
+      "sha256": "938a4d9665d252e48d31174bcd802484b4da0d8bd0b6fd36f033219a732ca4a7"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/repair-validation.json",
+      "bytes": 119593,
+      "sha256": "750c85103d2e29a3df046015d7fc7a6b85ed2be3c1af63df40f628d142e73ce5"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/REVIEW.md",
+      "bytes": 14425,
+      "sha256": "484d140f854ac691a0577aa7aa2d3ff83e2c5ac48a68e727b3bd014f3b4ddd62"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/saved-master-export-validation.json",
+      "bytes": 814,
+      "sha256": "08bc4a9347a06c94a2e6d834a5a4f891dc61b56c7b6ea75c235e47562444b848"
+    },
+    {
+      "path": "docs/production/jill/evidence/smartmesh25k-v001/source-audit.json",
+      "bytes": 122424,
+      "sha256": "f6a20fba33d8dd13e15ffdf62667963b6a333f9b390f61ba665bc2ed6be41a26"
+    },
+    {
+      "path": "docs/production/jill/HANDOFF.md",
+      "bytes": 1949,
+      "sha256": "9dfb3691c9dae49d37929ec684de8626d28d12290d433bf9a2e7b11b3faca97c"
+    }
+  ]
+}

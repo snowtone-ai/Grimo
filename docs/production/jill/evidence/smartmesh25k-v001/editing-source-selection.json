@@ -1,0 +1,68 @@
+{
+  "selected_editing_source": "input/cute dragon 3d model (1).fbx",
+  "reason": "FBX retains source quad topology; GLB triangulates the same vertex positions and polygon domains. No material disadvantage found.",
+  "glb_faces_by_size": {
+    "3": 54373
+  },
+  "fbx_faces_by_size": {
+    "3": 3265,
+    "4": 25554
+  },
+  "max_same_index_world_vertex_distance": 8.429369702178807e-08,
+  "glb_triangles_unmapped_to_fbx_polygon": [],
+  "fbx_polygon_coverage_mismatches": [],
+  "same_triangulation_triangles": 54355,
+  "sampled_surface_distances": [
+    {
+      "from": "OriginalGLB_tripo_11eb7c1e_d3d9_4ecb_8269_9956208297b3",
+      "max_triangle_centroid_surface_distance": 0.00036207304219715297,
+      "p99": 8.024520781191313e-08
+    },
+    {
+      "from": "OriginalFBX_tripo_11eb7c1e_d3d9_4ecb_8269_9956208297b3",
+      "max_triangle_centroid_surface_distance": 0.0003639057104010135,
+      "p99": 8.05903539458086e-08
+    }
+  ],
+  "materials": {
+    "glb": 1,
+    "fbx": 1
+  },
+  "uv_layers": {
+    "glb": 0,
+    "fbx": 0
+  },
+  "fbx_remove_face_ids": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    1479,
+    5513,
+    19053
+  ],
+  "glb_comparison_face_ids": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    1479,
+    7761,
+    7762,
+    34841,
+    34842
+  ],
+  "plate_shared_edges_with_kept_faces": [],
+  "plate_shared_vertices_with_kept_faces": [
+    3,
+    4
+  ],
+  "component_correction": "12 plate triangles form 3 edge-connected patches, not 5 vertex-disconnected components. Lower 8-face patch touches retained geometry only at vertices 3 and 4; preserve every vertex and every retained face.",
+  "state": "SELECTED_FBX_BEFORE_REPAIR; HUMAN_GEOMETRY_GATE_PENDING"
+}

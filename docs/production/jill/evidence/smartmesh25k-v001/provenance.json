@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "gate": "HUMAN_PENDING_HOLD",
+  "branch": "codex/jill-smartmesh25k-inspection-20261015",
+  "initial_head": "93a8d2480c44e90a9c6a6d693c0fd34f9f4487cb",
+  "integrated_production_head": "2abea76fad578281f74b9fa628987a80b56ad6dc",
+  "motion_contract_main_revision": "940fc5ee3d9c2d155031a0c3030034d4999dea16",
+  "inputs_sha256": {
+    "cute dragon 3d model (1).fbx": "5e9339437af5ad209c01597997006e96bd90d5489a08c28531ab5faa2b3f31db",
+    "cute dragon 3d model (1).glb": "fb960ddb3a6a346508b77e0850c57ce9c6f4cdc7e8aaab035ff31ce03feafad1"
+  },
+  "original_upload_and_copy_hashes_equal": true,
+  "single_editing_source": "input/cute dragon 3d model (1).fbx",
+  "editable_master": "jill-geometry-master.blend",
+  "master_sha256": "6b8ec3a53772686e6bf49491acf4f53e190eb2c9cda7ba1039893266b7608fe0",
+  "derived_glb_sha256": "3064317a85ef6218e3968c91639f3edb115f453f3d0fc01d834681728ff573ad",
+  "authority_sha256": {
+    "AGENTS.md": "ff3b484aea1a808aa9fe54043cdc9a48675ff8cf3f4282bed3d1127f547582d6",
+    "docs/grimo/knowledge/Goal√map.md": "c6f7276242654fdc68b41725c37303ca9f48e9a43807d9cf53ee7407753d3df0",
+    "docs/production/Handoff.md": "508707da54f4f1822b7dbefbda7ff569db20a4b0a67b680ee2a655ab706a2dd8",
+    "assets/grimo/source/jill/jill-Identity-canonical.png": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15",
+    "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_back.png": "503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc",
+    "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_front.png": "c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8",
+    "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_left.png": "bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31",
+    "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png": "9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc"
+  },
+  "visual_review": "Boards 00-09 including 03b reviewed: neutral before/after, transition midpoint, peak front/side/3Q, contacts. Missing approved pose refs and unresolved roots/face => HOLD.",
+  "original_workspace_note": "Separate worktree used; original production branch and dirty/untracked work left in place. Concurrent Shushu work progressed independently.",
+  "prohibited_operations_performed": []
+}

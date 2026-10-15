@@ -1,0 +1,810 @@
+{
+  "specs": [
+    {
+      "key": "WingL_Open",
+      "region": "WingL",
+      "degrees": -12,
+      "axis": "Z",
+      "pivot": [
+        0.075,
+        0.015,
+        0.56
+      ]
+    },
+    {
+      "key": "WingL_Close",
+      "region": "WingL",
+      "degrees": 20,
+      "axis": "Z",
+      "pivot": [
+        0.075,
+        0.015,
+        0.56
+      ]
+    },
+    {
+      "key": "WingR_Open",
+      "region": "WingR",
+      "degrees": 12,
+      "axis": "Z",
+      "pivot": [
+        -0.075,
+        0.015,
+        0.56
+      ]
+    },
+    {
+      "key": "WingR_Close",
+      "region": "WingR",
+      "degrees": -20,
+      "axis": "Z",
+      "pivot": [
+        -0.075,
+        0.015,
+        0.56
+      ]
+    },
+    {
+      "key": "Tail_Left",
+      "region": "Tail",
+      "degrees": -12,
+      "axis": "Z",
+      "pivot": [
+        0,
+        0.09,
+        0.22
+      ]
+    },
+    {
+      "key": "Tail_Right",
+      "region": "Tail",
+      "degrees": 12,
+      "axis": "Z",
+      "pivot": [
+        0,
+        0.09,
+        0.22
+      ]
+    },
+    {
+      "key": "ArmL_Offer",
+      "region": "ArmL",
+      "degrees": -25,
+      "axis": "X",
+      "pivot": [
+        0.13,
+        -0.13,
+        0.44
+      ]
+    },
+    {
+      "key": "ArmR_Offer",
+      "region": "ArmR",
+      "degrees": -25,
+      "axis": "X",
+      "pivot": [
+        -0.13,
+        -0.13,
+        0.44
+      ]
+    }
+  ],
+  "method": "Local angle-weighted test shapes, linear key value sweeps; immutable Basis. A sampled diagnostic, not rig or collision certification.",
+  "cases": [
+    {
+      "name": "WingL_Open",
+      "active_keys": [
+        "WingL_Open"
+      ],
+      "samples": [
+        {
+          "frame": 1,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 7,
+          "max_displacement": 0.038505760670188155,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8357230876297502,
+          "edge_length_ratio_max": 1.0000000594815113,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7587996968841466
+        },
+        {
+          "frame": 13,
+          "max_displacement": 0.07701153549253549,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.6746097422686956,
+          "edge_length_ratio_max": 1.012010664763857,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.5256174265069494
+        },
+        {
+          "frame": 19,
+          "max_displacement": 0.038505760670188155,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8357230876297502,
+          "edge_length_ratio_max": 1.0000000594815113,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7587996968841466
+        },
+        {
+          "frame": 25,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "WingL_Close",
+      "active_keys": [
+        "WingL_Close"
+      ],
+      "samples": [
+        {
+          "frame": 25,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 31,
+          "max_displacement": 0.06396777973614755,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9723063839837531,
+          "edge_length_ratio_max": 1.2979979582420669,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.9698357355913946
+        },
+        {
+          "frame": 37,
+          "max_displacement": 0.12793554715417507,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9882942713837897,
+          "edge_length_ratio_max": 1.6009761969190999,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.9999625855292542
+        },
+        {
+          "frame": 43,
+          "max_displacement": 0.06396777973614755,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9723063839837531,
+          "edge_length_ratio_max": 1.2979979582420669,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.9698357355913946
+        },
+        {
+          "frame": 49,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "WingR_Open",
+      "active_keys": [
+        "WingR_Open"
+      ],
+      "samples": [
+        {
+          "frame": 49,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 55,
+          "max_displacement": 0.038505751340461275,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8361570433443988,
+          "edge_length_ratio_max": 1.0001194618189888,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7580021211849232
+        },
+        {
+          "frame": 61,
+          "max_displacement": 0.07701151683308516,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.6755803138380303,
+          "edge_length_ratio_max": 1.0106947490642668,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.5246530636511847
+        },
+        {
+          "frame": 67,
+          "max_displacement": 0.038505751340461275,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8361570433443988,
+          "edge_length_ratio_max": 1.0001194618189888,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7580021211849232
+        },
+        {
+          "frame": 73,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "WingR_Close",
+      "active_keys": [
+        "WingR_Close"
+      ],
+      "samples": [
+        {
+          "frame": 73,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 79,
+          "max_displacement": 0.06396776296611745,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9750447418195382,
+          "edge_length_ratio_max": 1.3009794012702662,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.9698287073212365
+        },
+        {
+          "frame": 85,
+          "max_displacement": 0.12793551361411162,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9907974631763894,
+          "edge_length_ratio_max": 1.6077657589449865,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.999955374158079
+        },
+        {
+          "frame": 91,
+          "max_displacement": 0.06396776296611745,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9750447418195382,
+          "edge_length_ratio_max": 1.3009794012702662,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.9698287073212365
+        },
+        {
+          "frame": 97,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "Tail_Left",
+      "active_keys": [
+        "Tail_Left"
+      ],
+      "samples": [
+        {
+          "frame": 97,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 103,
+          "max_displacement": 0.03486903070397575,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8210898720987668,
+          "edge_length_ratio_max": 1.264529346742383,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7684688101059746
+        },
+        {
+          "frame": 109,
+          "max_displacement": 0.06973806858224689,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.6832975540662045,
+          "edge_length_ratio_max": 1.5962287607311865,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.5898571903463384
+        },
+        {
+          "frame": 115,
+          "max_displacement": 0.03486903070397575,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8210898720987668,
+          "edge_length_ratio_max": 1.264529346742383,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7684688101059746
+        },
+        {
+          "frame": 121,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "Tail_Right",
+      "active_keys": [
+        "Tail_Right"
+      ],
+      "samples": [
+        {
+          "frame": 121,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 127,
+          "max_displacement": 0.034869034723284134,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8175223103523205,
+          "edge_length_ratio_max": 1.2645283714103928,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.768469275507145
+        },
+        {
+          "frame": 133,
+          "max_displacement": 0.0697380623150178,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.6619897556923953,
+          "edge_length_ratio_max": 1.5962359726789626,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.5898571978898663
+        },
+        {
+          "frame": 139,
+          "max_displacement": 0.034869034723284134,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8175223103523205,
+          "edge_length_ratio_max": 1.2645283714103928,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.768469275507145
+        },
+        {
+          "frame": 145,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "ArmL_Offer",
+      "active_keys": [
+        "ArmL_Offer"
+      ],
+      "samples": [
+        {
+          "frame": 145,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 151,
+          "max_displacement": 0.03262590697098433,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932502129240298,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7825946322249342
+        },
+        {
+          "frame": 157,
+          "max_displacement": 0.06525180298726867,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.671953231819382,
+          "edge_length_ratio_max": 3.1564127934165302,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.697382463625265
+        },
+        {
+          "frame": 163,
+          "max_displacement": 0.03262590697098433,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932502129240298,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7825946322249342
+        },
+        {
+          "frame": 169,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "ArmR_Offer",
+      "active_keys": [
+        "ArmR_Offer"
+      ],
+      "samples": [
+        {
+          "frame": 169,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 175,
+          "max_displacement": 0.032546047889223995,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932493756077527,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7855320631858528
+        },
+        {
+          "frame": 181,
+          "max_displacement": 0.06509206994189981,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.6719521007280358,
+          "edge_length_ratio_max": 3.1564224244705295,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7030249238909696
+        },
+        {
+          "frame": 187,
+          "max_displacement": 0.032546047889223995,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932493756077527,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7855320631858528
+        },
+        {
+          "frame": 193,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "BothWings_Open",
+      "active_keys": [
+        "WingL_Open",
+        "WingR_Open"
+      ],
+      "samples": [
+        {
+          "frame": 193,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 199,
+          "max_displacement": 0.038505760670188155,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8357230876297502,
+          "edge_length_ratio_max": 1.0001194618189888,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7580021211849232
+        },
+        {
+          "frame": 205,
+          "max_displacement": 0.07701153549253549,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.6746097422686956,
+          "edge_length_ratio_max": 1.012010664763857,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.5246530636511847
+        },
+        {
+          "frame": 211,
+          "max_displacement": 0.038505760670188155,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.8357230876297502,
+          "edge_length_ratio_max": 1.0001194618189888,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7580021211849232
+        },
+        {
+          "frame": 217,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "BothWings_Close",
+      "active_keys": [
+        "WingL_Close",
+        "WingR_Close"
+      ],
+      "samples": [
+        {
+          "frame": 217,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 223,
+          "max_displacement": 0.06396777973614755,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9723063839837531,
+          "edge_length_ratio_max": 1.3009794012702662,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.9698287073212365
+        },
+        {
+          "frame": 229,
+          "max_displacement": 0.12793554715417507,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9882942713837897,
+          "edge_length_ratio_max": 1.6077657589449865,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.999955374158079
+        },
+        {
+          "frame": 235,
+          "max_displacement": 0.06396777973614755,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.9723063839837531,
+          "edge_length_ratio_max": 1.3009794012702662,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.9698287073212365
+        },
+        {
+          "frame": 241,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "Combined_Left",
+      "active_keys": [
+        "WingL_Close",
+        "ArmL_Offer",
+        "Tail_Left"
+      ],
+      "samples": [
+        {
+          "frame": 241,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 247,
+          "max_displacement": 0.06396777973614755,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932502129240298,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7684688101059746
+        },
+        {
+          "frame": 253,
+          "max_displacement": 0.12793554715417507,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.671953231819382,
+          "edge_length_ratio_max": 3.1564127934165302,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.5898571903463384
+        },
+        {
+          "frame": 259,
+          "max_displacement": 0.06396777973614755,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932502129240298,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.7684688101059746
+        },
+        {
+          "frame": 265,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    },
+    {
+      "name": "Combined_Right",
+      "active_keys": [
+        "WingR_Close",
+        "ArmR_Offer",
+        "Tail_Right"
+      ],
+      "samples": [
+        {
+          "frame": 265,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        },
+        {
+          "frame": 271,
+          "max_displacement": 0.06396776296611745,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932493756077527,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.768469275507145
+        },
+        {
+          "frame": 277,
+          "max_displacement": 0.12793551361411162,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.6619897556923953,
+          "edge_length_ratio_max": 3.1564224244705295,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.5898571978898663
+        },
+        {
+          "frame": 283,
+          "max_displacement": 0.06396776296611745,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 0.7932493756077527,
+          "edge_length_ratio_max": 2.04965691317782,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 0.768469275507145
+        },
+        {
+          "frame": 289,
+          "max_displacement": 0.0,
+          "max_non_target_displacement": 0.0,
+          "max_face_and_feet_displacement": 0.0,
+          "edge_length_ratio_min": 1.0,
+          "edge_length_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "triangle_area_ratio_min": 1.0
+        }
+      ],
+      "neutral_return_max": 0.0
+    }
+  ],
+  "collision_scope": "Visual review plus moving-versus-stationary triangle overlap changes; see collision report. No continuous collision guarantee."
+}

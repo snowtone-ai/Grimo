@@ -1,0 +1,11 @@
+{
+  "max_world_vertex_distance": 8.429369557916289e-08,
+  "unique_nearest_matches": 28050,
+  "glb_vertices": 28050,
+  "fbx_vertices": 28050,
+  "matching_triangle_vertex_sets": 3265,
+  "triangle_count": 54373,
+  "polygon_indices_identical": false,
+  "same_index_max_vertex_distance": 8.429369702178807e-08,
+  "_interpretation": "INTERIM ONLY: FBX quad polygon sets were directly compared with GLB triangle sets. FBX count is not a valid shape mismatch metric. Superseded by editing-source-selection.json; raw GLB import comparison remains valid."
+}
