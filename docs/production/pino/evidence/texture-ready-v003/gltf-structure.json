@@ -1,0 +1,134 @@
+{
+  "meshes": [
+    {
+      "mesh": "dd960071_f7d5_4eaa_a261_8fb0fbf78711.001",
+      "morph_names": [
+        "PinoBlink_L",
+        "PinoBlink_R",
+        "PinoMouthClosed",
+        "PinoMouthLarge",
+        "PinoMouthLift",
+        "PinoEyeRetract_L",
+        "PinoEyeRetract_R",
+        "PinoSkinClose_L",
+        "PinoSkinClose_R"
+      ],
+      "primitives": [
+        {
+          "vertices": 110784,
+          "triangles": 36928,
+          "joint_index_max": 69,
+          "weight_sum_max_error": 1.7881393432617188e-07,
+          "all_targets_have_position_normal": true,
+          "provenance_attributes": [
+            "_PINO_VERTEX_ID",
+            "_PINO_CORNER_ID"
+          ]
+        },
+        {
+          "vertices": 1380,
+          "triangles": 460,
+          "joint_index_max": 39,
+          "weight_sum_max_error": 0.0,
+          "all_targets_have_position_normal": true,
+          "provenance_attributes": [
+            "_PINO_VERTEX_ID",
+            "_PINO_CORNER_ID"
+          ]
+        },
+        {
+          "vertices": 1380,
+          "triangles": 460,
+          "joint_index_max": 39,
+          "weight_sum_max_error": 0.0,
+          "all_targets_have_position_normal": true,
+          "provenance_attributes": [
+            "_PINO_VERTEX_ID",
+            "_PINO_CORNER_ID"
+          ]
+        }
+      ]
+    },
+    {
+      "mesh": "Source-aligned retracting oral liner",
+      "morph_names": [
+        "OralClosed",
+        "OralLarge",
+        "OralLift",
+        "OralOcclude"
+      ],
+      "primitives": [
+        {
+          "vertices": 1881,
+          "triangles": 627,
+          "joint_index_max": 39,
+          "weight_sum_max_error": 0.0,
+          "all_targets_have_position_normal": true,
+          "provenance_attributes": [
+            "_PINO_VERTEX_ID",
+            "_PINO_CORNER_ID"
+          ]
+        }
+      ]
+    },
+    {
+      "mesh": "Texture-ready rolling lid L",
+      "morph_names": [
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ],
+      "primitives": [
+        {
+          "vertices": 12288,
+          "triangles": 6144,
+          "joint_index_max": 39,
+          "weight_sum_max_error": 0.0,
+          "all_targets_have_position_normal": true,
+          "provenance_attributes": [
+            "_PINO_VERTEX_ID",
+            "_PINO_CORNER_ID"
+          ]
+        }
+      ]
+    },
+    {
+      "mesh": "Texture-ready rolling lid R",
+      "morph_names": [
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ],
+      "primitives": [
+        {
+          "vertices": 12288,
+          "triangles": 6144,
+          "joint_index_max": 39,
+          "weight_sum_max_error": 0.0,
+          "all_targets_have_position_normal": true,
+          "provenance_attributes": [
+            "_PINO_VERTEX_ID",
+            "_PINO_CORNER_ID"
+          ]
+        }
+      ]
+    }
+  ],
+  "skin_joint_counts": [
+    70
+  ],
+  "materials": [
+    "Pino_Skin",
+    "Pino_Eye_L",
+    "Pino_Eye_R",
+    "Pino_OralInterior",
+    "Pino_LidSkin"
+  ],
+  "textures": 0,
+  "images": 0,
+  "animations": 0
+}

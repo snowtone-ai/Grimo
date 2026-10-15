@@ -1,0 +1,343 @@
+{
+  "objects": [
+    {
+      "object": "PINO_C_BASE_RIG_V001",
+      "found": true,
+      "vertices": 113544,
+      "attributes": [
+        ".select_vert",
+        "position",
+        ".corner_vert",
+        ".corner_edge",
+        ".select_poly",
+        "UVMap",
+        "material_index",
+        "_PINO_VERTEX_ID",
+        "_PINO_CORNER_ID",
+        "sharp_face",
+        ".edge_verts",
+        ".select_edge",
+        "custom_normal",
+        "sharp_edge"
+      ]
+    },
+    {
+      "object": "PinoSoftLids_L",
+      "found": true,
+      "vertices": 12288,
+      "attributes": [
+        ".select_vert",
+        "position",
+        ".corner_vert",
+        ".corner_edge",
+        ".select_poly",
+        "UVMap",
+        "material_index",
+        "_PINO_VERTEX_ID",
+        "_PINO_CORNER_ID",
+        "sharp_face",
+        ".edge_verts",
+        ".select_edge",
+        "custom_normal",
+        "sharp_edge"
+      ]
+    },
+    {
+      "object": "PinoSoftLids_R",
+      "found": true,
+      "vertices": 12288,
+      "attributes": [
+        ".select_vert",
+        "position",
+        ".corner_vert",
+        ".corner_edge",
+        ".select_poly",
+        "UVMap",
+        "material_index",
+        "_PINO_VERTEX_ID",
+        "_PINO_CORNER_ID",
+        "sharp_face",
+        ".edge_verts",
+        ".select_edge",
+        "custom_normal",
+        "sharp_edge"
+      ]
+    },
+    {
+      "object": "PinoOralLiner",
+      "found": true,
+      "vertices": 1881,
+      "attributes": [
+        ".select_vert",
+        "position",
+        ".corner_vert",
+        ".corner_edge",
+        ".select_poly",
+        "UVMap",
+        "material_index",
+        "_PINO_VERTEX_ID",
+        "_PINO_CORNER_ID",
+        "sharp_face",
+        ".edge_verts",
+        ".select_edge",
+        "custom_normal",
+        "sharp_edge"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "state": "Basis",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "Basis",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.519626238177807e-07,
+      "max_normal_vector_error": 8.075308128066645e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "Basis",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8189184913808276e-07,
+      "max_normal_vector_error": 8.218363121629467e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "Basis",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.302790467316299e-08,
+      "max_normal_vector_error": 7.797980394740227e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "closed",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "closed",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.519626238177807e-07,
+      "max_normal_vector_error": 8.075308128066645e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "closed",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8189184913808276e-07,
+      "max_normal_vector_error": 8.218363121629467e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "closed",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.365778659755961e-08,
+      "max_normal_vector_error": 8.985995238166939e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "half",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "half",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.519626238177807e-07,
+      "max_normal_vector_error": 7.65043436507118e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "half",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8371385124282824e-07,
+      "max_normal_vector_error": 8.213300701814231e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "half",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.302790467316299e-08,
+      "max_normal_vector_error": 7.797980394740227e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "combined",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "combined",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.437015981764489e-07,
+      "max_normal_vector_error": 8.075461558388484e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "combined",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8189184913808276e-07,
+      "max_normal_vector_error": 8.177039325871167e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "combined",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.244724204407248e-08,
+      "max_normal_vector_error": 7.78456185492717e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "wink",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "wink",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.437015981764489e-07,
+      "max_normal_vector_error": 8.075461558388484e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "wink",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8189184913808276e-07,
+      "max_normal_vector_error": 8.218363121629467e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "wink",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.365778659755961e-08,
+      "max_normal_vector_error": 8.985995238166939e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "three-quarter",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "three-quarter",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.519626238177807e-07,
+      "max_normal_vector_error": 7.570430638620398e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "three-quarter",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8371385124282824e-07,
+      "max_normal_vector_error": 8.132724004867971e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "three-quarter",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.302790467316299e-08,
+      "max_normal_vector_error": 7.797980394740227e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "settling",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "settling",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.437015981764489e-07,
+      "max_normal_vector_error": 7.557591759108349e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "settling",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8371385124282824e-07,
+      "max_normal_vector_error": 8.010661117429768e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "settling",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.302790467316299e-08,
+      "max_normal_vector_error": 7.797980394740227e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "near-closed",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.4027400513659813e-07,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "near-closed",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.437015981764489e-07,
+      "max_normal_vector_error": 7.557591759108349e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "near-closed",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.8371385124282824e-07,
+      "max_normal_vector_error": 8.010661117429768e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "near-closed",
+      "object": "PinoOralLiner",
+      "max_position_error": 6.302790467316299e-08,
+      "max_normal_vector_error": 7.797980394740227e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "head-probe",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error": 2.504813892301172e-06,
+      "max_normal_vector_error": 8.396822314594311e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "head-probe",
+      "object": "PinoSoftLids_L",
+      "max_position_error": 1.6049041562382627e-07,
+      "max_normal_vector_error": 7.65043436507118e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "head-probe",
+      "object": "PinoSoftLids_R",
+      "max_position_error": 1.519626238177807e-07,
+      "max_normal_vector_error": 8.177039325871167e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    },
+    {
+      "state": "head-probe",
+      "object": "PinoOralLiner",
+      "max_position_error": 9.313225746154785e-08,
+      "max_normal_vector_error": 7.833303896133249e-05,
+      "max_uv_error": 2.9802322387695312e-08
+    }
+  ],
+  "normal_note": "Native Blender import does not bind GLB morph normals. bind_normals() reconstructs the preview from the GLB alone. Proof display swatches normalized; shader colors untouched."
+}

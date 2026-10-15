@@ -1,0 +1,23 @@
+{
+  "scope": "Delivery consistency only. Visual quality and complete Texture Ready are not approved.",
+  "overall": "HOLD",
+  "Human_Pre_Texture_Gate": "PENDING",
+  "Texture_GO": false,
+  "protected_files": 10,
+  "saved_master_basis_unchanged": true,
+  "uv_positive_area_overlaps": 0,
+  "roundtrip_comparisons": 36,
+  "roundtrip_maxima": {
+    "max_position_error": 2.504813892301172e-06,
+    "max_normal_vector_error": 8.985995238166939e-05,
+    "max_uv_error": 2.9802322387695312e-08
+  },
+  "runtime_matches_glb_sha256": true,
+  "gifs_match_master_sha256": true,
+  "document_unicode_lengths": {
+    "AGENTS.md": 2498,
+    "docs\\grimo\\knowledge\\Goal√map.md": 4087,
+    "docs\\production\\Handoff.md": 3793,
+    "assets\\grimo\\production\\pino\\candidate-c\\texture-ready-v003\\README.md": 864
+  }
+}

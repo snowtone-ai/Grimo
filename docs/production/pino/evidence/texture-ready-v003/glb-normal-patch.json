@@ -1,0 +1,48 @@
+{
+  "records": [
+    {
+      "object": "PINO_C_BASE_RIG_V001",
+      "vertices": 110784,
+      "base_normal_mapping_max": 8.396822314594311e-05,
+      "source_zero_normals_exporter_fallback": 12,
+      "morph_normal_targets": 9
+    },
+    {
+      "object": "PINO_C_BASE_RIG_V001",
+      "vertices": 1380,
+      "base_normal_mapping_max": 7.785921033794432e-05,
+      "source_zero_normals_exporter_fallback": 0,
+      "morph_normal_targets": 9
+    },
+    {
+      "object": "PINO_C_BASE_RIG_V001",
+      "vertices": 1380,
+      "base_normal_mapping_max": 7.614806696245738e-05,
+      "source_zero_normals_exporter_fallback": 0,
+      "morph_normal_targets": 9
+    },
+    {
+      "object": "PinoOralLiner",
+      "vertices": 1881,
+      "base_normal_mapping_max": 7.797980394740227e-05,
+      "source_zero_normals_exporter_fallback": 0,
+      "morph_normal_targets": 4
+    },
+    {
+      "object": "PinoSoftLids_L",
+      "vertices": 12288,
+      "base_normal_mapping_max": 8.075312527542993e-05,
+      "source_zero_normals_exporter_fallback": 0,
+      "morph_normal_targets": 5
+    },
+    {
+      "object": "PinoSoftLids_R",
+      "vertices": 12288,
+      "base_normal_mapping_max": 8.218363121629467e-05,
+      "source_zero_normals_exporter_fallback": 0,
+      "morph_normal_targets": 5
+    }
+  ],
+  "glb_sha256": "2c2acecf141d666737efbe039308dbb397c64ecf1b05a82e3cac26648ca9e078",
+  "bytes": 24539128
+}

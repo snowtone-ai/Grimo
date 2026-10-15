@@ -1,0 +1,15 @@
+{
+  "triangles": 50763,
+  "positive_area_overlap_pairs": 0,
+  "zero_area_uv_triangles": 0,
+  "tolerance_uv": 1e-08,
+  "bounds_min": [
+    0.0038800351321697235,
+    0.0038800351321697235
+  ],
+  "bounds_max": [
+    0.9956552386283875,
+    0.9961198568344116
+  ],
+  "method": "grid broad phase + strict separating-axis test across every object; shared borders excluded"
+}

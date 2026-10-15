@@ -1,0 +1,224 @@
+{
+  "status": "HOLD",
+  "Human_Pre_Texture_Gate": "PENDING",
+  "Texture_GO": false,
+  "master": "pino-c-texture-ready-v003-HOLD.blend",
+  "glb": "pino-c-texture-ready-v003-HOLD.glb",
+  "topology": {
+    "PINO_C_BASE_RIG_V001": {
+      "vertices": 18858,
+      "polygons": 37848,
+      "loops": 113544,
+      "uv_sha256": "d042342fff87e8208a9c4d6d18d7603fa168132b7ad5b4434b0ee89cc129efa0",
+      "corner_vertex_sha256": "91aebdb2cef7a650ecbe2bee629307c45abfc96143bd2daa69ef1c1b1bfee849",
+      "uv_min": [
+        0.0038800351321697235,
+        0.0038800351321697235
+      ],
+      "uv_max": [
+        0.9956552386283875,
+        0.9961198568344116
+      ],
+      "shape_keys": [
+        "Basis",
+        "PinoBlink_L",
+        "PinoBlink_R",
+        "PinoMouthClosed",
+        "PinoMouthLarge",
+        "PinoMouthLift",
+        "PinoEyeRetract_L",
+        "PinoEyeRetract_R",
+        "PinoSkinClose_L",
+        "PinoSkinClose_R"
+      ],
+      "materials": [
+        "Pino_Skin",
+        "Pino_OralInterior",
+        "Pino_Eye_L",
+        "Pino_Eye_R"
+      ]
+    },
+    "PinoSoftLids_L": {
+      "vertices": 3250,
+      "polygons": 3072,
+      "loops": 12288,
+      "uv_sha256": "452d68774a749eb33572c2afe7785f8e82cc3053e926d5ac0c8ab4e158c87f1b",
+      "corner_vertex_sha256": "473903313dde0e8bf2a358e237975907a72a8e2024d6a7e995df181b9284df7b",
+      "uv_min": [
+        0.003880081931129098,
+        0.08438543975353241
+      ],
+      "uv_max": [
+        0.14937043190002441,
+        0.23763595521450043
+      ],
+      "shape_keys": [
+        "Basis",
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ],
+      "materials": [
+        "Pino_LidSkin"
+      ]
+    },
+    "PinoSoftLids_R": {
+      "vertices": 3250,
+      "polygons": 3072,
+      "loops": 12288,
+      "uv_sha256": "8a5ff4b4d213654612de696365a4107cbff1a759a1afbff4c4814476c604af02",
+      "corner_vertex_sha256": "473903313dde0e8bf2a358e237975907a72a8e2024d6a7e995df181b9284df7b",
+      "uv_min": [
+        0.0038800828624516726,
+        0.003880078438669443
+      ],
+      "uv_max": [
+        0.30262094736099243,
+        0.15713061392307281
+      ],
+      "shape_keys": [
+        "Basis",
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ],
+      "materials": [
+        "Pino_LidSkin"
+      ]
+    },
+    "PinoOralLiner": {
+      "vertices": 1321,
+      "polygons": 627,
+      "loops": 1881,
+      "uv_sha256": "96dbc972dc012bbcd53742e0096e7c539a776d08def9188f76855430b0f38f23",
+      "corner_vertex_sha256": "23ca8fb1653e4452e68f3b06db7ffa1f7c914ea904c1fd31ae7ee4e2e9ba6e5c",
+      "uv_min": [
+        0.0119029451161623,
+        0.0038800351321697235
+      ],
+      "uv_max": [
+        0.9956363439559937,
+        0.9960678219795227
+      ],
+      "shape_keys": [
+        "Basis",
+        "OralClosed",
+        "OralLarge",
+        "OralLift",
+        "OralOcclude"
+      ],
+      "materials": [
+        "Pino_OralInterior"
+      ]
+    }
+  },
+  "weights": [
+    {
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_source_influences": 6,
+      "trimmed_vertices": 452
+    },
+    {
+      "object": "PinoSoftLids_L",
+      "max_source_influences": 1,
+      "trimmed_vertices": 0
+    },
+    {
+      "object": "PinoSoftLids_R",
+      "max_source_influences": 1,
+      "trimmed_vertices": 0
+    },
+    {
+      "object": "PinoOralLiner",
+      "max_source_influences": 1,
+      "trimmed_vertices": 0
+    }
+  ],
+  "uv_local_chart_repairs": {
+    "PINO_C_BASE_RIG_V001": [
+      696,
+      697,
+      860,
+      1044,
+      1059,
+      1102,
+      1116,
+      1282,
+      1311,
+      1425,
+      1514,
+      1516,
+      2598,
+      2615,
+      3070,
+      3694,
+      3744,
+      3761,
+      3763,
+      3771,
+      3772,
+      3773,
+      3775,
+      3776,
+      3777,
+      8063,
+      8154,
+      9928,
+      11151,
+      11340,
+      11341,
+      11342,
+      11343,
+      11344,
+      11345,
+      11452,
+      12120,
+      12121,
+      12331,
+      12721,
+      12886,
+      12922,
+      12923,
+      12926,
+      12949,
+      16839,
+      16850,
+      17159,
+      17177,
+      17224,
+      17307,
+      17373,
+      17470,
+      18737,
+      18739,
+      18741,
+      18761,
+      18763,
+      18765,
+      24265,
+      24328,
+      24329,
+      24789,
+      24795,
+      27621,
+      32107,
+      32635,
+      32973,
+      33840,
+      33913
+    ],
+    "PinoSoftLids_L": [],
+    "PinoSoftLids_R": [],
+    "PinoOralLiner": []
+  },
+  "oral_face_ids": [],
+  "notes": [
+    "All slots retain neutral source placeholder color. No texture generated.",
+    "Portable editing master uses LBS and four influences. Source DQ remains untouched in Rig v001.",
+    "UV is a candidate atlas, not released for texture production until gates clear."
+  ]
+}

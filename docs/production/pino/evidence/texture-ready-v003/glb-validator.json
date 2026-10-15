@@ -1,0 +1,71 @@
+{
+  "file": "pino-c-texture-ready-v003-HOLD.glb",
+  "validator": {
+    "errors": 0,
+    "warnings": 4,
+    "infos": 6,
+    "messages": [
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/0/primitives/1/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/0/primitives/2/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/70"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/71"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/72"
+      },
+      {
+        "code": "NODE_SKINNED_MESH_NON_ROOT",
+        "severity": 1,
+        "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+        "pointer": "/nodes/73"
+      }
+    ]
+  },
+  "structure_report": "gltf-structure.json; legacy metrics counters are not used"
+}

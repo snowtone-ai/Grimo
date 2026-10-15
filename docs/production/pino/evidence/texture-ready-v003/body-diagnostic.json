@@ -1,0 +1,86 @@
+[
+  {
+    "pose": "tail-left",
+    "mode": "DQ",
+    "zmin": -9.020368452183902e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0
+  },
+  {
+    "pose": "tail-left",
+    "mode": "LBS4",
+    "zmin": -7.450580596923828e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0.0001317822461714968
+  },
+  {
+    "pose": "tail-right",
+    "mode": "DQ",
+    "zmin": -9.020368452183902e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0
+  },
+  {
+    "pose": "tail-right",
+    "mode": "LBS4",
+    "zmin": -7.450580596923828e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0.00013178469089325517
+  },
+  {
+    "pose": "forepaw",
+    "mode": "DQ",
+    "zmin": -9.020368452183902e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0
+  },
+  {
+    "pose": "forepaw",
+    "mode": "LBS4",
+    "zmin": -7.450580596923828e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0.01016856450587511
+  },
+  {
+    "pose": "both-paws",
+    "mode": "DQ",
+    "zmin": -9.020368452183902e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0
+  },
+  {
+    "pose": "both-paws",
+    "mode": "LBS4",
+    "zmin": -7.450580596923828e-09,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0.042818885296583176
+  },
+  {
+    "pose": "shallow-rest",
+    "mode": "DQ",
+    "zmin": -5.877351213712245e-06,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0
+  },
+  {
+    "pose": "shallow-rest",
+    "mode": "LBS4",
+    "zmin": -5.872469046153128e-06,
+    "floor_penetration_vertices": 0,
+    "source_DQ_delta": 0.003367149969562888
+  },
+  {
+    "pose": "deep-rest",
+    "mode": "DQ",
+    "zmin": -0.0648973360657692,
+    "floor_penetration_vertices": 1765,
+    "source_DQ_delta": 0
+  },
+  {
+    "pose": "deep-rest",
+    "mode": "LBS4",
+    "zmin": -0.06489734351634979,
+    "floor_penetration_vertices": 1752,
+    "source_DQ_delta": 0.006556214299052954
+  }
+]

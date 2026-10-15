@@ -1,0 +1,40 @@
+{
+  "modifiers": [
+    {
+      "name": "Pino volume-preserving skin",
+      "type": "ARMATURE",
+      "use_deform_preserve_volume": true,
+      "use_vertex_groups": true
+    }
+  ],
+  "matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "custom_normals": true,
+  "materials": [
+    "dd960071_f7d5_4eaa_a261_8fb0fbf78711.001"
+  ]
+}

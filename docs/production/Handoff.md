@@ -2,13 +2,12 @@
 
 このファイルは`main`のローカル作業案内。実行時のNOWは実際の制作ブランチ/HEAD、未コミット変更、制作StateとEvidenceで必ず再確認する。正式な仕様やHuman承認を上書きしない。
 
-## Pino Face v002: verified 2026-10-15
-- Branch `codex/pino-face-foundation-v002-20261015`、起点 `80ed1a9`。共有Shushu checkoutのユーザー差分に触れず、別sparse worktreeで作業。
-- [Face REVIEW・3視点・短いGIF・Texture所有契約](pino/evidence/face-foundation-v002/REVIEW.md)。元GLB/Rig v001の開いた笑顔Basis、三角形/corner法線/Skin/70骨rest/既存Blinkを保持。閉口を正式Game Neutralへ置換していない。
-- 口の実断面は多層のくぼみ・奥面/底面を持ち、口本体component 0の局所境界辺は0。画像/Texture/UV/Morphなしで、Shushuの固定開口焼き込みをPinoへ断定しない。
-- 独立上下瞼と局所口Morph、半閉/Wink/全閉、閉口候補→小/中/大→閉口、同時動作/復帰を保存。2改善パスで停止。**口のU字残り/上下口縁接触未成立、瞼の側面・外周被覆欠けによりHOLD / Human Face Gate PENDING。** 無理な試作を採用しない。
-- 約1.97 MB GLBのMorph/Skin再importを確認。代表表情の位置差最大2.82e-7。既存DQとGLBで首付近に差があり、全身Motion互換PASSではない。Pino PlayCanvas/スマホはUNKNOWN。尾/前肢/休息を凍結。
-- 次はREVIEWのHuman判断。Texture/最終Rig/全Motion/Tripoへ自動継続しない。以下は以前のGate履歴であり、Face v002のNOWはこの節と実資産を優先する。
+## Pino Texture Ready v003: verified 2026-10-16
+- Branch `codex/pino-texture-ready-v003-20261015`、起点Face v002 `07ffa41`。独立worktree。元FBX/GLB・Rig v001・Face v002を保護し、共有checkoutの他キャラ差分には触れない。
+- [v003 REVIEW・連続GIF・所有契約・SHA](pino/evidence/texture-ready-v003/REVIEW.md)。編集Blend、LBS4受渡しGLB、共通UV atlasを候補保存。元の開いた笑顔Basisの本体位置/面/corner法線は差0。正式Game Neutralは未決定。
+- 口の局所閉鎖・中間補正・可動内張り、左右瞼/頭皮補正、portable Morph法線を追加。全閉の口内遮蔽と眼被覆、独立Winkを3視点で検証。保存/再import・最小PlayCanvasを実物確認。Blender再importには法線Bridgeが必要。全Motion/スマホPASSへ拡張しない。
+- **総合HOLD / Human Pre-Texture Gate PENDING / Texture GO=NO。** 閉眼遷移に瞼の塊/線が薄れる区間が残り自然さは未達。目標形・口の本人らしさ・細かなUV島の制作性はHuman判断。両前肢stress姿勢の胴/肩つぶれ・深い休息の床下64.9mmがFAIL。浅い屈みを低休息PASSにしない。必要可動域が未承認のため、本番UV凍結後の形状手戻り不要はUNKNOWN。
+- 次はREVIEWのHuman判断と必要Poseの承認。Texture生成・Tripo・最終Motion量産なし。[Face v002の診断履歴](pino/evidence/face-foundation-v002/REVIEW.md)と以下の旧Gate履歴は上書きせず参照する。
 
 ## Pino: previous base rig verification 2026-10-15
 - Branch `codex/pino-base-rig-v001-20261015`、開始 `81432f9`。新Tripo Mixamo FBXを別入力として保全し、65骨を保持した基礎Rig候補へ尾5骨・左右閉眼・支持Skin/IKを追加。Geometry Master・元GLB・Neutral Basisは保護。

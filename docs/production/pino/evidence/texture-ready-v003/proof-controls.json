@@ -1,0 +1,163 @@
+[
+  {
+    "label": "closed",
+    "closed": 1,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "small",
+    "closed": 0.75,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "medium",
+    "closed": 0.4,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "Basis",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "large",
+    "closed": 0,
+    "large": 1,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "medium",
+    "closed": 0.4,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "small",
+    "closed": 0.75,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "near closed",
+    "closed": 0.92,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "closed",
+    "closed": 1,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "half L",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0.5,
+    "blink_R": 0
+  },
+  {
+    "label": "wink L",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 1,
+    "blink_R": 0
+  },
+  {
+    "label": "half L",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0.5,
+    "blink_R": 0
+  },
+  {
+    "label": "open",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  },
+  {
+    "label": "half R",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0.5
+  },
+  {
+    "label": "wink R",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 1
+  },
+  {
+    "label": "half both",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0.5,
+    "blink_R": 0.5
+  },
+  {
+    "label": "three quarter both",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0.75,
+    "blink_R": 0.75
+  },
+  {
+    "label": "settling both",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0.925,
+    "blink_R": 0.925
+  },
+  {
+    "label": "near closed both",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0.95,
+    "blink_R": 0.95
+  },
+  {
+    "label": "closed both",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 1,
+    "blink_R": 1
+  },
+  {
+    "label": "combined",
+    "closed": 1,
+    "large": 0,
+    "blink_L": 0.5,
+    "blink_R": 1
+  },
+  {
+    "label": "combined large",
+    "closed": 0,
+    "large": 1,
+    "blink_L": 1,
+    "blink_R": 1
+  },
+  {
+    "label": "Basis",
+    "closed": 0,
+    "large": 0,
+    "blink_L": 0,
+    "blink_R": 0
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "basis_vertex_max_delta": 0.0,
+  "triangles_equal": true,
+  "canonical_corner_normal_max_delta": 0.0,
+  "objects": [
+    {
+      "name": "PINO_C_BASE_RIG_V001",
+      "vertices": 18858,
+      "max_influences": 4,
+      "weight_sum_max_error": 4.6566128730773926e-08,
+      "uv_loops": 113544,
+      "morphs": [
+        "Basis",
+        "PinoBlink_L",
+        "PinoBlink_R",
+        "PinoMouthClosed",
+        "PinoMouthLarge",
+        "PinoMouthLift",
+        "PinoEyeRetract_L",
+        "PinoEyeRetract_R",
+        "PinoSkinClose_L",
+        "PinoSkinClose_R"
+      ]
+    },
+    {
+      "name": "PinoSoftLids_L",
+      "vertices": 3250,
+      "max_influences": 1,
+      "weight_sum_max_error": 0.0,
+      "uv_loops": 12288,
+      "morphs": [
+        "Basis",
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ]
+    },
+    {
+      "name": "PinoSoftLids_R",
+      "vertices": 3250,
+      "max_influences": 1,
+      "weight_sum_max_error": 0.0,
+      "uv_loops": 12288,
+      "morphs": [
+        "Basis",
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ]
+    },
+    {
+      "name": "PinoOralLiner",
+      "vertices": 1321,
+      "max_influences": 1,
+      "weight_sum_max_error": 0.0,
+      "uv_loops": 1881,
+      "morphs": [
+        "Basis",
+        "OralClosed",
+        "OralLarge",
+        "OralLift",
+        "OralOcclude"
+      ]
+    }
+  ],
+  "uv_overlap_selection": {
+    "PINO_C_BASE_RIG_V001": 0,
+    "PinoSoftLids_L": 0,
+    "PinoSoftLids_R": 0,
+    "PinoOralLiner": 0
+  }
+}

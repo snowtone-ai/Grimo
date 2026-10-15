@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Pino v003 diagnostic HOLD</title><style>body{margin:0;background:#20242a;color:#ddd;font:14px monospace}canvas{width:800px;height:800px}#info{position:fixed;top:10px;left:12px;pointer-events:none;white-space:pre}</style></head><body><canvas id="canvas" width="800" height="800"></canvas><div id="info">Loading</div><script type="module">
+import * as pc from '/_engine/playcanvas.mjs';
+const app=new pc.Application(document.querySelector('canvas'),{graphicsDeviceOptions:{antialias:true,alpha:false,preserveDrawingBuffer:true}});app.start();app.scene.ambientLight=new pc.Color(.25,.25,.25);
+const camera=new pc.Entity('camera');camera.addComponent('camera',{clearColor:new pc.Color(.10,.12,.15),projection:pc.PROJECTION_ORTHOGRAPHIC,orthoHeight:.285,nearClip:.01,farClip:20});app.root.addChild(camera);
+const light=new pc.Entity('key');light.addComponent('light',{type:'directional',color:new pc.Color(1,1,1),intensity:.7,castShadows:false});light.setEulerAngles(35,30,0);app.root.addChild(light);
+const asset=new pc.Asset('Pino v003','container',{url:'/assets/grimo/production/pino/candidate-c/texture-ready-v003/pino-c-texture-ready-v003-HOLD.glb'});app.assets.add(asset);
+const errors=[];addEventListener('error',e=>errors.push(e.message));asset.on('error',e=>{errors.push(String(e));document.querySelector('#info').textContent=String(e)});
+asset.ready(()=>{
+ const root=asset.resource.instantiateRenderEntity();app.root.addChild(root);const mi=root.findComponents('render').flatMap(r=>r.meshInstances);const morphs=[...new Set(mi.map(m=>m.morphInstance).filter(Boolean))];
+ function view(name){const t=new pc.Vec3(0,.64,.16);const d={front:[0,0,3],side:[3,0,0],'3q':[2.12,0,2.12]}[name];camera.setPosition(t.x+d[0],t.y+d[1],t.z+d[2]);camera.lookAt(t);}
+ function smooth(a,b,x){const t=Math.max(0,Math.min(1,(x-a)/(b-a)));return t*t*(3-2*t);}
+ function lidWeight(name,b){
+  if(b<=.9){const knots=[0,.5,.75,.9],names=[null,'LidHalf','LidThreeQuarter','LidAlmostClosed'];for(let i=1;i<knots.length;i++)if(b<=knots[i]){const t=Math.max(0,(b-knots[i-1])/(knots[i]-knots[i-1]));return name===names[i]?t:name===names[i-1]?1-t:0;}}
+  else if(b<.95)return name==='LidAlmostClosed'?1:name==='LidRetreat'?smooth(.9,.95,b):0;
+  else {const t=smooth(.95,1,b);return name==='LidAlmostClosed'||name==='LidRetreat'?1-t:name==='LidClosed'?t:0;}
+  return 0;
+ }
+ function state(closed=0,large=0,left=0,right=0){
+  for(const m of morphs){
+   const node=mi.find(x=>x.morphInstance===m)?.node.name;
+   for(let i=0;i<m.morph.targets.length;i++){
+    const name=m.morph.targets[i].name;let w=0;
+    if(name==='PinoMouthClosed'||name==='OralClosed')w=closed;
+    if(name==='PinoMouthLarge'||name==='OralLarge')w=large;
+    if(name==='PinoMouthLift'||name==='OralLift')w=.6*closed*(1-smooth(.75,1,closed));
+    if(name==='OralOcclude')w=smooth(.85,1,closed);
+    for(const [s,b] of [['L',left],['R',right]]){
+     if(name==='PinoEyeRetract_'+s||name==='PinoSkinClose_'+s)w=smooth(.9,.95,b);
+     if(node?.endsWith('_'+s))w=lidWeight(name,b);
+    }
+    m.setWeight(i,w);
+   }
+  }
+  document.querySelector('#info').textContent=`Pino C v003 — HOLD / Human Gate PENDING\nclosed=${closed} large=${large} L=${left} R=${right}`;
+ }
+ function ownership(on=true){for(const x of mi){const n=x.material.name;if(n.includes('Eye')){x.material.diffuse.set(...(on?[.025,.1,.2]:[.8,.8,.8]));x.material.update();}if(n.includes('Oral')){x.material.diffuse.set(...(on?[.03,.018,.018]:[.8,.8,.8]));x.material.update();}}}
+ view('front');state();window.proof={app,root,mi,morphs,state,view,ownership,errors,ready:true,engine:pc.version};
+});app.assets.load(asset);
+</script></body></html>
