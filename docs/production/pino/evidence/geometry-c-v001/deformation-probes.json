@@ -1,0 +1,1118 @@
+{
+  "tail": [
+    {
+      "edge_ratio_min": 0.8220322161737466,
+      "edge_ratio_max": 1.1775530149406277,
+      "edge_ratio_p01_p99": [
+        0.9349236808326582,
+        1.0686805937389074
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 996,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -1.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8398224055558305,
+      "edge_ratio_max": 1.1597977393853576,
+      "edge_ratio_p01_p99": [
+        0.9411892711353559,
+        1.0616211976108558
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9483,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 991,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.9,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8576145702842363,
+      "edge_ratio_max": 1.1420421228967352,
+      "edge_ratio_p01_p99": [
+        0.9475896021530352,
+        1.0546059579444942
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 996,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.8,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.875408499554823,
+      "edge_ratio_max": 1.1242862836953718,
+      "edge_ratio_p01_p99": [
+        0.9539559284380491,
+        1.0476450598046891
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 996,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.7,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8932039947985361,
+      "edge_ratio_max": 1.1065303438597798,
+      "edge_ratio_p01_p99": [
+        0.9603655192577709,
+        1.0407835136948453
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 996,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.6,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9110008684908,
+      "edge_ratio_max": 1.088774429639816,
+      "edge_ratio_p01_p99": [
+        0.9668616325802101,
+        1.0339376907289124
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 996,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.5,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9287989430971253,
+      "edge_ratio_max": 1.0710186718012464,
+      "edge_ratio_p01_p99": [
+        0.9733905734747705,
+        1.0270979614960765
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9491,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 999,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.3999999999999999,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9465980501371489,
+      "edge_ratio_max": 1.0532632060050156,
+      "edge_ratio_p01_p99": [
+        0.9799772595566969,
+        1.0202809929577408
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9490,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 998,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.29999999999999993,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9643980293518836,
+      "edge_ratio_max": 1.0355081732254223,
+      "edge_ratio_p01_p99": [
+        0.9866003957715478,
+        1.0134773277458653
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9490,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 998,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.19999999999999996,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9821987279611435,
+      "edge_ratio_max": 1.0177537202119435,
+      "edge_ratio_p01_p99": [
+        0.9932760052415038,
+        1.0067220814616773
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9489,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 997,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": -0.09999999999999998,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 1.0,
+      "edge_ratio_max": 1.0,
+      "edge_ratio_p01_p99": [
+        1.0,
+        1.0
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9485,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9822471724769392,
+      "edge_ratio_max": 1.0178017057246076,
+      "edge_ratio_p01_p99": [
+        0.9933213609668557,
+        1.0067670244760871
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9495,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1003,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.10000000000000009,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9644954050102333,
+      "edge_ratio_max": 1.0356037110791234,
+      "edge_ratio_p01_p99": [
+        0.9866742364974186,
+        1.0135582373639418
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9495,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1003,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.20000000000000018,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9467448731460125,
+      "edge_ratio_max": 1.053405887216497,
+      "edge_ratio_p01_p99": [
+        0.9800838039030946,
+        1.0203871240899156
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9497,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1005,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.30000000000000004,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9289957613873143,
+      "edge_ratio_max": 1.07120811006693,
+      "edge_ratio_p01_p99": [
+        0.9735358983205384,
+        1.0272303089589603
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9494,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1002,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.40000000000000013,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9112482640627908,
+      "edge_ratio_max": 1.0890102599485312,
+      "edge_ratio_p01_p99": [
+        0.9669616979739459,
+        1.0341322631492145
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9496,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1004,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.5,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8935025862984008,
+      "edge_ratio_max": 1.1068122212154599,
+      "edge_ratio_p01_p99": [
+        0.9604824228002007,
+        1.0410819079704063
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9496,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1004,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.6000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8757589451065405,
+      "edge_ratio_max": 1.124613881939424,
+      "edge_ratio_p01_p99": [
+        0.9540641789721503,
+        1.048061168403474
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9495,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1003,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.7000000000000002,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8580175706095173,
+      "edge_ratio_max": 1.142415133620883,
+      "edge_ratio_p01_p99": [
+        0.9477126130223118,
+        1.0550970780134163
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9494,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1002,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.8,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8402787074170256,
+      "edge_ratio_max": 1.160215870926799,
+      "edge_ratio_p01_p99": [
+        0.9414282817010119,
+        1.0621639887024363
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9492,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1000,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.9000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8225426161806744,
+      "edge_ratio_max": 1.178015991452139,
+      "edge_ratio_p01_p99": [
+        0.9352033410334283,
+        1.0692203882747935
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9494,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 1002,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 1.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    }
+  ],
+  "paw-L": [
+    {
+      "edge_ratio_min": 1.0,
+      "edge_ratio_max": 1.0,
+      "edge_ratio_p01_p99": [
+        1.0,
+        1.0
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9485,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9324038024729643,
+      "edge_ratio_max": 1.087603627499576,
+      "edge_ratio_p01_p99": [
+        0.992288951641977,
+        1.0038177592310613
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9499,
+      "body_self_intersections": 3352,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.1,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.866740781765931,
+      "edge_ratio_max": 1.1789161161719903,
+      "edge_ratio_p01_p99": [
+        0.9850269791073892,
+        1.0080705469798357
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9495,
+      "body_self_intersections": 3348,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.2,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.803502144707701,
+      "edge_ratio_max": 1.273115300342233,
+      "edge_ratio_p01_p99": [
+        0.9780472842370342,
+        1.0130698299782088
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9489,
+      "body_self_intersections": 3342,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.30000000000000004,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.7433234693280154,
+      "edge_ratio_max": 1.369580378334055,
+      "edge_ratio_p01_p99": [
+        0.9722270913911302,
+        1.0182925612278464
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9494,
+      "body_self_intersections": 3347,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.4,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6870251105153704,
+      "edge_ratio_max": 1.4678386293061645,
+      "edge_ratio_p01_p99": [
+        0.966644333272089,
+        1.0242592466460183
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3341,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.5,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6356536866048329,
+      "edge_ratio_max": 1.5675262005953208,
+      "edge_ratio_p01_p99": [
+        0.9610751841637983,
+        1.0302534173845523
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9487,
+      "body_self_intersections": 3340,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.6000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.590509879584177,
+      "edge_ratio_max": 1.668359689142701,
+      "edge_ratio_p01_p99": [
+        0.9560216213136857,
+        1.0364507688080655
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9497,
+      "body_self_intersections": 3350,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.7000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5531322752060484,
+      "edge_ratio_max": 1.770115621849127,
+      "edge_ratio_p01_p99": [
+        0.9522480735062667,
+        1.042621670229975
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9499,
+      "body_self_intersections": 3352,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.8,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5251911538782873,
+      "edge_ratio_max": 1.8726155983598158,
+      "edge_ratio_p01_p99": [
+        0.9496520845355266,
+        1.051355030435784
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9506,
+      "body_self_intersections": 3359,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.9,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.508252136611038,
+      "edge_ratio_max": 1.9757154648255122,
+      "edge_ratio_p01_p99": [
+        0.9451511937461301,
+        1.0611407348836666
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9497,
+      "body_self_intersections": 3350,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 1.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    }
+  ],
+  "paw-R": [
+    {
+      "edge_ratio_min": 1.0,
+      "edge_ratio_max": 1.0,
+      "edge_ratio_p01_p99": [
+        1.0,
+        1.0
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9485,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9326555752715386,
+      "edge_ratio_max": 1.0886377695323617,
+      "edge_ratio_p01_p99": [
+        0.9928066890410915,
+        1.003820538861519
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9484,
+      "body_self_intersections": 3337,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.1,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8693684831723785,
+      "edge_ratio_max": 1.1812109211314994,
+      "edge_ratio_p01_p99": [
+        0.9860732914214708,
+        1.0079654603649484
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3341,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.2,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8091124227225687,
+      "edge_ratio_max": 1.2768375557830764,
+      "edge_ratio_p01_p99": [
+        0.9799924734381417,
+        1.012987340690558
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9484,
+      "body_self_intersections": 3337,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.30000000000000004,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.7513599522209742,
+      "edge_ratio_max": 1.3748534319093593,
+      "edge_ratio_p01_p99": [
+        0.9741753352464939,
+        1.0180466762067875
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9487,
+      "body_self_intersections": 3340,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.4,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6978216374486675,
+      "edge_ratio_max": 1.4747541548408893,
+      "edge_ratio_p01_p99": [
+        0.9691363927117302,
+        1.0233535694770677
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9487,
+      "body_self_intersections": 3340,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.5,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6495547895362621,
+      "edge_ratio_max": 1.576152578599769,
+      "edge_ratio_p01_p99": [
+        0.964772566621276,
+        1.02896605253523
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9485,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.6000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.60755672001948,
+      "edge_ratio_max": 1.6787479635455151,
+      "edge_ratio_p01_p99": [
+        0.9601902459196409,
+        1.0351857533251942
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9487,
+      "body_self_intersections": 3340,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.7000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5697942615225643,
+      "edge_ratio_max": 1.78230375262498,
+      "edge_ratio_p01_p99": [
+        0.9560824701684131,
+        1.0411803097873573
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9490,
+      "body_self_intersections": 3343,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.8,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5400328590128404,
+      "edge_ratio_max": 1.8866315218846477,
+      "edge_ratio_p01_p99": [
+        0.9533874387573095,
+        1.0487504921423385
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9493,
+      "body_self_intersections": 3346,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.9,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5196513405083133,
+      "edge_ratio_max": 1.9915793180885324,
+      "edge_ratio_p01_p99": [
+        0.9499049681240687,
+        1.057816271078467
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9491,
+      "body_self_intersections": 3344,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 1.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    }
+  ],
+  "paws-both": [
+    {
+      "edge_ratio_min": 1.0,
+      "edge_ratio_max": 1.0,
+      "edge_ratio_p01_p99": [
+        1.0,
+        1.0
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9485,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9324038024729643,
+      "edge_ratio_max": 1.0886377695323617,
+      "edge_ratio_p01_p99": [
+        0.9821850720544184,
+        1.0116517125418159
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9498,
+      "body_self_intersections": 3351,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.1,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.866740781765931,
+      "edge_ratio_max": 1.1812109211314994,
+      "edge_ratio_p01_p99": [
+        0.9659482898121222,
+        1.02549544800967
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9498,
+      "body_self_intersections": 3351,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.2,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.803502144707701,
+      "edge_ratio_max": 1.2768375557830764,
+      "edge_ratio_p01_p99": [
+        0.9501838260933623,
+        1.042927822767901
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9488,
+      "body_self_intersections": 3341,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.30000000000000004,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.7433234693280154,
+      "edge_ratio_max": 1.3748534319093593,
+      "edge_ratio_p01_p99": [
+        0.9354347229602449,
+        1.0617244454863204
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9496,
+      "body_self_intersections": 3349,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.4,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6870251105153704,
+      "edge_ratio_max": 1.4747541548408893,
+      "edge_ratio_p01_p99": [
+        0.9227287402093981,
+        1.0825754969497203
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9490,
+      "body_self_intersections": 3343,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.5,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6356536866048329,
+      "edge_ratio_max": 1.576152578599769,
+      "edge_ratio_p01_p99": [
+        0.9118755607258445,
+        1.106621660179974
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9487,
+      "body_self_intersections": 3340,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.6000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.590509879584177,
+      "edge_ratio_max": 1.6787479635455151,
+      "edge_ratio_p01_p99": [
+        0.902121697298135,
+        1.132700723515298
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9499,
+      "body_self_intersections": 3352,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.7000000000000001,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5531322752060484,
+      "edge_ratio_max": 1.78230375262498,
+      "edge_ratio_p01_p99": [
+        0.892599537280087,
+        1.1579241092182966
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9504,
+      "body_self_intersections": 3357,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.8,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5251911538782873,
+      "edge_ratio_max": 1.8866315218846477,
+      "edge_ratio_p01_p99": [
+        0.8843378551120202,
+        1.181738331350865
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9514,
+      "body_self_intersections": 3367,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.9,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.508252136611038,
+      "edge_ratio_max": 1.9915793180885324,
+      "edge_ratio_p01_p99": [
+        0.8760611074164921,
+        1.2089098743221733
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9503,
+      "body_self_intersections": 3356,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 1.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    }
+  ],
+  "low-rest": [
+    {
+      "edge_ratio_min": 1.0,
+      "edge_ratio_max": 1.0,
+      "edge_ratio_p01_p99": [
+        1.0,
+        1.0
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9485,
+      "body_self_intersections": 3338,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9605335877169443,
+      "edge_ratio_max": 1.0069049925611875,
+      "edge_ratio_p01_p99": [
+        0.9646132022490511,
+        1.0036370849561782
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9510,
+      "body_self_intersections": 3363,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.07142857142857142,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.9210671762005217,
+      "edge_ratio_max": 1.0138445216292415,
+      "edge_ratio_p01_p99": [
+        0.9293636709841616,
+        1.0073034569775257
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9507,
+      "body_self_intersections": 3360,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.14285714285714285,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8816007655537055,
+      "edge_ratio_max": 1.0208178828659658,
+      "edge_ratio_p01_p99": [
+        0.8941406130935543,
+        1.010988244140173
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9509,
+      "body_self_intersections": 3362,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.21428571428571427,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8421343558987271,
+      "edge_ratio_max": 1.0278243876599835,
+      "edge_ratio_p01_p99": [
+        0.8591234457261762,
+        1.0147473816827959
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9510,
+      "body_self_intersections": 3363,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.2857142857142857,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.8026679473819059,
+      "edge_ratio_max": 1.0348633628197634,
+      "edge_ratio_p01_p99": [
+        0.8243845962267702,
+        1.0185007756376043
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9510,
+      "body_self_intersections": 3363,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.3571428571428571,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.76320154017981,
+      "edge_ratio_max": 1.041934150267172,
+      "edge_ratio_p01_p99": [
+        0.7895654000612751,
+        1.0222798581205375
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9504,
+      "body_self_intersections": 3357,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.42857142857142855,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.7237351345075211,
+      "edge_ratio_max": 1.049036106732111,
+      "edge_ratio_p01_p99": [
+        0.7549698532228306,
+        1.0260673648499141
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9506,
+      "body_self_intersections": 3357,
+      "tail_body_intersections": 995,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.5,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6842687306297565,
+      "edge_ratio_max": 1.0561686034486617,
+      "edge_ratio_p01_p99": [
+        0.7205085059355492,
+        1.0298444693906117
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9504,
+      "body_self_intersections": 3357,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.5714285714285714,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6448023288759975,
+      "edge_ratio_max": 1.0633310258532223,
+      "edge_ratio_p01_p99": [
+        0.6863215248514511,
+        1.0336885953214126
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9501,
+      "body_self_intersections": 3355,
+      "tail_body_intersections": 992,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.6428571428571428,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.6053359296617008,
+      "edge_ratio_max": 1.0705227732849858,
+      "edge_ratio_p01_p99": [
+        0.6524805729930574,
+        1.0376010129154114
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9502,
+      "body_self_intersections": 3355,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.7142857142857142,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5658695335182156,
+      "edge_ratio_max": 1.0777432586891145,
+      "edge_ratio_p01_p99": [
+        0.6190442172638246,
+        1.041565441211124
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9502,
+      "body_self_intersections": 3355,
+      "tail_body_intersections": 993,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.7857142857142857,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.5264031411362164,
+      "edge_ratio_max": 1.0849919083229258,
+      "edge_ratio_p01_p99": [
+        0.5852683378684782,
+        1.045541137740398
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9501,
+      "body_self_intersections": 3355,
+      "tail_body_intersections": 992,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.8571428571428571,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.48693675343032133,
+      "edge_ratio_max": 1.0922681614653782,
+      "edge_ratio_p01_p99": [
+        0.5520848656798144,
+        1.0495492265033928
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9501,
+      "body_self_intersections": 3355,
+      "tail_body_intersections": 992,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 0.9285714285714285,
+      "locked_foot_vertex_max_displacement": 0.0
+    },
+    {
+      "edge_ratio_min": 0.4474703716378188,
+      "edge_ratio_max": 1.099758386873531,
+      "edge_ratio_p01_p99": [
+        0.5193301315580058,
+        1.0534114180860379
+      ],
+      "degenerate_triangles": 0,
+      "disjoint_intersection_pairs": 9501,
+      "body_self_intersections": 3355,
+      "tail_body_intersections": 992,
+      "floor_penetration_below_minus_1e_6": 0,
+      "lowest_z": 0.0,
+      "strength": 1.0,
+      "locked_foot_vertex_max_displacement": 0.0
+    }
+  ],
+  "neutral_return_exact": true,
+  "scope": "69 sampled synthetic deformations on a duplicate; no rig, approved angular range, or final Motion PASS"
+}

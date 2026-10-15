@@ -1,0 +1,37 @@
+{
+  "master": {
+    "status": "HUMAN_SELECTED",
+    "source": "assets/grimo/production/pino/candidate-c/source/cute blue creature 3d model.fbx",
+    "sha256": "3531eddb0578be8e4885b942db629a97a949d2039eb496c88ed1dc041372a111",
+    "decision_date": "2026-10-15",
+    "human_answer": "差異を把握したうえでFBXを唯一のMasterにする（原則どおり）",
+    "provenance": "Explicit Human answer to the cross-format discrepancy review in this task; acknowledges imported surface and Specular differences.",
+    "comparison": [
+      "originals-comparison.json",
+      "originals-pixel-comparison.json",
+      "originals-comparison-01.png",
+      "fbx-glb-consistency.json"
+    ],
+    "glb_role": "Immutable original comparison only; all subsequent working models and GLB export derive solely from the FBX Master.",
+    "approval_scope": "Master source selection only. Human Geometry Gate remains PENDING; no repair, pose, texture or final rig approval."
+  },
+  "appearance_reference_sha256": "ee7339f8e4339037b87880b75d90fd944fe7dda84f696c2be42db7ea0f24da11",
+  "native_fbx_positions_exact_to_glb_reference": true,
+  "export_triangle_count": 37848,
+  "export_triangles_not_contained_in_fbx_faces": [],
+  "candidate_face_count_histogram": {
+    "1": 37813,
+    "2": 34,
+    "3": 1
+  },
+  "policy": "FBX native vertex coordinates are sole exported position source. Original GLB supplies export tessellation, split-normal bytes and material values solely to preserve its formal Neutral appearance. No independent GLB repair or vertex edit.",
+  "repair": "NONE ADOPTED; overlapping tails/root and global topology remain BLOCKED",
+  "human_geometry_gate": "PENDING",
+  "status": "EXPORTED / RETAINED GEOMETRY / APPEARANCE VERIFICATION REQUIRED",
+  "output": "assets/grimo/production/pino/candidate-c/delivery/pino-c-master-derived-neutral.glb",
+  "output_sha256": "68c227e458a52ebe74631a1f51e6b28b056b3147635c672abbe16ce936df13b9",
+  "active_binary_payload_byte_exact_to_reference": true,
+  "materials_exact_to_reference": true,
+  "master_source_sha256_after": "3531eddb0578be8e4885b942db629a97a949d2039eb496c88ed1dc041372a111",
+  "reference_sha256_after": "ee7339f8e4339037b87880b75d90fd944fe7dda84f696c2be42db7ea0f24da11"
+}

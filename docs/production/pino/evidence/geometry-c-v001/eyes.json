@@ -1,0 +1,51 @@
+{
+  "eyes": [
+    {
+      "anatomical_side": "R",
+      "component": 8,
+      "vertices": 248,
+      "bounds": [
+        [
+          -0.1940917819738388,
+          -0.3742676079273224,
+          0.59228515625
+        ],
+        [
+          -0.0886230319738388,
+          -0.3044433891773224,
+          0.712890625
+        ]
+      ],
+      "width": 0.10546875,
+      "height": 0.12060546875,
+      "depth": 0.06982421875,
+      "boundary_edges": 34,
+      "eyelid_gaze_control": "UNKNOWN; absent rig/morph"
+    },
+    {
+      "anatomical_side": "L",
+      "component": 9,
+      "vertices": 248,
+      "bounds": [
+        [
+          0.0886230617761612,
+          -0.3742675483226776,
+          0.59228515625
+        ],
+        [
+          0.1940918117761612,
+          -0.3044433295726776,
+          0.712890625
+        ]
+      ],
+      "width": 0.10546875,
+      "height": 0.12060546875,
+      "depth": 0.06982421875,
+      "boundary_edges": 34,
+      "eyelid_gaze_control": "UNKNOWN; absent rig/morph"
+    }
+  ],
+  "open_surfaces_both_present": true,
+  "complete_closed_eyeball_volumes": false,
+  "blink_and_gaze": "UNKNOWN"
+}

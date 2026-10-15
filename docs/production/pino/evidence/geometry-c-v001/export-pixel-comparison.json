@@ -1,0 +1,60 @@
+{
+  "all_nine_views_pixel_exact": true,
+  "views": [
+    {
+      "view": "front",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "front-left",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "left",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "back",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "right",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "front-right",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "rear-left",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "top",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    },
+    {
+      "view": "underside",
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_abs_delta": 0.0
+    }
+  ],
+  "limit": "Deterministic sampled views supplement exact active binary payload, material JSON and reimported surface/normal equality; no Motion or Tripo PASS implied."
+}

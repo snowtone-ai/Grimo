@@ -1,0 +1,34 @@
+{
+  "human_geometry_gate": "PENDING",
+  "tripo_readiness": "HOLD / BLOCKED",
+  "tripo_operations": false,
+  "adopted_repairs": false,
+  "master": "FBX only",
+  "appearance_reference": "immutable original GLB",
+  "neutral_appearance": "PASS: exact active GLB binary/material data, reimport equality and nine pixel-exact views",
+  "neutral_return": "PASS: 14 sequences / 42 rendered returns; saved Master/replay readback verified",
+  "actual_test_frames": 182,
+  "actual_view_renders": 546,
+  "tests": {
+    "tail": {
+      "status": "FAIL / HOLD overall",
+      "bounded_volume": "PASS",
+      "reason": "Triple shell and unwelded overlapping root remain unresolved; production connection/collision suitability unknown"
+    },
+    "eyes": {
+      "status": "UNKNOWN / HOLD",
+      "reason": "Independent actual blink/wink/half/full-close attempts demonstrated; natural eyelid/eyeball closure and identity require Human review"
+    },
+    "forepaws": {
+      "status": "FAIL",
+      "reason": "Both-hand contact not reached; local distortion; endpoint-fitted fixtures do not establish general Food/Gift grasp"
+    },
+    "low-rest": {
+      "status": "FAIL",
+      "reason": "Attempted method loses natural face/body volume; 255 floor-penetrating vertices; belly/tail support absent; physical COM unknown"
+    }
+  },
+  "feasibility_of_untried_rig_methods": "UNKNOWN; failed diagnostic methods do not prove impossibility",
+  "runtime_smartphone_and_tripo_import": "UNKNOWN; not exercised",
+  "authority_lock": "2abea76fad578281f74b9fa628987a80b56ad6dc / integrated identical blob via main 8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b"
+}

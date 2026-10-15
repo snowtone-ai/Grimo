@@ -1,0 +1,114 @@
+{
+  "nonzero_sample_hashes_rechecked": 150,
+  "replay_frames": 182,
+  "neutral_restoration_exact": {
+    "local_vertices": true,
+    "corner_normals": true
+  },
+  "neutral_formula_normalization": [
+    {
+      "sequence": "tail",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "eyes-L-blink",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "eyes-R-blink",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "eyes-L-wink",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "eyes-R-wink",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "eyes-half",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "eyes-full-close",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "raise-L",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "raise-R",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "high-five-L",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "both-contact",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "food-hold",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "gift-present",
+      "initial_formula_return_flag": true,
+      "changes": []
+    },
+    {
+      "sequence": "low-rest",
+      "initial_formula_return_flag": false,
+      "changes": [
+        {
+          "frame": 0,
+          "old_formula_sha256": "b442da7def87f35f3549a1f61110529efe257ac337520abc38d429e4870ad8ee",
+          "exact_source_sha256": "fb7fd9aae627d096a733e4af51aa5c75e53cc2e381ecd273d98359b3db64bde0",
+          "old_render_hashes": {
+            "front": "ebd67dfeea33a8cfc7eb9894cde77203164592cdb728f39379c769c852f135ac",
+            "threequarter": "0a408c0f45d85648d8a2c3fecfd4d42b65f17ca6bd9df7daf3098262694f496a",
+            "side": "b10ba93f6447f3cf47bb78758131bdb4a9ae1abb99e0a914b0a5b3bffa45949b"
+          },
+          "new_render_hashes": {
+            "front": "eeb346bc5de7fc8bb2f2f527977a481c88f263948ea60497fa81ee2dcc0e8592",
+            "threequarter": "c25008dd1817622066384c6e7d7b9a968c53b24a5cab90883e68a317ea4a361c",
+            "side": "b3f008a41b8ffb71661c0dded09236876b37b280ddd23f6ceba533fd41b526c2"
+          }
+        },
+        {
+          "frame": 24,
+          "old_formula_sha256": "b442da7def87f35f3549a1f61110529efe257ac337520abc38d429e4870ad8ee",
+          "exact_source_sha256": "fb7fd9aae627d096a733e4af51aa5c75e53cc2e381ecd273d98359b3db64bde0",
+          "old_render_hashes": {
+            "front": "919c0de977b5b0f4940b6ec941181547e0fb178cd84cf9f87216990f177ae934",
+            "threequarter": "fed42f0505853f89f42434bcb2387af18b4ca6c3b938fafb5d61c9a5657227f7",
+            "side": "c54dd266eeda1e8888069ffaa5947be3ea30af70c42e094eb35b6290c2efcd44"
+          },
+          "new_render_hashes": {
+            "front": "34fffefd2d638baef920fc205bfa588f24531fc1f6631a7f87868853d13262ae",
+            "threequarter": "fd6d6089e3ab640b21a8f301e2839ef398f524665b095a81a909ae1f7a37bc3f",
+            "side": "d69256dd4abe1a1680d6082e6f5138204f25bbe64929abf5d28444b9943c12ab"
+          }
+        }
+      ]
+    }
+  ],
+  "explanation": "Zero-strength formulas had floating point subtract/add residue in initial diagnostic calculations. Use literal original vertices for zero strength. Saved source Neutral was already restored exactly. No nonzero trial was changed or rerun.",
+  "endpoint_correction": "Half-eye Cycles supplement now uses .5 closure, matching its original actual moving trial.",
+  "human_geometry_gate": "PENDING"
+}

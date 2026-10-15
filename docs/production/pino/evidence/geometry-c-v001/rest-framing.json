@@ -1,0 +1,11 @@
+{
+  "geometry_changed": false,
+  "sample_hashes_rechecked": 25,
+  "orthographic_scale": 1.8,
+  "target": [
+    0,
+    -0.2,
+    0.38
+  ],
+  "reason": "Original pose extremes exceeded tight framing. Re-render same actual samples with fixed larger framing for all rest frames/views. Failure remains visible; no pose correction adopted."
+}

@@ -12,7 +12,15 @@
 - **保護した判断/資産:** Canonical・承認済み参照#01–26を維持。修正版#27はUNKNOWN。v001/v002を造形ドナーにせず、既存のローカル変更を保存。`main@526a1b3`の3文書方針を確認し、制作ブランチへmainを一括マージ/リベースしていない。
 - **Tripo:** upload・Texture・Auto Rig・課金・無料試行を実行していない。Studio適合性・アカウント/クレジットはUNKNOWN。ローカルFBX/GLB往復だけでGOにしない。
 
+## Pino C — 2026-10-15 / Codex
+
+- **Branch:** `codex/pino-c-geometry-gate-20261015`。FBXを唯一のGeometry Master、元GLBを正式なNeutral外観基準とするHuman判断を記録。原本2ファイルはハッシュ不変。
+- **Evidence:** [Pino C REVIEW](pino/evidence/geometry-c-v001/REVIEW.md)。Master派生GLBは元GLBと属性・法線・材質および9視点ピクセル一致。4種類の実変形試験182フレームを複製で実行し、GIF・3視点極値・保存再読込証拠あり。
+- **Gate:** Human Geometry Gate **PENDING / Tripo HOLD**。尾の3重殻・根元接続は未解決。前肢の両手接触と低い休息の試験はFAIL。閉眼の自然さ・重心・未試験Rig方式はUNKNOWN。内部補修は採用せず、失敗した変形を完成品へ適用していない。
+- **Appearance lock:** 制作ブランチ`2abea76fad57`と同一AGENTS blobをmain `8e4996c63c6d`経由で安全に統合。別checkoutのShushu等の未コミット成果を保護。Tripo・課金・UV/Texture・最終Rig/Motion量産は未実行。
+- **次のHuman判断:** Pino REVIEWのNeutral維持・眼・前肢接触・低休息の実映像と未解決の尾根を確認する。Technical PASSを本人らしさ・可愛さの承認にしない。
+
 ## Next
-**次のHuman操作:** 上記REVIEWの本人らしさ・まぶた・座位を確認する。Codexは外観指摘があれば該当部位を修正し、承認を捏造せず次のGeometry Gateへ進める。Tripo操作には別途明示承認が必要。Goal√mapは制作WHY、製品仕様・Canonicalは別の正本。Handoffの更新は重要な進捗・承認・障害・担当変更時のみ行い、履歴はGitとEvidenceへ残す。
+**次のHuman操作:** Shushuは既存REVIEWの本人らしさ・まぶた・座位、PinoはPino C REVIEWの実映像と未解決事項を確認する。Codexは承認を捏造せず次のGeometry Gateへ進める。Pinoの外観固定条件を維持し、Tripo操作には別途明示承認が必要。Goal√mapは制作WHY、製品仕様・Canonicalは別の正本。Handoffの更新は重要な進捗・承認・障害・担当変更時のみ行い、履歴はGitとEvidenceへ残す。
 
 **Migration:** 今後の3ファイルの正本は`main`上のローカルパス。旧`coord/grimo-ai-handoff`は履歴用であり、制作を始めるたびに取得しない。進行中の制作ブランチは勝手にマージしない。
