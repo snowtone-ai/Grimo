@@ -1,6 +1,10 @@
 # Shushu Production Rig v004 — true-seat candidate
 
-**Appearance HOLD / Human PENDING.** v004 replaces v003's crouched Seat with a forward-foot, lowered-rump sitting design. Both short legs advance independently of the hips; the heels roll while support transfers toward the rump. The accepted v003 face and standing Neutral side are locked. The side leg/abdomen junction and resting/return appeal remain unapproved. This candidate does not replace v003 or an approved static asset.
+**Human appearance PASS (2026-10-15) for the presented v004 comparisons and seat→rest→return video.** Earlier Codex appearance HOLD notes below are historical observations, not an overriding Human verdict. Unreviewed Rig behavior, physical support, PlayCanvas/phone runtime and items remain HOLD. v004 replaces v003's crouched Seat with a forward-foot, lowered-rump sitting design. Both short legs advance independently of the hips; the heels roll while support transfers toward the rump. The accepted v003 face and standing Neutral side are locked. The side leg/abdomen junction and resting/return appeal remain unapproved. This candidate does not replace v003 or an approved static asset.
+
+## Human visual decision — 2026-10-15
+
+Human explicitly approved the supplied v004 comparison boards (approved source model vs v003/v004, Neutral, forward-leg sitting transition, seated compositions across Front/Side and reference 23/24) **and the seat→return video**: 「OK.動画もみてOK」. **Human appearance PASS for this reviewed v004 scope.** The side thigh/abdomen contour, held-paw shoulder folds and simple return seen in the reviewed outputs are accepted within that scope; retain their earlier Codex warnings as history and investigate if future Motion causes new problems. This does **not** certify arbitrary poses, true physical load/contact, full Skin in PlayCanvas, real item fit or smartphone runtime. Do not edit the approved v004 appearance merely to eliminate pre-approval cosmetic HOLD notes.
 
 ## Open first
 
