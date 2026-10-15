@@ -1,0 +1,14 @@
+{
+  "vertex_index_max_distance": 8.940696716308594e-08,
+  "index_topology_triangles_only_in_fbx": 18,
+  "index_topology_triangles_only_in_glb": 18,
+  "sampled_bidirectional_surface_max_distance": 0.0009610538836568594,
+  "samples_per_direction": [
+    56706,
+    56706
+  ],
+  "vertex_mean_custom_normal_angle_deg_max": 0.20303169747269637,
+  "vertex_mean_custom_normal_angle_deg_p99": 0.009643248124145203,
+  "undefined_vertex_mean_normals": 5,
+  "caveat": "Vertex-mean normals do not prove all split-corner normals. FBX ngons are retessellated by Blender. Cross-format differences are reported; do not replace either original."
+}

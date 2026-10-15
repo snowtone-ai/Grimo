@@ -1,0 +1,12 @@
+{
+  "status": "HUMAN_SELECTED",
+  "source": "assets/grimo/production/pino/candidate-c/source/cute blue creature 3d model.fbx",
+  "sha256": "3531eddb0578be8e4885b942db629a97a949d2039eb496c88ed1dc041372a111",
+  "decision_date": "2026-10-15",
+  "human_answer": "差異を把握したうえでFBXを唯一のMasterにする（原則どおり）",
+  "provenance": "Explicit Human answer to the cross-format discrepancy review in this task; acknowledges imported surface and Specular differences.",
+  "comparison": ["originals-comparison.json", "originals-pixel-comparison.json", "originals-comparison-01.png", "fbx-glb-consistency.json"],
+  "glb_role": "Immutable formal Neutral appearance reference; all geometry editing models derive solely from FBX, and the final derived GLB must preserve original GLB appearance.",
+  "human_appearance_priority": "FBXをGeometry編集の唯一のMaster、元GLBを外観比較の正式基準とします。元GLBの見た目を最優先し、FBXとGLBのSpecular差や三角形化による差を、意図的な外観変更として完成品に持ち込まないでください。",
+  "approval_scope": "Master source selection only. Human Geometry Gate remains PENDING; no repair, pose, texture or final rig approval."
+}

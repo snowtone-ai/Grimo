@@ -1,0 +1,322 @@
+{
+  "components": [
+    {
+      "id": 0,
+      "boundary_edges": 234,
+      "overconnected_edges": 325,
+      "manifold_edge_face_islands": [
+        22127,
+        12,
+        9,
+        6,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "unique_positions": 11002
+    },
+    {
+      "id": 1,
+      "boundary_edges": 68,
+      "overconnected_edges": 31,
+      "manifold_edge_face_islands": [
+        1507,
+        1491,
+        1443,
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "unique_positions": 2236
+    },
+    {
+      "id": 2,
+      "boundary_edges": 0,
+      "overconnected_edges": 4,
+      "manifold_edge_face_islands": [
+        1476,
+        1476
+      ],
+      "unique_positions": 1472
+    },
+    {
+      "id": 3,
+      "boundary_edges": 3,
+      "overconnected_edges": 15,
+      "manifold_edge_face_islands": [
+        908,
+        698
+      ],
+      "unique_positions": 799
+    },
+    {
+      "id": 4,
+      "boundary_edges": 36,
+      "overconnected_edges": 15,
+      "manifold_edge_face_islands": [
+        904,
+        665
+      ],
+      "unique_positions": 796
+    },
+    {
+      "id": 5,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        1476
+      ],
+      "unique_positions": 740
+    },
+    {
+      "id": 6,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        926
+      ],
+      "unique_positions": 465
+    },
+    {
+      "id": 7,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        926
+      ],
+      "unique_positions": 465
+    },
+    {
+      "id": 8,
+      "boundary_edges": 34,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        460
+      ],
+      "unique_positions": 248
+    },
+    {
+      "id": 9,
+      "boundary_edges": 34,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        460
+      ],
+      "unique_positions": 248
+    },
+    {
+      "id": 10,
+      "boundary_edges": 16,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        158
+      ],
+      "unique_positions": 88
+    },
+    {
+      "id": 11,
+      "boundary_edges": 16,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        158
+      ],
+      "unique_positions": 88
+    },
+    {
+      "id": 12,
+      "boundary_edges": 14,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        130
+      ],
+      "unique_positions": 73
+    },
+    {
+      "id": 13,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        42
+      ],
+      "unique_positions": 23
+    },
+    {
+      "id": 14,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        42
+      ],
+      "unique_positions": 23
+    },
+    {
+      "id": 15,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        42
+      ],
+      "unique_positions": 23
+    },
+    {
+      "id": 16,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        42
+      ],
+      "unique_positions": 23
+    },
+    {
+      "id": 17,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        42
+      ],
+      "unique_positions": 23
+    },
+    {
+      "id": 18,
+      "boundary_edges": 0,
+      "overconnected_edges": 0,
+      "manifold_edge_face_islands": [
+        42
+      ],
+      "unique_positions": 23
+    }
+  ],
+  "tail_inner_in_outer_winding": {
+    "samples": 2216,
+    "min": 1.8466128302416165,
+    "max": 1.9998946929961552,
+    "percentiles": [
+      1.8466128302416165,
+      1.994844268261078,
+      1.9997951170810508,
+      1.9998920093694943,
+      1.9998946929961552
+    ]
+  },
+  "tail_body_shared_vertices": 0,
+  "tail_component_ids": [
+    2,
+    5
+  ],
+  "body_component_id": 0,
+  "note": "Raw vertex-index connectivity; face islands split only across non-2-face edges. Winding is diagnostic because outer tail is nonmanifold."
+}

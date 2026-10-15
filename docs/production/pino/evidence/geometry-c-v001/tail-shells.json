@@ -1,0 +1,45 @@
+{
+  "shells": [
+    {
+      "label": "tail-A",
+      "triangles": 1476,
+      "vertices": 740,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "bounds": [
+        [
+          -0.21459966897964478,
+          -0.042724620550870895,
+          0.05029296875
+        ],
+        [
+          0.21459954977035522,
+          0.429443359375,
+          0.5556640625
+        ]
+      ]
+    },
+    {
+      "label": "tail-B",
+      "triangles": 1476,
+      "vertices": 740,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "bounds": [
+        [
+          -0.21069341897964478,
+          -0.038818370550870895,
+          0.05517578125
+        ],
+        [
+          0.21069329977035522,
+          0.425537109375,
+          0.5517578125
+        ]
+      ]
+    }
+  ],
+  "inner_component": 5,
+  "inner_triangles": 1476,
+  "shared_vertex_count_between_A_B": 8
+}

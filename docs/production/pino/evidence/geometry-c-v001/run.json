@@ -1,0 +1,66 @@
+{
+  "blender": "5.2.1 LTS",
+  "source_sha256": "ee7339f8e4339037b87880b75d90fd944fe7dda84f696c2be42db7ea0f24da11",
+  "script_sha256": "01cbea56649de7355945fb347833ba9082701357775a2a7309b444cf06ce2d2e",
+  "render": {
+    "engine": "Cycles CPU",
+    "samples": 32,
+    "denoise": false,
+    "seed": 0,
+    "resolution": [
+      640,
+      640
+    ],
+    "color": "Standard exposure -0.3",
+    "views": {
+      "front": [
+        0,
+        -1,
+        0.08
+      ],
+      "front-left": [
+        1,
+        -1,
+        0.12
+      ],
+      "left": [
+        1,
+        0,
+        0.04
+      ],
+      "rear-left": [
+        1,
+        1,
+        0.12
+      ],
+      "back": [
+        0,
+        1,
+        0.08
+      ],
+      "right": [
+        -1,
+        0,
+        0.04
+      ],
+      "front-right": [
+        -1,
+        -1,
+        0.12
+      ],
+      "top": [
+        0,
+        -0.01,
+        1
+      ],
+      "underside": [
+        0,
+        -0.01,
+        -1
+      ]
+    }
+  },
+  "source_files_modified": false,
+  "delivery_mesh_edits": false,
+  "trial": "quarantined; decision depends on pixel comparison"
+}

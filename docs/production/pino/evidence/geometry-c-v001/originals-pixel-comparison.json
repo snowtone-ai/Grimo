@@ -1,0 +1,69 @@
+{
+  "exact": false,
+  "method": "Identical Cycles camera/light/material import settings; RGB absolute difference x8; includes importer material and triangulation differences",
+  "views": [
+    {
+      "view": "front",
+      "changed_pixels": 116693,
+      "max_channel_delta": 180,
+      "mean_abs_delta": 0.4993377685546875,
+      "alpha_changed_pixels": 0
+    },
+    {
+      "view": "front-left",
+      "changed_pixels": 123503,
+      "max_channel_delta": 191,
+      "mean_abs_delta": 0.5976507568359375,
+      "alpha_changed_pixels": 0
+    },
+    {
+      "view": "left",
+      "changed_pixels": 116825,
+      "max_channel_delta": 202,
+      "mean_abs_delta": 0.617728271484375,
+      "alpha_changed_pixels": 0
+    },
+    {
+      "view": "back",
+      "changed_pixels": 118576,
+      "max_channel_delta": 161,
+      "mean_abs_delta": 0.496226806640625,
+      "alpha_changed_pixels": 0
+    },
+    {
+      "view": "right",
+      "changed_pixels": 131060,
+      "max_channel_delta": 62,
+      "mean_abs_delta": 0.5641766357421875,
+      "alpha_changed_pixels": 1
+    },
+    {
+      "view": "front-right",
+      "changed_pixels": 130771,
+      "max_channel_delta": 207,
+      "mean_abs_delta": 0.5974859619140624,
+      "alpha_changed_pixels": 0
+    },
+    {
+      "view": "rear-left",
+      "changed_pixels": 118833,
+      "max_channel_delta": 208,
+      "mean_abs_delta": 0.5234600830078125,
+      "alpha_changed_pixels": 0
+    },
+    {
+      "view": "top",
+      "changed_pixels": 105001,
+      "max_channel_delta": 254,
+      "mean_abs_delta": 0.448037109375,
+      "alpha_changed_pixels": 0
+    },
+    {
+      "view": "underside",
+      "changed_pixels": 69478,
+      "max_channel_delta": 189,
+      "mean_abs_delta": 0.433414306640625,
+      "alpha_changed_pixels": 0
+    }
+  ]
+}

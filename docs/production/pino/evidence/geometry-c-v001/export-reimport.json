@@ -1,0 +1,13 @@
+{
+  "source_reference": "source/cute blue creature 3d model.glb",
+  "output": "delivery/pino-c-master-derived-neutral.glb",
+  "exact_reimport_checks": {
+    "vertices": true,
+    "triangles": true,
+    "normals": true,
+    "matrix": true
+  },
+  "render_settings": "Same setup and nine cameras as original-glb-*; pixel verification in report script",
+  "master_export": "68c227e458a52ebe74631a1f51e6b28b056b3147635c672abbe16ce936df13b9",
+  "human_geometry_gate": "PENDING"
+}

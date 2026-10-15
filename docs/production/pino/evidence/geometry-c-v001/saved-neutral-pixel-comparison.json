@@ -1,0 +1,21 @@
+{
+  "reference": "original FBX import (diagnostic Master); final GLB appearance checked separately",
+  "views": [
+    {
+      "view": "front",
+      "pixel_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "view": "front-left",
+      "pixel_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "view": "left",
+      "pixel_exact": true,
+      "changed_pixels": 0
+    }
+  ],
+  "all_views_pixel_exact": true
+}

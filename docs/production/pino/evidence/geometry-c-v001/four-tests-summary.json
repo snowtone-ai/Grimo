@@ -1,0 +1,919 @@
+{
+  "sequences": {
+    "tail": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.822032215488282,
+      "edge_ratio_max": 1.178015991954841,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3340,
+      "tail_body_intersection_range": [
+        991,
+        1004
+      ],
+      "peak": {
+        "edge_ratio_min": 0.8225426152925348,
+        "edge_ratio_max": 1.178015991954841,
+        "edge_ratio_p01_p99": [
+          0.9352033071543779,
+          1.06922039131419
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9495,
+        "body_self_intersections": 3340,
+        "tail_body_intersections": 1002,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.00006864414672,
+          0.9998939608476914,
+          0.9999018046615638
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "86590d816a6ed6890a3738cc38187926d8b29920b73b4e736ee21fa5551f625c",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "tail_material_section_area_ratio": [
+          1.0002458729364911,
+          0.9999951688172986,
+          0.9999702235619058
+        ],
+        "frame": 6,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "eyes-L-blink": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.019422445018226715,
+      "edge_ratio_max": 1.2695115586383965,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3340,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.019422445018226715,
+        "edge_ratio_max": 1.2695115586383965,
+        "edge_ratio_p01_p99": [
+          0.9563126671527874,
+          1.0
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9332,
+        "body_self_intersections": 3340,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "05c8201f026619fdab9af874f6ad9260fea4dffa36004008bec7be53f5cfe0e9",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 4,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "eyes-R-blink": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.019833658379913303,
+      "edge_ratio_max": 1.2925081125172493,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3340,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.019833658379913303,
+        "edge_ratio_max": 1.2925081125172493,
+        "edge_ratio_p01_p99": [
+          0.955235616232579,
+          1.0
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9356,
+        "body_self_intersections": 3340,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "ad9a64ceb3ce85027d9c163e01e20d2b5328ddb30d497417ca8e112a482f0032",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 4,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "eyes-L-wink": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.019422445018226715,
+      "edge_ratio_max": 1.2695115586383965,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3340,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.019422445018226715,
+        "edge_ratio_max": 1.2695115586383965,
+        "edge_ratio_p01_p99": [
+          0.9563126671527874,
+          1.0
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9332,
+        "body_self_intersections": 3340,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "05c8201f026619fdab9af874f6ad9260fea4dffa36004008bec7be53f5cfe0e9",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 2,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "eyes-R-wink": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.019833658379913303,
+      "edge_ratio_max": 1.2925081125172493,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3340,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.019833658379913303,
+        "edge_ratio_max": 1.2925081125172493,
+        "edge_ratio_p01_p99": [
+          0.955235616232579,
+          1.0
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9356,
+        "body_self_intersections": 3340,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "ad9a64ceb3ce85027d9c163e01e20d2b5328ddb30d497417ca8e112a482f0032",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 2,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "eyes-half": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.43747603352164066,
+      "edge_ratio_max": 1.0629651042115624,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3340,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.43747603352164066,
+        "edge_ratio_max": 1.0629651042115624,
+        "edge_ratio_p01_p99": [
+          0.6086690996023361,
+          1.0
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9467,
+        "body_self_intersections": 3340,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "2fd968991c67c7076ea2dc51124a2d137ceadea09d0ce6dabad45e8b6991de01",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 2,
+        "strength": 0.5,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "eyes-full-close": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.019422445018226715,
+      "edge_ratio_max": 1.2925081125172493,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3340,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.019422445018226715,
+        "edge_ratio_max": 1.2925081125172493,
+        "edge_ratio_p01_p99": [
+          0.47054566233766837,
+          1.0
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9202,
+        "body_self_intersections": 3340,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "37c581d281fb76128df40481b971ddee25e3453a0b6e37f37967822fae4ceee1",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 2,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "raise-L": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.508251747956377,
+      "edge_ratio_max": 1.975715477345278,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3356,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.508251747956377,
+        "edge_ratio_max": 1.975715477345278,
+        "edge_ratio_p01_p99": [
+          0.9451511932010992,
+          1.0611407041211647
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9502,
+        "body_self_intersections": 3356,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "d2ed211c29d5c363dd0614c5d8961c62e126a6b96fbd15a1f95e008af3706f75",
+        "distal_paw_vertex_min_gap": 0.5330485198545569,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 6,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "raise-R": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.5196512794102467,
+      "edge_ratio_max": 1.9915793315209294,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3345,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.5196512794102467,
+        "edge_ratio_max": 1.9915793315209294,
+        "edge_ratio_p01_p99": [
+          0.9499049742617475,
+          1.057816254668826
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9490,
+        "body_self_intersections": 3344,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "63b3fa492d740a7f227326e7af55d4b3c5a3cb656e7144e737c3bf2afa6acc7b",
+        "distal_paw_vertex_min_gap": 0.5330485299280426,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 6,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    },
+    "high-five-L": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.508251747956377,
+      "edge_ratio_max": 1.975715477345278,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3356,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.508251747956377,
+        "edge_ratio_max": 1.975715477345278,
+        "edge_ratio_p01_p99": [
+          0.9451511932010992,
+          1.0611407041211647
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9502,
+        "body_self_intersections": 3356,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "d2ed211c29d5c363dd0614c5d8961c62e126a6b96fbd15a1f95e008af3706f75",
+        "distal_paw_vertex_min_gap": 0.5330485198545569,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 6,
+        "strength": 1.0,
+        "fixture": {
+          "anchor_surface_gap": [
+            1.734723475976807e-17
+          ],
+          "triangle_intersections": 0,
+          "fit": "endpoint-fitted diagnostic fixture; not arbitrary Food/Gift reach validation"
+        }
+      },
+      "fixture": {
+        "type": "sphere",
+        "radius": 0.018,
+        "center": [
+          0.317626953125,
+          -0.320115894996567,
+          0.3901713665407777
+        ],
+        "anchors": [
+          15012
+        ]
+      }
+    },
+    "both-contact": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.1198049709899388,
+      "edge_ratio_max": 2.959511047954287,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 6391,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.1198049709899388,
+        "edge_ratio_max": 2.959511047954287,
+        "edge_ratio_p01_p99": [
+          0.7593070996436582,
+          1.4223584583287132
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 12537,
+        "body_self_intersections": 6391,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "40c45b7a044169042160f512613ff5bc305a4ae37c36fd91281c92bfe99febcf",
+        "distal_paw_vertex_min_gap": 0.1904215083772676,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 6,
+        "strength": 1.0,
+        "fixture": {
+          "anchor_surface_gap": [
+            0.0,
+            5.471260402203568e-05
+          ],
+          "triangle_intersections": 34,
+          "fit": "endpoint-fitted diagnostic fixture; not arbitrary Food/Gift reach validation"
+        }
+      },
+      "fixture": {
+        "type": "box",
+        "center": [
+          -0.00023577855468452646,
+          -0.37702018120224084,
+          0.4119020577198106
+        ],
+        "size": [
+          0.25870220452393644,
+          0.055,
+          0.075
+        ],
+        "anchors": [
+          15253,
+          5994
+        ]
+      }
+    },
+    "food-hold": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.3409864579340244,
+      "edge_ratio_max": 2.2941630435947062,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 3471,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.3409864579340244,
+        "edge_ratio_max": 2.2941630435947062,
+        "edge_ratio_p01_p99": [
+          0.937787614285473,
+          1.05972027715937
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 9617,
+        "body_self_intersections": 3471,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "a5f9a48cdc69643310ecc2acdaab91d7cdaca70534ece16b35269857eec96ac8",
+        "distal_paw_vertex_min_gap": 0.4779893763889967,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 6,
+        "strength": 1.0,
+        "fixture": {
+          "anchor_surface_gap": [
+            6.938893903907228e-18
+          ],
+          "triangle_intersections": 0,
+          "fit": "endpoint-fitted diagnostic fixture; not arbitrary Food/Gift reach validation"
+        }
+      },
+      "fixture": {
+        "type": "sphere",
+        "radius": 0.055,
+        "center": [
+          0.25102174960442675,
+          -0.4015752534214074,
+          0.4152761704731019
+        ],
+        "anchors": [
+          15209
+        ]
+      }
+    },
+    "gift-present": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.1198049709899388,
+      "edge_ratio_max": 2.959511047954287,
+      "max_floor_penetration_vertices": 0,
+      "lowest_z": 1.4727251418378273e-08,
+      "max_body_self_intersections": 6391,
+      "tail_body_intersection_range": [
+        993,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.1198049709899388,
+        "edge_ratio_max": 2.959511047954287,
+        "edge_ratio_p01_p99": [
+          0.7593070996436582,
+          1.4223584583287132
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 12537,
+        "body_self_intersections": 6391,
+        "tail_body_intersections": 993,
+        "floor_penetration_below_minus_1e_6": 0,
+        "lowest_z": 1.4727251418378273e-08,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "40c45b7a044169042160f512613ff5bc305a4ae37c36fd91281c92bfe99febcf",
+        "distal_paw_vertex_min_gap": 0.1904215083772676,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 6,
+        "strength": 1.0,
+        "fixture": {
+          "anchor_surface_gap": [
+            0.0,
+            5.471260402203568e-05
+          ],
+          "triangle_intersections": 34,
+          "fit": "endpoint-fitted diagnostic fixture; not arbitrary Food/Gift reach validation"
+        }
+      },
+      "fixture": {
+        "type": "box",
+        "center": [
+          -0.00023577855468452646,
+          -0.37702018120224084,
+          0.4119020577198106
+        ],
+        "size": [
+          0.25870220452393644,
+          0.055,
+          0.075
+        ],
+        "anchors": [
+          15253,
+          5994
+        ]
+      }
+    },
+    "low-rest": {
+      "neutral_return_exact": true,
+      "edge_ratio_min": 0.07337846024833512,
+      "edge_ratio_max": 2.552252116836484,
+      "max_floor_penetration_vertices": 255,
+      "lowest_z": -0.13060856378192187,
+      "max_body_self_intersections": 7116,
+      "tail_body_intersection_range": [
+        777,
+        993
+      ],
+      "peak": {
+        "edge_ratio_min": 0.07373369872231086,
+        "edge_ratio_max": 2.552252116836484,
+        "edge_ratio_p01_p99": [
+          0.8457008840853989,
+          1.2262580524172129
+        ],
+        "degenerate_triangles": 0,
+        "disjoint_intersection_pairs": 13026,
+        "body_self_intersections": 7088,
+        "tail_body_intersections": 777,
+        "floor_penetration_below_minus_1e_6": 255,
+        "lowest_z": -0.13060856378192187,
+        "foot_vertex_max_displacement": 0.0,
+        "tail_signed_volume_ratio": [
+          0.9999625496611461,
+          1.0000000000000002,
+          1.0
+        ],
+        "tail_body_shared_vertices": 0,
+        "world_vertex_sha256": "80533e45fb782cf93af9b3ab879948392d9b7ae97760f5260350f26bbe2eadb3",
+        "distal_paw_vertex_min_gap": 0.5317382812500033,
+        "floor_contact_vertices": {
+          "hindfeet": 19,
+          "belly": 0,
+          "tail": 0
+        },
+        "frame": 12,
+        "strength": 1.0,
+        "fixture": null
+      },
+      "fixture": null
+    }
+  },
+  "rendered_neutral_return": [
+    {
+      "sequence": "tail",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "tail",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "tail",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-L-blink",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-L-blink",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-L-blink",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-R-blink",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-R-blink",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-R-blink",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-L-wink",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-L-wink",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-L-wink",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-R-wink",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-R-wink",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-R-wink",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-half",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-half",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-half",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-full-close",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-full-close",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "eyes-full-close",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "raise-L",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "raise-L",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "raise-L",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "raise-R",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "raise-R",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "raise-R",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "high-five-L",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "high-five-L",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "high-five-L",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "both-contact",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "both-contact",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "both-contact",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "food-hold",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "food-hold",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "food-hold",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "gift-present",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "gift-present",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "gift-present",
+      "view": "side",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "low-rest",
+      "view": "front",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "low-rest",
+      "view": "threequarter",
+      "returned_pixels_exact": true
+    },
+    {
+      "sequence": "low-rest",
+      "view": "side",
+      "returned_pixels_exact": true
+    }
+  ],
+  "all_rendered_returns_pixel_exact": true,
+  "gate": "PENDING"
+}
