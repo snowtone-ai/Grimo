@@ -1,0 +1,1199 @@
+{
+  "protected": {
+    "checked": 4527,
+    "changed": [
+      {
+        "path": "docs/production/Handoff.md",
+        "before": "5c39f86500eff549b259f7cbca9b5f6ab482ea82e881d713c2da9602413e804d",
+        "after": "fc2f192d56740d392148fbea73905d2c03ec9ac4654eb602d1ab65c17530847a"
+      }
+    ],
+    "missing": [],
+    "intentionalStateUpdate": [
+      "docs/production/Handoff.md"
+    ]
+  },
+  "gpuSkin": {
+    "frames": 98,
+    "meshCaptures": 294,
+    "maxPositionH": 1.295703795905808e-07,
+    "maxNormalDeg": 1.8568350079179434e-05,
+    "glErrors": 0
+  },
+  "binding": {
+    "maxMatrix": 1.0289950296282768e-06,
+    "maxAnchor": 1.1920928955078125e-07,
+    "maxMorph": 1.1102230246251565e-16
+  },
+  "pixels": [
+    {
+      "candidate": "phone-local8-arm-505-3q.png",
+      "reference": "phone-full8-arm-505-3q.png",
+      "meanAbsoluteRGB255": 0.0003328450520833333,
+      "maxChannel255": 30,
+      "pixelsAnyChannelGt8": 2
+    },
+    {
+      "candidate": "phone-local8-arm-505-side.png",
+      "reference": "phone-full8-arm-505-side.png",
+      "meanAbsoluteRGB255": 6.917317708333333e-05,
+      "maxChannel255": 11,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-arm-508-3q.png",
+      "reference": "phone-full8-arm-508-3q.png",
+      "meanAbsoluteRGB255": 0.0005794270833333334,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 9
+    },
+    {
+      "candidate": "phone-local8-arm-508-side.png",
+      "reference": "phone-full8-arm-508-side.png",
+      "meanAbsoluteRGB255": 4.8828125e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-arm-511-3q.png",
+      "reference": "phone-full8-arm-511-3q.png",
+      "meanAbsoluteRGB255": 0.00034505208333333333,
+      "maxChannel255": 21,
+      "pixelsAnyChannelGt8": 3
+    },
+    {
+      "candidate": "phone-local8-arm-511-side.png",
+      "reference": "phone-full8-arm-511-side.png",
+      "meanAbsoluteRGB255": 3.824869791666667e-05,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-arm-514-3q.png",
+      "reference": "phone-full8-arm-514-3q.png",
+      "meanAbsoluteRGB255": 0.00083984375,
+      "maxChannel255": 25,
+      "pixelsAnyChannelGt8": 9
+    },
+    {
+      "candidate": "phone-local8-arm-514-side.png",
+      "reference": "phone-full8-arm-514-side.png",
+      "meanAbsoluteRGB255": 0.0005973307291666667,
+      "maxChannel255": 20,
+      "pixelsAnyChannelGt8": 4
+    },
+    {
+      "candidate": "phone-local8-arm-517-3q.png",
+      "reference": "phone-full8-arm-517-3q.png",
+      "meanAbsoluteRGB255": 0.0013118489583333333,
+      "maxChannel255": 40,
+      "pixelsAnyChannelGt8": 15
+    },
+    {
+      "candidate": "phone-local8-arm-517-side.png",
+      "reference": "phone-full8-arm-517-side.png",
+      "meanAbsoluteRGB255": 0.00094970703125,
+      "maxChannel255": 39,
+      "pixelsAnyChannelGt8": 8
+    },
+    {
+      "candidate": "phone-local8-arm-520-3q.png",
+      "reference": "phone-full8-arm-520-3q.png",
+      "meanAbsoluteRGB255": 0.00083251953125,
+      "maxChannel255": 30,
+      "pixelsAnyChannelGt8": 9
+    },
+    {
+      "candidate": "phone-local8-arm-520-side.png",
+      "reference": "phone-full8-arm-520-side.png",
+      "meanAbsoluteRGB255": 0.0006656901041666666,
+      "maxChannel255": 24,
+      "pixelsAnyChannelGt8": 6
+    },
+    {
+      "candidate": "phone-local8-arm-523-3q.png",
+      "reference": "phone-full8-arm-523-3q.png",
+      "meanAbsoluteRGB255": 0.0003889973958333333,
+      "maxChannel255": 18,
+      "pixelsAnyChannelGt8": 4
+    },
+    {
+      "candidate": "phone-local8-arm-523-side.png",
+      "reference": "phone-full8-arm-523-side.png",
+      "meanAbsoluteRGB255": 3.4993489583333335e-05,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-arm-526-3q.png",
+      "reference": "phone-full8-arm-526-3q.png",
+      "meanAbsoluteRGB255": 0.0009228515625,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 11
+    },
+    {
+      "candidate": "phone-local8-arm-526-side.png",
+      "reference": "phone-full8-arm-526-side.png",
+      "meanAbsoluteRGB255": 6.34765625e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-arm-529-3q.png",
+      "reference": "phone-full8-arm-529-3q.png",
+      "meanAbsoluteRGB255": 0.00130126953125,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 14
+    },
+    {
+      "candidate": "phone-local8-arm-529-side.png",
+      "reference": "phone-full8-arm-529-side.png",
+      "meanAbsoluteRGB255": 0.0004427083333333333,
+      "maxChannel255": 22,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-arm-532-3q.png",
+      "reference": "phone-full8-arm-532-3q.png",
+      "meanAbsoluteRGB255": 0.00206787109375,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 23
+    },
+    {
+      "candidate": "phone-local8-arm-532-side.png",
+      "reference": "phone-full8-arm-532-side.png",
+      "meanAbsoluteRGB255": 0.001044921875,
+      "maxChannel255": 34,
+      "pixelsAnyChannelGt8": 10
+    },
+    {
+      "candidate": "phone-local8-arm-535-3q.png",
+      "reference": "phone-full8-arm-535-3q.png",
+      "meanAbsoluteRGB255": 0.0016048177083333333,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 17
+    },
+    {
+      "candidate": "phone-local8-arm-535-side.png",
+      "reference": "phone-full8-arm-535-side.png",
+      "meanAbsoluteRGB255": 0.0009114583333333333,
+      "maxChannel255": 25,
+      "pixelsAnyChannelGt8": 11
+    },
+    {
+      "candidate": "phone-local8-arm-538-3q.png",
+      "reference": "phone-full8-arm-538-3q.png",
+      "meanAbsoluteRGB255": 0.0015828450520833333,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 20
+    },
+    {
+      "candidate": "phone-local8-arm-538-side.png",
+      "reference": "phone-full8-arm-538-side.png",
+      "meanAbsoluteRGB255": 0.0005989583333333333,
+      "maxChannel255": 31,
+      "pixelsAnyChannelGt8": 7
+    },
+    {
+      "candidate": "phone-local8-arm-541-3q.png",
+      "reference": "phone-full8-arm-541-3q.png",
+      "meanAbsoluteRGB255": 0.0021785481770833334,
+      "maxChannel255": 40,
+      "pixelsAnyChannelGt8": 26
+    },
+    {
+      "candidate": "phone-local8-arm-541-side.png",
+      "reference": "phone-full8-arm-541-side.png",
+      "meanAbsoluteRGB255": 0.0009554036458333334,
+      "maxChannel255": 39,
+      "pixelsAnyChannelGt8": 8
+    },
+    {
+      "candidate": "phone-local8-lit-half-3q.png",
+      "reference": "phone-full8-lit-half-3q.png",
+      "meanAbsoluteRGB255": 1.7903645833333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-half-front.png",
+      "reference": "phone-full8-lit-half-front.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-half-hold-3q.png",
+      "reference": "phone-full8-lit-half-hold-3q.png",
+      "meanAbsoluteRGB255": 0.001181640625,
+      "maxChannel255": 32,
+      "pixelsAnyChannelGt8": 18
+    },
+    {
+      "candidate": "phone-local8-lit-half-hold-front.png",
+      "reference": "phone-full8-lit-half-hold-front.png",
+      "meanAbsoluteRGB255": 0.00103515625,
+      "maxChannel255": 36,
+      "pixelsAnyChannelGt8": 12
+    },
+    {
+      "candidate": "phone-local8-lit-half-hold-side.png",
+      "reference": "phone-full8-lit-half-hold-side.png",
+      "meanAbsoluteRGB255": 0.0009944661458333333,
+      "maxChannel255": 40,
+      "pixelsAnyChannelGt8": 7
+    },
+    {
+      "candidate": "phone-local8-lit-half-side.png",
+      "reference": "phone-full8-lit-half-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-hold-both-3q.png",
+      "reference": "phone-full8-lit-hold-both-3q.png",
+      "meanAbsoluteRGB255": 0.00187255859375,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 17
+    },
+    {
+      "candidate": "phone-local8-lit-hold-both-front.png",
+      "reference": "phone-full8-lit-hold-both-front.png",
+      "meanAbsoluteRGB255": 0.00236083984375,
+      "maxChannel255": 51,
+      "pixelsAnyChannelGt8": 28
+    },
+    {
+      "candidate": "phone-local8-lit-hold-both-side.png",
+      "reference": "phone-full8-lit-hold-both-side.png",
+      "meanAbsoluteRGB255": 0.0009724934895833333,
+      "maxChannel255": 41,
+      "pixelsAnyChannelGt8": 10
+    },
+    {
+      "candidate": "phone-local8-lit-legs-forward-3q.png",
+      "reference": "phone-full8-lit-legs-forward-3q.png",
+      "meanAbsoluteRGB255": 9.114583333333334e-05,
+      "maxChannel255": 15,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-lit-legs-forward-front.png",
+      "reference": "phone-full8-lit-legs-forward-front.png",
+      "meanAbsoluteRGB255": 9.195963541666666e-05,
+      "maxChannel255": 3,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-legs-forward-side.png",
+      "reference": "phone-full8-lit-legs-forward-side.png",
+      "meanAbsoluteRGB255": 9.195963541666666e-05,
+      "maxChannel255": 3,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mid-return-3q.png",
+      "reference": "phone-full8-lit-mid-return-3q.png",
+      "meanAbsoluteRGB255": 0.00014078776041666667,
+      "maxChannel255": 33,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-lit-mid-return-front.png",
+      "reference": "phone-full8-lit-mid-return-front.png",
+      "meanAbsoluteRGB255": 9.033203125e-05,
+      "maxChannel255": 9,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-lit-mid-return-side.png",
+      "reference": "phone-full8-lit-mid-return-side.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-05,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mid-transition-3q.png",
+      "reference": "phone-full8-lit-mid-transition-3q.png",
+      "meanAbsoluteRGB255": 0.0003458658854166667,
+      "maxChannel255": 19,
+      "pixelsAnyChannelGt8": 5
+    },
+    {
+      "candidate": "phone-local8-lit-mid-transition-front.png",
+      "reference": "phone-full8-lit-mid-transition-front.png",
+      "meanAbsoluteRGB255": 0.00018880208333333333,
+      "maxChannel255": 34,
+      "pixelsAnyChannelGt8": 2
+    },
+    {
+      "candidate": "phone-local8-lit-mid-transition-side.png",
+      "reference": "phone-full8-lit-mid-transition-side.png",
+      "meanAbsoluteRGB255": 0.00037109375,
+      "maxChannel255": 22,
+      "pixelsAnyChannelGt8": 2
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-closed-3q.png",
+      "reference": "phone-full8-lit-mouth-closed-3q.png",
+      "meanAbsoluteRGB255": 1.7903645833333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-closed-front.png",
+      "reference": "phone-full8-lit-mouth-closed-front.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-closed-side.png",
+      "reference": "phone-full8-lit-mouth-closed-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-large-3q.png",
+      "reference": "phone-full8-lit-mouth-large-3q.png",
+      "meanAbsoluteRGB255": 1.7903645833333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-large-front.png",
+      "reference": "phone-full8-lit-mouth-large-front.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-large-side.png",
+      "reference": "phone-full8-lit-mouth-large-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-medium-3q.png",
+      "reference": "phone-full8-lit-mouth-medium-3q.png",
+      "meanAbsoluteRGB255": 1.7903645833333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-medium-front.png",
+      "reference": "phone-full8-lit-mouth-medium-front.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-medium-side.png",
+      "reference": "phone-full8-lit-mouth-medium-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-small-3q.png",
+      "reference": "phone-full8-lit-mouth-small-3q.png",
+      "meanAbsoluteRGB255": 1.7903645833333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-small-front.png",
+      "reference": "phone-full8-lit-mouth-small-front.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-mouth-small-side.png",
+      "reference": "phone-full8-lit-mouth-small-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-neutral-3q.png",
+      "reference": "phone-full8-lit-neutral-3q.png",
+      "meanAbsoluteRGB255": 1.7903645833333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-neutral-front.png",
+      "reference": "phone-full8-lit-neutral-front.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-neutral-side.png",
+      "reference": "phone-full8-lit-neutral-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-offer-L-3q.png",
+      "reference": "phone-full8-lit-offer-L-3q.png",
+      "meanAbsoluteRGB255": 0.0004679361979166667,
+      "maxChannel255": 33,
+      "pixelsAnyChannelGt8": 3
+    },
+    {
+      "candidate": "phone-local8-lit-offer-L-front.png",
+      "reference": "phone-full8-lit-offer-L-front.png",
+      "meanAbsoluteRGB255": 0.000556640625,
+      "maxChannel255": 28,
+      "pixelsAnyChannelGt8": 4
+    },
+    {
+      "candidate": "phone-local8-lit-offer-L-side.png",
+      "reference": "phone-full8-lit-offer-L-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-recover-load-3q.png",
+      "reference": "phone-full8-lit-recover-load-3q.png",
+      "meanAbsoluteRGB255": 0.00019938151041666666,
+      "maxChannel255": 6,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-recover-load-front.png",
+      "reference": "phone-full8-lit-recover-load-front.png",
+      "meanAbsoluteRGB255": 0.00014485677083333334,
+      "maxChannel255": 36,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-lit-recover-load-side.png",
+      "reference": "phone-full8-lit-recover-load-side.png",
+      "meanAbsoluteRGB255": 0.00035970052083333335,
+      "maxChannel255": 24,
+      "pixelsAnyChannelGt8": 3
+    },
+    {
+      "candidate": "phone-local8-lit-return-3q.png",
+      "reference": "phone-full8-lit-return-3q.png",
+      "meanAbsoluteRGB255": 1.7903645833333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-return-front.png",
+      "reference": "phone-full8-lit-return-front.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-return-side.png",
+      "reference": "phone-full8-lit-return-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-lit-seat-3q.png",
+      "reference": "phone-full8-lit-seat-3q.png",
+      "meanAbsoluteRGB255": 0.00026041666666666666,
+      "maxChannel255": 16,
+      "pixelsAnyChannelGt8": 5
+    },
+    {
+      "candidate": "phone-local8-lit-seat-front.png",
+      "reference": "phone-full8-lit-seat-front.png",
+      "meanAbsoluteRGB255": 0.00016276041666666666,
+      "maxChannel255": 17,
+      "pixelsAnyChannelGt8": 3
+    },
+    {
+      "candidate": "phone-local8-lit-seat-rest-3q.png",
+      "reference": "phone-full8-lit-seat-rest-3q.png",
+      "meanAbsoluteRGB255": 0.0002620442708333333,
+      "maxChannel255": 16,
+      "pixelsAnyChannelGt8": 5
+    },
+    {
+      "candidate": "phone-local8-lit-seat-rest-front.png",
+      "reference": "phone-full8-lit-seat-rest-front.png",
+      "meanAbsoluteRGB255": 0.00016276041666666666,
+      "maxChannel255": 17,
+      "pixelsAnyChannelGt8": 3
+    },
+    {
+      "candidate": "phone-local8-lit-seat-rest-side.png",
+      "reference": "phone-full8-lit-seat-rest-side.png",
+      "meanAbsoluteRGB255": 0.0002783203125,
+      "maxChannel255": 25,
+      "pixelsAnyChannelGt8": 2
+    },
+    {
+      "candidate": "phone-local8-lit-seat-side.png",
+      "reference": "phone-full8-lit-seat-side.png",
+      "meanAbsoluteRGB255": 0.000302734375,
+      "maxChannel255": 25,
+      "pixelsAnyChannelGt8": 3
+    },
+    {
+      "candidate": "phone-local8-lit-self-L-3q.png",
+      "reference": "phone-full8-lit-self-L-3q.png",
+      "meanAbsoluteRGB255": 0.00082763671875,
+      "maxChannel255": 33,
+      "pixelsAnyChannelGt8": 10
+    },
+    {
+      "candidate": "phone-local8-lit-self-L-front.png",
+      "reference": "phone-full8-lit-self-L-front.png",
+      "meanAbsoluteRGB255": 0.00115478515625,
+      "maxChannel255": 48,
+      "pixelsAnyChannelGt8": 10
+    },
+    {
+      "candidate": "phone-local8-lit-self-L-side.png",
+      "reference": "phone-full8-lit-self-L-side.png",
+      "meanAbsoluteRGB255": 5.859375e-05,
+      "maxChannel255": 10,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-lit-self-R-3q.png",
+      "reference": "phone-full8-lit-self-R-3q.png",
+      "meanAbsoluteRGB255": 0.0013118489583333333,
+      "maxChannel255": 40,
+      "pixelsAnyChannelGt8": 15
+    },
+    {
+      "candidate": "phone-local8-lit-self-R-front.png",
+      "reference": "phone-full8-lit-self-R-front.png",
+      "meanAbsoluteRGB255": 0.0011263020833333333,
+      "maxChannel255": 38,
+      "pixelsAnyChannelGt8": 14
+    },
+    {
+      "candidate": "phone-local8-lit-self-R-side.png",
+      "reference": "phone-full8-lit-self-R-side.png",
+      "meanAbsoluteRGB255": 0.00094970703125,
+      "maxChannel255": 39,
+      "pixelsAnyChannelGt8": 8
+    },
+    {
+      "candidate": "phone-local8-lit-wrist-L-3q.png",
+      "reference": "phone-full8-lit-wrist-L-3q.png",
+      "meanAbsoluteRGB255": 0.00050048828125,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 4
+    },
+    {
+      "candidate": "phone-local8-lit-wrist-L-front.png",
+      "reference": "phone-full8-lit-wrist-L-front.png",
+      "meanAbsoluteRGB255": 0.000634765625,
+      "maxChannel255": 35,
+      "pixelsAnyChannelGt8": 5
+    },
+    {
+      "candidate": "phone-local8-lit-wrist-L-side.png",
+      "reference": "phone-full8-lit-wrist-L-side.png",
+      "meanAbsoluteRGB255": 1.6276041666666668e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-half-hold-3q.png",
+      "reference": "phone-full8-normal-half-hold-3q.png",
+      "meanAbsoluteRGB255": 0.00240966796875,
+      "maxChannel255": 56,
+      "pixelsAnyChannelGt8": 27
+    },
+    {
+      "candidate": "phone-local8-normal-half-hold-front.png",
+      "reference": "phone-full8-normal-half-hold-front.png",
+      "meanAbsoluteRGB255": 0.00163818359375,
+      "maxChannel255": 46,
+      "pixelsAnyChannelGt8": 13
+    },
+    {
+      "candidate": "phone-local8-normal-half-hold-side.png",
+      "reference": "phone-full8-normal-half-hold-side.png",
+      "meanAbsoluteRGB255": 0.0020890299479166667,
+      "maxChannel255": 40,
+      "pixelsAnyChannelGt8": 20
+    },
+    {
+      "candidate": "phone-local8-normal-mid-transition-3q.png",
+      "reference": "phone-full8-normal-mid-transition-3q.png",
+      "meanAbsoluteRGB255": 0.0005851236979166666,
+      "maxChannel255": 51,
+      "pixelsAnyChannelGt8": 7
+    },
+    {
+      "candidate": "phone-local8-normal-mid-transition-front.png",
+      "reference": "phone-full8-normal-mid-transition-front.png",
+      "meanAbsoluteRGB255": 0.00018717447916666668,
+      "maxChannel255": 27,
+      "pixelsAnyChannelGt8": 3
+    },
+    {
+      "candidate": "phone-local8-normal-mid-transition-side.png",
+      "reference": "phone-full8-normal-mid-transition-side.png",
+      "meanAbsoluteRGB255": 0.00079833984375,
+      "maxChannel255": 50,
+      "pixelsAnyChannelGt8": 6
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-closed-3q.png",
+      "reference": "phone-full8-normal-mouth-closed-3q.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-closed-front.png",
+      "reference": "phone-full8-normal-mouth-closed-front.png",
+      "meanAbsoluteRGB255": 4.069010416666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-closed-side.png",
+      "reference": "phone-full8-normal-mouth-closed-side.png",
+      "meanAbsoluteRGB255": 1.6276041666666668e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-large-3q.png",
+      "reference": "phone-full8-normal-mouth-large-3q.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-large-front.png",
+      "reference": "phone-full8-normal-mouth-large-front.png",
+      "meanAbsoluteRGB255": 4.069010416666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-large-side.png",
+      "reference": "phone-full8-normal-mouth-large-side.png",
+      "meanAbsoluteRGB255": 1.6276041666666668e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-medium-3q.png",
+      "reference": "phone-full8-normal-mouth-medium-3q.png",
+      "meanAbsoluteRGB255": 6.510416666666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-medium-front.png",
+      "reference": "phone-full8-normal-mouth-medium-front.png",
+      "meanAbsoluteRGB255": 4.069010416666667e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-mouth-medium-side.png",
+      "reference": "phone-full8-normal-mouth-medium-side.png",
+      "meanAbsoluteRGB255": 1.6276041666666668e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-normal-seat-3q.png",
+      "reference": "phone-full8-normal-seat-3q.png",
+      "meanAbsoluteRGB255": 0.00052490234375,
+      "maxChannel255": 56,
+      "pixelsAnyChannelGt8": 6
+    },
+    {
+      "candidate": "phone-local8-normal-seat-front.png",
+      "reference": "phone-full8-normal-seat-front.png",
+      "meanAbsoluteRGB255": 0.00026774088541666667,
+      "maxChannel255": 46,
+      "pixelsAnyChannelGt8": 2
+    },
+    {
+      "candidate": "phone-local8-normal-seat-side.png",
+      "reference": "phone-full8-normal-seat-side.png",
+      "meanAbsoluteRGB255": 0.0005729166666666667,
+      "maxChannel255": 40,
+      "pixelsAnyChannelGt8": 7
+    },
+    {
+      "candidate": "phone-local8-normal-self-L-3q.png",
+      "reference": "phone-full8-normal-self-L-3q.png",
+      "meanAbsoluteRGB255": 0.0010872395833333333,
+      "maxChannel255": 46,
+      "pixelsAnyChannelGt8": 14
+    },
+    {
+      "candidate": "phone-local8-normal-self-L-front.png",
+      "reference": "phone-full8-normal-self-L-front.png",
+      "meanAbsoluteRGB255": 0.0016446940104166666,
+      "maxChannel255": 47,
+      "pixelsAnyChannelGt8": 16
+    },
+    {
+      "candidate": "phone-local8-normal-self-L-side.png",
+      "reference": "phone-full8-normal-self-L-side.png",
+      "meanAbsoluteRGB255": 7.8125e-05,
+      "maxChannel255": 14,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-unlit-half-hold-3q.png",
+      "reference": "phone-full8-unlit-half-hold-3q.png",
+      "meanAbsoluteRGB255": 0.000654296875,
+      "maxChannel255": 24,
+      "pixelsAnyChannelGt8": 9
+    },
+    {
+      "candidate": "phone-local8-unlit-half-hold-front.png",
+      "reference": "phone-full8-unlit-half-hold-front.png",
+      "meanAbsoluteRGB255": 0.0004475911458333333,
+      "maxChannel255": 22,
+      "pixelsAnyChannelGt8": 4
+    },
+    {
+      "candidate": "phone-local8-unlit-half-hold-side.png",
+      "reference": "phone-full8-unlit-half-hold-side.png",
+      "meanAbsoluteRGB255": 0.000576171875,
+      "maxChannel255": 37,
+      "pixelsAnyChannelGt8": 7
+    },
+    {
+      "candidate": "phone-local8-unlit-mid-transition-3q.png",
+      "reference": "phone-full8-unlit-mid-transition-3q.png",
+      "meanAbsoluteRGB255": 0.00018147786458333332,
+      "maxChannel255": 21,
+      "pixelsAnyChannelGt8": 4
+    },
+    {
+      "candidate": "phone-local8-unlit-mid-transition-front.png",
+      "reference": "phone-full8-unlit-mid-transition-front.png",
+      "meanAbsoluteRGB255": 0.00012858072916666665,
+      "maxChannel255": 30,
+      "pixelsAnyChannelGt8": 2
+    },
+    {
+      "candidate": "phone-local8-unlit-mid-transition-side.png",
+      "reference": "phone-full8-unlit-mid-transition-side.png",
+      "meanAbsoluteRGB255": 0.00020751953125,
+      "maxChannel255": 24,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-closed-3q.png",
+      "reference": "phone-full8-unlit-mouth-closed-3q.png",
+      "meanAbsoluteRGB255": 1.6276041666666666e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-closed-front.png",
+      "reference": "phone-full8-unlit-mouth-closed-front.png",
+      "meanAbsoluteRGB255": 2.44140625e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-closed-side.png",
+      "reference": "phone-full8-unlit-mouth-closed-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-large-3q.png",
+      "reference": "phone-full8-unlit-mouth-large-3q.png",
+      "meanAbsoluteRGB255": 1.6276041666666666e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-large-front.png",
+      "reference": "phone-full8-unlit-mouth-large-front.png",
+      "meanAbsoluteRGB255": 2.44140625e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-large-side.png",
+      "reference": "phone-full8-unlit-mouth-large-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-medium-3q.png",
+      "reference": "phone-full8-unlit-mouth-medium-3q.png",
+      "meanAbsoluteRGB255": 1.6276041666666666e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-medium-front.png",
+      "reference": "phone-full8-unlit-mouth-medium-front.png",
+      "meanAbsoluteRGB255": 2.44140625e-06,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-mouth-medium-side.png",
+      "reference": "phone-full8-unlit-mouth-medium-side.png",
+      "meanAbsoluteRGB255": 8.138020833333334e-07,
+      "maxChannel255": 1,
+      "pixelsAnyChannelGt8": 0
+    },
+    {
+      "candidate": "phone-local8-unlit-seat-3q.png",
+      "reference": "phone-full8-unlit-seat-3q.png",
+      "meanAbsoluteRGB255": 0.00013427734375,
+      "maxChannel255": 19,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-unlit-seat-front.png",
+      "reference": "phone-full8-unlit-seat-front.png",
+      "meanAbsoluteRGB255": 8.138020833333333e-05,
+      "maxChannel255": 14,
+      "pixelsAnyChannelGt8": 1
+    },
+    {
+      "candidate": "phone-local8-unlit-seat-side.png",
+      "reference": "phone-full8-unlit-seat-side.png",
+      "meanAbsoluteRGB255": 0.00017903645833333332,
+      "maxChannel255": 9,
+      "pixelsAnyChannelGt8": 2
+    },
+    {
+      "candidate": "phone-local8-unlit-self-L-3q.png",
+      "reference": "phone-full8-unlit-self-L-3q.png",
+      "meanAbsoluteRGB255": 0.00043212890625,
+      "maxChannel255": 18,
+      "pixelsAnyChannelGt8": 6
+    },
+    {
+      "candidate": "phone-local8-unlit-self-L-front.png",
+      "reference": "phone-full8-unlit-self-L-front.png",
+      "meanAbsoluteRGB255": 0.0006502278645833334,
+      "maxChannel255": 39,
+      "pixelsAnyChannelGt8": 7
+    },
+    {
+      "candidate": "phone-local8-unlit-self-L-side.png",
+      "reference": "phone-full8-unlit-self-L-side.png",
+      "meanAbsoluteRGB255": 3.987630208333333e-05,
+      "maxChannel255": 8,
+      "pixelsAnyChannelGt8": 0
+    }
+  ],
+  "video": [
+    {
+      "file": "phone-full8-arm-3q.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.518012"
+      }
+    },
+    {
+      "file": "phone-full8-arm-side.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.520635"
+      }
+    },
+    {
+      "file": "phone-full8-mouth-3q.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.045753"
+      }
+    },
+    {
+      "file": "phone-full8-mouth-side.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.068807"
+      }
+    },
+    {
+      "file": "phone-full8-seat-return.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "7.293061"
+      }
+    },
+    {
+      "file": "phone-local8-arm-3q.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.499072"
+      }
+    },
+    {
+      "file": "phone-local8-arm-side.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.546791"
+      }
+    },
+    {
+      "file": "phone-local8-mouth-3q.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "0.945250"
+      }
+    },
+    {
+      "file": "phone-local8-mouth-side.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.030069"
+      }
+    },
+    {
+      "file": "phone-local8-seat-return.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "7.340457"
+      }
+    },
+    {
+      "file": "phone-stock-arm-3q.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.545880"
+      }
+    },
+    {
+      "file": "phone-stock-arm-side.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.547364"
+      }
+    },
+    {
+      "file": "phone-stock-mouth-3q.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.006025"
+      }
+    },
+    {
+      "file": "phone-stock-mouth-side.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "1.079331"
+      }
+    },
+    {
+      "file": "phone-stock-seat-return.webm",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 640,
+          "height": 640
+        }
+      ],
+      "format": {
+        "duration": "7.332711"
+      }
+    },
+    {
+      "file": "blender-author-arm-3q-sampled8fps.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 640,
+          "height": 640,
+          "nb_frames": "14"
+        }
+      ],
+      "format": {
+        "duration": "1.640000"
+      }
+    },
+    {
+      "file": "blender-author-arm-side-sampled8fps.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 640,
+          "height": 640,
+          "nb_frames": "14"
+        }
+      ],
+      "format": {
+        "duration": "1.640000"
+      }
+    },
+    {
+      "file": "blender-saved-arm-3q-sampled8fps.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 640,
+          "height": 640,
+          "nb_frames": "14"
+        }
+      ],
+      "format": {
+        "duration": "1.640000"
+      }
+    },
+    {
+      "file": "blender-saved-arm-side-sampled8fps.mp4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 640,
+          "height": 640,
+          "nb_frames": "14"
+        }
+      ],
+      "format": {
+        "duration": "1.640000"
+      }
+    }
+  ],
+  "handoffUnicodeCharacters": 3904,
+  "gate": "HOLD: Human local A and B; no original replacement or Motion production",
+  "gpuTime": "UNKNOWN"
+}

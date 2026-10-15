@@ -1,0 +1,379 @@
+{
+  "units": "H = approved neutral height about 1; angles compare exported glTF eight-weight normal against evaluated Blender vertex normal. Neutral nearest-position maps include duplicated UV vertices. Maximum is not a Human score.",
+  "rows": [
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_L",
+      "authorPositionH": {
+        "max": 2.2713082647466295e-07,
+        "p95": 2.1279665206207624e-07,
+        "median": 1.2323844766418685e-07
+      },
+      "authorNormalDeg": {
+        "max": 0.019795570121286542,
+        "p95": 0.015243082823302856,
+        "median": 0.0
+      },
+      "savedPositionH": {
+        "max": 1.7076543971052838e-07,
+        "p95": 1.4913773605870218e-07,
+        "median": 7.361693590976392e-08
+      },
+      "savedNormalDeg": {
+        "max": 0.029565854868012473,
+        "p95": 0.015908237776208926,
+        "median": 0.0
+      }
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_R",
+      "authorPositionH": {
+        "max": 1.57035615760298e-07,
+        "p95": 1.461677344512965e-07,
+        "median": 1.0171457431194709e-07
+      },
+      "authorNormalDeg": {
+        "max": 0.022216760160833706,
+        "p95": 0.015193932851435533,
+        "median": 0.0
+      },
+      "savedPositionH": {
+        "max": 1.472990536029451e-07,
+        "p95": 9.199037244904834e-08,
+        "median": 5.3032018753830213e-08
+      },
+      "savedNormalDeg": {
+        "max": 0.038807110639138054,
+        "p95": 0.015097853495406138,
+        "median": 0.0
+      }
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_L",
+      "authorPositionH": {
+        "max": 2.654920676168976e-07,
+        "p95": 2.2471280719581832e-07,
+        "median": 1.3875654240626854e-07
+      },
+      "authorNormalDeg": {
+        "max": 179.04689007747862,
+        "p95": 95.26000397336709,
+        "median": 2.9355657587513093
+      },
+      "savedPositionH": {
+        "max": 2.575430453980063e-07,
+        "p95": 2.2375906784635454e-07,
+        "median": 1.515490991382759e-07
+      },
+      "savedNormalDeg": {
+        "max": 179.04688103979757,
+        "p95": 95.26010763860279,
+        "median": 2.9353932797151825
+      }
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_R",
+      "authorPositionH": {
+        "max": 1.57035615760298e-07,
+        "p95": 1.461677344512965e-07,
+        "median": 1.0171457431194709e-07
+      },
+      "authorNormalDeg": {
+        "max": 0.022216760160833706,
+        "p95": 0.015193932851435533,
+        "median": 0.0
+      },
+      "savedPositionH": {
+        "max": 1.472990536029451e-07,
+        "p95": 9.199037244904834e-08,
+        "median": 5.3032018753830213e-08
+      },
+      "savedNormalDeg": {
+        "max": 0.038807110639138054,
+        "p95": 0.015097853495406138,
+        "median": 0.0
+      }
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_L",
+      "authorPositionH": {
+        "max": 7.534206848869291e-07,
+        "p95": 6.771074641134586e-07,
+        "median": 4.275906192447454e-07
+      },
+      "authorNormalDeg": {
+        "max": 179.04670784838888,
+        "p95": 95.64731278950426,
+        "median": 4.394647931394207
+      },
+      "savedPositionH": {
+        "max": 6.234933903459487e-07,
+        "p95": 5.198673153287089e-07,
+        "median": 3.6764151053306965e-07
+      },
+      "savedNormalDeg": {
+        "max": 179.04669877859047,
+        "p95": 95.64727027884616,
+        "median": 4.394812765711797
+      }
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_R",
+      "authorPositionH": {
+        "max": 1.5438104628438532e-07,
+        "p95": 1.3245869548753336e-07,
+        "median": 9.729694471564667e-08
+      },
+      "authorNormalDeg": {
+        "max": 0.022217001345026046,
+        "p95": 0.015193555664366754,
+        "median": 0.0
+      },
+      "savedPositionH": {
+        "max": 1.4727631295567974e-07,
+        "p95": 8.918571967542593e-08,
+        "median": 5.7253265467407734e-08
+      },
+      "savedNormalDeg": {
+        "max": 0.03879881664678959,
+        "p95": 0.015097843279984464,
+        "median": 0.0
+      }
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_L",
+      "authorPositionH": {
+        "max": 1.4350886312073081e-06,
+        "p95": 4.647318199852224e-07,
+        "median": 2.978206913151509e-07
+      },
+      "authorNormalDeg": {
+        "max": 176.15392897126844,
+        "p95": 99.59094502341061,
+        "median": 1.8564409300670277
+      },
+      "savedPositionH": {
+        "max": 1.4839760487441668e-06,
+        "p95": 4.853962388801437e-07,
+        "median": 2.711048589217193e-07
+      },
+      "savedNormalDeg": {
+        "max": 176.15519482717207,
+        "p95": 99.59325756513906,
+        "median": 1.8563558349569977
+      }
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_R",
+      "authorPositionH": {
+        "max": 1.5438104628438532e-07,
+        "p95": 1.3245869548753336e-07,
+        "median": 9.729694471564667e-08
+      },
+      "authorNormalDeg": {
+        "max": 0.022217001345026046,
+        "p95": 0.015193555664366754,
+        "median": 0.0
+      },
+      "savedPositionH": {
+        "max": 1.4727631295567974e-07,
+        "p95": 8.918571967542593e-08,
+        "median": 5.7253265467407734e-08
+      },
+      "savedNormalDeg": {
+        "max": 0.03879881664678959,
+        "p95": 0.015097843279984464,
+        "median": 0.0
+      }
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_L",
+      "authorPositionH": {
+        "max": 3.4857419777767517e-07,
+        "p95": 3.176358480212512e-07,
+        "median": 1.3830091249081288e-07
+      },
+      "authorNormalDeg": {
+        "max": 0.01979839051441292,
+        "p95": 0.015242685191965241,
+        "median": 0.0
+      },
+      "savedPositionH": {
+        "max": 3.1109315871200285e-07,
+        "p95": 2.550847486191989e-07,
+        "median": 1.2083627838501778e-07
+      },
+      "savedNormalDeg": {
+        "max": 0.02963379344380725,
+        "p95": 0.015908237776208926,
+        "median": 0.0
+      }
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_R",
+      "authorPositionH": {
+        "max": 1.3316859814206215e-06,
+        "p95": 6.139739863622951e-07,
+        "median": 3.307216395486382e-07
+      },
+      "authorNormalDeg": {
+        "max": 178.8748429820612,
+        "p95": 96.23747651965331,
+        "median": 3.204944070254956
+      },
+      "savedPositionH": {
+        "max": 1.3396174683299165e-06,
+        "p95": 6.187340653720274e-07,
+        "median": 3.2510266916305407e-07
+      },
+      "savedNormalDeg": {
+        "max": 178.87488999069294,
+        "p95": 96.23791538068627,
+        "median": 3.204980911287903
+      }
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_L",
+      "authorPositionH": {
+        "max": 3.242885931962929e-07,
+        "p95": 2.7650454298464227e-07,
+        "median": 2.0372096781587102e-07
+      },
+      "authorNormalDeg": {
+        "max": 172.22911122361108,
+        "p95": 104.49208985599157,
+        "median": 1.7512934387157493
+      },
+      "savedPositionH": {
+        "max": 2.7910925470455873e-07,
+        "p95": 2.3960703581568437e-07,
+        "median": 1.497530975693001e-07
+      },
+      "savedNormalDeg": {
+        "max": 172.23282393281855,
+        "p95": 104.49194879970604,
+        "median": 1.7512370927854852
+      }
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_R",
+      "authorPositionH": {
+        "max": 8.687340512255389e-07,
+        "p95": 8.17578411885063e-07,
+        "median": 3.5930075914742047e-07
+      },
+      "authorNormalDeg": {
+        "max": 168.00744448487632,
+        "p95": 98.90106001151176,
+        "median": 1.1411064164599647
+      },
+      "savedPositionH": {
+        "max": 8.466180038985561e-07,
+        "p95": 7.713992916222931e-07,
+        "median": 3.8088323412061504e-07
+      },
+      "savedNormalDeg": {
+        "max": 168.00828151529822,
+        "p95": 98.90005612705119,
+        "median": 1.1412451869636726
+      }
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_L",
+      "authorPositionH": {
+        "max": 2.0964635641016987e-07,
+        "p95": 1.8049082732257517e-07,
+        "median": 1.0235264584038975e-07
+      },
+      "authorNormalDeg": {
+        "max": 177.70234060684209,
+        "p95": 90.43397850009968,
+        "median": 2.8415817610756786
+      },
+      "savedPositionH": {
+        "max": 2.2209264965651938e-07,
+        "p95": 1.5983243228403847e-07,
+        "median": 9.363272057044518e-08
+      },
+      "savedNormalDeg": {
+        "max": 177.70208735064537,
+        "p95": 90.4330391570549,
+        "median": 2.841541345814916
+      }
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_R",
+      "authorPositionH": {
+        "max": 3.695383099540414e-07,
+        "p95": 3.2503733458027614e-07,
+        "median": 1.6175510047479516e-07
+      },
+      "authorNormalDeg": {
+        "max": 176.6331100466012,
+        "p95": 100.28553592473449,
+        "median": 6.748719669602719
+      },
+      "savedPositionH": {
+        "max": 2.8562443123496024e-07,
+        "p95": 2.408784836305219e-07,
+        "median": 8.882621076785006e-08
+      },
+      "savedNormalDeg": {
+        "max": 176.63336043170187,
+        "p95": 100.28548470856799,
+        "median": 6.750084779594264
+      }
+    }
+  ],
+  "textures": [
+    {
+      "mesh": "ShushuStatic_Head",
+      "file": "ShushuStatic_Head-original-basecolor.png",
+      "sha256": "2e1a7abf98bec3fe77d92567450d8c7e25c3cb93db5f64c0f123097ce695bead",
+      "bytes": 2528332,
+      "method": "Exact embedded image bytes, no decode/re-encode or color transform",
+      "material": {
+        "doubleSided": true,
+        "name": "ShushuStatic_Head_material",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 4
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        }
+      }
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "file": "ShushuStatic_MouthInterior-original-basecolor.jpg",
+      "sha256": "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+      "bytes": 5142,
+      "method": "Exact embedded image bytes, no decode/re-encode or color transform",
+      "material": {
+        "doubleSided": true,
+        "name": "ShushuStatic_MouthInterior_material",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 7
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 0.8999999761581421
+        }
+      }
+    }
+  ]
+}

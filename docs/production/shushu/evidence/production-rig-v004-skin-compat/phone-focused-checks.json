@@ -1,0 +1,659 @@
+{
+  "date": "2026-10-15T10:42:33.137Z",
+  "modes": {
+    "stock": {
+      "neutralReturn": {
+        "from": 549,
+        "to": 821,
+        "baseline": 1,
+        "jointMatrixMax": 0,
+        "anchorMatrixMax": 0,
+        "morphMax": 0,
+        "anchors": 7
+      },
+      "draws": {
+        "method": "Actual WebGL drawElements calls over 60 animated frames. Offscreen Morph drawArrays passes excluded. Existing app.stats.frame.triangles counter was zero and is unavailable.",
+        "rows": [
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          }
+        ]
+      },
+      "touch": [
+        {
+          "before": 0,
+          "after": 1
+        },
+        {
+          "before": 1,
+          "after": 0
+        },
+        {
+          "before": 0,
+          "after": 1
+        },
+        {
+          "before": 1,
+          "after": 0
+        },
+        {
+          "before": 0,
+          "after": 1
+        },
+        {
+          "before": 1,
+          "after": 0
+        }
+      ],
+      "pointerEvents": [
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 3,
+          "speed": 0
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 3.199999988079071,
+          "speed": 1
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 2.699999988079071,
+          "speed": 0
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 8.5,
+          "speed": 1
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 2.899999976158142,
+          "speed": 0
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 3.100000023841858,
+          "speed": 1
+        }
+      ]
+    },
+    "local8": {
+      "neutralReturn": {
+        "from": 549,
+        "to": 821,
+        "baseline": 1,
+        "jointMatrixMax": 0,
+        "anchorMatrixMax": 0,
+        "morphMax": 0,
+        "anchors": 7
+      },
+      "draws": {
+        "method": "Actual WebGL drawElements calls over 60 animated frames. Offscreen Morph drawArrays passes excluded. Existing app.stats.frame.triangles counter was zero and is unavailable.",
+        "rows": [
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          },
+          {
+            "indexedCalls": 16,
+            "triangles": 101057
+          }
+        ]
+      },
+      "loop": {
+        "duration": 34.20833206176758,
+        "offsetCycles": 8,
+        "time": 295.87498982747394,
+        "jointMatrixMax": 0,
+        "morphMax": 2.1316282072803006e-13
+      },
+      "mouthIsolation": {
+        "method": "Temporarily hide MouthInterior, OralBowl and Tongue in the diagnostic viewer; restore all visibility afterward. Original GLB/Texture unchanged.",
+        "frames": [
+          333,
+          357
+        ]
+      },
+      "touch": [
+        {
+          "before": 0,
+          "after": 1
+        },
+        {
+          "before": 1,
+          "after": 0
+        },
+        {
+          "before": 0,
+          "after": 1
+        },
+        {
+          "before": 1,
+          "after": 0
+        },
+        {
+          "before": 0,
+          "after": 1
+        },
+        {
+          "before": 1,
+          "after": 0
+        }
+      ],
+      "pointerEvents": [
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 3,
+          "speed": 0
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 3.5,
+          "speed": 1
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 2.800000011920929,
+          "speed": 0
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 6.300000011920929,
+          "speed": 1
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 3.400000035762787,
+          "speed": 0
+        },
+        {
+          "trusted": true,
+          "pointerType": "touch",
+          "eventToRafMs": 3.699999988079071,
+          "speed": 1
+        }
+      ]
+    }
+  }
+}

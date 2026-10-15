@@ -1,0 +1,3881 @@
+{
+  "method": "non-negative simplex least squares, all original nonzero-joint supports of size <=4; position plus 0.05H normalized normal vector residual",
+  "frames": 181,
+  "vertices": 357,
+  "changedBytes": 5751,
+  "unexpectedBytes": 0,
+  "sourceSHA256": "5fb05e5b7a9cbdb07a64beb5a511d6347c656d85d111ed16eccc533ecfc44cb5",
+  "candidateSHA256": "f844a02a521428c7d0128bf3fd2b8984d4b42ab212bb58e280347876f96b15dd",
+  "candidateBytes": 29691704,
+  "records": [
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 413,
+      "squaredPositionPlusNormalLoss": 4.193129099423273e-10,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 431,
+      "squaredPositionPlusNormalLoss": 8.325246130166237e-09,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 485,
+      "squaredPositionPlusNormalLoss": 7.904110355349521e-10,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 515,
+      "squaredPositionPlusNormalLoss": 2.3908536916880727e-08,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 555,
+      "squaredPositionPlusNormalLoss": 2.9632374204991323e-10,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 580,
+      "squaredPositionPlusNormalLoss": 1.6880213202122838e-08,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 610,
+      "squaredPositionPlusNormalLoss": 1.340424719638736e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 635,
+      "squaredPositionPlusNormalLoss": 2.3041400502573957e-09,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 660,
+      "squaredPositionPlusNormalLoss": 3.2739156800122046e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 693,
+      "squaredPositionPlusNormalLoss": 2.0475159722440386e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 711,
+      "squaredPositionPlusNormalLoss": 2.865998853564856e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 712,
+      "squaredPositionPlusNormalLoss": 1.4479816077043046e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 718,
+      "squaredPositionPlusNormalLoss": 2.5371424775034193e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 737,
+      "squaredPositionPlusNormalLoss": 8.796266620944008e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertex": 742,
+      "squaredPositionPlusNormalLoss": 1.061002360946868e-06,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 662,
+      "squaredPositionPlusNormalLoss": 9.220030047988872e-08,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 694,
+      "squaredPositionPlusNormalLoss": 4.5610185452172126e-08,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 695,
+      "squaredPositionPlusNormalLoss": 5.011112647217729e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 702,
+      "squaredPositionPlusNormalLoss": 2.965786381345804e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 703,
+      "squaredPositionPlusNormalLoss": 2.3902751049219683e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 722,
+      "squaredPositionPlusNormalLoss": 7.387173926270815e-07,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 723,
+      "squaredPositionPlusNormalLoss": 1.140018099090029e-06,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertex": 727,
+      "squaredPositionPlusNormalLoss": 1.591416417734268e-06,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 10,
+      "squaredPositionPlusNormalLoss": 5.844019232501747e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 15,
+      "squaredPositionPlusNormalLoss": 4.084612134401633e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 16,
+      "squaredPositionPlusNormalLoss": 2.1705569648799746e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 38,
+      "squaredPositionPlusNormalLoss": 3.7955444318917364e-14,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 39,
+      "squaredPositionPlusNormalLoss": 3.7959441277901424e-14,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 46,
+      "squaredPositionPlusNormalLoss": 3.144377372372969e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 47,
+      "squaredPositionPlusNormalLoss": 1.859048804070629e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 48,
+      "squaredPositionPlusNormalLoss": 6.196479864001193e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 70,
+      "squaredPositionPlusNormalLoss": 3.0847732135471204e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 74,
+      "squaredPositionPlusNormalLoss": 6.818205460542788e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 75,
+      "squaredPositionPlusNormalLoss": 1.5612459074500265e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 77,
+      "squaredPositionPlusNormalLoss": 5.172629879597258e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 85,
+      "squaredPositionPlusNormalLoss": 6.765318706542349e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 86,
+      "squaredPositionPlusNormalLoss": 6.785826457267825e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 90,
+      "squaredPositionPlusNormalLoss": 5.903014527623756e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 92,
+      "squaredPositionPlusNormalLoss": 1.0143076198659728e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 119,
+      "squaredPositionPlusNormalLoss": 7.426175186191216e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 153,
+      "squaredPositionPlusNormalLoss": 3.953750739690005e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 154,
+      "squaredPositionPlusNormalLoss": 7.352187963849304e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 166,
+      "squaredPositionPlusNormalLoss": 4.643607041088235e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 187,
+      "squaredPositionPlusNormalLoss": 2.1348921465283887e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 188,
+      "squaredPositionPlusNormalLoss": 4.0662881615902564e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 196,
+      "squaredPositionPlusNormalLoss": 3.195920704946487e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 197,
+      "squaredPositionPlusNormalLoss": 3.072953310134526e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 198,
+      "squaredPositionPlusNormalLoss": 2.9226863991823946e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 199,
+      "squaredPositionPlusNormalLoss": 8.175326920145813e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 206,
+      "squaredPositionPlusNormalLoss": 8.778741264843577e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 207,
+      "squaredPositionPlusNormalLoss": 8.780985724068245e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 226,
+      "squaredPositionPlusNormalLoss": 5.973890477884825e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 227,
+      "squaredPositionPlusNormalLoss": 3.281310858760645e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 229,
+      "squaredPositionPlusNormalLoss": 9.135946556858507e-14,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 235,
+      "squaredPositionPlusNormalLoss": 5.460622879105895e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 244,
+      "squaredPositionPlusNormalLoss": 3.0764418475923346e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 307,
+      "squaredPositionPlusNormalLoss": 3.1055693174973615e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 308,
+      "squaredPositionPlusNormalLoss": 7.185742145249866e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 314,
+      "squaredPositionPlusNormalLoss": 1.286361528833021e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 343,
+      "squaredPositionPlusNormalLoss": 2.471472193277439e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 344,
+      "squaredPositionPlusNormalLoss": 6.001188928547702e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 349,
+      "squaredPositionPlusNormalLoss": 2.2494524804049734e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 350,
+      "squaredPositionPlusNormalLoss": 1.2440865047663174e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 356,
+      "squaredPositionPlusNormalLoss": 2.2428007242055185e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 357,
+      "squaredPositionPlusNormalLoss": 2.314688736834326e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 366,
+      "squaredPositionPlusNormalLoss": 1.3829286048322712e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 377,
+      "squaredPositionPlusNormalLoss": 8.065777830305859e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 378,
+      "squaredPositionPlusNormalLoss": 3.123858609832122e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 387,
+      "squaredPositionPlusNormalLoss": 1.1093804558093315e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 395,
+      "squaredPositionPlusNormalLoss": 2.0668923969804806e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 414,
+      "squaredPositionPlusNormalLoss": 3.956188240461895e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 415,
+      "squaredPositionPlusNormalLoss": 2.8556924415431196e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 421,
+      "squaredPositionPlusNormalLoss": 6.46720594965739e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 425,
+      "squaredPositionPlusNormalLoss": 6.84522589730167e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 426,
+      "squaredPositionPlusNormalLoss": -3.6675245140501235e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 427,
+      "squaredPositionPlusNormalLoss": 5.324727451319879e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 448,
+      "squaredPositionPlusNormalLoss": 6.533523468500717e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 449,
+      "squaredPositionPlusNormalLoss": 2.780556800918701e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 465,
+      "squaredPositionPlusNormalLoss": 3.4637021817407494e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 466,
+      "squaredPositionPlusNormalLoss": 3.461143839115226e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 475,
+      "squaredPositionPlusNormalLoss": 4.992008127870652e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 477,
+      "squaredPositionPlusNormalLoss": 3.246006759234999e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 480,
+      "squaredPositionPlusNormalLoss": 1.8035324523820106e-13,
+      "slots": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 501,
+      "squaredPositionPlusNormalLoss": 5.221259440393384e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 505,
+      "squaredPositionPlusNormalLoss": 3.162896011142826e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 516,
+      "squaredPositionPlusNormalLoss": 8.107474825042695e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 528,
+      "squaredPositionPlusNormalLoss": 7.893268988716604e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 533,
+      "squaredPositionPlusNormalLoss": 3.117874079018095e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 534,
+      "squaredPositionPlusNormalLoss": 9.820811762891951e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 536,
+      "squaredPositionPlusNormalLoss": 4.956944089846795e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 557,
+      "squaredPositionPlusNormalLoss": 8.189004586413062e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 560,
+      "squaredPositionPlusNormalLoss": 6.889876817548632e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 587,
+      "squaredPositionPlusNormalLoss": 4.8137612389198545e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 588,
+      "squaredPositionPlusNormalLoss": 4.815746895550303e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 595,
+      "squaredPositionPlusNormalLoss": 7.88148426402034e-14,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 596,
+      "squaredPositionPlusNormalLoss": 8.931448441082714e-15,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 613,
+      "squaredPositionPlusNormalLoss": 3.0441005069445076e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 624,
+      "squaredPositionPlusNormalLoss": 3.817701394491755e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 625,
+      "squaredPositionPlusNormalLoss": 7.418261875525127e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 626,
+      "squaredPositionPlusNormalLoss": 9.143174472573658e-15,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 653,
+      "squaredPositionPlusNormalLoss": 5.6517233196499166e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 677,
+      "squaredPositionPlusNormalLoss": 4.9142528952274996e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 686,
+      "squaredPositionPlusNormalLoss": 6.385849362213913e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 719,
+      "squaredPositionPlusNormalLoss": 9.601992390640976e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 738,
+      "squaredPositionPlusNormalLoss": 1.4452980317402648e-13,
+      "slots": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 739,
+      "squaredPositionPlusNormalLoss": 1.4452903657593693e-13,
+      "slots": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 755,
+      "squaredPositionPlusNormalLoss": 7.11212475703252e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 787,
+      "squaredPositionPlusNormalLoss": 3.0365478423704e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 793,
+      "squaredPositionPlusNormalLoss": 6.951034547888584e-14,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 863,
+      "squaredPositionPlusNormalLoss": 3.7625065648537246e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 864,
+      "squaredPositionPlusNormalLoss": 3.7603131453901777e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 964,
+      "squaredPositionPlusNormalLoss": 1.1490691409872396e-13,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1052,
+      "squaredPositionPlusNormalLoss": 9.72878052159166e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1055,
+      "squaredPositionPlusNormalLoss": 6.377998669806551e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1159,
+      "squaredPositionPlusNormalLoss": 6.90366185386466e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1232,
+      "squaredPositionPlusNormalLoss": 6.122337562418342e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1352,
+      "squaredPositionPlusNormalLoss": 8.101813851732332e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1401,
+      "squaredPositionPlusNormalLoss": 7.857932424605666e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1450,
+      "squaredPositionPlusNormalLoss": 1.0545650781916808e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1477,
+      "squaredPositionPlusNormalLoss": 4.985852013846411e-14,
+      "slots": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1512,
+      "squaredPositionPlusNormalLoss": 5.13876812869731e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1547,
+      "squaredPositionPlusNormalLoss": 8.403743283023818e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1612,
+      "squaredPositionPlusNormalLoss": 2.087522538007284e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1615,
+      "squaredPositionPlusNormalLoss": 6.02296076715098e-14,
+      "slots": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1630,
+      "squaredPositionPlusNormalLoss": 1.640230608836129e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1661,
+      "squaredPositionPlusNormalLoss": 8.006047175388673e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1688,
+      "squaredPositionPlusNormalLoss": 4.7644986771078106e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1732,
+      "squaredPositionPlusNormalLoss": 6.281153577783494e-15,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1791,
+      "squaredPositionPlusNormalLoss": 5.3604709233007336e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1814,
+      "squaredPositionPlusNormalLoss": 6.512477473043758e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 1819,
+      "squaredPositionPlusNormalLoss": 6.459787485358731e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2755,
+      "squaredPositionPlusNormalLoss": 1.5548292600447105e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2756,
+      "squaredPositionPlusNormalLoss": 1.5368259287936588e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2761,
+      "squaredPositionPlusNormalLoss": 3.79293399383404e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2762,
+      "squaredPositionPlusNormalLoss": 2.1986669927376763e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2767,
+      "squaredPositionPlusNormalLoss": 7.729866925874902e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2771,
+      "squaredPositionPlusNormalLoss": 1.2487229250647787e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2772,
+      "squaredPositionPlusNormalLoss": 5.61817715064051e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2781,
+      "squaredPositionPlusNormalLoss": 2.392361615214697e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2782,
+      "squaredPositionPlusNormalLoss": 2.703350334096426e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2783,
+      "squaredPositionPlusNormalLoss": 3.1933883932858616e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2793,
+      "squaredPositionPlusNormalLoss": 1.780250254693084e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2794,
+      "squaredPositionPlusNormalLoss": 2.6799071543289814e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2795,
+      "squaredPositionPlusNormalLoss": 3.815088598298086e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2803,
+      "squaredPositionPlusNormalLoss": 1.955372513947632e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2804,
+      "squaredPositionPlusNormalLoss": 1.7500793425703362e-15,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2834,
+      "squaredPositionPlusNormalLoss": 9.364074174735731e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2835,
+      "squaredPositionPlusNormalLoss": 8.108353251302374e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2843,
+      "squaredPositionPlusNormalLoss": 0.00010961188991580301,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2871,
+      "squaredPositionPlusNormalLoss": 2.984839587655446e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2872,
+      "squaredPositionPlusNormalLoss": 2.9797301623109664e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2892,
+      "squaredPositionPlusNormalLoss": 8.379668468672768e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2923,
+      "squaredPositionPlusNormalLoss": 4.1036813001968417e-14,
+      "slots": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2928,
+      "squaredPositionPlusNormalLoss": 7.388836475048861e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2952,
+      "squaredPositionPlusNormalLoss": 1.0693879751474299e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2953,
+      "squaredPositionPlusNormalLoss": 1.1029716335990732e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2954,
+      "squaredPositionPlusNormalLoss": 6.05770272357862e-14,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2959,
+      "squaredPositionPlusNormalLoss": 1.183989945844592e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2984,
+      "squaredPositionPlusNormalLoss": 2.3065358882186102e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 2994,
+      "squaredPositionPlusNormalLoss": 1.0599822535100466e-14,
+      "slots": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3012,
+      "squaredPositionPlusNormalLoss": 4.1746807711754715e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3013,
+      "squaredPositionPlusNormalLoss": 4.116886107296411e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3014,
+      "squaredPositionPlusNormalLoss": 0.00023445193093005762,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3015,
+      "squaredPositionPlusNormalLoss": 4.911325896428252e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3019,
+      "squaredPositionPlusNormalLoss": 9.488540536438085e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3020,
+      "squaredPositionPlusNormalLoss": 2.191110201161747e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3021,
+      "squaredPositionPlusNormalLoss": 9.656184373547707e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3040,
+      "squaredPositionPlusNormalLoss": 3.559558954413596e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3041,
+      "squaredPositionPlusNormalLoss": 3.577280096265571e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3049,
+      "squaredPositionPlusNormalLoss": 5.012685970257719e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3053,
+      "squaredPositionPlusNormalLoss": 1.610995281723209e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3054,
+      "squaredPositionPlusNormalLoss": 2.7789942273605584e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3063,
+      "squaredPositionPlusNormalLoss": 3.8135461399398766e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3064,
+      "squaredPositionPlusNormalLoss": 3.9269096912687026e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3065,
+      "squaredPositionPlusNormalLoss": 5.987760590375721e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3112,
+      "squaredPositionPlusNormalLoss": 4.967907077794706e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3113,
+      "squaredPositionPlusNormalLoss": 1.6163829347194966e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3114,
+      "squaredPositionPlusNormalLoss": 1.644872482411518e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3115,
+      "squaredPositionPlusNormalLoss": 6.321203729237464e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3116,
+      "squaredPositionPlusNormalLoss": 6.472924859900783e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3117,
+      "squaredPositionPlusNormalLoss": 6.674285829985227e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3139,
+      "squaredPositionPlusNormalLoss": 7.643471170089232e-15,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3140,
+      "squaredPositionPlusNormalLoss": 7.624656268470143e-15,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3141,
+      "squaredPositionPlusNormalLoss": 7.447888622114253e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3142,
+      "squaredPositionPlusNormalLoss": 7.640699680640107e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3143,
+      "squaredPositionPlusNormalLoss": 7.578497030925565e-05,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3144,
+      "squaredPositionPlusNormalLoss": 2.6017143948811922e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3145,
+      "squaredPositionPlusNormalLoss": 2.558247858772207e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3146,
+      "squaredPositionPlusNormalLoss": 2.561302394956101e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3147,
+      "squaredPositionPlusNormalLoss": 0.00031930060729787725,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3148,
+      "squaredPositionPlusNormalLoss": 0.00031451223819349897,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3153,
+      "squaredPositionPlusNormalLoss": 5.042211051729342e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3181,
+      "squaredPositionPlusNormalLoss": 0.000579251683690361,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3182,
+      "squaredPositionPlusNormalLoss": 0.0005807392893304804,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3191,
+      "squaredPositionPlusNormalLoss": 7.745126752552199e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3192,
+      "squaredPositionPlusNormalLoss": 7.806839888156645e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3193,
+      "squaredPositionPlusNormalLoss": 7.812038560293736e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3196,
+      "squaredPositionPlusNormalLoss": 0.00032468267259050734,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3197,
+      "squaredPositionPlusNormalLoss": 0.0003487810579800439,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3202,
+      "squaredPositionPlusNormalLoss": 2.426973355539112e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3203,
+      "squaredPositionPlusNormalLoss": 2.3443781029621155e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3211,
+      "squaredPositionPlusNormalLoss": 0.0006708001897565352,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3212,
+      "squaredPositionPlusNormalLoss": 0.0006317747488039159,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3224,
+      "squaredPositionPlusNormalLoss": 6.037822937791374e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3225,
+      "squaredPositionPlusNormalLoss": 6.042903603517168e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3228,
+      "squaredPositionPlusNormalLoss": 8.771874141508956e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3235,
+      "squaredPositionPlusNormalLoss": 1.7254238941240033e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3236,
+      "squaredPositionPlusNormalLoss": 1.7463983026483816e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3258,
+      "squaredPositionPlusNormalLoss": 7.074512315310128e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3259,
+      "squaredPositionPlusNormalLoss": 1.071747868679536e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3285,
+      "squaredPositionPlusNormalLoss": 7.94768128162445e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3286,
+      "squaredPositionPlusNormalLoss": 1.21877727480341e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3290,
+      "squaredPositionPlusNormalLoss": 4.325251237650339e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3291,
+      "squaredPositionPlusNormalLoss": 4.313483146065361e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3312,
+      "squaredPositionPlusNormalLoss": 0.0004561148658124418,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3319,
+      "squaredPositionPlusNormalLoss": 1.5411038397623928e-13,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3320,
+      "squaredPositionPlusNormalLoss": 4.835937711204319e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3322,
+      "squaredPositionPlusNormalLoss": 8.888310959409316e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3324,
+      "squaredPositionPlusNormalLoss": 7.333605095342535e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3325,
+      "squaredPositionPlusNormalLoss": 7.243478563799395e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3337,
+      "squaredPositionPlusNormalLoss": 3.588142067424946e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3347,
+      "squaredPositionPlusNormalLoss": 1.101454470430432e-14,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3348,
+      "squaredPositionPlusNormalLoss": 1.6733919729383887e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3349,
+      "squaredPositionPlusNormalLoss": 1.222081013909482e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3360,
+      "squaredPositionPlusNormalLoss": 1.0808836839660592e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3361,
+      "squaredPositionPlusNormalLoss": 1.0727859265841347e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3379,
+      "squaredPositionPlusNormalLoss": 0.0005959489645719865,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3381,
+      "squaredPositionPlusNormalLoss": 2.238467139668183e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3382,
+      "squaredPositionPlusNormalLoss": 3.0750532503871023e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3389,
+      "squaredPositionPlusNormalLoss": 1.2362836708066797e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3390,
+      "squaredPositionPlusNormalLoss": 1.1652954412494246e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3395,
+      "squaredPositionPlusNormalLoss": 1.3718832261333524e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3396,
+      "squaredPositionPlusNormalLoss": 1.5881738677768874e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3397,
+      "squaredPositionPlusNormalLoss": 1.3665101572463766e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3398,
+      "squaredPositionPlusNormalLoss": 5.178937528607541e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3399,
+      "squaredPositionPlusNormalLoss": 1.2173819732517824e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3400,
+      "squaredPositionPlusNormalLoss": 1.172428932311437e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3424,
+      "squaredPositionPlusNormalLoss": 1.3308862218435939e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3425,
+      "squaredPositionPlusNormalLoss": 1.2953265879523158e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3436,
+      "squaredPositionPlusNormalLoss": 0.00023177365183287628,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3437,
+      "squaredPositionPlusNormalLoss": 0.00022144651050457883,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3440,
+      "squaredPositionPlusNormalLoss": 2.3601466224667717e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3441,
+      "squaredPositionPlusNormalLoss": 2.366134424393961e-15,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3446,
+      "squaredPositionPlusNormalLoss": 7.743936721750246e-14,
+      "slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3447,
+      "squaredPositionPlusNormalLoss": 7.76159714544984e-14,
+      "slots": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3467,
+      "squaredPositionPlusNormalLoss": 1.8271518821948494e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3486,
+      "squaredPositionPlusNormalLoss": 0.000988917398269551,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3487,
+      "squaredPositionPlusNormalLoss": 3.802091505084138e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3488,
+      "squaredPositionPlusNormalLoss": 3.780468285992835e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3491,
+      "squaredPositionPlusNormalLoss": 7.60161942440974e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3492,
+      "squaredPositionPlusNormalLoss": 1.4211693452388747e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3493,
+      "squaredPositionPlusNormalLoss": 0.0006949969982915411,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3511,
+      "squaredPositionPlusNormalLoss": 1.2631908671521238e-13,
+      "slots": [
+        0,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3512,
+      "squaredPositionPlusNormalLoss": 1.263179674784997e-13,
+      "slots": [
+        0,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3514,
+      "squaredPositionPlusNormalLoss": 8.194971757052213e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3515,
+      "squaredPositionPlusNormalLoss": 8.195778280493062e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3516,
+      "squaredPositionPlusNormalLoss": 3.890650277685933e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3517,
+      "squaredPositionPlusNormalLoss": 3.524157564825177e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3525,
+      "squaredPositionPlusNormalLoss": 9.224887548309143e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3527,
+      "squaredPositionPlusNormalLoss": 4.546677927382257e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3528,
+      "squaredPositionPlusNormalLoss": 1.2513165394153823e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3556,
+      "squaredPositionPlusNormalLoss": 2.3822061392871238e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3557,
+      "squaredPositionPlusNormalLoss": 1.1640615986484702e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3558,
+      "squaredPositionPlusNormalLoss": 8.430024759987308e-15,
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3559,
+      "squaredPositionPlusNormalLoss": 1.2977684352276451e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3587,
+      "squaredPositionPlusNormalLoss": 0.0008863339896360289,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3595,
+      "squaredPositionPlusNormalLoss": 6.680604923206849e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3596,
+      "squaredPositionPlusNormalLoss": 1.9704990191759446e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3633,
+      "squaredPositionPlusNormalLoss": 6.40000111593042e-14,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3634,
+      "squaredPositionPlusNormalLoss": 9.937529342718704e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3666,
+      "squaredPositionPlusNormalLoss": 0.0007881881708909296,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3727,
+      "squaredPositionPlusNormalLoss": 2.9613971373834213e-14,
+      "slots": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3733,
+      "squaredPositionPlusNormalLoss": 2.9897921170276372e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3734,
+      "squaredPositionPlusNormalLoss": 2.533416844198686e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3735,
+      "squaredPositionPlusNormalLoss": 1.4757409495581916e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3754,
+      "squaredPositionPlusNormalLoss": 0.00035307401231445625,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3755,
+      "squaredPositionPlusNormalLoss": 0.0003448497904714766,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3780,
+      "squaredPositionPlusNormalLoss": 6.649698284594776e-16,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3781,
+      "squaredPositionPlusNormalLoss": 1.1063594750921174e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3813,
+      "squaredPositionPlusNormalLoss": 0.0008774335581359006,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3826,
+      "squaredPositionPlusNormalLoss": 3.5723186393801e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3832,
+      "squaredPositionPlusNormalLoss": 2.941169834635799e-15,
+      "slots": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3833,
+      "squaredPositionPlusNormalLoss": 2.8940284208926893e-15,
+      "slots": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3875,
+      "squaredPositionPlusNormalLoss": 2.356594182320749e-15,
+      "slots": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3911,
+      "squaredPositionPlusNormalLoss": 0.0006026676140863639,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3982,
+      "squaredPositionPlusNormalLoss": 3.6543223609127204e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3983,
+      "squaredPositionPlusNormalLoss": 3.841918499678879e-14,
+      "slots": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 3995,
+      "squaredPositionPlusNormalLoss": 0.0010185096477541829,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4019,
+      "squaredPositionPlusNormalLoss": 2.6169525322556106e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4043,
+      "squaredPositionPlusNormalLoss": 1.944455051270396e-13,
+      "slots": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4049,
+      "squaredPositionPlusNormalLoss": 0.0006264948010147595,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4092,
+      "squaredPositionPlusNormalLoss": 0.000863864822709937,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4119,
+      "squaredPositionPlusNormalLoss": 0.0011904526887166898,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4200,
+      "squaredPositionPlusNormalLoss": 5.6791990847246606e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4201,
+      "squaredPositionPlusNormalLoss": 5.463015972090297e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4204,
+      "squaredPositionPlusNormalLoss": 0.00037553824689226246,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4205,
+      "squaredPositionPlusNormalLoss": 0.00037518777457049083,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4217,
+      "squaredPositionPlusNormalLoss": 4.9743135797624806e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4245,
+      "squaredPositionPlusNormalLoss": 0.0005577402986115694,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4271,
+      "squaredPositionPlusNormalLoss": 6.241670465835887e-15,
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4331,
+      "squaredPositionPlusNormalLoss": 6.688122665212103e-15,
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4344,
+      "squaredPositionPlusNormalLoss": 7.931425340879931e-15,
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4355,
+      "squaredPositionPlusNormalLoss": 6.296960646499714e-15,
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4428,
+      "squaredPositionPlusNormalLoss": 2.621724971704798e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4480,
+      "squaredPositionPlusNormalLoss": 0.0006618236229201039,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4486,
+      "squaredPositionPlusNormalLoss": 1.0273341007459483e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4487,
+      "squaredPositionPlusNormalLoss": 5.531993359421802e-18,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4534,
+      "squaredPositionPlusNormalLoss": 5.9450467400129275e-15,
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4536,
+      "squaredPositionPlusNormalLoss": 5.723809108316255e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4537,
+      "squaredPositionPlusNormalLoss": 5.377134231073802e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4576,
+      "squaredPositionPlusNormalLoss": 0.0005649464615054847,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4578,
+      "squaredPositionPlusNormalLoss": 3.0580952740644135e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4579,
+      "squaredPositionPlusNormalLoss": 3.093958129344719e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4581,
+      "squaredPositionPlusNormalLoss": 8.094420628399388e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4582,
+      "squaredPositionPlusNormalLoss": 8.117825802938637e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4598,
+      "squaredPositionPlusNormalLoss": 1.6101989181696512e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4635,
+      "squaredPositionPlusNormalLoss": 6.488659325014078e-15,
+      "slots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4645,
+      "squaredPositionPlusNormalLoss": 5.392415005048108e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4665,
+      "squaredPositionPlusNormalLoss": 6.182500780684193e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4671,
+      "squaredPositionPlusNormalLoss": 2.7326621042817758e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4673,
+      "squaredPositionPlusNormalLoss": 0.0005230582634909058,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4685,
+      "squaredPositionPlusNormalLoss": 4.120992839890419e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4688,
+      "squaredPositionPlusNormalLoss": 4.481171288598912e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4689,
+      "squaredPositionPlusNormalLoss": 4.061493755800206e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4690,
+      "squaredPositionPlusNormalLoss": 4.0457877867380184e-14,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4712,
+      "squaredPositionPlusNormalLoss": 0.0006696991081681958,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4723,
+      "squaredPositionPlusNormalLoss": 3.386826723081835e-14,
+      "slots": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4725,
+      "squaredPositionPlusNormalLoss": 1.2373775139967832e-14,
+      "slots": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4733,
+      "squaredPositionPlusNormalLoss": 5.019493795961207e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4734,
+      "squaredPositionPlusNormalLoss": 5.1867484464499354e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4740,
+      "squaredPositionPlusNormalLoss": -1.2978534467540167e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4757,
+      "squaredPositionPlusNormalLoss": 5.275869730596232e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4758,
+      "squaredPositionPlusNormalLoss": 5.82720633976633e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4764,
+      "squaredPositionPlusNormalLoss": 6.588373487503719e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4765,
+      "squaredPositionPlusNormalLoss": 3.3729250849804436e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4774,
+      "squaredPositionPlusNormalLoss": 3.1234093202595456e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4787,
+      "squaredPositionPlusNormalLoss": 1.5682961683781128e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4803,
+      "squaredPositionPlusNormalLoss": 8.369871140899121e-17,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4804,
+      "squaredPositionPlusNormalLoss": 1.2683384416980737e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4815,
+      "squaredPositionPlusNormalLoss": 1.875713422057588e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4823,
+      "squaredPositionPlusNormalLoss": 1.0558355514213492e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4824,
+      "squaredPositionPlusNormalLoss": 2.5924846166154425e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4829,
+      "squaredPositionPlusNormalLoss": 8.61571042395837e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4830,
+      "squaredPositionPlusNormalLoss": 7.763275015759855e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4831,
+      "squaredPositionPlusNormalLoss": 8.873091007580616e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4850,
+      "squaredPositionPlusNormalLoss": 2.8817731995691944e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4851,
+      "squaredPositionPlusNormalLoss": 1.2161568981673011e-16,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4852,
+      "squaredPositionPlusNormalLoss": 1.6361631997661856e-16,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4868,
+      "squaredPositionPlusNormalLoss": 1.6448310656959865e-15,
+      "slots": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4887,
+      "squaredPositionPlusNormalLoss": 2.829617677897933e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4892,
+      "squaredPositionPlusNormalLoss": 2.1338616130948957e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4911,
+      "squaredPositionPlusNormalLoss": 7.570486542989196e-16,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4974,
+      "squaredPositionPlusNormalLoss": 1.7178840511422652e-14,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4979,
+      "squaredPositionPlusNormalLoss": 3.4301750173140637e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 4987,
+      "squaredPositionPlusNormalLoss": 2.5163310021179285e-15,
+      "slots": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 5007,
+      "squaredPositionPlusNormalLoss": 5.171423985277755e-16,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertex": 5008,
+      "squaredPositionPlusNormalLoss": 5.219768398316034e-16,
+      "slots": [
+        0,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}
