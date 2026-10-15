@@ -1,0 +1,1845 @@
+{
+  "status": "HOLD / Human PENDING",
+  "candidate_sha256": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97",
+  "static_comparison_boards_opened_by_codex": [
+    "00-authority-v002.jpg",
+    "01-front-back.jpg",
+    "02-sides.jpg",
+    "03-three-quarter.jpg",
+    "04-face-clay.jpg",
+    "05-wing-roots.jpg",
+    "06-wing-undersides.jpg",
+    "07-tail-soles.jpg",
+    "08-face-material.jpg",
+    "09-neutral-extra.jpg",
+    "pose-01-WingL_Open.jpg",
+    "pose-02-WingL_Close.jpg",
+    "pose-03-WingR_Open.jpg",
+    "pose-04-WingR_Close.jpg",
+    "pose-05-Tail_Left.jpg",
+    "pose-06-Tail_Right.jpg",
+    "pose-07-ArmL_Offer.jpg",
+    "pose-08-ArmR_Offer.jpg",
+    "pose-09-BothWings_Open.jpg",
+    "pose-10-BothWings_Close.jpg",
+    "pose-11-Combined_Left.jpg",
+    "pose-12-Combined_Right.jpg",
+    "roots-01-WingL_Open.jpg",
+    "roots-02-WingL_Close.jpg",
+    "roots-03-WingR_Open.jpg",
+    "roots-04-WingR_Close.jpg",
+    "roots-05-Tail_Left.jpg",
+    "roots-06-Tail_Right.jpg",
+    "roots-07-ArmL_Offer.jpg",
+    "roots-08-ArmR_Offer.jpg",
+    "roots-09-BothWings_Open.jpg",
+    "roots-10-BothWings_Close.jpg",
+    "roots-11-Combined_Left.jpg",
+    "roots-12-Combined_Right.jpg"
+  ],
+  "actual_render_visual_review_completed": true,
+  "human_appearance_approval": false,
+  "tripo_operations": 0,
+  "tripo_credit_consumption": 0,
+  "formal_rig_motion_texture_created": false,
+  "residuals": [
+    "eye socket gap and shallow eye",
+    "coarse lower mouth",
+    "wing root / neck leaf intersections",
+    "shoulder peak crease and stretch",
+    "tail root / leaf intersections"
+  ],
+  "image_integrity": [
+    {
+      "file": "boards/00-authority-v002.jpg",
+      "frames": 1,
+      "width": 760,
+      "height": 2202
+    },
+    {
+      "file": "boards/01-front-back.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 1076
+    },
+    {
+      "file": "boards/02-sides.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 1076
+    },
+    {
+      "file": "boards/03-three-quarter.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 1568
+    },
+    {
+      "file": "boards/04-face-clay.jpg",
+      "frames": 1,
+      "width": 1000,
+      "height": 1176
+    },
+    {
+      "file": "boards/05-wing-roots.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 1076
+    },
+    {
+      "file": "boards/06-wing-undersides.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 1076
+    },
+    {
+      "file": "boards/07-tail-soles.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 1076
+    },
+    {
+      "file": "boards/08-face-material.jpg",
+      "frames": 1,
+      "width": 880,
+      "height": 2020
+    },
+    {
+      "file": "boards/09-neutral-extra.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 1076
+    },
+    {
+      "file": "boards/diagnostic-arms-tail-v001-v002.gif",
+      "frames": 20,
+      "width": 640,
+      "height": 738
+    },
+    {
+      "file": "boards/diagnostic-combined-v001-v002.gif",
+      "frames": 20,
+      "width": 640,
+      "height": 738
+    },
+    {
+      "file": "boards/diagnostic-wings-v001-v002.gif",
+      "frames": 20,
+      "width": 640,
+      "height": 738
+    },
+    {
+      "file": "boards/pose-01-WingL_Open.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-02-WingL_Close.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-03-WingR_Open.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-04-WingR_Close.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-05-Tail_Left.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-06-Tail_Right.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-07-ArmL_Offer.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-08-ArmR_Offer.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-09-BothWings_Open.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-10-BothWings_Close.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-11-Combined_Left.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/pose-12-Combined_Right.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 1208
+    },
+    {
+      "file": "boards/roots-01-WingL_Open.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-02-WingL_Close.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-03-WingR_Open.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-04-WingR_Close.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-05-Tail_Left.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-06-Tail_Right.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-07-ArmL_Offer.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-08-ArmR_Offer.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-09-BothWings_Open.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-10-BothWings_Close.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-11-Combined_Left.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "boards/roots-12-Combined_Right.jpg",
+      "frames": 1,
+      "width": 990,
+      "height": 836
+    },
+    {
+      "file": "renders/face-material-v001-3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/face-material-v001-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/face-material-v001-left.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/face-material-v001-right.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/face-material-v002-3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/face-material-v002-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/face-material-v002-left.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/face-material-v002-right.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmL_Offer-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmL_Offer-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmL_Offer-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmL_Offer-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmL_Offer-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmR_Offer-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmR_Offer-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmR_Offer-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmR_Offer-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-ArmR_Offer-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Close-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Close-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Open-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Open-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-BothWings_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Left-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Left-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Left-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Left-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Left-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Right-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Right-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Right-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Right-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Combined_Right-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Left-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Left-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Left-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Left-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Left-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Right-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Right-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Right-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Right-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-Tail_Right-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Close-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Close-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Open-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Open-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingL_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Close-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Close-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Open-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Open-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-half-WingR_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-back.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-face-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-face-left.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-face-right.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-face-three-quarter.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-front-three-quarter.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-left-facing-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-opposite-front-three-quarter.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-rear-three-quarter.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-right-facing-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-shoulder-left.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-shoulder-right.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-soles.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-tail-root.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-wing-root-left.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-wing-root-right.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-wing-underside-detail-left.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-wing-underside-detail-right.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-neutral-wing-underside.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmL_Offer-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmL_Offer-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmL_Offer-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmL_Offer-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmL_Offer-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmL_Offer-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmL_Offer-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmR_Offer-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmR_Offer-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmR_Offer-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmR_Offer-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmR_Offer-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmR_Offer-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-ArmR_Offer-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Close-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Close-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Close-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Close-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Open-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Open-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Open-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Open-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-BothWings_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Left-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Left-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Left-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Left-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Left-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Left-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Left-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Right-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Right-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Right-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Right-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Right-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Right-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Combined_Right-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Left-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Left-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Left-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Left-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Left-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Left-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Left-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Right-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Right-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Right-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Right-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Right-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Right-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-Tail_Right-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Close-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Close-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Close-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Close-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Open-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Open-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Open-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Open-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingL_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Close-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Close-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Close-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Close-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Open-detail.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Open-opposite-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Open-opposite-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Open-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-peak-WingR_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmL_Offer-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmL_Offer-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmL_Offer-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmL_Offer-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmR_Offer-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmR_Offer-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmR_Offer-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-ArmR_Offer-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Close-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Open-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-BothWings_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Left-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Left-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Left-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Left-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Right-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Right-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Right-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Combined_Right-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Left-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Left-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Left-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Left-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Right-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Right-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Right-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-Tail_Right-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Close-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Open-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingL_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Close-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Close-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Close-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Close-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Open-front.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Open-front3q.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Open-gif-rear.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "file": "renders/v002-return-WingR_Open-side.jpg",
+      "frames": 1,
+      "width": 900,
+      "height": 900
+    }
+  ],
+  "local_document_links": [
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "../smartmesh25k-v001/REVIEW.md",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "../../../../../assets/grimo/production/jill/tripo/smartmesh25k-v002/jill-geometry-master-v002.blend",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "rejected-first-probe.json",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/00-authority-v002.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/01-front-back.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/02-sides.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/03-three-quarter.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/04-face-clay.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/08-face-material.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/09-neutral-extra.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/05-wing-roots.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/06-wing-undersides.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/07-tail-soles.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-01-WingL_Open.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-01-WingL_Open.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-02-WingL_Close.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-02-WingL_Close.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-03-WingR_Open.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-03-WingR_Open.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-04-WingR_Close.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-04-WingR_Close.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-05-Tail_Left.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-05-Tail_Left.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-06-Tail_Right.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-06-Tail_Right.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-07-ArmL_Offer.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-07-ArmL_Offer.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-08-ArmR_Offer.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-08-ArmR_Offer.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-09-BothWings_Open.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-09-BothWings_Open.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-10-BothWings_Close.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-10-BothWings_Close.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-11-Combined_Left.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-11-Combined_Left.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/pose-12-Combined_Right.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/roots-12-Combined_Right.jpg",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/diagnostic-wings-v001-v002.gif",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/diagnostic-arms-tail-v001-v002.gif",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "boards/diagnostic-combined-v001-v002.gif",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "saved-gate-validation.json",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "preservation-validation.json",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "repair.json",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\evidence\\smartmesh25k-v002\\REVIEW.md",
+      "target": "protected-inputs.json",
+      "exists": true
+    },
+    {
+      "from": "assets\\grimo\\production\\jill\\tripo\\smartmesh25k-v002\\README.md",
+      "target": "../../../../../../docs/production/jill/evidence/smartmesh25k-v002/REVIEW.md",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\HANDOFF.md",
+      "target": "evidence/smartmesh25k-v002/REVIEW.md",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\HANDOFF.md",
+      "target": "../../../assets/grimo/production/jill/tripo/smartmesh25k-v002/README.md",
+      "exists": true
+    },
+    {
+      "from": "docs\\production\\jill\\HANDOFF.md",
+      "target": "evidence/smartmesh25k-v001/REVIEW.md",
+      "exists": true
+    }
+  ],
+  "gif_note": "20 frames each, 0/.5/1/.5/0 x four diagnostic cases; return .5 repeats outward .5; return 0 uses evaluated return render; not approved continuous motion"
+}

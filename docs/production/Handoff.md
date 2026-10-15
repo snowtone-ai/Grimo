@@ -3,6 +3,7 @@
 実行時のNOWは実作業branch/HEAD、未コミット差分、保存成果とEvidenceで再確認する。Goal・Canonical・Human承認を上書きしない。
 
 ## Last verified: 2026-10-15 / Codex
+Jill：[v002 HOLD](jill/HANDOFF.md)。Human待ち。
 - **Shushu Production Rig v003:** 開始HEAD `93a8d2480c44e90a9c6a6d693c0fd34f9f4487cb`。v002から別名編集Rig/proof/2 GLBを制作。[比較・目視・保存検証・残HOLD](shushu/evidence/production-rig-v003/REVIEW.md)。Neutralのv006→lowpoly→Auto Rig→v001→v002で足形を追跡し、最初の動的崩れをAuto Rig probeで確認。既存骨長/本人Basis/UV/12 Textureを保ち、膝IK方向・足weight・局所支持Morphを修正。seat-lowhead/seat-shift-Lの眼開口のみ局所補正。他79姿勢の非Torso評価差0。4方向全遷移と顔3方向拡大をCodex実見。**足厚みと眼は改善候補 / 座位の足首稜線・腹下連続性は外観HOLD / Human PENDING**。405＋603＋243支持条件、81姿勢/961f、GLB往復頂点差≤9.965e-7・7 Anchorを照合。元参照/v001/v002/旧proof/ユーザー差分を保護。v003 runtime未検証、v002の追加weight/陰影HOLDは未解決。[v002履歴](shushu/evidence/production-rig-v002/REVIEW.md)。
 - **v006最新Human判断:** 2026-10-14、Humanがv006の静的外観PASSを明示。SHA256 `9c479122…34f10f`。旧[口v006 REVIEW](shushu/evidence/tripo-mouth-depth-v006/REVIEW.md)の未達/PENDINGは当時の履歴として保持し、現承認を上書きしない。正式Rig/Motionの承認ではない。
 - **最新offline lowpoly v001:** 開始HEAD `6805096e811246401599651cbfaa9fc23834e459`。v006から別名GLBを作成、523,683→99,565三角形（80.99%削減）、6.07 MB。顔/チーク/頭下端60,176面と他10メッシュを保持、頭後部と胴体を属性考慮削減。[成果・14組比較・保存検証・未検証](shushu/evidence/tripo-rigprep-v006-lowpoly/REVIEW.md)。全12 Textureバイト/材質一致、残した位置/法線/UVは元頂点と一致、退化0、新しい境界/非多様体辺増加0、保護991入力一致。足首の退化試行は局所保護で解消。**Codex相対静的外観保持PASS / lowpoly Human未検証 / Tripo受入UNKNOWN**。SHA256 `780f1f9c…f41309`。原本/歴代候補/正式v003 Blender・Shape Keys・285f proof/他キャラ/ユーザー差分は不変。

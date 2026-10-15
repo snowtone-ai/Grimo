@@ -1,0 +1,27 @@
+{
+  "candidate_sha256": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97",
+  "protected_file_count": 219,
+  "protected_hash_mismatches": [],
+  "retained_polygon_vertex_lists_exact": true,
+  "neutral_vertices_changed": 88,
+  "changed_only_declared_local_vertices": true,
+  "outside_local_edit_max_delta": 0.0,
+  "all_body_wings_leaves_tail_feet_neutral_vertices_exact": true,
+  "bounds_exact": true,
+  "object_matrix_exact": true,
+  "candidate_material_names": [
+    "tripo_11eb7c1e_d3d9_4ecb_8269_9956208297b3"
+  ],
+  "candidate_uv_layers": [],
+  "test_animation_timing_and_interpolation_exact": true,
+  "all_neutral_returns_exact": true,
+  "all_independence_samples_exact": false,
+  "sampled_max_nontarget_displacement": 1.4901161193847656e-08,
+  "sampled_max_face_feet_displacement": 7.450580596923828e-09,
+  "sampled_independence_within_1e_7": true,
+  "no_new_sampled_degenerate_triangles": true,
+  "formal_rig_created": false,
+  "formal_texture_created": false,
+  "derived_exports_created": false,
+  "note": "Preservation and sampled diagnostics do not approve appearance or Motion. No export needed before Human Geometry approval."
+}

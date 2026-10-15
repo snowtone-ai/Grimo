@@ -1,0 +1,1832 @@
+{
+  "source": "C:\\Users\\chidj\\.codex\\worktrees\\jill-smartmesh25k-inspection\\Grimo\\assets\\grimo\\production\\jill\\tripo\\smartmesh25k-v002\\jill-geometry-master-v002.blend",
+  "saved_neutral_matches_constructed": true,
+  "topology_same_vertex_face_counts": true,
+  "basis_matches_mesh": true,
+  "armatures": 0,
+  "uv_layers": 0,
+  "images": 0,
+  "cases": [
+    {
+      "name": "WingL_Open",
+      "samples": [
+        {
+          "frame": 1,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 7,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.9083303037895337,
+          "edge_ratio_max": 1.1328763559549884,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 13,
+          "v001_crossing_pairs_same_union": 113,
+          "v001_edge_ratio_max": 1.0000000594815113,
+          "new_pair_ids": [
+            [
+              33435,
+              33444
+            ],
+            [
+              33460,
+              33405
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34079,
+              34108
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34073
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34084,
+              34105
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34105
+            ],
+            [
+              34086,
+              34106
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 13,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8204357608300462,
+          "edge_ratio_max": 1.2717639060705364,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 13,
+          "v001_crossing_pairs_same_union": 181,
+          "v001_edge_ratio_max": 1.012010664763857,
+          "new_pair_ids": [
+            [
+              33435,
+              33444
+            ],
+            [
+              33460,
+              33405
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34079,
+              34108
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34073
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34084,
+              34105
+            ],
+            [
+              34084,
+              34106
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34106
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 19,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.9083303037895337,
+          "edge_ratio_max": 1.1328763559549884,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 25,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WingL_Close",
+      "samples": [
+        {
+          "frame": 25,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 31,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8355094817021312,
+          "edge_ratio_max": 1.0276903616520443,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 6,
+          "v001_crossing_pairs_same_union": 40,
+          "v001_edge_ratio_max": 1.2979979582420669,
+          "new_pair_ids": [
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 37,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7015312628331192,
+          "edge_ratio_max": 1.0804023411673707,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 11,
+          "v001_crossing_pairs_same_union": 64,
+          "v001_edge_ratio_max": 1.6009761969190999,
+          "new_pair_ids": [
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34079,
+              34108
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34073
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34084,
+              34105
+            ],
+            [
+              34084,
+              34106
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34106
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 43,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8355094817021312,
+          "edge_ratio_max": 1.0276903616520443,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 49,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WingR_Open",
+      "samples": [
+        {
+          "frame": 49,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 55,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.9083269253878419,
+          "edge_ratio_max": 1.1328763559549884,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 6,
+          "v001_crossing_pairs_same_union": 104,
+          "v001_edge_ratio_max": 1.000120719104003,
+          "new_pair_ids": [
+            [
+              9860,
+              9841
+            ],
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9843
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ]
+          ]
+        },
+        {
+          "frame": 61,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8204266009104632,
+          "edge_ratio_max": 1.2717638895207086,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 13,
+          "v001_crossing_pairs_same_union": 167,
+          "v001_edge_ratio_max": 1.0106947490642668,
+          "new_pair_ids": [
+            [
+              9460,
+              9352
+            ],
+            [
+              9462,
+              9354
+            ],
+            [
+              9836,
+              9837
+            ],
+            [
+              9836,
+              9838
+            ],
+            [
+              9836,
+              9843
+            ],
+            [
+              9860,
+              9841
+            ],
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9838
+            ],
+            [
+              9881,
+              9839
+            ],
+            [
+              9881,
+              9840
+            ],
+            [
+              9881,
+              9842
+            ],
+            [
+              9881,
+              9843
+            ],
+            [
+              9882,
+              9842
+            ]
+          ]
+        },
+        {
+          "frame": 67,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.9083269253878419,
+          "edge_ratio_max": 1.1328763559549884,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 73,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "WingR_Close",
+      "samples": [
+        {
+          "frame": 73,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 79,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8441704702195989,
+          "edge_ratio_max": 1.027690323881008,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 4,
+          "v001_crossing_pairs_same_union": 30,
+          "v001_edge_ratio_max": 1.3009789464325747,
+          "new_pair_ids": [
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ]
+          ]
+        },
+        {
+          "frame": 85,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7123168244857189,
+          "edge_ratio_max": 1.080401527992041,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 5,
+          "v001_crossing_pairs_same_union": 59,
+          "v001_edge_ratio_max": 1.6077657589449865,
+          "new_pair_ids": [
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9843
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ]
+          ]
+        },
+        {
+          "frame": 91,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8441704702195989,
+          "edge_ratio_max": 1.027690323881008,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 97,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Tail_Left",
+      "samples": [
+        {
+          "frame": 97,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 103,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8875823661830339,
+          "edge_ratio_max": 1.1077532374344985,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 3,
+          "v001_crossing_pairs_same_union": 3,
+          "v001_edge_ratio_max": 1.2645367864898882,
+          "new_pair_ids": [
+            [
+              24973,
+              24970
+            ],
+            [
+              25573,
+              25572
+            ],
+            [
+              50758,
+              50631
+            ]
+          ]
+        },
+        {
+          "frame": 109,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7912794866678284,
+          "edge_ratio_max": 1.2274365384254837,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 3,
+          "v001_crossing_pairs_same_union": 3,
+          "v001_edge_ratio_max": 1.5962287607311865,
+          "new_pair_ids": [
+            [
+              24973,
+              24970
+            ],
+            [
+              25573,
+              25572
+            ],
+            [
+              50758,
+              50631
+            ]
+          ]
+        },
+        {
+          "frame": 115,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8875823661830339,
+          "edge_ratio_max": 1.1077532374344985,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 121,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Tail_Right",
+      "samples": [
+        {
+          "frame": 121,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 127,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8877754579709993,
+          "edge_ratio_max": 1.1079191029417232,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 1,
+          "v001_crossing_pairs_same_union": 1,
+          "v001_edge_ratio_max": 1.2645358111636364,
+          "new_pair_ids": [
+            [
+              50618,
+              24980
+            ]
+          ]
+        },
+        {
+          "frame": 133,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7916611342785053,
+          "edge_ratio_max": 1.2277703280820609,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 1,
+          "v001_crossing_pairs_same_union": 1,
+          "v001_edge_ratio_max": 1.5962359726789626,
+          "new_pair_ids": [
+            [
+              50618,
+              24980
+            ]
+          ]
+        },
+        {
+          "frame": 139,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8877754579709993,
+          "edge_ratio_max": 1.1079191029417232,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 145,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ArmL_Offer",
+      "samples": [
+        {
+          "frame": 145,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 151,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7844779110072732,
+          "edge_ratio_max": 1.4912451812326886,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 10,
+          "v001_crossing_pairs_same_union": 56,
+          "v001_edge_ratio_max": 2.0496496566351756,
+          "new_pair_ids": [
+            [
+              2003,
+              33511
+            ],
+            [
+              2003,
+              34913
+            ],
+            [
+              2004,
+              33305
+            ],
+            [
+              2004,
+              34913
+            ],
+            [
+              2004,
+              34914
+            ],
+            [
+              33517,
+              33510
+            ],
+            [
+              33517,
+              33511
+            ],
+            [
+              33518,
+              33511
+            ],
+            [
+              33518,
+              33512
+            ],
+            [
+              33518,
+              33514
+            ]
+          ]
+        },
+        {
+          "frame": 157,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.607109517461964,
+          "edge_ratio_max": 2.09821001444834,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 11,
+          "v001_crossing_pairs_same_union": 88,
+          "v001_edge_ratio_max": 3.1564127934165302,
+          "new_pair_ids": [
+            [
+              2003,
+              33511
+            ],
+            [
+              2003,
+              34913
+            ],
+            [
+              2004,
+              33305
+            ],
+            [
+              2004,
+              34913
+            ],
+            [
+              2004,
+              34914
+            ],
+            [
+              33517,
+              33509
+            ],
+            [
+              33517,
+              33510
+            ],
+            [
+              33517,
+              33511
+            ],
+            [
+              33518,
+              33511
+            ],
+            [
+              33518,
+              33512
+            ],
+            [
+              33518,
+              33514
+            ]
+          ]
+        },
+        {
+          "frame": 163,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7844779110072732,
+          "edge_ratio_max": 1.4912451812326886,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 169,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ArmR_Offer",
+      "samples": [
+        {
+          "frame": 169,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 175,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7759759477534257,
+          "edge_ratio_max": 1.4597043483480396,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 11,
+          "v001_crossing_pairs_same_union": 57,
+          "v001_edge_ratio_max": 2.0496544593273436,
+          "new_pair_ids": [
+            [
+              150,
+              8130
+            ],
+            [
+              7915,
+              8130
+            ],
+            [
+              7915,
+              9297
+            ],
+            [
+              8104,
+              8108
+            ],
+            [
+              8125,
+              8102
+            ],
+            [
+              8125,
+              8130
+            ],
+            [
+              8126,
+              8102
+            ],
+            [
+              8126,
+              8107
+            ],
+            [
+              8126,
+              8108
+            ],
+            [
+              8126,
+              8129
+            ],
+            [
+              8126,
+              8130
+            ]
+          ]
+        },
+        {
+          "frame": 181,
+          "amplitude": 1,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.5953989911039616,
+          "edge_ratio_max": 2.128779675997798,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 10,
+          "v001_crossing_pairs_same_union": 80,
+          "v001_edge_ratio_max": 3.1564224244705295,
+          "new_pair_ids": [
+            [
+              150,
+              8130
+            ],
+            [
+              7915,
+              8130
+            ],
+            [
+              7915,
+              9297
+            ],
+            [
+              8125,
+              8102
+            ],
+            [
+              8125,
+              8108
+            ],
+            [
+              8125,
+              8130
+            ],
+            [
+              8126,
+              8107
+            ],
+            [
+              8126,
+              8108
+            ],
+            [
+              8126,
+              8129
+            ],
+            [
+              8126,
+              8130
+            ]
+          ]
+        },
+        {
+          "frame": 187,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7759759477534257,
+          "edge_ratio_max": 1.4597043483480396,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 193,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BothWings_Open",
+      "samples": [
+        {
+          "frame": 193,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 199,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.9083269253878419,
+          "edge_ratio_max": 1.1328763559549884,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 19,
+          "v001_crossing_pairs_same_union": 217,
+          "v001_edge_ratio_max": 1.000120719104003,
+          "new_pair_ids": [
+            [
+              9860,
+              9841
+            ],
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9843
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ],
+            [
+              33435,
+              33444
+            ],
+            [
+              33460,
+              33405
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34079,
+              34108
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34073
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34084,
+              34105
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34105
+            ],
+            [
+              34086,
+              34106
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 205,
+          "amplitude": 1,
+          "max_nontarget_displacement": 7.450580596923828e-09,
+          "face_feet_max_displacement": 7.450580596923828e-09,
+          "edge_ratio_min": 0.8204266009104632,
+          "edge_ratio_max": 1.2717639060705364,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 26,
+          "v001_crossing_pairs_same_union": 348,
+          "v001_edge_ratio_max": 1.012010664763857,
+          "new_pair_ids": [
+            [
+              9460,
+              9352
+            ],
+            [
+              9462,
+              9354
+            ],
+            [
+              9836,
+              9837
+            ],
+            [
+              9836,
+              9838
+            ],
+            [
+              9836,
+              9843
+            ],
+            [
+              9860,
+              9841
+            ],
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9838
+            ],
+            [
+              9881,
+              9839
+            ],
+            [
+              9881,
+              9840
+            ],
+            [
+              9881,
+              9842
+            ],
+            [
+              9881,
+              9843
+            ],
+            [
+              9882,
+              9842
+            ],
+            [
+              33435,
+              33444
+            ],
+            [
+              33460,
+              33405
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34079,
+              34108
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34073
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34084,
+              34105
+            ],
+            [
+              34084,
+              34106
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34106
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 211,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.9083269253878419,
+          "edge_ratio_max": 1.1328763559549884,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 217,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BothWings_Close",
+      "samples": [
+        {
+          "frame": 217,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 223,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8355094817021312,
+          "edge_ratio_max": 1.0276903616520443,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 10,
+          "v001_crossing_pairs_same_union": 70,
+          "v001_edge_ratio_max": 1.3009789464325747,
+          "new_pair_ids": [
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 229,
+          "amplitude": 1,
+          "max_nontarget_displacement": 7.450580596923828e-09,
+          "face_feet_max_displacement": 7.450580596923828e-09,
+          "edge_ratio_min": 0.7015312628331192,
+          "edge_ratio_max": 1.0804023411673707,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 16,
+          "v001_crossing_pairs_same_union": 123,
+          "v001_edge_ratio_max": 1.6077657589449865,
+          "new_pair_ids": [
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9843
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34079,
+              34108
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34073
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34084,
+              34105
+            ],
+            [
+              34084,
+              34106
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34106
+            ],
+            [
+              34086,
+              34108
+            ]
+          ]
+        },
+        {
+          "frame": 235,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.8355094817021312,
+          "edge_ratio_max": 1.0276903616520443,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 241,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Combined_Left",
+      "samples": [
+        {
+          "frame": 241,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 247,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7844779110072732,
+          "edge_ratio_max": 1.4912451812326886,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 19,
+          "v001_crossing_pairs_same_union": 99,
+          "v001_edge_ratio_max": 2.0496496566351756,
+          "new_pair_ids": [
+            [
+              2003,
+              33511
+            ],
+            [
+              2003,
+              34913
+            ],
+            [
+              2004,
+              33305
+            ],
+            [
+              2004,
+              34913
+            ],
+            [
+              2004,
+              34914
+            ],
+            [
+              24973,
+              24970
+            ],
+            [
+              25573,
+              25572
+            ],
+            [
+              33517,
+              33510
+            ],
+            [
+              33517,
+              33511
+            ],
+            [
+              33518,
+              33511
+            ],
+            [
+              33518,
+              33512
+            ],
+            [
+              33518,
+              33514
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34108
+            ],
+            [
+              50758,
+              50631
+            ]
+          ]
+        },
+        {
+          "frame": 253,
+          "amplitude": 1,
+          "max_nontarget_displacement": 1.4901161193847656e-08,
+          "face_feet_max_displacement": 7.450580596923828e-09,
+          "edge_ratio_min": 0.607109517461964,
+          "edge_ratio_max": 2.09821001444834,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 25,
+          "v001_crossing_pairs_same_union": 151,
+          "v001_edge_ratio_max": 3.1564127934165302,
+          "new_pair_ids": [
+            [
+              2003,
+              33511
+            ],
+            [
+              2003,
+              34913
+            ],
+            [
+              2004,
+              33305
+            ],
+            [
+              2004,
+              34913
+            ],
+            [
+              2004,
+              34914
+            ],
+            [
+              24973,
+              24970
+            ],
+            [
+              25573,
+              25572
+            ],
+            [
+              33517,
+              33509
+            ],
+            [
+              33517,
+              33510
+            ],
+            [
+              33517,
+              33511
+            ],
+            [
+              33518,
+              33511
+            ],
+            [
+              33518,
+              33512
+            ],
+            [
+              33518,
+              33514
+            ],
+            [
+              34069,
+              34076
+            ],
+            [
+              34070,
+              34076
+            ],
+            [
+              34079,
+              34108
+            ],
+            [
+              34083,
+              34076
+            ],
+            [
+              34084,
+              34073
+            ],
+            [
+              34084,
+              34076
+            ],
+            [
+              34084,
+              34105
+            ],
+            [
+              34084,
+              34106
+            ],
+            [
+              34085,
+              34108
+            ],
+            [
+              34086,
+              34106
+            ],
+            [
+              34086,
+              34108
+            ],
+            [
+              50758,
+              50631
+            ]
+          ]
+        },
+        {
+          "frame": 259,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7844779110072732,
+          "edge_ratio_max": 1.4912451812326886,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 265,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Combined_Right",
+      "samples": [
+        {
+          "frame": 265,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        },
+        {
+          "frame": 271,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7759759477534257,
+          "edge_ratio_max": 1.4597043483480396,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 16,
+          "v001_crossing_pairs_same_union": 88,
+          "v001_edge_ratio_max": 2.0496544593273436,
+          "new_pair_ids": [
+            [
+              150,
+              8130
+            ],
+            [
+              7915,
+              8130
+            ],
+            [
+              7915,
+              9297
+            ],
+            [
+              8104,
+              8108
+            ],
+            [
+              8125,
+              8102
+            ],
+            [
+              8125,
+              8130
+            ],
+            [
+              8126,
+              8102
+            ],
+            [
+              8126,
+              8107
+            ],
+            [
+              8126,
+              8108
+            ],
+            [
+              8126,
+              8129
+            ],
+            [
+              8126,
+              8130
+            ],
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ],
+            [
+              50618,
+              24980
+            ]
+          ]
+        },
+        {
+          "frame": 277,
+          "amplitude": 1,
+          "max_nontarget_displacement": 1.4901161193847656e-08,
+          "face_feet_max_displacement": 7.450580596923828e-09,
+          "edge_ratio_min": 0.5953989911039616,
+          "edge_ratio_max": 2.128779675997798,
+          "new_degenerate_triangles": 0,
+          "new_crossing_pairs": 16,
+          "v001_crossing_pairs_same_union": 138,
+          "v001_edge_ratio_max": 3.1564224244705295,
+          "new_pair_ids": [
+            [
+              150,
+              8130
+            ],
+            [
+              7915,
+              8130
+            ],
+            [
+              7915,
+              9297
+            ],
+            [
+              8125,
+              8102
+            ],
+            [
+              8125,
+              8108
+            ],
+            [
+              8125,
+              8130
+            ],
+            [
+              8126,
+              8107
+            ],
+            [
+              8126,
+              8108
+            ],
+            [
+              8126,
+              8129
+            ],
+            [
+              8126,
+              8130
+            ],
+            [
+              9875,
+              9842
+            ],
+            [
+              9881,
+              9841
+            ],
+            [
+              9881,
+              9843
+            ],
+            [
+              9881,
+              9844
+            ],
+            [
+              9882,
+              9842
+            ],
+            [
+              50618,
+              24980
+            ]
+          ]
+        },
+        {
+          "frame": 283,
+          "amplitude": 0.5,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 0.7759759477534257,
+          "edge_ratio_max": 1.4597043483480396,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 289,
+          "amplitude": 0,
+          "max_nontarget_displacement": 0.0,
+          "face_feet_max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "neutral_delta": 0.0
+        }
+      ]
+    }
+  ],
+  "collision_method": "Same union of old/new moving vertices per case, triangle surface overlaps, shared-vertex pairs excluded. New pairs relative to each neutral. Not penetration depths or complete self-collision.",
+  "visual_status": "REVIEW_COMPLETE_HOLD",
+  "human_status": "PENDING",
+  "tripo": "NO_OPERATIONS_OR_CREDITS",
+  "visual_review_record": "visual-review.json"
+}
