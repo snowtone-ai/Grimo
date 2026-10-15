@@ -1,0 +1,45 @@
+{
+  "verified_utc": "2026-10-15T14:09:51.151599+00:00",
+  "branch": "codex/jill-pretexture-v002-20261015",
+  "remote": "https://github.com/snowtone-ai/Grimo.git",
+  "payload_commit": "73bc3ddc376c15642ac3535b04fc283a7b09f90c",
+  "remote_payload_commit": "73bc3ddc376c15642ac3535b04fc283a7b09f90c",
+  "remote_payload_match": true,
+  "manifest_file_sha256": "738d41e922db55c8badb75df83d5a5ae7b20e93d3e2161080d7b27fa575055e7",
+  "manifest_working_files_rechecked": 285,
+  "lfs_push_acknowledged_objects": 5,
+  "lfs_pointer_oids_match_manifest": [
+    {
+      "path": "assets/grimo/production/jill/tripo/rig-pretexture-v002/jill-rig-pretexture-v002.blend",
+      "sha256": "f50353d369345e31a37f95d4001617cc06f3e2110eae4e92be68d3164543af74",
+      "bytes": 3575975
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/rig-pretexture-v002/jill-rig-pretexture-v002.glb",
+      "sha256": "20ccd9315c166365a054cf062c779f8802c0084f9d7d9a5864f18b848ae267de",
+      "bytes": 7464832
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/rig-pretexture-v002/jill-texture-input-neutral-v002.glb",
+      "sha256": "36db33bc79c3c2ba0565366be1c0ba81249a0b6fe7f7bca171c25ba5f87bccc0",
+      "bytes": 1969260
+    },
+    {
+      "path": "docs/production/jill/rig-pretexture-v002/bounded-continuous-front-side-3q.mp4",
+      "sha256": "4022548e1f454e9b7421f63c0f0efb651747d024ed002c0b04b4e27270c3f9fe",
+      "bytes": 558240
+    },
+    {
+      "path": "docs/production/jill/rig-pretexture-v002/iterations/browser-recording-throttled.mp4",
+      "sha256": "0eb9d9f216dee97b0510aab641a8ee2b0b2042994610d4af5a1f73688900d494",
+      "bytes": 78217
+    }
+  ],
+  "protected_old_jill_worktree": "C:\\Users\\chidj\\.codex\\worktrees\\jill-rig-other-v001\\Grimo",
+  "protected_old_jill_head": "379fe79ac2561b9a5796a4657c36d503d248cf04",
+  "protected_old_jill_clean": true,
+  "human_final_go": false,
+  "technical_go_candidate": false,
+  "status": "IMPLEMENTED_REVIEW_HOLD",
+  "note": "This receipt verifies the payload commit before the receipt itself is committed. Final receipt-commit remote comparison is reported in the final delivery message."
+}
