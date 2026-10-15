@@ -1,0 +1,132 @@
+{
+  "source_HEAD": "d5e9882dd644ca35c6944ed9e1c7b4163944890a",
+  "branch": "codex/shushu-v004-mouth-b-20261015",
+  "protected_input_count": 3507,
+  "protected_unchanged": 3506,
+  "authorized_state_document_changes": [
+    "docs/production/Handoff.md"
+  ],
+  "missing": [],
+  "source_v004_sha256": "5fb05e5b7a9cbdb07a64beb5a511d6347c656d85d111ed16eccc533ecfc44cb5",
+  "assets": [
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-mouth-b-v001-proof.blend",
+      "bytes": 14922955,
+      "sha256": "cc9301b240e3c101ecce7e0088c8d99e1669753cdf5e55bb11021868a6a9ba17"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-mouth-b-v001.blend",
+      "bytes": 14921934,
+      "sha256": "6a8510a464a597883fdf08882df587dd27b99411d6be353aee7b9a3fe56a6ed9"
+    },
+    {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-mouth-b-v001.glb",
+      "bytes": 26776156,
+      "sha256": "e7a34102debfa35571d05e6e42ede96d212f541a17490bcc940e218cab5b44f1"
+    }
+  ],
+  "required_native_renders": 60,
+  "validator": {
+    "errors": 0,
+    "warnings": 14,
+    "infos": 1
+  },
+  "saved_max_position_error": 9.387731552124023e-07,
+  "saved_anchor_matrix_error": 9.5367431640625e-07,
+  "runtime_max_morph_error": 1.371981616315153e-18,
+  "runtime_max_anchor_matrix_error": 1.7881393432617188e-07,
+  "gpu_mouth_max_position_error": 4.919409384796986e-05,
+  "gpu_mouth_max_normal_angle_degrees": 0.2768710907169366,
+  "changed_head_texels": 87481,
+  "head_texels": 4194304,
+  "changed_head_percent": 2.085709571838379,
+  "blender_saved_image_comparison": [
+    {
+      "state": "closed",
+      "view": "front",
+      "rms_8bit": 0.04420107862442386,
+      "max_8bit": 8.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "closed",
+      "view": "side",
+      "rms_8bit": 0.03662721303040951,
+      "max_8bit": 13.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "closed",
+      "view": "3q",
+      "rms_8bit": 0.04169270020039479,
+      "max_8bit": 11.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "small",
+      "view": "front",
+      "rms_8bit": 0.06881211682454624,
+      "max_8bit": 26.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "small",
+      "view": "side",
+      "rms_8bit": 0.03714020101251473,
+      "max_8bit": 13.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "small",
+      "view": "3q",
+      "rms_8bit": 0.05178102368689229,
+      "max_8bit": 24.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "medium",
+      "view": "front",
+      "rms_8bit": 0.11866773466279704,
+      "max_8bit": 25.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "medium",
+      "view": "side",
+      "rms_8bit": 0.03676858320546904,
+      "max_8bit": 13.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "medium",
+      "view": "3q",
+      "rms_8bit": 0.08365214082175364,
+      "max_8bit": 24.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "large",
+      "view": "front",
+      "rms_8bit": 0.15961035012550878,
+      "max_8bit": 25.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "large",
+      "view": "side",
+      "rms_8bit": 0.03769480650567131,
+      "max_8bit": 13.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    },
+    {
+      "state": "large",
+      "view": "3q",
+      "rms_8bit": 0.12626073206241717,
+      "max_8bit": 35.0,
+      "note": "Separate Cycles render / saved import; this is not an Engine pixel-equality claim."
+    }
+  ],
+  "syntax_checked_python_scripts": 9,
+  "technical_scope": "Focused mouth candidate PC diagnostic. Geometry return and digital correspondence are separate from Human visual approval.",
+  "GO_HOLD": "Technical evidence ready / Human mouth approval PENDING / Original replacement and Motion production HOLD / A unchanged HOLD / Phone excluded by Human"
+}

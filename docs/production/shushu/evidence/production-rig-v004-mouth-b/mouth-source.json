@@ -1,0 +1,465 @@
+[
+  {
+    "role": "Head",
+    "bounds": [
+      [
+        -0.30444344878196716,
+        -0.2716979384422302,
+        0.47470083832740784
+      ],
+      [
+        0.3049926459789276,
+        0.2870787978172302,
+        0.9458009004592896
+      ]
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "keys": [
+      "Basis",
+      "Blink.L",
+      "Blink.R",
+      "Corrective.HalfBlink.L",
+      "Corrective.HalfBlink.R",
+      "Smile",
+      "JoyLids",
+      "MouthOpen",
+      "Surprise",
+      "CheekPressure.L",
+      "CheekPressure.R",
+      "Hesitate",
+      "Discomfort",
+      "MouthClose",
+      "Corrective.MouthCavity",
+      "Stroke.Forehead.0.0",
+      "Stroke.Forehead.0.1",
+      "Stroke.Forehead.0.2",
+      "Stroke.Forehead.1.0",
+      "Stroke.Forehead.1.1",
+      "Stroke.Forehead.1.2",
+      "Stroke.Forehead.2.0",
+      "Stroke.Forehead.2.1",
+      "Stroke.Forehead.2.2",
+      "Stroke.Cheek.L.0.0",
+      "Stroke.Cheek.L.0.1",
+      "Stroke.Cheek.L.0.2",
+      "Stroke.Cheek.L.1.0",
+      "Stroke.Cheek.L.1.1",
+      "Stroke.Cheek.L.1.2",
+      "Stroke.Cheek.L.2.0",
+      "Stroke.Cheek.L.2.1",
+      "Stroke.Cheek.L.2.2",
+      "Stroke.Cheek.R.0.0",
+      "Stroke.Cheek.R.0.1",
+      "Stroke.Cheek.R.0.2",
+      "Stroke.Cheek.R.1.0",
+      "Stroke.Cheek.R.1.1",
+      "Stroke.Cheek.R.1.2",
+      "Stroke.Cheek.R.2.0",
+      "Stroke.Cheek.R.2.1",
+      "Stroke.Cheek.R.2.2",
+      "Corrective.EyeIntegrity.LowHead",
+      "Corrective.EyeIntegrity.ShiftL"
+    ],
+    "modifiers": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE"
+      }
+    ],
+    "drivers": [
+      {
+        "path": "key_blocks[\"Smile\"].value",
+        "expression": "min(1,s+j*.65)"
+      },
+      {
+        "path": "key_blocks[\"JoyLids\"].value",
+        "expression": "j*.55"
+      },
+      {
+        "path": "key_blocks[\"MouthOpen\"].value",
+        "expression": "v*(1-c)"
+      },
+      {
+        "path": "key_blocks[\"Surprise\"].value",
+        "expression": "v"
+      },
+      {
+        "path": "key_blocks[\"CheekPressure.L\"].value",
+        "expression": "p"
+      },
+      {
+        "path": "key_blocks[\"CheekPressure.R\"].value",
+        "expression": "p"
+      },
+      {
+        "path": "key_blocks[\"Hesitate\"].value",
+        "expression": "v"
+      },
+      {
+        "path": "key_blocks[\"Discomfort\"].value",
+        "expression": "v"
+      },
+      {
+        "path": "key_blocks[\"MouthClose\"].value",
+        "expression": "c"
+      },
+      {
+        "path": "key_blocks[\"Corrective.MouthCavity\"].value",
+        "expression": "max(o,t)*(1-c)"
+      },
+      {
+        "path": "key_blocks[\"Blink.L\"].value",
+        "expression": "max(b*.78+max(0,b-.5)*.44,r*.40,j)"
+      },
+      {
+        "path": "key_blocks[\"Blink.R\"].value",
+        "expression": "max(b*.78+max(0,b-.5)*.44,r*.40,j)"
+      },
+      {
+        "path": "key_blocks[\"Corrective.HalfBlink.L\"].value",
+        "expression": ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)"
+      },
+      {
+        "path": "key_blocks[\"Corrective.HalfBlink.R\"].value",
+        "expression": ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.0.0\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.0.1\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.0.2\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.1.0\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.1.1\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.1.2\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.2.0\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.2.1\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Forehead.2.2\"].value",
+        "expression": "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.0.0\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.0.1\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.0.2\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.1.0\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.1.1\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.1.2\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.2.0\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.2.1\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.L.2.2\"].value",
+        "expression": "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.0.0\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.0.1\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.0.2\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.1.0\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.1.1\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.1.2\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.2.0\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-0))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.2.1\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-1))"
+      },
+      {
+        "path": "key_blocks[\"Stroke.Cheek.R.2.2\"].value",
+        "expression": "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-2))"
+      },
+      {
+        "path": "key_blocks[\"Corrective.EyeIntegrity.LowHead\"].value",
+        "expression": "s*max(0,p)*max(0,1-abs(r-.4)/.4)*max(0,1-abs(b-.5)/.5)*max(0,1-abs(c-.5)/.5)*(1-j)"
+      },
+      {
+        "path": "key_blocks[\"Corrective.EyeIntegrity.ShiftL\"].value",
+        "expression": "s*max(0,w)*min(1,max(0,-h*2))*max(0,1-abs(j-.6)/.4)*(1-max(l,r))"
+      }
+    ]
+  },
+  {
+    "role": "MouthInterior",
+    "bounds": [
+      [
+        -0.026207109913229942,
+        -0.2665099501609802,
+        0.6008300185203552
+      ],
+      [
+        0.026206841692328453,
+        -0.2446288764476776,
+        0.6057128310203552
+      ]
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "keys": [
+      "Basis",
+      "Smile",
+      "MouthOpen",
+      "Surprise",
+      "MouthClose",
+      "Tongue"
+    ],
+    "modifiers": [
+      {
+        "name": "Armature",
+        "type": "ARMATURE"
+      }
+    ],
+    "drivers": [
+      {
+        "path": "key_blocks[\"Smile\"].value",
+        "expression": "min(1,s+j*.65)"
+      },
+      {
+        "path": "key_blocks[\"MouthOpen\"].value",
+        "expression": "v*(1-c)"
+      },
+      {
+        "path": "key_blocks[\"Surprise\"].value",
+        "expression": "v"
+      },
+      {
+        "path": "key_blocks[\"MouthClose\"].value",
+        "expression": "c"
+      },
+      {
+        "path": "key_blocks[\"Tongue\"].value",
+        "expression": "t*(1-c)"
+      }
+    ]
+  },
+  {
+    "role": "OralBowl",
+    "bounds": [
+      [
+        -0.022999977692961693,
+        -0.011999992653727531,
+        -0.01600000075995922
+      ],
+      [
+        0.022999992594122887,
+        0.012000000104308128,
+        0.01600000075995922
+      ]
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.24500000476837158
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5870000123977661
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "keys": [
+      "Basis",
+      "Corrective.ClosedOralRetraction"
+    ],
+    "modifiers": [
+      {
+        "name": "Head owner",
+        "type": "ARMATURE"
+      }
+    ],
+    "drivers": [
+      {
+        "path": "key_blocks[\"Corrective.ClosedOralRetraction\"].value",
+        "expression": "c"
+      }
+    ]
+  },
+  {
+    "role": "Tongue",
+    "bounds": [
+      [
+        -0.010999994352459908,
+        -0.006999998353421688,
+        -0.0035000001080334187
+      ],
+      [
+        0.010999998077750206,
+        0.007000000216066837,
+        0.0035000001080334187
+      ]
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -0.23999999463558197
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5950000286102295
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "keys": [
+      "Basis",
+      "Tongue",
+      "Corrective.ClosedOralRetraction"
+    ],
+    "modifiers": [
+      {
+        "name": "Head owner",
+        "type": "ARMATURE"
+      }
+    ],
+    "drivers": [
+      {
+        "path": "key_blocks[\"Tongue\"].value",
+        "expression": "t*(1-c)"
+      },
+      {
+        "path": "key_blocks[\"Corrective.ClosedOralRetraction\"].value",
+        "expression": "c"
+      }
+    ]
+  }
+]

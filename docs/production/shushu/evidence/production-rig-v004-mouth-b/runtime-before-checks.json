@@ -1,0 +1,129 @@
+{
+  "errors": [],
+  "audits": [
+    {
+      "frame": 1,
+      "interpolationMode": "spec-slerp",
+      "maxMatrix": 7.839153681743483e-8,
+      "maxAnchor": 7.839153681743483e-8,
+      "maxMorph": 0,
+      "missing": [],
+      "nodeErrors": [
+        {
+          "node": "ANCHOR_Crown",
+          "error": 7.839153681743483e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.L",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Mouth",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.R",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_WearChest",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        }
+      ],
+      "skin": [
+        {
+          "mesh": "ShushuStatic_Paw_L",
+          "vertices": 1681,
+          "affected": 15,
+          "maxStock": 0.007055279457866051,
+          "maxFour": 6.732913151708505e-8,
+          "stockRasterError": 6.732913151708505e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00031234880274007027,
+          "rmsFour": 1.1917609921314682e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 718,
+              "stock": 0.007055279457866051,
+              "four": 3.224927373582656e-8
+            },
+            {
+              "vertex": 711,
+              "stock": 0.006236526865124106,
+              "four": 6.269211712457265e-9
+            },
+            {
+              "vertex": 742,
+              "stock": 0.0056055549384805515,
+              "four": 6.472505770031719e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Paw_R",
+          "vertices": 1716,
+          "affected": 8,
+          "maxStock": 0.010582944285122488,
+          "maxFour": 6.275980533308814e-8,
+          "stockRasterError": 6.275980533308814e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0004180065049590726,
+          "rmsFour": 1.1143275719681492e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 727,
+              "stock": 0.010582944285122488,
+              "four": 6.15772668937933e-9
+            },
+            {
+              "vertex": 695,
+              "stock": 0.008910377918792442,
+              "four": 1.0545147726480437e-8
+            },
+            {
+              "vertex": 703,
+              "stock": 0.006397186263553581,
+              "four": 1.4824904814020797e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Torso",
+          "vertices": 5621,
+          "affected": 334,
+          "maxStock": 0.032167383811781476,
+          "maxFour": 5.861637553757804e-8,
+          "stockRasterError": 5.861637553757804e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0035325978085025338,
+          "rmsFour": 1.0669312630487945e-8,
+          "maxNormalAngleDeg": 0.0000014787793334710982,
+          "worst": [
+            {
+              "vertex": 1159,
+              "stock": 0.032167383811781476,
+              "four": 5.3311222958652426e-9
+            },
+            {
+              "vertex": 1477,
+              "stock": 0.03183755072245367,
+              "four": 2.8653753604688874e-8
+            },
+            {
+              "vertex": 1352,
+              "stock": 0.03005904628930043,
+              "four": 2.2558585090806883e-9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

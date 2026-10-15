@@ -1,0 +1,112 @@
+{
+  "fps": 24,
+  "frames": 169,
+  "states": [
+    {
+      "frame": 1,
+      "MouthOpen": 0,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 13,
+      "MouthOpen": 0.2,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 25,
+      "MouthOpen": 0.55,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 37,
+      "MouthOpen": 1,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 49,
+      "MouthOpen": 0.55,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 61,
+      "MouthOpen": 0.2,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 73,
+      "MouthOpen": 0,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 85,
+      "MouthOpen": 0,
+      "Seat": 1,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 97,
+      "MouthOpen": 0.2,
+      "Seat": 1,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 109,
+      "MouthOpen": 0.55,
+      "Seat": 1,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 121,
+      "MouthOpen": 1,
+      "Seat": 1,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 133,
+      "MouthOpen": 0,
+      "Seat": 1,
+      "MouthClose": 0,
+      "Tongue": 0
+    },
+    {
+      "frame": 145,
+      "MouthOpen": 1,
+      "Seat": 1,
+      "MouthClose": 1,
+      "Tongue": 1
+    },
+    {
+      "frame": 157,
+      "MouthOpen": 0,
+      "Seat": 1,
+      "MouthClose": 0,
+      "Tongue": 1
+    },
+    {
+      "frame": 169,
+      "MouthOpen": 0,
+      "Seat": 0,
+      "MouthClose": 0,
+      "Tongue": 0
+    }
+  ],
+  "scope": "Focused mouth diagnostic; no production Motion adopted. source times f/24."
+}

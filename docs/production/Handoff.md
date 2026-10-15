@@ -1,21 +1,17 @@
 # Grimo — Handoff (last verified, not live authority)
 
-実行時のNOWは実作業branch/HEAD、未コミット差分、保存成果とEvidenceで再確認する。Goal・Canonical・Human承認を上書きしない。
+実行時のNOWはbranch/HEAD、未コミット差分、保存成果とEvidenceで再確認。Goal・Canonical・Human承認を上書きしない。
 
 ## Last verified: 2026-10-15 / Codex
-- **Shushu v004 NOW:** 2026-10-15 Human PASSはレビュー済み外観・座位に限定。同日の追加Reviewで前肢A・閉口の印刷開口BはHOLD。[元承認](shushu/evidence/production-rig-v004/REVIEW.md)と[互換2方式・実機・A/B原因/原寸/動画](shushu/evidence/production-rig-v004-skin-compat/REVIEW.md)。専用branch `codex/shushu-v004-skin-compat-20261015`。姿勢横断4-weightは最大0.005303H/3.377°で不採用。3mesh局所8試作は実GPU Skin差約1.30e-7H/1.86e-5°。Xiaomi 14T Pro接続・cold/warm・各5分再生完了、P50/P95 16.6/16.7ms、GPU余力UNKNOWN。Aは全8参照でも残り、Blender評価面とは位置約1.5e-6H内だが法線が最大179°乖離。既存Morph法線/skin法線経路を専用修正へ。BはHead Texture模様と口実体の不整合、今回改変なし。原本・rest・Morph・Texture/UV・7 Anchor・他キャラ・ユーザー差分を保持。局所8の技術成立を外観PASSにしない。A/B両方の局所Human再判定まで原本置換・Motion量産HOLD。
-- **v006最新Human判断:** 2026-10-14、Humanがv006の静的外観PASSを明示。SHA256 `9c479122…34f10f`。旧[口v006 REVIEW](shushu/evidence/tripo-mouth-depth-v006/REVIEW.md)の未達/PENDINGは当時の履歴として保持し、現承認を上書きしない。正式Rig/Motionの承認ではない。
-- **最新offline lowpoly v001:** 開始HEAD `6805096e811246401599651cbfaa9fc23834e459`。v006から別名GLBを作成、523,683→99,565三角形（80.99%削減）、6.07 MB。顔/チーク/頭下端60,176面と他10メッシュを保持、頭後部と胴体を属性考慮削減。[成果・14組比較・保存検証・未検証](shushu/evidence/tripo-rigprep-v006-lowpoly/REVIEW.md)。全12 Textureバイト/材質一致、残した位置/法線/UVは元頂点と一致、退化0、新しい境界/非多様体辺増加0、保護991入力一致。足首の退化試行は局所保護で解消。**Codex相対静的外観保持PASS / lowpoly Human未検証 / Tripo受入UNKNOWN**。SHA256 `780f1f9c…f41309`。原本/歴代候補/正式v003 Blender・Shape Keys・285f proof/他キャラ/ユーザー差分は不変。
-- **先行offline毛線v005:** Humanはv004の目をOKとし、両側の耳→肩に「頭を半分に分ける」毛線が残ると再指摘。先行v004毛線外観PASSを撤回。[v005局所Texture・原寸/拡大比較](shushu/evidence/tripo-fur-seam-v005/REVIEW.md)を独立保存。Head 247,007 texelのみ変更、正面の両目/口は画素一致。v004眼球奥行き、v002目囲み、v001口、v003頭頂修正を保持。Codex局所外観PASS、**v005 Human=PENDING**。SHA256 `a9c1681c…536982`。元Tripo GLB・先行候補・正式Geometry/Rig/Motion・他キャラ・ユーザー差分を保持。
-- **Latest offline Texture task:** 開始HEAD `cfc10d459c09f1e781b544c9d56b59a00c7aa16f`、下記Production branchを継続。Humanの黒線をもとに、両目のピンク目囲み上〜外周の淡い並走帯と鼻側〜下側の白い二重境界だけを修正。ピンク面本体・濃い輪郭・瞳・チーク・v001の口修正を保持。元GLB実LFS hash `338ad5f8…bf077b`とv001 `8d4420d5…a5eac09`を照合。正式Geometry/Rig/Motionへの置換は禁止。
-- **先行Texture v002:** [v002の保存GLB5角度・承認画像・拡大・マスク・検証](shushu/evidence/tripo-eye-outline-v002/REVIEW.md)。Headの約3.0734%だけ変更、選択範囲外画素0、口修正texelとの交差0。メッシュ/UV/材質設定・他11 Texture・保護758入力は一致。SHA256 `d9bfbac0…3d40b4d7`。保存時のCodex局所外観PASSに加え、**今回Humanが目囲み修正を「完璧」と明示**。これは新規v003/v004や正式Rigの承認ではない。
-- **Production branch:** `codex/grimo-motion-zero-based-design-20261011`。先行Geometry修正の開始HEAD `b92aa7683beb2c1ca7d0c7a4e0173c5ee32773d9`。対象成果のみcommit/pushし、最終HEADはGit照合。
-- **先行Geometry Authority:** Humanは、saved Sideの開口した下顎が前へ尖ることを指摘し、参照のなだらかな曲線へ、この部分だけを修正しFrontの可愛さを維持するよう指示。承認済みLeft/Front・Canonical Identity・スクリーンショット(525)を参照。#18–26を保護、#27は未承認。remote main `d655f9606b2785ac8be7484e5f22b84dbaee9f55`を当時照合。ローカルGoal√map・9/25正式方針を適用。main一括統合なし。
-- **Shushu v003 NOW:** 小/大開口時の下側口縁から顎へ、奥行きの滑らかな後退を適用。Head局所と対応口内だけ。閉口Basis・GentleSmile元形状・通常開口X/Zを保持。頭姿勢との既存合成補正を再計算。鼻・鼻下・上側口元・目/まぶた・耳・身体/座位のshape座標、全制御/driver/Action/modifier/weightを開始時から保持。**Human=PENDING / Tripo=HOLD**。
-- **Evidence:** [最新の参照/前後・保存検証・限界](shushu/evidence/geometry-v003/lower-mouth-revision/REVIEW.md)。Front/Side/3Q開口笑顔、Side Clay、小/大開口の6組。同条件640×640原寸。参照との実寸mm/pixel完全一致は証明していない。先行nose/muzzle/appeal/human-gate資料は履歴。
-- **対象別検証:** asset/proof再読込、対象外全shape座標と全Action/構造を照合。対象も閉口・対象外キー不変、通常開口X/Z不変。4表情の評価面、7表情/姿勢の口内ray、285フレームproofのNeutral復帰5点/releaseを確認。保護入力56ファイルhashを照合。静的FBX/GLB往復更新。眼球はDonor復元値を維持し、ピンク模様を眼球に含めず、旧20〜30%推定は撤回のまま。
-- **限界/未達:** Humanの側面曲線・Front可愛さ承認は未受領。既存上側口周辺の横境界は今回触れていない。最終毛並み/材質・Rig/morph・スマホruntime完成ではない。胴/脚の編集元は維持し、評価後トポロジーは姿勢で変わる。
-- **外部Tripo:** upload・試行・Auto Rig・課金なし。今回の既存Textureのoffline局所編集とは別。保存/技術PASSをGOにしない。
+
+- **Shushu口B専用候補:** 開始HEAD `d5e9882dd644ca35c6944ed9e1c7b4163944890a`、branch `codex/shushu-v004-mouth-b-20261015`。生成閉口モデル→局所閉/小/中/大造形→局所Textureの順。別名 `shushu-v004-mouth-b-v001.blend` / `-proof.blend` / `.glb` を保存。[比較・原寸・再現・GO/HOLD](shushu/evidence/production-rig-v004-mouth-b/REVIEW.md)。Head既存境界で接触W字の閉口とし、MouthInterior/OralBowl/Tongueを局所再作成。Head対象外全shape、UV/topology/weight、口以外10object、骨rest/親を保持。Head Textureの87,481texel（約2.086%）を局所変更し旧ピンクを除去。元画像11本の圧縮バイト保持。
+- **口B Gate:** authored / saved GLB / PlayCanvas localで4開口×Front/Side/3Q、実動画、座位/閉口優先/復帰を比較。保存位置差約9.39e-7H、実GPU口位置差最大4.92e-5H。数値を外観PASSとしない。閉口のピンクは消えたが、小開口のW形、口角の陰影、真横で頬に隠れる口内の見え方、Front可愛さ/Side自然さはHuman確認。**Human mouth=PENDING、原本置換・Motion量産HOLD。** Tongueは0.55開口を伴う専用契約、既存全clip互換未承認。169fは診断のみ。Human指定「今回はPC比較まで」、候補phone未検証。
+- **v004承認とA:** 2026-10-15 Human PASSはレビュー済み顔全体・外観・座位に限定。[元承認](shushu/evidence/production-rig-v004/REVIEW.md)。同日の追加前肢A/B ReviewはHOLD。[局所8互換・原本実機・A原因/B旧比較](shushu/evidence/production-rig-v004-skin-compat/REVIEW.md)。3mesh局所8は互換試作として保持。Aは全8参照でも残り、Blender評価面との法線乖離がある。今回Aは変更なし。A専用修正とA/B両方のHuman再判定が必要。
+- **保護:** 元v004・他キャラ・開始時ユーザー変更3PNG/未追跡モデル/18–27参照を保持。3,507入力hashと終了照合は口B Evidence。Handoffのみ状態更新として区別。main一括統合なし。
+- **v006静的承認:** 2026-10-14 Humanがv006外観PASSを明示、SHA256 `9c479122…34f10f`。[口v006履歴](shushu/evidence/tripo-mouth-depth-v006/REVIEW.md)をRig/Motion/runtime承認へ拡張しない。
+- **先行offline候補:** [lowpoly v001](shushu/evidence/tripo-rigprep-v006-lowpoly/REVIEW.md) は99,565tri/6.07MB、Human/Tripo未検証。[毛線v005](shushu/evidence/tripo-fur-seam-v005/REVIEW.md) はHuman PENDING。v004毛線の旧PASSは耳→肩線の再指摘で撤回。[目囲みv002](shushu/evidence/tripo-eye-outline-v002/REVIEW.md) はHuman「完璧」、他候補/正式Rigの承認ではない。
+- **先行Geometry v003:** production branch `codex/grimo-motion-zero-based-design-20261011`。[下側口縁から顎の修正・検証・限界](shushu/evidence/geometry-v003/lower-mouth-revision/REVIEW.md) はHuman PENDING/Tripo HOLD。上側口周辺横境界を含む履歴として保持し、今回Authorityとして参照。過去成果は上書きしない。
 
 ## Next
-Aは前肢correctiveの法線生成/合成と保存/runtime経路、Bは口の局所Texture・口縁・MouthInterior/OralBowl/Tongueと閉開口Morphの整合を、それぞれ専用修正として扱う。顔全体や承認済み姿勢を無断変更しない。両局所Human再判定までMotion量産HOLD。座位Game Neutralは未決定。v006静的PASSをRig/runtimeへ拡張しない。
+
+口B候補の閉口を最優先にHumanが判定し、小/中/大・Side/3Q・連続動画へ進む。顔全体の可愛さ・承認済みBody/座位を守る。Aは別の局所法線/変形課題として修正。原本置換とMotion量産は両局所Human再判定までHOLD。座位Game Neutralは未決定。候補phone比較は今回対象外。

@@ -1,0 +1,125 @@
+{
+  "meshes": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_outside_mouth_exact": true,
+      "protected_vertices": 26548,
+      "local_vertices": 8119
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "uv_equal": true,
+      "topology_equal": true,
+      "weights_equal": true,
+      "object_world_matrix_equal": true,
+      "shape_key_names_equal": true,
+      "all_shape_keys_exact": true,
+      "basis_vertices_exact": true
+    }
+  ],
+  "skeleton_rest_parent_exact": true,
+  "oral_replaced_only": [
+    "ShushuStatic_MouthInterior",
+    "ShushuStatic_OralBowl",
+    "ShushuStatic_Tongue"
+  ],
+  "mouth_samples": 101,
+  "max_vertex_step_per_001_open": 0.0005127649356710683,
+  "endpoint_return_exact": true,
+  "scope": "All authored shape coordinates, Head UV/topology/weights and 10 non-mouth objects checked. Runtime visual and Human cuteness gates are separate."
+}

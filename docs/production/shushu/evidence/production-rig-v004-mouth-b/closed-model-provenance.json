@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-15",
+  "tool": "image_gen.imagegen",
+  "output": "closed-mouth-model-v001.png",
+  "output_sha256": "652b2cbd4312246c0c4917b0b05fd8079111306ce9da8f214a5ff7daddcb355c",
+  "prompt": "Use case: identity-preserve. Asset type: 3D sculpting reference sheet for Shushu v004 CLOSED MOUTH ONLY, the first structural design gate. Images 1 and 2 are exact current 3D character identity and front/side reference; image 3 supports only the closed-mouth W smile design. Generate a clean three-panel close-up sheet: front, exact side profile facing right, front three-quarter. Same approved character as images 1 and 2 with identical head silhouette, large flower-highlight pink eyes, nose position/size/color, cheeks, ears, proportions, smooth plush surface and neutral grey background, soft studio lighting. Change ONLY the tiny mouth immediately below the nose. Mouth is truly and gently closed: retain the cute burgundy W-shaped smile connected to the short philtrum, with softly meeting upper/lower plush lip surfaces and rounded muzzle-to-chin continuity. No tongue, no visible pink mouth interior, no open-mouth patch beneath smile, no black oval hole. The lower muzzle/chin is continuous creamy-white plush with just a delicate meeting seam; avoid human lips or lipstick, pronounced lips, cleft chin, new muzzle bulges, extruded snout or teeth. Show 3D volume at actual mouth edges and smooth side silhouette. Do not alter face identity or head height/width, eyes, nose, cheek volume or ear shape. Do not repaint the rest of the face in image 3's illustration style. This is a model image for a narrowly local 3D repair, not a redesign. No text, no diagrams.",
+  "reference_context": [
+    "production-rig-v004-skin-compat/blender-author/f333-front.png",
+    "production-rig-v004-skin-compat/blender-author/f333-side.png",
+    "21-face-neutral-front-three-quarter.png"
+  ],
+  "additional_side_reference": "19-face-small-mouth-open-left-profile.png",
+  "adoption": "Mouth closure, delicate W seam, muzzle-to-chin continuity only. Generated whole-face differences were not adopted. Human approval pending.",
+  "sequence": [
+    "generated closed model",
+    "local closed and opening geometry; geometry-clay 12-view check",
+    "local original Head texture edit",
+    "saved GLB and PlayCanvas PC comparison"
+  ]
+}
