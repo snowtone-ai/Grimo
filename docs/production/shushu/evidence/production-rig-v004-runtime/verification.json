@@ -1,0 +1,69 @@
+{
+  "sourceSha256": "5fb05e5b7a9cbdb07a64beb5a511d6347c656d85d111ed16eccc533ecfc44cb5",
+  "sourceMatchesManifest": true,
+  "candidateSha256": "50a91e055de19281a27036f94f33e0a6b5d53613ff426257512ee3f3fb511638",
+  "structureEqual": true,
+  "changedBytes": 6556,
+  "unexpectedBytes": 0,
+  "binLengthEqual": true,
+  "protectedInputs": 4422,
+  "protectionChanges": [
+    {
+      "path": "docs/production/Handoff.md",
+      "exists": true,
+      "before": "5cd4d3874bb901df83ccd20124fa8d1877243a82684773919bb2c7b14c35bb7d",
+      "now": "5c39f86500eff549b259f7cbca9b5f6ab482ea82e881d713c2da9602413e804d",
+      "authorized": true
+    },
+    {
+      "path": "docs/production/shushu/evidence/production-rig-v004/REVIEW.md",
+      "exists": true,
+      "before": "32ed831924e60399162beeea383ca910d31c4284de42f8bef9fbffe806364bfc",
+      "now": "a05704ac636ee04d391ce7bf5916f5e57890e7033d864cd877acee80bc5bc32a",
+      "authorized": true
+    }
+  ],
+  "schemaErrors": 0,
+  "engineReference": {
+    "samples": 91,
+    "maxMatrix": 0.0000010289950296282768,
+    "maxAnchor": 1.1920928955078125e-7,
+    "maxMorph": 1.1102230246251565e-16,
+    "missing": []
+  },
+  "stockVsSpecMaxMatrix": 0.00040262937545776367,
+  "skinRasterPeak": 0.0175130759192086,
+  "normalAnglePeak": 5.137709783354249,
+  "browserErrors": [],
+  "motionAdvance": [
+    {
+      "joint": "mixamorig:Head",
+      "beforeTime": 0.2916666666666667,
+      "afterTime": 0.49166666666666664,
+      "matrixDelta": 0.007504175940994173
+    },
+    {
+      "joint": "mixamorig:LeftForeArm",
+      "beforeTime": 21.625,
+      "afterTime": 21.824899999999996,
+      "matrixDelta": 1.6541739106178284
+    },
+    {
+      "joint": "mixamorig:Head",
+      "beforeTime": 0.2916666666666667,
+      "afterTime": 0.4916666666666667,
+      "matrixDelta": 0.007504175940994173
+    },
+    {
+      "joint": "mixamorig:LeftForeArm",
+      "beforeTime": 21.625,
+      "afterTime": 21.825100000000003,
+      "matrixDelta": 1.6550893187522888
+    }
+  ],
+  "candidateDecision": "REJECTED: no restored extra influences, no material size/performance improvement; not adopted",
+  "mobile": "UNKNOWN: adb devices -l returned no connected devices on 2026-10-15",
+  "invariantsPass": true,
+  "boundedBindingPass": true,
+  "productionGate": "HOLD: full skin/morph/normal render equivalence, phone performance, real items and production motion contracts"
+}

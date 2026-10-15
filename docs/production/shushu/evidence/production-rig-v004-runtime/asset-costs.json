@@ -1,0 +1,103 @@
+{
+  "source": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v004.glb",
+  "candidate": "docs/production/shushu/evidence/production-rig-v004-runtime/shushu-v004-runtime-4w-probe.glb",
+  "sourceSha256": "5fb05e5b7a9cbdb07a64beb5a511d6347c656d85d111ed16eccc533ecfc44cb5",
+  "candidateSha256": "50a91e055de19281a27036f94f33e0a6b5d53613ff426257512ee3f3fb511638",
+  "bytes": 29691796,
+  "candidateBytes": 29691264,
+  "triangles": 101053,
+  "meshes": 14,
+  "joints": [
+    67
+  ],
+  "textures": 12,
+  "costs": {
+    "base": 3705698,
+    "morph": 18744535,
+    "animation": 3247876,
+    "skin": 4288,
+    "texture": 3690306
+  },
+  "weights": [
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertices": 1681,
+      "affected": 15,
+      "secondaryMax": 0.014542823657393456,
+      "secondaryMean": 0.00004440599868330575
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertices": 1716,
+      "affected": 8,
+      "secondaryMax": 0.021814296022057533,
+      "secondaryMean": 0.000050282123984903586
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertices": 5621,
+      "affected": 334,
+      "secondaryMax": 0.0880075991153717,
+      "secondaryMean": 0.0024426645895614827
+    }
+  ],
+  "morphTargets": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "count": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "count": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "count": 8
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "count": 8
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "count": 43
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "count": 6
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "count": 6
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "count": 5
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "count": 3
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "count": 1
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "count": 87
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "count": 87
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "count": 2
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "count": 59
+    }
+  ],
+  "note": "Costs are unique bufferView bytes within each category; sparse views included. Candidate preserves unused secondary buffers to isolate normalization. Not a size optimization."
+}

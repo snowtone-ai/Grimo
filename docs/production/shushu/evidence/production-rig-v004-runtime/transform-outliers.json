@@ -1,0 +1,494 @@
+[
+  {
+    "frame": 381,
+    "maxMatrix": 0.00036428470602700713,
+    "maxAnchor": 7.839153681743483e-8,
+    "maxMorph": 0,
+    "missing": [],
+    "nodeErrors": [
+      {
+        "node": "mixamorig:LeftToeBase",
+        "error": 0.00036428470602700713,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftToe_End",
+        "error": 0.00036428470595950557,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftFoot",
+        "error": 0.00036428465021742795,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftLeg",
+        "error": 0.0003337562084197998,
+        "sourceMatrix": false
+      },
+      {
+        "node": "ANCHOR_Crown",
+        "error": 7.839153681743483e-8,
+        "sourceMatrix": false
+      }
+    ],
+    "skin": [
+      {
+        "mesh": "ShushuStatic_Paw_L",
+        "vertices": 1681,
+        "affected": 15,
+        "maxStock": 0.007055279457866051,
+        "maxFour": 6.732913151708505e-8,
+        "stockRasterError": 6.732913151708505e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.00031234880274007027,
+        "rmsFour": 1.1917609921314682e-8,
+        "maxNormalAngleDeg": 0.0000012074182697257333,
+        "worst": [
+          {
+            "vertex": 718,
+            "stock": 0.007055279457866051,
+            "four": 3.224927373582656e-8
+          },
+          {
+            "vertex": 711,
+            "stock": 0.006236526865124106,
+            "four": 6.269211712457265e-9
+          },
+          {
+            "vertex": 742,
+            "stock": 0.0056055549384805515,
+            "four": 6.472505770031719e-8
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Paw_R",
+        "vertices": 1716,
+        "affected": 8,
+        "maxStock": 0.010582944285122488,
+        "maxFour": 6.275980533308814e-8,
+        "stockRasterError": 6.275980533308814e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0004180065049590726,
+        "rmsFour": 1.1143275719681492e-8,
+        "maxNormalAngleDeg": 0.0000012074182697257333,
+        "worst": [
+          {
+            "vertex": 727,
+            "stock": 0.010582944285122488,
+            "four": 6.15772668937933e-9
+          },
+          {
+            "vertex": 695,
+            "stock": 0.008910377918792442,
+            "four": 1.0545147726480437e-8
+          },
+          {
+            "vertex": 703,
+            "stock": 0.006397186263553581,
+            "four": 1.4824904814020797e-8
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Torso",
+        "vertices": 5621,
+        "affected": 334,
+        "maxStock": 0.032167383811781476,
+        "maxFour": 5.861637553757804e-8,
+        "stockRasterError": 5.861637553757804e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0035325978085025338,
+        "rmsFour": 1.0669312630487945e-8,
+        "maxNormalAngleDeg": 0.0000014787793334710982,
+        "worst": [
+          {
+            "vertex": 1159,
+            "stock": 0.032167383811781476,
+            "four": 5.3311222958652426e-9
+          },
+          {
+            "vertex": 1477,
+            "stock": 0.03183755072245367,
+            "four": 2.8653753604688874e-8
+          },
+          {
+            "vertex": 1352,
+            "stock": 0.03005904628930043,
+            "four": 2.2558585090806883e-9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 469,
+    "maxMatrix": 0.00038060029319808564,
+    "maxAnchor": 0.0002855658531188965,
+    "maxMorph": 0,
+    "missing": [],
+    "nodeErrors": [
+      {
+        "node": "mixamorig:LeftHandThumb1",
+        "error": 0.00038060029319808564,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHandThumb3",
+        "error": 0.00037741341066066525,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHandThumb2",
+        "error": 0.00037741325388651603,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHandThumb4",
+        "error": 0.0003774131962188676,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHand",
+        "error": 0.0003509819507598877,
+        "sourceMatrix": false
+      }
+    ],
+    "skin": [
+      {
+        "mesh": "ShushuStatic_Paw_L",
+        "vertices": 1681,
+        "affected": 15,
+        "maxStock": 0.0070552790653800905,
+        "maxFour": 6.732912973734557e-8,
+        "stockRasterError": 6.732912973734557e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.00031234879181034407,
+        "rmsFour": 1.1917989394599233e-8,
+        "maxNormalAngleDeg": 0.0000012074182697257333,
+        "worst": [
+          {
+            "vertex": 718,
+            "stock": 0.0070552790653800905,
+            "four": 3.201344306494789e-8
+          },
+          {
+            "vertex": 711,
+            "stock": 0.006236526510358335,
+            "four": 6.1038259122661955e-9
+          },
+          {
+            "vertex": 742,
+            "stock": 0.00560555503401731,
+            "four": 6.495184723776679e-8
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Paw_R",
+        "vertices": 1716,
+        "affected": 8,
+        "maxStock": 0.010582944285122488,
+        "maxFour": 6.275980533308814e-8,
+        "stockRasterError": 6.275980533308814e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0004180065049590726,
+        "rmsFour": 1.1143275719681492e-8,
+        "maxNormalAngleDeg": 0.0000012074182697257333,
+        "worst": [
+          {
+            "vertex": 727,
+            "stock": 0.010582944285122488,
+            "four": 6.15772668937933e-9
+          },
+          {
+            "vertex": 695,
+            "stock": 0.008910377918792442,
+            "four": 1.0545147726480437e-8
+          },
+          {
+            "vertex": 703,
+            "stock": 0.006397186263553581,
+            "four": 1.4824904814020797e-8
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Torso",
+        "vertices": 5621,
+        "affected": 334,
+        "maxStock": 0.032167383811781476,
+        "maxFour": 5.861637553757804e-8,
+        "stockRasterError": 5.861637553757804e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0035325978085025338,
+        "rmsFour": 1.0669312630487945e-8,
+        "maxNormalAngleDeg": 0.0000014787793334710982,
+        "worst": [
+          {
+            "vertex": 1159,
+            "stock": 0.032167383811781476,
+            "four": 5.3311222958652426e-9
+          },
+          {
+            "vertex": 1477,
+            "stock": 0.03183755072245367,
+            "four": 2.8653753604688874e-8
+          },
+          {
+            "vertex": 1352,
+            "stock": 0.03005904628930043,
+            "four": 2.2558585090806883e-9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 485,
+    "maxMatrix": 0.00038058480996028266,
+    "maxAnchor": 0.0002855658531188965,
+    "maxMorph": 2.775303451678715e-17,
+    "missing": [],
+    "nodeErrors": [
+      {
+        "node": "mixamorig:LeftHandThumb1",
+        "error": 0.00038058480996028266,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHandThumb4",
+        "error": 0.00037739654882784635,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHandThumb3",
+        "error": 0.0003773953662857821,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHandThumb2",
+        "error": 0.0003773949766809892,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftHand",
+        "error": 0.0003509819507598877,
+        "sourceMatrix": false
+      }
+    ],
+    "skin": [
+      {
+        "mesh": "ShushuStatic_Paw_L",
+        "vertices": 1681,
+        "affected": 15,
+        "maxStock": 0.0070552790653800905,
+        "maxFour": 6.732912973734557e-8,
+        "stockRasterError": 6.732912973734557e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.00031234879181034407,
+        "rmsFour": 1.1917989394599233e-8,
+        "maxNormalAngleDeg": 0.0000012074182697257333,
+        "worst": [
+          {
+            "vertex": 718,
+            "stock": 0.0070552790653800905,
+            "four": 3.201344306494789e-8
+          },
+          {
+            "vertex": 711,
+            "stock": 0.006236526510358335,
+            "four": 6.1038259122661955e-9
+          },
+          {
+            "vertex": 742,
+            "stock": 0.00560555503401731,
+            "four": 6.495184723776679e-8
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Paw_R",
+        "vertices": 1716,
+        "affected": 8,
+        "maxStock": 0.009046173115705668,
+        "maxFour": 0.0035191149251044824,
+        "stockRasterError": 0.0035191149251044824,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0003767965956622113,
+        "rmsFour": 0.00011144166425162216,
+        "maxNormalAngleDeg": 1.2227907166242653,
+        "worst": [
+          {
+            "vertex": 695,
+            "stock": 0.009046173115705668,
+            "four": 0.0003381364511005634
+          },
+          {
+            "vertex": 727,
+            "stock": 0.008646887684119526,
+            "four": 0.0035191149251044824
+          },
+          {
+            "vertex": 703,
+            "stock": 0.006803542362785278,
+            "four": 0.000578186678407385
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Torso",
+        "vertices": 5621,
+        "affected": 334,
+        "maxStock": 0.032167383811781476,
+        "maxFour": 5.861637553757804e-8,
+        "stockRasterError": 5.861637553757804e-8,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0035325978085025338,
+        "rmsFour": 1.0669312630487945e-8,
+        "maxNormalAngleDeg": 0.0000014787793334710982,
+        "worst": [
+          {
+            "vertex": 1159,
+            "stock": 0.032167383811781476,
+            "four": 5.3311222958652426e-9
+          },
+          {
+            "vertex": 1477,
+            "stock": 0.03183755072245367,
+            "four": 2.8653753604688874e-8
+          },
+          {
+            "vertex": 1352,
+            "stock": 0.03005904628930043,
+            "four": 2.2558585090806883e-9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "frame": 629,
+    "maxMatrix": 0.00040262937545776367,
+    "maxAnchor": 1.564621925354004e-7,
+    "maxMorph": 2.775303451678715e-17,
+    "missing": [],
+    "nodeErrors": [
+      {
+        "node": "mixamorig:LeftLeg",
+        "error": 0.00040262937545776367,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftFoot",
+        "error": 0.0003935098648071289,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftToe_End",
+        "error": 0.0003935098648071289,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:LeftToeBase",
+        "error": 0.0003934800624847412,
+        "sourceMatrix": false
+      },
+      {
+        "node": "mixamorig:RightHandMiddle4",
+        "error": 2.682209014892578e-7,
+        "sourceMatrix": false
+      }
+    ],
+    "skin": [
+      {
+        "mesh": "ShushuStatic_Paw_L",
+        "vertices": 1681,
+        "affected": 15,
+        "maxStock": 0.005403707022785198,
+        "maxFour": 0.0024296853070127603,
+        "stockRasterError": 0.0024296853070127603,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0002475948326735277,
+        "rmsFour": 0.00008477851104897502,
+        "maxNormalAngleDeg": 0.6645342377190917,
+        "worst": [
+          {
+            "vertex": 718,
+            "stock": 0.005403707022785198,
+            "four": 0.00034966077751905533
+          },
+          {
+            "vertex": 711,
+            "stock": 0.005164870581211645,
+            "four": 0.0007765755532498664
+          },
+          {
+            "vertex": 742,
+            "stock": 0.004063272631339725,
+            "four": 0.0024296853070127603
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Paw_R",
+        "vertices": 1716,
+        "affected": 8,
+        "maxStock": 0.006945302443261274,
+        "maxFour": 0.003525259377341531,
+        "stockRasterError": 0.003525259377341531,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.0002893133611476476,
+        "rmsFour": 0.00011510455263515773,
+        "maxNormalAngleDeg": 1.5737418282222524,
+        "worst": [
+          {
+            "vertex": 695,
+            "stock": 0.006945302443261274,
+            "four": 0.00037736826882708955
+          },
+          {
+            "vertex": 727,
+            "stock": 0.006646435965374243,
+            "four": 0.003525259377341531
+          },
+          {
+            "vertex": 703,
+            "stock": 0.005307971979836142,
+            "four": 0.0005765824606716111
+          }
+        ]
+      },
+      {
+        "mesh": "ShushuStatic_Torso",
+        "vertices": 5621,
+        "affected": 334,
+        "maxStock": 0.024716129081316776,
+        "maxFour": 0.016671515933598304,
+        "stockRasterError": 0.016671515933598304,
+        "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+        "rmsStock": 0.003023479763115171,
+        "rmsFour": 0.0008620801072752633,
+        "maxNormalAngleDeg": 4.461751125307049,
+        "worst": [
+          {
+            "vertex": 1512,
+            "stock": 0.024716129081316776,
+            "four": 0.0038434107188691797
+          },
+          {
+            "vertex": 1159,
+            "stock": 0.024715691982924157,
+            "four": 0.004030448919344284
+          },
+          {
+            "vertex": 1450,
+            "stock": 0.024565270070067983,
+            "four": 0.0017054665292473433
+          }
+        ]
+      }
+    ]
+  }
+]

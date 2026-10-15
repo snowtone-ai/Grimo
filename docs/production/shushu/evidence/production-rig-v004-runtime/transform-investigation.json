@@ -1,0 +1,1216 @@
+{
+  "summary": {
+    "engine": "2.22.2",
+    "mode": "stock",
+    "loadedMs": 766.9000000059605,
+    "firstFrameMs": 2064,
+    "clip": "Shushu v004/animation/0",
+    "duration": 34.20833206176758,
+    "meshes": 14,
+    "anchors": 7,
+    "formats": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_OralBowl",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Tongue",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      }
+    ],
+    "textures": [
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Ear_L_basecolor-0",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Ear_R_basecolor-1",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Eye_L_basecolor-2",
+        "width": 512,
+        "height": 512,
+        "gpuSize": 1398100,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Eye_R_basecolor-3",
+        "width": 512,
+        "height": 512,
+        "gpuSize": 1398100,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Head_basecolor-4",
+        "width": 2048,
+        "height": 2048,
+        "gpuSize": 22369620,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_LidWall_L_basecolor-5",
+        "width": 256,
+        "height": 256,
+        "gpuSize": 349524,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_LidWall_R_basecolor-6",
+        "width": 256,
+        "height": 256,
+        "gpuSize": 349524,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_MouthInterior_basecolor-7",
+        "width": 128,
+        "height": 128,
+        "gpuSize": 87380,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Nose_basecolor-8",
+        "width": 128,
+        "height": 128,
+        "gpuSize": 87380,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Paw_L_basecolor-9",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Paw_R_basecolor-10",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Torso_basecolor-11",
+        "width": 2048,
+        "height": 2048,
+        "gpuSize": 22369620,
+        "format": 20
+      }
+    ],
+    "vram": {
+      "tex": 72415804,
+      "vb": 3125904,
+      "ib": 606330,
+      "ub": 3456,
+      "sb": 0
+    },
+    "renderer": "WebKit WebGL",
+    "unmaskedRenderer": "ANGLE (AMD, AMD Radeon (TM) Graphics (0x000015E7) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "canvas": {
+      "width": 640,
+      "height": 640,
+      "pixelRatio": 1
+    },
+    "calibration": {
+      "scale": 1,
+      "y": 0,
+      "yaw": 0,
+      "neutralHeight": 1,
+      "front": "+Z"
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36"
+  },
+  "checks": [
+    {
+      "frame": 1,
+      "maxMatrix": 7.839153681743483e-8,
+      "maxAnchor": 7.839153681743483e-8,
+      "maxMorph": 0,
+      "missing": [],
+      "nodeErrors": [
+        {
+          "node": "ANCHOR_Crown",
+          "error": 7.839153681743483e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.L",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Mouth",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.R",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_WearChest",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        }
+      ],
+      "skin": [
+        {
+          "mesh": "ShushuStatic_Paw_L",
+          "vertices": 1681,
+          "affected": 15,
+          "maxStock": 0.007055279457866051,
+          "maxFour": 6.732913151708505e-8,
+          "stockRasterError": 6.732913151708505e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00031234880274007027,
+          "rmsFour": 1.1917609921314682e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 718,
+              "stock": 0.007055279457866051,
+              "four": 3.224927373582656e-8
+            },
+            {
+              "vertex": 711,
+              "stock": 0.006236526865124106,
+              "four": 6.269211712457265e-9
+            },
+            {
+              "vertex": 742,
+              "stock": 0.0056055549384805515,
+              "four": 6.472505770031719e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Paw_R",
+          "vertices": 1716,
+          "affected": 8,
+          "maxStock": 0.010582944285122488,
+          "maxFour": 6.275980533308814e-8,
+          "stockRasterError": 6.275980533308814e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0004180065049590726,
+          "rmsFour": 1.1143275719681492e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 727,
+              "stock": 0.010582944285122488,
+              "four": 6.15772668937933e-9
+            },
+            {
+              "vertex": 695,
+              "stock": 0.008910377918792442,
+              "four": 1.0545147726480437e-8
+            },
+            {
+              "vertex": 703,
+              "stock": 0.006397186263553581,
+              "four": 1.4824904814020797e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Torso",
+          "vertices": 5621,
+          "affected": 334,
+          "maxStock": 0.032167383811781476,
+          "maxFour": 5.861637553757804e-8,
+          "stockRasterError": 5.861637553757804e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0035325978085025338,
+          "rmsFour": 1.0669312630487945e-8,
+          "maxNormalAngleDeg": 0.0000014787793334710982,
+          "worst": [
+            {
+              "vertex": 1159,
+              "stock": 0.032167383811781476,
+              "four": 5.3311222958652426e-9
+            },
+            {
+              "vertex": 1477,
+              "stock": 0.03183755072245367,
+              "four": 2.8653753604688874e-8
+            },
+            {
+              "vertex": 1352,
+              "stock": 0.03005904628930043,
+              "four": 2.2558585090806883e-9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 79,
+      "maxMatrix": 7.839153681743483e-8,
+      "maxAnchor": 7.839153681743483e-8,
+      "maxMorph": 6.244326887158702e-18,
+      "missing": [],
+      "nodeErrors": [
+        {
+          "node": "ANCHOR_Crown",
+          "error": 7.839153681743483e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:LeftToeBase",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:LeftToe_End",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.L",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Mouth",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        }
+      ],
+      "skin": [
+        {
+          "mesh": "ShushuStatic_Paw_L",
+          "vertices": 1681,
+          "affected": 15,
+          "maxStock": 0.005632878682209547,
+          "maxFour": 5.480817488655092e-8,
+          "stockRasterError": 5.480817488655092e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0002504536487396242,
+          "rmsFour": 9.658829905230461e-9,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 718,
+              "stock": 0.005632878682209547,
+              "four": 2.610047068949979e-8
+            },
+            {
+              "vertex": 711,
+              "stock": 0.005002851845352817,
+              "four": 5.359870052119731e-9
+            },
+            {
+              "vertex": 742,
+              "stock": 0.004490712658136191,
+              "four": 5.191164010289726e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Paw_R",
+          "vertices": 1716,
+          "affected": 8,
+          "maxStock": 0.008449339196265967,
+          "maxFour": 5.012917106181061e-8,
+          "stockRasterError": 5.012917106181061e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00033321435777040653,
+          "rmsFour": 9.034849619493477e-9,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 727,
+              "stock": 0.008449339196265967,
+              "four": 5.0606759367698656e-9
+            },
+            {
+              "vertex": 695,
+              "stock": 0.007054611415402443,
+              "four": 9.15363294798493e-9
+            },
+            {
+              "vertex": 703,
+              "stock": 0.005091184147563251,
+              "four": 1.2229178200026032e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Torso",
+          "vertices": 5621,
+          "affected": 334,
+          "maxStock": 0.02612841689940594,
+          "maxFour": 0.016167896500047286,
+          "stockRasterError": 0.016167896500047286,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0029549005234375913,
+          "rmsFour": 0.0008237678259598943,
+          "maxNormalAngleDeg": 4.25193015011892,
+          "worst": [
+            {
+              "vertex": 1159,
+              "stock": 0.02612841689940594,
+              "four": 0.0038657208122854112
+            },
+            {
+              "vertex": 1477,
+              "stock": 0.025082998166009042,
+              "four": 0.002258628437650345
+            },
+            {
+              "vertex": 1352,
+              "stock": 0.024598695095686525,
+              "four": 0.004556816811985863
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 169,
+      "maxMatrix": 7.839153681743483e-8,
+      "maxAnchor": 7.839153681743483e-8,
+      "maxMorph": 0,
+      "missing": [],
+      "nodeErrors": [
+        {
+          "node": "ANCHOR_Crown",
+          "error": 7.839153681743483e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.L",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Mouth",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.R",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_WearChest",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        }
+      ],
+      "skin": [
+        {
+          "mesh": "ShushuStatic_Paw_L",
+          "vertices": 1681,
+          "affected": 15,
+          "maxStock": 0.007055279457866051,
+          "maxFour": 6.732913151708505e-8,
+          "stockRasterError": 6.732913151708505e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00031234880274007027,
+          "rmsFour": 1.1917609921314682e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 718,
+              "stock": 0.007055279457866051,
+              "four": 3.224927373582656e-8
+            },
+            {
+              "vertex": 711,
+              "stock": 0.006236526865124106,
+              "four": 6.269211712457265e-9
+            },
+            {
+              "vertex": 742,
+              "stock": 0.0056055549384805515,
+              "four": 6.472505770031719e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Paw_R",
+          "vertices": 1716,
+          "affected": 8,
+          "maxStock": 0.010582944285122488,
+          "maxFour": 6.275980533308814e-8,
+          "stockRasterError": 6.275980533308814e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0004180065049590726,
+          "rmsFour": 1.1143275719681492e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 727,
+              "stock": 0.010582944285122488,
+              "four": 6.15772668937933e-9
+            },
+            {
+              "vertex": 695,
+              "stock": 0.008910377918792442,
+              "four": 1.0545147726480437e-8
+            },
+            {
+              "vertex": 703,
+              "stock": 0.006397186263553581,
+              "four": 1.4824904814020797e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Torso",
+          "vertices": 5621,
+          "affected": 334,
+          "maxStock": 0.032167383811781476,
+          "maxFour": 5.861637553757804e-8,
+          "stockRasterError": 5.861637553757804e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0035325978085025338,
+          "rmsFour": 1.0669312630487945e-8,
+          "maxNormalAngleDeg": 0.0000014787793334710982,
+          "worst": [
+            {
+              "vertex": 1159,
+              "stock": 0.032167383811781476,
+              "four": 5.3311222958652426e-9
+            },
+            {
+              "vertex": 1477,
+              "stock": 0.03183755072245367,
+              "four": 2.8653753604688874e-8
+            },
+            {
+              "vertex": 1352,
+              "stock": 0.03005904628930043,
+              "four": 2.2558585090806883e-9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 237,
+      "maxMatrix": 7.839153681743483e-8,
+      "maxAnchor": 7.839153681743483e-8,
+      "maxMorph": 0,
+      "missing": [],
+      "nodeErrors": [
+        {
+          "node": "ANCHOR_Crown",
+          "error": 7.839153681743483e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.L",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Mouth",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Hold.R",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_WearChest",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        }
+      ],
+      "skin": [
+        {
+          "mesh": "ShushuStatic_Paw_L",
+          "vertices": 1681,
+          "affected": 15,
+          "maxStock": 0.007055279457866051,
+          "maxFour": 6.732913151708505e-8,
+          "stockRasterError": 6.732913151708505e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00031234880274007027,
+          "rmsFour": 1.1917609921314682e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 718,
+              "stock": 0.007055279457866051,
+              "four": 3.224927373582656e-8
+            },
+            {
+              "vertex": 711,
+              "stock": 0.006236526865124106,
+              "four": 6.269211712457265e-9
+            },
+            {
+              "vertex": 742,
+              "stock": 0.0056055549384805515,
+              "four": 6.472505770031719e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Paw_R",
+          "vertices": 1716,
+          "affected": 8,
+          "maxStock": 0.010582944285122488,
+          "maxFour": 6.275980533308814e-8,
+          "stockRasterError": 6.275980533308814e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0004180065049590726,
+          "rmsFour": 1.1143275719681492e-8,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 727,
+              "stock": 0.010582944285122488,
+              "four": 6.15772668937933e-9
+            },
+            {
+              "vertex": 695,
+              "stock": 0.008910377918792442,
+              "four": 1.0545147726480437e-8
+            },
+            {
+              "vertex": 703,
+              "stock": 0.006397186263553581,
+              "four": 1.4824904814020797e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Torso",
+          "vertices": 5621,
+          "affected": 334,
+          "maxStock": 0.032167383811781476,
+          "maxFour": 5.861637553757804e-8,
+          "stockRasterError": 5.861637553757804e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0035325978085025338,
+          "rmsFour": 1.0669312630487945e-8,
+          "maxNormalAngleDeg": 0.0000014787793334710982,
+          "worst": [
+            {
+              "vertex": 1159,
+              "stock": 0.032167383811781476,
+              "four": 5.3311222958652426e-9
+            },
+            {
+              "vertex": 1477,
+              "stock": 0.03183755072245367,
+              "four": 2.8653753604688874e-8
+            },
+            {
+              "vertex": 1352,
+              "stock": 0.03005904628930043,
+              "four": 2.2558585090806883e-9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 549,
+      "maxMatrix": 1.7881393432617188e-7,
+      "maxAnchor": 7.839153681743483e-8,
+      "maxMorph": 0,
+      "missing": [],
+      "nodeErrors": [
+        {
+          "node": "mixamorig:RightHandPinky2",
+          "error": 1.7881393432617188e-7,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:RightHandPinky3",
+          "error": 1.7881393432617188e-7,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:RightHandPinky4",
+          "error": 1.7881393432617188e-7,
+          "sourceMatrix": false
+        },
+        {
+          "node": "ANCHOR_Crown",
+          "error": 7.839153681743483e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:LeftHandPinky2",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        }
+      ],
+      "skin": [
+        {
+          "mesh": "ShushuStatic_Paw_L",
+          "vertices": 1681,
+          "affected": 15,
+          "maxStock": 0.0053101564205950535,
+          "maxFour": 0.0023535666409039203,
+          "stockRasterError": 0.0023535666409039203,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.0002417909387393919,
+          "rmsFour": 0.00008357141080764469,
+          "maxNormalAngleDeg": 0.5904039722284636,
+          "worst": [
+            {
+              "vertex": 718,
+              "stock": 0.0053101564205950535,
+              "four": 0.0003390248896924271
+            },
+            {
+              "vertex": 711,
+              "stock": 0.005092331702576579,
+              "four": 0.0007638339315550947
+            },
+            {
+              "vertex": 742,
+              "stock": 0.0038483261874055377,
+              "four": 0.0023535666409039203
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Paw_R",
+          "vertices": 1716,
+          "affected": 8,
+          "maxStock": 0.007079729813298588,
+          "maxFour": 0.0036813342395755058,
+          "stockRasterError": 0.0036813342395755058,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00029948774744491437,
+          "rmsFour": 0.0001188274040887776,
+          "maxNormalAngleDeg": 1.5220560557043739,
+          "worst": [
+            {
+              "vertex": 695,
+              "stock": 0.007079729813298588,
+              "four": 0.0003590010233651592
+            },
+            {
+              "vertex": 727,
+              "stock": 0.00701763326185902,
+              "four": 0.0036813342395755058
+            },
+            {
+              "vertex": 703,
+              "stock": 0.005394487018147561,
+              "four": 0.0005706304443158088
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Torso",
+          "vertices": 5621,
+          "affected": 334,
+          "maxStock": 0.02612841676015202,
+          "maxFour": 0.016167897216848862,
+          "stockRasterError": 0.016167897216848862,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.002954900525904311,
+          "rmsFour": 0.0008237678258021044,
+          "maxNormalAngleDeg": 4.251929975964635,
+          "worst": [
+            {
+              "vertex": 1159,
+              "stock": 0.02612841676015202,
+              "four": 0.003865720980431392
+            },
+            {
+              "vertex": 1477,
+              "stock": 0.025082998043734313,
+              "four": 0.0022586285367572597
+            },
+            {
+              "vertex": 1352,
+              "stock": 0.024598694922922573,
+              "four": 0.004556816991550001
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 600.5,
+      "maxMatrix": 7.854214345570654e-8,
+      "maxAnchor": 7.854214345570654e-8,
+      "maxMorph": 2.7755575615628914e-17,
+      "missing": [],
+      "nodeErrors": [
+        {
+          "node": "ANCHOR_Crown",
+          "error": 7.854214345570654e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:LeftToeBase",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:LeftToe_End",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:RightToeBase",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        },
+        {
+          "node": "mixamorig:RightToe_End",
+          "error": 5.960464477539063e-8,
+          "sourceMatrix": false
+        }
+      ],
+      "skin": [
+        {
+          "mesh": "ShushuStatic_Paw_L",
+          "vertices": 1681,
+          "affected": 15,
+          "maxStock": 0.0056594525839247355,
+          "maxFour": 5.507398426420008e-8,
+          "stockRasterError": 5.507398426420008e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00025161990160390136,
+          "rmsFour": 9.705396479546097e-9,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 718,
+              "stock": 0.0056594525839247355,
+              "four": 2.603357240252209e-8
+            },
+            {
+              "vertex": 711,
+              "stock": 0.00502590399399936,
+              "four": 5.104647566804224e-9
+            },
+            {
+              "vertex": 742,
+              "stock": 0.004512471130306673,
+              "four": 5.206649292053431e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Paw_R",
+          "vertices": 1716,
+          "affected": 8,
+          "maxStock": 0.00840979789032214,
+          "maxFour": 4.993649823268193e-8,
+          "stockRasterError": 4.993649823268193e-8,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.00033167198993998883,
+          "rmsFour": 8.990261051358991e-9,
+          "maxNormalAngleDeg": 0.0000012074182697257333,
+          "worst": [
+            {
+              "vertex": 727,
+              "stock": 0.00840979789032214,
+              "four": 5.604204484943958e-9
+            },
+            {
+              "vertex": 695,
+              "stock": 0.007021695810164337,
+              "four": 9.565483659288622e-9
+            },
+            {
+              "vertex": 703,
+              "stock": 0.005068060763301846,
+              "four": 1.2445252631351638e-8
+            }
+          ]
+        },
+        {
+          "mesh": "ShushuStatic_Torso",
+          "vertices": 5621,
+          "affected": 334,
+          "maxStock": 0.025948909332455597,
+          "maxFour": 0.016254992151160184,
+          "stockRasterError": 0.016254992151160184,
+          "rawWorldNote": "maxStock is unnormalized shader world xyz; homogeneous division makes raster position equal normalized top4 (maxFour), not maxStock",
+          "rmsStock": 0.002962630222344922,
+          "rmsFour": 0.0008257252301952344,
+          "maxNormalAngleDeg": 4.221170673516075,
+          "worst": [
+            {
+              "vertex": 1159,
+              "stock": 0.025948909332455597,
+              "four": 0.003891751617462
+            },
+            {
+              "vertex": 1477,
+              "stock": 0.0249022730726886,
+              "four": 0.0022710739050169977
+            },
+            {
+              "vertex": 1352,
+              "stock": 0.02443325202893341,
+              "four": 0.004585647275840827
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "cpu": "AMD Ryzen 5 7430U with Radeon Graphics         ",
+    "ram": 16535965696
+  }
+}
