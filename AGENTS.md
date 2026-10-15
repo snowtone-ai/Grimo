@@ -1,25 +1,8 @@
-# Grimo — Repository Operating Guide
+# Grimo — Historical router branch (superseded)
 
-Grimo is a smartphone-first task-management PWA whose emotional center is four living companion characters: Carol, Jill, Pino, and Shushu. Product success is led by cuteness, appeal, life, attachment, and interaction quality—not technical purity.
+This branch contains the 2026-10-11 knowledge-router working snapshot, **not current instructions**. For all new Grimo work use `main:AGENTS.md`, `main:docs/grimo/knowledge/Goal√map.md`, `main:docs/production/Handoff.md` and the [current Project Knowledge Router](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_ROUTER.md). Current production truth is on the selected working branch, never inferred from this historical branch.
 
-## Authority and mutable truth
-
-The repository implements decisions; it is not the highest source of durable product reasoning.
-
-- **ChatGPT Project Memory** holds current reasoning policy.
-- **Project Knowledge** holds durable product, experience, and architecture authority; start at `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md`.
-- **Git and current production state** hold mutable execution truth.
-
-For Carol, `docs/production/carol/CAROL_PRODUCTION_STATE.md` is the single mutable routing truth. Do not infer current state from old prompts, historical documents, or evidence.
-
-## Working rules
-
-- Preserve all local and uncommitted user work. Never reset, clean, overwrite, or discard it without explicit direction.
-- Current explicit user decisions and canonical/approved references outrank stale implementation history. Read only the authority relevant to the task.
-- Production methods are flexible. Tooling, model choice, topology and rig strategy, testing, workflow order, and intermediate architecture may change when evidence supports a better route.
-- Choose the scope and process that best achieve the requested outcome. Avoid unrelated work, but do not stop at a minimum patch when the task requires final-quality convergence. Diagnosis, decomposition, implementation strategy, tooling, iteration, and validation are executor-owned unless an explicit higher authority or external constraint says otherwise.
-- Validate proportionally to changed risk. Visible identity, cuteness, naturalness, and companion quality need Human perceptual acceptance.
-- Commit and push focused, requested changes; do not alter application behavior, secrets, user data, or unrelated assets.
+Preserve canonical/Human-approved assets and uncommitted work; no forced merges/resets, paid actions, collateral edits or unreviewed Human Gate. This branch's former files remain accessible through Git history.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
