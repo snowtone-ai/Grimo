@@ -5,7 +5,7 @@
 **Basis:** Grimo の Product North Star、Character Experience、Production Architecture、Product Feature、Data Model（2026-10-12時点で確認した正式資料）。
 **Maintenance:** 原則として普段のターンでは書き換えない。Humanが製品の根本方針を変更した場合のみ、原典と整合させて版を更新する。「不変」は日々の作業状態を混ぜないという意味であり、永久に上書き不可という意味ではない。
 
-> この文書は**経緯の要約・状態台帳ではない**。現在の作業・コミット・Tripo残回数・未検証事項・次タスクは、専用ブランチ `coord/grimo-ai-handoff` の `docs/production/GRIMO_AI_HANDOFF.md` を**最新のremoteから**取得すること。アップロード済みのハンドオフの静的コピーを最新とはみなさない。
+> この文書は**経緯の要約・状態台帳ではない**。最新の実行規則は `main:AGENTS.md`、目的は `main:docs/grimo/knowledge/Goal√map.md`、進行先の案内は `main:docs/production/Handoff.md`。実際のNOWは対象の制作ブランチ・HEAD・制作State・Evidenceを確認する。旧 `coord/grimo-ai-handoff` は履歴用。
 
 ## 1. Product North Star：何のためのGrimoか
 
@@ -115,7 +115,7 @@ Carolの羊毛は身体に所有される立体表現。広域の位置遅れで
 
 **恒常的な内容：** このファイルと、リポジトリの正式なNorth Star／Experience／Production Architecture／Product Feature／Data Model。
 
-**変動する内容：** ブランチ・HEAD・進捗・制作候補・検証結果・Human Gateの現状・Tripoの残回数／料金／画面・次タスク。これらをこのファイルへ書き足してはいけない。最新の `coord/grimo-ai-handoff:docs/production/GRIMO_AI_HANDOFF.md` と現行のGit／各制作State／実証資料を読む。
+**変動する内容：** ブランチ・HEAD・進捗・制作候補・検証結果・Human Gateの現状・Tripoの残回数／料金／画面・次タスク。これらをこのファイルへ書き足してはいけない。最新の `main:docs/production/Handoff.md` を入口とし、対象ブランチの現行Git／制作State／実証資料を読む。
 
 **権威と参照順:** 最新の明示Human決定 → Canonical Identity → 正式な製品・体験・3Dアーキテクチャ／商品仕様 → 現行制作Stateと実測 → 補助資料／過去記録。ハンドオフは探索用の索引であり、正式な決定やHuman承認を勝手に上書きしない。
 
@@ -131,6 +131,7 @@ Carolの羊毛は身体に所有される立体表現。広域の位置遅れで
 - `docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md` — 4画面・報酬・Food/Wear/Special/Secret/Gift/Collection
 - `docs/grimo/knowledge/product/GRIMO_DATA_MODEL_SPEC.md` — 商品・反応発見・消費・所有の論理データ
 - `AGENTS.md` — GitHub作業ルール／ハンドオフ運用
-- **最新ハンドオフ：** [coord/grimo-ai-handoff の GRIMO_AI_HANDOFF.md](https://github.com/snowtone-ai/Grimo/blob/coord/grimo-ai-handoff/docs/production/GRIMO_AI_HANDOFF.md)
+- **Project Knowledge Router：** [mainの最新版](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_ROUTER.md)
+- **引き継ぎ入口：** [mainのHandoff.md](https://github.com/snowtone-ai/Grimo/blob/main/docs/production/Handoff.md)（現行実行状態の代用ではない）
 
-**ChatGPT Project Knowledge運用:** このMarkdownを固定の全体像として登録する。実行時には毎ターン上記のGitHubの最新ハンドオフを取得し、必要な原典のみ追加確認する。GitHubにアクセス不能なら最新把握を装わず、未同期と明示する。
+**ChatGPT Project Knowledge運用:** このMarkdownを固定の全体像として登録する。実質的な制作・設計・調査時には必要な最新版を確認し、無条件な毎ターン同期はしない。GitHubにアクセス不能なら最新把握を装わず、未同期と明示する。
