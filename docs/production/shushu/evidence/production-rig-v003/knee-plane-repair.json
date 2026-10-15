@@ -1,0 +1,24 @@
+[
+  {
+    "side": "Left",
+    "old_angle": 1.5707963705062866,
+    "new_angle": -0.08726646259971638,
+    "mid_knee": [
+      0.1341228187084198,
+      -0.04961555451154709,
+      0.09976223856210709
+    ],
+    "criterion": "Knee points forward (-Y) rather than into medial groin; original bone lengths and foot pin unchanged."
+  },
+  {
+    "side": "Right",
+    "old_angle": -1.5707963705062866,
+    "new_angle": -0.1745329251994332,
+    "mid_knee": [
+      -0.1312381625175476,
+      -0.04968453198671341,
+      0.0998225212097168
+    ],
+    "criterion": "Knee points forward (-Y) rather than into medial groin; original bone lengths and foot pin unchanged."
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "thigh_ownership_trial": true,
+  "method": "Preserve whole approved foot via local weights; lower-body dual-quaternion evaluated volume transferred as inverse-linear-skin correctives, 9x3 Seat/Shift grid and seam-coherent local relaxation; no Basis, topology, UV or texture edit.",
+  "samples": [
+    {
+      "seat": 0.0,
+      "shift": -1.0,
+      "max_correction": 0.0010830080136656761,
+      "floor": 2.0895161156886388e-08
+    },
+    {
+      "seat": 0.125,
+      "shift": -1.0,
+      "max_correction": 0.002328039612621069,
+      "floor": -3.870946585493584e-08
+    },
+    {
+      "seat": 0.25,
+      "shift": -1.0,
+      "max_correction": 0.008023225702345371,
+      "floor": -8.713824684036808e-08
+    },
+    {
+      "seat": 0.375,
+      "shift": -1.0,
+      "max_correction": 0.016179462894797325,
+      "floor": -1.0948990336601128e-07
+    },
+    {
+      "seat": 0.5,
+      "shift": -1.0,
+      "max_correction": 0.0271677877753973,
+      "floor": -1.057646912272503e-07
+    },
+    {
+      "seat": 0.625,
+      "shift": -1.0,
+      "max_correction": 0.038101501762866974,
+      "floor": -1.0203949329934403e-07
+    },
+    {
+      "seat": 0.75,
+      "shift": -1.0,
+      "max_correction": 0.04790562763810158,
+      "floor": -8.713824684036808e-08
+    },
+    {
+      "seat": 0.875,
+      "shift": -1.0,
+      "max_correction": 0.05423625931143761,
+      "floor": -7.223700748681949e-08
+    },
+    {
+      "seat": 1.0,
+      "shift": -1.0,
+      "max_correction": 0.05553527548909187,
+      "floor": -0.011983796954154968
+    },
+    {
+      "seat": 0.125,
+      "shift": 0.0,
+      "max_correction": 0.0026062328834086657,
+      "floor": -4.988538648831309e-08
+    },
+    {
+      "seat": 0.25,
+      "shift": 0.0,
+      "max_correction": 0.008371744304895401,
+      "floor": -9.086345897912906e-08
+    },
+    {
+      "seat": 0.375,
+      "shift": 0.0,
+      "max_correction": 0.017442889511585236,
+      "floor": -1.1321519366447319e-07
+    },
+    {
+      "seat": 0.5,
+      "shift": 0.0,
+      "max_correction": 0.02802538126707077,
+      "floor": -1.0948990336601128e-07
+    },
+    {
+      "seat": 0.625,
+      "shift": 0.0,
+      "max_correction": 0.03876980394124985,
+      "floor": -9.458894822955699e-08
+    },
+    {
+      "seat": 0.75,
+      "shift": 0.0,
+      "max_correction": 0.04862865433096886,
+      "floor": -7.968770177058104e-08
+    },
+    {
+      "seat": 0.875,
+      "shift": 0.0,
+      "max_correction": 0.056909143924713135,
+      "floor": -7.223712117365721e-08
+    },
+    {
+      "seat": 1.0,
+      "shift": 0.0,
+      "max_correction": 0.060273196548223495,
+      "floor": -0.012144312262535095
+    },
+    {
+      "seat": 0.0,
+      "shift": 1.0,
+      "max_correction": 0.0005650417297147214,
+      "floor": 1.344449263029901e-08
+    },
+    {
+      "seat": 0.125,
+      "shift": 1.0,
+      "max_correction": 0.002416873350739479,
+      "floor": -4.2434642466560035e-08
+    },
+    {
+      "seat": 0.25,
+      "shift": 1.0,
+      "max_correction": 0.00834575854241848,
+      "floor": -9.458857164190704e-08
+    },
+    {
+      "seat": 0.375,
+      "shift": 1.0,
+      "max_correction": 0.017607424408197403,
+      "floor": -1.1321526471874677e-07
+    },
+    {
+      "seat": 0.5,
+      "shift": 1.0,
+      "max_correction": 0.028417419642210007,
+      "floor": -1.1694061186062754e-07
+    },
+    {
+      "seat": 0.625,
+      "shift": 1.0,
+      "max_correction": 0.038990944623947144,
+      "floor": -9.458882033186455e-08
+    },
+    {
+      "seat": 0.75,
+      "shift": 1.0,
+      "max_correction": 0.04830588400363922,
+      "floor": -8.71382113132313e-08
+    },
+    {
+      "seat": 0.875,
+      "shift": 1.0,
+      "max_correction": 0.055872250348329544,
+      "floor": -6.478646952245981e-08
+    },
+    {
+      "seat": 1.0,
+      "shift": 1.0,
+      "max_correction": 0.06067635118961334,
+      "floor": -0.011245667934417725
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "ShushuStatic_Eye_L": [
+    {
+      "path": "key_blocks[\"GazeLeft.L\"].value",
+      "expr": "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeX.L\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"GazeRight.L\"].value",
+      "expr": "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeX.L\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"GazeUp.L\"].value",
+      "expr": "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeY.L\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"GazeDown.L\"].value",
+      "expr": "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeY.L\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.ClosedRetraction.L\"].value",
+      "expr": "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.55)/.45)",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.ClosedSeal.L\"].value",
+      "expr": "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1)",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    }
+  ],
+  "ShushuStatic_Eye_R": [
+    {
+      "path": "key_blocks[\"GazeLeft.R\"].value",
+      "expr": "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeX.R\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"GazeRight.R\"].value",
+      "expr": "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeX.R\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"GazeUp.R\"].value",
+      "expr": "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeY.R\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"GazeDown.R\"].value",
+      "expr": "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]",
+        "v": "[\"GazeY.R\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.ClosedRetraction.R\"].value",
+      "expr": "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.55)/.45)",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.ClosedSeal.R\"].value",
+      "expr": "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1)",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    }
+  ],
+  "ShushuStatic_Head": [
+    {
+      "path": "key_blocks[\"JoyLids\"].value",
+      "expr": "j*.55",
+      "vars": {
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Blink.L\"].value",
+      "expr": "max(b*.78+max(0,b-.5)*.44,r*.40,j)",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Blink.R\"].value",
+      "expr": "max(b*.78+max(0,b-.5)*.44,r*.40,j)",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.HalfBlink.L\"].value",
+      "expr": ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.HalfBlink.R\"].value",
+      "expr": ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    }
+  ],
+  "ShushuStatic_LidWall_L": [
+    {
+      "path": "key_blocks[\"JoyLids\"].value",
+      "expr": "j*.55",
+      "vars": {
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Blink.L\"].value",
+      "expr": "max(b*.78+max(0,b-.5)*.44,r*.40,j)",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.HalfBlink.L\"].value",
+      "expr": ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)",
+      "vars": {
+        "b": "[\"Blink.L\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    }
+  ],
+  "ShushuStatic_LidWall_R": [
+    {
+      "path": "key_blocks[\"JoyLids\"].value",
+      "expr": "j*.55",
+      "vars": {
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Blink.R\"].value",
+      "expr": "max(b*.78+max(0,b-.5)*.44,r*.40,j)",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    },
+    {
+      "path": "key_blocks[\"Corrective.HalfBlink.R\"].value",
+      "expr": ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)",
+      "vars": {
+        "b": "[\"Blink.R\"]",
+        "r": "[\"Rest\"]",
+        "j": "[\"Joy\"]"
+      }
+    }
+  ],
+  "ShushuStatic_MouthInterior": [],
+  "ShushuStatic_Nose": [],
+  "ShushuStatic_OralBowl": [
+    {
+      "path": "key_blocks[\"Corrective.ClosedOralRetraction\"].value",
+      "expr": "c",
+      "vars": {
+        "c": "[\"MouthClose\"]"
+      }
+    }
+  ],
+  "ShushuStatic_Paw_L": [],
+  "ShushuStatic_Paw_R": [],
+  "ShushuStatic_Tongue": [
+    {
+      "path": "key_blocks[\"Corrective.ClosedOralRetraction\"].value",
+      "expr": "c",
+      "vars": {
+        "c": "[\"MouthClose\"]"
+      }
+    }
+  ],
+  "ShushuStatic_Torso": []
+}

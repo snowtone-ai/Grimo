@@ -1,0 +1,73 @@
+14:05:05 | INFO: Data are loaded, start creating Blender stuff
+14:05:05 | INFO: Blender create Mesh node meshes[0]
+14:05:05 | INFO: Blender create Mesh node meshes[1]
+14:05:05 | INFO: Blender create Mesh node meshes[2]
+14:05:05 | INFO: Blender create Mesh node meshes[3]
+14:05:05 | INFO: Blender create Mesh node meshes[4]
+14:05:05 | INFO: Blender create Mesh node meshes[5]
+14:05:05 | INFO: Blender create Mesh node meshes[6]
+14:05:05 | INFO: Blender create Mesh node meshes[7]
+14:05:05 | INFO: Blender create Mesh node meshes[8]
+14:05:05 | INFO: Blender create Mesh node meshes[9]
+14:05:05 | INFO: Blender create Mesh node meshes[10]
+14:05:05 | INFO: Blender create Mesh node meshes[11]
+14:05:07 | INFO: glTF import finished in 2.55s
+01:16.062  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v006\neutral-front.png'
+01:18.516  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v006\neutral-left.png'
+01:21.891  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v006\neutral-3q-L.png'
+01:25.375  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v006\neutral-3q-R.png'
+TRACE v006
+14:05:24 | INFO: Data are loaded, start creating Blender stuff
+14:05:24 | INFO: Blender create Mesh node meshes[0]
+14:05:24 | INFO: Blender create Mesh node meshes[1]
+14:05:24 | INFO: Blender create Mesh node meshes[2]
+14:05:24 | INFO: Blender create Mesh node meshes[3]
+14:05:24 | INFO: Blender create Mesh node meshes[4]
+14:05:24 | INFO: Blender create Mesh node meshes[5]
+14:05:24 | INFO: Blender create Mesh node meshes[6]
+14:05:24 | INFO: Blender create Mesh node meshes[7]
+14:05:24 | INFO: Blender create Mesh node meshes[8]
+14:05:25 | INFO: Blender create Mesh node meshes[9]
+14:05:25 | INFO: Blender create Mesh node meshes[10]
+14:05:25 | INFO: Blender create Mesh node meshes[11]
+14:05:25 | INFO: glTF import finished in 0.45s
+01:29.828  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\lowpoly\neutral-front.png'
+01:32.484  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\lowpoly\neutral-left.png'
+01:35.656  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\lowpoly\neutral-3q-L.png'
+01:38.578  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\lowpoly\neutral-3q-R.png'
+TRACE lowpoly
+14:05:37 | INFO: Data are loaded, start creating Blender stuff
+14:05:37 | INFO: Blender create Mesh node Mesh_0.001
+14:05:37 | INFO: Blender create Mesh node Mesh_1.001
+14:05:37 | INFO: Blender create Mesh node Mesh_2.001
+14:05:37 | INFO: Blender create Mesh node Mesh_3.001
+14:05:37 | INFO: Blender create Mesh node Mesh_4.001
+14:05:38 | INFO: Blender create Mesh node Mesh_5.001
+14:05:38 | INFO: Blender create Mesh node Mesh_6.001
+14:05:38 | INFO: Blender create Mesh node Mesh_7.001
+14:05:38 | INFO: Blender create Mesh node Mesh_8.001
+14:05:38 | INFO: Blender create Mesh node Mesh_9.001
+14:05:38 | INFO: Blender create Mesh node Mesh_10.001
+14:05:38 | INFO: Blender create Mesh node Mesh_11.001
+14:05:38 | INFO: glTF import finished in 0.93s
+01:44.125  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\autorig\neutral-front.png'
+01:46.562  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\autorig\neutral-left.png'
+01:49.875  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\autorig\neutral-3q-L.png'
+01:52.828  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\autorig\neutral-3q-R.png'
+TRACE autorig
+01:52.828  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v001.blend"
+01:57.016  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v001\neutral-front.png'
+01:59.641  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v001\neutral-left.png'
+02:02.937  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v001\neutral-3q-L.png'
+02:06.422  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v001\neutral-3q-R.png'
+TRACE v001
+02:06.422  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v002.blend"
+02:10.562  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v002\neutral-front.png'
+02:13.109  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v002\neutral-left.png'
+02:16.391  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v002\neutral-3q-L.png'
+02:19.703  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v003\renders\v002\neutral-3q-R.png'
+TRACE v002
+02:19.703  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v002.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

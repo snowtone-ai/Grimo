@@ -1,0 +1,15 @@
+# v003 authority — 2026-10-15
+
+Execution branch: `codex/grimo-motion-zero-based-design-20261011`. Start HEAD: `93a8d2480c44e90a9c6a6d693c0fd34f9f4487cb`. [Start state](start-state.json) and [protected inputs](protected-inputs.json) bind the files actually read, including the Human's pre-existing modified/untracked images. This task creates a separately named Production Rig v003. It does not replace geometry-v003, its old proof, v001 or v002.
+
+The current Human explicitly identifies seated thigh→foot continuity, foot thickness, groin/lower-belly folds and rump support as unresolved since v001, and the eyes in `seat-lowhead` / `seat-shift-L` as distorted in v002. These are **Human findings**, superseding earlier Codex appearance statements. Numeric contact/Morph results do not contradict them. Other facial expressions are outside the requested edits.
+
+Outcome authority, in order: latest Human instruction; applicable local AGENTS / [Goal map](../../../../grimo/knowledge/Goal√map.md); approved identity and visuals; actual branch assets/evidence. [Handoff](../../../Handoff.md) is a pointer, not an approval. Local [v002 authority](../production-rig-v002/AUTHORITY.md) preserves the distinction between old Human observations and Codex hypotheses. Its historical references are not newly queried or updated in this task. No `/wiki` activation or external knowledge-store access is performed.
+
+Visual references actually opened: [Canonical](../../../../../assets/grimo/source/shushu/shushu-Identity-canonical.png); approved Body-only front/left/right/back in `assets/grimo/source/shushu/tripo-generation-pose/`; Human-static-PASS v006 GLB; all five lineage stages under the same new review cameras; v001/v002 comparison images; old geometry-v003 seated colour side proof. The old proof is a pose/profile reference, not a geometry/absolute-coordinate donor for the new surface. Static v006 has no authoritative seated pose.
+
+The authored seated support is an inference: keep the existing short feet planted and volumetric, direct the existing short knees forward instead of medially into the groin, and settle the existing rump smoothly. No species-specific angle or mass is asserted. Human static v006 PASS remains valid and is not extended to this rig, seat, expression change or runtime.
+
+Permitted local changes: lower-body foot ownership, knee IK pole angle, sampled support correctives, and context-local eye/lid corrections for the two named compositions. Basis, original UV/Texture, rest skeleton, original face keys, hands, ears and other controls remain protected. No Tripo/payment, app/PWA, other-character work, wholesale replacement or body/leg/foot rest-shape redesign.
+
+Bundled Blender manual `manual/modeling/modifiers/deform/armature.rst` was consulted for quaternion Preserve Volume: it addresses rotational shrinkage but can have discontinuity near 180°. v003 uses it only to author bounded corrective targets; the delivered modifier remains linear skin and saved GLB must reproduce the result. It is not a physical muscle/COM solver or an appearance gate.

@@ -1,0 +1,37 @@
+{
+  "appearance": "HOLD: seated ankle ridge and belly/thigh continuity remain",
+  "human_approval": "PENDING",
+  "eyes": "Codex improvement candidate in two requested compositions; Human PENDING",
+  "runtime": "NOT VERIFIED; existing v002 skin/shading HOLD unresolved",
+  "final_evidence_runs": [
+    "build-final.log",
+    "focused-final.log",
+    "audit-final.log",
+    "proof-final.log",
+    "textures-final.log",
+    "roundtrip-final.log",
+    "render-before-final.log",
+    "render-final.log",
+    "faces-final.log",
+    "render-saved-final.log",
+    "trace.log",
+    "trace-pose.log",
+    "schema-final.log"
+  ],
+  "manual_visual_evidence": "VISUAL-OBSERVATIONS.md",
+  "asset_manifest": "delivery-manifest.json",
+  "technical_results": {
+    "focused_support_samples": 405,
+    "inherited_support_samples": 603,
+    "additional_support_samples": 243,
+    "witnesses": 81,
+    "frames": 961,
+    "roundtrip_world_error_max": 9.96402036435029e-07,
+    "anchor_matrix_error_max": 1.6093254089355469e-06,
+    "schema_errors": [
+      0,
+      0
+    ]
+  },
+  "integrity": "AST, JSON parse, PNG verify, delivery hash binding passed. No PWA build required or performed."
+}

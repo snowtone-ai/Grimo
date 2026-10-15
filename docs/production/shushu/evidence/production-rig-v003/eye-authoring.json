@@ -1,0 +1,62 @@
+[
+  {
+    "mesh": "ShushuStatic_Eye_L",
+    "context": "LowHead",
+    "correction": 0.0,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_Eye_R",
+    "context": "LowHead",
+    "correction": 0.0,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_Head",
+    "context": "LowHead",
+    "correction": 0.029277082532644272,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_LidWall_L",
+    "context": "LowHead",
+    "correction": 0.029232347384095192,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_LidWall_R",
+    "context": "LowHead",
+    "correction": 0.029276162385940552,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_Eye_L",
+    "context": "ShiftL",
+    "correction": 0.0020000056829303503,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_Eye_R",
+    "context": "ShiftL",
+    "correction": 0.0020000056829303503,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_Head",
+    "context": "ShiftL",
+    "correction": 0.04055200144648552,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_LidWall_L",
+    "context": "ShiftL",
+    "correction": 0.040482643991708755,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  },
+  {
+    "mesh": "ShushuStatic_LidWall_R",
+    "context": "ShiftL",
+    "correction": 0.040550701320171356,
+    "method": "Remove nonrigid pupil/globe flattening in this composition; retain surrounding lids and rigid head pose."
+  }
+]

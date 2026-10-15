@@ -1,0 +1,117 @@
+[
+  {
+    "stage": "v006",
+    "foot_bounds": [
+      [
+        0.050006888806819916,
+        -0.12450408935546875,
+        0.0
+      ],
+      [
+        0.2447815239429474,
+        0.1224670335650444,
+        0.094970703125
+      ]
+    ],
+    "foot_extent": [
+      0.19477462768554688,
+      0.24697113037109375,
+      0.094970703125
+    ],
+    "lower_surface_to_static_max": 0.0,
+    "lower_surface_to_previous_max": 0.0,
+    "method": "One-sided nearest preserved surface positions below z=.25. Decimation changes sample density; not a bidirectional surface Hausdorff claim."
+  },
+  {
+    "stage": "lowpoly",
+    "foot_bounds": [
+      [
+        0.050056468695402145,
+        -0.12424468994140625,
+        3.0517578125e-05
+      ],
+      [
+        0.2447052150964737,
+        0.1218261644244194,
+        0.09466552734375
+      ]
+    ],
+    "foot_extent": [
+      0.19464874267578125,
+      0.24607086181640625,
+      0.094635009765625
+    ],
+    "lower_surface_to_static_max": 0.0,
+    "lower_surface_to_previous_max": 0.0,
+    "method": "One-sided nearest preserved surface positions below z=.25. Decimation changes sample density; not a bidirectional surface Hausdorff claim."
+  },
+  {
+    "stage": "autorig",
+    "foot_bounds": [
+      [
+        0.05005650594830513,
+        -0.12424448132514954,
+        3.0457162210950628e-05
+      ],
+      [
+        0.2447049766778946,
+        0.12182595580816269,
+        0.0946655198931694
+      ]
+    ],
+    "foot_extent": [
+      0.19464847445487976,
+      0.24607044458389282,
+      0.09463506191968918
+    ],
+    "lower_surface_to_static_max": 1.639297053954893e-06,
+    "lower_surface_to_previous_max": 1.639297053954893e-06,
+    "method": "One-sided nearest preserved surface positions below z=.25. Decimation changes sample density; not a bidirectional surface Hausdorff claim."
+  },
+  {
+    "stage": "v001",
+    "foot_bounds": [
+      [
+        0.05005638673901558,
+        -0.12424464523792267,
+        3.0463470466202125e-05
+      ],
+      [
+        0.24470511078834534,
+        0.12182614207267761,
+        0.09466549009084702
+      ]
+    ],
+    "foot_extent": [
+      0.19464872777462006,
+      0.24607078731060028,
+      0.0946350246667862
+    ],
+    "lower_surface_to_static_max": 2.6445783090078732e-06,
+    "lower_surface_to_previous_max": 1.0303374477066117e-06,
+    "method": "One-sided nearest preserved surface positions below z=.25. Decimation changes sample density; not a bidirectional surface Hausdorff claim."
+  },
+  {
+    "stage": "v002",
+    "foot_bounds": [
+      [
+        0.05005638673901558,
+        -0.12424464523792267,
+        3.0463470466202125e-05
+      ],
+      [
+        0.24470511078834534,
+        0.12182614207267761,
+        0.09466549009084702
+      ]
+    ],
+    "foot_extent": [
+      0.19464872777462006,
+      0.24607078731060028,
+      0.0946350246667862
+    ],
+    "lower_surface_to_static_max": 2.6445783090078732e-06,
+    "lower_surface_to_previous_max": 0.0,
+    "method": "One-sided nearest preserved surface positions below z=.25. Decimation changes sample density; not a bidirectional surface Hausdorff claim."
+  }
+]

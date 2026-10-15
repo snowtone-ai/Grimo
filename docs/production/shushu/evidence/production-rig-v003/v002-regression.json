@@ -1,0 +1,3809 @@
+[
+  {
+    "state": "neutral",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "head-left",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "head-right",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "head-tilt-blink",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "neck",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "ear-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "ear-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "half",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "closed",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "wink-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "wink-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "gaze-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "gaze-up",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "gaze-down",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "smile",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "joy",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "surprise",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "hesitate",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "discomfort",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "mouth-close",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "mouth-close-override",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "mouth-open",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "mouth-open-max",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "tongue",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "pressure-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "pressure-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "shift-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "shift-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "foot-lift-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "foot-lift-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-entry",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-mid",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-rest",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-joy",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "recovery-mid",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "standing-return",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "offer-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "offer-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "wrist-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "wrist-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "self-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "self-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "hold-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "hold-both",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "hold-L-touch-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "hold-resume",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "release",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-quarter",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-three-quarter",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-lowhead",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.029277073219418526,
+      "ShushuStatic_LidWall_L": 0.029232459142804146,
+      "ShushuStatic_LidWall_R": 0.029276162385940552,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 1.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 1.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 1.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 1.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 1.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-shift-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0020000203512609005,
+      "ShushuStatic_Eye_R": 0.0020000203512609005,
+      "ShushuStatic_Head": 0.04055201634764671,
+      "ShushuStatic_LidWall_L": 0.040482643991708755,
+      "ShushuStatic_LidWall_R": 0.04055071249604225,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 1.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 1.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 1.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 1.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 1.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "seat-shift-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "hold-conflict-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "hold-conflict-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "extreme-face",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "stroke-belly-start",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "stroke-belly-end",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "stroke-reverse",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "stroke-cheek-L",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "stroke-cheek-R",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "stroke-forehead",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "interrupt-return",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "capability-neutral-return",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "proxy-both-acquire",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "proxy-both-seat",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "proxy-both-interrupt",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "proxy-both-resume",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "proxy-both-release",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-small",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-multi-a",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-multi-close",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-multi-b",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-lick",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-drink",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-large",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-cancel",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-resume",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "food-return",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  },
+  {
+    "state": "neutral-return",
+    "non_torso": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "eye_correction_values": {
+      "ShushuStatic_Eye_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Eye_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_Head": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_L": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_LidWall_R": {
+        "Corrective.EyeIntegrity.LowHead": 0.0,
+        "Corrective.EyeIntegrity.ShiftL": 0.0
+      },
+      "ShushuStatic_MouthInterior": {},
+      "ShushuStatic_Nose": {},
+      "ShushuStatic_OralBowl": {},
+      "ShushuStatic_Paw_L": {},
+      "ShushuStatic_Paw_R": {},
+      "ShushuStatic_Tongue": {},
+      "ShushuStatic_Torso": {}
+    }
+  }
+]

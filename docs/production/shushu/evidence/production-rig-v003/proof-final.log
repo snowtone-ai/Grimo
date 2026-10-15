@@ -1,0 +1,89 @@
+00:14.062  blend            | Read blend: "C:\Users\chidj\project\プロダクト\Grimo\assets\grimo\production\shushu\tripo\geometry-v003\rigging\shushu-v006-production-rig-v003.blend"
+Info: No new files have been packed
+Info: Saved as "shushu-v006-production-rig-v003-proof.blend"
+SAMPLING 120
+SAMPLING 240
+SAMPLING 360
+SAMPLING 480
+SAMPLING 600
+SAMPLING 720
+SAMPLING 840
+SAMPLING 960
+BAKING 120
+BAKING 240
+BAKING 360
+BAKING 480
+BAKING 600
+BAKING 720
+BAKING 840
+BAKING 960
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+14:40:19 | INFO: Starting glTF 2.0 export
+14:40:19 | INFO: Extracting primitive: ShushuStatic_Ear_L
+14:40:21 | INFO: Primitives created: 1
+14:40:21 | INFO: Extracting primitive: ShushuStatic_Ear_R
+14:40:21 | INFO: Primitives created: 1
+14:40:21 | INFO: Extracting primitive: ShushuStatic_Eye_L
+14:40:22 | INFO: Primitives created: 1
+14:40:22 | INFO: Extracting primitive: ShushuStatic_Eye_R
+14:40:22 | INFO: Primitives created: 1
+14:40:22 | INFO: Extracting primitive: ShushuStatic_Head
+14:40:46 | INFO: Primitives created: 1
+14:40:46 | INFO: Extracting primitive: ShushuStatic_LidWall_L
+14:40:47 | INFO: Primitives created: 1
+14:40:47 | INFO: Extracting primitive: ShushuStatic_LidWall_R
+14:40:47 | INFO: Primitives created: 1
+14:40:47 | INFO: Extracting primitive: ShushuStatic_MouthInterior
+14:40:47 | INFO: Primitives created: 1
+14:40:47 | INFO: Extracting primitive: ShushuStatic_Nose
+14:40:48 | INFO: Primitives created: 1
+14:40:48 | INFO: Extracting primitive: ShushuStatic_OralBowl
+14:40:48 | INFO: Primitives created: 1
+14:40:48 | INFO: Extracting primitive: ShushuStatic_Paw_L
+14:40:50 | INFO: Primitives created: 1
+14:40:50 | INFO: Extracting primitive: ShushuStatic_Paw_R
+14:40:53 | INFO: Primitives created: 1
+14:40:54 | INFO: Extracting primitive: ShushuStatic_Tongue
+14:40:54 | INFO: Primitives created: 1
+14:40:54 | INFO: Extracting primitive: ShushuStatic_Torso
+14:40:58 | INFO: Primitives created: 1
+14:41:51 | INFO: Finished glTF 2.0 export in 91.59191656112671 s
+
+14:41:51 | INFO: Starting glTF 2.0 export
+14:41:51 | INFO: Extracting primitive: Sphere
+14:41:51 | INFO: Primitives created: 1
+14:41:51 | INFO: Extracting primitive: ShushuStatic_Ear_L
+14:41:51 | INFO: Primitives created: 1
+14:41:51 | INFO: Extracting primitive: ShushuStatic_Ear_R
+14:41:51 | INFO: Primitives created: 1
+14:41:51 | INFO: Extracting primitive: ShushuStatic_Eye_L
+14:41:51 | INFO: Primitives created: 1
+14:41:51 | INFO: Extracting primitive: ShushuStatic_Eye_R
+14:41:51 | INFO: Primitives created: 1
+14:41:51 | INFO: Extracting primitive: ShushuStatic_Head
+14:42:14 | INFO: Primitives created: 1
+14:42:15 | INFO: Extracting primitive: ShushuStatic_LidWall_L
+14:42:15 | INFO: Primitives created: 1
+14:42:15 | INFO: Extracting primitive: ShushuStatic_LidWall_R
+14:42:15 | INFO: Primitives created: 1
+14:42:15 | INFO: Extracting primitive: ShushuStatic_MouthInterior
+14:42:15 | INFO: Primitives created: 1
+14:42:15 | INFO: Extracting primitive: ShushuStatic_Nose
+14:42:15 | INFO: Primitives created: 1
+14:42:15 | INFO: Extracting primitive: ShushuStatic_OralBowl
+14:42:15 | INFO: Primitives created: 1
+14:42:15 | INFO: Extracting primitive: ShushuStatic_Paw_L
+14:42:16 | INFO: Primitives created: 1
+14:42:16 | INFO: Extracting primitive: ShushuStatic_Paw_R
+14:42:17 | INFO: Primitives created: 1
+14:42:17 | INFO: Extracting primitive: ShushuStatic_Tongue
+14:42:17 | INFO: Primitives created: 1
+14:42:17 | INFO: Extracting primitive: ShushuStatic_Torso
+14:42:19 | INFO: Primitives created: 1
+14:43:03 | INFO: Finished glTF 2.0 export in 72.54026651382446 s
+
+PROOF_SAVED {'frames': 961, 'bake_max': 7.109743478395103e-07, 'floor_min': -1.1321519366447319e-07}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

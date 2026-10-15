@@ -1,0 +1,217 @@
+{
+  "source_sha256": "90b5ba95da879fb186b8774fac42722de00be041267bc8cf78895c00841bd90f",
+  "v003_sha256": "a1b5c7c7138b4836572c89191fb9c8adb0d426137135b22822049a7b158485be",
+  "rows": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [
+        "Corrective.EyeIntegrity.LowHead",
+        "Corrective.EyeIntegrity.ShiftL"
+      ],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [
+        "Corrective.EyeIntegrity.LowHead",
+        "Corrective.EyeIntegrity.ShiftL"
+      ],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [
+        "Corrective.EyeIntegrity.LowHead",
+        "Corrective.EyeIntegrity.ShiftL"
+      ],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [
+        "Corrective.EyeIntegrity.LowHead",
+        "Corrective.EyeIntegrity.ShiftL"
+      ],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [
+        "Corrective.EyeIntegrity.LowHead",
+        "Corrective.EyeIntegrity.ShiftL"
+      ],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 0.0,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [],
+      "added_keys": [],
+      "weight_changed_vertices": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "basis_delta": 0.0,
+      "neutral_world_delta": 2.5809567816281742e-08,
+      "uv_exact": true,
+      "faces_exact": true,
+      "retained_key_max_delta": 0.0,
+      "removed_keys": [
+        "Corrective.SeatVolume025",
+        "Corrective.SeatVolume050",
+        "Corrective.SeatVolume075",
+        "Corrective.SeatVolume100",
+        "Corrective.SeatFlow0125",
+        "Corrective.SeatFlow0250",
+        "Corrective.SeatFlow0375",
+        "Corrective.SeatFlow0500",
+        "Corrective.SeatFlow0625",
+        "Corrective.SeatFlow0750",
+        "Corrective.SeatFlow0875",
+        "Corrective.SeatFlow1000"
+      ],
+      "added_keys": [
+        "Corrective.SupportVolume.S0.000.W-1.0",
+        "Corrective.SupportVolume.S0.125.W-1.0",
+        "Corrective.SupportVolume.S0.250.W-1.0",
+        "Corrective.SupportVolume.S0.375.W-1.0",
+        "Corrective.SupportVolume.S0.500.W-1.0",
+        "Corrective.SupportVolume.S0.625.W-1.0",
+        "Corrective.SupportVolume.S0.750.W-1.0",
+        "Corrective.SupportVolume.S0.875.W-1.0",
+        "Corrective.SupportVolume.S1.000.W-1.0",
+        "Corrective.SupportVolume.S0.125.W0.0",
+        "Corrective.SupportVolume.S0.250.W0.0",
+        "Corrective.SupportVolume.S0.375.W0.0",
+        "Corrective.SupportVolume.S0.500.W0.0",
+        "Corrective.SupportVolume.S0.625.W0.0",
+        "Corrective.SupportVolume.S0.750.W0.0",
+        "Corrective.SupportVolume.S0.875.W0.0",
+        "Corrective.SupportVolume.S1.000.W0.0",
+        "Corrective.SupportVolume.S0.000.W1.0",
+        "Corrective.SupportVolume.S0.125.W1.0",
+        "Corrective.SupportVolume.S0.250.W1.0",
+        "Corrective.SupportVolume.S0.375.W1.0",
+        "Corrective.SupportVolume.S0.500.W1.0",
+        "Corrective.SupportVolume.S0.625.W1.0",
+        "Corrective.SupportVolume.S0.750.W1.0",
+        "Corrective.SupportVolume.S0.875.W1.0",
+        "Corrective.SupportVolume.S1.000.W1.0"
+      ],
+      "weight_changed_vertices": 976
+    }
+  ],
+  "bone_rest_exact": true,
+  "rig_controls_retained": true
+}
