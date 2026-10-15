@@ -1,0 +1,120 @@
+{
+  "reference_commit": "a35f645858f806edb162bd521f1b85f7871481f4",
+  "rows": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "retained_source_coordinates_exact": true,
+      "retained_source_keys_exact": true,
+      "bulb_unchanged": true
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "uv_exact": true,
+      "topology_exact": true,
+      "weights_exact": true,
+      "all_shape_coordinates_exact": true,
+      "world_matrix_exact": true
+    }
+  ],
+  "skeleton_rest_parent_exact": true,
+  "paw_shape_geometry_weights_unchanged": true,
+  "W_Head_and_three_oral_mesh_shapes_exact": true,
+  "mouth_v001_contract_retained": true,
+  "scope": "Geometry preservation is separate from posed appearance/Human approval. Nose unreferenced stem coordinates are retained in editable keys; its surface below cut is removed and capped. Runtime only changes paw NORMAL stream/material normalVS."
+}

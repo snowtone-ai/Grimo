@@ -1,0 +1,243 @@
+{
+  "mapping": "Nearest posed vertex per sample; coincident vertices can be ambiguous. Geometric normals and authored split normals differ at some seam/degenerate vertices; this is not exact-normal proof.",
+  "rows": [
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 2.2713082647466295e-07,
+      "exported_normal_deg": {
+        "median": 0.0,
+        "p95": 0.01336853184118232,
+        "max": 0.023905454968249504,
+        "over20deg": 0
+      },
+      "corrected_normal_deg": {
+        "median": 0.22944713907839126,
+        "p95": 0.8765344699743153,
+        "max": 7.6292926753036845,
+        "over20deg": 0
+      }
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.57035615760298e-07,
+      "exported_normal_deg": {
+        "median": 0.0,
+        "p95": 0.013490384710708027,
+        "max": 0.023195849111538682,
+        "over20deg": 0
+      },
+      "corrected_normal_deg": {
+        "median": 0.22230417389835094,
+        "p95": 0.7498207847287818,
+        "max": 88.32400678579974,
+        "over20deg": 3
+      }
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 2.6549206761689755e-07,
+      "exported_normal_deg": {
+        "median": 2.9355657587513093,
+        "p95": 95.26000397336709,
+        "max": 179.046890077479,
+        "over20deg": 477
+      },
+      "corrected_normal_deg": {
+        "median": 0.2408012693573726,
+        "p95": 1.4011813607751369,
+        "max": 19.247835530011724,
+        "over20deg": 0
+      }
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.57035615760298e-07,
+      "exported_normal_deg": {
+        "median": 0.0,
+        "p95": 0.013490384710708027,
+        "max": 0.023195849111538682,
+        "over20deg": 0
+      },
+      "corrected_normal_deg": {
+        "median": 0.22230417389835094,
+        "p95": 0.7498207847287818,
+        "max": 88.32400678579974,
+        "over20deg": 3
+      }
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 7.534206848869291e-07,
+      "exported_normal_deg": {
+        "median": 4.427206779975358,
+        "p95": 95.64731278950426,
+        "max": 179.04670784838927,
+        "over20deg": 471
+      },
+      "corrected_normal_deg": {
+        "median": 0.25285639817043104,
+        "p95": 1.5081898346942255,
+        "max": 16.99399628611357,
+        "over20deg": 0
+      }
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5438104628438532e-07,
+      "exported_normal_deg": {
+        "median": 0.0,
+        "p95": 0.01349051286654908,
+        "max": 0.02319608608622088,
+        "over20deg": 0
+      },
+      "corrected_normal_deg": {
+        "median": 0.22230380452567364,
+        "p95": 0.749826147857586,
+        "max": 88.32401835395308,
+        "over20deg": 3
+      }
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.4350886312073081e-06,
+      "exported_normal_deg": {
+        "median": 1.7792006492431167,
+        "p95": 99.96984309362311,
+        "max": 176.15392897126836,
+        "over20deg": 489
+      },
+      "corrected_normal_deg": {
+        "median": 0.2460166624518187,
+        "p95": 2.0030657559421576,
+        "max": 54.65886530206471,
+        "over20deg": 10
+      }
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5438104628438532e-07,
+      "exported_normal_deg": {
+        "median": 0.0,
+        "p95": 0.01349051286654908,
+        "max": 0.02319608608622088,
+        "over20deg": 0
+      },
+      "corrected_normal_deg": {
+        "median": 0.22230380452567364,
+        "p95": 0.749826147857586,
+        "max": 88.32401835395308,
+        "over20deg": 3
+      }
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 3.4857419777767517e-07,
+      "exported_normal_deg": {
+        "median": 0.0,
+        "p95": 0.013368927719648491,
+        "max": 0.023903657523818705,
+        "over20deg": 0
+      },
+      "corrected_normal_deg": {
+        "median": 0.229507584596462,
+        "p95": 0.8765260080367359,
+        "max": 7.629378056956481,
+        "over20deg": 0
+      }
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.3316859814206215e-06,
+      "exported_normal_deg": {
+        "median": 3.1575461886550222,
+        "p95": 95.75375539018071,
+        "max": 178.8748429820612,
+        "over20deg": 504
+      },
+      "corrected_normal_deg": {
+        "median": 0.24645589947863222,
+        "p95": 2.3282688819025337,
+        "max": 91.74114223699952,
+        "over20deg": 5
+      }
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 3.242885931962929e-07,
+      "exported_normal_deg": {
+        "median": 1.7725520420239513,
+        "p95": 104.49208985599157,
+        "max": 172.22911122361108,
+        "over20deg": 495
+      },
+      "corrected_normal_deg": {
+        "median": 0.24779094096638618,
+        "p95": 2.591541697155997,
+        "max": 76.93371166409239,
+        "over20deg": 7
+      }
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 8.687340512255389e-07,
+      "exported_normal_deg": {
+        "median": 1.1098725102942688,
+        "p95": 99.91875687445157,
+        "max": 168.00744448487632,
+        "over20deg": 506
+      },
+      "corrected_normal_deg": {
+        "median": 0.2474243687120306,
+        "p95": 3.273420775616263,
+        "max": 91.74067147920775,
+        "over20deg": 11
+      }
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 2.0964635641016987e-07,
+      "exported_normal_deg": {
+        "median": 2.6893569303722646,
+        "p95": 90.4339780537248,
+        "max": 177.70234060684209,
+        "over20deg": 441
+      },
+      "corrected_normal_deg": {
+        "median": 0.2566973364987727,
+        "p95": 3.030200006795467,
+        "max": 46.54506304020786,
+        "over20deg": 6
+      }
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 3.695383099540414e-07,
+      "exported_normal_deg": {
+        "median": 6.678762991774683,
+        "p95": 99.95570012610712,
+        "max": 176.6331100466011,
+        "over20deg": 521
+      },
+      "corrected_normal_deg": {
+        "median": 0.26341060540064065,
+        "p95": 3.9969800994911098,
+        "max": 89.98250050630583,
+        "over20deg": 12
+      }
+    }
+  ]
+}

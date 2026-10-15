@@ -1,0 +1,48 @@
+addon_utils.disable: bl_ext.blender_lab.mcp not enabled
+23:43:51 | INFO: Data are loaded, start creating Blender stuff
+23:43:51 | INFO: Blender create Mesh node ShushuStatic_Ear_L
+23:43:51 | INFO: Blender create Mesh node ShushuStatic_Ear_R
+23:43:52 | INFO: Blender create Mesh node ShushuStatic_Eye_L
+23:43:52 | INFO: Blender create Mesh node ShushuStatic_Eye_R
+23:43:52 | INFO: Blender create Mesh node ShushuStatic_Head_LocalMuzzle
+23:43:53 | INFO: Blender create Mesh node ShushuStatic_LidWall_L
+23:43:53 | INFO: Blender create Mesh node ShushuStatic_LidWall_R
+23:43:53 | INFO: Blender create Mesh node ShushuStatic_MouthInterior_MouthB
+23:43:53 | INFO: Blender create Mesh node ShushuStatic_Nose_StemRemoved
+23:43:54 | INFO: Blender create Mesh node ShushuStatic_OralBowl_MouthB
+23:43:54 | INFO: Blender create Mesh node ShushuStatic_Paw_L
+23:43:54 | INFO: Blender create Mesh node ShushuStatic_Paw_R
+23:43:54 | INFO: Blender create Mesh node ShushuStatic_Tongue_MouthB
+23:43:54 | INFO: Blender create Mesh node ShushuStatic_Torso
+23:43:58 | INFO: glTF import finished in 7.03s
+00:57.375  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\closed-front.png'
+01:10.328  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\closed-side.png'
+01:24.140  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\closed-3q.png'
+GATE_RENDER True closed
+01:37.031  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\small-front.png'
+01:46.750  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\small-side.png'
+01:58.453  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\small-3q.png'
+GATE_RENDER True small
+02:10.562  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\medium-front.png'
+02:19.562  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\medium-side.png'
+02:30.406  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\medium-3q.png'
+GATE_RENDER True medium
+02:42.375  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\large-front.png'
+02:51.359  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\large-side.png'
+03:02.406  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\large-3q.png'
+GATE_RENDER True large
+03:07.922  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\seat-front.png'
+03:11.718  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\seat-side.png'
+03:20.312  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\seat-3q.png'
+GATE_RENDER True seat
+03:25.406  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\hold-front.png'
+03:29.109  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\hold-side.png'
+03:36.812  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\hold-3q.png'
+GATE_RENDER True hold
+03:41.922  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\return-front.png'
+03:45.484  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\return-side.png'
+03:53.984  render           | Saved: 'C:\Users\chidj\project\プロダクト\Grimo\docs\production\shushu\evidence\production-rig-v004-motion-ready\final-v002\saved\return-3q.png'
+GATE_RENDER True return
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

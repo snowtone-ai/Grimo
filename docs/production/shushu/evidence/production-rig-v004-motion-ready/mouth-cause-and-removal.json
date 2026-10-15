@@ -1,0 +1,13 @@
+{
+  "input": "a35f645858f806edb162bd521f1b85f7871481f4",
+  "v001_to_v002_changed_texels": 416,
+  "max_abs_x_changed": 0.0012974459677934647,
+  "min_max_z_changed": [
+    0.616849422454834,
+    0.631866455078125
+  ],
+  "W_lip_coverage_identical": true,
+  "geometry_unchanged_by_texture_stage": true,
+  "cause": "Two independent contributors: Nose mesh stem down to z=.6062011 (visible in Head clay); v001 Head explicit phil=max(0,(.0013-abs(x))/.0005) coverage. Nose stem is surgically clipped first; this final texture stage removes only independent philtrum ink and retains W lip coverage exactly.",
+  "human": "PENDING"
+}

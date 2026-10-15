@@ -1,0 +1,9 @@
+{
+  "removed_triangles": 31067,
+  "patch_vertices": 3336,
+  "patch_triangles": 6054,
+  "outer_constraints": 362,
+  "exact_W_constraints": 256,
+  "outer_tangent_band_vertices": 642,
+  "method": "Local annulus with exact outer/W boundaries. Open XZ is constrained triangulation; closed XZ harmonic. Analytic lip depth plus biharmonic outer correction; three outer adjacency layers match source depth fit and two inner layers retain lip tangent. Crown correction is separate. No skeleton or other mesh changes."
+}

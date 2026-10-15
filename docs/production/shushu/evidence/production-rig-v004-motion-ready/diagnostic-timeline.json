@@ -1,0 +1,20 @@
+{
+  "fps": 24,
+  "frames": 993,
+  "original_v004_frames": [
+    1,
+    821
+  ],
+  "mouth_frames": {
+    "closed": 825,
+    "small": 837,
+    "medium": 849,
+    "large": 861,
+    "return": 897,
+    "seated": 909,
+    "close_priority": 969,
+    "tongue": 981,
+    "neutral_return": 993
+  },
+  "production_motion": false
+}

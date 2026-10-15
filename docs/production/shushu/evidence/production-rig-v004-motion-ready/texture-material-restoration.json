@@ -1,0 +1,109 @@
+{
+  "images": [
+    {
+      "image": 0,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Ear_L_basecolor",
+      "source_sha256": "9451b3ec45090ad87ea39b6b7ef5ea526cd213f0368a9c12f777b69d787bebef",
+      "output_sha256": "9451b3ec45090ad87ea39b6b7ef5ea526cd213f0368a9c12f777b69d787bebef",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 1,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Ear_R_basecolor",
+      "source_sha256": "4637149c4d9e8387f4343d3a5d060143bc1bda42d0a91e5ee9b2b62f4c7b4c02",
+      "output_sha256": "4637149c4d9e8387f4343d3a5d060143bc1bda42d0a91e5ee9b2b62f4c7b4c02",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 2,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Eye_L_basecolor",
+      "source_sha256": "a3b48f12b7d208c5ff1575d517e6184d42d460954480807b53bb0cb6c6ebd820",
+      "output_sha256": "a3b48f12b7d208c5ff1575d517e6184d42d460954480807b53bb0cb6c6ebd820",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 3,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Eye_R_basecolor",
+      "source_sha256": "2bd12b235ea4000486ba8f3258b7ccf8699b39bfed3ce6396a1cc0f8b02b6815",
+      "output_sha256": "2bd12b235ea4000486ba8f3258b7ccf8699b39bfed3ce6396a1cc0f8b02b6815",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 4,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Head_basecolor",
+      "source_sha256": "2e1a7abf98bec3fe77d92567450d8c7e25c3cb93db5f64c0f123097ce695bead",
+      "output_sha256": "a95c0564a7e173756daa690931fa00a91f6d821ca9a0ba843bff780c6742f595",
+      "unchanged": false,
+      "local_head": true
+    },
+    {
+      "image": 5,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_LidWall_L_basecolor",
+      "source_sha256": "6f0328120b3676245d573c120db56d23436c4b62ac960761f2721c3d67cc40be",
+      "output_sha256": "6f0328120b3676245d573c120db56d23436c4b62ac960761f2721c3d67cc40be",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 6,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_LidWall_R_basecolor",
+      "source_sha256": "5c8f6e96a02f5fc72e38ba323f3a344e24e4875b5d629fb4902b1841ea711a3e",
+      "output_sha256": "5c8f6e96a02f5fc72e38ba323f3a344e24e4875b5d629fb4902b1841ea711a3e",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 7,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_MouthInterior_basecolor",
+      "source_sha256": "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+      "output_sha256": "de629ef24af9d0abfd12570ca33fca147b2f13428d755bfdb05ef5851e387387",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 8,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Nose_basecolor",
+      "source_sha256": "69272dc14e01d8a292c1e2d393d70534fa4c8c81bb9fc119be36ed84e4936c8f",
+      "output_sha256": "69272dc14e01d8a292c1e2d393d70534fa4c8c81bb9fc119be36ed84e4936c8f",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 9,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Paw_L_basecolor",
+      "source_sha256": "d65f8fec15ffe4f1be556c5ffc3f38cf4f624a06f8ec29f03852f864575ae297",
+      "output_sha256": "d65f8fec15ffe4f1be556c5ffc3f38cf4f624a06f8ec29f03852f864575ae297",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 10,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Paw_R_basecolor",
+      "source_sha256": "912ef58427f6421b0c50ee1d6816219587169c0ad300d8fe0ebd5f9f8c4e69c0",
+      "output_sha256": "912ef58427f6421b0c50ee1d6816219587169c0ad300d8fe0ebd5f9f8c4e69c0",
+      "unchanged": true,
+      "local_head": false
+    },
+    {
+      "image": 11,
+      "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Torso_basecolor",
+      "source_sha256": "de71cb8705ee3cad21b7278353a733df30201c6332f311fd3931eeecb4e59979",
+      "output_sha256": "de71cb8705ee3cad21b7278353a733df30201c6332f311fd3931eeecb4e59979",
+      "unchanged": true,
+      "local_head": false
+    }
+  ],
+  "numeric_accessors": 921,
+  "numeric_accessor_bytes_unchanged": true,
+  "source_materials_restored_except": [
+    "ShushuStatic_MouthInterior",
+    "ShushuStatic_OralBowl",
+    "ShushuStatic_Tongue"
+  ],
+  "candidate_sha256": "3b5c7e15fd87919ef20459834fcce96744bf0b44af91897297729c24ec76cf39",
+  "candidate_bytes": 30041676
+}

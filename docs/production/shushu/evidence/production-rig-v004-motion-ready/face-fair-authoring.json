@@ -1,0 +1,277 @@
+{
+  "method": "Local thin-plate depth surface constrained by exact W ring and unchanged cheek; X/Z exact; all existing keys/UV/topology/weights",
+  "region": {
+    "abs_x_max": 0.105,
+    "z": [
+      0.505,
+      0.67
+    ],
+    "front_y": -0.2
+  },
+  "rows": [
+    {
+      "key": "Basis",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Blink.L",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Blink.R",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Corrective.HalfBlink.L",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Corrective.HalfBlink.R",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Smile",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "JoyLids",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "MouthOpen",
+      "max_displacement": 0.03222284288282486,
+      "changed_vertices": 18429,
+      "rim_exact": true
+    },
+    {
+      "key": "Surprise",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "CheekPressure.L",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "CheekPressure.R",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Hesitate",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Discomfort",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "MouthClose",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Corrective.MouthCavity",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.0.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.0.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.0.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.1.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.1.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.1.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.2.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.2.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Forehead.2.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.0.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.0.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.0.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.1.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.1.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.1.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.2.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.2.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.L.2.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.0.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.0.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.0.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.1.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.1.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.1.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.2.0",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.2.1",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Stroke.Cheek.R.2.2",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Corrective.EyeIntegrity.LowHead",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    },
+    {
+      "key": "Corrective.EyeIntegrity.ShiftL",
+      "max_displacement": 0.041629945254741674,
+      "changed_vertices": 18428,
+      "rim_exact": true
+    }
+  ]
+}

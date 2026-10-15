@@ -1,0 +1,35 @@
+{
+  "threshold_z": 0.632,
+  "source_vertices": 3740,
+  "source_faces": 7008,
+  "removed_stem_vertices_below_cut": 911,
+  "cut_vertices": 208,
+  "retained_source_shape_coordinates_exact": true,
+  "source_geometry_bounds": [
+    [
+      -0.018058914691209793,
+      -0.2870787978172302,
+      0.6062011122703552
+    ],
+    [
+      0.018058642745018005,
+      -0.2626342177391052,
+      0.6505126953125
+    ]
+  ],
+  "stem_bounds": [
+    [
+      -0.0037514118012040854,
+      -0.2760924696922302,
+      0.6062011122703552
+    ],
+    [
+      0.0037511454429477453,
+      -0.2678527235984802,
+      0.63189697265625
+    ]
+  ],
+  "nose_bulb_z_ge_0632_unchanged": true,
+  "cap": "local clipped section, closed by one downward polygon",
+  "W_Head_and_oral_geometry_unchanged": true
+}

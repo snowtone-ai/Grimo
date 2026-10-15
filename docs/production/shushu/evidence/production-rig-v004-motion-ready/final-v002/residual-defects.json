@@ -1,0 +1,47 @@
+{
+  "candidate": "shushu-v004-motion-gate-v002.glb",
+  "gate": "HOLD",
+  "image_space": "640x640 actual canvas PNG; boxes are inspection regions, not 3D measurements",
+  "defects": [
+    {
+      "id": "FACE-01",
+      "status": "OPEN",
+      "frame": 825,
+      "view": "front",
+      "evidence": "phone/closed-front.png",
+      "box_xyxy": [210, 370, 435, 495],
+      "finding": "Muzzle surface still shows localized dents/uneven depth below the W rim and near cheek transitions under runtime lighting. Full Head evaluated-normal trial did not remove the defect.",
+      "required": "Local surface depth/tangent correction preserving exact W and approved face domains, then repeat PC/phone lit motion comparison. No texture/lighting concealment."
+    },
+    {
+      "id": "FACE-02",
+      "status": "OPEN",
+      "frame": 861,
+      "view": "3q",
+      "evidence": "phone/large-3q.png",
+      "box_xyxy": [390, 365, 566, 502],
+      "finding": "Uneven lower-rim/muzzle transition remains at large opening. Authored Cycles soft lighting understates this relative to phone.",
+      "required": "Recheck local mouth surface/inner wall boundary at .0/.2/.55/1 and every transition; retain real tongue and W."
+    },
+    {
+      "id": "CROWN-02",
+      "status": "OPEN",
+      "frame": 825,
+      "view": "3q",
+      "evidence": "phone/closed-3q.png",
+      "box_xyxy": [181, 40, 224, 72],
+      "finding": "Tiny triangular surface remains near the ear-to-crown junction. The front-view ray-identified Head spike was reduced, but this residual cannot be called fixed.",
+      "required": "Identify remaining object/triangle in this camera, then local correction without changing approved ear shape."
+    },
+    {
+      "id": "ARM-HUMAN",
+      "status": "UNKNOWN_HUMAN_PENDING",
+      "frames": [477, 493, 509, 517, 533, 549],
+      "evidence": "phone/arm-3q.webm",
+      "finding": "Paw shading improves with current evaluated-surface normals; source positions/weights/correctives are preserved. Local seam normal extremes and motion volume/contact still require appearance judgment. Numeric P95 improvement is not Human PASS.",
+      "required": "Review front/side/3q at extremes and continuous motion for squeeze, intersections, protrusions and contact naturalness."
+    }
+  ],
+  "motion_production": "HOLD",
+  "original_replacement": false
+}
