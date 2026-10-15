@@ -1,0 +1,74 @@
+{
+  "lock_checks": {
+    "basis": true,
+    "triangles": true,
+    "corner_normals": true,
+    "skin": true,
+    "groups": true,
+    "legacy_keys": true,
+    "bone_rest": true,
+    "material_base_color": true,
+    "uv": true
+  },
+  "independence": [
+    {
+      "frame": 49,
+      "opposite_lid_max_delta": 7.450580596923828e-09
+    },
+    {
+      "frame": 55,
+      "opposite_lid_max_delta": 7.450580596923828e-09
+    },
+    {
+      "frame": 67,
+      "opposite_lid_max_delta": 7.450580596923828e-09
+    },
+    {
+      "frame": 73,
+      "opposite_lid_max_delta": 7.450580596923828e-09
+    }
+  ],
+  "export_options": {
+    "filepath": "assets/grimo/production/pino/candidate-c/face-foundation-v002/pino-face-foundation-v002-diagnostic.glb",
+    "export_format": "GLB",
+    "use_selection": true,
+    "export_skins": true,
+    "export_morph": true,
+    "export_morph_normal": true,
+    "export_animations": true,
+    "export_frame_range": true,
+    "export_frame_step": 1,
+    "export_animation_mode": "SCENE",
+    "export_force_sampling": true,
+    "export_all_influences": true,
+    "export_extras": true,
+    "export_apply": false,
+    "export_yup": true
+  },
+  "glb_bytes": 1967208,
+  "snapshot_hashes": {
+    "source": "96f11a357bb9e15dec4c3be6a97a8511931cd6c81752381da74489a2b418826c",
+    "candidate": "96f11a357bb9e15dec4c3be6a97a8511931cd6c81752381da74489a2b418826c"
+  },
+  "frame_summary": {
+    "frames": 121,
+    "all_finite": true,
+    "frozen_regions_max_delta": {
+      "outside_mouth": 6.143906006172983e-08,
+      "tail": 6.143906006172983e-08,
+      "paws_and_legs": 5.960464477539063e-08,
+      "eye_caps": 0
+    },
+    "basis_returns_max_delta": {
+      "1": 6.143906006172983e-08,
+      "37": 6.143906006172983e-08,
+      "43": 6.143906006172983e-08,
+      "61": 6.143906006172983e-08,
+      "79": 6.143906006172983e-08,
+      "97": 6.143906006172983e-08,
+      "121": 6.143906006172983e-08
+    },
+    "mouth_roi": "original component 0; abs(X)<.09, Y<-.33, .48<Z<.65",
+    "metric_correction": "Earlier Z<.49 body mask included the lower chin; replaced by all vertices outside the explicit face ROI."
+  }
+}

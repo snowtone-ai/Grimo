@@ -1,0 +1,151 @@
+{
+  "original_vs_v002": {
+    "front": {
+      "changed_pixels": 0,
+      "pixels": 230400,
+      "max_channel_delta": 0
+    },
+    "side": {
+      "changed_pixels": 0,
+      "pixels": 230400,
+      "max_channel_delta": 0
+    },
+    "3q": {
+      "changed_pixels": 3,
+      "pixels": 230400,
+      "max_channel_delta": 1
+    }
+  },
+  "v001_vs_v002": {
+    "front": {
+      "changed_pixels": 0,
+      "pixels": 230400,
+      "max_channel_delta": 0
+    },
+    "side": {
+      "changed_pixels": 0,
+      "pixels": 230400,
+      "max_channel_delta": 0
+    },
+    "3q": {
+      "changed_pixels": 0,
+      "pixels": 230400,
+      "max_channel_delta": 0
+    }
+  },
+  "v002_vs_glb_reimport": {
+    "front": {
+      "changed_pixels": 1429,
+      "pixels": 230400,
+      "max_channel_delta": 35
+    },
+    "side": {
+      "changed_pixels": 1554,
+      "pixels": 230400,
+      "max_channel_delta": 40
+    },
+    "3q": {
+      "changed_pixels": 1640,
+      "pixels": 230400,
+      "max_channel_delta": 50
+    }
+  },
+  "gif_basis_returns": {
+    "front": {
+      "37": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "43": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "61": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "79": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "97": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "121": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      }
+    },
+    "side": {
+      "37": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "43": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "61": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "79": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "97": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "121": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      }
+    },
+    "3q": {
+      "37": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "43": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "61": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "79": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "97": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      },
+      "121": {
+        "changed_pixels": 0,
+        "pixels": 90000,
+        "max_channel_delta": 0
+      }
+    }
+  }
+}

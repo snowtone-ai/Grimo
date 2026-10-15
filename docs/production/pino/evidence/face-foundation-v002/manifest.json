@@ -1,0 +1,115 @@
+{
+  "start_head": "80ed1a9c1335b520e50190059410f23126c61762",
+  "branch": "codex/pino-face-foundation-v002-20261015",
+  "Human_Face_Gate": "PENDING",
+  "Production": "HOLD",
+  "geometry_passes": 2,
+  "protected_inputs": {
+    "assets/grimo/production/pino/candidate-c/rig-v001/pino-c-base-rig-v001.blend": {
+      "sha256": "b7f36853bdb0a221d62d18c29bb667849fd33d6edba815a4e3bd13599f44f978",
+      "unchanged": true
+    },
+    "assets/grimo/production/pino/candidate-c/source/cute blue creature 3d model.glb": {
+      "sha256": "ee7339f8e4339037b87880b75d90fd944fe7dda84f696c2be42db7ea0f24da11",
+      "unchanged": true
+    }
+  },
+  "files": {
+    "assets/grimo/production/pino/candidate-c/face-foundation-v002/pino-face-foundation-v002-diagnostic.glb": {
+      "sha256": "560e6603eb001ac375068f3940e51762f504a0c2650a9896a429b8659e9077ef",
+      "bytes": 1967208
+    },
+    "assets/grimo/production/pino/candidate-c/face-foundation-v002/pino-face-foundation-v002-proof.blend": {
+      "sha256": "ade753b6c5fec6457a682f5eda4c4d86d4d45778856fa0b829f61ea8ec4ebb25",
+      "bytes": 1645411
+    },
+    "assets/grimo/production/pino/candidate-c/face-foundation-v002/pino-face-foundation-v002.blend": {
+      "sha256": "31c903f1d40b1e2a3dbc85a215509ae90e01bd2422e7a68f82099bb4e14474c0",
+      "bytes": 1643008
+    },
+    "assets/grimo/production/pino/candidate-c/face-foundation-v002/README.md": {
+      "sha256": "c2e6fb95787abf9a9313f35bbed8ed4c8be261837e9047267b3c78b4ec8799c8",
+      "bytes": 1858
+    },
+    "docs/production/pino/evidence/face-foundation-v002/basis-comparison.png": {
+      "sha256": "7a69ec55a065b3a80f597e4f85f7a0704a2ac988888cfffe62c6384a5bfbb831",
+      "bytes": 704520
+    },
+    "docs/production/pino/evidence/face-foundation-v002/face-proof.gif": {
+      "sha256": "f38b8979a2d9efd7f4bcec1b29f9a50e0264e4f9e90dbba95409239de2ff5d6a",
+      "bytes": 5796807
+    },
+    "docs/production/pino/evidence/face-foundation-v002/face-representatives.png": {
+      "sha256": "10e002269801f8d8f9140f772cb0142743be0b246cfd2a2ac69f485a852c4357",
+      "bytes": 934576
+    },
+    "docs/production/pino/evidence/face-foundation-v002/glb-reimport.json": {
+      "sha256": "43cb9a7001c25c664e4445b1d0e748052636dab66a54f08949c06ada3a51cf8b",
+      "bytes": 7819
+    },
+    "docs/production/pino/evidence/face-foundation-v002/mouth-sections.png": {
+      "sha256": "d35221cdedcbd46b32edde7dd6f1bea248030e246acf11cd7363a326c5cd9a41",
+      "bytes": 21551
+    },
+    "docs/production/pino/evidence/face-foundation-v002/mouth-topology.json": {
+      "sha256": "c4c7ac195d1e116f7405c46a59d810d6e4150a371ae09e0d4c5c81a3463aacae",
+      "bytes": 373
+    },
+    "docs/production/pino/evidence/face-foundation-v002/native-glb.json": {
+      "sha256": "9b4215b72265796c83ec8fbe50b568abdf891b7a44a3dac2e496788896ffad90",
+      "bytes": 166
+    },
+    "docs/production/pino/evidence/face-foundation-v002/original-glb-checks.json": {
+      "sha256": "7a40c9f7da718a90e9a5b36fd7309acf7533b5c1ee84eac86977d3c22e57ee1a",
+      "bytes": 177
+    },
+    "docs/production/pino/evidence/face-foundation-v002/pass1.json": {
+      "sha256": "426abf4cecc55ab94e04f51e44c08a86700ae79a14825f812e00e7dcfda4f642",
+      "bytes": 172
+    },
+    "docs/production/pino/evidence/face-foundation-v002/pass2.json": {
+      "sha256": "00cf117a01b2e9b9b35a7b1ffdcaa85dd36002cd0fb8eba99f4402d8f10ae1cf",
+      "bytes": 174
+    },
+    "docs/production/pino/evidence/face-foundation-v002/pixels.json": {
+      "sha256": "8f16db893b6f6e25088e5a33c19294f260fd8ac2d359ae30868b0b965df32ad0",
+      "bytes": 3040
+    },
+    "docs/production/pino/evidence/face-foundation-v002/rejected-pass1.png": {
+      "sha256": "4c3ca1d88b3daa61ee1c8c5182891fd5b6bd04fdb2d5605ba93123166e77fedc",
+      "bytes": 237426
+    },
+    "docs/production/pino/evidence/face-foundation-v002/REVIEW.md": {
+      "sha256": "1f191b612987b20cecf1e131791186145b0fa5d1b6ea8d691a7c8c5044e0ea62",
+      "bytes": 5610
+    },
+    "docs/production/pino/evidence/face-foundation-v002/saved-checks.json": {
+      "sha256": "fbb77bbb35d9e5ac4db155526436360801e08ad3ed9760739a0a7dabc4e3c347",
+      "bytes": 2129
+    },
+    "docs/production/pino/evidence/face-foundation-v002/source-audit.json": {
+      "sha256": "aadc6309e209ba0704d6a17cfa455aa64ef209c307ceb2568fd6c1e705b442b2",
+      "bytes": 5583
+    },
+    "docs/production/pino/evidence/face-foundation-v002/source-audit.png": {
+      "sha256": "97bc50073f9efdae36a2b97bde124e41ae6874f6ed45f5a17bbbf1b425a4c21f",
+      "bytes": 306053
+    },
+    "docs/production/pino/evidence/face-foundation-v002/TEXTURE_CONTRACT.md": {
+      "sha256": "84d20faa1790f9438752594901dd558eda7091cd0af821691a07cf8dfd9ce657",
+      "bytes": 1910
+    },
+    "docs/production/pino/evidence/face-foundation-v002/timeline.json": {
+      "sha256": "eb66c1834cf1d729cc30a806d1c536e88ad15a57adb455b30a9df2974197d8e4",
+      "bytes": 2718
+    },
+    "scripts/3d/package-pino-face-foundation-v002.py": {
+      "sha256": "fc777a3f776bd4013488e119781470014ff5ebac475cc02c99dc40a6ac3ed812",
+      "bytes": 9155
+    },
+    "scripts/blender/pino-face-foundation-v002.py": {
+      "sha256": "e04776933e22fb048b39119b00ae6c3c331550ccd72844c62530f04c657c71ca",
+      "bytes": 25774
+    }
+  }
+}

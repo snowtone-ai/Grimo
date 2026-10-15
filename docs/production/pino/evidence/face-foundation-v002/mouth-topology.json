@@ -1,0 +1,15 @@
+{
+  "mouth_roi": {
+    "component": 0,
+    "abs_x_lt": 0.09,
+    "y_lt": -0.33,
+    "z": [
+      0.5,
+      0.64
+    ]
+  },
+  "original_boundary_edges_wholly_inside_roi": 0,
+  "original_overconnected_edges_wholly_inside_roi": 0,
+  "candidate_original_mesh_topology_unchanged": true,
+  "self_intersection_and_lip_contact": "UNKNOWN; not established by unchanged topology"
+}

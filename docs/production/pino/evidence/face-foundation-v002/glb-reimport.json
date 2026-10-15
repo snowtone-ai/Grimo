@@ -1,0 +1,273 @@
+{
+  "meshes": {
+    "PINO_C_BASE_RIG_V001": {
+      "vertices": 19375,
+      "source_vertices": 18858,
+      "base_nearest_max_delta": 1.9824705077553517e-07,
+      "correspondence_feature_max_delta": 1.9824705077553517e-07,
+      "morphs": [
+        "Basis",
+        "PinoBlink_L",
+        "PinoBlink_R",
+        "PinoMouthClosed",
+        "PinoMouthLarge"
+      ],
+      "armature_modifier": true,
+      "unassigned": 0
+    },
+    "PinoSoftLids_L": {
+      "vertices": 858,
+      "source_vertices": 858,
+      "base_nearest_max_delta": 7.300048565639372e-08,
+      "correspondence_feature_max_delta": 7.300048565639372e-08,
+      "morphs": [
+        "Basis",
+        "LidHalf",
+        "LidClosed"
+      ],
+      "armature_modifier": true,
+      "unassigned": 0
+    },
+    "PinoSoftLids_R": {
+      "vertices": 858,
+      "source_vertices": 858,
+      "base_nearest_max_delta": 8.940696716308594e-08,
+      "correspondence_feature_max_delta": 8.940696716308594e-08,
+      "morphs": [
+        "Basis",
+        "LidHalf",
+        "LidClosed"
+      ],
+      "armature_modifier": true,
+      "unassigned": 0
+    }
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 10,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 25,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 31,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 49,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 55,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 73,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 91,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 103,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.634573506720699e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.634573506720699e-08
+      }
+    },
+    {
+      "frame": 109,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": 121,
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.8154914843980805e-07,
+        "PinoSoftLids_L": 9.541398782175747e-08,
+        "PinoSoftLids_R": 7.450580596923828e-08
+      }
+    },
+    {
+      "frame": "head4",
+      "max_world_delta": {
+        "PINO_C_BASE_RIG_V001": 0.0001308875362155959,
+        "PinoSoftLids_L": 1.341104507446289e-07,
+        "PinoSoftLids_R": 8.720680710894158e-08
+      },
+      "head_owned_max_delta": {
+        "PINO_C_BASE_RIG_V001": 2.702825838696299e-07,
+        "PinoSoftLids_L": 1.341104507446289e-07,
+        "PinoSoftLids_R": 8.720680710894158e-08
+      }
+    }
+  ],
+  "bone_count": 70,
+  "imported_names": [
+    "dd960071_f7d5_4eaa_a261_8fb0fbf78711.001",
+    "Pino rolling upper and lower lids L",
+    "Pino rolling upper and lower lids R",
+    "Icosphere"
+  ],
+  "animation_binding": {
+    "PINO_C_TRIPO_PLUS_CONTROLS_V001": {
+      "active": "PINO_C_TRIPO_PLUS_CONTROLS_V001",
+      "nla": [
+        {
+          "name": "PINO_C_TRIPO_PLUS_CONTROLS_V001",
+          "muted": true,
+          "strips": [
+            {
+              "action": "PINO_C_TRIPO_PLUS_CONTROLS_V001",
+              "slot": "OBPINO_C_TRIPO_PLUS_CONTROLS_V001"
+            }
+          ]
+        }
+      ]
+    },
+    "dd960071_f7d5_4eaa_a261_8fb0fbf78711.001": {
+      "active": null,
+      "nla": [
+        {
+          "name": "PINO_C_BASE_RIG_V001",
+          "muted": true,
+          "strips": [
+            {
+              "action": "PINO_C_BASE_RIG_V001",
+              "slot": "KEdd960071_f7d5_4eaa_a261_8fb0fbf78711.001"
+            }
+          ]
+        }
+      ]
+    },
+    "Pino rolling upper and lower lids L": {
+      "active": null,
+      "nla": [
+        {
+          "name": "PinoSoftLids_L",
+          "muted": true,
+          "strips": [
+            {
+              "action": "PinoSoftLids_L",
+              "slot": "KEPino rolling upper and lower lids L"
+            }
+          ]
+        }
+      ]
+    },
+    "Pino rolling upper and lower lids R": {
+      "active": null,
+      "nla": [
+        {
+          "name": "PinoSoftLids_R",
+          "muted": true,
+          "strips": [
+            {
+              "action": "PinoSoftLids_R",
+              "slot": "KEPino rolling upper and lower lids R"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "imported_first_frame": 1.0
+}
