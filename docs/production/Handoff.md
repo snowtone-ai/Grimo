@@ -19,6 +19,6 @@ Jill：[v002 HOLD](jill/HANDOFF.md)。Human待ち。
 - **外部Tripo:** upload・試行・Auto Rig・課金なし。今回の既存Textureのoffline局所編集とは別。保存/技術PASSをGOにしない。
 
 ## Next
-Jill: [基礎Rig投入準備・HOLD継続](jill/evidence/tripo-input-v002/REVIEW.md)。
+[Jill Rig準備・HOLD](jill/HANDOFF.md)
 
 Humanはv003の比較板と残HOLDを確認。次の外観課題はmid〜full/restの足首上の稜線、腹下/股→腿の連続性、臀へ体重を預ける柔らかさ。眼2姿勢は開く方向の改善候補で未承認。正式採用前のPlayCanvas Skin/normal適合・スマホ性能、実item fitは別途HOLD。PWA/全Motion実装は別scope。座位Game Neutralは未決定。v006静的Human PASSをRig/座位/runtime承認へ拡張しない。
