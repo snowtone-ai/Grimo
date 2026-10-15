@@ -3,7 +3,7 @@
 実行時のNOWは実作業branch/HEAD、未コミット差分、保存成果とEvidenceで再確認する。Goal・Canonical・Human承認を上書きしない。
 
 ## Last verified: 2026-10-15 / Codex
-- **Shushu Production Rig v003:** 開始HEAD `93a8d2480c44e90a9c6a6d693c0fd34f9f4487cb`。v002から別名編集Rig/proof/2 GLBを制作。[比較・目視・保存検証・残HOLD](shushu/evidence/production-rig-v003/REVIEW.md)。Neutralのv006→lowpoly→Auto Rig→v001→v002で足形を追跡し、最初の動的崩れをAuto Rig probeで確認。既存骨長/本人Basis/UV/12 Textureを保ち、膝IK方向・足weight・局所支持Morphを修正。seat-lowhead/seat-shift-Lの眼開口のみ局所補正。他79姿勢の非Torso評価差0。4方向全遷移と顔3方向拡大をCodex実見。**足厚みと眼は改善候補 / 座位の足首稜線・腹下連続性は外観HOLD / Human PENDING**。405＋603＋243支持条件、81姿勢/961f、GLB往復頂点差≤9.965e-7・7 Anchorを照合。元参照/v001/v002/旧proof/ユーザー差分を保護。v003 runtime未検証、v002の追加weight/陰影HOLDは未解決。[v002履歴](shushu/evidence/production-rig-v002/REVIEW.md)。
+- **Shushu Production Rig v004:** 開始HEAD `d21689b8a2c094674e0ed230313610b26800c304`。remote `2abea76fad57` のCharacter appearance lockを作業保持でfast-forward統合。最新Human判断は **v003の顔・Neutral側面OK、Seatは誤ったしゃがみ**。これらを固定し別名v004で前方への短脚移動・足裏回転・臀下降を再設計。[前後比較・全8方向・顔5角度・連続コマ・保存検証](shushu/evidence/production-rig-v004/REVIEW.md)。14 Basis/UV/全12 Texture/骨rest・長さ/既存顔キーを保持。505支持条件、90顔合成、保持/撫で/足制御、821f proof、保存GLB91姿勢/7 Anchorを照合、頂点差≤1.052e-6。**Appearance HOLD / Human PENDING**：側面の腿腹境界・腹下の硬さ、保持時の肩折れ、復帰の重さ、臀の厳密接触/荷重面積は未達。技術PASSを外観承認にしない。原本/v001–v003/他キャラ/ユーザー差分を保護。v003履歴は[旧REVIEW](shushu/evidence/production-rig-v003/REVIEW.md)。
 - **v006最新Human判断:** 2026-10-14、Humanがv006の静的外観PASSを明示。SHA256 `9c479122…34f10f`。旧[口v006 REVIEW](shushu/evidence/tripo-mouth-depth-v006/REVIEW.md)の未達/PENDINGは当時の履歴として保持し、現承認を上書きしない。正式Rig/Motionの承認ではない。
 - **最新offline lowpoly v001:** 開始HEAD `6805096e811246401599651cbfaa9fc23834e459`。v006から別名GLBを作成、523,683→99,565三角形（80.99%削減）、6.07 MB。顔/チーク/頭下端60,176面と他10メッシュを保持、頭後部と胴体を属性考慮削減。[成果・14組比較・保存検証・未検証](shushu/evidence/tripo-rigprep-v006-lowpoly/REVIEW.md)。全12 Textureバイト/材質一致、残した位置/法線/UVは元頂点と一致、退化0、新しい境界/非多様体辺増加0、保護991入力一致。足首の退化試行は局所保護で解消。**Codex相対静的外観保持PASS / lowpoly Human未検証 / Tripo受入UNKNOWN**。SHA256 `780f1f9c…f41309`。原本/歴代候補/正式v003 Blender・Shape Keys・285f proof/他キャラ/ユーザー差分は不変。
 - **先行offline毛線v005:** Humanはv004の目をOKとし、両側の耳→肩に「頭を半分に分ける」毛線が残ると再指摘。先行v004毛線外観PASSを撤回。[v005局所Texture・原寸/拡大比較](shushu/evidence/tripo-fur-seam-v005/REVIEW.md)を独立保存。Head 247,007 texelのみ変更、正面の両目/口は画素一致。v004眼球奥行き、v002目囲み、v001口、v003頭頂修正を保持。Codex局所外観PASS、**v005 Human=PENDING**。SHA256 `a9c1681c…536982`。元Tripo GLB・先行候補・正式Geometry/Rig/Motion・他キャラ・ユーザー差分を保持。
@@ -18,4 +18,4 @@
 - **外部Tripo:** upload・試行・Auto Rig・課金なし。今回の既存Textureのoffline局所編集とは別。保存/技術PASSをGOにしない。
 
 ## Next
-Humanはv003の比較板と残HOLDを確認。次の外観課題はmid〜full/restの足首上の稜線、腹下/股→腿の連続性、臀へ体重を預ける柔らかさ。眼2姿勢は開く方向の改善候補で未承認。正式採用前のPlayCanvas Skin/normal適合・スマホ性能、実item fitは別途HOLD。PWA/全Motion実装は別scope。座位Game Neutralは未決定。v006静的Human PASSをRig/座位/runtime承認へ拡張しない。
+v004の残HOLDを局所修正し、臀支持・前方短脚・自然な復帰と可愛さをHuman確認。v003の承認済み顔/Neutral側面を変更しない。保持時の肩/腋の折れと側面の腿腹境界、実接触/荷重面を重点化。PlayCanvas Skin/normal・スマホ性能・実item fitは別途HOLD。PWA/全Motionは別scope。座位Game Neutralは未決定。v006静的Human PASSをRig/座位/runtime承認へ拡張しない。

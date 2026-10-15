@@ -1,0 +1,40 @@
+[
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v004.glb",
+    "materials_restored": [
+      "ShushuStatic_Ear_L",
+      "ShushuStatic_Ear_R",
+      "ShushuStatic_Eye_L",
+      "ShushuStatic_Eye_R",
+      "ShushuStatic_Head",
+      "ShushuStatic_LidWall_L",
+      "ShushuStatic_LidWall_R",
+      "ShushuStatic_MouthInterior",
+      "ShushuStatic_Nose",
+      "ShushuStatic_Paw_L",
+      "ShushuStatic_Paw_R",
+      "ShushuStatic_Torso"
+    ],
+    "original_texture_bytes_equal": true,
+    "method": "Repack unchanged mesh/skin/morph/animation buffer views; original embedded image bytes, texture/sampler definitions and existing material semantics restored exactly. New oral solid materials retained."
+  },
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v004-proof.glb",
+    "materials_restored": [
+      "ShushuStatic_Ear_L",
+      "ShushuStatic_Ear_R",
+      "ShushuStatic_Eye_L",
+      "ShushuStatic_Eye_R",
+      "ShushuStatic_Head",
+      "ShushuStatic_LidWall_L",
+      "ShushuStatic_LidWall_R",
+      "ShushuStatic_MouthInterior",
+      "ShushuStatic_Nose",
+      "ShushuStatic_Paw_L",
+      "ShushuStatic_Paw_R",
+      "ShushuStatic_Torso"
+    ],
+    "original_texture_bytes_equal": true,
+    "method": "Repack unchanged mesh/skin/morph/animation buffer views; original embedded image bytes, texture/sampler definitions and existing material semantics restored exactly. New oral solid materials retained."
+  }
+]

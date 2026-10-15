@@ -1,0 +1,91 @@
+{
+  "actual_location": "Root-level supplied pack; no shushu_seated_refs directory was present",
+  "source_manifest": {
+    "package": "Shushu_Reference_18-27_Revised_v003_Grimo_Ready",
+    "note": "25 accepted by user. 27 included from latest accessible packaged source in current environment.",
+    "files": [
+      {
+        "path": "Shushu_Reference_18-27_Revised_v002_Contact_Sheet.jpg",
+        "bytes": 195327,
+        "sha256": "579bbbe5cedb0206f47841d12019ffb2c3060d9763d817265c1ff0a7c8959036"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/18-face-neutral-left-profile.png",
+        "bytes": 1578670,
+        "sha256": "bbf2ed4795ca6ce37b930d5e5f27566776bbd5111222f973e0cbd784fec04ce9"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/19-face-small-mouth-open-left-profile.png",
+        "bytes": 1620740,
+        "sha256": "ffeac4fa599e790a101e5d624cf903fed3c8f13138095ad8851c455ec1d4577c"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/20-face-closed-eyes-left-profile.png",
+        "bytes": 1563408,
+        "sha256": "63cf70014ecd3b8720ac48fef8dd4b4f296e51b108db663f844de6adc415399a"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/21-face-neutral-front-three-quarter.png",
+        "bytes": 1547665,
+        "sha256": "be6f12ea434b0e19daa524650dc76058e5e5cfdc1323032c2e452d10794e2646"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/22-face-closed-eye-smile-front-three-quarter.png",
+        "bytes": 1610885,
+        "sha256": "1364042bc7524a21eeaaf65cf5d6bcd0dc4bdfa07ba232bf8e8993403a9381c9"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/23-seated-left-profile.png",
+        "bytes": 1626460,
+        "sha256": "4177ceb6a3ab3ab8d914989915d64e061bfe292ae242e09570b4c6975514258f"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/24-seated-front-three-quarter.png",
+        "bytes": 1621348,
+        "sha256": "4bebd6827ce9de337863e9a66da4fc08a82a6c2b9a2af73f2b9f290995b3765c"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/25-seated-rear-three-quarter.png",
+        "bytes": 1535229,
+        "sha256": "981d40595f1d972af77b974c03bc1f1ea7195496a7a2a70a633b9cea1b7427e0"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/26-standing-to-seated-transition-left-profile.png",
+        "bytes": 1621828,
+        "sha256": "ca0bd6942cd358eb43507e255ab984a2733949cd8f7bf76b3db8e2d7616f5e64"
+      },
+      {
+        "path": "assets/grimo/production/shushu/image-reference/reference-pack-v001/additional/27-seated-low-one-paw-offer-front-three-quarter.png",
+        "bytes": 1615467,
+        "sha256": "7b7c39313589d971115bb369a2d6bb6ce3ead46205ad305369b758de25dc417d"
+      }
+    ]
+  },
+  "images": [
+    {
+      "source_path": "23-seated-left-profile.png",
+      "evidence_copy": "references/23-seated-left-profile.png",
+      "sha256": "4177ceb6a3ab3ab8d914989915d64e061bfe292ae242e09570b4c6975514258f",
+      "exact_copy": true
+    },
+    {
+      "source_path": "24-seated-front-three-quarter.png",
+      "evidence_copy": "references/24-seated-front-three-quarter.png",
+      "sha256": "4bebd6827ce9de337863e9a66da4fc08a82a6c2b9a2af73f2b9f290995b3765c",
+      "exact_copy": true
+    },
+    {
+      "source_path": "25-seated-rear-three-quarter.png",
+      "evidence_copy": "references/25-seated-rear-three-quarter.png",
+      "sha256": "981d40595f1d972af77b974c03bc1f1ea7195496a7a2a70a633b9cea1b7427e0",
+      "exact_copy": true
+    },
+    {
+      "source_path": "26-standing-to-seated-transition-left-profile.png",
+      "evidence_copy": "references/26-standing-to-seated-transition-left-profile.png",
+      "sha256": "ca0bd6942cd358eb43507e255ab984a2733949cd8f7bf76b3db8e2d7616f5e64",
+      "exact_copy": true
+    }
+  ],
+  "scope": "Pose explanations only. Latest v003 manifest says #25 accepted by user, superseding older v002 README HOLD. No 3D geometry approval or unseen rear structure inferred."
+}

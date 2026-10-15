@@ -1,0 +1,2702 @@
+[
+  {
+    "state": "neutral",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "head-left",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.143906006172983e-08,
+      "ShushuStatic_Eye_R": 6.150255416059736e-08,
+      "ShushuStatic_Head": 6.245419115202822e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.146728992462158e-08,
+      "ShushuStatic_MouthInterior": 6.143906006172983e-08,
+      "ShushuStatic_Nose": 5.972094641037984e-08,
+      "ShushuStatic_OralBowl": 6.143906006172983e-08,
+      "ShushuStatic_Tongue": 6.143906006172983e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "head-right",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 9.313225746154785e-10,
+      "ShushuStatic_Head": 1.0412503081980162e-09,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "head-tilt-blink",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.5359765015432458e-08,
+      "ShushuStatic_Head": 1.561181051101812e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.5359765015432458e-08,
+      "ShushuStatic_MouthInterior": 1.5359765015432458e-08,
+      "ShushuStatic_Nose": 3.725290298461914e-09,
+      "ShushuStatic_OralBowl": 1.5359765015432458e-08,
+      "ShushuStatic_Tongue": 1.5359765015432458e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "neck",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.143906006172983e-08,
+      "ShushuStatic_Eye_R": 6.143906006172983e-08,
+      "ShushuStatic_Head": 6.674406449747039e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 5.965010529962456e-08,
+      "ShushuStatic_Nose": 6.668067698001323e-08,
+      "ShushuStatic_OralBowl": 6.148316344933846e-08,
+      "ShushuStatic_Tongue": 6.148316344933846e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "ear-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "ear-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "half",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "closed",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "wink-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "wink-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "gaze-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "gaze-up",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "gaze-down",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "smile",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "joy",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "surprise",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.96269202901567e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "hesitate",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "discomfort",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "mouth-close",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "mouth-close-override",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "mouth-open",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "mouth-open-max",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "tongue",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "pressure-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "pressure-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "shift-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 3.725290298461914e-09,
+      "ShushuStatic_Eye_R": 3.725290298461914e-09,
+      "ShushuStatic_Head": 6.71586253275791e-09,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 3.725290298461914e-09,
+      "ShushuStatic_Nose": 3.725290298461914e-09,
+      "ShushuStatic_OralBowl": 3.725290298461914e-09,
+      "ShushuStatic_Tongue": 3.725290298461914e-09
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "shift-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 2.63417798684884e-09,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 1.862645149230957e-09,
+      "ShushuStatic_Nose": 1.862645149230957e-09,
+      "ShushuStatic_OralBowl": 1.862645149230957e-09,
+      "ShushuStatic_Tongue": 1.862645149230957e-09
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "foot-lift-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 5.960464477539063e-08,
+      "ShushuStatic_Eye_R": 5.960464477539063e-08,
+      "ShushuStatic_Head": 5.974998629199035e-08,
+      "ShushuStatic_LidWall_L": 5.960464477539063e-08,
+      "ShushuStatic_LidWall_R": 5.960464477539063e-08,
+      "ShushuStatic_MouthInterior": 5.972094641037984e-08,
+      "ShushuStatic_Nose": 5.972094641037984e-08,
+      "ShushuStatic_OralBowl": 5.972094641037984e-08,
+      "ShushuStatic_Tongue": 5.972094641037984e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "foot-lift-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 5.960464477539063e-08,
+      "ShushuStatic_Eye_R": 5.960464477539063e-08,
+      "ShushuStatic_Head": 5.974998629199035e-08,
+      "ShushuStatic_LidWall_L": 5.960464477539063e-08,
+      "ShushuStatic_LidWall_R": 5.960464477539063e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.963374150042e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "seat-entry",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 2.9802322387695312e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 3.725290298461914e-09,
+      "ShushuStatic_Nose": 3.725290298461914e-09,
+      "ShushuStatic_OralBowl": 1.5359765015432458e-08,
+      "ShushuStatic_Tongue": 1.5081964122032332e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.044512733817100525,
+      "ShushuStatic_Ear_R": 0.04451273754239082,
+      "ShushuStatic_Eye_L": 0.044512730091810226,
+      "ShushuStatic_Eye_R": 0.044512730091810226,
+      "ShushuStatic_Head": 0.04451274499297142,
+      "ShushuStatic_LidWall_L": 0.044512730091810226,
+      "ShushuStatic_LidWall_R": 0.044512730091810226,
+      "ShushuStatic_MouthInterior": 0.044512730091810226,
+      "ShushuStatic_Nose": 0.044512730091810226,
+      "ShushuStatic_OralBowl": 0.044512730091810226,
+      "ShushuStatic_Paw_L": 0.04451273754239082,
+      "ShushuStatic_Paw_R": 0.04451273754239082,
+      "ShushuStatic_Tongue": 0.044512730091810226
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-mid",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.188916756855178e-08,
+      "ShushuStatic_Eye_R": 6.188916756855178e-08,
+      "ShushuStatic_Head": 6.322026990801533e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 1.862645149230957e-09,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 6.146728992462158e-08,
+      "ShushuStatic_Tongue": 6.1439500598226e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.06500193476676941,
+      "ShushuStatic_Ear_R": 0.06500193476676941,
+      "ShushuStatic_Eye_L": 0.06500192731618881,
+      "ShushuStatic_Eye_R": 0.06500192731618881,
+      "ShushuStatic_Head": 0.06500193476676941,
+      "ShushuStatic_LidWall_L": 0.06500191986560822,
+      "ShushuStatic_LidWall_R": 0.06500191986560822,
+      "ShushuStatic_MouthInterior": 0.06500191986560822,
+      "ShushuStatic_Nose": 0.06500191986560822,
+      "ShushuStatic_OralBowl": 0.06500193476676941,
+      "ShushuStatic_Paw_L": 0.06500193476676941,
+      "ShushuStatic_Paw_R": 0.06500193476676941,
+      "ShushuStatic_Tongue": 0.06500193476676941
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-rest",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.2105761015845928e-07,
+      "ShushuStatic_Eye_R": 1.2036781527058338e-07,
+      "ShushuStatic_Head": 1.2377833513710357e-07,
+      "ShushuStatic_LidWall_L": 1.2105761015845928e-07,
+      "ShushuStatic_LidWall_R": 1.2105761015845928e-07,
+      "ShushuStatic_MouthInterior": 3.0719530030864917e-08,
+      "ShushuStatic_Nose": 3.0719530030864917e-08,
+      "ShushuStatic_OralBowl": 3.0719530030864917e-08,
+      "ShushuStatic_Tongue": 3.05070351203085e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.04001251980662346,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.04001249000430107,
+      "ShushuStatic_Nose": 0.04001249000430107,
+      "ShushuStatic_OralBowl": 0.04001249000430107,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.04001249000430107
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-joy",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "recovery-mid",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.188916756855178e-08,
+      "ShushuStatic_Eye_R": 6.188916756855178e-08,
+      "ShushuStatic_Head": 6.322026990801533e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 1.862645149230957e-09,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 6.146728992462158e-08,
+      "ShushuStatic_Tongue": 6.1439500598226e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.06500193476676941,
+      "ShushuStatic_Ear_R": 0.06500193476676941,
+      "ShushuStatic_Eye_L": 0.06500192731618881,
+      "ShushuStatic_Eye_R": 0.06500192731618881,
+      "ShushuStatic_Head": 0.06500193476676941,
+      "ShushuStatic_LidWall_L": 0.06500191986560822,
+      "ShushuStatic_LidWall_R": 0.06500191986560822,
+      "ShushuStatic_MouthInterior": 0.06500191986560822,
+      "ShushuStatic_Nose": 0.06500191986560822,
+      "ShushuStatic_OralBowl": 0.06500193476676941,
+      "ShushuStatic_Paw_L": 0.06500193476676941,
+      "ShushuStatic_Paw_R": 0.06500193476676941,
+      "ShushuStatic_Tongue": 0.06500193476676941
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "standing-return",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "offer-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "offer-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "wrist-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "wrist-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "self-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "self-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "hold-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "hold-both",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "hold-L-touch-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "seat-hold-interrupt",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.07031671702861786,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "hold-resume",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "release",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "seat-quarter",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 2.9802322387695312e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 3.725290298461914e-09,
+      "ShushuStatic_Nose": 3.725290298461914e-09,
+      "ShushuStatic_OralBowl": 1.5359765015432458e-08,
+      "ShushuStatic_Tongue": 1.5081964122032332e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.044512733817100525,
+      "ShushuStatic_Ear_R": 0.04451273754239082,
+      "ShushuStatic_Eye_L": 0.044512730091810226,
+      "ShushuStatic_Eye_R": 0.044512730091810226,
+      "ShushuStatic_Head": 0.04451274499297142,
+      "ShushuStatic_LidWall_L": 0.044512730091810226,
+      "ShushuStatic_LidWall_R": 0.044512730091810226,
+      "ShushuStatic_MouthInterior": 0.044512730091810226,
+      "ShushuStatic_Nose": 0.044512730091810226,
+      "ShushuStatic_OralBowl": 0.044512730091810226,
+      "ShushuStatic_Paw_L": 0.04451273754239082,
+      "ShushuStatic_Paw_R": 0.04451273754239082,
+      "ShushuStatic_Tongue": 0.044512730091810226
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-three-quarter",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.666000493116826e-08,
+      "ShushuStatic_Eye_R": 1.666000493116826e-08,
+      "ShushuStatic_Head": 3.0719530030864917e-08,
+      "ShushuStatic_LidWall_L": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.862645149230957e-09,
+      "ShushuStatic_Nose": 1.862645149230957e-09,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.061521876603364944,
+      "ShushuStatic_Ear_R": 0.061521876603364944,
+      "ShushuStatic_Eye_L": 0.06152186542749405,
+      "ShushuStatic_Eye_R": 0.06152186542749405,
+      "ShushuStatic_Head": 0.06152186542749405,
+      "ShushuStatic_LidWall_L": 0.06152186542749405,
+      "ShushuStatic_LidWall_R": 0.06152186542749405,
+      "ShushuStatic_MouthInterior": 0.061521850526332855,
+      "ShushuStatic_Nose": 0.061521850526332855,
+      "ShushuStatic_OralBowl": 0.06152186542749405,
+      "ShushuStatic_Paw_L": 0.061521872878074646,
+      "ShushuStatic_Paw_R": 0.06152186915278435,
+      "ShushuStatic_Tongue": 0.06152186542749405
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-lowhead",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.664001972467304e-08,
+      "ShushuStatic_Eye_R": 6.664001972467304e-08,
+      "ShushuStatic_Head": 8.43142728967905e-08,
+      "ShushuStatic_LidWall_L": 6.664001972467304e-08,
+      "ShushuStatic_LidWall_R": 6.664001972467304e-08,
+      "ShushuStatic_MouthInterior": 2.986047320518992e-08,
+      "ShushuStatic_Nose": 2.986047320518992e-08,
+      "ShushuStatic_OralBowl": 2.986047320518992e-08,
+      "ShushuStatic_Tongue": 2.9805960366502404e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.04001249745488167,
+      "ShushuStatic_Eye_L": 0.04001249000430107,
+      "ShushuStatic_Eye_R": 0.04001249000430107,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.04001249000430107,
+      "ShushuStatic_LidWall_R": 0.04001249000430107,
+      "ShushuStatic_MouthInterior": 0.04001249000430107,
+      "ShushuStatic_Nose": 0.04001249000430107,
+      "ShushuStatic_OralBowl": 0.04001249000430107,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.04001249000430107
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-shift-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.664001972467304e-08,
+      "ShushuStatic_Eye_R": 6.705522537231445e-08,
+      "ShushuStatic_Head": 6.705522537231445e-08,
+      "ShushuStatic_LidWall_L": 6.664001972467304e-08,
+      "ShushuStatic_LidWall_R": 6.664001972467304e-08,
+      "ShushuStatic_MouthInterior": 1.666000493116826e-08,
+      "ShushuStatic_Nose": 6.169265276412261e-08,
+      "ShushuStatic_OralBowl": 1.666000493116826e-08,
+      "ShushuStatic_Tongue": 1.5914446649389902e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.04001251235604286,
+      "ShushuStatic_Eye_L": 0.04001249745488167,
+      "ShushuStatic_Eye_R": 0.04001249745488167,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.04001249745488167,
+      "ShushuStatic_LidWall_R": 0.04001249745488167,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.04001249000430107,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.04001249000430107
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-shift-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.143906006172983e-08,
+      "ShushuStatic_Eye_R": 6.143906006172983e-08,
+      "ShushuStatic_Head": 6.666604690508393e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 1.5359765015432458e-08,
+      "ShushuStatic_Nose": 6.146728992462158e-08,
+      "ShushuStatic_OralBowl": 1.5359765015432458e-08,
+      "ShushuStatic_Tongue": 1.5017125321037383e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.04001251235604286,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "hold-conflict-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.07031671702861786,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "hold-conflict-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.05276704207062721,
+      "ShushuStatic_Paw_R": 0.06676193326711655,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "extreme-face",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 5.960464477539063e-08,
+      "ShushuStatic_Eye_R": 6.018390763529169e-08,
+      "ShushuStatic_Head": 6.705522537231445e-08,
+      "ShushuStatic_LidWall_L": 3.332000986233652e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 4.280032683823265e-08,
+      "ShushuStatic_Nose": 4.280032683823265e-08,
+      "ShushuStatic_OralBowl": 3.4142850324769825e-08,
+      "ShushuStatic_Tongue": 3.0719530030864917e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.04001253470778465,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.04001251980662346,
+      "ShushuStatic_Nose": 0.04001251980662346,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.08407724648714066,
+      "ShushuStatic_Paw_R": 0.06511137634515762,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "stroke-belly-start",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "stroke-belly-end",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "stroke-reverse",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "stroke-cheek-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 7.450580596923828e-09,
+      "ShushuStatic_Eye_R": 7.450580596923828e-09,
+      "ShushuStatic_Head": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_L": 7.450580596923828e-09,
+      "ShushuStatic_LidWall_R": 7.450580596923828e-09,
+      "ShushuStatic_MouthInterior": 7.450580596923828e-09,
+      "ShushuStatic_Nose": 7.450580596923828e-09,
+      "ShushuStatic_OralBowl": 7.450580596923828e-09,
+      "ShushuStatic_Tongue": 7.450580596923828e-09
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "stroke-cheek-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.188916756855178e-08,
+      "ShushuStatic_Eye_R": 6.143906006172983e-08,
+      "ShushuStatic_Head": 6.705522537231445e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 6.006850128414953e-08,
+      "ShushuStatic_Nose": 6.006850128414953e-08,
+      "ShushuStatic_OralBowl": 6.006850128414953e-08,
+      "ShushuStatic_Tongue": 5.972094641037984e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "stroke-forehead",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.1641532182693481e-09,
+      "ShushuStatic_Nose": 1.862645149230957e-09,
+      "ShushuStatic_OralBowl": 9.313225746154785e-10,
+      "ShushuStatic_Tongue": 9.313225746154785e-10
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "interrupt-return",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.188916756855178e-08,
+      "ShushuStatic_Eye_R": 6.188916756855178e-08,
+      "ShushuStatic_Head": 6.322026990801533e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.188916756855178e-08,
+      "ShushuStatic_MouthInterior": 1.862645149230957e-09,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 6.146728992462158e-08,
+      "ShushuStatic_Tongue": 6.1439500598226e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.06500193476676941,
+      "ShushuStatic_Ear_R": 0.06500193476676941,
+      "ShushuStatic_Eye_L": 0.06500192731618881,
+      "ShushuStatic_Eye_R": 0.06500192731618881,
+      "ShushuStatic_Head": 0.06500193476676941,
+      "ShushuStatic_LidWall_L": 0.06500191986560822,
+      "ShushuStatic_LidWall_R": 0.06500192731618881,
+      "ShushuStatic_MouthInterior": 0.06500191986560822,
+      "ShushuStatic_Nose": 0.06500191986560822,
+      "ShushuStatic_OralBowl": 0.06500193476676941,
+      "ShushuStatic_Paw_L": 0.11992349475622177,
+      "ShushuStatic_Paw_R": 0.06500193476676941,
+      "ShushuStatic_Tongue": 0.06500193476676941
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "capability-neutral-return",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "proxy-both-acquire",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "proxy-both-seat",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.06676193326711655,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "proxy-both-interrupt",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.664001972467304e-08,
+      "ShushuStatic_Eye_R": 6.664001972467304e-08,
+      "ShushuStatic_Head": 8.429369557916289e-08,
+      "ShushuStatic_LidWall_L": 6.664001972467304e-08,
+      "ShushuStatic_LidWall_R": 6.365778659755961e-08,
+      "ShushuStatic_MouthInterior": 4.470348358154297e-08,
+      "ShushuStatic_Nose": 4.470348358154297e-08,
+      "ShushuStatic_OralBowl": 1.4901161193847656e-08,
+      "ShushuStatic_Tongue": 1.4901161193847656e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.04001251980662346,
+      "ShushuStatic_Nose": 0.04001251980662346,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07751519978046417,
+      "ShushuStatic_Paw_R": 0.06457392871379852,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "proxy-both-resume",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.188916756855178e-08,
+      "ShushuStatic_Eye_R": 6.188916756855178e-08,
+      "ShushuStatic_Head": 6.322026990801533e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 1.862645149230957e-09,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 6.146728992462158e-08,
+      "ShushuStatic_Tongue": 6.1439500598226e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.06500193476676941,
+      "ShushuStatic_Ear_R": 0.06500193476676941,
+      "ShushuStatic_Eye_L": 0.06500192731618881,
+      "ShushuStatic_Eye_R": 0.06500192731618881,
+      "ShushuStatic_Head": 0.06500193476676941,
+      "ShushuStatic_LidWall_L": 0.06500191986560822,
+      "ShushuStatic_LidWall_R": 0.06500191986560822,
+      "ShushuStatic_MouthInterior": 0.06500191986560822,
+      "ShushuStatic_Nose": 0.06500191986560822,
+      "ShushuStatic_OralBowl": 0.06500193476676941,
+      "ShushuStatic_Paw_L": 0.11992349475622177,
+      "ShushuStatic_Paw_R": 0.11348703503608704,
+      "ShushuStatic_Tongue": 0.06500193476676941
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "proxy-both-release",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.188916756855178e-08,
+      "ShushuStatic_Eye_R": 6.188916756855178e-08,
+      "ShushuStatic_Head": 6.322026990801533e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 1.862645149230957e-09,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 6.146728992462158e-08,
+      "ShushuStatic_Tongue": 6.1439500598226e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.06500193476676941,
+      "ShushuStatic_Ear_R": 0.06500193476676941,
+      "ShushuStatic_Eye_L": 0.06500192731618881,
+      "ShushuStatic_Eye_R": 0.06500192731618881,
+      "ShushuStatic_Head": 0.06500193476676941,
+      "ShushuStatic_LidWall_L": 0.06500191986560822,
+      "ShushuStatic_LidWall_R": 0.06500191986560822,
+      "ShushuStatic_MouthInterior": 0.06500191986560822,
+      "ShushuStatic_Nose": 0.06500191986560822,
+      "ShushuStatic_OralBowl": 0.06500193476676941,
+      "ShushuStatic_Paw_L": 0.06500193476676941,
+      "ShushuStatic_Paw_R": 0.06500193476676941,
+      "ShushuStatic_Tongue": 0.06500193476676941
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-small",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-multi-a",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-multi-close",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-multi-b",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-lick",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.4917523216695372e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.06676193326711655,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-drink",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 2.3853496955439368e-08,
+      "ShushuStatic_Eye_R": 2.3853496955439368e-08,
+      "ShushuStatic_Head": 4.214684778958144e-08,
+      "ShushuStatic_LidWall_L": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_R": 1.666000493116826e-08,
+      "ShushuStatic_MouthInterior": 5.587935447692871e-09,
+      "ShushuStatic_Nose": 5.587935447692871e-09,
+      "ShushuStatic_OralBowl": 5.587935447692871e-09,
+      "ShushuStatic_Tongue": 5.122274160385132e-09
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.04001249000430107,
+      "ShushuStatic_Nose": 0.04001249000430107,
+      "ShushuStatic_OralBowl": 0.04001249000430107,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.04001249000430107
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-large",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.06676193326711655,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-cancel",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-resume",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "food-return",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "neutral-return",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.006850128414953e-08,
+      "ShushuStatic_Eye_R": 6.006850128414953e-08,
+      "ShushuStatic_Head": 6.011360653701558e-08,
+      "ShushuStatic_LidWall_L": 6.006850128414953e-08,
+      "ShushuStatic_LidWall_R": 6.006850128414953e-08,
+      "ShushuStatic_MouthInterior": 5.963374150042e-08,
+      "ShushuStatic_Nose": 5.963374150042e-08,
+      "ShushuStatic_OralBowl": 5.963374150042e-08,
+      "ShushuStatic_Tongue": 5.96269202901567e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.0,
+      "ShushuStatic_Ear_R": 0.0,
+      "ShushuStatic_Eye_L": 0.0,
+      "ShushuStatic_Eye_R": 0.0,
+      "ShushuStatic_Head": 0.0,
+      "ShushuStatic_LidWall_L": 0.0,
+      "ShushuStatic_LidWall_R": 0.0,
+      "ShushuStatic_MouthInterior": 0.0,
+      "ShushuStatic_Nose": 0.0,
+      "ShushuStatic_OralBowl": 0.0,
+      "ShushuStatic_Paw_L": 0.0,
+      "ShushuStatic_Paw_R": 0.0,
+      "ShushuStatic_Tongue": 0.0
+    },
+    "pose_changed": false
+  },
+  {
+    "state": "seat-half",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-closed",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-joy",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-lowhead",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.664001972467304e-08,
+      "ShushuStatic_Eye_R": 6.664001972467304e-08,
+      "ShushuStatic_Head": 8.43142728967905e-08,
+      "ShushuStatic_LidWall_L": 6.664001972467304e-08,
+      "ShushuStatic_LidWall_R": 6.664001972467304e-08,
+      "ShushuStatic_MouthInterior": 2.986047320518992e-08,
+      "ShushuStatic_Nose": 2.986047320518992e-08,
+      "ShushuStatic_OralBowl": 2.986047320518992e-08,
+      "ShushuStatic_Tongue": 2.9805960366502404e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.04001249745488167,
+      "ShushuStatic_Eye_L": 0.04001249000430107,
+      "ShushuStatic_Eye_R": 0.04001249000430107,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.04001249000430107,
+      "ShushuStatic_LidWall_R": 0.04001249000430107,
+      "ShushuStatic_MouthInterior": 0.04001249000430107,
+      "ShushuStatic_Nose": 0.04001249000430107,
+      "ShushuStatic_OralBowl": 0.04001249000430107,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.04001249000430107
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-shift-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.664001972467304e-08,
+      "ShushuStatic_Eye_R": 6.705522537231445e-08,
+      "ShushuStatic_Head": 6.705522537231445e-08,
+      "ShushuStatic_LidWall_L": 6.664001972467304e-08,
+      "ShushuStatic_LidWall_R": 6.664001972467304e-08,
+      "ShushuStatic_MouthInterior": 1.666000493116826e-08,
+      "ShushuStatic_Nose": 6.169265276412261e-08,
+      "ShushuStatic_OralBowl": 1.666000493116826e-08,
+      "ShushuStatic_Tongue": 1.5914446649389902e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.04001251235604286,
+      "ShushuStatic_Eye_L": 0.04001249745488167,
+      "ShushuStatic_Eye_R": 0.04001249745488167,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.04001249745488167,
+      "ShushuStatic_LidWall_R": 0.04001249745488167,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.04001249000430107,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.04001249000430107
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-shift-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 6.143906006172983e-08,
+      "ShushuStatic_Eye_R": 6.143906006172983e-08,
+      "ShushuStatic_Head": 6.666604690508393e-08,
+      "ShushuStatic_LidWall_L": 6.143906006172983e-08,
+      "ShushuStatic_LidWall_R": 6.143906006172983e-08,
+      "ShushuStatic_MouthInterior": 1.5359765015432458e-08,
+      "ShushuStatic_Nose": 6.146728992462158e-08,
+      "ShushuStatic_OralBowl": 1.5359765015432458e-08,
+      "ShushuStatic_Tongue": 1.5017125321037383e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.04001251980662346,
+      "ShushuStatic_Ear_R": 0.04001251235604286,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251980662346,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-offer-L",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.05276704207062721,
+      "ShushuStatic_Paw_R": 0.04001251980662346,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-hold-R",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.040012527257204056,
+      "ShushuStatic_Paw_R": 0.06676193326711655,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  },
+  {
+    "state": "seat-both-hold",
+    "head_registered_face": {
+      "ShushuStatic_Eye_L": 1.4901161193847656e-08,
+      "ShushuStatic_Eye_R": 1.4901161193847656e-08,
+      "ShushuStatic_Head": 1.666000493116826e-08,
+      "ShushuStatic_LidWall_L": 1.4901161193847656e-08,
+      "ShushuStatic_LidWall_R": 1.4901161193847656e-08,
+      "ShushuStatic_MouthInterior": 1.493023660259496e-08,
+      "ShushuStatic_Nose": 1.493023660259496e-08,
+      "ShushuStatic_OralBowl": 1.493023660259496e-08,
+      "ShushuStatic_Tongue": 1.493023660259496e-08
+    },
+    "non_torso_world_delta": {
+      "ShushuStatic_Ear_L": 0.040012504905462265,
+      "ShushuStatic_Ear_R": 0.040012504905462265,
+      "ShushuStatic_Eye_L": 0.040012504905462265,
+      "ShushuStatic_Eye_R": 0.040012504905462265,
+      "ShushuStatic_Head": 0.04001251235604286,
+      "ShushuStatic_LidWall_L": 0.040012504905462265,
+      "ShushuStatic_LidWall_R": 0.040012504905462265,
+      "ShushuStatic_MouthInterior": 0.040012504905462265,
+      "ShushuStatic_Nose": 0.040012504905462265,
+      "ShushuStatic_OralBowl": 0.040012504905462265,
+      "ShushuStatic_Paw_L": 0.07264199107885361,
+      "ShushuStatic_Paw_R": 0.06676193326711655,
+      "ShushuStatic_Tongue": 0.040012504905462265
+    },
+    "pose_changed": true
+  }
+]

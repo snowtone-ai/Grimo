@@ -1,0 +1,265 @@
+{
+  "arbitration": [
+    {
+      "side": "L",
+      "seat": 0,
+      "mode": "Hold",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 0,
+      "mode": "SelfContact",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 0.5,
+      "mode": "Hold",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 0.5,
+      "mode": "SelfContact",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 1,
+      "mode": "Hold",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 1,
+      "mode": "SelfContact",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0,
+      "mode": "Hold",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0,
+      "mode": "SelfContact",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0.5,
+      "mode": "Hold",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0.5,
+      "mode": "SelfContact",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 1,
+      "mode": "Hold",
+      "arbitration_error": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 1,
+      "mode": "SelfContact",
+      "arbitration_error": 0.0
+    }
+  ],
+  "stroke": [
+    {
+      "zone": 0,
+      "u": -1,
+      "owner_movement": 0.009838119149208069,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 0,
+      "u": 0,
+      "owner_movement": 0.008500412106513977,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 0,
+      "u": 1,
+      "owner_movement": 0.009684264659881592,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 1,
+      "u": -1,
+      "owner_movement": 0.007975071668624878,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 1,
+      "u": 0,
+      "owner_movement": 0.009696677327156067,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 1,
+      "u": 1,
+      "owner_movement": 0.005618467926979065,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 2,
+      "u": -1,
+      "owner_movement": 0.005127996206283569,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 2,
+      "u": 0,
+      "owner_movement": 0.009696677327156067,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 2,
+      "u": 1,
+      "owner_movement": 0.007975056767463684,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 3,
+      "u": -1,
+      "owner_movement": 0.013969029299914837,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 3,
+      "u": 0,
+      "owner_movement": 0.01398344337940216,
+      "other_movement": 0.0
+    },
+    {
+      "zone": 3,
+      "u": 1,
+      "owner_movement": 0.013649887405335903,
+      "other_movement": 0.0
+    }
+  ],
+  "feet": [
+    {
+      "side": "L",
+      "seat": 0,
+      "control": "FootLift",
+      "torso_movement": 0.04000028222799301,
+      "head_movement": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 0,
+      "control": "FootSide",
+      "torso_movement": 0.025000080466270447,
+      "head_movement": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 0,
+      "control": "FootForward",
+      "torso_movement": 0.025000587105751038,
+      "head_movement": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 0,
+      "control": "free target rotation",
+      "torso_movement": 0.01449836790561676,
+      "head_movement": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 1,
+      "control": "FootLift",
+      "torso_movement": 0.05391966551542282,
+      "head_movement": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 1,
+      "control": "FootSide",
+      "torso_movement": 0.028771253302693367,
+      "head_movement": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 1,
+      "control": "FootForward",
+      "torso_movement": 0.03352333605289459,
+      "head_movement": 0.0
+    },
+    {
+      "side": "L",
+      "seat": 1,
+      "control": "free target rotation",
+      "torso_movement": 0.012693108059465885,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0,
+      "control": "FootLift",
+      "torso_movement": 0.0400008000433445,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0,
+      "control": "FootSide",
+      "torso_movement": 0.025001049041748047,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0,
+      "control": "FootForward",
+      "torso_movement": 0.02501077950000763,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 0,
+      "control": "free target rotation",
+      "torso_movement": 0.014642021618783474,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 1,
+      "control": "FootLift",
+      "torso_movement": 0.050734993070364,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 1,
+      "control": "FootSide",
+      "torso_movement": 0.037154532968997955,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 1,
+      "control": "FootForward",
+      "torso_movement": 0.03495705500245094,
+      "head_movement": 0.0
+    },
+    {
+      "side": "R",
+      "seat": 1,
+      "control": "free target rotation",
+      "torso_movement": 0.01244013849645853,
+      "head_movement": 0.0
+    }
+  ],
+  "limits": "Bounded witnesses. Arbitrary FK, real items and smartphone runtime remain unverified."
+}

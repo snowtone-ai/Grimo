@@ -1,0 +1,13 @@
+{
+  "source": "Actual saved proof renders; no interpolation or image repair. Repeated sampled frames at their 24fps source time spacing. Inspect the linked full-resolution frame boards.",
+  "clips": [
+    {
+      "name": "seat-return.mp4",
+      "sha256": "b7dcab71239b33688fff1e975b704c61761e5ff15228d25818db957b36714f82"
+    },
+    {
+      "name": "seated-compositions.mp4",
+      "sha256": "f0668b4ba401a3e75926d1dae692fb85505c4b41bb64f619481921c922a0b6d3"
+    }
+  ]
+}
