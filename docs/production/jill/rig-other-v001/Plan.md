@@ -90,3 +90,15 @@ Correctiveは翼root、肩、尾root、必要な首/顔について、問題pose
 ## Stop / recovery
 
 局所補正で顔/体型を改造する必要が出たら、その問題範囲をHOLD。全身再生成・remesh・承認asset置換で救済しない。必要なら不完全な候補でも開けるblend/GLBを提出し、未成立能力を列挙する。新規課金・Tripo操作・外部uploadなし。サブエージェントなし。研究は上記で終了し、実装/根拠ある修正へ移る。
+
+## 2026-10-15 Pre-Texture v002 implementation amendment (before asset edits)
+
+Humanの今回の依頼を実装範囲とする。継承HEADは実確認 `379fe79ac2561b9a5796a4657c36d503d248cf04`、dirtyなし。fetch後mainは`8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b`。元checkoutは別Shushu枝`a35f645`に並行変更があるため、専用worktree `C:/Users/chidj/.codex/worktrees/jill-pretexture-v002/Grimo`、枝`codex/jill-pretexture-v002-20261015`へ分離。旧正本と旧Evidenceは保存し、このPlan追記以外の結果は新規`rig-pretexture-v002/`へ出す。
+
+1. 130骨/39ch/16anchorを継承。既存18 body morphと左右blinkの合計20を維持するため、局所瞼と必要な口内部をbodyの独立surfaceとして統合し、左右blinkを同meshへ移す方法を検討する。既存bodyのindexed Basis/UVを原則保持し、変更/除去した局所面と追加UVは明示する。元の眼/周囲socketも同blinkで退避/追従させ、円盤蓋の輪郭を顔から浮かせない。瞼は立体の上下皮膚と閉じ線を持つ。
+2. 口縁の閉→小→中→大→閉を、局所顎/口縁のshapeと奥行きのある内壁/短舌で作る。歯・内部が閉口から突き出す場合は局所修復。固定の開口絵をskinへ印刷しない。Canonical笑顔の輪郭を基準に、閉口と半閉眼の本人性はHuman判定へ残す。
+3. 翼root/膜は胸と独立前肢の所有を保持し、局所weights/小correctiveと安全域のfoldを反復する。首葉の根はhead/neck/chestの遷移に合わせる。肩/尾根は局所変形だけを補修し、全身remesh/再生成はしない。
+4. Front/Side/3Qの実renderを、中間/終端/復帰と連続再生で直接確認。顔は拡大、接合は後3Qも確認。bounded proofだけを作り全Motionへ拡張しない。問題に応じてだけ再検証する。
+5. UV checkerで外面/膜裏/瞼/口内/舌を表示。元UVの継承と新規局所UVの場所/面積/重複を測定する。同一neutral geometry/UVのTexture投入専用FBX/GLBを別出力し、再importと対応表で証明する。
+6. 保存blend再読込、GLB fresh importと必要最小のPlayCanvasでskin/morph/anchor/UV/代表変形を確認。Tripo返却で骨/morph/UVの保持を仮定せず、Original UVの利用条件と元Rigへのtexture転写/再投影手順、Canonical色・最新Human指定の桃色horn・clover・眼・口内の仕様を記録する。Tripo公開公式情報は不足分だけ確認し、実UI/料金/アカウント状態の未観測はUNKNOWN。
+7. 新規Evidenceへ比較、直接目視所見、失敗/修正、SHA256/絶対パス、Technical GO候補かHOLDの理由を保存。commit/push/remote照合。Human承認前の最終GO・upload・課金・正式Texture・全Motion量産は行わない。サブエージェントなし。
