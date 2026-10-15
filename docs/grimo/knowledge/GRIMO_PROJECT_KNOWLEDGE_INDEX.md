@@ -2,9 +2,12 @@
 
 Use this index to locate durable authority. Current execution truth is not durable authority; check Git and the relevant production-state file.
 
-## Cross-agent live handoff (mutable coordination, not durable authority)
+## Current shared entrypoints (main)
 
-- [Live ChatGPT / Codex handoff](https://github.com/snowtone-ai/Grimo/blob/coord/grimo-ai-handoff/docs/production/Handoff.md) — **always read the `coord/grimo-ai-handoff` branch**, update on every Grimo interaction, verify production claims against the actual active branch and evidence. Rules are in `AGENTS.md`. Do not confuse this live routing snapshot with final Human approval or replace character production-state files.
+- [Project Knowledge Router](GRIMO_PROJECT_KNOWLEDGE_ROUTER.md) — fixed routing guide; **not** a live state record.
+- [AGENTS.md](../../../AGENTS.md) — current operating and safety rules; [Goal√map](Goal√map.md) — durable WHY.
+- [Handoff.md](../../production/Handoff.md) — last verified state pointer only. Actual current production truth requires the working branch/HEAD, State, artifacts, local edits and evidence.
+- Historical `coord/grimo-ai-handoff` content is **superseded**, not the branch to fetch/update each task. Update main Handoff only on material changes.
 
 ## ゴール√マップ — durable WHY
 
@@ -12,7 +15,7 @@ Use this index to locate durable authority. Current execution truth is not durab
 
 ## Stable overview (ChatGPT Project Knowledge)
 
-- [GRIMO_PROJECT_OVERVIEW_STABLE.md](GRIMO_PROJECT_OVERVIEW_STABLE.md) — long-lived product and experience overview for ChatGPT Project Knowledge. **Not a production-state file**; for mutable status read the live coordination handoff from its dedicated branch.
+- [GRIMO_PROJECT_OVERVIEW_STABLE.md](GRIMO_PROJECT_OVERVIEW_STABLE.md) — long-lived product and experience overview for ChatGPT Project Knowledge. **Not a production-state file**; for mutable status read main Handoff as a pointer and verify the active working branch and evidence.
 
 ## Product and experience
 
@@ -35,7 +38,7 @@ Use this index to locate durable authority. Current execution truth is not durab
 ## 2026-10-11 Body-only multi-view image import
 
 - [Four-character body-only multi-view asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) — 15 currently selected PNGs, **image-facing** left/right convention, visual decision boundaries, Carol three-view Human decision, and measured SHA manifest.
-- Body-only assets are **derivative Tripo inputs**, not canonical identities or replacements for completed Carol Normal/Skin. The local Codex import will confirm committed binaries and provenance; a GitHub Markdown registry does not mean the PNGs are pushed or Tripo-ready.
+- Body-only assets are **derivative Tripo inputs**, not canonical identities or replacements for completed Carol Normal/Skin. The 15 selected PNGs and hash manifest were copied to main by the 2026-10-15 shared-reference sync. This does not prove Tripo preflight, geometry, Rig, Motion or Runtime acceptance.
 - Jill's peach-colored head appendages are treated as **horn-like anatomy** by the latest Human interpretation; do not automatically recolor as ear backs. Final material identity (including canonical clover marking) still requires QA.
 
 ## Blender implementation reference (non-authoritative)
