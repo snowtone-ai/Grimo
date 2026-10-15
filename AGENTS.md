@@ -1,16 +1,19 @@
 # Grimo — AGENTS.md
 
-## Local-first
-Codex reads local AGENTS.md automatically: do not re-fetch it. Verify working branch/HEAD and uncommitted state. For 3D/character/Rig/Motion tasks read local `docs/grimo/knowledge/Goal√map.md` (WHY). For continuation read local `docs/production/Handoff.md` as a last-known pointer and verify NOW on the execution branch. App/data work uses relevant product specs. If an old branch lacks a required document, read the verified `main` version and record its revision. Avoid unrelated preload.
+## Scope
+Read local AGENTS.md; verify branch/HEAD and user changes. 3D/Rig/Motion: read `docs/grimo/knowledge/Goal√map.md`; continuation: `docs/production/Handoff.md` is a pointer; verify NOW. App/data: relevant specs; missing docs: verified `main`. Avoid unrelated preload.
 
 ## Authority
-Latest explicit Human decisions, canonical/approved visuals and applicable Product/Experience/Feature specs define outcomes; code/assets/evidence on the actual branch define NOW. Goal map explains WHY, Handoff is not approval. **Cuteness, comfort, attachment and believable life are goals; tools, mesh scores, topology and bone counts are means.** Technical PASS cannot overrule Human visual FAIL, and appearance PASS does not excuse broken Motion, runtime, features or data. Unknown is not PASS.
+Latest Human decisions, approved art and specs govern outcomes; branch assets define NOW. **Cuteness, comfort, attachment and lifelike behavior outrank technical metrics.** Numeric PASS ≠ Human visual PASS; visual PASS ≠ Motion/runtime PASS. Unknown ≠ PASS.
 
-## Execution/safety
-Human/ChatGPT specify outcomes and acceptance; Codex owns method, iteration and targeted verification. Preserve approved identity, user work, Task/Calendar/Collection data, secrets and compatibility. Respect approved full-spatial 3D and smartphone requirements. No force-push, destructive reset, unrelated destructive changes, unapproved payment or silent product/architecture change. No punitive neglect or affinity XP.
+## Character appearance lock
+**Never sacrifice approved appearance, cuteness or identity for Rig/Motion/optimization.** Preserve rest proportions, silhouette, face/eyes, limbs/feet, plush volumes, colors/UV/Texture. Neutral/Basis equality, valid IK/contact or GLB checks do NOT prove quality in posed motion. Compare actual rendered front/side/3Q and transition extremes with canonical, approved source and pose references; visually judge volume, face, weight and naturalness, not metrics alone. A generation/crouch pose is NOT true rump-supported sitting. Pose-dependent local corrections may *preserve* identity, never silently redesign it. If visual mismatch remains or pose references are missing, report HOLD and seek Human judgment; never self-approve.
+
+## Safety
+Human/ChatGPT set outcome; Codex chooses method and focused checks. Protect approved assets/user edits/data/secrets/compatibility. No force-push, destructive reset, unrelated edits, unapproved payment/architecture change, punitive neglect or affinity XP.
 
 ## Maintenance
-Change Goal map only for material goal decisions. Update Handoff only for consequential state, blocker, decision or owner change; link evidence, not every chat. Recheck concurrent edits before writing; no routine full build for docs-only changes. Unicode caps: AGENTS 2,500; Goal map 5,000; Handoff 4,000; Codex brief 1,500.
+Update Goal only for material goals; Handoff only for state/blocker/decision, link evidence. Recheck concurrent edits; skip full build for docs. Unicode caps: AGENTS 2,500; Goal 5,000; Handoff 4,000; brief 1,500.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
