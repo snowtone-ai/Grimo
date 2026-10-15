@@ -1,0 +1,14 @@
+{
+  "cause": "Foot IK influence interpolated from 1 to 0 during recovery; keep support active at both zero-strength rest endpoints. Base neutral has IK off.",
+  "before": {
+    "frame": 232,
+    "min_z": -0.00946754589676857,
+    "below_floor_vertices": 210
+  },
+  "after": {
+    "frame": 232,
+    "min_z": -1.2579912436194718e-06,
+    "below_floor_vertices": 0
+  },
+  "curve_points_changed": 8
+}

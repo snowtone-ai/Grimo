@@ -1,0 +1,237 @@
+{
+  "start_revision": "81432f9cf17836ed15eb4464baf710e5bbc44222",
+  "branch": "codex/pino-base-rig-v001-20261015",
+  "human_rig_geometry_gate": "PENDING",
+  "artifacts": [
+    {
+      "path": "assets/grimo/production/pino/candidate-c/rig-v001/input/pino-c-tripo-mixamo-original.fbx",
+      "bytes": 1238396,
+      "sha256": "b728b4e7275d9431e148cbb3eaeb6f65b328493fc39cb990b9eb6e90ceaa4b37"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/rig-v001/pino-c-base-rig-v001-proof.blend",
+      "bytes": 1630034,
+      "sha256": "b555b224ab850dcd403eeb7fd12952fbe7086111e1d85a2ed3afd9c98749561a"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/rig-v001/pino-c-base-rig-v001.blend",
+      "bytes": 1599595,
+      "sha256": "b7f36853bdb0a221d62d18c29bb667849fd33d6edba815a4e3bd13599f44f978"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/rig-v001/pino-c-tripo-import-unaltered.blend",
+      "bytes": 1314883,
+      "sha256": "67f7696cc79a12db3d0b9cf9787ec90c19752aaccaa66c6c9482e99d944ea2aa"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/rig-v001/README.md",
+      "bytes": 1048,
+      "sha256": "738985a8ca20da052c02ae776cedc026f2929089f8cfeabbb026c072efdf8dfa"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/source/cute blue creature 3d model.fbx",
+      "bytes": 818224,
+      "sha256": "3531eddb0578be8e4885b942db629a97a949d2039eb496c88ed1dc041372a111"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/source/cute blue creature 3d model.glb",
+      "bytes": 908312,
+      "sha256": "ee7339f8e4339037b87880b75d90fd944fe7dda84f696c2be42db7ea0f24da11"
+    },
+    {
+      "path": "assets/grimo/source/pino/pino-Identity-canonical.png",
+      "bytes": 606684,
+      "sha256": "a3dd36ce1a186f68bca9a249e12d9bfe139b19c610d64b5eaf395856ade69fb7"
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_back.png",
+      "bytes": 1615895,
+      "sha256": "1762021a4d974fd8d9f3c3abbd43fdb31d14f5dff844b566592d7593f06ee5bf"
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_front.png",
+      "bytes": 1446178,
+      "sha256": "c4163765b26523849cc32a7ba22499e36a9b89432ede37559c5cd19aa2e96589"
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_left.png",
+      "bytes": 1647030,
+      "sha256": "787f7e58b302e6ce4288cd105192c128b7594c02ebed1a2d82d30b6dc9b02b28"
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_right.png",
+      "bytes": 1652523,
+      "sha256": "183bf58cda989a1a645aa8bdb045d61a0a0d3b4bc5fafc79fb97bf75d1eb8be8"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/deformation-metrics.json",
+      "bytes": 28609,
+      "sha256": "a080fd832c196b0651232cfb8e5bd4320620596c0dd28d9997868dbae2502ee5"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/eyes-representatives.png",
+      "bytes": 1050511,
+      "sha256": "6682bb64917a54ae92d518226517d67013b2d5c151af2c04453f85677c05ace8"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/eyes-return-pixels.json",
+      "bytes": 44,
+      "sha256": "8c65d79fe38952c6a80236a466f7d9efc466c8cbd48d028052ff42e28b25f789"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/eyes.gif",
+      "bytes": 1956914,
+      "sha256": "9959c96055ebdc489c7511499a12777c01f813f8cf52b82a72b3c01d0c47735b"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/input-and-build.json",
+      "bytes": 101768,
+      "sha256": "233f46abfbefaa5428b09daad7289e2bf48ec230896c8f413db6cacc1fac9f84"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/input-skin.npz",
+      "bytes": 542201,
+      "sha256": "f003dfb4b203c2c2e6ce77c4130013c67100235c44485aff187c6fa8aec98edb"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/input-to-master-map.npz",
+      "bytes": 34442,
+      "sha256": "5920829929bb1287e70113435f13eb53ba34a1959f2e8c8e085e145880365a54"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/interpolation-repair.json",
+      "bytes": 411,
+      "sha256": "65352c95f52ee32783078ccf3c93bf9a69be7e00a2e0e647d0452ed61ab495d3"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/neutral-comparison.png",
+      "bytes": 1030264,
+      "sha256": "d050b5cd5b78d5981d8328ca559a7d0f351f9d64fa8fe6c2b316e67232c9a3d3"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/neutral-pixels.json",
+      "bytes": 486,
+      "sha256": "bb513dd131b6b636cfe575fc52da14445c34f4bd96c4b1d0adac1d5cf7a69535"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/neutral-reference-data.json",
+      "bytes": 482,
+      "sha256": "bf3658c43236ad5a51b0469127169b4a3e87b738bbd49a4caf77d0f9d44527ab"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/paws-representatives.png",
+      "bytes": 1047020,
+      "sha256": "9ada7692153ed1758fba89867fb46c90576c2ccec11d0b58ffd592c3e6d5ebea"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/paws-return-pixels.json",
+      "bytes": 44,
+      "sha256": "8c65d79fe38952c6a80236a466f7d9efc466c8cbd48d028052ff42e28b25f789"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/paws.gif",
+      "bytes": 2825187,
+      "sha256": "d516244d76c83544895b107b35a2425bfda291768a897e8b4e82d92f311c7c01"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/preview-metrics.json",
+      "bytes": 3893,
+      "sha256": "28c5e5bfc4c4a463195deadeb8787b3f45957d501395da92678e7a74d717efa3"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/proof-timeline.json",
+      "bytes": 311,
+      "sha256": "b454f0bf502131d89700ad4587f63098229076465c0e4a6592f90886f59c1e86"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/reference-arrays.npz",
+      "bytes": 251267,
+      "sha256": "f9ccaa154ffc1160b7feab2677be58724b4ee752a9af8bcddaed5c7d780e087f"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/rejected-deep-rest-metrics.json",
+      "bytes": 3260,
+      "sha256": "18bc8abfd14d771262e83e1ad5fd3336d7e99db8651774c7dcdbf6244e9504e7"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/rejected-deep-rest.png",
+      "bytes": 253300,
+      "sha256": "6a0c0ad8ba8e497bbce299077fe65df0927caf6edce8f5edcb4a6a36394d8573"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/REPRODUCE.md",
+      "bytes": 1970,
+      "sha256": "c8d49ac834048941c9f4f05126b41acaf5c5bd175742d77853372d353344d264"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/rest-representatives.png",
+      "bytes": 1313155,
+      "sha256": "af06c81c5c1e53b5413bf8253d5faec08f9f356c3a1cd6be9423eb0337e0da1c"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/rest-return-pixels.json",
+      "bytes": 44,
+      "sha256": "8c65d79fe38952c6a80236a466f7d9efc466c8cbd48d028052ff42e28b25f789"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/rest.gif",
+      "bytes": 1965147,
+      "sha256": "a6d3c31ea0c8af0be60ccbf9d6f73af372b1553c8ad49df6dcad355a0717fe04"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/REVIEW.md",
+      "bytes": 9415,
+      "sha256": "676d67150b908665cf02d498a7c8063340f68852a987aae6cf46e013578233a3"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/saved-verification.json",
+      "bytes": 7890,
+      "sha256": "6aa5624b1167a6949990911d68e6e87a0efc38d286b8102dfbf24f4831d5fe35"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/summary.json",
+      "bytes": 1770,
+      "sha256": "7f7c4af16e8c62c582f497c7e2da81b6eb1ab28d5ce3259da778a440abcc5837"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/tail-representatives.png",
+      "bytes": 786324,
+      "sha256": "5968aaf0895b89e238b9e77a3c313042d22a5dff1f4348f2b241faf2a05eaead"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/tail-return-pixels.json",
+      "bytes": 44,
+      "sha256": "8c65d79fe38952c6a80236a466f7d9efc466c8cbd48d028052ff42e28b25f789"
+    },
+    {
+      "path": "docs/production/pino/evidence/rig-v001/tail.gif",
+      "bytes": 1435506,
+      "sha256": "c487ac21fc9fcefcfb6a8b84480b1b4b9af4f694ccc15634598b046fc759efc5"
+    },
+    {
+      "path": "scripts/3d/package-pino-base-rig-v001.py",
+      "bytes": 6167,
+      "sha256": "33e7e01e9de031ee4b646f0f6374171d979e06a5f36ddfbdc050377436ccd6fd"
+    },
+    {
+      "path": "scripts/blender/build-pino-base-rig-v001.py",
+      "bytes": 13637,
+      "sha256": "19ac570ab6bab996085913f42b37ec4cae03c8cf103561601137eeaf6719f7c6"
+    },
+    {
+      "path": "scripts/blender/prove-pino-base-rig-v001.py",
+      "bytes": 10876,
+      "sha256": "a3314e03bf9e6424258f5e403ba57da02105d871d6ee8914187f62f67b17dca2"
+    },
+    {
+      "path": "scripts/blender/repair-pino-proof-support-v001.py",
+      "bytes": 1766,
+      "sha256": "d705a50a3c691d48ada4de71a1721369d66fa92d5154917ff3e165e5150d9d4d"
+    },
+    {
+      "path": "scripts/blender/verify-pino-base-rig-v001.py",
+      "bytes": 5683,
+      "sha256": "61c0b209be87ea194616f356da41eb123c56e6dfd15d755de7de106d5f633c47"
+    }
+  ]
+}

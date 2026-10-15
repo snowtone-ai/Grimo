@@ -1,0 +1,23 @@
+{
+  "fps": 24,
+  "frame_end": 235,
+  "markers": [
+    [
+      "tail",
+      1
+    ],
+    [
+      "eyes",
+      55
+    ],
+    [
+      "paws",
+      109
+    ],
+    [
+      "rest",
+      187
+    ]
+  ],
+  "note": "Sparse diagnostic keyframes; GIFs show evaluated samples, no final Motion."
+}

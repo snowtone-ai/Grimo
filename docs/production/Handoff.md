@@ -2,6 +2,11 @@
 
 このファイルは`main`のローカル作業案内。実行時のNOWは実際の制作ブランチ/HEAD、未コミット変更、制作StateとEvidenceで必ず再確認する。正式な仕様やHuman承認を上書きしない。
 
+## Pino: verified 2026-10-15
+- Branch `codex/pino-base-rig-v001-20261015`、開始 `81432f9`。新Tripo Mixamo FBXを別入力として保全し、65骨を保持した基礎Rig候補へ尾5骨・左右閉眼・支持Skin/IKを追加。Geometry Master・元GLB・Neutral Basisは保護。
+- [Rig v001 REVIEW・4本のGIF・保存検証](pino/evidence/rig-v001/REVIEW.md)。尾の限定bendと低いHigh-five到達を確認。閉眼の柔らかさ、両前肢接触、深い低休息は未成立。深い失敗姿勢は不採用、浅い荷重を低休息PASSにしない。
+- **Human Rig/Geometry Gate PENDING / production HOLDで停止。** 最終Motion・Texture・Tripo再生成なし。保存40姿勢とNeutral復帰を確認し、復帰途中の足IK解除による床貫通を修正。次は外観/可動域のHuman判断を踏まえた局所補修。下のShushu欄は以前の確認履歴。
+
 ## Last verified: 2026-10-13 / Codex
 - **Production branch:** `codex/grimo-motion-zero-based-design-20261011`
 - **Published artifact revision:** `6a1dfec6909f379a5cd93c6fbb2c248aef5a3c1c`。公開時のremote HEADを確認済み。後続の文書コミットと制作変更は実行時に再確認する。

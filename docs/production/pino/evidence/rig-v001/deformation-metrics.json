@@ -1,0 +1,1136 @@
+[
+  {
+    "kind": "tail",
+    "args": 0,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "tail",
+    "index": 0,
+    "frame": 1
+  },
+  {
+    "kind": "tail",
+    "args": 0.5,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0837246910854583,
+    "edge_ratio_p99": 1.030753424779494,
+    "tail_volume_ratio": 0.9999631282968701,
+    "tail_max_displacement": 0.04592870150757003,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "tail",
+    "index": 1,
+    "frame": 7
+  },
+  {
+    "kind": "tail",
+    "args": 1,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.1676607424746137,
+    "edge_ratio_p99": 1.062357385402243,
+    "tail_volume_ratio": 0.9998920793802941,
+    "tail_max_displacement": 0.09178524869282254,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "tail",
+    "index": 2,
+    "frame": 13
+  },
+  {
+    "kind": "tail",
+    "args": 0.5,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0837246910854583,
+    "edge_ratio_p99": 1.030753424779494,
+    "tail_volume_ratio": 0.9999631282968701,
+    "tail_max_displacement": 0.04592870150757003,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "tail",
+    "index": 3,
+    "frame": 19
+  },
+  {
+    "kind": "tail",
+    "args": 0,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "tail",
+    "index": 4,
+    "frame": 25
+  },
+  {
+    "kind": "tail",
+    "args": -0.5,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.083730901536378,
+    "edge_ratio_p99": 1.0317535943684364,
+    "tail_volume_ratio": 1.0000029989779522,
+    "tail_max_displacement": 0.045984152107667264,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "tail",
+    "index": 5,
+    "frame": 31
+  },
+  {
+    "kind": "tail",
+    "args": -1,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.1676966584298591,
+    "edge_ratio_p99": 1.0647612053483235,
+    "tail_volume_ratio": 0.9999715417890146,
+    "tail_max_displacement": 0.09198284101868978,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "tail",
+    "index": 6,
+    "frame": 37
+  },
+  {
+    "kind": "tail",
+    "args": -0.5,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.083730901536378,
+    "edge_ratio_p99": 1.0317535943684364,
+    "tail_volume_ratio": 1.0000029989779522,
+    "tail_max_displacement": 0.045984152107667264,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "tail",
+    "index": 7,
+    "frame": 43
+  },
+  {
+    "kind": "tail",
+    "args": 0,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "tail",
+    "index": 8,
+    "frame": 49
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      0,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "eyes",
+    "index": 0,
+    "frame": 55
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      0.5,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0603446515682406,
+    "edge_ratio_p99": 1.0000009515944916,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.03421993179296938,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "eyes",
+    "index": 1,
+    "frame": 61
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      1,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.238290922802628,
+    "edge_ratio_p99": 1.0000010368303593,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.06843986358593876,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "eyes",
+    "index": 2,
+    "frame": 67
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      0,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "eyes",
+    "index": 3,
+    "frame": 73
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      0,
+      1
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.2612404288145473,
+    "edge_ratio_p99": 1.0000010353972624,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.06827846232833927
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "eyes",
+    "index": 4,
+    "frame": 79
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      0,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "eyes",
+    "index": 5,
+    "frame": 85
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      0.5,
+      0.5
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0603446515682406,
+    "edge_ratio_p99": 1.0000010324749957,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.03421993179296938,
+      "R": 0.034139231164169635
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "eyes",
+    "index": 6,
+    "frame": 91
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      1,
+      1
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.2612404288145473,
+    "edge_ratio_p99": 1.0000012343675428,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.06843986358593876,
+      "R": 0.06827846232833927
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "eyes",
+    "index": 7,
+    "frame": 97
+  },
+  {
+    "kind": "eyes",
+    "args": [
+      0,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "eyes",
+    "index": 8,
+    "frame": 103
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "paws",
+    "index": 0,
+    "frame": 109
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0.5,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.4591160846019304,
+    "edge_ratio_p99": 1.010824193485195,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.07999663815810934,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5044208453635637,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 1,
+    "frame": 115
+  },
+  {
+    "kind": "paws",
+    "args": [
+      1,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.8759087042750215,
+    "edge_ratio_p99": 1.0286180721550235,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 5.5457253449977844e-05,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.47793795634874137,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 2,
+    "frame": 121
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0.5,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.4591160846019304,
+    "edge_ratio_p99": 1.010824193485195,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.07999663815810934,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5044208453635637,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 3,
+    "frame": 127
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "paws",
+    "index": 4,
+    "frame": 133
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0,
+      0.5
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.451000989827616,
+    "edge_ratio_p99": 1.0122575355120578,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.08001392611313059
+    },
+    "distal_paw_gap": 0.5043492644773155,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 5,
+    "frame": 139
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0,
+      1
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.8694211036469432,
+    "edge_ratio_p99": 1.0295309481412538,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 5.220324249781105e-05
+    },
+    "distal_paw_gap": 0.4782833278816494,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 6,
+    "frame": 145
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0,
+      0.5
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.451000989827616,
+    "edge_ratio_p99": 1.0122575355120578,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.08001392611313059
+    },
+    "distal_paw_gap": 0.5043492644773155,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 7,
+    "frame": 151
+  },
+  {
+    "kind": "paws",
+    "args": [
+      0,
+      0
+    ],
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.000000900329562,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "paws",
+    "index": 8,
+    "frame": 157
+  },
+  {
+    "kind": "contact",
+    "args": 0.5,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.8896548064894896,
+    "edge_ratio_p99": 1.0704670998222532,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.11951734025330985,
+      "R": 0.1194908801733112
+    },
+    "distal_paw_gap": 0.3069417671868296,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 9,
+    "frame": 163
+  },
+  {
+    "kind": "contact",
+    "args": 1,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 3.0224019126165564,
+    "edge_ratio_p99": 1.4501886106639879,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.22988162195741543,
+      "R": 0.23185462388228037
+    },
+    "distal_paw_gap": 0.005281590533242278,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 10,
+    "frame": 169
+  },
+  {
+    "kind": "contact",
+    "args": 0.5,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.8896548064894896,
+    "edge_ratio_p99": 1.0704670998222532,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.11951734025330985,
+      "R": 0.1194908801733112
+    },
+    "distal_paw_gap": 0.3069417671868296,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "paws",
+    "index": 11,
+    "frame": 175
+  },
+  {
+    "kind": "contact",
+    "args": 0,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.0000009257455795,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "paws",
+    "index": 12,
+    "frame": 181
+  },
+  {
+    "kind": "rest",
+    "args": 0,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.0000011862115785,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 2.9802322387695312e-08,
+      "R": 2.9802322387695312e-08
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "rest",
+    "index": 0,
+    "frame": 187
+  },
+  {
+    "kind": "rest",
+    "args": 0.25,
+    "z_min": -1.9099170458503067e-06,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.1795292220736628,
+    "edge_ratio_p99": 1.0219818094804751,
+    "tail_volume_ratio": 1.002485847924322,
+    "tail_max_displacement": 0.010306917639487228,
+    "opposite_eye_displacement": {
+      "L": 0.030033939488542584,
+      "R": 0.030033939488542584
+    },
+    "paw_contact_error": {
+      "L": 0.16988786224883037,
+      "R": 0.16988792338850484
+    },
+    "distal_paw_gap": 0.5317382216453604,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "rest",
+    "index": 1,
+    "frame": 193
+  },
+  {
+    "kind": "rest",
+    "args": 0.5,
+    "z_min": -1.8987267367265304e-06,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.3658368590434826,
+    "edge_ratio_p99": 1.0438011033937893,
+    "tail_volume_ratio": 1.0049561966735225,
+    "tail_max_displacement": 0.021202995787069964,
+    "opposite_eye_displacement": {
+      "L": 0.06073237326967457,
+      "R": 0.06073237326967457
+    },
+    "paw_contact_error": {
+      "L": 0.18256914685471737,
+      "R": 0.18256916417761884
+    },
+    "distal_paw_gap": 0.5317382514476843,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "rest",
+    "index": 2,
+    "frame": 199
+  },
+  {
+    "kind": "rest",
+    "args": 0.75,
+    "z_min": -6.246154953259975e-06,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.5565912257618655,
+    "edge_ratio_p99": 1.0649090967378665,
+    "tail_volume_ratio": 1.007409723568425,
+    "tail_max_displacement": 0.03268956966152066,
+    "opposite_eye_displacement": {
+      "L": 0.09204555708135348,
+      "R": 0.09204555708135348
+    },
+    "paw_contact_error": {
+      "L": 0.19770642804342528,
+      "R": 0.19770647336004427
+    },
+    "distal_paw_gap": 0.5317382514476812,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "rest",
+    "index": 3,
+    "frame": 205
+  },
+  {
+    "kind": "rest",
+    "args": 1,
+    "z_min": -5.877351213712245e-06,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.750483777110342,
+    "edge_ratio_p99": 1.0859154478011788,
+    "tail_volume_ratio": 1.0098455903508075,
+    "tail_max_displacement": 0.0447647795936286,
+    "opposite_eye_displacement": {
+      "L": 0.12392209052673546,
+      "R": 0.12392209052673546
+    },
+    "paw_contact_error": {
+      "L": 0.21487318100364322,
+      "R": 0.21487320040001479
+    },
+    "distal_paw_gap": 0.5317382216453569,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "rest",
+    "index": 4,
+    "frame": 211
+  },
+  {
+    "kind": "rest",
+    "args": 0.75,
+    "z_min": -6.246154953259975e-06,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.5565912257618655,
+    "edge_ratio_p99": 1.0649090967378665,
+    "tail_volume_ratio": 1.007409723568425,
+    "tail_max_displacement": 0.03268956966152066,
+    "opposite_eye_displacement": {
+      "L": 0.09204555708135348,
+      "R": 0.09204555708135348
+    },
+    "paw_contact_error": {
+      "L": 0.19770642804342528,
+      "R": 0.19770647336004427
+    },
+    "distal_paw_gap": 0.5317382514476812,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "rest",
+    "index": 5,
+    "frame": 217
+  },
+  {
+    "kind": "rest",
+    "args": 0.5,
+    "z_min": -1.8987267367265304e-06,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.3658368590434826,
+    "edge_ratio_p99": 1.0438011033937893,
+    "tail_volume_ratio": 1.0049561966735225,
+    "tail_max_displacement": 0.021202995787069964,
+    "opposite_eye_displacement": {
+      "L": 0.06073237326967457,
+      "R": 0.06073237326967457
+    },
+    "paw_contact_error": {
+      "L": 0.18256914685471737,
+      "R": 0.18256916417761884
+    },
+    "distal_paw_gap": 0.5317382514476843,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "rest",
+    "index": 6,
+    "frame": 223
+  },
+  {
+    "kind": "rest",
+    "args": 0.25,
+    "z_min": -1.9099170458503067e-06,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.1795292220736628,
+    "edge_ratio_p99": 1.0219818094804751,
+    "tail_volume_ratio": 1.002485847924322,
+    "tail_max_displacement": 0.010306917639487228,
+    "opposite_eye_displacement": {
+      "L": 0.030033939488542584,
+      "R": 0.030033939488542584
+    },
+    "paw_contact_error": {
+      "L": 0.16988786224883037,
+      "R": 0.16988792338850484
+    },
+    "distal_paw_gap": 0.5317382216453604,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": null,
+    "family": "rest",
+    "index": 7,
+    "frame": 229
+  },
+  {
+    "kind": "rest",
+    "args": 0,
+    "z_min": -9.020368452183902e-09,
+    "below_floor_vertices": 0,
+    "edge_ratio_max": 1.0000113028118232,
+    "edge_ratio_p99": 1.0000011862115785,
+    "tail_volume_ratio": 1.0000000632535329,
+    "tail_max_displacement": 6.143906154658885e-08,
+    "opposite_eye_displacement": {
+      "L": 2.9802322387695312e-08,
+      "R": 2.9802322387695312e-08
+    },
+    "paw_contact_error": {
+      "L": 0.1600961612707265,
+      "R": 0.16009608826218277
+    },
+    "distal_paw_gap": 0.5317382216453586,
+    "floor_contacts": {
+      "hindfeet": 60,
+      "belly": 0
+    },
+    "neutral_max_delta": 6.143906154658885e-08,
+    "family": "rest",
+    "index": 8,
+    "frame": 235
+  }
+]

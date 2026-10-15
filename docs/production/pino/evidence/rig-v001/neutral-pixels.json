@@ -1,0 +1,20 @@
+[
+  {
+    "view": "front",
+    "changed_pixels": 5,
+    "max_channel_difference_8bit": 3,
+    "mean_channel_difference_8bit": 2.4159749348958332e-05
+  },
+  {
+    "view": "side",
+    "changed_pixels": 11,
+    "max_channel_difference_8bit": 1,
+    "mean_channel_difference_8bit": 1.6530354817708332e-05
+  },
+  {
+    "view": "threequarter",
+    "changed_pixels": 7,
+    "max_channel_difference_8bit": 4,
+    "mean_channel_difference_8bit": 2.1616617838541668e-05
+  }
+]

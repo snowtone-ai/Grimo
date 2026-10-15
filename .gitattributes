@@ -5,3 +5,11 @@
 *.exr filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
+
+# Keep Pino v001 evidence/source checksums stable across Windows checkouts.
+docs/production/pino/evidence/rig-v001/*.json text eol=lf
+docs/production/pino/evidence/rig-v001/*.md text eol=lf
+assets/grimo/production/pino/candidate-c/rig-v001/README.md text eol=lf
+scripts/3d/package-pino-base-rig-v001.py text eol=lf
+scripts/blender/*pino*rig-v001.py text eol=lf
+scripts/blender/repair-pino-proof-support-v001.py text eol=lf

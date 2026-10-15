@@ -1,0 +1,74 @@
+{
+  "tail": {
+    "samples": 9,
+    "below_floor_vertices_max": 0,
+    "min_z": -9.020368452183902e-09,
+    "edge_ratio_max": 1.1676966584298591,
+    "edge_ratio_p99_max": 1.0647612053483235,
+    "tail_volume_ratio_range": [
+      0.9998920793802941,
+      1.0000029989779522
+    ],
+    "neutral_pixels": {
+      "neutral_return_pixel_equal": true
+    }
+  },
+  "eyes": {
+    "samples": 9,
+    "below_floor_vertices_max": 0,
+    "min_z": -9.020368452183902e-09,
+    "edge_ratio_max": 1.2612404288145473,
+    "edge_ratio_p99_max": 1.0000012343675428,
+    "tail_volume_ratio_range": [
+      1.0000000632535329,
+      1.0000000632535329
+    ],
+    "neutral_pixels": {
+      "neutral_return_pixel_equal": true
+    }
+  },
+  "paws": {
+    "samples": 13,
+    "below_floor_vertices_max": 0,
+    "min_z": -9.020368452183902e-09,
+    "edge_ratio_max": 3.0224019126165564,
+    "edge_ratio_p99_max": 1.4501886106639879,
+    "tail_volume_ratio_range": [
+      1.0000000632535329,
+      1.0000000632535329
+    ],
+    "neutral_pixels": {
+      "neutral_return_pixel_equal": true
+    }
+  },
+  "rest": {
+    "samples": 9,
+    "below_floor_vertices_max": 0,
+    "min_z": -6.246154953259975e-06,
+    "edge_ratio_max": 1.750483777110342,
+    "edge_ratio_p99_max": 1.0859154478011788,
+    "tail_volume_ratio_range": [
+      1.0000000632535329,
+      1.0098455903508075
+    ],
+    "neutral_pixels": {
+      "neutral_return_pixel_equal": true
+    }
+  },
+  "high_five_endpoint_errors": {
+    "L": 5.5457253449977844e-05,
+    "R": 5.220324249781105e-05
+  },
+  "both_paw_min_gap_at_extreme": 0.005281590533242278,
+  "rest_foot_contact_counts": [
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60,
+    60
+  ]
+}
