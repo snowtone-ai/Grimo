@@ -1,0 +1,451 @@
+[
+  {
+    "name": "mouth",
+    "start": 1,
+    "half": 7,
+    "peak": 13,
+    "end": 19,
+    "return": 25,
+    "values": [
+      [
+        0,
+        {
+          "mouth_close": 1
+        }
+      ],
+      [
+        6,
+        {
+          "mouth_close": 0.65
+        }
+      ],
+      [
+        12,
+        {}
+      ],
+      [
+        18,
+        {
+          "mouth_open": 1
+        }
+      ],
+      [
+        24,
+        {
+          "mouth_close": 1
+        }
+      ]
+    ]
+  },
+  {
+    "name": "blink",
+    "start": 29,
+    "half": 35,
+    "peak": 41,
+    "end": 47,
+    "return": 53,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "blink.L": 0.5,
+          "blink.R": 0.5
+        }
+      ],
+      [
+        12,
+        {
+          "blink.L": 1,
+          "blink.R": 1
+        }
+      ],
+      [
+        18,
+        {
+          "blink.L": 0.5,
+          "blink.R": 0.5
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "head",
+    "start": 57,
+    "half": 63,
+    "peak": 69,
+    "end": 75,
+    "return": 81,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "head_yaw": 0.5,
+          "head_nod": 0.2
+        }
+      ],
+      [
+        12,
+        {
+          "head_yaw": 1,
+          "head_nod": 0.4,
+          "head_tilt": 0.3
+        }
+      ],
+      [
+        18,
+        {
+          "head_yaw": -0.5
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "wing-L",
+    "start": 85,
+    "half": 91,
+    "peak": 97,
+    "end": 103,
+    "return": 109,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "wing_open.L": 0.5
+        }
+      ],
+      [
+        12,
+        {
+          "wing_open.L": 1,
+          "wing_camber.L": 0.5
+        }
+      ],
+      [
+        18,
+        {
+          "wing_open.L": -1
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "wing-R",
+    "start": 113,
+    "half": 119,
+    "peak": 125,
+    "end": 131,
+    "return": 137,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "wing_open.R": 0.5
+        }
+      ],
+      [
+        12,
+        {
+          "wing_open.R": 1,
+          "wing_camber.R": 0.5
+        }
+      ],
+      [
+        18,
+        {
+          "wing_open.R": -1
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "wings-fold",
+    "start": 141,
+    "half": 147,
+    "peak": 153,
+    "end": 159,
+    "return": 165,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "wing_open.L": -0.5,
+          "wing_open.R": -0.5
+        }
+      ],
+      [
+        12,
+        {
+          "wing_open.L": -1,
+          "wing_open.R": -1
+        }
+      ],
+      [
+        18,
+        {
+          "wing_open.L": -0.5,
+          "wing_open.R": -0.5
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "paw-L",
+    "start": 169,
+    "half": 175,
+    "peak": 181,
+    "end": 187,
+    "return": 193,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "paw_offer.L": 0.5
+        }
+      ],
+      [
+        12,
+        {
+          "paw_offer.L": 1,
+          "paw_turn.L": 0.3
+        }
+      ],
+      [
+        18,
+        {
+          "paw_offer.L": 0.5
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "paw-R",
+    "start": 197,
+    "half": 203,
+    "peak": 209,
+    "end": 215,
+    "return": 221,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "paw_offer.R": 0.5
+        }
+      ],
+      [
+        12,
+        {
+          "paw_offer.R": 1,
+          "paw_turn.R": -0.3
+        }
+      ],
+      [
+        18,
+        {
+          "paw_offer.R": 0.5
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "tail-leaves",
+    "start": 225,
+    "half": 231,
+    "peak": 237,
+    "end": 243,
+    "return": 249,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "tail_sway": 0.5,
+          "leaves_tail": 0.3
+        }
+      ],
+      [
+        12,
+        {
+          "tail_sway": 1,
+          "tail_curl": 0.3,
+          "leaves_tail": 0.5,
+          "leaves_neck.L": 0.5
+        }
+      ],
+      [
+        18,
+        {
+          "tail_sway": -0.5,
+          "leaves_tail": -0.3
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "combined-L",
+    "start": 253,
+    "half": 259,
+    "peak": 265,
+    "end": 271,
+    "return": 277,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "head_yaw": -0.25,
+          "wing_open.L": 0.4,
+          "paw_offer.L": 0.35,
+          "tail_sway": 0.3,
+          "blink.R": 0.25
+        }
+      ],
+      [
+        12,
+        {
+          "head_yaw": -0.5,
+          "head_tilt": 0.3,
+          "wing_open.L": 0.8,
+          "wing_open.R": -0.65,
+          "paw_offer.L": 0.7,
+          "tail_sway": 0.65,
+          "blink.R": 0.5,
+          "mouth_close": 0.6,
+          "leaves_neck.L": 0.5,
+          "breath": 0.7
+        }
+      ],
+      [
+        18,
+        {
+          "head_yaw": -0.25,
+          "wing_open.L": 0.4,
+          "paw_offer.L": 0.35,
+          "tail_sway": 0.3,
+          "blink.R": 0.25
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  },
+  {
+    "name": "combined-R",
+    "start": 281,
+    "half": 287,
+    "peak": 293,
+    "end": 299,
+    "return": 305,
+    "values": [
+      [
+        0,
+        {}
+      ],
+      [
+        6,
+        {
+          "head_yaw": 0.25,
+          "wing_open.R": 0.4,
+          "paw_offer.R": 0.35,
+          "tail_sway": -0.3,
+          "blink.L": 0.25
+        }
+      ],
+      [
+        12,
+        {
+          "head_yaw": 0.5,
+          "head_tilt": -0.3,
+          "wing_open.R": 0.8,
+          "wing_open.L": -0.65,
+          "paw_offer.R": 0.7,
+          "tail_sway": -0.65,
+          "blink.L": 0.5,
+          "mouth_open": 0.35,
+          "leaves_neck.R": 0.5
+        }
+      ],
+      [
+        18,
+        {
+          "head_yaw": 0.25,
+          "wing_open.R": 0.4,
+          "paw_offer.R": 0.35,
+          "tail_sway": -0.3,
+          "blink.L": 0.25
+        }
+      ],
+      [
+        24,
+        {}
+      ]
+    ]
+  }
+]

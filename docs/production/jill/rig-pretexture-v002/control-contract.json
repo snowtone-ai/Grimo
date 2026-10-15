@@ -1,0 +1,2755 @@
+{
+  "status": "IMPLEMENTED REVIEW / HOLD, Human PENDING",
+  "coordinates": "Blender Z up, front -Y, anatomical L +X; glTF Y up exported by Blender",
+  "authoring_properties": {
+    "chest_lift": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "breath": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "head_yaw": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "head_nod": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "head_tilt": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "tail_sway": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "tail_curl": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "leaves_head.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "leaves_head.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "leaves_neck.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "leaves_neck.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "leaves_tail": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Bounded authoring channel; Human appearance approval pending"
+    },
+    "wing_open.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "wing_flap.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "wing_camber.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "paw_offer.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "paw_turn.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "gaze_x.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "gaze_y.L": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "blink.L": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "smile.L": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "cheek_touch.L": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "paw_ik.L": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "foot_ik.L": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical L"
+    },
+    "wing_open.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "wing_flap.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "wing_camber.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "paw_offer.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "paw_turn.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "gaze_x.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "gaze_y.R": {
+      "range": [
+        -1,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "blink.R": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "smile.R": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "cheek_touch.R": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "paw_ik.R": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "foot_ik.R": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Independent anatomical R"
+    },
+    "mouth_close": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Close existing small open mouth, preserve neutral face outline"
+    },
+    "mouth_open": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Small additional opening, not a full food performance library"
+    },
+    "chest_touch": {
+      "range": [
+        0,
+        1
+      ],
+      "default": 0,
+      "description": "Local chest surface compression, independent of support"
+    }
+  },
+  "deform_skeleton": [
+    {
+      "name": "ROOT",
+      "parent": null,
+      "head": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tail": [
+        0.0,
+        0.0,
+        0.10000000149011612
+      ],
+      "deform": false,
+      "category": "Body"
+    },
+    {
+      "name": "DEF_pelvis",
+      "parent": "ROOT",
+      "head": [
+        0.0,
+        -0.10999999940395355,
+        0.2199999988079071
+      ],
+      "tail": [
+        0.0,
+        -0.12999999523162842,
+        0.28999999165534973
+      ],
+      "deform": true,
+      "category": "Body"
+    },
+    {
+      "name": "DEF_spine",
+      "parent": "DEF_pelvis",
+      "head": [
+        0.0,
+        -0.12999999523162842,
+        0.28999999165534973
+      ],
+      "tail": [
+        0.0,
+        -0.17000000178813934,
+        0.4000000059604645
+      ],
+      "deform": true,
+      "category": "Body"
+    },
+    {
+      "name": "DEF_chest",
+      "parent": "DEF_spine",
+      "head": [
+        0.0,
+        -0.17000000178813934,
+        0.4000000059604645
+      ],
+      "tail": [
+        0.0,
+        -0.1899999976158142,
+        0.5199999809265137
+      ],
+      "deform": true,
+      "category": "Body"
+    },
+    {
+      "name": "DEF_neck",
+      "parent": "DEF_chest",
+      "head": [
+        0.0,
+        -0.1899999976158142,
+        0.5199999809265137
+      ],
+      "tail": [
+        0.0,
+        -0.20499999821186066,
+        0.5649999976158142
+      ],
+      "deform": true,
+      "category": "Body"
+    },
+    {
+      "name": "DEF_head",
+      "parent": "DEF_neck",
+      "head": [
+        0.0,
+        -0.20499999821186066,
+        0.5649999976158142
+      ],
+      "tail": [
+        0.0,
+        -0.23000000417232513,
+        0.7699999809265137
+      ],
+      "deform": true,
+      "category": "Body"
+    },
+    {
+      "name": "DEF_scapula.L",
+      "parent": "DEF_chest",
+      "head": [
+        0.029282545670866966,
+        -0.1893606185913086,
+        0.4899951219558716
+      ],
+      "tail": [
+        0.08784770965576172,
+        -0.18155193328857422,
+        0.46266472339630127
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_upperarm.L",
+      "parent": "DEF_scapula.L",
+      "head": [
+        0.08784770965576172,
+        -0.18155193328857422,
+        0.46266472339630127
+      ],
+      "tail": [
+        0.15519757568836212,
+        -0.17569540441036224,
+        0.4245973527431488
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_forearm.L",
+      "parent": "DEF_upperarm.L",
+      "head": [
+        0.17764759063720703,
+        -0.17374318838119507,
+        0.4119083285331726
+      ],
+      "tail": [
+        0.21574178338050842,
+        -0.18660874664783478,
+        0.3940478265285492
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_paw.L",
+      "parent": "DEF_forearm.L",
+      "head": [
+        0.25253117084503174,
+        -0.19917866587638855,
+        0.3766728937625885
+      ],
+      "tail": [
+        0.2751827538013458,
+        -0.2024250626564026,
+        0.36265936493873596
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_thigh.L",
+      "parent": "DEF_pelvis",
+      "head": [
+        0.12298674881458282,
+        -0.10736939311027527,
+        0.17764772474765778
+      ],
+      "tail": [
+        0.12591497600078583,
+        -0.10444112867116928,
+        0.11615432798862457
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_shin.L",
+      "parent": "DEF_thigh.L",
+      "head": [
+        0.12689100205898285,
+        -0.10346510261297226,
+        0.09565652161836624
+      ],
+      "tail": [
+        0.12882472574710846,
+        -0.09948109835386276,
+        0.07180178165435791
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_foot.L",
+      "parent": "DEF_shin.L",
+      "head": [
+        0.13079532980918884,
+        -0.09565640240907669,
+        0.048804376274347305
+      ],
+      "tail": [
+        0.1503170281648636,
+        -0.16203011572360992,
+        0.025378350168466568
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_wing_girdle.L",
+      "parent": "DEF_chest",
+      "head": [
+        0.03500000014901161,
+        -0.09000000357627869,
+        0.5
+      ],
+      "tail": [
+        0.07000000029802322,
+        -0.125,
+        0.49000000953674316
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_wing_root.L",
+      "parent": "DEF_wing_girdle.L",
+      "head": [
+        0.07000000029802322,
+        -0.125,
+        0.49000000953674316
+      ],
+      "tail": [
+        0.22499999403953552,
+        -0.014999999664723873,
+        0.5699999928474426
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_wing_outer.L",
+      "parent": "DEF_wing_root.L",
+      "head": [
+        0.22499999403953552,
+        -0.014999999664723873,
+        0.5699999928474426
+      ],
+      "tail": [
+        0.4050000011920929,
+        0.02500000037252903,
+        0.6100000143051147
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_wing_membrane.L",
+      "parent": "DEF_wing_root.L",
+      "head": [
+        0.22499999403953552,
+        -0.014999999664723873,
+        0.5699999928474426
+      ],
+      "tail": [
+        0.25,
+        0.125,
+        0.46000000834465027
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_eye.L",
+      "parent": "DEF_head",
+      "head": [
+        0.09904519468545914,
+        -0.30889758467674255,
+        0.6722314953804016
+      ],
+      "tail": [
+        0.11991943418979645,
+        -0.34301891922950745,
+        0.6722314953804016
+      ],
+      "deform": true,
+      "category": "Face"
+    },
+    {
+      "name": "DEF_scapula.R",
+      "parent": "DEF_chest",
+      "head": [
+        -0.02537824958562851,
+        -0.1893606036901474,
+        0.4899951219558716
+      ],
+      "tail": [
+        -0.08394335955381393,
+        -0.1815519481897354,
+        0.46266472339630127
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_upperarm.R",
+      "parent": "DEF_scapula.R",
+      "head": [
+        -0.08394335955381393,
+        -0.1815519481897354,
+        0.46266472339630127
+      ],
+      "tail": [
+        -0.1512933224439621,
+        -0.17569540441036224,
+        0.4245973527431488
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_forearm.R",
+      "parent": "DEF_upperarm.R",
+      "head": [
+        -0.17374330759048462,
+        -0.17374320328235626,
+        0.41190823912620544
+      ],
+      "tail": [
+        -0.2118297964334488,
+        -0.18678422272205353,
+        0.38974329829216003
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_paw.R",
+      "parent": "DEF_forearm.R",
+      "head": [
+        -0.24946020543575287,
+        -0.1996174454689026,
+        0.3678991496562958
+      ],
+      "tail": [
+        -0.2706054151058197,
+        -0.19988295435905457,
+        0.35408473014831543
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_thigh.R",
+      "parent": "DEF_pelvis",
+      "head": [
+        -0.11908247321844101,
+        -0.10736944526433945,
+        0.1776476353406906
+      ],
+      "tail": [
+        -0.1220107302069664,
+        -0.10444117337465286,
+        0.11615420877933502
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_shin.R",
+      "parent": "DEF_thigh.R",
+      "head": [
+        -0.1229868084192276,
+        -0.10346511006355286,
+        0.09565641731023788
+      ],
+      "tail": [
+        -0.12490453571081161,
+        -0.09942847490310669,
+        0.07133805006742477
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_foot.R",
+      "parent": "DEF_shin.R",
+      "head": [
+        -0.1268911361694336,
+        -0.09565643221139908,
+        0.04880432039499283
+      ],
+      "tail": [
+        -0.14641284942626953,
+        -0.16203032433986664,
+        0.02537824586033821
+      ],
+      "deform": true,
+      "category": "Limbs"
+    },
+    {
+      "name": "DEF_wing_girdle.R",
+      "parent": "DEF_chest",
+      "head": [
+        -0.03500000014901161,
+        -0.09000000357627869,
+        0.5
+      ],
+      "tail": [
+        -0.07000000029802322,
+        -0.125,
+        0.49000000953674316
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_wing_root.R",
+      "parent": "DEF_wing_girdle.R",
+      "head": [
+        -0.07000000029802322,
+        -0.125,
+        0.49000000953674316
+      ],
+      "tail": [
+        -0.22499999403953552,
+        -0.014999999664723873,
+        0.5699999928474426
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_wing_outer.R",
+      "parent": "DEF_wing_root.R",
+      "head": [
+        -0.22499999403953552,
+        -0.014999999664723873,
+        0.5699999928474426
+      ],
+      "tail": [
+        -0.4050000011920929,
+        0.02500000037252903,
+        0.6100000143051147
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_wing_membrane.R",
+      "parent": "DEF_wing_root.R",
+      "head": [
+        -0.22499999403953552,
+        -0.014999999664723873,
+        0.5699999928474426
+      ],
+      "tail": [
+        -0.25,
+        0.125,
+        0.46000000834465027
+      ],
+      "deform": true,
+      "category": "Wings"
+    },
+    {
+      "name": "DEF_eye.R",
+      "parent": "DEF_head",
+      "head": [
+        -0.099052794277668,
+        -0.3089143633842468,
+        0.6722392439842224
+      ],
+      "tail": [
+        -0.11992703378200531,
+        -0.3430356979370117,
+        0.6722392439842224
+      ],
+      "deform": true,
+      "category": "Face"
+    },
+    {
+      "name": "DEF_tail_00",
+      "parent": "DEF_pelvis",
+      "head": [
+        0.0,
+        0.07500000298023224,
+        0.22499999403953552
+      ],
+      "tail": [
+        0.0,
+        0.1599999964237213,
+        0.20499999821186066
+      ],
+      "deform": true,
+      "category": "Tail"
+    },
+    {
+      "name": "DEF_tail_01",
+      "parent": "DEF_tail_00",
+      "head": [
+        0.0,
+        0.1599999964237213,
+        0.20499999821186066
+      ],
+      "tail": [
+        0.0,
+        0.25,
+        0.2199999988079071
+      ],
+      "deform": true,
+      "category": "Tail"
+    },
+    {
+      "name": "DEF_tail_02",
+      "parent": "DEF_tail_01",
+      "head": [
+        0.0,
+        0.25,
+        0.2199999988079071
+      ],
+      "tail": [
+        0.0,
+        0.32499998807907104,
+        0.2750000059604645
+      ],
+      "deform": true,
+      "category": "Tail"
+    },
+    {
+      "name": "DEF_tail_03",
+      "parent": "DEF_tail_02",
+      "head": [
+        0.0,
+        0.32499998807907104,
+        0.2750000059604645
+      ],
+      "tail": [
+        0.0,
+        0.36500000953674316,
+        0.35499998927116394
+      ],
+      "deform": true,
+      "category": "Tail"
+    },
+    {
+      "name": "DEF_tail_04",
+      "parent": "DEF_tail_03",
+      "head": [
+        0.0,
+        0.36500000953674316,
+        0.35499998927116394
+      ],
+      "tail": [
+        0.0,
+        0.36000001430511475,
+        0.4399999976158142
+      ],
+      "deform": true,
+      "category": "Tail"
+    },
+    {
+      "name": "DEF_tail_05",
+      "parent": "DEF_tail_04",
+      "head": [
+        0.0,
+        0.36000001430511475,
+        0.4399999976158142
+      ],
+      "tail": [
+        0.0,
+        0.32499998807907104,
+        0.5149999856948853
+      ],
+      "deform": true,
+      "category": "Tail"
+    },
+    {
+      "name": "DEF_leaf_003",
+      "parent": "DEF_head",
+      "head": [
+        0.010324213653802872,
+        -0.3464087247848511,
+        0.7907949090003967
+      ],
+      "tail": [
+        0.015153505839407444,
+        -0.27232372760772705,
+        0.9134604930877686
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_005",
+      "parent": "DEF_chest",
+      "head": [
+        0.0016054441221058369,
+        -0.03640652075409889,
+        0.39638081192970276
+      ],
+      "tail": [
+        -0.004298340529203415,
+        0.12055370211601257,
+        0.3199573755264282
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_006",
+      "parent": "DEF_chest",
+      "head": [
+        0.04567177593708038,
+        -0.08973907679319382,
+        0.4830147922039032
+      ],
+      "tail": [
+        0.07611960172653198,
+        -0.09238973259925842,
+        0.5683942437171936
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_007",
+      "parent": "DEF_tail_05",
+      "head": [
+        -0.0022609669249504805,
+        0.32112985849380493,
+        0.43087631464004517
+      ],
+      "tail": [
+        -0.0003715282946359366,
+        0.3031696081161499,
+        0.46444034576416016
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_008",
+      "parent": "DEF_chest",
+      "head": [
+        -0.0013760278234258294,
+        -0.059237368404865265,
+        0.4100452661514282
+      ],
+      "tail": [
+        -0.005903733428567648,
+        -0.007812471129000187,
+        0.42966529726982117
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_009",
+      "parent": "DEF_tail_01",
+      "head": [
+        -0.0013834623387083411,
+        0.2181338369846344,
+        0.2734374701976776
+      ],
+      "tail": [
+        -0.0030808199662715197,
+        0.2107863873243332,
+        0.3251952826976776
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_010",
+      "parent": "DEF_tail_03",
+      "head": [
+        -0.0015694834291934967,
+        0.2885858714580536,
+        0.3143600821495056
+      ],
+      "tail": [
+        -0.004964197054505348,
+        0.2611258625984192,
+        0.3693266212940216
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_011",
+      "parent": "DEF_tail_00",
+      "head": [
+        -0.000639402074739337,
+        0.1220586970448494,
+        0.2739955484867096
+      ],
+      "tail": [
+        -0.002662285231053829,
+        0.1507975459098816,
+        0.3271251916885376
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_012",
+      "parent": "DEF_chest",
+      "head": [
+        -0.0007323977770283818,
+        0.043747689574956894,
+        0.3211263120174408
+      ],
+      "tail": [
+        -0.004382886923849583,
+        0.08480982482433319,
+        0.3530738353729248
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_013",
+      "parent": "DEF_chest",
+      "head": [
+        -0.0015136399306356907,
+        -0.01589353382587433,
+        0.361572265625
+      ],
+      "tail": [
+        -0.004809545353055,
+        0.03620608150959015,
+        0.3919433653354645
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_014",
+      "parent": "DEF_head",
+      "head": [
+        0.1919189840555191,
+        -0.10219717025756836,
+        0.762768566608429
+      ],
+      "tail": [
+        0.2763916254043579,
+        0.003979607485234737,
+        0.8476806879043579
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_015",
+      "parent": "DEF_head",
+      "head": [
+        -0.19148758053779602,
+        -0.10169808566570282,
+        0.75830078125
+      ],
+      "tail": [
+        -0.2699923813343048,
+        0.0035536466166377068,
+        0.8492838740348816
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_016",
+      "parent": "DEF_head",
+      "head": [
+        -0.16783307492733002,
+        -0.1271429806947708,
+        0.6650661826133728
+      ],
+      "tail": [
+        -0.3135850429534912,
+        -0.002061614766716957,
+        0.672119140625
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_017",
+      "parent": "DEF_head",
+      "head": [
+        -0.17568068206310272,
+        -0.12785783410072327,
+        0.7078642249107361
+      ],
+      "tail": [
+        -0.3157312572002411,
+        -0.018655188381671906,
+        0.7734662294387817
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_018",
+      "parent": "DEF_head",
+      "head": [
+        0.24375291168689728,
+        -0.08913996070623398,
+        0.714958667755127
+      ],
+      "tail": [
+        0.2985265552997589,
+        -0.014576529152691364,
+        0.7201573848724365
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_019",
+      "parent": "DEF_head",
+      "head": [
+        -0.080236054956913,
+        -0.12653659284114838,
+        0.827263355255127
+      ],
+      "tail": [
+        -0.15772917866706848,
+        -0.012077715247869492,
+        0.9055319428443909
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_020",
+      "parent": "DEF_head",
+      "head": [
+        0.07994891703128815,
+        -0.12725462019443512,
+        0.8260856866836548
+      ],
+      "tail": [
+        0.1589355766773224,
+        -0.011129832826554775,
+        0.9080595374107361
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_021",
+      "parent": "DEF_head",
+      "head": [
+        -0.24521766602993011,
+        -0.08879534900188446,
+        0.7126321196556091
+      ],
+      "tail": [
+        -0.2986414134502411,
+        -0.014432994648814201,
+        0.7161650061607361
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_022",
+      "parent": "DEF_head",
+      "head": [
+        0.168500155210495,
+        -0.1266801804304123,
+        0.6638327240943909
+      ],
+      "tail": [
+        0.3186035454273224,
+        -0.002139720367267728,
+        0.6744599938392639
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_023",
+      "parent": "DEF_head",
+      "head": [
+        0.16740870475769043,
+        -0.13549795746803284,
+        0.7113683223724365
+      ],
+      "tail": [
+        0.3189769387245178,
+        -0.016644533723592758,
+        0.774528980255127
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_024",
+      "parent": "DEF_head",
+      "head": [
+        0.15953876078128815,
+        -0.1385425627231598,
+        0.6344783902168274
+      ],
+      "tail": [
+        0.24228805303573608,
+        -0.028736703097820282,
+        0.6303998231887817
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_025",
+      "parent": "DEF_head",
+      "head": [
+        -0.16061396896839142,
+        -0.1389159858226776,
+        0.633453369140625
+      ],
+      "tail": [
+        -0.2390136420726776,
+        -0.03015134483575821,
+        0.6279296875
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_026",
+      "parent": "DEF_head",
+      "head": [
+        -0.07015985250473022,
+        -0.20581048727035522,
+        0.85101318359375
+      ],
+      "tail": [
+        -0.11520380526781082,
+        -0.17806999385356903,
+        0.916290283203125
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_027",
+      "parent": "DEF_head",
+      "head": [
+        0.061462461948394775,
+        -0.21517935395240784,
+        0.84930419921875
+      ],
+      "tail": [
+        0.10751347988843918,
+        -0.18493641912937164,
+        0.910919189453125
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_028",
+      "parent": "DEF_head",
+      "head": [
+        0.08691411465406418,
+        -0.15322867035865784,
+        0.83953857421875
+      ],
+      "tail": [
+        0.15631107985973358,
+        -0.056976206600666046,
+        0.960693359375
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_029",
+      "parent": "DEF_head",
+      "head": [
+        -0.07812494784593582,
+        -0.15429681539535522,
+        0.8385009765625
+      ],
+      "tail": [
+        -0.15835566818714142,
+        -0.05767815560102463,
+        0.9588623046875
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_030",
+      "parent": "DEF_neck",
+      "head": [
+        0.16912846267223358,
+        -0.15429681539535522,
+        0.608184814453125
+      ],
+      "tail": [
+        0.2910156548023224,
+        -0.034637365490198135,
+        0.602386474609375
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_031",
+      "parent": "DEF_head",
+      "head": [
+        0.16121424734592438,
+        -0.16944977641105652,
+        0.7822591066360474
+      ],
+      "tail": [
+        0.20021162927150726,
+        -0.1350422203540802,
+        0.8193684816360474
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_032",
+      "parent": "DEF_neck",
+      "head": [
+        -0.16990555822849274,
+        -0.1559407263994217,
+        0.6044270992279053
+      ],
+      "tail": [
+        -0.28585609793663025,
+        -0.034749336540699005,
+        0.598925769329071
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_033",
+      "parent": "DEF_chest",
+      "head": [
+        -0.09663081169128418,
+        -0.14998368918895721,
+        0.5242838263511658
+      ],
+      "tail": [
+        -0.16271154582500458,
+        -0.12042641639709473,
+        0.5095377564430237
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_034",
+      "parent": "DEF_neck",
+      "head": [
+        -0.12443029135465622,
+        -0.13676755130290985,
+        0.6023762822151184
+      ],
+      "tail": [
+        -0.2054198980331421,
+        -0.04617510735988617,
+        0.5696614384651184
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_035",
+      "parent": "DEF_head",
+      "head": [
+        -0.1611490398645401,
+        -0.1694498062133789,
+        0.7822591066360474
+      ],
+      "tail": [
+        -0.2002115398645401,
+        -0.13507482409477234,
+        0.8193684816360474
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_036",
+      "parent": "DEF_head",
+      "head": [
+        0.03859055042266846,
+        -0.20515941083431244,
+        0.8916991949081421
+      ],
+      "tail": [
+        0.05616867169737816,
+        -0.16541332006454468,
+        0.9458333253860474
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_037",
+      "parent": "DEF_chest",
+      "head": [
+        0.09663090854883194,
+        -0.14962559938430786,
+        0.5243164300918579
+      ],
+      "tail": [
+        0.16098637878894806,
+        -0.12101230770349503,
+        0.5121419429779053
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_038",
+      "parent": "DEF_neck",
+      "head": [
+        0.12436527758836746,
+        -0.13416334986686707,
+        0.602246105670929
+      ],
+      "tail": [
+        0.20691734552383423,
+        -0.04392896220088005,
+        0.5701822638511658
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_039",
+      "parent": "DEF_chest",
+      "head": [
+        -0.14474046230316162,
+        -0.1729561686515808,
+        0.5623604655265808
+      ],
+      "tail": [
+        -0.22743438184261322,
+        -0.0993303433060646,
+        0.5446428656578064
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_040",
+      "parent": "DEF_head",
+      "head": [
+        0.031738344579935074,
+        -0.26967066526412964,
+        0.843994140625
+      ],
+      "tail": [
+        0.042166635394096375,
+        -0.25795191526412964,
+        0.884033203125
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_041",
+      "parent": "DEF_chest",
+      "head": [
+        0.10435272753238678,
+        -0.12723208963871002,
+        0.55908203125
+      ],
+      "tail": [
+        0.13926483690738678,
+        -0.10445724427700043,
+        0.5672084093093872
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_042",
+      "parent": "DEF_chest",
+      "head": [
+        0.15028604865074158,
+        -0.17034034430980682,
+        0.5621861219406128
+      ],
+      "tail": [
+        0.23346823453903198,
+        -0.09751667082309723,
+        0.5471888780593872
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_043",
+      "parent": "DEF_chest",
+      "head": [
+        -0.10417824983596802,
+        -0.1254882514476776,
+        0.5584891438484192
+      ],
+      "tail": [
+        -0.13849744200706482,
+        -0.10581749677658081,
+        0.5677315592765808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_044",
+      "parent": "DEF_head",
+      "head": [
+        -0.048025913536548615,
+        -0.05890759080648422,
+        0.6937779188156128
+      ],
+      "tail": [
+        -0.0985979214310646,
+        0.08994843065738678,
+        0.7493721842765808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_045",
+      "parent": "DEF_head",
+      "head": [
+        -0.08450747281312943,
+        -0.20846113562583923,
+        0.8921944499015808
+      ],
+      "tail": [
+        -0.10396897792816162,
+        -0.19866064190864563,
+        0.9198172688484192
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_046",
+      "parent": "DEF_head",
+      "head": [
+        0.049944259226322174,
+        -0.24309423565864563,
+        0.853271484375
+      ],
+      "tail": [
+        0.06930112093687057,
+        -0.22426049411296844,
+        0.8978096842765808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_047",
+      "parent": "DEF_head",
+      "head": [
+        -0.17853650450706482,
+        -0.14944890141487122,
+        0.7174595594406128
+      ],
+      "tail": [
+        -0.24965117871761322,
+        -0.13413779437541962,
+        0.7490234375
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_048",
+      "parent": "DEF_neck",
+      "head": [
+        -0.06106999143958092,
+        -0.07474186271429062,
+        0.6195940375328064
+      ],
+      "tail": [
+        -0.11812916398048401,
+        0.05887280032038689,
+        0.5840889811515808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_049",
+      "parent": "DEF_head",
+      "head": [
+        -0.16856160759925842,
+        -0.16263248026371002,
+        0.7562430500984192
+      ],
+      "tail": [
+        -0.22593466937541962,
+        -0.11261853575706482,
+        0.7939104437828064
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_050",
+      "parent": "DEF_neck",
+      "head": [
+        0.06103519722819328,
+        -0.07460233569145203,
+        0.6195940375328064
+      ],
+      "tail": [
+        0.11802457273006439,
+        0.05904721841216087,
+        0.5841587781906128
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_051",
+      "parent": "DEF_chest",
+      "head": [
+        -0.12350022047758102,
+        -0.2005440592765808,
+        0.5409807562828064
+      ],
+      "tail": [
+        -0.15178565680980682,
+        -0.2031598538160324,
+        0.5374581217765808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_052",
+      "parent": "DEF_head",
+      "head": [
+        -0.09172708541154861,
+        -0.06658059358596802,
+        0.6638880968093872
+      ],
+      "tail": [
+        -0.1759207397699356,
+        0.09238982200622559,
+        0.6863839030265808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_053",
+      "parent": "DEF_neck",
+      "head": [
+        -6.971553375478834e-05,
+        -0.07087048143148422,
+        0.6039690375328064
+      ],
+      "tail": [
+        -0.004255001898854971,
+        0.07034742087125778,
+        0.5665806531906128
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_054",
+      "parent": "DEF_head",
+      "head": [
+        -0.0019879641477018595,
+        -0.061244361102581024,
+        0.6744210124015808
+      ],
+      "tail": [
+        -0.00435964111238718,
+        0.13047578930854797,
+        0.6922432780265808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_055",
+      "parent": "DEF_head",
+      "head": [
+        -0.10567797720432281,
+        -0.07617183029651642,
+        0.7196219563484192
+      ],
+      "tail": [
+        -0.1992187350988388,
+        0.09340127557516098,
+        0.8051060438156128
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_056",
+      "parent": "DEF_head",
+      "head": [
+        -0.05468745902180672,
+        -0.07679960131645203,
+        0.7691475749015808
+      ],
+      "tail": [
+        -0.11387413740158081,
+        0.07634633034467697,
+        0.8697684407234192
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_057",
+      "parent": "DEF_head",
+      "head": [
+        -0.004394494462758303,
+        -0.05507108196616173,
+        0.7317243218421936
+      ],
+      "tail": [
+        -0.00680104736238718,
+        0.12946435809135437,
+        0.8204520344734192
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_058",
+      "parent": "DEF_head",
+      "head": [
+        -0.04342211037874222,
+        -0.11938469856977463,
+        0.8193010687828064
+      ],
+      "tail": [
+        -0.07324215769767761,
+        0.015485570766031742,
+        0.9344307780265808
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_059",
+      "parent": "DEF_head",
+      "head": [
+        0.0009766026632860303,
+        -0.08007805049419403,
+        0.7920619249343872
+      ],
+      "tail": [
+        -0.006522024981677532,
+        0.09252937883138657,
+        0.8899623155593872
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_060",
+      "parent": "DEF_head",
+      "head": [
+        0.047816723585128784,
+        -0.05643129721283913,
+        0.6916852593421936
+      ],
+      "tail": [
+        0.0983886867761612,
+        0.09008797258138657,
+        0.7494419813156128
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_061",
+      "parent": "DEF_chest",
+      "head": [
+        0.12353521585464478,
+        -0.20064865052700043,
+        0.5409110188484192
+      ],
+      "tail": [
+        0.15237869322299957,
+        -0.20267154276371002,
+        0.5365164875984192
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_062",
+      "parent": "DEF_head",
+      "head": [
+        0.16863146424293518,
+        -0.16259756684303284,
+        0.7562430500984192
+      ],
+      "tail": [
+        0.22593475878238678,
+        -0.11261847615242004,
+        0.7938407063484192
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_063",
+      "parent": "DEF_head",
+      "head": [
+        0.09172715991735458,
+        -0.06637129932641983,
+        0.663818359375
+      ],
+      "tail": [
+        0.1758510172367096,
+        0.09256425499916077,
+        0.6864537000656128
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_064",
+      "parent": "DEF_head",
+      "head": [
+        0.04335244372487068,
+        -0.11917541921138763,
+        0.8192313313484192
+      ],
+      "tail": [
+        0.07275393605232239,
+        0.01579948514699936,
+        0.9344657063484192
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_065",
+      "parent": "DEF_head",
+      "head": [
+        0.10557342320680618,
+        -0.07599741220474243,
+        0.7196568250656128
+      ],
+      "tail": [
+        0.1990443766117096,
+        0.09343620389699936,
+        0.8053153157234192
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_066",
+      "parent": "DEF_chest",
+      "head": [
+        -0.0423114113509655,
+        -0.06537330895662308,
+        0.5591946840286255
+      ],
+      "tail": [
+        -0.07066929340362549,
+        -0.001971869496628642,
+        0.556565523147583
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_067",
+      "parent": "DEF_chest",
+      "head": [
+        0.11258643865585327,
+        -0.1825232356786728,
+        0.508713960647583
+      ],
+      "tail": [
+        0.1387282758951187,
+        -0.1835373491048813,
+        0.5329026579856873
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_068",
+      "parent": "DEF_chest",
+      "head": [
+        0.10191938281059265,
+        -0.22320081293582916,
+        0.5068359375
+      ],
+      "tail": [
+        0.13658735156059265,
+        -0.23262839019298553,
+        0.5217848420143127
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_069",
+      "parent": "DEF_chest",
+      "head": [
+        0.04201100766658783,
+        -0.06522305309772491,
+        0.5590444803237915
+      ],
+      "tail": [
+        0.07055667042732239,
+        -0.001784050720743835,
+        0.5566030740737915
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_070",
+      "parent": "DEF_head",
+      "head": [
+        0.05444340035319328,
+        -0.07915782183408737,
+        0.7697941660881042
+      ],
+      "tail": [
+        0.11371321231126785,
+        0.07634099572896957,
+        0.8700796365737915
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_071",
+      "parent": "DEF_chest",
+      "head": [
+        -0.11258633434772491,
+        -0.18259838223457336,
+        0.5087515115737915
+      ],
+      "tail": [
+        -0.13872815668582916,
+        -0.18361249566078186,
+        0.5329026579856873
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_072",
+      "parent": "DEF_chest",
+      "head": [
+        0.0021221863571554422,
+        -0.08584356307983398,
+        0.52490234375
+      ],
+      "tail": [
+        -0.0012206601677462459,
+        -0.09977834671735764,
+        0.5973557829856873
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_073",
+      "parent": "DEF_chest",
+      "head": [
+        -0.08869810402393341,
+        -0.229811429977417,
+        0.47284409403800964
+      ],
+      "tail": [
+        -0.11581649631261826,
+        -0.2331918329000473,
+        0.4847506284713745
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_074",
+      "parent": "DEF_chest",
+      "head": [
+        -0.1019192636013031,
+        -0.22327595949172974,
+        0.5068359375
+      ],
+      "tail": [
+        -0.1341458261013031,
+        -0.23003678023815155,
+        0.5247896909713745
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_075",
+      "parent": "DEF_chest",
+      "head": [
+        -0.04798297956585884,
+        -0.09527115523815155,
+        0.47836539149284363
+      ],
+      "tail": [
+        -0.04678105562925339,
+        -0.10597577691078186,
+        0.5534480214118958
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_076",
+      "parent": "DEF_head",
+      "head": [
+        -0.04895952343940735,
+        -0.24040332436561584,
+        0.854567289352417
+      ],
+      "tail": [
+        -0.06420892477035522,
+        -0.22556708753108978,
+        0.9118089079856873
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_077",
+      "parent": "DEF_chest",
+      "head": [
+        0.08869822323322296,
+        -0.22973628342151642,
+        0.47284409403800964
+      ],
+      "tail": [
+        0.1158166155219078,
+        -0.23315425217151642,
+        0.4847506284713745
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_078",
+      "parent": "DEF_chest",
+      "head": [
+        0.0002441819233354181,
+        -0.08689524978399277,
+        0.43971604108810425
+      ],
+      "tail": [
+        -0.005915685556828976,
+        0.002197298686951399,
+        0.46743538975715637
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_079",
+      "parent": "DEF_head",
+      "head": [
+        -0.02308061346411705,
+        -0.27507126331329346,
+        0.8443509340286255
+      ],
+      "tail": [
+        -0.023982057347893715,
+        -0.2611740529537201,
+        0.8933668732643127
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_080",
+      "parent": "DEF_chest",
+      "head": [
+        -0.1380520910024643,
+        -0.16227836906909943,
+        0.5348933339118958
+      ],
+      "tail": [
+        -0.19405418634414673,
+        -0.12682165205478668,
+        0.5194185972213745
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_081",
+      "parent": "DEF_head",
+      "head": [
+        0.18154676258563995,
+        -0.1493576169013977,
+        0.7187124490737915
+      ],
+      "tail": [
+        0.25031930208206177,
+        -0.13268093764781952,
+        0.7506760954856873
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_082",
+      "parent": "DEF_chest",
+      "head": [
+        0.13808974623680115,
+        -0.16212809085845947,
+        0.5349684357643127
+      ],
+      "tail": [
+        0.19427964091300964,
+        -0.12659624218940735,
+        0.5196439027786255
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_083",
+      "parent": "DEF_head",
+      "head": [
+        0.2375113070011139,
+        -0.10916833579540253,
+        0.6343148946762085
+      ],
+      "tail": [
+        0.2769869565963745,
+        -0.06890390813350677,
+        0.6294320821762085
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_084",
+      "parent": "DEF_chest",
+      "head": [
+        -0.007455633487552404,
+        -0.12013593316078186,
+        0.5086387991905212
+      ],
+      "tail": [
+        -0.008807801641523838,
+        -0.08663232624530792,
+        0.5218223929405212
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_085",
+      "parent": "DEF_head",
+      "head": [
+        0.001871806220151484,
+        -0.24104809761047363,
+        0.8482258915901184
+      ],
+      "tail": [
+        0.0014648950891569257,
+        -0.16377757489681244,
+        0.998291015625
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_086",
+      "parent": "DEF_head",
+      "head": [
+        -0.05212397128343582,
+        -0.18550612032413483,
+        0.8437907099723816
+      ],
+      "tail": [
+        -0.10038243979215622,
+        -0.11210115253925323,
+        0.9615885615348816
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_087",
+      "parent": "DEF_head",
+      "head": [
+        0.002807666314765811,
+        -0.14689120650291443,
+        0.8412272334098816
+      ],
+      "tail": [
+        -0.0008951482595875859,
+        -0.03210439532995224,
+        0.9713134765625
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_088",
+      "parent": "DEF_head",
+      "head": [
+        0.04488123953342438,
+        -0.18513989448547363,
+        0.8456217646598816
+      ],
+      "tail": [
+        0.09476729482412338,
+        -0.11185698211193085,
+        0.9635823369026184
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_089",
+      "parent": "DEF_chest",
+      "head": [
+        -0.06709793955087662,
+        -0.10762529075145721,
+        0.5399577021598816
+      ],
+      "tail": [
+        -0.07185868173837662,
+        -0.09655757993459702,
+        0.5772297978401184
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_090",
+      "parent": "DEF_chest",
+      "head": [
+        -0.07336419820785522,
+        -0.23457841575145721,
+        0.5085042119026184
+      ],
+      "tail": [
+        -0.07857253402471542,
+        -0.2242431342601776,
+        0.5350341796875
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_091",
+      "parent": "DEF_chest",
+      "head": [
+        -0.0010579002555459738,
+        -0.09590654075145721,
+        0.46630859375
+      ],
+      "tail": [
+        -0.0033772431779652834,
+        -0.042724572122097015,
+        0.5010172724723816
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_092",
+      "parent": "DEF_chest",
+      "head": [
+        0.07336431741714478,
+        -0.23490391671657562,
+        0.5086262822151184
+      ],
+      "tail": [
+        0.07767746597528458,
+        -0.22326654195785522,
+        0.5359293818473816
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_093",
+      "parent": "DEF_tail_02",
+      "head": [
+        -0.00028853159165009856,
+        0.24012340605258942,
+        0.2820933759212494
+      ],
+      "tail": [
+        -0.006103516556322575,
+        0.23595084249973297,
+        0.3633255958557129
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_094",
+      "parent": "DEF_tail_01",
+      "head": [
+        0.0003329269529785961,
+        0.16927823424339294,
+        0.26376065611839294
+      ],
+      "tail": [
+        -0.006414235103875399,
+        0.18849878013134003,
+        0.34219637513160706
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_095",
+      "parent": "DEF_head",
+      "head": [
+        -0.23892484605312347,
+        -0.10913083702325821,
+        0.6331676244735718
+      ],
+      "tail": [
+        -0.27820929884910583,
+        -0.06953567266464233,
+        0.6280184388160706
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_096",
+      "parent": "DEF_tail_04",
+      "head": [
+        -0.0021528885699808598,
+        0.32046788930892944,
+        0.3602183759212494
+      ],
+      "tail": [
+        -0.007346418686211109,
+        0.26919835805892944,
+        0.4040305018424988
+      ],
+      "deform": true,
+      "category": "Leaves"
+    },
+    {
+      "name": "DEF_leaf_097",
+      "parent": "DEF_tail_04",
+      "head": [
+        -0.0015314397169277072,
+        0.3198464512825012,
+        0.39204543828964233
+      ],
+      "tail": [
+        -0.0039728423580527306,
+        0.29263585805892944,
+        0.44442468881607056
+      ],
+      "deform": true,
+      "category": "Leaves"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "ANCHOR_PawContact.L",
+      "bone": "DEF_paw.L",
+      "rest_position": [
+        0.3031711280345917,
+        -0.20945997536182404,
+        0.3652091920375824
+      ],
+      "requested_position": [
+        0.29,
+        -0.21,
+        0.36
+      ],
+      "placement": "Nearest preserved surface, body"
+    },
+    {
+      "name": "ANCHOR_FootSupport.L",
+      "bone": "DEF_foot.L",
+      "rest_position": [
+        0.14013491570949554,
+        -0.12929849326610565,
+        0.003445129841566086
+      ],
+      "requested_position": [
+        0.14,
+        -0.13,
+        0.013
+      ],
+      "placement": "Nearest preserved surface, footL / downward sole triangles"
+    },
+    {
+      "name": "ANCHOR_CheekTouch.L",
+      "bone": "DEF_head",
+      "rest_position": [
+        0.15021203458309174,
+        -0.31905296444892883,
+        0.6264814734458923
+      ],
+      "requested_position": [
+        0.155,
+        -0.325,
+        0.63
+      ],
+      "placement": "Nearest preserved surface, body"
+    },
+    {
+      "name": "ANCHOR_WingRootTouch.L",
+      "bone": "DEF_wing_girdle.L",
+      "rest_position": [
+        0.08891432732343674,
+        -0.11196024715900421,
+        0.5082933902740479
+      ],
+      "requested_position": [
+        0.09,
+        -0.11,
+        0.5
+      ],
+      "placement": "Nearest preserved surface, wingL"
+    },
+    {
+      "name": "ANCHOR_Holding.L",
+      "bone": "DEF_paw.L",
+      "rest_position": [
+        0.29,
+        -0.225,
+        0.36
+      ],
+      "requested_position": [
+        0.29,
+        -0.225,
+        0.36
+      ],
+      "placement": "Authored stand-off / mouth or holding target; equipment/prop fit pending"
+    },
+    {
+      "name": "ANCHOR_PawContact.R",
+      "bone": "DEF_paw.R",
+      "rest_position": [
+        -0.3031710386276245,
+        -0.2094600349664688,
+        0.3652091324329376
+      ],
+      "requested_position": [
+        -0.29,
+        -0.21,
+        0.36
+      ],
+      "placement": "Nearest preserved surface, body"
+    },
+    {
+      "name": "ANCHOR_FootSupport.R",
+      "bone": "DEF_foot.R",
+      "rest_position": [
+        -0.14004912972450256,
+        -0.12909117341041565,
+        0.0033022193238139153
+      ],
+      "requested_position": [
+        -0.14,
+        -0.13,
+        0.013
+      ],
+      "placement": "Nearest preserved surface, footR / downward sole triangles"
+    },
+    {
+      "name": "ANCHOR_CheekTouch.R",
+      "bone": "DEF_head",
+      "rest_position": [
+        -0.15027955174446106,
+        -0.3193599581718445,
+        0.6262849569320679
+      ],
+      "requested_position": [
+        -0.155,
+        -0.325,
+        0.63
+      ],
+      "placement": "Nearest preserved surface, body"
+    },
+    {
+      "name": "ANCHOR_WingRootTouch.R",
+      "bone": "DEF_wing_girdle.R",
+      "rest_position": [
+        -0.08711656928062439,
+        -0.10975971072912216,
+        0.5080496072769165
+      ],
+      "requested_position": [
+        -0.09,
+        -0.11,
+        0.5
+      ],
+      "placement": "Nearest preserved surface, wingR"
+    },
+    {
+      "name": "ANCHOR_Holding.R",
+      "bone": "DEF_paw.R",
+      "rest_position": [
+        -0.29,
+        -0.225,
+        0.36
+      ],
+      "requested_position": [
+        -0.29,
+        -0.225,
+        0.36
+      ],
+      "placement": "Authored stand-off / mouth or holding target; equipment/prop fit pending"
+    },
+    {
+      "name": "ANCHOR_HeadWear",
+      "bone": "DEF_head",
+      "rest_position": [
+        0,
+        -0.205,
+        0.887
+      ],
+      "requested_position": [
+        0,
+        -0.205,
+        0.887
+      ],
+      "placement": "Authored stand-off / mouth or holding target; equipment/prop fit pending"
+    },
+    {
+      "name": "ANCHOR_ChestWear",
+      "bone": "DEF_chest",
+      "rest_position": [
+        0,
+        -0.305,
+        0.445
+      ],
+      "requested_position": [
+        0,
+        -0.305,
+        0.445
+      ],
+      "placement": "Authored stand-off / mouth or holding target; equipment/prop fit pending"
+    },
+    {
+      "name": "ANCHOR_ChestTouch",
+      "bone": "DEF_chest",
+      "rest_position": [
+        -0.0001543854596093297,
+        -0.3015938103199005,
+        0.4103541672229767
+      ],
+      "requested_position": [
+        0,
+        -0.3,
+        0.41
+      ],
+      "placement": "Nearest preserved surface, body"
+    },
+    {
+      "name": "ANCHOR_Mouth",
+      "bone": "DEF_head",
+      "rest_position": [
+        0,
+        -0.41,
+        0.605
+      ],
+      "requested_position": [
+        0,
+        -0.41,
+        0.605
+      ],
+      "placement": "Authored stand-off / mouth or holding target; equipment/prop fit pending"
+    },
+    {
+      "name": "ANCHOR_TailRootTouch",
+      "bone": "DEF_tail_00",
+      "rest_position": [
+        0.0002441570395603776,
+        0.10189929604530334,
+        0.28148412704467773
+      ],
+      "requested_position": [
+        0,
+        0.11,
+        0.3
+      ],
+      "placement": "Nearest preserved surface, body"
+    },
+    {
+      "name": "ANCHOR_GiftAssist",
+      "bone": "DEF_chest",
+      "rest_position": [
+        0,
+        -0.27,
+        0.37
+      ],
+      "requested_position": [
+        0,
+        -0.27,
+        0.37
+      ],
+      "placement": "Authored stand-off / mouth or holding target; equipment/prop fit pending"
+    }
+  ],
+  "correctives": [
+    {
+      "name": "COR_WingOpen.L",
+      "control": "wing_open.L",
+      "peak": 1,
+      "changed_vertices": 1402,
+      "max_rest_delta": 0.0005066994021533959,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending. v002: delta scaled 0.5 after root weighting change, not a new DQ solve."
+    },
+    {
+      "name": "COR_WingFold.L",
+      "control": "wing_open.L",
+      "peak": -1,
+      "changed_vertices": 1376,
+      "max_rest_delta": 0.0007980983987386011,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending. v002: delta scaled 0.5 after root weighting change, not a new DQ solve."
+    },
+    {
+      "name": "COR_Shoulder.L",
+      "control": "paw_offer.L",
+      "peak": 1,
+      "changed_vertices": 270,
+      "max_rest_delta": 0.0014041699322118858,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_WingOpen.R",
+      "control": "wing_open.R",
+      "peak": 1,
+      "changed_vertices": 1408,
+      "max_rest_delta": 0.0005062314361114533,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending. v002: delta scaled 0.5 after root weighting change, not a new DQ solve."
+    },
+    {
+      "name": "COR_WingFold.R",
+      "control": "wing_open.R",
+      "peak": -1,
+      "changed_vertices": 1396,
+      "max_rest_delta": 0.0007996992879295305,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending. v002: delta scaled 0.5 after root weighting change, not a new DQ solve."
+    },
+    {
+      "name": "COR_Shoulder.R",
+      "control": "paw_offer.R",
+      "peak": 1,
+      "changed_vertices": 268,
+      "max_rest_delta": 0.0014237765373038076,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_TailLeft",
+      "control": "tail_sway",
+      "peak": 1,
+      "changed_vertices": 312,
+      "max_rest_delta": 0.00010689680974555768,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_TailRight",
+      "control": "tail_sway",
+      "peak": -1,
+      "changed_vertices": 312,
+      "max_rest_delta": 0.00010741182554753831,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    }
+  ],
+  "portable_boundary": "IK constraints and property/pose readers are not glTF logic. Baked proof reproduces sampled outputs; arbitrary runtime combinations require reimplementing the mapping and corrective activation.",
+  "layers": [
+    "support",
+    "chest",
+    "head/gaze",
+    "face",
+    "forelimbs",
+    "wings/membrane",
+    "leaves",
+    "tail",
+    "touch/holding anchors"
+  ],
+  "limitations": [
+    "Human appearance approval pending",
+    "No formal Texture",
+    "No full Motion library",
+    "No flight or wing/ tail weight-bearing guarantee",
+    "Fold bounded to safe posterior sweep; full body-hugging storage unproven",
+    "Local PlayCanvas 2.22.2 sampled proof only; phone and arbitrary semantic solver unverified",
+    "Facial collar/socket/muzzle continuity remains HOLD",
+    "Fold limited to 0.30 rad root sweep, not full wing storage"
+  ],
+  "runtime_mapping_file": "runtime-mapping.json",
+  "artifact_status": "IMPLEMENTED REVIEW / HOLD, Human PENDING",
+  "morph_consolidation": "20 body morphs; physical lids and eye recession in FACE_Blink.L/R. No separate lid objects.",
+  "morph_names": [
+    "FACE_MouthClose",
+    "FACE_MouthOpen",
+    "FACE_Smile.L",
+    "TOUCH_Cheek.L",
+    "FACE_Smile.R",
+    "TOUCH_Cheek.R",
+    "TOUCH_Chest",
+    "TAIL_Curl",
+    "WING_Camber.L",
+    "WING_Camber.R",
+    "COR_WingOpen.L",
+    "COR_WingFold.L",
+    "COR_Shoulder.L",
+    "COR_WingOpen.R",
+    "COR_WingFold.R",
+    "COR_Shoulder.R",
+    "COR_TailLeft",
+    "COR_TailRight",
+    "FACE_Blink.L",
+    "FACE_Blink.R"
+  ]
+}

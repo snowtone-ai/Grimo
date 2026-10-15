@@ -1,0 +1,1447 @@
+{
+  "created_utc": "2026-10-15T14:08:23.183774+00:00",
+  "status": "IMPLEMENTED_REVIEW_HOLD",
+  "technical_go_candidate": false,
+  "human_final_go": false,
+  "worktree": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo",
+  "branch": "codex/jill-pretexture-v002-20261015",
+  "inherited_head": "379fe79ac2561b9a5796a4657c36d503d248cf04",
+  "preimplementation_plan_commit": "202eae98ea92be431b4e8062330ab8b637891fa2",
+  "authority_main": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+  "hash_scope": "Raw working-file bytes at the recorded absolute paths. Binary asset hashes survive Git/LFS roundtrip. Text hashes may differ on another checkout because this repository uses core.autocrlf=true.",
+  "protected_inputs": [
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-other-v001\\jill-rig-other-v001.blend",
+      "bytes": 3079676,
+      "sha256": "99ed802ad3a35a147d4b1a053b81db47e6d0d8ef24d1cfc93c28d014daae5694"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-other-v001\\jill-rig-other-v001.glb",
+      "bytes": 6677672,
+      "sha256": "046bfeb9c1f02483d46a2ae37656017682fe31a22e25ae50da29d047b084a0c3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-other-v001\\source\\jill-v002-authority-donor.blend",
+      "bytes": 3248604,
+      "sha256": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\jill-Identity-canonical.png",
+      "bytes": 1622600,
+      "sha256": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_front.png",
+      "bytes": 1520144,
+      "sha256": "c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_left.png",
+      "bytes": 1679152,
+      "sha256": "bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_right.png",
+      "bytes": 1646507,
+      "sha256": "9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_back.png",
+      "bytes": 1762097,
+      "sha256": "503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-v002\\jill-rig-pretexture-v002.blend",
+      "bytes": 3575975,
+      "sha256": "f50353d369345e31a37f95d4001617cc06f3e2110eae4e92be68d3164543af74"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-v002\\jill-rig-pretexture-v002.glb",
+      "bytes": 7464832,
+      "sha256": "20ccd9315c166365a054cf062c779f8802c0084f9d7d9a5864f18b848ae267de"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-v002\\jill-texture-input-neutral-v002.fbx",
+      "bytes": 1922620,
+      "sha256": "7612ebf9a73a5a636478cf3afe7604391de8190fde237d6e2fc7d4ecf40c6b6c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-v002\\jill-texture-input-neutral-v002.glb",
+      "bytes": 1969260,
+      "sha256": "36db33bc79c3c2ba0565366be1c0ba81249a0b6fe7f7bca171c25ba5f87bccc0"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-v002\\README.md",
+      "bytes": 1718,
+      "sha256": "e533859245de7e824783b89fa8e4629af0b3cf2b8753693592e674ba65fbfa08"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\HANDOFF.md",
+      "bytes": 2914,
+      "sha256": "55d7c6c3a1ef3f7958a70057639d89e70e2b811acbd676d02af1fe027d0e49f7"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-other-v001\\Plan.md",
+      "bytes": 20693,
+      "sha256": "36097c0c562d6d9d4e4def259c63b443fcec37550a5444c87aa19d8b7086f1bd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\00-authority-comparison.jpg",
+      "bytes": 272368,
+      "sha256": "b7f5470b383f2d26adfa14dae62eb0d43207199f44e76d9da660325ff5dadcd2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\04-roots.jpg",
+      "bytes": 165095,
+      "sha256": "4de59f1d09b506a1182bdeddfc1b293b8ac7a27c920a2ab9966793fccd4c1d04"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\05-uv-checker.jpg",
+      "bytes": 576729,
+      "sha256": "73a2013a333dd7d61cad7fc862162784abfbd3f77b75740a0f184022adec454d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\06-other-motion-review.jpg",
+      "bytes": 490234,
+      "sha256": "d55661d0b75d360818f728755db82633fc4c6efcca233c0b3b984e62eb89ec5e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\bounded-continuous-filmstrip.jpg",
+      "bytes": 230436,
+      "sha256": "c241ee6b619afc370fc8f46496f56955c8d35ab6f5b9e3867e17171706f04c02"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\bounded-continuous-front-side-3q.mp4",
+      "bytes": 558240,
+      "sha256": "4022548e1f454e9b7421f63c0f0efb651747d024ed002c0b04b4e27270c3f9fe"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\checker-coverage.log",
+      "bytes": 1313,
+      "sha256": "6fa4c1c7679e12ce246ad0c8f127f3d184bfa3bf1ba7320bf165158c4b6965b9"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\checker.log",
+      "bytes": 2813,
+      "sha256": "53c859dd44134d114e52dadba918a762eeff5215da17ad9d2a20197de552ca15"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\continuous-playback-page.png",
+      "bytes": 55480,
+      "sha256": "ca9ee034ad9e80c878ac5dd8d73b1be5016d4cb200d1fef70acee3473cdd3158"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\contract.log",
+      "bytes": 299,
+      "sha256": "cf456a241bcca20621ad52bfcf6ca317b9c8b3ad0364cc56a51760ffcf682b23"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\control-contract.json",
+      "bytes": 62531,
+      "sha256": "56dbfd2ff107f94bc209e9e59d5cacb0bf9ce0cea9b8fb13cb7303b6f66c4fc8"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\Evidence.md",
+      "bytes": 10850,
+      "sha256": "09926e9fd837eda6dc22ed8dc9badba42a365b3872ed4eba2e3cbad1be06e4eb"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\face-blink.jpg",
+      "bytes": 375590,
+      "sha256": "9bf198967283aeee48821df1b9607df07a32d62f9ee152c276144133e4928270"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\face-mouth.jpg",
+      "bytes": 373536,
+      "sha256": "5030bba3f1b787170ff639fd431d7742dc8582a72a249af373c786584a2879dd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\glb-inspection.json",
+      "bytes": 48592,
+      "sha256": "424c7dee6c361a814ba7f42f3fff50b8d23f42cff51c1e27680b21017609ebec"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\inheritance-validation.json",
+      "bytes": 507,
+      "sha256": "42499e3717ded2baf86da2e429f109f103634795f5406168ec9e3235f8cc1c24"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\intake.json",
+      "bytes": 94507,
+      "sha256": "e643105a275452bbb600dba4cc53dae33c7568e58134aafb6d56d880486514ca"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\intake.log",
+      "bytes": 2169,
+      "sha256": "0f52c2bfb1f992228c17764fdf309d686b71ae7541f4a8b586025659af77b991"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\intake.npz",
+      "bytes": 1178970,
+      "sha256": "c85d03f0078425c3fba11d5db133c87a5280c5fd0c5d4350a22751b767fc6f44"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\01\\preview-blink-front.png",
+      "bytes": 543248,
+      "sha256": "78666274099a3cdcb5bed379df36a2d845de7c4869958e65615903afe0b63cee"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\01\\preview-closed-front.png",
+      "bytes": 542306,
+      "sha256": "f1129429d7ef86fd25f28de7525e033a82460b2423b22f0c461956e83b980c3e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\01\\preview-smile-3q.png",
+      "bytes": 530980,
+      "sha256": "f5e56bf00bf0c9b2ddef3114c76e5f92145a79ee28642eac19447b3c911aaa79"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\03\\preview-big-front.png",
+      "bytes": 549485,
+      "sha256": "07a0676ac24727a17234982e0d6a7061749ac1a285ea53e1342edce45e7da0eb"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\03\\preview-blink-front.png",
+      "bytes": 541691,
+      "sha256": "0076257e75266192a811fe749ed1f79dafc1a3c6aad79fd38158fd3c68d0a729"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\03\\preview-closed-front.png",
+      "bytes": 543334,
+      "sha256": "0706dd88970c88ceb64733ffc02803cb4150d20dcb60db8725effda7dd0fdcd0"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\03\\preview-half-front.png",
+      "bytes": 543210,
+      "sha256": "cbc98c150b45c5e0b28d51745a4fd192f96a219297dbfb4d8e082578f3256401"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\03\\preview-smile-front.png",
+      "bytes": 547145,
+      "sha256": "867cfad1d4c052b3217ecc24f80dc9d2d8e49a4a6f2ecff638ac973a5dabe5fe"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\before-final\\iteration-06.png",
+      "bytes": 802254,
+      "sha256": "c38ebd6c4f6f60ac32d40b2c71bb1b16e4636bf8c98210e669984397289810b3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\before-final\\iteration-07.png",
+      "bytes": 1031997,
+      "sha256": "bedced851ad33e1f1ad49e7a34bd3f094b8a7ef29232cfcf4134e2f433ae89fe"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\before-final\\iteration-08.png",
+      "bytes": 1002801,
+      "sha256": "1385c8eac03a4864464eede695095534e29042f1da417dfe4310efa2798b882b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\before-final\\iteration-09.png",
+      "bytes": 976498,
+      "sha256": "a3c11fbd8e198cb0f2b6fe421b5766a9748c36ef8bd4c3244ad322aca80546dd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\before-final\\iteration-10.png",
+      "bytes": 976498,
+      "sha256": "a3c11fbd8e198cb0f2b6fe421b5766a9748c36ef8bd4c3244ad322aca80546dd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\before-final\\iteration-11.png",
+      "bytes": 950288,
+      "sha256": "7bce0e87f0cd68403aea91aea8a3b218925470e92a264f0ba8be8750a36a475b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\browser-recording-throttled-filmstrip.jpg",
+      "bytes": 121011,
+      "sha256": "843f543d3700024a6650deb951b1beb7313e8400fbc8d8e05e59fa761412bd3e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\browser-recording-throttled.mp4",
+      "bytes": 78217,
+      "sha256": "0eb9d9f216dee97b0510aab641a8ee2b0b2042994610d4af5a1f73688900d494"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\browser-recording-throttled.webm",
+      "bytes": 44075,
+      "sha256": "6bd7564cfde290c9609d199c33d8564233ff2b73fa9773634f35178e1a2a2426"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\README.md",
+      "bytes": 981,
+      "sha256": "e3a7b14c2f8283aabf86cd0483976e70cde6d1327ed71a837c77fe05bf9928fd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\iterations\\rejected-cut-graft.png",
+      "bytes": 1031997,
+      "sha256": "bedced851ad33e1f1ad49e7a34bd3f094b8a7ef29232cfcf4134e2f433ae89fe"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-blink.jpg",
+      "bytes": 219606,
+      "sha256": "9c89f740324383ce5d1093d848693af9e076a1c2036729fa095fb0890a326fe5"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-combined-L.jpg",
+      "bytes": 229711,
+      "sha256": "d3881a61025f9c1fe29787c275008fd00683255c12672088b721c4e573279901"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-combined-R.jpg",
+      "bytes": 231712,
+      "sha256": "56c67fee2bf33c1ac0d7c20bbd802b11c444f775d281584158d462c9cd1e8585"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-head.jpg",
+      "bytes": 221162,
+      "sha256": "9ffd2e7a4fbef1df041607a4ade4bedfdad999a1e09559e1c42b8db1fc18c686"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-mouth.jpg",
+      "bytes": 221432,
+      "sha256": "5caf68f0f223053e54d1d94b469767cc349a759efc4a5abe25fc747b2ad0b188"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-paw-L.jpg",
+      "bytes": 166888,
+      "sha256": "2e00da9bcd3c661ec879ddef346f69f0f72d1b80500e032e003b8e672adc8d6a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-paw-R.jpg",
+      "bytes": 167724,
+      "sha256": "c5b5d9934f1acb1508b87ca178a08fbd95bfc6a14b6afe0ead54f7d9a8f2b0d9"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-tail-leaves.jpg",
+      "bytes": 171329,
+      "sha256": "cb965df8c4034b0402eb62591bf3ffc7525c26ba4063e880c7d3356f54c79d08"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-wing-L.jpg",
+      "bytes": 168969,
+      "sha256": "16964e3e3df5ed896f586f11896a824b4147462e6cd6fba0adc5846c0f5cdb4e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-wing-R.jpg",
+      "bytes": 170009,
+      "sha256": "abbea88b9abcecc1de29356abeff62d03b1eeac07ae086b4ec5e73d0a1d43b4b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\motion-wings-fold.jpg",
+      "bytes": 226596,
+      "sha256": "d361ff59fcc1ffb006c441d7dc07abca1dc6ed1afad1c7598c34326e59f836dd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\original-boundary-loops.json",
+      "bytes": 605,
+      "sha256": "b541486502ad6c684053703cf48af0ca3cd05291589d4c61dddd50018860ba21"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\package.log",
+      "bytes": 1079,
+      "sha256": "afa32033c2f73ec4c7f27cff1c4e6b94f54a7c715fc8ed8f4e43eee3c3682e35"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\playback-render.log",
+      "bytes": 153971,
+      "sha256": "efca147b488af55ee2bf58b250bd5fa8cafedb72da9c9e9f1350b1acaf21a28a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\PlaybackReview.md",
+      "bytes": 3145,
+      "sha256": "f8b7cdfd429dd2ae1e956eefe8b655c6e2a8cb2a257ec59977769610ce1af996"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\playcanvas-playback.png",
+      "bytes": 53709,
+      "sha256": "34eea556427ebf442bec0fbc111c8ab8ed5791a2210194638357b19e2038aa06"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\playcanvas-runtime.json",
+      "bytes": 269561,
+      "sha256": "b82a355389b0a2f8b7ee81f95495e08b392a1bfbee7496c6b3a03e75ff541a68"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\pose-validation.json",
+      "bytes": 7426,
+      "sha256": "ee37d5da633bd4c208719c9e1a085eadeb92a9af907cc13cad7153a05075b4fa"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\preview.log",
+      "bytes": 1970,
+      "sha256": "d6f934ac0a0d8e781b22cf3fd66728f9c64c5b2994c64c0242487f95305ed37c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\proof-positions.npz",
+      "bytes": 14253026,
+      "sha256": "7b130ae0937e7a26bfa8abf9931a551490bac25e316a6eb37f27459d1d7a4849"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\proof-schedule.json",
+      "bytes": 6875,
+      "sha256": "a76bfb5ca8ded77bcbb7cef2297905f652e54072cc44093190c367244948dac4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\proof.log",
+      "bytes": 26454,
+      "sha256": "990ac11d911999d3be312725314543d462a81e071f20b472341d66709d4e3295"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-end-3q.png",
+      "bytes": 228552,
+      "sha256": "4ae8404a0195512a78d28046804ca29fad0e93a9ea0b57fb0e0eb3b55ebbe0bf"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-end-front.png",
+      "bytes": 228033,
+      "sha256": "56d0757b8af2b46e90cffdaf620f7b585dbb78d436e7dffebe2d06f0e357e1fa"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-end-side.png",
+      "bytes": 223641,
+      "sha256": "9a44f36c4ba741f507c35217b8d6bc25a40f588ba3a142d980ba9623cd10fc55"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-half-3q.png",
+      "bytes": 228552,
+      "sha256": "8fbeabcadd22781055faff48587962e4dae28d9cdc524ba748926957dbbe76ac"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-half-front.png",
+      "bytes": 228033,
+      "sha256": "57dd8fe046dc497e872892cf255b5d4cdaec4ff9cd16fed60e8a4c80b41d2315"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-half-side.png",
+      "bytes": 223641,
+      "sha256": "e8029fea609032b509f23486b40f1b856e945e404361e978bfc689a299f199ad"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-peak-3q.png",
+      "bytes": 227714,
+      "sha256": "b06abe9aa19bd86d26a0e4ea0a9a8cc759fb460778407dd1aa12f451a2ad7845"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-peak-front.png",
+      "bytes": 227218,
+      "sha256": "a462aab64083f11d16e2765861b3029359648e9f65c197bec671bc7e15b16412"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-peak-side.png",
+      "bytes": 223266,
+      "sha256": "5ed1564f414781ff6c7513f0ff2eee057ba86cc8aae214383b24a791eb4a05e9"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-return-3q.png",
+      "bytes": 228225,
+      "sha256": "c68561d0cfc86601ea0314feb52e8c63b06f4564fa901e6b6691c2d73d7ffa18"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-return-front.png",
+      "bytes": 228003,
+      "sha256": "c4500ef5063678dd97e7f2c19c9ab737b3cf5d8b09223bd15e55e60e1f4ac0f9"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\blink-return-side.png",
+      "bytes": 223969,
+      "sha256": "b107ab5b35fbc4419708b0fda9114d60125d696567da1dae42e4dbadb2ff404d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-end-3q.png",
+      "bytes": 227162,
+      "sha256": "2dcf4f5436d21d8e67467c81ac9631f7ce65477870857e8a8968c1e2c4b67734"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-end-front.png",
+      "bytes": 228536,
+      "sha256": "c7e2f0e719e5417e460d9515c9d79636a1898e852d42a1a31ab9b93248939c02"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-end-side.png",
+      "bytes": 223747,
+      "sha256": "c1815212ac9a7a7867f2be652be11435d6daf5791975f1b167ba8c80fedfd558"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-half-3q.png",
+      "bytes": 227162,
+      "sha256": "aa379405a801b557b3fa1f7c28294cb928e36b9cd164b771985917497ed5b472"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-half-front.png",
+      "bytes": 228536,
+      "sha256": "575c6d5003e1c4e3dee4c370218b596781bf349274be05252027a4a5bf8c3e72"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-half-side.png",
+      "bytes": 223747,
+      "sha256": "8e7a0dc2974d7123d39ad403338874c46f21ea0be650b8250a06742d454c2b85"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-peak-3q.png",
+      "bytes": 226169,
+      "sha256": "ea5076140441398fdce503ed9d63732df9db6b4533e1e9e10ae1fd4ece3acd6d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-peak-front.png",
+      "bytes": 227274,
+      "sha256": "178db031c7cf28bbe7a66811dad321b800859f8b5de1e994aec27506a8a65962"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-peak-side.png",
+      "bytes": 225765,
+      "sha256": "d692767eb46d0562ac873c67884db7fae40f82ef23c1bbcd6a5918c8606bd34a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-return-3q.png",
+      "bytes": 228225,
+      "sha256": "35e8a94f860ff93bba464b72f97076baeb9360460a130e1cf0faaf151b2c74b5"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-return-front.png",
+      "bytes": 228003,
+      "sha256": "989d38bb6c41bcbfdb2741ab56f5ca1261fab8cb91e0d8dac24331ee8cff1d6a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-return-side.png",
+      "bytes": 223969,
+      "sha256": "fbb9b51dadbed1e90cb8f31dac99a1b8f3b7183af42e69adb82958bf654ca657"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-L-root-back3q.png",
+      "bytes": 390487,
+      "sha256": "c9a2b0447b96ba796ed8d26719ddb8a5c7a5388878588c6b62f6e26a24fa531c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-end-3q.png",
+      "bytes": 229881,
+      "sha256": "a77b497e21ccf3364b41ae18a9fca82d768007f9440b1d0253b468a89c0bbc59"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-end-front.png",
+      "bytes": 227868,
+      "sha256": "94bf387f045ce4b34003b546cebbf45a679455f0ad5e6886c5a12a6b946327b2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-end-side.png",
+      "bytes": 223646,
+      "sha256": "4d5bf89d27bb871c4bb875bd95cc9057af92f5c1eb7168d4d135c2793dcf16bb"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-half-3q.png",
+      "bytes": 229881,
+      "sha256": "4ca654195e72c21be527d02a70379753a2b3a1e65dc234197be165ded162b08c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-half-front.png",
+      "bytes": 227868,
+      "sha256": "9eef5350d151a2924add133c2152a32960b0d907eadbb4e2e460b1e0b1a4ffbd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-half-side.png",
+      "bytes": 223646,
+      "sha256": "c57b8a5f5ec78d68194df2aff120aff483e52037c49b49adf1f92c6a8ee99d60"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-peak-3q.png",
+      "bytes": 231128,
+      "sha256": "d11c8e327dea43853abb510aa3eb2b074aab176e245afcde87cf35df2a3ba3f3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-peak-front.png",
+      "bytes": 227282,
+      "sha256": "01326c6ebabac6520ba2682169c50e6952f4a5cb6ca2d5754cd9f3c81af815ed"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-peak-side.png",
+      "bytes": 225563,
+      "sha256": "02e23b336ee69648470c651bf854ec17b52da1d31a420454c37233e53f9c92f6"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-return-3q.png",
+      "bytes": 228225,
+      "sha256": "79e23c789007dcdf46a91b8707cdee4550092aece7f83b0883993ce9995b39ec"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-return-front.png",
+      "bytes": 228003,
+      "sha256": "8aa027f36ea8bc4231259146c2108c534dc261c4bc9ff05228f017dbe5709a6a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\combined-R-return-side.png",
+      "bytes": 223969,
+      "sha256": "487a8e739b2208367d508f01046edeb6fb296a799a225f4a74fb1f562f211225"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-end-3q.png",
+      "bytes": 535986,
+      "sha256": "8d4aec09a85877ffc2239e08006b038a2974fba6ba21da4a08e7482c7817c5b4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-end-front.png",
+      "bytes": 548443,
+      "sha256": "a754bbf03f808ee9ba73ec9bdb6a428da2da40b282c1c68178b0108c0786af22"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-end-side.png",
+      "bytes": 517221,
+      "sha256": "62063a85e067f63cc35b6570c7ad26b4c863cb166baf8776750c21f799d973af"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-half-3q.png",
+      "bytes": 535986,
+      "sha256": "aed1d8d6e0509bb78feb09b42be55df7fc77be4861a9b7516c3037e5163ee5d2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-half-front.png",
+      "bytes": 548443,
+      "sha256": "4d2927d4906a88787f3632838c293d31a82ad27fd96b91f21033fc15b6c5b1fa"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-half-side.png",
+      "bytes": 517221,
+      "sha256": "a6e39a50c120cc64503f7350ee5211c679c2ebcad2be313bdec19b5dc4b5cf1d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-peak-3q.png",
+      "bytes": 528041,
+      "sha256": "e5aa6e9673cf058cc4c7911a075368a9da5be6eac33c92e10d26b04d6db0791d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-peak-front.png",
+      "bytes": 541269,
+      "sha256": "c92229de6adcf649dced2692690d79b3aad9d1a8516f9317f9af843024f0faf4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-peak-side.png",
+      "bytes": 515711,
+      "sha256": "16df42ec66c18d0b430a72368dce87e368982accccdb7cd18ad14c5d3dbc30e8"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-return-3q.png",
+      "bytes": 531502,
+      "sha256": "985345d22baa46b73bdf5bb668d0c87b7e99a01751d7ca1ff92a9d852dcc9d1c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-return-front.png",
+      "bytes": 543357,
+      "sha256": "5ac935b7322c29d99bedc33a43a8b407537d25859fc3ef1047d54a12b7833d19"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-blink-return-side.png",
+      "bytes": 516323,
+      "sha256": "86da701efb443505f6f86b924faea3e356d2b77d8385fde728e5c024cc437852"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-end-3q.png",
+      "bytes": 533116,
+      "sha256": "ef99c79ef06cd1dc1c3606eef72e3a89d7b5de6d5eea60239329a5ffd5f8744e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-end-front.png",
+      "bytes": 543711,
+      "sha256": "c112ad71ccdf836ac94d3f55bbcd815263d3102e6a9bfae87a22248e887306e7"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-end-side.png",
+      "bytes": 516471,
+      "sha256": "bbe9c98d6cadff034bc1602dfc54ea8a1caa6f25129f86ff074642cc060b97c1"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-half-3q.png",
+      "bytes": 528270,
+      "sha256": "1806fee78c1843cc65466ef3c064647566bffcb840ee6949e9923f4d8015a272"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-half-front.png",
+      "bytes": 539518,
+      "sha256": "ebd0b70d0b9680da0491aac00cf7c7e05d8bda392b71e48d872390fe79d5159c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-half-side.png",
+      "bytes": 516069,
+      "sha256": "dd05ceb5e3dda938f1ea022013db1c1770a118ed947eb4cd4a6842059041deec"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-peak-3q.png",
+      "bytes": 531502,
+      "sha256": "7f632871b1d0e434d6c1e70cfcb3769bfc90a7ff111e680ffb311ac96e431d1f"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-peak-front.png",
+      "bytes": 543357,
+      "sha256": "4a2501ae6554318df9b1b9d4504b8426f5d4274888bc936e413bc44e9252b2ee"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-peak-side.png",
+      "bytes": 516323,
+      "sha256": "c2857e04ed0d222b122a7e68c457b907191f4f465ef9cd66bbbb08b79c972345"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-return-3q.png",
+      "bytes": 526302,
+      "sha256": "5c3b0b0cfc67e88e9db8411b6e50617f7a7b6f62dcaedded6a1d86d6dd26b1d7"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-return-front.png",
+      "bytes": 537900,
+      "sha256": "ea9c1eecd7437ea47143c68624bf8d97f1877bd6c0f9662f45a8b10ed6583ece"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\face-mouth-return-side.png",
+      "bytes": 516847,
+      "sha256": "16b3c23bbefb7c08f5d7951ec8450c4160d66b774c321b525b88cb25a7b2e4c9"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-end-3q.png",
+      "bytes": 226925,
+      "sha256": "7c52499da6314e559dcf33d7cde43cdb9d49ac009e1bd7904ac50cd25a6074b2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-end-front.png",
+      "bytes": 227383,
+      "sha256": "31666d1c04403ef5e72b5d147864d235db6e9a9f8c1b916306555da353db2927"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-end-side.png",
+      "bytes": 224056,
+      "sha256": "df0a5dd5967b76375327e85d69adfb1181cc0d76fc55096e1bbfc1a5c9a7116c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-half-3q.png",
+      "bytes": 229584,
+      "sha256": "7c64aa579b657c35a89f1190c8f7bbc35ac956e8852412316302b1bf00e5112e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-half-front.png",
+      "bytes": 227891,
+      "sha256": "6f978897dfaa3e3ac4f8b7c2d5efa50c2356a3f21315a311253dd90eb0dbb34a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-half-side.png",
+      "bytes": 223991,
+      "sha256": "4b800ebfa5cff0be9d7cd9bd673ba777f159d4847bb79d16e54cf6d17f393455"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-peak-3q.png",
+      "bytes": 230898,
+      "sha256": "6906d9d901656e9aa147a17d143e2d1bf57fd8aa2ad6fb69e42da515ae5fa7eb"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-peak-front.png",
+      "bytes": 227892,
+      "sha256": "8f5d87900e8d5de61a4e5f344a47a6f24bc4ad044f84b562b5a1cb97d4289d01"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-peak-side.png",
+      "bytes": 224879,
+      "sha256": "1301105cf2904e7fbb76b4df34b3173c60489ba6ab951eb29050e511440f6d2b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-return-3q.png",
+      "bytes": 228225,
+      "sha256": "9af023369d8d0b4bf4a3978db350e5c9e364edc2a1812fadd81d695629eb8cb8"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-return-front.png",
+      "bytes": 228003,
+      "sha256": "17db63c2ae8993a002c419e19bea304087b9b2cbc65065662d44175d976127b7"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-return-side.png",
+      "bytes": 223969,
+      "sha256": "e7d330f326834c817af8cfe18c942552b0d52cb9508f9bcaa30364d41b6904fe"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\head-root-back3q.png",
+      "bytes": 386329,
+      "sha256": "b42bb1f3b4e9777f591d14b7336bdd1da811003fb777c083f5ea619a3ab58fa3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-end-3q.png",
+      "bytes": 228268,
+      "sha256": "d8550feae5e8a2dee5fcf994a8582c71237c6a04de9703c45da822c5c6af941e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-end-front.png",
+      "bytes": 228398,
+      "sha256": "8af78058f23e6f1f1ed65e348d66a75cef63c6852f307644b46c28b0421db321"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-end-side.png",
+      "bytes": 223955,
+      "sha256": "5623f4a78a34189b25e25fa476326cbce49ca5c52eeef1cfe97c51aeabb9cf95"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-half-3q.png",
+      "bytes": 227070,
+      "sha256": "dac5ee00927821935ba0882f2cd24ae6a0b6b4d66113fe05e46340b972b7ea45"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-half-front.png",
+      "bytes": 227252,
+      "sha256": "9fc671f67f5488295dc97a8af501d88de8def782d7f2e1d04826dae338f95fc4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-half-side.png",
+      "bytes": 223851,
+      "sha256": "e2662526583a7ab742a6893b21198ec901e5a3b2c6d02b90901570aec01ab62e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-peak-3q.png",
+      "bytes": 228225,
+      "sha256": "eebd6c7029fb8284687333b4cf9341d5e998fb83cb2b26c688f0c256cd5ffe3b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-peak-front.png",
+      "bytes": 228003,
+      "sha256": "c994854f7fad7d25eb023067e5bd90bf2b31d51a4c6e01e6417c947d279be3ec"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-peak-side.png",
+      "bytes": 223969,
+      "sha256": "2dcb459c180c6d80eed68819a258f1e0679368ac7a4915f1ca627fe4c178918a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-return-3q.png",
+      "bytes": 226971,
+      "sha256": "3013a4380e066cb3072d30e45001a18a8db95a9685fea90a6c6e1772295f8951"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-return-front.png",
+      "bytes": 226742,
+      "sha256": "9e03f1d82ed7a4a4d24938beaaa012bd6e02005b97b19227a8e4d6e59f0458e6"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\mouth-return-side.png",
+      "bytes": 223838,
+      "sha256": "692ef4a6afdfc52aec464a9cd00700618cfbae241a6acc16dc2092fadd1be451"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-half-3q.png",
+      "bytes": 228210,
+      "sha256": "f993ca660b856b691aabea6de3f468f136cd383c166e7d5af1d448621c744264"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-half-front.png",
+      "bytes": 227859,
+      "sha256": "f0abab62a8f0a9cf8163689f6061dea179298b7c1bb99cb8eeebd11ecb6294f4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-half-side.png",
+      "bytes": 223920,
+      "sha256": "a09e5df0a85ade357dd718557bf4d831a440181cfc6fc2b0577e252a9da79407"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-peak-3q.png",
+      "bytes": 228199,
+      "sha256": "db6c823b4aa4fe18840ab77a9843d70eeffabe0514dcc9d41e49cccf952c82b1"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-peak-front.png",
+      "bytes": 227298,
+      "sha256": "2b6174db22f9a3182cde494f5770d908150c051053f5ff70bea6b36fdac63a75"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-peak-side.png",
+      "bytes": 223713,
+      "sha256": "e710ec73778f478b9582d35f5e2d130fe472a878a347b33029710818029864b3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-return-3q.png",
+      "bytes": 228225,
+      "sha256": "2d123d964166c90e70f6588050d1dae8abe3be980c128b383570feff714faec1"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-return-front.png",
+      "bytes": 228003,
+      "sha256": "7eb7d592e2aab08dd6f75a9a1281c239ad4e1a59983f9107aa80b173810dc18f"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-return-side.png",
+      "bytes": 223969,
+      "sha256": "66d35fadd4bab49793a6670bf3ae756b5bc6f7df18f931a293f2280f73a20267"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-L-root-back3q.png",
+      "bytes": 385684,
+      "sha256": "9eebad3e5ff088b6d770a31872886440e07d78860459d84d8f736a5dc199d5bc"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-half-3q.png",
+      "bytes": 228199,
+      "sha256": "cf86e54700416df12de8046594ae421ed54ae7644a2fe05aba45184fb0b6dfbb"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-half-front.png",
+      "bytes": 227637,
+      "sha256": "b83ef90c96e125d2a4a1d077ab4d7a2ae4ce66ee1c3d04be1396ce107988bb22"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-half-side.png",
+      "bytes": 223906,
+      "sha256": "7ed6bff6fc3002a1638260fe728c6b2bb8d2f035fbbe13bba2499129ceb759bd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-peak-3q.png",
+      "bytes": 227950,
+      "sha256": "60c25f84d6fce5055013cdbe4f5471cb729915501ccd801e767953a91a2744b3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-peak-front.png",
+      "bytes": 227890,
+      "sha256": "b4435849806e2be6d52b233b938d7db12141cdf2a36fa087f5c0974227787b40"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-peak-side.png",
+      "bytes": 223964,
+      "sha256": "98b1ae1f887a3ac08b39f2f589efcec199faac22429facd2648cbdecf12b649d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-return-3q.png",
+      "bytes": 228225,
+      "sha256": "b6ea209b272182f1b99c4c7db2e6e7401511de290d29a04d343c98892d9d1374"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-return-front.png",
+      "bytes": 228003,
+      "sha256": "7cfa1a7daec4b3ceb11726a04ee86bfdea2a99c8e3b665e6ae26bad2b8796bb7"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\paw-R-return-side.png",
+      "bytes": 223969,
+      "sha256": "11033bf5097a5eb8bdbf19ca484c22a1c8b45d0c0fa1902d35f1a75bed4ed352"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-big-3q.png",
+      "bytes": 531669,
+      "sha256": "913d736d7c16010265df15c962eced8147d3b9a16aa2a688f3bb5d1dfcfdf1fe"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-big-front.png",
+      "bytes": 544088,
+      "sha256": "5407dd50d91075b41640c2f50bdc5fc92624ea559659495bd77d261c63be3f4f"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-blink-3q.png",
+      "bytes": 523460,
+      "sha256": "73b544fd938aebd914ef0c95a51b377d5ae177d420a69a6f2181c46c15ba2a80"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-blink-front.png",
+      "bytes": 536461,
+      "sha256": "61eb7f1a83c4c39689108a185d414aedd5bcef91eb97461e20dc30633774083c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-closed-3q.png",
+      "bytes": 525460,
+      "sha256": "f52d3a3fe86a1b4e810674ea01b6b3056a01c5cec6a828914d62e84264a9f763"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-closed-front.png",
+      "bytes": 538062,
+      "sha256": "4186cb1c279e465207539dd8edd67f1f7b7551af10291546e548e4a4f8abf6b2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-half-3q.png",
+      "bytes": 533243,
+      "sha256": "6d7200aed2a41e8c5bd75f3d114220b71dfdb44f046b87c575f52c9bf1241ff4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-half-front.png",
+      "bytes": 545241,
+      "sha256": "4d32d013f14c43641f074d210d69686162e595a8321983954cad5f2b8d098ce3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-smile-3q.png",
+      "bytes": 530525,
+      "sha256": "9ce37f27e481d77b3e938cb07c63984eca09980afd4e69bbb193498fffbac353"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\preview-smile-front.png",
+      "bytes": 542655,
+      "sha256": "931fe20409f0a6c782fe147eea77b3eda819566dc0ee9aaddf3c4ba29089c1ba"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\smile-3q.png",
+      "bytes": 389045,
+      "sha256": "c2fd95cd4273daf43ca51e6d60cee87c03f18b21eaff9217de4c8bcccd3ca5b9"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\smile-back3q.png",
+      "bytes": 386234,
+      "sha256": "66adf324692a43df4a346f97f933ca9f89f6e7a8cca6796a8d85c718ea5e411f"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\smile-front.png",
+      "bytes": 385811,
+      "sha256": "c677d76ed3405223a6bc0223a260041c3b545a41d5accdda8c2932d188823377"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\smile-side.png",
+      "bytes": 380723,
+      "sha256": "2b6d4e7e7e64bcd5967fae0dfc3767568d5914912153b6f973e7f8b2d494b772"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-half-3q.png",
+      "bytes": 227370,
+      "sha256": "32acc8f4af6317317b6e5f57505bb0612fa4552e86ed37aa016bba4e00f69704"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-half-front.png",
+      "bytes": 228003,
+      "sha256": "e930b7d9c4459fbda99794a11989439cb7a38eea65c0dfb3c48f85e8ba0b7cb1"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-half-side.png",
+      "bytes": 223850,
+      "sha256": "321d6a09e9274efe013715967456bd9ff9377623e9f976c97b27a9f0e32307ab"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-peak-3q.png",
+      "bytes": 226716,
+      "sha256": "1af4266d28d3da5d2473865ee72d80795ca9bc611f3d63ebb0272e9e1001cb8b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-peak-front.png",
+      "bytes": 228085,
+      "sha256": "971cd5b915f42402f0e8c9d57955a699ec24fcb1bedaf1c58eb8c4592b28e9da"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-peak-side.png",
+      "bytes": 223800,
+      "sha256": "dedf3b9f3055a8789102597882c57ce7f59b1c0a2d3cc4d5c287c9d5467c579e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-return-3q.png",
+      "bytes": 228225,
+      "sha256": "3d0dd94bec85475debfe8837827e074c483eb8a980acbd9ed0bff4245ac8dd28"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-return-front.png",
+      "bytes": 228003,
+      "sha256": "6f1370c76f272244895ecc1152c7a9d115185a6cd503e8f93f3a7be959105a32"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-return-side.png",
+      "bytes": 223969,
+      "sha256": "7903c57aaa4ccfa28d3b7630152f82dd7fcc360a20cd03ce8a54df71d37ac444"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\tail-leaves-root-back3q.png",
+      "bytes": 389936,
+      "sha256": "4c3965fb704502ed3e04b764dbdd59daabda56de361d101eac2e5ecbbd4f4fc5"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-blink-3q.png",
+      "bytes": 614266,
+      "sha256": "0dde5dffa35fe6b7f7ecf11925533ca7228a234cbb205c06250f6c8061bd53b2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-blink-front.png",
+      "bytes": 632361,
+      "sha256": "caba4a2ba0f2cf2d7c2a291e709d05fca6367cfe0bb6d5a508edb366cea625d0"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-closed-3q.png",
+      "bytes": 599401,
+      "sha256": "5ca223ec072c01935cafe32a562bd2db0b73eb88218decd1e02ce0ee6030872d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-closed-front.png",
+      "bytes": 615579,
+      "sha256": "a1308922dd8443b285488efdbaf50f8599caa3161b246d5eed57df25f2dc9d23"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-fold-back3q.png",
+      "bytes": 442030,
+      "sha256": "e59a7b23b451eb1430b7119f747cebfb7f488ad19b00452bb4b5e2e1044e0741"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-fold-side.png",
+      "bytes": 451183,
+      "sha256": "934943e2045955b1ff7f38ee66968a1b96e6c262008f0e45ce3dc8afceaafb4c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-large-mouth-front.png",
+      "bytes": 620380,
+      "sha256": "801241293e005805cba89487bc2a1edf41de51edce1793f63e73ee1da1e0e786"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-large-mouth-leftside.png",
+      "bytes": 530410,
+      "sha256": "777d9d7b596587b6f7df4a8657aaada5c07b7b91325fa103ef92715c73b43e3b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-large-mouth-side.png",
+      "bytes": 572598,
+      "sha256": "2ba83650eaf026e50bf79e21c3e0f87f24c0873fbac822f60705251b028202bc"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-3q.png",
+      "bytes": 452274,
+      "sha256": "1fea79036d1f54a480b55fa735437e6bfc79bb60294240a93bc8c71e79d55bcb"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-back.png",
+      "bytes": 446750,
+      "sha256": "c44bdd960406ecefa11c9a15d14041bc5d1cdaabb162ab14445ee2e4c0c4972d"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-back3q.png",
+      "bytes": 444067,
+      "sha256": "290e305720a37e5bc8fce0265c54626178d2b95d55481906919c8ee2ca247038"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-bottom.png",
+      "bytes": 351121,
+      "sha256": "b3cc215e6d19f72a20144add1f765b167415cc0dbb85f59f14254b706c8b28cc"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-front.png",
+      "bytes": 457085,
+      "sha256": "56a3172eba866f687728a049a458f64f49160b2705ef40b1e0d53aec4bc4b77f"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-leftside.png",
+      "bytes": 420785,
+      "sha256": "5e3f79471d897c2d975bdbca9ce177c3ff2772329ba398ecab530b16c22526d6"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-side.png",
+      "bytes": 445378,
+      "sha256": "095a2fe24d7721aae1be99476805531ad86ea092d943d57d91cf3a985fc13ef6"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-neutral-top.png",
+      "bytes": 370350,
+      "sha256": "4b301bdb2cd2d6c5359447666500ac49f0fe76e75e586821875132e491e8a221"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-paw-palms-3q.png",
+      "bytes": 451477,
+      "sha256": "6e0f1e2750ff59c18dc0f6eea385e7d11c11329e1b0e6d5ea25f193083588c29"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-paw-palms-bottom.png",
+      "bytes": 353493,
+      "sha256": "0d3acc89eac9edb5964f4ef71412d07c42928a6ec9b6509a08a60f587e63faaa"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-wing-open-back3q.png",
+      "bytes": 450786,
+      "sha256": "e57c557d897a07cde1fea5d88e349ced3a4ea9911c76491d206a807664e94d31"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\uv-wing-open-front.png",
+      "bytes": 465211,
+      "sha256": "5baa85c34fce75a8cda7f2df0f14f3073fef3dc4244956ac6c27fac3b0e616c1"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-half-3q.png",
+      "bytes": 228670,
+      "sha256": "234a60b643d772c828f6f466d79fc2c6f3a440a11a4af6744b67bf29bfb09bd4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-half-front.png",
+      "bytes": 229390,
+      "sha256": "624af1e30ef17ecc0614bf2d7104fe067d7b3bba6827afacd848e98eaf7925c2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-half-side.png",
+      "bytes": 223991,
+      "sha256": "1c6cd2a4e8eaf97cd74aed11781b63a5188d54c15bc1e125868f34316fa8d0e5"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-peak-3q.png",
+      "bytes": 229076,
+      "sha256": "421668d6e209d138ea320fe97852332178a30fcbaf817823d5e5aad113a8aea0"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-peak-front.png",
+      "bytes": 230259,
+      "sha256": "3a86feede8ce5df87f49d7bc31fb937f3ec963b3fa7d43d1e3e8d8dbbc1a3a2f"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-peak-side.png",
+      "bytes": 223879,
+      "sha256": "136a5ac5680cfa0087153e476df3d5e656ea96d3f6290d183748897bebb1e1c6"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-return-3q.png",
+      "bytes": 228225,
+      "sha256": "fbd4e0c79c4b64be290003ecd88fbd6ada484c3919b7c96afd92aaff8eec55b8"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-return-front.png",
+      "bytes": 228003,
+      "sha256": "c8ae4b4163e2d9cbd54ba69973b856fccf720b0c001b49e8368acee6b6a47071"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-L-return-side.png",
+      "bytes": 223969,
+      "sha256": "32f092e5255a3d300785ba19b6848ce5c9bfad2bb774348835629923acd89cdb"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-half-3q.png",
+      "bytes": 228972,
+      "sha256": "5d1e68393503a40647166c2a81cfd461c3009b09f853b0af728618fe94fb649a"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-half-front.png",
+      "bytes": 229061,
+      "sha256": "969751752603aca95b81078a2df8fac86acfcdf507dcbbe06f56d6df38a1dfe6"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-half-side.png",
+      "bytes": 223946,
+      "sha256": "3fbac5e02d24d5d18ca7b9975b4b757622ac6838b9c09cc120216a184453b952"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-peak-3q.png",
+      "bytes": 229956,
+      "sha256": "b14805414ee4ef541117608d7b0a057626bf51768efa33c0fa53dee4ffe82411"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-peak-front.png",
+      "bytes": 230125,
+      "sha256": "f361615d771bed58326a11a095162c075b43034c28a725089cc9605637097940"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-peak-side.png",
+      "bytes": 223949,
+      "sha256": "4fe7857f99942c9ffe34e832feafd4ee23d263319385db0789dadd2bb760e5ae"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-return-3q.png",
+      "bytes": 228225,
+      "sha256": "db91465ef9243cd89f4b5556e61688e81ee1f9bef17238c6654e882d9803611c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-return-front.png",
+      "bytes": 228003,
+      "sha256": "fbf64d7d6085139994fddd13a418c0402493b54907f0be615af976430296874e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wing-R-return-side.png",
+      "bytes": 223969,
+      "sha256": "bbac391a529186c31fc78640e1a84bf8289da120723c3746536d72fbaaaff007"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-end-3q.png",
+      "bytes": 226712,
+      "sha256": "f9d483adb33cb5f4eb6b378888ac5bd90cecb2797462d780b981d47f2b5cc26c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-end-front.png",
+      "bytes": 225426,
+      "sha256": "e3a114c67a4ee4b1a1949275a08c91f1ae04a4aeca1042c5c247db6ab48ae05e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-end-side.png",
+      "bytes": 225516,
+      "sha256": "607be550a476befc3c8fc3d2d1e6bfa6e07f69baa7c5b05854a3e32b5d18835b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-half-3q.png",
+      "bytes": 226712,
+      "sha256": "ad85c74ac6c9f259f09fa2ce511b4fed9f153cc0d003af7cf1084a1ad6de92b3"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-half-front.png",
+      "bytes": 225426,
+      "sha256": "a961a572a204e42d3dab09202a97f314f06dd8ea2e988596974f114ebc0e89c4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-half-side.png",
+      "bytes": 225516,
+      "sha256": "4921b38aebe404db723d587e66d8351c539549cc7610b54dc848f2e21d95e50e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-peak-3q.png",
+      "bytes": 225734,
+      "sha256": "cb99fa621e62febcf233e4e43105c4501ad02d7c00d18cb782e6ad2283ff9bbd"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-peak-front.png",
+      "bytes": 222349,
+      "sha256": "b4ebce880fe4bbc24c0d7fc5f9b53c9f68540f10f0288b61bbb31d9312060384"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-peak-side.png",
+      "bytes": 227245,
+      "sha256": "094ed6b8e27ce8fbcf7f095a0e643ba1a7f37de2ab1322d2ec45a1308d887873"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-return-3q.png",
+      "bytes": 228225,
+      "sha256": "2df4152c256d57b73091d99b4d234516b744321605b009db0fa85a6f237f0b03"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-return-front.png",
+      "bytes": 228003,
+      "sha256": "7d140fb00ed343d1ba38e100d28ac85cc42dd61344a04710b79c027594168ce5"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-return-side.png",
+      "bytes": 223969,
+      "sha256": "753154e7447961e458050bafcd87eecd7bcdcefce586be86a3cd5d3784be36f6"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\renders\\wings-fold-root-back3q.png",
+      "bytes": 384297,
+      "sha256": "a43a8c14a2b3b2d014847806fe45d5327644947a1a3c345bfc1c490f75e90081"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\repair-report.json",
+      "bytes": 14337,
+      "sha256": "af707eb255e9f8d81db8f06e9830e8937d02b399383b420a2f88a00252f25ba4"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\repair.log",
+      "bytes": 629,
+      "sha256": "a5d3651d0479508a13529af24a341b93b71097b12f373c9de2c05c740ca6a949"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\roundtrip-diagnostic.json",
+      "bytes": 2489,
+      "sha256": "3d1d90824706459aaf8b527908ae62b2a605c9c091d785500b2603ed93cda468"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\roundtrip-diagnostic.log",
+      "bytes": 1780,
+      "sha256": "8188eb687fe3c2293abd9927f6c4bf68a0bf1a8876f88e5e98a27ff3d95917bc"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\roundtrip-validation.json",
+      "bytes": 14251,
+      "sha256": "57a6034365bbd628b4a642e4d9b987d83a0ca95ac42e07854c17bf6311c48365"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\runtime-mapping.json",
+      "bytes": 392087,
+      "sha256": "2d63b19b213f299c0c8f3be5978ff3aa9e493c750bed087a695c8d3e532f3681"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\surface-contract.npz",
+      "bytes": 1213617,
+      "sha256": "a2445932423231eaf93771f597d6a13c3b2d6aef9b5bcb2627ad75c61037d9ed"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\TextureSpec.md",
+      "bytes": 3949,
+      "sha256": "9babcb31c39ad79cbfa508a6d7f15c525baafdd63e5574432cb12f83cd1c801c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\TripoHandoff.md",
+      "bytes": 4609,
+      "sha256": "6f9ec10e002ac41bf41c3de8a476e1db9e0043d64d83030cd4621a2693293357"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\uv-checker.png",
+      "bytes": 213234,
+      "sha256": "9017e8887b700b940f1a969e13914ab03f8654209b8f25496d09c59213ae2a8c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\uv-intake-occupancy.png",
+      "bytes": 31819,
+      "sha256": "d9253475e4ae13fc164fe571f6a138f776e1a4175eb7b7717371d5c83cef17f0"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\uv-repair.log",
+      "bytes": 884,
+      "sha256": "d1abd3491ed4744113beffd28e456977a425e390f63ca9fce8758609a25c84ec"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\docs\\production\\jill\\rig-pretexture-v002\\uv-validation.json",
+      "bytes": 613,
+      "sha256": "d5d927f509146fcfa623de8166bd200d75414fb4908942d57918a89eca4f1602"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\3d\\jill-pretexture-v002\\manifest.py",
+      "bytes": 3387,
+      "sha256": "26c300fd13199842b94a404c0f6201f1ab688f8e40422a1eb355a11976ddea72"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\3d\\jill-pretexture-v002\\playback.html",
+      "bytes": 1225,
+      "sha256": "911baa5097973ba3538ff8c43c3dbb507b67c1b99e2e76d6d3f9ffa633059b44"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\3d\\jill-pretexture-v002\\serve.mjs",
+      "bytes": 2351,
+      "sha256": "dea81286a4fcce5629327ffa6cb6caf1ce1c5618fde48f5e7e0cf1215a88edd2"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\3d\\jill-pretexture-v002\\viewer.html",
+      "bytes": 1109,
+      "sha256": "8b63c99f917ce91b872bef62a1d674e4e1ea0e1936c8b212fe55f7ffa6ed845b"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\3d\\jill-pretexture-v002\\viewer.mjs",
+      "bytes": 5647,
+      "sha256": "a293b2fc090ebb27fc08cd8ad2bf25bf2f44902e7425227d845596f06300c235"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\audit-jill-pretexture-contract-v002.py",
+      "bytes": 4459,
+      "sha256": "f022a9b7d107dd423e053b05645b48e44cfaaa71c394367e8ecd321cb64f784c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\checker-jill-pretexture-v002.py",
+      "bytes": 2494,
+      "sha256": "f6d3057837010136e59686fcfe434435b27a49df4dd9812ef063d0059a8a93ce"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\compose-jill-pretexture-evidence.py",
+      "bytes": 1123,
+      "sha256": "ad73eb6fbbf369f427297252e5e30ecf563399965afe933352496588fd0a8477"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\diagnose-jill-pretexture-roundtrip-v002.py",
+      "bytes": 1467,
+      "sha256": "7e01952eb122c5dad0323d58c20a9c581f95563398b2fc6e35f8b396b6e38a70"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\inspect-jill-pretexture-v002.py",
+      "bytes": 2057,
+      "sha256": "2f9a0b21b7ba23dd42be6b9defc34430e41616744fc651744cf6680105a0d337"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\jill_pretexture_face_v002.py",
+      "bytes": 12482,
+      "sha256": "b1849047f3f142fa7ae928b1c2aac59ce871e6927efc8b131927e0ec0211d014"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\package-jill-pretexture-v002.py",
+      "bytes": 8278,
+      "sha256": "a3773700637f9462f11ba68818def1694d6f6266a7c3bfee06e0000b5239576e"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\playback-jill-pretexture-v002.py",
+      "bytes": 1674,
+      "sha256": "aaadb042728510c6685cc82d4d3b627a8dd9393e57b744cf3414c4797ea9bb60"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\prove-jill-pretexture-v002.py",
+      "bytes": 6654,
+      "sha256": "9c54f2d8138a26c1639b7fc404f00ba6fc9e4a1eb32bdc6549ff5bd7280cb98c"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\repair-jill-pretexture-v002.py",
+      "bytes": 12309,
+      "sha256": "6e2e11b65c9c10071fbc446b47b0145b824b6b7076f461061648ec81bf5982ad"
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\scripts\\blender\\update-jill-pretexture-uv-v002.py",
+      "bytes": 2377,
+      "sha256": "be6c8aedaa9091678bbe88ed1955748a36872865a26f7fa85545e4975bc5eeb2"
+    }
+  ],
+  "exclusions": [
+    "Manifest self-hash",
+    "RemoteReceipt records the already committed/pushed payload separately; no self-referential commit hash"
+  ],
+  "uv_contract": "Exact source UV retained in second layer; active UV .006+.88*source with documented local repair and appended face islands. Active UV change is unapproved.",
+  "execution": "No Tripo upload, payment, formal Texture generation, or full Motion production."
+}

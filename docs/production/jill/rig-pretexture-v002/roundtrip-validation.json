@@ -1,0 +1,577 @@
+{
+  "bounded_pass": true,
+  "tolerance_m": 1e-05,
+  "blender_reopen": [
+    {
+      "case": "mouth-peak",
+      "frame": 13,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "blink-peak",
+      "frame": 41,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "head-peak",
+      "frame": 69,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "wing-L-peak",
+      "frame": 97,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "wing-R-peak",
+      "frame": 125,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "wings-fold-peak",
+      "frame": 153,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "paw-L-peak",
+      "frame": 181,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "paw-R-peak",
+      "frame": 209,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "tail-leaves-peak",
+      "frame": 237,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "combined-L-peak",
+      "frame": 265,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "combined-R-peak",
+      "frame": 293,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "combined-L-half",
+      "frame": 259,
+      "saved_max_delta": 0.0
+    },
+    {
+      "case": "combined-L-return",
+      "frame": 277,
+      "saved_max_delta": 0.0
+    }
+  ],
+  "texture_input_neutral_vs_saved_rig_max": 0.0,
+  "static_inputs": [
+    {
+      "format": "glb",
+      "mesh_count": 1,
+      "armatures": 0,
+      "morph_count": 0,
+      "unique_corner_signature_round_1e5": "eacf967211c9ef1ca0456b0989d9a1347cc2b0a4ac00e60db523c1622c5f0f9e",
+      "signature_equal": false,
+      "position_max_delta": 0.0,
+      "uv_max_delta_nearest_position": 2.9802322387695312e-08,
+      "surface_uv_pass": true
+    },
+    {
+      "format": "fbx",
+      "mesh_count": 1,
+      "armatures": 0,
+      "morph_count": 0,
+      "unique_corner_signature_round_1e5": "d64c463a2cdc5abf83181286c96801d7f964d73ca8c558617e4eed7d07307ffb",
+      "signature_equal": false,
+      "position_max_delta": 1.7441361421788315e-07,
+      "uv_max_delta_nearest_position": 0.0,
+      "surface_uv_pass": true
+    }
+  ],
+  "rig_glb_structure": {
+    "skins": [
+      130
+    ],
+    "morph_names": [
+      [
+        "FACE_MouthClose",
+        "FACE_MouthOpen",
+        "FACE_Smile.L",
+        "TOUCH_Cheek.L",
+        "FACE_Smile.R",
+        "TOUCH_Cheek.R",
+        "TOUCH_Chest",
+        "TAIL_Curl",
+        "WING_Camber.L",
+        "WING_Camber.R",
+        "COR_WingOpen.L",
+        "COR_WingFold.L",
+        "COR_Shoulder.L",
+        "COR_WingOpen.R",
+        "COR_WingFold.R",
+        "COR_Shoulder.R",
+        "COR_TailLeft",
+        "COR_TailRight",
+        "FACE_Blink.L",
+        "FACE_Blink.R"
+      ]
+    ],
+    "anchors": [
+      "ANCHOR_CheekTouch.L",
+      "ANCHOR_CheekTouch.R",
+      "ANCHOR_HeadWear",
+      "ANCHOR_Mouth",
+      "ANCHOR_Holding.L",
+      "ANCHOR_PawContact.L",
+      "ANCHOR_Holding.R",
+      "ANCHOR_PawContact.R",
+      "ANCHOR_WingRootTouch.L",
+      "ANCHOR_WingRootTouch.R",
+      "ANCHOR_ChestTouch",
+      "ANCHOR_ChestWear",
+      "ANCHOR_GiftAssist",
+      "ANCHOR_TailRootTouch",
+      "ANCHOR_FootSupport.L",
+      "ANCHOR_FootSupport.R"
+    ],
+    "animations": [
+      {
+        "name": "JILL_RIG",
+        "paths": [
+          "rotation",
+          "scale",
+          "translation",
+          "weights"
+        ]
+      }
+    ],
+    "uv_sets": [
+      "TEXCOORD_0",
+      "TEXCOORD_1"
+    ]
+  },
+  "rig_glb_reimport": [
+    {
+      "case": "mouth-peak",
+      "frame": 13,
+      "import_to_saved_max": 3.7299440691640484e-07,
+      "saved_to_import_max": 3.7299440691640484e-07,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "blink-peak",
+      "frame": 41,
+      "import_to_saved_max": 3.7299440691640484e-07,
+      "saved_to_import_max": 3.7299440691640484e-07,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "head-peak",
+      "frame": 69,
+      "import_to_saved_max": 7.70160841057077e-06,
+      "saved_to_import_max": 7.70160841057077e-06,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.42344212532043457,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.4235840439796448,
+          1.0010709762573242
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4234422743320465,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.4235840141773224,
+          1.0010714530944824
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.7344059933275275e-07
+    },
+    {
+      "case": "wing-L-peak",
+      "frame": 97,
+      "import_to_saved_max": 4.708625453986315e-07,
+      "saved_to_import_max": 4.708625453986315e-07,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4826744794845581,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4826747179031372,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "wing-R-peak",
+      "frame": 125,
+      "import_to_saved_max": 5.266248308544164e-07,
+      "saved_to_import_max": 5.266248308544164e-07,
+      "import_bounds": [
+        [
+          -0.4826717972755432,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4826720654964447,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "wings-fold-peak",
+      "frame": 153,
+      "import_to_saved_max": 5.73888200960937e-07,
+      "saved_to_import_max": 5.73888200960937e-07,
+      "import_bounds": [
+        [
+          -0.3186035454273224,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.32153329253196716,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.318603515625,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.3215332627296448,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "paw-L-peak",
+      "frame": 181,
+      "import_to_saved_max": 9.109875463764183e-06,
+      "saved_to_import_max": 9.109875463764183e-06,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "paw-R-peak",
+      "frame": 209,
+      "import_to_saved_max": 9.784062058315612e-06,
+      "saved_to_import_max": 9.784062058315612e-06,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "tail-leaves-peak",
+      "frame": 237,
+      "import_to_saved_max": 1.0169155757466797e-06,
+      "saved_to_import_max": 1.0169155757466797e-06,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.41963571310043335,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.41963568329811096,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    },
+    {
+      "case": "combined-L-peak",
+      "frame": 265,
+      "import_to_saved_max": 8.379330211027991e-06,
+      "saved_to_import_max": 8.379330211027991e-06,
+      "import_bounds": [
+        [
+          -0.3508918583393097,
+          -0.4236071705818176,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.47358274459838867,
+          0.4210640788078308,
+          0.99922776222229
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.3508918583393097,
+          -0.4236072897911072,
+          6.9367667165920466e-09
+        ],
+        [
+          0.47358280420303345,
+          0.42106401920318604,
+          0.9992280006408691
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.8166049876053876e-07
+    },
+    {
+      "case": "combined-R-peak",
+      "frame": 293,
+      "import_to_saved_max": 8.522265488863923e-06,
+      "saved_to_import_max": 8.522265488863923e-06,
+      "import_bounds": [
+        [
+          -0.4709452986717224,
+          -0.42241185903549194,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.3489377796649933,
+          0.42097553610801697,
+          0.9992347359657288
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.47094544768333435,
+          -0.4224119782447815,
+          6.9367667165920466e-09
+        ],
+        [
+          0.3489377498626709,
+          0.4209755063056946,
+          0.9992350339889526
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 4.4316180947134853e-07
+    },
+    {
+      "case": "combined-L-half",
+      "frame": 259,
+      "import_to_saved_max": 4.261549747752724e-06,
+      "saved_to_import_max": 4.261549747752724e-06,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4232885241508484,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.44350293278694153,
+          0.4230574667453766,
+          0.9995155334472656
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4232887029647827,
+          6.9367667165920466e-09
+        ],
+        [
+          0.44350308179855347,
+          0.4230574369430542,
+          0.9995158910751343
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.589156278849259e-07
+    },
+    {
+      "case": "combined-L-return",
+      "frame": 277,
+      "import_to_saved_max": 3.7299440691640484e-07,
+      "saved_to_import_max": 3.7299440691640484e-07,
+      "import_bounds": [
+        [
+          -0.4108886122703552,
+          -0.4235838055610657,
+          -1.2098947621552725e-08
+        ],
+        [
+          0.4108886122703552,
+          0.4235840439796448,
+          0.9995113015174866
+        ]
+      ],
+      "reference_bounds": [
+        [
+          -0.4108887314796448,
+          -0.4235839545726776,
+          6.9367667165920466e-09
+        ],
+        [
+          0.4108887314796448,
+          0.4235840141773224,
+          0.9995115995407104
+        ]
+      ],
+      "anchor_count": 16,
+      "anchor_max_delta": 3.479148631413409e-07
+    }
+  ],
+  "boundary": "Only imported skinned meshes and vertices used by rendered polygons compared. Blender-import-created Icosphere bone-display helper excluded, absent in GLB mesh structure. Saved proof playback only; arbitrary runtime semantic solver and Human visual GO are not certified."
+}

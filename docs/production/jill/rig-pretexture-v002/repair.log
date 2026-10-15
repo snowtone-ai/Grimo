@@ -1,0 +1,8 @@
+00:08.656  blend            | Read blend: "C:\Users\chidj\.codex\worktrees\jill-pretexture-v002\Grimo\assets\grimo\production\jill\tripo\rig-other-v001\jill-rig-other-v001.blend"
+C:\Users\chidj\.codex\worktrees\jill-pretexture-v002\Grimo\scripts\blender\repair-jill-pretexture-v002.py:104: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+Info: Saved as "jill-rig-pretexture-v002.blend"
+JILL_LOCAL_REPAIR_SAVED 31739 32280 20 morphs
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,650 @@
+{
+  "source_sha256": "99ed802ad3a35a147d4b1a053b81db47e6d0d8ef24d1cfc93c28d014daae5694",
+  "inherited_head": "379fe79ac2561b9a5796a4657c36d503d248cf04",
+  "plan_commit": "202eae9",
+  "method": "Local geometry/shape/weights derivative; no remesh or regeneration",
+  "local_changes": [
+    {
+      "graft": "socket-L",
+      "method": "3D lid collar buried under inherited socket exterior; no exterior cut",
+      "removed_original_polygons": [],
+      "boundary_vertices": [
+        28050,
+        28051,
+        28052,
+        28053,
+        28054,
+        28055,
+        28056,
+        28057,
+        28058,
+        28059,
+        28060,
+        28061,
+        28062,
+        28063,
+        28064,
+        28065,
+        28066,
+        28067,
+        28068,
+        28069,
+        28070,
+        28071,
+        28072,
+        28073,
+        28074,
+        28075,
+        28076,
+        28077,
+        28078,
+        28079,
+        28080,
+        28081,
+        28082,
+        28083,
+        28084,
+        28085,
+        28086,
+        28087,
+        28088,
+        28089,
+        28090,
+        28091,
+        28092,
+        28093,
+        28094,
+        28095,
+        28096,
+        28097,
+        28098,
+        28099,
+        28100,
+        28101,
+        28102,
+        28103,
+        28104,
+        28105,
+        28106,
+        28107,
+        28108,
+        28109,
+        28110,
+        28111,
+        28112,
+        28113
+      ],
+      "extra_boundary_loops": []
+    },
+    {
+      "graft": "socket-R",
+      "method": "3D lid collar buried under inherited socket exterior; no exterior cut",
+      "removed_original_polygons": [],
+      "boundary_vertices": [
+        29010,
+        29011,
+        29012,
+        29013,
+        29014,
+        29015,
+        29016,
+        29017,
+        29018,
+        29019,
+        29020,
+        29021,
+        29022,
+        29023,
+        29024,
+        29025,
+        29026,
+        29027,
+        29028,
+        29029,
+        29030,
+        29031,
+        29032,
+        29033,
+        29034,
+        29035,
+        29036,
+        29037,
+        29038,
+        29039,
+        29040,
+        29041,
+        29042,
+        29043,
+        29044,
+        29045,
+        29046,
+        29047,
+        29048,
+        29049,
+        29050,
+        29051,
+        29052,
+        29053,
+        29054,
+        29055,
+        29056,
+        29057,
+        29058,
+        29059,
+        29060,
+        29061,
+        29062,
+        29063,
+        29064,
+        29065,
+        29066,
+        29067,
+        29068,
+        29069,
+        29070,
+        29071,
+        29072,
+        29073
+      ],
+      "extra_boundary_loops": []
+    },
+    {
+      "graft": "mouth",
+      "method": "physical lip collar over inherited recess; only deep old oral faces removed",
+      "removed_original_polygons": [
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        490,
+        504,
+        505,
+        506,
+        510,
+        511,
+        512,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        2170,
+        2171,
+        2173,
+        2174,
+        2178,
+        2180,
+        2181,
+        2182,
+        7567,
+        7573,
+        7575,
+        7576,
+        7581,
+        7582,
+        7585,
+        7875,
+        7876,
+        7877,
+        7878,
+        7880,
+        20127,
+        20128,
+        20129,
+        20131,
+        20133,
+        20134,
+        20142,
+        20147,
+        20420,
+        20421,
+        20422,
+        20423,
+        20424
+      ],
+      "boundary_vertices": [
+        29970,
+        29971,
+        29972,
+        29973,
+        29974,
+        29975,
+        29976,
+        29977,
+        29978,
+        29979,
+        29980,
+        29981,
+        29982,
+        29983,
+        29984,
+        29985,
+        29986,
+        29987,
+        29988,
+        29989,
+        29990,
+        29991,
+        29992,
+        29993,
+        29994,
+        29995,
+        29996,
+        29997,
+        29998,
+        29999,
+        30000,
+        30001,
+        30002,
+        30003,
+        30004,
+        30005,
+        30006,
+        30007,
+        30008,
+        30009,
+        30010,
+        30011,
+        30012,
+        30013,
+        30014,
+        30015,
+        30016,
+        30017,
+        30018,
+        30019,
+        30020,
+        30021,
+        30022,
+        30023,
+        30024,
+        30025,
+        30026,
+        30027,
+        30028,
+        30029,
+        30030,
+        30031,
+        30032,
+        30033
+      ],
+      "extra_boundary_loops": []
+    },
+    {
+      "face_grafts": "inherited exterior unchanged, deep oral faces removed; physical overlapping collars, no global remesh; visual HOLD",
+      "20_morphs": "two lid morphs consolidated into body; eye recession in same blink morphs",
+      "tongue": "short rounded oral surface",
+      "mouth_close": "physical lip contact, cavity/teeth/tongue retract"
+    },
+    {
+      "roots": {
+        "leaf_root_blends": [
+          {
+            "component": 5,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 6,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 7,
+            "root_owner": "DEF_tail_05",
+            "root_follow_blend": true
+          },
+          {
+            "component": 8,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 9,
+            "root_owner": "DEF_tail_01",
+            "root_follow_blend": true
+          },
+          {
+            "component": 10,
+            "root_owner": "DEF_tail_03",
+            "root_follow_blend": true
+          },
+          {
+            "component": 11,
+            "root_owner": "DEF_tail_00",
+            "root_follow_blend": true
+          },
+          {
+            "component": 12,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 13,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 30,
+            "root_owner": "DEF_neck",
+            "root_follow_blend": true
+          },
+          {
+            "component": 32,
+            "root_owner": "DEF_neck",
+            "root_follow_blend": true
+          },
+          {
+            "component": 33,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 34,
+            "root_owner": "DEF_neck",
+            "root_follow_blend": true
+          },
+          {
+            "component": 37,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 38,
+            "root_owner": "DEF_neck",
+            "root_follow_blend": true
+          },
+          {
+            "component": 39,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 41,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 42,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 43,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 48,
+            "root_owner": "DEF_neck",
+            "root_follow_blend": true
+          },
+          {
+            "component": 50,
+            "root_owner": "DEF_neck",
+            "root_follow_blend": true
+          },
+          {
+            "component": 51,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 53,
+            "root_owner": "DEF_neck",
+            "root_follow_blend": true
+          },
+          {
+            "component": 61,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 66,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 67,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 68,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 69,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 71,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 72,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 73,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 74,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 75,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 77,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 78,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 80,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 82,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 84,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 89,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 90,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 91,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 92,
+            "root_owner": "DEF_chest",
+            "root_follow_blend": true
+          },
+          {
+            "component": 93,
+            "root_owner": "DEF_tail_02",
+            "root_follow_blend": true
+          },
+          {
+            "component": 94,
+            "root_owner": "DEF_tail_01",
+            "root_follow_blend": true
+          },
+          {
+            "component": 96,
+            "root_owner": "DEF_tail_04",
+            "root_follow_blend": true
+          },
+          {
+            "component": 97,
+            "root_owner": "DEF_tail_04",
+            "root_follow_blend": true
+          }
+        ],
+        "wing_fold_root_radians": 0.3,
+        "weights": "chest->root->outer/membrane smooth local transition; no cross-side influences"
+      }
+    }
+  ],
+  "vertices": 31739,
+  "polygons": 32280,
+  "bones": 130,
+  "semantic_channels": 39,
+  "morphs": [
+    "FACE_MouthClose",
+    "FACE_MouthOpen",
+    "FACE_Smile.L",
+    "TOUCH_Cheek.L",
+    "FACE_Smile.R",
+    "TOUCH_Cheek.R",
+    "TOUCH_Chest",
+    "TAIL_Curl",
+    "WING_Camber.L",
+    "WING_Camber.R",
+    "COR_WingOpen.L",
+    "COR_WingFold.L",
+    "COR_Shoulder.L",
+    "COR_WingOpen.R",
+    "COR_WingFold.R",
+    "COR_Shoulder.R",
+    "COR_TailLeft",
+    "COR_TailRight",
+    "FACE_Blink.L",
+    "FACE_Blink.R"
+  ],
+  "anchors": 16,
+  "original_vertices": 28050,
+  "original_basis_max_delta": 0.0,
+  "original_basis_changed_vertices": 0,
+  "retained_original_polygons": 28750,
+  "new_uv_islands": [
+    {
+      "region": "lids-L",
+      "rect": [
+        0.91,
+        0.03,
+        0.075,
+        0.18
+      ]
+    },
+    {
+      "region": "lids-R",
+      "rect": [
+        0.91,
+        0.25,
+        0.075,
+        0.18
+      ]
+    },
+    {
+      "region": "mouth-skin-inner",
+      "rect": [
+        0.91,
+        0.47,
+        0.075,
+        0.2
+      ]
+    },
+    {
+      "region": "tongue",
+      "rect": [
+        0.91,
+        0.72,
+        0.075,
+        0.16
+      ]
+    },
+    {
+      "region": "teeth",
+      "rect": [
+        0.91,
+        0.95,
+        0.075,
+        0.035
+      ]
+    }
+  ],
+  "source_uv_occupancy_512": 0.4676437378,
+  "texture_uv_repacking": {
+    "scale": 0.88,
+    "offset": [
+      0.006,
+      0.006
+    ],
+    "inverse": "source=(texture-.006)/.88",
+    "original_layer": "v002_Source_UV_Preserved",
+    "active_layer": "Tripo_Input_UV",
+    "reason": "No sufficiently sized padded empty rectangle in fragmented v002 atlas; preserve island shapes and relative layout, reserve right strip"
+  },
+  "human_visual": "HOLD: facial collar blending and identity in motion unresolved; Human PENDING",
+  "final_go": false,
+  "local_uv_repairs": [
+    {
+      "polygon": 14456,
+      "loops": [
+        54601,
+        54603,
+        54604
+      ],
+      "original_active_uv": [
+        [
+          0.8824352622032166,
+          0.2381051480770111
+        ],
+        [
+          0.8824355006217957,
+          0.2378137856721878
+        ],
+        [
+          0.8824353814125061,
+          0.23795948922634125
+        ]
+      ],
+      "replacement_bounds": [
+        0.894,
+        0.935,
+        0.006,
+        0.006
+      ]
+    }
+  ]
+}

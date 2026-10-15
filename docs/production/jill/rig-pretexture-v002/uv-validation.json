@@ -1,0 +1,19 @@
+{
+  "active": "Tripo_Input_UV",
+  "source_layer": "v002_Source_UV_Preserved",
+  "active_range": [
+    [
+      0.008045616559684277,
+      0.008045624010264874
+    ],
+    [
+      0.9850000143051147,
+      0.9797599911689758
+    ]
+  ],
+  "triangles": 61321,
+  "zero_area_uv_triangles": 0,
+  "texture_input_one_uv": true,
+  "expected_unique_position_uv_signature_round_1e5": "0e71b07fa42297b83d297db17b32ccc6e1ba7419f44cacdecd22178fa2cc9b79",
+  "note": "Unique position/UV corner comparison tolerates seam splits and triangulation. Does not prove paint quality, padding or absence of overlaps."
+}

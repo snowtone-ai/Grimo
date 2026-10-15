@@ -102,3 +102,9 @@ Humanの今回の依頼を実装範囲とする。継承HEADは実確認 `379fe7
 5. UV checkerで外面/膜裏/瞼/口内/舌を表示。元UVの継承と新規局所UVの場所/面積/重複を測定する。同一neutral geometry/UVのTexture投入専用FBX/GLBを別出力し、再importと対応表で証明する。
 6. 保存blend再読込、GLB fresh importと必要最小のPlayCanvasでskin/morph/anchor/UV/代表変形を確認。Tripo返却で骨/morph/UVの保持を仮定せず、Original UVの利用条件と元Rigへのtexture転写/再投影手順、Canonical色・最新Human指定の桃色horn・clover・眼・口内の仕様を記録する。Tripo公開公式情報は不足分だけ確認し、実UI/料金/アカウント状態の未観測はUNKNOWN。
 7. 新規Evidenceへ比較、直接目視所見、失敗/修正、SHA256/絶対パス、Technical GO候補かHOLDの理由を保存。commit/push/remote照合。Human承認前の最終GO・upload・課金・正式Texture・全Motion量産は行わない。サブエージェントなし。
+
+### 実装後の差分と判定
+
+別名 `rig-pretexture-v002` に立体瞼/口縁/口腔/短舌/牙、root weightsと0.30rad限定foldを実装。元28,050 Basis頂点と保存した元UVは差0。20 Morphをbodyへ統合し130骨/39ch/16anchorを維持した。active UVは追加面の場所を確保するため `.006+.88*source` と右帯へ変更し、元UVを第2層に保持。これは未承認の明示的例外であり、元active UV不変とは扱わない。
+
+実レンダーを反復したが閉眼が蓋状、口顎の段差、根とfold、UV伸びが残りHOLD。顔の局所切除案は外観を損ねたため撤回し、旧正本は変更していない。保存blend/GLB再読込、同一neutral surface/active UVのTexture専用FBX/GLB、限定PlayCanvas表示を確認。数値検査と外観合格を混同しない。新しい[Evidence](../rig-pretexture-v002/Evidence.md)に採用/撤回・連続再生・限界・Texture転写契約を記録する。Technical GO候補には未到達、Human最終GOなし、Tripo実行なし。

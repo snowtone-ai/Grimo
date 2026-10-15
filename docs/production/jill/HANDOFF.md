@@ -1,13 +1,17 @@
 # Jill — NOW
 
-2026-10-15 / branch `codex/jill-rig-other-v001-20261015` / **Rig review candidate、完成承認HOLD**。
+2026-10-15 / branch `codex/jill-pretexture-v002-20261015` / **実装修正版を保存、Pre-Texture Technical GO候補には未到達・HOLD。最終GOはHuman専権。**
 
-最新main authorityは`8e4996c`。Jill v002の直前正本/状態は別枝`7f16127`の[HANDOFF](https://github.com/snowtone-ai/Grimo/blob/7f16127322685216bbd8bb93065cb3de4203568c/docs/production/jill/HANDOFF.md)と[v002 REVIEW](https://github.com/snowtone-ai/Grimo/blob/7f16127322685216bbd8bb93065cb3de4203568c/docs/production/jill/evidence/smartmesh25k-v002/REVIEW.md)。本枝はmain基点で、それらを一括mergeしていない。Geometry v002を承認済みに昇格しない。
+実継承HEAD `379fe79ac2561b9a5796a4657c36d503d248cf04`、最新main `8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b` を確認。旧Jill worktreeはclean、旧正本/旧Evidence/元checkoutの並行Shushu変更を保護。専用worktreeは `C:/Users/chidj/.codex/worktrees/jill-pretexture-v002/Grimo`。既存[Plan](rig-other-v001/Plan.md)へ事前追記を `202eae9` でcommitしてから実装した。
 
-外部研究→[Plan](rig-other-v001/Plan.md)を`832e1e8`で先にcommit→実装。FBX/GLB原本とv002 donorは新規sourceへbyte copy、原本hash不変。v002 body Basis 28,050頂点は座標差0、FBX UV差0。130骨、94葉骨、39意味ch、左右瞼を含む20morph、16anchor。六肢/尾/葉/頭首/顔の制御と局所correctiveを実装した。
+[別名blend/GLB・Texture専用FBX/GLB](../../../assets/grimo/production/jill/tripo/rig-pretexture-v002/README.md) / [Evidence・阻害条件](rig-pretexture-v002/Evidence.md) / [顔・口](rig-pretexture-v002/face-mouth.jpg) / [閉眼](rig-pretexture-v002/face-blink.jpg) / [SHA・絶対パス](rig-pretexture-v002/Manifest.json)。130骨/39ch/20 Morph/16 anchor。元28,050頂点のBasis差0。局所立体瞼/口縁/口腔/舌/牙、根のweights、限定foldを実装。全身再生成/一括remeshなし。
 
-[成果物](../../../assets/grimo/production/jill/tripo/rig-other-v001/README.md) / [Evidence・残課題](rig-other-v001/Evidence.md) / [比較画像](rig-other-v001/00-overview.jpg)。Blender再読込、直接ch再操作、GLB fresh importの同時刻比較を実施。GLBはsampled proofを再現するが、driver/IK自体は移植されない。任意runtime制御はmappingとsolverの実装が別途必要。
+**残り**：閉眼が蓋状、半閉眼の厚い縁とSideの隙間。閉口の顎が板状で口縁二重、大開口内部も未完成。翼根/肩/首葉/尾葉の層と接合、膜の柔らかさが不足。foldは0.30radの後方スイープまでで自然な収納ではない。可愛さ・本人性・接合はHOLD、Human外観判定PENDING。承認済み閉口/閉眼/fold極値参照もない。
 
-**阻害条件**：閉眼面が丸い塞ぎに見え、眼窩と自然につながらない。小口の完全閉鎖/内側の仕上がり、翼根/首葉/尾葉の接合・重なりはHOLD。接触nodeは骨所属で、任意poseの厳密な接触/装備fitは未保証。真の座位、全Motion、正式Texture、スマホ/PlayCanvasは未成立/対象外。承認済み極値pose参照もない。Human外観判定はPENDING。
+元UVは第2層で差0保持。active UVは元島を`.006+.88*source`へ移し、新規面用右帯と縮退三角形1枚の局所補修を追加。このactive変更は未承認。checkerの全方向/掌/口内/膜裏を確認したが密度差・伸び・隠れ根はHOLD。Texture専用FBX/GLBは同じneutral surface/active UVから作成し、fresh import対応を確認。
 
-続行時はEvidenceの拡大画像から眼窩/瞼の局所接合と根の重なりを修正し、承認poseに照らして再評価する。体型/顔の再設計やv002正本上書きで解決しない。他キャラの並行作業/元checkoutは触らない。
+保存blend/GLB再読込の代表poseとanchor、ローカルPlayCanvas 2.22.2のsampled proofを確認。[連続3視点再生の範囲](rig-pretexture-v002/PlaybackReview.md)。driver/IKや任意39ch solverをGLBへ移植したものではない。スマホ/全Motion/厳密接触・装備fitは未検証。数値一致で外観HOLDを解除しない。
+
+[Texture仕様](rig-pretexture-v002/TextureSpec.md) はCanonical配色、最新Human指定の桃色horn、クローバー、眼、口内。[Tripo引渡し](rig-pretexture-v002/TripoHandoff.md) にOriginal UVの公開案内と実UI/料金の未確認、返却骨/Morph/UV保持を仮定しない元Rigへの画像転写手順を保存。upload/課金/正式Texture生成なし。HOLDのままTexture実行へ進めない。
+
+次は顔の局所面接続と根/膜fold、UV密度を修復し、承認参照と比較。現状を完成/GOと宣言しない。旧v001状態は[旧Evidence](rig-other-v001/Evidence.md)と継承HEADのHANDOFFに残る。

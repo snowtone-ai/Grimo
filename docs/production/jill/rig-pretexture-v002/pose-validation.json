@@ -1,0 +1,390 @@
+{
+  "samples": [
+    {
+      "case": "mouth",
+      "frame": 1,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "mouth",
+      "frame": 7,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "mouth",
+      "frame": 13,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "mouth",
+      "frame": 19,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "mouth",
+      "frame": 25,
+      "offset": 24,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "blink",
+      "frame": 29,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "blink",
+      "frame": 35,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "blink",
+      "frame": 41,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "blink",
+      "frame": 47,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "blink",
+      "frame": 53,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "head",
+      "frame": 57,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "head",
+      "frame": 63,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "head",
+      "frame": 69,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "head",
+      "frame": 75,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "head",
+      "frame": 81,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "wing-L",
+      "frame": 85,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-L",
+      "frame": 91,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-L",
+      "frame": 97,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-L",
+      "frame": 103,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-L",
+      "frame": 109,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "wing-R",
+      "frame": 113,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-R",
+      "frame": 119,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-R",
+      "frame": 125,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-R",
+      "frame": 131,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wing-R",
+      "frame": 137,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "wings-fold",
+      "frame": 141,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wings-fold",
+      "frame": 147,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wings-fold",
+      "frame": 153,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wings-fold",
+      "frame": 159,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "wings-fold",
+      "frame": 165,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "paw-L",
+      "frame": 169,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-L",
+      "frame": 175,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-L",
+      "frame": 181,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-L",
+      "frame": 187,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-L",
+      "frame": 193,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "paw-R",
+      "frame": 197,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-R",
+      "frame": 203,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-R",
+      "frame": 209,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-R",
+      "frame": 215,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "paw-R",
+      "frame": 221,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "tail-leaves",
+      "frame": 225,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "tail-leaves",
+      "frame": 231,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "tail-leaves",
+      "frame": 237,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "tail-leaves",
+      "frame": 243,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "tail-leaves",
+      "frame": 249,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "combined-L",
+      "frame": 253,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-L",
+      "frame": 259,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-L",
+      "frame": 265,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-L",
+      "frame": 271,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-L",
+      "frame": 277,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    },
+    {
+      "case": "combined-R",
+      "frame": 281,
+      "offset": 0,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-R",
+      "frame": 287,
+      "offset": 6,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-R",
+      "frame": 293,
+      "offset": 12,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-R",
+      "frame": 299,
+      "offset": 18,
+      "finite": true,
+      "return_delta": null
+    },
+    {
+      "case": "combined-R",
+      "frame": 305,
+      "offset": 24,
+      "finite": true,
+      "return_delta": 0.0
+    }
+  ],
+  "scope": "Bounded proof, no full Motion library or continuous collision solver"
+}

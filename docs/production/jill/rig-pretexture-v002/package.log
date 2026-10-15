@@ -1,0 +1,15 @@
+00:06.546  blend            | Read blend: "C:\Users\chidj\.codex\worktrees\jill-pretexture-v002\Grimo\assets\grimo\production\jill\tripo\rig-pretexture-v002\jill-rig-pretexture-v002.blend"
+C:\Users\chidj\.codex\worktrees\jill-pretexture-v002\Grimo\scripts\blender\package-jill-pretexture-v002.py:59: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  q=uvs[list(t.loops)];areas.append(abs(np.cross(q[1]-q[0],q[2]-q[0]))*.5)
+addon_utils.disable: bl_ext.blender_lab.mcp not enabled
+22:38:21 | INFO: Data are loaded, start creating Blender stuff
+22:38:21 | INFO: Blender create Mesh node Jill_Pretexture_LocalSurface_v002.001
+22:38:22 | INFO: glTF import finished in 0.31s
+FBX version: 7400
+22:38:49 | INFO: Data are loaded, start creating Blender stuff
+22:38:49 | INFO: Blender create Mesh node Jill_Pretexture_LocalSurface_v002
+22:38:50 | INFO: glTF import finished in 0.98s
+PACKAGE_COMPLETE True
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
