@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-15",
+  "status": "REVIEW CANDIDATE / overall HOLD / Human appearance PENDING",
+  "baseline_main": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+  "plan_frozen_commit": "832e1e89bcbfadb74f14154a87211056b997497c",
+  "branch": "codex/jill-rig-other-v001-20261015",
+  "original_checkout_initial_head": "0947d03efabbf3df04ed18e0ec6f99cc9efd2727",
+  "original_checkout_observed_final_head": "d5e9882dd644ca35c6944ed9e1c7b4163944890a",
+  "original_checkout_status_observed": [
+    "M docs/production/shushu/evidence/geometry-v002/review-01-identity.png",
+    " M docs/production/shushu/evidence/geometry-v002/review-02-face.png",
+    " M docs/production/shushu/evidence/geometry-v002/review-03-support-contact.png",
+    "?? 18-face-neutral-left-profile.png",
+    "?? 19-face-small-mouth-open-left-profile.png",
+    "?? 20-face-closed-eyes-left-profile.png",
+    "?? 21-face-neutral-front-three-quarter.png",
+    "?? 22-face-closed-eye-smile-front-three-quarter.png",
+    "?? 23-seated-left-profile.png",
+    "?? 24-seated-front-three-quarter.png",
+    "?? 25-seated-rear-three-quarter.png",
+    "?? 26-standing-to-seated-transition-left-profile.png",
+    "?? 27-seated-low-one-paw-offer-front-three-quarter.png",
+    "?? README_18-27_revised_v003.md",
+    "?? assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-mouth-b-v001-proof.blend",
+    "?? assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-mouth-b-v001.blend",
+    "?? assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-mouth-b-v001.glb",
+    "?? carol-tripo-smartmesh-8k-faceedit-v001.fbx",
+    "?? \"cute blue creature 3d model.fbx\"",
+    "?? \"cute blue creature 3d model.glb\"",
+    "?? \"cute dragon 3d model (1).fbx\"",
+    "?? \"cute dragon 3d model (1).glb\"",
+    "?? docs/production/shushu/evidence/production-rig-v004-mouth-b/",
+    "?? jill-v002-neutral-tripo.fbx.glb",
+    "?? manifest_18-27_revised_v003.json",
+    "?? scripts/3d/board-shushu-v004-mouth-b.py",
+    "?? scripts/3d/inspect-shushu-v004-mouth-b.py",
+    "?? scripts/3d/repack-shushu-v004-mouth-b.py",
+    "?? scripts/3d/shushu-v004-mouth-b.mjs",
+    "?? scripts/3d/texture-shushu-v004-mouth-b.py",
+    "?? scripts/blender/audit-shushu-v004-mouth-b.py",
+    "?? scripts/blender/inspect-shushu-v004-mouth-b.py",
+    "?? scripts/blender/prove-shushu-v004-mouth-b.py",
+    "?? scripts/blender/repair-shushu-v004-mouth-b.py",
+    "?? tripo_convert_77a7aeee-faff-4d3b-8082-d15dddbe9fc8.fbx",
+    "?? tripo_convert_e41db652-3438-43d9-b501-1000972256cf.fbx"
+  ],
+  "parallel_edit_note": "Original checkout advanced concurrently. It was never reset, checked out or written by this rig task. Dirty contents had no full pre-task hash baseline; no unsupported byte-preservation claim is made for concurrent user edits.",
+  "sources": [
+    {
+      "copy": "assets/grimo/production/jill/tripo/rig-other-v001/source/tripo-other-original.fbx",
+      "original_path": "C:\\Users\\chidj\\project\\プロダクト\\Grimo\\tripo_convert_77a7aeee-faff-4d3b-8082-d15dddbe9fc8.fbx",
+      "sha256": "1d9ecfae60f0fcb1a8bbffeb81fd2a931b1dba0907af43487bf0d1f1e3a7dc14",
+      "expected_intake_sha256": "1d9ecfae60f0fcb1a8bbffeb81fd2a931b1dba0907af43487bf0d1f1e3a7dc14",
+      "original_still_identical": true
+    },
+    {
+      "copy": "assets/grimo/production/jill/tripo/rig-other-v001/source/tripo-other-original.glb",
+      "original_path": "C:\\Users\\chidj\\project\\プロダクト\\Grimo\\jill-v002-neutral-tripo.fbx.glb",
+      "sha256": "a93cd56d4b9658596284288ef8f5ebabffae0d3c5f7024e591269ce95eff0378",
+      "expected_intake_sha256": "a93cd56d4b9658596284288ef8f5ebabffae0d3c5f7024e591269ce95eff0378",
+      "original_still_identical": true
+    },
+    {
+      "copy": "assets/grimo/production/jill/tripo/rig-other-v001/source/jill-v002-authority-donor.blend",
+      "original_path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-smartmesh25k-inspection\\Grimo\\assets\\grimo\\production\\jill\\tripo\\smartmesh25k-v002\\jill-geometry-master-v002.blend",
+      "sha256": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97",
+      "expected_intake_sha256": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97",
+      "original_still_identical": true
+    }
+  ],
+  "protected_images": [
+    {
+      "path": "assets/grimo/source/jill/jill-Identity-canonical.png",
+      "baseline_commit": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+      "baseline_sha256": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15",
+      "worktree_sha256": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15",
+      "original_checkout_sha256": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15",
+      "unchanged": true
+    },
+    {
+      "path": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_back.png",
+      "baseline_commit": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+      "baseline_sha256": "503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc",
+      "worktree_sha256": "503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc",
+      "original_checkout_sha256": "503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc",
+      "unchanged": true
+    },
+    {
+      "path": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_front.png",
+      "baseline_commit": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+      "baseline_sha256": "c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8",
+      "worktree_sha256": "c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8",
+      "original_checkout_sha256": "c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8",
+      "unchanged": true
+    },
+    {
+      "path": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_left.png",
+      "baseline_commit": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+      "baseline_sha256": "bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31",
+      "worktree_sha256": "bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31",
+      "original_checkout_sha256": "bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31",
+      "unchanged": true
+    },
+    {
+      "path": "assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png",
+      "baseline_commit": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+      "baseline_sha256": "9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc",
+      "worktree_sha256": "9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc",
+      "original_checkout_sha256": "9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc",
+      "unchanged": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "assets/grimo/production/jill/tripo/rig-other-v001/jill-rig-other-v001.blend",
+      "bytes": 3079676,
+      "sha256": "99ed802ad3a35a147d4b1a053b81db47e6d0d8ef24d1cfc93c28d014daae5694"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/rig-other-v001/jill-rig-other-v001.glb",
+      "bytes": 6677672,
+      "sha256": "046bfeb9c1f02483d46a2ae37656017682fe31a22e25ae50da29d047b084a0c3"
+    },
+    {
+      "path": "docs/production/jill/rig-other-v001/Plan.md",
+      "bytes": 16653,
+      "sha256": "e49e41aab05aed12cbe4f215847ea6cf27c70268d1d34fbf800f420540b18758"
+    },
+    {
+      "path": "docs/production/jill/rig-other-v001/Evidence.md",
+      "bytes": 11400,
+      "sha256": "13d751eb428e8f5d87f6081cd28f4729ab6078bd1b4ee33b87d766b353577385"
+    },
+    {
+      "path": "docs/production/jill/rig-other-v001/runtime-mapping.json",
+      "bytes": 339781,
+      "sha256": "5710e7b66607db1f4e165d6f3ceecefab65432ed0d1558e61fd65d3e68f7535c"
+    },
+    {
+      "path": "docs/production/jill/rig-other-v001/control-contract.json",
+      "bytes": 61405,
+      "sha256": "f179ab072e031fb50ba3b469c9b80d30255faf991624437fa3480a91af64c97d"
+    }
+  ],
+  "relative_links_checked": 31,
+  "render_note": "Actual unretouched Blender Workbench renders. Capture-only diagnostic palette. Final node-only surface projection did not change geometry/weights/morph/proof; full body images retained and final GLB geometry/node rechecked.",
+  "bounded_roundtrip_pass": true,
+  "formal_texture": false,
+  "full_motion_library": false,
+  "human_visual_approval": false
+}

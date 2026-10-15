@@ -1,0 +1,18 @@
+{
+  "raw_glb_meshes": 1,
+  "raw_glb_animations": 0,
+  "raw_glb_joints": 78,
+  "raw_glb_vertices": 46003,
+  "glb_to_v002_surface": {
+    "max": 2.7059689955422073e-07,
+    "p99": 2.586328093912016e-07,
+    "mean": 1.99718062580651e-07
+  },
+  "v002_surface_to_glb": {
+    "max": 2.7059689955422073e-07,
+    "p99": 2.586328093912016e-07,
+    "mean": 1.9894631149477826e-07
+  },
+  "method": "Raw accessor glTF Y-up converted to Blender Z-up and verified FBX uniform normalization. Independent of source skin pose. Unused donor vertices excluded.",
+  "source_bind_status": "Imported source bind placement differs; not adopted. Rebuilt from verified FBX/v002 rest."
+}

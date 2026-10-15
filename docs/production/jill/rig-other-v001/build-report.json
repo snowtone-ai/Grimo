@@ -1,0 +1,788 @@
+{
+  "blender": "5.2.1 LTS",
+  "plan_commit": "832e1e89bcbfadb74f14154a87211056b997497c",
+  "inputs": {
+    "tripo-other-original.fbx": "1d9ecfae60f0fcb1a8bbffeb81fd2a931b1dba0907af43487bf0d1f1e3a7dc14",
+    "tripo-other-original.glb": "a93cd56d4b9658596284288ef8f5ebabffae0d3c5f7024e591269ce95eff0378",
+    "jill-v002-authority-donor.blend": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97"
+  },
+  "basis_max_delta_v002": 0.0,
+  "basis_vertices": 28050,
+  "polygons": 28809,
+  "uv_loop_max_delta": 0.0,
+  "deform_bones": 129,
+  "bones": 130,
+  "leaves": [
+    {
+      "component": 3,
+      "bone": "DEF_leaf_003",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 5,
+      "bone": "DEF_leaf_005",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 6,
+      "bone": "DEF_leaf_006",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 7,
+      "bone": "DEF_leaf_007",
+      "owner": "DEF_tail_05",
+      "region": "tail",
+      "side": "R"
+    },
+    {
+      "component": 8,
+      "bone": "DEF_leaf_008",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 9,
+      "bone": "DEF_leaf_009",
+      "owner": "DEF_tail_01",
+      "region": "tail",
+      "side": "R"
+    },
+    {
+      "component": 10,
+      "bone": "DEF_leaf_010",
+      "owner": "DEF_tail_03",
+      "region": "tail",
+      "side": "R"
+    },
+    {
+      "component": 11,
+      "bone": "DEF_leaf_011",
+      "owner": "DEF_tail_00",
+      "region": "tail",
+      "side": "R"
+    },
+    {
+      "component": 12,
+      "bone": "DEF_leaf_012",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 13,
+      "bone": "DEF_leaf_013",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 14,
+      "bone": "DEF_leaf_014",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 15,
+      "bone": "DEF_leaf_015",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 16,
+      "bone": "DEF_leaf_016",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 17,
+      "bone": "DEF_leaf_017",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 18,
+      "bone": "DEF_leaf_018",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 19,
+      "bone": "DEF_leaf_019",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 20,
+      "bone": "DEF_leaf_020",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 21,
+      "bone": "DEF_leaf_021",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 22,
+      "bone": "DEF_leaf_022",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 23,
+      "bone": "DEF_leaf_023",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 24,
+      "bone": "DEF_leaf_024",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 25,
+      "bone": "DEF_leaf_025",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 26,
+      "bone": "DEF_leaf_026",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 27,
+      "bone": "DEF_leaf_027",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 28,
+      "bone": "DEF_leaf_028",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 29,
+      "bone": "DEF_leaf_029",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 30,
+      "bone": "DEF_leaf_030",
+      "owner": "DEF_neck",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 31,
+      "bone": "DEF_leaf_031",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 32,
+      "bone": "DEF_leaf_032",
+      "owner": "DEF_neck",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 33,
+      "bone": "DEF_leaf_033",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 34,
+      "bone": "DEF_leaf_034",
+      "owner": "DEF_neck",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 35,
+      "bone": "DEF_leaf_035",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 36,
+      "bone": "DEF_leaf_036",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 37,
+      "bone": "DEF_leaf_037",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 38,
+      "bone": "DEF_leaf_038",
+      "owner": "DEF_neck",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 39,
+      "bone": "DEF_leaf_039",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 40,
+      "bone": "DEF_leaf_040",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 41,
+      "bone": "DEF_leaf_041",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 42,
+      "bone": "DEF_leaf_042",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 43,
+      "bone": "DEF_leaf_043",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 44,
+      "bone": "DEF_leaf_044",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 45,
+      "bone": "DEF_leaf_045",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 46,
+      "bone": "DEF_leaf_046",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 47,
+      "bone": "DEF_leaf_047",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 48,
+      "bone": "DEF_leaf_048",
+      "owner": "DEF_neck",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 49,
+      "bone": "DEF_leaf_049",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 50,
+      "bone": "DEF_leaf_050",
+      "owner": "DEF_neck",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 51,
+      "bone": "DEF_leaf_051",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 52,
+      "bone": "DEF_leaf_052",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 53,
+      "bone": "DEF_leaf_053",
+      "owner": "DEF_neck",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 54,
+      "bone": "DEF_leaf_054",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 55,
+      "bone": "DEF_leaf_055",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 56,
+      "bone": "DEF_leaf_056",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 57,
+      "bone": "DEF_leaf_057",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 58,
+      "bone": "DEF_leaf_058",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 59,
+      "bone": "DEF_leaf_059",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 60,
+      "bone": "DEF_leaf_060",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 61,
+      "bone": "DEF_leaf_061",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 62,
+      "bone": "DEF_leaf_062",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 63,
+      "bone": "DEF_leaf_063",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 64,
+      "bone": "DEF_leaf_064",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 65,
+      "bone": "DEF_leaf_065",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 66,
+      "bone": "DEF_leaf_066",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 67,
+      "bone": "DEF_leaf_067",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 68,
+      "bone": "DEF_leaf_068",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 69,
+      "bone": "DEF_leaf_069",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 70,
+      "bone": "DEF_leaf_070",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 71,
+      "bone": "DEF_leaf_071",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 72,
+      "bone": "DEF_leaf_072",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 73,
+      "bone": "DEF_leaf_073",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 74,
+      "bone": "DEF_leaf_074",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 75,
+      "bone": "DEF_leaf_075",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 76,
+      "bone": "DEF_leaf_076",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 77,
+      "bone": "DEF_leaf_077",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 78,
+      "bone": "DEF_leaf_078",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 79,
+      "bone": "DEF_leaf_079",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 80,
+      "bone": "DEF_leaf_080",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 81,
+      "bone": "DEF_leaf_081",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 82,
+      "bone": "DEF_leaf_082",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 83,
+      "bone": "DEF_leaf_083",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 84,
+      "bone": "DEF_leaf_084",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 85,
+      "bone": "DEF_leaf_085",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 86,
+      "bone": "DEF_leaf_086",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 87,
+      "bone": "DEF_leaf_087",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 88,
+      "bone": "DEF_leaf_088",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "L"
+    },
+    {
+      "component": 89,
+      "bone": "DEF_leaf_089",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 90,
+      "bone": "DEF_leaf_090",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 91,
+      "bone": "DEF_leaf_091",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "R"
+    },
+    {
+      "component": 92,
+      "bone": "DEF_leaf_092",
+      "owner": "DEF_chest",
+      "region": "neck",
+      "side": "L"
+    },
+    {
+      "component": 93,
+      "bone": "DEF_leaf_093",
+      "owner": "DEF_tail_02",
+      "region": "tail",
+      "side": "R"
+    },
+    {
+      "component": 94,
+      "bone": "DEF_leaf_094",
+      "owner": "DEF_tail_01",
+      "region": "tail",
+      "side": "R"
+    },
+    {
+      "component": 95,
+      "bone": "DEF_leaf_095",
+      "owner": "DEF_head",
+      "region": "head",
+      "side": "R"
+    },
+    {
+      "component": 96,
+      "bone": "DEF_leaf_096",
+      "owner": "DEF_tail_04",
+      "region": "tail",
+      "side": "R"
+    },
+    {
+      "component": 97,
+      "bone": "DEF_leaf_097",
+      "owner": "DEF_tail_04",
+      "region": "tail",
+      "side": "R"
+    }
+  ],
+  "correctives": [
+    {
+      "name": "COR_WingOpen.L",
+      "control": "wing_open.L",
+      "peak": 1,
+      "changed_vertices": 1402,
+      "max_rest_delta": 0.0010133988043067917,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_WingFold.L",
+      "control": "wing_open.L",
+      "peak": -1,
+      "changed_vertices": 1376,
+      "max_rest_delta": 0.0015961967974772021,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_Shoulder.L",
+      "control": "paw_offer.L",
+      "peak": 1,
+      "changed_vertices": 270,
+      "max_rest_delta": 0.0014041699322118858,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_WingOpen.R",
+      "control": "wing_open.R",
+      "peak": 1,
+      "changed_vertices": 1408,
+      "max_rest_delta": 0.0010124628722229065,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_WingFold.R",
+      "control": "wing_open.R",
+      "peak": -1,
+      "changed_vertices": 1396,
+      "max_rest_delta": 0.001599398575859061,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_Shoulder.R",
+      "control": "paw_offer.R",
+      "peak": 1,
+      "changed_vertices": 268,
+      "max_rest_delta": 0.0014237765373038076,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_TailLeft",
+      "control": "tail_sway",
+      "peak": 1,
+      "changed_vertices": 312,
+      "max_rest_delta": 0.00010689680974555768,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    },
+    {
+      "name": "COR_TailRight",
+      "control": "tail_sway",
+      "peak": -1,
+      "changed_vertices": 312,
+      "max_rest_delta": 0.00010741182554753831,
+      "method": "Local DQ target minus LBS, inverse blended LBS pullback, bounded .012. Human visual pending."
+    }
+  ],
+  "added_lids": [
+    {
+      "object": "Jill_Lids.L",
+      "vertices": 350,
+      "faces": 288,
+      "source_eye_component": 99,
+      "normal": [
+        0.5218558884741838,
+        -0.8530336638520313,
+        0.0
+      ],
+      "center": [
+        0.11052602316652026,
+        -0.32766431617358377,
+        0.6722315228174603
+      ],
+      "source_fit_max_residual": 0.002019683211930993,
+      "closed_surface_clearance_over_fit": ".0030-.0036; measured source fit residual .002024 maximum",
+      "neutral_addition": "Folded .00035-wide upper/lower rim strips; no Basis edits to body."
+    },
+    {
+      "object": "Jill_Lids.R",
+      "vertices": 350,
+      "faces": 288,
+      "source_eye_component": 98,
+      "normal": [
+        -0.5218558884741838,
+        -0.8530336638520313,
+        0.0
+      ],
+      "center": [
+        -0.11053362465094006,
+        -0.3276810958271935,
+        0.6722392733134921
+      ],
+      "source_fit_max_residual": 0.0020237555580035135,
+      "closed_surface_clearance_over_fit": ".0030-.0036; measured source fit residual .002024 maximum",
+      "neutral_addition": "Folded .00035-wide upper/lower rim strips; no Basis edits to body."
+    }
+  ],
+  "max_weight_sum_error": 2.220446049250313e-16,
+  "max_influences": 4,
+  "unweighted_vertices": 0,
+  "human_visual": "PENDING",
+  "build_stage_sha256": "491d82c3149bb53a95d0b516fcf3f2258064a803ec9b98dd3c24940a51c97f0a",
+  "output_sha256": "99ed802ad3a35a147d4b1a053b81db47e6d0d8ef24d1cfc93c28d014daae5694",
+  "output_hash_stage": "Final saved blend including proof action; source surface unchanged"
+}

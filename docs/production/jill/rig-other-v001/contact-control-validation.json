@@ -1,0 +1,216 @@
+{
+  "ik_target_probes": [
+    {
+      "limb": "paw",
+      "side": "L",
+      "target_displacement": [
+        0.008,
+        -0.01,
+        0.006
+      ],
+      "effector_to_target": 0.0022926563760025023,
+      "opposite_effector_displacement": 0.0,
+      "scale_max_delta": 0.0
+    },
+    {
+      "limb": "paw",
+      "side": "R",
+      "target_displacement": [
+        -0.008,
+        -0.01,
+        0.006
+      ],
+      "effector_to_target": 0.002150194334698052,
+      "opposite_effector_displacement": 0.0,
+      "scale_max_delta": 0.0
+    },
+    {
+      "limb": "foot",
+      "side": "L",
+      "target_displacement": [
+        0.008,
+        -0.01,
+        0
+      ],
+      "effector_to_target": 0.0001439749332820487,
+      "opposite_effector_displacement": 0.0,
+      "scale_max_delta": 0.0
+    },
+    {
+      "limb": "foot",
+      "side": "R",
+      "target_displacement": [
+        -0.008,
+        -0.01,
+        0
+      ],
+      "effector_to_target": 0.0002540139055738606,
+      "opposite_effector_displacement": 0.0,
+      "scale_max_delta": 0.0
+    }
+  ],
+  "anchors": [
+    {
+      "name": "ANCHOR_CheekTouch.L",
+      "semantic_owner": "DEF_head",
+      "neutral_nearest_surface_distance": 1.926346158143133e-06,
+      "position": [
+        0.15021203458309174,
+        -0.31905293464660645,
+        0.6264814734458923
+      ]
+    },
+    {
+      "name": "ANCHOR_CheekTouch.R",
+      "semantic_owner": "DEF_head",
+      "neutral_nearest_surface_distance": 4.70020040665986e-06,
+      "position": [
+        -0.15027955174446106,
+        -0.3193599581718445,
+        0.6262848973274231
+      ]
+    },
+    {
+      "name": "ANCHOR_ChestTouch",
+      "semantic_owner": "DEF_chest",
+      "neutral_nearest_surface_distance": 4.261551111994777e-06,
+      "position": [
+        -0.0001543854596093297,
+        -0.3015937805175781,
+        0.4103541374206543
+      ]
+    },
+    {
+      "name": "ANCHOR_ChestWear",
+      "semantic_owner": "DEF_chest",
+      "neutral_nearest_surface_distance": 0.012608176097273827,
+      "position": [
+        0.0,
+        -0.3050000071525574,
+        0.4449999928474426
+      ]
+    },
+    {
+      "name": "ANCHOR_FootSupport.L",
+      "semantic_owner": "DEF_foot.L",
+      "neutral_nearest_surface_distance": 2.125879836967215e-05,
+      "position": [
+        0.14013491570949554,
+        -0.12929849326610565,
+        0.0034451279789209366
+      ]
+    },
+    {
+      "name": "ANCHOR_FootSupport.R",
+      "semantic_owner": "DEF_foot.R",
+      "neutral_nearest_surface_distance": 0.00012070602679159492,
+      "position": [
+        -0.14004912972450256,
+        -0.12909118831157684,
+        0.003302222117781639
+      ]
+    },
+    {
+      "name": "ANCHOR_GiftAssist",
+      "semantic_owner": "DEF_chest",
+      "neutral_nearest_surface_distance": 0.03923014551401138,
+      "position": [
+        0.0,
+        -0.27000001072883606,
+        0.3699999451637268
+      ]
+    },
+    {
+      "name": "ANCHOR_HeadWear",
+      "semantic_owner": "DEF_head",
+      "neutral_nearest_surface_distance": 0.020302213728427887,
+      "position": [
+        0.0,
+        -0.20499998331069946,
+        0.8870000243186951
+      ]
+    },
+    {
+      "name": "ANCHOR_Holding.L",
+      "semantic_owner": "DEF_paw.L",
+      "neutral_nearest_surface_distance": 0.003831000067293644,
+      "position": [
+        0.28999999165534973,
+        -0.22499994933605194,
+        0.35999998450279236
+      ]
+    },
+    {
+      "name": "ANCHOR_Holding.R",
+      "semantic_owner": "DEF_paw.R",
+      "neutral_nearest_surface_distance": 0.0037701306864619255,
+      "position": [
+        -0.28999999165534973,
+        -0.22499991953372955,
+        0.36000004410743713
+      ]
+    },
+    {
+      "name": "ANCHOR_Mouth",
+      "semantic_owner": "DEF_head",
+      "neutral_nearest_surface_distance": 0.03411094844341278,
+      "position": [
+        0.0,
+        -0.4099999964237213,
+        0.6049999594688416
+      ]
+    },
+    {
+      "name": "ANCHOR_PawContact.L",
+      "semantic_owner": "DEF_paw.L",
+      "neutral_nearest_surface_distance": 4.214684778958144e-08,
+      "position": [
+        0.3031710982322693,
+        -0.20945994555950165,
+        0.3652091324329376
+      ]
+    },
+    {
+      "name": "ANCHOR_PawContact.R",
+      "semantic_owner": "DEF_paw.R",
+      "neutral_nearest_surface_distance": 4.470348358154297e-08,
+      "position": [
+        -0.3031710386276245,
+        -0.20945996046066284,
+        0.36520916223526
+      ]
+    },
+    {
+      "name": "ANCHOR_TailRootTouch",
+      "semantic_owner": "DEF_tail_00",
+      "neutral_nearest_surface_distance": 7.505008170483052e-09,
+      "position": [
+        0.0002441570395603776,
+        0.10189928114414215,
+        0.2814841568470001
+      ]
+    },
+    {
+      "name": "ANCHOR_WingRootTouch.L",
+      "semantic_owner": "DEF_wing_girdle.L",
+      "neutral_nearest_surface_distance": 1.6076932297437452e-05,
+      "position": [
+        0.08891431987285614,
+        -0.1119602620601654,
+        0.5082933902740479
+      ]
+    },
+    {
+      "name": "ANCHOR_WingRootTouch.R",
+      "semantic_owner": "DEF_wing_girdle.R",
+      "neutral_nearest_surface_distance": 6.188916756855178e-08,
+      "position": [
+        -0.0871165469288826,
+        -0.10975972563028336,
+        0.5080496072769165
+      ]
+    }
+  ],
+  "scope": "Small independent target offsets only. No reach extremes, prop fit, semantic contact surface projection or physical balance certification. Anchor nodes retain bone ownership; offsets are explicit.",
+  "human_visual": "PENDING"
+}

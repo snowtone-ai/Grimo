@@ -1,0 +1,1103 @@
+{
+  "saved_blend_reopened": true,
+  "cases": [
+    {
+      "name": "wing-L-open",
+      "values": {
+        "wing_open.L": 1,
+        "wing_camber.L": 0.6
+      },
+      "samples": [
+        {
+          "frame": 1,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 6,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05547518105658494,
+          "edge_ratio_min": 0.8877943944755478,
+          "edge_ratio_max": 1.1555451942434611,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 11,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.10927565757922106,
+          "edge_ratio_min": 0.7752300273425938,
+          "edge_ratio_max": 1.2965427736034942,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 16,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05547518105658494,
+          "edge_ratio_min": 0.8877943944755478,
+          "edge_ratio_max": 1.1555451942434611,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 21,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 1,
+      "peak_frame": 11,
+      "return_frame": 21
+    },
+    {
+      "name": "wing-L-fold",
+      "values": {
+        "wing_open.L": -1
+      },
+      "samples": [
+        {
+          "frame": 21,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 26,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.10747842565884547,
+          "edge_ratio_min": 0.8655145664456336,
+          "edge_ratio_max": 1.0594930838301757,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 31,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.21341100068639748,
+          "edge_ratio_min": 0.7278859343901524,
+          "edge_ratio_max": 1.1171247123315404,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 36,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.10747842565884547,
+          "edge_ratio_min": 0.8655145664456336,
+          "edge_ratio_max": 1.0594930838301757,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 41,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 21,
+      "peak_frame": 31,
+      "return_frame": 41
+    },
+    {
+      "name": "wing-R-open",
+      "values": {
+        "wing_open.R": 1,
+        "wing_flap.R": 0.45
+      },
+      "samples": [
+        {
+          "frame": 41,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 46,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05635570991272508,
+          "edge_ratio_min": 0.8879637963001568,
+          "edge_ratio_max": 1.154855501478886,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 51,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.11064772832649711,
+          "edge_ratio_min": 0.7763045556637281,
+          "edge_ratio_max": 1.2953250140461743,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 56,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05635570991272508,
+          "edge_ratio_min": 0.8879637963001568,
+          "edge_ratio_max": 1.154855501478886,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 61,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 41,
+      "peak_frame": 51,
+      "return_frame": 61
+    },
+    {
+      "name": "wing-R-fold",
+      "values": {
+        "wing_open.R": -1
+      },
+      "samples": [
+        {
+          "frame": 61,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 66,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.10747842565884547,
+          "edge_ratio_min": 0.8617494961994734,
+          "edge_ratio_max": 1.0604753905281157,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 71,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.21341100068639748,
+          "edge_ratio_min": 0.7199340708834622,
+          "edge_ratio_max": 1.1177982819739227,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 76,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.10747842565884547,
+          "edge_ratio_min": 0.8617494961994734,
+          "edge_ratio_max": 1.0604753905281157,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 81,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 61,
+      "peak_frame": 71,
+      "return_frame": 81
+    },
+    {
+      "name": "both-wings-open",
+      "values": {
+        "wing_open.L": 1,
+        "wing_open.R": 1,
+        "wing_flap.L": 0.4,
+        "wing_flap.R": 0.4
+      },
+      "samples": [
+        {
+          "frame": 81,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 86,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.056250343979711216,
+          "edge_ratio_min": 0.8877943944755478,
+          "edge_ratio_max": 1.1555981067386658,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 91,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.11051080865155609,
+          "edge_ratio_min": 0.7752300273425938,
+          "edge_ratio_max": 1.2966592210096552,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 96,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.056250343979711216,
+          "edge_ratio_min": 0.8877943944755478,
+          "edge_ratio_max": 1.1555981067386658,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 101,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 81,
+      "peak_frame": 91,
+      "return_frame": 101
+    },
+    {
+      "name": "both-wings-fold",
+      "values": {
+        "wing_open.L": -1,
+        "wing_open.R": -1
+      },
+      "samples": [
+        {
+          "frame": 101,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 106,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.10747842565884547,
+          "edge_ratio_min": 0.8617494961994734,
+          "edge_ratio_max": 1.0604753905281157,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 111,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.21341100068639748,
+          "edge_ratio_min": 0.7199340708834622,
+          "edge_ratio_max": 1.1177982819739227,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 116,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.10747842565884547,
+          "edge_ratio_min": 0.8617494961994734,
+          "edge_ratio_max": 1.0604753905281157,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 121,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 101,
+      "peak_frame": 111,
+      "return_frame": 121
+    },
+    {
+      "name": "paw-L-offer",
+      "values": {
+        "paw_offer.L": 1,
+        "paw_turn.L": 0.3
+      },
+      "samples": [
+        {
+          "frame": 121,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 126,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.04624914377318226,
+          "edge_ratio_min": 0.7462846685956366,
+          "edge_ratio_max": 1.2910301518896117,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 131,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.0921535198896841,
+          "edge_ratio_min": 0.5323705545308514,
+          "edge_ratio_max": 1.6921445244316442,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 136,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.04624914377318226,
+          "edge_ratio_min": 0.7462846685956366,
+          "edge_ratio_max": 1.2910301518896117,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 141,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 121,
+      "peak_frame": 131,
+      "return_frame": 141
+    },
+    {
+      "name": "paw-R-offer",
+      "values": {
+        "paw_offer.R": 1,
+        "paw_turn.R": -0.3
+      },
+      "samples": [
+        {
+          "frame": 141,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 146,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.04413518686947096,
+          "edge_ratio_min": 0.7867326621423741,
+          "edge_ratio_max": 1.296401019214913,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 151,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.08795324086600166,
+          "edge_ratio_min": 0.6521207465457358,
+          "edge_ratio_max": 1.7165789508914626,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 156,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.04413518686947096,
+          "edge_ratio_min": 0.7867326621423741,
+          "edge_ratio_max": 1.296401019214913,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 161,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 141,
+      "peak_frame": 151,
+      "return_frame": 161
+    },
+    {
+      "name": "tail-left",
+      "values": {
+        "tail_sway": 1,
+        "tail_curl": 0.25,
+        "leaves_tail": 0.3
+      },
+      "samples": [
+        {
+          "frame": 161,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 166,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.029323825093248088,
+          "edge_ratio_min": 0.8868567777026832,
+          "edge_ratio_max": 1.1142076636258205,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 171,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.05856226391572556,
+          "edge_ratio_min": 0.7759026531053305,
+          "edge_ratio_max": 1.2295699523377122,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 176,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.029323825093248088,
+          "edge_ratio_min": 0.8868567777026832,
+          "edge_ratio_max": 1.1142076636258205,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 181,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 161,
+      "peak_frame": 171,
+      "return_frame": 181
+    },
+    {
+      "name": "tail-right",
+      "values": {
+        "tail_sway": -1,
+        "tail_curl": 0.25,
+        "leaves_tail": -0.3
+      },
+      "samples": [
+        {
+          "frame": 181,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 186,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.029322149345821107,
+          "edge_ratio_min": 0.8865214190075995,
+          "edge_ratio_max": 1.1140032276787248,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 191,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.05855638880805985,
+          "edge_ratio_min": 0.7751620597584566,
+          "edge_ratio_max": 1.2291571631228826,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 196,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.029322149345821107,
+          "edge_ratio_min": 0.8865214190075995,
+          "edge_ratio_max": 1.1140032276787248,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 201,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 181,
+      "peak_frame": 191,
+      "return_frame": 201
+    },
+    {
+      "name": "head-gaze",
+      "values": {
+        "head_yaw": 1,
+        "head_nod": 0.4,
+        "head_tilt": 0.3,
+        "gaze_x.L": 0.7,
+        "gaze_x.R": 0.7,
+        "gaze_y.L": 0.4,
+        "gaze_y.R": 0.4,
+        "leaves_head.L": 0.3
+      },
+      "samples": [
+        {
+          "frame": 201,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 206,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.044449665682894095,
+          "edge_ratio_min": 0.9276922559088373,
+          "edge_ratio_max": 1.0773605361621021,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 211,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.08897064372930277,
+          "edge_ratio_min": 0.8533113893291103,
+          "edge_ratio_max": 1.1525808492574328,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 216,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.044449665682894095,
+          "edge_ratio_min": 0.9276922559088373,
+          "edge_ratio_max": 1.0773605361621021,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 221,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 201,
+      "peak_frame": 211,
+      "return_frame": 221
+    },
+    {
+      "name": "blink",
+      "values": {
+        "blink.L": 1,
+        "blink.R": 1,
+        "smile.L": 0.6,
+        "smile.R": 0.6
+      },
+      "samples": [
+        {
+          "frame": 221,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 226,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.0010318160057067871,
+          "edge_ratio_min": 0.9650220057756159,
+          "edge_ratio_max": 1.0283432404911907,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 231,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.002063572406768799,
+          "edge_ratio_min": 0.9300561324537675,
+          "edge_ratio_max": 1.0569488378839782,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 236,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.0010318160057067871,
+          "edge_ratio_min": 0.9650220057756159,
+          "edge_ratio_max": 1.0283432404911907,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 241,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 221,
+      "peak_frame": 231,
+      "return_frame": 241
+    },
+    {
+      "name": "mouth-close",
+      "values": {
+        "mouth_close": 1,
+        "cheek_touch.L": 0.65
+      },
+      "samples": [
+        {
+          "frame": 241,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 246,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.009234368801116943,
+          "edge_ratio_min": 0.7249494745298706,
+          "edge_ratio_max": 1.4347971331100238,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 251,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.018468737602257933,
+          "edge_ratio_min": 0.46659056117109876,
+          "edge_ratio_max": 1.8715135138680354,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 256,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.009234368801116943,
+          "edge_ratio_min": 0.7249494745298706,
+          "edge_ratio_max": 1.4347971331100238,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 261,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 241,
+      "peak_frame": 251,
+      "return_frame": 261
+    },
+    {
+      "name": "mouth-open",
+      "values": {
+        "mouth_open": 1,
+        "smile.L": 0.8,
+        "smile.R": 0.8
+      },
+      "samples": [
+        {
+          "frame": 261,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 266,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.004151701927185059,
+          "edge_ratio_min": 0.9039937603016815,
+          "edge_ratio_max": 1.2084861763744748,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 271,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.008303463459014893,
+          "edge_ratio_min": 0.812380648074594,
+          "edge_ratio_max": 1.4231087541762508,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 276,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.004151701927185059,
+          "edge_ratio_min": 0.9039937603016815,
+          "edge_ratio_max": 1.2084861763744748,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 281,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 261,
+      "peak_frame": 271,
+      "return_frame": 281
+    },
+    {
+      "name": "low-support",
+      "values": {
+        "pelvis_down": 0.012,
+        "foot_ik.L": 1,
+        "foot_ik.R": 1,
+        "head_nod": 0.5,
+        "chest_lift": -0.3
+      },
+      "samples": [
+        {
+          "frame": 281,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 286,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.021652903773885027,
+          "edge_ratio_min": 0.8328041174530252,
+          "edge_ratio_max": 1.0828337027609667,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 291,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.04355569563925274,
+          "edge_ratio_min": 0.8432113407402778,
+          "edge_ratio_max": 1.0997357077826073,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 296,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.021652903773885027,
+          "edge_ratio_min": 0.8328041174530252,
+          "edge_ratio_max": 1.0828337027609667,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 301,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 281,
+      "peak_frame": 291,
+      "return_frame": 301
+    },
+    {
+      "name": "combined-left",
+      "values": {
+        "wing_open.L": 0.8,
+        "wing_open.R": -0.45,
+        "paw_offer.L": 0.7,
+        "tail_sway": 0.65,
+        "head_yaw": -0.5,
+        "head_tilt": 0.3,
+        "blink.R": 0.5,
+        "mouth_close": 0.45,
+        "chest_lift": 0.65,
+        "breath": 0.7,
+        "leaves_neck.L": 0.5,
+        "leaves_head.R": 0.3,
+        "chest_touch": 0.4
+      },
+      "samples": [
+        {
+          "frame": 301,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 306,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05146073161057122,
+          "edge_ratio_min": 0.8115646216570209,
+          "edge_ratio_max": 1.2024049210346195,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 311,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.10275019894503458,
+          "edge_ratio_min": 0.6380030783264166,
+          "edge_ratio_max": 1.4852479472755615,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 316,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05146073161057122,
+          "edge_ratio_min": 0.8115646216570209,
+          "edge_ratio_max": 1.2024049210346195,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 321,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 301,
+      "peak_frame": 311,
+      "return_frame": 321
+    },
+    {
+      "name": "combined-right",
+      "values": {
+        "wing_open.R": 0.8,
+        "wing_open.L": -0.45,
+        "paw_offer.R": 0.7,
+        "tail_sway": -0.65,
+        "head_yaw": 0.5,
+        "blink.L": 0.5,
+        "mouth_close": 0.45,
+        "chest_lift": 0.65,
+        "leaves_neck.R": 0.5,
+        "leaves_head.L": 0.3
+      },
+      "samples": [
+        {
+          "frame": 321,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 326,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05134591154334907,
+          "edge_ratio_min": 0.8374261293444514,
+          "edge_ratio_max": 1.2130755450358837,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 331,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.10241138620149526,
+          "edge_ratio_min": 0.7237261169889098,
+          "edge_ratio_max": 1.498769041531619,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 336,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.05134591154334907,
+          "edge_ratio_min": 0.8374261293444514,
+          "edge_ratio_max": 1.2130755450358837,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 341,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 321,
+      "peak_frame": 331,
+      "return_frame": 341
+    },
+    {
+      "name": "paw-IK-contact",
+      "values": {
+        "paw_ik.L": 1,
+        "foot_ik.L": 1,
+        "foot_ik.R": 1
+      },
+      "samples": [
+        {
+          "frame": 341,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        },
+        {
+          "frame": 346,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.020713058237994245,
+          "edge_ratio_min": 0.6792774247246732,
+          "edge_ratio_max": 1.3510383347595494,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 351,
+          "level": 1,
+          "finite": true,
+          "max_displacement": 0.026625943678933065,
+          "edge_ratio_min": 0.678647254394569,
+          "edge_ratio_max": 1.351671899261769,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 356,
+          "level": 0.5,
+          "finite": true,
+          "max_displacement": 0.020713058237994245,
+          "edge_ratio_min": 0.6792774247246732,
+          "edge_ratio_max": 1.3510383347595494,
+          "new_degenerate_triangles": 0
+        },
+        {
+          "frame": 361,
+          "level": 0,
+          "finite": true,
+          "max_displacement": 0.0,
+          "edge_ratio_min": 1.0,
+          "edge_ratio_max": 1.0,
+          "new_degenerate_triangles": 0,
+          "return_delta": 0.0
+        }
+      ],
+      "start_frame": 341,
+      "peak_frame": 351,
+      "return_frame": 361
+    }
+  ],
+  "human_visual": "PENDING",
+  "scope": "Bounded sampled control proof, no full Motion library, not continuous collision guarantee."
+}

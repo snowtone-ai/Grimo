@@ -1,0 +1,1668 @@
+{
+  "tolerance": 1e-05,
+  "bounded_roundtrip_pass": true,
+  "blender_reopen": [
+    {
+      "case": "neutral",
+      "frame": 1,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "wing-L-open-peak",
+      "frame": 11,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "wing-L-fold-peak",
+      "frame": 31,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "wing-R-open-peak",
+      "frame": 51,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "wing-R-fold-peak",
+      "frame": 71,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "both-wings-open-peak",
+      "frame": 91,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "both-wings-fold-peak",
+      "frame": 111,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "both-wings-fold-half",
+      "frame": 106,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "both-wings-fold-return",
+      "frame": 121,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "paw-L-offer-peak",
+      "frame": 131,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "paw-R-offer-peak",
+      "frame": 151,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "tail-left-peak",
+      "frame": 171,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "tail-right-peak",
+      "frame": 191,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "head-gaze-peak",
+      "frame": 211,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "blink-peak",
+      "frame": 231,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "blink-half",
+      "frame": 226,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "blink-return",
+      "frame": 241,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "mouth-close-peak",
+      "frame": 251,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "mouth-open-peak",
+      "frame": 271,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "low-support-peak",
+      "frame": 291,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "low-support-half",
+      "frame": 286,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "low-support-return",
+      "frame": 301,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "combined-left-peak",
+      "frame": 311,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "combined-left-half",
+      "frame": 306,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "combined-left-return",
+      "frame": 321,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "combined-right-peak",
+      "frame": 331,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    },
+    {
+      "case": "paw-IK-contact-peak",
+      "frame": 351,
+      "saved_proof_max_delta": 0.0,
+      "missing_anchors": []
+    }
+  ],
+  "direct_control_replay": [
+    {
+      "case": "wing-L-open",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "wing-L-fold",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "wing-R-open",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "wing-R-fold",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "both-wings-open",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "both-wings-fold",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "paw-L-offer",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "paw-R-offer",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "tail-left",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "tail-right",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "head-gaze",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "blink",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "mouth-close",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "mouth-open",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "low-support",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "combined-left",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "combined-right",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    },
+    {
+      "case": "paw-IK-contact",
+      "direct_control_vs_saved_peak_max_delta": 0.0
+    }
+  ],
+  "direct_reset_delta": 1.3329305248569582e-07,
+  "independence": [
+    {
+      "case": "wing-L-open",
+      "stationary_vertices": 25757,
+      "stationary_max_delta": 1.3329305248569582e-07
+    },
+    {
+      "case": "wing-L-fold",
+      "stationary_vertices": 25757,
+      "stationary_max_delta": 1.3329305248569582e-07
+    },
+    {
+      "case": "wing-R-open",
+      "stationary_vertices": 25732,
+      "stationary_max_delta": 1.3329305248569582e-07
+    },
+    {
+      "case": "wing-R-fold",
+      "stationary_vertices": 25732,
+      "stationary_max_delta": 1.3329305248569582e-07
+    },
+    {
+      "case": "paw-L-offer",
+      "stationary_vertices": 6556,
+      "stationary_max_delta": 8.560065398421926e-08
+    },
+    {
+      "case": "paw-R-offer",
+      "stationary_vertices": 6556,
+      "stationary_max_delta": 8.560065398421926e-08
+    },
+    {
+      "case": "tail-left",
+      "stationary_vertices": 10141,
+      "stationary_max_delta": 1.292627421982398e-07
+    },
+    {
+      "case": "tail-right",
+      "stationary_vertices": 10141,
+      "stationary_max_delta": 1.292627421982398e-07
+    }
+  ],
+  "glb_structure": {
+    "sha256": "046bfeb9c1f02483d46a2ae37656017682fe31a22e25ae50da29d047b084a0c3",
+    "bytes": 6677672,
+    "skins": [
+      {
+        "name": "JILL_RIG",
+        "joints": 130
+      }
+    ],
+    "meshes": [
+      {
+        "name": "Jill_v002_PreservedSurface",
+        "primitives": 1,
+        "morph_names": [
+          "FACE_MouthClose",
+          "FACE_MouthOpen",
+          "FACE_Smile.L",
+          "TOUCH_Cheek.L",
+          "FACE_Smile.R",
+          "TOUCH_Cheek.R",
+          "TOUCH_Chest",
+          "TAIL_Curl",
+          "WING_Camber.L",
+          "WING_Camber.R",
+          "COR_WingOpen.L",
+          "COR_WingFold.L",
+          "COR_Shoulder.L",
+          "COR_WingOpen.R",
+          "COR_WingFold.R",
+          "COR_Shoulder.R",
+          "COR_TailLeft",
+          "COR_TailRight"
+        ],
+        "vertices": 46003
+      },
+      {
+        "name": "Jill_CurvedLids.L",
+        "primitives": 1,
+        "morph_names": [
+          "FACE_Blink.L"
+        ],
+        "vertices": 350
+      },
+      {
+        "name": "Jill_CurvedLids.R",
+        "primitives": 1,
+        "morph_names": [
+          "FACE_Blink.R"
+        ],
+        "vertices": 350
+      }
+    ],
+    "animations": [
+      {
+        "name": "JILL_RIG",
+        "channels": 393,
+        "paths": [
+          "rotation",
+          "scale",
+          "translation",
+          "weights"
+        ]
+      }
+    ],
+    "anchor_nodes": [
+      "ANCHOR_CheekTouch.L",
+      "ANCHOR_CheekTouch.R",
+      "ANCHOR_HeadWear",
+      "ANCHOR_Mouth",
+      "ANCHOR_Holding.L",
+      "ANCHOR_PawContact.L",
+      "ANCHOR_Holding.R",
+      "ANCHOR_PawContact.R",
+      "ANCHOR_WingRootTouch.L",
+      "ANCHOR_WingRootTouch.R",
+      "ANCHOR_ChestTouch",
+      "ANCHOR_ChestWear",
+      "ANCHOR_GiftAssist",
+      "ANCHOR_TailRootTouch",
+      "ANCHOR_FootSupport.L",
+      "ANCHOR_FootSupport.R"
+    ],
+    "authoring_boundary": "Custom-property drivers and IK are not portable glTF logic. Sampled transforms/morph weights reproduce the proof; runtime arbitrary control mapping remains separate."
+  },
+  "glb_reimport": [
+    {
+      "case": "neutral",
+      "authoring_frame": 1,
+      "import_frame": 1,
+      "seconds": 0.03333333333333333,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1871017989579486e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1713726770743492e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "wing-L-open-peak",
+      "authoring_frame": 11,
+      "import_frame": 11,
+      "seconds": 0.36666666666666664,
+      "import_to_blend": {
+        "max": 7.315620109693555e-07,
+        "p99": 3.075510738881357e-07,
+        "mean": 1.2217538049632147e-07
+      },
+      "blend_to_import": {
+        "max": 7.315620109693555e-07,
+        "p99": 3.066753322400473e-07,
+        "mean": 1.2086933476668596e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.49197759924391e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "wing-L-fold-peak",
+      "authoring_frame": 31,
+      "import_frame": 31,
+      "seconds": 1.0333333333333334,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.2009729505231977e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.186620175546364e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "wing-R-open-peak",
+      "authoring_frame": 51,
+      "import_frame": 51,
+      "seconds": 1.7,
+      "import_to_blend": {
+        "max": 2.8124363780079875e-06,
+        "p99": 3.090868574417982e-07,
+        "mean": 1.2024687506515237e-07
+      },
+      "blend_to_import": {
+        "max": 2.8124363780079875e-06,
+        "p99": 3.0983486993818555e-07,
+        "mean": 1.1892203766544324e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.5997075308860076e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "wing-R-fold-peak",
+      "authoring_frame": 71,
+      "import_frame": 71,
+      "seconds": 2.3666666666666667,
+      "import_to_blend": {
+        "max": 8.65045763021044e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1853291810765017e-07
+      },
+      "blend_to_import": {
+        "max": 8.65045763021044e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1701139743732537e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "both-wings-open-peak",
+      "authoring_frame": 91,
+      "import_frame": 91,
+      "seconds": 3.033333333333333,
+      "import_to_blend": {
+        "max": 2.8124363780079875e-06,
+        "p99": 3.090868574417982e-07,
+        "mean": 1.220334087184906e-07
+      },
+      "blend_to_import": {
+        "max": 2.8124363780079875e-06,
+        "p99": 3.09663043083219e-07,
+        "mean": 1.2085903300646424e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.49197759924391e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.5997075308860076e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "both-wings-fold-peak",
+      "authoring_frame": 111,
+      "import_frame": 111,
+      "seconds": 3.7,
+      "import_to_blend": {
+        "max": 8.65045763021044e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1992003326417506e-07
+      },
+      "blend_to_import": {
+        "max": 8.65045763021044e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1853614728452685e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "both-wings-fold-half",
+      "authoring_frame": 106,
+      "import_frame": 106,
+      "seconds": 3.533333333333333,
+      "import_to_blend": {
+        "max": 4.569216969230183e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.169317694815841e-07
+      },
+      "blend_to_import": {
+        "max": 4.569216969230183e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1513735185313183e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "both-wings-fold-return",
+      "authoring_frame": 121,
+      "import_frame": 121,
+      "seconds": 4.033333333333333,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1871017989579486e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1713726770743492e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "paw-L-offer-peak",
+      "authoring_frame": 131,
+      "import_frame": 131,
+      "seconds": 4.366666666666666,
+      "import_to_blend": {
+        "max": 9.109875463764183e-06,
+        "p99": 3.039252476355614e-07,
+        "mean": 1.2571745309040114e-07
+      },
+      "blend_to_import": {
+        "max": 9.109875463764183e-06,
+        "p99": 3.029190338565968e-07,
+        "mean": 1.239748245611865e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.4073563054116676e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.528810796320613e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "paw-R-offer-peak",
+      "authoring_frame": 151,
+      "import_frame": 151,
+      "seconds": 5.033333333333333,
+      "import_to_blend": {
+        "max": 9.784062058315612e-06,
+        "p99": 3.039252476355614e-07,
+        "mean": 1.241718774918096e-07
+      },
+      "blend_to_import": {
+        "max": 9.784062058315612e-06,
+        "p99": 3.031937865216605e-07,
+        "mean": 1.2213433566964858e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.6049041562382627e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 1.0745380052412656e-07,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "tail-left-peak",
+      "authoring_frame": 171,
+      "import_frame": 171,
+      "seconds": 5.7,
+      "import_to_blend": {
+        "max": 1.0274510486851796e-06,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1896091559555504e-07
+      },
+      "blend_to_import": {
+        "max": 1.0274510486851796e-06,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.174777184051033e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.034414295503666e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "tail-right-peak",
+      "authoring_frame": 191,
+      "import_frame": 191,
+      "seconds": 6.366666666666666,
+      "import_to_blend": {
+        "max": 1.010893015518377e-06,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1865835717805613e-07
+      },
+      "blend_to_import": {
+        "max": 1.010893015518377e-06,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1721432367559824e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.041347060976477e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "head-gaze-peak",
+      "authoring_frame": 211,
+      "import_frame": 211,
+      "seconds": 7.033333333333333,
+      "import_to_blend": {
+        "max": 7.70160841057077e-06,
+        "p99": 3.5040120337726184e-07,
+        "mean": 1.3608176832900998e-07
+      },
+      "blend_to_import": {
+        "max": 7.70160841057077e-06,
+        "p99": 3.4530847869973513e-07,
+        "mean": 1.3340462262340066e-07
+      },
+      "lids": {
+        "L": {
+          "max": 2.1696418173178245e-07,
+          "p99": 1.9487742633828017e-07,
+          "mean": 1.465203766315426e-07
+        },
+        "R": {
+          "max": 2.2080006090163806e-07,
+          "p99": 1.9371509552001953e-07,
+          "mean": 1.4719571097998596e-07
+        }
+      },
+      "anchor_max_delta": 3.7344059933275275e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.6697625798988156e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.936133682851505e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.7344059933275275e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 2.1811248984704434e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "blink-peak",
+      "authoring_frame": 231,
+      "import_frame": 231,
+      "seconds": 7.7,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.187200719332771e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1714051421810265e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.7595931820681343e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.7595931820681343e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "blink-half",
+      "authoring_frame": 226,
+      "import_frame": 226,
+      "seconds": 7.533333333333333,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1871017989579486e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1713726770743492e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.7326542868139378e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.7326542868139378e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "blink-return",
+      "authoring_frame": 241,
+      "import_frame": 241,
+      "seconds": 8.033333333333333,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1871017989579486e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1713726770743492e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "mouth-close-peak",
+      "authoring_frame": 251,
+      "import_frame": 251,
+      "seconds": 8.366666666666667,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1840595727445225e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1686441119754213e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "mouth-open-peak",
+      "authoring_frame": 271,
+      "import_frame": 271,
+      "seconds": 9.033333333333333,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1872139087160807e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1714159638832523e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "low-support-peak",
+      "authoring_frame": 291,
+      "import_frame": 291,
+      "seconds": 9.7,
+      "import_to_blend": {
+        "max": 9.5413986400672e-07,
+        "p99": 3.62579680199815e-07,
+        "mean": 1.4102624786924478e-07
+      },
+      "blend_to_import": {
+        "max": 9.5413986400672e-07,
+        "p99": 3.6132359213070096e-07,
+        "mean": 1.3922388011794393e-07
+      },
+      "lids": {
+        "L": {
+          "max": 2.5506679435238766e-07,
+          "p99": 2.5050359738543186e-07,
+          "mean": 1.6843848474731464e-07
+        },
+        "R": {
+          "max": 2.6656007889869215e-07,
+          "p99": 2.5028244238001197e-07,
+          "mean": 1.6644031749787505e-07
+        }
+      },
+      "anchor_max_delta": 2.7516759359969e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.3466371601443825e-07,
+        "ANCHOR_FootSupport.L": 8.41495193526498e-08,
+        "ANCHOR_CheekTouch.L": 2.5331974029541016e-07,
+        "ANCHOR_WingRootTouch.L": 1.6066326224972727e-07,
+        "ANCHOR_Holding.L": 2.2891597950547293e-07,
+        "ANCHOR_PawContact.R": 1.115100829451876e-07,
+        "ANCHOR_FootSupport.R": 1.0765138114265937e-07,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.4136482207049994e-07,
+        "ANCHOR_Holding.R": 8.940696716308594e-08,
+        "ANCHOR_HeadWear": 2.747682401604834e-07,
+        "ANCHOR_ChestWear": 9.458229754955028e-08,
+        "ANCHOR_ChestTouch": 1.8146157287901588e-07,
+        "ANCHOR_Mouth": 2.545565394029836e-07,
+        "ANCHOR_TailRootTouch": 7.461086681814777e-08,
+        "ANCHOR_GiftAssist": 1.0765281643898561e-07
+      }
+    },
+    {
+      "case": "low-support-half",
+      "authoring_frame": 286,
+      "import_frame": 286,
+      "seconds": 9.533333333333333,
+      "import_to_blend": {
+        "max": 5.96791039697564e-07,
+        "p99": 3.686223175236611e-07,
+        "mean": 1.3142844052008642e-07
+      },
+      "blend_to_import": {
+        "max": 5.96791039697564e-07,
+        "p99": 3.6530665767031676e-07,
+        "mean": 1.287371494601922e-07
+      },
+      "lids": {
+        "L": {
+          "max": 2.812532500229281e-07,
+          "p99": 2.666641876203357e-07,
+          "mean": 1.9558921077792288e-07
+        },
+        "R": {
+          "max": 2.812532500229281e-07,
+          "p99": 2.811545414260763e-07,
+          "mean": 2.0283985321611908e-07
+        }
+      },
+      "anchor_max_delta": 3.375039057118556e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 1.7377590211253846e-07,
+        "ANCHOR_FootSupport.L": 1.0849807807744583e-07,
+        "ANCHOR_CheekTouch.L": 2.98395519848782e-07,
+        "ANCHOR_WingRootTouch.L": 2.0349770579741744e-07,
+        "ANCHOR_Holding.L": 1.9599417555582477e-07,
+        "ANCHOR_PawContact.R": 9.884312390795458e-08,
+        "ANCHOR_FootSupport.R": 7.679882685351913e-08,
+        "ANCHOR_CheekTouch.R": 3.375039057118556e-07,
+        "ANCHOR_WingRootTouch.R": 1.506786730942622e-07,
+        "ANCHOR_Holding.R": 6.664001972467304e-08,
+        "ANCHOR_HeadWear": 3.268271484557772e-07,
+        "ANCHOR_ChestWear": 1.2312955277593574e-07,
+        "ANCHOR_ChestTouch": 1.5217247550936008e-07,
+        "ANCHOR_Mouth": 2.168104629163281e-07,
+        "ANCHOR_TailRootTouch": 7.460478457232966e-08,
+        "ANCHOR_GiftAssist": 8.454036759530936e-08
+      }
+    },
+    {
+      "case": "low-support-return",
+      "authoring_frame": 301,
+      "import_frame": 301,
+      "seconds": 10.033333333333333,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1871017989579486e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1713726770743492e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "combined-left-peak",
+      "authoring_frame": 311,
+      "import_frame": 311,
+      "seconds": 10.366666666666667,
+      "import_to_blend": {
+        "max": 8.440162673650775e-06,
+        "p99": 3.6759763588634087e-07,
+        "mean": 1.330709099960527e-07
+      },
+      "blend_to_import": {
+        "max": 8.440162673650775e-06,
+        "p99": 3.6759763588634087e-07,
+        "mean": 1.311160961007021e-07
+      },
+      "lids": {
+        "L": {
+          "max": 2.1503672087419545e-07,
+          "p99": 2.0027088368124169e-07,
+          "mean": 1.3765975063100606e-07
+        },
+        "R": {
+          "max": 2.154235829721074e-07,
+          "p99": 2.078354386014779e-07,
+          "mean": 1.467254045296938e-07
+        }
+      },
+      "anchor_max_delta": 3.371863499523897e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 1.8907454091277032e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.49197759924391e-07,
+        "ANCHOR_Holding.L": 2.4211522031691857e-07,
+        "ANCHOR_PawContact.R": 1.2644053981603065e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.98395519848782e-07,
+        "ANCHOR_WingRootTouch.R": 1.4542952442297974e-07,
+        "ANCHOR_Holding.R": 7.450580596923828e-08,
+        "ANCHOR_HeadWear": 3.371863499523897e-07,
+        "ANCHOR_ChestWear": 1.2311234343087563e-07,
+        "ANCHOR_ChestTouch": 1.6068125319179671e-07,
+        "ANCHOR_Mouth": 1.497548112183722e-07,
+        "ANCHOR_TailRootTouch": 7.45876178598337e-08,
+        "ANCHOR_GiftAssist": 8.453838518107659e-08
+      }
+    },
+    {
+      "case": "combined-left-half",
+      "authoring_frame": 306,
+      "import_frame": 306,
+      "seconds": 10.2,
+      "import_to_blend": {
+        "max": 4.2479027797526214e-06,
+        "p99": 3.2270563110614603e-07,
+        "mean": 1.1619812857994969e-07
+      },
+      "blend_to_import": {
+        "max": 4.2479027797526214e-06,
+        "p99": 3.2100246016852907e-07,
+        "mean": 1.1506446889354184e-07
+      },
+      "lids": {
+        "L": {
+          "max": 2.154235829721074e-07,
+          "p99": 2.154235829721074e-07,
+          "mean": 1.5070940845264755e-07
+        },
+        "R": {
+          "max": 2.154235829721074e-07,
+          "p99": 2.154235829721074e-07,
+          "mean": 1.5579613032303184e-07
+        }
+      },
+      "anchor_max_delta": 3.7262330465637206e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.107342425006209e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.995096224367444e-07,
+        "ANCHOR_WingRootTouch.L": 1.4466411357716424e-07,
+        "ANCHOR_Holding.L": 2.0267771105864085e-07,
+        "ANCHOR_PawContact.R": 1.4901161193847656e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 3.3717478231665154e-07,
+        "ANCHOR_WingRootTouch.R": 1.506786730942622e-07,
+        "ANCHOR_Holding.R": 1.115100829451876e-07,
+        "ANCHOR_HeadWear": 3.7262330465637206e-07,
+        "ANCHOR_ChestWear": 1.2311667774156376e-07,
+        "ANCHOR_ChestTouch": 1.5216490112379688e-07,
+        "ANCHOR_Mouth": 2.338343136898402e-07,
+        "ANCHOR_TailRootTouch": 7.037534999199124e-08,
+        "ANCHOR_GiftAssist": 1.0764403413077162e-07
+      }
+    },
+    {
+      "case": "combined-left-return",
+      "authoring_frame": 321,
+      "import_frame": 321,
+      "seconds": 10.7,
+      "import_to_blend": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013587672739959e-07,
+        "mean": 1.1871017989579486e-07
+      },
+      "blend_to_import": {
+        "max": 3.7299440691640484e-07,
+        "p99": 3.013573461885244e-07,
+        "mean": 1.1713726770743492e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.0212918627748877e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 2.133521661562554e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    },
+    {
+      "case": "combined-right-peak",
+      "authoring_frame": 331,
+      "import_frame": 331,
+      "seconds": 11.033333333333333,
+      "import_to_blend": {
+        "max": 8.21030971565051e-06,
+        "p99": 3.142940801126327e-07,
+        "mean": 1.1132066047371567e-07
+      },
+      "blend_to_import": {
+        "max": 8.21030971565051e-06,
+        "p99": 3.134561268325342e-07,
+        "mean": 1.0978064246695462e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9314111909807252e-07,
+          "p99": 1.9140888696256297e-07,
+          "mean": 1.4019791357051353e-07
+        },
+        "R": {
+          "max": 1.9140888696256297e-07,
+          "p99": 1.910659759118971e-07,
+          "mean": 1.3501019296313644e-07
+        }
+      },
+      "anchor_max_delta": 3.372760772890615e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 2.4755667027420714e-07,
+        "ANCHOR_FootSupport.L": 3.3372032248735195e-08,
+        "ANCHOR_CheekTouch.L": 2.995096224367444e-07,
+        "ANCHOR_WingRootTouch.L": 1.4077457421990403e-07,
+        "ANCHOR_Holding.L": 2.4211522031691857e-07,
+        "ANCHOR_PawContact.R": 1.4057727071303816e-07,
+        "ANCHOR_FootSupport.R": 7.48774056091861e-08,
+        "ANCHOR_CheekTouch.R": 3.3717478231665154e-07,
+        "ANCHOR_WingRootTouch.R": 1.437015981764489e-07,
+        "ANCHOR_Holding.R": 9.42432194506182e-08,
+        "ANCHOR_HeadWear": 3.372760772890615e-07,
+        "ANCHOR_ChestWear": 1.266655971221553e-07,
+        "ANCHOR_ChestTouch": 1.2312450792251184e-07,
+        "ANCHOR_Mouth": 2.3516587077665463e-07,
+        "ANCHOR_TailRootTouch": 7.931156176255172e-08,
+        "ANCHOR_GiftAssist": 8.45356851186807e-08
+      }
+    },
+    {
+      "case": "paw-IK-contact-peak",
+      "authoring_frame": 351,
+      "import_frame": 351,
+      "seconds": 11.7,
+      "import_to_blend": {
+        "max": 3.635639131971402e-06,
+        "p99": 3.039252476355614e-07,
+        "mean": 1.2237030451935383e-07
+      },
+      "blend_to_import": {
+        "max": 3.635639131971402e-06,
+        "p99": 3.0227944961325047e-07,
+        "mean": 1.2084995974431915e-07
+      },
+      "lids": {
+        "L": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        },
+        "R": {
+          "max": 1.9082797564351495e-07,
+          "p99": 1.9082797564351495e-07,
+          "mean": 1.6692210238034023e-07
+        }
+      },
+      "anchor_max_delta": 3.479148631413409e-07,
+      "missing_anchors": [],
+      "anchor_deltas": {
+        "ANCHOR_PawContact.L": 1.5485740334497677e-07,
+        "ANCHOR_FootSupport.L": 8.927104744316239e-08,
+        "ANCHOR_CheekTouch.L": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.L": 1.5377824524875905e-07,
+        "ANCHOR_Holding.L": 1.497548112183722e-07,
+        "ANCHOR_PawContact.R": 1.519626238177807e-07,
+        "ANCHOR_FootSupport.R": 1.0106459313874439e-07,
+        "ANCHOR_CheekTouch.R": 2.7516759359969e-07,
+        "ANCHOR_WingRootTouch.R": 1.591008640389191e-07,
+        "ANCHOR_Holding.R": 9.541398782175747e-08,
+        "ANCHOR_HeadWear": 3.479148631413409e-07,
+        "ANCHOR_ChestWear": 9.455944649516823e-08,
+        "ANCHOR_ChestTouch": 9.457146177282993e-08,
+        "ANCHOR_Mouth": 1.9288886221602297e-07,
+        "ANCHOR_TailRootTouch": 7.46003365748038e-08,
+        "ANCHOR_GiftAssist": 8.963312581045102e-08
+      }
+    }
+  ],
+  "human_visual": "PENDING / see Evidence.md, numeric agreement is not visual approval"
+}
