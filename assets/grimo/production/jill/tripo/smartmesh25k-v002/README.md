@@ -12,7 +12,7 @@ v001正本を入力にした別名保存。原本/v001を変更せず、FBX/GLB�
 - `TEST_ONLY_`8キーとframe1–289の12ケースは限定診断。翼・腕・尾のweight/pivot/経路を補修したが根のGeometry問題は残る。正式Rig/Motionでも承認可動域でもない。
 - frame1で全診断キー0。隠し未編集入力と板除去archiveを継承。元1材質、UV0、画像0、Armature0。仮材質はcapture限定で保存blendにはない。
 - v002 SHA-256: `8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97`。
-- 派生FBX/GLBは未出力。Texture/Auto Rig/Tripoの許可なし。
+- 2026-10-15：Human指定で[基礎Rig投入候補FBX/GLB](tripo-input/)をNeutralから準備。[検証・公式根拠・UI手順](../../../../../../docs/production/jill/evidence/tripo-input-v002/REVIEW.md)。推奨FBXは面構成保持、GLBは三角化/孤立頂点省略あり。正本不変。Tripo操作・upload・消費は未許可/未実行、Geometry Gate HOLD。
 
 scriptsは証拠再現用。fresh/background Blender 5.2.1、NumPy、比較板はPillowを使用し、ユーザーの開いているBlenderには接続しない。通常のHumanレビューに再実行は不要。
 

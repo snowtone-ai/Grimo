@@ -1,0 +1,175 @@
+{
+  "blender": "5.2.1 LTS",
+  "source_path": "assets\\grimo\\production\\jill\\tripo\\smartmesh25k-v002\\jill-geometry-master-v002.blend",
+  "source_sha256": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97",
+  "source": {
+    "vertices": 28050,
+    "polygons": 28809,
+    "triangles": 54361,
+    "bounds": [
+      [
+        -0.410888671875,
+        -0.4235839247703552,
+        1.1077695205585769e-08
+      ],
+      [
+        0.410888671875,
+        0.4235840141773224,
+        0.99951171875
+      ]
+    ],
+    "uv_layers": 0,
+    "materials": 1,
+    "shape_keys": true,
+    "vertex_groups": 5,
+    "modifiers": [],
+    "surface_used_vertices": 28034,
+    "unreferenced_vertices": 16
+  },
+  "source_units": {
+    "system": "METRIC",
+    "scale_length": 1.0
+  },
+  "start_head": "709cddb570fa806112139161a6b3084c51665425",
+  "main_authority": "8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b",
+  "exports": {
+    "jill-v002-neutral-tripo.fbx": {
+      "vertices": 28050,
+      "polygons": 28809,
+      "triangles": 54361,
+      "bounds": [
+        [
+          -0.410888671875,
+          -0.4235839247703552,
+          1.1077695205585769e-08
+        ],
+        [
+          0.410888671875,
+          0.4235840141773224,
+          0.99951171875
+        ]
+      ],
+      "uv_layers": 0,
+      "materials": 1,
+      "shape_keys": false,
+      "vertex_groups": 0,
+      "modifiers": [],
+      "bytes": 1062508,
+      "sha256": "45e2017e23b9e71ba7121971475fb30f67fb7f041ac485fd0d48703edada5323",
+      "objects": [
+        [
+          "Jill_v002_Neutral",
+          "MESH"
+        ]
+      ],
+      "actions": 0,
+      "armatures": 0,
+      "images": 0,
+      "source_all_vertices_to_import_max": 0.0,
+      "source_surface_to_import_max": 0.0,
+      "import_to_source_surface_max": 0.08271144330501556,
+      "imported_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          7.549790126404332e-08,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          7.549790126404332e-08,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "polygon_coordinate_signature_equal_1e6": true
+    },
+    "jill-v002-neutral-tripo.glb": {
+      "vertices": 28059,
+      "polygons": 54361,
+      "triangles": 54361,
+      "bounds": [
+        [
+          -0.410888671875,
+          -0.42358413338661194,
+          -2.1354402690576535e-08
+        ],
+        [
+          0.410888671875,
+          0.423583984375,
+          0.9995118379592896
+        ]
+      ],
+      "uv_layers": 0,
+      "materials": 1,
+      "shape_keys": false,
+      "vertex_groups": 0,
+      "modifiers": [],
+      "bytes": 1000880,
+      "sha256": "e9a0304349ca79147407eca3aa4d7dc1b9b4827b6a3d8c18720a6c0e2ea803f0",
+      "objects": [
+        [
+          "Jill_v002_Neutral",
+          "MESH"
+        ]
+      ],
+      "actions": 0,
+      "armatures": 0,
+      "images": 0,
+      "source_all_vertices_to_import_max": 0.08271131664514542,
+      "source_surface_to_import_max": 2.6656007889869215e-07,
+      "import_to_source_surface_max": 2.6656007889869215e-07,
+      "imported_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.3435885648505064e-07,
+          -1.0000001192092896,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000001192092896,
+          -1.3435885648505064e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "glb_payload": {
+        "nodes": 1,
+        "meshes": 1,
+        "skins": 0,
+        "animations": 0,
+        "cameras": 0,
+        "images": 0
+      }
+    }
+  },
+  "geometry_gate": "HOLD",
+  "human_visual": "PENDING",
+  "tripo_operations": 0,
+  "protected_files_checked": 220,
+  "protected_hashes_unchanged": true
+}

@@ -12,6 +12,12 @@
 - Codexが実レンダー比較板34枚を開き、Canonical/承認Body-only4方向、v001とFront/左右Side/Back/左右3Q、顔/根/膜裏/肩/葉/尾/足底、12ケースの中間/極値/復帰を目視。比較板・5点診断GIF3本を保存。Neutralの既存体型は保持して見えるが、眼・翼根/首葉・肩・尾根は外観HOLD。可愛さ/本人性はHuman未承認。
 - 12ケースのNeutral復帰差0、対象外最大1.49e-8（1e-7内、完全0ではない）、新規退化0。技術確認を外観/Motion/runtime PASSに昇格しない。34枚Motion画像は未承認のまま。
 
-次はHumanが顔の局所変更、残HOLD、追加局所補修範囲、承認pose reference、Geometry Gate/Tripo Texture開始可否を判断する。追加形状変更は止めた。Human承認前にTripoへ進めない。FBX/GLB派生は不要なため未出力。次の編集もこの一系統を継続し、原本再生成や全身Remesh/Decimate/比率変更をしない。
+## 2026-10-15：基礎Rig投入準備（最新Human方針）
+
+**基礎Rig → BlenderでRig/Geometry共同調整 → Texture → 最終調整**へ。静的Geometryだけで翼根/肩/尾を修復し続けず実際の骨格/weightsで再評価する。ただし今回の許可は準備のみ。Tripo操作・upload・消費0、Geometry Gate HOLD、外観Human未承認を維持。
+
+[投入候補・往復検証・公式調査・Human操作手順・部位補完計画](evidence/tripo-input-v002/REVIEW.md)。開始HEAD `709cddb`、clean。最新取得main `8e4996c` のAGENTS/Goal/Handoff確認、一括mergeなし。v002を保存せずNeutralメッシュ1個だけ出力。`assets/grimo/production/jill/tripo/smartmesh25k-v002/tripo-input/jill-v002-neutral-tripo.fbx`推奨、同名GLB予備。FBX全頂点world差0・面座標集合一致。GLBは三角化/面未使用16頂点省略、表面差2.666e-7以下。Shape Keys/animation/原本/除去板の面なし。保護220ファイルhash不変。実レンダーfront/side/3Qの比較板あり。G3実Rig検証→G2独立した翼/葉/尾/前肢→G1本人性保護を狙う。
+
+Studio公式はFBX/GLB等≤150MB。Helpのhumanoid T-pose/標準四足制限とAPI7種対応は区別。Jill適合・翼/葉/尾対応、ログイン後UI/費用/出力権限はUNKNOWN。API25 creditsをStudio費用と断定しない。次はHumanが手順の費用/適合を確認し、実行可否を判断する。取得できた基礎Rigは別名保管し、v002系譜へ骨格/weightsを取り込みrestと実変形で確認する。Neutral/面編集が必要なら差分を示してHuman判断。全身Remesh/比率変更、原本再生成をしない。
 
 [v001履歴](evidence/smartmesh25k-v001/REVIEW.md)は保持。

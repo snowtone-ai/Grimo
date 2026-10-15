@@ -91,4 +91,4 @@ v001と同一camera/orthographic scale/Workbench studio light/cavity/900×900。
 2. 翼根/膜裏/首葉、肩、尾根の残HOLDを確認し、外見を変えない追加局所補修範囲と承認pose referenceを指定する。未承認Motion画像や診断極値を承認poseに昇格しない。
 3. Geometry GateとTripo Texture開始可否をHumanが明示する。現提出はHOLDで、自動的に次工程へ進めない。
 
-追加形状変更はここで止めた。v002はreview候補で、v001を置換採用していない。派生FBX/GLBは不要なため未出力。正式Rig/Motion、荷重/接地、Texture・UV、PlayCanvas/runtime適合は未検証。
+追加形状変更はここで止めた。v002はreview候補で、v001を置換採用していない。本レビュー時点では派生FBX/GLB未出力。後続Human指定の[基礎Rig投入準備](../tripo-input-v002/REVIEW.md)でNeutral派生のみ作成、正本不変・Geometry Gate HOLDを維持。正式Rig/Motion、荷重/接地、Texture・UV、PlayCanvas/runtime適合は未検証。
