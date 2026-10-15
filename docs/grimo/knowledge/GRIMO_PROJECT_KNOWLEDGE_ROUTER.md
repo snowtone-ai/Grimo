@@ -1,57 +1,77 @@
-# Grimo — Project Knowledge Router
+# Grimo — ChatGPT Project Knowledge Router
 
-**Updated:** 2026-10-11  
-**Repository:** https://github.com/snowtone-ai/Grimo  
-**Knowledge branch:** `docs/project-knowledge-router-20261011` (not merged into `main`).  
-**Purpose:** Keep ChatGPT Project Knowledge small; retrieve detailed specs from GitHub only when needed.
+**Version:** 2026-10-16  
+**Canonical:** `main:docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_ROUTER.md` ([GitHub](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_ROUTER.md))  
+**役割:** ChatGPT Project Knowledgeから必要な正式資料へ到達するための固定案内。現在のHEAD、制作候補、Tripo残回数を記録する台帳ではない。
 
-## 1. Durable project contract
-Grimo is a smartphone-first **Task / Calendar / Grimo / Collection** PWA. Carol, Jill, Pino and Shushu are original living 3D companions. Priority: canonical appearance, cuteness, natural attention/autonomy, intentional stillness, causal touch, responsive local body action, emotional afterglow, interruption and variation. No absence penalties or relationship XP.
+## 1. 起動時の最短経路
 
-Technical design: coherent full-spatial 3D, maximum perceptual polish in the front interaction view, with plausible 3/4/side/rear geometry. Blender and GLB/glTF through PlayCanvas in a mobile PWA. Human visual acceptance outranks metric PASS. Planner sets Goal, approved authorities and acceptance; Codex selects production method without arbitrary test/attempt requirements.
+Grimoの実質的な制作・設計・調査に必要な最新版を、GitHub `main` から確認する。
 
-**2026-10-10 approval:** Clearly detachable decorations (stars, moon motifs, bouquet, loose flowers, bubbles, floating particles) are separately authored assets. Identity-critical anatomy and markings (including fleece, head foliage, wings, tail, eyes) must remain. Body-only generation input is **not** the complete canonical identity.
+1. [`AGENTS.md`](https://github.com/snowtone-ai/Grimo/blob/main/AGENTS.md) — 恒久的な実行規則・安全・Evidence・最小十分な実行。
+2. [`docs/grimo/knowledge/Goal√map.md`](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/Goal%E2%88%9Amap.md) — G0〜G4のWHYと優先順位。
+3. [`docs/production/Handoff.md`](https://github.com/snowtone-ai/Grimo/blob/main/docs/production/Handoff.md) — 最終確認時点の入口。**Live StateやHuman承認ではない**。
 
-**2026-10-11 draft:** Jill/Pino/Shushu Tripo generation poses require Human visual approval. Generation pose, rig rest pose and in-game neutral are distinct; numerical draft ranges are hypotheses. Do not incur new paid costs without authorization.
+対象の制作ブランチ・remote HEAD・制作State・実物・Evidenceを別途照合する。GitHubだけではCodexのローカルdirtyを確認できない。無関係な資料の一括読み込み、内容不変の無条件な再取得を避ける。
 
-## 2. Fast repository map
+**移行済み:** `coord/grimo-ai-handoff` は歴史的な調整ブランチ。旧`GRIMO_AI_HANDOFF.md`や旧Project Knowledge Router（2026-10-11/12）にある「専用ブランチを毎ターン取得・更新」は廃止。現行の規則は`main`の3ファイルを優先する。過去の実装ブランチを現行Authorityへ自動昇格しない。
 
-| Question | GitHub path |
-|---|---|
-| Basic structure | `README.md`, `AGENTS.md`, `docs/repo-map.md` |
-| Authority index | `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md` |
-| Product North Star | `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` |
-| Product functions, Collection, rewards, data | `docs/grimo/knowledge/product/` |
-| Living companion experience | `docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md` |
-| Full spatial character architecture | `docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` |
-| Planner / Codex / Human workflow | `docs/grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md` |
-| Original identity artwork | `assets/grimo/source/{carol,jill,pino,shushu}/` |
-| Carol original completed-design and Skin references | `assets/grimo/source/carol/approved-3d/` + `authority.json` |
-| Carol geometry/hoof + 2026-10-10 body-only scope | `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` |
-| **Mutable** Carol production state | `docs/production/carol/CAROL_PRODUCTION_STATE.md` **on the execution branch** |
-| **Current** Carol MVP Motion (body-owned fleece) | `docs/grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md` |
-| Jill/Pino/Shushu Tripo **DRAFT** | `docs/grimo/knowledge/character-production/GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md` |
-| Partner Eevee / Pikachu motion analysis | `docs/grimo/knowledge/research/`, `research/motion-masters/` |
-| Full Eevee camera/framing measurements | `docs/grimo/knowledge/research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_DETAILED_EVIDENCE.md` |
-| App implementation, tests and 3D tooling | `src/`, `scripts/`, `tests/`, `docs/architecture/` |
-| Superseded/historical | `docs/archive/` |
+## 2. Authorityと評価原則
 
-## 3. Retrieval rules
-1. Check **relevant branch and current HEAD** before citing implementation state. `main` is a historical Phase-0 base; later files are present on other branches.
-2. Fetch **only 1–3 relevant documents first**; add research, historic evidence or code only if needed. Do not preload the entire repository.
-3. Keep separate: newer explicit Human decisions, canonical identity, scoped approved references, draft pose images, detailed evidence, historical candidates and model hypotheses. A "new" image does not automatically supersede a final reference.
-4. Carol’s current live Motion Spec contains later **no macro positional fleece lag** semantics than the Project-uploaded version; the upload was saved as a historical snapshot and never overrode it.
-5. For appearance review use actual images, not just text descriptions. For important conclusions mention inspected file and revision.
+最新の明示Human判断 → Canonical Identity／承認済み外観 → 正式製品・体験・制作仕様 → 実際の現行Git・制作State・Evidence → DRAFT／研究／履歴。矛盾は勝手に補完せず区別する。
 
-## 3.1 2026-10-11 image registration handoff
+- **GOAL-first:** G0（再訪したくなるタスク体験）←G1（可愛さ・愛着）←G2（生きた反応）←G3（3D/Motion/Runtime）←G4（技術衛生）。下位PASSで上位品質を犠牲にしない。
+- **Preserve-first:** Canonical・原本・承認済み資産・他キャラ・ユーザー変更を保護。Identity維持に必要な局所修復や内部構造変更は許容。
+- **Evidence-first:** 数値PASS ≠ Human外観PASS ≠ Motion/Runtime PASS。対象に応じた実レンダー、姿勢遷移、保存GLB、PlayCanvas・スマホ実機で確認。UNKNOWNをPASSにせず、Human Gateを自己承認しない。
+- **Minimum-sufficient execution:** Geometry／Rig／Weight／Morph／Texture／Runtime等の原因を切り分ける。主要な副作用・後工程の破綻を予測し、最小十分な検証を行う。改善が停滞したら方式を再評価し、過剰実装・重複検証・サブエージェントを避ける。
 
-- [Body-only multiview asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) is the scoped source for the scoped production-input set and `assets/grimo/source/<character>/tripo-generation-pose/` placement. As of 2026-10-11, 15 selected PNGs are hash-verified locally. Carol Back is intentionally omitted by Human decision; try the approved three views if Tripo supports them. The local manifest records measured values; Tripo preflight remains pending.
-- Image names `*_bodyonly_left.png` / `*_bodyonly_right.png` indicate **face direction on the picture**, not Tripo camera-side semantics.
-- Jill/Pino/Shushu four-view 2D Human selections were accepted on 2026-10-11. Jill's peach-colored head appendages are treated as horn-like, not conventional ears. Carol Front/left/right are approved body-only inputs; Human decided not to create or use a Carol Back image. Three-view Studio support remains unknown.
-- These inputs remain subordinate to canonical identity; all characters retain independent accessories in their completed appearance. 2D acceptance is not 3D mesh/rigging or Tripo technical acceptance.
+## 3. 用途 → 読むべき正式資料
 
-## 4. Remaining visual-authority caution
-Two Project-uploaded files (`carol_skin_front`, `carol_skin_side`) **do not match by bytes** the corresponding earlier inspected GitHub images. The authoritative version is not determined from file names alone. Their GitHub originals were **not overwritten** during Markdown synchronization; retain uploaded copies for a Human visual gate when needed. The other six character/Carol image uploads matched GitHub in the previous audit.
+以下は`main`上のリポジトリ相対パス。個別ファイルのStatusとHuman承認範囲を優先。
 
-## 5. Project Knowledge housekeeping
-The detailed uploaded Markdown documents are preserved or reconciled in this branch. Keep this compact router and useful source images in ChatGPT Project Knowledge; fetch detailed documents from GitHub as required. Changing the repository does not remove Project Knowledge attachments. Do not delete unmatched/sole copies before verifying accessible storage.
+| 目的 | 参照先 |
+| --- | --- |
+| 製品全体像（安定情報のみ） | `docs/grimo/knowledge/GRIMO_PROJECT_OVERVIEW_STABLE.md` |
+| 正本の索引・実装配置 | `docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md`、`docs/repo-map.md` |
+| North Star／最低成立条件 | `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` |
+| 相棒の行動・体験 | `docs/grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md` |
+| Full 3D／Motion／Runtime | `docs/grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` |
+| Human・ChatGPT・Codex分担 | `docs/grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md`と`AGENTS.md` |
+| Task／Calendar／Grimo／Collection、所有・報酬 | `docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md`、`GRIMO_DATA_MODEL_SPEC.md` |
+| Blender参考技法（補助） | `docs/grimo/knowledge/character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md` |
+
+## 4. 4キャラ共通の制作ルート
+
+| キャラクター | Identity・現状・確認対象 |
+| --- | --- |
+| **Carol** | `assets/grimo/source/carol/carol-Identity-canonical.png`、`assets/grimo/source/carol/approved-3d/authority.json`、対象制作ブランチの`docs/production/carol/CAROL_PRODUCTION_STATE.md`。Normal/Skin・目・蹄・羊毛Motionを区別 |
+| **Jill** | `assets/grimo/source/jill/`のCanonical、対象Geometry/RigブランチとEvidence。翼・葉・尾の独立動作を確認 |
+| **Pino** | `assets/grimo/source/pino/`のCanonical、対象Geometry/RigブランチとEvidence。短腕・太尾・支持/接触を確認 |
+| **Shushu** | `assets/grimo/source/shushu/`のCanonical、対象Geometry/RigブランチとEvidence。顔の奥行き、短肢、plushな真の座位を確認 |
+
+Body-onlyの正式な選定・ハッシュ・前後左右は`assets/grimo/source/body-only-multiview-manifest.json`と`docs/grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md`を照合。2026-10-15同期時点でCarol 3視点、他3匹各4視点の計15枚が`main`に共有済み。**画像選定PASSはTripo適合・3D造形・MotionのPASSではない**。
+
+`docs/production/motion/GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md`と`GRIMO_MOTION_TO_ANATOMY_TRIPO_CONTRACT_DRAFT.md`はDRAFT。後続のHuman判断と個別制作Evidenceを見ずに正式仕様へ格上げしない。完成素材ではない参考画像・生成Pose・候補GLBも同様。
+
+**注意:** `main`のCarol Production Stateなどには古い初期Stateが残る場合がある。最も新しいモデルがあると推測せず、作業ブランチの同ファイル・リモート成果物・未コミット状態を確認する。
+
+## 5. 個別Codexプロンプト：標準5項目
+
+共通方針は最新の`AGENTS.md`を参照し、個別プロンプトには**今回の差分**を書く。通常1,000文字以内・厳格な上限1,500文字（Markdown・空白含む）。
+
+1. **目的** — 最終GOALと欲しいユーザー体験。
+2. **問題** — 現時点の具体的な未達事項。
+3. **Authority** — 既存の正式資料・承認済み実物。
+4. **制約** — 保護対象、変更範囲、課金/安全境界。
+5. **完了条件** — 人間が確認できる成果、必要なEvidence、GO/HOLD、Scoped commit/push・remote HEAD、残課題。
+
+原因調査・設計・実装方法・検証方法は原則Codexに委ねる。固定の修正回数・一律の全工程検証・高推論モデルの固定はしない。Model/Effort、新規/継続セッション、`/compact`はタスク別に判断する。
+
+## 6. 更新境界
+
+- **固定:** Router・Overviewは参照構造や恒久判断が変わったときだけ更新。進捗・コミット・Tripo残数は複製しない。
+- **変動:** 重要な進捗・判断・障害・担当変更時のみ`main:docs/production/Handoff.md`を更新。実際のNOWは対象ブランチ・作業ツリー・Evidence。
+- **保護:** 進行中の制作ブランチへ一括merge/rebaseしない。原本と他AI/ユーザー差分、秘密情報、過去履歴を維持。無断の課金・生成クレジット消費・破壊的操作は禁止。
+- **歴史:** `coord/grimo-ai-handoff`、`docs/project-knowledge-router-20261011`、`docs/archive/`、旧Project Knowledgeルーター、旧Promptは履歴であり、現行の起動指示ではない。
+
+**原則:** WHYはGoal√map、恒久ルールはmain AGENTS、進行先はmain Handoff、真実は現行ブランチの実物とHuman判断。
