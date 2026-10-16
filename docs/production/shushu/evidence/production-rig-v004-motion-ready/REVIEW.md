@@ -1,3 +1,5 @@
+> **最新候補：2026-10-17 v003 / Motion Ready候補・最終Human外観GO待ち。** [修正・4経路の原寸/連続動作・Xiaomi 300秒比較・残項目](final-v003/REVIEW.md)。別名候補と製品loader/controllerを納品。旧arm FKの無変更互換、任意制御空間、GPU時間はPASSの対象外。原本置換・Motion量産HOLD。以下はv002の履歴であり、新候補の最終判定ではない。
+
 # Shushu v004 — A/B Motion Ready Gate / 2026-10-15
 
 **最終判定: HOLD。Motion Ready未到達。原本置換・Motion量産を開始しない。**

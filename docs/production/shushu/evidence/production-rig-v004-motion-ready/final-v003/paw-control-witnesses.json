@@ -1,0 +1,370 @@
+{
+  "proof_sha256": "3697d43e2dea0a77edf447f2cf2e58e75b2898ca284c5c941625bcc7fb745dc7",
+  "glb_sha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+  "rows": [
+    {
+      "frame": 1,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 477,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 1.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 493,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 1.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.800000011920929,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 501,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 1.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.800000011920929
+      }
+    },
+    {
+      "frame": 505,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.5,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.5,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.4000000059604645
+      }
+    },
+    {
+      "frame": 508,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.875,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.125,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.10000002384185791
+      }
+    },
+    {
+      "frame": 511,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.75,
+        "SelfContact.R": 0.25,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 514,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.375,
+        "SelfContact.R": 0.625,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 517,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 1.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 520,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.375,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.625,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 523,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.75,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.25,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 526,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.125,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 529,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.5,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 532,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.875,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 535,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.75,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.25,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 538,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.375,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.625,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 541,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 1.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 549,
+      "controls": {
+        "Seat": 1.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 1.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 1041,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.5,
+        "Offer.R": 0.5,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 1053,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 1.0,
+        "Offer.R": 1.0,
+        "Wrist.L": 1.0,
+        "Wrist.R": -1.0
+      }
+    },
+    {
+      "frame": 1065,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.5,
+        "SelfContact.R": 0.5,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 1089,
+      "controls": {
+        "Seat": 0.5,
+        "Hold.L": 0.5,
+        "Hold.R": 0.5,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 1095,
+      "controls": {
+        "Seat": 0.75,
+        "Hold.L": 0.75,
+        "Hold.R": 0.75,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 1101,
+      "controls": {
+        "Seat": 1.0,
+        "Hold.L": 1.0,
+        "Hold.R": 1.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 1113,
+      "controls": {
+        "Seat": 1.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 1.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    },
+    {
+      "frame": 1149,
+      "controls": {
+        "Seat": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.L": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "Offer.R": 0.0,
+        "Wrist.L": 0.0,
+        "Wrist.R": 0.0
+      }
+    }
+  ]
+}

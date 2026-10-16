@@ -1,0 +1,22 @@
+{
+  "planner_sha256": "4c0aa910979ad9361cd46cc21f2f9f2effb709c14d9b3a20123ab508e0ae8aaa",
+  "method": "Convex local crown cut through all folded layers; one outward height-field triangulation; barycentric shape/weight/UV transfer; unchanged exterior triangles",
+  "ellipse_center": [
+    -0.087,
+    0.037
+  ],
+  "ellipse_radius": [
+    0.065,
+    0.11
+  ],
+  "removed_triangles": 190,
+  "source_vertices": 38003,
+  "new_vertices": 623,
+  "result_triangles": 39664,
+  "patch_triangles": 550,
+  "boundary_points": 124,
+  "cut_layer_max_spread": 2.220446049250313e-16,
+  "T_junction_faces_split": 98,
+  "new_nonmanifold_edges": 0,
+  "gate": "PREVIEW_PENDING"
+}

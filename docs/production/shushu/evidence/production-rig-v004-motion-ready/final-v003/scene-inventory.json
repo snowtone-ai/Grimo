@@ -1,0 +1,247 @@
+{
+  "ShushuStatic_Ear_L": {
+    "vertices": 2223,
+    "triangles": 4204,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 0,
+    "custom_normals": true,
+    "smooth_faces": 4204,
+    "groups": [
+      "Ear.L",
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_Ear_R": {
+    "vertices": 2199,
+    "triangles": 4238,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 0,
+    "custom_normals": true,
+    "smooth_faces": 4238,
+    "groups": [
+      "Ear.R",
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_Eye_L": {
+    "vertices": 779,
+    "triangles": 1408,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 9,
+    "custom_normals": true,
+    "smooth_faces": 1408,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_Eye_R": {
+    "vertices": 801,
+    "triangles": 1408,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 9,
+    "custom_normals": true,
+    "smooth_faces": 1408,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_Head": {
+    "vertices": 38003,
+    "triangles": 38606,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 44,
+    "custom_normals": false,
+    "smooth_faces": 38606,
+    "groups": [
+      "mixamorig:Head",
+      "mixamorig:Neck"
+    ]
+  },
+  "ShushuStatic_LidWall_L": {
+    "vertices": 633,
+    "triangles": 832,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 7,
+    "custom_normals": true,
+    "smooth_faces": 828,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_LidWall_R": {
+    "vertices": 723,
+    "triangles": 840,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 7,
+    "custom_normals": true,
+    "smooth_faces": 836,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_MouthInterior": {
+    "vertices": 2304,
+    "triangles": 4096,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 2,
+    "custom_normals": false,
+    "smooth_faces": 2048,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_Nose": {
+    "vertices": 3948,
+    "triangles": 5790,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 4,
+    "custom_normals": false,
+    "smooth_faces": 5489,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_OralBowl": {
+    "vertices": 257,
+    "triangles": 256,
+    "modifiers": [
+      [
+        "Head owner",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 2,
+    "custom_normals": false,
+    "smooth_faces": 256,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_Paw_L": {
+    "vertices": 1681,
+    "triangles": 2976,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 88,
+    "custom_normals": true,
+    "smooth_faces": 2976,
+    "groups": [
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand"
+    ]
+  },
+  "ShushuStatic_Paw_R": {
+    "vertices": 1716,
+    "triangles": 2986,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 88,
+    "custom_normals": true,
+    "smooth_faces": 2986,
+    "groups": [
+      "mixamorig:Spine2",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand"
+    ]
+  },
+  "ShushuStatic_Tongue": {
+    "vertices": 762,
+    "triangles": 1520,
+    "modifiers": [
+      [
+        "Head owner",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 2,
+    "custom_normals": false,
+    "smooth_faces": 800,
+    "groups": [
+      "mixamorig:Head"
+    ]
+  },
+  "ShushuStatic_Torso": {
+    "vertices": 5621,
+    "triangles": 9278,
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE"
+      ]
+    ],
+    "keys": 60,
+    "custom_normals": true,
+    "smooth_faces": 9278,
+    "groups": [
+      "mixamorig:Spine2",
+      "mixamorig:Hips",
+      "mixamorig:Spine1",
+      "mixamorig:Spine",
+      "mixamorig:RightFoot",
+      "mixamorig:RightUpLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:Neck"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "REJECTED: forelimb volume retained but SelfContact endpoint remained too far from own surface",
+  "source_artifact_sha256": "852f70cf48b465797532822e286162781b71660dd5f4c35f6b4b8e1068d472a2",
+  "rows": [
+    {
+      "name": "self",
+      "frame": 509,
+      "view": "front",
+      "mouth": false,
+      "actual": {
+        "time": 21.208333333333332,
+        "visibility": "visible",
+        "at": "2026-10-16T16:31:44.683Z",
+        "rendered": 630,
+        "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T16%3A31%3A29.875Z"
+      },
+      "artifactSha256": "852f70cf48b465797532822e286162781b71660dd5f4c35f6b4b8e1068d472a2",
+      "sha256": "f7d7ce693f00f4103d432184de7851c20967c88f3d40abbd43120ab255fcc50d"
+    },
+    {
+      "name": "self",
+      "frame": 509,
+      "view": "3q",
+      "mouth": false,
+      "actual": {
+        "time": 21.208333333333332,
+        "visibility": "visible",
+        "at": "2026-10-16T16:31:44.981Z",
+        "rendered": 648,
+        "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T16%3A31%3A29.875Z"
+      },
+      "artifactSha256": "852f70cf48b465797532822e286162781b71660dd5f4c35f6b4b8e1068d472a2",
+      "sha256": "8562cc9519d7e7453a3170b8f4df5486b82b923cf33f00846bb1dcaf043bcf21"
+    },
+    {
+      "name": "seat-hold",
+      "frame": 549,
+      "view": "3q",
+      "mouth": false,
+      "actual": {
+        "time": 22.875,
+        "visibility": "visible",
+        "at": "2026-10-16T16:31:47.377Z",
+        "rendered": 789,
+        "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T16%3A31%3A29.875Z"
+      },
+      "artifactSha256": "852f70cf48b465797532822e286162781b71660dd5f4c35f6b4b8e1068d472a2",
+      "sha256": "75b9f6862dc35e9c86f2e8684d9329a23c097928c3afcc7c7b86e905ff1d8bf5"
+    }
+  ]
+}

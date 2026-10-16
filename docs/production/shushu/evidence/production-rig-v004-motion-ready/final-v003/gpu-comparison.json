@@ -1,0 +1,24 @@
+{
+  "artifact_sha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+  "results": [
+    {
+      "surface": "desktop",
+      "frames": 14,
+      "mesh_captures": 42,
+      "max_raw_position_H": 0.000527358331464337,
+      "max_skin_only_position_H": 8.116197839326084e-08,
+      "max_normal_degrees": 0.042698048750728475,
+      "gl_error": 0
+    },
+    {
+      "surface": "phone",
+      "frames": 14,
+      "mesh_captures": 42,
+      "max_raw_position_H": 0.00020976287342668496,
+      "max_skin_only_position_H": 7.288309710420529e-08,
+      "max_normal_degrees": 0.042699300679067034,
+      "gl_error": 0
+    }
+  ],
+  "scope": "Actual material shader transform feedback. Raw position includes GPU Morph precision; skin-only receives captured GPU Morph values. These are position/normal correspondence checks, not GPU timing."
+}

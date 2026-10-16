@@ -1,0 +1,3577 @@
+{
+  "rows": [
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 2.4073563054116676e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.5517559265608725e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.0390648103330022e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4211522031691857e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.0390648103330022e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.0390648103330022e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.415862354609999e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.416105644442723e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.413114259525173e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.2287812012345967e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.2990531672585348e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.4126873654495284e-07
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 6.788210953345697e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 1.8189184913808276e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.9979329951856926e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.8189184913808276e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.591008640389191e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.507040051114018e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.7504900995390926e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.611807078916172e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 1.9687728070039157e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.1886724255182344e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 1.645886982259981e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.647572531737751e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6323404850027146e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 1.5188268776000768e-07
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.5557269250621175e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.611807078916172e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.712013073529306e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.794337407545754e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.9097336689810618e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 2.0212918627748877e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.5557269250621175e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.712013073529306e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.5557269250621175e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.712013073529306e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6924465739975858e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.7265423934986757e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.9140888696256297e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.9992005206859176e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4038948254201387e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.154235829721074e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.2782975861446175e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2773075158966094e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.8431718729061686e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.752074894056932e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2768693952457397e-07
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.3946401483954105e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2549548361894267e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4038948254201387e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.2782975861446175e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2773075158966094e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.647572531737751e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6323404850027146e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2768693952457397e-07
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4038948254201387e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.2794392862124369e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2794392862124369e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.647572531737751e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6323404850027146e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2768693952457397e-07
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4038948254201387e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.2782975861446175e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2773075158966094e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.647572531737751e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6323404850027146e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2768693952457397e-07
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.409948933745909e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4073563054116676e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.4053377956079203e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.647572531737751e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6323404850027146e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.4049231228673307e-07
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.7265423934986757e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2549548361894267e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.7265423934986757e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.107342425006209e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.407644501545292e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.5269147013441398e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.3955274741638277e-07
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.5557269250621175e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.712013073529306e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5269147013441398e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 2.0212918627748877e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.9314111909807252e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 2.5331974029541016e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.645886982259981e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.7504900995390926e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.1811248984704434e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.645886982259981e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.611807078916172e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.177622633325882e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 1.8916985311534518e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.174752893324694e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.3978528556890524e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.2287812012345967e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.1735560551405797e-07
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 4.812405904885964e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4038948254201387e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.2794392862124369e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2794392862124369e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.8431718729061686e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.7441361421788315e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2768693952457397e-07
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4038948254201387e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.154235829721074e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.2782975861446175e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.2773075158966094e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.8431718729061686e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.752074894056932e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2768693952457397e-07
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 4.392684331833152e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 2.0322474370004784e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.409948933745909e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 2.028146042221124e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.4073563054116676e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.2779084929425153e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.4053377956079203e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.8431718729061686e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.7441361421788315e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.4049231228673307e-07
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 9.387731552124023e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 2.5331974029541016e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 1.6049041562382627e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.645886982259981e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.7504900995390926e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.1811248984704434e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.645886982259981e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.611807078916172e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.174752893324694e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 1.8916985311534518e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.174752893324694e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.2287812012345967e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.115100829451876e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.1735560551405797e-07
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 4.812405904885964e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Ear_L",
+      "max_position_error": 3.6286698446019727e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Ear_R",
+      "max_position_error": 2.537576335726044e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Eye_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Eye_R",
+      "max_position_error": 1.9599417555582477e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Head",
+      "max_position_error": 2.4027400513659813e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_LidWall_L",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_LidWall_R",
+      "max_position_error": 1.9500035364217183e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_MouthInterior",
+      "max_position_error": 2.398404319592373e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Nose",
+      "max_position_error": 2.400500989097054e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_OralBowl",
+      "max_position_error": 2.250334318887326e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Paw_L",
+      "max_position_error": 1.49197759924391e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Paw_R",
+      "max_position_error": 1.5359765370703826e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Tongue",
+      "max_position_error": 2.2472680427654268e-07
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Torso",
+      "max_position_error": 1.497548112183722e-07
+    }
+  ],
+  "max_position_error": 9.387731552124023e-07,
+  "anchor_max_matrix_error": 8.940696716308594e-07,
+  "mapping": "fixed fully-open frame861 nearest; UV-equivalent duplicates retained"
+}

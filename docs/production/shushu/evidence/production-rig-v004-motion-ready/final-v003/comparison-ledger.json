@@ -1,0 +1,315 @@
+{
+  "artifact_sha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+  "boards": [
+    {
+      "file": "compare-face.png",
+      "sha256": "6174c78463535e1399e4eee55e601f8ca0bd4d03f6b9a54cc956a65770335f03",
+      "sources": [
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/closed-front.png",
+          "sha256": "ca3540d888af8bba9b9c536ea1b781135d2f79a494067b844553ca9a5752ebbf"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/closed-front.png",
+          "sha256": "90b9a00ec6615982dd2f4ed93cf0a2f1b6fc66b43c797a628af27d95935835c8"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/closed-front.png",
+          "sha256": "5bbadf3c5e2897c4e3470b7e263a4bab4249622d817d305f4ced35bc3f378395"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/closed-front.png",
+          "sha256": "6ca78cc34e059d029d59307705ff7db0bbb5f0e62af6a303d01a6d9285946b2c"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/closed-front.png",
+          "sha256": "2ce2c7c064282ba6ee5d5a7004e5967b00f8fed725fdf9df06805f071adb003b"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/closed-3q.png",
+          "sha256": "2d00d664854b537587e7157da1e9472cc04dd3dad4d7627af0eda4a22b828ad1"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/closed-3q.png",
+          "sha256": "eb433b2611be73d2607fe16d11bbf00d284023064f901b018c627df24dee24a8"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/closed-3q.png",
+          "sha256": "146634b62628bd36cb64da8b9daaa6855c982d1a75d6429639f0325950300831"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/closed-3q.png",
+          "sha256": "c0035fa7c6488c054311bc2370e1236f3c74d1d9f58f52d02ee8b799e9ff5e1b"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/closed-3q.png",
+          "sha256": "cc21f67643beefabd6ed1d334e8f2a0f56a0ccdb53bd5e7f752ef11dc2c5601f"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/large-front.png",
+          "sha256": "bfab9b1ae762532cb487a920d627efb561a350477e4e9acb9173d0d92827e899"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/large-front.png",
+          "sha256": "09dc132089f42e9249a9028eba22416ff147af9baf7e56b86d69f6b1377b09f6"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/large-front.png",
+          "sha256": "b475434943ccfb851079727189ae353da0e0699d4e977aadf8f2ced9b7163ba9"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/large-front.png",
+          "sha256": "779d0b3e069a21757ac89695608f66261cd29267c32e6fb0ac4b7a7b87bcf992"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/large-front.png",
+          "sha256": "48ccc0a8200f7b17e71f8c72344020fcc036e8a03679a3ab2d7587932304527e"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/large-3q.png",
+          "sha256": "902966cedce68695ea72ebce2427647c84b9330b0c0ae68637307d1e46abb791"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/large-3q.png",
+          "sha256": "d4f14a7b1b39fbd5757493b65325f4f5614860a2e9c0c78ea3d767752478b2d1"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/large-3q.png",
+          "sha256": "dc4ebaa7f625ea6686cda8ad786698f5c806e3bf3981bab95baa0b6b3a84d57b"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/large-3q.png",
+          "sha256": "a39c247d7be003ea433969a297e590c3fc86643c022a7df1281dedf68f3c6456"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/large-3q.png",
+          "sha256": "a60382e4232bf5a5211694da87b1079b0b6ffbadb976e336353707267a4034aa"
+        }
+      ],
+      "scope": "Unchanged source renders; thumbnails only. Engine lighting differs. Open originals for 640px inspection."
+    },
+    {
+      "file": "compare-arms.png",
+      "sha256": "936d683ccb9c330e7d5659b61ae0b3b65c6ee875eac4b0a0a801c05dca531e1a",
+      "sources": [
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/f514-3q.png",
+          "sha256": "9ceb9258fe28de00ee87dce541d42558e6658441936df2c263d9026f8f36cae5"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/f514-3q.png",
+          "sha256": "e4000e98c349cf7385f8fbf1bcefa367060151f85ce2fc3c8d27a18faddf3eae"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/f538-side.png",
+          "sha256": "5b0a478be396eebe30203f797030aabe60c2f42171b5c4399ef0cb8e927aeeca"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/f538-side.png",
+          "sha256": "c9732f4a17eba71628c1ba1b5ff25eaed9997e9c0a23289c9f9b7d91677daf02"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/hold-side.png",
+          "sha256": "617f616c84da0a26228998391a6394c40ce5e34acb0ef7a4212aaff0c66be47c"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/hold-side.png",
+          "sha256": "2c86fe4f73847ebfcec9d9d1033eb8cf125ed215b878d713754936fe5b536d00"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/seat-hold-3q.png",
+          "sha256": "66f79d04e956c2f01c49bfeec16160988fcfdafddc91a0649b4f30c90d4c4247"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/seat-hold-3q.png",
+          "sha256": "c4df6c79da2e1e2b465dff5a758f4db8bdae7338ec9430da635e22d7d8a579ec"
+        }
+      ],
+      "scope": "Unchanged source renders; thumbnails only. Engine lighting differs. Open originals for 640px inspection."
+    },
+    {
+      "file": "compare-selfcontact-iteration.png",
+      "sha256": "fd89be39ce6ff6d5414337a259d6f874ad356b7cc242c4f7b28f3e38f57393db",
+      "sources": [
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/rejected-selfcontact/self-front.png",
+          "sha256": "f7d7ce693f00f4103d432184de7851c20967c88f3d40abbd43120ab255fcc50d"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/self-front.png",
+          "sha256": "1ea3078c72a569d89a907e1c6bc19091dd9f2c57f1cc0d112090d20586cd07d0"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/rejected-selfcontact/self-3q.png",
+          "sha256": "8562cc9519d7e7453a3170b8f4df5486b82b923cf33f00846bb1dcaf043bcf21"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/self-3q.png",
+          "sha256": "00b30e5a4ffcb2158eeed15f770e03938a532f02f6907bfe3f902f1025445511"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/rejected-selfcontact/seat-hold-3q.png",
+          "sha256": "75b9f6862dc35e9c86f2e8684d9329a23c097928c3afcc7c7b86e905ff1d8bf5"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/seat-hold-3q.png",
+          "sha256": "c4df6c79da2e1e2b465dff5a758f4db8bdae7338ec9430da635e22d7d8a579ec"
+        }
+      ],
+      "scope": "Unchanged source renders; thumbnails only. Engine lighting differs. Open originals for 640px inspection."
+    },
+    {
+      "file": "compare-crown.png",
+      "sources": [
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/phone/closed-3q.png",
+          "sha256": "2d00d664854b537587e7157da1e9472cc04dd3dad4d7627af0eda4a22b828ad1",
+          "crop_xyxy": [
+            140,
+            20,
+            250,
+            100
+          ],
+          "nearest_scale": 2
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/closed-3q.png",
+          "sha256": "cc21f67643beefabd6ed1d334e8f2a0f56a0ccdb53bd5e7f752ef11dc2c5601f",
+          "crop_xyxy": [
+            140,
+            20,
+            250,
+            100
+          ],
+          "nearest_scale": 2
+        }
+      ],
+      "scope": "Inspection crop enlarged 2x; original 640px files remain unchanged. Pixel region contains the former ear-root spike."
+    },
+    {
+      "file": "compare-pipeline.png",
+      "sha256": "c401261c9d5ebb806bf30a117cb810f5862c38aeab0b99ea9e2aa3f31a1fa19b",
+      "sources": [
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-side.png",
+          "sha256": "c909735ebc798a7386673689126e2f6820fcd5e5c3549eec7309c577b289b408"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/hold-side.png",
+          "sha256": "28a92f3db07696ad8c0c0efb20e9901f64c879112e8710ee9368c006111909d0"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/hold-side.png",
+          "sha256": "23fb0c1014fbe03e0695ce58769a74e2bc82479c76e636e1ad2fa837714e78cf"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/hold-side.png",
+          "sha256": "2c86fe4f73847ebfcec9d9d1033eb8cf125ed215b878d713754936fe5b536d00"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-hold-3q.png",
+          "sha256": "8f8b4985c0ff2c1e3e86ddee9fbc7fc93017f0ba28b82ac22cad764aefdfb694"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/seat-hold-3q.png",
+          "sha256": "9f8bac68e26af527dc2346bc87c70da8c9bb82d9ea680b95c3dcd1ff2598c063"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/seat-hold-3q.png",
+          "sha256": "49636ef80f2500bd97645047fa815e273a130e6cf86c86af487cb8b2a6310fc3"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/seat-hold-3q.png",
+          "sha256": "c4df6c79da2e1e2b465dff5a758f4db8bdae7338ec9430da635e22d7d8a579ec"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/elbow-mid-3q.png",
+          "sha256": "72300697eef02d448664e9c9e018bf0a25f08e89f64292692c003d90aeb0ab58"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/elbow-mid-3q.png",
+          "sha256": "fec301915cb93f765145f60c823d63309c7442bd86d5fca2e4c22c118d76bcd8"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/elbow-mid-3q.png",
+          "sha256": "1e7a7c77400f26a64bca9d9d26872690f1e879d360b21724519e5832c4d09325"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/elbow-mid-3q.png",
+          "sha256": "52926634745a2875be32b1c48ae141960988eb95c4f661153bf53b7f8d8ab1c3"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-face-hold-3qR.png",
+          "sha256": "e8d6e5204addea0e4724deefdfaa0dbc33a6b41ed050f6108986b55abfb1702f"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/saved/seat-face-hold-3qR.png",
+          "sha256": "87d838a531d9c85d480e67e17eb7dde9c795601d52f19cadc179ed0d9da12016"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/seat-face-hold-3qR.png",
+          "sha256": "74bdd0a020fa81a97388afd20713746a4cf0c51bbc888c28dde9d7d403756780"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/phone/seat-face-hold-3qR.png",
+          "sha256": "658fa5a5c8c2a3d233ef6cc8ba6fdc159a2e3b1deca07329803dc78a72d7715d"
+        }
+      ],
+      "scope": "Unchanged source renders; thumbnails only. Engine lighting differs. Open originals for 640px inspection."
+    },
+    {
+      "file": "compare-approved-body.png",
+      "sources": [
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004/renders/candidate/neutral-front.png",
+          "sha256": "6cc0e13b265566e1e460865158d45d981743e57eea031f5d181512e9de2c0de1"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/return-front.png",
+          "sha256": "7c7320a85e66dfa8101e8d0fa1577c2837e6783cebc491b684bb8d94c6b0ae96"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004/renders/candidate/neutral-left.png",
+          "sha256": "5981382417348706e4db1e7ccec9cbdf1d1c67c2f9e76a6bd21a4466c64df72f"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/return-side.png",
+          "sha256": "c46ac3f45433a5aba17071d2aaaa546973ceb6199064f3d58d49497fc8da15ba"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004/renders/candidate/neutral-3q-L.png",
+          "sha256": "eb200dbb48d5ff256ca86909af53dde0ba8b0cbf9468830add58bee806ab0c5e"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/return-3q.png",
+          "sha256": "9a2ff6165059c64b01e1ed06f16882ef5846a4a440a1c4cef6a5977691d73c0a"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004/renders/candidate/seat-front.png",
+          "sha256": "e53660887a103eb75b735af3c00779751cfd7762a8430bf876a9bcb8351abe21"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-front.png",
+          "sha256": "b3fe82ecf46d52cf772e7e55bee2e94145ada2746b5a821176f997ff604cbcf5"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004/renders/candidate/seat-left.png",
+          "sha256": "5772fc07cdb32f7269b5771b879c888ff39ed49b613dab7f0ed7d2c42ba87f06"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-side.png",
+          "sha256": "52406381638fa25c4b3189898878875c1bb9b09eb0dbf2645dbb4b53ad964c64"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004/renders/candidate/seat-3q-L.png",
+          "sha256": "0ca1a2f78684be475267dc8de2fb0a1b44f8b7ec8682ace4d197bafbafd1cbd7"
+        },
+        {
+          "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-3q.png",
+          "sha256": "59967cfd0b5e069003cad2c28b309c9af01cc5bad5c9148e1add26d5d821ebc4"
+        }
+      ],
+      "scope": "Approved identity/body reference. Different render lighting/camera framing; no pixel identity claim. Mouth localized changes require Human review."
+    }
+  ]
+}

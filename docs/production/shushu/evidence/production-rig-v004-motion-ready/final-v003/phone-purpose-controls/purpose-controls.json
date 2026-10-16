@@ -1,0 +1,188 @@
+{
+  "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+  "rows": [
+    {
+      "frame": 1,
+      "carrierFrame": 1,
+      "position": 0,
+      "normal": 0,
+      "anchor": 8.940696716308594e-8
+    },
+    {
+      "frame": 477,
+      "carrierFrame": 1,
+      "position": 0,
+      "normal": 0,
+      "anchor": 5.960464477539063e-8
+    },
+    {
+      "frame": 493,
+      "carrierFrame": 1,
+      "position": 2.5796216440721054e-7,
+      "normal": 0.0000011175870895385742,
+      "anchor": 2.682209014892578e-7
+    },
+    {
+      "frame": 501,
+      "carrierFrame": 1,
+      "position": 0,
+      "normal": 0,
+      "anchor": 8.940696716308594e-8
+    },
+    {
+      "frame": 505,
+      "carrierFrame": 1,
+      "position": 7.366069659786589e-7,
+      "normal": 0.000004166737198829651,
+      "anchor": 6.556510925292969e-7
+    },
+    {
+      "frame": 508,
+      "carrierFrame": 1,
+      "position": 8.276202833196189e-7,
+      "normal": 0.000004366040229797363,
+      "anchor": 4.172325134277344e-7
+    },
+    {
+      "frame": 511,
+      "carrierFrame": 1,
+      "position": 0.0000012228843462580574,
+      "normal": 0.0000043138861656188965,
+      "anchor": 8.791685104370117e-7
+    },
+    {
+      "frame": 514,
+      "carrierFrame": 1,
+      "position": 0.0000012265747224016188,
+      "normal": 0.0000041425228118896484,
+      "anchor": 0.0000010281801223754883
+    },
+    {
+      "frame": 517,
+      "carrierFrame": 1,
+      "position": 9.164929266891608e-7,
+      "normal": 0.000004518777132034302,
+      "anchor": 4.246830940246582e-7
+    },
+    {
+      "frame": 520,
+      "carrierFrame": 1,
+      "position": 7.410424481824052e-7,
+      "normal": 0.000004317611455917358,
+      "anchor": 7.003545761108398e-7
+    },
+    {
+      "frame": 523,
+      "carrierFrame": 1,
+      "position": 8.659944951555643e-7,
+      "normal": 0.000004202127456665039,
+      "anchor": 7.301568984985352e-7
+    },
+    {
+      "frame": 526,
+      "carrierFrame": 1,
+      "position": 4.881501344672357e-7,
+      "normal": 0.000002376735210418701,
+      "anchor": 3.725290298461914e-7
+    },
+    {
+      "frame": 529,
+      "carrierFrame": 1,
+      "position": 6.424194133602956e-7,
+      "normal": 0.0000022314488887786865,
+      "anchor": 4.470348358154297e-7
+    },
+    {
+      "frame": 532,
+      "carrierFrame": 1,
+      "position": 4.190346415966495e-7,
+      "normal": 0.0000022443891793955117,
+      "anchor": 3.8743019104003906e-7
+    },
+    {
+      "frame": 535,
+      "carrierFrame": 1,
+      "position": 1.459777457663014e-7,
+      "normal": 8.642673492431641e-7,
+      "anchor": 1.1920928955078125e-7
+    },
+    {
+      "frame": 538,
+      "carrierFrame": 1,
+      "position": 5.070428808207073e-7,
+      "normal": 0.000003606081008911133,
+      "anchor": 4.023313522338867e-7
+    },
+    {
+      "frame": 541,
+      "carrierFrame": 1,
+      "position": 2.533205859800436e-7,
+      "normal": 2.3283064365386963e-10,
+      "anchor": 2.682209014892578e-7
+    },
+    {
+      "frame": 549,
+      "carrierFrame": 549,
+      "position": 0,
+      "normal": 0,
+      "anchor": 8.940696716308594e-8
+    },
+    {
+      "frame": 1041,
+      "carrierFrame": 1041,
+      "position": 0,
+      "normal": 0,
+      "anchor": 2.9802322387695312e-8
+    },
+    {
+      "frame": 1053,
+      "carrierFrame": 1053,
+      "position": 0,
+      "normal": 0,
+      "anchor": 1.043081283569336e-7
+    },
+    {
+      "frame": 1065,
+      "carrierFrame": 1065,
+      "position": 0,
+      "normal": 0,
+      "anchor": 8.940696716308594e-8
+    },
+    {
+      "frame": 1089,
+      "carrierFrame": 1089,
+      "position": 0,
+      "normal": 0,
+      "anchor": 5.960464477539063e-8
+    },
+    {
+      "frame": 1095,
+      "carrierFrame": 1095,
+      "position": 3.331863074329533e-8,
+      "normal": 1.1920928955078125e-7,
+      "anchor": 1.1920928955078125e-7
+    },
+    {
+      "frame": 1101,
+      "carrierFrame": 1101,
+      "position": 0,
+      "normal": 0,
+      "anchor": 8.940696716308594e-8
+    },
+    {
+      "frame": 1113,
+      "carrierFrame": 1113,
+      "position": 0,
+      "normal": 0,
+      "anchor": 8.940696716308594e-8
+    },
+    {
+      "frame": 1149,
+      "carrierFrame": 1149,
+      "position": 0,
+      "normal": 0,
+      "anchor": 8.940696716308594e-8
+    }
+  ],
+  "scope": "Standalone production controller from raw authored purpose/Wrist/Seat values; actual current mesh positions/normals and all 7 anchors against baked GLB, including mixed transitions. 16 non-neutral purpose witnesses use a neutral carrier clip; position tolerance 1e-5H matches saved-roundtrip tolerance and includes baked carrier matrix rounding. No diagnostic dependency in controller."
+}

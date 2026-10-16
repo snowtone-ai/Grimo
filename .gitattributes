@@ -11,3 +11,7 @@ scripts/blender/build-carol-normal-fleece-v004.py text eol=lf
 scripts/blender/carol-fleece-v004-authority.py text eol=lf
 scripts/blender/carol_fleece_spatial.py text eol=lf
 scripts/blender/*carol-normal-semantic-v001.py text eol=lf
+
+# Shushu v003 runtime and crown planner hashes are evidence-bound byte streams.
+assets/grimo/production/shushu/runtime/*-v003.mjs text eol=lf
+scripts/3d/rebuild-shushu-crown-v003.py text eol=crlf

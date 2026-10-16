@@ -1,0 +1,24 @@
+{
+  "method": "Thin-plate local depth from retained W and exterior rings, C2 outer blend; signed robust crown quadratic fairing. No topology, X/Z muzzle, UV, texture, weights or rig changes.",
+  "muzzle_vertices": 22597,
+  "muzzle_max_depth_delta": 0.008553436440661033,
+  "open_max_depth_delta": 0.009096849727504464,
+  "muzzle_bounds": [
+    [
+      -0.13154615461826324,
+      -0.2717318534851074,
+      0.5028685331344604
+    ],
+    [
+      0.13154591619968414,
+      -0.1854705959558487,
+      0.678955078125
+    ]
+  ],
+  "crown_vertices": 95,
+  "crown_max_z_delta": 0.009845781897784274,
+  "crown_fit_rms": 0.0034868236884944464,
+  "W_exact": true,
+  "human": "PENDING",
+  "gate": "HOLD"
+}

@@ -109,29 +109,34 @@ def build():
     rig['A/B gate']='Mouth B v002 no hanging philtrum ink; A surface normal companion required. Human PENDING.'
     bpy.context.preferences.filepaths.save_version=0; bpy.ops.wm.save_as_mainfile(filepath=str(ASSET))
     write('texture-stage-geometry-invariance.json',{'before':before,'after':after,'equal':before==after})
-def proof():
+def proof(extra_states=None):
     bpy.ops.wm.open_mainfile(filepath=str(ASSET)); rig=next(o for o in bpy.data.objects if o.type=='ARMATURE')
     with bpy.data.libraries.load(str(BASE/'shushu-v006-production-rig-v004-proof.blend'),link=False) as (src,dst):
         dst.actions=['Shushu_ProductionRig_v004Action']
     rig.animation_data_create(); rig.animation_data.action=dst.actions[0]
     if rig.animation_data.action_slot is None:rig.animation_data.action_slot=dst.actions[0].slots[0]
-    controls=[k for k in rig.keys() if isinstance(rig[k],(int,float))]
-    for f,op,seat in [(825,0,0),(837,.2,0),(849,.55,0),(861,1,0),(873,.55,0),(885,.2,0),(897,0,0),(909,0,1),(921,.2,1),(933,.55,1),(945,1,1),(957,0,1),(969,1,1),(981,0,1),(993,0,0)]:
+    driven={fc.data_path for fc in rig.animation_data.drivers}
+    controls=[k for k in rig.keys() if isinstance(rig[k],(int,float)) and '["'+k+'"]' not in driven]
+    poses={f:{'MouthOpen':op,'Seat':seat,'MouthClose':1 if f==969 else 0,'Tongue':1 if f in [969,981] else 0} for f,op,seat in [(825,0,0),(837,.2,0),(849,.55,0),(861,1,0),(873,.55,0),(885,.2,0),(897,0,0),(909,0,1),(921,.2,1),(933,.55,1),(945,1,1),(957,0,1),(969,1,1),(981,0,1),(993,0,0)]}
+    poses.update(extra_states or {});end_frame=max(993,max(poses))
+    for f,values in sorted(poses.items()):
         r.b.reset(rig)
-        for k,v in {'MouthOpen':op,'Seat':seat,'MouthClose':1 if f==969 else 0,'Tongue':1 if f in [969,981] else 0}.items():rig[k]=float(v)
+        for k,v in values.items():rig[k]=float(v)
         for k in controls:rig.keyframe_insert(data_path='["'+k+'"]',frame=f)
     for layer in rig.animation_data.action.layers:
         for strip in layer.strips:
             for bag in strip.channelbags:
                 for fc in bag.fcurves:
                     for k in fc.keyframe_points:k.interpolation='LINEAR'
-    scene=bpy.context.scene; scene.frame_start=1; scene.frame_end=993; scene.render.fps=24; scene.frame_set(1)
+    scene=bpy.context.scene; scene.frame_start=1; scene.frame_end=end_frame; scene.render.fps=24; scene.frame_set(1)
+    bpy.context.preferences.filepaths.save_version=0
     bpy.ops.wm.save_as_mainfile(filepath=str(PROOF))
     meshes=[o for o in bpy.data.objects if o.type=='MESH' and o.name.startswith('ShushuStatic_')]
     anchors=[o for o in bpy.data.objects if o.name.startswith('ANCHOR_')]
     pose={}; morph={}; anchor={}; ref={}; ar={o.name:[] for o in anchors}
     samples=set([1,49,103,169,477,493,509,517,533,549,821,825,831,837,843,849,855,861,873,885,897,909,945,969,981,993]+list(range(505,542,3)))
-    for f in range(1,994):
+    samples.update((extra_states or {}).keys())
+    for f in range(1,end_frame+1):
         scene.frame_set(f); bpy.context.view_layer.update()
         pose[f]={pb.name:pb.matrix.copy() for pb in rig.pose.bones}
         morph[f]={o.name:{k.name:float(o.evaluated_get(bpy.context.evaluated_depsgraph_get()).data.shape_keys.key_blocks[k.name].value) for k in o.data.shape_keys.key_blocks[1:]} for o in meshes if o.data.shape_keys}
@@ -157,7 +162,7 @@ def proof():
         if o.data.shape_keys and o.data.shape_keys.animation_data:
             o.data.shape_keys.animation_data.action=None
             for fc in list(o.data.shape_keys.animation_data.drivers):o.data.shape_keys.driver_remove(fc.data_path,fc.array_index)
-    for f in range(1,994):
+    for f in range(1,end_frame+1):
         scene.frame_set(f)
         for pb in rig.pose.bones:
             pb.matrix_basis=pb.bone.convert_local_to_pose(pose[f][pb.name],pb.bone.matrix_local,parent_matrix=pose[f][pb.parent.name] if pb.parent else Matrix.Identity(4),parent_matrix_local=pb.parent.bone.matrix_local if pb.parent else Matrix.Identity(4),invert=True)
@@ -171,7 +176,7 @@ def proof():
     for o in [rig]+meshes+anchors:o.select_set(True)
     bpy.context.view_layer.objects.active=rig
     bpy.ops.export_scene.gltf(filepath=str(GLB),export_format='GLB',use_selection=True,export_animations=True,export_animation_mode='SCENE',export_frame_range=True,export_frame_step=1,export_force_sampling=True,export_bake_animation=True,export_anim_scene_split_object=False,export_nla_strips_merged_animation_name='AB_Gate_Diagnostic_NotProduction',export_optimize_animation_size=False,export_skins=True,export_all_influences=True,export_morph=True,export_morph_animation=True,export_apply=False,export_keep_originals=False,export_extras=True)
-    write('diagnostic-timeline.json',{'fps':24,'frames':993,'original_v004_frames':[1,821],'mouth_frames':{'closed':825,'small':837,'medium':849,'large':861,'return':897,'seated':909,'close_priority':969,'tongue':981,'neutral_return':993},'production_motion':False})
+    write('diagnostic-timeline.json',{'fps':24,'frames':end_frame,'original_v004_frames':[1,821],'mouth_frames':{'closed':825,'small':837,'medium':849,'large':861,'return':897,'seated':909,'close_priority':969,'tongue':981,'neutral_return':993},'extra_control_witnesses':extra_states or {},'production_motion':False})
 def imported():
     p=module('importer','scripts/blender/prove-shushu-production-rig-v001.py');p.import_saved(GLB)
 def verify():
@@ -187,7 +192,7 @@ def verify():
         scene.frame_set(f)
         for o in meshes:rows.append({'frame':f,'mesh':o.name,'max_position_error':float(np.linalg.norm(evaluate(o)-ref[o.name+'__'+str(f)][maps[o.name]],axis=1).max())})
     ar=np.load(OUT/'anchor-reference.npz');error=0
-    for f in range(1,994):
+    for f in range(1,len(ar[ar.files[0]])+1):
         scene.frame_set(f)
         for name in ar.files:error=max(error,float(abs(np.array(bpy.data.objects[name].matrix_world)-ar[name][f-1]).max()))
     write('saved-roundtrip.json',{'rows':rows,'max_position_error':max(r['max_position_error'] for r in rows),'anchor_max_matrix_error':error,'mapping':'fixed fully-open frame861 nearest; UV-equivalent duplicates retained'})

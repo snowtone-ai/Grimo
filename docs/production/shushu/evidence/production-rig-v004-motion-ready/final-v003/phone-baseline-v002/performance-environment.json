@@ -1,0 +1,515 @@
+{
+  "summary": {
+    "engine": "2.22.2",
+    "mode": "local8",
+    "loadedMs": 1342.5999999642372,
+    "firstFrameMs": 2544.5,
+    "clip": "Shushu v004/animation/0",
+    "duration": 41.375,
+    "meshes": 14,
+    "anchors": 7,
+    "formats": [
+      {
+        "name": "ShushuStatic_Ear_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Ear_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Eye_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Head",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_LidWall_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_MouthInterior",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Nose",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_OralBowl",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_L",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          },
+          {
+            "semantic": "TEXCOORD6",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD7",
+            "components": 4
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          },
+          {
+            "semantic": "TEXCOORD6",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD7",
+            "components": 4
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Tongue",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          }
+        ]
+      },
+      {
+        "name": "ShushuStatic_Torso",
+        "elements": [
+          {
+            "semantic": "POSITION",
+            "components": 3
+          },
+          {
+            "semantic": "NORMAL",
+            "components": 3
+          },
+          {
+            "semantic": "BLENDINDICES",
+            "components": 4
+          },
+          {
+            "semantic": "BLENDWEIGHT",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD0",
+            "components": 2
+          },
+          {
+            "semantic": "TEXCOORD6",
+            "components": 4
+          },
+          {
+            "semantic": "TEXCOORD7",
+            "components": 4
+          }
+        ]
+      }
+    ],
+    "textures": [
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Ear_L_basecolor-0",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Ear_R_basecolor-1",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Eye_L_basecolor-2",
+        "width": 512,
+        "height": 512,
+        "gpuSize": 1398100,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Eye_R_basecolor-3",
+        "width": 512,
+        "height": 512,
+        "gpuSize": 1398100,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Head_basecolor-4",
+        "width": 2048,
+        "height": 2048,
+        "gpuSize": 22369620,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_LidWall_L_basecolor-5",
+        "width": 256,
+        "height": 256,
+        "gpuSize": 349524,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_LidWall_R_basecolor-6",
+        "width": 256,
+        "height": 256,
+        "gpuSize": 349524,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_MouthInterior_basecolor-7",
+        "width": 128,
+        "height": 128,
+        "gpuSize": 87380,
+        "format": 7
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Nose_basecolor-8",
+        "width": 128,
+        "height": 128,
+        "gpuSize": 87380,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Paw_L_basecolor-9",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Paw_R_basecolor-10",
+        "width": 1024,
+        "height": 1024,
+        "gpuSize": 5592404,
+        "format": 20
+      },
+      {
+        "name": "shushu-v006-tripo-autorig-v001_glb_ShushuStatic_Torso_basecolor-11",
+        "width": 2048,
+        "height": 2048,
+        "gpuSize": 22369620,
+        "format": 20
+      }
+    ],
+    "vram": {
+      "tex": 72044380,
+      "vb": 2726368,
+      "ib": 470640,
+      "ub": 3456,
+      "sb": 0
+    },
+    "renderer": "WebKit WebGL",
+    "unmaskedRenderer": "ANGLE (ARM, Mali-G720-Immortalis MC12, OpenGL ES 3.2)",
+    "canvas": {
+      "width": 640,
+      "height": 640,
+      "pixelRatio": 1
+    },
+    "calibration": {
+      "scale": 1,
+      "y": 0,
+      "yaw": 0,
+      "neutralHeight": 1,
+      "front": "+Z"
+    },
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36"
+  },
+  "normalRepair": {
+    "enabled": true,
+    "scope": [
+      {
+        "name": "ShushuStatic_Paw_L",
+        "vertices": 1681,
+        "weldedVertices": 1490,
+        "triangles": 2976
+      },
+      {
+        "name": "ShushuStatic_Paw_R",
+        "vertices": 1716,
+        "weldedVertices": 1495,
+        "triangles": 2986
+      }
+    ],
+    "method": "Angle weighted normals of current full-eight deformed surface; UV split vertices welded by 1e-6 rest position. Upload NORMAL only, world-space normalVS on two cloned paw materials."
+  },
+  "gpu": {
+    "webgl2": true,
+    "timerQuery": false,
+    "maxAttributes": 16
+  },
+  "visibility": "visible",
+  "url": "http://127.0.0.1:8768/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v002/runtime.html?captureRun=2026-10-16T16%3A20%3A55.148Z",
+  "date": "2026-10-16T16:20:56.710Z",
+  "artifact": {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v002.glb",
+    "sha256": "94a5554b46c0478a816779c7ae63208b1d1f024532d74086d7935344d019b6be"
+  },
+  "captureRun": "2026-10-16T16:20:55.148Z"
+}

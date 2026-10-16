@@ -1,19 +1,22 @@
-# Grimo — Handoff (last verified, not live authority)
+# Grimo — Handoff (last verified pointer; NOT live state)
 
-実行時のNOWはbranch/HEAD、未コミット差分、保存成果とEvidenceで再確認。Goal・Canonical・Human承認を上書きしない。
+**Checked:** 2026-10-16 / ChatGPT. **Canonical:** `main:docs/production/Handoff.md`. Main is the shared rules/knowledge base, **not** proof of the newest 3D state. For actual NOW, inspect the relevant feature branch remote HEAD, editable assets, production State, evidence, and Codex-local dirty changes. Human approval cannot be inferred from file names, dates or technical PASS.
 
-## Last verified: 2026-10-15 / Codex
+## Shared foundation verified
+- `main:AGENTS.md` was updated at [`da479113`](https://github.com/snowtone-ai/Grimo/commit/da4791135414a94951ed2d9ab51ca28da9ebcec8) to require GOAL-first, identity protection, targeted evidence, cause separation and minimal sufficient work. Next.js auto-generated rules were retained.
+- 2026-10-15 [shared-reference sync](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/character-production/SHARED_REFERENCE_SYNC_20261015.md) registered 15 Body-only PNGs and their hash manifest on main, shared Canonicals and other reusable knowledge. This **does not** confer Tripo preflight, 3D, Rig, Motion or Human acceptance.
+- [Project Knowledge Router](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_ROUTER.md) is the stable entrypoint; Goal√map is the WHY. Former `coord/grimo-ai-handoff` and old `GRIMO_AI_HANDOFF.md` are history, not active coordination.
 
-- **Shushu A/B Motion Gate継続:** branch `codex/shushu-v004-motion-ready-gate-20261015`、開始HEAD `a35f645858f806edb162bd521f1b85f7871481f4`。別名 `shushu-v004-motion-gate-v002.blend` / `-proof.blend` / `.glb`。鼻下のNose実体＋Texture縦線を局所除去、W全Shape境界を保持した口周辺面の候補、rayで特定した頭頂38頂点を局所補正。前肢は既存位置/weight/correctiveを保持し2Paw評価面NORMAL companionで陰影改善。[最終比較・動画・数値・再現・残欠陥](shushu/evidence/production-rig-v004-motion-ready/REVIEW.md)。rootは中間v001、最終比較は `final-v002/`。
-- **最新GateはHOLD / Motion Ready未到達:** 今回はHuman指示によりXiaomi 14T Pro Chrome実機まで検証。旧「phone対象外」は適用しない。Blender/saved/PlayCanvas/phoneで比較したが、実機の口周辺のくぼみ・凹凸、3Q耳付け根寄りの微小突起が残る。頭部法線の追加試験でも解消せず不採用。単なるHuman承認待ちではなく形状欠陥OPEN。前肢のP95法線差は改善したが全Motion体積/接触のHuman判定はPENDING。原本置換・Motion量産HOLD。
-- **Shushu口B専用候補:** 開始HEAD `d5e9882dd644ca35c6944ed9e1c7b4163944890a`、branch `codex/shushu-v004-mouth-b-20261015`。生成閉口モデル→局所閉/小/中/大造形→局所Textureの順。別名 `shushu-v004-mouth-b-v001.blend` / `-proof.blend` / `.glb` を保存。[比較・原寸・再現・GO/HOLD](shushu/evidence/production-rig-v004-mouth-b/REVIEW.md)。Head既存境界で接触W字の閉口とし、MouthInterior/OralBowl/Tongueを局所再作成。Head対象外全shape、UV/topology/weight、口以外10object、骨rest/親を保持。Head Textureの87,481texel（約2.086%）を局所変更し旧ピンクを除去。元画像11本の圧縮バイト保持。
-- **口B Gate:** authored / saved GLB / PlayCanvas localで4開口×Front/Side/3Q、実動画、座位/閉口優先/復帰を比較。保存位置差約9.39e-7H、実GPU口位置差最大4.92e-5H。数値を外観PASSとしない。閉口のピンクは消えたが、小開口のW形、口角の陰影、真横で頬に隠れる口内の見え方、Front可愛さ/Side自然さはHuman確認。**Human mouth=PENDING、原本置換・Motion量産HOLD。** Tongueは0.55開口を伴う専用契約、既存全clip互換未承認。169fは診断のみ。Human指定「今回はPC比較まで」、候補phone未検証。
-- **v004承認とA:** 2026-10-15 Human PASSはレビュー済み顔全体・外観・座位に限定。[元承認](shushu/evidence/production-rig-v004/REVIEW.md)。同日の追加前肢A/B ReviewはHOLD。[局所8互換・原本実機・A原因/B旧比較](shushu/evidence/production-rig-v004-skin-compat/REVIEW.md)。3mesh局所8は互換試作として保持。Aは全8参照でも残り、Blender評価面との法線乖離がある。今回Aは変更なし。A専用修正とA/B両方のHuman再判定が必要。
-- **保護:** 元v004・他キャラ・開始時ユーザー変更3PNG/未追跡モデル/18–27参照を保持。3,507入力hashと終了照合は口B Evidence。Handoffのみ状態更新として区別。main一括統合なし。
-- **v006静的承認:** 2026-10-14 Humanがv006外観PASSを明示、SHA256 `9c479122…34f10f`。[口v006履歴](shushu/evidence/tripo-mouth-depth-v006/REVIEW.md)をRig/Motion/runtime承認へ拡張しない。
-- **先行offline候補:** [lowpoly v001](shushu/evidence/tripo-rigprep-v006-lowpoly/REVIEW.md) は99,565tri/6.07MB、Human/Tripo未検証。[毛線v005](shushu/evidence/tripo-fur-seam-v005/REVIEW.md) はHuman PENDING。v004毛線の旧PASSは耳→肩線の再指摘で撤回。[目囲みv002](shushu/evidence/tripo-eye-outline-v002/REVIEW.md) はHuman「完璧」、他候補/正式Rigの承認ではない。
-- **先行Geometry v003:** production branch `codex/grimo-motion-zero-based-design-20261011`。[下側口縁から顎の修正・検証・限界](shushu/evidence/geometry-v003/lower-mouth-revision/REVIEW.md) はHuman PENDING/Tripo HOLD。上側口周辺横境界を含む履歴として保持し、今回Authorityとして参照。過去成果は上書きしない。
+## Character execution routing (status requires recheck)
+- **Carol:** `docs/production/carol/CAROL_PRODUCTION_STATE.md` on the **active Carol feature branch** and `assets/grimo/source/carol/approved-3d/authority.json`. Main's old bootstrap State is not today's production status.
+- **Jill:** identify the selected Rig/Geometry branch among active `codex/jill-*` work; inspect actual rig, deforming renders, motion failures and scoped Human gate. Do not infer GO from branch labels.
+- **Pino:** identify the selected `codex/pino-*` branch; verify tail/short-arm/support rigs and evidence, including whether Motion references gained Human approval.
+- **Shushu:** investigate `codex/shushu-*` candidate branches and their real evidence. The older v002/v003 Human FAIL/PENDING records are **historical**, not a current v004 quality verdict.
 
-## Next
+## Current operational gates
+User-visible Identity, cuteness, expression and natural support/contact require actual comparable renders and Human review. Geometry/Rig/GLB tests validate only their demonstrated scope; unverified runtime/credit/UI claims remain UNKNOWN. Keep accepted assets, other characters, source binaries and uncommitted work intact. No blind branch merges/rebases and no unapproved chargeable Tripo actions.
 
-最新Motion Gateの `residual-defects.json` の口周辺深度/接線と3Q微小突起を形状から修正し、PC/phone照明と連続動作で再確認。W・承認済み顔/Body/座位を守る。Aの体積/接触と口の局所外観をHumanが確認する。原本置換・量産は欠陥解消と両局所Human判定後。座位Game Neutralは未決定。
+**Update:** Only after material progress, Human decision, blocker or owner transition. Read latest, reconcile competing changes, commit/push safely, verify remote HEAD. Otherwise leave unchanged; if required update fails, report `HANDOFF_SYNC_BLOCKED`.
+
+## Shushu branch verification — 2026-10-17 / Codex
+`codex/shushu-v004-motion-ready-v003-20261016`、開始HEAD `a4a90851`。main pointer `73617ce2`を照合、一括統合なし。別名v003の口/頭頂/前肢を修正し、初回SelfContactも再修正。[候補・原寸/連続動作・再現・残項目](shushu/evidence/production-rig-v004-motion-ready/final-v003/REVIEW.md)。技術/Runtimeは記載範囲でPASS、**最終Human外観GO待ち**。Blender→再読込GLB→PlayCanvas→Xiaomiを最終hashで照合。実機300秒：rAF P95/P99 16.7ms、25ms超1回、context loss 0、法線CPU P50 3.9ms（旧再計測5.5）、Purpose 0.5ms。開始温度差あり、GPU時間UNKNOWN。通常Morph＋製品controller経路を納品、旧arm FKの無変更互換・全任意制御はHOLD。W/鼻下紐除去・承認body/座位・原本・ユーザー差分を保護。原本置換/量産HOLD。次はHumanが顔・短肢体積・肩/頬下接触・連続復帰を判定し、指摘箇所から改善。

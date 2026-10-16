@@ -1,0 +1,103 @@
+{
+  "candidate": "shushu-v004-motion-gate-v003.glb",
+  "artifact_sha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+  "gate": "MOTION_READY_CANDIDATE_HUMAN_APPEARANCE_PENDING",
+  "technical_gate": "PASS_IN_DOCUMENTED_WITNESS_SCOPE",
+  "runtime_gate": "PASS_PRODUCTION_LOADER_CONTROLLER_PATH_ON_XIAOMI_300S",
+  "human_gate": "PENDING",
+  "known_open_technical_defects_in_verified_scope": [],
+  "items": [
+    {
+      "id": "FACE-01",
+      "status": "REPAIRED_CANDIDATE_HUMAN_PENDING",
+      "frames": [
+        825,
+        837,
+        849,
+        861
+      ],
+      "views": [
+        "front",
+        "side",
+        "3q",
+        "3qR"
+      ],
+      "evidence": [
+        "compare-face.png",
+        "phone/mouth-front.webm",
+        "phone-face-diagnostic/capture-ledger.json"
+      ],
+      "finding": "Local depth/tangent repair and retired external cavity corrective; exact W in all keys. Broad muzzle shading remains visible and must be judged for natural softness by Human. Geometry/finite checks do not confer appearance GO."
+    },
+    {
+      "id": "FACE-02",
+      "status": "REPAIRED_CANDIDATE_HUMAN_PENDING",
+      "frames": [
+        837,
+        849,
+        861
+      ],
+      "evidence": [
+        "phone/large-3q.png",
+        "phone/mouth-3q.webm"
+      ],
+      "finding": "Large-opening lower rim is smoother in authored/reimport/PC/phone captures; small-to-large transition, tongue and lower-rim cuteness require final Human judgment."
+    },
+    {
+      "id": "CROWN-02",
+      "status": "REBUILT_CANDIDATE_HUMAN_PENDING",
+      "frame": 825,
+      "view": "3q",
+      "evidence": [
+        "compare-crown.png",
+        "crown-topology-audit.json"
+      ],
+      "finding": "Folded multi-layer Head sheet locally replaced. No local boundary/nonmanifold at 1e-6H; former spike reduced in actual phone image. Ear/crown appearance remains Human-owned."
+    },
+    {
+      "id": "ARM-CONTACT",
+      "status": "REBUILT_CANDIDATE_HUMAN_PENDING",
+      "frames": [
+        477,
+        493,
+        501,
+        514,
+        517,
+        533,
+        538,
+        549,
+        1089,
+        1101,
+        1113
+      ],
+      "evidence": [
+        "compare-arms.png",
+        "compare-selfcontact-iteration.png",
+        "phone/arm-3q.webm",
+        "phone/arm-3qR.webm",
+        "phone/composition-3qR.webm"
+      ],
+      "finding": "First volume-preserving candidate rejected for a distant SelfContact endpoint. Final tip fit yields 0.00255-0.00328H gap and actual triangle crossing 0 in tested poses. Plush volume, shoulder continuity and soft contact require Human review."
+    },
+    {
+      "id": "IDENTITY-SEAT-MOTION",
+      "status": "HUMAN_PENDING",
+      "evidence": [
+        "compare-approved-body.png",
+        "phone/seat-return-side.webm",
+        "phone/composition-3q.webm"
+      ],
+      "finding": "Approved body/true-seat domains preserved and neutral returned. Confirm perceived support, weight, short-limb cuteness and natural interruptions in motion."
+    }
+  ],
+  "runtime_contract": {
+    "supported": "Bounded independent left/right Purpose, Wrist and matching Seat on the preserved body/face carrier; ordinary skin/morph GLB + production modules",
+    "direct_old_arm_fk_clips": "UNSUPPORTED_ON_REBUILT_PAWS",
+    "crossfade_without_purpose_controller": "HOLD_PAIR_VOLUME_CORRECTION_WOULD_BE_OMITTED",
+    "arbitrary_unverified_control_combinations_and_items": "HOLD_REQUIRES_TARGETED_VALIDATION",
+    "gpu_time": "UNKNOWN_EXTENSION_UNSUPPORTED_RAF_IS_NOT_GPU_TIME",
+    "shipping_network_download_latency": "UNKNOWN_USB_LOCALHOST_LOAD_ONLY"
+  },
+  "motion_production": "HOLD",
+  "original_replacement": false
+}

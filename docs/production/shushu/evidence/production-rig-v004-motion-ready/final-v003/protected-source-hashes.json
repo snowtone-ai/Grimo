@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v002.blend",
+    "expected_lfs_object_sha256": "0d61535df026a4cd481c886a5c4029edd2656bad70ac4e9cf343158078e004df",
+    "worktree_file_sha256": "0d61535df026a4cd481c886a5c4029edd2656bad70ac4e9cf343158078e004df",
+    "state": "materialized object matches LFS SHA256"
+  },
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v002-proof.blend",
+    "expected_lfs_object_sha256": "a11694a66dd843a6fa45810e4be014230d0b31936b2afe66926d81365752a3f1",
+    "worktree_file_sha256": "a11694a66dd843a6fa45810e4be014230d0b31936b2afe66926d81365752a3f1",
+    "state": "materialized object matches LFS SHA256"
+  },
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v002.glb",
+    "expected_lfs_object_sha256": "94a5554b46c0478a816779c7ae63208b1d1f024532d74086d7935344d019b6be",
+    "worktree_file_sha256": "94a5554b46c0478a816779c7ae63208b1d1f024532d74086d7935344d019b6be",
+    "state": "materialized object matches LFS SHA256"
+  },
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v004.blend",
+    "expected_lfs_object_sha256": "98559327b578157288fefec7bcec1ffe6d373a0f7c088117e32199900a3d5ffa",
+    "worktree_file_sha256": "4d93706c9379660a91abf2005bf4923b82817319296fd43dca446a3d40bd01cf",
+    "state": "unchanged LFS pointer"
+  },
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v004-proof.blend",
+    "expected_lfs_object_sha256": "0aa22cf6dc398ff73ba209d99b50b819635ae3d547f73e6bc9e795c8ce21cbf6",
+    "worktree_file_sha256": "0aa22cf6dc398ff73ba209d99b50b819635ae3d547f73e6bc9e795c8ce21cbf6",
+    "state": "materialized object matches LFS SHA256"
+  },
+  {
+    "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v004.glb",
+    "expected_lfs_object_sha256": "5fb05e5b7a9cbdb07a64beb5a511d6347c656d85d111ed16eccc533ecfc44cb5",
+    "worktree_file_sha256": "5fb05e5b7a9cbdb07a64beb5a511d6347c656d85d111ed16eccc533ecfc44cb5",
+    "state": "materialized object matches LFS SHA256"
+  }
+]

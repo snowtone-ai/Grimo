@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "frame": 1,
+      "pixelPngExact": true
+    },
+    {
+      "frame": 533,
+      "pixelPngExact": true
+    },
+    {
+      "frame": 549,
+      "pixelPngExact": true
+    },
+    {
+      "frame": 861,
+      "pixelPngExact": true
+    },
+    {
+      "frame": 1029,
+      "pixelPngExact": true
+    },
+    {
+      "frame": 1101,
+      "pixelPngExact": true
+    },
+    {
+      "frame": 1149,
+      "pixelPngExact": true
+    }
+  ],
+  "streams": [
+    {
+      "name": "ShushuStatic_Paw_L",
+      "vertices": 1681,
+      "triangles": 2976
+    },
+    {
+      "name": "ShushuStatic_Paw_R",
+      "vertices": 1716,
+      "triangles": 2986
+    }
+  ],
+  "scope": "Single-fetch production loader and deformation module used directly; no qa, diagnostic-frame, DOM or Blender dependency in either module; pixel comparison uses diagnostic harness only as an oracle"
+}

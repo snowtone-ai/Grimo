@@ -1,0 +1,3915 @@
+{
+  "method": "Single Spine2 carrier; arc centerline with transported original plush cross sections; old inverse-LBS corrective stack retired; coherent distal clearance; continuous bounded purpose arbitration; same coefficients on calibrated Hold anchors. Surface samples at 1/8 reach, Seat endpoints, Wrist -1/0/1. All ordinary drivers bake to morph/anchor channels.",
+  "samples": [
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.054161845033784566
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.036298509669615654
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04967692570470178
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05416184462638021
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0362985093655536
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0496769253738445
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.21154492530238608,
+      "maximum_local_delta_H": 0.25913851402759036
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.036298509705299874
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.049676925747512014
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.007143081758297856,
+      "maximum_local_delta_H": 0.09046005267473863
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07231022834183767
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08111475133132326
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08439685475050598
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07231022804825893
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08111475101886337
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.20655405303310237,
+      "maximum_local_delta_H": 0.28141966899275117
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.1961847145692231,
+      "maximum_local_delta_H": 0.261618617173609
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.15114612167880992,
+      "maximum_local_delta_H": 0.22513097445333832
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.026324897292367158,
+      "maximum_local_delta_H": 0.1394987775512005
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10787804999021462
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11458171010794736
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.01631682481180781,
+      "maximum_local_delta_H": 0.1308257067069017
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10787804969521554
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11458170981011255
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1961186927465485,
+      "maximum_local_delta_H": 0.30075104727428204
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.19302052440929127,
+      "maximum_local_delta_H": 0.2911256520854047
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.16719623355575577,
+      "maximum_local_delta_H": 0.2714930964506123
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.04030458708360872,
+      "maximum_local_delta_H": 0.18433855665038298
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.01616437327652609,
+      "maximum_local_delta_H": 0.15640755903185044
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.012729236124233321,
+      "maximum_local_delta_H": 0.15869654422509105
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.035820017429740045,
+      "maximum_local_delta_H": 0.18037422669961084
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.01566419116757034,
+      "maximum_local_delta_H": 0.15597909135641058
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.012541863335446433,
+      "maximum_local_delta_H": 0.15854015271184793
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.18550417490173984,
+      "maximum_local_delta_H": 0.320500290894366
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.1819313932413809,
+      "maximum_local_delta_H": 0.3125559235688617
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.17509608422099793,
+      "maximum_local_delta_H": 0.31027355184248767
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.048395178142868644,
+      "maximum_local_delta_H": 0.22349332402683791
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.028963694014577962,
+      "maximum_local_delta_H": 0.20172525404554448
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.025925276849129764,
+      "maximum_local_delta_H": 0.20306348494031104
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.04655622025200046,
+      "maximum_local_delta_H": 0.2218775894320342
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.02865299921575079,
+      "maximum_local_delta_H": 0.201454941739309
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.02589174364850816,
+      "maximum_local_delta_H": 0.20303470870213922
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.17735735822829948,
+      "maximum_local_delta_H": 0.3430834311318789
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.17373920338208748,
+      "maximum_local_delta_H": 0.3364388438755237
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.16669533432447664,
+      "maximum_local_delta_H": 0.3329964237814627
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.05246478956990376,
+      "maximum_local_delta_H": 0.25895673233861527
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.036483346548864926,
+      "maximum_local_delta_H": 0.2415781068177243
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0325238399693428,
+      "maximum_local_delta_H": 0.24125591990461726
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.051912934378315345,
+      "maximum_local_delta_H": 0.25847536079873196
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03648343036789664,
+      "maximum_local_delta_H": 0.24157817813077329
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.032523923788374515,
+      "maximum_local_delta_H": 0.2412559909350126
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.16527794999101697,
+      "maximum_local_delta_H": 0.3620417233616696
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.1630512082893933,
+      "maximum_local_delta_H": 0.35754189456818447
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.15904622826151368,
+      "maximum_local_delta_H": 0.35616859603469325
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.053676876851058264,
+      "maximum_local_delta_H": 0.2914631659464149
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.038825544619909,
+      "maximum_local_delta_H": 0.27595665964168087
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.035420130363690266,
+      "maximum_local_delta_H": 0.27535445218407734
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.053295669757461805,
+      "maximum_local_delta_H": 0.2911360434020055
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03881382671927519,
+      "maximum_local_delta_H": 0.27594666432954573
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.03542021418272198,
+      "maximum_local_delta_H": 0.27535452184200676
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.15007109489772286,
+      "maximum_local_delta_H": 0.3776146389948034
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.14817060739092547,
+      "maximum_local_delta_H": 0.37410082674804673
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.14772443773112626,
+      "maximum_local_delta_H": 0.3754680283303475
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.052157941857772755,
+      "maximum_local_delta_H": 0.320630900905203
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0394198986446436,
+      "maximum_local_delta_H": 0.30785413804600636
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.03716058279938714,
+      "maximum_local_delta_H": 0.30738316876620625
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.05191001074989407,
+      "maximum_local_delta_H": 0.3204244159635877
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03942010167296486,
+      "maximum_local_delta_H": 0.3078543062062716
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0371605474091293,
+      "maximum_local_delta_H": 0.3073831394562872
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.13604616670012576,
+      "maximum_local_delta_H": 0.39386493062075095
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.13604598484580044,
+      "maximum_local_delta_H": 0.39257028002684535
+    },
+    {
+      "side": "L",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.136045802991407,
+      "maximum_local_delta_H": 0.39376083758966063
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05379486090897884
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04795076372471491
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05076526055952695
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05379486102138838
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04795076415816249
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05076526047247702
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.20602903020947375,
+      "maximum_local_delta_H": 0.2444755683283925
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.047950763657068754
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05076526054794491
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.04870571846915907,
+      "maximum_local_delta_H": 0.12221055153726888
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03076060528504334,
+      "maximum_local_delta_H": 0.10325732491418016
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.030395422370210243,
+      "maximum_local_delta_H": 0.10739121624549888
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.04239158424390978,
+      "maximum_local_delta_H": 0.11773017944442066
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.030749781454081165,
+      "maximum_local_delta_H": 0.10325123116633934
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.030387876794710708,
+      "maximum_local_delta_H": 0.10738629761789331
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2253502796065647,
+      "maximum_local_delta_H": 0.28529598575790793
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.20874401336320914,
+      "maximum_local_delta_H": 0.26276455699324014
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.17391434215763962,
+      "maximum_local_delta_H": 0.2332895715543719
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.09940344296238296,
+      "maximum_local_delta_H": 0.1938909539537602
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.09146123000413561,
+      "maximum_local_delta_H": 0.18284379719855182
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.09089271210846317,
+      "maximum_local_delta_H": 0.18634209627761195
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.09940257310709827,
+      "maximum_local_delta_H": 0.19389023926627255
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.09146125421852255,
+      "maximum_local_delta_H": 0.18284381579190034
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.09089273632285011,
+      "maximum_local_delta_H": 0.18634211520302052
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.23272349432120074,
+      "maximum_local_delta_H": 0.3142276563094323
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.21682231871784186,
+      "maximum_local_delta_H": 0.2955488069420521
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.190297076472834,
+      "maximum_local_delta_H": 0.27308568672933003
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1404944425212227,
+      "maximum_local_delta_H": 0.2551824062562896
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.13405540980146444,
+      "maximum_local_delta_H": 0.2475060133306356
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.13296370974719593,
+      "maximum_local_delta_H": 0.2490199543511968
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.14049446673560964,
+      "maximum_local_delta_H": 0.2551824252340114
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.1340553744112066,
+      "maximum_local_delta_H": 0.24750598503675428
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.1329636743569381,
+      "maximum_local_delta_H": 0.2490199273587023
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.23755649991819178,
+      "maximum_local_delta_H": 0.33965848157888695
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.22211473815568628,
+      "maximum_local_delta_H": 0.3233265485211054
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.19140968760330068,
+      "maximum_local_delta_H": 0.2974112000456916
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.17525094292465843,
+      "maximum_local_delta_H": 0.3075105277044839
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.17029800705551595,
+      "maximum_local_delta_H": 0.3020585873746629
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.1715983604214892,
+      "maximum_local_delta_H": 0.30423452812736845
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.17525096713904537,
+      "maximum_local_delta_H": 0.30751054641871045
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.17029797166525812,
+      "maximum_local_delta_H": 0.3020585598564825
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.17159838463587615,
+      "maximum_local_delta_H": 0.304234546256983
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2365394672110204,
+      "maximum_local_delta_H": 0.357656776579273
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.22485586796569498,
+      "maximum_local_delta_H": 0.3462846369898397
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.17159831478668305,
+      "maximum_local_delta_H": 0.3042344936211689
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2098529454265112,
+      "maximum_local_delta_H": 0.3536033190571685
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.20728365079656486,
+      "maximum_local_delta_H": 0.3509600703096217
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2109468102447566,
+      "maximum_local_delta_H": 0.3540393886050213
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.20985296964089814,
+      "maximum_local_delta_H": 0.35360333655647863
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.20728361540630702,
+      "maximum_local_delta_H": 0.35096004433849703
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.21094677485449875,
+      "maximum_local_delta_H": 0.35403936191119934
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2098530190009946,
+      "maximum_local_delta_H": 0.3536033727950114
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.20728366476640347,
+      "maximum_local_delta_H": 0.35096008048515526
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2109468242145952,
+      "maximum_local_delta_H": 0.35403939906364423
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.24433151581505513,
+      "maximum_local_delta_H": 0.3928495806939461
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.24308495137109037,
+      "maximum_local_delta_H": 0.3919755782437901
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.24857802368181156,
+      "maximum_local_delta_H": 0.39594152415171774
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.24433159963408685,
+      "maximum_local_delta_H": 0.39284963891618185
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.24308497558547731,
+      "maximum_local_delta_H": 0.3919755951453396
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.24857798829155373,
+      "maximum_local_delta_H": 0.39594149894109154
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.24433152978489375,
+      "maximum_local_delta_H": 0.39284959041816647
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.243084965340929,
+      "maximum_local_delta_H": 0.3919755880722845
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.24857809725629496,
+      "maximum_local_delta_H": 0.3959415762485722
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2872841115080754,
+      "maximum_local_delta_H": 0.4303576904321691
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.28227539700912396,
+      "maximum_local_delta_H": 0.4278579324748985
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.28507995133747144,
+      "maximum_local_delta_H": 0.4293365190915608
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.28728419532710714,
+      "maximum_local_delta_H": 0.4303577478111948
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.2822753616188661,
+      "maximum_local_delta_H": 0.42785790799595697
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2850798563425688,
+      "maximum_local_delta_H": 0.42933645327679487
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2872841850825588,
+      "maximum_local_delta_H": 0.43035774093155976
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.2822754109789626,
+      "maximum_local_delta_H": 0.42785794206565997
+    },
+    {
+      "side": "L",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2850799057026653,
+      "maximum_local_delta_H": 0.42933648751707526
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03846841312074017
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.016026465210107557
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.036093306216418
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.038468412648330265
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.016026464751220132
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0360933061321341
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.038468413214402385
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.01602646528922761
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03609330616872752
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04877869081879203
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03200897529104397
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.047416229988986744
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04877869034151163
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.032008974833283604
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04741622975942377
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04877869090915319
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03200897536951473
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04741622998536318
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06013768171085814
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0479312837890201
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06029196586840398
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06013768125008712
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04793128333249354
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0602919655644073
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.060137681791820295
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04793128386681405
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06029196588955667
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07276734543239201
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06377886907026294
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0741211627763058
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07276734496453288
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06377886861507491
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07412116244081007
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07276734551544654
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06377886914735365
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07412116280854893
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08612926755748755
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0795362066618959
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08849096409262493
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08612926708799931
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07953620620815126
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08849096372935304
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08612926764074363
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07953620673825706
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08849096413451958
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09985597160720819
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09518812651430916
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10311307266607939
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0998559711316576
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09518812606211206
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.1031130722959466
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09985597169272199
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09518812658991484
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10311307271100913
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11383594085586421
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11071940830100664
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11796146934007995
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11383594037606487
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11071940785046043
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11796146895375369
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11383594094299863
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11071940837583143
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11796146939043406
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12810884965509514
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12614920040885033
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13285464952088588
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12810884917249962
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.1261491999555238
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13285464912778694
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.1281088497433208
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12614920048506592
+    },
+    {
+      "side": "L",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13285464957364457
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05058034445877038
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03671799985632491
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05375314132554817
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.050580344124406394
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03671799955845287
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05375314091843899
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0505803445030145
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03671799988959732
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.202217433808003,
+      "maximum_local_delta_H": 0.2499227136467886
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08242754888407292
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.073076941354315
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0009397077103092937,
+      "maximum_local_delta_H": 0.08509397165514736
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08242754857539784
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0730769410595822
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08430018094749571
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.15480427368387464,
+      "maximum_local_delta_H": 0.2297607635564154
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.19335754671483307,
+      "maximum_local_delta_H": 0.2595850257194971
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.20439314729782718,
+      "maximum_local_delta_H": 0.2795843926362521
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11620186619183026
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10898287615259418
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.019494928945020862,
+      "maximum_local_delta_H": 0.13402432439480502
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11620186589787074
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10898287586941317
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.008835377697066491,
+      "maximum_local_delta_H": 0.12492271833640822
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.17978101860879603,
+      "maximum_local_delta_H": 0.2851431525092056
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.19190592083526456,
+      "maximum_local_delta_H": 0.2911845621134212
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.19506788983211615,
+      "maximum_local_delta_H": 0.30038153474123985
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.013960786018033506,
+      "maximum_local_delta_H": 0.16156304704173616
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.01603810036191737,
+      "maximum_local_delta_H": 0.15759866661182226
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0343180868263329,
+      "maximum_local_delta_H": 0.17986991197132488
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.013712571825099022,
+      "maximum_local_delta_H": 0.16135654237852565
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.015155113907330707,
+      "maximum_local_delta_H": 0.15684448529051648
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.028757534124978876,
+      "maximum_local_delta_H": 0.17499430605880653
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1768428831067443,
+      "maximum_local_delta_H": 0.3134146208165143
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.18073768413900704,
+      "maximum_local_delta_H": 0.31291160641502785
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.1821537791977194,
+      "maximum_local_delta_H": 0.3183317240736873
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.02689196842597541,
+      "maximum_local_delta_H": 0.20577954833937695
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.02883662006460344,
+      "maximum_local_delta_H": 0.20314192743159523
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.043897276658104084,
+      "maximum_local_delta_H": 0.2208351777015857
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.026723788332806198,
+      "maximum_local_delta_H": 0.20563581743185866
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.028432345973478906,
+      "maximum_local_delta_H": 0.20278811633871988
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04184010616271319,
+      "maximum_local_delta_H": 0.21903757363979162
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.17026520600837186,
+      "maximum_local_delta_H": 0.33804033357668767
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.17268998401046926,
+      "maximum_local_delta_H": 0.33725759645492936
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.17506989844389043,
+      "maximum_local_delta_H": 0.3421132742384674
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.032678719691715846,
+      "maximum_local_delta_H": 0.24325590914734857
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.034907849140069364,
+      "maximum_local_delta_H": 0.2420624727020157
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04767481835813088,
+      "maximum_local_delta_H": 0.2561895548019467
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.032673856325231204,
+      "maximum_local_delta_H": 0.24325176878185245
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03483974524547803,
+      "maximum_local_delta_H": 0.24200402882414138
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04695505688221019,
+      "maximum_local_delta_H": 0.25556458793267506
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1594669183781426,
+      "maximum_local_delta_H": 0.35842061750633636
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.16062703925625926,
+      "maximum_local_delta_H": 0.3571529668409845
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.16176199511078324,
+      "maximum_local_delta_H": 0.3601361748309534
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.035728640692447244,
+      "maximum_local_delta_H": 0.277493083671619
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03754393019109936,
+      "maximum_local_delta_H": 0.2769198290991951
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04951132742043607,
+      "maximum_local_delta_H": 0.28955782575015754
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.03572860530218941,
+      "maximum_local_delta_H": 0.2774930540278718
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03754383519619675,
+      "maximum_local_delta_H": 0.2769197478145115
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04908833747085206,
+      "maximum_local_delta_H": 0.28919656592458953
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1469221942668114,
+      "maximum_local_delta_H": 0.37669800484761534
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.1469221942668114,
+      "maximum_local_delta_H": 0.3748500314686137
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.14694641023440058,
+      "maximum_local_delta_H": 0.37640462804020985
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.03727326799287159,
+      "maximum_local_delta_H": 0.30948099564140674
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.038362720144327095,
+      "maximum_local_delta_H": 0.3091702910585295
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0483275562208387,
+      "maximum_local_delta_H": 0.3192374737566551
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.03727317299796898,
+      "maximum_local_delta_H": 0.30948091699759356
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03836268475406926,
+      "maximum_local_delta_H": 0.3091702612301488
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04819627140278546,
+      "maximum_local_delta_H": 0.31912897444796395
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.13607725690682346,
+      "maximum_local_delta_H": 0.3958903790267418
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.13607725690682346,
+      "maximum_local_delta_H": 0.39449187931141033
+    },
+    {
+      "side": "R",
+      "mode": "Hold",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.13607725690682346,
+      "maximum_local_delta_H": 0.39562755165962
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.051954119014394694
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04846293313523575
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05377602214602083
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05195411892702033
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04846293357311494
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.05377602226564576
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.051954119008778644
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.048462933065831715
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.20252416609712473,
+      "maximum_local_delta_H": 0.24085735540593703
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.034699612847788025,
+      "maximum_local_delta_H": 0.11176839933071184
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.032991516052592595,
+      "maximum_local_delta_H": 0.10570818260543706
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04537998594622578,
+      "maximum_local_delta_H": 0.12025126499773571
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.03469957745753019,
+      "maximum_local_delta_H": 0.11176837544534086
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.03299148066233476,
+      "maximum_local_delta_H": 0.10570816225177451
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.04055787518899407,
+      "maximum_local_delta_H": 0.11689167363570979
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.18084373973707296,
+      "maximum_local_delta_H": 0.24108714923656854
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.2102746040161002,
+      "maximum_local_delta_H": 0.265107344001258
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.21967675249697272,
+      "maximum_local_delta_H": 0.27999832120735685
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.09452420443879263,
+      "maximum_local_delta_H": 0.19068212712168658
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.09329593718247782,
+      "maximum_local_delta_H": 0.1854983065274781
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.09797238662745114,
+      "maximum_local_delta_H": 0.19344629868384078
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.09452422865317957,
+      "maximum_local_delta_H": 0.19068214530974073
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.09329590179221998,
+      "maximum_local_delta_H": 0.18549827887193418
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.09796501986588593,
+      "maximum_local_delta_H": 0.19344042360869687
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1937174812389585,
+      "maximum_local_delta_H": 0.27764602087468654
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.21934050118103837,
+      "maximum_local_delta_H": 0.29898695190975894
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.23169192977384293,
+      "maximum_local_delta_H": 0.31376184947252456
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.13569613722981977,
+      "maximum_local_delta_H": 0.25260557689898105
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.13558127185274638,
+      "maximum_local_delta_H": 0.25012800413205394
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.13992572966221634,
+      "maximum_local_delta_H": 0.2557224835121403
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.13569610183956193,
+      "maximum_local_delta_H": 0.25260554991289225
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.13558129606713332,
+      "maximum_local_delta_H": 0.25012802317628324
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.13992581348124805,
+      "maximum_local_delta_H": 0.2557225493662358
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.20977744358446532,
+      "maximum_local_delta_H": 0.3154036370850875
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.22640068230432767,
+      "maximum_local_delta_H": 0.32847426173767136
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2361773973951275,
+      "maximum_local_delta_H": 0.3390520681942411
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1737260891375271,
+      "maximum_local_delta_H": 0.3076606892008541
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.17211450570290363,
+      "maximum_local_delta_H": 0.30503705707149414
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.1746215644731256,
+      "maximum_local_delta_H": 0.30810983729414
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.173726113351914,
+      "maximum_local_delta_H": 0.307660707595484
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.17211458952193534,
+      "maximum_local_delta_H": 0.30503712131026645
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.17462158868751254,
+      "maximum_local_delta_H": 0.30810985570081134
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.1737261031073657,
+      "maximum_local_delta_H": 0.3076606999100518
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.2259257041509928,
+      "maximum_local_delta_H": 0.34843583687828267
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.23627074939236986,
+      "maximum_local_delta_H": 0.35823355921973604
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.21067225573798193,
+      "maximum_local_delta_H": 0.3552288195616778
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.20825822216019307,
+      "maximum_local_delta_H": 0.3528805397119814
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.20935698916384432,
+      "maximum_local_delta_H": 0.3542388767481687
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.21067227995236887,
+      "maximum_local_delta_H": 0.35522883727228616
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.20825818676993524,
+      "maximum_local_delta_H": 0.35288051327597264
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.20935707298287604,
+      "maximum_local_delta_H": 0.35423893719862526
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.21067221010317577,
+      "maximum_local_delta_H": 0.35522878586472806
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.20825817652538692,
+      "maximum_local_delta_H": 0.3528805058483287
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.20935700313368294,
+      "maximum_local_delta_H": 0.35423888684934124
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.24736393119611608,
+      "maximum_local_delta_H": 0.3956993074552346
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.24333996127763913,
+      "maximum_local_delta_H": 0.3928185251922577
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.24349530448518347,
+      "maximum_local_delta_H": 0.3929520710340106
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2473640150151478,
+      "maximum_local_delta_H": 0.3956993658910948
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.24333998549202607,
+      "maximum_local_delta_H": 0.3928185419112296
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2434953883042152,
+      "maximum_local_delta_H": 0.39295212820993003
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2473639451659547,
+      "maximum_local_delta_H": 0.3956993171984405
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.24333991564283297,
+      "maximum_local_delta_H": 0.3928184933868566
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.24349537805966687,
+      "maximum_local_delta_H": 0.39295212134868895
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2833742714788901,
+      "maximum_local_delta_H": 0.428234753620978
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.2877746114986961,
+      "maximum_local_delta_H": 0.4316536371777001
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2925080522453615,
+      "maximum_local_delta_H": 0.4342409189983306
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.28337429569327705,
+      "maximum_local_delta_H": 0.42823477080111766
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.28777457610843826,
+      "maximum_local_delta_H": 0.43165361273621067
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.2925080168551037,
+      "maximum_local_delta_H": 0.4342408932994626
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.2833742854487287,
+      "maximum_local_delta_H": 0.4282347635981078
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.28777456586388994,
+      "maximum_local_delta_H": 0.4316536058312362
+    },
+    {
+      "side": "R",
+      "mode": "SelfContact",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.29250806621520015,
+      "maximum_local_delta_H": 0.4342409290673102
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03565508160744271
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.01647073359827886
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.037067408265348996
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0356550814491
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.016470733156877207
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03706740782561656
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03565508158065482
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0164707336698819
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.125,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.037067408341631476
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04805976247703806
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.032876335588744476
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04878744771001012
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.048059762230118236
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.032876335149207396
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04878744726767279
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04805976247881657
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.03287633565944103
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.25,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04878744778394129
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06139409970365808
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04920095425954759
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.060957930569991
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06139409939967287
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04920095382198302
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.060957930115096245
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.061394099724613065
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.04920095432931259
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.375,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06095793064774254
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07554939487070259
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0654399193137069
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07418128665484058
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07554939453178416
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06543991887481458
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07418128619579607
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07554939490364487
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.06543991938411754
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.5,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.07418128673363457
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09024809265002243
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08159097873925907
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08809386843665551
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09024809230187913
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08159097830236292
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08809386799264726
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09024809268684786
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08159097880873312
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.625,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.08809386850902177
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10520674855736127
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09762424258995415
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10240180473234924
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10520674819105041
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.0976242421551607
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10240180426932495
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.10520674860023393
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.09762424265846727
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.75,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.1024018048122718
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12035346882445289
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11352875764938294
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11689448608010679
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12035346845260093
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11352875721630505
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11689448561374653
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12035346886965982
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11352875771713132
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 0.875,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.11689448616131858
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13563361839258273
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12931674660356246
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13155872276790787
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13563361801437224
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12931674616628197
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 0.5,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13155872229962304
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": -1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13563361843995553
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 0,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.12931674667326395
+    },
+    {
+      "side": "R",
+      "mode": "Offer",
+      "amount": 1.0,
+      "seat": 1,
+      "wrist": 1,
+      "coherent_forward_clearance_H": 0.0,
+      "maximum_local_delta_H": 0.13155872284987846
+    }
+  ],
+  "gate": "TECHNICAL_PROBES_PASS_HUMAN_PENDING",
+  "limits": "Independent arm FK and unsampled arbitrary control combinations require separate validation; original neutral topology/UV/texture retained.",
+  "self_contact": {
+    "aim": [
+      -0.6,
+      -0.5,
+      0.35
+    ],
+    "shift": [
+      -0.07,
+      0.095,
+      0.04
+    ],
+    "surface_fit": "Actual distal tip to own Head 0.00255\u20130.00328H at full reach; coherent ray clearance rather than bone endpoint distance."
+  },
+  "samples_per_paw": 438,
+  "seat_samples": [
+    0,
+    0.5,
+    1
+  ],
+  "includes": "216 single-purpose + 216 pair midpoint volume + 6 neutral Wrist targets per Paw"
+}

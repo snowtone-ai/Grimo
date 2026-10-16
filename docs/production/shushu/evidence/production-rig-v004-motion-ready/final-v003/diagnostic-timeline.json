@@ -1,0 +1,88 @@
+{
+  "fps": 24,
+  "frames": 1149,
+  "original_v004_frames": [
+    1,
+    821
+  ],
+  "mouth_frames": {
+    "closed": 825,
+    "small": 837,
+    "medium": 849,
+    "large": 861,
+    "return": 897,
+    "seated": 909,
+    "close_priority": 969,
+    "tongue": 981,
+    "neutral_return": 993
+  },
+  "extra_control_witnesses": {
+    "1005": {
+      "Hold.L": 1,
+      "Hold.R": 1,
+      "MouthOpen": 0.55
+    },
+    "1017": {
+      "Hold.L": 1,
+      "Hold.R": 1,
+      "MouthOpen": 1,
+      "Blink.L": 0.35
+    },
+    "1029": {
+      "Hold.L": 1,
+      "SelfContact.R": 1,
+      "MouthOpen": 0.2,
+      "Blink.R": 0.7,
+      "CheekPressure.R": 0.6
+    },
+    "1041": {
+      "Offer.L": 0.5,
+      "Offer.R": 0.5,
+      "MouthOpen": 0.55
+    },
+    "1053": {
+      "Offer.L": 1,
+      "Offer.R": 1,
+      "Wrist.L": 1,
+      "Wrist.R": -1
+    },
+    "1065": {
+      "SelfContact.L": 0.5,
+      "SelfContact.R": 0.5
+    },
+    "1077": {
+      "SelfContact.L": 1,
+      "SelfContact.R": 1
+    },
+    "1089": {
+      "Seat": 0.5,
+      "Hold.L": 0.5,
+      "Hold.R": 0.5,
+      "MouthOpen": 0.55
+    },
+    "1101": {
+      "Seat": 1,
+      "Hold.L": 1,
+      "Hold.R": 1,
+      "MouthOpen": 1
+    },
+    "1113": {
+      "Seat": 1,
+      "Hold.L": 1,
+      "SelfContact.R": 1,
+      "MouthClose": 1,
+      "Blink.R": 0.7
+    },
+    "1125": {
+      "Seat": 1,
+      "Hold.L": 1,
+      "Hold.R": 1,
+      "Tongue": 1
+    },
+    "1137": {
+      "Seat": 0.5
+    },
+    "1149": {}
+  },
+  "production_motion": false
+}

@@ -1,0 +1,2027 @@
+[
+  {
+    "name": "closed",
+    "frame": 825,
+    "view": "front",
+    "mouth": true,
+    "actual": {
+      "time": 34.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:33.970Z",
+      "rendered": 25,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "6ca78cc34e059d029d59307705ff7db0bbb5f0e62af6a303d01a6d9285946b2c"
+  },
+  {
+    "name": "closed",
+    "frame": 825,
+    "view": "side",
+    "mouth": true,
+    "actual": {
+      "time": 34.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:34.136Z",
+      "rendered": 35,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "edad63cd8216345188f9a816dcd75787b35549caf756e63440c0d630921bf3d2"
+  },
+  {
+    "name": "closed",
+    "frame": 825,
+    "view": "3q",
+    "mouth": true,
+    "actual": {
+      "time": 34.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:34.307Z",
+      "rendered": 42,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "c0035fa7c6488c054311bc2370e1236f3c74d1d9f58f52d02ee8b799e9ff5e1b"
+  },
+  {
+    "name": "closed",
+    "frame": 825,
+    "view": "3qR",
+    "mouth": true,
+    "actual": {
+      "time": 34.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:34.501Z",
+      "rendered": 51,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "ac3f9fa5ef27f014b46cb1b00a70e9c6bd069a45162a2b43935e15cae707c3a2"
+  },
+  {
+    "name": "small",
+    "frame": 837,
+    "view": "front",
+    "mouth": true,
+    "actual": {
+      "time": 34.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:34.824Z",
+      "rendered": 59,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "840baa76c1c25db6e82d25ef0986bb5442675e7c0e385d15ae8df3dbbd044111"
+  },
+  {
+    "name": "small",
+    "frame": 837,
+    "view": "side",
+    "mouth": true,
+    "actual": {
+      "time": 34.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:35.018Z",
+      "rendered": 68,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7ac66f40d0501320770f9b1173c8183472ace1bbb7572d8b2ecaec12d5d55448"
+  },
+  {
+    "name": "small",
+    "frame": 837,
+    "view": "3q",
+    "mouth": true,
+    "actual": {
+      "time": 34.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:35.290Z",
+      "rendered": 76,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f0832ee2505fc927d0790ad989ea0af67b80cfe5168e88ac8245ed4c3b99dfaf"
+  },
+  {
+    "name": "small",
+    "frame": 837,
+    "view": "3qR",
+    "mouth": true,
+    "actual": {
+      "time": 34.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:35.442Z",
+      "rendered": 83,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "18ce2b8eb98da2ec65474298aeb8a1853cb3f7b30748a943e273d05d7a21096c"
+  },
+  {
+    "name": "medium",
+    "frame": 849,
+    "view": "front",
+    "mouth": true,
+    "actual": {
+      "time": 35.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:35.733Z",
+      "rendered": 95,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e6812890b86e4215e9e967933a418352733d2984c1ad5caa6dabc90c42f1c482"
+  },
+  {
+    "name": "medium",
+    "frame": 849,
+    "view": "side",
+    "mouth": true,
+    "actual": {
+      "time": 35.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:35.850Z",
+      "rendered": 102,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e643945d51e524cd61e863fdb6063d6cf8dfbb63932226905b1bda5b813f3562"
+  },
+  {
+    "name": "medium",
+    "frame": 849,
+    "view": "3q",
+    "mouth": true,
+    "actual": {
+      "time": 35.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:36.005Z",
+      "rendered": 109,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7ea37ce20d1a83fcaff81929e1cdc838e118a39d2f7d313135d3df5e6278fddd"
+  },
+  {
+    "name": "medium",
+    "frame": 849,
+    "view": "3qR",
+    "mouth": true,
+    "actual": {
+      "time": 35.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:36.150Z",
+      "rendered": 116,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "581f07eaa3e2eace9165d6bd575054e2b6984dbf47fb174957aac3cb97b76ac0"
+  },
+  {
+    "name": "large",
+    "frame": 861,
+    "view": "front",
+    "mouth": true,
+    "actual": {
+      "time": 35.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:36.350Z",
+      "rendered": 124,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "779d0b3e069a21757ac89695608f66261cd29267c32e6fb0ac4b7a7b87bcf992"
+  },
+  {
+    "name": "large",
+    "frame": 861,
+    "view": "side",
+    "mouth": true,
+    "actual": {
+      "time": 35.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:36.458Z",
+      "rendered": 130,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "4bd3c38146685cfe35abffe3b7f1e30eaa4f4720a57cfe36fdbe2387e7778261"
+  },
+  {
+    "name": "large",
+    "frame": 861,
+    "view": "3q",
+    "mouth": true,
+    "actual": {
+      "time": 35.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:36.666Z",
+      "rendered": 140,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "a39c247d7be003ea433969a297e590c3fc86643c022a7df1281dedf68f3c6456"
+  },
+  {
+    "name": "large",
+    "frame": 861,
+    "view": "3qR",
+    "mouth": true,
+    "actual": {
+      "time": 35.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:36.833Z",
+      "rendered": 148,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "57e8d3888fd547cf002696d6c824f57fabf859c8ac0cc5eea77c544062e9523b"
+  },
+  {
+    "name": "neutral",
+    "frame": 1,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 0.041666666666666664,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.000Z",
+      "rendered": 155,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "fbabcb6f68a24b67193254193d2a461893f0ce616c56b0b45b2dfd829288bdf0"
+  },
+  {
+    "name": "neutral",
+    "frame": 1,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 0.041666666666666664,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.116Z",
+      "rendered": 160,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e23bf270466ddc5d00aa70bbf0cbdc9821d1ab7fad231d3f8881f08021bec5b7"
+  },
+  {
+    "name": "neutral",
+    "frame": 1,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 0.041666666666666664,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.209Z",
+      "rendered": 165,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f5e3ec33b8c897f59f2a71985868d42755827a8623d54f05aa857643504d5ea3"
+  },
+  {
+    "name": "neutral",
+    "frame": 1,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 0.041666666666666664,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.306Z",
+      "rendered": 171,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "0e8795c6c01fe562ab20d0e21aa2d5c91978f36211072e2d19ae6ef562827e00"
+  },
+  {
+    "name": "seat",
+    "frame": 103,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 4.291666666666667,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.469Z",
+      "rendered": 178,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "3441c35ab3a0eed1922781132ff0ee66941909821340148925b2f920700019ac"
+  },
+  {
+    "name": "seat",
+    "frame": 103,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 4.291666666666667,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.587Z",
+      "rendered": 185,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "32f5fbacc8b77e81a06a73a4605c9fd3a773a57669c94f1d8fa224beb31f7e10"
+  },
+  {
+    "name": "seat",
+    "frame": 103,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 4.291666666666667,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.706Z",
+      "rendered": 190,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "ae2d95938b056650cc6b6d4cf04b5140a5694cd5a27f82095ed6207ed60b3e3d"
+  },
+  {
+    "name": "seat",
+    "frame": 103,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 4.291666666666667,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.818Z",
+      "rendered": 196,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f24560607271166125c5a212fd6607f619e1cff7cff4982b29b4707207b7db6b"
+  },
+  {
+    "name": "offer",
+    "frame": 477,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 19.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:37.970Z",
+      "rendered": 204,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "07059c95f020a5c6f69ab98e98cb20b902608c22a93f4be84391b3b46184e63d"
+  },
+  {
+    "name": "offer",
+    "frame": 477,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 19.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:38.049Z",
+      "rendered": 209,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e23bf270466ddc5d00aa70bbf0cbdc9821d1ab7fad231d3f8881f08021bec5b7"
+  },
+  {
+    "name": "offer",
+    "frame": 477,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 19.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:38.157Z",
+      "rendered": 215,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "a8507e421438d5562fe6d98780b4b6c010c53d58cf66f4c1216aaeee7629e7c9"
+  },
+  {
+    "name": "offer",
+    "frame": 477,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 19.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:38.308Z",
+      "rendered": 221,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "3892ac9225d4b93ea1f8a1a892cd05a990c21ca65857574f7af3b0b76ed5deb2"
+  },
+  {
+    "name": "offer-r",
+    "frame": 485,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 20.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:38.717Z",
+      "rendered": 229,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "1db99f26ee04097b916d5ce28b2e18406d9484b08cbf2d2027d1c1fa8e0bfb9b"
+  },
+  {
+    "name": "offer-r",
+    "frame": 485,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 20.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:39.252Z",
+      "rendered": 234,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7c568cd9470f5c8f5c81501473420d7dc08e7c6d74b25e5639d952e6b6103dce"
+  },
+  {
+    "name": "offer-r",
+    "frame": 485,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 20.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:39.642Z",
+      "rendered": 239,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "6c73c603b6918040b7536ab124976448058e489a6bdfd7ddd576e3aa2a641168"
+  },
+  {
+    "name": "offer-r",
+    "frame": 485,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 20.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:41.284Z",
+      "rendered": 245,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7d5cd9025b2e3880bc8e3f8f72dce1d0235f364cc22887423e80ee3441b3e2e5"
+  },
+  {
+    "name": "elbow-mid",
+    "frame": 1041,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 43.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:41.750Z",
+      "rendered": 252,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "fc2c9f9b45cfc16daa839e55370c85e6117b424969d8d124bbe4598cd045c1da"
+  },
+  {
+    "name": "elbow-mid",
+    "frame": 1041,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 43.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:41.867Z",
+      "rendered": 257,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "2b18a186ca21f953b2353c8f30438e71b9f0b4efeb2da5591465f3e4773c78dc"
+  },
+  {
+    "name": "elbow-mid",
+    "frame": 1041,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 43.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:41.953Z",
+      "rendered": 262,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "1e7a7c77400f26a64bca9d9d26872690f1e879d360b21724519e5832c4d09325"
+  },
+  {
+    "name": "elbow-mid",
+    "frame": 1041,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 43.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:42.035Z",
+      "rendered": 267,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "8af47b7eeb39d36b355d636fe49af9b181fdb20da132333e0a816077ea416410"
+  },
+  {
+    "name": "self-mid",
+    "frame": 1065,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 44.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:42.234Z",
+      "rendered": 271,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "50676905abba296909d56e7c79780421fbfc1dac5bf81ccf5f76fee489e5e7a6"
+  },
+  {
+    "name": "self-mid",
+    "frame": 1065,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 44.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:42.625Z",
+      "rendered": 278,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "8ba5ba53ad15aebff0ee4fc48acc63400134a106124a17d6ba3ee567702d6784"
+  },
+  {
+    "name": "self-mid",
+    "frame": 1065,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 44.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:42.751Z",
+      "rendered": 285,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "92b8cfd8998821715df9e78edc5570f9ded8d60384edee7b907cfc00f341631d"
+  },
+  {
+    "name": "self-mid",
+    "frame": 1065,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 44.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:42.848Z",
+      "rendered": 291,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e40a68a0ad3b931e377795b7330f89386be79451b299b9469e93bd5e42ad301c"
+  },
+  {
+    "name": "hold-mid",
+    "frame": 999,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 41.625,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.026Z",
+      "rendered": 297,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "424fd81bacbe9f1f30fc2e717d92fed491c736d6c2031cd6df3522bed45c8f05"
+  },
+  {
+    "name": "hold-mid",
+    "frame": 999,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 41.625,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.136Z",
+      "rendered": 304,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "10639b0a517e02bc28a4ad5162fdf20e45670947f8f89edc2c94dfbb83d7f29f"
+  },
+  {
+    "name": "hold-mid",
+    "frame": 999,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 41.625,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.283Z",
+      "rendered": 310,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "0a52adbfa7a84589a46af0d4b060495e42b844a668e10302ad757074960382cc"
+  },
+  {
+    "name": "hold-mid",
+    "frame": 999,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 41.625,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.418Z",
+      "rendered": 316,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "a6e2915af0aaa2c4b267de1c652371c29575158ce8aca3fa672350347f270d2e"
+  },
+  {
+    "name": "wrist",
+    "frame": 493,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 20.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.633Z",
+      "rendered": 323,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "3315860b6b49ee519461af145642a49ccd6ce508fd3c814b67bac96f33de6bee"
+  },
+  {
+    "name": "wrist",
+    "frame": 493,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 20.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.749Z",
+      "rendered": 329,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "935371854c84d95acd4bef9b1eaea1205564e522be3a1ac0aab732ce5d1110ae"
+  },
+  {
+    "name": "wrist",
+    "frame": 493,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 20.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.883Z",
+      "rendered": 336,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "21d01c86e47e3d745dc093af80455804bc45b2a91412c47dbd2dbb80022304b9"
+  },
+  {
+    "name": "wrist",
+    "frame": 493,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 20.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:43.986Z",
+      "rendered": 342,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "d87bf49539a960f78e9b1f7f835faf4a092ce2ce7551a2c137eebbc4d2428f7a"
+  },
+  {
+    "name": "wrist-r",
+    "frame": 501,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 20.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:44.222Z",
+      "rendered": 351,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "4d0d0063f49c43b9c2b279fb663a246ac942710ed1ca825cc1c7ac889694b7b1"
+  },
+  {
+    "name": "wrist-r",
+    "frame": 501,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 20.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:44.419Z",
+      "rendered": 356,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "3bdf29740ba240f2a577abf3d6c6d2c8cdf3eca15b2594088d5a0877fba2d1be"
+  },
+  {
+    "name": "wrist-r",
+    "frame": 501,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 20.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:44.551Z",
+      "rendered": 361,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "54e724c0f725f77c3c77fe38342e9b63312004d6b89ca8a2ae78c6f6efb2ce0d"
+  },
+  {
+    "name": "wrist-r",
+    "frame": 501,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 20.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:44.637Z",
+      "rendered": 366,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "be9f5d2c59cab84bb4d9b9f81b7969f91916d531c15aefdfa9bedf2f34e87f96"
+  },
+  {
+    "name": "self",
+    "frame": 509,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 21.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:44.791Z",
+      "rendered": 372,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "53ec1780753a70d8032d46eaed3d3d697145419107dd6e4e207636211781823a"
+  },
+  {
+    "name": "self",
+    "frame": 509,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:44.905Z",
+      "rendered": 378,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "c17fa043113a5bb9363e82cec10c0d4e862a3adee80f5d5a0232a0c30ac486bc"
+  },
+  {
+    "name": "self",
+    "frame": 509,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.041Z",
+      "rendered": 384,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "a885dc3f860ff3ef97d6293f955cc36a163b5e36b1af499291a0a3f61cf7cca0"
+  },
+  {
+    "name": "self",
+    "frame": 509,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.166Z",
+      "rendered": 391,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "93727d95f33db4efebdbb1579a095e0945b6b91e06bcc819b0a215e90a58caed"
+  },
+  {
+    "name": "self-r",
+    "frame": 517,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 21.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.322Z",
+      "rendered": 397,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "72584e2860bc096a6c4c60c0ffcf78ca82dfbd5b06f62d5478535797ecf74e86"
+  },
+  {
+    "name": "self-r",
+    "frame": 517,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.415Z",
+      "rendered": 403,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e4d181812631cd065d6744ca2c68d9ceed9a4edc403051ebf595ab96ef808754"
+  },
+  {
+    "name": "self-r",
+    "frame": 517,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.505Z",
+      "rendered": 408,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7e0306e595fc73b5127820b4d5d8f5f7da1ac413c6abd652ca105e3d1855085a"
+  },
+  {
+    "name": "self-r",
+    "frame": 517,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.638Z",
+      "rendered": 414,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "d0060bf902f4b1f6456781835fc9f2c0bb0bd6de412935bc89c35e880644ff4b"
+  },
+  {
+    "name": "hold",
+    "frame": 533,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 22.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.850Z",
+      "rendered": 421,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "5ac3ecb098f8b4a73c03b18f47f43e477645ddd527ccafdb7ae89c48786d9cc4"
+  },
+  {
+    "name": "hold",
+    "frame": 533,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 22.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:45.957Z",
+      "rendered": 427,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "23fb0c1014fbe03e0695ce58769a74e2bc82479c76e636e1ad2fa837714e78cf"
+  },
+  {
+    "name": "hold",
+    "frame": 533,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 22.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.052Z",
+      "rendered": 433,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "1c7e57c67653f751e6e4cd977156c3be045eab183ce7fbe0a0de8c8286ea1865"
+  },
+  {
+    "name": "hold",
+    "frame": 533,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 22.208333333333332,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.156Z",
+      "rendered": 439,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7ab9c5b54d6db1898d43308b1c05b779a22351f90a5e94b0e28f96fa537fc791"
+  },
+  {
+    "name": "seat-hold",
+    "frame": 549,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 22.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.364Z",
+      "rendered": 447,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "2c25cddd0dfe5fbecf27891cc862fe340bc8344509410fc23dc064ee2cd46eae"
+  },
+  {
+    "name": "seat-hold",
+    "frame": 549,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 22.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.472Z",
+      "rendered": 452,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "984dc1d5303f43d4d29061f31b096bfe1738444efb9e27e1bc98e30462f91680"
+  },
+  {
+    "name": "seat-hold",
+    "frame": 549,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 22.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.565Z",
+      "rendered": 458,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "49636ef80f2500bd97645047fa815e273a130e6cf86c86af487cb8b2a6310fc3"
+  },
+  {
+    "name": "seat-hold",
+    "frame": 549,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 22.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.648Z",
+      "rendered": 463,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "929aad2675f4f419e08ae7710fdb920970faeff8f1c560b90723d0e0c8a78e1b"
+  },
+  {
+    "name": "return",
+    "frame": 1149,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 47.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.815Z",
+      "rendered": 470,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "fbabcb6f68a24b67193254193d2a461893f0ce616c56b0b45b2dfd829288bdf0"
+  },
+  {
+    "name": "return",
+    "frame": 1149,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 47.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:46.951Z",
+      "rendered": 475,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e23bf270466ddc5d00aa70bbf0cbdc9821d1ab7fad231d3f8881f08021bec5b7"
+  },
+  {
+    "name": "return",
+    "frame": 1149,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 47.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:47.082Z",
+      "rendered": 481,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f5e3ec33b8c897f59f2a71985868d42755827a8623d54f05aa857643504d5ea3"
+  },
+  {
+    "name": "return",
+    "frame": 1149,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 47.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:47.198Z",
+      "rendered": 487,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "0e8795c6c01fe562ab20d0e21aa2d5c91978f36211072e2d19ae6ef562827e00"
+  },
+  {
+    "name": "close-priority",
+    "frame": 969,
+    "view": "front",
+    "mouth": true,
+    "actual": {
+      "time": 40.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:47.389Z",
+      "rendered": 495,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "c24e6e75ff73ee6e505fdada92dac91d79a423a1c6474bd33337b348c0b0f2fd"
+  },
+  {
+    "name": "close-priority",
+    "frame": 969,
+    "view": "side",
+    "mouth": true,
+    "actual": {
+      "time": 40.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:47.516Z",
+      "rendered": 502,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "20b346eefe6717b38600eef2d4941d25244d1a602503a48b301d3aaf4e9dd89a"
+  },
+  {
+    "name": "close-priority",
+    "frame": 969,
+    "view": "3q",
+    "mouth": true,
+    "actual": {
+      "time": 40.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:47.698Z",
+      "rendered": 510,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "15e6593a5a078171fad84b849b0c8b7354ca4400bb23c38c31061d50b71ca105"
+  },
+  {
+    "name": "close-priority",
+    "frame": 969,
+    "view": "3qR",
+    "mouth": true,
+    "actual": {
+      "time": 40.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:47.915Z",
+      "rendered": 518,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "bf8b98e4b61b54c4ada0c1471918edec1fded813890fe469d1fc9efa397a4637"
+  },
+  {
+    "name": "tongue",
+    "frame": 981,
+    "view": "front",
+    "mouth": true,
+    "actual": {
+      "time": 40.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:48.099Z",
+      "rendered": 526,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "8085e67ba0e929f8011fd5f2590333034eecd51de394600026c594afd81a220d"
+  },
+  {
+    "name": "tongue",
+    "frame": 981,
+    "view": "side",
+    "mouth": true,
+    "actual": {
+      "time": 40.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:48.237Z",
+      "rendered": 532,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "665885a603b113ea999b33e936e6b26f4db4c284652a2662183c72e50c4c0bb8"
+  },
+  {
+    "name": "tongue",
+    "frame": 981,
+    "view": "3q",
+    "mouth": true,
+    "actual": {
+      "time": 40.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:48.388Z",
+      "rendered": 539,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "43b70493403bb9b89651d31375b204d2c5dce1efc66e42e0657d84d37241bab8"
+  },
+  {
+    "name": "tongue",
+    "frame": 981,
+    "view": "3qR",
+    "mouth": true,
+    "actual": {
+      "time": 40.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:48.566Z",
+      "rendered": 547,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "334e9c0ae6499ad3f456b8d9eeff81eafbd35d7b47fd0ca3aaf201218f3ba5e3"
+  },
+  {
+    "name": "face-hold",
+    "frame": 1005,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 41.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:48.732Z",
+      "rendered": 554,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "0bc966f2422a1f6d955b3df2839685eee0ffb87aa6fe44bb9f2669ab29ef3a88"
+  },
+  {
+    "name": "face-hold",
+    "frame": 1005,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 41.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:48.833Z",
+      "rendered": 560,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "b63eea6f5ddc4d6ed62b02238f2dd59a1c91c279d85113af9fb99c4593d74712"
+  },
+  {
+    "name": "face-hold",
+    "frame": 1005,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 41.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:48.934Z",
+      "rendered": 565,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "ff3cbebc3794738556b4e5f3ae7131550c18ff369f9ce9c6f007df065d834314"
+  },
+  {
+    "name": "face-hold",
+    "frame": 1005,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 41.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.050Z",
+      "rendered": 570,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "61cfa8cc9df85931739bfdf8d9743e6f9cf12abbc07bf518202aff8bfd7d98dc"
+  },
+  {
+    "name": "interrupt",
+    "frame": 1029,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 42.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.219Z",
+      "rendered": 576,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "01799b0b80e7987108da259ac83e828c00d1a963357657838a392b372489fd9f"
+  },
+  {
+    "name": "interrupt",
+    "frame": 1029,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 42.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.297Z",
+      "rendered": 581,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "b58f015638974de83496c62ff9ce0f376f37a452f42c0e80e0dd947a5e02bc01"
+  },
+  {
+    "name": "interrupt",
+    "frame": 1029,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 42.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.384Z",
+      "rendered": 586,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "11575080277f0a16dc865fbe09b8f4c00e3a7f233fea2f70d544fb00561c260f"
+  },
+  {
+    "name": "interrupt",
+    "frame": 1029,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 42.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.504Z",
+      "rendered": 591,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "44586b989df1e93d8956d7882f01835080ba13a091e4ac61c0b5da5411530ff9"
+  },
+  {
+    "name": "seat-face-hold",
+    "frame": 1101,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 45.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.697Z",
+      "rendered": 599,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7ea73d56eca6b6938a384fd58423636a04e0862cb6703691c15c3d2a8187bc0f"
+  },
+  {
+    "name": "seat-face-hold",
+    "frame": 1101,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 45.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.797Z",
+      "rendered": 604,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "0e5ba507b80fe001cdd9d62dd4a41b205d2a6b9e950d3866393d2fb0f0696d12"
+  },
+  {
+    "name": "seat-face-hold",
+    "frame": 1101,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 45.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:49.886Z",
+      "rendered": 609,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e23cc89a8f9beaea6aa96e6b94922992293ae9aa595e7cdd652b53286c32d4d1"
+  },
+  {
+    "name": "seat-face-hold",
+    "frame": 1101,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 45.875,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:50.034Z",
+      "rendered": 617,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "74bdd0a020fa81a97388afd20713746a4cf0c51bbc888c28dde9d7d403756780"
+  },
+  {
+    "name": "close-interrupt",
+    "frame": 1113,
+    "view": "front",
+    "mouth": false,
+    "actual": {
+      "time": 46.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:50.223Z",
+      "rendered": 625,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "0075ae0a4591021fd2293345ac3423e6363ca241340eb028f6937b6372e87a46"
+  },
+  {
+    "name": "close-interrupt",
+    "frame": 1113,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 46.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:50.349Z",
+      "rendered": 632,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "2f7e3ddaab764c5d7cff730d2a065e8e0f4c8bf2d929e5afa700fe0043cc18d0"
+  },
+  {
+    "name": "close-interrupt",
+    "frame": 1113,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 46.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:50.436Z",
+      "rendered": 637,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "cf1a50baf0cf88725db5b6748cc6ca20fdebfddd9e720187111516efa916fcbe"
+  },
+  {
+    "name": "close-interrupt",
+    "frame": 1113,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 46.375,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:50.550Z",
+      "rendered": 643,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f642220077a1d76fa756ed3bf114cc9d355ce2cf2ac1773bb337a8a7804442d1"
+  },
+  {
+    "name": "f505",
+    "frame": 505,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.041666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:58.302Z",
+      "rendered": 816,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e1485f4b8357f03ca4af20364aa489463a0eae53ea6e7ebbad395c7de3e47e6a"
+  },
+  {
+    "name": "f505",
+    "frame": 505,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.041666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:58.405Z",
+      "rendered": 821,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "8bb3ae4df40e53f4c4bff658426448134be12a2d976208bb97b1017c19b86474"
+  },
+  {
+    "name": "f505",
+    "frame": 505,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.041666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:58.567Z",
+      "rendered": 827,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f6a9fa45988131313ab243f7108574a46534d03d37ad3c4bc6ed911bea33d648"
+  },
+  {
+    "name": "f508",
+    "frame": 508,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.166666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:58.719Z",
+      "rendered": 832,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "1df170346dc11bf102161ad2780150b32d181401d8a524c007a4b3d27846142e"
+  },
+  {
+    "name": "f508",
+    "frame": 508,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.166666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:58.890Z",
+      "rendered": 837,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "28b35e392102093623fab9544c9c7631468aebea15ff0c78f5eefb54922d3642"
+  },
+  {
+    "name": "f508",
+    "frame": 508,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.166666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.056Z",
+      "rendered": 843,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "69cabe56d1f0ecda163b705c8021c087525b9bf55fd41072d976ef15e55c4057"
+  },
+  {
+    "name": "f511",
+    "frame": 511,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.291666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.152Z",
+      "rendered": 849,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "93404f20abc90d4c6da2855bc13d435b5372bc47aad4ca2f9e0d1059f0ecde12"
+  },
+  {
+    "name": "f511",
+    "frame": 511,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.291666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.253Z",
+      "rendered": 855,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "bc552ee80a13d6848df0c538b4cb578476e8d8485b56cb0cc1a4b6adaf1810d1"
+  },
+  {
+    "name": "f511",
+    "frame": 511,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.291666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.440Z",
+      "rendered": 863,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "05bfb628f7348898f590de2a3c18cf1fdb0938c7a68991e83a2477d2faa9ffcd"
+  },
+  {
+    "name": "f514",
+    "frame": 514,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.416666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.564Z",
+      "rendered": 869,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "bef863494d11a6eb447f4361d57368eff2089c2abccc1ff1dc01074d985d78df"
+  },
+  {
+    "name": "f514",
+    "frame": 514,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.416666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.672Z",
+      "rendered": 874,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "06515fff93430974dd79958f82447467af0588e7a32ea9c7bea9761560a066c4"
+  },
+  {
+    "name": "f514",
+    "frame": 514,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.416666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.769Z",
+      "rendered": 880,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "0913890db0dbc6c6447f760a0182a32eac0311dad98b1aadea8ad0c4f135465f"
+  },
+  {
+    "name": "f517",
+    "frame": 517,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.864Z",
+      "rendered": 886,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "e4d181812631cd065d6744ca2c68d9ceed9a4edc403051ebf595ab96ef808754"
+  },
+  {
+    "name": "f517",
+    "frame": 517,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:02:59.981Z",
+      "rendered": 892,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7e0306e595fc73b5127820b4d5d8f5f7da1ac413c6abd652ca105e3d1855085a"
+  },
+  {
+    "name": "f517",
+    "frame": 517,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.082Z",
+      "rendered": 898,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "d0060bf902f4b1f6456781835fc9f2c0bb0bd6de412935bc89c35e880644ff4b"
+  },
+  {
+    "name": "f520",
+    "frame": 520,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.666666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.197Z",
+      "rendered": 903,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "dfaac341063dc2645b4c7327c923ceca06f2b200c57852d88bc8605f8e32daeb"
+  },
+  {
+    "name": "f520",
+    "frame": 520,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.666666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.284Z",
+      "rendered": 908,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f287c0452fc5ae40dd667e1377fd6f1922b1d36d0910083311177186fa3afd6e"
+  },
+  {
+    "name": "f520",
+    "frame": 520,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.666666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.365Z",
+      "rendered": 913,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "925a3d735c1c7ce133f29d96fd243d0830918bbf837a5cf62de77c62d4c20c0b"
+  },
+  {
+    "name": "f523",
+    "frame": 523,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.791666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.481Z",
+      "rendered": 918,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "4d9988d85747dc9ff1bbf3156e78d283f7a96c2adf43188fd9e8db22ef4788c3"
+  },
+  {
+    "name": "f523",
+    "frame": 523,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.791666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.650Z",
+      "rendered": 925,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7a9a8dd88503af02f57f22ffd0ead11c0454e87d41372bb658e4d4b7e6e1b56c"
+  },
+  {
+    "name": "f523",
+    "frame": 523,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.791666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.789Z",
+      "rendered": 930,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "dbaeee66fb0e6302c53c3ba4f6e6abaaa93e2e2b296a9691f8ed139e67985905"
+  },
+  {
+    "name": "f526",
+    "frame": 526,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 21.916666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:00.914Z",
+      "rendered": 938,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "638c37f76bf8b50c6990d201ab908e2cca5da373c70c391be9f64ed311dd1380"
+  },
+  {
+    "name": "f526",
+    "frame": 526,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 21.916666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.019Z",
+      "rendered": 943,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "23460a2b88184852eefec0c048130e51e5526e217f73b7112618829b5e63a2ff"
+  },
+  {
+    "name": "f526",
+    "frame": 526,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 21.916666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.123Z",
+      "rendered": 948,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "a72e58849fc4e8169893d7cdc2b06e6f2dde8b6338683efa8ad09b82c7d694c5"
+  },
+  {
+    "name": "f529",
+    "frame": 529,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 22.041666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.232Z",
+      "rendered": 954,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "b244e9ebb213c8be9c32eeef44e83ea8b97bd3dfea8e791d1262f4c9e235794b"
+  },
+  {
+    "name": "f529",
+    "frame": 529,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 22.041666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.337Z",
+      "rendered": 959,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f57b68876f7f306633fe8322c4fae01395adb2c39563359e7cc5f857bdc78414"
+  },
+  {
+    "name": "f529",
+    "frame": 529,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 22.041666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.435Z",
+      "rendered": 965,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "d2769f13e04c11742801462de0eb4c65032f35d0be2f22b03e346a1d38b0ae63"
+  },
+  {
+    "name": "f532",
+    "frame": 532,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 22.166666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.504Z",
+      "rendered": 969,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "1e192bcfd6a9015d7d5e4277dc5af2a7275ade4021756f91edbb38ba824d8ce7"
+  },
+  {
+    "name": "f532",
+    "frame": 532,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 22.166666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.603Z",
+      "rendered": 975,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "6ffcc061aaf95515a671e8105352215950213e1cdf0ee2181ab60e1cfbf76449"
+  },
+  {
+    "name": "f532",
+    "frame": 532,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 22.166666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.730Z",
+      "rendered": 981,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "64be04fd7371c5159ae822bdc95522cc5722fee0e2552f95e70c94830bde9932"
+  },
+  {
+    "name": "f535",
+    "frame": 535,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 22.291666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.818Z",
+      "rendered": 986,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "f166b9ea6ce0c36d29e0cb180f57fc91e51dafd677a117c1fb2002246caea5ad"
+  },
+  {
+    "name": "f535",
+    "frame": 535,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 22.291666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:01.933Z",
+      "rendered": 992,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "d12abfcf8d861ffc211bc9abbde1fe3e9802e64a3d084df79aa1e6bb2edc4e24"
+  },
+  {
+    "name": "f535",
+    "frame": 535,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 22.291666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:02.013Z",
+      "rendered": 997,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "1b80dd27826ffc91ff5182ff832e3edad30920ab3a85e7dcfa44493e17fc91f9"
+  },
+  {
+    "name": "f538",
+    "frame": 538,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 22.416666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:02.137Z",
+      "rendered": 1004,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "2e256443f8dfaa43391671b9f98c833751b142506021b5ee5bfbf2016a50c689"
+  },
+  {
+    "name": "f538",
+    "frame": 538,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 22.416666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:02.254Z",
+      "rendered": 1010,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "ce7d2c36f39046a62384002db3dc14c57fb1aa5a3a02ed14a5d0464e7cf4af09"
+  },
+  {
+    "name": "f538",
+    "frame": 538,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 22.416666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:02.388Z",
+      "rendered": 1016,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7311e8a27174f279ebc1cebedc29704c6a74bbcb01675651f599b1eeacad8778"
+  },
+  {
+    "name": "f541",
+    "frame": 541,
+    "view": "side",
+    "mouth": false,
+    "actual": {
+      "time": 22.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:02.496Z",
+      "rendered": 1023,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "7a5a4b090dc89f53c201ff9c6ba4d5376e37ab50c96b98d10aa5cb3c1275a92a"
+  },
+  {
+    "name": "f541",
+    "frame": 541,
+    "view": "3q",
+    "mouth": false,
+    "actual": {
+      "time": 22.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:02.590Z",
+      "rendered": 1028,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "a8c7b354428b98a73c63c0cf1f25745c88244bb97f916674c6077404151935e2"
+  },
+  {
+    "name": "f541",
+    "frame": 541,
+    "view": "3qR",
+    "mouth": false,
+    "actual": {
+      "time": 22.541666666666668,
+      "visibility": "visible",
+      "at": "2026-10-16T17:03:02.698Z",
+      "rendered": 1035,
+      "url": "http://127.0.0.1:8769/docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/runtime.html?captureRun=2026-10-16T17%3A02%3A30.168Z"
+    },
+    "artifactSha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+    "sha256": "a4a44383d0979344e9a60bfa740991b85d087f5b873b85b4fb59a27e842cf9bd"
+  }
+]

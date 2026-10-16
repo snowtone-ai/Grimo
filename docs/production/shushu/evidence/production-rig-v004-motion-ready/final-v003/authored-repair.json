@@ -1,0 +1,266 @@
+[
+  {
+    "key": "Basis",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Blink.L",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Blink.R",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Corrective.HalfBlink.L",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Corrective.HalfBlink.R",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Smile",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "JoyLids",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "MouthOpen",
+    "changed": 22694,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Surprise",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "CheekPressure.L",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "CheekPressure.R",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Hesitate",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Discomfort",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "MouthClose",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Corrective.MouthCavity",
+    "changed": 22699,
+    "max_delta": 0.010160371661186218,
+    "retired_exterior_cavity": true
+  },
+  {
+    "key": "Stroke.Forehead.0.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.0.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.0.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.1.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.1.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.1.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.2.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.2.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Forehead.2.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.0.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.0.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.0.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.1.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.1.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.1.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.2.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.2.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.L.2.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.0.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.0.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.0.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.1.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.1.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.1.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.2.0",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.2.1",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Stroke.Cheek.R.2.2",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Corrective.EyeIntegrity.LowHead",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  },
+  {
+    "key": "Corrective.EyeIntegrity.ShiftL",
+    "changed": 22699,
+    "max_delta": 0.0098457932472229,
+    "retired_exterior_cavity": false
+  }
+]

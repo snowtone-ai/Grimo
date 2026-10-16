@@ -1,0 +1,430 @@
+{
+  "source": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003-proof.blend",
+  "source_sha256": "3697d43e2dea0a77edf447f2cf2e58e75b2898ca284c5c941625bcc7fb745dc7",
+  "engine": "BLENDER_EEVEE",
+  "samples": 8,
+  "fps": 24,
+  "images": [
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/closed-front.png",
+      "frame": 825,
+      "sha256": "90b9a00ec6615982dd2f4ed93cf0a2f1b6fc66b43c797a628af27d95935835c8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/closed-side.png",
+      "frame": 825,
+      "sha256": "3623db3dbbe0f244d2374c72f944e4c891d934c3c38c7625a02939c8000560f7"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/closed-3q.png",
+      "frame": 825,
+      "sha256": "eb433b2611be73d2607fe16d11bbf00d284023064f901b018c627df24dee24a8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/closed-3qR.png",
+      "frame": 825,
+      "sha256": "4aa6844792caf7411e9c0e3aff0cde4404ea36cfd8cb55044be7d06126088971"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/small-front.png",
+      "frame": 837,
+      "sha256": "8296f81a875d6e4eadf5029952e54bb00fc05afa715b876cc2c6badd4be35494"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/small-side.png",
+      "frame": 837,
+      "sha256": "c93a1d0d3c4eeeb6524b1aacc02f6e9d45ff6baea3475c84ebe05cb70fba3373"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/small-3q.png",
+      "frame": 837,
+      "sha256": "091180dc9215d8bb21570df9030fc665265c28349c0e9c579a67c7c08861d36c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/small-3qR.png",
+      "frame": 837,
+      "sha256": "22e1caeb6e07b31b20e4b30249b52999f295b085551cffd6c8870538546a68ce"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/medium-front.png",
+      "frame": 849,
+      "sha256": "c606ff6be47376bf4eef7bcc164d9a9727b2308094a1606c2fcba7b98370d405"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/medium-side.png",
+      "frame": 849,
+      "sha256": "d5b56cb43dddcbef94ae7a6578147e362324274d81bcfa42864ef68e4088d91f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/medium-3q.png",
+      "frame": 849,
+      "sha256": "c20cecebc8de55a7dc8f0590633e9399a0f62660e0b268ae3558d9ed4529347e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/medium-3qR.png",
+      "frame": 849,
+      "sha256": "c91e8959dbb771212bc90cc7d7de0bc9451084f5ce20904a688793101811626a"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/large-front.png",
+      "frame": 861,
+      "sha256": "09dc132089f42e9249a9028eba22416ff147af9baf7e56b86d69f6b1377b09f6"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/large-side.png",
+      "frame": 861,
+      "sha256": "a05786bbc255bac7efcc19927f00d8117239683299240f9e9c93a55102465fc7"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/large-3q.png",
+      "frame": 861,
+      "sha256": "d4f14a7b1b39fbd5757493b65325f4f5614860a2e9c0c78ea3d767752478b2d1"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/large-3qR.png",
+      "frame": 861,
+      "sha256": "a0e60ecdaab3c1845104f08f1c5b134b70d4e3575596ed3dfeb36b179d84fd9f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/elbow-mid-front.png",
+      "frame": 1041,
+      "sha256": "58a1cad5587e795021fbb904bf0875890f0c564bb5f529968fa3063c18369038"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/elbow-mid-side.png",
+      "frame": 1041,
+      "sha256": "c0d53b682f36ecf0b9d3f6c4b04c6a68f518847abd6083890f44b2dcaaeaf693"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/elbow-mid-3q.png",
+      "frame": 1041,
+      "sha256": "72300697eef02d448664e9c9e018bf0a25f08e89f64292692c003d90aeb0ab58"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/elbow-mid-3qR.png",
+      "frame": 1041,
+      "sha256": "d48f9c63680edad6b1675fbce4680b4bcfe85035285944582619f7e6a2b8a0d2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-front.png",
+      "frame": 477,
+      "sha256": "fbdbfecbbb6e5ec409f18905fe3f5bf9d5e826cd1c3f4d5125b183a378c3d0df"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-side.png",
+      "frame": 477,
+      "sha256": "70dfb728d3c6df99b488a01d43e489a7c46923fb6512d11c3e8c1187b1603c23"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-3q.png",
+      "frame": 477,
+      "sha256": "3f04b0cd4c16569292ab674a6d3e50df77e9becd3441589c29d7e60df40f56e4"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-3qR.png",
+      "frame": 477,
+      "sha256": "4120607894661781596a6fb94cfbe8c3556d9f106972a7fe0ac15337fa34b33b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-r-front.png",
+      "frame": 485,
+      "sha256": "ceca383f1c657d8bf4a4fd76599266dc837c98e9514fb23a25edeb5ee2c03f8a"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-r-side.png",
+      "frame": 485,
+      "sha256": "33dcd96721a63cca98d54bde96c543f6ac5af9a6c609c0f12030f27652acdf1b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-r-3q.png",
+      "frame": 485,
+      "sha256": "1e10c11a11633acb8cf9a4c6a6877c2487153027efa305fe40408a440285b588"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/offer-r-3qR.png",
+      "frame": 485,
+      "sha256": "870b528add9cdcc5b389d75f9797d45e4d1585eb3302123d88361a451228882d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-mid-front.png",
+      "frame": 1065,
+      "sha256": "cdca4bb1b9ca49cf026053e4bfdd61b7f515ffe278d0a3cc982184c3fcc5fd25"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-mid-side.png",
+      "frame": 1065,
+      "sha256": "e56098fba30ef62d2b22f18f4fd335a965cbdb39aa780bc8ccaa28fd052b835b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-mid-3q.png",
+      "frame": 1065,
+      "sha256": "9b745af885f4ed5e4fadca0266b9886cc534c30c1f40d760f3ba975dadb6ec79"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-mid-3qR.png",
+      "frame": 1065,
+      "sha256": "e90a56407e189a1c73e8c753d05cb9eb6c33b3c3f2ac4e5a85145c50a97354f2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-mid-front.png",
+      "frame": 999,
+      "sha256": "311e9a64f8f9cd7ad0269d1b785a8c9ea6012cbbbf78c4d70d9a589879617f4e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-mid-side.png",
+      "frame": 999,
+      "sha256": "98344f5e307b6a60ed2fecaf2976c461afe33ef06cc0415037027ac528d1b7c8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-mid-3q.png",
+      "frame": 999,
+      "sha256": "6504cf38b88bcef74ebb7249cb61020a6c6b0f7f4fea209312339a8d8d411725"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-mid-3qR.png",
+      "frame": 999,
+      "sha256": "b96172129039b50560fd5bfcaf9a1248a3869a156b10cb34fa21a1956602728f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-front.png",
+      "frame": 493,
+      "sha256": "de4037b4dc5c2567c2cae6316f79854f6fd3f1569ba64ae90efadf1e421c4bee"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-side.png",
+      "frame": 493,
+      "sha256": "100e1746efc7875db273979089adb6b6e9739a394d53e7cdd4866743aabd7c33"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-3q.png",
+      "frame": 493,
+      "sha256": "34cf78554b3f3ce697a3eee322a46968f2482bdd0e624a9d752121bf81baaeb6"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-3qR.png",
+      "frame": 493,
+      "sha256": "8ccaa3d5373c4b3eba25f8ab42e7ec1c113602912c3ed3ce6b28d0c8a28e99c7"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-r-front.png",
+      "frame": 501,
+      "sha256": "6e4eef5c4f756159bc4943bef20355f579fa4eeace33b1565d11176ba48bab5d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-r-side.png",
+      "frame": 501,
+      "sha256": "323c6a3df322045e218bfc8daab526650c541e57b41d704c213754aa1f09e719"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-r-3q.png",
+      "frame": 501,
+      "sha256": "717c91e1f3d3f26576d441ed3da32430fa39753803321b2d082d8aa29bdc7416"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/wrist-r-3qR.png",
+      "frame": 501,
+      "sha256": "d0049e65f5b31b628d24c3482656a1d3e5a13c0b3391a114254cb3ae9a958176"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-front.png",
+      "frame": 509,
+      "sha256": "217855bb78cd74faae5dae9172428c151e52741b84a5f06a4599cb57656ed381"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-side.png",
+      "frame": 509,
+      "sha256": "c2dc5bbdec21aa7469818b3435250cee7c0304d428b94bc2df7046ced055b088"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-3q.png",
+      "frame": 509,
+      "sha256": "eb690590238411def251c7be84c015f01192904a2ed69b91e0a66a745d425749"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-3qR.png",
+      "frame": 509,
+      "sha256": "f1fd1b41937d85fc4b7753652b535e85fd9d351cbba32567dab24d7cbd4087ba"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-r-front.png",
+      "frame": 517,
+      "sha256": "38cc80bdba81a74c5058393e7a065e8e3f480bd66faaa04eceb2c119b4a3dfbf"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-r-side.png",
+      "frame": 517,
+      "sha256": "b6b93ce2b867960cef8ce3c61c198a28bd2c82cb8a51b6f8a2efb40424a7202e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-r-3q.png",
+      "frame": 517,
+      "sha256": "eb9f6a2e292844bae33baaac9cca7ee5a52d9ad3a650fa3aa8138f35d3643f64"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/self-r-3qR.png",
+      "frame": 517,
+      "sha256": "4831af3ac0aa7f6dd8f35fedca9e585cae3e1511271fadf9cc94d192dbfb2d6f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-front.png",
+      "frame": 533,
+      "sha256": "ee86a96f61efdec781ad9b5d53b50ff9878ea73027a9236e3728476c6614124b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-side.png",
+      "frame": 533,
+      "sha256": "c909735ebc798a7386673689126e2f6820fcd5e5c3549eec7309c577b289b408"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-3q.png",
+      "frame": 533,
+      "sha256": "f42913e4fc78c40cbeeff9f84e4f3a501a395db226cf988c23a3f6be0c61a7b5"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/hold-3qR.png",
+      "frame": 533,
+      "sha256": "3ea00340449b8755157b6820ef577a5054a19a9e74381dbe50fe371b413acc02"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-hold-front.png",
+      "frame": 549,
+      "sha256": "6cc98aae5085fb04e9a15710986040f349dc637bde1d8fc739ecd3c6c30c55cb"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-hold-side.png",
+      "frame": 549,
+      "sha256": "0edb91d6463389043ac050eee9898b73b417135816712a0035e224a76091510a"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-hold-3q.png",
+      "frame": 549,
+      "sha256": "8f8b4985c0ff2c1e3e86ddee9fbc7fc93017f0ba28b82ac22cad764aefdfb694"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-hold-3qR.png",
+      "frame": 549,
+      "sha256": "eed0702c19357df0b75c4b5689626671c679a852c276165f668eb5acd7084de4"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-front.png",
+      "frame": 103,
+      "sha256": "b3fe82ecf46d52cf772e7e55bee2e94145ada2746b5a821176f997ff604cbcf5"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-side.png",
+      "frame": 103,
+      "sha256": "52406381638fa25c4b3189898878875c1bb9b09eb0dbf2645dbb4b53ad964c64"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-3q.png",
+      "frame": 103,
+      "sha256": "59967cfd0b5e069003cad2c28b309c9af01cc5bad5c9148e1add26d5d821ebc4"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-3qR.png",
+      "frame": 103,
+      "sha256": "5b766973893a43c71d8b406422a019f221c0fcb80d932effc0f81135c3c9f647"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/face-hold-front.png",
+      "frame": 1005,
+      "sha256": "560f7c5194c3a45bc81b0990f644bf7e143844310c7909a0f37e0baf64af3684"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/face-hold-side.png",
+      "frame": 1005,
+      "sha256": "99d3879f51dfeaaa43b629e6cb9618dae26bec3bf7ee710e928974e4fe13c85d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/face-hold-3q.png",
+      "frame": 1005,
+      "sha256": "6eca705ef2299d8ca4689fb5d86d560c9b501e058d29c57fd02cba86b0f30b5e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/face-hold-3qR.png",
+      "frame": 1005,
+      "sha256": "6374b266387425774c81f4a98637a7931970e430d98773a02b281b9ca6fea55f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/interrupt-front.png",
+      "frame": 1029,
+      "sha256": "6fa8a2a7846297bce4c68723d48b52db98561b1083d1148ec62e9a205093b11d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/interrupt-side.png",
+      "frame": 1029,
+      "sha256": "2a5f61fedadf471cd3122e5a60cbcf605a437606311b83d4c8fcc17ff25eabfc"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/interrupt-3q.png",
+      "frame": 1029,
+      "sha256": "89c687ecc7ad37e9429476d84799aa0d40d850ab0fd265aefbc455b9fe10ff21"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/interrupt-3qR.png",
+      "frame": 1029,
+      "sha256": "bf56c21d31c8c452b38be533cfbb0e8f3b921da399747ff990751df7fd3dc854"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-face-hold-front.png",
+      "frame": 1101,
+      "sha256": "f6371bdc4c0fbd43ceaf2ae06be90db8aa2b6128c3b390a9d6266624b61f7aa5"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-face-hold-side.png",
+      "frame": 1101,
+      "sha256": "756966c561dd274b5197f300336726115e3d1dee22c17764ace6181037a293af"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-face-hold-3q.png",
+      "frame": 1101,
+      "sha256": "bd9ae585815311d267bcfe4fd4e22cc1b0d886d61ea8de5a9103eefeeb9adc32"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/seat-face-hold-3qR.png",
+      "frame": 1101,
+      "sha256": "e8d6e5204addea0e4724deefdfaa0dbc33a6b41ed050f6108986b55abfb1702f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/close-interrupt-front.png",
+      "frame": 1113,
+      "sha256": "d699bbf01048b5d3159053b036ea17bb026f58575955e0433abee1faa911d6f7"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/close-interrupt-side.png",
+      "frame": 1113,
+      "sha256": "c941bffe61bae6b431d13fe230f94f4f2ab8bb1e6eeed3ccd38e678b7495bc07"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/close-interrupt-3q.png",
+      "frame": 1113,
+      "sha256": "e302dae09c65e8e05bbadbadca6da5e92957377d9260e7c9d277a6797b4345f0"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/close-interrupt-3qR.png",
+      "frame": 1113,
+      "sha256": "c860d815f323e4de7b36099504041b865f5ac73ca7022af30c89ff6f918d2fa1"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/return-front.png",
+      "frame": 1149,
+      "sha256": "7c7320a85e66dfa8101e8d0fa1577c2837e6783cebc491b684bb8d94c6b0ae96"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/return-side.png",
+      "frame": 1149,
+      "sha256": "c46ac3f45433a5aba17071d2aaaa546973ceb6199064f3d58d49497fc8da15ba"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/return-3q.png",
+      "frame": 1149,
+      "sha256": "9a2ff6165059c64b01e1ed06f16882ef5846a4a440a1c4cef6a5977691d73c0a"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/author/return-3qR.png",
+      "frame": 1149,
+      "sha256": "f568e321aee44941c8efbd88ecf1b54b3a9310fe84d5918bda76ea401b3254c1"
+    }
+  ],
+  "scope": "actual contiguous evaluated frames; no generated interpolation"
+}

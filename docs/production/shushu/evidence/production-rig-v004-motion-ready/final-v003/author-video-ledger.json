@@ -1,0 +1,2410 @@
+{
+  "source": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003-proof.blend",
+  "source_sha256": "3697d43e2dea0a77edf447f2cf2e58e75b2898ca284c5c941625bcc7fb745dc7",
+  "engine": "BLENDER_EEVEE",
+  "samples": 8,
+  "fps": 24,
+  "images": [
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0825.png",
+      "frame": 825,
+      "sha256": "2742194c405c8ec9d996e15c0fc50ea229552ddf4141c8b43aaf6950028e7e96"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0826.png",
+      "frame": 826,
+      "sha256": "9311699da17f646c47035d2edfbb085c996e2ff6fa04be7e30e8a38c39738b65"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0827.png",
+      "frame": 827,
+      "sha256": "68f5ad6e18d5d06b04520fee88450d705f5fbe7590f0004d89f4669d8f70f22e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0828.png",
+      "frame": 828,
+      "sha256": "0e13257284733e706c12649e6cdd262ab2f02b289bc7b592fbd4e81137274505"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0829.png",
+      "frame": 829,
+      "sha256": "f9fa9247e2287804985905e5300e07d979b0cf03a429493d3c0c02fcfe342a1f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0830.png",
+      "frame": 830,
+      "sha256": "61507f249543a8f113e82815b88ac320607fd9db704ec3cd935c9eef7b42942e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0831.png",
+      "frame": 831,
+      "sha256": "74ae5754d015ef7f881bcc0a9c094fba7c52aeab937d90fbff827b8ccd3faeaa"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0832.png",
+      "frame": 832,
+      "sha256": "12866ade5d2b31ae3e576975d0bfaafb4226cd8d07560ce70c3a8f0884ccfb5f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0833.png",
+      "frame": 833,
+      "sha256": "c0f57b16b9fbfde5144392e56b817107510804d0b1552503ef8517e233ce4c8e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0834.png",
+      "frame": 834,
+      "sha256": "fb575eb52ddc8db7078336d8b0d105925410e734a3f69079f82ea5c84ceee200"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0835.png",
+      "frame": 835,
+      "sha256": "c806fbaac62ea0add9e78d598a1b46287d012616d02f2e881fed19f5b82b57fd"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0836.png",
+      "frame": 836,
+      "sha256": "8c85cae869db5eca19e14be05020548fe8c6ccb3b6c9c5d76ba7cefd9f0f4db9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0837.png",
+      "frame": 837,
+      "sha256": "c2a545c744d48abb3fa56dc2295b4019f02ca27ab1baf4297c6d0a5da7ed3ab5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0838.png",
+      "frame": 838,
+      "sha256": "799d114c1baf28d1c8178d8495c1217db23695b7b42661655540993d41f2b1ef"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0839.png",
+      "frame": 839,
+      "sha256": "4e69d205bf24cd477f2561de091df817ef967484eba5b65b4aaabf22bf030b7d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0840.png",
+      "frame": 840,
+      "sha256": "863df34a90cabc61a21d5c5b157b8a5ebee1d060530c496496a8d4d6ac7457c1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0841.png",
+      "frame": 841,
+      "sha256": "f9fb4aae3f2eb94d018cbd1441add3b17536fac6a089c4f290aeda3a02a78889"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0842.png",
+      "frame": 842,
+      "sha256": "7fbe7ce02222fe33cf95d43576257f5feef398fa9952c86fd889ac8a12936215"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0843.png",
+      "frame": 843,
+      "sha256": "a99f501e43a04200185a5fef58edda0e097da31b6009c02b5b8ecebd4a965d93"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0844.png",
+      "frame": 844,
+      "sha256": "2e1f05e38523c901cca6f54ba7d6a6dff3c6502984ab9ebabc7a3dcadb251787"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0845.png",
+      "frame": 845,
+      "sha256": "f64ee20495971c1738146c9c640ffe75169d1a5a994ca412a5c6ab7094262a94"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0846.png",
+      "frame": 846,
+      "sha256": "291c11b6a088b9fce6c813981c2fd7512254c412bef56828b6d53c3ce5fb4b8e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0847.png",
+      "frame": 847,
+      "sha256": "1df8e399770f1eae5a7bba2cc23c19a558470dee8b4a3f140662d11097d2a5fd"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0848.png",
+      "frame": 848,
+      "sha256": "7c0db27da5c533c126f0615e090612ae25e7207b624eb65fd6e71fbc4c3d9f9c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0849.png",
+      "frame": 849,
+      "sha256": "034c16d695bf52bfe3d648c25a554c2f4a6a426fc1c78c814208c242ff044eaa"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0850.png",
+      "frame": 850,
+      "sha256": "205ccc8a675c2d222af15d9e0c2a34fafce0b6865f97ab1ef2429c3070b58157"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0851.png",
+      "frame": 851,
+      "sha256": "a8a86f32c78888d6607409f53d3708157b9f26410d8d14d4982601d56c20d952"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0852.png",
+      "frame": 852,
+      "sha256": "e82b8e45f5dfd4376c0978e5ee81d1c34f17165205abe473bf9a6c2f2d1ee836"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0853.png",
+      "frame": 853,
+      "sha256": "9f267159c7f4b7ae9e6c47911bc475ffbe32ee5e714b79fd9b234416451222a4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0854.png",
+      "frame": 854,
+      "sha256": "603cedc4d86ea618bc03f13fcb1df1c694aa0b284068ad351640cc8d8562f65c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0855.png",
+      "frame": 855,
+      "sha256": "4c5a0dbcd82b5726bdd803c64db8290fd3a5780fd0d0d16f674c81653818368c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0856.png",
+      "frame": 856,
+      "sha256": "e2cae8531181520f5a77c8e360e7a85cf15b79507c6607f7ecb9a01eca6f7e35"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0857.png",
+      "frame": 857,
+      "sha256": "f39ba17cad10847fc014ae5930e2b32b8fff44786c699003e092f97368aea276"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0858.png",
+      "frame": 858,
+      "sha256": "dca083b1d4e18580e3293bbe19acf3d202018a60c394c1458d6942eb3cf6a3be"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0859.png",
+      "frame": 859,
+      "sha256": "27189ab5be945f8829964d344496bacc08c58cb1e239ff6d69cabf274d678991"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0860.png",
+      "frame": 860,
+      "sha256": "da9cb81c2982b902db86b8c58d28d2938cd99331ac28594d097a3a758c5e5daa"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0861.png",
+      "frame": 861,
+      "sha256": "e725b7e013aab380536f57ffb64d1fbca81c16c07d7566370657080afa704167"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0862.png",
+      "frame": 862,
+      "sha256": "3987395e99990305d394222ccc98ca4473669b6a54c74ceb2b7563f4be1b6799"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0863.png",
+      "frame": 863,
+      "sha256": "cd216be6db0d509270cd0500b5147c3568e85805ce973bfb39284468708eec99"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0864.png",
+      "frame": 864,
+      "sha256": "3967ab64677dc2ed4fbee0e519361104245a2ca70cbe1be3c509aa91f8eb2c65"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0865.png",
+      "frame": 865,
+      "sha256": "0486ce489365f96ba5c4dcc7752182ec63e21f2ec189750d977daf4db170f2b7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0866.png",
+      "frame": 866,
+      "sha256": "3c25b15b9af07339b283571c0d8546527a74867f9b2eadc226cac50903fdfda2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0867.png",
+      "frame": 867,
+      "sha256": "ace33ceafa152da85327d0bdb0c8aa4048abfbaa58ee36232761c492944f80a8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0868.png",
+      "frame": 868,
+      "sha256": "937c6e9363c14c00f2261fc86b8e573b2964491673222070abc7e29bef6cc2c3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0869.png",
+      "frame": 869,
+      "sha256": "7c8247dbc3fd88ca6923bd941785a18d7514a27552233b667e8b2f8cad6bd099"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0870.png",
+      "frame": 870,
+      "sha256": "e7afafc1fc2325b4d5f9ac89ccc1ba1a11aa4c079b0e89d7af0f9b495d3f6747"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0871.png",
+      "frame": 871,
+      "sha256": "0ac40441c5141070b18f1e557ff510965d8bf220ba258efe24f3435efea18670"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0872.png",
+      "frame": 872,
+      "sha256": "90d00a610cbcf3729c811cf6ab339dd29cac882437b4d254b04cda7cba922117"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0873.png",
+      "frame": 873,
+      "sha256": "651a9079a309b8fceaeb83dd35de5ce9bc94c4152ba55b8b43dbee7c9a835394"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0874.png",
+      "frame": 874,
+      "sha256": "3e1931eaa60e7a3ed4c7e82e5d17a9fad44e42fa91d78cde31c802bd25b31a92"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0875.png",
+      "frame": 875,
+      "sha256": "c220b163f76f67900e524f3a3c297642ec3c8ad4e40a0f99c3916d4627aa2574"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0876.png",
+      "frame": 876,
+      "sha256": "d48a63ea75f085742079f42f2beeff08b47710e7e1326cc191ec36dfda63eb57"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0877.png",
+      "frame": 877,
+      "sha256": "963a2c067f09c39bd04dc72e1c2dd7a86cb618e4fcd4d1ec64c2f931eab51a43"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0878.png",
+      "frame": 878,
+      "sha256": "6673431e0b35c3595aacab51ff2414a10ff2c38ee4348dde9639ffb9826c077b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0879.png",
+      "frame": 879,
+      "sha256": "2040355137ac3bd836358a227ac63aaea97e4a97a70b17791bb65c20de1f8f00"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0880.png",
+      "frame": 880,
+      "sha256": "2f96aa6dc5de9687988d23a2758d77dbc5004f5a701f6c51c8293717ef8a5be8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0881.png",
+      "frame": 881,
+      "sha256": "3ad1e7ad12f9c85bdcc9811d6715694ab087c5dcba79e016d2c55ffcaf2e9f60"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0882.png",
+      "frame": 882,
+      "sha256": "87e0a0c224d96d18168749fada50eec3ad2cd6be4b2a7b550da36dc7279721e4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0883.png",
+      "frame": 883,
+      "sha256": "66d74c4e338318a233013422a41faf51a14839a7962da0b9f5f344868ac5402c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0884.png",
+      "frame": 884,
+      "sha256": "cc66be5df048f5fc81da75622009ac3e919290836c0fbf1e12169d278965f6af"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0885.png",
+      "frame": 885,
+      "sha256": "e1277176411ca0955f907b1d71c1d32200e9333e77507ff9bf192a01c8a12028"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0886.png",
+      "frame": 886,
+      "sha256": "0e65656c268b32499a5fd9060bdb63ec1715ac68fa894b9b4faaeb3ffabb002f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0887.png",
+      "frame": 887,
+      "sha256": "f958cbe7f5c7a80e05af597720b6cd9329721250d1e0cb35cf9f3024f7fd4584"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0888.png",
+      "frame": 888,
+      "sha256": "d1ee2b353993e4881ec001c7f791616dcc8cdca5324adc53e5c48699a3ef366c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0889.png",
+      "frame": 889,
+      "sha256": "66573dafdb0f0eb6f73d405399c9e69ea9a3b1246eca9412cdbe2935b9061761"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0890.png",
+      "frame": 890,
+      "sha256": "09f93d7c7f99179d8c88daeaf2ae808b59d364abb312d20858d8d7cf795ea5af"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0891.png",
+      "frame": 891,
+      "sha256": "8e2cd4078964d3702b127fca94e7e9c81f23d571d46b5f8c923f15824baac9a5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0892.png",
+      "frame": 892,
+      "sha256": "4246c6e20aa00e6b52017eeb5051b5df4fe62f365160c45830ccc5534b2922e1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0893.png",
+      "frame": 893,
+      "sha256": "b151a62d35e6b974e23aebae963e91159d9548a0702505209d1e63adc852b08e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0894.png",
+      "frame": 894,
+      "sha256": "14e95a0459d34d447acc63f48bebe37fc39496cafff2b96d7d5c06d24405f2a0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0895.png",
+      "frame": 895,
+      "sha256": "7fac8436820cf84093af6746b6494d6dc92708ae12b503f2ff57adf49be5c4a0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0896.png",
+      "frame": 896,
+      "sha256": "cea178f86216426b7d7ffe87626554b76318c58503e67970fdbba4d80c4d95a8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/mouth/0897.png",
+      "frame": 897,
+      "sha256": "54536869a9205f506e3868fea40b95261dc3aab62c396842663dbfef71f2802b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0477.png",
+      "frame": 477,
+      "sha256": "9baac5c22f055fc4596755fe1a6baa9927cf719d655137060a319ee9770d5c60"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0478.png",
+      "frame": 478,
+      "sha256": "256cbf356bfa697f9e642081c1c970514d5ccb931040184512cf989dfd6178d9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0479.png",
+      "frame": 479,
+      "sha256": "28e9e5a6d86286aa2f2d125358af27104974aa38bc80ad09e2455339ea4dfd9e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0480.png",
+      "frame": 480,
+      "sha256": "aaf8d698812b642904f60d707e0acbc55a5c608487b7730f0749a8adfb958683"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0481.png",
+      "frame": 481,
+      "sha256": "4c963d04ca2483f26f50fab76c22bcbd4626a4eba93d42ee4e400eda973531b1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0482.png",
+      "frame": 482,
+      "sha256": "2a654f236fd1298d747c2a82e594601a84de6d60f6554e837f425b7c9251bb9b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0483.png",
+      "frame": 483,
+      "sha256": "c0a7ced401363032cb32990eb8ec29cc29b4dbd86a5fc344f12bad615946fc77"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0484.png",
+      "frame": 484,
+      "sha256": "da9ca9b813987d0590de6977ce8b40d87fbd599eb1a6f9c4d3820d32e51e420d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0485.png",
+      "frame": 485,
+      "sha256": "44ef6f3f48538e6da06497397683c326a92313a3ddd7c0d4f461b177cbb16392"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0486.png",
+      "frame": 486,
+      "sha256": "3f4eed02c2e514af47e4e575b149371124440277b882b45659de80300aa0076f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0487.png",
+      "frame": 487,
+      "sha256": "c23451b251b46ebf04fd77c36fe7f937734c8a85d71b6e9769adb85d121a8d94"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0488.png",
+      "frame": 488,
+      "sha256": "dae7b5f466c09448a64a1667d0e0cd527fc15a00cb5362e7bdf09cb18be2fa0a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0489.png",
+      "frame": 489,
+      "sha256": "6155731723faf9cbf17bfa7c05ba6a520252184b76abbbe00d89d565ad36e51a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0490.png",
+      "frame": 490,
+      "sha256": "613d8ba714d97bf3b6b1b0e10e95aed0d9b0a7ecaa0ed0ecc4bb2a04ed228cfa"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0491.png",
+      "frame": 491,
+      "sha256": "debca1ec77efe2b86805156c9f9a96364b726d49b39c40dbbdba12f99fb17a92"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0492.png",
+      "frame": 492,
+      "sha256": "9f6edd9fdf4971e0bad5beb91b1ab2d011dd096bd4de4e582263bea71ac4a4e9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0493.png",
+      "frame": 493,
+      "sha256": "e40f663bdce6895bb9bd96db974530bb2975183af7c80a2c40f69d0b2ecfb023"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0494.png",
+      "frame": 494,
+      "sha256": "388fc5cfa0f7f12a8441bf9fcf2c801de11e9b90b412f3f766959419c72ab500"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0495.png",
+      "frame": 495,
+      "sha256": "e8fa8bf542c1324c76c111bfa0c65b49de1881dd9e06a9afe3c7f70d70f5f351"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0496.png",
+      "frame": 496,
+      "sha256": "0266eff8d94deca147c5dd0afa9c48c7a26e6a42a011f202394b8c76baa60cba"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0497.png",
+      "frame": 497,
+      "sha256": "7637c846c88dbfc46c33279a3914370abcb14930f6cf2d41afedc9ac892972fe"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0498.png",
+      "frame": 498,
+      "sha256": "cb421ec52eb4808163e957196a226603ccd1af8de3e6cc1490d02d53a3bd09bd"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0499.png",
+      "frame": 499,
+      "sha256": "c9e473e056422840f1c8d1101f1db3e5f3806bdaf51183644dfe1d8f7a8b4c95"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0500.png",
+      "frame": 500,
+      "sha256": "6e34447079f246b34dcc9352271d184a5f67c44bc91b11c021e670cbddefde3f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0501.png",
+      "frame": 501,
+      "sha256": "99c83b8534e25bca647ef3109509f93f7d1adbb451cb54d2462c1fd73bf4008c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0502.png",
+      "frame": 502,
+      "sha256": "37859d0ada107659206ffefe6c6ab810a77eddd11969b503e5f0b9825ae9c6a4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0503.png",
+      "frame": 503,
+      "sha256": "4577c24fe13692fb19ec963fcc558595dd714c067660d1f2d99d965034a883a4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0504.png",
+      "frame": 504,
+      "sha256": "32d1a8df239ebbda13b90aeea29c442a2424e240dcfe053a484462fb7569bc8c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0505.png",
+      "frame": 505,
+      "sha256": "a424a9c70a5d7bf6567408a7d688cef6ff9f5d6523a1f56d59a5addf694ca59f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0506.png",
+      "frame": 506,
+      "sha256": "54f7e024851ee72267f592a1aebb0e93d20b7204c6fa16af58e286ecbbb8e9da"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0507.png",
+      "frame": 507,
+      "sha256": "f7c6169ce99f5137a7a1c0f04f39de5f0dede48a41c0a63cae06646195ce9980"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0508.png",
+      "frame": 508,
+      "sha256": "69ded10da9d249d347353bc1b34bf0b4a07f43bbcd61bf526bdf9b25c26601ba"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0509.png",
+      "frame": 509,
+      "sha256": "1bf4a78d8f0e99287d153dcfdf37c50fe5b7e38bd673e8c1f64fca8d2a919170"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0510.png",
+      "frame": 510,
+      "sha256": "4df60f015b29aad4cbcc6bffde9a9fba178f063ce9ed6870e4df643ad2a1037f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0511.png",
+      "frame": 511,
+      "sha256": "aa40bb4fe4cdaa6327503c11e9c97fa5a84066a4f3ea918b5d4164d2b62aeae5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0512.png",
+      "frame": 512,
+      "sha256": "fa98413b32177d021d8d99bb6ff30a708c4ae2cb90d18bd295956e1f03d3548b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0513.png",
+      "frame": 513,
+      "sha256": "a2efb709a4acbac3739c7a8ccfbd9990935e37add7158314cf98428fca386dd9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0514.png",
+      "frame": 514,
+      "sha256": "6b12b57a477c7890a956f23db15a4d781652ae392d39f7b982da7582cb9bf865"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0515.png",
+      "frame": 515,
+      "sha256": "284710c5e9423b8d553b74a708b1deb47eb1be22b94ec9b1ee5da792ba3c50e0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0516.png",
+      "frame": 516,
+      "sha256": "bd9ee1a4f20c292671e8a39bfecf88d99ef39f0e8cad9d4c7da1f678d51f5fcc"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0517.png",
+      "frame": 517,
+      "sha256": "a885091bf18a03c800b2691b2217873ce67c7354d47af3c9ef181991b1dea0cc"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0518.png",
+      "frame": 518,
+      "sha256": "a26a6bc6e7058a9ba905a129ed7a5949ffb173a458324c8f8091f6f655f9911d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0519.png",
+      "frame": 519,
+      "sha256": "d54797238d672d93df8ae94975b703d4d5faaa0836e9d0260477376593c599e0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0520.png",
+      "frame": 520,
+      "sha256": "be0de6277424a9e2fee17e47fb18f4a7dbde1ea70b7500885cead34b395c3038"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0521.png",
+      "frame": 521,
+      "sha256": "0a1baa1a2c4e481177a42fbbd90c6a9787ec8827cf193b75eb1df86c2eda484d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0522.png",
+      "frame": 522,
+      "sha256": "32fea5635bb1d6b68b2656043f93616bb66928565cfe7ea4988e0baa1544a40d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0523.png",
+      "frame": 523,
+      "sha256": "149339d827745d0f1db41860c57ff370b2340b427c3b2cc4ab681d16901162bd"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0524.png",
+      "frame": 524,
+      "sha256": "9e10dc69c1eb322200725c74fe708fadfd2840c216b484eeb8c261f9438705ba"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0525.png",
+      "frame": 525,
+      "sha256": "a85bb76fa4423def0bf963f031eab923769c204d261b995a92afb82a3a53c9bf"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0526.png",
+      "frame": 526,
+      "sha256": "e1e5e4cbc7997a9cd61aea6283ddeb592c9c2081411da314bb30221911c14d46"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0527.png",
+      "frame": 527,
+      "sha256": "69309034dc85e7c4f30a01fcda253085ba87cd31b76e074f97fd3de4da826319"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0528.png",
+      "frame": 528,
+      "sha256": "7ac2227a7e4a24f764ee85bf512b07154f20455e1651cdd6ac6b766c589deb6a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0529.png",
+      "frame": 529,
+      "sha256": "fe6e903973f5517ccac89daf7a672d2be65c16b2a176c1dd5154371854ff99ef"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0530.png",
+      "frame": 530,
+      "sha256": "cbc7b3f178ade211931d2d6ab4e40bbb1aff8a6af53f917ee5020d999b5361ef"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0531.png",
+      "frame": 531,
+      "sha256": "4b462907423ae4b1d75667872927939d22c21f1d757077f82ddabaddd413ca50"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0532.png",
+      "frame": 532,
+      "sha256": "a03e9466e7ba577e6651c70e5b6a92d13955ead10b9f844dcc3f5bd37c2e9236"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0533.png",
+      "frame": 533,
+      "sha256": "41e6f72914d4d573b007cc2143bcc7b9d8e2b00ae31a86329717fdd07c224551"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0534.png",
+      "frame": 534,
+      "sha256": "42bcd5604740bb7ca518e0af4e3304caf85cd2d0db2a06773c487aba9ea6be7b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0535.png",
+      "frame": 535,
+      "sha256": "0233020a7f7a2c70c61c9fb672c62349932ef2c24861efeeb34a2f75bc9d1669"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0536.png",
+      "frame": 536,
+      "sha256": "3d44b247f2ca765d8ca05584a77da13c5144ef62c6ae98ae166fb172c14359c9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0537.png",
+      "frame": 537,
+      "sha256": "40fc4e60db5cd7a87a9656d64d8776f222531bd6d117e2b4f3580377ea8870f5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0538.png",
+      "frame": 538,
+      "sha256": "5ecc6dfb2a9b1c6edcfa92a7380b3256b26900e3025d78b7f224235bbcde8f70"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0539.png",
+      "frame": 539,
+      "sha256": "753d97bfadbf9e324aea0f883941e28e8e41b011f9c0a3b682e075c7c6a4e715"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0540.png",
+      "frame": 540,
+      "sha256": "5a952b4f2e5e13e126e18cd9f2b5ab904fbf304979eb5cbe92b43ffa33d9fb42"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0541.png",
+      "frame": 541,
+      "sha256": "5861c46dadce0de640d12ac838eecd188a5a7cd157de7ae0be40a931f74e4224"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0542.png",
+      "frame": 542,
+      "sha256": "b269a6cb573f34ba70b7c2779d30f1ab207993047f028bded88dd41d4ae0c093"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0543.png",
+      "frame": 543,
+      "sha256": "02f895832fc894d5d4c045c98772413a0c46bce168348cc2368ff4b0cfbee988"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0544.png",
+      "frame": 544,
+      "sha256": "fb77e9db66707001ab28b1fd6cf185c016ffd9ee40b5004f6d4f7b4927220ef0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0545.png",
+      "frame": 545,
+      "sha256": "c89978258d1b684e1fc31d86f37b16ff0da0c0cffc8647e6dcbfc66d695e561e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0546.png",
+      "frame": 546,
+      "sha256": "da6529b9f737d2f69951a377d06db896cfa4ce0fa463e5655273d83624d5b1f8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0547.png",
+      "frame": 547,
+      "sha256": "2e1e598f145cf46f74d71eab3d7b0c9ba55e42ffd1b7cd1ad087aefc66a4d65e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0548.png",
+      "frame": 548,
+      "sha256": "be111b9a5124db47a5aa137417c53c5dc5bd04ee6c49aec6a1903f331ac18e2d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0549.png",
+      "frame": 549,
+      "sha256": "784e49e1e12aaa24fa9bc0ff8e2d2ecebe33a42b70e496babd04b8174fa3cec8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0550.png",
+      "frame": 550,
+      "sha256": "fa80c1764cd576dc1756d0d5715f5934c08f9abf45971304ad73a4792c0a172d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0551.png",
+      "frame": 551,
+      "sha256": "9005ce2cd2bf3c75841c93618bf316f215c4840b25c15dc5cf2799e994d03e19"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0552.png",
+      "frame": 552,
+      "sha256": "39f364604e703e0c6badd8ceaf0ae631072fb70e9ea1a57b40a467ed5aa4d93f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0553.png",
+      "frame": 553,
+      "sha256": "d24c2e0d3d071c5e36a4efcea5e6973c093cad26138811264928a551085fea60"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0554.png",
+      "frame": 554,
+      "sha256": "bef28bc7925bad1583a2895c04ac6fcc3a18c88079292df9386383033790f8da"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0555.png",
+      "frame": 555,
+      "sha256": "f33b60c39a09377b519f45f20d0980e35a50273073158671f8ff6dd85a527f08"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0556.png",
+      "frame": 556,
+      "sha256": "b71dc6046355a22016dd5e5ce532eaca365dc44ea8e413fee91f4f0c40464193"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/arm/0557.png",
+      "frame": 557,
+      "sha256": "02d5766b3974417e11983e09aad1060a1167073f9bb29666b54802e34d7a1b8f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0001.png",
+      "frame": 1,
+      "sha256": "d0bc484d7ff2353aa6a1a7233a4746ec0b5c89be776d824c3541694cc891fdb6"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0002.png",
+      "frame": 2,
+      "sha256": "530d2bd384fba5fa945a922f115e1c6b90c9058e7236f4b84e2888534fa05bfc"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0003.png",
+      "frame": 3,
+      "sha256": "bd6ed651b304e8fb1347194ca1cfc5f7479ce686bec0ab81339787c530145d6d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0004.png",
+      "frame": 4,
+      "sha256": "c621270cb85396ee7594105d31c3c1ffbe4dba5bb5070017f12228f1eec0b226"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0005.png",
+      "frame": 5,
+      "sha256": "98f56379054f9282ae2f2be13d2df33c97a60c317651905f625dd43fdbe948ff"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0006.png",
+      "frame": 6,
+      "sha256": "be8ca436dcdc7cd1987ce3134cc69f26f6d96bf90a316825167214252ce930a4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0007.png",
+      "frame": 7,
+      "sha256": "9967d44a7420253afbea52fad1e7ce0bff8e2b005bef70ac336fc1f300dfc065"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0008.png",
+      "frame": 8,
+      "sha256": "93801908a5ac5c5dbeddf0ffd24bdf9571f8f96ea92d7c58f2184ab13f9280a5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0009.png",
+      "frame": 9,
+      "sha256": "ba362d08cd48328e43216e670f2d62db44fdfdb6ba1bb3eafd40f7e75b609df1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0010.png",
+      "frame": 10,
+      "sha256": "c6eee0e7083a4a9740affaf8f47df30cd5b8f0caa1e935a12751eea540aa9b6f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0011.png",
+      "frame": 11,
+      "sha256": "a7f7780b0b29cf7107744f037dd5db356229f7a3c7ebc7eb2821d14b52e65d50"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0012.png",
+      "frame": 12,
+      "sha256": "fd61e024a2264b41f6edf9f4092288c7155d838ca2a2226c91ea4db97d457b7b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0013.png",
+      "frame": 13,
+      "sha256": "4be80a9025398cb538c87a7399b1196fa6bec5a9d1c5725579fca717cc9e92d0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0014.png",
+      "frame": 14,
+      "sha256": "2dd87cfbaf6011bcb18ef21eba0f9c61adc8ace2dc239fcebd43e0ced3fb91b3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0015.png",
+      "frame": 15,
+      "sha256": "797d7873f8bc660b3ea800ed50da834b6319413ef02b61ea05206226d0728c5f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0016.png",
+      "frame": 16,
+      "sha256": "90c078da8ae602832165e449f77b894b45a1e8fa1915216a829b522db91b5d43"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0017.png",
+      "frame": 17,
+      "sha256": "c5f27078444c2bcf655d6067ce682603e8e98ac7c530818bbc6db6383efb2903"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0018.png",
+      "frame": 18,
+      "sha256": "fbebd4636a6d1bb24c92143fa8bf6180557dbcb2ce37df8760799a7226a621e3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0019.png",
+      "frame": 19,
+      "sha256": "ddaced348f37eb23cecc853881f8d9f17140fae7eabc8e4cfefe99f37e644e50"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0020.png",
+      "frame": 20,
+      "sha256": "d90cba513163121bb27f6944551c537cf24eeb0433a9dcfb346a433e10420c35"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0021.png",
+      "frame": 21,
+      "sha256": "00b7c4f8d548bff56cef362a8ca156c81a9305f52b1bd826e133b1be3721b144"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0022.png",
+      "frame": 22,
+      "sha256": "e8ba062454fbf1e29fb2c2aa78079f2cc1c5be25b64b628bfc2ef9800dd8f7e0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0023.png",
+      "frame": 23,
+      "sha256": "8db5aeb878ef85708ac8ca658ec106ebaed39c659ae028cb2713d10299c1531b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0024.png",
+      "frame": 24,
+      "sha256": "86483a2936889ea258f983ba945f8f7fdc76bd7b155aac17f44eb773361ea791"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0025.png",
+      "frame": 25,
+      "sha256": "a45fd064699ed6bc45d1913725c7149ab561a41540e4c4d9dc66a59316e24678"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0026.png",
+      "frame": 26,
+      "sha256": "ae2945f10cdcaffcb522d18a713ed19d06f32635b5faef619ab7b8e99d00f16e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0027.png",
+      "frame": 27,
+      "sha256": "5c68bd60ad7ebd8e3656cf653522c649594c53d5d832638125d9d4aa08ad165e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0028.png",
+      "frame": 28,
+      "sha256": "a0594006d6d046615ccfd30de5e01ac974b02779f74829ac30e9912337984e42"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0029.png",
+      "frame": 29,
+      "sha256": "e749cf6923ea4ceef574130a280774d0894d84c5dcb6d82d42c2ee6c5dcc35e2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0030.png",
+      "frame": 30,
+      "sha256": "9630b1564851607210fb0a0b84b128420c60565d0dfc35a9ee3df3c0346a5f42"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0031.png",
+      "frame": 31,
+      "sha256": "38eef0886fc6445c7e3a39f4c27ad830c4c5c2a276975379c1bf28248f861278"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0032.png",
+      "frame": 32,
+      "sha256": "6afeac5507efdcf50aabf6f21562c4c1d6875c2919f19c34ab4bddcfa63f65a5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0033.png",
+      "frame": 33,
+      "sha256": "ea3efc21e375c103ee3f9526065aa5a8bbb93d3e51e79413e4c2f5bf4a0af027"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0034.png",
+      "frame": 34,
+      "sha256": "085a8cad0c5d09abe0e1dd7daaed8d76442e9389ed3e4cf682f0524cfbcb37d7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0035.png",
+      "frame": 35,
+      "sha256": "013a7cf32a4f04d35e1b93596223ad6e6dccb8aa415fd5e08958d86b9c79f0fb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0036.png",
+      "frame": 36,
+      "sha256": "3f0c30cc9c3cdde5e5d078b0471f086873350dd466c8ea51eca73dbfc6144137"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0037.png",
+      "frame": 37,
+      "sha256": "0de5c758859beda31046a3410090a917e2d9b9dadc34a84d5ba4981871e14d6e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0038.png",
+      "frame": 38,
+      "sha256": "4c4a32ca31dda35fc0b4bffe01a40e9c6e24a56d7dc6086e953c94d0d4e18858"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0039.png",
+      "frame": 39,
+      "sha256": "893f24de29c515f0ba02de1412545204ae6bd920045421af77241b1cc151f6ce"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0040.png",
+      "frame": 40,
+      "sha256": "e0d344977b2c1876d3fb33761160c7734fd1514a060ca206bb5ff76de705f6d2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0041.png",
+      "frame": 41,
+      "sha256": "9bbc4ac21cffc7413a587501cf74302c3e7f51fb050abe49f89ab048d51cf6b5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0042.png",
+      "frame": 42,
+      "sha256": "041745738b25b2a206f1cd41a2f2b6d338ea4e069e8a98d1b49c8134a1994506"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0043.png",
+      "frame": 43,
+      "sha256": "033c384d2ed45f3aa7a9c89bd974c73e5f44c256c4cc85c9dc9be43a53129ad5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0044.png",
+      "frame": 44,
+      "sha256": "021d2e9c4f39da9123a0345339b8fc28c30292bdf73b5340f23fcfee6ec5d551"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0045.png",
+      "frame": 45,
+      "sha256": "2330068c4235d951073f874aba4b026bed7b0d7acab730b6e7165a6a2a17d954"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0046.png",
+      "frame": 46,
+      "sha256": "b8741fa93d96b1ab6633f60a517b67a7c4b7c02d6edbd8f1d81de85b82445735"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0047.png",
+      "frame": 47,
+      "sha256": "e410b96c157993b23341bedfe47014f29f284ef9da25ab2dcd84c88e3a284706"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0048.png",
+      "frame": 48,
+      "sha256": "c4367cca45a8c22f8bff50f503b72fdc5d78621c7b5dcbb012ec509fb1daf80e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0049.png",
+      "frame": 49,
+      "sha256": "39a84f350269ba61619391a5d05d5977f4406f32f91e2f1e08ce18d70d853eb4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0050.png",
+      "frame": 50,
+      "sha256": "ea793fb0ff3580efd26c15b71ea047c1ac5e1287da04f47cc32a551e2c201d69"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0051.png",
+      "frame": 51,
+      "sha256": "00f52b27d09b7f79ffa267d6e781da3bd3b28bd315fefd9791eaef7e2847e302"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0052.png",
+      "frame": 52,
+      "sha256": "b29a530cd3a7fbe54d9c8287ec19f0b494e0db55d51b6b64ff5b89c7b2432966"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0053.png",
+      "frame": 53,
+      "sha256": "adb049e248daded29a5f3428927b924fed1d6628ede60dd29157ea71b44a5f95"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0054.png",
+      "frame": 54,
+      "sha256": "f5eac02d8805de7952b014a69bc3fee6a6c2c55b2617c6f5f5c0c855540ec55b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0055.png",
+      "frame": 55,
+      "sha256": "b5274aae74c40d39c8acc481562f623793e612975d3765061c3789593f344254"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0056.png",
+      "frame": 56,
+      "sha256": "07419a88a60511e5d7c034e5107aba6cf59724ead2dfd6e3537be80d85cd1329"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0057.png",
+      "frame": 57,
+      "sha256": "6033a2705c399374ac3df31d55f41f2490d05c03e6caba33e7b01881b38955fb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0058.png",
+      "frame": 58,
+      "sha256": "345ca3df8104f3e8c641762c914c4b64314cf0d2e80fbe7f373ac860926f1494"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0059.png",
+      "frame": 59,
+      "sha256": "28c49f8b62af793f26983c66a3e2a849ba3ffe91758e81a5b3ecf2140f50a06a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0060.png",
+      "frame": 60,
+      "sha256": "52d8d75bfb44b5991262476f94726f5694e3740251da7536de544b2d1d19bc3a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0061.png",
+      "frame": 61,
+      "sha256": "1cd6c0f1c140aafce8ebcabfb5c5487a738b4ef315aa73a8b2a2b8eb4d44a294"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0062.png",
+      "frame": 62,
+      "sha256": "6815ae7502ae20ea5f0dd2b091a420ad0f5783ee371eabe4b62d9301cf65d89d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0063.png",
+      "frame": 63,
+      "sha256": "0a4505e546bb432f82fca56ee24028d8abcc3455fe8abf03e8cd45e974ec15de"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0064.png",
+      "frame": 64,
+      "sha256": "4b92f655694dfe2f59cb8d97731ed737e2940e92dbfeb0b6a85ad87e286fe394"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0065.png",
+      "frame": 65,
+      "sha256": "dcafc213a59fbfe1551f75a60f37289981ea1200750d590f87375a27f6961713"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0066.png",
+      "frame": 66,
+      "sha256": "981a9231683da5469584e8c51dd7935b97564b98a4d083fa3d6d490f13d2b94b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0067.png",
+      "frame": 67,
+      "sha256": "87d27f17cc5c8b2297acb8510c7788828415e1e6896a819f3d408026c6e0c374"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0068.png",
+      "frame": 68,
+      "sha256": "7ca6c7ef1c660f0781e920ccc6c8992c261dc915c68700ef9e8cf8dd84764079"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0069.png",
+      "frame": 69,
+      "sha256": "eaf644a64c4d085a1b096c19aaf7b8508204f417828062b86fd805dc0e86584b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0070.png",
+      "frame": 70,
+      "sha256": "f6e8a382e3c7527a06771993bbdefddc514aaf99da7f55ce135e3c0aa887dcc4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0071.png",
+      "frame": 71,
+      "sha256": "3f7ba9fe2b9d13511cfdefbb250c82aa699b796f49009b02fd871ff8c0af4aa8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0072.png",
+      "frame": 72,
+      "sha256": "6f9aa0fee2abbec40ad6870e371f8fe9d1db0b4c40e9400598dca35b885c71fe"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0073.png",
+      "frame": 73,
+      "sha256": "925bec6c9b05c044edc9ca3d7f4856394c14ffd14a6ce39f8ab23e9be203eb48"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0074.png",
+      "frame": 74,
+      "sha256": "c887ae4cd37ebfd069d5227920bd5322375e992096a715ff82d943464fc4e1a7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0075.png",
+      "frame": 75,
+      "sha256": "e8892bd1e2a206e9afec070faa346ded4ed89428e752878487a077ff1c66d2a8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0076.png",
+      "frame": 76,
+      "sha256": "42470c2180a0546021811dc694f5a93ab0084c79a59c3899844389604d6253df"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0077.png",
+      "frame": 77,
+      "sha256": "9390110a3a9fef3685b0b58369c21feb2a135a7872a8744bcf38d3c684085dd0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0078.png",
+      "frame": 78,
+      "sha256": "451bd8aceb3d872d5b8f936add927f09af2b38bd30b9a8a7d60f75abdc3e56eb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0079.png",
+      "frame": 79,
+      "sha256": "bb69de4a48398d4a298cd3bcc337fb2ae640d72464565fcc511ec7ba4055f6f7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0080.png",
+      "frame": 80,
+      "sha256": "f92558d89d95451b35c5a702a8dda152f7be85051c2248f0cea3402357ead9d4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0081.png",
+      "frame": 81,
+      "sha256": "f134fd506385d4bc0e57c691e57705ebfcd5db4739d76913ceeeaa3bb01f0db7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0082.png",
+      "frame": 82,
+      "sha256": "afb552b682b53902eaddb0d14094c83a8a83b3ce1414f0b0c5532b55a37e3d29"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0083.png",
+      "frame": 83,
+      "sha256": "b7bee86857c8ca3a25a72c477a06f42e53eb54ea63d4658640c24ca8bd4a6390"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0084.png",
+      "frame": 84,
+      "sha256": "660f844f19965a4a5ba82783e814e075512418d606cfcfd21f82e80d6d0a98c7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0085.png",
+      "frame": 85,
+      "sha256": "ec15762e7d41e6138c3c330dc5391532acb2577e15a1d02faa5bb4cd1b8bf516"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0086.png",
+      "frame": 86,
+      "sha256": "cd72def8ac5d9a2c349c491d2a0a99c59146387191474e202d473dbedf67483a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0087.png",
+      "frame": 87,
+      "sha256": "32a43680efcc06d9701966d885ddbc63aa72be109277305d5ea4c845e64499b2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0088.png",
+      "frame": 88,
+      "sha256": "68dd8fd43f56f13635c38a8713e46ace02a2ea93fd97e9f88da2618b10a7b0da"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0089.png",
+      "frame": 89,
+      "sha256": "f2406ccf3051955893e8b84f4827bf5045c7a0e53bc4625b618437b8325d1310"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0090.png",
+      "frame": 90,
+      "sha256": "21d6deb9616072851db61eb11610f62bd60e19d3b8db23dc3a365844a02293bd"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0091.png",
+      "frame": 91,
+      "sha256": "d482976ddb332c2b6e7bab82902895c03829057b21d48f0531b7db7feb92c652"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0092.png",
+      "frame": 92,
+      "sha256": "1e8fe24d3c102c99bfae66355fced7acf2660351e56513c577a72ca2076576c9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0093.png",
+      "frame": 93,
+      "sha256": "97bac267d6ec1f68f5c98dbd1317600d435c58459a13de3fc35315fa332c2e49"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0094.png",
+      "frame": 94,
+      "sha256": "2759d55f90d06d5cb12d061478da8e1157ec50dfbdcd586df1ff8c2360f4a780"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0095.png",
+      "frame": 95,
+      "sha256": "56466b848c24e00b97a0e53318a7c82fce6e7f597189652ee04ddb25f2bd3226"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0096.png",
+      "frame": 96,
+      "sha256": "81b90c6b8945be5e3ddbf66ff52e00d62845a28e63d579bc18670cf3df118a10"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0097.png",
+      "frame": 97,
+      "sha256": "1e533efe3c04570238d8c65e8707c1958424260af958a1dea558519707d02e28"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0098.png",
+      "frame": 98,
+      "sha256": "e895045c0f3504c9713612b62d2ca2892e16694119648c98f38f7fa962d85950"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0099.png",
+      "frame": 99,
+      "sha256": "9faa7689ff20d56df8b9ef039631386761492786a94709d5249ab3b9abf7394e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0100.png",
+      "frame": 100,
+      "sha256": "904eaf111c483e161cf14c5becccb07a5fc3f0243e8f52f93ee8fd591aac0c40"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0101.png",
+      "frame": 101,
+      "sha256": "974240472165bc7b79749e8285a3c7db2fd0dabdcfb4fdf43b3ab4b9a332e05b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0102.png",
+      "frame": 102,
+      "sha256": "cd806806a9716ab2e05bc13f8ed414f2237ac453dc9a86cca23c73dbf82a5c47"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0103.png",
+      "frame": 103,
+      "sha256": "85f8f56fa81959687d3b578cfc9714efaca529b4b02b6799b0d4ced8325cdaf2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0104.png",
+      "frame": 104,
+      "sha256": "bef57ed6b90af20dd4fcb607bf59a0ee82f0ece211a35943715b85b149c22d5e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0105.png",
+      "frame": 105,
+      "sha256": "e7f445e9e90baa82d2716f1813e7f5c10e46b4ba9cf67191700c2d0b014afdfc"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0106.png",
+      "frame": 106,
+      "sha256": "63ce8f90971e99b43d0f51369ab2ce82c5552c13c9a69223a551fd598ab9cb3c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0107.png",
+      "frame": 107,
+      "sha256": "31a93a030f41dfbf420f0e68fde11ebd27e885a150084458fb1f16fd09d0bb0e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0108.png",
+      "frame": 108,
+      "sha256": "08edd558b34c96466128ba58cdec1f43fd82855d09fb498c0149b1ed7c250b34"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0109.png",
+      "frame": 109,
+      "sha256": "537115a18ddcdfeb34f6f946dd976b18f9b31b6a8a609425d6dee7c0f72f2ffc"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0110.png",
+      "frame": 110,
+      "sha256": "c894c114cfae8a5dde7707ec086487c370d3ec920eae9b60bf42d24199e194b1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0111.png",
+      "frame": 111,
+      "sha256": "766125f9e1ec2ab2d63e52b59d80a609d374de588360738d7dd0e6b45e611adb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0112.png",
+      "frame": 112,
+      "sha256": "eb541ea6433a50b624dddac83213ef8e2763a61a18e6da08ac011346940028e7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0113.png",
+      "frame": 113,
+      "sha256": "d32e4883dd8ca236970e0591982bda178e3364993902ae84069feba6d1a83254"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0114.png",
+      "frame": 114,
+      "sha256": "2b6d18bb72121c09fc92752f7cb156490ae712c133dfd30ca918e58fa362fcec"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0115.png",
+      "frame": 115,
+      "sha256": "3c39020b946d4008f92e42f7414c0fbe561c437dcc776131009fe78bb5a90f98"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0116.png",
+      "frame": 116,
+      "sha256": "b6f045585f473c3707c281054e5cc78b9ed1328ecd1eaa5b9936ee0f5401daf0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0117.png",
+      "frame": 117,
+      "sha256": "bf8a941bea56740092119f09158159e094cffb7b1ff8bacdb752002200c580b9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0118.png",
+      "frame": 118,
+      "sha256": "73d56a4b0fa28d3534b8fa0dc506ebca910c8de5a1c29335dc543d9534bcef40"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0119.png",
+      "frame": 119,
+      "sha256": "cdaaba222587f0124a362e84e4f938163632f86ab987e63a2514f101d6bc6bc6"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0120.png",
+      "frame": 120,
+      "sha256": "b7c0ea0efeaa373ba8ae1d83edaf9f7a66141b7b2eef184c4fc078638660014e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0121.png",
+      "frame": 121,
+      "sha256": "f3d3d76245bf7cf6c95d8f6599683ee1561a586db928cf7ad3b3fd474502bf1e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0122.png",
+      "frame": 122,
+      "sha256": "cdbb0b2ff623469bd01d5ebdc6a8deb632f96863e6a1039bffba726c67f085d9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0123.png",
+      "frame": 123,
+      "sha256": "de6bda1641e70504b13538481dee7b9f7bf6946767eb5dee1b8b3a413037682f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0124.png",
+      "frame": 124,
+      "sha256": "dade37fc463d22979df36cbf7f1712bf497db3624288cfd8a1902f2fddc71a7b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0125.png",
+      "frame": 125,
+      "sha256": "6ea83dc5a6515c861c09ee122d4f4b9a54e6876e4ab366dd062218dfc68bf327"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0126.png",
+      "frame": 126,
+      "sha256": "c5669a8946cb888fc316260a4b98bfed13e3d09f4704d9b2e3e61d2b769643c4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0127.png",
+      "frame": 127,
+      "sha256": "bf55c9d4eef9628f47fcee0afbc150dc21c191741e1fbba692d700a79a494743"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0128.png",
+      "frame": 128,
+      "sha256": "7700caff5e24a6cf7448d11dc984d726ec03489b6f4a612c397742bc053c5f14"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0129.png",
+      "frame": 129,
+      "sha256": "55c55569584ce018ead04bf789260212d14ebe164806420e20c6c436ebf1c03b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0130.png",
+      "frame": 130,
+      "sha256": "ce3ca804b4b99ff12ed67c811ec112a55881ab7a1d8160961a0756e7ea174bd0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0131.png",
+      "frame": 131,
+      "sha256": "132407bb1ecd06adf7684d5e66977bff2f1969e807667f6ae6c9ac10a3a40856"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0132.png",
+      "frame": 132,
+      "sha256": "82ac6e0799168f012781ecaf13bfc10c5368e6f145a786e5b12e4944e9a7cabb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0133.png",
+      "frame": 133,
+      "sha256": "51ca5de06d0f30f379ffd5268e97ee9dc0a331369555d239559ae36595007a53"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0134.png",
+      "frame": 134,
+      "sha256": "7b9db72e922301d1c78e9e6f8d1f5320ea1356ce9111ba28785a2718a79a640f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0135.png",
+      "frame": 135,
+      "sha256": "dd72ebebc0e4863ca053cfab06bd8b457952afc2ba9fa751ed933828e77bb3e4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0136.png",
+      "frame": 136,
+      "sha256": "61c4901460ded2bdebf27115cbaad0b58501f4d9bc76cee839a2f5e754b9cd83"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0137.png",
+      "frame": 137,
+      "sha256": "be8451999e2e9cc8859abc9db58da1e82d4a4eb45b492bdaf24f0d712d252152"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0138.png",
+      "frame": 138,
+      "sha256": "8647ed8d4e637ea6b3719ad7056ed89be3f9fd96c302caa249b815c22e8a01e1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0139.png",
+      "frame": 139,
+      "sha256": "ad16abd7dbd954069b8d898c0d428c29b3cc2da9f1261a2a2d63ffad7f7f6f83"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0140.png",
+      "frame": 140,
+      "sha256": "8bfb36bc37f2ff07c86e080c12957d4b0186b4618e2b0c37c5f4d481311a6d4f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0141.png",
+      "frame": 141,
+      "sha256": "bc6748c5bcd208bf24895477433b2fc6728927cb4258027443ed677135148d7d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0142.png",
+      "frame": 142,
+      "sha256": "b98334da0bc8c0120f0b5372beb5a046c1858e60dbf73f293c27663b28df83cc"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0143.png",
+      "frame": 143,
+      "sha256": "b334ac88ff3c07336b9b484c2447d8bddf2b9e727f06db7c78e52963ca9ecd17"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0144.png",
+      "frame": 144,
+      "sha256": "0b0f3ead215e46062fc8491242315e19c28ef3d7de71b6ce6e5b76a8d49f1e07"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0145.png",
+      "frame": 145,
+      "sha256": "eea57ea11498daf37e2d20b88346ed5d27bc7eee5c07e5a7e13749476bc9eed0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0146.png",
+      "frame": 146,
+      "sha256": "2a228e28a39a9f2c2707b0624319d60a7e37651903192377c068e7b534bf42a9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0147.png",
+      "frame": 147,
+      "sha256": "d51c01e8aa0d530fcdd0e90562242de573f842a9156ec4857fedf8ba4863ff4e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0148.png",
+      "frame": 148,
+      "sha256": "4b03c2c434fade5dcda39ee1768b2b9aa2ceddf85914c6cf2ec37d21280b401e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0149.png",
+      "frame": 149,
+      "sha256": "8d3de970f77e6edaf448a6eec992888e103d35069b611badfa2ff1b9ae10523b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0150.png",
+      "frame": 150,
+      "sha256": "9c5796b1d805b92c164d3279a5d098aa6aaa477066b837889bf3e2b4ca181ead"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0151.png",
+      "frame": 151,
+      "sha256": "8f0228607a9d113c79be1d9bfe455b43d79197e8d4aed2dd6069d87b15a2a1e1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0152.png",
+      "frame": 152,
+      "sha256": "29e8090ca507d8f9e19da80127b032e5624be25496f354f2df2087c701bf6559"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0153.png",
+      "frame": 153,
+      "sha256": "989cc9f131bef97439152080c0e998717b53ec23e51cdcbf9c5044ff14b61b99"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0154.png",
+      "frame": 154,
+      "sha256": "b1600eca4f4a84fc94405c7a4ad5495d5f5154f52fd7b94c09602569b40e02f2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0155.png",
+      "frame": 155,
+      "sha256": "d8ac78d7bce252b9327421ba6a5283740decab11b7ae7db6d6ab01ba4e17c53e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0156.png",
+      "frame": 156,
+      "sha256": "50a4b84a25913f7077c4cdc28f819f29204a03024c26aff1f8c86fbaef4833e6"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0157.png",
+      "frame": 157,
+      "sha256": "ec26e9af7468555b525cf607725520496550c3bd19d90508c4d5015251098836"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0158.png",
+      "frame": 158,
+      "sha256": "3d4763dc1b01989f44680e119d8536a6d5d1363aaf626f9c98b8a965e7bb6599"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0159.png",
+      "frame": 159,
+      "sha256": "4b3d56f23185ca174b6e058348266a1adef7450fbd60a6a4936a27d461be76db"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0160.png",
+      "frame": 160,
+      "sha256": "492d29ca2a2a78923acfa1f489aaadbb4cdf4029ea6e6262ebd0bb883198aef6"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0161.png",
+      "frame": 161,
+      "sha256": "18dcb3b8eef580c0dc8809e4df6a6a5a71fd4fee7e9de60c2eeca993767774c9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0162.png",
+      "frame": 162,
+      "sha256": "fbde89b839df57261a060701c229c52b7879ff5345875c0c0ab0a734f0cd5a2f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0163.png",
+      "frame": 163,
+      "sha256": "1f98c850582dff9a47204cdd80b00c41ad53d4377d487fd594699df755f89f79"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0164.png",
+      "frame": 164,
+      "sha256": "013125b41f9287a72e75eb543aa48e9a3f24812f7cde7337412aa5c216c16bf8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0165.png",
+      "frame": 165,
+      "sha256": "b02c52b1bd2a2351637ad009711d05d846943725971474f5b45a032f9fdccfcb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0166.png",
+      "frame": 166,
+      "sha256": "ad8daf50f0e07c79e658c05dbdf9302d6cfaa76061b61f097de118e1fe6ed57f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0167.png",
+      "frame": 167,
+      "sha256": "7e2fbd9c59331b7a37ffc7fdac8e10b3c623bd67fbd9eec0df7f327c2b697d66"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0168.png",
+      "frame": 168,
+      "sha256": "750acbb4cbf055467063d6dd7678961cffaf56121f166ed00845545972782eb2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/seat-return/0169.png",
+      "frame": 169,
+      "sha256": "c10a8dd6ea393443ebf98342d868566206b72ce26f4f948a92986eeeb93aa755"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/0993.png",
+      "frame": 993,
+      "sha256": "890600eda5c93104feed6a7de9aa1382924144e1736d691b4f00e1a37d8a6aaf"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/0994.png",
+      "frame": 994,
+      "sha256": "973a209732453851e631de1c5ada98a6dddf310bfd3e72902b6e3db3fb0d106f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/0995.png",
+      "frame": 995,
+      "sha256": "15b4f5e1e3e894a11eb4df725f8fdaceb2f6b4005468050df0733fabfc37d87c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/0996.png",
+      "frame": 996,
+      "sha256": "fb85029c6b11613eb26884f628c58013653c4760871642088b763dbc98a60245"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/0997.png",
+      "frame": 997,
+      "sha256": "1ffefe85890e74b22fc683b6ec6860ddd24363083e77bdfa34b0e7fb59f390b8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/0998.png",
+      "frame": 998,
+      "sha256": "818a27ffd49ea6eb3284dab9fa75652cd12d05f9c4711e141d5b0edd72b23b9d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/0999.png",
+      "frame": 999,
+      "sha256": "ba5ee147e6aa00b751d038e00552ba9a716a15ae56a8ae1d2e59cfd247c6476e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1000.png",
+      "frame": 1000,
+      "sha256": "9bd0f28f9272a2b167f7b6c62e14b1ae95c8c3a9b3156fb2597fe803141708db"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1001.png",
+      "frame": 1001,
+      "sha256": "4e62c76c2db9e7896c4fb628eaa9ea732c0448c1fea68aa63aede8cc98df16d3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1002.png",
+      "frame": 1002,
+      "sha256": "998505585bb0dfbe680d875d7685ed5cda5aa7f3391d57160cfa09fc9fdb1fb3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1003.png",
+      "frame": 1003,
+      "sha256": "932c437cf79629b694dd1678b477c7abdb26c026d7c9eddfccf3053eb72c034c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1004.png",
+      "frame": 1004,
+      "sha256": "db205fd4a07e400336ba5a361f674ef9c754dfac5f95f6c8a8609b4436d40d98"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1005.png",
+      "frame": 1005,
+      "sha256": "b6d6142dc32780274f90db3c43d4bb4c7a206b73a44306bbf44c9c26244cb3d9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1006.png",
+      "frame": 1006,
+      "sha256": "f70f30c990cd97eeffe3deb8d83ce58961abc0546307c4c998deacb22107643a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1007.png",
+      "frame": 1007,
+      "sha256": "9a3dbb79d8f602d94baa20e59350fa94135000b558a1ab99e8341990792e2c1f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1008.png",
+      "frame": 1008,
+      "sha256": "092bdb8b344ff5a6d3ded60ffa812123340344143f61e369865507dd5618635a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1009.png",
+      "frame": 1009,
+      "sha256": "2c9dd41574b0e37983d7c0f7e074ce2503a179bb7ac85190484449bd73e682d7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1010.png",
+      "frame": 1010,
+      "sha256": "1b2367ce1c188404255e29b0b4c56c76401dd23718faea17ea5e4d7891e50a5e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1011.png",
+      "frame": 1011,
+      "sha256": "ba52c8840df14e39faf18864c24470d455c57a2e4cd8f08691e74f3a8e407b45"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1012.png",
+      "frame": 1012,
+      "sha256": "13e3f8318bc35cb2695d90f6224c2bd94a9922e2b0e315e7ef6f902aa653c79c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1013.png",
+      "frame": 1013,
+      "sha256": "f21fa65be1763c13b7e130dcb28d37036c8d8f6df8aa1797c11804d37f17f2de"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1014.png",
+      "frame": 1014,
+      "sha256": "a37c0f8b0891ceedcb29161204eda6d49f413a9c4bdc92fcc2dcfceee13e20d9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1015.png",
+      "frame": 1015,
+      "sha256": "11003ec899feb7027c31f65a30c6edffb656fb567cf399476b3ddff2019fcb81"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1016.png",
+      "frame": 1016,
+      "sha256": "3d112e524be7727dfe3e7d56fc2341a1e67adbdb1971c48ba8dc6220ac0f1030"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1017.png",
+      "frame": 1017,
+      "sha256": "b1621ece4a9679887df102a8626dfc2f8b0b7cfc18b1e044544ddeb5e20b8bb0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1018.png",
+      "frame": 1018,
+      "sha256": "a2002cb9ae31e10452816612dd96833d6d86bc30a6c7447764e104dfd7a5dd96"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1019.png",
+      "frame": 1019,
+      "sha256": "7ef7a4558de46cb9c61579af3a6b661818ced0e086b81813bc0d1b14fd6396e7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1020.png",
+      "frame": 1020,
+      "sha256": "120e9395968a45167b07dbc61698297b5cc69bad77dd3a96d4e8862709720c16"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1021.png",
+      "frame": 1021,
+      "sha256": "6cb5333b7fba9e0a3398604af70d7d0bdbcf258be1d3c5f371fc4725bc8e2099"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1022.png",
+      "frame": 1022,
+      "sha256": "42fd824e2b54c0b54cbdfde7edc1c8bbc5ca146f8e6354b2ad83eaa50afc5c6b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1023.png",
+      "frame": 1023,
+      "sha256": "ab0cf5684c7d91a633c5840a6216e5ff4bf6e2343cd0e329738640858b40d443"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1024.png",
+      "frame": 1024,
+      "sha256": "e425f01eea9f62fd6f92fe80688eda444c8f3136ba3bd116ccfc66f27b0920df"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1025.png",
+      "frame": 1025,
+      "sha256": "ec8a2c50e904f4c37586e188faed64cd960b5d861467e10d6cffba6c8bfec6ba"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1026.png",
+      "frame": 1026,
+      "sha256": "d493ec61c0b28b9fef45f10c5ad3f5617b10cbf0b569f066c7e83bc8512918f2"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1027.png",
+      "frame": 1027,
+      "sha256": "6eceed15d6760b50210b3a77b6aed8399cb4df498193865bc5ffe75f8d5725d9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1028.png",
+      "frame": 1028,
+      "sha256": "d0c5ce65823544608294dc191f8bbd10a45354650d9cc239174e3f39d318455e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1029.png",
+      "frame": 1029,
+      "sha256": "be72902524ff438650e2c4e8fef594cf491c69b4d1619518cdb17f0239dbd253"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1030.png",
+      "frame": 1030,
+      "sha256": "266aa282cc9c548b6ec778295e82a1faece115a48b71470f5506b17d3f22ed3a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1031.png",
+      "frame": 1031,
+      "sha256": "024634448f9ff2ca8d16a3b26fc58c204b1363dc87e454ab9e80344adebcfd83"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1032.png",
+      "frame": 1032,
+      "sha256": "1cb8c78508b367f5e563b07ba7721c85b4fedb4b98fc67b999f4be87d245c3df"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1033.png",
+      "frame": 1033,
+      "sha256": "aa52009916073923174b35067452f37b1962822d8c319708aec64834c92a4daf"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1034.png",
+      "frame": 1034,
+      "sha256": "ab14928e9238bf2fe84e4b365871928dd601d03b5b3f8be869446074be564560"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1035.png",
+      "frame": 1035,
+      "sha256": "079e6570db49dcc5e36305687455678ea3e51b22dbc9259964252ddd6274b7e0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1036.png",
+      "frame": 1036,
+      "sha256": "7979ae615166d8f42dd1dfc97b46a131d13a98b80e77c025634198a5bfc19e2d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1037.png",
+      "frame": 1037,
+      "sha256": "fb634f009a647cdfe460e9378f942e6f7b659ed3ca0fea509da0e6cb69ff8fa9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1038.png",
+      "frame": 1038,
+      "sha256": "1b569cfe1273629e4df8c00dd12a6f27fe03b6edae462b965188eccc13c19187"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1039.png",
+      "frame": 1039,
+      "sha256": "22f077db45827ce4db67b0f9f7fe7359b10276ee939df8a5c05f0c062d3328e3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1040.png",
+      "frame": 1040,
+      "sha256": "2c308b9f467e47a3443404f7821b940b590c883ca6a0f4e939f172e04ac37c1f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1041.png",
+      "frame": 1041,
+      "sha256": "cf1a29132906e6860a9399e991a46a33c3f9421ed967ba74fb9cd0c9a989c3f4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1042.png",
+      "frame": 1042,
+      "sha256": "4b7c80ed5ff8023f849b589643855feb935270c142c27456a13c955a5997c9f4"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1043.png",
+      "frame": 1043,
+      "sha256": "5fb82c5b31fc64b77513605c75499f5c5542ee986293d13d545bfe7f86f64b5f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1044.png",
+      "frame": 1044,
+      "sha256": "607810019e3343ad6d063cebaac31d91135dcd25b461bc2785468456c29a70aa"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1045.png",
+      "frame": 1045,
+      "sha256": "b340a58b989f9491daf8df3269fa5ee6c88e42a6123b8ff0b9e48f557c842c38"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1046.png",
+      "frame": 1046,
+      "sha256": "bdc270552a1b4fb9e501ef4a6175e3a05101ab5d2880249099c9295860966b4c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1047.png",
+      "frame": 1047,
+      "sha256": "de3e8d5f8da1fb0c9a75c23b6cedd133d4e2ee5c7b4e3412cbe92bf56dd7b50a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1048.png",
+      "frame": 1048,
+      "sha256": "7b077e388fd992d7e868318a18fdbb9ed4d05d61a1927f03f195b269b3f5f08a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1049.png",
+      "frame": 1049,
+      "sha256": "d027fb195c276c8819668f845c22679d0d4921fa438c71096aae5de720ef0b98"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1050.png",
+      "frame": 1050,
+      "sha256": "580f4725ef02c5e0d429bd0e0fdce9a91c44eb0d74050c31141c5c3a1207f878"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1051.png",
+      "frame": 1051,
+      "sha256": "7cf238c9044d1c77593e6b689d0393763c8d7e4b8794199ffbd9764d00779680"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1052.png",
+      "frame": 1052,
+      "sha256": "0f8c9bb30ed9b80f9d17784226a2751ed44f6458ac617a0d7a5cea219db3a632"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1053.png",
+      "frame": 1053,
+      "sha256": "852dc7b1452311da6ef006157aba110acc579455984a5187d904519e5f442246"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1054.png",
+      "frame": 1054,
+      "sha256": "6a4af85728770ac20b3b2d523b520d416263abd3ae7e8095e96170bfea9a1bd5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1055.png",
+      "frame": 1055,
+      "sha256": "06cde8517ec40d5185cbe0a47aa1330dad39854a5f2653d4007087e4861301d6"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1056.png",
+      "frame": 1056,
+      "sha256": "f20ea21150cb4bf2089e6ec67fd4ec4dd2d7ee9ca3ea5999d7bdc03cebea448c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1057.png",
+      "frame": 1057,
+      "sha256": "ad292bf9e5108bd1cdad971e76574270f51f82e9e23941ed280f24e5c4cece65"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1058.png",
+      "frame": 1058,
+      "sha256": "7b0b3c4b776c1639d67414e3b2c97b593681ec86c19b42fb32c2083a80d5329b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1059.png",
+      "frame": 1059,
+      "sha256": "ef78ddf9d54728e31287f116e7249edc30aeaaf600ed47843d9be18eb65f7833"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1060.png",
+      "frame": 1060,
+      "sha256": "695c24bf91368a50434fa93aa3b7d4b1fdaad596caa0f814a52d37234c62875c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1061.png",
+      "frame": 1061,
+      "sha256": "cee74450093e7c339f25a0d53d89a652575bf961dbf974fa96c7b9c10b8762b3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1062.png",
+      "frame": 1062,
+      "sha256": "1f8ee48d20758f7b338bbbc02efba0cdc30ad009450c3cd3de0f164cd5213304"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1063.png",
+      "frame": 1063,
+      "sha256": "ce3ee74d1479e89059a368c1996035986b5c4d4ba2689ac48fd709758623be43"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1064.png",
+      "frame": 1064,
+      "sha256": "f373e26b587402ee7fc8470f33ccbc0b2f7e1bd05c10903217efe4592d33ca86"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1065.png",
+      "frame": 1065,
+      "sha256": "327d45bf2c8084244e51ed82955241b1f465a9a2ec23f42a536aed9198591b0b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1066.png",
+      "frame": 1066,
+      "sha256": "bdd3e7b40e6908dc119faeea490052677a21c177ebf793fe6739178c77970654"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1067.png",
+      "frame": 1067,
+      "sha256": "3b0a5ec48bf6d0ffd9601d301df644249f3dc88329a4b07990598a16350ed0b7"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1068.png",
+      "frame": 1068,
+      "sha256": "7a8c22f4ab4546dab8bfa3eefe0d75d4884aadf024093af462d25404cb495be0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1069.png",
+      "frame": 1069,
+      "sha256": "7cf0d981f4473e2387ac19e1d24dd2d3f2abb07432b0c0319215451e5cb33eb3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1070.png",
+      "frame": 1070,
+      "sha256": "f4e8f59390eab832aeb917f0aad4ac02524edf2d170e91f4ec3607cd88cbce75"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1071.png",
+      "frame": 1071,
+      "sha256": "bf07d929ce0699476b654c036eac945a916e73a270caad565a4a281e4286abc3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1072.png",
+      "frame": 1072,
+      "sha256": "fb3dbdb78bd0ff65919c6b5ac0ecf11fd09c56f690e3e1b6ecd4796e5490723b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1073.png",
+      "frame": 1073,
+      "sha256": "60d75b28a6284296e00b1e9d321efbd68f938378eb8e7d08d0fe0526a6e93b8c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1074.png",
+      "frame": 1074,
+      "sha256": "40c5389d4fb08c97b9962a5f310487f5cb75609ed7975e246edb8d6a94dc018f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1075.png",
+      "frame": 1075,
+      "sha256": "fd7f4c98435cfaa794473bc2e8cc767df579a00f67dcc5b305edcce543f67668"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1076.png",
+      "frame": 1076,
+      "sha256": "5fe0513a87d0141632572c415b2bb6544666ff6fe86c1c5a44b1afc7b9324301"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1077.png",
+      "frame": 1077,
+      "sha256": "614a36a3649fea07beee3579d80e0e1cc79443ed9b5f08e1914c636f0b610377"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1078.png",
+      "frame": 1078,
+      "sha256": "df7c4880449b93d5e51f9e5cfb0de3d8775474bfa3119feab3e9960c01fbb26f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1079.png",
+      "frame": 1079,
+      "sha256": "496dc3cf94b08354e453ba241f2416f1fbe45c36bfa97cc0392cda2089d4044a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1080.png",
+      "frame": 1080,
+      "sha256": "7d1874bcbb1669d42d108112d20f0226246efd886ce9a854c9a60662c316038c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1081.png",
+      "frame": 1081,
+      "sha256": "3dace5ab3307f071f5bdc465a4ec812d2e672c642f3196c3056b027b2f37ca7b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1082.png",
+      "frame": 1082,
+      "sha256": "3f1470a7a50c9b548bcac6cd0f34c77022253bef1ae64d5b627348c182ff67cc"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1083.png",
+      "frame": 1083,
+      "sha256": "104b46aa07942c0f22a8b9ad31379e0e60a39e45ed7f9fd186583ef7a61cccc0"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1084.png",
+      "frame": 1084,
+      "sha256": "8ace1a6e6da8c4313b506698730b16dadc3baa83244f2e76e5dacac02f31d48d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1085.png",
+      "frame": 1085,
+      "sha256": "c47eeca0bc154ef0bc78ef09c25898e7da687f69b3f6bd5a0b1ad18429bb4011"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1086.png",
+      "frame": 1086,
+      "sha256": "658ddccbf268e5f5859e918662f8f317997f8bc906ffd1324cc4cab2bc6b90e6"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1087.png",
+      "frame": 1087,
+      "sha256": "edbe622b77095ebcbeeaf4b60a10a5cbce6646d5979e8dbae5b8b9c45aea367f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1088.png",
+      "frame": 1088,
+      "sha256": "04862fc3b73046990e1997da9b213db93a9c5f20ef18babdde6c2e79f2fb7a32"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1089.png",
+      "frame": 1089,
+      "sha256": "fb3dda61b4124162ca5d8aeacb98ef740582ece81bf376be0f823b9067a3056e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1090.png",
+      "frame": 1090,
+      "sha256": "4508c0355dbaa18c1eef53b545df842bdae19e22e5a476a797005a7cc7f257d1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1091.png",
+      "frame": 1091,
+      "sha256": "790d95bb37d66a9c47c82343332ceb91e272ba490d39d0848146260bfde53e06"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1092.png",
+      "frame": 1092,
+      "sha256": "a14bd8cb8c3f6888a8814bd5e7145c7c49af81c4fa7ca26904ac3987774f40cb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1093.png",
+      "frame": 1093,
+      "sha256": "2301c46815111971fee1e2c0188d19b192ee3cfb3768755865db5a3bfddab557"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1094.png",
+      "frame": 1094,
+      "sha256": "e20052455670841e02e857bc45dbb97fc6180de459e0025ed7f890332df68916"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1095.png",
+      "frame": 1095,
+      "sha256": "24b204fd668b58ed3483acb423d80ce8931dc41b5873e3f072fa3cef512f80f3"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1096.png",
+      "frame": 1096,
+      "sha256": "3e449e0bf3d339b21612b2045d003eba26234d3330cdf3e170656af778d9747f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1097.png",
+      "frame": 1097,
+      "sha256": "902994b6513d8538453f40ad1fff0ebaeee76424a06775ed1010d2fe803eae75"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1098.png",
+      "frame": 1098,
+      "sha256": "e0b77b8cdd0cc65ba8cc714333eddc66e86db319abc0b02608fd316592f6bca1"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1099.png",
+      "frame": 1099,
+      "sha256": "bf1d58b2660708879f1f6445c181f42911d27509563bc14cf82d4e73dee2c12e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1100.png",
+      "frame": 1100,
+      "sha256": "b4bb1327509cc172a18e8c5d1a650f601a9fcf9ec22dab3c1498c505a18aac0a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1101.png",
+      "frame": 1101,
+      "sha256": "c6235f669a333437c5105b2ca5f785c6cc3a0717d89e83fe2057cdf119fc89ce"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1102.png",
+      "frame": 1102,
+      "sha256": "2ea91b12a7675b37d46d9b46af78baa1dd633f5225b9b2e2bd13f583f7dbe7ef"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1103.png",
+      "frame": 1103,
+      "sha256": "a479447b10b3ea554f968530bb39bb8d4f0fbc53917d3a31ded83981e58a4685"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1104.png",
+      "frame": 1104,
+      "sha256": "e1e4e91ce5b81d4e65a9e745d187b501742c312e880071e843ee1333f64cd945"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1105.png",
+      "frame": 1105,
+      "sha256": "e842c2f4e5029d568cbc701bc4096ddc809f12eb9c6437defc40e262a7ab8c20"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1106.png",
+      "frame": 1106,
+      "sha256": "551a722bd0d6e9d4553e774df46503f3822f1ff480c3f36313c86a43eca27dab"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1107.png",
+      "frame": 1107,
+      "sha256": "87fa399dc6ff0ae913b6a05c19ca60cbdda757094e710e98969c91ccba3d40df"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1108.png",
+      "frame": 1108,
+      "sha256": "b6a45497c72df5ceb36bd23265d64da9d7132b3519e5bb8408136d6072b1eb69"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1109.png",
+      "frame": 1109,
+      "sha256": "a9c5105ba44dd23b6cba3340f99f9c91e0dc05ec79dee486f7c27260820f221e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1110.png",
+      "frame": 1110,
+      "sha256": "af4e3932c35d9491c28637ebb76d0beebd0f3d79e5ffd2c8c40cf1bf88d3d297"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1111.png",
+      "frame": 1111,
+      "sha256": "e6453cdd4fa701dbb13a4d9c7280c41c33c3886ef7f9527dcb8700c51a23bc92"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1112.png",
+      "frame": 1112,
+      "sha256": "8f09a785a3afb709e60850f56e58bf6ee1c483c0177c57c3ce4d6428ee963c01"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1113.png",
+      "frame": 1113,
+      "sha256": "72c10a6314806fade6a0eae2ce23a7cbd803ae68810ea57df07dc73fa2d2b3f6"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1114.png",
+      "frame": 1114,
+      "sha256": "e80ea420f9bda312a876fbd5ec18974faa19ee0f6c0fb603bd7553ea27fe3ccd"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1115.png",
+      "frame": 1115,
+      "sha256": "48944da9c95d55a3cada69910f5bc7b9c1e8ba920da58c2accd78f2384115477"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1116.png",
+      "frame": 1116,
+      "sha256": "65532068b46bc7578765e7a5e8e2dff6a5c095129730176fde5558b30b367a07"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1117.png",
+      "frame": 1117,
+      "sha256": "985234d5a12fdc325e7ef645e44a8719f9a7540f6a144f5977a0c932a5f7d32f"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1118.png",
+      "frame": 1118,
+      "sha256": "e590a3e28286efd4ed28ffeda74badcbf054d089cf51a891a90d7921257a02f5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1119.png",
+      "frame": 1119,
+      "sha256": "1b763cea534bf0718074206953726da45ecadd6ec32c6bad4281150310ca1f47"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1120.png",
+      "frame": 1120,
+      "sha256": "8e2a1616d9f690fd364fd068caa560add34acbdca1b3b9c464b5412b9117ce06"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1121.png",
+      "frame": 1121,
+      "sha256": "ec2e4be11b488bc4d51913cd477a32d68c0a0af7a8f83ad5c388a504a61e006c"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1122.png",
+      "frame": 1122,
+      "sha256": "c3dba52f25e117cbca5c41e2f62f5cf2dbbe7b341d5a6342dfa6b9ece903cf93"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1123.png",
+      "frame": 1123,
+      "sha256": "711be313b435d807dfed3a0d6ac4b6872a5e1edc133f40ef5222c9aca0021a02"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1124.png",
+      "frame": 1124,
+      "sha256": "8330f5dc319e3666ab572052a11838c5a35516bbfa034db92b4a91d6a0926b65"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1125.png",
+      "frame": 1125,
+      "sha256": "5b34425b970a9808631ee420a9b86eda8a42dfc668b776c9fc9341f9e9bbc49d"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1126.png",
+      "frame": 1126,
+      "sha256": "05d1c4fc36122eb1421a3972c8a27f9705eb24a55210024510e1de546ab38ecf"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1127.png",
+      "frame": 1127,
+      "sha256": "0d4e232462a763a66aea64c84684663184e5de928bc4a376618a88bf449f98fe"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1128.png",
+      "frame": 1128,
+      "sha256": "21bf4f8919ea3c6b747472034361e1ead01eff8a3344c85188f877625cf4a881"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1129.png",
+      "frame": 1129,
+      "sha256": "810a8c1ee4c89abba169d06d2429809bc4097ad2d0315ed60e28038a01895237"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1130.png",
+      "frame": 1130,
+      "sha256": "36a10d0c8d24ac9e34f0e1e21f303e883f23ec98214e97de2586a6c471e79f72"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1131.png",
+      "frame": 1131,
+      "sha256": "fd450674de5d9984a1a4f57d9cc63be9ff199c1caeee59714b945ddc29b342a9"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1132.png",
+      "frame": 1132,
+      "sha256": "4c50605e892c3881c65ad0d0ec9cc918bcf7022cd0d3fbe66645671ca79c6714"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1133.png",
+      "frame": 1133,
+      "sha256": "2a6e38200feb579969a39613f99e7d72deef53dd1dd579369bcd66d5fd35573b"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1134.png",
+      "frame": 1134,
+      "sha256": "6ada1c335ad975f2d1d9461381e71af0f8d3e0ad38c115da57773e7864a1fb61"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1135.png",
+      "frame": 1135,
+      "sha256": "0e76d2272140fa3c29a52013bddfe958e099de5ebf782d7b059f13a7a0920158"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1136.png",
+      "frame": 1136,
+      "sha256": "57646bee48daeb063262f5e0ffabb8ac8d05f4aa9c3230a928d5abf033fba67a"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1137.png",
+      "frame": 1137,
+      "sha256": "872c5e08cb38366c583b5f21eb775f1b043c1b1902a9525e641a7aa71a29b82e"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1138.png",
+      "frame": 1138,
+      "sha256": "e90e5f871fcb682693cf69153ee0478ea8ee1ae16777c3b66ef6dc0e09e3d3ba"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1139.png",
+      "frame": 1139,
+      "sha256": "c09799420817a10ef3c640e3695a9f00b3dca8d96a1b4ba867d844b06de1f377"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1140.png",
+      "frame": 1140,
+      "sha256": "c65aaa9cb8b43e3ad5853513d4538fb66805ba16721e3d2b8b076d7c99290209"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1141.png",
+      "frame": 1141,
+      "sha256": "89946f32746b7207fd429942d0fa811e9a2193869b1286f0ccdb7a0de841ca94"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1142.png",
+      "frame": 1142,
+      "sha256": "5d90a2e57762978f6b9dc3cbba058da5ddbb05e24ffa1629a0093574d6dc3a73"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1143.png",
+      "frame": 1143,
+      "sha256": "b1a5c547ac67be3d21f431b496bb961639cc6e7e51c779c4b33515f6e8b42bfb"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1144.png",
+      "frame": 1144,
+      "sha256": "aa3e3025659feb3edbecf9953fdfeb3b129f79c72ab74d1f88091f0c6d72c022"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1145.png",
+      "frame": 1145,
+      "sha256": "c9889e368bbaa1a460068f04717d15a7519f592fcf1065c405085865fc0e76e5"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1146.png",
+      "frame": 1146,
+      "sha256": "ba7d6d623f9055ce9173ed469bd123de83547a1143088f4bfafa137b1537cbf8"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1147.png",
+      "frame": 1147,
+      "sha256": "4bd72635417aba444b5e4cf427e714d35a7f760840e0cdce2bc7a27303780d86"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1148.png",
+      "frame": 1148,
+      "sha256": "4e1dc81b0f0fa9d3e2ed307b2e5007fc12d27914554881bb63bcdc01fee42100"
+    },
+    {
+      "file": "output/playwright/shushu-v003/author/composition/1149.png",
+      "frame": 1149,
+      "sha256": "573edcde8bb3a2897a47b689239da7a48ff246f29b7a6f361286f2197e7c9f9f"
+    }
+  ],
+  "scope": "actual contiguous evaluated frames; no generated interpolation"
+}

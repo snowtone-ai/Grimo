@@ -1,0 +1,53 @@
+{
+  "v002": {
+    "artifact": {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v002.glb",
+      "sha256": "94a5554b46c0478a816779c7ae63208b1d1f024532d74086d7935344d019b6be"
+    },
+    "captureRun": "2026-10-16T16:20:55.148Z",
+    "seconds": 300,
+    "samples": 18119,
+    "rafP50": 16.600000000002183,
+    "rafP95": 16.70000000001164,
+    "rafP99": 16.70000000001164,
+    "rafMax": 33.20000000001164,
+    "jankGt25": 1,
+    "normalCpuP50": 5.5,
+    "normalCpuP95": 6.300000011920929,
+    "normalCpuMax": 10,
+    "contextLoss": 0,
+    "gpuTime": "UNKNOWN; rAF is not GPU time",
+    "battery_celsius_start": 29.6,
+    "battery_celsius_end": 30.5,
+    "loadedMs": 1342.5999999642372,
+    "firstFrameMs": 2544.5
+  },
+  "v003": {
+    "artifact": {
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003.glb",
+      "sha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892"
+    },
+    "captureRun": "2026-10-16T17:11:05.579Z",
+    "seconds": 300,
+    "samples": 18110,
+    "rafP50": 16.60000000000582,
+    "rafP95": 16.70000000001164,
+    "rafP99": 16.70000000001164,
+    "rafMax": 33.099999999998545,
+    "jankGt25": 1,
+    "normalCpuP50": 3.900000035762787,
+    "normalCpuP95": 4.300000011920929,
+    "normalCpuMax": 10.300000011920929,
+    "contextLoss": 0,
+    "gpuTime": "UNKNOWN; rAF is not GPU time",
+    "battery_celsius_start": 31.7,
+    "battery_celsius_end": 32.1,
+    "loadedMs": 2561.900000035763,
+    "firstFrameMs": 2614.5,
+    "controllerCpuP50": 0.5,
+    "controllerCpuP95": 0.699999988079071,
+    "controllerCpuMax": 1.800000011920929,
+    "controllerSamples": 18111
+  },
+  "scope": "Same phone/Chrome/USB/visible view/993-frame common loop/300s. Sequential single runs, recorded initial thermal state; not a causal thermal or GPU benchmark. v003 destroys the diagnostic model and runs only the production loader/controller/deformer. rAF is not GPU time."
+}

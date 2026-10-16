@@ -1,0 +1,7 @@
+{
+  "plan_sha256": "4dc0572cea5fcdff13c92a79a103262626f3700c624f3bb995a8032e74e6a20c",
+  "geometric_weld_tolerance_H": 1e-06,
+  "local_open_boundary_edges": 0,
+  "local_nonmanifold_edges": 0,
+  "scope": "Cut and exterior seam through 1.15 ellipse radius, upper head only. Original seam-split IDs are compared geometrically; this is not a collision or visual gate."
+}
