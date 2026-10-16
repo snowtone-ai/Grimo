@@ -1,0 +1,31 @@
+{
+  "verified_utc": "2026-10-16T06:15:24.372832+00:00",
+  "branch": "codex/jill-pretexture-technical-v003-20261016",
+  "implementation_commit": "59250c76b696ef9c3c0c7bccfaa52373081622e0",
+  "remote_ref": "refs/heads/codex/jill-pretexture-technical-v003-20261016",
+  "remote_head_observed": "59250c76b696ef9c3c0c7bccfaa52373081622e0",
+  "remote_head_equal": true,
+  "lfs_push": "Successful, 8 objects / 40 MB uploaded. No forced update.",
+  "candidate_assets_verified": [
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/rig-pretexture-technical-v003/jill-rig-texture-uv-v003.blend",
+      "sha256": "ad9f867e87a6006259aec5d8b01e1981fc823ae97bc92a87dc49a906770a9050",
+      "verification": "LFS pointer SHA equals raw candidate SHA; push upload succeeded"
+    },
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/rig-pretexture-technical-v003/jill-texture-input-neutral-v003.fbx",
+      "sha256": "6a267f2e6aaa81514b726e940f9fd35e1274d9f1f7e609d0264b804989f70ad8",
+      "verification": "Git blob SHA-256 equals raw candidate SHA"
+    },
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/rig-pretexture-technical-v003/jill-texture-input-neutral-v003.glb",
+      "sha256": "775576faef6ea468e3d3d910965e10316faba7029649b6c5b1932afafe05eaa2",
+      "verification": "LFS pointer SHA equals raw candidate SHA; push upload succeeded"
+    }
+  ],
+  "manifest_sha256_raw": "5bd9f4942aea29fb8be6eb40abf242f295c6688264512349338a2d61ddaa774e",
+  "source_worktree_clean": true,
+  "receipt_policy": "This receipt records the already-pushed implementation commit. The later receipt-only commit is verified against remote HEAD in the final tool output; no self-referential commit hash is asserted.",
+  "tripo_ui_price_return": "UNKNOWN",
+  "human_final_go": false
+}
