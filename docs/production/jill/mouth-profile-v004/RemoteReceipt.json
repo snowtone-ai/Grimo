@@ -1,0 +1,30 @@
+{
+  "verified_utc": "2026-10-16T06:59:25.916487+00:00",
+  "branch": "codex/jill-mouth-profile-v004-20261016",
+  "implementation_commit": "5ed1fd59ec0cac4ce4e7326520cb550fc5e29f29",
+  "remote_head_observed": "5ed1fd59ec0cac4ce4e7326520cb550fc5e29f29",
+  "head_equal": true,
+  "candidate_assets_verified": [
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-rig-mouth-profile-v004.blend",
+      "sha256": "df3891bbd11c522631202e0dd32945a788ff370477731568514261a5e4100cb7",
+      "verification": "LFS pointer OID matches raw SHA; scoped object-id push exit 0"
+    },
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-texture-input-neutral-v004.fbx",
+      "sha256": "c9442eec2d30f20409c27f82e5b1f3cb0769cb7c394c9e8b96bebb9d52d553f4",
+      "verification": "Git blob SHA-256 matches raw SHA"
+    },
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-texture-input-neutral-v004.glb",
+      "sha256": "4646cffdff8248e6e74b1dcd5f1c6095e7ed7af2b7ad7771001c9b22aa662eb2",
+      "verification": "LFS pointer OID matches raw SHA; scoped object-id push exit 0"
+    }
+  ],
+  "manifest_files_verified": 104,
+  "changed_files_scope_verified": 105,
+  "prior_v003_asset_and_evidence_changes": "",
+  "receipt_policy": "Records already pushed implementation commit. The receipt-only commit remote HEAD is verified in final tool output; no self-referential hash.",
+  "human_final_go": false,
+  "tripo_execution": "NOT_RUN"
+}
