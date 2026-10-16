@@ -1,0 +1,721 @@
+{
+  "created_utc": "2026-10-16T06:56:41.852691+00:00",
+  "branch": "codex/jill-mouth-profile-v004-20261016",
+  "worktree": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo",
+  "source_head": "9c25c6bf86da6ffcced4439ea2456d112befe98c",
+  "authority_main": "73617ce2d3c724c86aed82dfc2a09cd220e5d194",
+  "status": {
+    "technical_go_candidate": true,
+    "human_visual_go": "PENDING_V004_MOUTH_REVIEW",
+    "human_final_go": false,
+    "human_scope": "Only marked mouth/chin profile correction before next Texture phase; no other geometry work added",
+    "source_head": "9c25c6bf86da6ffcced4439ea2456d112befe98c",
+    "authority_main": "73617ce2d3c724c86aed82dfc2a09cd220e5d194",
+    "resolution_reference": 4096,
+    "measured_8k_only": true,
+    "actual_tripo_execution": "NOT_RUN",
+    "ui_price_original_uv_return": "UNKNOWN",
+    "rig_counts": {
+      "bones": 130,
+      "channels": 39,
+      "morphs": 20,
+      "anchors": 16
+    },
+    "uv_layers_exact_vs_v003": true,
+    "all_key_xz_exact": true,
+    "outside_local_scope_exact": true,
+    "whole_basis_exact": false,
+    "local_original_muzzle_y_edits": 179,
+    "close_exposed_skin_retreat_removed": 52,
+    "no_full_motion_rerun": true
+  },
+  "hash_scope": "Raw working file bytes. Text normalization may differ with core.autocrlf. Excludes self and later receipt.",
+  "protected_inputs": [
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-other-v001\\jill-rig-other-v001.blend",
+      "sha256": "99ed802ad3a35a147d4b1a053b81db47e6d0d8ef24d1cfc93c28d014daae5694",
+      "bytes": 3079676,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-other-v001\\jill-rig-other-v001.glb",
+      "sha256": "046bfeb9c1f02483d46a2ae37656017682fe31a22e25ae50da29d047b084a0c3",
+      "bytes": 6677672,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-other-v001\\source\\jill-v002-authority-donor.blend",
+      "sha256": "8c2ded49ec7108c420fead87d01b3ff26deb43e479d14479afc50e6aafd67a97",
+      "bytes": 3248604,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\jill-Identity-canonical.png",
+      "sha256": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15",
+      "bytes": 1622600,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_front.png",
+      "sha256": "c6fb1709271bc476b597c040445bad7dc9e9d8ca7493bd29e22bdfa812f345a8",
+      "bytes": 1520144,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_left.png",
+      "sha256": "bb1625ba8ec218a1e1a26ce70b524aa661ef94373cd7d9f5c9df37cb38cc1d31",
+      "bytes": 1679152,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_right.png",
+      "sha256": "9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc",
+      "bytes": 1646507,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\source\\jill\\tripo-generation-pose\\jill_bodyonly_back.png",
+      "sha256": "503ff66c3cd5204da7351996a361f37792c7dabca384267416b078e5f4c9cfcc",
+      "bytes": 1762097,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-v002\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-v002\\jill-rig-pretexture-v002.blend",
+      "sha256": "f50353d369345e31a37f95d4001617cc06f3e2110eae4e92be68d3164543af74",
+      "bytes": 3575975,
+      "matches_prior": true
+    },
+    {
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-technical-v003\\jill-rig-texture-uv-v003.blend",
+      "sha256": "ad9f867e87a6006259aec5d8b01e1981fc823ae97bc92a87dc49a906770a9050",
+      "bytes": 4112370,
+      "matches_prior": true
+    }
+  ],
+  "files": [
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-rig-mouth-profile-v004.blend",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\assets\\grimo\\production\\jill\\tripo\\mouth-profile-v004\\jill-rig-mouth-profile-v004.blend",
+      "bytes": 4123856,
+      "sha256": "df3891bbd11c522631202e0dd32945a788ff370477731568514261a5e4100cb7"
+    },
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-texture-input-neutral-v004.fbx",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\assets\\grimo\\production\\jill\\tripo\\mouth-profile-v004\\jill-texture-input-neutral-v004.fbx",
+      "bytes": 1965068,
+      "sha256": "c9442eec2d30f20409c27f82e5b1f3cb0769cb7c394c9e8b96bebb9d52d553f4"
+    },
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-texture-input-neutral-v004.glb",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\assets\\grimo\\production\\jill\\tripo\\mouth-profile-v004\\jill-texture-input-neutral-v004.glb",
+      "bytes": 2061168,
+      "sha256": "4646cffdff8248e6e74b1dcd5f1c6095e7ed7af2b7ad7771001c9b22aa662eb2"
+    },
+    {
+      "relative_path": "assets/grimo/production/jill/tripo/mouth-profile-v004/README.md",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\assets\\grimo\\production\\jill\\tripo\\mouth-profile-v004\\README.md",
+      "bytes": 1190,
+      "sha256": "152d9136b131b1cccf1f3c2c6fc54276ee4bf1377c1deb665b1a7456306ad6ad"
+    },
+    {
+      "relative_path": "docs/production/jill/HANDOFF.md",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\HANDOFF.md",
+      "bytes": 3317,
+      "sha256": "746370dd509d5242d16bfd6e45ffcc59d3fd51cf5ee49b674869833084b2d64a"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/after-atlas.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\after-atlas.png",
+      "bytes": 160554,
+      "sha256": "18cfc7782f06beb9ad99a1df083560894fcd83392f82f576648fd75108e7c6f7"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/after-islands.npz",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\after-islands.npz",
+      "bytes": 917726,
+      "sha256": "311a6cb0b5423d76c0453db553ada44d222a4cd3915bed0b362314d829cd1935"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/after-uv-audit.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\after-uv-audit.json",
+      "bytes": 7752,
+      "sha256": "fdb5a3b65659d1f4bb9e0a50e7cd9b98ad2c3e25028b41133c0d7905c8d938df"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/after.npz",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\after.npz",
+      "bytes": 1366287,
+      "sha256": "a45a22fc2e76cd9b9ec46a300cd07a5e8e87cd2ddc1e54d199d92851e26aa1f2"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/audit.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\audit.log",
+      "bytes": 1798,
+      "sha256": "9941123292202bea920d34d34fb1c0fdda5b82fd3d5482eea99e23b608127eac"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/build.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\build.log",
+      "bytes": 4482,
+      "sha256": "0b5dbd6a6e530047a85036cd866a7e94bb7b0f2cbeb0b406383cc5f823ea6014"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/Evidence.md",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\Evidence.md",
+      "bytes": 7354,
+      "sha256": "b9bf072350754dc344ac3abf9c8333511fb29678bb099aa9944d1605b342069a"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/face-review.jpg",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\face-review.jpg",
+      "bytes": 408863,
+      "sha256": "9aee7b90a0deeea71052bb971b0da831115870f37d81d5e8b3ffa7425bd38022"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/front-3q-before-after.jpg",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\front-3q-before-after.jpg",
+      "bytes": 365629,
+      "sha256": "6c1d10e06a4bf07f5e455176500a3205a4ebe48bf0bdc5b2ad71be241cb6b383"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/host-boundaries.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\host-boundaries.json",
+      "bytes": 348,
+      "sha256": "b247a7454cfeb920c401f0f05f6c879f6b6d534da331ecefea9b9d15466c5503"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/host-fit.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\host-fit.json",
+      "bytes": 4139,
+      "sha256": "bcf8f865a0cc5b1ba1baf062d27cfd35dd76c1dd7341025332216c5f8f959778"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/human-redline-face-review.jpg",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\human-redline-face-review.jpg",
+      "bytes": 404520,
+      "sha256": "44a085ce26207bda32d253531ec5a012c3336cb1c3f6bcc1f13bcb7f567edc17"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/inspect.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\inspect.log",
+      "bytes": 3413,
+      "sha256": "33843cd4861debb7d47bbe7e9bc921ec060f2e7823ac99fac2d70b4d3d62c593"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/mouth-host-fill-mask.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\mouth-host-fill-mask.json",
+      "bytes": 1618,
+      "sha256": "d8ae6e540353789202dd2b73837be45bc6f7600a7d14b9c69a2450597716cf29"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/mouth-host-fill-mask.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\mouth-host-fill-mask.png",
+      "bytes": 18778,
+      "sha256": "541908d196379d551dad0b5a8387ff7d822e3bfa6637de46656868acf7c3d290"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/opposite-side-before-after.jpg",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\opposite-side-before-after.jpg",
+      "bytes": 331607,
+      "sha256": "e2055bd710a0a030c41b2624a3556a3ed472c4f015f9c7d7baacbc40f78b615e"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/Plan.md",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\Plan.md",
+      "bytes": 1602,
+      "sha256": "becdb218994372caeeb2a0f21f5c223321dc334e769bac14465991292443f370"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/posed-glb-proof.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\posed-glb-proof.json",
+      "bytes": 817,
+      "sha256": "4a0793ba6c0b4324c426f9cf4a0da517d1a3567ab6afed5bd3a1002b313d38a4"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/posed-glb.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\posed-glb.log",
+      "bytes": 529,
+      "sha256": "445bd635c5389a5063c81400d52d0e0cb4bf3ee5b3118688041c67706a12d2f0"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/preservation-proof.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\preservation-proof.json",
+      "bytes": 3374,
+      "sha256": "74ccb11cc7b37de76f905e26acfe9d813d9eb4bf24874cd8da136f880372b3e7"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/probe.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\probe.log",
+      "bytes": 4414,
+      "sha256": "55d9376553938de582b9ed4aae5c1a2cc468ba62dd6d0e19ae9e6b80e33c27de"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/protected-fill-proof.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\protected-fill-proof.json",
+      "bytes": 314,
+      "sha256": "278aba42423dd59c14d417ef5eb3da9e7c38b7894a429a3981b657c9e5836ddd"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/protected-fill.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\protected-fill.log",
+      "bytes": 261,
+      "sha256": "4b5f3c313f8f7b5bb299d1afb7c7260ed91865093d61cc18e06fc8b11318d65a"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/qa.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\qa.log",
+      "bytes": 5132,
+      "sha256": "d31ebc036962576f6c63621b0be9b0c39bc49807205abafa9f6698bd46c34963"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/recovery-proof.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\recovery-proof.json",
+      "bytes": 53,
+      "sha256": "23eae8f9f34341352c590ed3383a3b5f2b7f320df596a27a9daffdc64cc02c99"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/render-review.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\render-review.json",
+      "bytes": 3725,
+      "sha256": "03dbfbf0982dddaa7872dc7159e95ee5e5c6e941f05e0134ac5c44bdebbcc18f"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/returned-fbx-blink.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\returned-fbx-blink.png",
+      "bytes": 346399,
+      "sha256": "fdd1eeebaf68cbfad899eb7816fbd59b1320cba038a23b036ef0d9afc2c2e03c"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/returned-fbx-closed.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\returned-fbx-closed.png",
+      "bytes": 348053,
+      "sha256": "e0c34e1d6ff55fceee48f18a4c46d6f1e4f6b0ae9d9aabc395a4dfed0c0cca5f"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/returned-glb-blink.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\returned-glb-blink.png",
+      "bytes": 346399,
+      "sha256": "92dbd98cb896f6ddeb36a5b2203029716433aa8bfd11c95e440b92fad9089a04"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/returned-glb-closed.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\returned-glb-closed.png",
+      "bytes": 348053,
+      "sha256": "ed61de9764bcb4fa4837128b148e9597cce29ba640f62bc2df7232c8432937cc"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-close-mid-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-close-mid-left-3q.png",
+      "bytes": 277704,
+      "sha256": "d78c85fd870811a97f66364971e7cbbf901a5c73854bb522a0fc985bf5e2b4b1"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-close-mid-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-close-mid-left-side.png",
+      "bytes": 259217,
+      "sha256": "52587aaa6c9b8af8c53036e9036eb91b2b0b3f47240058fb4ca8d63637f2ce8c"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-closed-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-closed-left-3q.png",
+      "bytes": 276469,
+      "sha256": "cbeefa5a82df21afc0788da76315e6e1b9d5286029766946b2929fbfe25c79d0"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-closed-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-closed-left-side.png",
+      "bytes": 259331,
+      "sha256": "7132569311fab317dccc0aa9e95645a9300068f178824ee2eae4954a92364015"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-neutral-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-neutral-left-3q.png",
+      "bytes": 279231,
+      "sha256": "0a347309c841c975870beeb494960097660c599ba1f6f813b8ca8c42458fd3bd"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-neutral-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-neutral-left-side.png",
+      "bytes": 258936,
+      "sha256": "46d2ada96cc204510d9a9eeb5092ce147a36b2b95685f444ac9eb423b86493f6"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-open-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-open-left-3q.png",
+      "bytes": 279890,
+      "sha256": "764891dbea5447c57147e40e8379ec7fd4e535571517591e5daa5b670eb9ac9f"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v003-open-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v003-open-left-side.png",
+      "bytes": 259020,
+      "sha256": "20e128c9cf457811ad93fc94c62a98283a5ee858dccb635007faaba34c3d3f53"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-blink-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-blink-3q.png",
+      "bytes": 284444,
+      "sha256": "63d93f2a87827475c02ad16c2017b62c185d74314f9ca661c47d94d78bf19abf"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-blink-front.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-blink-front.png",
+      "bytes": 292471,
+      "sha256": "206d591aaf8c0210482d940ed9697358c9ed77f614971ff0b8ced846d6aca817"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-blink-mid-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-blink-mid-3q.png",
+      "bytes": 288092,
+      "sha256": "4de1e335cfaa63ea7be116f0858de923bffbe52df209be588c038849a7ba6d3c"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-blink-mid-front.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-blink-mid-front.png",
+      "bytes": 295661,
+      "sha256": "4a54651e7c1e5169e1c1369f329f07e0543234747c5a49fa46e25ccf729d9c4c"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-blink-mid-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-blink-mid-side.png",
+      "bytes": 275671,
+      "sha256": "9544c18899fcc8145b59eaeaf863b4b863f2e4b2441aadf908e7e4809ca6991f"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-blink-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-blink-side.png",
+      "bytes": 274300,
+      "sha256": "704cb39a6294ec0f2cbb4eb6681e3b2a2a170e0a320d99d5f622ccdb0fbb2c15"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-close-mid-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-close-mid-3q.png",
+      "bytes": 285267,
+      "sha256": "65f20a7a4596501821abaf3d24f702e5bb765a58c091f8c5b13e251ecfc3d078"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-close-mid-front.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-close-mid-front.png",
+      "bytes": 292751,
+      "sha256": "62797e5495bfc1546029be239ce33606ad1bc857c8970b4f57cb55580d0e4418"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-close-mid-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-close-mid-left-3q.png",
+      "bytes": 276583,
+      "sha256": "ef873c5b9ec10ce538d22dbc51f86bf18dcb6b10633ab97be2527ed723a6ec32"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-close-mid-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-close-mid-left-side.png",
+      "bytes": 258860,
+      "sha256": "4beea2db74b0aad5c4b436fe6e0650ab1a02ebb95b4ff65c1c3a2a166a459fb3"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-close-mid-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-close-mid-side.png",
+      "bytes": 275189,
+      "sha256": "44f0fa207efd68f51d81864768d71e284555e0f0be0c9861e2824e0782489495"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-closed-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-closed-3q.png",
+      "bytes": 284060,
+      "sha256": "6ecbc7bfead66195a6cbf4fd2f75b5c925a7e41e6c067e8abf72abb8217f0d85"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-closed-front.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-closed-front.png",
+      "bytes": 291531,
+      "sha256": "75f9296f99c567c81b6d724e17a777a534f3ce35c462c455aac3922e732fbc9e"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-closed-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-closed-left-3q.png",
+      "bytes": 275293,
+      "sha256": "3d3cf89947189e8e6079490ec290ab0e7019312426d78f4eb3ce50b1a004aede"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-closed-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-closed-left-side.png",
+      "bytes": 258841,
+      "sha256": "e8ef7fc1bdc0770a9ec8a156d35bab4bfdeccd630cecaabd0e407921f979e48f"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-closed-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-closed-side.png",
+      "bytes": 275308,
+      "sha256": "3b5928aa037299cdbcda48ff0b037309e896ec56525a1700545dfed1008c4e5b"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-neutral-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-neutral-3q.png",
+      "bytes": 286772,
+      "sha256": "dea986835fb4b7a9f9bfe1adc9ade73076cc9770d5d0fe683db397a3376a6cad"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-neutral-front.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-neutral-front.png",
+      "bytes": 293975,
+      "sha256": "ed0406b3736678e986df5e90c8734d7cec88b9560d9d798cfacf993c22350795"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-neutral-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-neutral-left-3q.png",
+      "bytes": 278134,
+      "sha256": "9d8084f90387e46a1f7c1ef426c43979a06daf9f425b9cf2583d8472f16666e2"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-neutral-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-neutral-left-side.png",
+      "bytes": 258918,
+      "sha256": "913defcb370450f918ccfb517cb8769b0317c044aaa2e20155d41f5ba003013f"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-neutral-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-neutral-side.png",
+      "bytes": 275159,
+      "sha256": "42304d352688c2bfde00e55b3ffe1441f653c1d67a801009400033b0f0c24eee"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-open-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-open-3q.png",
+      "bytes": 286983,
+      "sha256": "327422000aaccf8159392d6e19d817c889e224e82f44c266ba8674395d5b79b9"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-open-front.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-open-front.png",
+      "bytes": 295040,
+      "sha256": "ba48485a7d04f70bf114950b639492a72a24c9695be12749b76b5ecace064505"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-open-left-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-open-left-3q.png",
+      "bytes": 278627,
+      "sha256": "cc97a05ba1f955b1c4b6ce6a20f25b7f384abaadc4e31343a5df1c3af1f39d26"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-open-left-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-open-left-side.png",
+      "bytes": 258908,
+      "sha256": "d4d8b7120704abed59e24565ff16dd53d366b4870cc6c56524fc2bde2286ce77"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-open-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-open-side.png",
+      "bytes": 275499,
+      "sha256": "2ec8c607f743dbe0a38de2a9349750334b6d9bbfa35e3d04c5cfb7dceb127bc6"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-recovery-3q.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-recovery-3q.png",
+      "bytes": 286772,
+      "sha256": "c8be5bbadbfdea53dec27b4d3d927e0086d1b4c433bfb050dd198f86e81664ae"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-recovery-front.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-recovery-front.png",
+      "bytes": 293975,
+      "sha256": "1231eb52d6a1fcd857e3c2e8dea9c2baec60e32dc33d4f1af5e4b6b7ce6219a6"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/renders/v004-recovery-side.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\renders\\v004-recovery-side.png",
+      "bytes": 275159,
+      "sha256": "de11ca38610ef9fd7f93a5175ba42b088e0969e6c88dd8b5da9e7bf2d2f81e67"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/repair-report.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\repair-report.json",
+      "bytes": 32567,
+      "sha256": "e2b8e89310c96c3a325f0b277b729a3106706bc1b41fd8176d2a5001d39f0521"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/review.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\review.log",
+      "bytes": 4157,
+      "sha256": "dea6dd420cd782afa61bfdee0d8d30900d745dc61095faf8752d56f01cf00fa7"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/protected-fill-test.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\protected-fill-test.png",
+      "bytes": 718400,
+      "sha256": "e546b9afcc5f1e874ac837cabe963281b08255dec2be6bf12800305e157e9f40"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/returned-image-fbx.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\returned-image-fbx.png",
+      "bytes": 1081364,
+      "sha256": "a5b4eee4c48b5264e33599c6f217e419ff17109ab2211f922795f5400f3b1052"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/returned-image-glb.png",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\returned-image-glb.png",
+      "bytes": 1081364,
+      "sha256": "a5b4eee4c48b5264e33599c6f217e419ff17109ab2211f922795f5400f3b1052"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/returned-uv-changed.npz",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\returned-uv-changed.npz",
+      "bytes": 1205458,
+      "sha256": "970b3ce3d52bb723a20100280d41d6e99a565067ac8a9af7db9aa5eb1a50f874"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/rig-image-only-fbx.blend",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\rig-image-only-fbx.blend",
+      "bytes": 5187512,
+      "sha256": "638e28c75a7442b394afb152393c0c7a2536c879b53f5e82246599eb93f0d342"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/rig-image-only-fbx.glb",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\rig-image-only-fbx.glb",
+      "bytes": 9097272,
+      "sha256": "e61dcb7cfdc308f2cf48aba715c507682fe719b020a087589181005c146c01e1"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/rig-image-only-glb.blend",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\rig-image-only-glb.blend",
+      "bytes": 5187545,
+      "sha256": "e2786a9472d58fd1c893028638473b05342ec8c0b62f16fff29e1a1a2fa6c8e4"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/rig-image-only-glb.glb",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\rig-image-only-glb.glb",
+      "bytes": 9097272,
+      "sha256": "69bf5f0f9e6283145af3c4988bd71803e7afce639ea34d58949709f2274323cc"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/synthetic-return-uv-changed.glb",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\synthetic-return-uv-changed.glb",
+      "bytes": 2781396,
+      "sha256": "c25bca196cbe2fc0b71918c833087374d86421f0912e295b47810badccc9d574"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/synthetic-return.fbx",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\synthetic-return.fbx",
+      "bytes": 2707164,
+      "sha256": "3742119f7604b7c8c240c36f8ef1030f2e3c0f3c2041427c77c18ab1cbc6f958"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/synthetic-return.glb",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\synthetic-return.glb",
+      "bytes": 2784100,
+      "sha256": "854371d065a0f5142d8a2940a27edf8ac4b463881a05f03c29764a660808f34a"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/roundtrip/target-neutral.npz",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\roundtrip\\target-neutral.npz",
+      "bytes": 1188555,
+      "sha256": "1ab8a43ea38bf429564d07dd83e1d3a98ee4d35764ffbdc293cff61ea12037ca"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/saved-return-render.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\saved-return-render.log",
+      "bytes": 1165,
+      "sha256": "52c58150550a92ffbef5191b1cd8c6f36c12dc20bef4485b396d0c11dcf39ca3"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/side-before-after.jpg",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\side-before-after.jpg",
+      "bytes": 274003,
+      "sha256": "d95a6cc820152c7fac70da6adb6a2439200cecc38b76c5fc4ed20fcdbc46279f"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/side-key-poses.jpg",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\side-key-poses.jpg",
+      "bytes": 136228,
+      "sha256": "47ffab5b5f1b97ecb2fc3d5c88bcef0567506b40b84a3f8a1c3d56e5e0b31cf5"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/synthetic-fills.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\synthetic-fills.json",
+      "bytes": 364,
+      "sha256": "13585a5fa568c9c6563ea34b9f21dc2ddb594179e7cf93a7fe327a699ef74c95"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/TechnicalGate.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\TechnicalGate.json",
+      "bytes": 868,
+      "sha256": "8a2907215546790cb33b5895de3af085d7b098ea320f86658822467c70d602b3"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/transfer-progress.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\transfer-progress.json",
+      "bytes": 1043,
+      "sha256": "4713234e8f5ba254538b56dd2874139303bb4c3bda73447dc318a4855234af93"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/transfer-proof.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\transfer-proof.json",
+      "bytes": 2885,
+      "sha256": "8d8a4645ed1aee8f69437d2fabd4f3e09e84dd12f7d07d9fdcf28f9337c06284"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/transfer.log",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\transfer.log",
+      "bytes": 3948,
+      "sha256": "5c130d0a6995ae5a0b4b954feef49ddd0c28b266f448a9bf8c63157de1524c08"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/TripoHandoff.md",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\TripoHandoff.md",
+      "bytes": 2531,
+      "sha256": "27a82dacc0f3fe27ba1676da0cc8d7314217b9463277de7b3c6a290b9370110e"
+    },
+    {
+      "relative_path": "docs/production/jill/mouth-profile-v004/uv-geometry-audit.json",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\mouth-profile-v004\\uv-geometry-audit.json",
+      "bytes": 5682,
+      "sha256": "3f36ed0898b8331dae8db610f9e35b5ca34e8fa4729775ed9efeb9e6be0fde2c"
+    },
+    {
+      "relative_path": "scripts/blender/inspect-jill-mouth-profile-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\blender\\inspect-jill-mouth-profile-v004.py",
+      "bytes": 4427,
+      "sha256": "13774fbc433ad02b252a33fc4fe65d3690782bdf89574a9a4a6ee0fd97e319ec"
+    },
+    {
+      "relative_path": "scripts/blender/prove-jill-mouth-profile-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\blender\\prove-jill-mouth-profile-v004.py",
+      "bytes": 1021,
+      "sha256": "08f1e0494a6d69835baf6e6684adb94c3e619d708c18caabb6ddfe787a2ae9ac"
+    },
+    {
+      "relative_path": "scripts/blender/repair-jill-mouth-profile-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\blender\\repair-jill-mouth-profile-v004.py",
+      "bytes": 6938,
+      "sha256": "15b41957fd61cf5215b33836b57096ea5cd60292578e1c63bd3917c3541ec4d5"
+    },
+    {
+      "relative_path": "scripts/blender/review-jill-mouth-profile-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\blender\\review-jill-mouth-profile-v004.py",
+      "bytes": 2438,
+      "sha256": "89ea569ab692d6fcc3407166b8bbbcf1cf3a83f57de5e6432a0cd4133d510e5d"
+    },
+    {
+      "relative_path": "scripts/blender/verify-jill-mouth-profile-glb-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\blender\\verify-jill-mouth-profile-glb-v004.py",
+      "bytes": 2066,
+      "sha256": "16b2e2c02b36d735065f244f55e690482ee9e4b22ee7b380eac0429cf63ee356"
+    },
+    {
+      "relative_path": "scripts/qa/audit-jill-mouth-profile-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\qa\\audit-jill-mouth-profile-v004.py",
+      "bytes": 399,
+      "sha256": "de024bbfab50fabb70dc90579662ffff887ff6e9b79ba4eff2ee07e60d448a01"
+    },
+    {
+      "relative_path": "scripts/qa/review-jill-mouth-profile-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\qa\\review-jill-mouth-profile-v004.py",
+      "bytes": 6067,
+      "sha256": "b7ac6feb1876ac630d2a119e73c46c4f7deba735608965afb15de4fcc771f41b"
+    },
+    {
+      "relative_path": "scripts/qa/sanitize-jill-mouth-return-v004.py",
+      "path": "C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\scripts\\qa\\sanitize-jill-mouth-return-v004.py",
+      "bytes": 1594,
+      "sha256": "2766378e5f0d96097c22a1d09a076ae05864170ef0445403a25fbdf049b4a5fe"
+    }
+  ]
+}

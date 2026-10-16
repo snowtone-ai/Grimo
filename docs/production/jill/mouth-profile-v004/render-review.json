@@ -1,0 +1,209 @@
+{
+  "comparisons": [
+    {
+      "state": "neutral",
+      "view": "front",
+      "changed_pixels_above_8": 5296,
+      "bbox_above_8": [
+        174,
+        269,
+        306,
+        366
+      ]
+    },
+    {
+      "state": "neutral",
+      "view": "side",
+      "changed_pixels_above_8": 1052,
+      "bbox_above_8": [
+        42,
+        269,
+        100,
+        384
+      ]
+    },
+    {
+      "state": "neutral",
+      "view": "3q",
+      "changed_pixels_above_8": 5519,
+      "bbox_above_8": [
+        105,
+        278,
+        224,
+        374
+      ]
+    },
+    {
+      "state": "close-mid",
+      "view": "front",
+      "changed_pixels_above_8": 6862,
+      "bbox_above_8": [
+        175,
+        268,
+        315,
+        369
+      ]
+    },
+    {
+      "state": "close-mid",
+      "view": "side",
+      "changed_pixels_above_8": 1285,
+      "bbox_above_8": [
+        42,
+        269,
+        100,
+        384
+      ]
+    },
+    {
+      "state": "close-mid",
+      "view": "3q",
+      "changed_pixels_above_8": 6797,
+      "bbox_above_8": [
+        105,
+        278,
+        237,
+        378
+      ]
+    },
+    {
+      "state": "closed",
+      "view": "front",
+      "changed_pixels_above_8": 8960,
+      "bbox_above_8": [
+        168,
+        268,
+        318,
+        370
+      ]
+    },
+    {
+      "state": "closed",
+      "view": "side",
+      "changed_pixels_above_8": 1356,
+      "bbox_above_8": [
+        42,
+        269,
+        100,
+        384
+      ]
+    },
+    {
+      "state": "closed",
+      "view": "3q",
+      "changed_pixels_above_8": 8077,
+      "bbox_above_8": [
+        104,
+        278,
+        241,
+        378
+      ]
+    },
+    {
+      "state": "open",
+      "view": "front",
+      "changed_pixels_above_8": 4529,
+      "bbox_above_8": [
+        174,
+        269,
+        306,
+        370
+      ]
+    },
+    {
+      "state": "open",
+      "view": "side",
+      "changed_pixels_above_8": 1048,
+      "bbox_above_8": [
+        42,
+        269,
+        100,
+        384
+      ]
+    },
+    {
+      "state": "open",
+      "view": "3q",
+      "changed_pixels_above_8": 4870,
+      "bbox_above_8": [
+        105,
+        278,
+        224,
+        378
+      ]
+    },
+    {
+      "state": "blink-mid",
+      "view": "front",
+      "changed_pixels_above_8": 5296,
+      "bbox_above_8": [
+        174,
+        269,
+        306,
+        366
+      ]
+    },
+    {
+      "state": "blink-mid",
+      "view": "side",
+      "changed_pixels_above_8": 1052,
+      "bbox_above_8": [
+        42,
+        269,
+        100,
+        384
+      ]
+    },
+    {
+      "state": "blink-mid",
+      "view": "3q",
+      "changed_pixels_above_8": 5519,
+      "bbox_above_8": [
+        105,
+        278,
+        224,
+        374
+      ]
+    },
+    {
+      "state": "blink",
+      "view": "front",
+      "changed_pixels_above_8": 5296,
+      "bbox_above_8": [
+        174,
+        269,
+        306,
+        366
+      ]
+    },
+    {
+      "state": "blink",
+      "view": "side",
+      "changed_pixels_above_8": 1052,
+      "bbox_above_8": [
+        42,
+        269,
+        100,
+        384
+      ]
+    },
+    {
+      "state": "blink",
+      "view": "3q",
+      "changed_pixels_above_8": 5519,
+      "bbox_above_8": [
+        105,
+        278,
+        224,
+        374
+      ]
+    }
+  ],
+  "neutral_recovery_pixel_exact": {
+    "front": true,
+    "side": true,
+    "3q": true
+  },
+  "human_final_go": false,
+  "note": "Intentional local mouth appearance changes. Pixel differences do not confer Human visual approval."
+}

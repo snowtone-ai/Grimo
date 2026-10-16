@@ -1,0 +1,25 @@
+{
+  "technical_go_candidate": true,
+  "human_visual_go": "PENDING_V004_MOUTH_REVIEW",
+  "human_final_go": false,
+  "human_scope": "Only marked mouth/chin profile correction before next Texture phase; no other geometry work added",
+  "source_head": "9c25c6bf86da6ffcced4439ea2456d112befe98c",
+  "authority_main": "73617ce2d3c724c86aed82dfc2a09cd220e5d194",
+  "resolution_reference": 4096,
+  "measured_8k_only": true,
+  "actual_tripo_execution": "NOT_RUN",
+  "ui_price_original_uv_return": "UNKNOWN",
+  "rig_counts": {
+    "bones": 130,
+    "channels": 39,
+    "morphs": 20,
+    "anchors": 16
+  },
+  "uv_layers_exact_vs_v003": true,
+  "all_key_xz_exact": true,
+  "outside_local_scope_exact": true,
+  "whole_basis_exact": false,
+  "local_original_muzzle_y_edits": 179,
+  "close_exposed_skin_retreat_removed": 52,
+  "no_full_motion_rerun": true
+}

@@ -1,0 +1,137 @@
+{
+  "unchanged_contract_differences": [],
+  "uv_all_layers_exact": true,
+  "uv_layer_hashes": [
+    [
+      "Jill_Texture_UV0_v003",
+      "c051d74b4bdc9304dbac23e96513e02aa4b73a203e8f75454a39fc0b3564fb24"
+    ],
+    [
+      "v002_Previous_Active_Preserved",
+      "bdca9e6f49e2845b6a019f1e7fcde09af8d614d29d410e0e7ed5ecbde53cafbc"
+    ],
+    [
+      "v002_Source_UV_Preserved",
+      "2e12064ded45f56464f12c1360079696c5017ab6cc68e755063b43e8e8f3de9f"
+    ]
+  ],
+  "polygon_indices_and_material_owners_exact": true,
+  "keys": {
+    "Basis": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "FACE_MouthClose": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "FACE_MouthOpen": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "FACE_Smile.L": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "TOUCH_Cheek.L": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "FACE_Smile.R": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "TOUCH_Cheek.R": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "TOUCH_Chest": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "TAIL_Curl": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "WING_Camber.L": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "WING_Camber.R": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_WingOpen.L": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_WingFold.L": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_Shoulder.L": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_WingOpen.R": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_WingFold.R": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_Shoulder.R": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_TailLeft": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "COR_TailRight": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "FACE_Blink.L": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    },
+    "FACE_Blink.R": {
+      "outside_local_scope_exact": true,
+      "xz_exact": true
+    }
+  },
+  "states": [
+    {
+      "state": "neutral",
+      "evaluated_changed_vertices": 1948,
+      "evaluated_max_m": 0.02583560347557068
+    },
+    {
+      "state": "close-mid",
+      "evaluated_changed_vertices": 1948,
+      "evaluated_max_m": 0.04333561658859253
+    },
+    {
+      "state": "closed",
+      "evaluated_changed_vertices": 1948,
+      "evaluated_max_m": 0.06083562970161438
+    },
+    {
+      "state": "open",
+      "evaluated_changed_vertices": 1948,
+      "evaluated_max_m": 0.02583560347557068
+    }
+  ],
+  "original_muzzle_vertices_faired": 179,
+  "close_front_skin_retreat_removed": 52,
+  "counts": {
+    "bones": 130,
+    "channels": 39,
+    "morphs": 20,
+    "anchors": 16
+  },
+  "human_final_go": false,
+  "pass": true
+}

@@ -1,0 +1,267 @@
+{
+  "label": "after",
+  "triangles": 61321,
+  "islands": 2203,
+  "positive_overlap_pairs": 0,
+  "intentional_shared_pairs": [],
+  "overlap_area_pair_sum_uv2": 0.0,
+  "overlap_examples": [],
+  "degenerate_uv_triangles": 0,
+  "degenerate_geometry_triangles": 1,
+  "minimum_island_gap_uv": 0.0058335241238751424,
+  "tile_edge_gap_uv": 0.004917938262224197,
+  "coverage_union": 0.3132343786103405,
+  "groups": {
+    "lids-L": {
+      "triangles": 1792,
+      "uv_area": 0.0005458690509879682,
+      "surface_m2": 0.006274904933939686,
+      "density_uv_per_m_p05_median_p95": [
+        0.2814289441182829,
+        0.29633280884555774,
+        0.3025339769537916
+      ],
+      "anisotropy_p50_p95_max": [
+        1.0485622850685776,
+        1.1642682164114375,
+        1.2591668443625759
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "lids-R": {
+      "triangles": 1792,
+      "uv_area": 0.0005441280286004879,
+      "surface_m2": 0.006254909099335891,
+      "density_uv_per_m_p05_median_p95": [
+        0.2827564720852614,
+        0.29635701173580686,
+        0.3017261576552871
+      ],
+      "anisotropy_p50_p95_max": [
+        1.0351480429627125,
+        1.141846059662062,
+        1.2482396304904686
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "mouth-inner": {
+      "triangles": 1088,
+      "uv_area": 0.000576339953266114,
+      "surface_m2": 0.006385852147198746,
+      "density_uv_per_m_p05_median_p95": [
+        0.27915140362292296,
+        0.29269597336146486,
+        0.3131733340649281
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1244289009956456,
+        1.2713705173263758,
+        1.4013865404822088
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "mouth-skin": {
+      "triangles": 1536,
+      "uv_area": 0.0006987758855280662,
+      "surface_m2": 0.00839772085125651,
+      "density_uv_per_m_p05_median_p95": [
+        0.26181533809019913,
+        0.28721679663599275,
+        0.33632512505279694
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1613286464769583,
+        1.5155146288281962,
+        44.675857821919834
+      ],
+      "area_weighted_anisotropy_gt4": 0.00021314762691484177
+    },
+    "original": {
+      "triangles": 54277,
+      "uv_area": 0.3106655407343899,
+      "surface_m2": 3.5215412538585102,
+      "density_uv_per_m_p05_median_p95": [
+        0.27639581888940207,
+        0.29616838751221136,
+        0.3098933787998214
+      ],
+      "anisotropy_p50_p95_max": [
+        1.096231130877474,
+        1.2938607334013812,
+        100.28244439702894
+      ],
+      "area_weighted_anisotropy_gt4": 5.439234597601352e-05
+    },
+    "teeth": {
+      "triangles": 8,
+      "uv_area": 1.4837267070078042e-05,
+      "surface_m2": 0.00016893469989089297,
+      "density_uv_per_m_p05_median_p95": [
+        0.2857229626814443,
+        0.29435921122063635,
+        0.3071317576282135
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1132201420627468,
+        1.1789603462388731,
+        1.178969186427823
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "tongue": {
+      "triangles": 828,
+      "uv_area": 0.00018888769144131956,
+      "surface_m2": 0.00219705853064629,
+      "density_uv_per_m_p05_median_p95": [
+        0.26651967201833154,
+        0.2954395780226785,
+        0.3247540432165591
+      ],
+      "anisotropy_p50_p95_max": [
+        1.114058987417559,
+        1.3745845669462018,
+        1.5108042005607032
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "eye-L": {
+      "triangles": 93,
+      "uv_area": 0.0028959820164860123,
+      "surface_m2": 0.008323085117367724,
+      "density_uv_per_m_p05_median_p95": [
+        0.5726506485487253,
+        0.5898892984096747,
+        0.606401915244535
+      ],
+      "anisotropy_p50_p95_max": [
+        1.185773466648348,
+        1.257031538439023,
+        1.2969060704146431
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "eye-R": {
+      "triangles": 93,
+      "uv_area": 0.002896593488374566,
+      "surface_m2": 0.008324840267596884,
+      "density_uv_per_m_p05_median_p95": [
+        0.5719333514377457,
+        0.5905887138122207,
+        0.6100247430901053
+      ],
+      "anisotropy_p50_p95_max": [
+        1.2584289561666873,
+        1.3428389061276207,
+        1.5175382434258051
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "wing-L": {
+      "triangles": 4489,
+      "uv_area": 0.013657800461153016,
+      "surface_m2": 0.15701449385585492,
+      "density_uv_per_m_p05_median_p95": [
+        0.2787523700749935,
+        0.2953326753214796,
+        0.3073824208219717
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1134098980745446,
+        1.259564141295203,
+        2.123554568080938
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "wing-R": {
+      "triangles": 4541,
+      "uv_area": 0.013667272795046245,
+      "surface_m2": 0.15712207500912123,
+      "density_uv_per_m_p05_median_p95": [
+        0.27769579386670373,
+        0.29566200234088713,
+        0.3076597792556783
+      ],
+      "anisotropy_p50_p95_max": [
+        1.0977537847321461,
+        1.2970459724176053,
+        1.794893183385811
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "body-L": {
+      "triangles": 10018,
+      "uv_area": 0.060548589671427865,
+      "surface_m2": 0.6953399647446474,
+      "density_uv_per_m_p05_median_p95": [
+        0.27899014253933285,
+        0.29619692662533403,
+        0.30815237796991596
+      ],
+      "anisotropy_p50_p95_max": [
+        1.0882584853476345,
+        1.2511432625630945,
+        11.127387502996221
+      ],
+      "area_weighted_anisotropy_gt4": 0.00013415874716201395
+    },
+    "body-R": {
+      "triangles": 10019,
+      "uv_area": 0.06001230174372546,
+      "surface_m2": 0.6941565448548845,
+      "density_uv_per_m_p05_median_p95": [
+        0.27163089778830324,
+        0.29597495694816306,
+        0.30983235760007444
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1069652420245941,
+        1.347303564517302,
+        15.508925456217725
+      ],
+      "area_weighted_anisotropy_gt4": 0.00014137984171541784
+    }
+  },
+  "resolutions": {
+    "1024": {
+      "minimum_island_gap_px": 5.973528702848146,
+      "tile_edge_px": 5.035968780517578,
+      "pairs_below_8px": 3864,
+      "density_px_per_m_p05_median_p95": [
+        282.4618680456368,
+        303.1810914578783,
+        317.66716670162486
+      ]
+    },
+    "2048": {
+      "minimum_island_gap_px": 11.947057405696292,
+      "tile_edge_px": 10.071937561035156,
+      "pairs_below_8px": 0,
+      "density_px_per_m_p05_median_p95": [
+        564.9237360912736,
+        606.3621829157566,
+        635.3343334032497
+      ]
+    },
+    "4096": {
+      "minimum_island_gap_px": 23.894114811392583,
+      "tile_edge_px": 20.143875122070312,
+      "pairs_below_8px": 0,
+      "density_px_per_m_p05_median_p95": [
+        1129.847472182547,
+        1212.7243658315133,
+        1270.6686668064995
+      ]
+    },
+    "8192": {
+      "minimum_island_gap_px": 47.78822962278517,
+      "tile_edge_px": 40.287750244140625,
+      "pairs_below_8px": 0,
+      "density_px_per_m_p05_median_p95": [
+        2259.694944365094,
+        2425.4487316630266,
+        2541.337333612999
+      ]
+    }
+  },
+  "method": "Shapely exact triangle intersections >1e-12 UV\u00b2. Edge-connected position+UV islands. Exact polygon distance within 32/1024. No overlap inferred intentional. Density/anisotropy per triangle, rest pose; stretch=principal stretch ratio."
+}

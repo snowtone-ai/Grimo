@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "states": [
+    {
+      "state": "close-mid",
+      "corners": 183963,
+      "unmatched_position_owner": 0,
+      "position_max_m": 3.072856600283558e-07,
+      "uv_max": 2.9802322387695312e-08,
+      "pass": true
+    },
+    {
+      "state": "closed",
+      "corners": 183963,
+      "unmatched_position_owner": 0,
+      "position_max_m": 3.072856600283558e-07,
+      "uv_max": 2.9802322387695312e-08,
+      "pass": true
+    },
+    {
+      "state": "open",
+      "corners": 183963,
+      "unmatched_position_owner": 0,
+      "position_max_m": 3.072856600283558e-07,
+      "uv_max": 2.9802322387695312e-08,
+      "pass": true
+    }
+  ],
+  "scope": "Fresh rig GLB changed mouth morphs at close .5/1 and open 1. Does not prove Blender semantic solver or full runtime."
+}
