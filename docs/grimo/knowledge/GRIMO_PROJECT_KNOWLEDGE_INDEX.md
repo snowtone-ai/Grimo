@@ -44,6 +44,8 @@ Use this index to locate durable authority. Current execution truth is not durab
 ## Blender implementation reference (non-authoritative)
 
 - [GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md](character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md) — practical character modeling, sculpt/design insights, deformation and GLB implementation, sourced examples, and validation boundaries. Consult relevant sections for Blender/3D character work; it does **not** override Product Goal, canonical identity, Production Architecture, Production Operating System, or current Carol production state.
+- [Creature deformation and motion principles](character-production/GRIMO_CREATURE_DEFORMATION_AND_MOTION_PRINCIPLES.md) — four-character shoulder/elbow, jaw/mouth, abdomen and contact principles; observations, public primary sources, hypotheses and unknowns are distinguished. Does not override approved appearance or current production evidence.
+
 ## History
 
 `docs/archive/`, Carol evidence, historical source assets, and Git history preserve provenance. They do not override current explicit authority.
