@@ -1,0 +1,46 @@
+{
+  "correspondence": "PASS_BIDIRECTIONAL_TRIANGLE_BIJECTION",
+  "rig_preservation": "PASS_IMAGE_ONLY_DERIVATIVE",
+  "fresh_glb_face_roundtrip": "PASS_BOUNDED_SCOPE",
+  "human_v004_shape_go": "User explicitly reports GO in current task",
+  "human_texture_appearance": "HOLD",
+  "full_motion_production": "NOT_RUN",
+  "general_39_channel_runtime_solver": "NOT_PROVEN_BY_BAKED_REVIEW",
+  "normal_orm": "Not present / not adopted",
+  "texture_limitations": {
+    "quantized_return_uv_step": 0.000244140625,
+    "quantized_return_uv_step_exact": true,
+    "collapsed_return_uv_faces": 988,
+    "collapsed_source_area_4k_texel_squared": 1150.497314453125,
+    "largest_collapsed_source_face_4k_texel_squared": 7.624207496643066
+  },
+  "hold_items": [
+    "Canonical visible-thigh clover is absent in return. Approved Body-only views omit it; new placement/mask requires Human resolution. No speculative duplication or new artwork.",
+    "Closed-lid raised rims / outer-corner gap remain in preserved v004 geometry. No printed open eyes; visual acceptance remains Human.",
+    "Peach/pink horn repair uses Canonical tongue hue on a bounded returned cream region. Horn/leaf boundary and colour need Human review.",
+    "Local cream/green skin continuity and PBR lighting must receive Human appearance judgment; sampled colours are not an approved RGB palette."
+  ],
+  "playcanvas": {
+    "engine": "2.22.2",
+    "scope": "Desktop WebGL2 bounded texture review; no general authoring solver or mobile certification",
+    "mesh_instances": 23,
+    "skin_instances": 23,
+    "morph_targets": [
+      20
+    ],
+    "anchors": 16,
+    "errors": [],
+    "sample_tags": [
+      "blink-full",
+      "blink-half",
+      "combined",
+      "mouth-closed",
+      "mouth-large",
+      "mouth-small",
+      "neutral",
+      "tail",
+      "wings-fold",
+      "wings-open"
+    ]
+  }
+}

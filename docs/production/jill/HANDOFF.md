@@ -1,17 +1,17 @@
 # Jill — NOW
 
-2026-10-16 / `codex/jill-mouth-profile-v004-20261016`。**Human指定の口〜顎の横顔修正を実装し、Texture用v004候補へ更新。修正版のHuman visual GOはPENDING。** 最新Humanは「この修正だけでTripoテクスチャフェーズへ」と指定。他の瞼/翼/葉の造形修正を追加必須化しない。
+2026-10-17 / `codex/jill-texture-return-v005-20261017`。**Human v004形状GOを継承し、Tripo 4K Texture付きblend / GLB / 限定PlayCanvas候補を完成。新Textureの正式外観はHOLD。全Motion量産へ進まない。**
 
-開始 `9c25c6bf86da6ffcced4439ea2456d112befe98c` / clean、再確認main `73617ce2d3c724c86aed82dfc2a09cd220e5d194`。worktree `C:/Users/chidj/.codex/worktrees/jill-pretexture-technical-v003/Grimo` を再利用。旧v002/v003正本・Evidence、元checkoutのShushu変更を保護。
+[Evidence・残課題](texture-return-v005/Evidence.md) / [顔6状態×3視点](texture-return-v005/candidate-face-review.jpg) / [Canonical比較](texture-return-v005/authority-comparison.jpg) / [実PlayCanvas全閉眼](texture-return-v005/jill-v005-blink.png) / [成果README](../../../assets/grimo/production/jill/tripo/texture-return-v005/README.md) / [Gate](texture-return-v005/Gate.json) / [SHA](texture-return-v005/Manifest.json) / [remote照合](texture-return-v005/RemoteReceipt.json)。
 
-[修正前後・Evidence](mouth-profile-v004/Evidence.md) / [横顔主要3状態](mouth-profile-v004/side-key-poses.jpg) / [正面・3Q比較](mouth-profile-v004/front-3q-before-after.jpg) / [反対側](mouth-profile-v004/opposite-side-before-after.jpg) / [投入候補](../../../assets/grimo/production/jill/tripo/mouth-profile-v004/README.md) / [Manifest・SHA](mouth-profile-v004/Manifest.json) / [remote照合](mouth-profile-v004/RemoteReceipt.json)。Rig SHA `df3891bbd11c522631202e0dd32945a788ff370477731568514261a5e4100cb7`。
+形状源は `codex/jill-mouth-profile-v004-20261016` / `3e40a529cee78c521b1de703c2257953e7e4f6f1`。Rig SHA `df3891bbd11c522631202e0dd32945a788ff370477731568514261a5e4100cb7`。元Rig/Canonical/他キャラdirtyは保護。開始main `8b5d13bc38061c0d574444416a039e70b9c61930`。旧v004形状PENDINGは今回のHuman指定でGOとなったがTexture GOは含まない。
 
-原因は別曲面の追加口面と元肌の閉口時35mm後退。追加口面/口内のYを実顔曲面へ合わせ、元口周囲179頂点をYだけfairing、露出肌52頂点の閉口後退を解除。全key各1,948頂点に意図的Y変更。全21 keyのX/Zと局所以外の座標は完全一致。全Basis差0とは言わない。全体remesh/顔再設計なし、130骨/39ch/20 Morph/16 anchor、weights/drivers、polygon頂点順/23材質ownerと3層UVは保持。
+返却実名 `jill-texture-input-neutral-v004.glb.glb`（指定の括弧付き名は不在）、5,055,892 bytes / SHA `e5a76605ca3e6a6f43bc6dc9875d88923cfe3e07b44f3439a9c05e987b1cc117`。返却原本と無変換4K JPEGをsourceへ別名不変保管。材質1/50,698頂点への統合は、軸同一・均一倍率1.00048863888・UV1/4096量子化・seam分割差。位置だけの最近傍ではなくUV/corner/winding/face全被覆を双方向照合し61,321faceの単一対応、23owner復元を証明。微小UV縮退は残るため細部完全復元の主張なし。
 
-neutral/close .5/1/open 1/blink .5/1/復帰のfront/side/3Q、反対側4状態を実renderし開いた。横の板状突出と閉口のギザギザ境界を解消し、他視点の口幅/高さ・目/顔の可愛さを保つ候補。最終visual GOはHuman。neutral復帰は3視点pixel一致/評価頂点差0。
+返却mesh/UVは採用せず正本UVへ画像のみ転写。23材質へUV0明示。v004 host口肌mask / v003 owner mask・瞼・眼周囲・口腔/舌/歯・翼裏/葉根coverageを使用。固定の開眼/開口/二重印刷線を除去し角は桃色の局所候補へ。実JPEG/Canonical採色は暫定、承認RGB/診断paletteではない。
 
-UV0は `Jill_Texture_UV0_v003` のまま。UV1旧active/UV2元sourceも全loop値一致。自動三角形分割16行の変化を再測定し、overlap0/UV縮退0/4K最小島間23.894pxを維持。1K HOLD、2K細部UNKNOWN、4K基準、8K測定上候補。口外肌極小sliverの伸び最大44.676（面積比0.0213%）は既定の同系肌色充填、細密図柄/Normal品質は未保証。既存Geometry縮退1枚は不変。
+保存blend再読込でGeometry・全UV・130骨/39ch/20 Morph/16 anchor・owner/weights/driversの差0。fresh static GLB importは全31,696 source頂点被覆、顔7状態（復帰含む）の位置差最大3.073e-7m。Front/Side/3Qの顔・翼/尾/複合と裏面をactual renderで開いた。PlayCanvas 2.22.2 WebGL2で23skin/20morph/16anchor/4K UV0と9代表状態・短い連続再生・neutral復帰を確認。確認clipは5.875秒、汎用39ch solver/全Motion/mobile認証ではない。
 
-更新したFBX/GLBから診断画像のみRigへ戻し、packed blend保存・再読込とRig GLB fresh importを再確認。UV0明示/130骨/20 Morphを保持。fresh GLBのclose .5/1/open 1は元Rigに位置差最大3.073e-7m、UV差2.98e-8。305frame/全Motion/mobileは重複実行しない。
+**HOLD:** 全閉眼の盛り上がる瞼縁/外眼角の暗い隙間は保持形状に残る。Canonical腿クローバーは返却にもBody-onlyにもなく左右/位置/輪郭のHuman判断が必要。桃色角のmask境界/色、肌green/cream連続性もHuman確認待ち。勝手に造形変更/クローバー創作/外観GOへ進めない。
 
-[Tripo引渡し](mouth-profile-v004/TripoHandoff.md)。必ずv004 neutral FBX/GLBを使う。新たに残す元口周囲肌にも開口印刷を残さないため、既存owner充填に追加host肌maskを適用する。承認palette必須、診断色は正式Textureではない。Original UV不可/不明、返却remesh/owner不明なら停止しRigを置換しない。実UI/料金/Original UV/実返却はUNKNOWN。upload/課金/正式Textureは今回未実施。旧の技術経路/仕様は [v003 Evidence](rig-pretexture-technical-v003/Evidence.md) を継承し、形状NOWはv004で判断する。
+旧形状経緯は [v004 Evidence](mouth-profile-v004/Evidence.md)、塗装契約は [v003 TextureSpec](rig-pretexture-technical-v003/TextureSpec.md) / [v004 TripoHandoff](mouth-profile-v004/TripoHandoff.md)。最新候補はv005、形状正本はv004を維持。

@@ -1,0 +1,678 @@
+{
+  "created_utc": "2026-10-16T22:24:37.619468+00:00",
+  "source_head": "3e40a529cee78c521b1de703c2257953e7e4f6f1",
+  "authority_main_at_start": "8b5d13bc38061c0d574444416a039e70b9c61930",
+  "branch": "codex/jill-texture-return-v005-20261017",
+  "intake_actual_filename": "jill-texture-input-neutral-v004.glb.glb",
+  "intake_requested_filename": "jill-texture-input-neutral-v004.glb(1).glb",
+  "protected_sources": {
+    "v004_rig": {
+      "path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-rig-mouth-profile-v004.blend",
+      "sha256": "df3891bbd11c522631202e0dd32945a788ff370477731568514261a5e4100cb7",
+      "unchanged": true
+    },
+    "v004_neutral_glb": {
+      "path": "assets/grimo/production/jill/tripo/mouth-profile-v004/jill-texture-input-neutral-v004.glb",
+      "sha256": "4646cffdff8248e6e74b1dcd5f1c6095e7ed7af2b7ad7771001c9b22aa662eb2",
+      "unchanged": true
+    },
+    "canonical": {
+      "path": "assets/grimo/source/jill/jill-Identity-canonical.png",
+      "sha256": "a1812e4a450ae2d1b54c2bc78fc2ebedbf9a26be597438d4ace4a327bd309d15",
+      "unchanged": true
+    }
+  },
+  "hash_scope": "Raw workspace bytes; excludes Manifest itself and later RemoteReceipt. Text normalization may differ in git.",
+  "files": [
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-basecolor-resampled-v005.png",
+      "bytes": 12472091,
+      "sha256": "3f8c13ae796edb5d8724d1dbace4aa901ef1c26bd524d5e9ab6b6ad22ba36b85"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-basecolor-v005.png",
+      "bytes": 11941757,
+      "sha256": "1d1c65ed7e08b0085b76e51205b6a5984181ed6e912f3050d8ad7555c83644a9"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-textured-review-bounded-v005.glb",
+      "bytes": 20100840,
+      "sha256": "a57237e88b3bcdc7336ba0d701931fa3dff6fafc4b06ab6f5f44fa0e059c9b7c"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-textured-rig-v005.blend",
+      "bytes": 16071964,
+      "sha256": "457d0aed5e7e07d246f5be0bc1ba228d771b4ee8214c21a51b61c04941914dc3"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-textured-rig-v005.glb",
+      "bytes": 19959712,
+      "sha256": "19b0a55dc997fd54a231acb1ed7ebd0bd5dc27df7fc23682443788934463b57d"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/README.md",
+      "bytes": 1409,
+      "sha256": "28062ecac44d0395e31fe950330a3d35c05609424076e0b0a30e9f5707d7231e"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/source/original-basecolor-0.jpg",
+      "bytes": 2695970,
+      "sha256": "cc11bd0bc9f839ecba4173c4202f770def2c26d8baa4f8564baa646af6913bb7"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/source/tripo-return-original.glb",
+      "bytes": 5055892,
+      "sha256": "e5a76605ca3e6a6f43bc6dc9875d88923cfe3e07b44f3439a9c05e987b1cc117"
+    },
+    {
+      "path": "docs/production/jill/HANDOFF.md",
+      "bytes": 3158,
+      "sha256": "8d3579d48539a6b82242a91fd70dc2f0f749052c40c2cdc87a457211a4f9cf51"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/audit.log",
+      "bytes": 14607,
+      "sha256": "ffb810054c6de0afa1bbbc2c67fba838e16aaa153d012ee0b5e91fa8ce5c0ebd"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/authority-comparison.jpg",
+      "bytes": 328175,
+      "sha256": "e316965b0756a6b61e06be25449bfc3221bffc777cc2e71e59069d90142b2bce"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/body-motion-review.jpg",
+      "bytes": 385853,
+      "sha256": "7d62e81371dc1a0c6f5a59089fa90a53958d157b2d7b8a5eaf924b60272a522a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/build.log",
+      "bytes": 1086,
+      "sha256": "3165e1ad86c6fbfbe81acbf771c64a3b5cca4854c617bd7a718714ad1178cbfc"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/candidate-face-review.jpg",
+      "bytes": 722908,
+      "sha256": "8d7cd4c955e542763ea494ccd07974a76e0f4558628f8f8bf75fdab797434f96"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/canonical-mouth-samples.png",
+      "bytes": 134708,
+      "sha256": "1c3a6c07c33ebe452fa566fd03d72cf65269d537c4c4ed977784884f99e61e98"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/clip.log",
+      "bytes": 820,
+      "sha256": "6c28d9752cbce62309ef320907528494f2e09da7829012f19f54929bb5471b5d"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/correspondence.json",
+      "bytes": 19232,
+      "sha256": "5a400adebb691320e10d6ed8f367df053601035f1a49c3f497f21db6807cbd2f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/Evidence.md",
+      "bytes": 8154,
+      "sha256": "8a42ccd59abbe07fc19c1c7f59d3d20eda7906344b0e8555fa73a3098e583c15"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/face-owner-correspondence.npz",
+      "bytes": 1639126,
+      "sha256": "4e997023a11e84f2a61d2ad1fe728bd64661b0e39134167349aa5823ece92a3c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/Gate.json",
+      "bytes": 1907,
+      "sha256": "2dc89ca259b41b4dd4e01c32042089e1ac4b750365c239740037305ea0d7b2c4"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/glb-inspection.json",
+      "bytes": 66764,
+      "sha256": "6f278dbdb3c95bca0f929aebba741f474bb79f46d03047bbe3e0474945e1cc5b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/horn-review-mask.png",
+      "bytes": 31724,
+      "sha256": "a0ba7d69198f6c04fa7d8f8d915e8b4d913921987fee601900d0c9141f29109e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/host-eye-ring-mask.png",
+      "bytes": 27174,
+      "sha256": "43777fc8b0d893eccd0c19007eab0b290e57c9191fd4ceb4cb3ad1af6c1fb8ae"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/host-upper-mouth-mask.png",
+      "bytes": 20123,
+      "sha256": "157a61f7aadc6ad1dbb9bb8b591818638e768f998d29741cc359cf0ef5543b1b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/jill-v005-blink.png",
+      "bytes": 761608,
+      "sha256": "77e806e619a4ca3178f7007c94133e57d30ae9debe1d1249dfd799d3621c84b0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/jill-v005-closed.png",
+      "bytes": 807441,
+      "sha256": "4f1c6f3d59421889264e55f1088fcce3130ebea0b14d14669b424956f8a87b2e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/jill-v005-combined.png",
+      "bytes": 456123,
+      "sha256": "786eb87d54ff38fbe4aade11c514755481ba801e7b68aae8557bdc237be7e14d"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/jill-v005-large.png",
+      "bytes": 810520,
+      "sha256": "8491ab2b3116e7b8a3a6a881a094819ee0863136f5660c2387acdcf4db678c50"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/jill-v005-neutral.png",
+      "bytes": 810354,
+      "sha256": "7328c3e5b67f9225871b4dc3ee01a1308d47f887526181d2964ba7f6b49dd0a5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/lid-closed-height.npz",
+      "bytes": 22370,
+      "sha256": "e027c24b950b9c68e3521352bce397f2857bf71980d50eb34be8648af4b80488"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/lid-colour-field.json",
+      "bytes": 236,
+      "sha256": "7441b62db91b820403db90aedf01b2fce33c1f9afe0995281860f0563a33c638"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/lid-field.log",
+      "bytes": 277,
+      "sha256": "0c8aa2642e35f29a75e76e5e9724a2a4b0814066cc4819fbdeec781ceac52269"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/original-basecolor-preview.png",
+      "bytes": 1338053,
+      "sha256": "51bead36575fbe8ea10816b0a1ecb9014146318022ed662c73ef385beaf94957"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/owner-boundary-diff.png",
+      "bytes": 13612,
+      "sha256": "84c4792eb7c1715193e6df1e7bd614aeb06251a391918f941e7ca08e1448a6d3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/playcanvas-runtime.json",
+      "bytes": 868888,
+      "sha256": "64c5e8fbba19520b2709de397165de719f3b6ed350b7e04bf5ade63f439b7e7b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/preservation.json",
+      "bytes": 1732295,
+      "sha256": "dd9ca3085f9c5067d9468f54538629c9aa00a87bb175bc639a66ccec4822666c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/raw-face-review.jpg",
+      "bytes": 390517,
+      "sha256": "8ef5bfe9cdbbea539637102eaea197aad0f1bd2d24a98e1ba1849b706e0ce9f0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/raw-render.log",
+      "bytes": 2525,
+      "sha256": "7ee4d41c05e144a13528fc7db9b5cc8c8f3c0b240fd5b09f1f0a2511e880d783"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/raw-vs-repaired.jpg",
+      "bytes": 485993,
+      "sha256": "20994ed70f2d0b9a9ec6fe02a96c86693a47b65cebc535c8e008cf973de9deaa"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/reimport-proof.json",
+      "bytes": 1367,
+      "sha256": "c737fa5df6deb7bb0ebe34e6f37834c2c251d7e00bded95e2311e3cd3f74c64e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/reimport.log",
+      "bytes": 6431,
+      "sha256": "70bc48b3b6e3f0101c0b6d67471100958f0ae8634b435899f88ffaeef792d037"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/render.log",
+      "bytes": 8749,
+      "sha256": "723ecf1a4dcb0d993b98ad309b1a28e157d53329d3452d3b127f72bd613cc1ef"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-blink-full-3q.png",
+      "bytes": 523684,
+      "sha256": "c9552eb330171ebd46c7f092732cda27e8cc254ed7adfbdb9243b6377316570c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-blink-full-front.png",
+      "bytes": 538588,
+      "sha256": "6d651554730a7738222172521de4e836ecbefcbc4195fe1d0555559b072624fd"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-blink-full-side.png",
+      "bytes": 510193,
+      "sha256": "3a3aab8437100bf8d4c0429396771c73920f73075b2e985a3d9d246c1bcb3c20"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-blink-half-3q.png",
+      "bytes": 535339,
+      "sha256": "7ff28ea0e2214950a26dab2f42962ebb3755bb11732f941a24ff053f159ce9e5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-blink-half-front.png",
+      "bytes": 550426,
+      "sha256": "e8b6b27e08bc2557b5c20bbcad8bf7d6a67a8fbd972faa6415517e476238600f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-blink-half-side.png",
+      "bytes": 515392,
+      "sha256": "c71b43805330502af4af70c834843d52b202f0782b226e40df986ea3e202ce71"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-body-3q.png",
+      "bytes": 391114,
+      "sha256": "2af6197720aa79463672ba35cb7d49cbc5314caf70acf784abaa8b6908916823"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-body-back.png",
+      "bytes": 379361,
+      "sha256": "6dbd89211a8467ebea09d91817db57f1037f233cb7c0029b0a5822db30eea892"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-combined-3q.png",
+      "bytes": 396519,
+      "sha256": "d28f2ca87eefa0a8ce236ce157188496b77f03cb3c53b8fee83c1ff3b3002ab5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-combined-back3q.png",
+      "bytes": 386324,
+      "sha256": "1481ffb74a7748459e7ad055c32cbe4fef6e3b9d99c655904643a138e61c0d15"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-combined-front.png",
+      "bytes": 395795,
+      "sha256": "2e45ac99c674e15bc210b96df1281f287926840ff3bd8e883099def3a45c69cf"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-combined-side.png",
+      "bytes": 384165,
+      "sha256": "e4768f933c49380d36e502451e4e9f4558e215541bbe8d00f41e09a36ec34ea3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-closed-3q.png",
+      "bytes": 535164,
+      "sha256": "9ca2cc904861a9b283da05435c7c3e154ed16c86be173b0fe1810264cde8bcd2"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-closed-front.png",
+      "bytes": 549520,
+      "sha256": "dfa18a74be45217ba1ec1d4ab3229a9122b1cf5d44ef91925a68493a2092f728"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-closed-side.png",
+      "bytes": 518262,
+      "sha256": "217bb698f444ddf67223883254e817caab90eeb8460be0879a0db404382d5912"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-large-3q.png",
+      "bytes": 539883,
+      "sha256": "766d01221c50165d62a856bfbf2801acec8797a52935e75170beb2ee8cc05ea2"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-large-front.png",
+      "bytes": 555220,
+      "sha256": "526827ae6ce5aee40525af36670da0b4abd31aca1c6cbe9046e732425c039cff"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-large-side.png",
+      "bytes": 517931,
+      "sha256": "5d93a82f9a338375ad766afe4290187d432825450d725e1ba3e0037dade9a36c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-small-3q.png",
+      "bytes": 537559,
+      "sha256": "d58059879598b84ac551d064212cb2e71895c777c2e6c89baf64a7f55a2e6b75"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-small-front.png",
+      "bytes": 551922,
+      "sha256": "8108fba04839568317dad1a5a2508568f9dae65e248bd0e1c83947c940e93905"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-mouth-small-side.png",
+      "bytes": 517893,
+      "sha256": "e7b4db4d3cda14e95db84dfdb7c78968638f47f7ab356d29d22749ddbeb16f55"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-neutral-3q.png",
+      "bytes": 539521,
+      "sha256": "739e5fe402aee7486a92b29a695a989d816b47dd629b5b839165ccd13998a991"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-neutral-front.png",
+      "bytes": 553751,
+      "sha256": "deccb01439a836312089ec4914ae30e377d0b8c5967c4c624cece2466a6833ec"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-neutral-side.png",
+      "bytes": 518113,
+      "sha256": "37eabfa644bc22496b59820908571f6a39d042f6511e8009cfb3ffec3c6931d5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-recovery-3q.png",
+      "bytes": 539521,
+      "sha256": "a3803d8b22d053ecf584372fa3cbac40a84d888b522f3bc219948c2928837c33"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-recovery-front.png",
+      "bytes": 553751,
+      "sha256": "bae4c7045d2fce9edcc467eacbe61b2da6a6b6393b12bd59dcb6b4e00b1309e2"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-recovery-side.png",
+      "bytes": 518113,
+      "sha256": "1d731b59a23d21343dcee022d4f4cec5d23e3caffbe0e08d32cd0768e6d9340a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-tail-3q.png",
+      "bytes": 389643,
+      "sha256": "e2d8034965e2b6d17cba0204029e81de047506122f3bb9ddb1fd791185eab0f7"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-tail-back3q.png",
+      "bytes": 386914,
+      "sha256": "c0b2d4c8f85acbd537fef035db1d30204bb6287419d4992e52edc3ec4e7cbfcc"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-tail-front.png",
+      "bytes": 391227,
+      "sha256": "68b219768720ce841c0a64754114acd201d3cb50150c06a72bd39775c9217d93"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-tail-side.png",
+      "bytes": 387314,
+      "sha256": "1c173ef5f98fb3806bb03c4262a47d620c8dac62bb06cbed9153a0c9d7abfe61"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-fold-3q.png",
+      "bytes": 387359,
+      "sha256": "153a139ed7fb6993cf8072a70ee09178cdb244178044f28679aa36698db0d308"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-fold-back3q.png",
+      "bytes": 381827,
+      "sha256": "a51b13886de9786554df42070ee943972a1771ff844fc6f90b517ee5df9718ea"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-fold-front.png",
+      "bytes": 382772,
+      "sha256": "f7676c17c9ddc102b0d30cfd0acc92310a96fb468bac8c6ddd6622d1d9ff8972"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-fold-side.png",
+      "bytes": 392768,
+      "sha256": "2b779607b5fca265df3d57b8722ee821a6a57219f4f70a9d03a1fb85e268b5c7"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-open-3q.png",
+      "bytes": 395916,
+      "sha256": "ab9afe31ed995aea0e71709d6ea9668200fb41124bfb2d8d863d03431d30a963"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-open-back3q.png",
+      "bytes": 389586,
+      "sha256": "f0d9cdd0db85b7c65730531cab7e6f4df26c80243981ef05238225b954fa1225"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-open-front.png",
+      "bytes": 398459,
+      "sha256": "5af44e5b2a69ea2382c7ada177973a96e8ce3bcc3ca85d8aeb0ed6f817e784f5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/candidate-wings-open-side.png",
+      "bytes": 384124,
+      "sha256": "a78edab561396515c9aef4d8b422db163aa6281b7ffbe138452bfccaed359b68"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-blink-full-3q.png",
+      "bytes": 542414,
+      "sha256": "f02aba0d51a22accf226f1e108e57e91edd38ca33ffae734e05768ecda065e4b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-blink-full-front.png",
+      "bytes": 558393,
+      "sha256": "555b67c75f741112ee95336e75b8ab90968a4e8ea2c192cd49e4afa26ef647ba"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-blink-full-side.png",
+      "bytes": 519170,
+      "sha256": "df81f93e9312d67cc12163e63d2c86eb4fe12a8291643073edd6031ec84f8e7c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-body-3q.png",
+      "bytes": 392718,
+      "sha256": "9adb1bfbc4f7614755e577888dc39a94def92fdfb1975ac4d85e28032db44b58"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-body-back.png",
+      "bytes": 379688,
+      "sha256": "03a43bf9fe2a744436514172b9aca42016b8ef7246309015ac98c74575fe9c00"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-mouth-closed-3q.png",
+      "bytes": 547041,
+      "sha256": "60df00a6fe256cc96cfb018a310510299982dfa685a5ddb7ce599ea442f722a6"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-mouth-closed-front.png",
+      "bytes": 562077,
+      "sha256": "653584ff95b7397ea09e53aeb3141d99703fa01e6da6bf1d633a24d537d14b11"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-mouth-closed-side.png",
+      "bytes": 522906,
+      "sha256": "b1b8a01c0dc9521ea5c40d890df2db57908ea8726604aa76a88a2bebfd0e1462"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-neutral-3q.png",
+      "bytes": 550264,
+      "sha256": "34551cd5d5706471c10ec11357319e49546592127ca2139d495ba16b881e5561"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-neutral-front.png",
+      "bytes": 565191,
+      "sha256": "1a2d4fa6e880ecbd6f2797d120f08d2d5e87649a85b9dd64f4301a5b2b6cdda5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/raw-neutral-side.png",
+      "bytes": 522682,
+      "sha256": "62e835fcda160274f0efb21c9fefd3f3ddb84297d318e1dbecd6f36f85ee66f6"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-blink-full-3q.png",
+      "bytes": 517842,
+      "sha256": "9add0fa68871e2df2912dc30c2ee55d58310bfa292817d349dbb321e8609d0d5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-blink-full-front.png",
+      "bytes": 546416,
+      "sha256": "897935f942ff48803c6b83460aee6f876a86f4c4bed25cd495a746324dd37cbf"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-blink-full-side.png",
+      "bytes": 495390,
+      "sha256": "21791017896c1578f7d34c015ffce9dee97efee13cf2932298a01c85d296bde2"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-blink-half-3q.png",
+      "bytes": 526882,
+      "sha256": "3131c4672c9e7f1d3230b94c631de1a60d9139e26c511c89d5a512ea3e19969b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-blink-half-front.png",
+      "bytes": 556077,
+      "sha256": "655e6cb2c62106dff1dacc23d3fac9fbb0f9e11572b2b3f4157a8ddbff33a2d3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-blink-half-side.png",
+      "bytes": 499704,
+      "sha256": "2d7162c8eb3a86273a47ae9b9525ff9580cdd86e32bb3375fb0aad17641c6b8a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-closed-3q.png",
+      "bytes": 526614,
+      "sha256": "481e3d8a1b032509d1e416c1674d3d613151b4d298ba8c9e40b26be735c3b3d0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-closed-front.png",
+      "bytes": 554659,
+      "sha256": "8fd078cae5eba89b7b2f6a06b3ab59a255f8cbd8786d17cf9524de7dfc733f34"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-closed-side.png",
+      "bytes": 502866,
+      "sha256": "9011cafae2b8a38bca23773831de7debe4981679ee439c9f613fa651ed9c66f1"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-large-3q.png",
+      "bytes": 531580,
+      "sha256": "a0b669d3a8ebccb43a6093a3573d96c78740dd6a4496d990f11058f6f36d2809"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-large-front.png",
+      "bytes": 560553,
+      "sha256": "20c33c4e1588dc9699dccc23d0c8454c52c5ab94bf7b6feeb679d07f9a361619"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-large-side.png",
+      "bytes": 503290,
+      "sha256": "860d0001544437e005c3586384ee66bf1d935bea21600096ed72b9870d95b24b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-small-3q.png",
+      "bytes": 528498,
+      "sha256": "7ce47fee31292bb9c0ca777f1eba2946dce06f5a911e84d3ca8063906db661ba"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-small-front.png",
+      "bytes": 557066,
+      "sha256": "76fce1653385f39fc78c29f56dade004d83265ea0135a343e21388811e790cb5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-mouth-small-side.png",
+      "bytes": 502705,
+      "sha256": "7eaec86e61d50f9c4b8c14757160ca2c633e20b79195766d2ad16912752a2749"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-neutral-3q.png",
+      "bytes": 530657,
+      "sha256": "5555fa3ee6c3b60a9d02b7a41b38882ae78eb3b3ab9a2bdd3aab7bd110500a55"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-neutral-front.png",
+      "bytes": 559051,
+      "sha256": "2e9ab43e7d1f249f75e9bddae345460acd78a72aeefaf867549c794faa1033af"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-neutral-side.png",
+      "bytes": 503308,
+      "sha256": "0a564a0ea8b0dd1b97bc0685f14a1b8ef54fe94be27ed311957f12d62d30f959"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-recovery-3q.png",
+      "bytes": 530657,
+      "sha256": "2bda3848509a5660f3964e4344984ebd0bf3f663d274755bc8692076d679a4a4"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-recovery-front.png",
+      "bytes": 559051,
+      "sha256": "928af3da1882f2e989d3b669fb4c7466f3bf28276f5a824eba22efe2fce8b9d3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/renders/reimport-recovery-side.png",
+      "bytes": 503308,
+      "sha256": "e34ac5c85b517c70db7f9a8e9d66a9a350330dd6c7d19d5e0a5da114d3e43c5e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/repaired-atlas-preview.png",
+      "bytes": 1333888,
+      "sha256": "8dd57095379ef7b74f55c00b1b7f42454163a0b8e05b454dd989e0223f131dc2"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/resampled-owner-mask.png",
+      "bytes": 288111,
+      "sha256": "32a9f9e69f312a071afb1876eb04e764be70ac70107a1d19db47ed39eaef72ca"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/review-states.json",
+      "bytes": 428979,
+      "sha256": "44458abcb04838a49cf3396c8397c5bda402d652545b6d478996380388873fa3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/runtime-schedule.json",
+      "bytes": 1207,
+      "sha256": "3d8821a223abf9f5ce67f265d24946141eedc679e08d1099a0afc638a2b918b0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/runtime-validation.json",
+      "bytes": 2069,
+      "sha256": "ce65e490b23e57289a98ae5f3c055d18d740ed2582a86fbdcc2b0c78cf35ea38"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/saved-vs-reimport.jpg",
+      "bytes": 367821,
+      "sha256": "7963736b30fe8299cb8673950430b616c8efbe43f5a7586db911165f38a59d9c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/texture-repair.json",
+      "bytes": 5151,
+      "sha256": "be310b379edabed7d2c96de320d5bf24ee27537ba3b84f09198e2ed44136dfea"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/texture-transfer.log",
+      "bytes": 5151,
+      "sha256": "be310b379edabed7d2c96de320d5bf24ee27537ba3b84f09198e2ed44136dfea"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/serve.mjs",
+      "bytes": 1837,
+      "sha256": "ea9ef2c0f976e409824d1a819f4be73188ed6480bf286da1039481789ef157c0"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/viewer.html",
+      "bytes": 1016,
+      "sha256": "f262cfbca6af2c81c8803abd43344123e6e08ddd581a82c1ef80276f458f2051"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/viewer.mjs",
+      "bytes": 4782,
+      "sha256": "253a8ce35af65ca7f713e876d2980e629cf9d1bfbacbecfbcc0f9cc6808fd80a"
+    },
+    {
+      "path": "scripts/blender/audit-jill-tripo-return-v005.py",
+      "bytes": 9229,
+      "sha256": "a60d6a0455ae541fd38e70f840e21d7003ae1f6a6277aaa94de1d11f3feda971"
+    },
+    {
+      "path": "scripts/blender/jill-texture-review-v005.py",
+      "bytes": 10401,
+      "sha256": "811c7a9ff7d6d980a9498a43cd86e30757eb8cdfd400ec01df8bd7daa478ebd3"
+    },
+    {
+      "path": "scripts/blender/verify-jill-texture-glb-v005.py",
+      "bytes": 5407,
+      "sha256": "beff1215a925fca3782f1fc00e5e4c6c232d2cb2fab86917805c2225a058523e"
+    },
+    {
+      "path": "scripts/qa/package-jill-texture-v005.py",
+      "bytes": 7082,
+      "sha256": "001fd74ed6338cd128cd6e621223b3435704734596a1ed93d09dc1c07e97968f"
+    },
+    {
+      "path": "scripts/qa/transfer-jill-basecolor-v005.py",
+      "bytes": 10128,
+      "sha256": "8f8d5c1e8584e5c9856c09acbe6dcac1329db77a303eec10880d29ad8761871b"
+    },
+    {
+      "path": "scripts/qa/verify-jill-runtime-v005.py",
+      "bytes": 2622,
+      "sha256": "f1954d6dfd51f99f62f95401554806534b9f01ad1e0aa64b1d4c4e3131ebaa41"
+    }
+  ]
+}

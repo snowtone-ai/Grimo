@@ -1,0 +1,206 @@
+{
+  "palette_authority": "PROVISIONAL skin samples from actual 4K Tripo BaseColor; oral/tongue/teeth are directly sampled from approved Canonical. No new Human RGB swatch approval inferred. No diagnostic palette used.",
+  "canonical_samples_xy": {
+    "mouth-inner": [
+      1100,
+      380
+    ],
+    "tongue": [
+      1100,
+      430
+    ],
+    "teeth": [
+      1077,
+      395
+    ]
+  },
+  "sampled_rgb": {
+    "lids-L": [
+      176,
+      230,
+      93
+    ],
+    "lids-R": [
+      176,
+      230,
+      93
+    ],
+    "mouth-skin": [
+      244,
+      236,
+      151
+    ],
+    "mouth-host-skin": [
+      244,
+      236,
+      151
+    ],
+    "mouth-inner": [
+      152,
+      48,
+      31
+    ],
+    "tongue": [
+      247,
+      163,
+      139
+    ],
+    "teeth": [
+      245,
+      242,
+      242
+    ]
+  },
+  "collapsed_return_uv_triangles_by_source_owner": {
+    "leaf_neck_R_surface": 69,
+    "body_skin": 280,
+    "wing_R_back": 4,
+    "wing_R_front": 14,
+    "wing_R_edge": 3,
+    "leaf_neck_R_root": 1,
+    "leaf_head_R_surface": 27,
+    "leaf_head_L_surface": 41,
+    "leaf_tail_R_surface": 84,
+    "leaf_tail_R_root": 13,
+    "leaf_neck_L_surface": 4,
+    "wing_L_edge": 1,
+    "wing_L_back": 7,
+    "wing_L_front": 10,
+    "leaf_neck_L_root": 2,
+    "lids-L": 77,
+    "lids-R": 64,
+    "mouth-skin": 5,
+    "mouth-inner": 158,
+    "tongue": 124
+  },
+  "resampled_surface_pixels": 5255104,
+  "changes": [
+    {
+      "mask": "mouth-skin",
+      "surface_pixels": 12937,
+      "with_gutter": 25638,
+      "colour": [
+        244,
+        236,
+        151
+      ]
+    },
+    {
+      "mask": "mouth-inner",
+      "surface_pixels": 10094,
+      "with_gutter": 14485,
+      "colour": [
+        152,
+        48,
+        31
+      ]
+    },
+    {
+      "mask": "tongue",
+      "surface_pixels": 3752,
+      "with_gutter": 10209,
+      "colour": [
+        247,
+        163,
+        139
+      ]
+    },
+    {
+      "mask": "teeth",
+      "surface_pixels": 373,
+      "with_gutter": 2047,
+      "colour": [
+        245,
+        242,
+        242
+      ]
+    },
+    {
+      "mask": "v004-mouth-host",
+      "surface_pixels": 18186,
+      "with_gutter": 23192,
+      "colour": [
+        244,
+        236,
+        151
+      ]
+    },
+    {
+      "mask": "lids-L",
+      "surface_pixels": 9199,
+      "filled_with_gutter": 25158,
+      "colour": "actual-face-sampled green/cream vertical blend; explicit source/raster mask union and gutter"
+    },
+    {
+      "mask": "lids-R",
+      "surface_pixels": 9149,
+      "filled_with_gutter": 26531,
+      "colour": "actual-face-sampled green/cream vertical blend; explicit source/raster mask union and gutter"
+    },
+    {
+      "mask": "host-eye-ring",
+      "surface_pixels": 91447,
+      "colour": "same local sampled skin field; avoids a fixed second eyeliner"
+    },
+    {
+      "mask": "host-upper-mouth-mask.png",
+      "surface_pixels": 12172,
+      "colour": "same sampled muzzle cream; fixed upper-mouth lines only, nose excluded"
+    },
+    {
+      "mask": "horn-review-mask.png",
+      "surface_pixels": 105541,
+      "colour": "Canonical tongue pink hue, preserves horn luminance; Human boundary/colour review required"
+    }
+  ],
+  "human_visual_go": false,
+  "hidden_owner_coverage": {
+    "leaf_neck_L_root": {
+      "mask_pixels": 97860,
+      "resampled_pixels": 94711,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "leaf_neck_R_root": {
+      "mask_pixels": 163870,
+      "resampled_pixels": 158281,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "leaf_tail_R_root": {
+      "mask_pixels": 21592,
+      "resampled_pixels": 20505,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "wing_L_back": {
+      "mask_pixels": 107578,
+      "resampled_pixels": 104431,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "wing_L_edge": {
+      "mask_pixels": 22712,
+      "resampled_pixels": 21271,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "wing_L_front": {
+      "mask_pixels": 106882,
+      "resampled_pixels": 103481,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "wing_R_back": {
+      "mask_pixels": 107655,
+      "resampled_pixels": 104422,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "wing_R_edge": {
+      "mask_pixels": 22514,
+      "resampled_pixels": 20952,
+      "action": "retained actual returned art; real posed renders required"
+    },
+    "wing_R_front": {
+      "mask_pixels": 107611,
+      "resampled_pixels": 103869,
+      "action": "retained actual returned art; real posed renders required"
+    }
+  },
+  "clover": "HOLD: verify rendered thighs against canonical; no invented or mirrored clover artwork.",
+  "output_sha256": "1d1c65ed7e08b0085b76e51205b6a5984181ed6e912f3050d8ad7555c83644a9"
+}

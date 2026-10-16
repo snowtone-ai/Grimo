@@ -1,0 +1,78 @@
+{
+  "pass": true,
+  "scope": "Real Desktop WebGL2 2.22.2; bounded baked clip only, no general channel solver/full motion/mobile claim",
+  "model_sha256": "a57237e88b3bcdc7336ba0d701931fa3dff6fafc4b06ab6f5f44fa0e059c9b7c",
+  "states": [
+    {
+      "state": "neutral",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "mouth-closed",
+      "morph_max_delta": 3.973641571342057e-08,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "mouth-small",
+      "morph_max_delta": 3.973638729171114e-08,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "mouth-large",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "blink-half",
+      "morph_max_delta": 1.5894532179316911e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "blink-full",
+      "morph_max_delta": 3.1789087096001367e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "wings-open",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "wings-fold",
+      "morph_max_delta": 6.357781039412203e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "tail",
+      "morph_max_delta": 4.450448773951621e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "combined",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    }
+  ],
+  "representative_bone_motion": {
+    "wings-open": {
+      "bone": "DEF_wing_outer.L",
+      "world_displacement_m": 0.03141826317681382
+    },
+    "wings-fold": {
+      "bone": "DEF_wing_outer.R",
+      "world_displacement_m": 0.05680612909393997
+    },
+    "tail": {
+      "bone": "DEF_tail_02",
+      "world_displacement_m": 0.011756162940117332
+    },
+    "combined": {
+      "bone": "DEF_head",
+      "world_displacement_m": 0.0003299735921201101
+    }
+  },
+  "captured_samples": 331,
+  "neutral_recovery": true,
+  "human_visual_go": false
+}
