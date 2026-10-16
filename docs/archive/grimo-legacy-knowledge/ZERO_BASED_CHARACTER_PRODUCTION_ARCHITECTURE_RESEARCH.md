@@ -1,6 +1,5 @@
 # Grimo Character Production Architecture — Zero-Based Deep Research
 
-
 > **Current status note — 2026-09-23**
 >
 > This document is retained as **architecture-research provenance**, not as an
@@ -14,7 +13,6 @@
 > are superseded. Pixel 7a-class remains an **UNVERIFIED_TARGET**; current
 > real-device evidence is Xiaomi 14T Pro. Preserve the research evidence and
 > comparisons; do not reinterpret this note as discarding the study.
-
 
 ## 最重要結論と Executive Recommendation
 
@@ -53,8 +51,7 @@ Creaturesの公式インタビューでも、ポケモンの3D化は単純なイ
 ここで重要なのは、**Unityを低品質だから落とすのではありません**。Unity 6.6は現在mobile browser向けruntimeの改善、WebGPU、progressive asset loading、Animation State Machine、Layer、Maskなどを備えており、昔の「Unity Webはスマホ非対応」という評価は既に古いです。citeturn17search2turn26search1  
 それでもGrimoではPWAそのものが製品であり、キャラクターはその中の一部です。Wasmでゲームエンジン全体を抱えるより、Webアプリと同じ実行環境にcharacter runtimeを置ける方が、ロード、状態同期、DOM/UI統合、Codexによるコード操作、profiling、自動テストまで含めて有利だと判断します。これは **[D/E]** です。
 
-**重要な調査制約**も先に明示します。今回の環境ではConnected Google Driveで `GRIMO_TECHNOLOGY_AGNOSTIC_MINIMUM_REQUIREMENTS`、`Carol canonical`、さらに `Grimo` 全体を検索しましたが該当ファイルを取得できず、conversation側のFile Search sourceも提供されていませんでした。したがって、**4枚のcanonical画像を実際に視覚確認した、とは報告できません**。Carol/Jill/Pino/Shushuについて以下で行うgeometry-levelの判断は、今回の依頼文に明示された「huge fleece / tiny cream face / leaf / wing / water / flowers」等を材料にした **[E — provisional recommendation]** です。  
-この制約はarchitecture全体の比較結果を逆転させるほどではありませんが、**Carolがfull 3Dでcanonical identityを維持できるかというGate Aだけは未通過**です。ここを誤魔化してfull 3D採用済みと扱うべきではありません。
+**重要な調査制約**も先に明示します。今回の環境ではConnected Google Driveで `GRIMO_TECHNOLOGY_AGNOSTIC_MINIMUM_REQUIREMENTS`、さらに `Grimo` 全体を検索しましたが該当ファイルを取得できず、conversation側のFile Search sourceも提供されていませんでした。したがって、**4枚のcanonical画像を実際に視覚確認した、とは報告できません**。Jill/Pino/Shushuについて以下で行うgeometry-levelの判断は、今回の依頼文に明示された「huge fleece / tiny cream face / leaf / wing / water / flowers」等を材料にした **[E — provisional recommendation]** です。
 
 本レポートの証拠ラベルは、指定どおり **[A] Primary、[B] Strong secondary、[C] Observable footage、[D] Inference、[E] Recommendation** とします。
 
@@ -105,13 +102,13 @@ CEDEC講演を取材した複数の技術媒体は、そこからさらに、
 
 とはなりません。
 
-Game Freak側の問題は1000種超のproduction scalabilityです。Grimoは4体です。Grimoが盗むべき原理は、
+Game Freak側の問題は1000種超のproduction scalabilityです。Grimoは3体です。Grimoが盗むべき原理は、
 
 **rigそのものの共通化ではなく、semantic contract・tools・validation・export schemaを共通化すること**
 
 です。[D/E]
 
-たとえば4体すべての骨を同じにする必要はありません。しかし全キャラクターが、
+たとえば3体すべての骨を同じにする必要はありません。しかし全キャラクターが、
 
 ```text
 head
@@ -688,11 +685,7 @@ limit / damping / pose clamp
 
 とします。
 
-Carolのfleece全体をsoft-body simulationする案は**No-Go**です。[E]
-
 huge fleeceがidentityの中心なら、外形はartist-controlledであるべきです。
-
-Carolでは、
 
 - main fleece mass：stable modeled silhouette
 - 2～4程度のlarge deformation controls：authored
@@ -746,7 +739,7 @@ Shushuのflowers/bouquetはflower clusterをrigid-ish groupとして扱い、花
 | 評価軸 | PC | BAB | THR | UNI | GOD | L2D | RIV | SPI | PR2D |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | motion scalability | 9.0 | **9.3** | 8.0 | **10** | 8.7 | 7.5 | 7.0 | 8.0 | 3.0 |
-| four-character scalability | 9.0 | 9.0 | 9.0 | **9.5** | 8.7 | 6.5 | 6.5 | 7.0 | 5.0 |
+| three-character scalability | 9.0 | 9.0 | 9.0 | **9.5** | 8.7 | 6.5 | 6.5 | 7.0 | 5.0 |
 | authoring efficiency | **8.5** | 8.2 | 7.5 | 7.5 | 7.7 | 9.0 | **9.5** | 9.0 | 5.0 |
 | AI automation | 9.0 | 9.0 | **9.5** | 8.5 | 8.5 | 7.5 | 8.5 | 8.0 | 8.0 |
 | PWA compatibility | 9.7 | 9.6 | **9.8** | 6.8 | 7.0 | 9.8 | **10** | 9.8 | **10** |
@@ -781,7 +774,7 @@ PlayCanvasはその中間層を既に持っています。citeturn23view1�
 Babylon.jsは2026年時点ではかなり強力です。公式docsではAnimationGroupのweight/blending、mask、additive animation、BoneLookController、BoneIKControllerがあり、v9系ではavatar retargetingも追加されています。[A]  
 これは**次点をThree.jsではなくBabylon.jsとする理由**です。
 
-ただしGrimoは4体であり、人型100体をmotion retargetするゲームではありません。PlayCanvasのstate graph/interruption/layer orchestrationの方が、今回の中心課題に少しだけ近いと判断します。[E]
+ただしGrimoは3体であり、人型100体をmotion retargetするゲームではありません。PlayCanvasのstate graph/interruption/layer orchestrationの方が、今回の中心課題に少しだけ近いと判断します。[E]
 
 **2D系を最終的に棄却する理由**
 
@@ -798,7 +791,7 @@ Live2Dは公式Web SDKを持ち、Riveもstate-machine-driven interactive animat
 - body weight shift
 - fore/hind limbの姿勢
 - appendageの奥行方向follow-through
-- four characters with very different volume
+- three characters with very different volume
 - 将来のcamera / pose expansion
 
 です。
@@ -819,7 +812,6 @@ Google公式仕様ではPixel 7aはTensor G2、8 GB LPDDR5 RAMを搭載するcla
 | 項目 | 初期budget |
 |---|---|
 | 同時表示hero character | 原則1体 |
-| LOD0 geometry | **30k–60k triangles目安**。Carol fleeceで必要なら80kまでprofile |
 | deform bones | **70–110程度を初期上限目安** |
 | vertex influences | 4以内を基本 |
 | character draw calls | **≤ 8を目標** |
@@ -1024,15 +1016,13 @@ canonicalがillustrative characterなら、default PBR animalにしない方が�
 - silhouette-first
 - furはstrand hairではなくvolume/normal/detail texture中心
 
-特にCarolのhuge fleeceでstrand furを全面採用すると、canonical identityを「リアルな羊毛」へ勝手に翻訳する危険があります。
-
 **canonicalに毛一本一本が描かれていないなら、3Dでも描きすぎない。**
 
 これが重要です。[E]
 
 **Rig architecture**
 
-4体に同じ骨格を押し付けません。
+3体に同じ骨格を押し付けません。
 
 共通化するのはrig APIです。
 
@@ -1058,8 +1048,6 @@ character_root
 ├── touch anchors
 └── effect / prop anchors
 ```
-
-Carolについて、依頼文のdescriptionだけを前提にした暫定設計は、
 
 ```text
 hidden torso / COM
@@ -1102,7 +1090,7 @@ semantic role:
 
 を共通化します。
 
-これこそPokeRigの「標準化」の原理を4体規模へ適切に縮小した形です。[D/E]
+これこそPokeRigの「標準化」の原理を3体規模へ適切に縮小した形です。[D/E]
 
 **Animation asset方針**
 
@@ -1224,173 +1212,6 @@ Codex ↔ MCP ↔ Blender
 
 ここをAIへ完全委任すると、production speedは上がっても今回のKPIは下がります。
 
-## Carol Vertical Slice と四キャラ展開
-
-**Carolは、今回の文字情報だけからは「full 3Dに不向き」と判断する理由はありません。**
-
-むしろ、
-
-- large volumetric fleece
-- small face embedded in large body mass
-- independent ears
-- hooves
-- touchable body
-- head/cheek reaction
-
-という構造は、**上手く3D化できれば3Dの利点が非常に大きいタイプ**です。[E]
-
-ただし逆に、canonicalが「正面特化の図形的錯視」で成立している場合は、3D化すると3/4 viewで急激に別キャラクターになる可能性があります。
-
-だからCarolこそ**最初のtechnology probe**に向いています。
-
-いきなり4体作らないでください。
-
-**Gate A — canonical identity**
-
-まず静止状態だけ作ります。
-
-animation不要です。
-
-合格条件：
-
-- canonical cameraから見て「同一キャラ」と即認識できる
-- face/body比率を維持
-- tiny cream faceの印象が崩れない
-- huge fleeceがgeneric sheep woolにならない
-- ears/hooves/moon-star landmarkが一致
-- 3/4でも破綻しない
-- NPR lighting下でcanonical color hierarchyを維持
-
-**ここで失敗したfull 3Dへanimationを追加してはいけません。**
-
-Gate Aが一番重要です。
-
-**Gate B — 15–30秒 living idle**
-
-次にtouch無しで30秒見ます。
-
-必要なのは大量のidle clipではなく、
-
-- stable base pose
-- breath
-- blink
-- gaze
-- eye/head coordination
-- ear L/R
-- 2～3種のsmall head adjustment
-- 2～3種のweight shift
-- fleece residual
-- intentional stillness
-- one small autonomous curiosity action
-
-です。
-
-合格条件は、
-
-> 30秒見て「loopを見せられている」と感じないこと。
-
-さらに、動画を音無しで見てもanimation layer同士が同周期に見えないこと。
-
-**Gate C — head / cheek pet**
-
-headとcheekだけでよいです。
-
-必要reaction familyは最低3種類ずつ。
-
-```text
-gentle positive
-surprised-positive
-repeat / mild-satiation
-```
-
-headとcheekで**同じ全身animationを再生しない**こと。
-
-cheek側の局所変化が最初に見えるべきです。
-
-合格条件：
-
-- touch位置と反応側が一致
-- dragging中もzone trackingが破綻しない
-- head turning中もcolliderが追従
-- repeated petで完全同一reactionにならない
-- interaction終了後にafterglowが残る
-- touchからvisual responseまで「ボタン感」がない
-
-**Gate D — one larger reaction**
-
-大きな喜び、驚き、自発invitationなど一つだけ作ります。
-
-ここで、
-
-```text
-anticipation
-primary action
-follow-through
-overshoot
-settle
-afterglow
-```
-
-が全部読めるかを見ます。
-
-このGateが通らない場合、animation quantityを増やしてもEevee級には届きません。
-
-**Gate E — Pixel 7a**
-
-実機で、
-
-- cold load
-- first-character load
-- 30秒idle
-- continuous pet
-- large reaction連打
-- 5～10分連続
-- foreground→background→resume
-
-を測ります。
-
-Acceptance targetは[E]として、
-
-```text
-interactive motion:
-  60 fps target
-
-no sustained:
-  >33 ms frame streaks
-
-memory:
-  no progressive leak
-
-thermal:
-  later-session frame timeが著しく崩壊しない
-
-resume:
-  no giant dt / simulation explosion
-
-touch:
-  collider tracking remains correct
-```
-
-とします。
-
-**四キャラへ移るのはGate E通過後です。**
-
-展開順は、
-
-```text
-Carol
-↓
-もっともrig morphologyがCarolから遠いcharacter
-↓
-remaining two
-```
-
-が良いです。
-
-4体を似た順に作ると、shared architectureが本当にgeneralか分かりません。
-
-今回のdescriptionだけなら、Carolの次には**JillかShushu**のようなwing/leaf/flower系を持つcharacterを置くのがよいでしょう。[E]
-
 ## Go / No-Go・Repository Rebuild・最終判定
 
 **full 3Dを採用する条件**
@@ -1508,10 +1329,6 @@ PlayCanvas entity名やbone名をReact/UI側へ漏らさない。
 **最終的なGo判断**
 
 現時点では、
-
-> **Full 3DへGo。  
-> Blender + PlayCanvas Engineを第一候補としてCarol Vertical Sliceを作る。  
-> ただしproduction全体の確定ではなく、Carol Gate Aをfull 3D方式そのものの最終拒否権にする。**
 
 が最も合理的です。
 

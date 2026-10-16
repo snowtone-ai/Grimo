@@ -24,7 +24,7 @@ and current production state.
 - Quad-friendly authoring is useful where deformation/editability benefits, but
   GLB runtime topology is triangulated; inspect exported behavior when relevant.
 - Rig semantic controls needed by the experience: head/gaze/face, ears,
-  forelimbs/hooves, support/COM, tail, and Carol fleece regions.
+  forelimbs/hooves, support/COM, tail, and character-specific surface regions.
 - Give appendages and fleece real ownership hierarchies. Avoid a face sliding
   inside stationary fleece, ears appearing/disappearing because of bad
   attachment, or secondary motion that reads as separate sticky material.
@@ -40,7 +40,7 @@ and current production state.
 
 ## Reuse-first rule
 
-Before generating a new visible Carol component, inspect current and relevant
+Before generating a new visible character component, inspect current and relevant
 historical assets first.
 
 A historical asset may be:

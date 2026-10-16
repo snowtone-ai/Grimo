@@ -73,8 +73,6 @@ Touch reactionの基本:
 - `repeat`: 同部位・同gestureの反復
 - `special`: touch map special zone
 
-数値thresholdはprototypeで端末実測して調整し、過去のCarol 3D実験値を固定コピーしない。
-
 ## 6. Reaction selection
 
 候補を単純完全randomにしない。

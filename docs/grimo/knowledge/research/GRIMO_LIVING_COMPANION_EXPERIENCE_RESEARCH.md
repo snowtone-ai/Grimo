@@ -26,8 +26,6 @@
 
 最終的な目標を一文にすると、
 
-> **ユーザーが「アニメーションを再生した」と感じるのではなく、「Carolが私にそう反応した」と因果帰属する状態を作る。**
-
 これがGrimoの北極星である。**【D/E】**
 
 **総合一位：Web-native realtime full 3D + relationship runtime**  
@@ -54,7 +52,7 @@ Grimoへの第一の翻訳はしたがって、
 
 である。**【E】**
 
-Carol、Jill、Pino、Shushuに `happy_01`, `idle_02`, `pet_good` を単純共有してはいけない。共有してよいのは、
+Jill、Pino、Shushuに `happy_01`, `idle_02`, `pet_good` を単純共有してはいけない。共有してよいのは、
 
 - event schema
 - timing framework
@@ -71,8 +69,6 @@ Carol、Jill、Pino、Shushuに `happy_01`, `idle_02`, `pet_good` を単純共�
 イーブイの声についても制作密度は高い。開発インタビューでは多数の候補から声を選び、触れ合いモードのために多くの音声を収録し、アニメ側の音響監督とも連携したことが述べられている。増田氏自身も『Let's Go』の音響全般を監修し、家庭で大きめの音量で流しても威圧的にならない方向を意識していた。citeturn3view1turn24search4 **【B】**
 
 ここから得られるGrimo要件は、**音声を完成後に乗せるSEレイヤーとして扱わない**ことである。**【E】**
-
-例えばCarolを撫でたとき、
 
 ```text
 指が頬へ入る
@@ -108,8 +104,6 @@ Carol、Jill、Pino、Shushuに `happy_01`, `idle_02`, `pet_good` を単純共�
 > `触った場所 × 指の軌跡 × 速度 × 持続時間 × 往復性 × 現在行動 × 現在感情 × 直前履歴`
 
 に対して、キャラクターが身体的に整合した結果を返すことである。**【E】**
-
-例えば同じCarolの頬でも、
 
 | 入力 | 最初の反応 | 続く反応 | 意味 |
 |---|---|---|---|
@@ -258,11 +252,6 @@ Repetition + Latency + GenericMotion + UncannyMismatch
 をペナルティとして引く。
 
 **乗算**と考えるのが重要である。**【D】**
-
-モデルが美しくても反応が遅ければ「触れた」感じが消える。  
-モーションが多くても全部genericなら「Carol」ではなく「アニメした羊」になる。  
-即応しても毎回同じなら機械になる。  
-variationが多くても触った場所と無関係なら因果が消える。
 
 したがってGrimoの品質投資順位は、
 
@@ -579,21 +568,6 @@ full skinned-mesh colliderを毎frame精密計算するより、Grimoには**sem
 
 例：
 
-```text
-Carol
-head
-cheek.L
-cheek.R
-ear.L
-ear.R
-muzzle/nose
-fleece.front
-fleece.side.L/R
-chest
-forehoof.L/R
-hindbody
-```
-
 hit volumeをbone/controlへ追従させ、
 
 ```text
@@ -671,8 +645,6 @@ Compatibility
 
 重要なのは数ではなく、
 
-> **「この組み合わせ以上はCarolに見えなくなる」というidentity envelope**
-
 を定義すること。
 
 例えば、
@@ -749,8 +721,6 @@ fleece_followthrough
 
 **secondary structuresが原因なしにずっと揺れるのは禁止**とする。**【E】**
 
-これは特にCarolの巨大fleeceで重要である。
-
 fleece全体が常時波打つと「毛」ではなくゼリーになる。
 
 ### 四匹への物理的適用
@@ -761,7 +731,6 @@ Grimoも**appeal > simulation purity**とする。**【E】**
 
 | Grimo | primary motion | secondary | 禁止したい失敗 |
 |---|---|---|---|
-| Carol | head/body/ear/hoofはhand-authored | fleeceは低振幅follow-through | fleece全体を常時jiggle |
 | Jill | wing/leaf/tailの意図はauthored | 先端だけspring/procedural | wingを布physics任せ |
 | Pino | body/tail intentはauthored | tail end、bubble/water motif | 水表現が本体演技を支配 |
 | Shushu | body/flower/bouquetの意図はauthored | 花弁・小装飾の遅れ | bouquetがcloth simulation任せ |
@@ -772,42 +741,6 @@ Grimoも**appeal > simulation purity**とする。**【E】**
 > 意味のない微細な遅れだけphysicsに任せる。**
 
 である。**【E】**
-
-### Carol固有の生命感
-
-Carolは、巨大なfleeceに対して顔が非常に小さい。そのため、通常キャラ以上に**顔・耳・fleece表面の三層で情報を伝える必要がある**。これはcanonical構造からのGrimo固有設計判断である。**【E】**
-
-例えば頬petなら、
-
-```text
-0 ms      touch contact
-20–60     cheek local compression
-40–100    eyelid micro reaction
-70–160    eye toward touch
-100–260   head lean
-160–450   ear relaxation/asymmetry
-220–700   fleece local follow-through
-700–1600  body settle
-1–4 s     content afterglow
-```
-
-を仮初期値とする。**【E】**
-
-ここで、fleece全体を同時に動かさない。
-
-```text
-touch zone
-↓
-local fleece cluster
-↓
-nearest underlying body motion
-↓
-neighbor cluster very small delayed response
-```
-
-と波及させる。
-
-この「局所から体へ」がCarolでは特に有効である。**【E】**
 
 ## 実装候補の比較と最終推奨
 
@@ -829,7 +762,7 @@ neighbor cluster very small delayed response
 | secondary motion | 9 | **10** | 9 | 7 | 8 |
 | interruptibility | **10** | **10** | 8 | 8 | 4 |
 | motion scalability | 9 | 9 | 8 | 7 | 4 |
-| four-character scalability | 9 | 9 | 8 | 7 | 6 |
+| three-character scalability | 9 | 9 | 8 | 7 | 6 |
 | authoring efficiency | 7 | 8 | 6 | **8** | 5 |
 | AI automation | **9** | 8 | 8 | 8 | 7 |
 | PWA compatibility | 9 | 6 | 8 | **10** | **10** |
@@ -934,7 +867,6 @@ Pixel 7aでこの値なら必ず動くという意味ではない。**Gate Eで�
 
 これも公開Pokémon工数ではなく、**Grimo品質向けのperson-hour-equivalent概算**である。AIが実作業を担当しても、品質比較のため人間制作時間相当に換算している。**【E】**
 
-| 第一キャラ Carol | 概算 |
 |---|---:|
 | canonical reconstruction / final model | 100–220 h |
 | rig / skin / facial / deformation | 60–140 h |
@@ -1002,8 +934,6 @@ Continuous Emotional State
 ```
 
 を分離する。**【E】**
-
-例えばCarolは、
 
 ```text
 behavior = sitting_idle
@@ -1244,9 +1174,9 @@ intentional_stillness
 
 ### 四匹で共有しないもの
 
-CarolのrigをJillへ無理にretargetしない。  
+他個体のrigをJillへ無理にretargetしない。
 Jillのwing grammarをShushuへ転用しない。  
-Pinoのtail dynamicsをCarol fleeceへ転用しない。
+Pinoのtail dynamicsを他個体へ無条件に転用しない。
 
 共有するのはruntime contractである。
 
@@ -1264,322 +1194,6 @@ interface CharacterBehaviorContract {
 **physical rigは固有、behavior APIは共通。**【E】
 
 これは四匹展開性を最大化する。
-
-## Carol Vertical Slice と感情品質の検証
-
-### Vertical Sliceで作るもの
-
-最初から百本のモーションは作らない。
-
-Carol一匹だけで次を作る。
-
-```text
-canonical-faithful 3D master
-+
-production rig
-+
-face/eye/ear/fleece controls
-+
-20–30秒 living idle
-+
-head pet
-+
-cheek pet
-+
-poke
-+
-one boundary response
-+
-one large delight reaction
-+
-audio
-+
-afterglow
-+
-Pixel 7a runtime
-```
-
-**これでピカブイ級への道があるかを判定できる。**【E】
-
-### Gate A — canonical identity
-
-検証対象は「3Dとして綺麗か」ではない。
-
-> **静止していてもCarolか。**
-
-評価する。
-
-推奨gate:
-
-- canonical cameraでsilhouette IoU ≥ 0.90を目標
-- 主要landmark誤差 ≤ bounding boxの約3%
-- eye/face/fleece比率を定量比較
-- blind reviewerの「同一キャラクター感」平均 ≥ 4.3 / 5
-- 「3D化で可愛さが下がった」回答 ≤ 15%
-- tiny cream faceと巨大fleeceの比率を最優先
-- frontだけでなく±15°程度でもidentityが崩れない
-
-すべてGrimo独自基準である。**【E】**
-
-**Gate A不合格ならanimationへ進みすぎない。**
-
-### Gate B — living idle
-
-15〜30秒を何度見ても、
-
-> loopを見せられている
-
-より、
-
-> Carolがそこにいる
-
-と感じられるか。
-
-最低構成:
-
-```text
-breath
-blink
-gaze
-head micro
-ear L/R
-posture / weight
-local fleece response
-intentional stillness
-```
-
-を非同期合成。
-
-合格目標:
-
-- 30秒内の完全同一全身loopを知覚させない
-- independent channelが最低六系統
-- identical blink intervalを避ける
-- obvious synchronized motionなし
-- user rating「生きている」≥4/5
-- static model baselineよりanimacy +1.0pt以上
-
-**【E】**
-
-### Gate C — head / cheek pet
-
-ここが最重要。
-
-```text
-touch position
-→ correct semantic zone
-→ local reflex
-→ attention
-→ emotional response
-→ follow-through
-→ afterglow
-```
-
-を実装する。
-
-合格基準:
-
-| 指標 | threshold |
-|---|---:|
-| semantic-zone classification | ≥98% scripted trajectories |
-| first visible acknowledgement p95 | ≤80 ms |
-| semantic response onset p95 | ≤100 ms |
-| slow pet / tap分類 | ≥95% |
-| repeated poke認識 | ≥95% |
-| 被験者が「触った場所に反応した」と回答 | ≥90% |
-| touch causality rating | ≥4.3/5 |
-
-**【E】**
-
-### Gate D — large reaction
-
-Partner Eeveeでいうハイタッチや大きな喜びに相当する一つを作る。
-
-条件:
-
-- anticipation
-- eye contact
-- primary motion
-- facial peak
-- appendage follow-through
-- overshoot
-- settle
-- afterglow
-- 少なくとも三variation
-
-を持たせる。**【E】**
-
-大きなreactionは**頻度を低くする**。
-
-毎回出ると「special」ではなくなる。
-
-### Gate E — Pixel 7a class
-
-最低10分間のwarm/thermal-soakを行う。
-
-目標:
-
-- median ≈55–60fps以上
-- interaction中に30fps未満へ継続的に落ちない
-- p95 touch acknowledgement ≤80ms
-- PWA INP p75 ≤200ms
-- interaction中の明確な100ms級freezeなし
-- browser tab memoryの初期目標 ≤350MB
-- thermal throttling後もtouch causalityを維持
-- character essential assetを可能なら3–8MB程度から表示開始
-
-Web側のINP基準そのものは公式Core Web Vitalsに基づき、キャラクター固有の80ms等はGrimo独自の厳格化である。citeturn26search0turn26search16 **【A/E】**
-
-### Go / No-Go
-
-**full 3D GO**
-
-Gate A〜Dを全て通過し、Gate Eが最適化で現実的ならfull realtime 3Dを正式固定する。**【E】**
-
-**hybridへ変更**
-
-次のどれかなら検討する。
-
-- canonical front fidelityは高いが、少し角度を変えるだけで顔の魅力が崩れる
-- eye/mouthだけ3D deformationでidentityを維持できない
-- Carol fleeceなど一部構造だけperformance costが異常に高い
-- 2D card / shader componentでcanonical fidelityが大幅改善する
-
-ただしhybridでも一枚絵全体のwarpは禁止し、body/face/appendageは独立構造のままとする。**【E】**
-
-**2D系へ戻る**
-
-以下が成立した場合のみ。
-
-- 三回以上の3D reconstruction iteration後もcanonical identityがGate Aに届かない
-- blind testで高品質segmented 2D案がfull 3Dより可愛さ/同一性で0.5pt以上優位
-- かつ2Dでもtouch locality、gaze、facial、appendage、interruptibilityを充分実現できる
-
-**【E】**
-
-つまり、
-
-> **「3Dで作り始めたから3Dを守る」は禁止。**
-
-### 感情品質のuser study
-
-ターゲット年齢・性別・Pokémon経験等は現時点で**未指定**である。
-
-そのため最初のformative studyは、少なくとも
-
-- Pokémon familiarity 高/低
-- virtual pet familiarity 高/低
-- 年齢層
-
-を記録し、分析時に分離する。**【E】**
-
-Pokémonファンだけを使うとEevee側に巨大な既存愛着・nostalgiaのconfoundが入るため、**非Pokémon層も必須**である。**【D/E】**
-
-Godspeed Questionnaireはanthropomorphism、animacy、likeability、perceived intelligenceなどを測る標準化指標として提案・検証されている。citeturn27search1turn27search19 **【A：HRI研究】**
-
-Grimoではそのうち、
-
-- Animacy
-- Likeability
-- Perceived Intelligence
-
-を利用し、加えてGrimo独自に、
-
-- 「自分の行為を認識していると感じた」
-- 「自分から行動していると感じた」
-- 「好みや気分があるように感じた」
-- 「もう少し一緒にいたい」
-- 「この子に触れたいと思った」
-- 「反応をもっと発見したい」
-
-を7段階で測る。**【E】**
-
-### 最重要のablation tests
-
-単に完成版を評価するより、**何が感動を生むかを削って確かめる**。
-
-| A | B | 検証 |
-|---|---|---|
-| synchronous idle | asynchronous idle | 非同期motionの価値 |
-| generic full-body pet | local→whole-body pet | 接触因果 |
-| immediate neutral return | afterglow 3s | 余韻 |
-| no memory | session memory | 文脈 |
-| always same response | repetition suppression | variation |
-| player-only initiation | autonomous invitation | agency |
-| visuals only | visual+audio | 多感覚 |
-| random motion | state-correlated stochastic | 「random」と「alive」の差 |
-
-**【E】**
-
-形成評価はまず24〜36人程度のwithin-subjectで大きな欠陥を見つけ、最終比較は必要なeffect size/powerを定めて別途人数設計する。80〜120人程度は実用上の初期候補だが、これは統計的power calculationを行った確定値ではない。**【E】**
-
-### objective metrics
-
-最終KPIを単なる「滞在時間」にしない。
-
-| category | metric |
-|---|---|
-| responsiveness | touch→first motion latency |
-| causality | correct zone/gesture recognition |
-| variation | repeated-response similarity |
-| life | perceived animacy |
-| agency | self-initiation attribution |
-| attachment | voluntary return / interaction time |
-| discovery | unique behavior discovery rate |
-| memory | users noticing context-dependent changes |
-| expression | emotion-recognition accuracy |
-| performance | fps / frame-time / INP / memory |
-| polish | animation discontinuity count |
-| identity | canonical similarity + human rating |
-
-特に重要なのは、
-
-> **「長く触った」≠「愛着を感じた」**
-
-である。
-
-報酬だけ増やせばinteraction timeは伸ばせる。Grimoが測るべきなのは、
-
-> 「この子に心があるように感じたか」
-
-である。**【D/E】**
-
-### ピカブイとの比較protocol
-
-最終的には、同じ参加者に短い標準プロトコルを与える。
-
-```text
-Partner Eevee/Pikachu
-60s 観察
-60s touch
-30s repeated interaction
-rare / large interaction sample
-
-vs.
-
-Carol
-同じ時間構成
-```
-
-そして、
-
-- animacy
-- likeability
-- perceived agency
-- perceived responsiveness
-- desire to continue interaction
-- spontaneous smile/verbal reaction
-- specific remembered behaviors
-
-を比較する。**【E】**
-
-**「Pokémonよりポリゴンが綺麗」を勝利条件にしない。**
-
-最終benchmarkは、
-
-> **「Carolにも同程度に“こちらを認識している相手”を感じるか」**
-
-である。
 
 ## 優先実行項目と最終設計判断
 
@@ -1646,7 +1260,6 @@ Grimoで価値が高い順に並べるとこうなる。**【E】**
 つまり、
 
 ```text
-Carol motion identity
 Jill motion identity
 Pino motion identity
 Shushu motion identity
@@ -1659,8 +1272,6 @@ Codexが作業する際も、
 > 「Grimo共通 happy animationを作れ」
 
 ではなく、
-
-> 「Carol Motion Bible v1.4 の constraints 内で cheek-pet settle variation C を作れ」
 
 というtaskにする。
 
@@ -1742,7 +1353,6 @@ character-runtime/
   performance-budget
 
 characters/
-  carol/
     identity-spec
     rig-spec
     motion-bible
@@ -1832,8 +1442,6 @@ Creaturesも現在、モデルを作る前に設定や内面まで読み込み�
 
 である。**【D/E】**
 
-Carolが頬を撫でられた瞬間に必要なのは、派手なanimationではない。
-
 一瞬だけ触れた場所が反応し、  
 少し遅れてこちらを見て、  
 目元が柔らかくなり、  
@@ -1872,11 +1480,6 @@ Carolが頬を撫でられた瞬間に必要なのは、派手なanimationでは
 最新Pokémon制作については、CEDEC 2026の公式プログラム上、Pokémon LEGENDS Z-Aでrig system「ポケリグ」の進化・運用事例を扱う技術セッションが存在することまでは一次資料で確認できる。citeturn15search1 **【A】**  
 しかし、その最新pipelineをそのまま2018年の『Let's Go』へ遡及適用することはできないし、Grimoの最適解とも自動的にはならない。**【D】**
 
-心理学側についても、擬人化、direct manipulation、ゲームにおけるrelatedness、animacy/likeability測定には強い研究基盤がある。citeturn27search20turn27search2turn27search4turn27search1 **【A】**  
-ただし「Partner Eeveeの感動のうち何%が各因子によるか」という因果分解を直接測った公開実験は確認できない。したがって本レポートの統合モデルは**D（強い推定）**であり、Carol vertical sliceのablation testによってGrimo自身の一次データへ置き換えるべきである。
-
 その意味で、研究の最終地点は文献ではない。
-
-**Gate A〜Eを通したCarolが、実際の人間から「この子は私を見て、私に反応し、自分の気持ちもある」と評価されるか。**
 
 そこがGrimoの最終的なGo/No-Go判定である。

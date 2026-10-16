@@ -6,15 +6,13 @@
 
 ## Promoted
 - Four Canonical Identity PNGs already existed on `main` and their Git blob IDs matched the source; no edit to these files.
-- 15 selected original Body-only PNGs: Carol Front/Left/Right (no Back by Human decision); Jill, Pino, Shushu Front/Left/Right/Back; original bytes re-used via Git blob IDs.
+- 12 retained original Body-only PNGs: Jill, Pino, Shushu Front/Left/Right/Back; original bytes re-used via Git blob IDs.
 - `assets/grimo/source/body-only-multiview-manifest.json`: paths, dimensions, SHA-256, scoped selection status, and Tripo preflight **PENDING**.
-- Carol current Normal/Skin front/side PNGs, current authority metadata, and ear-module authority. Original legacy Carol media in `main` not deleted, but the current `authority.json` supersedes their authority role.
 - Core knowledge routing, Body-only registry, Rig/Motion DRAFT architecture, anatomy contracts, research/guide documents, and both Jill/Pino full prompt documents.
 - Prior obsolete long-form Bibles moved to historical archive by installing already-existing archive blobs and replacing live entrypoints with `SUPERSEDED` redirects.
-- Existing Product Feature Spec, Carol FINAL Motion Spec, AGENTS, Handoff, source Canonical Identity PNGs, application code/data and existing geometry state were preserved unchanged.
 
 ## Boundaries
-`BODY_ONLY_REFERENCE_ACCEPTED` is a 2D source selection, **not** Tripo/Rig/geometry/runtime Human PASS. Jill and Pino image prompts are DRAFT generation instructions, not generated or approved outcomes. The Motion family architecture and anatomy contract remain `DRAFT / HUMAN_REVIEW_PENDING`. Most supplemental Carol 06–30 references have no individual Human approval or reliable number-to-image mapping per their own README/MANIFEST, so those candidate images were **not** promoted as formal authority. Failed geometry/evidence, intermediate Blender models, old branch-local snapshots, third-party products and potentially stale `CURRENT_PROJECT_MEMORY` were deliberately not imported. Differences to already published substantive FINAL specs were not overwritten without a separate Human resolution.
+`BODY_ONLY_REFERENCE_ACCEPTED` is a 2D source selection, **not** Tripo/Rig/geometry/runtime Human PASS. Jill and Pino image prompts are DRAFT generation instructions, not generated or approved outcomes. The Motion family architecture and anatomy contract remain `DRAFT / HUMAN_REVIEW_PENDING`. Failed geometry/evidence, intermediate Blender models, old branch-local snapshots, third-party products and potentially stale `CURRENT_PROJECT_MEMORY` were deliberately not imported. Differences to already published substantive FINAL specs were not overwritten without a separate Human resolution.
 
 ## Safe future use
 Create future production branches from current `main` or selectively import these exact shared paths. Earlier working branches do not automatically inherit changes. Do not mass-merge old feature branches. Use current Human decisions, formal canonical identity, registration SHA-256 and branch-specific actual production evidence as authority.

@@ -4,8 +4,6 @@ Updated: 2026-09-15 JST
 
 ## Current position
 
-Active work is on `codex/phase0-3d-repository-reset`, created from the synchronized `main`. The pre-reset Carol/Pixi state is recoverable through `pre-3d-phase0-20260915`.
-
 ## Acceptance state
 
 - [x] Safety reference created before cleanup
@@ -42,22 +40,9 @@ Active work is on `codex/phase0-3d-repository-reset`, created from the synchroni
 
 ## Next operation
 
-Carol production infrastructure bootstrap is complete. Next operation is the GPT-6 Astra / Medium geometry interpretation session. Do not begin routine Blender blockout until `docs/production/carol/CAROL_GEOMETRY_DECISION.md` is completed.
-
-## 2026-09-16 — Carol production infrastructure
-
-- [x] Repository-scoped documented Codex multi-agent feature disabled
-- [x] Carol camera/modeling/state/geometry/review contracts created
-- [x] Carol production asset directories created without placeholder binaries
-- [x] Blender Gate-render and deterministic review-packet scaffolding created
-- [x] Next-session handoff written to root `prompt.md`
-- [x] Ingest the authoritative `CAROL_MVP_MOTION_SPEC.md` and approved Carol 3D references; record hashes and authority paths
-- [ ] GPT-6 Astra / Medium initial geometry interpretation and Human Gate
-
 ## 2026-09-16 — Phase 0 final reconciliation
 
 - [x] Eevee Motion Master is stored under `docs/grimo/knowledge/research/motion-masters/` with the Pikachu Motion Master
-- [x] Carol approved 3D authority manifest and Motion Spec are available from their formal paths
 - [x] Active state and handoff records no longer report source-ingestion blockage
 - [x] Next session handoff targets GPT-6 Astra / Medium geometry interpretation
 - [ ] Human Gate review of the reconciled Phase 0 branch

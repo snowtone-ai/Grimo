@@ -39,7 +39,7 @@ TypeScript domain layer
 - Codexがコードで調整しやすい
 - image layer / pivot / curve / hit zoneを自動生成・修正しやすい
 - DCC authoringへの依存が小さい
-- 4体へ横展開しやすい
+- 3体へ横展開しやすい
 
 ## 3. Not the main path
 
@@ -159,8 +159,6 @@ artifacts/ or ignored output/
 実装時はリポジトリの最新 `environment-inventory.md` / `package.json` / MCP一覧を事実として確認する。
 
 ## 9. Legacy 3D warning
-
-repoやProject Sourcesに Carol 3D / Blender 5.2 / Three.js資料が残っていても、それは比較実験・過去知見。
 
 現在の正式決定:  
 **PixiJS 2.5D layered runtime**

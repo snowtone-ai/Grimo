@@ -346,7 +346,7 @@ Technical cleanliness matters when it protects the higher levels.
 
 Technical purity is not an independent product goal.
 
-A beautiful topology does not compensate for an off-model Carol.
+A beautiful topology does not compensate for an off-model character.
 
 A visually correct temporary solution is not automatically sufficient if it will break required motion or runtime.
 

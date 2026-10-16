@@ -48,18 +48,6 @@ references:
     evidence: user_observation
     principles: [self-initiation, reward-bridge, controlled-randomness]
     priority: high
-  - id: amie-mareep
-    product: Pokemon-Amie-or-Refresh
-    channel: seak
-    url: "https://www.youtube.com/watch?v=2HORfDvm5d0"
-    evidence: candidate_only
-    grimo: carol
-  - id: amie-whimsicott
-    product: Pokemon-Amie-or-Refresh
-    channel: seak
-    url: "https://www.youtube.com/watch?v=fntm3Dt6FYc"
-    evidence: candidate_only
-    grimo: carol
   - id: amie-oshawott
     product: Pokemon-Amie-or-Refresh
     channel: seak

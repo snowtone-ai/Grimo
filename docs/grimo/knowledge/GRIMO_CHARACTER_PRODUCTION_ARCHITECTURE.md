@@ -2,7 +2,7 @@
 
 **Status:** Active durable production-architecture authority  
 **Updated:** 2026-09-25  
-**Scope:** Grimo character capability envelope; Carol first, reusable for Jill / Pino / Shushu
+**Scope:** Grimo character capability envelope for Jill / Pino / Shushu
 
 ---
 
@@ -115,7 +115,7 @@ For a character:
 5. supporting geometry / numeric contracts;
 6. implementation assets and historical production evidence.
 
-A model must not redefine Carol, Jill, Pino, or Shushu to accommodate an easier topology or rig.
+A model must not redefine Jill, Pino, or Shushu to accommodate an easier topology or rig.
 
 Supporting numbers help maintain consistency.
 
@@ -167,7 +167,6 @@ Typical examples:
 - ears / wings / other signature appendages;
 - visible hooves / paws / feet;
 - primary front silhouette;
-- Carol's front/crown fleece and face opening;
 - other surfaces emphasized by the companion camera.
 
 ### GENERAL_EXTERIOR
@@ -228,52 +227,6 @@ A bone, morph, shader, local geometry system, procedural control, or combination
 
 ---
 
-## 7. Carol capability envelope
-
-Carol must be capable of supporting, where required by approved behavior:
-
-- stable low grounded support;
-- independent head orientation and restrained lean;
-- expressive eyes / eyelids / gaze;
-- facial expression without identity collapse;
-- independently expressive ears with believable root volume;
-- front-limb / hoof presentation;
-- torso/chest pitch and restrained compression;
-- support transfer without weightlessness;
-- independent tail control;
-- left/right touch locality;
-- cheek / head contact-seeking;
-- recoverable interruption and settle;
-- dream-cloud fleece acting as a real spatial identity system.
-
-Realistic sheep anatomy is not required.
-
-Carol-specific spatial coherence is required.
-
----
-
-## 8. Carol fleece
-
-Carol's fleece is a primary identity system.
-
-The finished result must preserve:
-
-- recognizable full-spatial volume;
-- approved front silhouette;
-- coherent side / rear / top-derived mass;
-- a stable relationship with face, ears, torso, and hooves;
-- regional controllability;
-- restrained delayed secondary response;
-- motion that remains authored rather than jelly-like.
-
-The architecture does **not** prescribe how the fleece must be built.
-
-Codex may choose whichever geometry / rig / deformation / procedural combination best serves the approved result and runtime.
-
-Camera-facing shells or other view-specific constructions are unacceptable only when they fail the required spatial exposure or motion.
-
----
-
 ## 9. Face / eyes / ears
 
 Face and eyes are identity-critical.
@@ -305,8 +258,6 @@ The exact topology or control system remains executor-owned.
 ## 10. Limbs, hooves, support, and weight
 
 Visible support must preserve the character's intended weight.
-
-For Carol this means:
 
 - low support;
 - short limbs;
@@ -450,7 +401,7 @@ Character architecture must remain compatible with practical:
 - touch responsiveness;
 - thermal / battery constraints;
 - browser behavior;
-- four-character scalability.
+- three-character scalability.
 
 Current device truth:
 

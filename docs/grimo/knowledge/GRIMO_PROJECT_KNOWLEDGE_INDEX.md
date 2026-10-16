@@ -27,25 +27,20 @@ Use this index to locate durable authority. Current execution truth is not durab
 - [Partner Eevee camera framing analysis (full source)](research/camera-framing/GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_ANALYSIS_FULL_SOURCE.md) — detailed camera framing evidence; the shorter summaries remain alongside it.
 - [Partner experience motion anatomy evidence](research/GRIMO_PARTNER_EXPERIENCE_MOTION_ANATOMY_EVIDENCE.md) — reference evidence for partner motion anatomy.
 
-## Carol
-
-- `docs/production/carol/CAROL_PRODUCTION_STATE.md` — current mutable Carol execution truth
-- `assets/grimo/source/carol/approved-3d/authority.json` — active Carol visual and supporting-geometry authority
-- [Carol Normal semantic reconstruction spec](../../production/carol/CAROL_NORMAL_SEMANTIC_RECONSTRUCTION_SPEC.md) — Human-confirmed Normal/Fleece meaning, spatial relationships and numeric-authority policy around frozen Skin v004
-- [Carol authority measurements](../../production/carol/CAROL_AUTHORITY_MEASUREMENTS.md) — companion measurement record separating direct raster facts, authority-derived locks and inferred 3D dimensions
-- `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` — supporting geometry parameters
-
 ## 2026-10-11 Body-only multi-view image import
 
-- [Four-character body-only multi-view asset register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) — 15 currently selected PNGs, **image-facing** left/right convention, visual decision boundaries, Carol three-view Human decision, and measured SHA manifest.
-- Body-only assets are **derivative Tripo inputs**, not canonical identities or replacements for completed Carol Normal/Skin. The 15 selected PNGs and hash manifest were copied to main by the 2026-10-15 shared-reference sync. This does not prove Tripo preflight, geometry, Rig, Motion or Runtime acceptance.
 - Jill's peach-colored head appendages are treated as **horn-like anatomy** by the latest Human interpretation; do not automatically recolor as ear backs. Final material identity (including canonical clover marking) still requires QA.
 
 ## Blender implementation reference (non-authoritative)
 
-- [GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md](character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md) — practical character modeling, sculpt/design insights, deformation and GLB implementation, sourced examples, and validation boundaries. Consult relevant sections for Blender/3D character work; it does **not** override Product Goal, canonical identity, Production Architecture, Production Operating System, or current Carol production state.
-- [Creature deformation and motion principles](character-production/GRIMO_CREATURE_DEFORMATION_AND_MOTION_PRINCIPLES.md) — four-character shoulder/elbow, jaw/mouth, abdomen and contact principles; observations, public primary sources, hypotheses and unknowns are distinguished. Does not override approved appearance or current production evidence.
+- [Creature deformation and motion principles](character-production/GRIMO_CREATURE_DEFORMATION_AND_MOTION_PRINCIPLES.md) — three-character shoulder/elbow, jaw/mouth, abdomen and contact principles; observations, public primary sources, hypotheses and unknowns are distinguished. Does not override approved appearance or current production evidence.
 
 ## History
 
-`docs/archive/`, Carol evidence, historical source assets, and Git history preserve provenance. They do not override current explicit authority.
+## 制作知見
+
+[キャラクター3D制作の恒久知見](character-production/GRIMO_CHARACTER_3D_LESSONS.md)を参照。廃止済みキャラクターの制作導線は撤去済み。現役対象はJill / Pino / Shushu。
+
+- [Body-only multiview register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) — 12 selected original PNGs and measured hashes for the three active characters; technical preflight pending.
+- [Blender implementation guide](character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md) — shared techniques; approved appearance and current production evidence take precedence.
+- `docs/archive/` and Git history are historical provenance, not active production routing.

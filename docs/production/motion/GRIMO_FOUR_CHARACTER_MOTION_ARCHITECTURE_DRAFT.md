@@ -1,8 +1,8 @@
-# Grimo — Complete Four-Character Motion Architecture DRAFT
+# Grimo — Complete Three-Character Motion Architecture DRAFT
 
 **Date:** 2026-10-11
 **Status:** PHASE_3_COMPLETE / DRAFT / HUMAN_REVIEW_PENDING
-**Scope:** Carol / Jill / Pino / Shushuの全Motion Family、演技、接続、身体能力要求。Phase 4の詳細Anatomy/Rig設計・実制作は未実行。
+**Scope:** Jill / Pino / Shushuの全Motion Family、演技、接続、身体能力要求。Phase 4の詳細Anatomy/Rig設計・実制作は未実行。
 **Source revision:** `fd91fe527cceaa62df116cb6ebc43d078d0650cd`
 **Branch:** `codex/grimo-motion-zero-based-design-20261011`
 
@@ -10,9 +10,9 @@ COMPLETEは文書設計の完了。Phase 1・2と本書の新提案はHuman未�
 
 ## A. Motion Design North Star
 
-**触れ合って可愛く癒され、その子が自分から関わってくれたことを嬉しく感じ、また会いたくなる。** 個性はこの体験を豊かにするためにある。Pinoを探究の演技だけ、Shushuを静止だけに閉じ込めない。4匹とも撫で、頬寄せ、遊び、はっきりした喜び、ハイタッチを楽しめる。差は、認識から何を選び、どこに満足を残すかに置く。
+**触れ合って可愛く癒され、その子が自分から関わってくれたことを嬉しく感じ、また会いたくなる。** 個性はこの体験を豊かにするためにある。Pinoを探究の演技だけ、Shushuを静止だけに閉じ込めない。3匹とも撫で、頬寄せ、遊び、はっきりした喜び、ハイタッチを楽しめる。差は、認識から何を選び、どこに満足を残すかに置く。
 
-最新Human追記に従い、ピカブイの可愛い交流を共通の体験テーマとして取り入れる。ハイタッチは「前肢提示→WAIT→触点ACK→嬉しい応答→満足」の共通遊び。頬/頭の差し出し、撫でに気持ちよく応じるhold、少し後からもう一度こちらを見る好意も共通の楽しさに含める。既存資料の「原理だけ」という説明を、共通テーマを禁止する意味では採用しない。具体的な身体演技は4匹に合わせて設計する。
+最新Human追記に従い、ピカブイの可愛い交流を共通の体験テーマとして取り入れる。ハイタッチは「前肢提示→WAIT→触点ACK→嬉しい応答→満足」の共通遊び。頬/頭の差し出し、撫でに気持ちよく応じるhold、少し後からもう一度こちらを見る好意も共通の楽しさに含める。既存資料の「原理だけ」という説明を、共通テーマを禁止する意味では採用しない。具体的な身体演技は3匹に合わせて設計する。
 
 本人の意思は **Intent → Action/Choice → Outcome** で見えること。目の前の入力または自分の関心に気付き、何かを選び、その結果で顔・姿勢・次の注意が変わる。音・FX・説明なしでも因果を読める構造を優先する。毎回大きな反応を要求せず、十分に届いた後の小さい受容も魅力として扱う。
 
@@ -23,33 +23,28 @@ COMPLETEは文書設計の完了。Phase 1・2と本書の新提案はHuman未�
 | Key | 正本・入力と使用範囲 |
 |---|---|
 | NORTH | [Product North Star](../../grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md) §§1–11。可愛さ→癒し→愛着、局所因果、罰なし、Human判定 |
-| EXP | [Experience Spec](../../grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md) §§2–11。注意、Touch、Agency、WAIT、余韻、4匹の身体表現 |
+| EXP | [Experience Spec](../../grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md) §§2–11。注意、Touch、Agency、WAIT、余韻、3匹の身体表現 |
 | ARCH / OPS | [Production Architecture](../../grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md) §§3–8 / [Operating System](../../grimo/knowledge/GRIMO_PRODUCTION_OPERATING_SYSTEM.md) §2。Canonical優先、Full-Spatial + View-Weighted Polish、方法は未固定 |
 | PRODUCT | [Product Feature Spec](../../grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md) §§5,10–18,21。Food・Wear・Special・Secret・Gift・Collection・親密度なし |
 | DATA | [Data Model Spec](../../grimo/knowledge/product/GRIMO_DATA_MODEL_SPEC.md) §§5.4,8–9,21–24。consume確定、装備交換、Secret activation、Giftの渡す→Collection/所有記録の境界 |
-| FINAL | [Carol MVP Motion Spec](../../grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md) §§7–23,27。46 Family / 156 profile、locked content、fleece所有 |
-| STATE | [Carol Production State](../carol/CAROL_PRODUCTION_STATE.md)「Normal semantic v001」「Normal/Fleece planning inputs」。NormalはHuman visual review待ち、Skin v004保存。Motion適合済みとは扱わない |
-| IDENTITY | [Phase 1](GRIMO_FOUR_CHARACTER_EXPERIENCE_IDENTITY_DRAFT.md) B–E,H。4匹の人格候補、外見保護 |
+| IDENTITY | [Phase 1](GRIMO_FOUR_CHARACTER_EXPERIENCE_IDENTITY_DRAFT.md) B–E,H。3匹の人格候補、外見保護 |
 | DIRECTION | [Phase 2](GRIMO_FOUR_CHARACTER_BEHAVIOR_PERFORMANCE_DIRECTION_DRAFT.md) B–J。代表演技・入力/支持/接続の候補 |
 | PACK / PLAN | [Evidence Pack](GRIMO_MOTION_EVIDENCE_PACK_DRAFT.md) A–D / [Zero-Based Plan](GRIMO_FOUR_CHARACTER_MOTION_ZERO_BASED_PLAN_20261011.md) Phase 3。観察・推論・提案の分離、今回の工程境界 |
 | E-M / P-M | [Eevee Master](../../grimo/knowledge/research/motion-masters/EEVEE_MOTION_MASTER_INVENTORY.md) MF-051–054 / [Pikachu Master](../../grimo/knowledge/research/motion-masters/PIKACHU_MOTION_MASTER_INVENTORY.md) MF-021–022。既存観察記録のoffer/WAIT/contact/payoff。新規動画解析ではない |
 | VIEWS | [Body-only register](../../grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) §1。派生画像はCanonicalを置換しない。Jill頭部の桃色付属はhorn-likeとして保護 |
 
-4枚のCanonical PNGも確認した。小顔と羊毛、Jillの葉/翼/太い尾、Pinoの丸さ/内寄り前肢/厚い尾、Shushuの短肢/花冠/花束が演技の境界。画像周辺の蝶・雲・水泡・花を常設propsや入力対象として新設しない。ChatGPT Project Memoryは取得しておらず、内容を推測しない。
+3枚のCanonical PNGも確認した。小顔と羊毛、Jillの葉/翼/太い尾、Pinoの丸さ/内寄り前肢/厚い尾、Shushuの短肢/花冠/花束が演技の境界。画像周辺の蝶・雲・水泡・花を常設propsや入力対象として新設しない。ChatGPT Project Memoryは取得しておらず、内容を推測しない。
 
 ### B2. Labels and precedence
 
-**A:** 既承認要件・今回の明示Human指示。**O/T:** 既存研究の可視観察/時間推定。**I:** 意図等の解釈。**P:** 本書の具体演技提案。**U:** 未承認/未検証。各catalogの演技・variant名は全てP。Carolの元Family/件数/条件/locked contentはAで、その上にPの時系列解像度を加える。身体能力は全てUを伴う。O/TからRig方式・内部scheduler・心理的効果を断定しない。
-
+**A:** 既承認要件・今回の明示Human指示。**O/T:** 既存研究の可視観察/時間推定。**I:** 意図等の解釈。**P:** 本書の具体演技提案。**U:** 未承認/未検証。各catalogの演技・variant名は全てP。身体能力は全てUを伴う。O/TからRig方式・内部scheduler・心理的効果を断定しない。
 今回の明示指示がPhase 1・2文書の「Gate 1承認前はPhase 3へ進まない」という古い実行停止条件に優先する。**設計を進める許可と人格の最終承認は別**。旧モデル配分・残量制約は使用せず、サブエージェント、アプリ実装、Blender/Tripo、動画再解析、Web調査は行わない。
-
-Carolのfleeceは**body-owned / macro positional lag = zero**。頭/胴のmacro位置に追従し、接触・顔の出入り・荷重に伴う局所形状変化だけを作る。古い「fleece follow / broad late」は形状回復として読む。独立雲球・滑るshell・全身scale呼吸を追加しない。
 
 ### B3. Family / variant accounting
 
 Familyは意味のある行為単位。左右、速度、Food品目、割り込み分岐を別Familyにして件数を増やさない。**V**は本書で列挙する基本performance profile数。左右/現在姿勢/gesture/履歴の条件合成を乗算しない。Foodのstyle5とtaste4も20個の専用clipへ展開しない。variantは制作済みclipではない。
 
-Carol C01–C46は元46 IDの参照alias。156枠を維持し、本文のprofile名はPの制作候補名である。既存profileの資産や意味を置換する命令ではなく、FINALに別の具体指定があればそちらを保持する。Jill/Pino/Shushuは独立した行為から作り、未決定Secret候補も別記して集計する。SpecialのFood/Wear構成、横断接続、Gesture条件は重複Familyに数えない。
+本文のprofile名はPの制作候補名である。既存profileの資産や意味を置換する命令ではなく、FINALに別の具体指定があればそちらを保持する。Jill/Pino/Shushuは独立した行為から作り、未決定Secret候補も別記して集計する。SpecialのFood/Wear構成、横断接続、Gesture条件は重複Familyに数えない。
 
 ## C. Shared Motion Semantics
 
@@ -59,7 +54,7 @@ Carol C01–C46は元46 IDの参照alias。156枠を維持し、本文のprofile
 
 | 要求項目 | 追跡先 |
 |---|---|
-| 1–3 ID/Character/Category/Priority | E–Hの見出し。C=Carol、J=Jill、P=Pino、S=Shushu。必=要件coverageに必要、拡=拡張提案、保=既承認contentを保護、候=未承認content候補。全新演技はDRAFT |
+| 1–3 ID/Character/Category/Priority | F–Hの見出し。J=Jill、P=Pino、S=Shushu。必=要件coverageに必要、拡=拡張提案、保=既承認contentを保護、候=未承認content候補。全新演技はDRAFT |
 | 4–7 Purpose/Trigger/Motivation/Emotion | 各「設計」。本人の欲求と変化を示す |
 | 8–14 Attention/Face/Primary/Secondary/Stillness/Sequence/Timing | 各「演技」。矢印は時系列で、等時間の段階ではない。局所ACKの即時性と演技の間は別 |
 | 15–17 Variants/History/Interruption | 各「運用」＋K。列挙profileと今の姿勢を組み合わせ、初回を繰り返さない |
@@ -68,13 +63,12 @@ Carol C01–C46は元46 IDの参照alias。156枠を維持し、本文のprofile
 | 20 Identity Restrictions | B2と各個体の冒頭。全員:長い指/新しい眉/巨大な口/Canonical比率変更/一枚絵全身warp不可 |
 | 21 Dependencies | 各見出しのQ番号→Nの要求面/独立部位/支持/干渉/未検証事項 |
 | 22 Acceptance | 下記category scenario＋各カードの運用分岐。将来の確認条件であり実演要求/実施証拠ではない |
-| 23 Authority/Evidence/Proposal/Unknown | B1/B2、CarolはM、contentはJ、提案衝突はO |
+| 23 Authority/Evidence/Proposal/Unknown | B1/B2、contentはJ、提案衝突はO |
 
 **全FamilyのHistory:** 同じ完全chainを連続させず、直前に満たされた欲求は確認/振幅/誘いを減らせる。局所ACKと可愛い基本受容は減らさない。希少演技のために通常の魅力を取り上げない。直前のzone/side/offer/感情/未完行為を引き継ぐ。一時的な慣れは親密度/XPではない。
 
 **全FamilyのInterruption:** 新触点ACKはすぐ返す。主行為は今の姿勢から接続し、強制Neutralや古い入力queueを使わない。接触release時は押圧形状/有効offerを解く。支持移行、bite、Gift transferは安全な区切りを守り、顔/非口元/非保持部でACKする。保護中の入力が既に解放されていれば後から大きく再演しない。画面離脱は現実時間の演技を裏で完走する根拠にしない。
-
-**全FamilyのTiming:** 認識は遅らせず、動機を選ぶ間、動作が終わる減速、結果を味わうholdを分ける。Carolの既存numeric envelope/cooldownはFINAL参照のAであり、他3匹へ転写しない。新しい秒数/角度/thresholdは作らない。Catalogの「短い/広い」は演技の相対関係。
+**全FamilyのTiming:** 認識は遅らせず、動機を選ぶ間、動作が終わる減速、結果を味わうholdを分ける。新しい秒数/角度/thresholdは作らない。Catalogの「短い/広い」は演技の相対関係。
 
 | Category | 将来のAcceptance Scenario |
 |---|---|
@@ -92,322 +86,40 @@ Carol C01–C46は元46 IDの参照alias。156枠を維持し、本文のprofile
 
 | 個体 | 有効面 / 限定面 | 条件と禁止 |
 |---|---|---|
-| Carol | forehead/head_top、cheek L/R、ear_root L/R、front_fleece、side/back_fleece、hoof/rear_lower、moon/star | FINAL §7を保持。蹄通常touchはsensitive、**提示された蹄の遊びは文脈を別評価**。背面は実際に露出/当たる時のみ。目/口内/独立粒子は対象外 |
 | Jill | headの軟部、cheek L/R、chest/body、appendage_root（翼根元/尾根元の実在面）、提示forepaw | 頭のhorn-like付属を耳として揉まない。翼膜/葉先/尾先を多数の遊びzoneにしない。根元は短いACKと保護、引っ張り入力なし。前肢提示時だけ接点を交流targetとして扱う |
 | Pino | head、cheek L/R、chest/body、forepaw（自発試行/ハイタッチ時）、ear_root/tail_rootの限定ACK | 太い尾を「掴める道具」にしない。耳/尾の物理dragなし。自分の床/身体接触とユーザーtouchを区別。両眼を持ち、winkは状態差 |
 | Shushu | headの花冠非重複面、cheek L/R、chest/body、ear_root、提示forepaw | 花冠/花束は皮膚の代替zoneにしない。保持物/支持前肢をtapのために投げない。小耳を拡大してtouch面を稼がない |
 
-CarolのzoneはA。他3匹の最小zone構成はPRODUCT §5・身体から導いたP/U。眼・口内・装飾particlesは全員除外。screen-leftと解剖学Lは別。実際の面からsideを得て、中央はcentralのまま。受理された複数touchには局所ACKを返すが、左右へ同時に大きく倒れない。対応入力数は製品判断を拡張しない。
-
+3匹の最小zone構成はPRODUCT §5・身体から導いたP/U。眼・口内・装飾particlesは全員除外。screen-leftと解剖学Lは別。実際の面からsideを得て、中央はcentralのまま。受理された複数touchには局所ACKを返すが、左右へ同時に大きく倒れない。対応入力数は製品判断を拡張しない。
 ### C3. 可愛い共通遊びの採用台帳
 
-| Theme | 根拠 / 採用範囲 | Carol / Jill / Pino / Shushu |
+| Theme | 根拠 / 採用範囲 | Jill / Pino / Shushu |
 |---|---|---|
-| High-five | E-M MF-051–053、P-M MF-021–022のO/T:提示と接触payoff。今回Human指示A:共通の可愛い遊びにする。具体演技P | C40 / J12 / P14 / S13。全員に身体面との交流を設計。Carolの頻度衝突はO1で可視化 |
-| 頬/頭を差し出して撫でを受け取る | EXP §§5–6 A、PACK C4–5 O/I | C21–24 / J13 / P15 / S14。Pinoも甘えられ、Shushuも歓迎する |
-| 気持ちよいmoving hold | EXP §§2–3 A、PACK B3–4 O/I | C05,C35 / J06–11,J23 / P08–13,P25 / S07–12,S24。誰も常時動く必要はない |
-| 小さな接触→はっきり嬉しい顔→好意の余韻 | PACK B7,B11、EXP §§7–8 | C32,C41 / J14,J26 / P16,P28 / S15,S27。稀少演技だけを可愛くしない |
+| 頬/頭を差し出して撫でを受け取る | EXP §§5–6 A、PACK C4–5 O/I |  / J13 / P15 / S14。Pinoも甘えられ、Shushuも歓迎する |
+| 気持ちよいmoving hold | EXP §§2–3 A、PACK B3–4 O/I |  / J06–11,J23 / P08–13,P25 / S07–12,S24。誰も常時動く必要はない |
+| 小さな接触→はっきり嬉しい顔→好意の余韻 | PACK B7,B11、EXP §§7–8 |  / J14,J26 / P16,P28 / S15,S27。稀少演技だけを可愛くしない |
+| High-five | E-M MF-051–053、P-M MF-021–022のO/T:提示と接触payoff。今回Human指示A:共通の可愛い遊びにする。具体演技P | J12 / P14 / S13。全員に身体面との交流を設計。各個体の支持と接点を実物で検証 |
 
 E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採用しない。ハイタッチに力センサー、実手追跡、タイミング点数、成功報酬、新アイテムunlockを追加しない。既存tap/pokeで提示面に応答する意味設計。掌を頭の高さへ上げる人間的動作は必須でなく、低い「ちょん」でも、offer→接触→嬉しさが明瞭なら成立する。
 
 ## D. Complete Motion Coverage Map
 
-| Coverage | Carol | Jill | Pino | Shushu |
-|---|---|---|---|---|
-| A Living/呼吸/まばたき/姿勢/休息/眠気/起床 | C01,C04–05,C07,C35 | J01,J03–05 | P01,P03–06 | S01–02,S04–05 |
-| B 注目/確認/視線保持・解放/自己身体 | C02,C06,C34,C37 | J02,J15,J24 | P02–04,P17,P26 | S03–04,S16,S25 |
-| C tap/poke/slow/continuous/back-and-forth/固有面 | C08–16,C37–38 | J06–11 | P07–13 | S06–12 |
-| D 喜び/安心/好奇心/驚き/甘え/遊び/満足 | C03–06,C21,C28–32,C36–42 | J03,J12–15,J21,J26 | P03–04,P14–17,P23,P28 | S02–04,S13–16,S22,S27 |
-| E 自発offer/WAIT/応答/無応答/自己活動へ | C03,C21–24,C40 | J12–13 | P14–15 | S13–14 |
-| F hint/refusal/withdrawal/recovery | C16–20 | J09,J16–18 | P11,P18–20 | S10,S17–19 |
-| G Food/style5/好き度1–5/保持中入力 | C25–31 | J19–21 | P21–23 | S20–22 |
-| H Wear/認識/装着/交換/解除/Identity | C02,C05,C33＋§J2 | J22 | P24 | S23 |
-| I Special/Secret/所有/発動/完了 | C31,C37,C43–45＋§J3 | J19–22,J27＋§J3 | P21–24,P29＋§J3 | S20–23,S28＋§J3 |
-| J Gift/自発意図/提示/受領/余韻 | C46 | J25 | P27 | S26 |
-| K 接続/同時touch/release/afterglow/WAIT解除 | C20,C24,C32–34＋K | J18,J23–25＋K | P20,P25–27＋K | S19,S24–26＋K |
-| L Signature/意外性/rare | C35–42,C43–46 | J03,J12–14,J26–27 | P03–04,P14–17,P28–29 | S02,S13–15,S27–28 |
+| Coverage | Jill | Pino | Shushu |
+|---|---|---|---|
+| A Living/呼吸/まばたき/姿勢/休息/眠気/起床 | J01,J03–05 | P01,P03–06 | S01–02,S04–05 |
+| B 注目/確認/視線保持・解放/自己身体 | J02,J15,J24 | P02–04,P17,P26 | S03–04,S16,S25 |
+| C tap/poke/slow/continuous/back-and-forth/固有面 | J06–11 | P07–13 | S06–12 |
+| D 喜び/安心/好奇心/驚き/甘え/遊び/満足 | J03,J12–15,J21,J26 | P03–04,P14–17,P23,P28 | S02–04,S13–16,S22,S27 |
+| E 自発offer/WAIT/応答/無応答/自己活動へ | J12–13 | P14–15 | S13–14 |
+| F hint/refusal/withdrawal/recovery | J09,J16–18 | P11,P18–20 | S10,S17–19 |
+| G Food/style5/好き度1–5/保持中入力 | J19–21 | P21–23 | S20–22 |
+| H Wear/認識/装着/交換/解除/Identity | J22 | P24 | S23 |
+| I Special/Secret/所有/発動/完了 | J19–22,J27＋§J3 | P21–24,P29＋§J3 | S20–23,S28＋§J3 |
+| J Gift/自発意図/提示/受領/余韻 | J25 | P27 | S26 |
+| K 接続/同時touch/release/afterglow/WAIT解除 | J18,J23–25＋K | P20,P25–27＋K | S19,S24–26＋K |
+| L Signature/意外性/rare | J03,J12–14,J26–27 | P03–04,P14–17,P28–29 | S02,S13–15,S27–28 |
 
 呼吸/まばたきはLife Family内の独立channel、Emotionは原因のあるFamily内の評価、TransitionsはKの横断契約。名前の数だけclipを増やさない。以下catalogにあるFamily全てがNへ紐付く。未決定contentは候補として設計し、現行製品に採用したことにはしない。
-
-## E. Carol Motion Catalog
-
-**安心を預ける。** 顔・目・頬・近側耳が意思を運び、蹄と大きな羊毛はその安心を支える。蹄支持を失わず、羊毛のmacro lagはzero。眠気と信頼を混同せず、通常も開眼の好意・好奇心・遊びを残す。以下46 Familyは全てFINAL §27のA coverage、時系列とprofile名はP、可動/可読性はU。原ID対応はM。固有の秒数/cooldown/activationはFINALから継承する。
-
-### C01 Living Baseline / Intentional Stillness — A / 必 / V4 / Q01,Q02,Q03
-
-- **設計:** 無入力時、いまの安心を保って過ごす。目は相手から休める先へ移り、口元の快/眠さを保持する。
-- **演技:** 支持が落ち着く→小顔の注視がほどける→胴の微細な呼吸と独立blinkだけが続く。耳は注意が変わる時だけ参加。蹄と羊毛全体を振らず、静止の前後に選択が残る。
-- **運用:** V=開眼の安らぎ/満足の静止/眠気を帯びる/関心を残す。直前の感情を維持し、touchはその面でACK。休息への入口と目覚めはC35へ接続。A/B scenarioで閉眼だけの置物を失敗とする。
-
-### C02 Soft Check-in — B / 必 / V3 / Q01,Q02
-
-- **設計:** 自分の時間から「そばにいる」相手を短く確かめる。穏やかな関心→確認できた安心。
-- **演技:** 目が対話方向を選ぶ→頭が必要分だけ向く→近側耳が注意を添える→目/口の緊張を解いて元の休息へ。胴・蹄は止め、凝視を延長しない。
-- **運用:** V=初めの確認/満足後の短い確認/別対象から戻る。確認済みなら頭を省ける。touchで局所反応へ、Foodで対象を替える。Wear認識にも構成利用。B/H scenarioで催促に見えないこと。
-
-### C03 Want-affection Prelude — E / 必 / V3 / Q01,Q02,Q05
-
-- **設計:** もう少し近く触れてほしい。安心→小さい期待。見てから自分で頬/頭の空間を開く。
-- **演技:** 目を相手へ→片頬を見せる小さい頭の向き→近側耳と顔周辺の局所開口→進むのを止める。足は支えたまま、指を追い続けない。明確なoffer成立ならC21へ。
-- **運用:** V=頬の申し出/頭の申し出/羊毛開口からの申し出。十分甘えた直後は省略。途中touchはC08/C09へ、無応答はC04/C05へ。E scenarioで好意と要求の区別を確認。
-
-### C04 Fleece Nestle / Self-comfort — A / 必 / V3 / Q01,Q02,Q05
-
-- **設計:** 受け取った安心の中で自分の顔の居場所を整える。満足→くつろぎ。
-- **演技:** 目が柔らかくなる→頭を顔周辺の羊毛へ少し収める→近接面だけ圧縮/開口が整う→顔の見える位置で止まり、片耳の注意が残る。胴と蹄は安定。
-- **運用:** V=浅いnestle/片側に名残/甘え後の収まり。peekを毎回付けず、深い隠れはC39/C45。露出頬へのtouchはそこから受容。A scenarioで自分で落ち着いた結果が読めること。
-
-### C05 Quiet Content Hold — A,K / 必 / V3 / Q01,Q02
-
-- **設計:** もう十分届いたので、気持ちよさを増幅せず保つ。快→静かな充足。
-- **演技:** 直前の顔/頭の向きを残す→まぶたと口がゆるむ→注視を解く→必要な呼吸とblink。蹄・後方体積は止まる。終了は無表情への切替でなく次の注意の発生。
-- **運用:** V=触れた側を残す/正面近くの共有/自己休息。同じtouchには小さく受け、過密だけFへ。C35の長い夢見とは独立。A/K scenarioでフリーズと区別。
-
-### C06 Gentle Curiosity Inspect — B,D / 必 / V3 / Q01,Q02,Q03
-
-- **設計:** 安心した居場所から、実在する変化を確かめたい。穏やか→関心、無害な驚き→納得。
-- **演技:** 目が対象を拾う→片耳/頭を小さく向ける→必要なら支持内の前/横commit→対象を見て止まる→顔が納得し戻る。無害な驚きは開眼の短い評価を入口にする。
-- **運用:** V=遠目の確認/近い対象の確認/不意の変化を確かめる。架空物を追わず、同じ対象の再確認は短縮。新touchは局所ACK、対象撤去で関心を解く。B/D scenarioでランダム首振りを除く。
-
-### C07 Grounded Hoof Adjustment — A,K / 必 / V3 / Q03,Q04,Q05
-
-- **設計:** 今の体重を楽に支え直す。落ち着き→より安定した居方。
-- **演技:** 移す蹄を一度意識→残る支持へ重みを移す→一蹄を低く置き直す→荷重が戻って胴/下部羊毛が落ち着く。顔は好意を失わず、ジャンプやその場の足踏みにしない。
-- **運用:** V=前側の小修正/片側の支持修正/leanからの戻し。理由のない周期再生なし。移行中touchは顔/局所ACK、荷重確定後に主反応。A/K scenarioで足を滑らせない。
-
-### C08 Forehead / Head-top Preferred Pet — C / 必 / V5 / Q01,Q02,Q05
-
-- **設計:** 頭に届いた優しい撫でを、こちらから受け取りたい。認識→快→安心。
-- **演技:** 触点側の頭の受け→まぶたの評価→頭をわずかに低く/接触へ向ける→近側耳だけ参加→蹄支持内で止まる。額付近の羊毛は局所変化、顔は隠さない。
-- **運用:** V=初回の確認/短い受容/心地よい低頭/眠い受容/慣れた小受容。短いtapはC12から必要分だけ。releaseでその深さのsettle、新sideは旧commitを解く。C scenarioで柔らかいACKを保つ。
-
-### C09 Cheek Preferred Lean-in — C / 必 / V5 / Q01,Q02,Q03,Q05
-
-- **設計:** 撫でられた頬へ自分から近さを足す。好意→信頼して預ける。
-- **演技:** 頬の局所受け→目が相手を確かめる→同側頬/頭を触点へ寄せる→胴は必要分だけ参加→寄る量を止め、注視を休む。蹄・非接触側は安定し、指なしでも支えられる。
-- **運用:** V=確認して寄る/頬だけ受容/浅い胴commit/満足したhold/眠い頬受容。L/Rは条件で別計数なし。releaseで追わず、自分の支持へ。C scenarioの左右/早期解放を重視。
-
-### C10 Front-fleece Pet / Soft Compression — C / 必 / V4 / Q01,Q05,Q10
-
-- **設計:** 前側の柔らかい面へ届いた感触を受け取る。気付き→落ち着いた快。
-- **演技:** 実触点の羊毛局所圧縮→顔がそこへ注意→頭が少し快を示す→触れた面と小さい隣接面が整う。胴macro・蹄・他の雲塊は止め、押された場所が読める。
-- **運用:** V=短い局所受け/浅い撫で/面を移る受け/満足の保持。Wearとの重複は実際の表面を区別。releaseで局所形状を回復、heroは広域形状の競合を抑える。C/H scenarioでshell滑りを失敗とする。
-
-### C11 Ear-root Touch Response — C / 必 / V4 / Q01,Q02,Q05
-
-- **設計:** 耳根に届いた感触を確かめ、穏やかなら受ける。注意→好意または局所保護。
-- **演技:** 根元の小さい受け→同側耳が短く向く→同側の目/頭が評価→快なら楽な耳へ戻す。反対耳・胴・蹄は原則止める。耳先の大振りで触点を消さない。
-- **運用:** V=短いtap受け/柔らかいpet/眠気中の気付き/過密前の保護。反復roughならC17、解放なら耳根からsettle。C scenarioでL/Rの根元が連続すること。
-
-### C12 Tap / Poke Local Notice — C / 必 / V4 / Q01,Q02,Q05
-
-- **設計:** どこに触れたかをすぐ受け取り、次にどう感じたかを選ぶ。注意→快/関心/保護。
-- **演技:** 当たった面の短い局所ACK→その側の顔の評価→必要な頭/耳だけ続く→入力が終われば小さい名残。root全身パルスにしない。強さは新しい力センサーでなく既存gesture/historyの意味。
-- **運用:** V=柔らかいnotice/好意のnotice/意外なnotice/保護のnotice。zoneでC08–11,C15–16へ接続。短いtap終了後に長いleanを後追いしない。C scenarioで即全身喜びとの区別。
-
-### C13 Continuous Stroke Comfort Build — C / 必 / V4 / Q01,Q02,Q03,Q05
-
-- **設計:** 続く優しい撫でを受け、安心が深まる。快→充足。
-- **演技:** 現在触点のACKを面に沿わせる→顔の緊張がほどける→頭/小さい胴commitを足す→深まりが止まりmoving holdへ。指の経路を全身振りの軌道にしない。蹄支持は静か。
-- **運用:** V=早い受容/育つ快/十分なhold/満足後の小受容。継続を再triggerせず、短い中断は今の深さから。releaseは押圧だけ解き温かさを残す。C scenarioで経路変化/side更新を確認。
-
-### C14 Back-and-forth Pet / Melt-with-Saturation — C / 必 / V4 / Q01,Q02,Q05
-
-- **設計:** 往復の柔らかい感触を、十分な快として受け止めたい。快→満足、過密ならhint。
-- **演技:** 反転点の実面ACK→まぶた/口元が快を示す→頭の寄りを一度選ぶ→反転ごとに揺れず、穏やかなhold→releaseで局所回復。支持と羊毛macroは動揺させない。
-- **運用:** V=短い往復/心地よい受容/満ちたhold/過密前の小hint。遅い往復を罰さず、rough履歴だけC17へ。反転数を喜び無限増幅にしない。C scenarioでmetronomeを除く。
-
-### C15 Side / Back Fleece Neutral Acknowledge — C / 必 / V3 / Q01,Q02,Q05
-
-- **設計:** 正面以外の実在触点にも気付き、そのまま過ごせる。中立→受容/軽い関心。
-- **演技:** 見える接触面の局所受け→近側耳/頭の小glance→顔の好意→元の注意へ。全身を背面へ旋回せず、前面の顔と局所面が因果を補う。
-- **運用:** V=側面の受け/露出背面の受け/穏やかな確認。非露出の背面を架空hitにしない。前面へ経路が移ればC10/C13、roughならboundary。C scenarioで正面から顔の反応が読めること。
-
-### C16 Sensitive Hoof / Rear-lower Response — C,F / 必 / V3 / Q01,Q03,Q04
-
-- **設計:** 支持部の不意の感触を認識し、必要なら保護する。注意→小さい不快/余地の回復。
-- **演技:** 接触部の小ACK→顔が触点側を評価→荷重を残る支持へ→触点をわずかに遠ざける。足を蹴り上げず、必要な一耳/頭だけ参加。
-- **運用:** V=短いnotice/軽い保護/反復へのhint。**C40の有効offer中は遊びの受容を優先**し、このsensitive判定を誤適用しない。releaseでC20へ。C/F scenarioで転倒・敵対を除く。
-
-### C17 Boundary Hint — F / 必 / V4 / Q01,Q02
-
-- **設計:** 今の触れ方は少し十分だと伝えたい。快/中立→局所の戸惑い。相手そのものへの拒絶ではない。
-- **演技:** 触点を受けた顔のまぶた/口に小さい区切り→近側耳の向きが変わる→頭を小さく楽な方へ→足は止まる。受容の余韻を全て消さず、hintを見える状態で保持。
-- **運用:** V=同面の過密/速い反復/敏感面/休息を守る。穏やかな満足とは区別。解放ならC20、続くならC18。F scenarioで説明なしに「今は少し控えて」が読めること。
-
-### C18 Clear Refusal — F / 必 / V3 / Q01,Q02,Q03,Q04
-
-- **設計:** hint後も続く接触から余地を取り戻す。小不快→明確な終了意思。
-- **演技:** 顔が触点を確認→頭の差し出しを解く→支持内で小さく後/下へ→必要なら一前蹄を守る配置→目は監視程度に残す。払う/蹴る/全面背向けにしない。
-- **運用:** V=頬offerを閉じる/頭の余地を取る/敏感部を守る。releaseでC20、継続でC19。新touchは気付いても即満面笑顔にせず、支持移行を守る。F scenarioで怒りと区別。
-
-### C19 Withdrawal + Mild Residue — F / 必 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** 過密刺激から少し離れ、自分で落ち着く。拒否→距離/軽い名残。
-- **演技:** 頭が近さを解く→胴は支持内の小turn/down-in→顔周辺開口が少し狭まる→一耳は相手を認識し、顔の一部を残す→自分の休息へ。羊毛を盾として独立移動させない。
-- **運用:** V=片側に余地/浅いnestle保護/部分turn。完全な見えない背面に逃げず、解放からC20。別zone接触には局所ACK、拒否済み旧面を即再提示しない。F/K scenarioで罰のsad holdを除く。
-
-### C20 Recovery / Re-engagement — F,K / 必 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** 刺激が解けたので自分から安心と交流の余地を戻す。小不快→落ち着き→穏やかな好意。
-- **演技:** 触点の保護を解く→頭/支持を楽に整える→目が相手へ短く戻る→耳の緊張がほどける→温かい顔のままC01/C05へ。追加touchや謝罪がなくても成立。
-- **運用:** V=hint後の回復/withdrawalからの回復/穏やかな新touchと合流。履歴の余地を残し瞬間happy resetなし。F scenarioで回復をユーザーの仕事にしない。
-
-### C21 Affection Invitation + WAIT — E / 必 / V4 / Q01,Q02,Q03,Q05
-
-- **設計:** 自分から触れ合いを始め、心地よい近さを選びたい。安心→期待。
-- **演技:** 目が相手を選ぶ→頬/頭/開口を見せる→支持を保って前進を止める→blink・小呼吸・一耳だけでWAIT。接触面と顔を同時に見せ、全身で催促を続けない。
-- **運用:** V=頬L/頬R/額を低く/羊毛開口。応答C22、別zoneはその触れ合いへredirect、無応答は一度まで短い確認からC24。E scenarioでWAITと凍結/命令待ちを区別。
-
-### C22 Accepted Invitation ACK — E,C / 必 / V3 / Q01,Q02,Q05
-
-- **設計:** 自分の申し出が届いたことを喜ぶ。期待→嬉しい安心。
-- **演技:** offer面の局所ACK→目/口が明るく受け取る→頭がほんの少し接触へ→近側耳だけ添う→満足のhold。大きな波を全身に発生させず、触点を維持。
-- **運用:** V=短い返事を受ける/撫でとして深まる/温かい完了。first-turn後に欲求が残る時だけC23。早期releaseはC24/C32へ。E scenarioでcontact前にsuccessを先行させない。
-
-### C23 Second-turn Offer — E / 保 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** 届いた喜びを保ち、もう一つ心地よい場所を開きたい。安心→小さい遊びの期待。
-- **演技:** 旧接触のcommitを解く→蹄支持内で頭/目を別面へ→近側耳と開口を更新→新面を静かにWAIT。旧面と新面を同時に押された顔にしない。
-- **運用:** V=反対頬/額/開口の次turn。通常second-turnは一度まで、同じofferの再生ではない。無応答C24、別zoneへ柔らかく終了。E/K scenarioで無限chainを除く。
-
-### C24 Social Completion / Shared Warmth — E,K / 必 / V3 / Q01,Q02,Q03
-
-- **設計:** 応じてもらった嬉しさ、または自分で閉じた誘いを、温かい時間として収める。
-- **演技:** 提示姿勢を自分の支持へ戻す→顔/耳の期待を柔らかな満足へ→目は短く相手に留まり、やがて解く。無応答版は失望の下向き顔を挟まず、その前の安心を残す。
-- **運用:** V=一往復の満足/二turnの満足/無応答の穏やかな完結。直後の再offerを抑え、touchは今の温かさから。E/K scenarioで成立/無応答の両方を確認。
-
-### C25 Food Notice / Orient / Presentation Wait — G / 必 / V3 / Q01,Q02,Q09
-
-- **設計:** 提示されたFoodをまず確かめたい。日常→Foodへの関心/味への期待。
-- **演技:** 目がFoodを拾う→頭が対象へ→一耳と口元の小さいanticipation→蹄は止め、届く位置で待つ。身体を前へ投げて受領を偽装しない。
-- **運用:** V=新しいFood/既知の好きFood/眠気中のnotice。Food位置変更は視線を更新、撤去で関心を解く。好き度1はC27、2–5はC26。G scenarioで消費前の認識を可視化。
-
-### C26 Food Receive / Consume Style — G / 必 / V5 / Q01,Q02,Q03,Q04,Q09
-
-- **設計:** 受領可能なFoodを、自分の口と必要な支えで食べる。期待→摂食→評価前。
-- **演技:** Food接点を見定める→口/頭が受ける→style固有の主動作→口とpropの関係を保った小処理→動きを止めて味を見る。胴・蹄は安定、大物のみ必要なbrace。
-- **運用:** V=一口/複数口/なめる/飲む/大きい物。具体style scriptはJ1。bite中touchは非口元ACK、保持物を壊さずsafe nodeで切替。摂食の後C28–31。G scenarioで接点・残量・消費事実を分離。
-
-### C27 Preference 1 — Refuse Without Consuming — G / 必 / V3 / Q01,Q02,Q09
-
-- **設計:** このFoodは食べたくないと優しく伝える。確認→小さい嫌い→食べない選択。
-- **演技:** Foodへ目→口を受領形にせず顔が評価→頭を少し外し一耳が余地を示す→蹄を残し、相手には温かさを戻す。口に入れた後の吐出で表現しない。
-- **運用:** V=新しい嫌いFood/既知の拒否/再提示への短い拒否。未消費を保持し、撤去でC33へ。好き度1をC28の食後不満に流さない。G scenarioで在庫が減ったように見せない。
-
-### C28 Preference 2 — Reluctant Eat + Mild Dislike — G,D / 必 / V3 / Q01,Q02,Q09
-
-- **設計:** 食べた味が少し苦手だった。摂食→微妙な評価→普段の落ち着き。
-- **演技:** 口の処理後に短く止まる→まぶた/口元が小さく曇る→頭の僅かなoffsetと一耳の保護→それを自分で解く。蹄は静か、嘔吐/恨む視線なし。
-- **運用:** V=小さい微妙顔/もう一度味を確かめる/慣れた苦手の短い評価。消費済みは巻き戻さない。新touchは温かい局所ACKと共存、C33へ。G scenarioで拒否と区別。
-
-### C29 Preference 3 — Neutral Satisfied — G,D / 必 / V3 / Q01,Q02
-
-- **設計:** 普通に食べ、ひとまず満足した。評価→控えめな充足。
-- **演技:** 味を見る小停止→口元が自然にほどける→Food対象の注視を解く→頭/耳は楽に収まる。胴/蹄の大きい参加なし。大好物との差は喜びを隠すことではなく小さい終点。
-- **運用:** V=普通の充足/眠い充足/次の注意へ移る充足。既知Foodは過剰な初見演技なし。touchでC32と合流。G scenarioで無表情な食後停止を除く。
-
-### C30 Preference 4 — Liked Food — G,D / 必 / V4 / Q01,Q02,Q03,Q05
-
-- **設計:** 好きな味が届いた喜びを味わう。評価→快→温かい満足。
-- **演技:** 目/口が明るくなる→頭が小さく心地よい方向へ→一耳と必要な胴commit→増幅を止めてhold。羊毛の小shape echoは所有面のまま、蹄は支える。
-- **運用:** V=顔中心/小さい預け/相手への嬉しい確認/満足を長めに残す。反復は小さく受けても好きは維持。新touchはpeak再演を足さずC32へ。G/D scenarioで大好物と強弱を読む。
-
-### C31 Preference 5 — Favorite Food Delight — G,D / 必 / V4 / Q01,Q02,Q03,Q05
-
-- **設計:** 大好物を食べた強い幸せ。評価→明確な喜び→深い充足。
-- **演技:** 食後の味を見る間→顔が大きく嬉しくなる→頭/小さい胴が柔らかく開く→耳を選択参加→支持されたpeak→長い温かいhold。broad fleeceは必要な形状変化のみ。
-- **運用:** V=顔から満ちる/小胴の喜び/相手へ嬉しさを向ける/深い余韻。音/モチーフFXなしでも成立。強い演技後は休息を許す。bite保護と喜びを分け、新入力は現在peakからredirect。G scenario。
-
-### C32 Warm Content Afterglow — K,D / 必 / V4 / Q01,Q02,Q03,Q05
-
-- **設計:** 動作後も受け取った好意/快を残したい。喜び→安らぎ。
-- **演技:** 現在の頭/支持位置を保つ→顔のpeakを柔らかくする→目のdwell/release→耳と局所羊毛shapeが収まる。身体が整っても温かさは続く。
-- **運用:** V=頬方向の名残/相手への共有/Food満足/自己休息へ。新touchで余韻を消さず、C41は条件のあるsecond thought。K scenarioでpose settleとemotion settleを分ける。
-
-### C33 Neutral Return / Active-pose Settle — K / 必 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** 特別な情動peakのない行為を、自分の楽な支持へ収める。活動→落ち着き。無感情へのresetではない。
-- **演技:** 親行為の使った部位を解放→頭/支持を無理のない向きへ→耳/局所shapeが止まる→次の関心を選ぶ。全身一斉Neutral snapなし。
-- **運用:** V=頭主体の収まり/支持を伴う収まり/対象が消えた収まり。新touchは途中から受ける。Wear解除/交換後にも構成利用。K/H scenarioで余計な中立待機を挟まない。
-
-### C34 Session Entry / Return / Background Resume — B,K / 必 / V4 / Q01,Q02,Q03,Q11
-
-- **設計:** 開いた画面に、今のCarolがすでに居る。休息/関心/余韻→相手への認識。
-- **演技:** 支持の成立した姿勢を提示→目が今の注意を持つ→必要なら短いcheck-in→小settle→Life。毎回pop/bounce/歓迎芸をしない。経過による眠気の解放も自然に見せる。
-- **運用:** V=新session/短い画面往復/背景復帰/余韻を持つ復帰。無効touch/古いWAITは持ち越さず、Food/Gift事実は勝手に完了しない。B/K scenarioで復帰を罰の寂しさにしない。
-
-### C35 Dream-like Long Moving Hold — A,L / 保 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** 安心の中で長く休みたい。充足→夢見のような眠気。常時眠い人格ではなく、休息を選んだ結果。
-- **演技:** 顔の確認が減る→頭を楽な位置へ収める→まぶたが緩み、胴/蹄は安定→長いholdで小呼吸/一耳の注意だけ→目が戻る時は眠さを少し残す。
-- **運用:** V=浅い夢見/深い静かなhold/touchから柔らかく目覚める。新規の睡眠Familyを量産せず、起床/眠気遷移はここでC01/C05へ。touchは即ACK、完全覚醒を毎回強制しない。A/C scenario。
-
-### C36 Bounded Dreamy Self-expression Phrase — D,L / 保 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** いい気分を自分でも少し楽しむ。快→遊び心→満足。
-- **演技:** 顔に私的な嬉しさ→頭の小さい弧→一耳の参加→小さい胴のもう一拍→自分で止めて顔が満ちる。蹄を跳ねさせず、等間隔のダンスにしない。
-- **運用:** V=顔・耳中心/頭と小胴の二拍/途中で相手へ開く。直後に同じphraseを連発しない。touchは気分を保って受け、必要なら大きい残り動作を省く。D/L scenarioでランダムstretchと区別。
-
-### C37 Moon / Star Motif Recognition — B,C,L / 保 / V4 / Q01,Q02,Q05,Q10
-
-- **設計:** 自分のモチーフへ届いた接触を認識し、少し特別な関心を持つ。気付き→嬉しい確認。
-- **演技:** 実接触anchorの受け→目/頭がその位置を確かめる→一耳と近接羊毛の小shape→顔の意味をhold→通常の快へ。モチーフを独立bounceさせず、発光で認識を代行しない。
-- **運用:** V=月のtap/星のtap/穏やかなpet/特別Food後の控えめaccent。反復時FXを抑え通常ACKへ。inputなしaccentはtouchの偽装をしない。C/L scenarioでモチーフを外しても表情が読めること。
-
-### C38 Deeper Cheek Press — C,L / 保 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** 心地よい持続頬petへ、さらに自分から信頼を預ける。快→深い安心。
-- **演技:** C09の受容から、同側頬/頭がもう少し接触へ→必要な小胴commit→支持内で進むのを止める→目が休み、長い満足。羊毛は近接面を圧縮し、胴から遅れて流れない。
-- **運用:** V=顔主体の深い受容/支持を足す受容/十分な深さでhold。反復で押し込みを増やさず、releaseはその深さから回復。C scenarioで「寝落ち」より本人の近さの選択が見えること。
-
-### C39 Face-in-Fleece Peek — L,E / 保 / V3 / Q01,Q02,Q05
-
-- **設計:** 安心した羊毛へ一度顔を収め、こちらをまた覗きたくなる。私的なくつろぎ→遊び心/好意。primary recognition signatureを保護。
-- **演技:** 顔の意思→頭が開口へ収まる→局所形状が顔を囲む→小さい間→目/小顔が先に覗く→耳/開口が整って嬉しい顔を残す。胴・蹄・大羊毛macroは静か。
-- **運用:** V=中央の小peek/片側peek/相手へのpeekから招待。完全消失を長く続けず、露出頬touchはC22/C09へ。C45のowned遊びとtriggerを分ける。L/E scenarioで浮く羊毛や無反応消失を除く。
-
-### C40 Rare Low-Forehoof Reciprocal Ritual / High-five — E,L / 保 / V2 / Q01,Q03,Q04,Q05
-
-- **設計:** 今度は小さい蹄で相手と「ちょん」と触れ合いたい。親しい快→期待→返事の嬉しさ。全員共通High-fiveのCarol演技。
-- **演技:** 目が相手へ→残る蹄に荷重を確保→一前蹄を低く見える面へ差し出す→蹄の面/顔を見せてWAIT→有効tapの局所受け→顔と一耳が嬉しくほどける→蹄を静かに戻し温かさを保つ。
-- **運用:** V=小さい蹄提示/応答後の長めの温かさ。触れる前にsuccess顔を出さず、無応答は同じ荷重順で戻る。連続paw chainなし。既存rare/cooldown/triggerは維持、日常化提案はO1。E/L scenarioで蹄が羊毛に隠れないこと。
-
-### C41 Delayed Affection Look-back — K,L / 保 / V3 / Q01,Q02
-
-- **設計:** いったん満足してから、もう一度相手へ好意が向く。安らぎ→自分からの小さい甘え。
-- **演技:** 直前の触れ合いが収まる→目がふと思い直して相手へ→頭/一耳が必要分だけ付く→温かい口元→次の催促なしで休む。胴・蹄は静か。
-- **運用:** V=目だけの好意/小頭の振り返り/接触側の名残。新touchがあれば合流/取消し、後追い再生なし。4匹共通の「あとから嬉しい」テーマだがCarolは相手への近さを残す。K/L scenario。
-
-### C42 Medium Hero Delight — Cloud Sigh — D,L / 保 / V3 / Q01,Q02,Q03,Q05
-
-- **設計:** 十分に届いた幸せが、顔から小さな身体の開きへ広がる。高い快→深い安らぎ。
-- **演技:** 目/口の嬉しい評価→頭が柔らかく開く→小胴が支持の上で息をほどくように伸びる→選択的耳/必要ならbroad shape echo→peakを止める→長い柔らかなsettle。浮遊/ジャンプなし。
-- **運用:** V=顔中心のsigh/小胴を伴うsigh/好意を相手へ残すsigh。大喜びは稀でも通常の笑顔は豊かに保つ。保護peak中も局所ACK、後は今の快からredirect。D/L scenarioは音/FXなし。
-
-### C43 Secret — Moon Ball Play — I,E / 保 / V3 / Q01,Q02,Q03,Q05,Q12
-
-- **設計:** owned moon_ballと相手の動きで、穏やかな往復遊びをしたい。関心→期待→遊べた満足。
-- **演技:** 出現したballを目/頭が認識→頬/額の届く接点へ→支持内のnudge→ballの行き先を見る→tap/flick可能なWAIT→返事に顔が喜び、必要な次nudge→抱くようなsettle。口で咥える能力を追加しない。
-- **運用:** V=額nudge/片頬nudge/二turnの往復。BOTH、既存cooldownとbounded propを保持。外れ/無応答はsafe pauseからやさしくexit。保持接点を壊すtouchは局所ACKと分離。I scenarioでpropの軌跡・接触・消失を整合。
-
-### C44 Secret — Star Peek — I,B / 保 / V3 / Q01,Q02,Q05,Q12
-
-- **設計:** 見え隠れするdream_starを相手と確かめたい。発見→期待→共有した嬉しさ。
-- **演技:** front-fleece pocketからstarが見える→目/頭が同側へ→顔とtargetが見える位置で止まる→tapに局所の気付き→嬉しい確認→次の位置またはsettle→prop exit。羊毛全体が星を追わない。
-- **運用:** V=左pocket/右pocket/front pocket。BOTH。外れ/lateは穏やかな再提示、無限試験なし。ordinary touchは身体の交流として受けexit可。I scenarioでstar発見をFX説明に頼らない。
-
-### C45 Secret — Fleece Hide-and-Peek — I,E / 保 / V3 / Q01,Q02,Q05,Q12
-
-- **設計:** 自分が少し隠れ、相手に見つけてもらう可愛い遊び。安心→期待→嬉しい再会。
-- **演技:** 相手を見る意思→顔を局所開口へ収める→visible opening/頬を残してWAIT→tapした側を受ける→目/顔がpeek→必要なら一度side swap→自分から顔を戻して温かい余韻。支持と羊毛macroは維持。
-- **運用:** V=中央からpeek/片側peek/一度side swap。BOTH、max二turn。外部props不要。通常touch/release/無応答は安全に遊びを閉じる。I scenarioでC39と所有/interactive loopの違いを保護。
-
-### C46 Gift — Dream Keepsake Presentation — J / 保 / V3 / Q01,Q02,Q03,Q04,Q05,Q13
-
-- **設計:** 自分から大切なものを相手へ渡したい。発見/好意→気付いてほしい→渡せた満足。
-- **演技:** 物を準備する注意→顔が相手へ→羊毛reveal/頬push/低い蹄assistでbounded Giftを見せる→提示を止めWAIT→受理で渡し手を解く→prop transferの事実→顔/耳に温かさ→Collection。UIが意思を先に説明しない。
-- **運用:** V=羊毛reveal/頬push/稀な蹄assist。AUTO_ONLY、ultra-low product eligibility、session grant済みなら再grantなし。無応答/離脱の獲得時点はJ4のUを保持、罰/没収を作らない。J scenarioで保持とACKを両立。
 
 ## F. Jill Motion Catalog
 
@@ -452,7 +164,7 @@ E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採�
 ### J07 Cheek Touch / Turn to Share — C / 必 / V4 / Q01,Q02,Q03,Q06
 
 - **設計:** 頬の気持ちよさを受け、嬉しさを相手にも向ける。快→共有した好意。
-- **演技:** 同側頬の局所受け→目/顔が快を示す→頬を少し開き、胸を対話方向へ整える→顔の温かいhold。支持/反対翼は止める。Carolの深い寄りを速く再生しない。
+- **演技:** 同側頬の局所受け→目/顔が快を示す→頬を少し開き、胸を対話方向へ整える→顔の温かいhold。支持/反対翼は止める。
 - **運用:** V=短いnotice/頬のslow受容/顔と胸の共有/満足の小hold。L/R保持、新sideは旧commitを解く。C scenarioで接点を胸の喜びに消さない。
 
 ### J08 Chest / Body Touch — C / 必 / V3 / Q01,Q03,Q06
@@ -630,7 +342,7 @@ E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採�
 ### P09 Cheek Pet / A Little More This Way — C / 必 / V3 / Q01,Q02,Q03,Q07
 
 - **設計:** 好きな頬の感触を確かめ、気に入れば少し近さを足したい。
-- **演技:** 同側頬ACK→目/口が快→頭が小さく接点へ→内寄り前肢が楽にほどける→結果を味わい止まる。Carolの深い預けを主眼にせず、支持/尾は保つ。
+- **演技:** 同側頬ACK→目/口が快→頭が小さく接点へ→内寄り前肢が楽にほどける→結果を味わい止まる。支持/尾は保つ。
 - **運用:** V=短い確認/気に入った頬の受容/自分から小さく寄る。L/R、side changeは旧commitを解き新側へ。C scenarioで好意が結果検分だけに消えない。
 
 ### P10 Body Pet / Rounded Ease — C / 必 / V3 / Q01,Q03,Q07
@@ -802,7 +514,7 @@ E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採�
 ### S08 Cheek Pet / Enjoy It Here — C / 必 / V4 / Q01,Q02,Q03,Q08
 
 - **設計:** 自分の快を保ったまま、気持ちよい頬touchを選び受ける。
-- **演技:** 同側頬ACK→目/口がはっきり喜ぶ→顔を接点側へ少し開く→不要な前肢の構えを低く解く→選んだ胴/荷重で満足hold。Carolの深い全身寄りを代表にしない。
+- **演技:** 同側頬ACK→目/口がはっきり喜ぶ→顔を接点側へ少し開く→不要な前肢の構えを低く解く→選んだ胴/荷重で満足hold。
 - **運用:** V=短い歓迎/顔の明確な快/好みの頬を小提示/満足済みの受容。L/R、新sideも即ACK。release後は前肢を楽に閉じ温かさを残す。C scenarioで冷淡さなし。
 
 ### S09 Body Pet / Plush Warmth — C / 必 / V3 / Q01,Q03,Q04,Q08
@@ -845,7 +557,7 @@ E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採�
 
 - **設計:** 好きな感触/共有がとても嬉しい。評価→意外にはっきりした喜び→深い満足。
 - **演技:** 目/口が明るい→短い空いた前肢が一度ほどける→胴は支持上で小さく快を受ける→局所plushが収まる→温かいhold。小耳の参加は補助、跳躍や全身elasticなし。
-- **運用:** V=顔中心の快/前肢が添う喜び/大きい好きを長く味わう。通常の笑顔も残す。touchで今の快とACKを両立。D scenarioでCarolのCloud Sighと同じpose速度変更にしない。
+- **運用:** V=顔中心の快/前肢が添う喜び/大きい好きを長く味わう。通常の笑顔も残す。touchで今の快とACKを両立。
 
 ### S16 Surprise / Notice, Then Choose What I Like — B,D / 必 / V3 / Q01,Q02,Q08
 
@@ -899,7 +611,7 @@ E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採�
 
 - **設計:** もう十分味わったので行為を閉じ、温かさは残す。
 - **演技:** 開いた前肢/顔を楽な居場所へ→胴の局所plushが荷重に従い収まる→目/口に好意→手元/自己快へ注意release。相手へ冷たい背向けを挟まない。
-- **運用:** V=共有した快/自分の快/peakのないsettle。新touchはその温かさからACK。K scenarioでCarolの接触方向の名残と、自己姿勢の完結を比べる。
+- **運用:** V=共有した快/自分の快/peakのないsettle。新touchはその温かさからACK。
 
 ### S25 Session Entry / My Pleasant Time Is Here — B,K / 必 / V3 / Q01,Q03,Q04,Q08,Q11
 
@@ -917,7 +629,7 @@ E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採�
 
 - **設計:** 触れ合いの後にも、その感じを自分からもう一度嬉しく思う。
 - **演技:** S24で落ち着く→口元がふと明るい→目が相手へ短く温かく開く→前肢は居場所を保つ→自分の快を続ける。恒常的な閉眼や意味不明な頷きなし。
-- **運用:** V=共有後の思い返し/好きな感触の思い返し。通常笑顔をrareへ移さず、新touchで今の嬉しさへ合流。L scenarioでCarolのもう少し近い甘えとの差を読む。
+- **運用:** V=共有後の思い返し/好きな感触の思い返し。通常笑顔をrareへ移さず、新touchで今の嬉しさへ合流。
 
 ### S28 Secret Candidate / Bouquet Peek and Welcome — I,L / 候 / V2 / Q01,Q03,Q04,Q08,Q12
 
@@ -929,13 +641,13 @@ E-M MF-054の別反応は意味未解決。拒否や失敗の証拠として採�
 
 ### I1. 同じ入力で何が変わるか
 
-| Situation | Carol | Jill | Pino | Shushu |
-|---|---|---|---|---|
-| 頬slow pet | C09。自分から接触へ近さを足し、確認を休める | J07。頬の快を胸/顔の共有へ開く | P09。気に入った感触を確かめ、前肢の集中を解く | S08。選んだ胴/前肢の居方を保ち、嬉しい顔を開く |
-| High-five contact | C40。蹄を自重で戻し、信頼の温かさ | J12。返事の宛先へ顔/胸が開き、一往復で満足 | P14。接点の違いを一瞬見て、相手へ嬉しい顔 | S13。即ACK後に好きな感じを短く保ち、前肢を休む |
-| 同じpetを10回 | C08/C13。相手確認を省き、安心の小受容 | J06/J10。毎回大きい翼peakを足さず共有満足 | P08/P12。既知の感触を再発見せず楽しむ | S07/S11。好きの顔を残して同じ快を味わう |
-| 無応答WAIT | C24。近さの提示を解き自分でくつろぐ | J13。前から楽しかった私的快へ戻る | P15。残っている試行を自分で続ける/休む | S14。前から好きだった居方へ顔を戻す |
-| 喜び途中に反対頬touch | 全員local ACKは同じ意味。Carolは旧leanを解く | 胸/翼の広がりを小さくして新sideを向く | 手元を安全に保留し、新触点を受ける | 胴/保持を残して顔を新sideへ開く |
+| Situation | Jill | Pino | Shushu |
+|---|---|---|---|
+| 頬slow pet | J07。頬の快を胸/顔の共有へ開く | P09。気に入った感触を確かめ、前肢の集中を解く | S08。選んだ胴/前肢の居方を保ち、嬉しい顔を開く |
+| High-five contact | J12。返事の宛先へ顔/胸が開き、一往復で満足 | P14。接点の違いを一瞬見て、相手へ嬉しい顔 | S13。即ACK後に好きな感じを短く保ち、前肢を休む |
+| 同じpetを10回 | J06/J10。毎回大きい翼peakを足さず共有満足 | P08/P12。既知の感触を再発見せず楽しむ | S07/S11。好きの顔を残して同じ快を味わう |
+| 無応答WAIT | J13。前から楽しかった私的快へ戻る | P15。残っている試行を自分で続ける/休む | S14。前から好きだった居方へ顔を戻す |
+| 喜び途中に反対頬touch | 胸/翼の広がりを小さくして新sideを向く | 手元を安全に保留し、新触点を受ける | 胴/保持を残して顔を新sideへ開く |
 
 初回profileは意思を確かめる段階を広めに、慣れたprofileは確認を省いて快を早く見せる。眠いprofileもACKは明確。強いprofileは参加部位と結果holdが増え、小さいprofileは顔/触点だけでも十分可愛い。違いを振幅/速度/左右mirrorだけに還元しない。
 
@@ -947,8 +659,7 @@ profile選択は、**今の欲求がまだあるか→支持/保持が可能か�
 |---|---|---|
 | Pinoの自発試行 | Phase 2の手合わせ・離す / P03片前肢の置く・押す・上げて見る / P04小turn後の尾確認 | **P03を日常の第一候補P**。片側行為→結果を見る停止が明瞭で拍手/手揉みを避けやすい。前肢先端/視線/接点が見えることはU。手合わせは非対称の一試行として保留可能、独立Familyには数えない。P04は視認条件がある拡張で、coreの代替にはしない |
 | Jillの招待 | 伸びの姿勢をそのまま長く保つ / J13で顔の宛先と前肢の空間を変える / J12片前肢のHigh-five | **J13とJ12を目的で使い分けるP**。伸びを止めるだけではstretch holdに見えるため、顔を相手へ・応答後の胸の喜びを必ず持つ。High-fiveは接触面が明確だが常用の招待をそれだけにしない |
-| Carolの静けさ | ずっと閉眼 / C05の開眼もある安心hold / C39peekとC41look-back | **安心hold＋本人からの小意思**。長い夢見C35も保護するが通常眠そうにしない。顔の見える開口/支持がU |
-| Shushuの静けさ | 熟考後の遅い笑顔 / S02の自己姿勢＋S06即ACK / S15のはっきりした好き | **自己快＋即ACK＋明瞭な喜びP**。温かさを速度差で説明せず、接触前の居方と接触後の完結でCarolとの差を作る。小顔/手元の可視性U |
+| Shushuの静けさ | 熟考後の遅い笑顔 / S02の自己姿勢＋S06即ACK / S15のはっきりした好き | **自己快＋即ACK＋明瞭な喜びP**。温かさを速度差で説明せず、接触前の居方と接触後の完結で本人らしい違いを作る。小顔/手元の可視性U |
 
 これらは期待する可読性の比較であり、実演で最適と証明した選択ではない。Humanが手合わせを最も可愛いと感じれば、Identityを保った演技候補として選べる。現在の候補を守るために癒し/可愛さを犠牲にしない。
 
@@ -960,9 +671,6 @@ tapは短い一接触のnotice、pokeは局所に留まる押し/繰り返しの
 
 | Character / zone | Tap / Poke | Slow Pet | Continuous Stroke | Back-and-Forth |
 |---|---|---|---|---|
-| Carol head / cheek | C12→C08/C09 | C08/C09 | C13＋現在面、条件成立でC38 | C14＋現在面 |
-| Carol front / side-back / ear-root | C12/C10/C11/C15 | 各面C10/C11/C15 | C13＋面の局所owner、耳根は小C11 | C14＋面、耳根は小受け/過密hint |
-| Carol sensitive / motif | C16 / C37 | 短い受容 / 控えめC37 | 敏感部は保護、motifは通常ACKへ | 敏感部はboundary、motif FX反復抑制 |
 | Jill head / cheek / chest-body | J06/J07/J08で局所notice | 各J06/J07/J08で快 | J10＋実面ACK | J11＋実面ACK |
 | Pino head / cheek / chest-body | P07→P08/P09/P10 | 各P08/P09/P10 | P12＋実面ACK | P13＋実面ACK |
 | Shushu head / cheek / chest-body | S06→S07/S08/S09 | 各S07/S08/S09 | S11＋実面ACK | S12＋実面ACK |
@@ -970,23 +678,23 @@ tapは短い一接触のnotice、pokeは局所に留まる押し/繰り返しの
 
 同じgestureでも触面の材質/用途を保ち、前肢提示中のtapは遊び、支持前肢へのpokeは保護が必要になり得る。口内/目や非露出面を新zoneに追加しない。ここは演技routingのPであり実装の入力分類/閾値を決める仕様ではない。
 
-### J1. Five eating styles — 全4匹の接点と時間
+### J1. Five eating styles — 全3匹の接点と時間
 
 PRODUCT §10.4の5分類を全員で設計する。**一つのitem使用で複数口食べても消費は基本1個**。好き度1はstyleに入らず未消費、2–5は食べる確定からDATA §21に従う。演技の途中にエラー/取消があっても、食べていない物を減らす/食べた物を再表示する設計にはしない。確定safe nodeの実装位置はU。
 
 共通時系列は **notice→受領面/保持を整える→style→味の短い評価→好き度→個体の余韻**。各styleの主行為は次のとおり。
 
-| Style | Carol C26 | Jill J20 | Pino P22 | Shushu S21 |
-|---|---|---|---|---|
-| SMALL_ONE_BITE | 口前を目で確認→小頭を接点へ→一口受領→頭を楽に戻し味を見る。蹄は残す | Foodを見て小期待→口で一口→胸は安定→処理後に顔が味を見る。喜びの翼は食後 | 前肢assistが必要な時だけ保持→口で受領→前肢を低く収め→目/口が結果を見る | 短前肢/口の届く位置で受ける→一口→保持が不要になれば楽に休む→味を見る。花束との保持衝突を先に解く |
-| MULTI_BITE | 残るFoodと口の距離を保ち小bite→短処理→次bite。毎口heroなし、最後に評価 | 必要な前肢保持を安定→口/頭の小biteを区切る→最後に胸/顔が評価。翼は保持を妨げない | 内寄り前肢で保持→食べた部分/残量を一度見る→持ち直して次bite→最後に納得。毎口「初発見」なし | 短前肢の届く範囲で保持→小bite→口の処理→次bite。十分食べてから長い味わい、食べる途中に全身沈みを足さない |
-| LICK | 舐める面へ小頭→口の小局所動作→接点を保持→頭を解き味を見る。長舌追加なし | 舐める面に口を向ける→短い口動作→胸/翼は止める→最後の顔評価 | 前肢で面を整え、口で舐める→一度面を確認→必要分継続→終了。器用な指回しなし | 安全な保持/提示面に口を合わせる→小さい口動作→好きな味を見る間。短腕を伸ばさない |
-| DRINK | 容器縁/提示面の口接点を整える→小さい飲み動作→液/容器と頭の関係を保つ→離して評価。容器floatなし | 必要な支えを確保→口の受領→胸は安定したまま飲む→口を解き評価。大きい首反りなし | 内寄り前肢が届く容器を支える、不可なら外部提示→口の接点を保つ→飲む→安全に戻して評価 | 短前肢の保持/外部提示を成立させる→口の接点→小さい飲み動作→物を安定させてから味わう。容器を腹へ貫通させない |
-| LARGE_EAT | bounded大物を安全な面でbrace/外部提示→口で小bite→残るpropと支持を保つ→終了して評価。大物を丸呑みしない | 必要な前肢brace→口の到達→小biteと処理→最後に支えを解き評価。翼を食物把持にしない | 両前肢/外部提示で安定→口が届く部分を選ぶ→bite後に残りを見て持ち直す→終了。尾で掴まない | 短前肢で届くboundedサイズまたは外部提示→口の到達→小bite→propを安全に戻す→満足。顔や腕を拡大して食べない |
+| Style | Jill J20 | Pino P22 | Shushu S21 |
+|---|---|---|---|
+| SMALL_ONE_BITE | Foodを見て小期待→口で一口→胸は安定→処理後に顔が味を見る。喜びの翼は食後 | 前肢assistが必要な時だけ保持→口で受領→前肢を低く収め→目/口が結果を見る | 短前肢/口の届く位置で受ける→一口→保持が不要になれば楽に休む→味を見る。花束との保持衝突を先に解く |
+| MULTI_BITE | 必要な前肢保持を安定→口/頭の小biteを区切る→最後に胸/顔が評価。翼は保持を妨げない | 内寄り前肢で保持→食べた部分/残量を一度見る→持ち直して次bite→最後に納得。毎口「初発見」なし | 短前肢の届く範囲で保持→小bite→口の処理→次bite。十分食べてから長い味わい、食べる途中に全身沈みを足さない |
+| LICK | 舐める面に口を向ける→短い口動作→胸/翼は止める→最後の顔評価 | 前肢で面を整え、口で舐める→一度面を確認→必要分継続→終了。器用な指回しなし | 安全な保持/提示面に口を合わせる→小さい口動作→好きな味を見る間。短腕を伸ばさない |
+| DRINK | 必要な支えを確保→口の受領→胸は安定したまま飲む→口を解き評価。大きい首反りなし | 内寄り前肢が届く容器を支える、不可なら外部提示→口の接点を保つ→飲む→安全に戻して評価 | 短前肢の保持/外部提示を成立させる→口の接点→小さい飲み動作→物を安定させてから味わう。容器を腹へ貫通させない |
+| LARGE_EAT | 必要な前肢brace→口の到達→小biteと処理→最後に支えを解き評価。翼を食物把持にしない | 両前肢/外部提示で安定→口が届く部分を選ぶ→bite後に残りを見て持ち直す→終了。尾で掴まない | 短前肢で届くboundedサイズまたは外部提示→口の到達→小bite→propを安全に戻す→満足。顔や腕を拡大して食べない |
 
 飲むための容器/舐める面/大物の支えはitemごとのprop contractで必要。ここで新Food品目や容器の永久所有を正式採用しない。数値サイズ・舌/口の露出範囲・外部提示の接触方式はQ09のU。限界があればbounded propサイズ/提示を調整し、Canonicalの口/腕を拡大して解決しない。
 
-好き度2は「食べた後の微妙さ」、3は普通の満足、4は嬉しい好き、5は明確な大喜びと長い余韻。喜びの結果はC28–31/J21/P23/S22にある。5を常にジャンプ、2を敵対的拒否にしない。
+好き度2は「食べた後の微妙さ」、3は普通の満足、4は嬉しい好き、5は明確な大喜びと長い余韻。喜びの結果はJ21/P23/S22にある。5を常にジャンプ、2を敵対的拒否にしない。
 
 ### J2. Wear staging and ownership
 
@@ -994,24 +702,18 @@ PRODUCT §10.4の5分類を全員で設計する。**一つのitem使用で複�
 
 | 個体 | 正式な位置候補 / performance composition | 保護部位と干渉 |
 |---|---|---|
-| Carol | head_top / ear_root L,R / fleece_front。C02→C05/C32、解除C33 | 顔/目/月星、頬leanと羊毛開口。Dream Star Broochはfleece_front。触れたsurfaceとWearを区別 |
 | Jill | horn/leaf非干渉の頭中央、首/胸。J22 | 翼・尾・葉先には付けない。胸の開き/前肢/翼根元のclearance |
 | Pino | 頭上、首/胸。P24 | 太い尾/手足/試行接点を避ける。P03/P14で物が前肢へ貫通しない |
 | Shushu | 耳外側付近、首/胸。S23 | 花冠はCanonicalの所属。頭上Wearは原則不可、交換専用仕様なしに冠を外さない。花束保持/顔/短腕のclearance |
-
-CarolはFINALのとおり新Wear Familyを足さず既存channelで構成。他3匹は「新しい装着感をどう受け取るか」を個体の一つのFamilyにまとめた。安全anchorの位置は造形確認でU、表の候補を実測済み座標としない。
+3匹は「新しい装着感をどう受け取るか」を個体の一つのFamilyにまとめた。安全anchorの位置は造形確認でU、表の候補を実測済み座標としない。
 
 ### J3. Special and Secret protection / proposals
 
 | Content | Status / motion routing / ownership |
 |---|---|
-| Carol Dream Moon Macaron | **A** Special Food。C25→C26(SMALL_ONE_BITE)→C31→控えめなC37 accent→C32。Food型のみ消費。既定好き度/対象条件を変更しない |
-| Carol Dream Star Brooch | **A** Special Wear、fleece_front。C02/装着認識→C05/C32。永久所有、1Wearルール |
-| Carol Moon Ball Play / Star Peek / Fleece Hide-and-Peek | **A** C43/C44/C45、各BOTH、owned必須、既存cooldown・turn/target条件を保持。無料通常peek C39をlocked contentに吸収しない |
-| Carol Dream Keepsake Presentation | **A** C46、Gift AUTO_ONLY。通常宝箱/Secret unlockへ変更しない |
 | Jill / Pino / Shushu Special | 正式な具体品目は今回参照Authorityで未決定。FoodならJ19–21/P21–23/S20–22＋固有余韻、WearならJ22/P24/S23、Secretなら承認された個別Familyへ。対象Grimo限定、消費はFood型だけ。新しいSpecial名/個数/レア度/好き度を勝手に決めない |
 | J27 / P29 / S28 | **P/U** 原創Secret候補。interactive performance/prop/exitは設計済み。採用、名称、itemId、所有/発動方式、cooldownはHuman未決定。未承認のまま解放/実装しない |
-| 共通High-five | C40/J12/P14/S13。日常交流テーマP、Carolの既承認rare演技を含む。新Secret商品/アンロック条件にはしない。頻度の提案はO1 |
+| 共通High-five | J12/P14/S13。日常交流テーマP。新Secret商品/アンロック条件にはしない。 |
 
 Secretは「遊びを所有」する。propがある場合はsetup→visible target→WAIT→main turn→必要な次turn→settle/afterglow→removeまでを一つの体験として追跡。普通のTouchは認識するがゲーム成功と偽装しない。間違い/late/無応答を失点にせず、再提示または自然な終了。所有なし/activation権限なしは演技を開始しない。candidateのBOTHは提案でありPRODUCTのUSER_ONLY/AUTO_ONLY選択自由を奪わない。
 
@@ -1019,7 +721,7 @@ Secretは「遊びを所有」する。propがある場合はsetup→visible tar
 
 全員 **本人の準備→気付いてほしい顔→物の提示→WAIT→受理/transfer→身体の余韻→Collection/owned記録**。Foodの受領とGiftの贈与は向きが逆。品目・超低確率・session判定・永久所有・通常宝箱別枠を変えない。贈る意思はUIや発光より前に読めること。
 
-DATA §24は「渡す→Collection作成→owned→RewardEvent」を規定し、FINAL C46はaccept/transferを持つ。一方、**WAIT中の無応答/離脱の具体終了時間、未受理Giftを再提示する保存方式**はこれらの参照節では未確定。ここではgrantを早める/没収する/無限保持する新ルールを作らない。推奨Pは提示を安全に閉じ、既存商品状態と整合する再提示機会を持つこと。O5でHuman/下流設計対象に残す。受領済みGiftは永久所有を保ち、演技中断で取り消さない。
+DATA §24は「渡す→Collection作成→owned→RewardEvent」を規定し、FINAL はaccept/transferを持つ。一方、**WAIT中の無応答/離脱の具体終了時間、未受理Giftを再提示する保存方式**はこれらの参照節では未確定。ここではgrantを早める/没収する/無限保持する新ルールを作らない。推奨Pは提示を安全に閉じ、既存商品状態と整合する再提示機会を持つこと。O5でHuman/下流設計対象に残す。受領済みGiftは永久所有を保ち、演技中断で取り消さない。
 
 ## K. Transitions / Interruption / Afterglow
 
@@ -1048,12 +750,11 @@ DATA §24は「渡す→Collection作成→owned→RewardEvent」を規定し、
 
 gaze/headは現在の注意対象、faceは評価/感情、口と保持前肢はFood/Giftの接点、下半身/蹄は支持、固有付属は選択的補助、Wearは所有部位anchorが担当。新Familyへ移る時、全部を同時に明け渡さない。食べる口に笑顔の大きい口動作を重ねない。支持移行中に足を装飾的に動かさない。
 
-CarolはFINAL §20の優先/保護窓を保護し、identity/safetyを含む支持を下位の装飾として扱わない。他3匹に既存msをコピーせず、**どの姿勢で局所ACK可能か/どの安全な接点で主切替できるか**をQ03/Q09/Q13で下流へ渡す。ACKが可視でない長いprotected windowは設計上の問題として戻す。
-
+**どの姿勢で局所ACK可能か/どの安全な接点で主切替できるか**をQ03/Q09/Q13で下流へ渡す。ACKが可視でない長いprotected windowは設計上の問題として戻す。
 ### K3. 3–5分の連続体験 trace（時刻を固定しない）
 
-1. 無入力でそれぞれの生活がある。Carolは小さい安心、Jillは私的な快、Pinoは短い試行後の観察、Shushuは選んだ居方。代表Signatureを全てこの区間に出す義務はない。
-2. 左頬slow pet。全員にlocal ACKと可愛い快。Carolは近さ、Jillは共有、Pinoは気に入った感触、Shushuは自己快への歓迎へ。
+1. 無入力でそれぞれの生活がある。Jillは私的な快、Pinoは短い試行後の観察、Shushuは選んだ居方。代表Signatureを全てこの区間に出す義務はない。
+2. 左頬slow pet。全員にlocal ACKと可愛い快。Jillは共有、Pinoは気に入った感触、Shushuは自己快への歓迎へ。
 3. 右側へ変更/早期release。旧commitと新ACKが連続。頭/胴は現在姿勢から収まり、表情を一度消さない。
 4. 同じ優しいpetを反復。既知の快を小さく楽しむ。入力が過密/roughの場合のみhint→拒否→withdrawal。解放後は全員自分で回復。
 5. 自発invite/High-fiveの機会。応答なら触点から喜び、無応答ならその前からの快へ。通常の可愛い反応をrareまで待たせない。
@@ -1064,115 +765,48 @@ CarolはFINAL §20の優先/保護窓を保護し、identity/safetyを含む支�
 
 ## L. Visual Readability Design Audit
 
-**一巡の文書監査。** 全A–L coverage、23項目の参照構造、重要Familyの時系列、Carol照合、身体要求を確認した。以下は設計上の成立条件/未解決リスク。動く姿・可愛さ・実機のPASSではない。
-
+**一巡の文書監査。** 全A–L coverage、23項目の参照構造、重要Familyの時系列、身体要求を確認した。以下は設計上の成立条件/未解決リスク。動く姿・可愛さ・実機のPASSではない。
 | Question /重点対象 | 文書上の根拠 / 対処 | 未検証・失敗条件 |
 |---|---|---|
-| 意思が説明なしに読める構造か | C21/C40、J12–13、P03/P14–15、S02/S13–14に見る→選ぶ面→止まる→結果の顔を明示 | offer前の動機や接点が隠れると不足。単一poseで人格を判定しない |
+| 意思が説明なしに読める構造か | J12–13、P03/P14–15、S02/S13–14に見る→選ぶ面→止まる→結果の顔を明示 | offer前の動機や接点が隠れると不足。単一poseで人格を判定しない |
 | Touchと反応の因果 | C2 zone map、全Touchに面/side ACK、K1でside/release/同時接触を分けた | 大きい喜びに局所が消える、中央macroへ潰れる、ACKが見えない長い保護はFAIL |
 | stretch/random motionではないか | JillのJ03私的careとJ13共有への宛先を別設計。P03行為→観察→納得 | Jillの胸を開いて止めるだけ/Pinoの操作と結果が見分けられない場合は演技修正 |
 | 静止が無反応ではないか | 全Lifeに入る選択/顔/注意release、Shushu即ACK、WAITに提示面と期待 | 静止に入る動作/対象が見えず、ただ低速/閉眼なら不足 |
-| 感情は顔・身体・時間にあるか | C42顔→小胴→安らぎ、J14胸の喜び、P16結果→喜び、S15好き→短前肢→満足 | 音/FXを外すと嬉しさが分からない場合は意味未成立 |
-| 全6組の差 | I1: Carol近さ/Jill返事/Pino結果/Shushu居方。共通遊びでもOutcomeが異なる | 同clipの速度/表情だけなら未達。C/Sは接触前後の胴/前肢、J/Pは最後の視線対象を比べる |
-| 重み・支持・接触に矛盾がないか | 全カードの止める支持、Q03/Q04、Food/Gift safe node。Carol羊毛zero lag | 手を上げる時の荷重、短肢到達、実際の可動域はU。尾を支柱にして成立扱いにしない |
+| 感情は顔・身体・時間にあるか | 顔→小胴→安らぎ、J14胸の喜び、P16結果→喜び、S15好き→短前肢→満足 | 音/FXを外すと嬉しさが分からない場合は意味未成立 |
+| 全3組の差 | I1: Jill返事/Pino結果/Shushu居方。共通遊びでもOutcomeが異なる | 同clipの速度/表情だけなら未達。Sは接触前後の胴/前肢、J/Pは最後の視線対象を比べる |
+| 重み・支持・接触に矛盾がないか | 全カードの止める支持、Q03/Q04、Food/Gift safe node | 手を上げる時の荷重、短肢到達、実際の可動域はU。尾を支柱にして成立扱いにしない |
 | 反復・割り込みで人格が消えないか | 全カード運用＋K。既知の確認短縮、快保持、未完だけ再開 | 10回petで同chain/無理由の拒否/古いtouchの遅延再生ならFAIL |
-| smartphoneで意味が見えそうか | 顔と提示面を同時に残す、低前肢でも見える面、重要primaryはfront可読 | C40蹄の羊毛遮蔽、P03小接点、S13/S28前肢/花束遮蔽、J27翼の顔隠しは高リスクU。カメラorbitで救わない |
+| smartphoneで意味が見えそうか | 顔と提示面を同時に残す、低前肢でも見える面、重要primaryはfront可読 | 蹄の羊毛遮蔽、P03小接点、S13/S28前肢/花束遮蔽、J27翼の顔隠しは高リスクU。カメラorbitで救わない |
 | Canonicalを変えていないか | 長腕/巨大口/人間眉を要求せず、horn-like/厚い尾/花冠/羊毛所有を保護 | ポーズ実現のため比率/所属/幼さが変われば候補を戻す。見た目のHuman判定が必要 |
-| 商品coverage/locked content | Jで消費/所有/装備/activation、Mで全46/156保持 | DRAFT Secretを既存商品扱い、High-fiveを新unlockへ変換、Gift時点の推測採用は不可 |
+| 商品coverage/locked content | Jで消費/所有/装備/activation、個体別contentの保持 | DRAFT Secretを既存商品扱い、High-fiveを新unlockへ変換、Gift時点の推測採用は不可 |
 
-**優先して見直す条件:** ①P03接点/戻りが読めないなら見える置き方へ戻す、手合わせを唯一解にしない。②J13がstretchに見えるなら顔の宛先/応答後の変化を強める。③C05/S01が同じ静けさなら接触前の選択と終了後の姿勢を再評価。④High-fiveが身体上成立しないなら低い提示面/支持を見直す。魅力を落とすと分かっている代替を「技術的に楽」で採用しない。
-
-## M. Carol FINAL Coverage Reconciliation
-
-### M1. 全Family ID対応
-
-**46/46、156/156維持。42 built-in / 144 profile、4 unlockable / 12 profile。** FINAL §27.1のMaster Tableを基準に各行のID/variant枠を照合。別Familyへの削除/統合、variant削減、locked条件改訂はゼロ。aliasはこの文書の検索用でありasset ID改名ではない。分類「維持」はAの要件を保持し、本書にPの演技詳細を加えたことを意味する。
-
-| Original FINAL ID | Alias / Family | V | 分類 / 主な接続 |
-|---|---|---:|---|
-| CAROL-LIFE-001 | C01 Living Baseline | 4 | 維持 / 現在感情と静止 |
-| CAROL-AUTO-001 | C02 Soft Check-in | 3 | 維持 / Wear認識にも対応 |
-| CAROL-AUTO-002 | C03 Want-affection Prelude | 3 | 維持 / C21へ |
-| CAROL-AUTO-003 | C04 Fleece Nestle | 3 | 維持 / 自己快、C39と区別 |
-| CAROL-AUTO-004 | C05 Quiet Content Hold | 3 | 維持 / 意味のある満足 |
-| CAROL-AUTO-005 | C06 Gentle Curiosity | 3 | 維持 / 無害な驚きの確認も対応 |
-| CAROL-AUTO-006 | C07 Grounded Hoof Adjustment | 3 | 維持 / 支持移行 |
-| CAROL-TOUCH-001 | C08 Forehead / Head-top Pet | 5 | 維持 / 額の受容 |
-| CAROL-TOUCH-002 | C09 Cheek Lean-in | 5 | 維持 / L/R接点 |
-| CAROL-TOUCH-003 | C10 Front-fleece Pet | 4 | 維持 / 局所形状 |
-| CAROL-TOUCH-004 | C11 Ear-root Response | 4 | 維持 / 同側耳根 |
-| CAROL-TOUCH-005 | C12 Tap / Poke Notice | 4 | 維持 / zone別評価 |
-| CAROL-TOUCH-006 | C13 Continuous Stroke | 4 | 維持 / 快の深まり |
-| CAROL-TOUCH-007 | C14 Back-and-forth Pet | 4 | 維持 / 満足と過密を分離 |
-| CAROL-TOUCH-008 | C15 Side / Back Fleece ACK | 3 | 維持 / 露出実面のみ |
-| CAROL-TOUCH-009 | C16 Sensitive Hoof / Rear-lower | 3 | 維持 / C40の遊び文脈と分離 |
-| CAROL-BOUNDARY-001 | C17 Hint | 4 | 維持 / 解放→C20 |
-| CAROL-BOUNDARY-002 | C18 Clear Refusal | 3 | 維持 / 継続→C19 |
-| CAROL-BOUNDARY-003 | C19 Withdrawal + Residue | 3 | 維持 / 顔/注意を残す |
-| CAROL-BOUNDARY-004 | C20 Recovery | 3 | 維持 / 自力回復 |
-| CAROL-SOCIAL-001 | C21 Invitation + WAIT | 4 | 維持 / cheek L/R、forehead、opening |
-| CAROL-SOCIAL-002 | C22 Accepted Invitation ACK | 3 | 維持 / target受容 |
-| CAROL-SOCIAL-003 | C23 Second-turn Offer | 3 | 維持 / 通常max一度 |
-| CAROL-SOCIAL-004 | C24 Social Completion | 3 | 維持 / 応答/無応答 |
-| CAROL-FEED-001 | C25 Food Notice | 3 | 維持 / 食前の関心 |
-| CAROL-FEED-002 | C26 Five Eating Styles | 5 | 維持 / style5、safe接点 |
-| CAROL-FEED-003 | C27 Preference 1 Refusal | 3 | 維持 / 未消費 |
-| CAROL-FEED-004 | C28 Preference 2 | 3 | 維持 / 食後の苦手 |
-| CAROL-FEED-005 | C29 Preference 3 | 3 | 維持 / 普通の満足 |
-| CAROL-FEED-006 | C30 Preference 4 | 4 | 維持 / 好きの快 |
-| CAROL-FEED-007 | C31 Preference 5 | 4 | 維持 / 強い喜びと余韻 |
-| CAROL-AFTER-001 | C32 Warm Afterglow | 4 | 維持 / 現在の快から接続 |
-| CAROL-AFTER-002 | C33 Active-pose Settle | 3 | 維持 / mandatory Neutralなし |
-| CAROL-ENTRY-001 | C34 Entry / Return / Resume | 4 | 維持 / 商品事実整合 |
-| CAROL-RICH-001 | C35 Dream-like Long Hold | 3 | 維持 / 眠気・柔らかい起床を対応 |
-| CAROL-RICH-002 | C36 Dreamy Self-expression | 3 | 維持 / 私的な二拍 |
-| CAROL-RICH-003 | C37 Moon / Star Recognition | 4 | 維持 / FXは従属 |
-| CAROL-RICH-004 | C38 Deeper Cheek Press | 3 | 維持 / 接点と支持 |
-| CAROL-RICH-005 | C39 Face-in-Fleece Peek | 3 | 維持 / primary recognition signature |
-| CAROL-RICH-006 | C40 Rare Low-Forehoof Ritual | 2 | 維持 / 共通High-fiveへ意味対応、頻度の衝突O1 |
-| CAROL-RICH-007 | C41 Delayed Affection Look-back | 3 | 維持 / 新入力で取消/合流 |
-| CAROL-RICH-008 | C42 Cloud Sigh | 3 | 維持 / 接地hero |
-| CAROL-SECRET-001 | C43 Moon Ball Play | 3 | 維持 / owned、BOTH、prop |
-| CAROL-SECRET-002 | C44 Star Peek | 3 | 維持 / owned、BOTH、pockets |
-| CAROL-SECRET-003 | C45 Fleece Hide-and-Peek | 3 | 維持 / owned、BOTH、二turnまで |
-| CAROL-GIFT-001 | C46 Dream Keepsake Presentation | 3 | 維持 / AUTO_ONLY、Gift rule |
-
-### M2. Integration / additions / duplicate candidates / conflicts
-
-- **新設計に統合・対応:** 呼吸/blinkはC01、眠気/起床はC35、無害な驚きはC06、WearはC02/C05/C32/C33、common High-fiveはC40。既存Familyを消す統合ではない。Food5style/5好き度はC25–31で全coverageを保護。
-- **追加提案:** 4匹共通の交流テーマ、Carol各profileの時系列詳細/状態接続、他3匹の独立catalog。Carolの追加Family/profileは0。常用High-fiveの追加呼び出しはO1に留める。
-- **重複候補:** C01/C05/C35は基礎life/満足outcome/長い夢見、C03/C21は欲求prelude/応答可能WAIT、C09/C38は通常頬受容/深いcommit、C39/C45は通常signature/owned interactive遊び、C31/C42はFood起因/hero affection。制作channelの共用余地はあるが意味/条件/variant coverageを無断で削らない。
-- **Human判断が必要な衝突:** C40のrare契約と共通High-fiveのより日常的な利用希望。現在の内容を保護し、O1の具体案を選べる形で残す。顔/支持の実物不成立は承認済みheroを黙って削る理由にしない。
-- **保護済みlocked content:** Dream Moon Macaron、Dream Star Brooch、C43–46。Face-in-Fleece Peek、全7signature、Moon/Star、rare蹄、Cloud Sigh、個々のactivation/ownership/cooldownを参照継承。旧fleece delayだけは既承認2026-09-24規則を適用する。
+**優先して見直す条件:** ①P03接点/戻りが読めないなら見える置き方へ戻す、手合わせを唯一解にしない。②J13がstretchに見えるなら顔の宛先/応答後の変化を強める。③S01が同じ静けさなら接触前の選択と終了後の姿勢を再評価。④High-fiveが身体上成立しないなら低い提示面/支持を見直す。魅力を落とすと分かっている代替を「技術的に楽」で採用しない。
 
 ## N. 3D Capability Dependency Index
 
-**これはPhase 4への要求索引であり、詳細Anatomy/Rig設計ではない。** 共通の基礎能力Q01（顔/注意）、Q02（頭）、Q03（支持）と各身体所有Q05–Q08は該当個体の全Familyに適用する。見出しのQは特に負荷がかかる能力を示す。例えばQ09は食前/摂食だけでなくFood結果と消費状態の引継ぎまで適用。下表からFamily群へ、カードからQへ双方向に辿れる。
+**これはPhase 4への要求索引であり、詳細Anatomy/Rig設計ではない。** 共通の基礎能力Q01（顔/注意）、Q02（頭）、Q03（支持）と各身体所有Q06–Q08は該当個体の全Familyに適用する。見出しのQは特に負荷がかかる能力を示す。例えばQ09は食前/摂食だけでなくFood結果と消費状態の引継ぎまで適用。下表からFamily群へ、カードからQへ双方向に辿れる。
 
 | Capability / Family links | 必要な独立部位・変形/接触/支持 | 造形・視認・干渉 / Unknown |
 |---|---|---|
-| **Q01 Face / evaluation / attention** — 全Family、特にC08–14,C21–22,C31,C39–42 / J06–15,J21 / P03,P07–17,P23,P28 / S06–16,S22 | 両眼/まぶた、視線、口元/頬の小評価。touch側の顔と他側、blinkと感情、咀嚼口と非口元ACKの独立。必要な軟部の局所受け | Canonical眼形/placement/幼さを保持。小顔で認識/快/微妙/期待が読める範囲U。新しい眉/巨大口を前提にしない。winkの閉眼側/両眼復帰が必要 |
-| **Q02 Head / neck / gaze relation** — C02–06,C08–15,C21–27,C35–46 / J02,J05–07,J10–13,J15,J19–22 / P02,P06–09,P12–15,P17,P21–24 / S03–08,S11–14,S16,S20–23 | 目だけの注目、頭の必要分turn/lean、頬L/R/額の接触面提示、releaseの向き変更。目と頭のleadを分離 | 首露出/顔の羊毛や葉への埋没、花冠/頭Wear干渉、3/4での顔の連続。可動range/接点追従U。screen-leftをanatomical Lに固定しない |
-| **Q03 Support / weight / quiet body** — 全Family、特にC07,C09,C16–20,C26,C38,C40,C42,C46 / J03–05,J12–14,J17,J20,J25 / P03–06,P14,P16,P19,P22,P27,P29 / S02,S05,S13,S15,S18,S21,S26 | 接地支持の保存、片肢解放時の荷重移行、胴の小圧縮/leanとstable hold、active-pose settle。動かす支持と止める支持を分離 | tail支柱を仮定しない。Pino/Shushu座位、Jill通常支持、Carol顔/巨羊毛に隠れる足はU。転倒/foot sliding/short-leg collapseが極端姿勢リスク |
-| **Q04 Forelimbs / hoof-paw surfaces** — C07,C16,C18,C26,C40,C46 / J03–04,J12–14,J17,J20,J25,J27 / P03,P05,P11,P14–19,P21–27,P29 / S02,S04,S09–10,S13–15,S18,S20–26,S28 | 一前肢提示・対側の支持/保持、接触面の向き、前肢を休む/戻す、bounded prop保持/brace。左右独立、届く自己面、P03片側操作と結果観察 | 短い比率のまま到達/前肢先の可視性が必要。長い指/人間手首/腕伸長を足さない。手を出せる姿勢の支持はU。hoofはpadを新設せず実蹄面 |
-| **Q05 Carol body-owned fleece** — 全Carol、特にC04,C08–15,C19–23,C30–33,C35–40,C42–46 | 頭-owned/胴-ownedのmacro追従zero lag、頬L/R/額/front/side-backの局所圧縮と回復、顔開口、局所隣接shape、必要なhero shape。モチーフ/Wearはownerに属する | 8既定shape用途を保護。cloud lobe独立transform/shell sliding禁止。Peekの顔/耳/目、蹄提示の見える隙間、prop pocket、深いleanでの首/皮膚露出U |
+| **Q01 Face / evaluation / attention** — 全Family、特にJ06–15,J21 / P03,P07–17,P23,P28 / S06–16,S22 | 両眼/まぶた、視線、口元/頬の小評価。touch側の顔と他側、blinkと感情、咀嚼口と非口元ACKの独立。必要な軟部の局所受け | Canonical眼形/placement/幼さを保持。小顔で認識/快/微妙/期待が読める範囲U。新しい眉/巨大口を前提にしない。winkの閉眼側/両眼復帰が必要 |
+| **Q02 Head / neck / gaze relation** — J02,J05–07,J10–13,J15,J19–22 / P02,P06–09,P12–15,P17,P21–24 / S03–08,S11–14,S16,S20–23 | 目だけの注目、頭の必要分turn/lean、頬L/R/額の接触面提示、releaseの向き変更。目と頭のleadを分離 | 首露出/顔の羊毛や葉への埋没、花冠/頭Wear干渉、3/4での顔の連続。可動range/接点追従U。screen-leftをanatomical Lに固定しない |
+| **Q03 Support / weight / quiet body** — 全Family、特にJ03–05,J12–14,J17,J20,J25 / P03–06,P14,P16,P19,P22,P27,P29 / S02,S05,S13,S15,S18,S21,S26 | 接地支持の保存、片肢解放時の荷重移行、胴の小圧縮/leanとstable hold、active-pose settle。動かす支持と止める支持を分離 | tail支柱を仮定しない。Pino/Shushu座位、Jill通常支持はU。転倒/foot sliding/short-leg collapseが極端姿勢リスク |
+| **Q04 Forelimbs / hoof-paw surfaces** — J03–04,J12–14,J17,J20,J25,J27 / P03,P05,P11,P14–19,P21–27,P29 / S02,S04,S09–10,S13–15,S18,S20–26,S28 | 一前肢提示・対側の支持/保持、接触面の向き、前肢を休む/戻す、bounded prop保持/brace。左右独立、届く自己面、P03片側操作と結果観察 | 短い比率のまま到達/前肢先の可視性が必要。長い指/人間手首/腕伸長を足さない。手を出せる姿勢の支持はU。hoofはpadを新設せず実蹄面 |
 | **Q06 Jill chest / wings / leaves / tail** — 全Jill、特にJ03,J07–14,J17,J21–23,J25–27 | 胸/前肢の主喜びと片/両翼の選択参加、翼根元接触/閉じる、葉/花の局所follow/settle、尾根元と太い尾の重量追従。horn-like頭部は固有anatomy | 翼と腕/葉/胸Wearのclearance、翼の顔遮蔽、葉根元所属、clover等canonical marking保持。翼膜/角の材質を軟部ACKで改変しない。飛行能力は未要求 |
 | **Q07 Pino rounded body / thick tail** — 全Pino、特にP03–05,P09–16,P22–29 | 内寄り前肢の独立、前肢先の接触/形状回復、丸い胴と支持肢の分離、太い尾のbody-follow delay、両眼と単発wink | tail/胴/足の融合、self-contact到達、前肢が腹に埋まる姿勢、P03の前肢先の見え方U。尾の前巻き/把持/独立balloonは要求しない |
 | **Q08 Shushu plush / short limbs / flowers** — 全Shushu、特にS02,S04,S08–15,S21–28 | 局所荷重compression/settle、短前肢を休む/提示する、短脚/腹/腿/足裏の区別、小耳の独立、花冠の頭所属/実花束の保持 | sit/低姿勢で腹脚を潰さない。花束とFood/Gift/前肢提示の同時保持、冠/頭/耳Wear干渉、花束peekでの目/頬遮蔽U。花束なしでもcore演技成立 |
-| **Q09 Mouth / Food / style5** — C25–31 / J19–21 / P21–23 / S20–22、§J1 | 口/頭の受領接点、咀嚼相当の小動作、舐める面/飲む面、残量/複数bite、前肢brace、pre-consume拒否、消費確定/評価引継ぎ、bite中非口元ACK | 舌/口の可視range、容器/大物のbounded寸法、顔を隠さない保持、safe node U。口の大scale/食物瞬間消失だけで摂食を代行しない |
-| **Q10 Wear / motifs / owned anchors** — C02,C05,C10,C32–33,C37 / J22 / P24 / S07,S23、§J2 | ownerに属するanchor、装着/交換/解除、顔/目/重要モチーフ保護、衣装面と身体touch区別、1装備状態 | 各候補anchorの実座標/clearance U。Jill角/葉/翼、Pino試行面、Shushu冠/花束、Carol開口/蹄を守る。物を浮かせて干渉解消しない |
-| **Q11 Session / visible current state** — C34/J24/P26/S25 | 初めの可視poseで支持/現在感情が成立、背景復帰時の無効接触/WAIT解放、商品/受領事実と姿勢の整合 | 見えない間の連続animationを要求しない。復帰の接点/未完prop整合U。カメラで破綻面を隠す構築不可 |
-| **Q12 Interactive Secret / targets / props** — C43–45 / J27 / P29 / S28 | setup/target面/WAIT/応答/exit、body接点とprop軌跡/遮蔽、側替え、受領のない通常touch、propの安全remove | Carol moon_ball/dream_starとpocketsは保護。他3候補のprops/activation/clearanceはU。特定preset/solver適合の決定はしない |
-| **Q13 Gift presentation / transfer** — C46/J25/P27/S26 | 本人の意図を示す注意、bounded prop保持/提示、受理ACK、保持解放とtransfer、非保持部touch、owned/Collection境界 | 物を出す/置く/しまう具体位置、短肢のreach、花束との保持衝突、無応答/離脱時の再提示U。gift品目/発生率を造形から新設しない |
-
-**カメラ横断要求:** frontの小顔/触点/前肢提示を同時に読めること。3/4・turn・lean・低頭・propの接近で露出する面は空間的に成立すること。耳/翼/尾がframeに収まるだけでなく、目/口の意味が小さくならないこと。旧Eevee16:9比率やCarol提案FOVを4匹の固定値へ転用しない。上表の能力が不足なら、意味を保つ姿勢/提示/演技を再設計し、Canonical改変を前提にしない。
+| **Q09 Mouth / Food / style5** — J19–21 / P21–23 / S20–22、§J1 | 口/頭の受領接点、咀嚼相当の小動作、舐める面/飲む面、残量/複数bite、前肢brace、pre-consume拒否、消費確定/評価引継ぎ、bite中非口元ACK | 舌/口の可視range、容器/大物のbounded寸法、顔を隠さない保持、safe node U。口の大scale/食物瞬間消失だけで摂食を代行しない |
+| **Q10 Wear / motifs / owned anchors** — J22 / P24 / S07,S23、§J2 | ownerに属するanchor、装着/交換/解除、顔/目/重要モチーフ保護、衣装面と身体touch区別、1装備状態 | 各候補anchorの実座標/clearance U。Jill角/葉/翼、Pino試行面、Shushu冠/花束を守る。物を浮かせて干渉解消しない |
+| **Q11 Session / visible current state** — J24/P26/S25 | 初めの可視poseで支持/現在感情が成立、背景復帰時の無効接触/WAIT解放、商品/受領事実と姿勢の整合 | 見えない間の連続animationを要求しない。復帰の接点/未完prop整合U。カメラで破綻面を隠す構築不可 |
+| **Q13 Gift presentation / transfer** — J25/P27/S26 | 本人の意図を示す注意、bounded prop保持/提示、受理ACK、保持解放とtransfer、非保持部touch、owned/Collection境界 | 物を出す/置く/しまう具体位置、短肢のreach、花束との保持衝突、無応答/離脱時の再提示U。gift品目/発生率を造形から新設しない |
+| **Q12 Interactive Secret / targets / props** — J27 / P29 / S28 | setup/target面/WAIT/応答/exit、body接点とprop軌跡/遮蔽、側替え、受領のない通常touch、propの安全remove | 3候補のprops/activation/clearanceはU。特定preset/solver適合の決定はしない |
+**カメラ横断要求:** frontの小顔/触点/前肢提示を同時に読めること。3/4・turn・lean・低頭・propの接近で露出する面は空間的に成立すること。耳/翼/尾がframeに収まるだけでなく、目/口の意味が小さくならないこと。旧Eevee16:9比率を3匹の固定値へ転用しない。上表の能力が不足なら、意味を保つ姿勢/提示/演技を再設計し、Canonical改変を前提にしない。
 
 ## O. Unresolved Questions / Human Decisions
 
 | ID | Concrete decision / 推奨案 | 保護する条件 / U |
 |---|---|---|
-| O1 Common High-five / Carol frequency | 4匹に可愛いHigh-fiveを含める方向は今回Human指示A。本書はC40/J12/P14/S13を設計。**推奨P: Carolを性格で遊びから外さず、共通交流として選べる機会を検討する**。FINALの自発rare ritualはそのまま、通常呼び出しの追加可否/頻度をHuman採否対象にする | 現時点のC40は既存rare trigger/cooldownを保持。常用化を黙ってFINAL化しない。新ボタン/商品/報酬条件は未定。低蹄の可視性/支持U |
-| O2 Experience Identity / signature preference | Phase 1・2の4核と、本書の具体演技をDRAFTとして判断。PinoはP03第一候補、Jill J13、Shushu S02＋即ACK、Carol既存signature共存 | 新人格を承認済みにしない。手合わせがHumanに最も可愛ければ候補に戻せる。文書だけで知覚PASS不可 |
+| O2 Experience Identity / signature preference | Phase 1・2の3核と、本書の具体演技をDRAFTとして判断。PinoはP03第一候補、Jill J13、Shushu S02＋即ACK | 新人格を承認済みにしない。手合わせがHumanに最も可愛ければ候補に戻せる。文書だけで知覚PASS不可 |
 | O3 Body/normal pose limits | 全Motionに必要な独立部位/面/支持をNから逆算して次工程で設計 | Pino/Shushu座位、Jill支持、短肢到達、口、Peek、rig方式はU。ボーン数/関節角/shape構成未確定 |
 | O4 New Special/Secret content | J27/P29/S28は原創候補。Specialの個別品目は正式決定を入力待ちにする。性能/可愛さが分かる範囲で採否 | 新itemId/rarity/獲得条件/所有/activationを正式追加しない。候補を採用しなくても通常の触れ合いの魅力を維持 |
 | O5 Unanswered Gift / interrupted item boundary | GiftのWAIT無応答/画面離脱、Foodconsume確定safe node、花束と複数保持の整合を下流で定義 | DATAの渡す→記録、食べる確定→消費、永久所有、罰なしを保持。再提示の保存/消失/取得を推測実装しない |
@@ -1184,14 +818,10 @@ CarolはFINAL §20の優先/保護窓を保護し、identity/safetyを含む支�
 
 | Character | 本書Family | 基本variant profile | 内訳 / 採用状態 |
 |---|---:|---:|---|
-| Carol | **46** | **156** | 42 built-in / 144、4 unlockable / 12。A coverage保持、具体演技P、Human/3D未検証 |
 | Jill | **27** | **81** | 日常/商品対応26 / 79（J26拡張を含む）＋未承認Secret候補1 / 2 |
 | Pino | **29** | **86** | 日常/商品対応28 / 84（P04/P28拡張を含む）＋未承認Secret候補1 / 2 |
 | Shushu | **28** | **85** | 日常/商品対応27 / 83（S27拡張を含む）＋未承認Secret候補1 / 2 |
-| Total | **130** | **408** | 左右/gesture/品目/接続の条件合成を乗算しない。制作済みclip数/正式商品数ではない |
-
-**次工程への入力:** E–Hの演技/variant、Dのcoverage、Iの代替比較、Jの商品/接点、Kの連続性、MのCarol保護、NのQ01–Q13、OのHuman/U。これらから「全Motionに必要な身体能力」を逆算する。生成pose、rig rest pose、通常ゲームposeは別として扱う。
+| Total | **84** | **252** | 左右/gesture/品目/接続の条件合成を乗算しない。制作済みclip数/正式商品数ではない |
+**次工程への入力:** F–Hの演技/variant、Dのcoverage、Iの代替比較、Jの商品/接点、Kの連続性、NのQ01–Q13、OのHuman/U。これらから「全Motionに必要な身体能力」を逆算する。生成pose、rig rest pose、通常ゲームposeは別として扱う。
 
 **Phase 4で解くこと:** 顔/頭/付属/前肢/支持の独立性、局所変形、接点と保持、Wear/装飾干渉、極端poseの破綻、front/3/4の可視性を能力契約にまとめ、未達時に意味/可愛さを保つ代替を明示する。Tripo生成前に要求が欠けないことを目指す。具体bone数、rig方式、weight paint、shape key、Tripo/preset適合、credit、生成はPhase 3では未決定/未実行。
-
-**今回の完了範囲:** 全A–L coverage、全130 cardと基本profile、重要Signature/共通High-fiveの時系列、Food5style/好き度1–5、Wear/Special/Secret/Gift、反復/割り込み、Carol46/156照合、Q索引、一巡の文書監査。Phase 1・2、Carol FINAL、Canonical、app/3D assetsは変更しない。Phase 3文書完成後は停止する。

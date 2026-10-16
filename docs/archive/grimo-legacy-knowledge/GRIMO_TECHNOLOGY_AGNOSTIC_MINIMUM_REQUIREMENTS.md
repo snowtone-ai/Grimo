@@ -79,7 +79,6 @@ The research may determine whether the correct solution is 3D rigging, hybrid 3D
 
 There are four canonical Grimo characters:
 
-- **Carol**
 - **Jill**
 - **Pino**
 - **Shushu**
@@ -108,22 +107,6 @@ The neutral/default character presentation must preserve at minimum:
 ---
 
 ## 5. Character-Specific Direction
-
-### Carol
-
-- Young sheep-like Grimo.
-- Very large white-to-pale-blue-purple dream-cloud fleece.
-- Small cream face.
-- Large brown-to-amber glossy eyes.
-- Brown ears and hooves.
-- Moon / star motifs.
-- Personality: **attention-seeking + relaxed**.
-- Motion identity: calm, reassuring, soft, cloud-like.
-- Fleece should visually follow primary body movement with delayed softness rather than behaving as a rigid mass.
-- Head / cheek movement should feel gentle and secure.
-- Ears react subtly.
-- Feet should feel comparatively heavy and grounded.
-- Moon / star elements may support special reactions but must not flash constantly.
 
 ### Jill
 
@@ -163,7 +146,7 @@ The neutral/default character presentation must preserve at minimum:
 
 A shared runtime is allowed; shared personality is not.
 
-The same animation simply recolored or trivially retargeted across all four characters is unacceptable.
+The same animation simply recolored or trivially retargeted across all three characters is unacceptable.
 
 Each Grimo must have a distinct motion signature, attention style, timing, weight, secondary motion, and reaction language.
 
@@ -317,7 +300,7 @@ The selected architecture must therefore be evaluated for:
 - browser compatibility;
 - touch interaction reliability;
 - asset streaming / caching needs;
-- scalability from one character to four characters.
+- scalability from one character to three characters.
 
 Quality is the priority, but the result must remain practical on the target device class.
 
@@ -333,7 +316,7 @@ The research may recommend changes to the surrounding web architecture if necess
 
 The chosen approach must not only produce one impressive demo.
 
-It must support production and long-term expansion for all four characters, including:
+It must support production and long-term expansion for all three characters, including:
 
 - reusable production conventions;
 - character-specific rigs or adapters where needed;
@@ -409,7 +392,7 @@ Any candidate production approach must be compared against at least these criter
 15. browser/PWA suitability;
 16. Pixel 7a-class performance;
 17. asset size / memory / loading cost;
-18. four-character production scalability;
+18. three-character production scalability;
 19. long-term maintainability;
 20. ability to reach the interaction-quality bar represented by Let's Go partner Eevee.
 
@@ -467,7 +450,7 @@ This research is primarily about **character production and runtime architecture
 
 Task CRUD, Calendar behavior, authentication, existing database migration, reward economy, and unrelated application UI are not the focus unless they materially constrain the character architecture.
 
-The first production proof should use **Carol** as the vertical-slice character because a single character must validate the architecture before expanding to Jill, Pino, and Shushu.
+Validate the architecture with a bounded character proof before expanding across Jill, Pino, and Shushu. The first character is not selected by this historical document.
 
 However, the research must evaluate the architecture against all four canonical characters before recommending a final production method.
 
@@ -489,7 +472,6 @@ It must identify:
 - what should be handmade, generated, procedural, simulated, or data-driven;
 - the expected bottlenecks;
 - the expected performance risks on Pixel 7a-class hardware;
-- the Carol vertical-slice plan;
 - the conditions under which the recommendation should be rejected and an alternative selected.
 
 The report must distinguish clearly between:

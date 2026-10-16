@@ -44,16 +44,11 @@ Grimoの実質的な制作・設計・調査に必要な最新版を、GitHub `m
 
 | キャラクター | Identity・現状・確認対象 |
 | --- | --- |
-| **Carol** | `assets/grimo/source/carol/carol-Identity-canonical.png`、`assets/grimo/source/carol/approved-3d/authority.json`、対象制作ブランチの`docs/production/carol/CAROL_PRODUCTION_STATE.md`。Normal/Skin・目・蹄・羊毛Motionを区別 |
 | **Jill** | `assets/grimo/source/jill/`のCanonical、対象Geometry/RigブランチとEvidence。翼・葉・尾の独立動作を確認 |
 | **Pino** | `assets/grimo/source/pino/`のCanonical、対象Geometry/RigブランチとEvidence。短腕・太尾・支持/接触を確認 |
 | **Shushu** | `assets/grimo/source/shushu/`のCanonical、対象Geometry/RigブランチとEvidence。顔の奥行き、短肢、plushな真の座位を確認 |
 
-Body-onlyの正式な選定・ハッシュ・前後左右は`assets/grimo/source/body-only-multiview-manifest.json`と`docs/grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md`を照合。2026-10-15同期時点でCarol 3視点、他3匹各4視点の計15枚が`main`に共有済み。**画像選定PASSはTripo適合・3D造形・MotionのPASSではない**。
-
 `docs/production/motion/GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md`と`GRIMO_MOTION_TO_ANATOMY_TRIPO_CONTRACT_DRAFT.md`はDRAFT。後続のHuman判断と個別制作Evidenceを見ずに正式仕様へ格上げしない。完成素材ではない参考画像・生成Pose・候補GLBも同様。
-
-**注意:** `main`のCarol Production Stateなどには古い初期Stateが残る場合がある。最も新しいモデルがあると推測せず、作業ブランチの同ファイル・リモート成果物・未コミット状態を確認する。
 
 ## 5. 個別Codexプロンプト：標準5項目
 
@@ -75,3 +70,9 @@ Body-onlyの正式な選定・ハッシュ・前後左右は`assets/grimo/source
 - **歴史:** `coord/grimo-ai-handoff`、`docs/project-knowledge-router-20261011`、`docs/archive/`、旧Project Knowledgeルーター、旧Promptは履歴であり、現行の起動指示ではない。
 
 **原則:** WHYはGoal√map、恒久ルールはmain AGENTS、進行先はmain Handoff、真実は現行ブランチの実物とHuman判断。
+
+## 制作知見
+
+[キャラクター3D制作の恒久知見](character-production/GRIMO_CHARACTER_3D_LESSONS.md)を参照。廃止済みキャラクターの制作導線は撤去済み。現役対象はJill / Pino / Shushu。
+
+Body-only選定は `assets/grimo/source/body-only-multiview-manifest.json` と [Asset Register](character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md) を照合。現役3匹各4方向の12枚。画像承認はTripo・3D・Motion承認を意味しない。最新状態は作業branchの実物・Evidence・未コミット差分で確認する。

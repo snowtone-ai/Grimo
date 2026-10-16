@@ -1,7 +1,5 @@
 # EEVEE_MOTION_MASTER_INVENTORY
 
-> Scope: Partner Eevee 11-video corpus. This document normalizes only the eleven completed per-video Motion Inventories. It does not re-analyze MP4s and does not import Pokémon general knowledge, Pikachu data, Grimo/Carol specifications, web material, or unattached motions.
-
 ## 0. Source / Evidence Rules
 - Formal source corpus: V01–V11 individual Eevee Motion Inventory Markdown files only.
 - `[V1] / [V2] / [I]` distinctions from source inventories remain authoritative; this Master does not upgrade uncertainty.
@@ -1213,5 +1211,3 @@ These are structural descriptors only; they do not prescribe rig/clip/runtime im
 Reason: all 208 source-local Family records from the 11 unique inventories are mapped to a Master Family and Variant, with source IDs/timestamps/count strings retained where available. Confidence applies to *coverage/traceability*, not to unresolved semantics or source-level V2/I interpretations.
 
 ---
-
-**Non-goal:** This Master does not decide which motions Carol/Grimo should adopt, motion counts for Carol, rig design, Blender clips, PlayCanvas implementation, or comparison superiority versus Pikachu.

@@ -1,6 +1,6 @@
 # Grimo
 
-Grimo is a smartphone-first, local-first task management PWA built around four original characters: Carol, Jill, Pino, and Shushu.
+Grimo is a smartphone-first, local-first task management PWA built around three original characters: Jill, Pino, and Shushu.
 
 ## Main screens
 

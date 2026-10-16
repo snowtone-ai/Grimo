@@ -2,7 +2,7 @@
 
 **Status:** Highest durable product / quality authority  
 **Updated:** 2026-09-23  
-**Scope:** Carol / Jill / Pino / Shushu; technology-independent product requirements
+**Scope:** Jill / Pino / Shushu; technology-independent product requirements
 
 ## 1. Product North Star
 
@@ -14,7 +14,7 @@ its companion creatures. The Goal is **not** to produce a technically perfect
 > completing tasks naturally becomes a reason to return to the companion
 > experience.
 
-On the Grimo screen, Carol / Jill / Pino / Shushu must feel cute, alive, aware
+On the Grimo screen, Jill / Pino / Shushu must feel cute, alive, aware
 of the user, causally responsive, capable of initiating interaction, and like
 companions rather than canned puppets even across extended use.
 
@@ -66,9 +66,6 @@ unmistakably like its canonical Grimo.
 
 ## 5. Character direction
 
-- **Carol:** young sheep-like; dream-cloud fleece is a dominant identity system;
-  attention-seeking + relaxed; calm, reassuring, soft, grounded; heavy feet;
-  fleece follows authored primary motion with restrained delay.
 - **Jill:** young spring-green dragon-like; attention-seeking + energetic;
   emotion propagates from chest/upper body to wings/tail/leaves; rooted,
   weighty tail.
@@ -135,7 +132,7 @@ Grimo is smartphone-first.
 
 Architecture/assets must still account for sustained frame pacing, latency,
 memory, asset footprint, loading, thermal/battery behavior, browser
-compatibility, touch reliability, and four-character scalability.
+compatibility, touch reliability, and three-character scalability.
 
 ## 11. Human acceptance
 

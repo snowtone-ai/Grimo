@@ -10,19 +10,16 @@ The production baseline is fixed:
 
 `Blender -> GLB/glTF -> PlayCanvas -> Next.js/React smartphone-first PWA`.
 
-Carol is the first vertical slice. Preserve the four canonical identities and the current Grimo icon. Never overwrite canonical assets as part of a probe or temporary test.
-
 ## Production contract
 
 - Pin Blender, Blender MCP, PlayCanvas, `@playcanvas/react`, physics, exporter, and validation versions in `docs/setup/3D_TOOLCHAIN.md`.
 - Keep reproducible operations in version-controlled Blender Python and background CLI scripts. MCP is an actuation/inspection surface, not the only source of truth.
 - The source of truth is Git plus Blender source assets, exported GLB/glTF, and TypeScript runtime code. PlayCanvas Editor is for authoring, inspection, preview, and QA.
-- Keep the future export set explicit: `carol.raw.glb`, `carol.runtime.glb`, and `carol.manifest.json`.
 - Preserve source hashes, export hashes, tool versions, semantic map versions, counts, clip names, and generation time in the manifest.
 
 ## Rig and deformation
 
-CloudRig is a prototype comparison path (`Carol Rig Prototype A`), not an automatic production decision. Compare it with a compact custom rig before adoption. Use semantic bone names and maintain a versioned semantic bone map. EasyWeight is for weight cleanup. Pose Shape Keys is for corrective, facial, and fleece deformation.
+CloudRig is a prototype comparison path (rig prototype), not an automatic production decision. Compare it with a compact custom rig before adoption. Use semantic bone names and maintain a versioned semantic bone map. EasyWeight is for weight cleanup. Pose Shape Keys is for corrective, facial, and fleece deformation.
 
 Hero acting, facial acting, primary touch reaction, and primary fleece performance are authored animation. Do not let physics choose a hero pose. Physics is limited to props, collisions, joints, environment interaction, bounded residual secondary motion, and Secret Motion.
 
@@ -43,3 +40,5 @@ Reject whole-image squash/stretch, generic whole-body bobbing, physics-led hero 
 Do not repeat validation when no relevant asset changed.
 
 Temporary cubes and test scenes must be in-memory or disposable and must be deleted/cleaned before delivery. Never download an external asset or read credentials, `.env` files, browser profiles, or files outside the repository for routine production automation.
+
+Preserve Jill / Pino / Shushu canonical identities and the current icon. Never overwrite canonical assets in probes. Keep `<character>.raw.glb`, `<character>.runtime.glb`, and `<character>.manifest.json` explicit. Compare rig prototypes before adoption; maintain semantic bone maps. Weight cleanup and corrective/facial deformation remain separate tasks.

@@ -12,7 +12,6 @@
 ## Status
 
 ユーザー確認:
-- Carol: 8/8 完了
 - Jill: 8/8 完了
 - Pino: 8/8 完了
 - Shushu: 8/8 完了
@@ -46,7 +45,6 @@ reference notes are in `docs/grimo/references/`.
 
 ```text
 assets/grimo/source/
-  carol/
     canonical.png
     refs/
       01-rig-neutral.png

@@ -2,8 +2,6 @@
 
 Status: bootstrap baseline verified 2026-09-15 (Asia/Tokyo)
 
-This document records the reproducible Full 3D environment for Grimo. It is intentionally a toolchain document, not a Carol modeling specification.
-
 ## Source of truth and non-negotiables
 
 The source of truth is Git repository content, Blender source assets, exported GLB/glTF, and TypeScript runtime code. PlayCanvas Editor is an authoring, inspection, preview, and QA surface; it is not the repository's new source of truth.
@@ -11,10 +9,6 @@ The source of truth is Git repository content, Blender source assets, exported G
 The production path is:
 
 `Blender -> GLB/glTF -> PlayCanvas -> Next.js/React smartphone-first PWA`
-
-Carol is the first vertical slice. This bootstrap does not create a Carol mesh, rig, animation, or runtime fixture. It preserves the existing Task/Calendar semantics, Dexie compatibility, PWA/service worker, Google read-only boundary, server-only Gemini secret handling, app icon, and canonical character identities.
-
-Physics is reserved for props, collision, joints, environment interaction, bounded residual secondary motion, and Secret Motion. It must not decide Carol's hero acting, facial acting, primary touch reaction, main body acting, or primary fleece performance.
 
 ## Verified versions
 
@@ -30,7 +24,7 @@ Physics is reserved for props, collision, joints, environment interaction, bound
 | Blender | 5.2.1 LTS | Existing and verified | Blender-centered production and headless automation | `blender --version` |
 | Blender Lab MCP add-on | 1.0.3 | Installed and enabled | Local Blender TCP bridge | `blender --command extension list` |
 | Blender Lab MCP server | Official repository commit `ff54e4d8f6b09502f2f466189cca0e52b4a91643` | Codex-registered | MCP stdio server; launched with `uvx` | `codex mcp get blender` |
-| CloudRig | 2.2.29 | Installed and enabled | `Carol Rig Prototype A` comparison path | `blender --command extension list` |
+| CloudRig | 2.2.29 | Installed and enabled | rig prototype comparison path | `blender --command extension list` |
 | EasyWeight | 1.1.3 | Installed and enabled | Weight painting and cleanup | `blender --command extension list` |
 | Pose Shape Keys | 1.1.1 | Installed and enabled | Corrective/facial/fleece deformation | `blender --command extension list` |
 | PlayCanvas Engine | 2.22.2 | Exact project dependency | Runtime renderer/animation/camera | `pnpm 3d:playcanvas` |
@@ -47,7 +41,7 @@ Physics is reserved for props, collision, joints, environment interaction, bound
 | PlayCanvas Editor MCP | 0.7.1 | Codex-registered | Editor inspection/preview/QA bridge | `codex mcp get playcanvas` |
 | PlayCanvas official Skills | marketplace `playcanvas`, plugin `engine` 0.3.0 | Installed and enabled | Official agent guidance for PlayCanvas workflows | `codex plugin list` |
 
-Version policy: the Blender/PlayCanvas/physics/MCP/rig versions above are pinned. Automatic upgrades are prohibited. Upgrade on a branch, run repository checks, run GLB validation, perform Carol visual regression once Carol exists, pass the Human Gate, then merge deliberately.
+Version policy: the Blender/PlayCanvas/physics/MCP/rig versions above are pinned. Automatic upgrades are prohibited. Upgrade on a branch, run repository checks, run GLB validation, perform visual regression for the selected character, pass the Human Gate, then merge deliberately.
 
 ## Blender and official Blender Lab MCP
 
@@ -86,14 +80,6 @@ This provides the official `build-app`, `apply-conventions`, `find-examples`, `r
 The Editor MCP is registered as `playcanvas` with the official `@playcanvas/editor-mcp-server` package. The Editor-side connection is intentionally separate from code-first runtime source control. It requires a user-opened PlayCanvas Editor project and the Editor MCP connection control; see Human action below.
 
 ## GLB export and manifest contract
-
-Future Carol exports are separate artifacts:
-
-```text
-carol.raw.glb
-carol.runtime.glb
-carol.manifest.json
-```
 
 The manifest foundation reserves these fields:
 

@@ -33,7 +33,6 @@ This hierarchy is a **causal map, not an ordered waterfall**; production methods
 **Technical PASS ≠ Human quality PASS. Missing evidence = UNKNOWN.** Chargeable Tripo use requires explicit approval.
 
 ## Character / app anchors
-- **Carol:** young dream-cloud sheep; fleece/Normal appearance is more important than hidden Underbody polish.
 - **Jill:** green dragon; lively wings, leaves and tail.
 - **Pino:** playful blue otter; buoyant but grounded.
 - **Shushu:** white/pink panda; soft face depth, plush mass, short-limbed realistic sitting.

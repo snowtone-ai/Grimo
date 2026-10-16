@@ -3,18 +3,18 @@
 **Status:** Authoritative product feature specification  
 **Date:** 2026-09-15  
 **Purpose:** Grimoの機能を、過去の会話を知らないAI・開発者でも、この1ファイルだけで誤解なく理解できるように固定する。  
-**Scope:** Grimo画面、Collection画面、Task/Calendarとの報酬連動、Food/Wear/Special/Secret Motion/Gift、4匹の反応収集、MVP開発順。  
+**Scope:** Grimo画面、Collection画面、Task/Calendarとの報酬連動、Food/Wear/Special/Secret Motion/Gift、3匹の反応収集、MVP開発順。
 **Not in scope:** 最終的なデータベース製品、クラウド会社、コード構成、Blender実装手順の詳細。
 
 ---
 
 # 0. この資料の位置づけ
 
-Grimoは、**タスク管理 / カレンダー**と、4匹の「生きている相棒Grimo」を組み合わせたsmartphone-first PWAである。
+Grimoは、**タスク管理 / カレンダー**と、3匹の「生きている相棒Grimo」を組み合わせたsmartphone-first PWAである。
 
 アプリの中心は単なるTodo管理でも、単なる育成ゲームでもない。
 
-> **日々アプリを開き、タスクを登録し、タスクを完了すると、Grimoの世界で使える物や新しい遊びが増える。集めた物をGrimoに使うことで、4匹それぞれの反応を発見し、Collectionを埋めていく。**
+> **日々アプリを開き、タスクを登録し、タスクを完了すると、Grimoの世界で使える物や新しい遊びが増える。集めた物をGrimoに使うことで、3匹それぞれの反応を発見し、Collectionを埋めていく。**
 
 重要な思想は次の通り。
 
@@ -23,7 +23,7 @@ Grimoは、**タスク管理 / カレンダー**と、4匹の「生きている�
 3. 報酬はすべてCollectionへつながる。
 4. 親密度は画面上にも内部にも存在しない。
 5. 放置・未達・不在による罰は作らない。
-6. 4匹は見た目だけでなく、反応・間・動き・好みまで異なる。
+6. 3匹は見た目だけでなく、反応・間・動き・好みまで異なる。
 7. 収集の楽しさは強くするが、Grimo本人を報酬自動販売機にはしない。
 
 ---
@@ -38,7 +38,7 @@ Grimoは、**タスク管理 / カレンダー**と、4匹の「生きている�
 4. `GRIMO_PARTNER_EEVEE_VIDEO_MOTION_ANALYSIS.md`
 5. `GRIMO_EXPERIENCE_MOTION_BIBLE.md`
 6. `GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`
-7. 4匹の `*-identity-canonical.png`
+7. 3匹の `*-identity-canonical.png`
 8. 承認済みの3D production canonical / orthographic references
 
 ## 1.1 優先ルール
@@ -99,7 +99,7 @@ MVPでは、カレンダー上の予定を見ただけ・予定時刻になっ�
 
 ## 2.3 Grimo
 
-4匹の相棒と触れ合う中心画面。
+3匹の相棒と触れ合う中心画面。
 
 - 生きているように自律して動く。
 - タップ・撫でる・往復して撫でる等に反応する。
@@ -117,7 +117,7 @@ Pokémon TCG PocketのCollectionのように、**カードを並べて眺め、�
 
 Collectionは「在庫一覧」ではなく、
 
-> **物の収集 + 4匹の反応の収集**
+> **物の収集 + 3匹の反応の収集**
 
 を同時に行う場所である。
 
@@ -148,24 +148,15 @@ Collectionは「在庫一覧」ではなく、
 
 ---
 
-# 4. 4匹のGrimo
+# 4. 3匹のGrimo
 
-- Carol
 - Jill
 - Pino
 - Shushu
 
-Carolが最初の実装対象。
-
-4匹は共通の仕組みを使うが、反応は共通化しすぎない。
+3匹は共通の仕組みを使うが、反応は共通化しすぎない。
 
 ## 4.1 性格
-
-### Carol
-
-- attention-seeking + relaxed
-- ゆっくり、柔らかく、安心感がある。
-- 喜びも拒否も大きすぎず、余韻が長い。
 
 ### Jill
 
@@ -184,14 +175,14 @@ Carolが最初の実装対象。
 
 ## 4.2 共通禁止
 
-- 同じMotionを4匹へそのまま流用し、速度だけ変える。
+- 同じMotionを3匹へそのまま流用し、速度だけ変える。
 - 全員がFoodへ同じ喜び方をする。
 - 全員が同じタイミングで同じ部位を動かす。
 
 共有してよいのは「意味」と「仕組み」。
 
 例：好き度5 = 大好物、という意味は共有できる。  
-しかし好き度5の演技は4匹で別にする。
+しかし好き度5の演技は3匹で別にする。
 
 ---
 
@@ -221,8 +212,6 @@ Grimo画面を開いた瞬間、キャラクターは静止画のように待っ
 を区別できるようにする。
 
 触れた場所も区別する。
-
-例：Carolなら、
 
 - 頭
 - 頬 左右
@@ -413,7 +402,7 @@ Environment等はMVPでは作らない。
 - 同じFoodを再獲得した場合、そのまま個数に加算。
 - 個数が0になってもCollectionから消えない。
 - 一度発見したFoodカードは永久に残る。
-- 4匹それぞれに好き嫌いを設定する。
+- 3匹それぞれに好き嫌いを設定する。
 
 ## 10.2 Foodの好き度
 
@@ -447,7 +436,6 @@ Foodには、
 ```text
 いちご
 食べ方 = 小さく一口
-Carol好き度 = 5
 Jill好き度 = 4
 Pino好き度 = 3
 Shushu好き度 = 5
@@ -481,13 +469,12 @@ Foodを見る
 
 必要になった時だけ追加する。
 
-## 10.5 4匹の好き度Motion
+## 10.5 3匹の好き度Motion
 
 「好き度5 = 大好物」という意味は共通でも、Motionは各キャラで別にする。
 
 例：
 
-- Carol: ゆっくり目を細め、身体を少し預けるように喜ぶ。
 - Jill: 反応が早く、上半身や翼まで喜びが広がる。
 - Pino: 遊ぶような反応や身体・尻尾の喜びが出る。
 - Shushu: 驚きの後に穏やかに満足する。
@@ -506,17 +493,7 @@ Foodを見る
 - Wearごとに決められた安全な位置へ装着する。
 - 顔、目、重要モチーフ、主要な身体輪郭を壊すWearは禁止。
 
-## 11.2 4匹の安全な装着位置
-
-### Carol
-
-MVP候補：
-
-- 頭上
-- 耳の付け根付近
-- 前側のもこもこ
-
-避ける：目・顔・月/星を隠す位置、足、動きの大きい後方部。
+## 11.2 3匹の安全な装着位置
 
 ### Jill
 
@@ -556,8 +533,8 @@ Wear位置はキャラごとの3Dモデルに、事前に安全な取り付け�
 ## 12.1 基本
 
 - 通常レア度は☆☆☆☆。
-- 4匹のうち特定のGrimo専用。
-- `Carol Special`、`Jill Special`、`Pino Special`、`Shushu Special` のように対象を持つ。
+- 3匹のうち特定のGrimo専用。
+- `Jill Special`、`Pino Special`、`Shushu Special` のように対象を持つ。
 
 Special自体は「使い方」を1種類に固定しない。
 
@@ -590,23 +567,7 @@ Wear型 / Secret Motion型Specialは永久所有。
 
 例：
 
-```text
-Carol — Moon Ball Play
-```
-
 を獲得した場合、
-
-```text
-ボール出現
-↓
-Carolが気付く
-↓
-ボール固有の遊びMotion
-↓
-余韻
-↓
-ボール消滅
-```
 
 までを1つのSecret Motionとして扱う。
 
@@ -625,7 +586,6 @@ Secret Motionごとに次のいずれかを設定できる。
 Secret Motionは、
 
 - 共通ThemeのMotion
-- Carol専用
 - Jill専用
 - Pino専用
 - Shushu専用
@@ -739,7 +699,6 @@ Food
 所持数 ×3
 初入手日
 
-Carol   発見済み / 未発見
 Jill    発見済み / 未発見
 Pino    発見済み / 未発見
 Shushu  発見済み / 未発見
@@ -749,9 +708,9 @@ Shushu  発見済み / 未発見
 
 反応を一度見たGrimoは「発見済み」となる。
 
-## 16.4 4匹の反応収集
+## 16.4 3匹の反応収集
 
-同じFoodでも、4匹すべてに一度ずつ使う意味がある。
+同じFoodでも、3匹すべてに一度ずつ使う意味がある。
 
 Food以外でも、そのアイテムを実際に使って対象Grimoの反応を見た場合にReactionを発見済みにできる。
 
@@ -776,7 +735,6 @@ MVP必須：
 - Special
 - Secret Motion
 - Gift
-- Carol
 - Jill
 - Pino
 - Shushu
@@ -877,86 +835,7 @@ Grimoが不在を責める通知は禁止。
 
 ---
 
-# 21. Carol 3D Proofで必須の身体能力
-
-Carol完成後に後戻りしないため、Phase 1で最低限次を可能にする。
-
-## 21.1 生きている基本
-
-- 自然なまばたき
-- 視線移動
-- 頭の向き
-- 表情
-- 耳
-- 前脚 / 足
-- 身体重心
-- もこもこの遅れ
-- 静かな待ち
-- 自発行動
-- 途中で別反応へ切り替えられる
-
-## 21.2 触れ合い
-
-- 頭 / 頬左右 / 耳等の場所別反応
-- 左右を保った反応
-- 撫でる方向・長さの違い
-- 好き / 普通 / 少し嫌な反応
-
-## 21.3 Food
-
-- Foodを見る
-- Foodへ顔を向ける
-- 口を開く / 閉じる
-- 小さい物を食べる
-- 数回に分けて食べる
-- なめる / 飲むへ将来拡張できる
-- 味を判断する間
-- 好き度1〜5の感情Motion
-- 好き度1で顔を背ける
-- 好き度2で食後に苦そうな顔をする
-
-## 21.4 Wear
-
-- 安全な固定装着位置
-- Motion中もずれない
-- 顔 / 重要モチーフを壊さない
-
-## 21.5 Secret Motion
-
-- 後から新Motionを追加できる
-- 必要なら小物を出す
-- 小物を見る
-- 前脚 / 鼻先 / 頭等で小物へ働きかける
-- Motion終了後に小物を消す
-
-## 21.6 Gift
-
-- 何かを見つける
-- ユーザーへ注意を向ける
-- 「これを渡したい」と分かる身体表現
-
----
-
 # 22. 開発段階
-
-## Phase 1 — Carol 3D Proof
-
-目的：
-
-> **Carolを高品質3Dとして成立させ、今後Food / Wear / Secret Motion / Gift等を追加できる身体基盤を証明する。**
-
-この段階が不合格なら以降へ進まない。
-
-最低合格：
-
-- Carol本人に見える。
-- 生きている。
-- 顔・目・口・頭・耳・前脚等を必要十分に動かせる。
-- Food Motion追加が可能。
-- Wear装着が可能。
-- 小物を使うSecret Motion追加が可能。
-- 触れた場所に応じて反応可能。
-- Pixel 7a級スマートフォンで成立する見込みがある。
 
 ## Phase 2 — App Foundation
 
@@ -980,35 +859,15 @@ Carol完成後に後戻りしないため、Phase 1で最低限次を可能に�
 - Secret Motion解放
 - Collection
 - 並べ替え / 絞り込み
-- 4匹Reaction記録
-
-## Phase 3 — Carol MVP
-
-Carolのみ内容を充実させる。
-
-最低でも、
-
-- 複数Food
-- 複数Wear
-- 複数Special
-- 複数Secret Motion
-- Gift
-- Food好き度1〜5の違い
-- Collection / Reaction Collection
-
-を本番と同じ流れで成立させる。
-
-量より品質を優先する。
+- 3匹Reaction記録
 
 ## Phase 4 — Jill / Pino / Shushu 3D化
-
-Carolで成立した仕組みを利用し、残り3匹を高品質3D化する。
 
 共通仕組みは再利用するが、Motionは各キャラ向けに作る。
 
 ## Phase 5 — Full Content
 
-4匹すべてについて、
+3匹すべてについて、
 
 - Food反応
 - Wear
@@ -1052,7 +911,6 @@ Carolで成立した仕組みを利用し、残り3匹を高品質3D化する。
 
 1. 4画面 = Task / Calendar / Grimo / Collection。
 2. Full 3D + Blender-centered + PlayCanvas方向。
-3. Carolが最初。
 4. UI / UXはPokémon TCG Pocketを直接参考にする。
 5. 親密度なし。内部にもなし。
 6. 通貨 / XPなし。
@@ -1075,7 +933,7 @@ Carolで成立した仕組みを利用し、残り3匹を高品質3D化する。
 23. Secret Motionは必要なら小物まで含む。
 24. 永久アイテム重複はFoodへ交換。
 25. Food重複は所持数加算。
-26. Collectionで4匹の反応を集める。
+26. Collectionで3匹の反応を集める。
 27. 報酬は宝箱→タップ→表示。自動開封設定あり。
 28. Environment等はMVP対象外。
 
@@ -1102,7 +960,7 @@ Grimoへ会う
 ↓
 Foodを与える / Wearを付ける / Secret Motionで遊ぶ / 普通に触れ合う
 ↓
-4匹それぞれのReactionを発見
+3匹それぞれのReactionを発見
 ↓
 Reaction Collectionが埋まる
 ↓
@@ -1114,4 +972,4 @@ Reaction Collectionが埋まる
 ```
 
 **Grimoの中心は、数字を育てることではない。  
-「物を集め、その物を4匹に使い、4匹それぞれの反応を知ること」である。**
+「物を集め、その物を3匹に使い、3匹それぞれの反応を知ること」である。**

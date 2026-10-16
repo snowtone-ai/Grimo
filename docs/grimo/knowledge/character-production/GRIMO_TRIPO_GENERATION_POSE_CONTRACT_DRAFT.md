@@ -132,9 +132,7 @@ Check:
 
 **Human 2D selection, not Tripo/Blender PASS.** Jill / Pino / Shushu have now had their body-only Front, left-facing Side, right-facing Opposite Side, and Back visually selected as 2D image-to-3D candidates. All original canonical identity images retain higher final-appearance authority. Jill's peach-colored paired head appendages are interpreted as **horn-like anatomy** under the latest Human discussion, so an old "ears must be recolored on the back" assumption is not grounds for editing accepted art. Canonical body markings (including Jill's clover motif) still need later material/identity inspection.
 
-Carol has approved body-only Front, left-facing Side and right-facing Opposite Side references. Human decided not to create or use a Back image after repeated candidates failed lower-body taper, hoof-shape, and three-dimensional-connection quality. Try the three views if Tripo supports them; rear reconstruction quality remains unverified.
-
-The current input decision update is recorded in [the body-only multiview asset register](GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md): Jill Right has been replaced and Carol Back is intentionally omitted. Verify three-view Studio support during the next authorized preflight. Only after image preflight should Tripo Studio slot mapping and authorized paid generation be considered.
+The current input decision update is recorded in [the body-only multiview asset register](GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md): Jill Right has been replaced. Verify Studio camera-slot mapping during the next authorized preflight. Only after image preflight should Tripo Studio slot mapping and authorized paid generation be considered.
 
 The earlier section-8 directive to first create Jill Front is historical and is no longer the next step. **Generation pose ≠ rig rest pose ≠ game neutral**, and 2D image acceptance does not certify a 3D result.
 ## 9. Source links (external context)

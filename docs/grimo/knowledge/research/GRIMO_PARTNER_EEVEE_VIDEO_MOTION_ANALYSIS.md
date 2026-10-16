@@ -108,8 +108,6 @@ Player contacts character
 → character actively changes its own body relative to the contact
 ```
 
-**[G]** Carol should not merely “play happy after cheek pet”; she should be able to actively lean the contacted cheek toward the user.
-
 ### 1.8 High-energy mood is expressed as a bounded phrase, not a perpetual oscillator
 
 E04 “ノリノリ” begins with a roughly three-second authored rhythmic phrase, then returns to ordinary living behavior. **[V1]** The phrase has non-uniform internal structure: asymmetric ear lead → face → opposite ear → partial reset → stronger second accent → forepaws → settle.
@@ -1374,178 +1372,6 @@ Do **not** copy Eevee-specific poses, exact motion paths, exact timing sequence,
 
 ---
 
-## 18. Carol Implications
-
-Carol is attention-seeking + relaxed, with a huge dream-cloud fleece, tiny cream face, large eyes, brown ears, hooves, moon/star motifs, low–medium energy, and a grounded/soft motion identity.
-
-### 18.1 Base living
-
-**[G]**
-
-```text
-root / hooves         mostly grounded
-breath                tiny; not a whole-body squash loop
-eyes / eyelids        sparse but expressive
-head                  sparse micro-orientation
-ear.L / ear.R         independently available
-fleece                 cause-driven only
-moon/star motifs       event-driven only
-large motion           rare
-intentional stillness  explicit valid state
-```
-
-### 18.2 Blink
-
-The Eevee ~133 ms blink is evidence that very fast stylized blinks can read naturally, but it is **not** a Carol value to copy. **[G]** Initial Carol tuning can explore ~130–200 ms while preserving character identity.
-
-### 18.3 Head / cheek pet causal stack
-
-**[G]**
-
-```text
-contact
-→ immediate local cheek/fleece acknowledgement
-→ eyelid / eye acknowledgement
-→ side-specific head/cheek lean
-→ near ear relaxes
-→ grounded body transfer
-→ local fleece cluster follows
-→ neighboring fleece settles later
-→ content hold
-→ afterglow
-```
-
-A prior starting envelope proposed in the chat was:
-
-- local physical acknowledgement: ~0–80 ms,
-- eyelid/eye: ~80–200 ms,
-- near ear: ~150–350 ms,
-- comfort accumulation: ~300–800 ms,
-- once threshold crossed, head/cheek lean: ~0–300 ms,
-- body follow: +100–300 ms,
-- fleece cluster follow: +150–500 ms,
-- contact-seeking hold: ~0.4–0.9 s,
-- afterglow: ~2–5 s.
-
-These are **[G] tuning ranges**, not Pokémon measurements.
-
-### 18.4 Side-specific contact-seeking
-
-E05 exposes a reference weakness that Carol should surpass. **[G]**
-
-```text
-cheek.L contact
-→ cheek/head lean L
-→ ear.L responds first
-→ fleece.L responds first
-→ body follows with small grounded transfer
-```
-
-and vice versa for the right side, with non-identical variations so the system is not a perfect mirror machine.
-
-### 18.5 Long relaxed moving hold
-
-Translate Eevee’s long relaxed state into Carol-specific anatomy:
-
-```text
-eyes soften/close
-→ tiny cream face lowers slightly
-→ one ear relaxes
-→ other ear remains semi-alert
-→ hooves remain heavy/grounded
-→ local fleece settles after head
-→ 8–25 s moving hold
-→ tiny asynchronous corrections
-```
-
-Do not move the entire fleece as one breathing blob.
-
-### 18.6 Reciprocal social invitation
-
-Do not copy Eevee’s high-five. **[G]** Carol-specific version:
-
-```text
-looks toward user
-→ tiny head raise
-→ one ear forward
-→ one forehoof slowly emerges / offers low
-→ WAIT
-→ soft reciprocal contact
-→ tiny eyelid/cheek response
-→ head softens
-→ local fleece settles
-```
-
-### 18.7 Boundary escalation grammar
-
-Carol should communicate limits gently rather than using Eevee’s exact protest face/VFX. **[G]**
-
-```text
-Level 0: local acknowledgement
-Level 1: gentle boundary hint
-Level 2: clear refusal / small movement away
-Level 3: withdrawal / gaze disengagement
-Recovery: quiet stillness → eyes soften → head/ear return → mild boundary afterglow
-```
-
-A prior initial envelope proposed:
-
-- local physical acknowledgement 0–80 ms,
-- face/eyelid 50–180 ms,
-- head-away 120–350 ms,
-- ear response 200–500 ms,
-- body transfer 300–800 ms,
-- fleece follow-through 450–1200 ms,
-- release settle 0.5–1.5 s,
-- mild boundary afterglow 2–5 s.
-
-Again, **[G]**, not Pokémon measured timing.
-
-### 18.8 Carol mood phrase
-
-Do not copy Eevee’s ear-dance. **[G]** Carol’s state-expression phrase should be low-energy and bounded:
-
-```text
-one ear / eye acknowledgement
-→ tiny head lean
-→ eyes soften/close
-→ grounded weight transfer
-→ local fleece follows
-→ second softer sway
-→ tiny hoof adjustment
-→ fleece settles
-→ eyes reopen
-→ quiet living idle
-```
-
-### 18.9 Carol delayed affection
-
-Use the principle from E02 rather than copying the heart reaction:
-
-```text
-interaction ends
-→ Carol settles
-→ brief quiet
-→ she looks back / softens
-→ both ears relax
-→ grounded body subtly commits toward user
-→ fleece settles
-→ optional restrained moon/star accent
-```
-
-### 18.10 Carol DO NOT
-
-- no whole-fleece sinusoidal bounce,
-- no both-ears-always-synchronous motion,
-- no body bob on every blink,
-- no constant moon/star sparkle,
-- no instant full-body happy clip for every touch,
-- no immediate neutral snap after every reaction,
-- no centered bilateral response that ignores left/right touch,
-- no periodic “do an idle every N seconds” scheduler.
-
----
-
 ## 19. Jill Implications
 
 Jill is attention-seeking + energetic; motion lead is chest / upper body, propagating toward wings, leaves/flowers, and a heavy rooted tail.
@@ -1580,7 +1406,7 @@ local acknowledgement
 
 ### 19.3 Reciprocal invitation
 
-Higher energy than Carol:
+High energy:
 
 ```text
 chest forward
@@ -1939,35 +1765,6 @@ Shared runtime does not imply shared performance. Each Grimo needs its own lead 
 
 ## 23. Motion / Behavior Production Backlog
 
-The following consolidates the P0/P1/P2 items repeatedly derived during the five-video analysis, with **Carol vertical slice** as the primary production target.
-
-### P0 — Carol Vertical Slice Critical
-
-1. **Living neutral base** — grounded hooves, stable root, tiny physiology, no whole-fleece bob.
-2. **Independent eyelid / gaze / ears** — L/R ears independently addressable.
-3. **Intentional stillness / long relaxed moving hold** — ~10–25 s-class behavior can remain alive without major action.
-4. **Immediate local touch reflex** — cheek/head/fleece local acknowledgement before full semantic reaction.
-5. **Slow-pet accumulator** — distinguish ongoing stroke from tap.
-6. **Side-specific cheek contact-seeking lean** — left/right causality preserved.
-7. **Contact hold** — character can remain leaned into touch.
-8. **Interrupted contact-seeking recovery** — finger release redirects current pose; do not blindly finish a clip.
-9. **Head/cheek pet positive causal stack** — local → face → head → ear → grounded body → fleece → afterglow.
-10. **Boundary hint** — mild “not there” response without hostility.
-11. **Clear refusal** — user-facing communication.
-12. **Withdrawal / disengagement** — gaze away/down, distance creation, low-energy retreat.
-13. **Boundary hysteresis / pressure accumulator** — repeated unwanted input changes state over time.
-14. **Negative recovery / afterglow** — do not snap immediately to affectionate neutral.
-15. **Reciprocal soft invitation** — Carol initiates a social contact opportunity.
-16. **Invitation WAIT state** — animation pauses for user response while micro channels remain alive.
-17. **Fast reciprocal contact ACK** — immediate local/face confirmation for discrete social success.
-18. **Repeated reciprocal loop** — can transition directly into another social turn without neutral reset.
-19. **Delayed affection payoff** — larger character-originated response after interaction settles.
-20. **Carol-specific bounded mood phrase** — low-energy self-expression with unequal accents and a clear end.
-21. **Phrase channel-lock / ownership** — random idle layers cannot corrupt authored acting.
-22. **Local → global fleece follow-through** — cause-driven, delayed, low amplitude; no whole-fleece jelly.
-23. **Settle → living idle transition** — every hero reaction exits into a plausible current state.
-24. **Afterglow state** — positive and negative residue affects next few seconds.
-
 ### P1 — Variation / Coverage Expansion
 
 - positive pet family 3–5 variants,
@@ -2003,7 +1800,6 @@ The following consolidates the P0/P1/P2 items repeatedly derived during the five
 - rare moon/star behavior,
 - gift/item interaction,
 - self-groom,
-- rare larger Carol rhythm behavior,
 - bond-dependent invitation strength,
 - bond-dependent stronger cheek lean,
 - remembered preferred touch tendencies,
@@ -2015,7 +1811,7 @@ The following consolidates the P0/P1/P2 items repeatedly derived during the five
 - toys / item-mediated social ritual,
 - long-term remembered interaction,
 - seasonal/contextual mini rituals,
-- four-character-specific reciprocal interaction libraries.
+- three-character-specific reciprocal interaction libraries.
 
 ---
 
@@ -2143,7 +1939,7 @@ If more footage is added later, the most useful evidence would be:
 - **DO NOT** restart the same negative clip repeatedly while contact continues.
 - **DO NOT** discard touch side once a macro reaction starts.
 - **DO NOT** let VFX substitute for body acting.
-- **DO NOT** retarget Eevee’s species-specific paw/ear/face performance directly to Carol, Jill, Pino, or Shushu.
+- **DO NOT** retarget Eevee’s species-specific paw/ear/face performance directly to Jill, Pino, or Shushu.
 
 ### Core Motion Rules
 
@@ -2203,4 +1999,4 @@ state exists
 → quiet life resumes
 ```
 
-For Grimo, the target is therefore not to copy Eevee’s animations. The target is to build a runtime and production language capable of producing the same *class of causal richness* with Carol-, Jill-, Pino-, and Shushu-specific anatomy, personality, timing, and motion identity.
+For Grimo, the target is therefore not to copy Eevee’s animations. The target is to build a runtime and production language capable of producing the same *class of causal richness* with Jill-, Pino-, and Shushu-specific anatomy, personality, timing, and motion identity.

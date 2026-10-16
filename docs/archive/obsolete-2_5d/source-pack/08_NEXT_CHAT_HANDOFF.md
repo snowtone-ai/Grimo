@@ -4,8 +4,8 @@
 
 ## Current truth
 
-- Project: Grimoire PWA の4体グリモ触れ合い機能
-- Characters: Carol / Jill / Pino / Shushu
+- Project: Grimoire PWA の3体グリモ触れ合い機能
+- Characters: Jill / Pino / Shushu
 - Development path: **PixiJS 8系 2.5D layered runtime**
 - Canonical images: Project Sourcesに追加済み
 - 4 × 8 development reference images: **32/32 generated**
@@ -54,7 +54,7 @@
 - capture / visual QA
 - human Gate 1–3
 
-これが通るまで4体並列化しない。
+これが通るまで3体並列化しない。
 
 ## Context hygiene
 
@@ -68,5 +68,3 @@
 5. 対象キャラの必要な補助画像のみ
 
 で開始する。
-
-Carol 3D / Muu / Blender / Three.js legacy packを自動で混ぜない。

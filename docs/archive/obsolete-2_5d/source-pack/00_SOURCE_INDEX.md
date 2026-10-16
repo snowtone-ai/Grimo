@@ -6,14 +6,11 @@
 
 ## 1. 現在の正式スコープ
 
-対象は以下の4体の「グリモ」だけ。
+対象は以下の3体の「グリモ」だけ。
 
-- Carol — 羊 / 夢雲モチーフ
 - Jill — 植物ドラゴン
 - Pino — 水・泡モチーフのカワウソ
 - Shushu — 桜モチーフのパンダ
-
-`Muu`、Carol 3D 実験、Three.js/Blenderを本線とした旧資料は、現在の触れ合い機能の正式スコープではない。
 
 ## 2. 現在の正式開発方式
 
@@ -34,7 +31,7 @@
 矛盾した場合は上を優先する。
 
 1. 現在のユーザー指示
-2. 4体の canonical 画像
+2. 3体の canonical 画像
 3. **回答済みの事前質問リスト**
 4. この source pack の `01_CURRENT_STATE.md`
 5. `02_PRODUCT_SPEC.md`
@@ -64,7 +61,6 @@
 - **ユーザーが回答済みの `事前質問リスト.md`**
 
 ### 必須画像
-- Carol canonical
 - Jill canonical
 - Pino canonical
 - Shushu canonical
@@ -73,11 +69,10 @@
 
 コンテキスト汚染を避けるため、以下は repo / File Library に保存し、対象キャラの作業時だけ参照する。
 
-- 4体 × 8 = 32枚の開発補助画像本体
+- 3体 × 8 = 32枚の開発補助画像本体
 - 画像生成用プロンプト集
 - 完了済みの開発前タスクリスト
 - 古い環境導入手順
-- Carol 3D / Blender / Three.js の旧比較実験
 - Muu関連資料
 - 長いQAログ
 - build output
@@ -89,8 +84,6 @@
 
 ## 6. 旧資料の扱い
 
-2026-09-10頃の Carol 3D / Blender / Three.js 系資料は **legacy experiment**。
-
 そこから再利用してよいのは思想だけ:
 - canonicalを壊さない
 - interactionは部位別
@@ -99,12 +92,3 @@
 - pointer cancel / lost captureで誤反応しない
 - visual QAをtestsより上位の品質判定にする
 - 最終判定はユーザー
-
-以下は現在の本線へ自動継承しない:
-- Three.js runtime
-- Blender modeling pipeline
-- GLB
-- 3D camera orbit
-- 3D node contract
-- Carol専用threshold
-- Muu

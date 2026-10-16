@@ -2,7 +2,7 @@
 
 Keep mutable artifacts **scoped to the character or motion workstream**. The root [Handoff](Handoff.md) is a last-known pointer only; verified current state lives with the active branch and its evidence.
 
-- `carol/`, `shushu/`, future character folders: versioned geometry, pose, rig and Human-review evidence
+- `jill/`, `pino/`, `shushu/`, future character folders: versioned geometry, pose, rig and Human-review evidence
 - `motion/`: motion design, research and drafts (a `DRAFT` is not approval)
 - Evidence should identify candidate/version, authority, inspected view or behavior, result, and remaining unknowns. Technical PASS does not imply Human visual PASS.
 - Preserve reviewed or decision-relevant evidence and exact provenance. Prefer selected review images plus a manifest over large repetitive render sweeps; keep disposable diagnostics outside tracked folders.

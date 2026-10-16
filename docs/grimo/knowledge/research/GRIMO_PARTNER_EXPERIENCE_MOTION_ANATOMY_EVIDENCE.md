@@ -1,20 +1,12 @@
 # Grimo — Partner Experience Motion & Anatomy Evidence
 
-**Source document:** `GRIMO_PARTNER_EXPERIENCE_PRODUCTION_REQUIREMENTS.md` (2026-09-23)  
-**Edition:** Research-only extract — legacy production policies removed (2026-10-11)  
-**Scope:** Five identified Partner Eevee/Pikachu MP4s; Carol-centric motion/anatomy interpretation that can inform further character-specific research.
-
-> **Authority boundary:** This is historical research evidence, **not** a current production plan, approved rig contract, final camera setting, or instruction to resume the old Carol v001–v013 workflow. Direct frame observations (`[V1]`) and documented inferences (`[V2]`, `[I]`) remain source-derived. Hypothesized 3D dependence or motion capability is not proof that Tripo supports it. Current Grimo identity/experience authorities and the agreed Tripo-first → Codex-fallback workflow take precedence.
->
-> **Editing policy:** Preserve the historical observations, timestamps, examples, and source provenance. Remove superseded architecture selections, old prototype commands, branch-specific directives, mandatory rig/mesh-owner prescriptions, obsolete camera targets, and old production prioritization. The original source remains available separately for full historical audit.
-
 ---
 
 # 1. Product Goal
 
 The original research evaluated a living-companion experience characterized by the following:
 
-- is unmistakably Carol;
+- is unmistakably the selected character;
 - appears alive before user input;
 - appears to notice the user and the contacted body region;
 - reacts with readable bodily causality;
@@ -318,23 +310,6 @@ The following extracts only the semantic control targets from the original 2026-
 
 # 8. Surface Exposure Inferred from the Motion Examples
 
-## Frequently visible regions (Carol-focused historical analysis)
-
-The study identified the following surfaces as likely to be prominent in front-oriented interaction:
-
-- frontal face and cheek silhouette;
-- visible 3/4 face surfaces during front-to-side turns;
-- eye shapes, eyelid edge, pupil/iris/highlight presentation;
-- visible socket/eyelid transition around the 3/4 eye;
-- nose/mouth region;
-- outer and inner ear surfaces;
-- visible ear-root seating in front/3/4;
-- visible hoof fronts/tops and ground-contact read;
-- dominant fleece silhouette;
-- crown / face-framing fleece;
-- front/side fleece surfaces that carry moon/star identity motifs;
-- visible tail tuft silhouette when it enters frame.
-
 ## Regions that become exposed during motion
 
 The study identified these surfaces as potentially visible during head, limb and body movement:
@@ -347,7 +322,6 @@ The study identified these surfaces as potentially visible during head, limb and
 - rear/inner ear-root surfaces revealed by yaw;
 - limited upper abdomen/belly surface revealed during bow/lean;
 - tail root/tuft attachment region if the fleece parts enough to reveal it;
-- limited rear torso contour when Carol turns away from strict frontal orientation.
 
 ## Regions normally occluded in the studied poses
 
@@ -368,46 +342,6 @@ The study identified the following regions as largely hidden under the examined 
 # 9. Grounded Support and Center-of-Mass Motion Patterns
 
 The five videos consistently show that upper-body expressiveness does not require continuous large locomotion.
-
-## Carol-oriented scenarios examined in the historical research
-
-The following are motion-support hypotheses inferred from the footage, not a current rig prescription:
-
-### A. Neutral / living idle
-
-- four-support or visually equivalent low stable base;
-- very small COM drift;
-- no automatic root bounce;
-- head/ears/face can act while support is almost unchanged.
-
-### B. One-forehoof offer
-
-- one forelimb releases support;
-- opposite forelimb + hind supports remain the stable base;
-- small torso/root counter-shift is allowed;
-- no need for a dramatic full-body rebuild or step.
-
-### C. Cheek lean / pet acceptance
-
-- contacted side receives head commitment first;
-- torso follows later;
-- COM shifts laterally/forward only enough to preserve weight;
-- planted hooves remain visually credible.
-
-### D. Deep bow / withdrawal
-
-- head and chest compress/downshift;
-- support footprint stays readable;
-- rear support may carry more perceived weight;
-- torso/support deformation helps the action read without showing realistic musculature.
-
-### E. Large positive reaction
-
-- bounded root/COM rise or shift;
-- forelimbs may leave support if the pose requires it;
-- the observed sense of weight is supported by a staged settle.
-
----
 
 # 10. Cross-Species Motion Findings
 
@@ -441,7 +375,6 @@ These are inspection scenarios proposed in the source research, **not** a mandat
 
 | ID | Stress state | What it tests |
 |---|---|---|
-| S0 | Neutral front | baseline Carol identity |
 | S1 | Head yaw L/R | 3/4 eye/socket and ear-root integrity |
 | S2 | Head tilt / small roll | cute asymmetry without sticker-face read |
 | S3 | Cheek/contact lean L | local touch, left-side depth, support |
@@ -460,7 +393,6 @@ These are inspection scenarios proposed in the source research, **not** a mandat
 
 For each state ask only:
 
-1. Is Carol still Carol?
 2. Does the cause of the pose read?
 3. Does the body feel supported?
 4. Does the relevant depth/occlusion behave spatially?
@@ -473,7 +405,6 @@ For each state ask only:
 
 The 2026-09-23 source identified the following questions as unresolved; none is treated here as a new production task:
 
-- exact Carol head-yaw limit before the far/near eye becomes unattractive;
 - exact 3/4 socket construction required by the canonical eye shape;
 - how much under-jaw/head→chest surface becomes visible once fleece is present;
 - how much the fleece can hide/support modular underbody seams during motion;
@@ -493,7 +424,6 @@ The 2026-09-23 source identified the following questions as unresolved; none is 
 - `GRIMO_TECHNOLOGY_AGNOSTIC_MINIMUM_REQUIREMENTS.md`
 - `GRIMO_EXPERIENCE_MOTION_BIBLE.md`
 - `GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`
-- `CAROL_GEOMETRY_PARAMETERS.md`
 - `GRIMO_PARTNER_EEVEE_CAMERA_FRAMING_ANALYSIS.md`
 
 ## Motion evidence

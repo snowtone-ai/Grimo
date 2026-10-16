@@ -9,43 +9,9 @@ Partner Eevee 3動画を、外部知識を使わず添付MP4そのものだけ�
 最重要結論は以下。
 
 1. **通常の全身ふれあい構図（Video 01 / 06）は、顔をほぼ水平中央に置き、Neutral時の face center Y は約 `0.40–0.46`。**
-2. **EeveeはNeutral時から耳先を上端で切ることがあり、足元も下端ぎりぎりまで使う。** したがって「Eeveeのscreen occupancyをそのままCarolへコピーする」のは不適切。
 3. **通常全身構図の幅占有率は、Neutralで約 `0.62–0.67`、大きな通常反応で約 `0.75–0.78`。**
 4. **Video 02（ハイタッチ）は別camera cutというより、同一interaction scene内の“近接/前寄り状態”として観察されるが、左・上・下でsilhouetteが継続的にclipしている。** そのため、通常camera基準ではなく `rare / close framing outlier` として扱うべき。
 5. 背景の固定ランドマークを比較すると、採用interaction区間では**camera追従・zoom変化を示す明確な画面変化は確認できない**。キャラクターのroot / pose / forward leanによるscreen-space変化で説明できる範囲が大きい。
-
-### Carol向け最終推奨 screen-space contract
-
-> これは3D FOV / camera distanceの決定ではなく、最終レンダー画面上で守る2D契約。
-
-```text
-target_character_height_ratio      = 0.76
-acceptable_character_height_range  = 0.70–0.86
-
-target_character_width_ratio       = 0.58
-acceptable_character_width_range   = 0.50–0.76
-
-target_face_center_y_ratio          = 0.40
-acceptable_face_center_y_range      = 0.36–0.46
-
-minimum_top_margin_ratio            = 0.08
-minimum_bottom_margin_ratio         = 0.06
-minimum_left_right_margin_ratio     = 0.10 per side
-```
-
-推奨Neutralのpreferred marginはさらに広く、
-
-```text
-preferred_top_margin     ≈ 0.10–0.14
-preferred_bottom_margin  ≈ 0.08–0.12
-preferred_lr_margin      ≈ 0.18–0.22 per side
-```
-
-とする。
-
-CarolはEeveeより横に大きいfleece silhouetteを持ち、顔が身体に対して小さいため、**Eeveeの“画面をほぼ埋める”思想は維持しつつ、Carolではwidth制約を優先して一段引く**のが妥当。
-
----
 
 ## 2. Video Corpus
 
@@ -242,8 +208,6 @@ Video 02では前景 / body cropにより足底とground contactの分離がで�
 
 **Inference:** Partner Eeveeでは「全silhouetteを常にsafe areaへ完全収納」よりも、**face readabilityとlarge on-screen presenceを優先**している。
 
-Carolではこの哲学は再利用できるが、耳・fleece・rear tuftのordinary secondary motionまで切らない設計にしたい場合、Eeveeより余白を増やす必要がある。
-
 ---
 
 ## 8. Interaction Framing
@@ -274,8 +238,6 @@ Video 02代表frame：
 | left margin | 0.000 | 0.000 | 0.000 |
 
 **Fact:** close stateでは常時silhouetteが複数edgeへclipする。
-
-したがってVideo 02は、Carolのdefault camera targetではなく、将来「前へ寄る / 顔を近づける」special interactionの参考として使うのが安全。
 
 ---
 
@@ -323,8 +285,6 @@ Eeveeの実映像上のordinary maximumは概ね：
 width  ≈ 0.78
 height ≈ 0.96–1.00 visible frame use
 ```
-
-ただしCarolへは後者を直接採用しない。
 
 ### Rare outlier
 
@@ -409,8 +369,6 @@ Video 06 left-background ROI:
 
 ### Recommended statistical treatment
 
-Carol default camera策定時は：
-
 ```text
 primary benchmark  = Video 01 + Video 06 ordinary full-body
 secondary benchmark = Video 02 close / forward behavior
@@ -422,183 +380,12 @@ Video 02をprimary medianへ混ぜない。
 
 ---
 
-## 12. Eevee → Carol Translation
-
-### Directly reusable
-
-#### 1. Face vertical region
-
-Eevee Neutral face center Y：
-
-```text
-0.398–0.463
-median ≈ 0.431
-```
-
-Carolも顔を上半分に維持するべき。
-
-Carolは顔が身体全体に対して小さいため、**顔を下げすぎると巨大fleeceに視線が吸われる**。
-
-したがってCarol targetはEevee medianよりわずか上へ寄せる：
-
-```text
-target ≈ 0.40
-```
-
-#### 2. Horizontal face centering
-
-Eevee ordinary face center Xは概ね `0.48–0.54`。
-
-CarolはEeveeのtailのような強い片側mass biasを前提にする必要がないため、defaultはより素直に：
-
-```text
-face_center_x ≈ 0.50
-```
-
-とする。
-
-#### 3. Large on-screen presence
-
-Partner Eeveeは画面を大胆に使う。Carolでも「小さな展示モデル」のように引きすぎるべきではない。
-
-再利用すべきなのは**大きく見せる思想**であり、耳先をclipする数値そのものではない。
-
-#### 4. Fixed-camera readability
-
-Eeveeはcamera orbitなしでも、耳・頭・胴体・前脚のpose変化を正面で読ませている。
-
-Carolのcore Motionも同じく、front fixed viewで意味が読めることをproduction gateにする。
-
----
-
-### Needs Carol-specific adjustment
-
-#### A. Huge fleece silhouette
-
-CarolはEeveeより横方向のmassが大きい。
-
-Eevee ordinary max width ≈ `0.78` をneutral targetとして使うと、Carolのfleece / lateral ear / rear tuft motionの逃げがなくなる。
-
-**Carol neutral widthはEevee neutral median 0.645から約10%縮小し、`0.58`を初期targetとする。**
-
-#### B. Small face relative to body
-
-Carolの顔が小さいため、character全体を大きくしすぎて顔を画面中央より下へ押すより、face Yを `0.40` 周辺へ固定する方がinteraction readabilityを維持しやすい。
-
-#### C. Lateral ears
-
-Eeveeは長耳を上端clipする構図が多い。
-
-Carolの耳は横へ出るため、Carolではtopではなく**left/right safe marginの方が重要**。
-
-#### D. Rear tail / tuft
-
-rear tuftは小さいが独立expressive appendage。
-
-neutral時から左右に最低 `0.10`、preferred `0.18+` の余白を持つことで、ぴょこぴょこmotionがscreen edgeへ衝突しにくくなる。
-
-#### E. Attention-seeking + relaxed
-
-Carolのpersonalityでは、顔をframe中心へ過剰に固定するより、small head tilt / lean / fleece breathingを許容する必要がある。
-
-そのためface Yはpoint targetではなく：
-
-```text
-0.36–0.46
-```
-
-のbandで管理する。
-
----
-
-## 13. Recommended Carol Screen-Space Contract
-
-### Final contract
-
-| Parameter | Recommended | Observed evidence | Calculation / derivation | Uncertainty | Carol rationale |
-|---|---:|---|---|---|---|
-| `target_character_height_ratio` | **0.76** | Eevee ordinary visible height 0.78–1.00、Neutral median 0.976 | Eeveeは上/下clip込みなので約20% safety reduction | medium | fleeceとvertical secondary motionを切らず、portrait/smartphoneでもwidth制約へ対応 |
-| `acceptable_character_height_range` | **0.70–0.86** | ordinary sampled min 0.777、max ≈1.00 | defaultはEeveeより小さく、motion時+/-約0.08–0.10許容 | medium | ordinary motionは全身safe、rare specialは別contract |
-| `target_character_width_ratio` | **0.58** | Eevee Neutral median 0.645 | `0.645 × 0.90 ≈ 0.58` | medium | Carolは横幅が大きいのでneutralを約10%縮小 |
-| `acceptable_character_width_range` | **0.50–0.76** | Eevee ordinary 0.58–0.78、max median 0.762 | upperをEevee ordinary max付近に置く | medium | lateral ears + fleece + rear tuft motionの逃げを残す |
-| `target_face_center_y_ratio` | **0.40** | Eevee Neutral 0.398–0.463、median 0.431 | small faceを補うためmedianより約0.03上 | low–medium | Carolの顔readability優先 |
-| `acceptable_face_center_y_range` | **0.36–0.46** | Eevee Neutral + ordinary max face range | neutral bandを中心に±0.05程度 | medium | head tilt / leanを許容しつつ上半分維持 |
-| `minimum_top_margin_ratio` | **0.08** | Eeveeは0でも運用するが耳clip | observed valueをコピーせずhard safetyへ変換 | medium | Carol fleece/head secondary motionを切らない |
-| `minimum_bottom_margin_ratio` | **0.06** | Eevee ordinaryはほぼ0 | clippingを禁止するCarol向けに追加 | medium | feet/fleece + PWA bottom UIとの衝突回避 |
-| `minimum_left_right_margin_ratio` | **0.10 / side** | Eevee ordinary maxはleft 0.062、right 0.099まで縮む | ordinary maxを包むhard floorとして0.10 | medium | Carol lateral silhouetteの方が厳しいため |
-
-### Preferred neutral target
-
-Carol Neutralでは、単にhard minimumを満たすだけでなく：
-
-```text
-character_width_ratio  ≈ 0.56–0.60
-character_height_ratio ≈ 0.73–0.79
-face_center_x_ratio    ≈ 0.50
-face_center_y_ratio    ≈ 0.40
-```
-
-を初期production targetとする。
-
-### Safe envelope policy
-
-Ordinary interactionの全frameで：
-
-```text
-left   >= 0.10
-right  <= 0.90
-top    >= 0.08
-bottom <= 0.94
-```
-
-を原則とする。
-
-つまりordinary interaction silhouetteは：
-
-```text
-x: 0.10–0.90
-y: 0.08–0.94
-```
-
-のsafe envelope内へ収める。
-
-ただし、emotionally intentionalなspecial close-upは別contractとして許容可能。
-
-### Special / close-up rule
-
-Video 02相当の「前へ寄る」special interactionをCarolへ導入する場合のみ：
-
-- width `0.80–0.90+`
-- height `0.90–1.00`
-- face Y `0.52–0.58`
-- controlled clipping許容
-
-を別camera / root-stateとして持つことは可能。
-
-ただしdefault interaction cameraへ混ぜない。
-
----
-
 ## 14. Unknowns / Cannot Infer
 
 以下はこの3本の2D映像だけからは決定しない。
 
-```text
-3D camera FOV             = 未測定 / 推定不可
-camera distance           = 未測定 / 推定不可
-camera height             = 未測定 / 推定不可
-focal length              = 未測定 / 推定不可
-world-space Eevee size    = 未測定 / 推定不可
-world-space Carol size    = 未測定 / 推定不可
-near/far clipping planes  = 未測定 / 推定不可
-exact camera controller   = 未測定 / 推定不可
-```
-
-また、Carolの最終3D silhouetteが未計測であるため、Carol target ratioは**Eevee実測 + supplied Carol morphology constraintsからのdesign translation**であり、Carolモデル完成後に1回だけ実機calibrationすべき。
-
 推奨calibration procedure：
 
-1. Carol neutral renderをfront fixed viewで出す。
 2. screen-space bbox / face centerを自動計測。
 3. `0.58 width / 0.76 height / faceY 0.40`へ合わせる。
 4. 最大ordinary Motion setをbatch render。
@@ -678,8 +465,6 @@ Unknown:
 
 ## Production Decision Summary
 
-Carolのdefault interaction framingは、**Eeveeのface placementを継承し、Eeveeのedge clippingは継承しない**。
-
 最終採用値：
 
 ```text
@@ -690,5 +475,3 @@ TOP margin min     0.08
 BOTTOM margin min  0.06
 LR margin min      0.10 / side
 ```
-
-これをCarolのfront-facing fixed interaction viewのscreen-space acceptance contractとして使う。

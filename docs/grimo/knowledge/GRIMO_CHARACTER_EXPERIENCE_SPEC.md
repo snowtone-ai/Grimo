@@ -2,7 +2,7 @@
 
 **Status:** Highest durable character-experience authority  
 **Updated:** 2026-09-23  
-**Scope:** Carol / Jill / Pino / Shushu motion, attention, interaction, behavior and Human experience gates
+**Scope:** Jill / Pino / Shushu motion, attention, interaction, behavior and Human experience gates
 
 > Grimo is not a character that merely moves a lot. It is a companion whose
 > attention, intent, bodily causality, emotion, afterglow and agency make it feel
@@ -129,12 +129,6 @@ structures may lag/overshoot/settle only inside character-specific limits.
 
 ## 9. Character signatures
 
-### Carol — attention-seeking + relaxed
-Grounded, reassuring, soft timing; short limbs/heavy hooves; face/eyes/ears carry
-subtle attention; cheek/head contact seeking is central; dream-cloud fleece is a
-dominant identity system with restrained delayed softness; avoid jelly-like
-global fleece motion.
-
 ### Jill — attention-seeking + energetic
 Emotion tends to begin chest/upper body then recruit wings/tail/leaves; rooted,
 heavy tail; delayed leaves/flowers.
@@ -149,21 +143,9 @@ crown/bouquet attachment.
 
 Share runtime semantics, not signature performance.
 
-## 10. Carol Minimum Experience Set
-
-P0 Carol must eventually prove: canonical-faithful neutral identity; 15–30 s
-living idle; left/right-aware head + cheek touch causality; distinct touch
-outcomes; contact-seeking lean; self-initiated invitation + WAIT; mild
-boundary/withdrawal + recovery; one larger emotional phrase; representative
-interruption; history-aware repetition suppression; smartphone runtime
-feasibility.
-
-These are **acceptance scenes, not a mandatory sequential production
-waterfall**.
-
 ## 11. Human Experience Gates
 
-- **Identity Gate:** unmistakably Carol; canonical appeal preserved.
+- **Identity Gate:** unmistakably the selected character; canonical appeal preserved.
 - **Living Idle Gate:** 15–30 s feels alive while allowing genuine quiet.
 - **Touch Causality Gate:** contact location, propagation, and settle are readable.
 - **Agency Gate:** invitation + WAIT read as intention, not loop.

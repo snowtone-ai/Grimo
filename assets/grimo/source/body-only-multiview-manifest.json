@@ -1,45 +1,9 @@
 {
   "schema": "grimo.body-only-multiview-manifest",
   "version": 1,
-  "status": "15/15 selected source PNGs registered; Carol Back intentionally omitted by Human decision (3-view plan)",
+  "status": "12/12 selected source PNGs registered for Jill, Pino and Shushu; technical preflight pending",
   "technical_preflight": "PENDING for all registered images",
   "assets": [
-    {
-      "character": "carol",
-      "role": "front",
-      "image_facing_direction": "forward",
-      "file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_front.png",
-      "original_source_filename": "carol_bodyonly_front.png",
-      "width": 1254,
-      "height": 1254,
-      "sha256": "8b30a279067d55f7e9185b7bba173da05b1e40de30d83e3fea3b4a5726bc6c47",
-      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
-      "technical_tripo_preflight_passed": false
-    },
-    {
-      "character": "carol",
-      "role": "left",
-      "image_facing_direction": "left",
-      "file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_left.png",
-      "original_source_filename": "carol_bodyonly_left.png",
-      "width": 1448,
-      "height": 1086,
-      "sha256": "40c8c09826afc9e7d9b0e128cc63930df7a994ae12a13766084ad7944f9384eb",
-      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
-      "technical_tripo_preflight_passed": false
-    },
-    {
-      "character": "carol",
-      "role": "right",
-      "image_facing_direction": "right",
-      "file": "assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_right.png",
-      "original_source_filename": "carol_bodyonly_right.png",
-      "width": 1448,
-      "height": 1086,
-      "sha256": "bdd05b4dc067e32f720f861d361f525e9c6eaebd82618fea0c78eac194dc8b4b",
-      "scoped_approval_status": "BODY_ONLY_REFERENCE_ACCEPTED",
-      "technical_tripo_preflight_passed": false
-    },
     {
       "character": "jill",
       "role": "front",
@@ -186,14 +150,5 @@
     }
   ],
   "pending": [],
-  "human_decisions": [
-    {
-      "date": "2026-10-11",
-      "character": "carol",
-      "role": "back",
-      "status": "OMITTED_BY_HUMAN_DECISION",
-      "decision": "Do not create or use a Carol Back image. Plan to try Tripo with approved Front, Left, and Right views; 3-view Studio support is UNKNOWN.",
-      "technical_tripo_preflight_passed": false
-    }
-  ]
+  "human_decisions": []
 }

@@ -73,13 +73,7 @@ TaskCompletedEvent
 
 すべての重要データには、画面表示名と別に、変更されないIDを持たせる。
 
-例：
-
-```text
-characterId = "carol"
-itemId      = "food_strawberry_001"
-motionId    = "carol_moon_ball_play_001"
-```
+例：`characterId = "jill"`、`itemId = "food_strawberry_001"`。
 
 画面名を後から変えてもIDは変えない。
 
@@ -93,7 +87,7 @@ itemId = "いちご"
 
 ---
 
-# 3. CharacterDefinition — 4匹の固定情報
+# 3. CharacterDefinition — 3匹の固定情報
 
 1キャラクターにつき1件。
 
@@ -101,7 +95,7 @@ itemId = "いちご"
 
 | 項目 | 意味 |
 |---|---|
-| `characterId` | `carol`, `jill`, `pino`, `shushu` |
+| `characterId` | `jill`, `pino`, `shushu` |
 | `displayName` | 画面表示名 |
 | `personalityProfile` | 性格の説明 |
 | `available` | 現在利用可能か |
@@ -110,10 +104,9 @@ itemId = "いちご"
 | `supportedFoodActions` | 対応できる食べ方 |
 | `supportedTouchZones` | 触れ合い可能な場所 |
 
-## 3.2 初期4件
+## 3.2 初期3件
 
 ```text
-carol  = attention-seeking + relaxed
 jill   = attention-seeking + energetic
 pino   = energetic + independent
 shushu = relaxed + independent
@@ -122,15 +115,6 @@ shushu = relaxed + independent
 ## 3.3 Wear装着位置
 
 キャラクターごとに、自由座標ではなく名前付きの安全な装着位置を持つ。
-
-### Carol
-
-```text
-head_top
-ear_root_left
-ear_root_right
-fleece_front
-```
 
 ### Jill
 
@@ -190,8 +174,8 @@ GIFT
 | `frameStyleKey` | text | レア度枠 |
 | `discoverable` | true/false | Collection対象か |
 | `enabled` | true/false | 現在報酬として出るか |
-| `characterScope` | COMMON / CAROL等 | 使用対象 |
-| `reactionTrackable` | true/false | 4匹反応収集対象か |
+| `reactionTrackable` | true/false | 3匹反応収集対象か |
+| `characterScope` | COMMON / JILL / PINO / SHUSHU | 使用対象 |
 | `createdContentVersion` | text/number | 追加時期 |
 
 ## 4.3 `rarity`
@@ -221,7 +205,7 @@ Foodアイテムだけが持つ追加情報。
 |---|---|
 | `itemId` | ItemDefinitionと同じID |
 | `eatingStyle` | 食べ方 |
-| `preferenceByCharacter` | 4匹それぞれの好き度1〜5 |
+| `preferenceByCharacter` | 3匹それぞれの好き度1〜5 |
 | `foodSizeClass` | Motion調整用の大きさ区分 |
 | `consumeAmount` | 1回で減る数。基本1 |
 
@@ -254,7 +238,6 @@ Foodごとに専用Motionを作らず、この分類を使う。
 ```yaml
 itemId: food_strawberry_001
 preferenceByCharacter:
-  carol: 5
   jill: 4
   pino: 3
   shushu: 5
@@ -367,16 +350,9 @@ Secret Motionは「特別な遊び / 特別な動き」を解放する。
 
 例：
 
-```yaml
-motionId: carol_moon_ball_play_001
-itemId: secret_motion_moon_ball_001
-activationMode: BOTH
-propAssetKey: prop_moon_ball_001
-```
+つまり「小物という物を所有」ではなく、
 
-つまり「ボールという物を所有」ではなく、
-
-> **Moon Ball Playという遊びを所有**
+> **特定の遊びを所有**
 
 する。
 
@@ -493,7 +469,7 @@ Food quantityが0でもこの行は残る。
 
 ---
 
-# 13. ReactionDiscovery — 4匹の反応収集
+# 13. ReactionDiscovery — 3匹の反応収集
 
 1アイテム × 1キャラクターごとに記録する。
 
@@ -510,7 +486,7 @@ NOT_APPLICABLE そのキャラでは使えない
 | 項目 | 意味 |
 |---|---|
 | `itemId` | 対象アイテム |
-| `characterId` | Carol等 |
+| `characterId` | Jill / Pino / Shushu |
 | `status` | UNKNOWN等 |
 | `firstDiscoveredAt` | 初回反応発見日時 |
 | `reactionKey` | 表示用の反応説明 / Motion family参照 |
@@ -910,12 +886,10 @@ reactionApplicableCount
 例：共通Food。
 
 ```text
-4匹中3匹発見
+3匹中3匹発見
 reactionCompletionCount = 3
-reactionApplicableCount = 4
+reactionApplicableCount = 3
 ```
-
-Carol専用Specialなら、
 
 ```text
 reactionCompletionCount = 1
@@ -985,7 +959,7 @@ Foodは「発見済みだが現在0個」もCollectionに表示する。
 
 MVPの望ましい商品動作：
 
-- すでに読み込み済みCarolとの基本触れ合いは可能。
+- すでに読み込み済みキャラクターとの基本触れ合いは可能。
 - 所持済みFood / Wear / Secret Motionは、必要資産が端末にあれば使用可能。
 - タスク登録 / 完了で報酬イベントを一旦端末へ保存できる。
 - 通信復帰後に同じイベントを二重処理しない。
@@ -1040,7 +1014,6 @@ function rewardFor(eventType):
 - ☆
 - サムネイル
 - eatingStyle
-- Carol好き度1〜5
 - Jill好き度1〜5
 - Pino好き度1〜5
 - Shushu好き度1〜5
@@ -1088,7 +1061,7 @@ function rewardFor(eventType):
 2. ☆☆☆はMVPで予約。
 3. Wearは将来複数装着へ拡張可能だが、MVPは1個。
 4. Secret Motionは小物を0個以上持てる形へ拡張可能にする。
-5. ReactionDiscoveryは4匹以外の将来キャラ追加にも対応できる作りが望ましい。
+5. ReactionDiscoveryは3匹以外の将来キャラ追加にも対応できる作りが望ましい。
 6. Environment等を後で追加しても既存ItemDefinitionを壊さない。
 7. 新Foodを追加しても新Motionを必須にしない。
 8. 親密度フィールドを後付け前提にしない。
@@ -1121,18 +1094,6 @@ loot_pack_inventory
 
 # 33. Phase別に必要なデータ
 
-## Phase 1 — Carol 3D Proof
-
-必要：
-
-- CharacterDefinition(Carol)
-- wearAnchors
-- supportedFoodActions
-- supportedTouchZones
-- Motion名 / semantic mapping
-
-本格Inventory等は不要。
-
 ## Phase 2 — App Foundation
 
 **全データ構造を実装する。実アイテムはテスト用だけでよい。**
@@ -1149,17 +1110,13 @@ loot_pack_inventory
 - RewardSettings
 - EquippedWear
 
-## Phase 3 — Carol MVP
-
-Carol用の本番Contentを追加。
-
 ## Phase 4 — Jill / Pino / Shushu
 
 CharacterDefinitionと各キャラ専用資産・反応を追加。
 
 ## Phase 5 — Full Content
 
-4匹のContent量を増やす。
+3匹のContent量を増やす。
 
 ---
 
@@ -1167,7 +1124,7 @@ CharacterDefinitionと各キャラ専用資産・反応を追加。
 
 Grimoの商品データは、次の一文で理解できる。
 
-> **タスク管理の行動からCollection Itemを抽選し、Foodだけ数量を消費し、それ以外は永久解放する。獲得物を4匹へ使うことでReactionDiscoveryを埋める。長期親密度は存在しない。**
+> **タスク管理の行動からCollection Itemを抽選し、Foodだけ数量を消費し、それ以外は永久解放する。獲得物を3匹へ使うことでReactionDiscoveryを埋める。長期親密度は存在しない。**
 
 通常レア度：
 

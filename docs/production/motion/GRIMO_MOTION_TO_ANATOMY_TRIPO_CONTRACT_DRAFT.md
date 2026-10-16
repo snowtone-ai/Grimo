@@ -12,7 +12,7 @@
 
 ## A. Executive Decision / Production Goal
 
-**Canonicalの可愛さを保った身体で、全130 Family / 408 Variant profilesを成立させるための能力契約。** 生成モデルを「完成時の見た目」だけで採用せず、顔・頭・短肢・支持・接点・固有付属部の構造を先に評価する。Tripoを第一制作手段として評価し、不足する制御・局所構造・演技はBlenderで補う。モデル全体の再生成は、Identityと必須能力を同時に保つ修復が困難な場合に限定する。
+**Canonicalの可愛さを保った身体で、全84 Family / 252 Variant profilesを成立させるための能力契約。** 生成モデルを「完成時の見た目」だけで採用せず、顔・頭・短肢・支持・接点・固有付属部の構造を先に評価する。Tripoを第一制作手段として評価し、不足する制御・局所構造・演技はBlenderで補う。モデル全体の再生成は、Identityと必須能力を同時に保つ修復が困難な場合に限定する。
 
 優先順は **Identity/可愛さ → 必須Motionの身体構造 → 生命感/触れ合い/表情 → 変形の安定と自然さ → 制作効率 → モバイル性能**。性能のために顔を小さく、腕を長く、尾を細くする判断はしない。成立しない演技を可能と断定せず、実測とHuman判定に戻す。
 
@@ -27,16 +27,14 @@
 | [Knowledge Index](../../grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_INDEX.md)、[North Star](../../grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md)、[Experience Spec](../../grimo/knowledge/GRIMO_CHARACTER_EXPERIENCE_SPEC.md) | 可愛さ、局所因果、主体性、WAIT、静止、余韻、Human知覚、スマホ。実機はXiaomi 14T Pro、Pixel 7a-classはUNVERIFIED_TARGET |
 | [Production Architecture](../../grimo/knowledge/GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md) §§3–16 | Full-Spatial + View-Weighted Polish、独立制御、連続した身体、方法の自由。別メッシュ/骨数を固定しない |
 | [Product Feature](../../grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md) §§5,10–14,21、[Data Model](../../grimo/knowledge/product/GRIMO_DATA_MODEL_SPEC.md) §§5.4,8–9,21–24 | Food5様式/5好き度、1Wear、所有/activation、Giftと消費の事実境界。身体都合で商品仕様を改訂しない |
-| [Carol FINAL](../../grimo/knowledge/character-production/carol/CAROL_MVP_MOTION_SPEC.md) §§7–25,27.1 | 46 Family/156 profile、7 Signature、locked content、既承認タイミング/trigger/cooldown/activationを参照継承。8 fleece用途、12 face presets、10 ear statesは能力用途であり骨/Shape Keyの個数ではない |
-| [Carol Production State](../carol/CAROL_PRODUCTION_STATE.md)、[visible authority](../../../assets/grimo/source/carol/approved-3d/authority.json) | 現ブランチのNormal候補はHuman review pending。保存済みSkin/Normalを本書で置換・認定しない。旧制作方法を義務化しない |
-| [Phase 0 Evidence Pack](GRIMO_MOTION_EVIDENCE_PACK_DRAFT.md) A–D、[Phase 1 Identity](GRIMO_FOUR_CHARACTER_EXPERIENCE_IDENTITY_DRAFT.md) B–E,H、[Phase 2 Direction](GRIMO_FOUR_CHARACTER_BEHAVIOR_PERFORMANCE_DIRECTION_DRAFT.md) B–F,J | 観察/推論/提案を区別。Carolは安心を預ける、Jillは共有、Pinoは結果を見る、Shushuは選んだ快を保つという演技候補を能力へ翻訳 |
-| [Phase 3 Architecture](GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md) E–H全カード、I–K、M–O | 全130行の正本。408 profileの列挙、Variant差、支持/商品/割り込み、Carol原ID alias、Q01–Q13、未決定事項 |
+| [Phase 0 Evidence Pack](GRIMO_MOTION_EVIDENCE_PACK_DRAFT.md) A–D、[Phase 1 Identity](GRIMO_FOUR_CHARACTER_EXPERIENCE_IDENTITY_DRAFT.md) B–E,H、[Phase 2 Direction](GRIMO_FOUR_CHARACTER_BEHAVIOR_PERFORMANCE_DIRECTION_DRAFT.md) B–F,J | 観察/推論/提案を区別。Jillは共有、Pinoは結果を見る、Shushuは選んだ快を保つという演技候補を能力へ翻訳 |
+| [Phase 3 Architecture](GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md) F–H全カード、I–K、M–O | 全84行の正本。252 profileの列挙、Variant差、支持/商品/割り込み、Q01–Q13、未決定事項 |
 | [Zero-Based Plan](GRIMO_FOUR_CHARACTER_MOTION_ZERO_BASED_PLAN_20261011.md) Phase 4 | 工程の目的。旧Phase 0停止/モデル配分/週量制約は今回の明示Phase 4指示で置換 |
-| [Body-only Register](../../grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md)、[Generation Pose DRAFT](../../grimo/knowledge/character-production/GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md) §§0–8 | 15 selected images registered; Carol Back intentionally omitted by Human decision; image-facing left/right, technical Preflight pending, and Generation/Rest/Neutral separation.古い耳解釈/座位指定/数値試験案を確定値にしない |
+| [Body-only Register](../../grimo/knowledge/character-production/GRIMO_BODY_ONLY_MULTIVIEW_ASSET_REGISTER.md)、[Generation Pose DRAFT](../../grimo/knowledge/character-production/GRIMO_TRIPO_GENERATION_POSE_CONTRACT_DRAFT.md) §§0–8 | 12 retained images registered; image-facing left/right, technical Preflight pending, and Generation/Rest/Neutral separation.古い耳解釈/座位指定/数値試験案を確定値にしない |
 
-直接見たCanonicalは [Carol](../../../assets/grimo/source/carol/carol-Identity-canonical.png)、[Jill](../../../assets/grimo/source/jill/jill-Identity-canonical.png)、[Pino](../../../assets/grimo/source/pino/pino-Identity-canonical.png)、[Shushu](../../../assets/grimo/source/shushu/shushu-Identity-canonical.png)。登録済みBody-only 15枚も直接確認した。これは本書の入力観察であり、Humanの2D選定を取り消す判定や技術Preflight PASSではない。Project Memoryは未取得で、推測した内容をAuthorityへ追加しない。
+直接見たCanonicalは [Jill](../../../assets/grimo/source/jill/jill-Identity-canonical.png)、[Pino](../../../assets/grimo/source/pino/pino-Identity-canonical.png)、[Shushu](../../../assets/grimo/source/shushu/shushu-Identity-canonical.png)。登録済みBody-only 12枚も直接確認した。これは本書の入力観察であり、Humanの2D選定を取り消す判定や技術Preflight PASSではない。Project Memoryは未取得で、推測した内容をAuthorityへ追加しない。
 
-最新明示Human決定とCanonical、承認済み個体外見/体験/FINAL、補助資料、実装履歴の順で扱う。Carolの古いdelay表現はFINAL §23により **body-owned / macro positional lag = zero**。Jill桃色頭部付属はhorn-like、飛行必須化なし。Pino/Shushu座位Game Neutralは未決定。
+最新明示Human決定とCanonical、承認済み個体外見/体験/FINAL、補助資料、実装履歴の順で扱う。Jill桃色頭部付属はhorn-like、飛行必須化なし。Pino/Shushu座位Game Neutralは未決定。
 
 ### B2. 二軸ラベル
 
@@ -49,67 +47,14 @@
 
 ## C. Complete Motion-to-Capability Matrix
 
-### C0. 行の読み方 / 408 profileの扱い
+### C0. 行の読み方 / 252 profileの扱い
 
-各行はPhase 3同IDカードを正本とする。Carolの原FINAL IDはPhase 3 M1で双方向対応する。以下はCatalogの再生成ではなく、造形と可動性への差分契約。
-
-**全130行にQ01,Q02,Q03,Q14,Q15 + 個体Q05/06/07/08を継承適用。** 表のQ欄はPhase 3見出しの重点Qを保持し、必要な追加Qを含む。頭/顔を使わない姿勢調整でも、現在の顔/注意と支持を壊さない基礎能力を免除しない。各QのG/R/M/Tと検査T01–T15はD。従って各行の部位/独立、支持/変形、G、R/M、リスク/検査、Variant差を併せて読むと9項目を追跡できる。
+**全84行にQ01,Q02,Q03,Q14,Q15 + 個体Q06/07/08を継承適用。** 表のQ欄はPhase 3見出しの重点Qを保持し、必要な追加Qを含む。頭/顔を使わない姿勢調整でも、現在の顔/注意と支持を壊さない基礎能力を免除しない。各QのG/R/M/Tと検査T01–T15はD。従って各行の部位/独立、支持/変形、G、R/M、リスク/検査、Variant差を併せて読むと9項目を追跡できる。
+各行はPhase 3同IDカードを正本とする。以下はCatalogの再生成ではなく、造形と可動性への差分契約。
 
 Vは入力カードの列挙数。各行の基本能力は**そのFamilyの全Vへ適用**。「差なし」は身体能力の追加なしで、初回/慣れ/眠気/満足/無応答等をQ01/Q14の選択・強度・hold・解放で表せることを意味する。演技差を消す指示ではない。特定profileだけが部位/到達/支持/propを追加する場合は最終列に列挙する。左右/gesture/履歴/5好き度との合成をVへ乗算しない。
 
 MUST行でも具体profileの演技はDRAFT。OPTIONAL行のためにCanonicalを変更したり専用形状を必須生成しない。全行の実際の可動/達成状態はUNKNOWN。
-
-
-### C1. Carol
-
-| Motion ID / Family | V | 要求 | 重点Q | 部位 / 独立制御 | 変形・接触・支持 | G: 造形条件 | R/M: 後付け能力 | 極限リスク / T検査 | Variant限定の追加要求 |
-|---|---:|---|---|---|---|---|---|---|---|
-| C01 Living Baseline / Intentional Stillness | 4 | MUST | Q01,Q02,Q03 | 眼/瞼・呼吸を耳/蹄から分離 | 蹄接地、局所呼吸 | 顔面容積/下胴/蹄実面 | 独立blink/呼吸/quiet hold | 全身scale・眼潰れ;T01,T03,T05 | 眠気はhalf-lid、開眼/関心はgaze保持。新構造なし |
-| C02 Soft Check-in | 3 | MUST | Q01,Q02,Q10 | 視線→頭→近耳を個別 | 胴/蹄固定 | 顔/首/耳根の連続 | gaze/head/耳mask | 眼と頭同時固定・首露出;T01,T02 | 別対象→相手でgaze切替。差なし |
-| C03 Want-affection Prelude | 3 | MUST | Q01,Q02,Q05 | 頬/低頭/開口を選択 | 蹄内で前傾停止 | 頬面と顔周辺羊毛の余地 | 提示target/開口/WAIT | 顔とtarget遮蔽;T02,T05,T14 | 羊毛開口profileだけopening制御 |
-| C04 Fleece Nestle / Self-comfort | 3 | MUST | Q01,Q02,Q05 | 頭を胴羊毛から独立 | 顔近傍局所圧縮、蹄固定 | 顔受けの余地/奥面 | nestle補正/顔開口 | 首穴・顎羊毛誤所有;T02,T05 | 片側名残は同側corrective |
-| C05 Quiet Content Hold | 3 | MUST | Q01,Q02,Q10 | 瞼/口の快と視線解放を分離 | 現在lean/蹄支持保持 | 表情面と首接続 | affect hold/局所ACK | フリーズ・一斉Neutral;T01,T14 | 触れた側だけ頭/局所形状残留 |
-| C06 Gentle Curiosity Inspect | 3 | MUST | Q01,Q02,Q03 | 視線/頭/一耳/小胴を分離 | 近い対象時だけ支持内shift | 首/下胴の可動余地 | 注意target/支持補正 | 羊毛に眼埋没・前方転倒;T02,T03 | 近い対象はCOM、驚きは眼/口評価追加 |
-| C07 Grounded Hoof Adjustment | 3 | MUST | Q03,Q04,Q05 | 一蹄と残る支持を分離 | 移荷重→置く→局所下羊毛回復 | 四肢根/3分割蹄/足底 | 接地lock/支持phase | 蹄滑り・下羊毛貫通;T03,T04,T05 | 前側/片側/lean戻りの支持集合を切替 |
-| C08 Forehead / Head-top Preferred Pet | 5 | MUST | Q01,Q02,Q05 | 額/頭・瞼・近耳 | 低頭、蹄残す | 額軟部/首/開口 | 額圧縮/低頭corrective | 眼圧壊・額羊毛遮蔽;T01,T02,T05 | 心地よい低頭が最深、眠い受容はblink独立 |
-| C09 Cheek Preferred Lean-in | 5 | MUST | Q01,Q02,Q03,Q05 | 頬L/R・頭・小胴 | 同側contact、非接触側/蹄保持 | 頬厚/首/胴の接続 | 頬圧縮/接点追従/COM | 首折れ・両側lean加算;T02,T03,T05 | 浅い胴commitのみ胴参加、頬だけ版は顔で完結 |
-| C10 Front-fleece Pet / Soft Compression | 4 | MUST | Q01,Q05,Q10 | 実触点/隣接羊毛と顔 | 前面局所圧縮、macro固定 | 立体羊毛面/装備と皮膚の区別 | 局所mask/回復/anchor | shell滑り・Wear浮き;T05,T10 | 面を移る受けはmask経路更新 |
-| C11 Ear-root Touch Response | 4 | MUST | Q01,Q02,Q05 | 耳根L/R/同側耳・顔 | 根元の小受け、対耳/蹄固定 | 耳厚/根元接続 | 耳独立/根補正/保護 | 耳穴・耳先過大振り;T02,T05 | 過密前の保護は耳方向/顔hint |
-| C12 Tap / Poke Local Notice | 4 | MUST | Q01,Q02,Q05 | zoneごとの局所と顔 | 当たった面のみACK | semantic面/硬軟境界 | zone mask/評価/解放 | rootパルス・偽触点;T05,T14 | 保護版は柔らかいnoticeと異なるface、差なし |
-| C13 Continuous Stroke Comfort Build | 4 | MUST | Q01,Q02,Q03,Q05 | 経路面/顔/頭/小胴 | 深まりを止め支持hold | 連続した触面/首余地 | 経路mask/COM/途中release | 経路全身追従・足滑り;T03,T05,T14 | 十分holdは胴commit上限内、満足後は局所のみ |
-| C14 Back-and-forth Pet / Melt-with-Saturation | 4 | MUST | Q01,Q02,Q05 | 局所反転/表情/一度の頭寄り | 蹄固定、押圧回復 | 往復可能な実面 | 反転ACK/飽和/hold | 雲周期揺れ・左右押圧累積;T05,T14 | 過密hintのみ境界face。差なし |
-| C15 Side / Back Fleece Neutral Acknowledge | 3 | MUST | Q01,Q02,Q05 | 側/露出背面と近耳/頭 | 局所面のみ受け、全身旋回不要 | 側背羊毛の実体/所属 | 露出zone/同側glance | 背面架空hit・カメラ依存shell;T05,T15 | 露出背面版は背面Gが必要 |
-| C16 Sensitive Hoof / Rear-lower Response | 3 | MUST | Q01,Q03,Q04 | 触れた蹄/後下部と顔 | 残る蹄へ移荷重/微退避 | 支持面/後下部境界 | sensitive/offer文脈mask | 足浮き・C40誤拒否;T03,T04,T14 | 軽保護/反復hintは支持移行追加 |
-| C17 Boundary Hint | 4 | MUST | Q01,Q02 | 同側瞼/口/耳・小頭 | 支持停止、触面に余地 | 表情/耳根/首 | hint face/頭offset | 敵対顔・目縮小;T01,T02 | 敏感面は元zone引継ぎ、休息は眠気共存 |
-| C18 Clear Refusal | 3 | MUST | Q01,Q02,Q03,Q04 | 頭と前蹄保護を分離 | 小back/down、支持保存 | 首/前肢根/低い胴 | withdraw/蹄protect/安全遷移 | 後退で足滑り・頭羊毛貫通;T02,T03,T04 | 敏感部を守るprofileだけ前蹄制御 |
-| C19 Withdrawal + Mild Residue | 3 | MUST | Q01,Q02,Q03,Q05 | 頭/胴turn/羊毛開口/一耳 | 支持内withdraw、局所opening縮小 | 顔開口/首/側外面 | 部分turn/nestle補正 | 顔消失・羊毛が盾として滑る;T02,T05 | 浅いnestleはopening、部分turnは側外面 |
-| C20 Recovery / Re-engagement | 3 | MUST | Q01,Q02,Q03,Q05 | 顔/頭/耳と支持回復 | 圧縮解放→楽な支持 | 回復先の同一身体面 | 強度別recover/現在face保持 | happy snap・押圧残留;T05,T14 | 新touch合流のみ新zone局所ACK |
-| C21 Affection Invitation + WAIT | 4 | MUST | Q01,Q02,Q03,Q05 | 頬L/R/額/開口・目/耳 | 自重支持で提示、WAIT | 各提示実面/顔とtarget余地 | target/hold/低頭corrective | target隠れ・指を支柱化;T02,T03,T05 | 4profile=頬L/頬R/低額/opening、各面を検査 |
-| C22 Accepted Invitation ACK | 3 | MUST | Q01,Q02,Q05 | 提示面ACKとface payoff | 接点保持、蹄安定 | 実offer面/局所厚 | fast局所/快face/hold | 接触前success・開口閉鎖;T05,T14 | 撫で深まりだけ頭commit追加 |
-| C23 Second-turn Offer | 3 | MUST | Q01,Q02,Q03,Q05 | 旧面と新面の提示を分離 | 旧圧縮を解き支持内side移行 | 反対頬/額/opening | 次target/片側補正 | 両頬同時過圧・顔隠れ;T02,T05,T14 | 反対頬/額/openingの3到達を個別 |
-| C24 Social Completion / Shared Warmth | 3 | MUST | Q01,Q02,Q03 | 提示姿勢と期待faceを分離 | 荷重順に戻し温かさ保持 | 支持/首/表情面 | offer close/afterglow | 無応答で罰顔・強制Neutral;T03,T14 | 二turnは最終側から戻し、無応答success偽装なし |
-| C25 Food Notice / Orient / Presentation Wait | 3 | MUST | Q01,Q02,Q09 | Food視線/頭/口期待/耳 | 届く位置で待機、蹄固定 | 口前余地/首接続 | food target/anticipation | 羊毛/容器が顔を隠す;T01,T09 | 眠気noticeは目覚めと受領準備を分離 |
-| C26 Food Receive / Consume Style | 5 | MUST | Q01,Q02,Q03,Q04,Q09 | 口/頭/必要前蹄・非口元顔 | bite接点、残量、brace/外部支え | 小口縁/必要内部/短肢実面 | 5style/保持mask/口とACK分離 | 平面口・大物支持不成立;T04,T09,T14 | 5様式の追加能力はL1の全5行を必須適用 |
-| C27 Preference 1 | 3 | MUST | Q01,Q02,Q09 | 口を受領させず顔/頭/耳 | 未消費、蹄固定 | 口閉状態/首可動 | 拒否face/食品撤去settle | 食べたふり・吐出;T01,T09 | 新/既知/再提示は強度差、差なし |
-| C28 Preference 2 | 3 | MUST | Q01,Q02,Q09 | 食後口処理と微妙face | 消費済み支持hold | 口元/瞼変形面 | taste2/口処理後評価 | 笑顔morphと咀嚼競合;T01,T09,T14 | 再評価は小口処理追加、口大scale不要 |
-| C29 Preference 3 | 3 | MUST | Q01,Q02,Q09 | 口/瞼/視線解放 | 食後普通満足、接地 | Canonical表情面 | taste3/眠気/次target | 無表情停止・眼潰れ;T01,T09 | 眠い充足はhalf-lid、差なし |
-| C30 Preference 4 | 4 | MUST | Q01,Q02,Q03,Q05,Q09 | 顔/頭/一耳/小胴羊毛 | 好きの支持hold | 首/胴/局所羊毛 | taste4/小COM/shape回復 | shell lag・足浮き;T03,T05 | 小預けだけ胴、長め満足はhold |
-| C31 Preference 5 | 4 | MUST | Q01,Q02,Q03,Q05,Q09 | 顔/頭/胴/選択耳 | 食後peak接地、羊毛macro追従 | 表情/首/胴接続 | taste5/hero補正/afterglow | 笑顔眼崩れ・全身膨張;T01,T03,T05 | 小胴喜びだけ胴参加、深い余韻はhold |
-| C32 Warm Content Afterglow | 4 | MUST | Q01,Q02,Q03,Q05,Q09 | body settleと顔/目の余韻 | 現在支持と頬方向保持 | 局所面/首継続性 | 情動保持/shape解放 | 口元/押圧同時reset;T05,T14 | Food満足はconsume状態Q09も継承 |
-| C33 Neutral Return / Active-pose Settle | 3 | MUST | Q01,Q02,Q03,Q05,Q10 | 親行為部位/感情を別解放 | 支持を伴うsettle | 首/支持関節/羊毛面 | 現在pose blend/回復 | 全身snap・足滑り;T03,T14 | 支持版だけCOM/蹄、頭版は下半身固定 |
-| C34 Session Entry / Return / Background Resume | 4 | MUST | Q01,Q02,Q03,Q11 | 顔/現在支持/商品prop | 最初の可視poseで成立 | 全外面/安定接点 | resume reconciliation/ACK | 古いWAIT・prop二重表示;T11,T14 | 背景/余韻復帰は現在商品状態とaffect保持 |
-| C35 Dream-like Long Moving Hold | 3 | MUST | Q01,Q02,Q03,Q05 | 瞼/小呼吸/一耳・頭 | 低い休息、蹄安定 | 首低頭/顔開口 | drowsy hold/局所wake | 眠気で顔消失・低頭首穴;T01,T02,T05 | 深いholdは低頭corrective、wakeはACK重畳 |
-| C36 Bounded Dreamy Self-expression Phrase | 3 | MUST | Q01,Q02,Q03,Q05 | 頭/耳/小胴の二拍 | 支持内arc、羊毛位置直追従 | 首/胴/耳根 | 私的phrase/途中redirect | 周期ダンス・足浮き;T03,T05,T14 | 頭と小胴版だけ胴、途中相手へはgaze切替 |
-| C37 Moon / Star Motif Recognition | 4 | MUST | Q01,Q02,Q05,Q09,Q10 | 月/星anchorと近接面/顔 | モチーフはowner、蹄固定 | 装飾取付面/羊毛体積 | named anchors/物と身体ACK分離 | モチーフ浮遊・表情遮蔽;T05,T10 | 特別Food後accentは入力を偽装せずQ09状態保持 |
-| C38 Deeper Cheek Press | 3 | MUST | Q01,Q02,Q03,Q05 | 同側頬/頭/小胴 | 深いleanを自重で停止 | 頬厚/首/局所羊毛余地 | 深圧縮corrective/COM/回復 | 首折れ・眼押壊・蹄浮き;T02,T03,T05 | 支持を足す受容だけ胴参加、hold深さ固定 |
-| C39 Face-in-Fleece Peek | 3 | MUST | Q01,Q02,Q05 | 頭/顔先行peek/耳/開口 | 局所opening、胴蹄macro固定 | 顔を収める空間/内側面 | peek/開口corrective/可視clamp | 顔消失・顎羊毛連れ;T02,T05 | 片側peekだけ非対称、招待版はQ14 target |
-| C40 Rare Low-Forehoof Reciprocal Ritual / High-five | 2 | MUST | Q01,Q03,Q04,Q05 | 片前蹄/残る3蹄/顔/耳 | 移荷重→低蹄WAIT→戻す | 短肢根/3分割蹄面/下羊毛隙間 | 蹄独立/支持lock/target ACK | 足浮き・羊毛に蹄隠れ;T03,T04,T05 | 長め温かさはhold差。通常軽交流の能力共有、rare条件はEで保護 |
-| C41 Delayed Affection Look-back | 3 | MUST | Q01,Q02 | 視線のみ/必要小頭/一耳 | 胴蹄固定 | 眼と首の独立可動面 | look-back/新入力cancel | 首回し過大・常時催促;T01,T02,T14 | 目だけ版はhead固定、小頭版のみhead |
-| C42 Medium Hero Delight | 3 | MUST | Q01,Q02,Q03,Q05 | 嬉しい顔/頭/小胴/選択耳 | 接地sigh、局所/任意broad shape | 顔/首/胴羊毛連続 | hero corrective/shape echo/回復 | global scale・浮遊・眼崩れ;T01,T03,T05 | 小胴sighのみ胴、broad shapeはOPTIONAL実装 |
-| C43 Secret | 3 | MUST | Q01,Q02,Q03,Q05,Q12 | 目/頭/頬or額とballを分離 | nudge/軌跡/支持/WAIT | 頬額の実接点/羊毛余地 | prop接触/軌跡/安全exit | ball浮き・顔遮蔽・口把持捏造;T02,T12 | 額/頬接点を別試験、二turnは接点再取得 |
-| C44 Secret | 3 | MUST | Q01,Q02,Q05,Q12 | 目/頭/左右前pocketとstar | owner面のreveal、蹄固定 | front局所体積/星の出入口余地 | L/R/front marker/可視target | 星貫通・羊毛全体追従;T05,T12 | 3profileは3pocketを個別検査 |
-| C45 Secret | 3 | MUST | Q01,Q02,Q05,Q12 | 頭/顔/開口/同側ACK | 局所隠れ/自重WAIT | 顔収容空間/触れる開口面 | hide/peek/side swap/exit | 無反応消失・shell滑り;T05,T12,T14 | side swapだけ左右corrective間遷移 |
-| C46 Gift | 3 | MUST | Q01,Q02,Q03,Q04,Q05,Q13 | 顔/羊毛reveal/頬push/低蹄 | Gift提示/保持→transfer、支持 | reveal余地/頬面/低蹄面 | 3提示接点/解放marker/ACK mask | 保持偽装・羊毛/蹄貫通;T04,T13 | 羊毛reveal/頬push/rare蹄assistを別接点として検査 |
 
 ### C2. Jill
 
@@ -222,59 +167,39 @@ Q01–Q13はPhase 3 Nを保持し詳細化。Q14（合成/解放）とQ15（空�
 | Q02 Head / neck — MUST | 頭/頬/胴の意味境界、首の連続体積、傾ける内側余地。首を長く露出して解決しない | head yaw/pitch/roll/低頭/leanと胴の独立、首/頬corrective（SHOULD）。耳等は各ownerに従属 | 視線先行or手元先行の選択、頬/額提示、現在姿勢からの方向変更 | T02: 頭左右/低頭/傾き/深頬→release/side変更を段階的に試す。可動終端はIdentityと接点/首境界から決める。角度UNKNOWN |
 | Q03 Support / weight — MUST | 足底/蹄の厚み、短肢/腹/下胴の区別、支持し得る接地面、主要体積と尾根の一貫性 | 支持と操作肢のmask、接地lock/IK候補、体幹/骨盤の小shift、荷重corrective。見かけの重心と支持の整合を示し物理solver成功を仮定しない | 移荷重→肢解放→再接地、安全なmoving hold、active-pose settle | T03: 支持面/足接点を表示し片肢/両前肢操作/低休息/戻し。残る支持内で重さが読め、指や尾を未承認支柱にしない。動的安定はUNKNOWN |
 | Q04 Forelimbs / contact — MUST | 短前肢の自然な根、腹と自由区間の境界、実蹄/paw面。指/手掌の新設や伸長なし | 前肢L/R独立、接面方向/局所受け、対側保持/支持の保存。必要なcorrective（SHOULD） | 低High-five、self-care、bounded brace、保持/解放、届く面を選ぶ | T04: 左右単独提示/低target/両保持/自己面到達/回収。短さを維持して顔と接面が見えるか。腕腹貫通/足浮きはFAIL |
-| Q05 Carol fleece — MUST、broad residualはOPTIONAL | 頭-owned/胴-owned/尾-owned体積、顔開口/内側面、四肢と耳根の余地。雲球列や独立浮遊shellを身体の代りにしない | owner weights/接続補正、FINALの8用途（E）、局所圧縮/開口とmacro transformを分離。head/torso位置追従zero lag | 現触点/隣接小shape/任意hero shape/解放。macro遅れを使わずSHOULDの小authored回復 | T05: 首/頬/peek/低蹄/深lean/装備を owner表示で観察。押圧を解いた後に位置滑り/浮雲/全体scaleがない |
 | Q06 Jill anatomy — MUST、候補翼peekはOPTIONAL | 胸/腕/翼根L/R/葉根/horn/太尾の所有と自由区間。翼膜の実面/厚み感、葉の立体輪郭、Canonical marking | 胸と前肢/翼の独立、左右翼fold/open、膜/root補正、葉の局所follow/stop、連続tail root曲げ。hornは硬い頭所属、耳bone化なし | 胸先行→選択翼葉尾、翼を動かさないhold、低paw、根元ACK | T06: 片/両翼開閉×胸/paw/頭/物/装備。根潰れ/膜裏面消失/葉が顔を塞ぐ/尾に体重代行させる状態を検出。飛行は未要求 |
 | Q07 Pino anatomy — MUST、尾inspection/rare winkはOPTIONAL | 丸頭胴/内寄り短腕/短脚/単一厚尾/両眼。尾自由区間と根元、paw面/足裏 | 独立短paw/腹corrective、尾rootから連続bend/follow、両眼基礎制御。wink自体は候補で、両眼生成はMUST | 片側試す→見る→止める、自己/他者touch区別、重量の尾settle | T07: 手元可視性/押す戻す/腹腕干渉/太尾連続性、両眼復帰。尾の把持/前巻き/balloonを前提にしない |
 | Q08 Shushu anatomy — MUST、bouquet SecretはOPTIONAL | 大頭/丸胴、短腕/腹/腿/脚/足裏の区別、小耳根。花冠/花束は独立所有、身体に焼き込まない | 荷重局所plush/回復、短paw独立/保持、脚腹corrective/低姿勢、小耳独立、冠head anchor/束holding anchor | 自分の快の居方→顔歓迎→前肢休む。花束なしの全core、保持競合を先に解く | T08: 低休息/座る能力/片肢/両保持/冠/花束on-off。腹脚を一塊に潰さず短さを保つ。座位Neutralは承認しない |
 | Q09 Food / mouth — MUST | 口縁/閉口/開口の立体連続、必要な内部の受け、口前と短肢保持の余地。舌は必要な小露出の追加余地を評価、長舌必須なし | 口開閉/小咀嚼相当/小舐め/飲む接点、保持mask/口marker/残量・safe node、非口元face分離。局所内部/短舌はBlender追加候補 | L1の5style、好き度1未消費/2–5食後、残量/接点/consume事実を別扱い | T09: 一口/複数口/舐め/飲む/大物×顔ACK/取消。接点・保持・残量が見え、小口で成立。口平面/食物瞬間消失だけはFAIL |
-| Q10 Wear / motifs — MUST | owner表面/厚みと取付余地。独立アクセサリを身体へ融合しない | head/耳根/胸等のnamed anchor、変形面追従候補、局所corrective（SHOULD）。surface所属を保つ | 1Wear、交換/解除、物のACKと皮膚ACK区別、Carol月星再装着 | T10: neutral/lean/peek/翼/paw/Food/Giftで各anchor。顔/主要輪郭/接面を守りずれ/浮き/二重物がない |
+| Q10 Wear / motifs — MUST | owner表面/厚みと取付余地。独立アクセサリを身体へ融合しない | head/耳根/胸等のnamed anchor、変形面追従候補、局所corrective（SHOULD）。surface所属を保つ | 1Wear、交換/解除、物のACKと皮膚ACK区別 | T10: neutral/lean/peek/翼/paw/Food/Giftで各anchor。顔/主要輪郭/接面を守りずれ/浮き/二重物がない |
 | Q11 Session state — MUST | 初可視姿勢で隠れない実接点、露出外面の一貫性 | 現在pose/face/propを復元できるchannel、無効touchを解くrestoration | Entry/背景復帰、古WAIT解放、consume/transfer事実を姿勢から推測せず照合 | T11: 食前/食後/提示/受理/眠気/余韻で離脱復帰。古接点や消費/贈与の偽完了なし |
-| Q12 Secret targets — Carol MUST、他3候補OPTIONAL | Carol顔/頬額/pocket空間。候補他3は通常身体を共用、専用変形比率を生成必須にしない | body-owned target/prop marker、setup/WAIT/主turn/side/exitの分離、可視clamp | owned/activation/cooldown/ordinary touch exit、候補の採否前は実装しない | T12: C43–45各接点/2turn/外れ/無応答/終了、J27/P29/S28候補の極端pose。顔/target/支持を同時に見せられない候補は再設計へ |
-| Q13 Gift / holding — MUST | bounded Giftの支持可能面/短肢余地、Carol reveal/頬push/蹄面。花束等の既存保持面も関連検査 | holding/assist/transfer marker、保持と非保持face/ACK分離。安全な置き場は候補で実座標UNKNOWN | 本人意図→提示→WAIT→受理/transfer→余韻、未受理保存仕様はRへ。通常保持への再利用はGiftを発生させる意味ではない | T13: 各提示profile×他保持物/Touch/離脱。手と物の関係、解放/受理を可視化。二重grant/消失で衝突解決なし |
+| Q12 Secret targets — 3候補OPTIONAL | 3候補は通常身体を共用、専用変形比率を生成必須にしない | body-owned target/prop marker、setup/WAIT/主turn/side/exitの分離、可視clamp | owned/activation/cooldown/ordinary touch exit、候補の採否前は実装しない | T12: J27/P29/S28候補の極端pose。顔/target/支持を同時に見せられない候補は再設計へ |
+| Q13 Gift / holding — MUST | bounded Giftの支持可能面/短肢余地。花束等の既存保持面も関連検査 | holding/assist/transfer marker、保持と非保持face/ACK分離。安全な置き場は候補で実座標UNKNOWN | 本人意図→提示→WAIT→受理/transfer→余韻、未受理保存仕様はRへ。通常保持への再利用はGiftを発生させる意味ではない | T13: 各提示profile×他保持物/Touch/離脱。手と物の関係、解放/受理を可視化。二重grant/消失で衝突解決なし |
 | Q14 Channel composition / continuity — MUST（追加） | 押す面/口/保持面/支持面が区別可能、共用面の競合が分かる形 | gaze/face/head/局所/保持/支持のmask、骨とmorph組合せの補正、競合時の制約。driver/constraint等のexport非対応依存を残さない設計候補 | ACK/主行為/余韻を独立、今poseからblend、release kill/reset、safe node、反復/眠気強度。正確な実装方式は未決定 | T14: C0共通の反対側touch/同時受理touch/release/peak中touch/bite中ACK/WAIT別zone/無応答。局所が読め、支持/保持/口を壊さない |
-| Q15 Spatial / GLB / smartphone — MUST（追加） | Front Hero/3⁄4/側/後/低姿勢でcoherent。可動面の厚み、隠れ領域の機能を持つ | export可能なskinning/morph/attachment/animation候補、座標/scale/axis整理、boundsと表面所有 | runtime組合せ/anchor再評価、読みやすい演技量、4匹の個別性能調整 | T15: 同じassetのGLB再読込→PlayCanvas→縦画面/Xiaomi 14T Proで顔/ACK/接面/影/負荷。Pixel 7a-classは別の未検証target |
+| Q15 Spatial / GLB / smartphone — MUST（追加） | Front Hero/3⁄4/側/後/低姿勢でcoherent。可動面の厚み、隠れ領域の機能を持つ | export可能なskinning/morph/attachment/animation候補、座標/scale/axis整理、boundsと表面所有 | runtime組合せ/anchor再評価、読みやすい演技量、3匹の個別性能調整 | T15: 同じassetのGLB再読込→PlayCanvas→縦画面/Xiaomi 14T Proで顔/ACK/接面/影/負荷。Pixel 7a-classは別の未検証target |
 
 T01–T15は「検査条件のID」であり、今回実施した3D試験ではない。T01–T13を後続でまず段階的にpose/変形評価し、T14で合成、T15で受渡し/実機を評価する。Rest単体のPASSで必要動作をPASSにしない。外見と身体が正常な生成結果にRigがない段階ではR/Mを欠陥と誤分類しない。
 
 ### D2. Capability → Family逆引き
 
-全Familyの基礎Q01,Q02,Q03,Q14,Q15、Carol全46のQ05、Jill全27のQ06、Pino全29のQ07、Shushu全28のQ08が先に適用される。以下はC表の追加/重点要求。Q13を通常保持に用いる行では、保持独立能力を再利用しGiftイベントを付与しない。
+全Familyの基礎Q01,Q02,Q03,Q14,Q15、Jill全27のQ06、Pino全29のQ07、Shushu全28のQ08が先に適用される。以下はC表の追加/重点要求。Q13を通常保持に用いる行では、保持独立能力を再利用しGiftイベントを付与しない。
 
 | Q | 重点/追加Family |
 |---|---|
-| Q01 | C01,C02,C03,C04,C05,C06,C08,C09,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C37,C38,C39,C40,C41,C42,C43,C44,C45,C46,J01,J02,J03,J05,J06,J07,J08,J09,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26,J27,P01,P02,P03,P04,P06,P07,P08,P09,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P21,P22,P23,P24,P25,P26,P27,P28,P29,S01,S02,S03,S04,S05,S06,S07,S08,S09,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,S22,S23,S24,S25,S26,S27,S28 |
-| Q02 | C01,C02,C03,C04,C05,C06,C08,C09,C11,C12,C13,C14,C15,C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C37,C38,C39,C41,C42,C43,C44,C45,C46,J01,J02,J05,J06,J07,J10,J11,J13,J15,J19,J20,J22,P01,P02,P06,P07,P08,P09,P11,P12,P13,P15,P17,P20,P21,P22,P24,P28,S01,S03,S05,S06,S07,S08,S10,S11,S12,S14,S16,S17,S20,S21,S23,S27 |
-| Q03 | C01,C06,C07,C09,C13,C16,C18,C19,C20,C21,C23,C24,C26,C30,C31,C32,C33,C34,C35,C36,C38,C40,C42,C43,C46,J01,J03,J04,J05,J07,J08,J09,J10,J12,J13,J14,J15,J16,J17,J18,J20,J21,J23,J24,J25,J26,J27,P01,P03,P04,P05,P06,P09,P10,P12,P14,P16,P18,P19,P20,P22,P23,P25,P26,P27,P29,S01,S02,S04,S05,S08,S09,S11,S13,S14,S15,S18,S19,S21,S22,S24,S25,S26,S28 |
-| Q04 | C07,C16,C18,C26,C40,C46,J03,J04,J08,J12,J13,J14,J16,J17,J20,J25,J27,P03,P05,P08,P09,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P21,P22,P23,P24,P25,P26,P27,P29,S02,S04,S05,S09,S10,S11,S13,S14,S15,S17,S18,S19,S20,S21,S22,S24,S25,S26,S28 |
-| Q05 | C03,C04,C07,C08,C09,C10,C11,C12,C13,C14,C15,C19,C20,C21,C22,C23,C30,C31,C32,C33,C35,C36,C37,C38,C39,C40,C42,C43,C44,C45,C46 |
+| Q01 | J01,J02,J03,J05,J06,J07,J08,J09,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26,J27,P01,P02,P03,P04,P06,P07,P08,P09,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P21,P22,P23,P24,P25,P26,P27,P28,P29,S01,S02,S03,S04,S05,S06,S07,S08,S09,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,S22,S23,S24,S25,S26,S27,S28 |
+| Q02 | J01,J02,J05,J06,J07,J10,J11,J13,J15,J19,J20,J22,P01,P02,P06,P07,P08,P09,P11,P12,P13,P15,P17,P20,P21,P22,P24,P28,S01,S03,S05,S06,S07,S08,S10,S11,S12,S14,S16,S17,S20,S21,S23,S27 |
+| Q03 | J01,J03,J04,J05,J07,J08,J09,J10,J12,J13,J14,J15,J16,J17,J18,J20,J21,J23,J24,J25,J26,J27,P01,P03,P04,P05,P06,P09,P10,P12,P14,P16,P18,P19,P20,P22,P23,P25,P26,P27,P29,S01,S02,S04,S05,S08,S09,S11,S13,S14,S15,S18,S19,S21,S22,S24,S25,S26,S28 |
+| Q04 | J03,J04,J08,J12,J13,J14,J16,J17,J20,J25,J27,P03,P05,P08,P09,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P21,P22,P23,P24,P25,P26,P27,P29,S02,S04,S05,S09,S10,S11,S13,S14,S15,S17,S18,S19,S20,S21,S22,S24,S25,S26,S28 |
 | Q06 | J01,J02,J03,J04,J05,J06,J07,J08,J09,J10,J11,J12,J13,J14,J15,J16,J17,J18,J21,J22,J23,J24,J25,J26,J27 |
 | Q07 | P01,P02,P03,P04,P05,P06,P07,P08,P09,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20,P23,P24,P25,P26,P27,P28,P29 |
 | Q08 | S01,S02,S03,S04,S05,S06,S07,S08,S09,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S21,S22,S23,S24,S25,S26,S27,S28 |
-| Q09 | C25,C26,C27,C28,C29,C30,C31,C32,C37,J19,J20,J21,P21,P22,P23,S20,S21,S22 |
-| Q10 | C02,C05,C10,C33,C37,J22,P24,S07,S23 |
-| Q11 | C34,J24,P26,S25 |
-| Q12 | C43,C44,C45,J27,P29,S28 |
-| Q13 | C46,J25,P27,S02,S04,S09,S18,S26 |
-| Q14 | 全130（継承） |
-| Q15 | 全130（継承） |
-
-## E. Carol Anatomy / Rig Contract
-
-**MUST / G:** 羊らしい低い四足支持、小顔とCanonical眼、耳厚/根元、重い短蹄、自然な後部の絞りを保つ。蹄の3分割は見える形状の分節であり「3本の独立指」や新しい掌ではない。後足の実底面と前後脚根を区別する。Body-only Frontで隠れる後方支持を、正面の蹄だけで代用しない。
-
-**所有:** 顔/顎/耳はhead、頭周囲の羊毛はhead-owned、下顔のcollarはneck/torsoに属し**jaw/chinには羊毛を新設しない**（STATEのHuman semantic）。胴羊毛はtorso-owned。見える尾は独立した根付きfluffy tuftで、胴の雲に溶かさずtail-owned。首を曲げる時は隣接owner境界で連続形を補正する。**macro positional lag = zero**を頭/胴/尾の位置所有に適用し、tail自身の独立可動と羊毛shell遅れを混同しない。既存3D資産の現状態から今回の新設計適合を推定しない。
-
-| 能力 / 優先 | Gで必要 / Rで追加 / Mで表現 | 実物限界 / 検査 |
-|---|---|---|
-| 頬L/R / 深頬 — MUST | 頬自体の厚みと顔羊毛境界、Rで局所頬corrective/首/胴COM、Mで受け→必要lean→止める→解放 | C09/C38の同側頬と眼が崩れず、自分の蹄で支えられる深さT02/03/05。可動域UNKNOWN |
-| Fleece 8用途 — MUST（利用可能性）、broad実使用OPTIONAL | FINAL §23の **cheek-L / cheek-R / forehead-front / front-stroke / side-back / face opening / broad hero shape echo / broad post-action settle** を対応面に割当。Rでmask/morph/骨局所等。8個のShape Keyを強制しない | 片側を押して他側/胴macroが滑らない。heroと直接touchが競合時は局所ACKを保ちbroadを抑えるT05/14 |
-| Face-in-Fleece / Hide-and-Peek — MUST | Gで顔の入る立体余地/開口内側/目・頬を出せる面。Rでhead/開口/首補正、Mで意思→隠れ→peekとowned loopを別 | C39は通常Signature、C45はowned interactive。顔完全消失を長い無反応にしない。局所openingだけで不成立なら開口地域の再構築/再生成を判定 |
-| 耳L/R / 顔 — MUST | 小顔眼/口/頬、実耳根。RでFINALの12顔presetと10耳stateを表現できる組合せ、Mで選択的近耳参加 | 12/10はsemantic stateの件数で骨/morph数ではない。顔の羊毛開口とear-root anchorの合成T01/02/05/10 |
-| Low forehoof — MUST | 羊毛下の実短脚/蹄、支持時と提示時の自由区間。Rで片前蹄と後支持、Mで移荷重/低提示/ACK/回収 | C40の2profile、C16のsensitiveとofferを区別。**通常の軽い前蹄交流が可能な身体能力**も同じ構造で用意するが、発動/頻度を新仕様化しない |
-| Cloud Sigh — MUST、shape echoはOPTIONAL | 顔/頭/小胴が独立、Rで支持された胸胴開き/局所補正、Mで呼吸をほどくようなphrase | C42/食後C31。全身scale/ジャンプ/羊毛浮遊を用いず、peakとhold/recoveryに顔が残る |
-| Food / Moon Ball / Star / Gift / Wear — MUST | 口前、頬額nudge面、front-fleece pocket/reveal余地、低蹄assist面、モチーフ取付面。接点は後付け | C26/C43/C44/C46全接点とC37/T10。蹄で保持不可なら頬/reveal/外部提示を候補比較し、承認済みprofileの削除はHumanへ |
-
-**C40保護:** FINALのrare Layer 2、trigger（high socialSeeking / recent successful invitation）、hard cooldown **90–240s**、user tap only、単発低蹄/非chain、WAIT無応答soft releaseを継承する。これは既承認参照値で新たな角度/頻度設計ではない。通常軽交流の呼び出しはHuman未決定（U06/H2）。身体の能力を用意することと通常化の承認を分け、Family/profile件数を増やさない。
+| Q09 | J19,J20,J21,P21,P22,P23,S20,S21,S22 |
+| Q10 | J22,P24,S07,S23 |
+| Q11 | J24,P26,S25 |
+| Q12 | J27,P29,S28 |
+| Q13 | J25,P27,S02,S04,S09,S18,S26 |
+| Q14 | 全84（継承） |
+| Q15 | 全84（継承） |
 
 ## F. Jill Anatomy / Rig Contract
 
@@ -315,7 +240,7 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 | 低く落ち着く/座る能力 — MUST、Game Neutral選択UNKNOWN | Gで腹/腿/脚/足底と後下胴、Rで支持/屈曲/局所corrective、Mで低rest/settle | 深い座位を通常必須姿勢にしない。生成立位/低squatから低姿勢へ移す際に短脚の長さと足裏位置が保てるかT08 |
 | Plush local compression — MUST | Gで局所厚と荷重面、Rで触点/荷重形状と回復、MでS02/S09/S15/S24 | 胴全体scale、腹と脚を潰すmochi、無限弾性で表現しない。回復遅れはshapeであり冠/身体位置の浮遊ではない |
 | 短前肢L/R / low High-five — MUST | Gで根元/自由paw/腹境界、Rで片肢と保持/支持分離、Mで低WAIT/ACK/休む | S13の即ACK後hold、両手保持なら後に誘う。手を長く/人間掌にせず顔とtargetを露出T04/08 |
-| 頬/頭の歓迎 — MUST | Gで頬厚/首/冠非重複面、Rで小提示/圧縮/顔独立、Mで居方を保った明瞭快 | S07/S08/S14。Carol深全身leanの速度違いにしない。冠/束の下でも同側面と顔を見せる |
+| 頬/頭の歓迎 — MUST | Gで頬厚/首/冠非重複面、Rで小提示/圧縮/顔独立、Mで居方を保った明瞭快 | S07/S08/S14。冠/束の下でも同側面と顔を見せる |
 | 花冠と花束 — MUST所有、Bouquet Peek OPTIONAL | Gで身体側取付面のみ。Rでhead冠/保持束/手からの解放/安全置き場、Mで実在時だけ持直し | 束なしS01–27 coreが成立。S04の束整え、S09保持共存、S28候補の全保持/遮蔽を試す。花束初期所有/出現/退出はHuman未決定 |
 | Food/Gift/Wearの競合 — MUST | Gで口前/短腕/首胸/耳外側余地、Rで保持mask/anchor、Mで安全な事前状態切替 | 両手束＋両手Food/Giftを同時要求しない。目の前で物を消して解決しない。頭上Wearは専用交換仕様なしに使わない |
 
@@ -332,10 +257,9 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 | 眼/瞼/顔 | 同mesh/別眼どちらも可。眼形/窩/瞼受けが連続 | gaze、瞼L/R、頬/口を分離。highlight/色は材質候補、窩/開閉に必要な面は形状 | UV/色、eye材質、局所retopo/瞼/窩の補正 | 大きさ/配置/顔容積が多方向でoff-model、片眼と顔構造が失われて再構築規模が大きい |
 | 口/鼻口元 | 顔と接続、口内部別part可 | 開閉/咀嚼/舐め/飲む受領面は立体能力。鼻色/赤みは材質でよい | 小内部/短舌/口縁retopo、morph/weight修正 | 黒い口絵だけでmuzzle/顔比率が成立しない、開口追加がIdentityを変える |
 | 頭/首/胴 | 自然な連続mesh可、隠れ接合可 | headと胴独立、首bendで奥側にも面 | loop追加/weights/地域corrective/隠れ接合修復 | 頭胴が誤体積で一塊、首回転余地のため比率改変が必要 |
-| 耳/horn/tuft | root接続、耳同mesh可 | Carol/Pino/Shushu耳L/R、小tuft所属。Jill hornは頭付属で耳の軟変形を要求しない | root補強/厚み/weights/局所接合 | 主要付属欠落/根位置違い/Identity輪郭が各viewで別構造 |
+| 耳/horn/tuft | root接続、耳同mesh可 | Pino/Shushu耳L/R、小tuft所属。Jill hornは頭付属で耳の軟変形を要求しない | root補強/厚み/weights/局所接合 | 主要付属欠落/根位置違い/Identity輪郭が各viewで別構造 |
 | 肩/前肢/蹄paw | root接続、自由区間は胴に融合させない | 左右と支持/操作を分離。蹄3分割/丸paw外形は立体、細色/pad色は材質候補 | 小web除去/局所分離/retopo/weights | 自由肢が腹に全面融合、短肢を再発明しないと回復不能、根の位置/数誤認 |
 | 腹/腿/脚/足 | 軟部は連続可、各支持機能を識別 | 足底厚/短脚・腿の体積は形状、pad/色は材質＋必要局所 relief | 内股web除去/局所retopo/足裏素材/corrective | Shushu等の腹腿脚が板状一体で低姿勢を作れない、長脚化が必須 |
-| Carol fleece | head/torso/tail地域の連続volume可、制作上別mesh可 | lobe外形/開口/顔余地は形状、細雲色/soft shadingは材質。body-owned zero lag | owner weights/局所retopo/接合/corrective | 独立浮雲列/滑るshellに依存、顔収容/蹄余地が全体比率改変なしに作れない |
 | Jill翼root/膜/枠 | root接続、膜/枠同mesh可 | 左右wing/root独立、膜実面と厚み感/裏面、枠輪郭は形状 | 膜retopo/薄面厚み/裏面/weights/root correctives | 翼が葉/腕へ全面融合、二root/主要膜輪郭が不明/欠落 |
 | Jill葉/稜線 | 基部の所属を保ち一部一体可 | シルエット葉は形状、葉脈/色は材質。地域単位follow候補 | 局所分離/根補強/材質/clover復元 | 葉を消すと頭首体積そのもの欠落、翼との境界再発明が必要 |
 | Jill/Pino太尾 | root接続、尾と胴同mesh可 | rootから自由部へ連続bend、重量断面。尾形状はtexture代用不可 | 根/断面retopo、脚との小web除去/weight | 尾が脚/胴の塊に埋没して単一経路/断面を復元できない、切断浮尾 |
@@ -356,22 +280,6 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 ## J. Critical Pose Stress Matrix
 
 以下は**将来の検査指示**。今回pose/rig/clipは作成していない。「最大」は数値角度の限界でなく、その演技で最も厳しい組合せ/位相を指す。T01–T15はD節の検査条件。全行で、開始→到達→接触/保持→解除→現在姿勢への復帰を、Front Hero・左右3/4・側面・必要な背面/低い視点で確認する。support欄は成立させるべき荷重経路であり、実モデルでのPASSではない。
-
-### J1. Carol
-
-| 検査姿勢 / Motion ID | 能力 | 支持点 | 最大リスク部位 | 自己干渉 | 顔/接点の遮蔽 | Identity破綻 | 生成後の検査 | 修正/代替 |
-|---|---|---|---|---|---|---|---|---|
-| Neutral / C01,C07,C33 | Q01–03,05; 呼吸と接地分離 | 基準の4蹄、移行中の残存支持 | 頭胴fleece・脚root | 前fleece↔蹄 | 口/前蹄が雲に埋まる | 雲を滑る別shellにする | T02,03,05,14; 接地保持のweight shift | owner/weights/接合修正。比率不良はGへ |
-| 深い頬寄せ / C09,C38 | head/neck＋頬L/R局所圧縮 | 荷重を残す蹄 | 頬・首・collar | 頬↔torso fleece/耳 | 近側眼/接触頬 | 顎に羊毛、眼間隔・muzzle変化 | T01–03,05; 左右、圧縮→回復 | 首/頬correctiveと到達域調整。深さと可愛さはHuman |
-| 片前蹄High-five / C40 | 低いL/R提示、接触中の顔ACK | 残る3蹄と胴荷重 | 肩・蹄後部絞り | 蹄↔前fleece/胸 | 提示面/反対眼 | 脚長化、掌/指追加 | T03–05,14; touch解除・無応答帰還 | 局所clearance/支持移行、targetを低く近く。rare契約固定 |
-| Food / C25,C26,C27–32 | 5styleの口/頬、支持と受領 | 接地蹄、必要な前蹄assist時は残存支持 | 口縁・前fleece | Food↔鼻/雲/蹄 | 噛む接点・眼 | 大口化/顎fleece | T01,03–05,09,14; 拒否/各味/cancel | item位置/size、内部/clip補正。受領形状欠落はG判定 |
-| Gift / C46 | fleece reveal/頬push/rare hoof assist | 接地、assist時残る3蹄 | 前fleece開口・頬・肩 | Gift↔fleece/Wear/蹄 | reveal前後の物体/顔 | 浮雲/物体瞬間出現 | T03–05,10,13,14; 全3profileと移管 | owner/prop経路/局所開口。広域収容欠落はG判定 |
-| 低い休息 / C01,C04,C35 | head低下、body-owned soft settle | 蹄/低姿勢の接触面を実物で確認 | 脚root・腹fleece・首 | 腹↔蹄/地面、耳↔雲 | 顔が胸雲に沈む | 体積崩壊/脚消失 | T02,03,05; 降下→長hold→復帰 | 局所圧縮/pose修正。横臥等を新必須にしない |
-| Face-in-Fleece Peek / C39 | 顔包み・局所隙間・耳/眼 | 接地蹄 | head/torso境界・顔余地 | 顔↔雲の閉鎖面 | peek時の両眼/口 | 顎羊毛/頭を雲から切断 | T01,02,05,14; 左右/開閉/interrupt | ownership/局所corrective。顔余地が作れなければG再評価 |
-| Cloud Sigh等 / C35,C36,C41,C42 | 呼気とfleece局所、moving hold/遅いlook-back/hero | 蹄支持を継続 | 胸/首・fleece連続性 | 雲↔雲/脚/耳 | sigh口/振返り眼 | macro lag、呼吸で全身ゴム化 | T01–03,05,14; hold/releaseと重層 | 身体追従zero lag＋局所変形。遅い感情は演技側 |
-| Moon Ball / C43 | 額/片頬nudge、二turn | 接地蹄・小荷重移動 | 額/頬/球接点 | 球↔鼻/雲/地面 | nudge接点と眼 | 口で運ぶ/球が身体化 | T01–03,05,12; 二turn、解放/終了 | 球軌跡/target/局所頬。額頬の方式を維持 |
-| Star Peek・HidePeek / C44,C45 | L/R/front pocket、peek/side swap | 接地蹄 | 雲pocket/顔首 | 星↔雲/顔、顔↔雲 | 顔/星/覗き口 | 浮雲化・過度隠し | T01,02,05,12,14; C44全3位置/C45最大2turn・1side swap | pocket/顔可視調整。HidePeekへpropを追加しない |
-| Wear併用 / C02,C05,C37,C38–40,C43–46 | head/ear-root/front-fleece anchorと可動 | 当該演技の支持 | anchorowner・首/雲 | 月星/Wear↔眼/耳/蹄/Food/Gift | 顔・Signature接点 | 身体所有と装飾所有の混同 | T05,09,10,12–15; 装脱/各極端姿勢 | anchor/asset位置/重なり修正。Canon比率は維持 |
 
 ### J2. Jill
 
@@ -422,7 +330,7 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 - **MUST / G:** 眼の大きさ・形・間隔・顔への収まり、鼻口元の体積、口縁/開閉余地、頬の量、左右の可視構造をCanonicalに合わせる。閉じた口の絵から巨大な口を追加する方針は不可。後方/奥眼/側面も立体として成立する。
 - **MUST / R:** gazeをhead回転から分離し、眼と瞼L/R、口/頬、耳/付属、body/limbを独立に組み合わせる。瞬き/半閉眼/閉眼、嬉しさ・安心・期待・驚き・不満を既存の小さな顔で出す。人間眉/長指/大歯列を表情の必須構造にしない。
 - **MUST / M:** 表情の立上り/保持/解放とhead/bodyの因果を組む。口使用中のconsumeとTouch ACKは同一mouth channelを奪い合わず、眼・頬・耳・headの小さな応答へ振替えられる。食べるclipを瞬断して完了/消費を偽装しない。
-- **SHOULD / R/M:** 非対称の微表情、眼球/瞼の接触補正、表情の奥行き可読性。P28の「wink演技」採用はOPTIONALだが、両眼/瞼L/R能力はMUST。Carol FINALの顔12state/耳10stateは演技集合であり、同数のMorph/Boneを指定しない。
+- **SHOULD / R/M:** 非対称の微表情、眼球/瞼の接触補正、表情の奥行き可読性。P28の「wink演技」採用はOPTIONALだが、両眼/瞼L/R能力はMUST。
 - **UNKNOWN / T01,T14,T15:** 必要開口、眼窩/瞼方式、内部/舌の実装、極限域での顔可読性、消費中ACKの見え方。通常表情＋blink＋gaze＋head傾き＋接触圧縮を同時に試し、単独表情の成功だけでPASSにしない。
 
 ### K2. 接点は変形するowner上の意味領域
@@ -430,7 +338,7 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 | 接点群 | Gで守るもの | R/Mで追加するもの | 禁止する解決 / 要実物検証 |
 |---|---|---|---|
 | 頭頂/額/頬L/R | 顔を隠さない面、首/頬の体積 | owner追従のsemantic region、頬局所圧縮、head向きと安全なrelease | 世界座標固定のmarkerだけで接触判定しない。T01,02,14で左右/近い視点 |
-| 胴/胸/Carol front-fleece | 接触可能な身体面と所属 | 地域follow/局所soft response、胸感情と接触mask分離 | Carol macro lag禁止、Jill胸を前肢の伸縮部にしない。T05/06/08 |
+| 胴/胸 | 接触可能な身体面と所属 | 地域follow/局所soft response、胸感情と接触mask分離 | Jill胸を前肢の伸縮部にしない。T05/06/08 |
 | 耳root/付属root/尾root | 正しい根元と自由領域 | ownerと保護/境界応答、耳L/R/尾連続follow | Jill hornを耳rigへ誤分類しない。Pino尾を掴む装置にしない。T02,06,07 |
 | 蹄/paw提示面 | 3分割蹄/丸pawの小さな接触面 | L/R target、提示/hold/ACK/release、足接地との排他 | 掌/指/腕伸長を追加しない。画面上touchは力センサの物理押圧ではない。T03,04,14 |
 | Food mouth/assist | 口/鼻/paw余地、prop別所有 | 受領・bite/lick/drink接点、残量/移動、taste/release | body anchorへ固定したitemで食べたと見なさない。T09 |
@@ -440,7 +348,7 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 
 ### K3. 支持と重層
 
-**MUST:** 片前肢提示の前に荷重を移し、残る支持点とbodyがつながる。両前肢保持時は足/検証された低姿勢支持で全身を保つ。足の接地保持、関節のvolume、低姿勢への入出、tail重量の連続性をT03で検査する。Carolの4蹄/片蹄提示時3蹄を除き、画像だけで支持面/重心の実数を確定しない。Jill/Pinoの尾を新しい支えにせず、Shushuの座位もNeutral固定にしない。
+**MUST:** 片前肢提示の前に荷重を移し、残る支持点とbodyがつながる。両前肢保持時は足/検証された低姿勢支持で全身を保つ。足の接地保持、関節のvolume、低姿勢への入出、tail重量の連続性をT03で検査する。画像だけで支持面/重心の実数を確定しない。Jill/Pinoの尾を新しい支えにせず、Shushuの座位もNeutral固定にしない。
 
 **MUST:** Q14は全Familyに適用する。Living＋表情、Touch＋体重移動、Wear＋Signature、Food＋小ACK、Gift＋保持競合、Secret＋通常入力、foreground復帰を、現在姿勢からつなぐ。支持/owner/口/手の役割を再計算する位相と、安全にclipを中断できる位相を分ける。毎回Neutralへsnap、足滑り、prop teleport、形状が戻らない圧縮は禁止。連続撫での快感増加/飽和は演技/状態の変化であり、Morphを無制限に積み足さない。境界/拒否/回復も同じ身体能力で、痛み/罰の新しい演出を追加しない。
 
@@ -450,7 +358,7 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 
 ### L1. Food 5 stylesと消費契約
 
-共通FamilyはC26/J20/P22/S21。C25/J19/P21/S20のnotice/choiceから入り、C27–32/J21/P23/S22のtaste/afterglowへつなぐ。方法が違ってもinventory transactionを演技のbite回数から独立させる。
+共通FamilyはJ20/P22/S21。J19/P21/S20のnotice/choiceから入り、J21/P23/S22のtaste/afterglowへつなぐ。方法が違ってもinventory transactionを演技のbite回数から独立させる。
 
 | style | G条件 | R/M能力 / 接点 | 生成後必須確認 |
 |---|---|---|---|
@@ -460,15 +368,13 @@ T01–T15は「検査条件のID」であり、今回実施した3D試験では�
 | DRINK | mouth/受領面と容器等のclearance | 口との持続接点、顔傾き、必要なら小assist。容器/液体方式は未確定 | 鼻が埋まらず、飲む行為と残量/終了が読める |
 | LARGE_EAT | 口を巨大化せず大きい物へ接近する余地 | bounded item、近いbite位置、保持/食べ進め/残物表現 | 短い肢・支持・顔可読性と両立。item寸法/具体方法は実物決定 |
 
-Taste **1はpre-consume拒否、在庫不変**。Taste **2–5はconsume後、在庫−1**。multi-biteでも−1は一個分。拒否/受領/消費確定/中断/再開に意味的eventを持たせるが、確定nodeを今固定しない。Food中に口を使うACKを上書きしない。clipだけで在庫/Collectionの成否を判断しない。T09/T14で5style×個体、拒否とtaste段階、holding競合、復帰を確認する。Moon MacaronはCarolの既存SMALL_ONE_BITE→favorite反応→motif accentを保持し、食物とWearのanchorを混同しない。
-
+Taste **1はpre-consume拒否、在庫不変**。Taste **2–5はconsume後、在庫−1**。multi-biteでも−1は一個分。拒否/受領/消費確定/中断/再開に意味的eventを持たせるが、確定nodeを今固定しない。Food中に口を使うACKを上書きしない。clipだけで在庫/Collectionの成否を判断しない。T09/T14で5style×個体、拒否とtaste段階、holding競合、復帰を確認する。
 ### L2. Wear / Motif
 
-**MUST:** 一度に1 Wear、永久所有と装着状態は別。C02/C05/C33/C37、J22/P24/S23を中心にnotice/equip/joy/remove/current-pose settleを支える。C節で追加したQ10は能力上の依存であり、Phase 3の演技採用を昇格させない。
+**MUST:** 一度に1 Wear、永久所有と装着状態は別。J22/P24/S23を中心にnotice/equip/joy/remove/current-pose settleを支える。C節で追加したQ10は能力上の依存であり、Phase 3の演技採用を昇格させない。
 
 | 個体 | 安全anchor候補（既存契約内） | 可動と除外領域 |
 |---|---|---|
-| Carol | head / ear-root / front-fleece。Dream Star Broochはfleece_front | head-owned/torso-ownedを跨ぐ固定結合を避ける。耳・頬・C39pocket・C40蹄・C46revealを検査 |
 | Jill | 頭中央 / 首胸 | horn/首の向き/胸感情、翼open/closeを確保。翼/尾/葉は装備先にしない |
 | Pino | 頭 / 首胸 | 両眼、短いpaw、試行workfaceを解放。肢/尾に装備しない |
 | Shushu | earouter / 首胸 | 冠/束と別所有。headtopは専用の冠交換仕様が承認されるまで通常anchorにしない |
@@ -477,10 +383,8 @@ ownerへ追従するanchor、装備assetの自前の位置/形、衝突reserve�
 
 ### L3. Secret / Gift / 花束
 
-- **Carol SecretはFINAL保持:** C43 Moon Ballは所有済み、BOTH、cooldown 60–120s、額/頬nudge。C44 Star Peekは所有済み、BOTH、cooldown 75–150s、L/R/front pocket。C45 HidePeekは所有済み、BOTH、cooldown 90–180s、最大2turn/1side swap、propなし。これらは能力/形状条件だけでなくWAIT・解放・通常入力への出口も必要。数値は既存FINALの契約値であり可動域の新規推定ではない。
-- **J27/P29/S28はOPTIONAL候補:** 翼窓/roll-stop/束peekの成立証拠とHuman採否待ち。未成立を理由に翼/短肢/顔を改変しない。P04/P28/J26/S27の拡張も同様。C40 rareはE節どおり保持。
-- **Gift共通:** C46/J25/P27/S26は別物体の保持→可視提示→移管が身体から追跡できること。移管確認の後でCollection/所有/eventを確定する。itemを身体に埋め込んだまま「贈った」としない。no-response時の保存/再提示/timeoutや確定nodeはUNKNOWN。
-- **C46:** AUTO_ONLY、ultra-low、fleece reveal/cheek push/rare low hoof assistの3profileを支える。付与時点未確定。C43等の所有条件と混同しない。
+- **J27/P29/S28はOPTIONAL候補:** 翼窓/roll-stop/束peekの成立証拠とHuman採否待ち。未成立を理由に翼/短肢/顔を改変しない。P04/P28/J26/S27の拡張も同様。 rareはE節どおり保持。
+- **Gift共通:** J25/P27/S26は別物体の保持→可視提示→移管が身体から追跡できること。移管確認の後でCollection/所有/eventを確定する。itemを身体に埋め込んだまま「贈った」としない。no-response時の保存/再提示/timeoutや確定nodeはUNKNOWN。
 - **Shushuの束:** head-owned花冠と保持物の花束は別。S02/S04/S09/S18等で既存束を保持/退避する能力をQ13で扱うが、Gift発生を追加する意味ではない。Food/High-five/Giftで手が足りない場合は「安全に置いて後で取る」「一方の手を空ける低い保持」「一旦外部presentationへ移す」の**候補**を比較し、Humanが操作契約を決める。body比例を伸ばす/第三の肢/束teleportは禁止。
 - **UNKNOWN:** 持てるitemの寸法/重さ表現/数、両paw保持の到達域、束の退避先と所有event、Gift no-response、候補Secretの採否。T09/T12/T13/T14で検証し、状態契約未決定とmesh欠陥を分ける。
 
@@ -493,8 +397,7 @@ ownerへ追従するanchor、装備assetの自前の位置/形、衝突reserve�
 | Game Neutral Pose | 日常に自然に生きる姿勢 | 個体らしい支持/呼吸/顔、現在姿勢からinteractionへ入れる | CanonicalはIdentity基準。Pino/ShushuのCanonical座位/低姿勢をそのまま唯一Neutralに固定しない。Human視覚判断待ち |
 
 三姿勢の一致はMUSTではない。生成姿勢で綺麗な隙間があることはRig時の可動保証ではなく、Restを変えるだけでも広域融合は治らない。Game姿勢へ移したときに首/腹/短脚/翼/太尾が成立するかが受入条件。既存pose DRAFTの角度/開き幅/座標は検証前の制作案としてのみ扱い、骨数/関節限界/本タスクの確定契約へ転用しない。
-
-Body-only 2DのHuman受入は「入力画像としての受入」。Canonicalを置換せず、現在のTripo Preflight完了や3D/Rig/NeutralのHuman承認を含まない。登録済み15枚とCarolのBack不使用方針は、O節および§Tの2026-10-11更新で扱う。
+Body-only 2DのHuman受入は「入力画像としての受入」。Canonicalを置換せず、現在のTripo Preflight完了や3D/Rig/NeutralのHuman承認を含まない。登録済み12枚の選定は、O節および§Tの2026-10-11更新で扱う。
 
 ## N. Tripo-First / Blender-Fallback Production Strategy
 
@@ -514,7 +417,7 @@ Tripoの現在の機能/対応Rig/価格/プラン制限は本タスクで確認
 | 8. GLB/glTF Export | skin/morph/material/clip/node/propの必要情報を、Pの実行環境で再現 | constraints/driver等の作者側依存を必要に応じbake/移植。export成功だけでruntime同等としない |
 | 9. PlayCanvas / Smartphone QA | J/Tの受入、商品/入力/重層/復帰、顔可読性、実機負荷 | 可愛い顔/固有付属/必須能力を守ってmeasure→修正。未実装/未実測をPASSにしない |
 
-Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後工程で変形できる接続/面**。Auto Rigは骨格/skinの出発点候補。全130行の実装、全408演技、Contact transaction、個体らしい表情、owner-aware局所fleece/wing/plush、ゲームの割り込みは独自設計を要する可能性が高い。これは能力契約からの推論で、現在のTripoの不可/可の断定ではない。
+Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後工程で変形できる接続/面**。Auto Rigは骨格/skinの出発点候補。全84行の実装、全252演技、Contact transaction、個体らしい表情、owner-aware局所fleece/wing/plush、ゲームの割り込みは独自設計を要する可能性が高い。これは能力契約からの推論で、現在のTripoの不可/可の断定ではない。
 
 ### N2. 能力から制作ルートへの暫定分類
 
@@ -522,27 +425,26 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 
 | 能力 / 対象Family | 暫定ルート | 候補で済まない個体要件 / 最小の確認 |
 |---|---|---|
-| Q01 顔 / 全130の継承 | C/D + ? | 眼瞼/視線/小口/頬/感情の独立性、非対称、身体との併用。顔Rig/morph/出力clip対応を確認 |
-| Q02 headneck / 全130 | A?/B?→C/D | 汎用turnは小注意の候補だけ。低額/深頬/短首/顔可視に適合するか |
-| Q03 支持 / 全130 | A?/B?→C/D | 小weight shift/rest候補。非標準支持肢、footlock/低姿勢/両手保持を自動保証しない |
-| Q04 forelimb / C07,C16,C18,C26,C40,C46ほかD逆引き | B?→C/D | 低target/短肢/蹄paw/片肢支持。標準human high-five clipの置換採用不可 |
-| Q05 Carol fleece / C01–C46 | C/D + ? | owner zero lag、顔opening/頬圧縮/pocket、局所/broad用途を独自構築候補 |
+| Q01 顔 / 全84の継承 | C/D + ? | 眼瞼/視線/小口/頬/感情の独立性、非対称、身体との併用。顔Rig/morph/出力clip対応を確認 |
+| Q02 headneck / 全84 | A?/B?→C/D | 汎用turnは小注意の候補だけ。低額/深頬/短首/顔可視に適合するか |
+| Q03 支持 / 全84 | A?/B?→C/D | 小weight shift/rest候補。非標準支持肢、footlock/低姿勢/両手保持を自動保証しない |
+| Q04 forelimb / 他D逆引き | B?→C/D | 低target/短肢/蹄paw/片肢支持。標準human high-five clipの置換採用不可 |
 | Q06 Jill wings/胸/葉/尾 / J01–J27 | C/D、限定B? | wingrootと膜、胸始動/顔窓/葉所属。wing/tailをAuto Rigが認識するか実見 |
 | Q07 Pino compact/尾 / P01–P29 | C/D、限定B? | 内寄り短paw、腹との隙間、太尾連続bend、両眼。P03第一案と代替のreachを検査 |
 | Q08 Shushu plush/脚/花 / S01–S28 | C/D、限定B? | 腹腿足区別、局所圧縮/低姿勢、冠/束の別所有。支持/短肢を保つか |
-| Q09 Food / C25–32,J19–21,P21–23,S20–22 | B?→C/D | 5styleの接点/残量/口ACK/在庫確定はclip名から推定不可。prop相互作用の出力方式確認 |
-| Q10 Wear / C02,C05,C10,C33,C37,J22,P24,S07,S23 | C/D + ? | owner anchor、装脱/current-pose、Signature可動/1Wear。attachment/node/exportを確認 |
-| Q11 session / C34,J24,P26,S25 | D + ? | 現在姿勢/状態/prop復帰。一般入場clipでは状態整合を保証しない |
-| Q12 Secret / C43–45,J27,P29,S28 | B?→C/D | nudge/peek/roll/WAIT/side/退出、prop所有。J/P/S候補はOPTIONAL |
-| Q13 Gift/保持 / C46,J25,P27,S26 + S02,S04,S09,S18の保持再利用 | C/D、限定B? | 移管event、低保持、束競合/解放。補助保持とGift演技を区別 |
-| Q14 重層/割り込み / 全130 | C/D + ? | 顔/口/支持/propのphase、mask/現在姿勢、安全復帰。複数clip/追加表情のexportと実行可否 |
-| Q15 fullspatial/export/mobile / 全130 | C/D + ? | 360°立体/非Hero、skin/morph/material/clip/axis/実機。Studioプレビューと同等か |
+| Q09 Food / J19–21,P21–23,S20–22 | B?→C/D | 5styleの接点/残量/口ACK/在庫確定はclip名から推定不可。prop相互作用の出力方式確認 |
+| Q10 Wear / J22,P24,S07,S23 | C/D + ? | owner anchor、装脱/current-pose、Signature可動/1Wear。attachment/node/exportを確認 |
+| Q11 session / J24,P26,S25 | D + ? | 現在姿勢/状態/prop復帰。一般入場clipでは状態整合を保証しない |
+| Q12 Secret / J27,P29,S28 | B?→C/D | nudge/peek/roll/WAIT/side/退出、prop所有。J/P/S候補はOPTIONAL |
+| Q13 Gift/保持 / J25,P27,S26 + S02,S04,S09,S18の保持再利用 | C/D、限定B? | 移管event、低保持、束競合/解放。補助保持とGift演技を区別 |
+| Q14 重層/割り込み / 全84 | C/D + ? | 顔/口/支持/propのphase、mask/現在姿勢、安全復帰。複数clip/追加表情のexportと実行可否 |
+| Q15 fullspatial/export/mobile / 全84 | C/D + ? | 360°立体/非Hero、skin/morph/material/clip/axis/実機。Studioプレビューと同等か |
 
 ### N3. 次回Studioで必要な最小観測
 
-1. UI上のmulti-view入力枚数/slot名/実camera向き/pose条件。画像側のleft/rightとcamera側を別記録し、Jill Rightのcamera slotとCarolの3視点入力対応を確認する。
+1. UI上のmulti-view入力枚数/slot名/実camera向き/pose条件。画像側のleft/rightとcamera側を別記録し、Jill Rightのcamera slotを確認する。
 2. 生成出力のmesh分割/接合/topology/裏面/口眼内部/texture、download形式と再編集可能性。
-3. Auto Rigが4体の体型/付属をどう分類し、実際のroot/chain/weights/bindをどう出すか。翼/太尾/短肢/fleeceは部分ごとに確認する。
+3. Auto Rigが3体の体型/付属をどう分類し、実際のroot/chain/weights/bindをどう出すか。翼/太尾/短肢/fleeceは部分ごとに確認する。
 4. Preset/Text-to-Motionの実際の利用条件、target指定/prop/clip編集/retarget/複数clip出力。A/Bを採るなら該当Tの証拠が必要。
 5. GLB/glTFにskin/morph/素材/animation/nodeをどこまで保持できるか。制約/価格/Credits/plan/再試行費はその時点の表示から記録。
 6. 入力不足と生成の失敗、shape正常とAuto Rigの失敗、任意clipの不成立を別々に記録し、同じ問題への無目的な再生成を避ける。
@@ -553,13 +455,12 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 
 ### O1. 登録と本書での直接観察
 
-**Historical Phase 4 observation:** この節の画像状態・Jill right・Carol Backに関する記述はPhase 4時点の記録。現在の入力選定は§Tの2026-10-11 Post-Phase-4 updateが優先する。
+**Historical Phase 4 observation:** この節の画像状態・Jill rightに関する記述はPhase 4時点の記録。現在の入力選定は§Tの2026-10-11 Post-Phase-4 updateが優先する。
 
 画像のリンクは**現在の既存asset**。canvas/背景/向き/姿勢のscreeningは本タスクの観察に限り、画像の再編集や既存Registerの改訂はしていない。各個体のfront/left/right/backは画像側の名称である。
 
 | 個体 | 入力 | 登録状態 | 直接観察 / Motionへの影響 | Preflight判定 |
 |---|---|---|---|---|
-| Carol | [Front](../../../assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_front.png), [Left](../../../assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_left.png), [Right](../../../assets/grimo/source/carol/tripo-generation-pose/carol_bodyonly_right.png) | 3/4、2D受入済み。Back未登録 | 正面/側面の雲・短い蹄は読める。後方接合/尾/後蹄/背面fleeceの同一性は3枚だけで確定不可。C07,C15,C16,C40,C46とFull-Spatialに影響 | TRIPO_PREFLIGHT_PENDING。Backは入力解決待ち、3枚で投入できるかもUNKNOWN |
 | Jill | [Front](../../../assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_front.png), [Left](../../../assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_left.png), [Right](../../../assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png), [Back](../../../assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_back.png) | 4/4、2D受入済み | **right名の画像もscreen-leftを向き、leftと同方向に見える。** RegisterのOpposite/right解釈との矛盾。front胸cloverは可視参照から欠ける。wing/root/horn/葉/尾の復元を妨げ得る | TRIPO_PREFLIGHT_PENDING、slot対応は**HOLD**。ファイル名を根拠にOppositeへ投入しない |
 | Pino | [Front](../../../assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_front.png), [Left](../../../assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_left.png), [Right](../../../assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_right.png), [Back](../../../assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_back.png) | 4/4、2D受入済み | 立位入力とCanonicalの低い姿勢で見える脚長/腹pawの関係が違う。長脚化とは断定しない。足裏、内寄りpaw/尾rootの隠れ面は不確定 | TRIPO_PREFLIGHT_PENDING。P03/P14/P22/P27とrestの短肢reachを検査 |
 | Shushu | [Front](../../../assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_front.png), [Left](../../../assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_left.png), [Right](../../../assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_right.png), [Back](../../../assets/grimo/source/shushu/tripo-generation-pose/shushu_bodyonly_back.png) | 4/4、2D受入済み | 花なし身体は読めるが、立位入力から腹/腿/足裏/低い座り方を断定不可。Canonicalのplush/短肢/花所有の再現が必要 | TRIPO_PREFLIGHT_PENDING。S02/S05/S13/S21/S26の低姿勢/保持検査 |
@@ -568,25 +469,25 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 
 ### O2. Preflight完了に必要なチェック
 
-- **Authority:** CanonicalとBody-onlyの用途を分ける。最新Register/Carol State/承認済みvisible参照を同一時点で照合。Normal review pendingを最終受入と誤読しない。
-- **slot:** view画像の実向き、Tripo slot/camera向き、前後/左右の対応を記録。Jill Rightは2026-10-11の新しいscreen-right原本へ差し替え済み。実slot/camera対応はStudioで確認する。Carolは三視点対応を確認し、非対応ならHOLD。
+- **Authority:** CanonicalとBody-onlyの用途を分ける。最新Register/承認済みvisible参照を同一時点で照合。Normal review pendingを最終受入と誤読しない。
+- **slot:** view画像の実向き、Tripo slot/camera向き、前後/左右の対応を記録。Jill Rightは2026-10-11の新しいscreen-right原本へ差し替え済み。実slot/camera対応はStudioで確認する。
+- **Authority:** CanonicalとBody-onlyの用途を分ける。最新Register/承認済みvisible参照を同一時点で照合。未承認候補を最終受入と誤読しない。
 - **同一個体/pose:** 頭/胴/肢の比率、眼/口/耳またはhorn/翼葉/尾/蹄、支持、露出した接合、marking、背景/scale/cropを照合。見え方と実pose差を区別する。
 - **body-only:** 冠/束/prop/通常Wearがbodyと融合していないか、除去跡で身体が欠落していないか。別asset候補の所有を確認。
-- **critical anatomy:** 首/頬、短肢root/腹の隙間、支持面、口/眼、Carol faceopening/下雲/尾、Jill wingroot/膜/葉/太尾、Pino内paw/太尾、Shushu腹腿足をG条件でscreening。
+- **critical anatomy:** 首/頬、短肢root/腹の隙間、支持面、口/眼、Jill wingroot/膜/葉/太尾、Pino内paw/太尾、Shushu腹腿足をG条件でscreening。
 - **出力検査計画:** C/D/J/Tと検査視点、再生成vs局所修正判定を添える。費用/入力対応/出力Rig等UNKNOWNをStudioの現行表示で解決する。入力受入が揃うまでTripo Readyと呼ばない。
 
-### O3. 追加/修正参照の提案（未作成・未承認; Phase 4 snapshot, current Carol decision superseded by §T)
+### O3. 追加/修正参照の提案（未作成・未承認; Phase 4 snapshot、現在の入力は§T優先）
 
 | 提案 | 目的 / 影響Motion | 追加が必要になる条件 |
 |---|---|---|
-| Carol Backの正式登録候補 | 後蹄/尾root/背面fleeceとowner、C07/C15/C16/C40/C46・Q15 | 既存Register未登録を解決。正しい既存参照の有無とHuman受入、または限られたviewでの根拠ある生成方針を決める |
 | Jill真のOppositeの照合/修正候補 | 左右wingroot/膜/前肢/葉/尾、J03/J07/J12/J14/J20/J25/J27 | rightが同方向という矛盾を解消する資料がない場合。鏡像作成を自動の解決にしない |
-| 口/鼻口元の近い複数view | 全4体のFood5style、顔T01とC43額頬nudge | 出力が平面口/内部欠如で局所修復の形を決められない場合。口を大きくする参照ではない |
+| 口/鼻口元の近い複数view | 全3体のFood5style、顔T01 | 出力が平面口/内部欠如で局所修復の形を決められない場合。口を大きくする参照ではない |
 | Jill wingroot/収納/裏面の斜め参照 | J03/J05/J12/J14/J25/J27 | 既存viewでroot/膜/葉の区別が曖昧で誤融合の原因になる場合 |
 | Pino/Shushuの足裏・腹短肢/低い支持参照 | P03/P05/P06/P14/P22/P27、S02/S05/S13/S21/S26 | 既存Canonical/入力/生成物で短脚/足裏と低姿勢支持を判定できない場合。新しい長脚/Neutral仕様を発明しない |
-| Carol顔opening/尾の斜め、花冠/束の別所有参照 | C38/C39/C44–46、S04/S21/S26/S28 | ownerや解除後の身体を既存参照から復元できない場合。既存承認参照を優先 |
 
 追加参照は必要条件と対象を限定した提案。全てを無条件に生成するタスクへ拡張しない。画像側のHuman受入とStudio技術Preflightの両方が必要で、今回いずれも新規PASSは出していない。
+
 
 ## P. Smartphone / GLB / PlayCanvas Requirements
 
@@ -600,9 +501,8 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 | 作者側制約 | IK/driver/constraint/correctiveは制作方式の候補。exportに残らない依存はclipへbakeまたはruntime相当制御 | Blender見た目≠GLB動作の可能性。拘束/評価順/非linear補正/shape animationが保持されるか |
 | node/物体 | Wear/Food/Secret/Gift/花の独立所有、意味anchorとclip/event対応 | slot/node命名、装脱/移管/残量、親切替/scale、root owner。データモデルのevent実装は本タスク外 |
 | material/texture | Canonical色/輪郭、眼/marking、膜裏、雲/plushのsoft shadingと接点の読みやすさ | alpha/裏面/normal/色域/light、素材切替、outlines等の方式は未確定 |
-| clip/blend | 片肢支持/face/body分離、現在姿勢からの遷移、口ACK排他、WAIT/release位相 | runtime mask/clip同期、resume、物体と骨/morphの時刻整合。全130能力の再生経路は後工程 |
-
-骨/Shape Keyの名称・数、angle limit、clip長、最終mesh密度/texture寸法、compression方式は実モデルから決める。Carol FINALの演技時間/trigger等の既存値は保持し、runtimeの都合で変更しない。PlayCanvasの具体API/コードは今回設計しない。
+| clip/blend | 片肢支持/face/body分離、現在姿勢からの遷移、口ACK排他、WAIT/release位相 | runtime mask/clip同期、resume、物体と骨/morphの時刻整合。全84能力の再生経路は後工程 |
+骨/Shape Keyの名称・数、angle limit、clip長、最終mesh密度/texture寸法、compression方式は実モデルから決める。PlayCanvasの具体API/コードは今回設計しない。
 
 ### P2. スマホの可読性と負荷
 
@@ -622,7 +522,6 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 | F02 笑顔で眼口崩壊 | 表情の同時加算/眼瞼/口縁不適合 | T01/T14、笑顔＋blink＋gaze＋食後 | 顔体積G、地域mask/補正 | 多viewの顔構造がoff-modelなら候補 | morph/weights/眼瞼/口縁修正 | 感情可読性と顔Identityの受入 |
 | F03 High-fiveで足が浮く | 片肢提示前の荷重移行欠如/過reach | T03/T04、L/R/無応答/戻り | 残存支持/低近target/足lock | 支持肢root/足底欠落で回復困難時のみ | clip/足lock/COM/肩weights | Canon比率でも成立しない演技の変更 |
 | F04 頬寄せで首頭胴破綻 | neck折れ/頬→body引きずり/隙間 | T02/J深頬、側/低視点 | 連続neck/owner/頬局所 | 主要接合誤形/比率改変必須なら候補 | 接合retopo/weights/地域corrective | 深さと可愛さ/自然さの受入 |
-| F05 Carol雲の浮遊/滑走/伸縮 | shell lag/owner誤り/全身scale | T05、C38–46と呼吸/移動同時 | head/torso/tailowner、macro lag zero | 原形が浮雲列で顔/肢余地なしなら候補 | ownerweights/接合/局所soft/素材 | FINAL/Canonicalと雲の生きた質感受入 |
 | F06 Jill翼root潰れ/顔肢貫通 | root融合/膜無厚/肩wing weights共用 | T06/Jopen/収納/High-five/Secret | 左右root/膜/枠と肩独立、reserve | root/翼輪郭不明・広域融合なら候補 | 膜retopo/裏面/weights/rootcorrective/clip | 翼/胸のIdentity、顔窓、Secret採否 |
 | F07 Pino尾胴の不適切融合 | 尾root/自由部と脚がweb/塊 | T07、back/side＋bodyshift/tailbend | 太い連続尾rootと別自由領域 | 尾経路/体積の大規模復元なら候補 | 小web除去/rootretopo/skin | 尾の厚み/重さ/輪郭受入 |
 | F08 Pino短pawで代表試行不可 | target遠すぎ/腹遮蔽/肩可動不足 | T04/T07、P03第一案と近域代替 | inwardpaw独立、低近workface | 第一案だけ不成立なら再生成しない。必須独立肢の広域融合なら候補 | target/試し方/肩/腹corrective | 第一案vs別の可愛い探索演技 |
@@ -641,19 +540,17 @@ Tripoに最初に期待するのは**Canonicalに沿う立体の身体と、後�
 
 ### R1. UNKNOWN register
 
-UNKNOWNは設計漏れでなく、決定者/必要証拠/次工程を指定して閉じる。Phase 3 O1–O6の未決定を引き継ぎ、Carol FINALとの照合を維持する。
-
+UNKNOWNは設計漏れでなく、決定者/必要証拠/次工程を指定して閉じる。Phase 3 O1–O6の未決定を引き継ぎ。
 | ID | 未決定事項 | 決める根拠 / 担当 |
 |---|---|---|
 | U01 | 実可動域/到達/接触圧縮/支持/低姿勢の安全域 | 生成mesh＋仮RigでJ/T01–08・14の成功/失敗域。技術担当＋Human知覚 |
 | U02 | mesh分割/topology/骨/morph/材質の方式と数 | G screen/変形/export/負荷から技術担当。演技state数を構造数に転用しない |
 | U03 | Tripo現行slot/対応枚数/Auto Rig/付属/morph/clip/Text-to-Motion/export | N3をStudio実機で観測。価格/Credits/plan/再試行費も現行表示確認までUNKNOWN |
-| U04 | Carol BackとJill真のOpposite/slot矛盾、同pose/canvas対応 | Oの既存参照/登録経緯/Studio camera照合。必要なら限定追加参照とHuman受入 |
-| U05 | 4体のGame Neutral、Generation→Rest→Neutralの移行 | CanonicalとJrest/Idle/短肢支持、花あり/なしを比較。Shushu座位固定なし |
-| U06 | Carol通常軽前蹄交流の頻度/発動/rareとの関係 | Human。低蹄能力は準備、C40 FINAL rare trigger/cooldown/入力は保持 |
+| U04 | Jill真のOpposite/slot矛盾、同pose/canvas対応 | Oの既存参照/登録経緯/Studio camera照合。必要なら限定追加参照とHuman受入 |
+| U05 | 3体のGame Neutral、Generation→Rest→Neutralの移行 | CanonicalとJrest/Idle/短肢支持、花あり/なしを比較。Shushu座位固定なし |
 | U07 | P03第一案/別探索、J27/P04/P28/P29/S27/S28等の候補採否 | 個体らしい因果、短肢/翼/両眼/束と両立するJ/T証拠＋Human |
 | U08 | Jill/Shushu特別Food/Wear、候補Secretの正式item/条件 | Phase 3のproposalは非FINAL。商品/データAuthorityとHuman、通常5Food/1Wear能力は先に必要 |
-| U09 | Gift保持物寸法/束退避/移管node/no-response再提示/保存/時刻、C46付与時点 | 既存仕様で確定した所有/event順を保ち、未決定だけHuman/商品設計。clipは勝手に確定しない |
+| U09 | Gift保持物寸法/束退避/移管node/no-response再提示/保存/時刻、付与時点 | 既存仕様で確定した所有/event順を保ち、未決定だけHuman/商品設計。clipは勝手に確定しない |
 | U10 | GLB/runtimeでのbones/morph/素材/作者constraintの等価性 | P1のroundtrip/PlayCanvas再生、T14/T15。具体API/方式/性能値は後工程 |
 | U11 | 画面距離/接点可読域/実機負荷/性能目標/Pixel級受入 | Xiaomi実機と未検証targetのQA、T15。根拠のない骨/poly/FPS/メモリ上限を固定しない |
 | U12 | 完成mesh/Rig/演技/修復後IdentityのHuman受入 | 各gateの全view/Jclip/実画面証拠。現在PHASE_4_COMPLETEから推定不可 |
@@ -661,8 +558,8 @@ UNKNOWNは設計漏れでなく、決定者/必要証拠/次工程を指定し�
 ### R2. Humanが判断する範囲
 
 - **H1:** Canonicalと承認済みvisible参照を守った顔/シルエット/可愛さ、3/4/低姿勢/表情/局所圧縮/身体の連続性、個体らしい生命感の受入。
-- **H2:** C40の通常軽交流の運用、P03第一案と代替、Jill/Pino/ShushuのRare/Secret/特別itemの採否。Carol FINAL既承認項目は変更提案がなければ維持。
-- **H3:** 4体のGame Neutral/休息姿勢、入力Back/Oppositeや追加参照の正式受入。2D選定と3D/Rig知覚受入は別。
+- **H2:** P03第一案と代替、Jill/Pino/ShushuのRare/Secret/特別itemの採否。
+- **H3:** 3体のGame Neutral/休息姿勢、入力Back/Oppositeや追加参照の正式受入。2D選定と3D/Rig知覚受入は別。
 - **H4:** Gift no-response/付与時点/花束退避・再取得/移管など未決定の体験と商品契約。
 - **H5:** 必須MotionとCanonicalが両立しない証拠が出た場合の仕様判断、外見を変える大規模修復/再生成の比較、モバイル最適化後の魅力受入。
 
@@ -672,8 +569,8 @@ UNKNOWNは設計漏れでなく、決定者/必要証拠/次工程を指定し�
 
 ### S1. 次工程に渡す入力
 
-1. BのCanonical/最新visible Authority/Carol FINAL/商品・データ正本と、本書CのID→能力/Variant差、Dの逆引き、Jのstress、Qのfailure判定。
-2. 既存Body-only Register/15枚とGeneration Pose DRAFT。OのCarolの3視点入力対応UNKNOWN/Jill Right差し替え/同pose/slot/canvas/足裏等の不確定を明示する。
+2. 既存Body-only Register/12枚とGeneration Pose DRAFT。OのJill Right差し替え/同pose/slot/canvas/足裏等の不確定を明示する。
+1. BのCanonical/最新visible Authority/商品・データ正本と、本書CのID→能力/Variant差、Dの逆引き、Jのstress、Qのfailure判定。
 3. N3のStudio観測票に必要な項目、A/B/C/D/?の未採用候補、U/Hの未決定一覧。生成担当が独自に「Tripo Ready」と推定しない。
 4. 各出力について、入力/slot/設定/出力識別、修正内容、該当Motion/Q/T、検査画像/clip/実画面、技術結果とHuman結果を分けて記録する。証拠保存の具体ファイルは次タスクで決め、本タスクで補助成果物を増やさない。
 
@@ -681,10 +578,10 @@ UNKNOWNは設計漏れでなく、決定者/必要証拠/次工程を指定し�
 
 | Gate | 次へ進む条件 | HOLD/FAIL時 |
 |---|---|---|
-| G0 入力/Studio Preflight | Canonical/補助参照/slot/左右前後/同poseの照合。Carol 3視点対応の確認とJill Rightのslot照合。機能/出力/費用条件を観測し、必要なHuman入力受入を得る | 入力/現行機能UNKNOWNを解消。登録枚数だけで生成受入にしない |
+| G0 入力/Studio Preflight | Canonical/補助参照/slot/左右前後/同poseの照合。Jill Rightのslot照合。機能/出力/費用条件を観測し、必要なHuman入力受入を得る | 入力/現行機能UNKNOWNを解消。登録枚数だけで生成受入にしない |
 | G1 生成shape/Identity | 全viewで顔/比率/短肢/付属root/口/眼/自由領域のG条件をscreen。HumanがIdentity/可愛さを評価 | Q/Iの局所修復vs入力修正/再生成。Human review pendingをPASSにしない |
 | G2 topology/Rig能力 | Jの9カテゴリ以上/個体を試すための独立制御、支持、局所面/根/接合が揃う。T01–08の実結果と不成立域を記録 | 正常形状ならR/C/D修復。主要構造欠落ならG1へ、Canonとの衝突はH5 |
-| G3 Motion/接触stress | C全130の必須能力＋profile限定差を実物で照合、T14の組合せ/左右/入出/解放。OPTIONALは採否を分離 | clip/target/corrective/支持修正。候補不成立で必須Identity改変不可 |
+| G3 Motion/接触stress | C全84の必須能力＋profile限定差を実物で照合、T14の組合せ/左右/入出/解放。OPTIONALは採否を分離 | clip/target/corrective/支持修正。候補不成立で必須Identity改変不可 |
 | G4 商品/所有/状態 | T09–13、Food5style/5tasteと消費、1Wear、Secret/WAIT/出口、Gift移管/束競合、foreground復帰が一致 | 実装/商品未決定と形状失敗を区別。必要Human仕様判断へ |
 | G5 export/runtime/スマホ | T15、GLB/PlayCanvasで作者側の顔/支持/局所変形/物体/clip同等、非Hero可読性、実機負荷測定 | export/bake/素材/重層/構造最適化と再QA。数値性能は実測から |
 | G6 知覚最終受入 | 各個体がCanonicalの魅力とらしい因果/触れ合い/生命感を保ち、必須能力とQA証拠が揃いHumanが承認 | 技術PASS単独で完成にしない。未承認候補は本番契約へ昇格しない |
@@ -695,24 +592,19 @@ gateは責任/証拠の境界であり、順序を硬直させる制作方法で
 
 | 個体 | Family | profiles | MUST能力対象 | OPTIONAL能力対象 |
 |---|---:|---:|---:|---:|
-| Carol | 46 | 156 | 46 / 156 | 0 / 0 |
 | Jill | 27 | 81 | 25 / 77 | J26/J27: 2 / 4 |
 | Pino | 29 | 86 | 26 / 80 | P04/P28/P29: 3 / 6 |
 | Shushu | 28 | 85 | 26 / 81 | S27/S28: 2 / 4 |
-| **合計** | **130** | **408** | **123 / 394** | **7 / 14** |
+| **合計** | **84** | **252** | **77 / 238** | **7 / 14** |
 
 MUST/OPTIONALは採用能力の要求区分。Jill/Pino/Shushuの具体演技はDRAFTであり、MUST行数は正式演技承認の件数ではない。OPTIONALでも両眼/短肢/翼root/支持/通常顔等の共通MUSTを削らない。
 
-重点監査を実施済み。Phase 3の全ID/各V/重点QとCの130行を機械照合し、欠落/重複/V不一致/元の重点Q欠落は0。個体別46/156・27/81・29/86・28/85、合計130/408が一致した。全408profileの列挙をFamily共通能力と最終列/Lの追加差に照合し、D逆引きも一致した。G/R/M/T分離、Jの全4体9カテゴリ以上/計38検査姿勢、18failure、pose分離、入力HOLD/未知、Carol FINAL保護を確認した。表の列数不整合/既存参照リンク切れは0。変更対象は本書だけで、正式資料/画像/3D/アプリの変更なし。**coverageは設計の対応完了であり、408profileの実物成立証明ではない。**
-
 **PHASE_4_COMPLETE / DRAFT / HUMAN_REVIEW_PENDING。** 次は明示された別タスクでG0のTripo Preflightを行う。本タスクは本書の重点監査・commit/push後に停止し、モデル/Rig/clip生成やPhase 5へ進まない。
-
 
 ## T. Post-Phase-4 Human Decision / Input Update (2026-10-11)
 
-This update records current input decisions after Phase 4. The direct observations in O1 above remain the Phase 4 snapshot. Where that historical snapshot or any earlier handoff text describes Carol Back or Jill Right as unresolved current work, this section supersedes that interpretation. The Phase 4 Motion/Anatomy/Rig Capability contract and its historical observations are unchanged.
+This update records current input decisions after Phase 4. The direct observations in O1 above remain the Phase 4 snapshot. Where that historical snapshot or any earlier handoff text describes Jill Right as unresolved current work, this section supersedes that interpretation. The Phase 4 Motion/Anatomy/Rig Capability contract and its historical observations are unchanged.
 
 1. **Jill Right replaced:** The former Right image faced screen-left like Left. It is excluded from the current set (old SHA-256 `f745cbd01b8224b45354e9c3f1621b4668f51cc00df3cfc9287deda415ef019a`). New original `ChatGPT 画像 2026年10月11日 18_08_13.png` (1145×1374; SHA-256 `9572b69c0bbbe66eda9ef2e1011f8f0e040126b3d84cec10446da47a9233c9dc`) is registered as `assets/grimo/source/jill/tripo-generation-pose/jill_bodyonly_right.png` and faces screen-right. Jill's selected input is updated; camera-slot interpretation and technical preflight remain unverified.
-2. **Carol Back intentionally omitted:** Human decided not to create or use a Carol Back image after repeated generated candidates failed lower-body taper, hoof-shape, and three-dimensional-connection quality. Use approved Front, Left, and Right as the planned Tripo inputs if supported. This decision does not claim accurate reconstruction of unseen rear anatomy.
-3. **Studio support unknown:** Current Tripo support for three-view input and its camera-slot mapping have not been checked. If three views are unsupported or a required slot prevents this input plan, hold and decide the next input method separately. No Tripo operation or Credits use occurred in this update.
-4. **Readiness:** All 15 registered images remain `BODY_ONLY_REFERENCE_ACCEPTED`; technical Tripo preflight remains `PENDING`. This update does not declare Tripo Ready or Rig Ready.
+3. **Studio support unknown:** Current camera-slot mapping and technical preflight remain unverified. No Tripo operation or Credits use occurred in this update.
+4. **Readiness:** All 12 retained images remain `BODY_ONLY_REFERENCE_ACCEPTED`; technical Tripo preflight remains `PENDING`. This update does not declare Tripo Ready or Rig Ready.

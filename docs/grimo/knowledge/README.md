@@ -10,9 +10,6 @@ executors. It does **not** replace ChatGPT Project Memory.
    `GRIMO_PROJECT_KNOWLEDGE_INDEX.md`.
 3. **GitHub** — mutable execution truth.
 
-For current Carol branch/candidate/attempt/blocker/Human-Gate/handoff, read only
-`docs/production/carol/CAROL_PRODUCTION_STATE.md`.
-
 ## Active durable authority
 
 | Question | Repository document |
@@ -24,19 +21,7 @@ For current Carol branch/candidate/attempt/blocker/Human-Gate/handoff, read only
 | Full routing / authority order | `GRIMO_PROJECT_KNOWLEDGE_INDEX.md` |
 | Product features | `product/GRIMO_PRODUCT_FEATURE_SPEC.md` |
 | Logical data model | `product/GRIMO_DATA_MODEL_SPEC.md` |
-| Carol motion vocabulary | `character-production/carol/CAROL_MVP_MOTION_SPEC.md` |
 | Blender implementation technique | `character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md` |
-
-## Carol visual / geometry routing
-
-Visible final identity is led by
-`assets/grimo/source/carol/carol-Identity-canonical.png`, then approved Normal
-Front/Side and the full-spatial fleece-included Carol realization. Front Hero
-presentation receives the highest polish, but exterior geometry must remain
-coherent through practical 3/4, Side, Rear and derived Top exposure. Skin
-Front/Side plus `docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md` remain
-supporting underbody authority for support, rigging, deformation, attachment,
-clearance, and spatial continuity.
 
 ## Evidence
 
@@ -53,3 +38,7 @@ contents are retained under `docs/archive/grimo-legacy-knowledge/`.
 
 Do not restore an archived recommendation merely because it was once labeled
 “final”, “Bible”, or “authority”.
+
+## 制作知見
+
+[キャラクター3D制作の恒久知見](character-production/GRIMO_CHARACTER_3D_LESSONS.md)を参照。廃止済みキャラクターの制作導線は撤去済み。現役対象はJill / Pino / Shushu。

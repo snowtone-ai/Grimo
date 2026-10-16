@@ -7,8 +7,6 @@ Search pattern supplied by the user: `ポケパルレ/ポケリフレ 〇〇と�
 
 | Grimo | Pokémon reference | URL | Why it is a useful topology/motion candidate | Annotation status |
 |---|---|---|---|---|
-| Carol | Mareep | https://www.youtube.com/watch?v=2HORfDvm5d0 | sheep-like body / fleece interaction candidate | timestamps/actions pending |
-| Carol | Whimsicott | https://www.youtube.com/watch?v=fntm3Dt6FYc | fluffy volume / soft-body read candidate | timestamps/actions pending |
 | Pino | Oshawott | https://www.youtube.com/watch?v=M9kz1BNo6QU | compact aquatic biped / front-limb expression candidate | timestamps/actions pending |
 | Pino | Buizel | https://www.youtube.com/watch?v=8-XsSzwNJ_o | otter-like silhouette / tail response candidate | timestamps/actions pending |
 | Jill | Dragonite | https://www.youtube.com/watch?v=xKC-XDnjuFo | dragon body / head-wing-tail relation candidate | timestamps/actions pending |

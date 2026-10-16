@@ -2,7 +2,7 @@
 
 **Status:** Authoritative production specification candidate  
 **Date:** 2026-09-14  
-**Scope:** Carol first vertical slice; Jill / Pino / Shushu follow only after Carol passes all gates  
+**Scope:** Jill / Pino / Shushu; character-specific gates remain required
 **Production baseline hypothesis:** Front-Optimized 3D-First Living Character Architecture → Blender-centered authoring → GLB/glTF + PlayCanvas where validated → smartphone PWA  
 **Primary quality target:** world-class stylized character production; Partner Pikachu / Eevee-class living-companion interaction quality without copying their assets, poses, rigs, or exact animation
 
@@ -80,7 +80,7 @@ Within the current hypothesis:
   similar pseudo-life remains prohibited;
 - hidden geometry receives only the fidelity required by support, deformation,
   attachment, collision/clearance, or possible motion exposure;
-- if functional Carol prototypes or Partner Experience Production Analysis
+- if functional character prototypes or Partner Experience Production Analysis
   disprove the hypothesis, trigger Architecture Review and consider hybrid
   presentation.
 
@@ -109,7 +109,6 @@ A downstream stage must never be used to hide an upstream failure.
 
 Examples:
 
-- bad Carol silhouette → return to model/volume; do not fix with texture
 - scary gaze → fix eye geometry/range/head-eye coordination; do not add sparkles
 - rubber joint → fix rig/weights/corrective; do not slow the animation
 - weak touch causality → fix local reaction/pose composition; do not add VFX
@@ -127,7 +126,6 @@ The current single-view artworks contain the strongest approved identity signal:
 
 Files:
 
-- `assets/grimo/source/carol/carol-Identity-canonical.png`
 - `jill-identity-canonical.png`
 - `pino-identity-canonical.png`
 - `shushu-identity-canonical.png`
@@ -145,7 +143,6 @@ Authority:
 
 Files after explicit user approval:
 
-- `carol-3d-production-canonical.png`
 - `jill-3d-production-canonical.png`
 - `pino-3d-production-canonical.png`
 - `shushu-3d-production-canonical.png`
@@ -187,39 +184,6 @@ This directly addresses the largest current open technical risk in the Experienc
 # 3. Character anatomy contracts — corrected from the actual canonical images
 
 These contracts intentionally avoid inventing body parts that are not visually supported.
-
-## 3.1 Carol
-
-### Visible identity
-
-- young sheep-like dream-cloud Grimo;
-- extremely large white / pale-blue / pale-lilac cloud fleece;
-- tiny cream face embedded in the fleece;
-- extremely large glossy amber/brown eyes;
-- brown ears with warm pink inner ear;
-- short, dark-brown heavy hooves visible below the fleece;
-- crescent moon motif embedded on the viewer-left fleece region;
-- multiple attached yellow star motifs within/on the fleece;
-- additional detached clouds/stars/sparkles in the original illustration are **atmosphere**, not automatically anatomy;
-- **no production tail is to be invented unless a later approved 3D canonical defines one.**
-
-### Production body grammar
-
-- low, grounded support mass;
-- hidden torso exists as a deformation/support chassis, not as a realistic sheep body to expose;
-- face/head is a primary acting region;
-- fleece is a dominant silhouette shell/cluster system that follows primary action rather than leading it;
-- hooves must retain apparent weight and ground contact.
-
-### Forbidden drift
-
-- realistic sheep proportions;
-- long visible legs;
-- strand-fur realism that changes the cloud silhouette;
-- global soft-body jelly;
-- whole-body breathing balloon;
-- invented wagging tail;
-- moon/star effects acting continuously.
 
 ## 3.2 Jill
 
@@ -397,7 +361,6 @@ Prioritize topology around:
 - cheek/muzzle/mouth region;
 - ear/wing roots;
 - limb roots and deep bends;
-- Carol fleece zones that must locally compress/lean;
 - Jill tail root / wing root;
 - Pino tail root / seated compression;
 - Shushu arm/bouquet contact and seated plush compression.
@@ -515,8 +478,6 @@ They may coexist in one `.blend`, but their responsibilities remain distinct.
 
 **CloudRig is a strong production-proven candidate, not an automatic mandate.** Blender Studio currently uses it to generate control rigs and explicitly combines generated rigs with manual weight painting and corrective shape keys. [B]
 
-For Carol Phase Rig Prototype:
-
 - prototype A: CloudRig-derived custom metarig;
 - prototype B: compact custom rig if CloudRig complexity/export indirection becomes a liability.
 
@@ -568,7 +529,6 @@ Corrective shape keys/pose-driven correctives are approved for:
 - shoulder/hip root volume;
 - eyelid/cheek combinations;
 - mouth/cheek combinations;
-- Carol fleece compression/intersection avoidance;
 - Jill wing root / tail root;
 - Pino seated belly/hip compression;
 - Shushu arm/bouquet contact and plush body compression.
@@ -643,57 +603,7 @@ Avoid:
 
 ---
 
-# 12. Carol dream-cloud fleece system
-
-## 12.1 Recommended production architecture
-
-Start from:
-
-```text
-coherent master fleece silhouette
-+
-sparse major regional masses/controls
-+
-broad deform bones and/or lattice-like authoring controls
-+
-corrective morphs for local compression / intersections
-+
-authored secondary follow-through
-+
-very limited runtime residual if later proven safe
-```
-
-The exact implementation is not locked until Carol prototypes prove it.
-
-## 12.2 Required properties
-
-- front sacred silhouette remains stable;
-- local touch can deform a region without collapsing the whole mass;
-- head/body motion can transfer into fleece with delayed follow-through;
-- hooves and face remain readable;
-- volume stays visually coherent;
-- settle stops cleanly when emotion has settled;
-- no independent random tuft chatter.
-
-## 12.3 Reject
-
-- whole-fleece Soft Body as primary acting system;
-- cloth-driven key poses;
-- hundreds of independent wool balls;
-- perpetual spring motion;
-- full-body scale-breathing;
-- secondary motion beginning before the face/head/hidden torso establishes intent.
-
----
-
 # 13. Character-specific rig/motion implications
-
-## Carol
-
-- primary: face/head, hidden torso/COM, hooves;
-- secondary: ears, fleece regional masses, attached motif residual;
-- support: low/heavy/grounded;
-- invitation/contact: cheek/forehead/head offer rather than invented tail behavior.
 
 ## Jill
 
@@ -826,8 +736,6 @@ persistent internal state / motive
 - only necessary channels participate;
 - gaze, eyelids, head, ears/appendages and body may operate at different cadences **because of state/cause**, not random phase offsets;
 - recent behavior history suppresses obvious repetition.
-
-Carol 15–30s no-input Gate must include quiet intervals and still feel alive.
 
 ---
 
@@ -1009,7 +917,6 @@ The Minimum Requirements demand practical Pixel 7a-class PWA performance, sustai
 
 - **Experience target:** 60 fps where practical; frame-time stability is more important than a misleading average.
 - 30 fps may be an explicit degraded/fallback mode only if the final experience remains acceptable; it is not the initial artistic acceptance target.
-- build the highest-quality Carol master required for the visual/animation gate;
 - profile on target device;
 - identify measured bottleneck;
 - optimize that bottleneck;
@@ -1082,7 +989,7 @@ GUI/MCP interaction remains useful for genuinely visual sculpt/pose tasks, but o
 
 ## 23.4 Human final authority
 
-- “this is Carol/Jill/Pino/Shushu”;
+- “this is Jill/Pino/Shushu”;
 - silhouette appeal;
 - eye appeal;
 - expression identity;
@@ -1172,7 +1079,6 @@ Required review forms:
 | mechanical motion | blocking/timing/curves | return to intent/key pose/timing; remove generic easing/noise |
 | all parts move together | channel design | restore lead/follow hierarchy and selective recruitment |
 | constant movement | idle scheduler/authoring | add stillness; remove oscillators |
-| Carol fleece jelly | fleece rig/secondary | stabilize master silhouette; reduce/global physics; author clusters |
 | Jill insect-like | wing/secondary | episodic wing action; chest lead; heavy tail |
 | Pino balloon | body deformation | weighted seated compression, nonuniform designed squash, heavy tail |
 | Shushu sad when idle | expression/state | calm neutral eyelids/posture; avoid downward gaze as default |
@@ -1183,139 +1089,6 @@ Required review forms:
 
 ---
 
-# 27. Carol vertical-slice execution plan
-
-## Phase 0 — Authority and version lock
-
-**Deliverables:** identity canonical hash; approved production-canonical status; Blender 5.2.1 LTS pin; extension pins; project coordinate/unit/export policy.  
-**Gate:** no Blender authoring before authority is unambiguous.
-
-## Phase 1 — Identity measurement
-
-Measure silhouette, eye centers/size, face/fleece ratio, ear positions, hoof visibility, moon/star anchors, negative spaces.  
-**Human:** confirms which measurements are identity-critical.
-
-## Phase 2 — 3D production canonical
-
-Use user-approved multi-view sheet. Resolve hidden torso/ear/hoof/fleece attachment without adding unsupported anatomy.  
-**Gate:** user approves all required views.
-
-## Phase 3 — Blockout
-
-Primary volumes only. Canonical camera fixed.  
-**PASS:** unmistakably Carol in clay from canonical view.
-
-## Phase 4 — Volume gate
-
-Front + approved 3/4/profile views.  
-**FAIL:** if off-axis turns into generic sheep/cloud ball.
-
-## Phase 5 — Early expression stress test
-
-Temporary blink/content/smile/gaze/cheek-lean.  
-**Purpose:** expose bad face volume before retopo.
-
-## Phase 6 — Final model/sculpt
-
-Resolve primary/secondary forms; no unnecessary micro-fur.
-
-## Phase 7 — Production retopo
-
-Deformation-driven topology; preserve silhouette; record final triangulated QA later.
-
-## Phase 8 — UV/lookdev
-
-Canonical palette/material readability; eye lookdev priority.
-
-## Phase 9 — Rig prototype comparison
-
-CloudRig-derived custom metarig vs compact custom rig if needed.  
-**Decision:** choose only after actual Carol control/export test.
-
-## Phase 10 — Skinning
-
-Auto only if useful as first pass → manual refinement.
-
-## Phase 11 — Corrective deformation
-
-Pose-specific fixes; Carol fleece/face/limbs.
-
-## Phase 12 — Final eyes/face
-
-Identity Envelope locked by approved expressions and gaze extremes.
-
-## Phase 13 — Deformation stress test
-
-All standard + Carol-specific poses; capture grid.
-
-## Phase 14 — Neutral support / COM
-
-Carol must read heavy-hoof grounded before life motion.
-
-## Phase 15 — Living idle
-
-15–30s; long stillness allowed; no oscillator life system.
-
-## Phase 16 — Gaze / blink / attention
-
-Runtime-compatible approved envelope; no constant user stare.
-
-## Phase 17 — Semantic touch local reflex
-
-Immediate local ACK for head/cheek/fleece zones.
-
-## Phase 18 — Contact-seeking
-
-Head/cheek moves toward accepted contact; side preserved; fleece follows.
-
-## Phase 19 — Autonomous invitation + WAIT
-
-Character initiates and can patiently wait without full-body motion.
-
-## Phase 20 — Boundary / withdrawal
-
-Mild, non-hostile, grounded withdrawal; afterglow preserved.
-
-## Phase 21 — Hero reaction
-
-One larger authored emotional phrase; sound-off acting must pass.
-
-## Phase 22 — Interruption / redirect
-
-New input can safely redirect behavior without pop/snap/queue spam.
-
-## Phase 23 — Variation / repetition suppression
-
-Family/history/context variation rather than clip-count inflation.
-
-## Phase 24 — Secondary fleece
-
-Primary acting locked first; compare secondary off/on.
-
-## Phase 25 — Export rig + GLB
-
-Bake/export, glTF validation, morph/bone/animation manifest, triangulated capture.
-
-## Phase 26 — PlayCanvas integration
-
-State graph/layers/masks/touch/gaze/interruption.
-
-## Phase 27 — Pixel 7a-class real-device profiling
-
-Measure before locking budgets. 60fps experience target where practical.
-
-## Phase 28 — Optimization + regression
-
-Optimize measured bottlenecks only; visual/motion regression mandatory.
-
-## Phase 29 — Final Companion Gate
-
-Several minutes of interaction must no longer feel like a technical demo or canned puppet.
-
-Only after PASS may the architecture expand to Jill. Jill is the preferred second character because wings + foliage + heavy tail stress-test generality.
-
----
-
 # 28. Human Gate system
 
 These gates are **review dimensions, not a strict sequential waterfall**.
@@ -1323,9 +1096,6 @@ Technical PASS cannot override user-visible failure. If a downstream final-use
 condition can cheaply determine whether an upstream defect matters, prototype
 that condition early. Repeated local blockers are subject to the repository
 Goal-Backward Production Rule.
-
-## Gate A — Canonical Identity
-Neutral Carol is unmistakably Carol.
 
 ## Gate B — 3D Volume
 Approved off-axis views preserve identity and attachment logic.
@@ -1384,30 +1154,6 @@ Any Blender/extension/runtime upgrade requires:
 
 Suggested per-character structure:
 
-```text
-characters/carol/
-  canonical/
-    carol-Identity-canonical.png
-    carol-3d-production-canonical.png
-    authority.json
-  blender/
-    carol-master.blend
-    scripts/
-    presets/
-  textures/
-  manifests/
-  qa/
-    canonical/
-    clay/
-    deformation/
-    animation/
-    export/
-    runtime/
-  export/
-    carol.glb
-    carol.manifest.json
-```
-
 Binary asset strategy may use Git LFS or equivalent; source hashes and accepted-export hashes are mandatory.
 
 ---
@@ -1450,7 +1196,6 @@ Binary asset strategy may use Git LFS or equivalent; source hashes and accepted-
 13. assume Blender-only features survive GLB;
 14. encode invented fixed performance budgets as facts;
 15. auto-update a production rig/tool version;
-16. expand to four characters before Carol proves the system.
 
 ## Before modeling
 
@@ -1517,14 +1262,11 @@ identity volume, face/eye design, hero topology, final deformation, expression e
 
 Do not fabricate answers for:
 
-- exact Carol hidden torso/side/back shape before approved production canonical;
-- exact Carol fleece residual lag limit;
 - exact touch-anchor robustness under deformation;
 - exact Pixel 7a triangle/bone/morph/texture ceiling;
 - final gaze/extreme facial ranges;
 - final per-character touch preference maps;
 - exact runtime cost of chosen eye/fleece/morph implementation;
-- final CloudRig-vs-custom-rig choice for Carol.
 
 These are prototype/Human-Gate questions, not documentation gaps to fill by guessing.
 
@@ -1539,7 +1281,7 @@ These are prototype/Human-Gate questions, not documentation gaps to fill by gues
 - `GRIMO_EXPERIENCE_MOTION_BIBLE.md`
 - `GRIMO_PARTNER_PIKACHU_VIDEO_MOTION_ANALYSIS.md`
 - `GRIMO_PARTNER_EEVEE_VIDEO_MOTION_ANALYSIS.md`
-- current approved Carol/Jill/Pino/Shushu identity canonical images
+- current approved Jill/Pino/Shushu identity canonical images
 
 ## Current primary/professional external sources checked on 2026-09-14
 

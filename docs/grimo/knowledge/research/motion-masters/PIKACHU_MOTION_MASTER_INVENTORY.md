@@ -5,7 +5,6 @@
 ## 0. Source / Evidence Rules
 
 - Formal evidence is restricted to the six completed `PIKACHU_MOTION_INVENTORY_*` Markdown inventories listed in §1.
-- No Web, YouTube, Partner Eevee, Pokémon general knowledge, prior consolidated Pikachu analysis, Grimo Project Knowledge, Carol specifications, or unlisted motion is used to add a Family/Variant/Occurrence.
 - Source evidence labels such as `[V1]`, `[V2]`, and `[U]` are retained through source Confidence fields and are not upgraded.
 - Anatomical left/right is not inferred when a source uses `screen-left` / `screen-right`.
 - VFX/audio/UI are never treated as body-motion channels. System/UI-only transitions remain in the corpus only because source inventories explicitly retain them for full-video coverage.
@@ -965,5 +964,3 @@ The table below is the authoritative Master-Variant trace. `Defining Difference`
 Reason: all **98 / 98** source-local Family candidates from the six formal inventories map to at least one Master Family; all six videos are represented; duplicate exports are excluded; evidence uncertainty and non-additive occurrence semantics are retained rather than normalized away.
 
 ---
-
-**Boundary:** This Master is a normalized observation reference for the six Partner Pikachu inventories only. It does not decide Carol/Grimo adoption, motion counts, rig design, Blender clips, PlayCanvas implementation, or comparisons with Partner Eevee.

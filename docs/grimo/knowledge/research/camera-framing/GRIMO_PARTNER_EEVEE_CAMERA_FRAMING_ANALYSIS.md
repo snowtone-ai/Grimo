@@ -6,13 +6,6 @@
 
 ## Executive conclusion
 
-Partner Eevee evidence indicates a front interaction presentation centered on
-face readability and large screen presence. Carol must not blindly copy Eevee's
-occupancy because Carol's fleece silhouette is wider and ordinary secondary
-motion needs room.
-
-Recommended Carol screen-space starting contract:
-
 ```text
 target_character_height_ratio      = 0.76
 acceptable_character_height_range  = 0.70–0.86
@@ -49,8 +42,6 @@ preferred_lr_margin      ≈ 0.18–0.22 per side
 - No clear camera follow/zoom change was required to explain the representative
   interaction intervals; much screen-space change can be explained by character
   root/pose/forward lean.
-- Carol should keep the “large on-screen companion” philosophy while pulling
-  back enough to protect her wider fleece/ears/tail secondary envelope.
 
 ## Usage
 

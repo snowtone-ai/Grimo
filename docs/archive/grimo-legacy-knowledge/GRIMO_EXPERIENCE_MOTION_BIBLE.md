@@ -4,7 +4,7 @@
 **Status:** Authoritative production specification  
 **Version:** 1.0 — Final Synthesis  
 **Date:** 2026-09-14  
-**Scope:** Carol / Jill / Pino / Shushu character experience, motion, interaction, runtime behavior, production gates, QA
+**Scope:** Jill / Pino / Shushu character experience, motion, interaction, runtime behavior, production gates, QA
 
 > **North-star statement**  
 > Grimoは「たくさん動くキャラクター」ではない。注意・意図・身体因果・感情・余韻・自発性を持ち、ユーザーの行為を身体で受け取り、自分からも関係を始める「そこに存在している相棒」である。
@@ -23,7 +23,6 @@
 - behavior runtime / PlayCanvas integration
 - Codex task specification / AI production routing
 - animation review / regression / QA
-- Carol Vertical Slice / Human Gate
 - Jill / Pino / Shushuへの展開
 
 本書の役割は「研究の要約」ではなく、**何を作り、どう動かし、何を禁止し、どう合否判定するかを一意にすること**である。
@@ -37,7 +36,6 @@
 3. `Grimo「生きている相棒」体験設計 — Partner Pikachu / Eevee の感動を分解し、四匹へ再構成する.md`
 4. `GRIMO_PARTNER_PIKACHU_VIDEO_MOTION_ANALYSIS.md`（提供ファイル名は `(1)` suffix）
 5. `GRIMO_PARTNER_EEVEE_VIDEO_MOTION_ANALYSIS.md`（提供ファイル名は `(1)` suffix）
-6. `assets/grimo/source/carol/carol-Identity-canonical.png`
 7. `jill-canonical.png`
 8. `pino-canonical.png`
 9. `shushu-canonical.png`
@@ -85,10 +83,9 @@
 | Production Architecture旧記述ではcanonical未視認 | 旧research環境の制約。今回4枚を実視認 | **旧制約をsupersede。4枚をvisual authorityとしてbody grammarを再裁定** | 現在の入力条件では視覚確認が可能 |
 | Experience Researchのeye→head推奨 vs videoでeye-only gazeの証拠が弱い | Direct videoではfine pupil tracking未確認 | **Grimoにはeye aimを実装するが、Pokémon実測事実として扱わない** | capabilityとして有効だがevidenceを誇張しない |
 | 過去資料の初期timing range vs video measured timing | 例：Pika/Eevee high-fiveの1–2f級visible ACK、単一blink約133ms等 [V1] | **実測値はreference evidence、Grimo値はtuning envelope。exact timingをコピーしない** | Pokémon固有performanceの複製を避け、偽精密性も避ける |
-| Technology-agnostic requirement vs full-3D recommendation | Requirementsは研究前のtechnology neutrality。Architecture researchはfull 3D + web-nativeを総合1位 | **Carol Gate A–Hを通る限り full 3D + Blender + PlayCanvas をproduction baseline** | 研究終了後の具体決定として整合。Gate失敗時はhybridへ戻す |
 | Negative Pokémon reaction vs positive-only care philosophy | Videoではanger/disengagementあり。Requirementsはpunishment禁止 | **Grimoはhint→mild refusal→withdrawalまで。攻撃・罪悪感・neglect punishmentは禁止** | agency/boundaryは残し、retention punishmentは採用しない |
 | Physical correctness vs appeal | Requirementsはgrounded causality、Architectureはappeal > simulation purity | **重さ・因果はauthored actingで守り、physicsは小さい残差に限定** | 正しい物理より「その子らしい身体説得力」が目的 |
-| Character sharing vs scalability | Shared runtimeは必要、同じanimation retargetは禁止 | **共有するのはsemantic/runtime contract。motion performanceはcharacter-specific** | 4匹の人格差を守りながら長期保守可能 |
+| Character sharing vs scalability | Shared runtimeは必要、同じanimation retargetは禁止 | **共有するのはsemantic/runtime contract。motion performanceはcharacter-specific** | 3匹の人格差を守りながら長期保守可能 |
 
 ---
 
@@ -343,7 +340,7 @@ VFX peakはbody actingの後または同時。VFX先行で感情を代替しな�
 11. motion without bodily / attentional / emotional cause。
 12. excessive squash/stretchでcanonical体積・年齢感・柔らかさを壊す。
 13. VFX / particles / musical symbolsでbody actingを置換する。
-14. 4匹へ同一animationをretargetし、速度差だけで人格を作る。
+14. 3匹へ同一animationをretargetし、速度差だけで人格を作る。
 15. fixed-period blink / ear / tail / head oscillators。
 16. random noiseをsecondary motionと呼ぶ。
 17. disliked touchを即最大angerへ飛ばす。
@@ -383,8 +380,6 @@ VFX peakはbody actingの後または同時。VFX先行で感情を代替しな�
 ## 5.2 Layer ownership
 
 Hero behaviorが特定channelを所有中、random idle schedulerはそのchannelへ割り込まない。
-
-例：Carol cheek lean中はhead/near ear/fleece-localをinteractionが所有。blinkは許可しても、random head-turnはmaskする。
 
 ## 5.3 Priority order
 
@@ -443,7 +438,6 @@ NOTICE_USER
 
 | Character | Gaze style |
 |---|---|
-| Carol | soft, longer dwell; attention-seekingだがrelaxed。目→headは穏やか。ignored invitationではhopeful glance→withdraw |
 | Jill | quick notice, shorter dwell, more frequent reorientation。chest/upper bodyもattentionに参加 |
 | Pino | quick glance + deliberate look-awayが多い。independentなのでuser lockを短くする |
 | Shushu | slow glance, long soft dwell, gaze-awayも自然。急なtrackingは最小 |
@@ -588,8 +582,6 @@ user touches
 → character actively leans / compresses / presents
 → contact becomes bidirectional
 ```
-
-をP0 Carolへ採用する。
 
 ## 8.5 Boundary grammar
 
@@ -792,7 +784,6 @@ engagement / disengagement
 
 ## 12.3 Character rules
 
-- **Carol:** main fleece silhouette stable; 2–4 large deformation controls authored; outer tuft groups small residual. Whole-fleece soft body = No-Go.
 - **Jill:** wing arc / tail base / leaf-mane intention authored; leaf tips / flower heads small lag; heavy tail tip delayed, never cat-fast.
 - **Pino:** body squish authored and identity-clamped; tail base authored, terminal chain small residual; water/bubbles are restrained event effects.
 - **Shushu:** plush compression authored; crown/bouquet relationship maintained; flower/petal heads small lag only.
@@ -841,265 +832,9 @@ Character may combine seated support with upright social gestures or quadruped r
 
 | Character | Primary grammar | Secondary reference |
 |---|---|---|
-| Carol | **Quadruped / low grounded** | Eevee weight propagation + Pikachu face/social principles |
 | Jill | **Seated mixed / upright-upper-body** | Pikachu torso/forelimb social grammar + heavy-tail follow-through principles |
 | Pino | **Seated mixed** | Pikachu forelimb/social clarity + Eevee contact-seeking / tail lag |
 | Shushu | **Grounded seated** | Pikachu upper-body social gesture + Eevee moving-hold / settle principles |
-
----
-
-# 14. Carol Experience & Motion Bible
-
-## 14.1 Identity — canonical non-negotiables
-
-実視認した `assets/grimo/source/carol/carol-Identity-canonical.png` を唯一のvisual source of truthとする。
-
-壊してはいけない特徴：
-
-- 極端に大きい白〜淡い青紫の**dream-cloud fleece**が全体silhouetteの大半を占める。
-- 小さなcream faceがfleeceへ埋め込まれるように見える。
-- 非常に大きいbrown〜amber glossy eyes、星状highlights、柔らかい頬の赤み。
-- brown ears、pink inner ear。左右へ低めに広がる。
-- brown hoovesがfleece下から短く見える。足長化禁止。
-- crescent moonとgold star motifs。cloud-like tufts / pale blue-violet shadow hierarchy。
-- 幼く、丸く、安心感があり、硬い羊毛やrealistic sheep anatomyへ寄せない。
-- neutral silhouetteは横長・低重心。fleeceがbodyを隠すこと自体がidentity。
-
-## 14.2 Personality
-
-**attention-seeking + relaxed**。
-
-「構ってほしい」意思はあるが、興奮で押し付けない。ユーザーへ柔らかく空間を開き、待ち、触れられると体重を預ける。
-
-## 14.3 Body Grammar
-
-**Quadruped / low grounded**を採用。
-
-- hidden torso / COMはfleece内にあるが、4 hoof supportを感じさせる。
-- headはfleeceから独立してorient / leanできる。
-- hoofは軽快に跳ねず、比較的heavy。
-- face/headの小さい動きが主役。root motionは節約。
-- fleeceはbodyそのものではなく、bodyに付随する巨大soft structure。全体を一塊で変形させない。
-
-## 14.4 Motion Signature
-
-| Dimension | Carol rule |
-|---|---|
-| motion lead | face / eyelid / head。touchではlocal cheek/fleece first |
-| baseline energy | low–medium |
-| amplitude | usually small; rare medium peak |
-| tempo | slow, soft onset; no sluggish input ACK |
-| weight | hooves / hidden torso grounded; fleece visually soft but not weightless |
-| gaze | longer soft dwell; gentle glance-away |
-| blink | soft; expression eye-closeは長くてもよい |
-| head | small lean / lower / offer; sharp turnsを避ける |
-| ears | subtle, asymmetric, attention-sensitive |
-| limbs | minimal; forehoof can become rare social affordance |
-| fleece | local→neighbor→global-small lag; cause-driven only |
-| stillness | high tolerance; 8–25s-class relaxed moving hold可 [G] |
-| settle | slow layered settle; fleece last |
-| afterglow | long, warm, low-amplitude |
-
-## 14.5 Living Idle Grammar — 15–30 s
-
-固定loopではなく、次のbandを非同期合成する。
-
-```text
-continuous-ish: tiny breath / posture maintenance
-intermittent: blink / eyelid change / eye glance
-sparse: head correction / one-ear response
-rarer: hoof micro-adjust / small weight transfer
-rare: bounded autonomous affection / curiosity phrase
-valid at all times: intentional stillness
-```
-
-**Example 20s session — sequenceではなくevent densityの例 [G]**
-
-- 0–4s: content hold、tiny breath、one blink
-- 4–8s: userへ短いglance、headは追わない
-- 8–13s: quiet。one earだけsmall orientation
-- 13–17s: tiny head lower、fleece local lag
-- 17–20s: stillness + slow release
-
-同じ秒配置を再生しない。
-
-## 14.6 Attention Grammar
-
-- attention-seeking時：eyes → tiny head lift → one ear forward → accessible cheek/forehead pose。
-- relaxed時：soft user fixation後、gazeを外してもよい。
-- pet中：contact sideへeye/headを寄せるが、eyesを閉じて「外界より触感へ注意」が移ることもある。
-- ignored invitation：一度だけsmall glance、then slow withdraw。罪悪感表現禁止。
-- mild dislike：最初はuser/contactを見る。withdrawalへ進むとgazeを外す。
-
-## 14.7 Touch Zone Map [G]
-
-指定資料にCarol固有の確定zone mapはないため、canonical anatomyとpersonalityから本Bibleで正式化する。Human Gateで必要ならrevisionする。
-
-| Class | Semantic zones | Design intent |
-|---|---|---|
-| **Preferred** | forehead/head top, cheek.L/R, ear root.L/R | affection-seekingを最も読みやすくする |
-| **Neutral** | front fleece, side fleece, upper back fleece | calm acknowledgement; every touchで大喜びしない |
-| **Disliked / sensitive** | hooves/feet, hind-lower body under fleece, repeated rough poke near rear | grounded limb protection / personal boundary |
-| **Special** | crescent moon anchor, large star motif anchors | rare magical recognition; low-frequency only |
-| **Excluded** | eyeballs/iris, mouth interior, detached decorative particles/cloudlets | touch colliderを置かない |
-
-## 14.8 Gesture × Zone Reaction Matrix
-
-| Zone class | Tap / poke | Slow pet | Continuous stroke | Back-and-forth pet |
-|---|---|---|---|---|
-| Preferred | `notice_soft` / curious blink | `accept_lean` | `comfort_build` → deeper lean | `melt_into_touch` candidate; repetition saturationあり |
-| Neutral | local fleece ack; small glance | mild content | relax if duration grows | may become preferred-like only if comfort high |
-| Sensitive | local flinch / hoof protect | tolerate briefly | clear hint→withdraw | boundary pressure rises; mild disengage |
-| Special | motif notices / gaze shift | no generic pet response | if held/slow: rare motif-affect branch | repeated rubbing does **not** spam VFX |
-| Excluded | no semantic reaction | no reaction | no reaction | no reaction |
-
-## 14.9 Positive Head / Cheek Pet Chain
-
-Starting envelope [G], not Pokémon copied timing:
-
-```text
-0–80 ms      local cheek / local fleece acknowledgement
-50–180 ms    eyelid / face softening
-80–220 ms    attention toward contact
-120–320 ms   head begins side-specific lean
-180–450 ms   near ear relaxes; opposite ear may remain alert
-250–700 ms   hidden torso makes tiny grounded transfer
-300–900 ms   nearest fleece cluster follows
-700–1600 ms  broader mass settles
-1.5–5 s      content afterglow
-```
-
-Continuous pet uses `comfortAccumulator`; no repeated clip retrigger.
-
-## 14.10 Self-Initiated Behaviors
-
-P0/P1 candidates:
-
-- `want_affection`: looks → cheek/forehead offer → WAIT
-- `soft_check_in`: brief user glance → tiny head tilt → return
-- `ear_monitor`: one ear responds while face stays relaxed
-- `fleece_nestle`: face sinks a little into fleece, then looks out
-- `quiet_content`: eyes soft/close, long hold
-- `small_hoof_adjust`: support correction with local fleece lag
-
-## 14.11 Affection Behaviors
-
-- side-specific cheek lean
-- forehead lower for pet
-- gentle eye close + small smile
-- post-pet delayed look-back
-- rare deeper body commitment toward user
-- second-turn offer: opposite cheek / forehead / low forehoof, never fixed sequence
-
-## 14.12 Mild Dislike Behaviors
-
-Four levels:
-
-1. **Hint:** eyelid tighten, one ear away, tiny mouth uncertainty.
-2. **Refusal:** head withdraws, cheek no longer offered, hoof protects.
-3. **Withdrawal:** body partly rotates away, face sinks into fleece, one ear monitors.
-4. **Residue:** mild gaze avoidance / ear offset / head offset for seconds.
-
-No electric/anger analogue, no punishment, no dramatic sadness.
-
-## 14.13 Feeding
-
-Use staged temporal grammar:
-
-```text
-notice item
-→ orient / sniff-like visual inspection
-→ approach mouth
-→ consume event
-→ short evaluation / chew-like pause
-→ face response
-→ optional small head/body pleasure
-→ fleece residual
-→ afterglow
-```
-
-Reference footage supports consume→delight delay around 0.8–0.9s in Eevee and staged feeding in Pikachu [V1/V2]; Carol timing must be tuned independently.
-
-## 14.14 Gift / Toy
-
-- Carol may reveal / nudge / notice an item from the accessible front-fleece area only if prop relationship is physically readable [G].
-- toy tracking uses eyes/head first; hoof use remains restrained.
-- gift should be Character → User agency, not reward pop-up disconnected from body.
-- rare moon/star accent may support discovery **after** bodily acting.
-
-## 14.15 Rare Behaviors
-
-- delayed affection after an interaction has already settled
-- quiet moon/star recognition
-- deeper cheek press
-- rare forehoof offer / reciprocal touch ritual
-- long dream-like eyes-closed moving hold
-
-Rare = context/cooldown/history weighted, not pure low-probability RNG.
-
-## 14.16 Secondary Motion — Dream-Cloud Fleece
-
-### Structural policy
-
-```text
-stable main silhouette
-+ authored large deformation controls
-+ local fleece cluster controls
-+ small residual tuft dynamics
-```
-
-### Causality
-
-```text
-head/body/hoof movement
-→ nearest fleece cluster
-→ adjacent cluster with smaller amplitude
-→ outer tuft residual
-→ settle
-```
-
-### Prohibitions
-
-- whole-fleece sine wave
-- global scale breathing
-- endless jelly wobble
-- all tufts moving in phase
-- physics-driven silhouette loss
-- moon/star decorations bouncing continuously
-
-## 14.17 Sound / Haptic / VFX
-
-- sound: soft nonverbal acknowledgement / content / tiny protest; body cue must read without sound.
-- haptic: optional, light and event-specific; progressive enhancement only.
-- VFX: moon/star only special or stronger affection beats. baseline sparkle spam禁止。
-- final hero Carol may target broad short-vocal/foley coverage rather than dialogue; source research suggests 40–80 short units as a long-term production guide [G], not P0 requirement.
-
-## 14.18 DO
-
-- preserve tiny face vs huge fleece ratio.
-- let cheek/head acting carry meaning before fleece.
-- keep hooves heavy and sparse.
-- use side-specific contact.
-- allow long quiet, content states.
-- make invitation gentle and patient.
-- let fleece settle later than face/head.
-
-## 14.19 DO NOT
-
-- make Carol bounce like a cloud ball.
-- turn fleece into soft-body simulation.
-- constantly wiggle both ears.
-- make moon/star effects the main emotion channel.
-- use high-energy Eevee ear-dance or Pikachu paw chain directly.
-- make all preferred touch immediately maximal happiness.
-
-## 14.20 Carol Signature Rules — never share directly
-
-1. **Face-in-fleece contrast:** tiny facial action leads a huge soft mass.
-2. **Soft offering:** affection invitation is spatially opening a cheek/forehead, not energetic pawing.
-3. **Hoof gravity:** feet stay heavier than the cloud-like surface.
-4. **Fleece echo:** emotion propagates into fleece after the meaning is already readable.
-5. **Dream accent restraint:** moon/star motifs are rare punctuation, never baseline activity.
 
 ---
 
@@ -1150,13 +885,13 @@ chest / upper-body intent
 | tempo | quick onset, springy but grounded |
 | weight | torso light-medium, tail heavy/rooted |
 | gaze | quick notice, eager reorientation |
-| blink | slightly quicker / more alert than Carol; no fixed interval |
+| blink | quick / alert; no fixed interval |
 | head | energetic tilt/lift; avoid constant bob |
 | wings | authored social/emotion arcs; not flapping noise |
 | forelegs | short, expressive accents |
 | leaf mane | delayed secondary, not primary intent |
 | tail | slow/heavy follow-through, low baseline movement |
-| stillness | shorter than Carol but still valid |
+| stillness | short but still valid |
 | settle | chest settles first; leaf/flower/tail later |
 | afterglow | bright, medium duration |
 
@@ -1172,7 +907,7 @@ chest / upper-body intent
 
 ## 15.6 Attention Grammar
 
-- quick eye notice → head/chest orientation more readily than Carol.
+- quick eye notice → head/chest orientation readily.
 - invitation: chest forward before wing/foreleg offer.
 - curiosity: one wing or head tilt can lead.
 - boundary: attention may initially remain on user while chest stiffens; withdrawal turns head/wing away.
@@ -1266,15 +1001,11 @@ No aggressive wing slap / bite / attack.
 
 ## 15.16 Sound / Haptic / VFX
 
-- brighter, quicker vocal palette than Carol.
+- bright, quick vocal palette.
 - haptic can be slightly sharper on successful reciprocal interaction.
 - leaf/flower particles are punctuation only.
 
 ## 15.17 DO / DO NOT / Signature
-
-**DO:** chest-led intent, quick attention, selective wing use, delayed plant structures, heavy tail.  
-**DO NOT:** cat-tail wag, butterfly-wing flapping, permanent leaf rustle, elongated forelegs, Carol-like slow melt.  
-**Signature:** **emotion grows outward from chest into wings/plants, while the tail resists and catches up late.**
 
 ---
 
@@ -1325,7 +1056,7 @@ Movement can be playful and quick, but attention is not continuously offered to 
 | water/bubbles | event accent only |
 | stillness | medium; can self-occupy |
 | settle | body compresses/rebounds then tail finishes |
-| afterglow | shorter than Carol/Shushu, often followed by look-away/self-action |
+| afterglow | shorter than Shushu, often followed by look-away/self-action |
 
 ## 16.5 Living Idle Grammar
 
@@ -1415,7 +1146,7 @@ Pino may be the most toy-responsive character:
 
 - arms can cradle/inspect.
 - item can become temporary attention competitor.
-- invitation frequency lower than Jill/Carol, preserving independence.
+- invitation frequency lower than Jill, preserving independence.
 - successful play can yield body rebound + tail lag, not constant VFX.
 
 ## 16.14 Rare Behaviors
@@ -1494,7 +1225,7 @@ Lowest social urgency of the four. Userを好んでも、静かな自己充足�
 | crown/flowers | delayed tiny bounce |
 | stillness | very high tolerance |
 | settle | delayed compression release |
-| afterglow | longest calm afterglow with Carol |
+| afterglow | long calm afterglow |
 
 ## 17.5 Living Idle Grammar
 
@@ -1608,31 +1339,30 @@ No guilt-inducing sadness.
 ## 17.17 DO / DO NOT / Signature
 
 **DO:** grounded seated weight, slow plush compression, patient attention, convincing prop attachment, long stillness.  
-**DO NOT:** bounce like a stuffed spring, constantly shake flowers, detach bouquet physics, make relaxed independence look sad, reuse Carol fleece timing unchanged.  
 **Signature:** **Shushu absorbs emotion into a grounded plush body, then lets flowers and props settle after the feeling has already landed.**
 
 ---
 
-# 18. Four-Character Differentiation Matrix
+# 18. Three-Character Differentiation Matrix
 
-| Dimension | Carol | Jill | Pino | Shushu |
-|---|---|---|---|---|
-| Energy | low–medium | medium–high | medium–high | low |
-| Weight | heavy hooves + soft huge fleece | light/active upper body + heavy tail | soft-heavy body + heavy tail | grounded plush seated mass |
-| Motion lead | face/head/local touch | chest / upper body | torso + arms | head/eyelid |
-| Tempo | slow-soft, responsive ACK | quick, springy | quick with elastic rebound | slow, delayed |
-| Motion amplitude | small; rare medium | medium; rare high | medium | small–medium |
-| Gaze | long soft dwell | quick notice/reorient | glance + deliberate release | slow gentle dwell |
-| Blink | soft; long affect eye-close | alert/quick tendency | alert, playful | soft/unhurried |
-| Head | lean/lower/offer | lift/tilt, energetic | compact with body participation | small tilt/sink |
-| Appendage | subtle ears; fleece follows | wing → leaves/flowers → heavy tail | arms inward; tail late | ear → crown/bouquet flowers late |
-| Touch response | accepts and leans, fleece echo | chest commits outward | soft squish, hug-inward, rebound | plush sink/compress |
-| Invitation | cheek/forehead/rare hoof offer | chest-forward foreleg/wing offer | lower-frequency paw offer, may look away | patient palm/head-tilt offer |
-| Dislike | soft hint → withdraw into fleece | chest stiff → wing defense → head away | arms protect → gaze break → side turn | eyes down → bouquet protect → quiet retreat |
-| Settle | face/head then fleece | chest then plants/tail | body then tail | plush body then flowers/props |
-| Afterglow | long warm | bright medium | medium-short, may self-direct | long calm |
-| Stillness | high | medium | medium | very high |
-| Rare behavior | dream/moon-star social beat | energetic spring/wing phrase | water/toy curiosity | flower-sharing / bouquet ritual |
+| Dimension | Jill | Pino | Shushu |
+|---|---|---|---|
+| Energy | medium–high | medium–high | low |
+| Weight | light/active upper body + heavy tail | soft-heavy body + heavy tail | grounded plush seated mass |
+| Motion lead | chest / upper body | torso + arms | head/eyelid |
+| Tempo | quick, springy | quick with elastic rebound | slow, delayed |
+| Motion amplitude | medium; rare high | medium | small–medium |
+| Gaze | quick notice/reorient | glance + deliberate release | slow gentle dwell |
+| Blink | alert/quick tendency | alert, playful | soft/unhurried |
+| Head | lift/tilt, energetic | compact with body participation | small tilt/sink |
+| Appendage | wing → leaves/flowers → heavy tail | arms inward; tail late | ear → crown/bouquet flowers late |
+| Touch response | chest commits outward | soft squish, hug-inward, rebound | plush sink/compress |
+| Invitation | chest-forward foreleg/wing offer | lower-frequency paw offer, may look away | patient palm/head-tilt offer |
+| Dislike | chest stiff → wing defense → head away | arms protect → gaze break → side turn | eyes down → bouquet protect → quiet retreat |
+| Settle | chest then plants/tail | body then tail | plush body then flowers/props |
+| Afterglow | bright medium | medium-short, may self-direct | long calm |
+| Stillness | medium | medium | very high |
+| Rare behavior | energetic spring/wing phrase | water/toy curiosity | flower-sharing / bouquet ritual |
 
 ### Differentiation acceptance
 
@@ -1715,9 +1445,8 @@ Must be authored separately for:
 
 ## 19.6 Never share directly
 
-- Carol fleece solver settings → another character
 - Jill wing rhythm → Shushu/Pino
-- Pino body squash → Carol/Shushu
+- Pino body squash → Shushu
 - Shushu plush compression → Pino water-body
 - same `happy.glb` / `dislike.glb` retarget across all four
 - identical invitation pose with only speed changes
@@ -1733,22 +1462,6 @@ Source research notes that Pikachu and Eevee received separate motion-design att
 # 20. Minimum Experience Set
 
 **Coverage, not animation count, is authoritative.** A behavior may use modular primitives; a hundred clips do not compensate for a missing capability.
-
-## 20.1 P0 — Carol Vertical Slice / Life Minimum
-
-| Purpose | Required behavior/capability | Required variation | Acceptance condition |
-|---|---|---|---|
-| Identity | canonical-faithful neutral Carol | canonical + ±15° view | Gate A pass |
-| Living existence | 15–30s idle with asynchronous channels | at least multiple micro-event combinations | Gate B pass; no mechanical loop |
-| Touch causality | head + cheek pet | side L/R + shallow/deep response | local→face→head→body→fleece readable |
-| Gesture meaning | tap vs slow pet vs continuous / back-and-forth | minimum distinct semantic outcomes | scripted classification thresholds met |
-| Contact seeking | Carol leans into accepted touch | L/R conditioned | contact anchor remains valid while moving |
-| Agency | self-initiated affection invitation | at least 2 invitation performance variants | Character → User WAIT works |
-| Boundary | hint → refusal → withdrawal | at least mild variant + recovery | no hostility; state persists |
-| Large emotion | one hero delight/affection reaction | ≥3 performance variants or modular compositions | anticipation + peak + settle + afterglow |
-| Interruption | touch/reaction/WAIT redirects from current pose | at least 3 interruption scenarios | no forced neutral/clip finish |
-| Repetition | history-aware reaction selection | same gesture repeated ≥10 times | no obvious identical run / same-family spam |
-| Runtime | Pixel 7a-class | cold/warm/background-resume | Gate H pass |
 
 ## 20.2 P1 — Launch Quality
 
@@ -1776,304 +1489,8 @@ Source research notes that Pikachu and Eevee received separate motion-design att
 - rare social turn sequences
 - deeper session-entry recognition
 - character-specific collection-linked behaviors
-- all-four-character expanded libraries only after Carol launch-quality proof
 
 P2 must **not** be started to compensate for P0 causality/identity failure.
-
----
-
-# 21. Carol Vertical Slice — Final Experience Specification
-
-## Gate A — Identity
-
-### PASS
-
-- neutral frame is immediately recognizable as canonical Carol.
-- tiny cream face / huge fleece ratio preserved.
-- eye size/spacing/highlights, ears, hooves, moon/star landmarks and color hierarchy stay on-model.
-- slight 3/4 does not reveal a different-looking character.
-
-### Measurement [G]
-
-- canonical-camera silhouette IoU target **≥0.90**.
-- major landmark deviation target **≤ ~3% of character bounding box**.
-- blind same-character rating target **≥4.3/5**.
-- “3D made Carol less cute” responses target **≤15%**.
-- canonical and ±15° comparison capture.
-
-### FAIL
-
-- generic sheep/wool look.
-- face becomes too large/small or too protruding.
-- fleece loses cloud silhouette.
-- 3/4 face becomes off-model.
-- animation polish is being used to hide a static identity problem.
-
-### Human review
-
-**静止していてもCarol本人か。** Machine similarity cannot override human identity verdict.
-
----
-
-## Gate B — Living Idle
-
-### Test
-
-15–30 seconds, no user input, sound both ON and OFF.
-
-### PASS
-
-- at least six independently composable living channels available in the system.
-- some channels act while others rest.
-- no visible common period / synchronized cycle.
-- intentional stillness looks intentional, not frozen.
-- face/head/ears/hooves/fleece preserve grounded anatomy.
-
-### Measurement [G]
-
-- no perceived identical full-body loop within 30s.
-- user `alive` rating target **≥4.0/5**.
-- animacy improvement over static model target **≥+1.0 point** in formative comparison.
-- event-history logs show non-fixed interval scheduling.
-
-### FAIL
-
-- whole character sways/breathes together.
-- nothing except global scale changes.
-- every 20–30s one canned idle plays while otherwise dead.
-- fleece moves continuously with no body cause.
-
-### Human review
-
-“animationを見ている”より“Carolがそこにいる”が先に来るか。
-
----
-
-## Gate C — Head / Cheek Pet
-
-### Test
-
-- left cheek, right cheek, forehead/head.
-- tap, slow pet, continuous stroke, back-and-forth.
-- slow/medium/fast trajectory.
-
-### PASS
-
-```text
-correct semantic zone
-→ local visible acknowledgement
-→ attention/evaluation
-→ character-specific lean/reaction
-→ grounded propagation
-→ fleece follow-through
-→ settle
-→ afterglow
-```
-
-### Measurement [G]
-
-| Metric | Target |
-|---|---:|
-| semantic-zone classification on scripted paths | ≥98% |
-| first visible acknowledgement p95 | ≤80 ms |
-| semantic response onset p95 for immediate classes | ≤100 ms |
-| tap vs slow-pet classification | ≥95% |
-| repeated-poke recognition | ≥95% |
-| users saying “reacted to where I touched” | ≥90% |
-| touch-causality rating | ≥4.3/5 |
-
-These are Grimo quality targets, not Pokémon internal timings.
-
-### FAIL
-
-- head and cheek invoke same centered full-body clip.
-- left/right contact collapses to bilateral center response.
-- dragged touch loses collider/anchor while Carol leans.
-- finger release is ignored until clip ends.
-
-### Human review
-
-指がCarolの身体へ**届き、Carol自身がその触れ方を解釈した**ように見えるか。
-
----
-
-## Gate D — Self-Initiated Invitation
-
-### PASS
-
-User inputなしでCarolが social motiveからinteractionを始める。
-
-```text
-notice / motive expression
-→ cheek/head/rare hoof offer
-→ WAIT
-→ user response / timeout
-→ interpretation
-→ settle / second turn / satisfied end
-```
-
-WAIT中もmicro lifeが残る。
-
-### Measurement
-
-- invitation can persist without auto-retract until policy timeout.
-- user contact target follows pose.
-- ignored path, successful path, interruption path all exist.
-
-### FAIL
-
-- invitation is merely a clip that ends on a timer.
-- Carol stares motionless during WAIT.
-- ignored user gets guilt/sadness punishment.
-
-### Human review
-
-“押したから出た”ではなく、“Carolから求めてきた”と読めるか。
-
----
-
-## Gate E — Larger Emotional Reaction
-
-### PASS
-
-At least one Carol-specific hero reaction contains readable:
-
-```text
-anticipation
-→ primary body action
-→ facial peak
-→ selected appendage participation
-→ authored follow-through
-→ optional restrained overshoot
-→ settle
-→ afterglow
-```
-
-At least three performance variants/modular compositions without changing semantic meaning.
-
-### FAIL
-
-- VFX creates the emotion before body acting.
-- every channel moves at full amplitude.
-- reaction ends at peak and snaps neutral.
-- it resembles Eevee/Pikachu signature performance rather than Carol.
-
-### Human review
-
-VFX OFF / audio OFFでも感情が読めるか。
-
----
-
-## Gate F — Interruption
-
-### Required scenarios
-
-1. slow pet while Carol starts autonomous idle.
-2. new touch while previous pet is settling.
-3. user withdraws during contact-seeking hold.
-4. touch different zone during invitation WAIT.
-5. boundary input during content afterglow.
-
-### PASS
-
-- redirect begins from current pose/state.
-- face/attention acknowledges changed situation.
-- no neutral teleport.
-- channel ownership changes cleanly.
-
-### FAIL
-
-- old clip keeps playing over new user input.
-- body and face contradict each other for >brief transitional overlap.
-- secondary continues the old action after primary was canceled without plausible inertia.
-
-### Measurement
-
-scripted interruption test capture + transition-discontinuity log + frame-by-frame human review.
-
----
-
-## Gate G — Repetition
-
-### Test
-
-Repeat identical interaction ≥10 times under controlled state; repeat another set with varying recent history.
-
-### PASS
-
-- causality stays recognizable.
-- reaction intensity/history evolves.
-- immediate consecutive identical family is strongly suppressed unless intentionally appropriate.
-- face/ear/settle/afterglow combinations vary.
-
-### FAIL
-
-- user can name the exact clip sequence after a few repetitions.
-- random variation breaks contact causality.
-- repetition suppression causes inappropriate emotional outcomes.
-
-### Measurement
-
-behavior-history logs, clip/similarity-group usage, video similarity review, blind human “mechanical/repetitive” rating.
-
----
-
-## Gate H — Pixel 7a Runtime
-
-### Baseline architecture
-
-- smartphone-first PWA.
-- Blender → validated GLB/glTF.
-- PlayCanvas Engine web-native runtime baseline.
-- WebGL 2 acceptance baseline; WebGPU is enhancement, not requirement. citeturn24search1
-
-### Initial engineering budgets [G]
-
-| Item | Starting budget / target |
-|---|---|
-| simultaneous hero character | 1 |
-| LOD0 geometry | 30k–60k triangles; Carol may profile up to ~80k |
-| deform bones | ~70–110 initial range |
-| vertex influences | ≤4 preferred |
-| character draw calls | ≤8 target |
-| texture | main 2K-class + auxiliary 1K-class; avoid unnecessary PBR maps |
-| first meaningful visual payload | ~3–8 MB candidate |
-| total first-character compressed payload | ~6–12 MB target |
-| other characters | lazy load |
-| interactive frame rate | 60 fps target |
-| quiescent long idle | adaptive 30 fps only if perceptual quality/latency remains acceptable |
-| main frame | 16.7ms target |
-| sustained severe frame streak | no repeated >33ms streaks |
-| tab memory | ≤350MB initial target, then tighten from profiling |
-
-Pixel 7a class requirement is product-authoritative; these budgets are starting points, not reasons to lower experience quality. Source architecture cites Tensor G2 / 8GB device-class evidence. citeturn31search4turn31search12
-
-### Runtime acceptance [G]
-
-- 10-minute warm/thermal-soak.
-- median around 55–60 fps or better during interaction.
-- no sustained <30 fps interaction periods.
-- touch first-visible ACK p95 ≤80ms.
-- PWA INP p75 ≤200ms. citeturn26search0turn26search16
-- no obvious ~100ms freeze during character interaction.
-- no progressive memory leak.
-- foreground→background→resume has no giant-dt explosion.
-- touch volumes remain correct under animation/deformation.
-
-### Background rule
-
-Do **not** simulate realtime animation while PWA is frozen/backgrounded.
-
-```text
-lastKnownState + timestamp
-→ resume
-→ elapsed-time reconciliation
-→ plausible current state
-```
-
-### FAIL
-
-If quality only works on flagship hardware, or input causality degrades under thermal load, the architecture fails the product boundary.
 
 ---
 
@@ -2124,21 +1541,6 @@ FEEDING               staged consume/evaluate/reward
 LARGE_REACTION        anticipation + authored peak
 BOUNDARY              warning/tolerance before withdrawal
 ```
-
-## 22.4 Carol initial tuning envelope [G]
-
-For preferred head/cheek touch:
-
-- local ACK: ~0–80ms target
-- eyelid/face: ~50–180ms
-- attention/head onset: ~80–320ms depending behavior
-- ear response: ~180–450ms
-- body transfer: ~250–700ms
-- fleece follow: ~300–900ms
-- settle: ~0.7–1.6s common envelope
-- positive afterglow: ~1.5–5s
-
-For deep contact-seeking, hold may last roughly ~0.4–0.9s as a starting design envelope. These are **Grimo design ranges**, not reference copying.
 
 ## 22.5 Idle timing
 
@@ -2238,7 +1640,7 @@ Implementation code is intentionally omitted. The production contract should con
 | Field | Meaning |
 |---|---|
 | `behaviorId` | stable semantic identifier |
-| `character` | Carol/Jill/Pino/Shushu |
+| `character` | Jill/Pino/Shushu |
 | `family` | reaction/autonomy/invitation/etc. similarity group |
 | `trigger` | input/state/context condition |
 | `semanticZone` | eligible body zone(s) |
@@ -2445,11 +1847,10 @@ Success means valence/arousal/social meaning is readable **without VFX text/UI**
 
 ## 26.7 Character Differentiation QA
 
-Blind clay/silhouette motion comparison across four characters.
+Blind clay/silhouette motion comparison across three characters.
 
 Collect adjectives; desired clusters should separate:
 
-- Carol: soft / reassuring / affection-seeking
 - Jill: lively / eager / energetic
 - Pino: playful / self-directed / elastic
 - Shushu: calm / plush / independent
@@ -2506,8 +1907,7 @@ Source research proposed formative within-subject studies and standard animacy/l
 | **“浮いて見える”** | COM moves without support; feet slide; seated base ignored; secondary pulls silhouette | re-author support/weight shift; lock contacts; reduce root oscillation; tune settle |
 | **“反応がゲーム的”** | touch→clip mapping; no evaluation; ACK too late; snap neutral; VFX first | add immediate local ACK, accumulation, attention, staged response, afterglow |
 | **“何度も見ると機械”** | fixed intervals; same similarity family; same side/face/settle; exact repeated timing | history buffer, penalty, context weighting, side conditioning, modular performance variants |
-| **“4匹が同じ性格”** | shared animations; same gaze distribution; same amplitude/settle; speed-only variation | restore motion lead, weight, invitation, boundary, settle and appendage grammar per character |
-| **“Carolがゼリー”** | whole-fleece soft-body; global breathing; too much residual | stabilize silhouette; authored cluster controls; reduce residual amplitude/duration |
+| **“3匹が同じ性格”** | shared animations; same gaze distribution; same amplitude/settle; speed-only variation | restore motion lead, weight, invitation, boundary, settle and appendage grammar per character |
 | **“Jillが虫っぽい”** | constant wing flap; leaves always rustle; tail too fast | return intent to chest; wings episodic; tail heavy/rooted; plant follow-through only |
 | **“Pinoが風船”** | uniform squash/stretch; body rebounds without support; tail too light | authored weighted compression; seated anchor; delayed heavy tail |
 | **“Shushuが悲しそう”** | independence/quiet encoded as droop; gaze-down overused; boundary residue too long | distinguish calm from low valence; soften eyelids, preserve relaxed posture, shorter negative residue |
@@ -2522,47 +1922,9 @@ Source research proposed formative within-subject studies and standard animacy/l
 
 ## 28.1 Production order
 
-```text
-Carol canonical identity
-↓
-3D reconstruction / canonical camera match
-↓
-rig / deformation / facial identity envelope
-↓
-neutral pose + support / COM
-↓
-living idle channels
-↓
-attention / gaze / blink
-↓
-semantic touch + immediate local reflex
-↓
-head / cheek pet + contact-seeking
-↓
-autonomous invitation + WAIT
-↓
-boundary / withdrawal
-↓
-one larger hero reaction
-↓
-interruption
-↓
-variation / repetition suppression
-↓
-audio / restrained haptic / VFX
-↓
-Pixel 7a optimization
-↓
-Human Gate A–H
-↓
-ONLY THEN: architecture expansion to a morphologically distant second character
-↓
-remaining two
-```
-
 ## 28.2 Second-character choice
 
-After Carol passes, choose a morphology that stress-tests generality rather than the most similar character. Jill is the strongest architecture stress test because wings + leaf/flower mane + heavy tail introduce very different channel/secondary requirements. Shushu is also valuable for seated prop constraints.
+Choose a morphology that stress-tests generality rather than the most similar character. Jill is the strongest architecture stress test because wings + leaf/flower mane + heavy tail introduce very different channel/secondary requirements. Shushu is also valuable for seated prop constraints.
 
 ## 28.3 Stop rules
 
@@ -2570,7 +1932,6 @@ After Carol passes, choose a morphology that stress-tests generality rather than
 - Gate C fail → stop adding interaction quantity, fix causality.
 - Gate G fail → stop adding rare content, fix variation architecture.
 - Gate H fail → profile/optimize before expanding character count.
-- Human says “not Carol” → automated scores do not overrule.
 
 ---
 
@@ -2589,7 +1950,6 @@ Only questions not resolvable from the specified sources remain here.
 
 ## 29.2 Technical prototype required
 
-7. **Carol unseen geometry:** exact side/back reconstruction that preserves front sacred view and 3/4 identity.
 8. **Touch-anchor robustness:** bone-attached semantic volumes while cheek/head/fleece deform and character moves into contact.
 9. **Fleece residual system:** maximum safe procedural lag before silhouette looks jelly-like.
 10. **Pixel 7a sustained budget:** real triangle/bone/shape/texture ceiling after thermal soak.
@@ -2602,13 +1962,12 @@ Only questions not resolvable from the specified sources remain here.
 14. **Expression envelope limits:** exact mouth/eye/cheek ranges that remain canonical.
 15. **Signature rare behaviors:** final hero behavior that users should associate uniquely with each Grimo.
 16. **Character vocal identity:** nonverbal timbre, density and recording/generation policy.
-17. **Unseen motif anatomy:** how Carol moon/star, Jill plant structures, Pino water motif, Shushu crown/bouquet attach in 3D from unseen angles.
+17. **Unseen motif anatomy:** how Jill plant structures, Pino water motif, Shushu crown/bouquet attach in 3D from unseen angles.
 
 ## 29.4 User testing required
 
-18. **Partner-quality animacy:** does Carol generate comparable perceived agency/responsiveness, controlling for Pokémon familiarity?
 19. **Repetition threshold:** after how many repeated interactions does each current family become recognizable/canned?
-20. **Four-character adjective separation:** do users independently perceive the intended personality clusters?
+20. **Three-character adjective separation:** do users independently perceive the intended personality clusters?
 21. **Return motivation:** does interaction create voluntary desire to revisit the character rather than only task/reward compliance?
 
 **Unresolved open-question count: 21.**
@@ -2659,11 +2018,6 @@ Only questions not resolvable from the specified sources remain here.
 15. let AI bypass identity/hero-motion Human Gate.
 16. copy Pokémon exact pose, animation, signature timing or species acting.
 17. optimize by deleting causality/attention/afterglow—the core experience.
-18. expand to four characters before Carol proves the architecture.
-
-## Carol is...
-
-**A low, grounded dream-cloud companion who gently asks for affection; her tiny face acts first, her heavy hooves stay secure, and her enormous fleece answers later like a soft echo.**
 
 ## Jill is...
 

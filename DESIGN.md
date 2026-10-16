@@ -197,7 +197,7 @@ background material
 
 chromatic accentは、primary CTA、active toggle、notification badge、reward rarity、special state、character/content artなどに集中させる。
 
-UIがCarol / Jill / Pino / Shushuより目立ってはいけない。
+UIがJill / Pino / Shushuより目立ってはいけない。
 
 ---
 
@@ -624,7 +624,7 @@ Collection entryを開いた時は「所有物をinspectしている」感覚を
 
 - large art / 3D thumbnail
 - compact metadata
-- 4体のreaction-discovery status
+- 3体のreaction-discovery status
 - primary use CTA
 - consistent bottom-centered close / back affordance
 
@@ -919,14 +919,6 @@ audioは既に読めるphysical eventを補強する
 ```
 
 character vocal / foleyでdead animationを隠してはいけない。
-
-## 21.2 Carol
-
-- soft breathy / nonverbal acknowledgement
-- gentle fleece / soft-body foley
-- hoof soundはsparse / heavier
-- harsh angry cueではなくtiny protest
-- moon / star chimeはrare / special beatのみ
 
 ## 21.3 Touch Audio
 

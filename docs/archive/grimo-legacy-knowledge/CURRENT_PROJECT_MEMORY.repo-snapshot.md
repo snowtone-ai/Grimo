@@ -1,14 +1,10 @@
 # Grimo — Current Project Memory
 
-This file contains durable decisions and routing only. Mutable Carol candidate,
-Human Gate, evidence, blockers, and next-step facts belong exclusively to
-[`CAROL_PRODUCTION_STATE.md`](../../production/carol/CAROL_PRODUCTION_STATE.md).
-
 ## Product North Star
 
 Grimo does **not** exist to produce a technically perfect 3D model. The Goal is:
 
-> On the smartphone Grimo screen, Carol / Jill / Pino / Shushu feel alive,
+> On the smartphone Grimo screen, Jill / Pino / Shushu feel alive,
 > cute, aware of the user, causally responsive to user actions, and like
 > companions rather than canned puppets even across extended interaction.
 
@@ -33,7 +29,7 @@ Current baseline hypothesis:
   pseudo-life remains prohibited.
 - Blender-centered authoring + GLB/glTF + PlayCanvas remains the current
   implementation hypothesis, not a goal above Product North Star.
-- If Partner Experience Production Analysis or a functional Carol prototype
+- If Partner Experience Production Analysis or a functional character prototype
   disproves this hypothesis, Architecture Review may move to a hybrid approach.
 
 Archived PixiJS / old layered-2D / old 2.5D implementation is not the current
@@ -76,45 +72,6 @@ should be tested as early as practical.
 If essentially the same blocker survives **2 bounded implementation cycles**,
 stop local repair and trigger Architecture Review before authorizing another
 cycle.
-
-## Carol durable production lesson
-
-Carol's fleece is a dominant visible identity system. Final Carol quality must
-not be gated indefinitely on a naked Underbody being visually perfect.
-
-Classify Carol geometry by final-use importance:
-
-- **HERO_VISIBLE** — face, eyes, ears, visible hooves, tail, exposed
-  transitions, fleece silhouette and any other Hero-view surface.
-- **MOTION_EXPOSED** — normally hidden but plausibly revealed by approved
-  motion/deformation; sufficient visual and deformation quality is required.
-- **FUNCTIONAL_HIDDEN** — permanently hidden support/deformation/attachment/
-  collision structure; functional correctness is required, Hero polish is not.
-
-The v001–v013 work is not discarded. Retain canonical/authority work, numerical
-registration, camera research, geometry parameters, topology diagnostics,
-eye/socket lessons, intersection validators, evidence methodology, motion
-inventories, and motion/camera analysis. The durable failure lesson is primarily
-about prioritization, gate ordering, and repeatedly optimizing the wrong
-intermediate target.
-
-## Carol authority and routing
-
-Current Carol execution truth:
-`docs/production/carol/CAROL_PRODUCTION_STATE.md`
-
-Current-version evidence: follow the evidence path named by
-`CAROL_PRODUCTION_STATE.md`.
-
-Geometry authority:
-`assets/grimo/source/carol/approved-3d/authority.json` and
-`docs/production/carol/CAROL_GEOMETRY_PARAMETERS.md`.
-
-The current geometry authority is four FINAL / LOCKED Normal Front, Normal Side,
-Skin Front, and Skin Side references plus the parameter contract, producing one
-model from which Back / Top / 3Q are derived. These define geometry; visible
-identity and appeal remain subordinate to the Product North Star and canonical
-identity requirements.
 
 ## Mandatory Phase Tool Preflight
 
