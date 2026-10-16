@@ -1,0 +1,152 @@
+{
+  "pixel_exact": false,
+  "max_channel_delta_observed": 4,
+  "max_different_pixels_per_480x480": 6,
+  "comparisons": [
+    {
+      "source": "v002-blink-3q.png",
+      "candidate": "v003-blink-3q.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    },
+    {
+      "source": "v002-blink-front.png",
+      "candidate": "v003-blink-front.png",
+      "max_channel_delta": 2,
+      "different_pixels": 5
+    },
+    {
+      "source": "v002-blink-mid-3q.png",
+      "candidate": "v003-blink-mid-3q.png",
+      "max_channel_delta": 4,
+      "different_pixels": 2
+    },
+    {
+      "source": "v002-blink-mid-front.png",
+      "candidate": "v003-blink-mid-front.png",
+      "max_channel_delta": 3,
+      "different_pixels": 6
+    },
+    {
+      "source": "v002-blink-mid-side.png",
+      "candidate": "v003-blink-mid-side.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    },
+    {
+      "source": "v002-blink-side.png",
+      "candidate": "v003-blink-side.png",
+      "max_channel_delta": 1,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-close-mid-3q.png",
+      "candidate": "v003-close-mid-3q.png",
+      "max_channel_delta": 4,
+      "different_pixels": 4
+    },
+    {
+      "source": "v002-close-mid-front.png",
+      "candidate": "v003-close-mid-front.png",
+      "max_channel_delta": 3,
+      "different_pixels": 5
+    },
+    {
+      "source": "v002-close-mid-side.png",
+      "candidate": "v003-close-mid-side.png",
+      "max_channel_delta": 1,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-closed-3q.png",
+      "candidate": "v003-closed-3q.png",
+      "max_channel_delta": 2,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-closed-front.png",
+      "candidate": "v003-closed-front.png",
+      "max_channel_delta": 1,
+      "different_pixels": 3
+    },
+    {
+      "source": "v002-closed-side.png",
+      "candidate": "v003-closed-side.png",
+      "max_channel_delta": 1,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-fold-back3q.png",
+      "candidate": "v003-fold-back3q.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    },
+    {
+      "source": "v002-fold-front.png",
+      "candidate": "v003-fold-front.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    },
+    {
+      "source": "v002-fold-side.png",
+      "candidate": "v003-fold-side.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    },
+    {
+      "source": "v002-neutral-3q.png",
+      "candidate": "v003-neutral-3q.png",
+      "max_channel_delta": 2,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-neutral-front.png",
+      "candidate": "v003-neutral-front.png",
+      "max_channel_delta": 1,
+      "different_pixels": 3
+    },
+    {
+      "source": "v002-neutral-side.png",
+      "candidate": "v003-neutral-side.png",
+      "max_channel_delta": 1,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-open-3q.png",
+      "candidate": "v003-open-3q.png",
+      "max_channel_delta": 2,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-open-front.png",
+      "candidate": "v003-open-front.png",
+      "max_channel_delta": 1,
+      "different_pixels": 3
+    },
+    {
+      "source": "v002-open-side.png",
+      "candidate": "v003-open-side.png",
+      "max_channel_delta": 1,
+      "different_pixels": 1
+    },
+    {
+      "source": "v002-wing-open-back3q.png",
+      "candidate": "v003-wing-open-back3q.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    },
+    {
+      "source": "v002-wing-open-front.png",
+      "candidate": "v003-wing-open-front.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    },
+    {
+      "source": "v002-wing-open-side.png",
+      "candidate": "v003-wing-open-side.png",
+      "max_channel_delta": 0,
+      "different_pixels": 0
+    }
+  ],
+  "boundary": "Material splitting changes a few raster edge samples. Report observed differences, do not claim pixel equality. Judge render boards alongside exact shape/weight/Morph preservation. Human pose approval remains pending."
+}

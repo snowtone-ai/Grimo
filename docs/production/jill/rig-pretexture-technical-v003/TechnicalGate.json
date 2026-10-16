@@ -1,0 +1,29 @@
+{
+  "technical_go_candidate": true,
+  "reference_resolution": 4096,
+  "measured_resolution_candidate": [
+    4096,
+    8192
+  ],
+  "image_pipeline_proved_resolution": [
+    4096
+  ],
+  "human_final_go": false,
+  "tripo_execution": "HOLD",
+  "actual_ui": "UNKNOWN",
+  "price": "UNKNOWN",
+  "original_uv_ui": "UNKNOWN",
+  "real_return": "UNKNOWN",
+  "normal_tangent": "UNKNOWN",
+  "counts": {
+    "bones": 130,
+    "channels": 39,
+    "morphs": 20,
+    "anchors": 16
+  },
+  "geometry_topology_changed": false,
+  "old_uv_layers_exact": true,
+  "source_head": "3de7b2e46b839a4ec970f58d8c5e8a99c4580f9e",
+  "authority_main": "73617ce2d3c724c86aed82dfc2a09cd220e5d194",
+  "scope": "BaseColor image-only candidate with frozen current geometry. Not Human pose or final texture approval."
+}

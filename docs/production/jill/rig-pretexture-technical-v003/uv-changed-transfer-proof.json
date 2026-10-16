@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "synthetic_uv_change": "U reflected; saved GLB fresh import; image also reflected",
+  "triangles_matched": 61321,
+  "unmatched_or_ambiguous": [],
+  "skipped_uv_degenerate": [],
+  "position_max_m": 0,
+  "raster_written_pixels": 5252720,
+  "pixel_max_error_255": 0,
+  "pixel_mean_error_255": 0.0,
+  "method": "Part-owner plus triangle geometry correspondence; barycentric source UV raster to target UV0. No ray projection between adjacent surfaces. Nearest sampling on synthetic fixture.",
+  "limits": "Synthetic UV-only change with corresponding geometry and triangle topology. Tripo real return UNKNOWN. Different triangulation/remesh/deformation, missing image/UV/owner or ambiguous match STOP/HOLD. Normal/tangent rebake NOT proved."
+}

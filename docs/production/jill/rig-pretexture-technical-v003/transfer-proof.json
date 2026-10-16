@@ -1,0 +1,109 @@
+{
+  "pass": true,
+  "candidate_sha256": "ad9f867e87a6006259aec5d8b01e1981fc823ae97bc92a87dc49a906770a9050",
+  "synthetic_only": true,
+  "real_tripo_return": "UNKNOWN",
+  "paths": [
+    {
+      "format": "glb",
+      "corners": 183963,
+      "unmatched_position_owner": 0,
+      "position_max_m": 0,
+      "uv_max": 2.9802322387695312e-08,
+      "pass": true,
+      "reverse": {
+        "corners": 125881,
+        "unmatched_position_owner": 0,
+        "position_max_m": 0,
+        "uv_max": 2.9802322387695312e-08,
+        "pass": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ],
+      "uv_layers": {
+        "Jill_Texture_Input_Neutral_v003": [
+          "UVMap"
+        ]
+      },
+      "armatures": 0,
+      "decoded_pixel_max_delta": 0.0,
+      "saved_rig_uv0": "Jill_Texture_UV0_v003",
+      "saved_bones": 130,
+      "saved_morphs": 20,
+      "rig_glb_uv_attributes": [
+        "TEXCOORD_0",
+        "TEXCOORD_1",
+        "TEXCOORD_2"
+      ],
+      "basecolor_texcoords": [
+        0
+      ],
+      "rig_glb_joint_counts": [
+        130
+      ],
+      "rig_glb_morph_counts": [
+        20
+      ],
+      "saved_glb_reimport": {
+        "corners": 183963,
+        "unmatched_position_owner": 0,
+        "position_max_m": 3.072856600283558e-07,
+        "uv_max": 2.9802322387695312e-08,
+        "pass": true
+      }
+    },
+    {
+      "format": "fbx",
+      "corners": 183963,
+      "unmatched_position_owner": 0,
+      "position_max_m": 1.7441361421788315e-07,
+      "uv_max": 0,
+      "pass": true,
+      "reverse": {
+        "corners": 125881,
+        "unmatched_position_owner": 0,
+        "position_max_m": 1.7441361421788315e-07,
+        "uv_max": 0,
+        "pass": true
+      },
+      "texture_dimensions": [
+        4096,
+        4096
+      ],
+      "uv_layers": {
+        "Jill_Texture_Input_Neutral_v003": [
+          "Jill_Texture_UV0_v003"
+        ]
+      },
+      "armatures": 0,
+      "decoded_pixel_max_delta": 0.0,
+      "saved_rig_uv0": "Jill_Texture_UV0_v003",
+      "saved_bones": 130,
+      "saved_morphs": 20,
+      "rig_glb_uv_attributes": [
+        "TEXCOORD_0",
+        "TEXCOORD_1",
+        "TEXCOORD_2"
+      ],
+      "basecolor_texcoords": [
+        0
+      ],
+      "rig_glb_joint_counts": [
+        130
+      ],
+      "rig_glb_morph_counts": [
+        20
+      ],
+      "saved_glb_reimport": {
+        "corners": 183963,
+        "unmatched_position_owner": 0,
+        "position_max_m": 3.072856600283558e-07,
+        "uv_max": 2.9802322387695312e-08,
+        "pass": true
+      }
+    }
+  ],
+  "rule": "Image-only application; no returned geometry, bones, weights, morphs or anchors adopted. UV0 explicit, old UV1/2 retained in editable rig. Neutral-only format proof; existing 305-frame proof not repeated."
+}

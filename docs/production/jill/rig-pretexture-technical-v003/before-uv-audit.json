@@ -1,0 +1,1402 @@
+{
+  "label": "before",
+  "triangles": 61321,
+  "islands": 2111,
+  "positive_overlap_pairs": 63,
+  "intentional_shared_pairs": [],
+  "overlap_area_pair_sum_uv2": 1.1347253324108696e-05,
+  "overlap_examples": [
+    {
+      "triangles": [
+        727,
+        14591
+      ],
+      "polygons": [
+        727,
+        8907
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        1076,
+        25689
+      ],
+      "polygons": [
+        1076,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        1144,
+        20939
+      ],
+      "polygons": [
+        1144,
+        12081
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        1184,
+        21489
+      ],
+      "polygons": [
+        1184,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        1185,
+        21489
+      ],
+      "polygons": [
+        1185,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        1186,
+        21489
+      ],
+      "polygons": [
+        1186,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        1187,
+        21489
+      ],
+      "polygons": [
+        1187,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        1533,
+        25689
+      ],
+      "polygons": [
+        1533,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        1535,
+        25689
+      ],
+      "polygons": [
+        1535,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        2539,
+        2540
+      ],
+      "polygons": [
+        2539,
+        2540
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        3030,
+        25689
+      ],
+      "polygons": [
+        3030,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        30,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        3031,
+        25689
+      ],
+      "polygons": [
+        3031,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        30,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        3035,
+        25689
+      ],
+      "polygons": [
+        3035,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        30,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        3036,
+        25689
+      ],
+      "polygons": [
+        3036,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        30,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        7913,
+        7931
+      ],
+      "polygons": [
+        5568,
+        5577
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        7913,
+        7932
+      ],
+      "polygons": [
+        5568,
+        5577
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        7914,
+        7931
+      ],
+      "polygons": [
+        5568,
+        5577
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        7914,
+        7932
+      ],
+      "polygons": [
+        5568,
+        5577
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        10267,
+        25689
+      ],
+      "polygons": [
+        6745,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        8,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        10268,
+        25689
+      ],
+      "polygons": [
+        6745,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        8,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        10272,
+        25689
+      ],
+      "polygons": [
+        6747,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        8,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        10273,
+        25689
+      ],
+      "polygons": [
+        6748,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        8,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        10274,
+        25689
+      ],
+      "polygons": [
+        6748,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        8,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        14483,
+        14591
+      ],
+      "polygons": [
+        8853,
+        8907
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        14484,
+        14567
+      ],
+      "polygons": [
+        8853,
+        8895
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        14484,
+        14592
+      ],
+      "polygons": [
+        8853,
+        8907
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        14484,
+        14591
+      ],
+      "polygons": [
+        8853,
+        8907
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        18251,
+        25689
+      ],
+      "polygons": [
+        10737,
+        14456
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        90,
+        11
+      ]
+    },
+    {
+      "triangles": [
+        21412,
+        21475
+      ],
+      "polygons": [
+        12317,
+        12349
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        21419,
+        21489
+      ],
+      "polygons": [
+        12321,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        21420,
+        21489
+      ],
+      "polygons": [
+        12321,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        21421,
+        21489
+      ],
+      "polygons": [
+        12322,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        21422,
+        21489
+      ],
+      "polygons": [
+        12322,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        21423,
+        21489
+      ],
+      "polygons": [
+        12323,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        21424,
+        21489
+      ],
+      "polygons": [
+        12323,
+        12356
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25109,
+        25110
+      ],
+      "polygons": [
+        14166,
+        14166
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        12,
+        12
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        43761
+      ],
+      "polygons": [
+        14456,
+        23492
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        2
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        26969
+      ],
+      "polygons": [
+        14456,
+        15096
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        7
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        26956
+      ],
+      "polygons": [
+        14456,
+        15089
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        7
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        38908
+      ],
+      "polygons": [
+        14456,
+        21065
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        40
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        36553
+      ],
+      "polygons": [
+        14456,
+        19888
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        36554
+      ],
+      "polygons": [
+        14456,
+        19888
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        31845
+      ],
+      "polygons": [
+        14456,
+        17534
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        31846
+      ],
+      "polygons": [
+        14456,
+        17534
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        43762
+      ],
+      "polygons": [
+        14456,
+        23492
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        2
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        26955
+      ],
+      "polygons": [
+        14456,
+        15089
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        7
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        26037
+      ],
+      "polygons": [
+        14456,
+        14630
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        9
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        26038
+      ],
+      "polygons": [
+        14456,
+        14630
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        9
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        31799
+      ],
+      "polygons": [
+        14456,
+        17511
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        31800
+      ],
+      "polygons": [
+        14456,
+        17511
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        36556
+      ],
+      "polygons": [
+        14456,
+        19889
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        36555
+      ],
+      "polygons": [
+        14456,
+        19889
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        27469
+      ],
+      "polygons": [
+        14456,
+        15346
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        7
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        27470
+      ],
+      "polygons": [
+        14456,
+        15346
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        7
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        27465
+      ],
+      "polygons": [
+        14456,
+        15344
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        7
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        27466
+      ],
+      "polygons": [
+        14456,
+        15344
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        7
+      ]
+    },
+    {
+      "triangles": [
+        25689,
+        38907
+      ],
+      "polygons": [
+        14456,
+        21065
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        11,
+        40
+      ]
+    },
+    {
+      "triangles": [
+        34803,
+        34812
+      ],
+      "polygons": [
+        19013,
+        19017
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        34803,
+        34811
+      ],
+      "polygons": [
+        19013,
+        19017
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        0,
+        0
+      ]
+    },
+    {
+      "triangles": [
+        45533,
+        45561
+      ],
+      "polygons": [
+        24378,
+        24392
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        28,
+        28
+      ]
+    },
+    {
+      "triangles": [
+        45534,
+        45561
+      ],
+      "polygons": [
+        24378,
+        24392
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        28,
+        28
+      ]
+    },
+    {
+      "triangles": [
+        45536,
+        45561
+      ],
+      "polygons": [
+        24379,
+        24392
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        28,
+        28
+      ]
+    },
+    {
+      "triangles": [
+        45561,
+        45573
+      ],
+      "polygons": [
+        24392,
+        24398
+      ],
+      "regions": [
+        "original",
+        "original"
+      ],
+      "components": [
+        28,
+        28
+      ]
+    }
+  ],
+  "degenerate_uv_triangles": 0,
+  "degenerate_geometry_triangles": 1,
+  "minimum_island_gap_uv": 0.0,
+  "tile_edge_gap_uv": 0.008045616559684277,
+  "coverage_union": 0.34011908184549633,
+  "groups": {
+    "lids-L": {
+      "triangles": 1792,
+      "uv_area": 0.013499997412785958,
+      "surface_m2": 0.006274904933939686,
+      "density_uv_per_m_p05_median_p95": [
+        1.0026340201771708,
+        1.6484910113556555,
+        1.9717222803871668
+      ],
+      "anisotropy_p50_p95_max": [
+        67.05448633325477,
+        94.19842299397017,
+        116.74610466614786
+      ],
+      "area_weighted_anisotropy_gt4": 1.0
+    },
+    "lids-R": {
+      "triangles": 1792,
+      "uv_area": 0.013499998390674506,
+      "surface_m2": 0.006254909099335891,
+      "density_uv_per_m_p05_median_p95": [
+        1.0035554240671325,
+        1.64851480770916,
+        1.9747455368643494
+      ],
+      "anisotropy_p50_p95_max": [
+        67.01270221502138,
+        94.33061247510334,
+        115.72105601383946
+      ],
+      "area_weighted_anisotropy_gt4": 1.0
+    },
+    "mouth-inner": {
+      "triangles": 1088,
+      "uv_area": 0.005079639781689238,
+      "surface_m2": 0.006625181348810258,
+      "density_uv_per_m_p05_median_p95": [
+        0.6848676021374429,
+        0.907259950354234,
+        2.4514590267993044
+      ],
+      "anisotropy_p50_p95_max": [
+        2.384790990001758,
+        24.939179109323163,
+        56.17548315213536
+      ],
+      "area_weighted_anisotropy_gt4": 0.11973212092374552
+    },
+    "mouth-skin": {
+      "triangles": 1536,
+      "uv_area": 0.00749999836087234,
+      "surface_m2": 0.008033415766294924,
+      "density_uv_per_m_p05_median_p95": [
+        0.7705830400161566,
+        0.9359742779206259,
+        1.8752248248141712
+      ],
+      "anisotropy_p50_p95_max": [
+        14.578747764318848,
+        24.757399785375906,
+        31.8676609976121
+      ],
+      "area_weighted_anisotropy_gt4": 0.9973519220063857
+    },
+    "original": {
+      "triangles": 54277,
+      "uv_area": 0.2867539748260475,
+      "surface_m2": 3.521571490642544,
+      "density_uv_per_m_p05_median_p95": [
+        0.26345996956909146,
+        0.28580560992356807,
+        0.29795601035340774
+      ],
+      "anisotropy_p50_p95_max": [
+        1.0960459157586795,
+        1.289972378123852,
+        164.3662391051615
+      ],
+      "area_weighted_anisotropy_gt4": 2.3322328692558785e-06
+    },
+    "teeth": {
+      "triangles": 8,
+      "uv_area": 0.0006906621153426329,
+      "surface_m2": 0.00017055904219958365,
+      "density_uv_per_m_p05_median_p95": [
+        1.7416702701069136,
+        1.9789154772342281,
+        2.6044095214438627
+      ],
+      "anisotropy_p50_p95_max": [
+        3.639222160211461,
+        4.331994331632685,
+        4.331998749981022
+      ],
+      "area_weighted_anisotropy_gt4": 0.48298251875823
+    },
+    "tongue": {
+      "triangles": 828,
+      "uv_area": 0.013106158213243901,
+      "surface_m2": 0.002171315614772294,
+      "density_uv_per_m_p05_median_p95": [
+        1.931171208082202,
+        2.2618803945618033,
+        76.99140061521358
+      ],
+      "anisotropy_p50_p95_max": [
+        4.9787122528428505,
+        21.213546492833768,
+        42.666571468827826
+      ],
+      "area_weighted_anisotropy_gt4": 0.6592248802658981
+    },
+    "eye-L": {
+      "triangles": 93,
+      "uv_area": 0.0006285863397605951,
+      "surface_m2": 0.008323085117367724,
+      "density_uv_per_m_p05_median_p95": [
+        0.26688078935845544,
+        0.2747822215648208,
+        0.2830313333131243
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1857647638687245,
+        1.257030798483888,
+        1.296877444618574
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "eye-R": {
+      "triangles": 93,
+      "uv_area": 0.0005948452184409425,
+      "surface_m2": 0.008324840267596884,
+      "density_uv_per_m_p05_median_p95": [
+        0.25821042906693914,
+        0.2667318828859864,
+        0.2774439768163116
+      ],
+      "anisotropy_p50_p95_max": [
+        1.258429424235545,
+        1.3428638596653797,
+        1.517524421318856
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "wing-L": {
+      "triangles": 4489,
+      "uv_area": 0.01239056836724885,
+      "surface_m2": 0.15701449385585492,
+      "density_uv_per_m_p05_median_p95": [
+        0.26660315866323275,
+        0.2835639471878471,
+        0.2977975670346377
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1134179513132474,
+        1.2596159466763865,
+        2.1246318530491983
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "wing-R": {
+      "triangles": 4541,
+      "uv_area": 0.012371477319429933,
+      "surface_m2": 0.15712207500912123,
+      "density_uv_per_m_p05_median_p95": [
+        0.2627420266672744,
+        0.285569985029311,
+        0.2977826226132808
+      ],
+      "anisotropy_p50_p95_max": [
+        1.0977550521465538,
+        1.2970837367370285,
+        1.7960056280145706
+      ],
+      "area_weighted_anisotropy_gt4": 0.0
+    },
+    "body-L": {
+      "triangles": 10018,
+      "uv_area": 0.056911565545513784,
+      "surface_m2": 0.6953267105575884,
+      "density_uv_per_m_p05_median_p95": [
+        0.2683541092558841,
+        0.28688985484059165,
+        0.2981099600309363
+      ],
+      "anisotropy_p50_p95_max": [
+        1.087764584476698,
+        1.2432960828944426,
+        8.844676406039662
+      ],
+      "area_weighted_anisotropy_gt4": 2.1821203232297233e-06
+    },
+    "body-R": {
+      "triangles": 10019,
+      "uv_area": 0.05522218208073911,
+      "surface_m2": 0.6941504403865978,
+      "density_uv_per_m_p05_median_p95": [
+        0.25878856958608676,
+        0.28446361669521014,
+        0.29788834520324836
+      ],
+      "anisotropy_p50_p95_max": [
+        1.1064382264778947,
+        1.3368454888985999,
+        15.453539941073547
+      ],
+      "area_weighted_anisotropy_gt4": 4.684548047527583e-06
+    }
+  },
+  "resolutions": {
+    "1024": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 8.2387113571167,
+      "pairs_below_8px": 5077,
+      "density_px_per_m_p05_median_p95": [
+        270.74746809803395,
+        294.4793948167621,
+        1663.4995247184218
+      ]
+    },
+    "2048": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 16.4774227142334,
+      "pairs_below_8px": 69,
+      "density_px_per_m_p05_median_p95": [
+        541.4949361960679,
+        588.9587896335242,
+        3326.9990494368435
+      ]
+    },
+    "4096": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 32.9548454284668,
+      "pairs_below_8px": 38,
+      "density_px_per_m_p05_median_p95": [
+        1082.9898723921358,
+        1177.9175792670485,
+        6653.998098873687
+      ]
+    },
+    "8192": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 65.9096908569336,
+      "pairs_below_8px": 27,
+      "density_px_per_m_p05_median_p95": [
+        2165.9797447842716,
+        2355.835158534097,
+        13307.996197747374
+      ]
+    }
+  },
+  "method": "Shapely exact triangle intersections >1e-12 UV\u00b2. Edge-connected position+UV islands. Exact polygon distance within 32/1024. No overlap inferred intentional. Density/anisotropy per triangle, rest pose; stretch=principal stretch ratio."
+}

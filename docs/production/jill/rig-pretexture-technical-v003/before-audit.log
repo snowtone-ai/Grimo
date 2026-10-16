@@ -1,0 +1,56 @@
+{
+  "label": "before",
+  "triangles": 61321,
+  "islands": 2111,
+  "positive_overlap_pairs": 63,
+  "intentional_shared_pairs": [],
+  "overlap_area_pair_sum_uv2": 1.1347253324108696e-05,
+  "degenerate_uv_triangles": 0,
+  "degenerate_geometry_triangles": 1,
+  "minimum_island_gap_uv": 0.0,
+  "tile_edge_gap_uv": 0.008045616559684277,
+  "coverage_union": 0.34011908184549633,
+  "resolutions": {
+    "1024": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 8.2387113571167,
+      "pairs_below_8px": 5077,
+      "density_px_per_m_p05_median_p95": [
+        270.74746809803395,
+        294.4793948167621,
+        1663.4995247184218
+      ]
+    },
+    "2048": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 16.4774227142334,
+      "pairs_below_8px": 69,
+      "density_px_per_m_p05_median_p95": [
+        541.4949361960679,
+        588.9587896335242,
+        3326.9990494368435
+      ]
+    },
+    "4096": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 32.9548454284668,
+      "pairs_below_8px": 38,
+      "density_px_per_m_p05_median_p95": [
+        1082.9898723921358,
+        1177.9175792670485,
+        6653.998098873687
+      ]
+    },
+    "8192": {
+      "minimum_island_gap_px": 0.0,
+      "tile_edge_px": 65.9096908569336,
+      "pairs_below_8px": 27,
+      "density_px_per_m_p05_median_p95": [
+        2165.9797447842716,
+        2355.835158534097,
+        13307.996197747374
+      ]
+    }
+  },
+  "method": "Shapely exact triangle intersections >1e-12 UV\u00b2. Edge-connected position+UV islands. Exact polygon distance within 32/1024. No overlap inferred intentional. Density/anisotropy per triangle, rest pose; stretch=principal stretch ratio."
+}

@@ -1,0 +1,59 @@
+00:09.734  blend            | Read blend: "C:\Users\chidj\.codex\worktrees\jill-pretexture-technical-v003\Grimo\assets\grimo\production\jill\tripo\rig-pretexture-technical-v003\jill-rig-texture-uv-v003.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+05:16:53 | INFO: Starting glTF 2.0 export
+05:16:53 | INFO: Extracting primitive: Jill_Pretexture_LocalSurface_v002.001
+05:16:54 | INFO: Primitives created: 23
+05:16:54 | INFO: Finished glTF 2.0 export in 0.644650936126709 s
+
+
+FBX export starting... 'C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\assets\\grimo\\production\\jill\\tripo\\rig-pretexture-technical-v003\\jill-texture-input-neutral-v003.fbx'
+export finished in 0.4359 sec.
+05:16:55 | INFO: Starting glTF 2.0 export
+05:16:55 | INFO: Extracting primitive: Jill_Pretexture_LocalSurface_v002.001
+05:16:55 | INFO: Primitives created: 23
+05:16:56 | INFO: Finished glTF 2.0 export in 0.9336988925933838 s
+
+
+FBX export starting... 'C:\\Users\\chidj\\.codex\\worktrees\\jill-pretexture-technical-v003\\Grimo\\docs\\production\\jill\\rig-pretexture-technical-v003\\roundtrip\\synthetic-return.fbx'
+export finished in 0.4417 sec.
+05:16:59 | INFO: Starting glTF 2.0 export
+05:16:59 | INFO: Extracting primitive: Jill_Pretexture_LocalSurface_v002.001
+05:17:00 | INFO: Primitives created: 23
+05:17:00 | INFO: Finished glTF 2.0 export in 0.9333486557006836 s
+
+addon_utils.disable: bl_ext.blender_lab.mcp not enabled
+05:17:01 | INFO: Data are loaded, start creating Blender stuff
+05:17:01 | INFO: Blender create Mesh node Jill_Pretexture_LocalSurface_v002.001
+05:17:02 | INFO: glTF import finished in 0.49s
+05:17:04 | INFO: Data are loaded, start creating Blender stuff
+05:17:04 | INFO: Blender create Mesh node Jill_Pretexture_LocalSurface_v002.001
+05:17:05 | INFO: glTF import finished in 0.54s
+00:57.953  blend            | Read blend: "C:\Users\chidj\.codex\worktrees\jill-pretexture-technical-v003\Grimo\assets\grimo\production\jill\tripo\rig-pretexture-technical-v003\jill-rig-texture-uv-v003.blend"
+00:58.281  blend            | Read blend: "C:\Users\chidj\.codex\worktrees\jill-pretexture-technical-v003\Grimo\docs\production\jill\rig-pretexture-technical-v003\roundtrip\rig-image-only-glb.blend"
+Info: Packed 1 file(s)
+Info: Saved as "rig-image-only-glb.blend"
+05:17:38 | INFO: Starting glTF 2.0 export
+05:17:38 | INFO: Extracting primitive: Jill_Pretexture_LocalSurface_v002
+05:17:41 | INFO: Primitives created: 23
+05:17:43 | INFO: Finished glTF 2.0 export in 4.541816473007202 s
+
+05:17:43 | INFO: Data are loaded, start creating Blender stuff
+05:17:43 | INFO: Blender create Mesh node Jill_Pretexture_LocalSurface_v002
+05:17:44 | INFO: glTF import finished in 1.17s
+01:51.969  blend            | Read blend: "C:\Users\chidj\.codex\worktrees\jill-pretexture-technical-v003\Grimo\assets\grimo\production\jill\tripo\rig-pretexture-technical-v003\jill-rig-texture-uv-v003.blend"
+01:52.297  blend            | Read blend: "C:\Users\chidj\.codex\worktrees\jill-pretexture-technical-v003\Grimo\docs\production\jill\rig-pretexture-technical-v003\roundtrip\rig-image-only-fbx.blend"
+FBX version: 7400
+Info: Packed 1 file(s)
+Info: Saved as "rig-image-only-fbx.blend"
+05:18:32 | INFO: Starting glTF 2.0 export
+05:18:32 | INFO: Extracting primitive: Jill_Pretexture_LocalSurface_v002
+05:18:35 | INFO: Primitives created: 23
+05:18:37 | INFO: Finished glTF 2.0 export in 4.533538818359375 s
+
+05:18:37 | INFO: Data are loaded, start creating Blender stuff
+05:18:37 | INFO: Blender create Mesh node Jill_Pretexture_LocalSurface_v002
+05:18:38 | INFO: glTF import finished in 1.33s
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

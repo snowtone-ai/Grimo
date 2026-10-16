@@ -1,17 +1,19 @@
 # Jill — NOW
 
-2026-10-15 / branch `codex/jill-pretexture-v002-20261015` / **実装修正版を保存、Pre-Texture Technical GO候補には未到達・HOLD。最終GOはHuman専権。**
+2026-10-16 / `codex/jill-pretexture-technical-v003-20261016`。**4K BaseColor基準のPre-Texture Technical GO候補を実装。Human最終GO PENDING、Tripo実行HOLD。** 現候補へのHuman「見た目はOK」は保持し、全poseの承認へ広げない。
 
-実継承HEAD `379fe79ac2561b9a5796a4657c36d503d248cf04`、最新main `8e4996c63c6d8fbb41954a2aa5cb5d892e45f01b` を確認。旧Jill worktreeはclean、旧正本/旧Evidence/元checkoutの並行Shushu変更を保護。専用worktreeは `C:/Users/chidj/.codex/worktrees/jill-pretexture-v002/Grimo`。既存[Plan](rig-other-v001/Plan.md)へ事前追記を `202eae9` でcommitしてから実装した。
+継承 `3de7b2e46b839a4ec970f58d8c5e8a99c4580f9e`、確認main `73617ce2d3c724c86aed82dfc2a09cd220e5d194`。旧Jill worktreeは開始時clean、元checkoutの並行Shushu変更を保護。専用worktree `C:/Users/chidj/.codex/worktrees/jill-pretexture-technical-v003/Grimo`。旧正本/旧Evidence/元UV/他キャラは不変。
 
-[別名blend/GLB・Texture専用FBX/GLB](../../../assets/grimo/production/jill/tripo/rig-pretexture-v002/README.md) / [Evidence・阻害条件](rig-pretexture-v002/Evidence.md) / [顔・口](rig-pretexture-v002/face-mouth.jpg) / [閉眼](rig-pretexture-v002/face-blink.jpg) / [SHA・絶対パス](rig-pretexture-v002/Manifest.json)。130骨/39ch/20 Morph/16 anchor。元28,050頂点のBasis差0。局所立体瞼/口縁/口腔/舌/牙、根のweights、限定foldを実装。全身再生成/一括remeshなし。
+[投入候補・Rig派生](../../../assets/grimo/production/jill/tripo/rig-pretexture-technical-v003/README.md) / [EvidenceとHOLD分類](rig-pretexture-technical-v003/Evidence.md) / [SHA・絶対パス](rig-pretexture-technical-v003/Manifest.json) / [remote照合](rig-pretexture-technical-v003/RemoteReceipt.json)。Rig blend SHA `ad9f867e87a6006259aec5d8b01e1981fc823ae97bc92a87dc49a906770a9050`。
 
-**残り**：閉眼が蓋状、半閉眼の厚い縁とSideの隙間。閉口の顎が板状で口縁二重、大開口内部も未完成。翼根/肩/首葉/尾葉の層と接合、膜の柔らかさが不足。foldは0.30radの後方スイープまでで自然な収納ではない。可愛さ・本人性・接合はHOLD、Human外観判定PENDING。承認済み閉口/閉眼/fold極値参照もない。
+変更は必要箇所のUV再投影・島再配置・同外観の23paint owner分割。Geometry/topology/normal/Rigの再制作なし。130骨/39ch/20 Morph/16 anchor、Basis/全Morph/weights/drivers/anchorsの契約一致、8代表状態の評価頂点差0。元activeと元source UVはUV1/UV2へ完全保存、新UV0は `Jill_Texture_UV0_v003`。
 
-元UVは第2層で差0保持。active UVは元島を`.006+.88*source`へ移し、新規面用右帯と縮退三角形1枚の局所補修を追加。このactive変更は未承認。checkerの全方向/掌/口内/膜裏を確認したが密度差・伸び・隠れ根はHOLD。Texture専用FBX/GLBは同じneutral surface/active UVから作成し、fresh import対応を確認。
+UVは63 overlap pair→0、縮退UV0、61,321三角形/2,203島。4K最小島間23.894px、tile端20.144px。1KはHOLD、2Kは余白PASS・細部paint UNKNOWNで主候補外、8Kは測定上候補（実画像往復は4Kのみ）。微小な旧sliver伸びとGeometry縮退1枚は残し、細密図柄の品質を保証しない。
 
-保存blend/GLB再読込の代表poseとanchor、ローカルPlayCanvas 2.22.2のsampled proofを確認。[連続3視点再生の範囲](rig-pretexture-v002/PlaybackReview.md)。driver/IKや任意39ch solverをGLBへ移植したものではない。スマホ/全Motion/厳密接触・装備fitは未検証。数値一致で外観HOLDを解除しない。
+[顔front/side/3Q遷移](rig-pretexture-technical-v003/face-review.jpg) / [翼fold/open比較](rig-pretexture-technical-v003/wing-regression.jpg) / [診断色](rig-pretexture-technical-v003/diagnostic-review.jpg)を開いて確認。24対のclay最大差4/255、最大6画素/480²、翼6対はpixel一致。新しい外観回帰は見当たらない。厚い蓋状瞼/side隙間、板状顎/二重口縁、口内造形、根の層、0.30rad sweepのみのfoldは保持。これらは現形状凍結の範囲で塗装後へ延期可能だが、品質承認はUNKNOWN。Humanが形状/面接続変更を求める場合はTexture前へ戻し本候補GO失効。
 
-[Texture仕様](rig-pretexture-v002/TextureSpec.md) はCanonical配色、最新Human指定の桃色horn、クローバー、眼、口内。[Tripo引渡し](rig-pretexture-v002/TripoHandoff.md) にOriginal UVの公開案内と実UI/料金の未確認、返却骨/Morph/UV保持を仮定しない元Rigへの画像転写手順を保存。upload/課金/正式Texture生成なし。HOLDのままTexture実行へ進めない。
+FBX/GLB合成返却→画像だけ元Rigへ→packed blend保存再読込→Rig GLB fresh importを実証。UV0/1/2、baseColor texCoord=0、130骨/20 Morphを確認。UV変更の合成GLBも全61,321三角形を一意対応し元UV0へ転写、5,252,720画素の差0。実返却remesh/異なる三角形化/Normalの保証ではない。既存305frameを重複実行せず、全Motion/mobileは別gate。
 
-次は顔の局所面接続と根/膜fold、UV密度を修復し、承認参照と比較。現状を完成/GOと宣言しない。旧v001状態は[旧Evidence](rig-other-v001/Evidence.md)と継承HEADのHANDOFFに残る。
+[Texture仕様](rig-pretexture-technical-v003/TextureSpec.md) / [Tripo引渡し・停止条件](rig-pretexture-technical-v003/TripoHandoff.md)。閉口肌/瞼は承認paletteでowner充填し開口/開眼印刷を排除。隠れ口内・翼裏・葉根もmaskで補う。承認palette/角mask/クローバー、実UI/対応解像度/Original UV/料金/実返却は未確認。Original UV不可やowner/geometry対応不明なら停止。upload・課金・正式Textureは未実施。Human最終GOを代行しない。
+
+継承資料は [v002 Evidence](rig-pretexture-v002/Evidence.md)、さらに旧状態は [v001 Evidence](rig-other-v001/Evidence.md)。旧資料のHOLD文言は履歴として残し、NOWはこの文書とv003 Evidenceで判定する。
