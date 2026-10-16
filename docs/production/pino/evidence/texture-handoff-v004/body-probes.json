@@ -1,0 +1,1041 @@
+{
+  "note": "Meters. Rump selection is posterior body surface, not feet. Contact must be judged in renders as well. Tail volume includes original three shells.",
+  "samples": [
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.5317381620407104,
+      "kind": "contact",
+      "s": 0,
+      "min_z": -1.2336386134847999e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2336386134847999e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0000007869875593,
+      "edge_ratio_max": 1.000003958711072,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": 6.705522537231445e-08
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.48971787095069885,
+      "kind": "contact",
+      "s": 0.125,
+      "min_z": -1.2583768693730235e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2583768693730235e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.48971787095069885,
+      "paw_signed_x_gap": 0.4897173345088959,
+      "edge_ratio_p99": 1.0814819800168018,
+      "edge_ratio_max": 1.6470463578952923,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.4380040764808655,
+      "kind": "contact",
+      "s": 0.25,
+      "min_z": -1.2831151252612472e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2831151252612472e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.4380040764808655,
+      "paw_signed_x_gap": 0.4380018413066864,
+      "edge_ratio_p99": 1.2189888618600064,
+      "edge_ratio_max": 2.47871482241821,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.3714492619037628,
+      "kind": "contact",
+      "s": 0.375,
+      "min_z": -1.3078533811494708e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3078533811494708e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.3714492619037628,
+      "paw_signed_x_gap": 0.37144261598587036,
+      "edge_ratio_p99": 1.4379269999127804,
+      "edge_ratio_max": 3.337190466531205,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.29923704266548157,
+      "kind": "contact",
+      "s": 0.5,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.29923704266548157,
+      "paw_signed_x_gap": 0.2992233633995056,
+      "edge_ratio_p99": 1.664814497475804,
+      "edge_ratio_max": 4.175988517431078,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.22464331984519958,
+      "kind": "contact",
+      "s": 0.625,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.22464331984519958,
+      "paw_signed_x_gap": 0.22461818158626556,
+      "edge_ratio_p99": 1.970500970364419,
+      "edge_ratio_max": 5.237903862663528,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.14978836476802826,
+      "kind": "contact",
+      "s": 0.75,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.14978836476802826,
+      "paw_signed_x_gap": 0.1497427225112915,
+      "edge_ratio_p99": 2.2608197532932794,
+      "edge_ratio_max": 6.212263465316953,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.07454929500818253,
+      "kind": "contact",
+      "s": 0.875,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.07454929500818253,
+      "paw_signed_x_gap": 0.07444843649864197,
+      "edge_ratio_p99": 2.5172515905862807,
+      "edge_ratio_max": 7.037565306171319,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.0004418032767716795,
+      "kind": "contact",
+      "s": 1,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.0038910096045583487,
+      "paw_signed_x_gap": -0.0001017153263092041,
+      "edge_ratio_p99": 2.7159388810825447,
+      "edge_ratio_max": 7.679905484509761,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.14978836476802826,
+      "kind": "contact",
+      "s": 0.75,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.14978836476802826,
+      "paw_signed_x_gap": 0.1497427225112915,
+      "edge_ratio_p99": 2.2608197532932794,
+      "edge_ratio_max": 6.212263465316953,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.29923704266548157,
+      "kind": "contact",
+      "s": 0.5,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.29923704266548157,
+      "paw_signed_x_gap": 0.2992233633995056,
+      "edge_ratio_p99": 1.664814497475804,
+      "edge_ratio_max": 4.175988517431078,
+      "tail_volume_ratio": 1.0000000709260248,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.4380040764808655,
+      "kind": "contact",
+      "s": 0.25,
+      "min_z": -1.2831151252612472e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2831151252612472e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.4380040764808655,
+      "paw_signed_x_gap": 0.4380018413066864,
+      "edge_ratio_p99": 1.2189888618600064,
+      "edge_ratio_max": 2.47871482241821,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": 0,
+      "paw_vertex_to_surface_gap": 0.5317381620407104,
+      "kind": "contact",
+      "s": 0,
+      "min_z": -1.2336386134847999e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2336386134847999e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0000007869875593,
+      "edge_ratio_max": 1.000003958711072,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": 6.705522537231445e-08
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0,
+      "min_z": -5.8986188378185034e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -5.8986188378185034e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.07519527524709702,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0000008481775293,
+      "edge_ratio_max": 1.0000049016500827,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": 6.851395278330714e-08
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.125,
+      "min_z": 0.000499988382216543,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 0.000499988382216543,
+          "floor_3mm": 48
+        },
+        "rump": {
+          "min_z": 0.0729120746254921,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.04990532249212265,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.5317382216453552,
+      "edge_ratio_p99": 1.0128410564275896,
+      "edge_ratio_max": 1.1309207359308637,
+      "tail_volume_ratio": 0.9981706958587773,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.25,
+      "min_z": 0.0009999932954087853,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 0.0009999932954087853,
+          "floor_3mm": 48
+        },
+        "rump": {
+          "min_z": 0.06239866092801094,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.04963503032922745,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.0300121925149202,
+      "edge_ratio_max": 1.2659750206491798,
+      "tail_volume_ratio": 0.9968698681092734,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.375,
+      "min_z": 0.0009999799076467752,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 0.0009999799076467752,
+          "floor_3mm": 54
+        },
+        "rump": {
+          "min_z": 0.05195269361138344,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.049458738416433334,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.0539642175786454,
+      "edge_ratio_max": 1.4038216565780297,
+      "tail_volume_ratio": 0.9960211526205189,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.5,
+      "min_z": 0.00018373498460277915,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 0.00018373498460277915,
+          "floor_3mm": 76
+        },
+        "rump": {
+          "min_z": 0.04157903417944908,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.04399079456925392,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.0818251206674414,
+      "edge_ratio_max": 1.543399119633156,
+      "tail_volume_ratio": 0.9956999932167806,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.625,
+      "min_z": 9.50787725741975e-05,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 9.50787725741975e-05,
+          "floor_3mm": 90
+        },
+        "rump": {
+          "min_z": 0.03128610923886299,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.033710286021232605,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.1202988394445124,
+      "edge_ratio_max": 1.6839137904918735,
+      "tail_volume_ratio": 0.9958341400459141,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.75,
+      "min_z": 5.803685780847445e-05,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 5.803685780847445e-05,
+          "floor_3mm": 114
+        },
+        "rump": {
+          "min_z": 0.021066952496767044,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.023489264771342278,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.1668961335509611,
+      "edge_ratio_max": 1.8252603426971952,
+      "tail_volume_ratio": 0.9964876928243035,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.875,
+      "min_z": 1.756520759954583e-05,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 1.756520759954583e-05,
+          "floor_3mm": 120
+        },
+        "rump": {
+          "min_z": 0.01122802123427391,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.012956065125763416,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.2195150398083279,
+      "edge_ratio_max": 1.9666824306323933,
+      "tail_volume_ratio": 0.9976036006016276,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 1,
+      "min_z": 3.356538582011126e-05,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 3.356538582011126e-05,
+          "floor_3mm": 144
+        },
+        "rump": {
+          "min_z": 0.0012414782540872693,
+          "floor_3mm": 6
+        },
+        "tail": {
+          "min_z": 0.002479170449078083,
+          "floor_3mm": 1
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.273062526645242,
+      "edge_ratio_max": 2.1086533174125086,
+      "tail_volume_ratio": 0.9992240458372936,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.75,
+      "min_z": 5.803685780847445e-05,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 5.803685780847445e-05,
+          "floor_3mm": 114
+        },
+        "rump": {
+          "min_z": 0.021066952496767044,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.023489264771342278,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.1668961335509611,
+      "edge_ratio_max": 1.8252603426971952,
+      "tail_volume_ratio": 0.9964876928243035,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.5,
+      "min_z": 0.00018373498460277915,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 0.00018373498460277915,
+          "floor_3mm": 76
+        },
+        "rump": {
+          "min_z": 0.04157903417944908,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.04399079456925392,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.0818251206674414,
+      "edge_ratio_max": 1.543399119633156,
+      "tail_volume_ratio": 0.9956999932167806,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0.25,
+      "min_z": 0.0009999932954087853,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": 0.0009999932954087853,
+          "floor_3mm": 48
+        },
+        "rump": {
+          "min_z": 0.06239866092801094,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.04963503032922745,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.0300121925149202,
+      "edge_ratio_max": 1.2659750206491798,
+      "tail_volume_ratio": 0.9968698681092734,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "rest",
+      "s": 0,
+      "min_z": -5.8986188378185034e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -5.8986188378185034e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.07519527524709702,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0000008481775293,
+      "edge_ratio_max": 1.0000049016500827,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": 6.851395278330714e-08
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 0,
+      "min_z": -1.2336386134847999e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2336386134847999e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0000007869875593,
+      "edge_ratio_max": 1.000003958711072,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": 6.705522537231445e-08
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 0.25,
+      "min_z": -1.2583768693730235e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2583768693730235e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0343498096067172,
+      "edge_ratio_max": 1.0949205152485462,
+      "tail_volume_ratio": 1.0006329179541047,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 0.5,
+      "min_z": -1.2831151252612472e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2831151252612472e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.5317382216453552,
+      "edge_ratio_p99": 1.069827482353491,
+      "edge_ratio_max": 1.1909729775795836,
+      "tail_volume_ratio": 1.0009361250317765,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 0.75,
+      "min_z": -1.3078533811494708e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3078533811494708e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294267296791,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.1066288444867594,
+      "edge_ratio_max": 1.287819326167319,
+      "tail_volume_ratio": 1.0009085907893436,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 1,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.1447269434809053,
+      "edge_ratio_max": 1.3851793828007377,
+      "tail_volume_ratio": 1.0005484428983202,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 0.5,
+      "min_z": -1.2831151252612472e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2831151252612472e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.5317382216453552,
+      "edge_ratio_p99": 1.069827482353491,
+      "edge_ratio_max": 1.1909729775795836,
+      "tail_volume_ratio": 1.0009361250317765,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 0,
+      "min_z": -1.2336386134847999e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2336386134847999e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0000007869875593,
+      "edge_ratio_max": 1.000003958711072,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": 6.705522537231445e-08
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": -0.5,
+      "min_z": -1.2831151252612472e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2831151252612472e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.5317382216453552,
+      "edge_ratio_p99": 1.0726434795686397,
+      "edge_ratio_max": 1.1911200255478174,
+      "tail_volume_ratio": 1.0010146526911956,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": -1,
+      "min_z": -1.3325916370376945e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.3325916370376945e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751952975988388,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.53173828125,
+      "edge_ratio_p99": 1.1490968573905207,
+      "edge_ratio_max": 1.385502370015559,
+      "tail_volume_ratio": 1.000702634655945,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": -0.5,
+      "min_z": -1.2831151252612472e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2831151252612472e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.53173828125,
+      "paw_signed_x_gap": 0.5317382216453552,
+      "edge_ratio_p99": 1.0726434795686397,
+      "edge_ratio_max": 1.1911200255478174,
+      "tail_volume_ratio": 1.0010146526911956,
+      "neutral_max_delta": null
+    },
+    {
+      "paw_triangle_intersections": null,
+      "paw_vertex_to_surface_gap": null,
+      "kind": "tail",
+      "s": 0,
+      "min_z": -1.2336386134847999e-08,
+      "below_floor_1mm": 0,
+      "region": {
+        "feet": {
+          "min_z": -1.2336386134847999e-08,
+          "floor_3mm": 60
+        },
+        "rump": {
+          "min_z": 0.0751953125,
+          "floor_3mm": 0
+        },
+        "tail": {
+          "min_z": 0.05029294639825821,
+          "floor_3mm": 0
+        }
+      },
+      "paw_surface_distance": 0.5317381620407104,
+      "paw_signed_x_gap": 0.5317381620407104,
+      "edge_ratio_p99": 1.0000007869875593,
+      "edge_ratio_max": 1.000003958711072,
+      "tail_volume_ratio": 0.9999999607890552,
+      "neutral_max_delta": 6.705522537231445e-08
+    }
+  ]
+}

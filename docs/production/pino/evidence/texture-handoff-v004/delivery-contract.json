@@ -1,0 +1,73 @@
+{
+  "Human_Pre_Texture_Gate": "PENDING",
+  "Texture_GO": false,
+  "source_commit": "1dd7980f57419dd3a4ee5fbb4adc9c1dfac207b2",
+  "latest_main_authority": "73617ce2d3c724c86aed82dfc2a09cd220e5d194",
+  "meshes": [
+    {
+      "index": 0,
+      "mesh": "dd960071_f7d5_4eaa_a261_8fb0fbf78711.001",
+      "object": "PINO_C_BASE_RIG_V001",
+      "keys": [
+        "PinoBlink_L",
+        "PinoBlink_R",
+        "PinoMouthClosed",
+        "PinoMouthLarge",
+        "PinoMouthLift",
+        "PinoEyeRetract_L",
+        "PinoEyeRetract_R",
+        "PinoSkinClose_L",
+        "PinoSkinClose_R",
+        "PinoSquint_L",
+        "PinoSquint_R",
+        "V4_contact_+0.50",
+        "V4_contact_+1.00",
+        "V4_rest_+0.25",
+        "V4_rest_+0.50",
+        "V4_rest_+0.75",
+        "V4_rest_+1.00",
+        "V4_tail_-1.00",
+        "V4_tail_+1.00"
+      ]
+    },
+    {
+      "index": 1,
+      "mesh": "Texture-ready rolling lid L",
+      "object": "PinoSoftLids_L",
+      "keys": [
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ]
+    },
+    {
+      "index": 2,
+      "mesh": "Texture-ready rolling lid R",
+      "object": "PinoSoftLids_R",
+      "keys": [
+        "LidHalf",
+        "LidThreeQuarter",
+        "LidAlmostClosed",
+        "LidClosed",
+        "LidRetreat"
+      ]
+    },
+    {
+      "index": 3,
+      "mesh": "Source-aligned retracting oral liner",
+      "object": "PinoOralLiner",
+      "keys": [
+        "OralClosed",
+        "OralLarge",
+        "OralLift",
+        "OralOcclude"
+      ]
+    }
+  ],
+  "rig_bones": 70,
+  "uv": "PinoUV_v003 unchanged",
+  "mapping": "pino-c-v004-return-map.npz: per mesh position, corner_vertex, uv, polygon_sizes, material_id",
+  "note": "Tripo input is static. Reproject/bake texture to retained atlas; never replace editing-master geometry/rig."
+}

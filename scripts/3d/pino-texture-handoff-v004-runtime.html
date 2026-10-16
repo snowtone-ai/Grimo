@@ -1,0 +1,15 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><link rel="icon" href="data:,"><title>Pino v004 Pre-Texture Review</title><style>body{margin:0;background:#20242a;color:#ddd;font:14px monospace}canvas{width:800px;height:800px}#info{position:fixed;top:10px;left:12px;white-space:pre;pointer-events:none}</style><canvas id="canvas" width="800" height="800"></canvas><div id="info">Loading</div><script type="module">
+import * as pc from '/_engine/playcanvas.mjs';
+const app=new pc.Application(document.querySelector('canvas'),{graphicsDeviceOptions:{antialias:true,alpha:false,preserveDrawingBuffer:true}});app.start();app.scene.ambientLight=new pc.Color(.4,.4,.4);
+const camera=new pc.Entity('camera');camera.addComponent('camera',{clearColor:new pc.Color(.10,.12,.15),projection:pc.PROJECTION_ORTHOGRAPHIC,orthoHeight:.66,nearClip:.01,farClip:20});app.root.addChild(camera);
+const light=new pc.Entity('key');light.addComponent('light',{type:'directional',color:new pc.Color(1,1,1),intensity:.7,castShadows:false});light.setEulerAngles(35,30,0);app.root.addChild(light);
+const errors=[];addEventListener('error',e=>errors.push(e.message));const controls=await(await fetch('/docs/production/pino/evidence/texture-handoff-v004/runtime-controls.json')).json();
+const asset=new pc.Asset('Pino v004','container',{url:'/assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-v004-rigged-review.glb'});app.assets.add(asset);asset.on('error',e=>errors.push(String(e)));
+asset.ready(()=>{
+ const root=asset.resource.instantiateRenderEntity();app.root.addChild(root);const mi=root.findComponents('render').flatMap(r=>r.meshInstances);const morphs=[...new Set(mi.map(m=>m.morphInstance).filter(Boolean))];
+ function view(name='front',face=false){const t=new pc.Vec3(0,face?.64:.47,face?.16:.015);const d={front:[0,0,3],side:[3,0,0],'3q':[2.12,0,2.12]}[name];camera.camera.orthoHeight=face?.285:.66;camera.setPosition(t.x+d[0],t.y+d[1],t.z+d[2]);camera.lookAt(t);}
+ function state(name){const s=controls.find(x=>x.name===name);if(!s)throw new Error('Unknown probe '+name);for(const [n,a] of Object.entries(s.local_matrices)){const e=root.findByName(n);if(!e)throw new Error('Missing joint '+n);const m=new pc.Mat4().set(a);e.setLocalPosition(m.getTranslation());e.setLocalRotation(new pc.Quat().setFromMat4(m));e.setLocalScale(m.getScale());}for(const m of morphs){const node=mi.find(x=>x.morphInstance===m)?.node.name;for(let i=0;i<m.morph.targets.length;i++)m.setWeight(i,s.morphs[node]?.[m.morph.targets[i].name]??0);}document.querySelector('#info').textContent=`Pino C v004 / ${name}\nHuman Pre-Texture Gate=PENDING`;return s.name;}
+ function ownership(on=true){for(const x of mi){const n=x.material.name;if(n.includes('Eye')){x.material.diffuse.set(...(on?[.025,.1,.2]:[.8,.8,.8]));x.material.update();}if(n.includes('Oral')){x.material.diffuse.set(...(on?[.03,.018,.018]:[.8,.8,.8]));x.material.update();}}}
+ view('3q');state('neutral');ownership();window.proof={app,root,mi,morphs,state,view,ownership,errors,ready:true,engine:pc.version,controls};
+});app.assets.load(asset);
+</script></html>

@@ -1,0 +1,98 @@
+[
+  {
+    "path": "assets/grimo/production/pino/candidate-c/face-foundation-v002/pino-face-foundation-v002-diagnostic.glb",
+    "expected_sha256": "560e6603eb001ac375068f3940e51762f504a0c2650a9896a429b8659e9077ef",
+    "actual_sha256": "560e6603eb001ac375068f3940e51762f504a0c2650a9896a429b8659e9077ef",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/face-foundation-v002/pino-face-foundation-v002-proof.blend",
+    "expected_sha256": "ade753b6c5fec6457a682f5eda4c4d86d4d45778856fa0b829f61ea8ec4ebb25",
+    "actual_sha256": "ade753b6c5fec6457a682f5eda4c4d86d4d45778856fa0b829f61ea8ec4ebb25",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/face-foundation-v002/pino-face-foundation-v002.blend",
+    "expected_sha256": "31c903f1d40b1e2a3dbc85a215509ae90e01bd2422e7a68f82099bb4e14474c0",
+    "actual_sha256": "31c903f1d40b1e2a3dbc85a215509ae90e01bd2422e7a68f82099bb4e14474c0",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/rig-v001/input/pino-c-tripo-mixamo-original.fbx",
+    "expected_sha256": "b728b4e7275d9431e148cbb3eaeb6f65b328493fc39cb990b9eb6e90ceaa4b37",
+    "actual_sha256": "b728b4e7275d9431e148cbb3eaeb6f65b328493fc39cb990b9eb6e90ceaa4b37",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/rig-v001/pino-c-base-rig-v001-proof.blend",
+    "expected_sha256": "b555b224ab850dcd403eeb7fd12952fbe7086111e1d85a2ed3afd9c98749561a",
+    "actual_sha256": "b555b224ab850dcd403eeb7fd12952fbe7086111e1d85a2ed3afd9c98749561a",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/rig-v001/pino-c-base-rig-v001.blend",
+    "expected_sha256": "b7f36853bdb0a221d62d18c29bb667849fd33d6edba815a4e3bd13599f44f978",
+    "actual_sha256": "b7f36853bdb0a221d62d18c29bb667849fd33d6edba815a4e3bd13599f44f978",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/rig-v001/pino-c-tripo-import-unaltered.blend",
+    "expected_sha256": "67f7696cc79a12db3d0b9cf9787ec90c19752aaccaa66c6c9482e99d944ea2aa",
+    "actual_sha256": "67f7696cc79a12db3d0b9cf9787ec90c19752aaccaa66c6c9482e99d944ea2aa",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/source/cute blue creature 3d model.fbx",
+    "expected_sha256": "3531eddb0578be8e4885b942db629a97a949d2039eb496c88ed1dc041372a111",
+    "actual_sha256": "3531eddb0578be8e4885b942db629a97a949d2039eb496c88ed1dc041372a111",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/source/cute blue creature 3d model.glb",
+    "expected_sha256": "ee7339f8e4339037b87880b75d90fd944fe7dda84f696c2be42db7ea0f24da11",
+    "actual_sha256": "ee7339f8e4339037b87880b75d90fd944fe7dda84f696c2be42db7ea0f24da11",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/source/pino/pino-Identity-canonical.png",
+    "expected_sha256": "a3dd36ce1a186f68bca9a249e12d9bfe139b19c610d64b5eaf395856ade69fb7",
+    "actual_sha256": "a3dd36ce1a186f68bca9a249e12d9bfe139b19c610d64b5eaf395856ade69fb7",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/texture-ready-v003/pino-c-texture-ready-v003-HOLD.blend",
+    "expected_sha256": "c28d433c6de7c57491423a38909f8f6f274fa65d0fda57f28e8a97b9ad26b256",
+    "actual_sha256": "c28d433c6de7c57491423a38909f8f6f274fa65d0fda57f28e8a97b9ad26b256",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/texture-ready-v003/pino-c-texture-ready-v003-HOLD.glb",
+    "expected_sha256": "2c2acecf141d666737efbe039308dbb397c64ecf1b05a82e3cac26648ca9e078",
+    "actual_sha256": "2c2acecf141d666737efbe039308dbb397c64ecf1b05a82e3cac26648ca9e078",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_front.png",
+    "expected_sha256": "c4163765b26523849cc32a7ba22499e36a9b89432ede37559c5cd19aa2e96589",
+    "actual_sha256": "c4163765b26523849cc32a7ba22499e36a9b89432ede37559c5cd19aa2e96589",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_back.png",
+    "expected_sha256": "1762021a4d974fd8d9f3c3abbd43fdb31d14f5dff844b566592d7593f06ee5bf",
+    "actual_sha256": "1762021a4d974fd8d9f3c3abbd43fdb31d14f5dff844b566592d7593f06ee5bf",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_left.png",
+    "expected_sha256": "787f7e58b302e6ce4288cd105192c128b7594c02ebed1a2d82d30b6dc9b02b28",
+    "actual_sha256": "787f7e58b302e6ce4288cd105192c128b7594c02ebed1a2d82d30b6dc9b02b28",
+    "matches": true
+  },
+  {
+    "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_right.png",
+    "expected_sha256": "183bf58cda989a1a645aa8bdb045d61a0a0d3b4bc5fafc79fb97bf75d1eb8be8",
+    "actual_sha256": "183bf58cda989a1a645aa8bdb045d61a0a0d3b4bc5fafc79fb97bf75d1eb8be8",
+    "matches": true
+  }
+]

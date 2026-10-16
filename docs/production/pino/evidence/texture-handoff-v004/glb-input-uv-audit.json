@@ -1,0 +1,80 @@
+{
+  "records": [
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PinoOralLiner",
+      "position_max_error": 2.9802322387695312e-08,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PinoSoftLids_L",
+      "position_max_error": 2.9802322387695312e-08,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PinoSoftLids_R",
+      "position_max_error": 2.9802322387695312e-08,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PinoOralLiner",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PinoSoftLids_L",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PinoSoftLids_R",
+      "position_max_error": 0.0,
+      "uv_max_error": 2.9802322387695312e-08
+    }
+  ],
+  "static_input_no_skin_morph_animation": true,
+  "uv_triangles": 50763,
+  "positive_area_overlap_pairs": 0,
+  "zero_area_uv_triangles": 0
+}

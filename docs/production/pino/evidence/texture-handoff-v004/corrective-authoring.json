@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "contact",
+    "s": 0.5,
+    "max_volume_delta": 0.019427309310162837,
+    "normal_corners": 16251
+  },
+  {
+    "kind": "contact",
+    "s": 1,
+    "max_volume_delta": 0.10308479545640839,
+    "normal_corners": 16260
+  },
+  {
+    "kind": "rest",
+    "s": 0.25,
+    "max_volume_delta": 0.0010000233306728347,
+    "normal_corners": 57954
+  },
+  {
+    "kind": "rest",
+    "s": 0.5,
+    "max_volume_delta": 0.005699728659586292,
+    "normal_corners": 57954
+  },
+  {
+    "kind": "rest",
+    "s": 0.75,
+    "max_volume_delta": 0.01783445502381772,
+    "normal_corners": 57954
+  },
+  {
+    "kind": "rest",
+    "s": 1,
+    "max_volume_delta": 0.030700549785168178,
+    "normal_corners": 57954
+  },
+  {
+    "kind": "tail",
+    "s": -1,
+    "max_volume_delta": 0.0007327043954692259,
+    "normal_corners": 13023
+  },
+  {
+    "kind": "tail",
+    "s": 1,
+    "max_volume_delta": 0.0007327339958871845,
+    "normal_corners": 13023
+  }
+]

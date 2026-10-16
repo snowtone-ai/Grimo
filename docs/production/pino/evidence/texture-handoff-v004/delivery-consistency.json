@@ -1,0 +1,111 @@
+{
+  "preserved_source_files": 16,
+  "rest_contract_meshes": 4,
+  "body_samples": 37,
+  "neutral_return_max_m": 6.851395278330714e-08,
+  "validator": {
+    "pino-c-v004-rigged-review.glb": {
+      "errors": 0,
+      "warnings": 4
+    },
+    "pino-c-v004-tripo-input.glb": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "reimport_max_position_m": 2.2632348191109486e-05,
+  "reimport_max_normal_error": 0.00015385173807627782,
+  "runtime_matrix_max_error": 2.8683441755106287e-06,
+  "manifest_records": 34,
+  "local_links_checked": 31,
+  "handoff_unicode_chars": 3174,
+  "Human_Pre_Texture_Gate": "PENDING",
+  "Texture_GO": false,
+  "visual_quality": "HOLD: closed-eye side depth, shoulder/armpit stretch, low-rest support shape require Human judgment",
+  "saved_glb_material_ownership": [
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "material": "Pino_Skin",
+      "triangles": 36928,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "material": "Pino_Eye_L",
+      "triangles": 460,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "material": "Pino_Eye_R",
+      "triangles": 460,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PinoOralLiner",
+      "material": "Pino_OralInterior",
+      "triangles": 627,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PinoSoftLids_L",
+      "material": "Pino_LidSkin",
+      "triangles": 6144,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-rigged-review.glb",
+      "mesh": "PinoSoftLids_R",
+      "material": "Pino_LidSkin",
+      "triangles": 6144,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "material": "Pino_Skin",
+      "triangles": 36928,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "material": "Pino_Eye_L",
+      "triangles": 460,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PINO_C_BASE_RIG_V001",
+      "material": "Pino_Eye_R",
+      "triangles": 460,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PinoOralLiner",
+      "material": "Pino_OralInterior",
+      "triangles": 627,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PinoSoftLids_L",
+      "material": "Pino_LidSkin",
+      "triangles": 6144,
+      "ownership_match": true
+    },
+    {
+      "file": "pino-c-v004-tripo-input.glb",
+      "mesh": "PinoSoftLids_R",
+      "material": "Pino_LidSkin",
+      "triangles": 6144,
+      "ownership_match": true
+    }
+  ]
+}

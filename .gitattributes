@@ -20,3 +20,14 @@ docs/production/pino/evidence/face-foundation-v002/*.md text eol=lf
 assets/grimo/production/pino/candidate-c/face-foundation-v002/README.md text eol=lf
 scripts/blender/pino-face-foundation-v002.py text eol=lf
 scripts/3d/package-pino-face-foundation-v002.py text eol=lf
+
+# Pino v004 correspondence and evidence hashes use LF across checkouts.
+docs/production/pino/evidence/texture-handoff-v004/*.json text eol=lf
+docs/production/pino/evidence/texture-handoff-v004/*.md text eol=lf
+docs/production/pino/evidence/texture-handoff-v004/*.txt text eol=lf
+assets/grimo/production/pino/candidate-c/texture-handoff-v004/README.md text eol=lf
+docs/production/pino/PINO_TEXTURE_HANDOFF_V004_STATE.md text eol=lf
+scripts/blender/pino-texture-handoff-v004*.py text eol=lf
+scripts/3d/*pino-texture-handoff-v004*.py text eol=lf
+scripts/3d/*pino-texture-handoff-v004*.js text eol=lf
+scripts/3d/pino-texture-handoff-v004-runtime.html text eol=lf

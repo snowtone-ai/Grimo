@@ -1,0 +1,140 @@
+{
+  "PINO_C_BASE_RIG_V001": {
+    "source_v003": {
+      "vertices": 18858,
+      "polygons": 37848,
+      "loops": 113544,
+      "basis_sha256": "05dcda63dbe159c83b03d2262d9518eb9b3cf7dbd17eefd954478404b6fd15dc",
+      "corner_vertex_sha256": "91aebdb2cef7a650ecbe2bee629307c45abfc96143bd2daa69ef1c1b1bfee849",
+      "polygon_sizes_sha256": "be29341e9a7e5da5399746c81b0797f03b141c722bc611348ff04437a1793e18",
+      "uv_sha256": "d042342fff87e8208a9c4d6d18d7603fa168132b7ad5b4434b0ee89cc129efa0",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_Skin",
+        "Pino_OralInterior",
+        "Pino_Eye_L",
+        "Pino_Eye_R"
+      ],
+      "material_ownership_sha256": "bf368899519bbadcc383c4a828bfb92c79dd8f071bf933aa4b5803c12bf46094",
+      "normal_sha256": "a3160c01e2e0f30d66cef231d4227c24a3a8763faf7cb6c2364cf77fa7148217"
+    },
+    "v004": {
+      "vertices": 18858,
+      "polygons": 37848,
+      "loops": 113544,
+      "basis_sha256": "05dcda63dbe159c83b03d2262d9518eb9b3cf7dbd17eefd954478404b6fd15dc",
+      "corner_vertex_sha256": "91aebdb2cef7a650ecbe2bee629307c45abfc96143bd2daa69ef1c1b1bfee849",
+      "polygon_sizes_sha256": "be29341e9a7e5da5399746c81b0797f03b141c722bc611348ff04437a1793e18",
+      "uv_sha256": "d042342fff87e8208a9c4d6d18d7603fa168132b7ad5b4434b0ee89cc129efa0",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_Skin",
+        "Pino_OralInterior",
+        "Pino_Eye_L",
+        "Pino_Eye_R"
+      ],
+      "material_ownership_sha256": "bf368899519bbadcc383c4a828bfb92c79dd8f071bf933aa4b5803c12bf46094",
+      "normal_sha256": "a3160c01e2e0f30d66cef231d4227c24a3a8763faf7cb6c2364cf77fa7148217"
+    },
+    "all_rest_contract_fields_equal": true
+  },
+  "PinoSoftLids_L": {
+    "source_v003": {
+      "vertices": 3250,
+      "polygons": 3072,
+      "loops": 12288,
+      "basis_sha256": "b412ac1bc548919eb7f15b713c45cc2657a1291e6dfa8e9d288e42eabfa9ea24",
+      "corner_vertex_sha256": "473903313dde0e8bf2a358e237975907a72a8e2024d6a7e995df181b9284df7b",
+      "polygon_sizes_sha256": "95ecc8bc919092539ea3a7c47d43f2e4378a2258dfd3c8eec3ec680a8e7ee69a",
+      "uv_sha256": "452d68774a749eb33572c2afe7785f8e82cc3053e926d5ac0c8ab4e158c87f1b",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_LidSkin"
+      ],
+      "material_ownership_sha256": "f3cc103136423a57975750907ebc1d367e2985ac6338976d4d5a439f50323f4a",
+      "normal_sha256": "f38870ac63fe8d0ef2c353a59eb16784dbe62dd410a5464130245d7389a395eb"
+    },
+    "v004": {
+      "vertices": 3250,
+      "polygons": 3072,
+      "loops": 12288,
+      "basis_sha256": "b412ac1bc548919eb7f15b713c45cc2657a1291e6dfa8e9d288e42eabfa9ea24",
+      "corner_vertex_sha256": "473903313dde0e8bf2a358e237975907a72a8e2024d6a7e995df181b9284df7b",
+      "polygon_sizes_sha256": "95ecc8bc919092539ea3a7c47d43f2e4378a2258dfd3c8eec3ec680a8e7ee69a",
+      "uv_sha256": "452d68774a749eb33572c2afe7785f8e82cc3053e926d5ac0c8ab4e158c87f1b",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_LidSkin"
+      ],
+      "material_ownership_sha256": "f3cc103136423a57975750907ebc1d367e2985ac6338976d4d5a439f50323f4a",
+      "normal_sha256": "f38870ac63fe8d0ef2c353a59eb16784dbe62dd410a5464130245d7389a395eb"
+    },
+    "all_rest_contract_fields_equal": true
+  },
+  "PinoSoftLids_R": {
+    "source_v003": {
+      "vertices": 3250,
+      "polygons": 3072,
+      "loops": 12288,
+      "basis_sha256": "cc224db647939cb79d9c5fab49db52f98cdcab7fbde553b5799702726b4a2759",
+      "corner_vertex_sha256": "473903313dde0e8bf2a358e237975907a72a8e2024d6a7e995df181b9284df7b",
+      "polygon_sizes_sha256": "95ecc8bc919092539ea3a7c47d43f2e4378a2258dfd3c8eec3ec680a8e7ee69a",
+      "uv_sha256": "8a5ff4b4d213654612de696365a4107cbff1a759a1afbff4c4814476c604af02",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_LidSkin"
+      ],
+      "material_ownership_sha256": "f3cc103136423a57975750907ebc1d367e2985ac6338976d4d5a439f50323f4a",
+      "normal_sha256": "1b9a8cb81e87df0858d07a2f3b26847115978694bd69ed57f7b9af9706f092bb"
+    },
+    "v004": {
+      "vertices": 3250,
+      "polygons": 3072,
+      "loops": 12288,
+      "basis_sha256": "cc224db647939cb79d9c5fab49db52f98cdcab7fbde553b5799702726b4a2759",
+      "corner_vertex_sha256": "473903313dde0e8bf2a358e237975907a72a8e2024d6a7e995df181b9284df7b",
+      "polygon_sizes_sha256": "95ecc8bc919092539ea3a7c47d43f2e4378a2258dfd3c8eec3ec680a8e7ee69a",
+      "uv_sha256": "8a5ff4b4d213654612de696365a4107cbff1a759a1afbff4c4814476c604af02",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_LidSkin"
+      ],
+      "material_ownership_sha256": "f3cc103136423a57975750907ebc1d367e2985ac6338976d4d5a439f50323f4a",
+      "normal_sha256": "1b9a8cb81e87df0858d07a2f3b26847115978694bd69ed57f7b9af9706f092bb"
+    },
+    "all_rest_contract_fields_equal": true
+  },
+  "PinoOralLiner": {
+    "source_v003": {
+      "vertices": 1321,
+      "polygons": 627,
+      "loops": 1881,
+      "basis_sha256": "b3d36967b34715e7ec20e89cea2ba2fb9645233471dc49697bd48d35659207a7",
+      "corner_vertex_sha256": "23ca8fb1653e4452e68f3b06db7ffa1f7c914ea904c1fd31ae7ee4e2e9ba6e5c",
+      "polygon_sizes_sha256": "5ad01295686232e41bd5a144f781dab85da4383fd118a9552dde4951ed09df9a",
+      "uv_sha256": "96dbc972dc012bbcd53742e0096e7c539a776d08def9188f76855430b0f38f23",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_OralInterior"
+      ],
+      "material_ownership_sha256": "e44657eba0c646f5cbc87053d478dfef1128216275566cd925bbd9cac3ad6721",
+      "normal_sha256": "ae28f410e2fb63692b8673b4a211326a8685acdbcc964eb18a76176cad55c6f4"
+    },
+    "v004": {
+      "vertices": 1321,
+      "polygons": 627,
+      "loops": 1881,
+      "basis_sha256": "b3d36967b34715e7ec20e89cea2ba2fb9645233471dc49697bd48d35659207a7",
+      "corner_vertex_sha256": "23ca8fb1653e4452e68f3b06db7ffa1f7c914ea904c1fd31ae7ee4e2e9ba6e5c",
+      "polygon_sizes_sha256": "5ad01295686232e41bd5a144f781dab85da4383fd118a9552dde4951ed09df9a",
+      "uv_sha256": "96dbc972dc012bbcd53742e0096e7c539a776d08def9188f76855430b0f38f23",
+      "uv_name": "PinoUV_v003",
+      "materials": [
+        "Pino_OralInterior"
+      ],
+      "material_ownership_sha256": "e44657eba0c646f5cbc87053d478dfef1128216275566cd925bbd9cac3ad6721",
+      "normal_sha256": "ae28f410e2fb63692b8673b4a211326a8685acdbcc964eb18a76176cad55c6f4"
+    },
+    "all_rest_contract_fields_equal": true
+  }
+}

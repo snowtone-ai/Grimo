@@ -1,0 +1,425 @@
+{
+  "summary": {
+    "engine": "2.22.2",
+    "instances": 6,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "PinoTail01",
+      "PinoTail02",
+      "PinoTail03",
+      "PinoTail04",
+      "PinoTail05"
+    ],
+    "skins": 6,
+    "morphs": [
+      {
+        "targets": 19,
+        "all_normals": true
+      },
+      {
+        "targets": 19,
+        "all_normals": true
+      },
+      {
+        "targets": 19,
+        "all_normals": true
+      },
+      {
+        "targets": 4,
+        "all_normals": true
+      },
+      {
+        "targets": 5,
+        "all_normals": true
+      },
+      {
+        "targets": 5,
+        "all_normals": true
+      }
+    ],
+    "errors": []
+  },
+  "records": [
+    {
+      "name": "neutral",
+      "weights": [],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 0
+    },
+    {
+      "name": "contact",
+      "weights": [
+        {
+          "name": "V4_contact_+1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_contact_+1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_contact_+1.00",
+          "weight": 1
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 48
+    },
+    {
+      "name": "rest",
+      "weights": [
+        {
+          "name": "V4_rest_+1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_rest_+1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_rest_+1.00",
+          "weight": 1
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 2.8683441755106287e-06,
+      "changed_skin_matrices": 70
+    },
+    {
+      "name": "tail-L",
+      "weights": [
+        {
+          "name": "V4_tail_+1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_tail_+1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_tail_+1.00",
+          "weight": 1
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 5
+    },
+    {
+      "name": "tail-R",
+      "weights": [
+        {
+          "name": "V4_tail_-1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_tail_-1.00",
+          "weight": 1
+        },
+        {
+          "name": "V4_tail_-1.00",
+          "weight": 1
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 5
+    },
+    {
+      "name": "half",
+      "weights": [
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 0.5
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 0
+    },
+    {
+      "name": "near",
+      "weights": [
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.9700000286102295
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 0.9700000286102295
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.9700000286102295
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 0.9700000286102295
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.9700000286102295
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 0.9700000286102295
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 0
+    },
+    {
+      "name": "closed",
+      "weights": [
+        {
+          "name": "PinoMouthClosed",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 1
+        },
+        {
+          "name": "PinoMouthClosed",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 1
+        },
+        {
+          "name": "PinoMouthClosed",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 1
+        },
+        {
+          "name": "OralClosed",
+          "weight": 1
+        },
+        {
+          "name": "OralOcclude",
+          "weight": 1
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 0
+    },
+    {
+      "name": "wink",
+      "weights": [
+        {
+          "name": "PinoMouthClosed",
+          "weight": 0.4000000059604645
+        },
+        {
+          "name": "PinoMouthLift",
+          "weight": 0.23999999463558197
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 1
+        },
+        {
+          "name": "PinoMouthClosed",
+          "weight": 0.4000000059604645
+        },
+        {
+          "name": "PinoMouthLift",
+          "weight": 0.23999999463558197
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 1
+        },
+        {
+          "name": "PinoMouthClosed",
+          "weight": 0.4000000059604645
+        },
+        {
+          "name": "PinoMouthLift",
+          "weight": 0.23999999463558197
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 1
+        },
+        {
+          "name": "OralClosed",
+          "weight": 0.4000000059604645
+        },
+        {
+          "name": "OralLift",
+          "weight": 0.23999999463558197
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 0
+    },
+    {
+      "name": "combined",
+      "weights": [
+        {
+          "name": "PinoMouthLarge",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 1
+        },
+        {
+          "name": "V4_contact_+0.50",
+          "weight": 1
+        },
+        {
+          "name": "PinoMouthLarge",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 1
+        },
+        {
+          "name": "V4_contact_+0.50",
+          "weight": 1
+        },
+        {
+          "name": "PinoMouthLarge",
+          "weight": 1
+        },
+        {
+          "name": "PinoSquint_L",
+          "weight": 0.5
+        },
+        {
+          "name": "PinoSquint_R",
+          "weight": 1
+        },
+        {
+          "name": "V4_contact_+0.50",
+          "weight": 1
+        },
+        {
+          "name": "OralLarge",
+          "weight": 1
+        }
+      ],
+      "errors": [],
+      "max_skin_matrix_error": 1.195252366414934e-06,
+      "changed_skin_matrices": 48
+    }
+  ],
+  "glb_sha256": "84f2fcbdfc311f1a67146abdd994c6bf7bf1549f34b75b9fdd27924f8863e9fd",
+  "note": "Desktop Chromium / PlayCanvas 2.22.2; captured live skin matrices versus Blender world deformation deltas. Same local GLB URI and unchanged delivered file. No mobile/performance/full-Motion assertion."
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-texture-handoff-v004.blend",
+    "bytes": 7912835,
+    "sha256": "7ff9f0d43fe68fd4e318e97b6319f7c834d5482f569299c372d41171795a1461"
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-v004-return-map.npz",
+    "bytes": 852909,
+    "sha256": "c55452962fd29341e21a4a99532b109ed5196574df37931aea8171dee367f50e"
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-v004-rigged-review.glb",
+    "bytes": 48077928,
+    "sha256": "84f2fcbdfc311f1a67146abdd994c6bf7bf1549f34b75b9fdd27924f8863e9fd"
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-v004-tripo-input.glb",
+    "bytes": 6135572,
+    "sha256": "bea1c611ca76e298587ceeda83845e6bbf445f1d4b7cac038586d6b31ef5ce97"
+  },
+  {
+    "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/README.md",
+    "bytes": 931,
+    "sha256": "cbd8fc1dfb55eab9d8a20667ff62c3580d9bd4b6cff6961b8a5a3ef85a9257f6"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/blink-cycle.gif",
+    "bytes": 1900538,
+    "sha256": "6bdebea210b80fc878a44feeb62bb4df700cffac3ba93d65f1ec50c8bd565da5"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/body-cycle.gif",
+    "bytes": 1534347,
+    "sha256": "2d78d0272201f700af47a65fbcbf9bd8ddf0d364a943897984bedfa58366e92d"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/body-probes.json",
+    "bytes": 28975,
+    "sha256": "92be9747a8e521c5de0ade2088f9dd8b15a83ed2c2d65f4b50837e1d79bf1134"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/body-probes.png",
+    "bytes": 967077,
+    "sha256": "b2a1c284e8d0ab52a0a1f433ff9ac42feb8d635f12d8d276240bfcc3af063d8d"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/contact-placement-cause.json",
+    "bytes": 382,
+    "sha256": "cb0daffa8804c0be89a2552acf66dafc6da48f19d127009fcf44eb2f8ff4a505"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/contact-separation-solve.json",
+    "bytes": 1061,
+    "sha256": "1ed70a741119693ffaaac2cdbc57b19894630cf69d49213aace3e4e4c1e6c7fb"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/corrective-authoring.json",
+    "bytes": 941,
+    "sha256": "bee08012df8543ca1d36089573d13e94e811d0d2e91367dc58347d4a0138e4cb"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/delivery-consistency.json",
+    "bytes": 2985,
+    "sha256": "611d8ccccd1085fdc03038bdab92819854fc8a1ac36ea2ef5885887648f2bb63"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/delivery-contract.json",
+    "bytes": 1864,
+    "sha256": "9917f22ea9a61ab7f9ecf7b577f1c346d0190ed22dd4943618b45d44ad517a9b"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/expressions.png",
+    "bytes": 214253,
+    "sha256": "5fb959704c97abbf0d30e0cb0e158f0187737fd79e07c0bf13b2074ab1f90eae"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/face-stages.png",
+    "bytes": 228609,
+    "sha256": "ac63b454d712f170cd9624e5f95a80d2debd5fbf98c564944285a73ed6ba85af"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/glb-input-uv-audit.json",
+    "bytes": 2281,
+    "sha256": "e8d3f5b810fcc312b107a623bf2ec75b3eddaa56930536d56d4fb1bea7c1e4df"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/glb-inspection.txt",
+    "bytes": 18065,
+    "sha256": "a1b038b82d8a3db3c7c71ab60d1603aabd48f981521b0e33b36c29f795c8f8f2"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/glb-normal-patch.json",
+    "bytes": 1084,
+    "sha256": "6447bac837f4c05860b5e6daf6a0c87021a0546d2834340ba7992981c480e070"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/glb-validator.json",
+    "bytes": 5360,
+    "sha256": "383fd9a0bd196113103c4fd2d2f62c4b3617a870138a24015d1c74720ba018cd"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/identity-comparison.png",
+    "bytes": 898524,
+    "sha256": "90071fb9c08bad400a40960c2f44ec3868fd6da69b7552fa7b420d4e30b7a3ae"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/mouth-cycle.gif",
+    "bytes": 994049,
+    "sha256": "b9b784a6c1b077ae9a3fbaabb104205eb5a041a8b343c7dcb2fc0d992d27b994"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/neutral-render-difference.json",
+    "bytes": 321,
+    "sha256": "4230910b6004e252323f601e92a474d5311d9690544fc1836d1daefd62adc71d"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/probe-controls.json",
+    "bytes": 473290,
+    "sha256": "22e460c5cc0ac2fb6a816ae12598ddd54b5ff9666613b2af1ce21724d5d25097"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/reimport-audit.json",
+    "bytes": 10709,
+    "sha256": "050021c8e123eb0b8b5083d7c117092fed72a7811ef07e057fa15aea4be39c02"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/REVIEW.md",
+    "bytes": 12121,
+    "sha256": "89b3564bcca6e20e3ca0630e421f38b633a3d778543ad9948b9802c3119018e5"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/runtime-comparison.png",
+    "bytes": 140081,
+    "sha256": "8f51d186db73db6c573f824de74a70a15f8982156905c33d9b0a215de4227a1d"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/runtime-controls.json",
+    "bytes": 393445,
+    "sha256": "78cf337e88123be52dd9e015ded9e1303305615ff4d290d5c57e7d6ef6979d53"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/runtime-probe.json",
+    "bytes": 9622,
+    "sha256": "888a7fb5c9a2a86ab6aae4ce73bedc607ba2f6821a3bd696a949d7b3377a9028"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/saved-rest-contract.json",
+    "bytes": 6404,
+    "sha256": "3e74a299b4d46c8f1d80d6050d7ab80c3d91085c63b83088c24b92c5196add8d"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/source-diagnosis.json",
+    "bytes": 16900,
+    "sha256": "1440f3c352235462cc2c0fc3e46e309a51a622ae9ca08f5956ef3dc26f05048e"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/source-protection.json",
+    "bytes": 4906,
+    "sha256": "7ee19e0ba83351759e2cbeed94f7a00179a1a6e0a3384cf59a43c31bfa2d8426"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/TEXTURE_CONTRACT.md",
+    "bytes": 5897,
+    "sha256": "596b71a443083800d59157adeff257644a9abe992440828e8b97f76661ccc95b"
+  },
+  {
+    "path": "docs/production/pino/evidence/texture-handoff-v004/wink-combined.png",
+    "bytes": 483288,
+    "sha256": "136603b3c15a3a2f8882ec14d52f7196b413febbc30c66d6e01a70a1b1d1429c"
+  }
+]
