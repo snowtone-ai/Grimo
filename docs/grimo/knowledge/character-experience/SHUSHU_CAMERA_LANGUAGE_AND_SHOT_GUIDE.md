@@ -56,6 +56,26 @@ All ratios below describe the **available 3D character viewport after actual hea
 
 If a proposed range conflicts with a real approved Canonical look, prioritize Human review over numerical adherence. Focal length in mm cannot be specified without sensor/frustum assumptions. Do not equate FOV with physical lens length. Aspect ratio changes (portrait, tablet/landscape) must preserve intentional visible features, not mechanically preserve landscape Eevee ratios.
 
+## 2.3 User-first emotional staging [DIR — adopted design criterion]
+
+**Framing is a social contract:** the player should feel that Shushu is **present with them**, not that an animation showcase is being shown. Real life begins with settled eye contact or a self-directed gaze; a full-body mechanical exam is a **different** shot purpose. Stage the two independently without concealing defects.
+
+| Felt moment sought | Default actual product frame | Required animation staging | Failure if |
+| --- | --- | --- | --- |
+| First look / safe to approach | SH01 front hero, full approachable face and flower with visible seated pads | Small natural glance enters an already stable composition; she can look away briefly as an independent creature | Forced center stare or instant uncanny camera push |
+| Touch / “she noticed where” | SH02 front medium (or safe SH01), no pan to touched cheek | Keep both eyes, contacted cheek and blossom, show side-dependent tiny ACK while hand/character spatial relationship remains stable | The reacting cheek is hidden or touch targeting changes due to zoom |
+| Slow pet / trust | SH02 or SH01 fixed | Space around cheeks allows small contact-seeking head lean without leaving tap zone; do not let bloom cover the expression | Cropped head/hand, fake whole-body camera drift |
+| Invitation / “she wants me” | SH01 full or SH02 with **free paw visible** | Eyes to user → tiny paw or cheek presentation → still WAIT, maintaining clear user-facing gesture | Only close face shown while the offered paw is missing |
+| Quiet together / self-possessed | SH01 static | Breathing, a rare thoughtful off-center gaze, flower follow; camera remains settled so stillness can be enjoyed | Cinematic movement added merely because character is still |
+| Real gift / actual item | Only after product item exists, SH04 or a Human-approved authored shot | Hand-to-item-to-user triangle remains visible; item must have real provenance and can coexist with facial attention | Crop makes imaginary prop seem real, automatic reward or face/hand occlusion |
+| Mechanical sit/stand/walk evidence | SH05+SH07 inspection **outside normal interaction** | Ground grid and supports, no crop of bearing pads, continuous 1× clip; full 3D proof | Only SH01 pretty front cut shown to approve motion |
+
+**Canonical-specific cues:** Pink ears, cheeks, rounded shiny eyes, flower crown on the head and visibly short soft paws convey safety and character identity; favor their exact relationship over precise Eevee occupancy benchmarks. The **held bouquet** in original Canonical art is separate from the accepted head-flower attachment. Do not introduce it into every default shot unless an actual user-approved prop and anchor are implemented.
+
+**Shot selection / emotional continuity:** no automatic editorial cuts during sustained touch; never swap cameras as a trick to hide a weight transfer. When the real selected product action requires full paws/rump (seat/approach), it may use a separately reviewed wide framing that fits the **complete** moment rather than zooming mid-gesture. Offer/WAIT must be readable with **sound/VFX off**. A 2–5min session should not turn into a carousel of shots; the same peaceful portrait can support distinctive internal behavior.
+
+**Human test:** Show (a) neutral after open, (b) gentle left/right cheek touch, (c) offered paw then WAIT, (d) ignored invitation and return to self-occupied calm, (e) a real sat-to-four transition in inspection views. Ask separately: “この子の気持ちが読める？近くにいて心地よい？思わずもう一度触りたい？変に要求されていない？” A numerical safe frame alone cannot answer these.
+
 ## 3. Shot-by-motion matrix (all repertoire coverage)
 
 B/T/L/I/E/A keys are defined in [Motion Bible v002](SHUSHU_MOTION_BIBLE_V002.md). Camera below states the **primary product shot**, then the required special review angle if any. Face detail means an authoring close shot, not an automatic runtime cut.
