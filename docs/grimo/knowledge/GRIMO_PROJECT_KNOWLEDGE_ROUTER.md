@@ -40,13 +40,14 @@ Grimoの実質的な制作・設計・調査に必要な最新版を、GitHub `m
 | Task／Calendar／Grimo／Collection、所有・報酬 | `docs/grimo/knowledge/product/GRIMO_PRODUCT_FEATURE_SPEC.md`、`GRIMO_DATA_MODEL_SPEC.md` |
 | Blender参考技法（補助） | `docs/grimo/knowledge/character-production/GRIMO_BLENDER_IMPLEMENTATION_GUIDE.md` |
 
-## 4. 4キャラ共通の制作ルート
+## 4. キャラクター別制作ルート
 
 | キャラクター | Identity・現状・確認対象 |
 | --- | --- |
 | **Jill** | `assets/grimo/source/jill/`のCanonical、対象Geometry/RigブランチとEvidence。翼・葉・尾の独立動作を確認 |
 | **Pino** | `assets/grimo/source/pino/`のCanonical、対象Geometry/RigブランチとEvidence。短腕・太尾・支持/接触を確認 |
 | **Shushu** | `assets/grimo/source/shushu/`のCanonical、対象Geometry/RigブランチとEvidence。顔の奥行き、短肢、plushな真の座位を確認 |
+| **Merune** | [Identity Bible](character-identity/MERUNE_IDENTITY_AND_CHARACTER_BIBLE.md)、[Motion Draft](character-experience/MERUNE_MOTION_AND_INTERACTION_SPEC.md)、[Production State](../../production/merune/PRODUCTION_STATE.md)。Human採用2D Canonicalの**実PNGはmain未登録**。4方向入力とRig変形は未承認。初期リリース対象外 |
 
 `docs/production/motion/GRIMO_FOUR_CHARACTER_MOTION_ARCHITECTURE_DRAFT.md`と`GRIMO_MOTION_TO_ANATOMY_TRIPO_CONTRACT_DRAFT.md`はDRAFT。後続のHuman判断と個別制作Evidenceを見ずに正式仕様へ格上げしない。完成素材ではない参考画像・生成Pose・候補GLBも同様。
 

@@ -36,6 +36,12 @@ Use this index to locate durable authority. Current execution truth is not durab
 - **Shushu Motion v002 — Human-directed adopted DESIGN authority (2026-10-18; all 35 entries; Human clip/phone GO still pending):** [Motion Bible v002](character-experience/SHUSHU_MOTION_BIBLE_V002.md) is the unified posture/transition/locomotion/interaction/emotion/additive authoring vocabulary; [Camera Language](character-experience/SHUSHU_CAMERA_LANGUAGE_AND_SHOT_GUIDE.md) defines front-fixed presentation and review shots; [Poseboard Spec](../../production/app/SHUSHU_MOTION_POSEBOARD_SPEC.md) defines pre-animation image views and Human pose gates; [Implementation Brief](../../production/app/SHUSHU_MOTION_IMPLEMENTATION_BRIEF.md) defines contact ownership, PlayCanvas graph/layers and implementation gates. Previous v001 research remains **evidence**, not superseded observational data. See active branch/rig for feasibility; source images and Human approvals retain precedence.
 - [Shushu Bear-Cub Motion Research & Performance Bible](character-experience/SHUSHU_BEAR_CUB_MOTION_RESEARCH_AND_DIRECTION.md) — keeper observations, adult bear biomechanics with limits, animation craft, sit→4-stand frame-by-frame candidate, walking/face/gaze/idle, uncertainty ledger and Human gates; **production direction not Human Motion GO**.
 
+## MERUNE（猫 × 音楽）— 2026-10-18
+
+- [MERUNE Identity & Character Bible](character-identity/MERUNE_IDENTITY_AND_CHARACTER_BIBLE.md) — Human採用済み2D外観と、別扱いの性格・造形・色・可動方向案。Canonical原本PNGは**未import**（SHA記録あり）。
+- [MERUNE Motion & Interaction](character-experience/MERUNE_MOTION_AND_INTERACTION_SPEC.md) — メルネ固有の聴く／応える演技、接触、四足支持、検証Gateの**未承認デザイン案**。
+- [MERUNE Production State](../../production/merune/PRODUCTION_STATE.md) — Rig済みGLBの実測メタデータ、未登録原本、変形HOLDと次の検証。初期Shushu単独発売を変更しない。
+
 ## Blender implementation reference (non-authoritative)
 
 - [Creature deformation and motion principles](character-production/GRIMO_CREATURE_DEFORMATION_AND_MOTION_PRINCIPLES.md) — three-character shoulder/elbow, jaw/mouth, abdomen and contact principles; observations, public primary sources, hypotheses and unknowns are distinguished. Does not override approved appearance or current production evidence.
