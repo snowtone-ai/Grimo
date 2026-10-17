@@ -79,7 +79,23 @@ A. 動物園の「可愛いパンダ」動画を集める。B. 子熊の足運�
 | E01 | [LOCAL] Shushu v004 donor body Human外観PASS、足裏PASS、花v002後続Human GO。<../../../../docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/REVIEW.md>（**mainには候補資料未統合**、実参照は制作branch参照） | Canonical/Human Gateが最優先。形状・眼・短肢・装備を勝手に変形しない |
 | E02 | [LOCAL] App C1 branch `codex/grimo-shushu-runtime-c1-v001` local technical display GO, Human app-stage / phone / Vercel delivery HOLD; `SHUSHU_APP_RUNTIME_C1_V001.md` | MotionはC1上で制作。外観や実機の未承認をtechnical testで埋めない |
 
-### 2.1 入手済み証拠の限界
+### 2.1 Game / anime / film cute-bear comparison — 盗用せず動きの文法を区別
+
+今回の要望「既存アニメやゲームの可愛い子熊」に対して、作品の実在・公式のcharacter性格は検証したが、**ゲーム内のwalk/stand動作を映像として全フレーム計測した結果はまだない**。これは生体資料との観察品質を混同しないための必要な留保。
+
+| Candidate | 一次参照 | 参考にできる問い [DIR] | 流用してはいけないもの |
+| --- | --- | --- | --- |
+| Disney *Brother Bear* のKoda | [Disney Animation作品公式](https://www.disneyanimation.com/films/brother-bear/) | 子熊の愛嬌を、子供らしい関心・身振り・相手とのやり取りで伝えられるか。**動作の直接観察・尺計測は未実施** | Koda固有のPose/Timing/台詞/固有Character Art |
+| DreamWorks *Kung Fu Panda* のPo | [DreamWorks公式](https://www.dreamworks.com/movies/kung-fu-panda) | 大きい胴と重量感を上品な演技へ変えるには？Poは**adult擬人化・二足中心**なので四足立ちへの参照ではない | 戦闘、二足重心、長い手足、表情誇張 |
+| Framestore *Paddington 2* | [制作公式](https://www.framestore.com/work/paddington-2) | 「考えた後に小さく動く」「視線/瞼で感情が先に読める」へ。**監督インタビュー等に明示の根拠あり** | 人間二足骨盤、布の質感、映画固有演技 |
+| Netflix/dwarf *Rilakkuma and Kaoru*・Korilakkuma | [Netflix制作発表](https://about.netflix.com/en/news/rilakkuma-and-kaoru-will-premiere-globally-as-netflix-original-series-in-spring-2019) | くつろぎ、ゆっくりした間、わずかな行為で「生きている」を示せるか。stop-motionによる間の参考候補 | ぬいぐるみの硬い関節/二足歩行、停止コマの速度をそのまま引用 |
+| PokémonのStufful | [The Pokémon Company公式Character設定](https://press.pokemon.com/en/releases/NEW-POKEMON-REVEALED-FOR-POKEMON-SUN-AND-POKEMON-MOON-84523)、[公式アニメ紹介](https://www.pokemon.com/us/animation/seasons/22/episode-4-dont-ignore-the-small-stufful) | 柔らかな小熊風形状でも、人格と接触境界が動きの意味を変える。**公式設定では触れられるのを好まず腕を振る**。Shushuは穏やかな受容を基準とするので**対比例** | Stuffulの拒否性格、アニメでの具体Poseや腕振りをShushuへ転用 |
+| `Pokémon GO` のStufful | [Pokémon GOへの公式登場告知](https://www.pokemon.com/us/pokemon-news/stufful-debuts-in-pokemon-go-during-aprils-community-day-event/) | 3Dゲーム上の小熊風Body readabilityを比較する**候補**。公式告知だけではゲーム内歩幅・animation styleを判断できない | 公式model/clip/テクスチャや未確認のanimation時間 |
+| *Pokémon Concierge* | [The Pokémon Company公式のstop-motion解説](https://www.pokemon.com/uk/news/ten-adorable-details-you-might-have-missed-in-pokemon-concierge) | 小さな個体が落ち着いて自律する雰囲気と場面の間の参考（小熊の四足歩行資料ではない） | 特定作品の構図、人物やキャラ演技、素材の模倣 |
+
+**比較方法:** 同一のShushu v004/C1モデル・同一4視点・同一support条件で、「自然観察優先」「控えめな演出優先」の二案を制作し、映画ゲームの**可愛さの原理**が物理支持を壊さず改善する場合だけ採用。動作名や雰囲気から秒数を創作資料の出典値にしない。将来ゲーム映像を使用するなら、録画元・ゲーム名/版・fps・再生速度・抜粋範囲・観察者を記録し、著作物の元ファイルはリポジトリへ無断取り込まない。
+
+### 2.2 入手済み証拠の限界
 
 - [OBS] は動物園の一次文章を実際に確認したが、YouTube・ライブカメラ・映画本編を本調査でフレーム単位に連続再生・校正した**直接時系列測定ではない**。A01–05から「0.42秒で後肢を引く」といった主張は不可能。
 - [SCI] C01は成獣・4頭、C02も成獣であり個体差/成長/造形による変化を許す。「すべての熊はこの足順」といった絶対化禁止。
