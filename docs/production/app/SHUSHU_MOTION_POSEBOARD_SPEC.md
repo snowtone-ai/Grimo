@@ -10,6 +10,8 @@ All images are **proposals**. Generated front, side and 3Q drawings cannot prove
 
 Side convention: L/R = **Shushu anatomical side**; Front faces user. Camera scale/projection consistent within board; transparent body-only art; optional flat ground/contact grid exists as a review overlay **separate** from PNG body. No black-backdrop requirement. Review labels, contact dots and timestamps are stored outside artwork.
 
+**Mapping hazard:** The registered shushu_bodyonly_left.png/right.png denote **nose direction on the image** (screen-left versus screen-right), *not* automatically Shushu anatomical left/right! Establish actual camera-axis mapping from asset/rig before labelling a board S-left or S-right; never silently flip an approved view and call it proven anatomy. See the multiview asset register.
+
 ## 2. Pose and shot definitions
 
 **F** = Front full-body identity and body control. **S** = Side full-body depth and real support. **Q** = 3/4 L or R (30–45° suggested for depth, not a fixed anatomical truth). **C** = face close of eyes, lids, head flower, cheek and muzzle. **P** = feet/rump/belly contact tight crop with known ground plane. For hero support changes F/S/Q/C/P collectively required; low-risk additive facial behaviors normally need F+C only, unless 3D issues emerge.
@@ -87,7 +89,25 @@ Table: **F master poses** / required **additional** S,Q,C,P / **Total** review i
 | A05 Settle / Afterglow | prior action peak → stable support → head trails → ear/flower damping → quiet | 5 | 1 | 1 | 1 | 1 | 9 | P only where preceding support changes |
 | A06 Breathing / Chest Softness | relaxed → local inhale → small held chest → exhale → quiet | 5 | 2 | 1 | 1 | 1 | 10 | no global squash, planted paws stable |
 
-**Quantities are ceilings of candidate previsualization shots, not a directive to mass-produce them.** Sharing identical approved neutral F frames across several boards reduces duplication. Stop if a family is physically unsupported; do not synthesize hundreds of image variations to mask rig defects. For the first hero transition, create only P0/P2/P3/P4/P5/P7 of T01 in Front plus essential Side at P2/P4/P5, P at P3/P4, and one face hold. Human review first, then fill missing frames as warranted.
+**Inventory priority — product feeling first:** first create the minimum images for **B01/B02 + I03 + E01/E06 + A01/A05** that show the opening, recognition, local touch and peaceful release; obtain Human design review. In parallel use **T01** critical P0/P2/P3/P4/P5/P7 Front, selected Side at P2/P4/P5, P at P3/P4 and one face control as a **separate mechanical hero gate**; it is NOT a prerequisite for feeling alive in a supported seated pose. Only when an actual safe free paw is available should **B06/I05 invitation → WAIT → optional user response** move to production. Human gates are slice-scoped and never imply remaining families GO.
+
+## 3.7 Emotional storyboards — human feeling is the review target (new, no independent clip count)
+
+Existing 35 motions are **primitives**, not the audience's story. Produce the following **minimal** storyboards by composing already approved poses. Every shot uses the same immutable Canonical and real donor, including the open-eyed neutral approved 3D geometry. Seconds are proposed performance beats; do not force the user through a fixed 60-second cutscene.
+
+| Board / felt experience to validate | Selected stills and views before making motion | Target performance/causality | Human fail cue |
+| --- | --- | --- | --- |
+| SB01 “初めて見て安心する” | 4 master F: B01 supported seat, self-directed gaze, user recognition, peaceful hold; 1 C eye close, 1 S rump support | 0–3s real quiet; eyes notice ~0.12–0.3s, head follows; no mandatory smile | face unrecognizable, stare/bob, sitting is fake, looks abandoned |
+| SB02 “頬に触ると伝わる” | 5 F: pre-touch, contact-side local ACK, eyes/head follow, touch hold, afterglow; 3 C at ACK/hold/recovery; 1 Q for cheek depth | side-specific contact with no root jump; hold while stroking; opposite-side redirection starts from live pose | left/right swapped, eye/flower clipping, forced reset, global bounce |
+| SB03 “向こうから誘ってくれた” | 5 F: independent rest, user look, **free** paw or cheek offer, WAIT, optional reciprocal response; 1 S and 1 P at raised-paw support | eyes decide → stable-supported offer → WAIT without animation loop restarting → responds **only if** player reciprocates | hand in floor while offering, artificial smiling demand, fake gift item |
+| SB04 “誘いを断っても平気だった” | 3 F: invited hold, unresponded gentle withdraw, self-content quiet; 1 C recovery | ignored gesture does not imply sadness or punishment; return to peaceful autonomous attention | guilt inducing, aggressive gesture repetition, negative expression |
+| SB05 “何度も撫でても同じ操り人形ではない” | 4 F sampled from 2–5min behavior: first response, later smaller response, quiet between, end; 2 C for face; optional short S if head/body affects support | personality stable, selected variation from **meaningful context**; no constant novelty | all gestures identical or random, twitching, fake tired/hunger meter |
+| SB06 “タスクから戻って会えた” | 3 F: independent activity, recognition, soft welcome; 1 C for returning gaze | entry not the same pre-recorded hello every time; absence never produces negative emotion | guilt for not opening app, forced multi-second interruption |
+| SB07 “食べ物・Giftと本当に心が通じる” | **Only after actual item is product-valid**: 5 F (notice, inspect, valid contact, preference/decision, afterglow) + 2 C + 1 P if paw/item bearing | eating class and preference 1–5 composited correctly; actual rare Gift separate from paw invitation | imaginary item, reward granted by decorative gesture, food dislike still consumed incorrectly |
+
+**Storyboards are not new numbered Motion families** and share approved pose images. Initial compulsory **design review scope** is SB01/SB02, followed by SB03/SB04 when rig supports safe one-paw invitation; SB05/SB06 are runtime session acceptance; SB07 remains blocked until product items/props and semantics exist. Do not pre-generate full SB07 content or assert a mobile Human gate. The rare Gift is not mechanically equivalent to the beautiful **flower bouquet in Canonical Identity**. A bouquet must be modeled/registered as a separate asset to be held; the approved head flower is not removed or detached.
+
+**Emotional self-test for every board:** With mute/VFX off, can a viewer correctly infer what she noticed, which cheek they touched, what she wanted, whether she felt comfortable, and why she returned to quiet? If the answer is not clear without a text label, revise the staging **before** adding extra effects or clips.
 
 ## 4. Generation instruction template
 
