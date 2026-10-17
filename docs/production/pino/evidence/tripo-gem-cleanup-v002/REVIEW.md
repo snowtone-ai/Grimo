@@ -2,7 +2,7 @@
 
 2026-10-17 JST / branch `codex/pino-gem-cleanup-v001-20261017` / start HEAD `3dcc388714e76fc632352a26298fe8916b851dab`.
 
-**Requested static donor repair complete. Human appearance GO=PENDING. Existing Rig image return is a separate stage and remains HOLD.**
+**Requested static donor repair complete. Human oral-repair appearance GO=APPROVED (2026-10-17, explicit Human review). Existing Rig image return remains HOLD.**
 
 Human explicitly authorized repainting the necessary oral-only Texture area, removing v001's texel-identification blocker. This does not authorize redesign of the face, original replacement, or applying donor Geometry to the Master.
 
@@ -14,7 +14,7 @@ Human explicitly authorized repainting the necessary oral-only Texture area, rem
 - [Saved final GLB raster orbit, −35° to +35°](04-mouth-orbit.gif) / [all 15 views](05-orbit-contact-sheet.png)
 - [Lit face](after-face-close-lit.png) / [lit left 3Q](after-left-3q-lit.png)
 
-The corrected GLB retains all four Meshes. Blue/purple gemstone facets and central stippling are absent in the inspected final views. The existing main mesh's pink tongue, nose and mouth rim remain; the small dark/red regular cavity is retained when visible obliquely. Canonical and approved Body-only were reviewed for a soft pink tongue and red/dark interior. Human owns the final cuteness/naturalness decision; no Motion/runtime or whole-character appearance approval is inferred.
+The corrected GLB retains all four Meshes. Blue/purple gemstone facets and central stippling are absent in the inspected final views. The existing main mesh's pink tongue, nose and mouth rim remain; the small dark/red regular cavity is retained when visible obliquely. Canonical and approved Body-only were reviewed for a soft pink tongue and red/dark interior. The Human explicitly approved the v002 oral repair appearance on 2026-10-17. This is scoped to the corrected mouth and does not approve all Motion/runtime or whole-character appearance.
 
 ## Exact edit scope
 
@@ -37,6 +37,10 @@ The final saved GLB was reimported for all renders. Direct before/after uses the
 SHA256 `2c0543f00c35c60d86a5f18db1c172c64f09cede90843fa00703757870ea4ae7`.
 [Oral BaseColor](../../../../../assets/grimo/production/pino/candidate-c/tripo-gem-cleanup-v002/pino-oral-basecolor-v002.png) is embedded in it.
 
-Do not import this donor Geometry into the Master. The original Tripo coordinate/material-ownership mismatch from [v001 diagnosis](../tripo-gem-cleanup-v001/REVIEW.md) remains; this local donor depth correction adds another deliberate position difference. The [v005 image-return contract](../pretexture-reliability-v005/TEXTURE_CONTRACT.md) is unchanged. Repaint approval resolves the local edit scope, not exact mapping, animation compatibility or Human appearance acceptance.
+Do not import this donor Geometry into the Master. The original Tripo coordinate/material-ownership mismatch from [v001 diagnosis](../tripo-gem-cleanup-v001/REVIEW.md) remains; this local donor depth correction adds another deliberate position difference. The [v005 image-return contract](../pretexture-reliability-v005/TEXTURE_CONTRACT.md) is unchanged. Repaint approval and the subsequent explicit Human oral-repair visual GO resolve the local appearance gate only, not exact mapping, animation compatibility or whole-character appearance acceptance.
 
 Reproduce with Blender `pino-gem-cleanup-v002-contact.py`, Python `scripts/3d/pino-gem-cleanup-v002.py`, Blender `pino-gem-cleanup-v002-review.py -- --tag after` (+ `--lit`), `--tag texture-only`, `pino-gem-cleanup-v002-orbit.py`, `pino-gem-cleanup-v002-depth-test.py`, then Python `pino-gem-cleanup-v002-package.py`. Blender scripts are under `scripts/blender/`. NumPy/Pillow and Blender 5.2.1 are used. The texture-only GLB and raw orbit/depth frames are diagnostic artifacts, not deliverables. Reuse v001 original camera renders; do not overwrite the original archive. [File hashes](file-manifest.json).
+
+## Human decision — 2026-10-17
+
+Human stated **「Human Review＝OK」** for the reported v002 gem-removal result (`pino-c-v005-tripo-gem-cleaned-v002.glb`, SHA256 `2c0543f00c35c60d86a5f18db1c172c64f09cede90843fa00703757870ea4ae7`). **Scoped visual GO: oral color / gemstone removal / local overlap repair.** No GLB or original assets were modified by recording this approval. **Image-only transfer to existing Rig, material correspondence, texture in animated poses, PlayCanvas/mobile and whole-character visual gates remain HOLD/UNVERIFIED.**
