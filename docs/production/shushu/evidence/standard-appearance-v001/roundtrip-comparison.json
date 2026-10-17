@@ -1,0 +1,257 @@
+{
+  "scope": "36 matched 640px author/saved images; same fixed EEVEE conditions; pixel differences include glTF export/import normals/material implementation. Does not compare PC pixels or infer Human PASS.",
+  "rows": [
+    {
+      "frame": 1,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0022672526041666668,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2480
+    },
+    {
+      "frame": 1,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.0007722981770833334,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 877
+    },
+    {
+      "frame": 1,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.0018416341145833333,
+      "rgbMaximum8bit": 4.0,
+      "pixelsAnyDifference": 2012
+    },
+    {
+      "frame": 1,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0018766276041666666,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2040
+    },
+    {
+      "frame": 103,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.00240966796875,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2660
+    },
+    {
+      "frame": 103,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.0007869466145833333,
+      "rgbMaximum8bit": 3.0,
+      "pixelsAnyDifference": 891
+    },
+    {
+      "frame": 103,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.00191162109375,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2088
+    },
+    {
+      "frame": 103,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.00207763671875,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2266
+    },
+    {
+      "frame": 189,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0020694986979166666,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2304
+    },
+    {
+      "frame": 189,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.00206298828125,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2295
+    },
+    {
+      "frame": 197,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.00220947265625,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2427
+    },
+    {
+      "frame": 197,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0015771484375,
+      "rgbMaximum8bit": 4.0,
+      "pixelsAnyDifference": 1737
+    },
+    {
+      "frame": 205,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0023836263020833334,
+      "rgbMaximum8bit": 4.0,
+      "pixelsAnyDifference": 2573
+    },
+    {
+      "frame": 205,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.002101236979166667,
+      "rgbMaximum8bit": 3.0,
+      "pixelsAnyDifference": 2339
+    },
+    {
+      "frame": 221,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0022639973958333334,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2483
+    },
+    {
+      "frame": 221,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0018839518229166667,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2041
+    },
+    {
+      "frame": 229,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.00224853515625,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2455
+    },
+    {
+      "frame": 229,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0018766276041666666,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2038
+    },
+    {
+      "frame": 405,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.00226318359375,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2514
+    },
+    {
+      "frame": 405,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0019352213541666667,
+      "rgbMaximum8bit": 4.0,
+      "pixelsAnyDifference": 2113
+    },
+    {
+      "frame": 413,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0022892252604166667,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2535
+    },
+    {
+      "frame": 413,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.001943359375,
+      "rgbMaximum8bit": 3.0,
+      "pixelsAnyDifference": 2127
+    },
+    {
+      "frame": 589,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.002626953125,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2884
+    },
+    {
+      "frame": 589,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0021695963541666667,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2355
+    },
+    {
+      "frame": 1089,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0023787434895833335,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2586
+    },
+    {
+      "frame": 1089,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.0008243815104166666,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 909
+    },
+    {
+      "frame": 1089,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.00182861328125,
+      "rgbMaximum8bit": 4.0,
+      "pixelsAnyDifference": 1975
+    },
+    {
+      "frame": 1089,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0019938151041666665,
+      "rgbMaximum8bit": 3.0,
+      "pixelsAnyDifference": 2157
+    },
+    {
+      "frame": 1113,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.00235595703125,
+      "rgbMaximum8bit": 3.0,
+      "pixelsAnyDifference": 2588
+    },
+    {
+      "frame": 1113,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.0008349609375,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 946
+    },
+    {
+      "frame": 1113,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.0018473307291666666,
+      "rgbMaximum8bit": 3.0,
+      "pixelsAnyDifference": 2011
+    },
+    {
+      "frame": 1113,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0019474283854166666,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2148
+    },
+    {
+      "frame": 1149,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0022672526041666668,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 2480
+    },
+    {
+      "frame": 1149,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.0007722981770833334,
+      "rgbMaximum8bit": 2.0,
+      "pixelsAnyDifference": 877
+    },
+    {
+      "frame": 1149,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.0018416341145833333,
+      "rgbMaximum8bit": 4.0,
+      "pixelsAnyDifference": 2012
+    },
+    {
+      "frame": 1149,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0018766276041666666,
+      "rgbMaximum8bit": 1.0,
+      "pixelsAnyDifference": 2040
+    }
+  ]
+}

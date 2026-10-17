@@ -1,6 +1,8 @@
 # Shushu v004 — Motion Ready 再審査候補
 
-**判定：Human外観HOLD／PC技術確認済み（下記範囲）／スマホUNKNOWN。** 元v003の腕・口・腹は今回のHuman FAILとして扱う。新候補の可愛さ・自然さ・承認外観との一致を自己承認しない。原本置換・Motion量産HOLD。
+**判定：v004比較ページのHuman外観PASS（2026-10-17のHuman明示指示）／PC技術確認済み（下記範囲）／スマホUNKNOWN。** 承認対象はこの比較ページの既存v004候補（制作HEAD `8d3235f0b176088f2434ee482aa5d14d7b94ef58`、GLB SHA256 `a082195104713c21b9a219ff19bd9d37702486aaa4cdf2bbf2e9f0ad58b5c91f`）。旧v003の腕・口・腹のHuman FAILは履歴として保持する。新規花飾り・肉球はこのPASSに含めない。追加装備のHuman外観はPENDING、phone UNKNOWN、原本置換・Motion量産はHuman GOまでHOLD。
+
+承認根拠：本依頼の「Shushu v004の比較ページHuman外観PASSを正式記録」「v004比較ページのHuman PASSだけをReviewに記録し、装備追加とphone/量産は未承認に区別」。Codexの技術判定や推測による承認ではない。[標準外観追加の独立Review](../../standard-appearance-v001/REVIEW.md)。旧delivery-manifestは当時の検証snapshotとして保持し、今回の承認範囲は本Reviewを正本とする。
 
 [原寸画像と3経路の連続比較](index.html) ／ [原因・棄却案](METHOD.md) ／ [再現](REPRODUCE.md) ／ [hash対応](delivery-manifest.json)
 
@@ -31,7 +33,9 @@
 
 Blender author・GLB再読込は原寸640pxの前/横/左右3Q、背面/上面、口拡大と157枚連続24fps。PC収録は診断Viewerから実製品loader/controllerへ切替後の原寸画像・実時間動画。左右、Purpose中間/極限、Wrist、立位/座位、顔＋保持/割込み/復帰を含む。過去のXiaomi記録を新候補のPASSに流用していない。ADB/実機操作なし。
 
-## Human確認と残るGate
+## 比較ページでHuman確認済みの観点と残るGate
+
+下記1〜5は既存v004比較ページに対するHuman外観PASSの対象。新規装備との組合せ、未観測の入力、phone、量産まで承認を拡張しない。
 
 1. Canonical/承認済みv004と比べ、顔・眼・W・耳・短肢・足・腹・色の同一性と可愛さを保てているか。
 2. 肩から肘、手先まで肉と厚みが自然につながり、中間でも硬い塊に見えないか。左右差・頬下の余裕・保持の向きも確認する。

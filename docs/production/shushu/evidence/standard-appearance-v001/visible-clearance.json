@@ -1,0 +1,2501 @@
+{
+  "scope": "13 selected actual poses; nearest-normal vertex test on visible petals and leaves versus evaluated Head/ears. Not exact triangle intersection or arbitrary-input proof. Hidden backing/stalk/calyx intentional contact excluded; eye visibility reviewed in renders.",
+  "rows": [
+    {
+      "frame": 1,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.02356031723320484,
+      "minNearestNormalSigned": 0.0235603154724231,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281909823417664,
+      "minNearestNormalSigned": 0.18128048162907362,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247772723436356,
+      "minNearestNormalSigned": 0.11240373738110065,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609960526227951,
+      "minNearestNormalSigned": 0.036099604330956936,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618557661771774,
+      "minNearestNormalSigned": 0.07417839579284191,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193841457367,
+      "minNearestNormalSigned": 0.23016222100704908,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554925374686718,
+      "minNearestNormalSigned": 0.009554925258271396,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086893320084,
+      "minNearestNormalSigned": 0.11982112721307203,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.24636481702327728,
+      "minNearestNormalSigned": 0.2462873436470545,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0399707555770874,
+      "minNearestNormalSigned": 0.03988454956561327,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056197434663773,
+      "minNearestNormalSigned": 0.1080744422506541,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.33363625095807947,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150471590459347,
+      "minNearestNormalSigned": 0.015150472521781921,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230222463608,
+      "minNearestNormalSigned": 0.10881139682169305,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.315907746553421,
+      "minNearestNormalSigned": 0.31273917900398374,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017565190792084,
+      "minNearestNormalSigned": 0.050138636492192745,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.157966457773,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.26885504461824894,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163140267133713,
+      "minNearestNormalSigned": 0.03163140323886182,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833588361740112,
+      "minNearestNormalSigned": 0.13609705865383148,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292260587215424,
+      "minNearestNormalSigned": 0.16021356731653214,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226081609725952,
+      "minNearestNormalSigned": 0.05196571256965399,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765889942646027,
+      "minNearestNormalSigned": 0.14455349487252533,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.30617212830111384,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.023560471832752228,
+      "minNearestNormalSigned": 0.023560472764074802,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281903862953186,
+      "minNearestNormalSigned": 0.18203595653176308,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247777938842773,
+      "minNearestNormalSigned": 0.11240379512310028,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609973192214966,
+      "minNearestNormalSigned": 0.03609973122365773,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618546485900879,
+      "minNearestNormalSigned": 0.07378089940175414,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193841457367,
+      "minNearestNormalSigned": 0.229673664085567,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009555095806717873,
+      "minNearestNormalSigned": 0.009555095573887229,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017084658145905,
+      "minNearestNormalSigned": 0.11982111149700359,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2463647872209549,
+      "minNearestNormalSigned": 0.24320945981889963,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03997087851166725,
+      "minNearestNormalSigned": 0.0398846659809351,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056197434663773,
+      "minNearestNormalSigned": 0.10911864601075649,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411261439323425,
+      "minNearestNormalSigned": 0.33363619656302035,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150575898587704,
+      "minNearestNormalSigned": 0.015069916262291372,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230967521667,
+      "minNearestNormalSigned": 0.10881133767179563,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31590768694877625,
+      "minNearestNormalSigned": 0.31530180387198925,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017579719424248,
+      "minNearestNormalSigned": 0.05010478664189577,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890070796012878,
+      "minNearestNormalSigned": 0.15796641857741633,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285318851471,
+      "minNearestNormalSigned": 0.27045054733389406,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163157030940056,
+      "minNearestNormalSigned": 0.03163156981463544,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833580911159515,
+      "minNearestNormalSigned": 0.1360970251262188,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.162922665476799,
+      "minNearestNormalSigned": 0.16021359991282225,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226091668009758,
+      "minNearestNormalSigned": 0.051965782418847084,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765888452529907,
+      "minNearestNormalSigned": 0.14402160234749317,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 103,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.3045316890347749,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0235604215413332,
+      "minNearestNormalSigned": 0.023560422352602473,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281911313533783,
+      "minNearestNormalSigned": 0.18203600775450468,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247776448726654,
+      "minNearestNormalSigned": 0.11240379139780998,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.036099717020988464,
+      "minNearestNormalSigned": 0.03609972004778683,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618554681539536,
+      "minNearestNormalSigned": 0.07417846075259149,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193394422531,
+      "minNearestNormalSigned": 0.22959339385852218,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009555013850331306,
+      "minNearestNormalSigned": 0.009555014548823237,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086893320084,
+      "minNearestNormalSigned": 0.11982114787679166,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2463647723197937,
+      "minNearestNormalSigned": 0.24602343284641393,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.039970818907022476,
+      "minNearestNormalSigned": 0.039884948171675205,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056196689605713,
+      "minNearestNormalSigned": 0.10911864112131298,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.3341125547885895,
+      "minNearestNormalSigned": 0.333636130875675,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.01515052281320095,
+      "minNearestNormalSigned": 0.015069900080561638,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230222463608,
+      "minNearestNormalSigned": 0.10881135053932667,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31590762734413147,
+      "minNearestNormalSigned": 0.3127390048466623,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0501757375895977,
+      "minNearestNormalSigned": 0.049985297955572605,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890075266361237,
+      "minNearestNormalSigned": 0.1576780271716416,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285020828247,
+      "minNearestNormalSigned": 0.26885502389632165,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.031631529331207275,
+      "minNearestNormalSigned": 0.03163153084460646,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833586871623993,
+      "minNearestNormalSigned": 0.13609707774594426,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292263567447662,
+      "minNearestNormalSigned": 0.1617811694741249,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0522608682513237,
+      "minNearestNormalSigned": 0.050915755331516266,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765888452529907,
+      "minNearestNormalSigned": 0.14531465666368604,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 189,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.3082609474658966,
+      "minNearestNormalSigned": 0.30703361821360886,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.023560505360364914,
+      "minNearestNormalSigned": 0.023560506582725793,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281908333301544,
+      "minNearestNormalSigned": 0.18128047697246075,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.1124778464436531,
+      "minNearestNormalSigned": 0.11240387707948685,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.036099907010793686,
+      "minNearestNormalSigned": 0.036099905672017485,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618554681539536,
+      "minNearestNormalSigned": 0.07445473223924637,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.23051941394805908,
+      "minNearestNormalSigned": 0.2295934334397316,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.00955513771623373,
+      "minNearestNormalSigned": 0.009555137978168204,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017084658145905,
+      "minNearestNormalSigned": 0.11982111120596528,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.24636481702327728,
+      "minNearestNormalSigned": 0.2463054437248502,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03997090831398964,
+      "minNearestNormalSigned": 0.039922993164509535,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056193709373474,
+      "minNearestNormalSigned": 0.10835449560545385,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.3336362035188358,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150578692555428,
+      "minNearestNormalSigned": 0.015150578459724784,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338227987289429,
+      "minNearestNormalSigned": 0.11338228272506967,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31590771675109863,
+      "minNearestNormalSigned": 0.3127390877343714,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017586052417755,
+      "minNearestNormalSigned": 0.04993975977413356,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890070796012878,
+      "minNearestNormalSigned": 0.15796641446650028,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.269760699942708,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163161873817444,
+      "minNearestNormalSigned": 0.031631617195671424,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833585381507874,
+      "minNearestNormalSigned": 0.13637678883969784,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.1629227250814438,
+      "minNearestNormalSigned": 0.1602136492729187,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226093530654907,
+      "minNearestNormalSigned": 0.05196582758799195,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765888452529907,
+      "minNearestNormalSigned": 0.1446375080413418,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 197,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.3082610070705414,
+      "minNearestNormalSigned": 0.3075765209796373,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.023560427129268646,
+      "minNearestNormalSigned": 0.023560426314361393,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281903862953186,
+      "minNearestNormalSigned": 0.18203592859208584,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247777193784714,
+      "minNearestNormalSigned": 0.11240379698574543,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609983250498772,
+      "minNearestNormalSigned": 0.03609983017668128,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618550211191177,
+      "minNearestNormalSigned": 0.07378100231289864,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.23051932454109192,
+      "minNearestNormalSigned": 0.22959336114581674,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009555075317621231,
+      "minNearestNormalSigned": 0.009555074968375266,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017085403203964,
+      "minNearestNormalSigned": 0.11982114054262638,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2463647574186325,
+      "minNearestNormalSigned": 0.2452637478709221,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03997083753347397,
+      "minNearestNormalSigned": 0.03992290887981653,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056196689605713,
+      "minNearestNormalSigned": 0.10911864368245006,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.3341125547885895,
+      "minNearestNormalSigned": 0.3336362112313509,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150579623878002,
+      "minNearestNormalSigned": 0.015150579856708646,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230222463608,
+      "minNearestNormalSigned": 0.11276436265325174,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31590762734413147,
+      "minNearestNormalSigned": 0.3106002416461706,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017577111721039,
+      "minNearestNormalSigned": 0.05013876501470804,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.15796646801754832,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285318851471,
+      "minNearestNormalSigned": 0.26973260834347457,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163157403469086,
+      "minNearestNormalSigned": 0.031631573219783604,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833582401275635,
+      "minNearestNormalSigned": 0.1349298097193241,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292265057563782,
+      "minNearestNormalSigned": 0.16178117413073778,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0522608682513237,
+      "minNearestNormalSigned": 0.05091574788093567,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765888452529907,
+      "minNearestNormalSigned": 0.14484343967342284,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 205,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.3082609176635742,
+      "minNearestNormalSigned": 0.3060098853893578,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.02356031723320484,
+      "minNearestNormalSigned": 0.0235603154724231,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.1942289173603058,
+      "minNearestNormalSigned": 0.19143692054785788,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247772723436356,
+      "minNearestNormalSigned": 0.11240373738110065,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609960526227951,
+      "minNearestNormalSigned": 0.036099604330956936,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.08243182301521301,
+      "minNearestNormalSigned": 0.08157918229699135,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193841457367,
+      "minNearestNormalSigned": 0.23016222100704908,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554925374686718,
+      "minNearestNormalSigned": 0.009554925258271396,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.1261548548936844,
+      "minNearestNormalSigned": 0.12615486478898674,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.24636481702327728,
+      "minNearestNormalSigned": 0.2462873436470545,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0399707555770874,
+      "minNearestNormalSigned": 0.03988454956561327,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.10834512859582901,
+      "minNearestNormalSigned": 0.10569239244796336,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.33363625095807947,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150471590459347,
+      "minNearestNormalSigned": 0.015150472521781921,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11400449275970459,
+      "minNearestNormalSigned": 0.11387117963749915,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.315907746553421,
+      "minNearestNormalSigned": 0.31273917900398374,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017565190792084,
+      "minNearestNormalSigned": 0.050138636492192745,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.16402454674243927,
+      "minNearestNormalSigned": 0.16368924640119076,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.26885504461824894,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163140267133713,
+      "minNearestNormalSigned": 0.03163140323886182,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14621613919734955,
+      "minNearestNormalSigned": 0.14480096101760864,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292260587215424,
+      "minNearestNormalSigned": 0.16021356731653214,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226081609725952,
+      "minNearestNormalSigned": 0.05196571256965399,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14755581319332123,
+      "minNearestNormalSigned": 0.14512511047360022,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 221,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.30617212830111384,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.02356031723320484,
+      "minNearestNormalSigned": 0.0235603154724231,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281909823417664,
+      "minNearestNormalSigned": 0.18128048162907362,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.12155593931674957,
+      "minNearestNormalSigned": 0.12038896046578884,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609960526227951,
+      "minNearestNormalSigned": 0.036099604330956936,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618557661771774,
+      "minNearestNormalSigned": 0.07417839579284191,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.24340486526489258,
+      "minNearestNormalSigned": 0.2431388609111309,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554925374686718,
+      "minNearestNormalSigned": 0.009554925258271396,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086893320084,
+      "minNearestNormalSigned": 0.11982112721307203,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.25614774227142334,
+      "minNearestNormalSigned": 0.25302632770035416,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0399707555770874,
+      "minNearestNormalSigned": 0.03988454956561327,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056197434663773,
+      "minNearestNormalSigned": 0.1080744422506541,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.34398525953292847,
+      "minNearestNormalSigned": 0.3430986545281485,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150471590459347,
+      "minNearestNormalSigned": 0.015150472521781921,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230222463608,
+      "minNearestNormalSigned": 0.10881139682169305,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.3249668776988983,
+      "minNearestNormalSigned": 0.31703385745640844,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017565190792084,
+      "minNearestNormalSigned": 0.050138636492192745,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.157966457773,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2813358008861542,
+      "minNearestNormalSigned": 0.2788146249949932,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163140267133713,
+      "minNearestNormalSigned": 0.03163140323886182,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833588361740112,
+      "minNearestNormalSigned": 0.13609705865383148,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.1722840666770935,
+      "minNearestNormalSigned": 0.17147003579884768,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226081609725952,
+      "minNearestNormalSigned": 0.05196571256965399,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765889942646027,
+      "minNearestNormalSigned": 0.14455349487252533,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 229,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31783929467201233,
+      "minNearestNormalSigned": 0.31669644662179053,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.02356031723320484,
+      "minNearestNormalSigned": 0.02356031550152693,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281909823417664,
+      "minNearestNormalSigned": 0.18128047417849302,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247771978378296,
+      "minNearestNormalSigned": 0.11240372993052006,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609960526227951,
+      "minNearestNormalSigned": 0.036099604330956936,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618556171655655,
+      "minNearestNormalSigned": 0.07417838927358389,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193692445755,
+      "minNearestNormalSigned": 0.23016224335879087,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554925374686718,
+      "minNearestNormalSigned": 0.009554925374686718,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086148262024,
+      "minNearestNormalSigned": 0.11982112721307203,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2463648021221161,
+      "minNearestNormalSigned": 0.24628733619647392,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0399707593023777,
+      "minNearestNormalSigned": 0.03988455422222614,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056197434663773,
+      "minNearestNormalSigned": 0.10894645447842777,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.33363628867664374,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150471590459347,
+      "minNearestNormalSigned": 0.01515047112479806,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338229477405548,
+      "minNearestNormalSigned": 0.10881139682169305,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.315907746553421,
+      "minNearestNormalSigned": 0.31273911288008094,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017565190792084,
+      "minNearestNormalSigned": 0.050138638354837894,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.157966457773,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.26885504461824894,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163135424256325,
+      "minNearestNormalSigned": 0.031631352845579386,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833586871623993,
+      "minNearestNormalSigned": 0.13609705865383148,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292260587215424,
+      "minNearestNormalSigned": 0.16021355986595154,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.052260804921388626,
+      "minNearestNormalSigned": 0.05134318582713604,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765888452529907,
+      "minNearestNormalSigned": 0.14455347997136414,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 405,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.30667415575589985,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.02356031723320484,
+      "minNearestNormalSigned": 0.023560315508802887,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281911313533783,
+      "minNearestNormalSigned": 0.18128048907965422,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247771978378296,
+      "minNearestNormalSigned": 0.11240373365581036,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609960153698921,
+      "minNearestNormalSigned": 0.0360996020026505,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618557661771774,
+      "minNearestNormalSigned": 0.07417839579284191,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193692445755,
+      "minNearestNormalSigned": 0.2301622061058879,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554925374686718,
+      "minNearestNormalSigned": 0.009554925258271396,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086893320084,
+      "minNearestNormalSigned": 0.11982113093836233,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2463648021221161,
+      "minNearestNormalSigned": 0.2462873436470545,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03997074440121651,
+      "minNearestNormalSigned": 0.039884540252387524,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056197434663773,
+      "minNearestNormalSigned": 0.10894645727239549,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.3336362211557571,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150473453104496,
+      "minNearestNormalSigned": 0.015150473918765783,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230222463608,
+      "minNearestNormalSigned": 0.10881139190678368,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31590771675109863,
+      "minNearestNormalSigned": 0.31273914920166135,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.050175655633211136,
+      "minNearestNormalSigned": 0.050138636492192745,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.1579664614982903,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.26885504461824894,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163140267133713,
+      "minNearestNormalSigned": 0.031631403078790754,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833588361740112,
+      "minNearestNormalSigned": 0.13609706237912178,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292262077331543,
+      "minNearestNormalSigned": 0.16021356359124184,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.052260804921388626,
+      "minNearestNormalSigned": 0.05168554838746786,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765888452529907,
+      "minNearestNormalSigned": 0.14455349103081971,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 413,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.30617212830111384,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.023560423403978348,
+      "minNearestNormalSigned": 0.023560419089335483,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281906843185425,
+      "minNearestNormalSigned": 0.181280429376784,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247772723436356,
+      "minNearestNormalSigned": 0.11240374483168125,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609977662563324,
+      "minNearestNormalSigned": 0.03609977778978646,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618552446365356,
+      "minNearestNormalSigned": 0.07417830731719732,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.23051930963993073,
+      "minNearestNormalSigned": 0.22978495922870934,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009555034339427948,
+      "minNearestNormalSigned": 0.009555033466313034,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086148262024,
+      "minNearestNormalSigned": 0.11982113867998123,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2463647723197937,
+      "minNearestNormalSigned": 0.24526376789435744,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.039970844984054565,
+      "minNearestNormalSigned": 0.03988041169941425,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.1105620488524437,
+      "minNearestNormalSigned": 0.10807452630251646,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411258459091187,
+      "minNearestNormalSigned": 0.33363618701696396,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150528401136398,
+      "minNearestNormalSigned": 0.015069868240971118,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338231712579727,
+      "minNearestNormalSigned": 0.11338231613626704,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31590765714645386,
+      "minNearestNormalSigned": 0.3127390332520008,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.050175756216049194,
+      "minNearestNormalSigned": 0.05010474007576704,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890073776245117,
+      "minNearestNormalSigned": 0.1578697927761823,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285020828247,
+      "minNearestNormalSigned": 0.270707594929263,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0316314697265625,
+      "minNearestNormalSigned": 0.03163146880979184,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833580911159515,
+      "minNearestNormalSigned": 0.1360969685483724,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292260587215424,
+      "minNearestNormalSigned": 0.1602135815192014,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.052260883152484894,
+      "minNearestNormalSigned": 0.05091572040691972,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765894412994385,
+      "minNearestNormalSigned": 0.14402173459529877,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 589,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.3082609176635742,
+      "minNearestNormalSigned": 0.3060098132118583,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.023560360074043274,
+      "minNearestNormalSigned": 0.023560358153190464,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281909823417664,
+      "minNearestNormalSigned": 0.18128049839287996,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247774213552475,
+      "minNearestNormalSigned": 0.11240376345813274,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.036099623888731,
+      "minNearestNormalSigned": 0.03609962295740843,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618556171655655,
+      "minNearestNormalSigned": 0.07417839393019676,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193841457367,
+      "minNearestNormalSigned": 0.23016222100704908,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554939344525337,
+      "minNearestNormalSigned": 0.009554938354995102,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086148262024,
+      "minNearestNormalSigned": 0.11982113233534619,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.24636481702327728,
+      "minNearestNormalSigned": 0.24628734561883903,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0399707555770874,
+      "minNearestNormalSigned": 0.03988454956561327,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056197434663773,
+      "minNearestNormalSigned": 0.10894645750522614,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.3336362435074989,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150482766330242,
+      "minNearestNormalSigned": 0.015150482999160886,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338228732347488,
+      "minNearestNormalSigned": 0.10881140346464235,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.31590771675109863,
+      "minNearestNormalSigned": 0.31273916829377413,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017570033669472,
+      "minNearestNormalSigned": 0.05010470049455762,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.1579664652235806,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.2688550818711519,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163144737482071,
+      "minNearestNormalSigned": 0.031631446472601965,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833586871623993,
+      "minNearestNormalSigned": 0.13609706610441208,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292263567447662,
+      "minNearestNormalSigned": 0.16021358408033848,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226081609725952,
+      "minNearestNormalSigned": 0.051965693943202496,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765889942646027,
+      "minNearestNormalSigned": 0.14455349743366241,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1089,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.30667414440540597,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.02356031909584999,
+      "minNearestNormalSigned": 0.023560319757962134,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281909823417664,
+      "minNearestNormalSigned": 0.18128047650679946,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247773468494415,
+      "minNearestNormalSigned": 0.11240374110639095,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609960526227951,
+      "minNearestNormalSigned": 0.03609960712492466,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618552446365356,
+      "minNearestNormalSigned": 0.07417836785316467,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193841457367,
+      "minNearestNormalSigned": 0.23016222100704908,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554925374686718,
+      "minNearestNormalSigned": 0.009554924967233092,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086148262024,
+      "minNearestNormalSigned": 0.11982112721307203,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.24636483192443848,
+      "minNearestNormalSigned": 0.246287336181922,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0399707555770874,
+      "minNearestNormalSigned": 0.039884548634290695,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056199669837952,
+      "minNearestNormalSigned": 0.10894647263921797,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.33363625095807947,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150480903685093,
+      "minNearestNormalSigned": 0.015150482300668955,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230967521667,
+      "minNearestNormalSigned": 0.10881139682169305,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.315907746553421,
+      "minNearestNormalSigned": 0.31273917807266116,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.050175655633211136,
+      "minNearestNormalSigned": 0.05013863788917661,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.15796645218506455,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.268855043919757,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163140267133713,
+      "minNearestNormalSigned": 0.03163140139076859,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833585381507874,
+      "minNearestNormalSigned": 0.13609704002738,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292262077331543,
+      "minNearestNormalSigned": 0.16021356731653214,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226081609725952,
+      "minNearestNormalSigned": 0.05196571256965399,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765888452529907,
+      "minNearestNormalSigned": 0.1445535023813136,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1113,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.3061721286503598,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.02356031723320484,
+      "minNearestNormalSigned": 0.0235603154724231,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.18281909823417664,
+      "minNearestNormalSigned": 0.18128048162907362,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_01_UpperLeft",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.11247772723436356,
+      "minNearestNormalSigned": 0.11240373738110065,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03609960526227951,
+      "minNearestNormalSigned": 0.036099604330956936,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.07618557661771774,
+      "minNearestNormalSigned": 0.07417839579284191,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_02_UpperRight",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2305193841457367,
+      "minNearestNormalSigned": 0.23016222100704908,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.009554925374686718,
+      "minNearestNormalSigned": 0.009554925258271396,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.12017086893320084,
+      "minNearestNormalSigned": 0.11982112721307203,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_03_CentralLower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.24636481702327728,
+      "minNearestNormalSigned": 0.2462873436470545,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.0399707555770874,
+      "minNearestNormalSigned": 0.03988454956561327,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11056197434663773,
+      "minNearestNormalSigned": 0.1080744422506541,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_04_Right",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.33411264419555664,
+      "minNearestNormalSigned": 0.33363625095807947,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.015150471590459347,
+      "minNearestNormalSigned": 0.015150472521781921,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.11338230222463608,
+      "minNearestNormalSigned": 0.10881139682169305,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Leaf_05_Lower",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.315907746553421,
+      "minNearestNormalSigned": 0.31273917900398374,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05017565190792084,
+      "minNearestNormalSigned": 0.050138636492192745,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.15890072286128998,
+      "minNearestNormalSigned": 0.157966457773,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_CentralOverlap_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.2709285616874695,
+      "minNearestNormalSigned": 0.26885504461824894,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.03163140267133713,
+      "minNearestNormalSigned": 0.03163140323886182,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.13833588361740112,
+      "minNearestNormalSigned": 0.13609705865383148,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_Main_Crown_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.16292260587215424,
+      "minNearestNormalSigned": 0.16021356731653214,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Head",
+      "minNearestDistance": 0.05226081609725952,
+      "minNearestNormalSigned": 0.05196571256965399,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_L",
+      "minNearestDistance": 0.14765889942646027,
+      "minNearestNormalSigned": 0.14455349487252533,
+      "verticesBelowMinus1mm": 0
+    },
+    {
+      "frame": 1149,
+      "part": "Sakura_Main_Ear_Petals",
+      "body": "ShushuStatic_Ear_R",
+      "minNearestDistance": 0.308260977268219,
+      "minNearestNormalSigned": 0.30617212830111384,
+      "verticesBelowMinus1mm": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "sourceSha256": "73edc347f555dff0cafb6c16e49aa5391c904ce63c9f4b37e15843febfe0d68c",
+  "geometryUVShapeWeightsBefore": {
+    "ShushuStatic_Ear_L": "2f3dcbcb7be4f00fb9c7c7b739fbe29a04ef5416b48982cc68fd45c6eb411fd1",
+    "ShushuStatic_Ear_R": "3627bcc74c1b08515e8410b0973bf388b3ffa66db0ca2644b830c80d89119233",
+    "ShushuStatic_Eye_L": "e0bca20b6edd96f5ae616f03e3dba39e0947f35fc1f01aa754c3a0a6262cdeb6",
+    "ShushuStatic_Eye_R": "53a0cc0fdf35847142b1b0304f3de83b215fe55f4a2a145d323d8ee816a978ea",
+    "ShushuStatic_Head": "f48cfac4fddd619fe9cc7c4ce46fe91818b59714fb9e087e8fe4ccb23479a409",
+    "ShushuStatic_LidWall_L": "2f290a9bd83993c6bba229c500f390b6d044f1602c2299981988ba0d149ae4b0",
+    "ShushuStatic_LidWall_R": "a3f91954c3f1c7859f2c84b7c58733040035dbcae30dd6aaf48969a45690f142",
+    "ShushuStatic_MouthInterior": "9f24ee4656a6b00bb29d150b7024346e54aabc273d2405541a9b796ec7201465",
+    "ShushuStatic_Nose": "d8f29bd1d5d83d63d17bbf0ee913d53e6dd98482707c3c2cd920272495610487",
+    "ShushuStatic_OralBowl": "5aa8be80c587c34692d5c97b32a6f524a23fa0fde5618dfb6b2c2887c85435ec",
+    "ShushuStatic_Paw_L": "bdb98be70356bec5fa9447ea9a3789c13e4e39b83ef520811558b5d9e7104756",
+    "ShushuStatic_Paw_R": "1d169de5fd0d55b81009f802f8b2117f1e4b62ad9719c24828894dc424117e0f",
+    "ShushuStatic_Tongue": "8a1371e362877023f724b9c7d4384ade2a7478614178ee6e1c1f9784770b42c9",
+    "ShushuStatic_Torso": "92146557997ebac40f974ec57a874806b4f46d8538fa11d053efe1b83c959d02"
+  },
+  "geometryUVShapeWeightsAfter": {
+    "ShushuStatic_Ear_L": "2f3dcbcb7be4f00fb9c7c7b739fbe29a04ef5416b48982cc68fd45c6eb411fd1",
+    "ShushuStatic_Ear_R": "3627bcc74c1b08515e8410b0973bf388b3ffa66db0ca2644b830c80d89119233",
+    "ShushuStatic_Eye_L": "e0bca20b6edd96f5ae616f03e3dba39e0947f35fc1f01aa754c3a0a6262cdeb6",
+    "ShushuStatic_Eye_R": "53a0cc0fdf35847142b1b0304f3de83b215fe55f4a2a145d323d8ee816a978ea",
+    "ShushuStatic_Head": "f48cfac4fddd619fe9cc7c4ce46fe91818b59714fb9e087e8fe4ccb23479a409",
+    "ShushuStatic_LidWall_L": "2f290a9bd83993c6bba229c500f390b6d044f1602c2299981988ba0d149ae4b0",
+    "ShushuStatic_LidWall_R": "a3f91954c3f1c7859f2c84b7c58733040035dbcae30dd6aaf48969a45690f142",
+    "ShushuStatic_MouthInterior": "9f24ee4656a6b00bb29d150b7024346e54aabc273d2405541a9b796ec7201465",
+    "ShushuStatic_Nose": "d8f29bd1d5d83d63d17bbf0ee913d53e6dd98482707c3c2cd920272495610487",
+    "ShushuStatic_OralBowl": "5aa8be80c587c34692d5c97b32a6f524a23fa0fde5618dfb6b2c2887c85435ec",
+    "ShushuStatic_Paw_L": "bdb98be70356bec5fa9447ea9a3789c13e4e39b83ef520811558b5d9e7104756",
+    "ShushuStatic_Paw_R": "1d169de5fd0d55b81009f802f8b2117f1e4b62ad9719c24828894dc424117e0f",
+    "ShushuStatic_Tongue": "8a1371e362877023f724b9c7d4384ade2a7478614178ee6e1c1f9784770b42c9",
+    "ShushuStatic_Torso": "92146557997ebac40f974ec57a874806b4f46d8538fa11d053efe1b83c959d02"
+  },
+  "all14MeshesExact": true,
+  "sourceFileUnchanged": true,
+  "authorizedMaterialChange": "Torso cloned material, separate sole-only PNG; all other original materials retained"
+}

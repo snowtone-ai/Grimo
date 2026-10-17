@@ -1,0 +1,44 @@
+{
+  "file": "assets/grimo/production/shushu/equipment/standard-v001/shushu-head-flower-v001.glb",
+  "validator": {
+    "errors": 0,
+    "warnings": 0,
+    "infos": 4,
+    "messages": [
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "severity": 2,
+        "message": "This object may be unused.",
+        "pointer": "/meshes/11/primitives/0/attributes/TEXCOORD_0"
+      }
+    ]
+  },
+  "metrics": {
+    "fileSizeBytes": 801380,
+    "triangleCount": 34668,
+    "vertexCount": 18503,
+    "materialCount": 4,
+    "textureCount": 0,
+    "deformBoneCount": 0,
+    "morphTargetCount": 0,
+    "animationClips": []
+  }
+}

@@ -2,6 +2,7 @@
 // No diagnostic viewer, Blender, camera, timeline-frame or DOM dependency.
 // The caller chooses and plays separately authored/baked clips on `entity`.
 import {installShushuDeformation} from './shushu-v004-deformation-v003.mjs';
+import {installShushuStandardAppearance} from './shushu-standard-appearance-v001.mjs';
 let candidateSequence=0;
 
 // Re-evaluate purpose arbitration after animation blending. Blending two baked
@@ -70,14 +71,14 @@ export function decodeShushuGlb(bytes) {
  return {json,access};
 }
 
-export async function loadShushuCandidate({pc,app,url,normalsEnabled=true}) {
+export async function loadShushuCandidate({pc,app,url,normalsEnabled=true,standardAppearance=true,equipmentOptions={}}) {
  const response=await fetch(url);if(!response.ok)throw Error('Shushu GLB HTTP '+response.status);
  // The container handler caches by URL. Give each owned parse a distinct key:
  // unloading it must never destroy a resource used by another instance/asset.
  // `contents` reuses the one download; the cache key is not fetched again.
  const cacheUrl=url+(url.includes('?')?'&':'?')+'shushuOwnedParse='+(++candidateSequence);
  const bytes=await response.arrayBuffer(),{json,access}=decodeShushuGlb(bytes),asset=new pc.Asset('Shushu v004 repair candidate','container',{url:cacheUrl,contents:bytes});app.assets.add(asset);
- let entity,deformation,pawControls;
+ let entity,deformation,pawControls,equipment;
  try{
   await new Promise((resolve,reject)=>{asset.once('load',resolve);asset.once('error',reject);app.assets.load(asset);});
   entity=asset.resource.instantiateRenderEntity();app.root.addChild(entity);
@@ -92,9 +93,10 @@ export async function loadShushuCandidate({pc,app,url,normalsEnabled=true}) {
   if(streams.length!==3)throw Error('Expected the candidate Torso compatibility and two Paw normal streams');
   deformation=installShushuDeformation({pc,app,streams,normalsEnabled});
   pawControls=installPawControls({pc,app,entity,deformation,streams,contracts:new Map(json.nodes.filter(n=>n.name?.startsWith('ANCHOR_Hold.')).map(n=>[n.name,n.extras]))});
+  if(standardAppearance)equipment=await installShushuStandardAppearance({pc,app,entity,...equipmentOptions});
   // Parsing above and the container handler shared one download.
   asset.file.contents=null;
   let disposed=false;
-  return {entity,resource:asset.resource,deformation,pawControls,asset,dispose(){if(disposed)return;disposed=true;pawControls.dispose();deformation.dispose();entity.destroy();asset.unload();app.assets.remove(asset);}};
- }catch(error){pawControls?.dispose();deformation?.dispose();entity?.destroy();asset.unload();app.assets.remove(asset);throw error;}
+  return {entity,resource:asset.resource,deformation,pawControls,equipment,asset,dispose(){if(disposed)return;disposed=true;equipment?.dispose();pawControls.dispose();deformation.dispose();entity.destroy();asset.unload();app.assets.remove(asset);}};
+ }catch(error){equipment?.dispose();pawControls?.dispose();deformation?.dispose();entity?.destroy();asset.unload();app.assets.remove(asset);throw error;}
 }

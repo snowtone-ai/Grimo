@@ -38,3 +38,12 @@ docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*
 docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*.json text eol=lf
 docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*.mjs text eol=lf
 docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*.html text eol=lf
+
+# Shushu standard appearance v001 sources and evidence are hash-bound.
+/.gitattributes text eol=lf
+assets/grimo/production/shushu/runtime/shushu-standard-appearance-v001.mjs text eol=lf
+scripts/3d/*shushu-equipment-v001.* text eol=lf
+scripts/blender/*shushu-equipment-v001.py text eol=lf
+docs/production/shushu/evidence/standard-appearance-v001/**/*.md text eol=lf
+docs/production/shushu/evidence/standard-appearance-v001/**/*.json text eol=lf
+docs/production/shushu/evidence/standard-appearance-v001/**/*.html text eol=lf
