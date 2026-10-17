@@ -47,3 +47,13 @@ scripts/blender/*shushu-equipment-v001.py text eol=lf
 docs/production/shushu/evidence/standard-appearance-v001/**/*.md text eol=lf
 docs/production/shushu/evidence/standard-appearance-v001/**/*.json text eol=lf
 docs/production/shushu/evidence/standard-appearance-v001/**/*.html text eol=lf
+
+# Shushu rounded satin flower revision v002.
+docs/production/Handoff.md text eol=lf
+assets/grimo/production/shushu/runtime/shushu-standard-appearance-v002.mjs text eol=lf
+scripts/3d/*shushu-equipment-v002.* text eol=lf
+scripts/blender/*shushu-equipment-v002.py text eol=lf
+scripts/blender/finalize-shushu-flower-blend-v002.py text eol=lf
+docs/production/shushu/evidence/standard-appearance-v002/**/*.md text eol=lf
+docs/production/shushu/evidence/standard-appearance-v002/**/*.json text eol=lf
+docs/production/shushu/evidence/standard-appearance-v002/**/*.html text eol=lf

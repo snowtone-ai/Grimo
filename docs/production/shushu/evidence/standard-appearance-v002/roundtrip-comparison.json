@@ -1,0 +1,201 @@
+{
+  "scope": "28 matched 640px author/saved images; same fixed EEVEE conditions; pixel differences include glTF export/import normals/material implementation. Does not compare PC pixels or infer Human PASS.",
+  "rows": [
+    {
+      "frame": 1,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.05688395182291667,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8657
+    },
+    {
+      "frame": 1,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.048406575520833335,
+      "rgbMaximum8bit": 33.0,
+      "pixelsAnyDifference": 2535
+    },
+    {
+      "frame": 1,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.06214111328125,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 6607
+    },
+    {
+      "frame": 1,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.05810302734375,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 7392
+    },
+    {
+      "frame": 103,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.05399495442708333,
+      "rgbMaximum8bit": 32.0,
+      "pixelsAnyDifference": 9233
+    },
+    {
+      "frame": 103,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.04884033203125,
+      "rgbMaximum8bit": 36.0,
+      "pixelsAnyDifference": 2579
+    },
+    {
+      "frame": 103,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.0630126953125,
+      "rgbMaximum8bit": 30.0,
+      "pixelsAnyDifference": 7019
+    },
+    {
+      "frame": 103,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.05813720703125,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 7833
+    },
+    {
+      "frame": 189,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.059601236979166666,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8153
+    },
+    {
+      "frame": 189,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.056222330729166665,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8388
+    },
+    {
+      "frame": 197,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.0576708984375,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8526
+    },
+    {
+      "frame": 197,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.05987955729166667,
+      "rgbMaximum8bit": 35.0,
+      "pixelsAnyDifference": 6002
+    },
+    {
+      "frame": 205,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.056673990885416664,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8741
+    },
+    {
+      "frame": 205,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.056063639322916664,
+      "rgbMaximum8bit": 28.0,
+      "pixelsAnyDifference": 7901
+    },
+    {
+      "frame": 221,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.05699869791666667,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8667
+    },
+    {
+      "frame": 221,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.05810465494791667,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 7386
+    },
+    {
+      "frame": 229,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.05686930338541667,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8646
+    },
+    {
+      "frame": 229,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.05817138671875,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 7383
+    },
+    {
+      "frame": 589,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.052699381510416664,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 9589
+    },
+    {
+      "frame": 589,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.05958414713541667,
+      "rgbMaximum8bit": 28.0,
+      "pixelsAnyDifference": 8096
+    },
+    {
+      "frame": 1113,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.05731201171875,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8705
+    },
+    {
+      "frame": 1113,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.04870361328125,
+      "rgbMaximum8bit": 34.0,
+      "pixelsAnyDifference": 2602
+    },
+    {
+      "frame": 1113,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.06315185546875,
+      "rgbMaximum8bit": 30.0,
+      "pixelsAnyDifference": 6652
+    },
+    {
+      "frame": 1113,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.0587109375,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 7476
+    },
+    {
+      "frame": 1149,
+      "view": "front",
+      "rgbMeanAbsolute8bit": 0.05688395182291667,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 8657
+    },
+    {
+      "frame": 1149,
+      "view": "side",
+      "rgbMeanAbsolute8bit": 0.048406575520833335,
+      "rgbMaximum8bit": 33.0,
+      "pixelsAnyDifference": 2535
+    },
+    {
+      "frame": 1149,
+      "view": "3q",
+      "rgbMeanAbsolute8bit": 0.06214111328125,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 6607
+    },
+    {
+      "frame": 1149,
+      "view": "3qR",
+      "rgbMeanAbsolute8bit": 0.05810302734375,
+      "rgbMaximum8bit": 29.0,
+      "pixelsAnyDifference": 7392
+    }
+  ]
+}

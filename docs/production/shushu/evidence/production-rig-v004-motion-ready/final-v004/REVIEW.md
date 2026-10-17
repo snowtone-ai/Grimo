@@ -1,6 +1,6 @@
 # Shushu v004 — Motion Ready 再審査候補
 
-**判定：v004比較ページのHuman外観PASS（2026-10-17のHuman明示指示）／PC技術確認済み（下記範囲）／スマホUNKNOWN。** 承認対象はこの比較ページの既存v004候補（制作HEAD `8d3235f0b176088f2434ee482aa5d14d7b94ef58`、GLB SHA256 `a082195104713c21b9a219ff19bd9d37702486aaa4cdf2bbf2e9f0ad58b5c91f`）。旧v003の腕・口・腹のHuman FAILは履歴として保持する。新規花飾り・肉球はこのPASSに含めない。追加装備のHuman外観はPENDING、phone UNKNOWN、原本置換・Motion量産はHuman GOまでHOLD。
+**判定：v004比較ページのHuman外観PASS（2026-10-17のHuman明示指示）／PC技術確認済み（下記範囲）／スマホUNKNOWN。** 承認対象はこの比較ページの既存v004候補（制作HEAD `8d3235f0b176088f2434ee482aa5d14d7b94ef58`、GLB SHA256 `a082195104713c21b9a219ff19bd9d37702486aaa4cdf2bbf2e9f0ad58b5c91f`）。旧v003の腕・口・腹のHuman FAILは履歴として保持する。新規花飾り・肉球はこのPASSに含めない。追加装備の最新Human判定は足裏PASS・v001花FAIL、[改修v002花](../../standard-appearance-v002/REVIEW.md)はPENDING、phone UNKNOWN、原本置換・Motion量産はHuman GOまでHOLD。
 
 承認根拠：本依頼の「Shushu v004の比較ページHuman外観PASSを正式記録」「v004比較ページのHuman PASSだけをReviewに記録し、装備追加とphone/量産は未承認に区別」。Codexの技術判定や推測による承認ではない。[標準外観追加の独立Review](../../standard-appearance-v001/REVIEW.md)。旧delivery-manifestは当時の検証snapshotとして保持し、今回の承認範囲は本Reviewを正本とする。
 

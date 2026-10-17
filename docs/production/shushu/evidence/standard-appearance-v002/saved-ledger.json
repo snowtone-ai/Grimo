@@ -1,0 +1,205 @@
+{
+  "route": "original saved v004 GLB + separately reimported flower GLB + sole PNG",
+  "captureSettings": {
+    "engine": "BLENDER_EEVEE",
+    "size": [
+      640,
+      640
+    ],
+    "orthoScale": 1.22,
+    "lights": [
+      {
+        "name": "fill",
+        "energy": 40.0,
+        "location": [
+          1.0,
+          -1.0,
+          1.649999976158142
+        ]
+      },
+      {
+        "name": "key",
+        "energy": 90.0,
+        "location": [
+          -1.0,
+          -2.0,
+          2.6500000953674316
+        ]
+      }
+    ],
+    "groundCount": 1,
+    "viewTransform": "AgX",
+    "look": "None",
+    "exposure": -0.5
+  },
+  "images": [
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-front.png",
+      "frame": 1,
+      "view": "front",
+      "sha256": "20ef8180c5fafa96444c6ee38d07fbc08bdd05f6d434451bacc3189e7864410a"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-side.png",
+      "frame": 1,
+      "view": "side",
+      "sha256": "49cf20820c773f0b85c7fd81e315aa5eca7834f8cea7cf7a2b3ead0972ec9022"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-3q.png",
+      "frame": 1,
+      "view": "3q",
+      "sha256": "b200e8a7d213dc9f7a693f3d47bc0b3a4542a2a590502320fa0023681c697c7b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-3qR.png",
+      "frame": 1,
+      "view": "3qR",
+      "sha256": "244b35fefcf3971c507b35b498d064b565b58085b8eda0e0bbd819d31286765d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-front.png",
+      "frame": 103,
+      "view": "front",
+      "sha256": "e0a763a1c1988b1a28417de3a6d8180fd8f5033104c1ac8099d4dc838cc9c5e9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-side.png",
+      "frame": 103,
+      "view": "side",
+      "sha256": "13a45c27db2253c4b8e47fe28428fd5f1164799a5f7219974a612b4c09baefc2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-3q.png",
+      "frame": 103,
+      "view": "3q",
+      "sha256": "12b8954e00fab3ed12d782f00041cf4632d9aa95bfae4f0a4ff0e67e4a94d28d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-3qR.png",
+      "frame": 103,
+      "view": "3qR",
+      "sha256": "f1274a85cb7f8baf2832fe039a948095b2753dea8e8d5f22958ab0804522e3e9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f189-front.png",
+      "frame": 189,
+      "view": "front",
+      "sha256": "09038e2759e1bde65d55cdba5324c79029c25ca83373908355a376084fa79a7c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f189-3qR.png",
+      "frame": 189,
+      "view": "3qR",
+      "sha256": "91021cd9d4368a3570c66deefa03983d5b5ec38a9b180df2ffedeba720dcb2ae"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f197-front.png",
+      "frame": 197,
+      "view": "front",
+      "sha256": "fb0a676368855c362783c0e7778d4688710c021e5dc4b1719cb4f3aa7e7af3ce"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f197-3qR.png",
+      "frame": 197,
+      "view": "3qR",
+      "sha256": "fc9ab4e9d6d4880bd44bb8a653c3bec8a0294c4982054b3ba498ce0d56784a40"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f205-front.png",
+      "frame": 205,
+      "view": "front",
+      "sha256": "ad26750db3ffa4238a8222aec706e11f948a08b7159a08414fa7d6daa6c81663"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f205-3qR.png",
+      "frame": 205,
+      "view": "3qR",
+      "sha256": "98b06272199cff1ca06a20135750a61d10d727e62044937e8ddd4017d19dc5ed"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f221-front.png",
+      "frame": 221,
+      "view": "front",
+      "sha256": "07e5289b4f268997fdc90e2d68697eade5d60b37923a3535ccffe63a0bff831e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f221-3qR.png",
+      "frame": 221,
+      "view": "3qR",
+      "sha256": "a7c4a18ec152c2cef44bebc673c0005313f5f63dfa3914febdaf336612ee6dd2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f229-front.png",
+      "frame": 229,
+      "view": "front",
+      "sha256": "e4c5400cba860a1433f0a6939f5411dfd13f6e84e1da52defc6d1727c9778de8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f229-3qR.png",
+      "frame": 229,
+      "view": "3qR",
+      "sha256": "a6782a553c9965b63d35c3f7e436337a3c6209d05c691b59038a735aef0199a9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f589-front.png",
+      "frame": 589,
+      "view": "front",
+      "sha256": "bc2fb39a9acc2884b2402af5eaf2b045d077a8d48dd325c7abf3b83de0c6a188"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f589-3qR.png",
+      "frame": 589,
+      "view": "3qR",
+      "sha256": "a84a5c7bed8fa4a8435e659c8eef51bdf676e891babf1e0af5220acc9ca068d2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-front.png",
+      "frame": 1113,
+      "view": "front",
+      "sha256": "5897d39905e41654728bb91ce186f8513f74cdf24a1c68b7d9250f6964e1e2e5"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-side.png",
+      "frame": 1113,
+      "view": "side",
+      "sha256": "e64fb42ca02e6f6ea3a77944dc7c7862383e377297229663153449b72d78be83"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-3q.png",
+      "frame": 1113,
+      "view": "3q",
+      "sha256": "06e5eab636a86e13b2cc9cc347100475edaa96bf2dd2a55a57324f7cb08d789e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-3qR.png",
+      "frame": 1113,
+      "view": "3qR",
+      "sha256": "48878571654b012df91f69aef2f8f22a5d615de074bbc7c99a4ac7c3d997b73c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-front.png",
+      "frame": 1149,
+      "view": "front",
+      "sha256": "6aaa07ee55ad72b954b94c3a4a630573d06825ce84e75bade5975affd271ca91"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-side.png",
+      "frame": 1149,
+      "view": "side",
+      "sha256": "ef26656247e727b6883a84958f0be98e3091c4ed5964d9a208798da60bb1a95d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-3q.png",
+      "frame": 1149,
+      "view": "3q",
+      "sha256": "383eab0a623a786f043994529378c62a0c9fe7b2d460a707590505da83b5ea20"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-3qR.png",
+      "frame": 1149,
+      "view": "3qR",
+      "sha256": "61ec363149c719c83e7c1d2686d313de1e3932e24b123408faeafc728edbb25f"
+    }
+  ]
+}

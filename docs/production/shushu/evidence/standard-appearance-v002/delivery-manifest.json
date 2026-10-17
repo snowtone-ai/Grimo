@@ -1,0 +1,739 @@
+{
+  "date": "2026-10-17",
+  "branch": "codex/shushu-abc-motion-repair-v004-20261017",
+  "approvedComparisonHead": "8d3235f0b176088f2434ee482aa5d14d7b94ef58",
+  "rulesMainHead": "336997db2b95244c17774258e2f5ff874a2adbc1",
+  "gates": {
+    "existingV004ComparisonHumanAppearance": "PASS: explicit Human instruction, original scope only",
+    "hindSolePadsHuman": "PASS: latest Human 足裏はOK",
+    "v001FlowerHuman": "FAIL: thin and cheap appearance",
+    "v002FlowerHuman": "PENDING",
+    "phone": "UNKNOWN; no USB",
+    "originalReplacementAndMotionProduction": "HOLD until Human GO"
+  },
+  "inputsReadOnly": [
+    {
+      "file": "assets/grimo/production/shushu/equipment/standard-v001/shushu-hind-sole-pads-v001.png",
+      "bytes": 2582567,
+      "sha256": "f5c4aa2969b9b4971e3926dfede7c56cc8211091b9c074a9c67bb0738a2f21fe"
+    },
+    {
+      "file": "assets/grimo/production/shushu/equipment/standard-v001/shushu-head-flower-v001.glb",
+      "bytes": 801380,
+      "sha256": "13ea84576dd2e01a52df88bd159c5cca2b1f2a3cfe83362aa0f9ad52fb6cfdae"
+    },
+    {
+      "file": "assets/grimo/source/shushu/shushu-Identity-canonical.png",
+      "bytes": 584187,
+      "sha256": "21af6792b572caa06b2c5cfcfcc7e1f9e859fbf78a716e6755aaf25c7594cb10"
+    },
+    {
+      "file": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v004.glb",
+      "bytes": 62567088,
+      "sha256": "a082195104713c21b9a219ff19bd9d37702486aaa4cdf2bbf2e9f0ad58b5c91f"
+    },
+    {
+      "file": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v004-proof.blend",
+      "bytes": 19955417,
+      "sha256": "73edc347f555dff0cafb6c16e49aa5391c904ce63c9f4b37e15843febfe0d68c"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": ".gitattributes",
+      "bytes": 3331,
+      "sha256": "c029761d9de9cf1e789b0de7fcb259623fe6d8c39b5b0ea5dab6d72ee97893a2"
+    },
+    {
+      "file": "assets/grimo/production/shushu/equipment/standard-v002/shushu-head-flower-v002.blend",
+      "bytes": 721378,
+      "sha256": "bd09de333afe1078c828f339108d1ac6337aa9274cda7c7055914df067bd5291"
+    },
+    {
+      "file": "assets/grimo/production/shushu/equipment/standard-v002/shushu-head-flower-v002.glb",
+      "bytes": 1279984,
+      "sha256": "ed474a714105d9a8a853d5caf1db0268acb86890589d3354e322bd9351490e41"
+    },
+    {
+      "file": "assets/grimo/production/shushu/equipment/standard-v002/shushu-standard-appearance-v002-proof.blend",
+      "bytes": 23239520,
+      "sha256": "d51228d07519672b3b9546aa39a60d6ce6fb5c0a6f151bdf3cc6b944b45b0aa0"
+    },
+    {
+      "file": "assets/grimo/production/shushu/runtime/shushu-standard-appearance-v002.mjs",
+      "bytes": 650,
+      "sha256": "2e587f0dc87649fbcb0ead6d96e180939cfda49c417073d4ec7eb70cfc6de746"
+    },
+    {
+      "file": "assets/grimo/production/shushu/runtime/shushu-v004-loader-v004.mjs",
+      "bytes": 9942,
+      "sha256": "e8269340a158f9e68b1316d61cb0988d28a070af7bd30d3a02c07553dc66773d"
+    },
+    {
+      "file": "docs/production/Handoff.md",
+      "bytes": 4368,
+      "sha256": "7c95bcc867a0d6de418f6d6536f5ca026268e48ee5093c8353acd05ef54b7e81"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/index.html",
+      "bytes": 5064,
+      "sha256": "4f1a7fb476d9f68367560484c736ba61737d6425774e677d8613585c0d308413"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/REVIEW.md",
+      "bytes": 6802,
+      "sha256": "957eda98115491fc04865e0c8017b1f4669e674d8e702239c1c9e1a221149f6f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v001/index.html",
+      "bytes": 7151,
+      "sha256": "2006c4c8811842f57f3a78e5eb83dfa8bf26511f43545f46ee69328f7a29585c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v001/REVIEW.md",
+      "bytes": 6476,
+      "sha256": "05776c8bfc4dc91f0f15b133982fc2f391063c34b566f5140869b300a2dc7307"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v001/runtime.html",
+      "bytes": 4388,
+      "sha256": "16988369622ab13fb292a9e26779767c50c6e05cc95f35fab1e1a403bb1a8035"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/approved-pads.json",
+      "bytes": 254,
+      "sha256": "c86bdda9b797a2f536d6ebee1b69caae530c8e5258b43992b5e1d1c9844268fb"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1-3q.png",
+      "bytes": 371784,
+      "sha256": "5b86be78e59be692e32d5ef176ba53571c8c42d306e6c5b26aa74bfe564436d6"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1-3qR.png",
+      "bytes": 372406,
+      "sha256": "236b3c03ac52aa87eea7679d6044684db951224aa5fd28e9d31662a8d2b952b8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1-front.png",
+      "bytes": 384406,
+      "sha256": "39915c1dad46a46a25ea60da64809a54090ef2a877b93f2726019772bd899cbd"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1-side.png",
+      "bytes": 333795,
+      "sha256": "467370f1972eff45e3beab5e843075bdf9738ad1595527c03ec97c771a3d0147"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f103-3q.png",
+      "bytes": 364675,
+      "sha256": "d1d8770cecd8a9e3642ab14cdce4317a326f149c99a754ccb9e29dda55da8d2b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f103-3qR.png",
+      "bytes": 366403,
+      "sha256": "5ca55dcba15be99e6509cbe994ee879a73b4b41ac827e3c550e15bbe5c2e3d2f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f103-front.png",
+      "bytes": 376492,
+      "sha256": "34360d2b95a84c078e13c09085f0147ccde695094e502b6a1e73297fa6801dfe"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f103-side.png",
+      "bytes": 328368,
+      "sha256": "afaa818da29904cd2b718e132461341e4d218fe4e521da05452e909ef884c597"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1113-3q.png",
+      "bytes": 365562,
+      "sha256": "31f0f86fd6e459538d5a361d287c98fbdb47ee0162195725a921f07ba2c5a9bc"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1113-3qR.png",
+      "bytes": 370078,
+      "sha256": "68ee5f15b5ef0a0cae68792abd60940b375e834f0a2bfe107144439e3181a917"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1113-front.png",
+      "bytes": 373878,
+      "sha256": "ad7c673a481ebe038e959f216b4493307185fa3bac2f93d5889c5d1e49925406"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1113-side.png",
+      "bytes": 329875,
+      "sha256": "c038d13dd1bb1e6668687112530a439eba18855fba15613a68ec59bf126d5e89"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1149-3q.png",
+      "bytes": 371784,
+      "sha256": "0dcabf1fe6c6272f8dea489881d3cf20993a7d429649989f85f89171fdd4a361"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1149-3qR.png",
+      "bytes": 372406,
+      "sha256": "d38c1a55a236cc7857b8cda12ff6a32ba2acfcab519023fc25b99f7511d629fc"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1149-front.png",
+      "bytes": 384406,
+      "sha256": "62ca6b56aa4999c801fdbec57ecdd0a42f04517cf9664b9606e1377a19cfad27"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f1149-side.png",
+      "bytes": 333795,
+      "sha256": "b881759db11e93231328c9d68b5eb6c06eaaace48d69ad786e3e9c74378b701f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f189-3qR.png",
+      "bytes": 379383,
+      "sha256": "bcb606dcc44b591b3755332ee810e0eb5734317e1c6d45207d7aed276fabe1de"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f189-front.png",
+      "bytes": 382503,
+      "sha256": "97acefa2c7954081ed2344887c90851ec034694cb5e29d3c7ac109ce625d02b5"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f197-3qR.png",
+      "bytes": 364842,
+      "sha256": "4dfe26e03dac1e006fd16ce198dea4e8e8a65ab5dcf2291a4b9141af539c52d9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f197-front.png",
+      "bytes": 383706,
+      "sha256": "dc7f85749ee74a7d46b736d698edf16e543fe9d4a3a02fa6a8c4ee4618e8c2c3"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f205-3qR.png",
+      "bytes": 370470,
+      "sha256": "15402b01cc9ee2867049616d6d19ed11687a9064fb0c04859c96909be5406034"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f205-front.png",
+      "bytes": 381556,
+      "sha256": "2579efcf121d651d53918251e43de3baaac93ec2fa7148962e3d378908ead6e7"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f221-3qR.png",
+      "bytes": 372946,
+      "sha256": "0f2ab548bdc0b34fba684d6bb0e949b58f9eccec7361198f826ba45481521a30"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f221-front.png",
+      "bytes": 384920,
+      "sha256": "c3b4b3e358bbc7eb726f65098e5344a958ae0b7ee56b2cc31023e347980fbf22"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f229-3qR.png",
+      "bytes": 372745,
+      "sha256": "d9a3cb7fab0e62596e64237ad99fa8427f62d38e677837dc195879bb7cbec48f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f229-front.png",
+      "bytes": 384857,
+      "sha256": "abcdbd077aa5479b7ef8bbb0267ecc910b50bedb482417733b618afb0c811da0"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f589-3qR.png",
+      "bytes": 368115,
+      "sha256": "8681532f36e7cf220c2cc3b0a7c27ac6ec1366477dfeab8db7801f6b1109c878"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author/f589-front.png",
+      "bytes": 378643,
+      "sha256": "229b42bb1fb4abc4cf1bdac874ddb93172d057fd891ca77f145d9a01ad7ac93c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author-ledger.json",
+      "bytes": 7117,
+      "sha256": "090868d46f73bc4b5eaf493cda2bcd347c838590b87987e3e1d7ea2afabdda81"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/author-texture-pack.json",
+      "bytes": 195,
+      "sha256": "399d6c6517477a513a3df24ebb15c85d89f518477aa6b1e396a367968128f2b4"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/before-after.jpg",
+      "bytes": 188423,
+      "sha256": "d54b8ec5dbb9da824c9528ce4fdc0125cc7327fa9e9f31c58c9d2f2a1d966c85"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/blockout/f1-3q.png",
+      "bytes": 371361,
+      "sha256": "b48d3cc1b72ae4177756b36b3f94e7a560043229fa4eec63b1d3432c18772b07"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/blockout/f1-3qR.png",
+      "bytes": 371838,
+      "sha256": "54a5e36f18c051ad51916952f9713b8993fd2439b45ac4a5b0c8a1187dec3465"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/blockout/f1-front.png",
+      "bytes": 383278,
+      "sha256": "fc6cb3779f4aaa354fb493f754229ac5c47e76860f3e941ab3d863be9591e910"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/blockout/f1-side.png",
+      "bytes": 333528,
+      "sha256": "9e7daacbe665b98546dd45970c32eec7db7d1bfdebfa9c7a24f983e7ffa8e34f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/blockout-ledger.json",
+      "bytes": 546,
+      "sha256": "82031e1bd0050e5c89484f24b31f37719e425b040f937e5f93a7cca27d7040dc"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/flower-glb-validation.json",
+      "bytes": 1179,
+      "sha256": "6d282cff66ed00e1c811069cfd5d0b104b9fa3227350c23efeaf4f3d5dda80d3"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/index.html",
+      "bytes": 8109,
+      "sha256": "a1165d43ec7298fd7235ba9ebe44c6d1e5e1068874aeb66da695f89946924c77"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/attachment-and-toggle.json",
+      "bytes": 19404,
+      "sha256": "e4954066cca8d30fb2de401ef93efc04da848834737a6495a508881233122dde"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/baseline-f1-front.png",
+      "bytes": 229517,
+      "sha256": "3cf77b8721fb6aaa1be57b2719e30c6e951329ccc006b089a4cb9b4b5e46c78f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/baseline-f103-front.png",
+      "bytes": 214339,
+      "sha256": "a12234221be720232e0ebadd5fdfd889c45cb477661b520e65ba7f5edcbde369"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/before-close-3qR.png",
+      "bytes": 280867,
+      "sha256": "56a05ebde5fd35b3ecd1008c567179ffa7e7640aabb9a3e5f8d71f9ec236596b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/before-close-front.png",
+      "bytes": 290525,
+      "sha256": "d05faa1ac2ce4baa8646bc3dd450bad316dc78558fa8a776d65fdf45d275906d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/before-close-side.png",
+      "bytes": 222333,
+      "sha256": "8de4dd2dbe7ab133a41da1e1ac79803da6c0841b4afc8af1a7c47e95a5a3297f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/before-f1-3q.png",
+      "bytes": 222675,
+      "sha256": "f0ccc9aeaf3002962e65514965c410525e099d97cc229b25976cf4d7b63ba8d8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/before-f1-3qR.png",
+      "bytes": 220117,
+      "sha256": "e8025aa866dc33af571c2afe5e3dba3e7fba9e9a59fab57de81f6199f77acdfa"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/before-f1-front.png",
+      "bytes": 246437,
+      "sha256": "eda01708fc556c462645008321a8abb4b37524d4cd18364c4cd82c65af677ee0"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/before-f1-side.png",
+      "bytes": 169120,
+      "sha256": "5df247128917f69dc0b5a75cc6298be05ffeeee13a7d262ea99ab6727b65f548"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/capture-ledger.json",
+      "bytes": 8162,
+      "sha256": "467894fe5c668a29cab531fe824458b4f0b3d3ee3abda5e277f91aaf2146f54e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/close-3qR.png",
+      "bytes": 256287,
+      "sha256": "c702a71a7a8c057410a2325620b2c793b39fea5bb23325d2911230a797bcb52c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/close-front.png",
+      "bytes": 265293,
+      "sha256": "68a0b37e065784562c0c93bbc0efcd94ab714b743b6dcdb098caf72f89e98d39"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/close-side.png",
+      "bytes": 225540,
+      "sha256": "a4b5aa8873dac6018960ded6f3ea5d27d8f7e891482b2fba7aad672807695ce6"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/environment.json",
+      "bytes": 227,
+      "sha256": "394052efaaf91ae93ccfed9a9960168497197441662d25f28a4583e44b51bcc5"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/errors.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1-3q.png",
+      "bytes": 219510,
+      "sha256": "ceb190588dddefc738e5adce5ae0ed3f0465aca40d8daa0d86daf6d80f476a06"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1-3qR.png",
+      "bytes": 216846,
+      "sha256": "46d9c4f1bd5c9aede89d9dd47c178c8343873b23ab04f5e26f92a4e93ed4dafb"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1-front.png",
+      "bytes": 242530,
+      "sha256": "2957d6c33347dffaf67e24796ca2101c82ebf6332c885b05724f672011010985"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1-side.png",
+      "bytes": 169398,
+      "sha256": "33e4c8bb9fa297a773fa9e3c30563da9b8ac0092179f8f79f2ac530e5adc8fe8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f103-3q.png",
+      "bytes": 210095,
+      "sha256": "1f6fddb7a87eee0f0bb77fe87e69b1d85d559b13899f1e244a964adf9a2d662f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f103-3qR.png",
+      "bytes": 207240,
+      "sha256": "bbf4d1c9718385d7733d554c6d2505d557dedd880029976459b9a86e74f73f1b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f103-front.png",
+      "bytes": 229567,
+      "sha256": "7560de139f18fcb2599cd3803832c8cdbde710bb3502f5eaca5dd3d4fc9d79ab"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f103-side.png",
+      "bytes": 162923,
+      "sha256": "90c1fecd5446fd79dd1f8df3b468b78df559ede793a96f9a6c7943a0bd5a5083"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1113-3q.png",
+      "bytes": 211363,
+      "sha256": "dd8349e4f31ba0afe5fd4f975744b7bbfad7cf638504d8bb8a25a4e524e24186"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1113-3qR.png",
+      "bytes": 212756,
+      "sha256": "462f0ba1a4e74bec6fe3ca93f9739bb34aa44b57fb83f5081738b1182db5b138"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1113-front.png",
+      "bytes": 224131,
+      "sha256": "d8818a9c2725f3a2f789d6bdad1f28a36783b40ece8fee403fe38f96670b4e09"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1113-side.png",
+      "bytes": 165625,
+      "sha256": "f438d30d48ea9b8f72b65ea119b48ac1686c85864395adcf4d92d340399d7d9b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1149-3q.png",
+      "bytes": 219510,
+      "sha256": "ceb190588dddefc738e5adce5ae0ed3f0465aca40d8daa0d86daf6d80f476a06"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1149-3qR.png",
+      "bytes": 216846,
+      "sha256": "46d9c4f1bd5c9aede89d9dd47c178c8343873b23ab04f5e26f92a4e93ed4dafb"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1149-front.png",
+      "bytes": 242530,
+      "sha256": "2957d6c33347dffaf67e24796ca2101c82ebf6332c885b05724f672011010985"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f1149-side.png",
+      "bytes": 169398,
+      "sha256": "33e4c8bb9fa297a773fa9e3c30563da9b8ac0092179f8f79f2ac530e5adc8fe8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f189-3qR.png",
+      "bytes": 227091,
+      "sha256": "1f7964c455a6b4f51b541dd4396ef3f89585d01f57a1dbc2758af4e44804b0cc"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f189-front.png",
+      "bytes": 238616,
+      "sha256": "709150c60014032811f6b7e0a025239f017425ce7726815fc1a9f55a891ea682"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f197-3qR.png",
+      "bytes": 204562,
+      "sha256": "5c2c7bb438351cd1ed6847433b11f25953e6e51d433f25fc6aa0595195c50b30"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f197-front.png",
+      "bytes": 240981,
+      "sha256": "147c51daaa77ba7fd2bfb1a016047d70ee7f8b0b0439d229e6ed6fbc7bece2ac"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f205-3qR.png",
+      "bytes": 214733,
+      "sha256": "6345dcc2b0851285802362537e3d324b27cce05a85d859e5a17d04dc4a3c8c0e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f205-front.png",
+      "bytes": 238894,
+      "sha256": "574f34ca227f5be466e6f4e918b569048fbbf97e76998b7b2d778ddbf0b31ebf"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f221-3qR.png",
+      "bytes": 217137,
+      "sha256": "5041175535aea6132fc1351374c4d073da441547e974a41b8624a09275915ee7"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f221-front.png",
+      "bytes": 242668,
+      "sha256": "ee7d0575e3dc3af4195d502f3517e3db5e1679a51d8a6a1394edcf87bf16c669"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f229-3qR.png",
+      "bytes": 217402,
+      "sha256": "46325d8a160ca9442520738b6ae4a935c196dca64af92337f4feb25d9c18ae3b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f229-front.png",
+      "bytes": 242746,
+      "sha256": "e044fd842ae4913b6ce822a0f2b4343222c59c38d4b90f060cdf8800792267ed"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f589-3qR.png",
+      "bytes": 207407,
+      "sha256": "ca68c35952ee6cd1856bbb678d66c6199cea82afae1b0a09cebcd152aebd1285"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/f589-front.png",
+      "bytes": 230985,
+      "sha256": "9394e5141f1d439bead2e0b386ecbeb5197fb3f8cdb75955b8ca0e711e3a9281"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/head-ear-3qR.webm",
+      "bytes": 177729,
+      "sha256": "b251ffdbdab8c6bba0a4effaa30a38b6e4eea5842f1dc34d9d471ac3e2b69698"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/lifecycle.json",
+      "bytes": 84,
+      "sha256": "f4bbe38c18349a514650e70591b9b9fdd2a85931c9eb43dbf25a7f8755a18f25"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/pc/video-ledger.json",
+      "bytes": 3945,
+      "sha256": "f9b71fc5ae550caad2ba2de3a6da1c9b5268b060cece4da5cd13648d612b9c5f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/preservation.json",
+      "bytes": 3012,
+      "sha256": "0265395e4adc8d697f788232cccbea9eb7a6eb2078fbb804a6798ed5f40cd675"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/REVIEW.md",
+      "bytes": 4881,
+      "sha256": "c3bd513516826491362c85de8cb188f518c33e19422fe0f41adfafb25b9a9ee2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/roundtrip-comparison.json",
+      "bytes": 4912,
+      "sha256": "0e80ec912906281314be34229173054e5e8468bc36d87c55c8af8ee27e8599d0"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/runtime.html",
+      "bytes": 4234,
+      "sha256": "a81a61dd3397909bbe7f15e56124a09ce94c6ca01273814ecb0de83e7b722fe7"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-3q.png",
+      "bytes": 371322,
+      "sha256": "b200e8a7d213dc9f7a693f3d47bc0b3a4542a2a590502320fa0023681c697c7b"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-3qR.png",
+      "bytes": 371743,
+      "sha256": "244b35fefcf3971c507b35b498d064b565b58085b8eda0e0bbd819d31286765d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-front.png",
+      "bytes": 383743,
+      "sha256": "20ef8180c5fafa96444c6ee38d07fbc08bdd05f6d434451bacc3189e7864410a"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1-side.png",
+      "bytes": 333313,
+      "sha256": "49cf20820c773f0b85c7fd81e315aa5eca7834f8cea7cf7a2b3ead0972ec9022"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-3q.png",
+      "bytes": 364287,
+      "sha256": "12b8954e00fab3ed12d782f00041cf4632d9aa95bfae4f0a4ff0e67e4a94d28d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-3qR.png",
+      "bytes": 365757,
+      "sha256": "f1274a85cb7f8baf2832fe039a948095b2753dea8e8d5f22958ab0804522e3e9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-front.png",
+      "bytes": 376057,
+      "sha256": "e0a763a1c1988b1a28417de3a6d8180fd8f5033104c1ac8099d4dc838cc9c5e9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f103-side.png",
+      "bytes": 327854,
+      "sha256": "13a45c27db2253c4b8e47fe28428fd5f1164799a5f7219974a612b4c09baefc2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-3q.png",
+      "bytes": 364874,
+      "sha256": "06e5eab636a86e13b2cc9cc347100475edaa96bf2dd2a55a57324f7cb08d789e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-3qR.png",
+      "bytes": 369063,
+      "sha256": "48878571654b012df91f69aef2f8f22a5d615de074bbc7c99a4ac7c3d997b73c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-front.png",
+      "bytes": 372918,
+      "sha256": "5897d39905e41654728bb91ce186f8513f74cdf24a1c68b7d9250f6964e1e2e5"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1113-side.png",
+      "bytes": 329315,
+      "sha256": "e64fb42ca02e6f6ea3a77944dc7c7862383e377297229663153449b72d78be83"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-3q.png",
+      "bytes": 371323,
+      "sha256": "383eab0a623a786f043994529378c62a0c9fe7b2d460a707590505da83b5ea20"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-3qR.png",
+      "bytes": 371744,
+      "sha256": "61ec363149c719c83e7c1d2686d313de1e3932e24b123408faeafc728edbb25f"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-front.png",
+      "bytes": 383744,
+      "sha256": "6aaa07ee55ad72b954b94c3a4a630573d06825ce84e75bade5975affd271ca91"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f1149-side.png",
+      "bytes": 333314,
+      "sha256": "ef26656247e727b6883a84958f0be98e3091c4ed5964d9a208798da60bb1a95d"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f189-3qR.png",
+      "bytes": 378423,
+      "sha256": "91021cd9d4368a3570c66deefa03983d5b5ec38a9b180df2ffedeba720dcb2ae"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f189-front.png",
+      "bytes": 381710,
+      "sha256": "09038e2759e1bde65d55cdba5324c79029c25ca83373908355a376084fa79a7c"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f197-3qR.png",
+      "bytes": 363837,
+      "sha256": "fc9ab4e9d6d4880bd44bb8a653c3bec8a0294c4982054b3ba498ce0d56784a40"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f197-front.png",
+      "bytes": 382991,
+      "sha256": "fb0a676368855c362783c0e7778d4688710c021e5dc4b1719cb4f3aa7e7af3ce"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f205-3qR.png",
+      "bytes": 369283,
+      "sha256": "98b06272199cff1ca06a20135750a61d10d727e62044937e8ddd4017d19dc5ed"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f205-front.png",
+      "bytes": 380798,
+      "sha256": "ad26750db3ffa4238a8222aec706e11f948a08b7159a08414fa7d6daa6c81663"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f221-3qR.png",
+      "bytes": 372377,
+      "sha256": "a7c4a18ec152c2cef44bebc673c0005313f5f63dfa3914febdaf336612ee6dd2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f221-front.png",
+      "bytes": 383993,
+      "sha256": "07e5289b4f268997fdc90e2d68697eade5d60b37923a3535ccffe63a0bff831e"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f229-3qR.png",
+      "bytes": 371985,
+      "sha256": "a6782a553c9965b63d35c3f7e436337a3c6209d05c691b59038a735aef0199a9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f229-front.png",
+      "bytes": 383871,
+      "sha256": "e4c5400cba860a1433f0a6939f5411dfd13f6e84e1da52defc6d1727c9778de8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f589-3qR.png",
+      "bytes": 367447,
+      "sha256": "a84a5c7bed8fa4a8435e659c8eef51bdf676e891babf1e0af5220acc9ca068d2"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved/f589-front.png",
+      "bytes": 378235,
+      "sha256": "bc2fb39a9acc2884b2402af5eaf2b045d077a8d48dd325c7abf3b83de0c6a188"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/saved-ledger.json",
+      "bytes": 7135,
+      "sha256": "2f2cf5e13c374e8bf09bc9050b7b175b440c5d8c270efd3fb78ac9f0e212e063"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/STRUCTURE.md",
+      "bytes": 2242,
+      "sha256": "3151d05a93c271d5a5c549edde803e6553d5f4b98dc068b6d716495f4d107c89"
+    },
+    {
+      "file": "docs/production/shushu/evidence/standard-appearance-v002/visible-clearance.json",
+      "bytes": 58103,
+      "sha256": "5dc57e0a9e4ea4476f00a9a8883251c9b716fb319c25bc164ed614b74473bb71"
+    },
+    {
+      "file": "scripts/3d/capture-shushu-equipment-v002.mjs",
+      "bytes": 8528,
+      "sha256": "e650deeb9cb0b027077e43455532e0edbd72b2f9031980b9d6bd35de3e2fb9c4"
+    },
+    {
+      "file": "scripts/3d/package-shushu-equipment-v002.py",
+      "bytes": 6753,
+      "sha256": "c13a8bb3e2e9ad01a2965b7e2337044c507d2a18358be853079f500861d31041"
+    },
+    {
+      "file": "scripts/blender/audit-shushu-equipment-v002.py",
+      "bytes": 1961,
+      "sha256": "df78c22bf67033034baa1f4dbba127ddc2b533ac0162a8e8aba4affe91d844bb"
+    },
+    {
+      "file": "scripts/blender/build-shushu-equipment-v002.py",
+      "bytes": 15427,
+      "sha256": "2d8e724e6b3ece1a166b58d6af95b20ec3c4dc4d52542c49e9f7c87fc6346059"
+    },
+    {
+      "file": "scripts/blender/finalize-shushu-flower-blend-v002.py",
+      "bytes": 768,
+      "sha256": "f1aad13fe536c7f9ccfcae15f9378b301d54e2444b1abaad6a4abcc22dc96248"
+    },
+    {
+      "file": "scripts/blender/verify-shushu-equipment-v002.py",
+      "bytes": 3984,
+      "sha256": "bafab750734cdd957895a23fab76d5ff32704d32c26fbec78dac698c7e3c2040"
+    }
+  ],
+  "exclusions": "Original assets, .blend1 backups, stale non-ledger captures, output scratch, pre-existing user changes; manifest itself excluded from recursive hashing."
+}

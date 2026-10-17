@@ -1,0 +1,292 @@
+{
+  "route": "Actual production v004 loader with default standard equipment, raw paw controls",
+  "images": [
+    {
+      "file": "f1-front.png",
+      "frame": 1,
+      "view": "front",
+      "equipment": true,
+      "sha256": "2957d6c33347dffaf67e24796ca2101c82ebf6332c885b05724f672011010985"
+    },
+    {
+      "file": "f1-side.png",
+      "frame": 1,
+      "view": "side",
+      "equipment": true,
+      "sha256": "33e4c8bb9fa297a773fa9e3c30563da9b8ac0092179f8f79f2ac530e5adc8fe8"
+    },
+    {
+      "file": "f1-3q.png",
+      "frame": 1,
+      "view": "3q",
+      "equipment": true,
+      "sha256": "ceb190588dddefc738e5adce5ae0ed3f0465aca40d8daa0d86daf6d80f476a06"
+    },
+    {
+      "file": "f1-3qR.png",
+      "frame": 1,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "46d9c4f1bd5c9aede89d9dd47c178c8343873b23ab04f5e26f92a4e93ed4dafb"
+    },
+    {
+      "file": "f103-front.png",
+      "frame": 103,
+      "view": "front",
+      "equipment": true,
+      "sha256": "7560de139f18fcb2599cd3803832c8cdbde710bb3502f5eaca5dd3d4fc9d79ab"
+    },
+    {
+      "file": "f103-side.png",
+      "frame": 103,
+      "view": "side",
+      "equipment": true,
+      "sha256": "90c1fecd5446fd79dd1f8df3b468b78df559ede793a96f9a6c7943a0bd5a5083"
+    },
+    {
+      "file": "f103-3q.png",
+      "frame": 103,
+      "view": "3q",
+      "equipment": true,
+      "sha256": "1f6fddb7a87eee0f0bb77fe87e69b1d85d559b13899f1e244a964adf9a2d662f"
+    },
+    {
+      "file": "f103-3qR.png",
+      "frame": 103,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "bbf4d1c9718385d7733d554c6d2505d557dedd880029976459b9a86e74f73f1b"
+    },
+    {
+      "file": "f1113-front.png",
+      "frame": 1113,
+      "view": "front",
+      "equipment": true,
+      "sha256": "d8818a9c2725f3a2f789d6bdad1f28a36783b40ece8fee403fe38f96670b4e09"
+    },
+    {
+      "file": "f1113-side.png",
+      "frame": 1113,
+      "view": "side",
+      "equipment": true,
+      "sha256": "f438d30d48ea9b8f72b65ea119b48ac1686c85864395adcf4d92d340399d7d9b"
+    },
+    {
+      "file": "f1113-3q.png",
+      "frame": 1113,
+      "view": "3q",
+      "equipment": true,
+      "sha256": "dd8349e4f31ba0afe5fd4f975744b7bbfad7cf638504d8bb8a25a4e524e24186"
+    },
+    {
+      "file": "f1113-3qR.png",
+      "frame": 1113,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "462f0ba1a4e74bec6fe3ca93f9739bb34aa44b57fb83f5081738b1182db5b138"
+    },
+    {
+      "file": "f1149-front.png",
+      "frame": 1149,
+      "view": "front",
+      "equipment": true,
+      "sha256": "2957d6c33347dffaf67e24796ca2101c82ebf6332c885b05724f672011010985"
+    },
+    {
+      "file": "f1149-side.png",
+      "frame": 1149,
+      "view": "side",
+      "equipment": true,
+      "sha256": "33e4c8bb9fa297a773fa9e3c30563da9b8ac0092179f8f79f2ac530e5adc8fe8"
+    },
+    {
+      "file": "f1149-3q.png",
+      "frame": 1149,
+      "view": "3q",
+      "equipment": true,
+      "sha256": "ceb190588dddefc738e5adce5ae0ed3f0465aca40d8daa0d86daf6d80f476a06"
+    },
+    {
+      "file": "f1149-3qR.png",
+      "frame": 1149,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "46d9c4f1bd5c9aede89d9dd47c178c8343873b23ab04f5e26f92a4e93ed4dafb"
+    },
+    {
+      "file": "f189-front.png",
+      "frame": 189,
+      "view": "front",
+      "equipment": true,
+      "sha256": "709150c60014032811f6b7e0a025239f017425ce7726815fc1a9f55a891ea682"
+    },
+    {
+      "file": "f189-3qR.png",
+      "frame": 189,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "1f7964c455a6b4f51b541dd4396ef3f89585d01f57a1dbc2758af4e44804b0cc"
+    },
+    {
+      "file": "f197-front.png",
+      "frame": 197,
+      "view": "front",
+      "equipment": true,
+      "sha256": "147c51daaa77ba7fd2bfb1a016047d70ee7f8b0b0439d229e6ed6fbc7bece2ac"
+    },
+    {
+      "file": "f197-3qR.png",
+      "frame": 197,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "5c2c7bb438351cd1ed6847433b11f25953e6e51d433f25fc6aa0595195c50b30"
+    },
+    {
+      "file": "f205-front.png",
+      "frame": 205,
+      "view": "front",
+      "equipment": true,
+      "sha256": "574f34ca227f5be466e6f4e918b569048fbbf97e76998b7b2d778ddbf0b31ebf"
+    },
+    {
+      "file": "f205-3qR.png",
+      "frame": 205,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "6345dcc2b0851285802362537e3d324b27cce05a85d859e5a17d04dc4a3c8c0e"
+    },
+    {
+      "file": "f221-front.png",
+      "frame": 221,
+      "view": "front",
+      "equipment": true,
+      "sha256": "ee7d0575e3dc3af4195d502f3517e3db5e1679a51d8a6a1394edcf87bf16c669"
+    },
+    {
+      "file": "f221-3qR.png",
+      "frame": 221,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "5041175535aea6132fc1351374c4d073da441547e974a41b8624a09275915ee7"
+    },
+    {
+      "file": "f229-front.png",
+      "frame": 229,
+      "view": "front",
+      "equipment": true,
+      "sha256": "e044fd842ae4913b6ce822a0f2b4343222c59c38d4b90f060cdf8800792267ed"
+    },
+    {
+      "file": "f229-3qR.png",
+      "frame": 229,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "46325d8a160ca9442520738b6ae4a935c196dca64af92337f4feb25d9c18ae3b"
+    },
+    {
+      "file": "f589-front.png",
+      "frame": 589,
+      "view": "front",
+      "equipment": true,
+      "sha256": "9394e5141f1d439bead2e0b386ecbeb5197fb3f8cdb75955b8ca0e711e3a9281"
+    },
+    {
+      "file": "f589-3qR.png",
+      "frame": 589,
+      "view": "3qR",
+      "equipment": true,
+      "sha256": "ca68c35952ee6cd1856bbb678d66c6199cea82afae1b0a09cebcd152aebd1285"
+    },
+    {
+      "file": "baseline-f103-front.png",
+      "frame": 103,
+      "view": "front",
+      "equipment": false,
+      "sha256": "a12234221be720232e0ebadd5fdfd889c45cb477661b520e65ba7f5edcbde369"
+    },
+    {
+      "file": "baseline-f1-front.png",
+      "frame": 1,
+      "view": "front",
+      "equipment": false,
+      "sha256": "3cf77b8721fb6aaa1be57b2719e30c6e951329ccc006b089a4cb9b4b5e46c78f"
+    },
+    {
+      "file": "close-front.png",
+      "frame": 1,
+      "view": "close-front",
+      "equipment": true,
+      "sha256": "68a0b37e065784562c0c93bbc0efcd94ab714b743b6dcdb098caf72f89e98d39"
+    },
+    {
+      "file": "close-side.png",
+      "frame": 1,
+      "view": "close-side",
+      "equipment": true,
+      "sha256": "a4b5aa8873dac6018960ded6f3ea5d27d8f7e891482b2fba7aad672807695ce6"
+    },
+    {
+      "file": "close-3qR.png",
+      "frame": 1,
+      "view": "close-3qR",
+      "equipment": true,
+      "sha256": "c702a71a7a8c057410a2325620b2c793b39fea5bb23325d2911230a797bcb52c"
+    },
+    {
+      "file": "before-close-front.png",
+      "frame": 1,
+      "view": "close-front",
+      "equipment": true,
+      "flowerRevision": "v001",
+      "sha256": "d05faa1ac2ce4baa8646bc3dd450bad316dc78558fa8a776d65fdf45d275906d"
+    },
+    {
+      "file": "before-close-side.png",
+      "frame": 1,
+      "view": "close-side",
+      "equipment": true,
+      "flowerRevision": "v001",
+      "sha256": "8de4dd2dbe7ab133a41da1e1ac79803da6c0841b4afc8af1a7c47e95a5a3297f"
+    },
+    {
+      "file": "before-close-3qR.png",
+      "frame": 1,
+      "view": "close-3qR",
+      "equipment": true,
+      "flowerRevision": "v001",
+      "sha256": "56a05ebde5fd35b3ecd1008c567179ffa7e7640aabb9a3e5f8d71f9ec236596b"
+    },
+    {
+      "file": "before-f1-front.png",
+      "frame": 1,
+      "view": "front",
+      "equipment": true,
+      "flowerRevision": "v001",
+      "sha256": "eda01708fc556c462645008321a8abb4b37524d4cd18364c4cd82c65af677ee0"
+    },
+    {
+      "file": "before-f1-side.png",
+      "frame": 1,
+      "view": "side",
+      "equipment": true,
+      "flowerRevision": "v001",
+      "sha256": "5df247128917f69dc0b5a75cc6298be05ffeeee13a7d262ea99ab6727b65f548"
+    },
+    {
+      "file": "before-f1-3q.png",
+      "frame": 1,
+      "view": "3q",
+      "equipment": true,
+      "flowerRevision": "v001",
+      "sha256": "f0ccc9aeaf3002962e65514965c410525e099d97cc229b25976cf4d7b63ba8d8"
+    },
+    {
+      "file": "before-f1-3qR.png",
+      "frame": 1,
+      "view": "3qR",
+      "equipment": true,
+      "flowerRevision": "v001",
+      "sha256": "e8025aa866dc33af571c2afe5e3dba3e7fba9e9a59fab57de81f6199f77acdfa"
+    }
+  ]
+}

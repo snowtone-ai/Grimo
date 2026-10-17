@@ -1,0 +1,47 @@
+// Focused PC product-path evidence, standard equipment ON by default. No USB.
+import fs from 'node:fs';import path from 'node:path';import os from 'node:os';import {spawn} from 'node:child_process';import {createHash} from 'node:crypto';
+const out='docs/production/shushu/evidence/standard-appearance-v002',folder=out+'/pc';fs.mkdirSync(folder,{recursive:true});
+const sha=p=>createHash('sha256').update(fs.readFileSync(p)).digest('hex'),wait=ms=>new Promise(r=>setTimeout(r,ms));
+const chrome=spawn('C:/Program Files/Google/Chrome/Application/chrome.exe',['--headless=new','--remote-debugging-port=9234','--user-data-dir='+path.join(os.tmpdir(),'shushu-equipment-v002-chrome'),'--no-first-run','--no-default-browser-check','--window-size=1100,800','about:blank'],{windowsHide:true,stdio:'ignore'});
+let ws;try{
+ let pages;for(let i=0;i<100;i++){try{pages=await(await fetch('http://127.0.0.1:9234/json/list')).json();break;}catch{await wait(250);}}
+ ws=new WebSocket(pages.find(p=>p.type==='page').webSocketDebuggerUrl);await new Promise((r,j)=>{ws.onopen=r;ws.onerror=j});let serial=0;const pending=new Map(),errors=[];
+ ws.onmessage=e=>{const m=JSON.parse(e.data);if(m.id){const p=pending.get(m.id);pending.delete(m.id);m.error?p.reject(Error(JSON.stringify(m.error))):p.resolve(m.result);}else if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails);};
+ const send=(method,params={})=>new Promise((resolve,reject)=>{const id=++serial;pending.set(id,{resolve,reject});ws.send(JSON.stringify({id,method,params}));});
+ const ev=async expression=>{const r=await send('Runtime.evaluate',{expression,awaitPromise:true,returnByValue:true});if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result.value;};
+ const save=(name,data)=>fs.writeFileSync(folder+'/'+name,JSON.stringify(data,null,2)+'\n');
+ await send('Runtime.enable');await send('Page.enable');await send('Page.navigate',{url:'http://127.0.0.1:8772/'+out+'/runtime.html'});
+ for(let i=0;i<300;i++){const v=await ev('window.qaError||window.qaReady||false');if(v===true)break;if(v)throw Error(v);if(i===299)throw Error('qaReady timeout');await wait(250);}
+ const environment=await ev('qa.summary()');save('environment.json',environment);if(!environment.standardEquipment)throw Error('Equipment not on by default');
+ const ledger=[];async function shot(name,f,view,on=true){await ev(`qa.sample(${f});qa.focus('${view}');qa.candidate.equipment.setEnabled(${on});new Promise(r=>qa.app.once('frameend',r))`);const bytes=Buffer.from(await ev("document.querySelector('canvas').toDataURL('image/png').split(',')[1]"),'base64');fs.writeFileSync(folder+'/'+name+'.png',bytes);ledger.push({file:name+'.png',frame:f,view,equipment:on,sha256:createHash('sha256').update(bytes).digest('hex')});}
+ for(const f of [1,103,1113,1149])for(const view of ['front','side','3q','3qR'])await shot('f'+f+'-'+view,f,view);
+ for(const f of [189,197,205,221,229,589])for(const view of ['front','3qR'])await shot('f'+f+'-'+view,f,view);
+ await shot('baseline-f103-front',103,'front',false);await shot('baseline-f1-front',1,'front',false);
+ // Close views remain attached on the real character, with the same light.
+ await ev('qa.sample(1);qa.candidate.equipment.setEnabled(true);qa.app.resizeCanvas(960,960);qa.camera.camera.orthoHeight=.17');
+ for(const [view,xyz] of Object.entries({front:[.08,.91,3],side:[-3,.91,.10],'3qR':[2.08,.91,2.6]})){
+  await ev(`qa.camera.setPosition(...${JSON.stringify(xyz)});qa.camera.lookAt(.08,.91,.1);new Promise(r=>qa.app.once('frameend',r))`);
+  const bytes=Buffer.from(await ev("document.querySelector('canvas').toDataURL('image/png').split(',')[1]"),'base64'),file='close-'+view+'.png';fs.writeFileSync(folder+'/'+file,bytes);ledger.push({file,frame:1,view:'close-'+view,equipment:true,sha256:createHash('sha256').update(bytes).digest('hex')});
+ }
+ // Capture the previous flower on this same body/light/camera, then remove it.
+ await ev(`(async()=>{qa.candidate.equipment.setEnabled(false);const {installShushuStandardAppearance}=await import('/assets/grimo/production/shushu/runtime/shushu-standard-appearance-v001.mjs');qa.beforeEquipment=await installShushuStandardAppearance({pc:qa.pc,app:qa.app,entity:qa.root});})()`);
+ async function beforeImage(file,view){const bytes=Buffer.from(await ev("document.querySelector('canvas').toDataURL('image/png').split(',')[1]"),'base64');fs.writeFileSync(folder+'/'+file,bytes);ledger.push({file,frame:1,view,equipment:true,flowerRevision:'v001',sha256:createHash('sha256').update(bytes).digest('hex')});}
+ for(const [view,xyz] of Object.entries({front:[.08,.91,3],side:[-3,.91,.10],'3qR':[2.08,.91,2.6]})){
+  await ev(`qa.camera.setPosition(...${JSON.stringify(xyz)});qa.camera.lookAt(.08,.91,.1);new Promise(r=>qa.app.once('frameend',r))`);await beforeImage('before-close-'+view+'.png','close-'+view);
+ }
+ await ev('qa.app.resizeCanvas(640,640);qa.camera.camera.orthoHeight=.61');
+ for(const view of ['front','side','3q','3qR']){await ev(`qa.focus('${view}');new Promise(r=>qa.app.once('frameend',r))`);await beforeImage('before-f1-'+view+'.png',view);}
+ await ev('qa.beforeEquipment.dispose();delete qa.beforeEquipment;qa.candidate.equipment.setEnabled(true);qa.focus("front")');
+ const audit=await ev(`(async()=>{
+  const c=qa.candidate,head=qa.root.findByName('mixamorig:Head'),eq=c.equipment;
+  eq.setEnabled(true);const local=Array.from(eq.anchor.getLocalTransform().data),rows=[];
+  for(let f=1;f<=1149;f+=6){qa.sample(f);await new Promise(r=>qa.app.once('frameend',r));const expected=new qa.pc.Mat4().mul2(head.getWorldTransform(),eq.anchor.getLocalTransform()),actual=eq.anchor.getWorldTransform();rows.push({frame:f,localError:Math.max(...local.map((v,i)=>Math.abs(v-eq.anchor.getLocalTransform().data[i]))),matrixError:Math.max(...expected.data.map((v,i)=>Math.abs(v-actual.data[i]))),glError:qa.app.graphicsDevice.gl.getError()});}
+  const torso=c.entity.findComponents('render').flatMap(x=>x.meshInstances).find(x=>x.node.name==='ShushuStatic_Torso'),equipped=torso.material,map=equipped.diffuseMap;
+  eq.setEnabled(false);const original=torso.material;eq.setEnabled(true);
+  return {rows,texture:{size:[map.width,map.height],flipY:map.flipY,originalFlipY:original.diffuseMap.flipY,uv:equipped.diffuseMapUv,originalUv:original.diffuseMapUv},toggleRestoresSameMaterial:original!==equipped&&torso.material===equipped,anchorParent:head.name,scope:'Head-local anchor over 192 actual clip samples; texture uses exact existing UV/skin/morph. Numeric check does not prove visual clearance.'};
+ })()`);save('attachment-and-toggle.json',audit);if(audit.rows.some(r=>r.localError>1e-6||r.matrixError>1e-5||r.glError!==0)||!audit.toggleRestoresSameMaterial)throw Error('Equipment audit failed');
+ const video=await ev(`(async()=>{qa.candidate.equipment.setEnabled(true);qa.focus('3qR');const chunks=[],frames=[],canvas=document.querySelector('canvas'),rec=new MediaRecorder(canvas.captureStream(24),{mimeType:'video/webm;codecs=vp9',videoBitsPerSecond:4000000});rec.ondataavailable=e=>chunks.push(e.data);qa.sample(177);await new Promise(r=>qa.app.once('frameend',r));rec.start();for(let f=177;f<=237;f++){qa.sample(f);await new Promise(r=>qa.app.once('frameend',r));frames.push({frame:f,at:performance.now()});await new Promise(r=>setTimeout(r,1000/24));}rec.stop();await new Promise(r=>rec.onstop=r);const data=await new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result.split(',')[1]);fr.readAsDataURL(new Blob(chunks,{type:'video/webm'}));});return {data,frames};})()`);
+ fs.writeFileSync(folder+'/head-ear-3qR.webm',Buffer.from(video.data,'base64'));save('video-ledger.json',{sha256:sha(folder+'/head-ear-3qR.webm'),frames:video.frames,scope:'Actual PC frameend recording; diagnostic motion only, not production motion approval'});
+ save('capture-ledger.json',{route:'Actual production v004 loader with default standard equipment, raw paw controls',images:ledger});
+ const lifecycle=await ev(`(async()=>{const c=qa.candidate;const ids=c.equipment.assets.map(a=>a.id);c.dispose();c.dispose();await new Promise(r=>qa.app.once('frameend',r));return {idempotentDispose:true,removedAssets:ids.every(id=>!qa.app.assets.get(id)),anchorDestroyed:!qa.root.findByName('ANCHOR_HeadFlower.v001')};})()`);save('lifecycle.json',lifecycle);save('errors.json',errors);if(errors.length||!lifecycle.removedAssets)throw Error('Runtime/lifecycle errors');console.log('SHUSHU_STANDARD_PC_COMPLETE',JSON.stringify(environment));
+}finally{ws?.close();chrome.kill();}

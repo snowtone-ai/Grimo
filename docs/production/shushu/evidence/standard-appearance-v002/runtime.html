@@ -1,0 +1,23 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><link rel="icon" href="data:,"><title>Shushu standard appearance · PC product path</title>
+<style>body{margin:0;background:#c2bac2;font:15px system-ui;color:#24212a}canvas{width:640px;height:640px;display:block}aside{position:absolute;left:660px;top:24px;max-width:360px}button,select,input{padding:8px;margin:5px}pre{white-space:pre-wrap}@media(max-width:1000px){aside{position:static;margin:20px}canvas{width:min(100vw,640px);height:auto}}</style>
+<canvas width="640" height="640"></canvas><aside><b>花質感 v002 · Human PENDING / 足裏 Human PASS</b><p>既存v004比較ページのみHuman外観PASS。足裏はHuman OK。花質感再審査／phone／量産は別Gate。</p><label><input id="equipment" type="checkbox" checked>標準装備 ON</label><button id="play">Play / pause</button><input id="frame" type="range" min="1" max="1149" value="1"><select id="view"><option>front</option><option>side</option><option>3q</option><option>3qR</option></select><pre>Loading</pre></aside>
+<script type="module">
+import * as pc from '/node_modules/playcanvas/build/playcanvas.mjs';
+import {loadShushuCandidate} from '/assets/grimo/production/shushu/runtime/shushu-v004-loader-v004.mjs';
+try{
+ const app=new pc.Application(document.querySelector('canvas'),{graphicsDeviceOptions:{deviceTypes:['webgl2'],antialias:true,preserveDrawingBuffer:true}});app.setCanvasFillMode(pc.FILLMODE_NONE,640,640);app.resizeCanvas(640,640);app.graphicsDevice.maxPixelRatio=1;app.scene.ambientLight=new pc.Color(.65,.65,.65);
+ const camera=new pc.Entity('ReviewCamera');camera.addComponent('camera',{clearColor:new pc.Color(.76,.73,.76),projection:pc.PROJECTION_ORTHOGRAPHIC,orthoHeight:.61,nearClip:.01,farClip:20,toneMapping:pc.TONEMAP_ACES2});app.root.addChild(camera);
+ const light=new pc.Entity('Key');light.addComponent('light',{type:'directional',intensity:1});light.setEulerAngles(35,25,0);app.root.addChild(light);app.start();
+ // No opt-in flag: the actual production loader must equip by default.
+ const candidate=await loadShushuCandidate({pc,app,url:'/assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v004.glb'});
+ const root=candidate.entity;root.addComponent('anim',{activate:true});root.anim.assignAnimation('Proof',candidate.resource.animations[0].resource);root.anim.speed=0;
+ const controls=await(await fetch('../production-rig-v004-motion-ready/final-v004/paw-control-timeline.json')).json();
+ function raw(f){const index=Math.max(0,Math.min(controls.frames.length-1,f-1)),a=Math.floor(index),b=Math.min(a+1,controls.frames.length-1),t=index-a;return Object.fromEntries(controls.keys.map((k,i)=>[k,controls.frames[a][i]*(1-t)+controls.frames[b][i]*t]));}
+ function sample(f){root.anim.baseLayer.activeStateCurrentTime=f/24;root.anim.update(0);candidate.pawControls.set(raw(f));document.querySelector('#frame').value=f;document.querySelector('pre').textContent=JSON.stringify({frame:f,equipment:candidate.equipment.enabled,engine:pc.version},null,2);}
+ function focus(v){camera.setPosition(...({front:[0,.52,3],side:[-3,.52,0],'3q':[-2,.65,2.5],'3qR':[2,.65,2.5]}[v]));camera.lookAt(0,.52,0);}
+ let playing=false,frame=1;app.on('update',dt=>{if(playing){frame+=dt*24;if(frame>1149)frame=1;sample(frame);}});
+ document.querySelector('#equipment').onchange=e=>candidate.equipment.setEnabled(e.target.checked);document.querySelector('#play').onclick=()=>playing=!playing;document.querySelector('#frame').oninput=e=>{frame=+e.target.value;sample(frame);};document.querySelector('#view').onchange=e=>focus(e.target.value);
+ window.qa={pc,app,candidate,root,camera,sample,focus,raw,summary(){return {engine:pc.version,standardEquipment:candidate.equipment.enabled,headAnchorParent:candidate.equipment.anchor.parent.name,flowerMeshes:candidate.equipment.flower.findComponents('render').flatMap(c=>c.meshInstances).length,canvas:[640,640],device:app.graphicsDevice.gl.getParameter(app.graphicsDevice.gl.RENDERER),phone:'UNKNOWN; no USB/device operation'};}};
+ focus('front');sample(1);await new Promise(r=>app.once('frameend',r));window.qaReady=true;
+}catch(e){window.qaError=e.stack;document.querySelector('pre').textContent=e.stack;}
+</script></html>

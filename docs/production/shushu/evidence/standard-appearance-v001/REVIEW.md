@@ -1,6 +1,8 @@
 # Shushu 標準外観 v001 — Human確認候補
 
-**既存v004比較ページのみHuman外観PASS。今回の花飾り・肉球はHuman PENDING。phone UNKNOWN、原本置換・Motion量産はHuman GOまでHOLD。** 技術確認を美観承認に読み替えない。
+**最新Human判定：足裏 PASS、v001花 FAIL（ペラペラ感・安っぽさ）。[改修v002](../standard-appearance-v002/REVIEW.md)はHuman PENDING。既存v004比較ページはHuman外観PASS。phone UNKNOWN、原本置換・Motion量産はHuman GOまでHOLD。**
+
+以下はcommit `151d8718` 時点の制作・検証履歴。v001 delivery-manifestは当時のsnapshotであり、この最新追記のhashを含まない。 技術確認を美観承認に読み替えない。
 
 [比較ページ](index.html) ／ [PC標準装備ON・操作](runtime.html) ／ [構造契約](STRUCTURE.md) ／ [一次出典](SOURCES.md) ／ [納品hash](delivery-manifest.json)
 

@@ -2,7 +2,7 @@
 // No diagnostic viewer, Blender, camera, timeline-frame or DOM dependency.
 // The caller chooses and plays separately authored/baked clips on `entity`.
 import {installShushuDeformation} from './shushu-v004-deformation-v003.mjs';
-import {installShushuStandardAppearance} from './shushu-standard-appearance-v001.mjs';
+import {installShushuStandardAppearance} from './shushu-standard-appearance-v002.mjs';
 let candidateSequence=0;
 
 // Re-evaluate purpose arbitration after animation blending. Blending two baked
