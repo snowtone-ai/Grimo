@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-texture-handoff-v004.blend",
+      "sha256": "7ff9f0d43fe68fd4e318e97b6319f7c834d5482f569299c372d41171795a1461",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-v004-tripo-input.glb",
+      "sha256": "bea1c611ca76e298587ceeda83845e6bbf445f1d4b7cac038586d6b31ef5ce97",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-v004-rigged-review.glb",
+      "sha256": "84f2fcbdfc311f1a67146abdd994c6bf7bf1549f34b75b9fdd27924f8863e9fd",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/texture-handoff-v004/pino-c-v004-return-map.npz",
+      "sha256": "c55452962fd29341e21a4a99532b109ed5196574df37931aea8171dee367f50e",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/source/pino/pino-Identity-canonical.png",
+      "sha256": "a3dd36ce1a186f68bca9a249e12d9bfe139b19c610d64b5eaf395856ade69fb7",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_back.png",
+      "sha256": "1762021a4d974fd8d9f3c3abbd43fdb31d14f5dff844b566592d7593f06ee5bf",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_front.png",
+      "sha256": "c4163765b26523849cc32a7ba22499e36a9b89432ede37559c5cd19aa2e96589",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_left.png",
+      "sha256": "787f7e58b302e6ce4288cd105192c128b7594c02ebed1a2d82d30b6dc9b02b28",
+      "equals_v004_commit": true
+    },
+    {
+      "path": "assets/grimo/source/pino/tripo-generation-pose/pino_bodyonly_right.png",
+      "sha256": "183bf58cda989a1a645aa8bdb045d61a0a0d3b4bc5fafc79fb97bf75d1eb8be8",
+      "equals_v004_commit": true
+    }
+  ],
+  "tracked_existing_pino_asset_diff": ""
+}

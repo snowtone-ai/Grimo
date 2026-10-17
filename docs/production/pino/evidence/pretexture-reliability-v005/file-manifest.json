@@ -1,0 +1,142 @@
+{
+  "source_commit": "fe39c6d8aab1e550ee31823ca29e85b9b2658632",
+  "authority_main": "28c1505b7aadf63db25f1be97eba8b99cd332cee",
+  "Human_Pre_Texture_Gate": "PENDING",
+  "files": [
+    {
+      "path": "assets/grimo/production/pino/candidate-c/pretexture-reliability-v005/pino-c-pretexture-v005.blend",
+      "bytes": 7904814,
+      "sha256": "e071564b2d4197eeebecb1e7a03572cce12057e7224b202b70bb2c5411697881"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/pretexture-reliability-v005/pino-c-v005-diagnostic-proof.blend",
+      "bytes": 9323744,
+      "sha256": "f4415de161c4135ff6003f9ad3a1187227c90788ea1b6d030d7f6a6955ee6d3c"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/pretexture-reliability-v005/pino-c-v005-return-map.npz",
+      "bytes": 841077,
+      "sha256": "75d4821b8e26a69396154e123f73d90e97340942bb0a9e46cb13c1ea62d4b4a5"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/pretexture-reliability-v005/pino-c-v005-rigged-review.glb",
+      "bytes": 48078576,
+      "sha256": "06854d35e7560537e5c139c0c1c2c9060f1fc76c1d68d8bb7ae5974b8ef3adc9"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/pretexture-reliability-v005/pino-c-v005-tripo-input.glb",
+      "bytes": 6136232,
+      "sha256": "7086bb5bad0c0ec85e15187baac6bb9fa6e6b5ea9b8988354d32aadc2dc20366"
+    },
+    {
+      "path": "assets/grimo/production/pino/candidate-c/pretexture-reliability-v005/README.md",
+      "bytes": 1313,
+      "sha256": "5c4c3a937ea3167020ae41256d7058a251bceb00767a7e2822799f9dd2dd0011"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/01-identity-and-neutral.png",
+      "bytes": 883623,
+      "sha256": "45c26bd45e376c7f59e4370edeac805896dd436b828da7f28d93bf3e4153ef03"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/02-face.png",
+      "bytes": 1060197,
+      "sha256": "d423d6458aa538b74aae3fdbdc747689dfa3254bdb696ef681217faaca4a0136"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/03-body-checker.png",
+      "bytes": 1205216,
+      "sha256": "95eea694b751a769b68afe9f0f417088e42f0ead90708d886005e7b307d1c7a8"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/04-return.png",
+      "bytes": 681168,
+      "sha256": "0ba387dec4e9c8d67f653da9021267eacbe81fbaed6afc903f7988a240e7894c"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/delivery-consistency.json",
+      "bytes": 775,
+      "sha256": "32eaa1028f2719721a8cdaca0c35a86470fef67f7e72bd17a405284d0047212d"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/diagnostic-cycles.gif",
+      "bytes": 891925,
+      "sha256": "7751d23b47a94d7b8c17451ae368d942e8af06d3ab9211e857ebc8ecfa1c44a9"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/glb-validator.json",
+      "bytes": 5584,
+      "sha256": "bd0e9f2b3eee85460c49433ad820a1fc1eceac76dc9d430f6f33b9cfcb4f6920"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/master-preservation.json",
+      "bytes": 62224,
+      "sha256": "4e8ab468f96244389f698209d38d7d282b6c508b6a8d1d131fe10c1e803f42d9"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/neutral-pixels.json",
+      "bytes": 191,
+      "sha256": "a7761eab6000466fb39adc5deade936901e99c862fa536bd715dcca1c2924df7"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/render-scope.json",
+      "bytes": 2128,
+      "sha256": "b7c9c1d131513d2318a11bac8fe44981fd5f5e0e3208c58b6222285874a3ba20"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/return-simulation.json",
+      "bytes": 11397,
+      "sha256": "5118c2ef5b10aae8a544f366ecfa1d9b509281ba9dabd816a9532ed84c15765a"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/REVIEW.md",
+      "bytes": 8752,
+      "sha256": "265618aaec2ae8c651a3744c98c1c4cd6f541dbeb489353ba433704bb34da2e0"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/saved-reimport.json",
+      "bytes": 2397,
+      "sha256": "e0e086d6a7982438768617a3d7270b79f632580667d4401e948894c69eb59ead"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/source-protection.json",
+      "bytes": 2087,
+      "sha256": "e097aa5a87255b51859ea51b0f2ca6be1b96fe6a7bfddc615ab197d00307d229"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/TEXTURE_CONTRACT.md",
+      "bytes": 5165,
+      "sha256": "cec12e058e99c87a3f6546fbb1d61798b3d2bea352ed3fe9fe54a5ae34006afc"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/uv-audit-v004.json",
+      "bytes": 8594,
+      "sha256": "c833edd569b36b78ef1c4773a858c921fc98cecf5ac0cab2894fbde74bbda7aa"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/uv-audit.json",
+      "bytes": 8595,
+      "sha256": "9ad6834e7b567fea4e451034d509fd0ff667ed6aa5548595c22e1d5d6bce1265"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/uv-edit.json",
+      "bytes": 659,
+      "sha256": "9e4af0ae8fca0add8c20b7757906a5ceeb5ec80e4202e6c19d594d30e3f21087"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/uv-islands-v004.png",
+      "bytes": 798385,
+      "sha256": "ec925f747f8af5c261e265d20403d378ec7a08c53f7739e9b15e957bd8bb6d24"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/uv-islands.png",
+      "bytes": 992595,
+      "sha256": "5fb450ea59ede6001ccda72e43a4e7036c9c1d37313a93569065689ed51dd2d0"
+    },
+    {
+      "path": "docs/production/pino/evidence/pretexture-reliability-v005/uv-overlap.json",
+      "bytes": 62,
+      "sha256": "04abd4fcce60f542ab129de5ba9f49e727f4d7e331641fa3ede834fe7a70d8c8"
+    }
+  ]
+}

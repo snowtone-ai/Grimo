@@ -1,6 +1,6 @@
 # Grimo — ゴール√マップ
 
-**Canonical:** `coord/grimo-ai-handoff:docs/grimo/knowledge/Goal√map.md`. **Limit 5,000 Unicode characters**, including Markdown and whitespace. Stable WHY and goal priorities; not a task log or implementation recipe. Original approved product specs and Human decisions remain authoritative.
+**Canonical:** `main:docs/grimo/knowledge/Goal√map.md`. **Limit 5,000 Unicode characters**, including Markdown and whitespace. Stable WHY and goal priorities; not a task log or implementation recipe. Original approved product specs and Human decisions remain authoritative.
 
 ## Higher-level goals have higher importance
 **Lower-level PASS does not justify damage to a higher-level outcome.** If quality conflicts, seek a different method; if the conflict is unavoidable/uncertain, expose it for Human judgment. Never reinterpret this rule as permission to disregard safety, data integrity, approved canonical art or paid-action approval.
@@ -33,7 +33,6 @@ This hierarchy is a **causal map, not an ordered waterfall**; production methods
 **Technical PASS ≠ Human quality PASS. Missing evidence = UNKNOWN.** Chargeable Tripo use requires explicit approval.
 
 ## Character / app anchors
-- **Carol:** young dream-cloud sheep; fleece/Normal appearance is more important than hidden Underbody polish.
 - **Jill:** green dragon; lively wings, leaves and tail.
 - **Pino:** playful blue otter; buoyant but grounded.
 - **Shushu:** white/pink panda; soft face depth, plush mass, short-limbed realistic sitting.
@@ -42,4 +41,4 @@ This hierarchy is a **causal map, not an ordered waterfall**; production methods
 ## Authority and task tracing
 Durable truth: `docs/grimo/knowledge/GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md`, `GRIMO_CHARACTER_EXPERIENCE_SPEC.md`, `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md`, `GRIMO_PRODUCTION_OPERATING_SYSTEM.md`, `DESIGN.md`, canonical art; locate more through `GRIMO_PROJECT_KNOWLEDGE_INDEX.md`. Actual branch/HEAD, assets and production-state files determine NOW; `Handoff.md` routes them.
 
-For each task trace **task → G3/G2 → G1 → G0**, identify quality risks and measure relevant evidence. Handoff stores active G-node IDs; Codex prompt contains only the new task. Only update map after material goal/WHY/priority changes, labeling Human decisions, verified facts and hypotheses distinctly.
+For each task trace **task → G3/G2 → G1 → G0**, identify quality risks and measure relevant evidence. Handoff may route currently relevant G-node IDs; Codex prompt contains only the new task. Only update map after material goal/WHY/priority changes, labeling Human decisions, verified facts and hypotheses distinctly.

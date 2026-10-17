@@ -1,0 +1,17 @@
+{
+  "method": "Angle-based unwrap selected front skin; original eye charts scaled 3x; remaining charts retain local shape; deterministic shared-atlas shelf packing",
+  "selected_front_skin_polygons": 2194,
+  "charts": {
+    "PINO_C_BASE_RIG_V001": 4501,
+    "PinoSoftLids_L": 2,
+    "PinoSoftLids_R": 2,
+    "PinoOralLiner": 347
+  },
+  "prioritized_face_charts": 3,
+  "prioritized_eye_charts": 63,
+  "scale": 1.3395283093489705,
+  "margin_px_at_4k": 6,
+  "smart_uv": false,
+  "geometry_edit": false,
+  "rejected": "Projection and spherical eye trials overlapped; retained original eye charts. Correct face selection removes non-face selection propagation."
+}

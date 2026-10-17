@@ -1,0 +1,424 @@
+{
+  "preserved": {
+    "triangles": 50763,
+    "covered_pixels": 7947455,
+    "samples_by_material": {
+      "Pino_Skin": 6450661,
+      "Pino_Eye_L": 86711,
+      "Pino_Eye_R": 86702,
+      "Pino_OralInterior": 9068,
+      "Pino_LidSkin": 1274412
+    },
+    "fallback": {
+      "Pino_OralInterior": [
+        57,
+        27,
+        39
+      ],
+      "Pino_LidSkin": [
+        150,
+        201,
+        242
+      ]
+    },
+    "geometry_replacement": false,
+    "matching": "whole neutral triangle + material; 1 micrometer tolerance; permutation validated",
+    "tripo_compatibility": "UNVERIFIED",
+    "output_sha256": "e7fb9415bd2ed8614b909d8becf28068c0d712c1e95840de1bf369b3d6156487",
+    "surface_error": {
+      "Pino_Skin": {
+        "samples": 36928,
+        "rgb_abs_mean": 0.0,
+        "max_channel_p95": 0.0,
+        "max_channel": 0.0
+      },
+      "Pino_Eye_L": {
+        "samples": 460,
+        "rgb_abs_mean": 0.0,
+        "max_channel_p95": 0.0,
+        "max_channel": 0.0
+      },
+      "Pino_Eye_R": {
+        "samples": 460,
+        "rgb_abs_mean": 0.0,
+        "max_channel_p95": 0.0,
+        "max_channel": 0.0
+      },
+      "Pino_OralInterior": {
+        "samples": 627,
+        "rgb_abs_mean": 5.637426900584796,
+        "max_channel_p95": 0.0,
+        "max_channel": 207.0
+      },
+      "Pino_LidSkin": {
+        "samples": 12288,
+        "rgb_abs_mean": 0.0,
+        "max_channel_p95": 0.0,
+        "max_channel": 0.0
+      }
+    },
+    "seams": {
+      "Pino_Skin": {
+        "shared_seam_edges": 15674,
+        "max_channel_p50_p95_max": [
+          0.0,
+          0.0,
+          10.107671022415161
+        ],
+        "edges_above_20": 0
+      },
+      "Pino_Eye_L": {
+        "shared_seam_edges": 158,
+        "max_channel_p50_p95_max": [
+          0.1807830035686493,
+          1.7301796756684789,
+          6.0945281982421875
+        ],
+        "edges_above_20": 0
+      },
+      "Pino_Eye_R": {
+        "shared_seam_edges": 148,
+        "max_channel_p50_p95_max": [
+          0.2166748046875,
+          1.0,
+          8.626853346824646
+        ],
+        "edges_above_20": 0
+      }
+    },
+    "source_sha256": "7086bb5bad0c0ec85e15187baac6bb9fa6e6b5ea9b8988354d32aadc2dc20366",
+    "donor_sha256": "db2def22a8e73d22da5cb886974c30ec012678b1cccf60f6f2a6bb427488774f",
+    "baseColor_only": true,
+    "hidden_fallback_exact": {
+      "Pino_OralInterior": {
+        "triangles": 627,
+        "expected_rgb": [
+          57,
+          27,
+          39
+        ],
+        "max_abs_error": 0.0
+      },
+      "Pino_LidSkin": {
+        "triangles": 12288,
+        "expected_rgb": [
+          150,
+          201,
+          242
+        ],
+        "max_abs_error": 0.0
+      }
+    }
+  },
+  "changed": {
+    "triangles": 50763,
+    "covered_pixels": 7947455,
+    "samples_by_material": {
+      "Pino_Skin": 6450661,
+      "Pino_Eye_L": 86711,
+      "Pino_Eye_R": 86702,
+      "Pino_OralInterior": 9068,
+      "Pino_LidSkin": 1274412
+    },
+    "fallback": {
+      "Pino_OralInterior": [
+        57,
+        27,
+        39
+      ],
+      "Pino_LidSkin": [
+        150,
+        201,
+        242
+      ]
+    },
+    "geometry_replacement": false,
+    "matching": "whole neutral triangle + material; 1 micrometer tolerance; permutation validated",
+    "tripo_compatibility": "UNVERIFIED",
+    "output_sha256": "9253d53ed36410148a0f09948adbc0f440893d072e90c05f86cd6b4462a23010",
+    "surface_error": {
+      "Pino_Skin": {
+        "samples": 36928,
+        "rgb_abs_mean": 0.030382251290129815,
+        "max_channel_p95": 0.0,
+        "max_channel": 42.34874153137207
+      },
+      "Pino_Eye_L": {
+        "samples": 460,
+        "rgb_abs_mean": 0.47221571775018306,
+        "max_channel_p95": 2.570394265651698,
+        "max_channel": 8.057860970497131
+      },
+      "Pino_Eye_R": {
+        "samples": 460,
+        "rgb_abs_mean": 0.5273641486765236,
+        "max_channel_p95": 2.588206341862677,
+        "max_channel": 7.661682724952698
+      },
+      "Pino_OralInterior": {
+        "samples": 627,
+        "rgb_abs_mean": 5.637426900584796,
+        "max_channel_p95": 0.0,
+        "max_channel": 207.0
+      },
+      "Pino_LidSkin": {
+        "samples": 12288,
+        "rgb_abs_mean": 0.0,
+        "max_channel_p95": 0.0,
+        "max_channel": 0.0
+      }
+    },
+    "seams": {
+      "Pino_Skin": {
+        "shared_seam_edges": 15674,
+        "max_channel_p50_p95_max": [
+          0.0,
+          0.0,
+          21.93029922246933
+        ],
+        "edges_above_20": 2
+      },
+      "Pino_Eye_L": {
+        "shared_seam_edges": 158,
+        "max_channel_p50_p95_max": [
+          0.9632784128189087,
+          3.952306971699001,
+          10.152199983596802
+        ],
+        "edges_above_20": 0
+      },
+      "Pino_Eye_R": {
+        "shared_seam_edges": 148,
+        "max_channel_p50_p95_max": [
+          0.563666582107544,
+          2.0968383789062512,
+          10.933171510696411
+        ],
+        "edges_above_20": 0
+      }
+    },
+    "source_sha256": "7086bb5bad0c0ec85e15187baac6bb9fa6e6b5ea9b8988354d32aadc2dc20366",
+    "donor_sha256": "2f8b2874a35d167ab78a7cb278cc5a9ea078c0a17eef4b73e475009a05213261",
+    "baseColor_only": true,
+    "hidden_fallback_exact": {
+      "Pino_OralInterior": {
+        "triangles": 627,
+        "expected_rgb": [
+          57,
+          27,
+          39
+        ],
+        "max_abs_error": 0.0
+      },
+      "Pino_LidSkin": {
+        "triangles": 12288,
+        "expected_rgb": [
+          150,
+          201,
+          242
+        ],
+        "max_abs_error": 0.0
+      }
+    }
+  },
+  "wrong-eye-owner": {
+    "result": "HOLD as intended",
+    "reason": "Missing/ambiguous exact triangle or material ownership; no nearest projection."
+  },
+  "geometry-drift": {
+    "result": "HOLD as intended",
+    "reason": "Missing/ambiguous exact triangle or material ownership; no nearest projection."
+  },
+  "sentinel": {
+    "triangles": 50763,
+    "covered_pixels": 7947455,
+    "samples_by_material": {
+      "Pino_Skin": 6450661,
+      "Pino_Eye_L": 86711,
+      "Pino_Eye_R": 86702,
+      "Pino_OralInterior": 9068,
+      "Pino_LidSkin": 1274412
+    },
+    "fallback": {
+      "Pino_OralInterior": [
+        57,
+        27,
+        39
+      ],
+      "Pino_LidSkin": [
+        150,
+        201,
+        242
+      ]
+    },
+    "geometry_replacement": false,
+    "matching": "whole neutral triangle + material; 1 micrometer tolerance; permutation validated",
+    "tripo_compatibility": "UNVERIFIED",
+    "output_sha256": "eb7f6dff2fe0f73402aa2675c76ba43731fe20a20a8aa9a70f9585a8e73efc04",
+    "surface_error": {
+      "Pino_Skin": {
+        "samples": 36928,
+        "rgb_abs_mean": 0.001481845033915142,
+        "max_channel_p95": 0.0,
+        "max_channel": 54.0
+      },
+      "Pino_Eye_L": {
+        "samples": 460,
+        "rgb_abs_mean": 0.0,
+        "max_channel_p95": 0.0,
+        "max_channel": 0.0
+      },
+      "Pino_Eye_R": {
+        "samples": 460,
+        "rgb_abs_mean": 0.0,
+        "max_channel_p95": 0.0,
+        "max_channel": 0.0
+      },
+      "Pino_OralInterior": {
+        "samples": 627,
+        "rgb_abs_mean": 147.4795321637427,
+        "max_channel_p95": 216.0,
+        "max_channel": 216.0
+      },
+      "Pino_LidSkin": {
+        "samples": 12288,
+        "rgb_abs_mean": 106.33333333333333,
+        "max_channel_p95": 201.0,
+        "max_channel": 201.0
+      }
+    },
+    "three_tail_surface_partitions": [
+      {
+        "triangles": 1476,
+        "bounds_m": [
+          [
+            -0.21069341897964478,
+            -0.038818370550870895,
+            0.05517578125
+          ],
+          [
+            0.21069329977035522,
+            0.425537109375,
+            0.5517578125
+          ]
+        ],
+        "mean_abs_rgb": 0.0,
+        "p95_max_channel": 0.0,
+        "max_channel": 0.0
+      },
+      {
+        "triangles": 1476,
+        "bounds_m": [
+          [
+            -0.20629888772964478,
+            -0.034423839300870895,
+            0.0595703125
+          ],
+          [
+            0.20629876852035522,
+            0.421142578125,
+            0.54736328125
+          ]
+        ],
+        "mean_abs_rgb": 0.0,
+        "p95_max_channel": 0.0,
+        "max_channel": 0.0
+      },
+      {
+        "triangles": 1476,
+        "bounds_m": [
+          [
+            -0.21459966897964478,
+            -0.042724620550870895,
+            0.05029296875
+          ],
+          [
+            0.21459954977035522,
+            0.429443359375,
+            0.5556640625
+          ]
+        ],
+        "mean_abs_rgb": 0.0,
+        "p95_max_channel": 0.0,
+        "max_channel": 0.0
+      }
+    ],
+    "hidden_fallback_policy": "Donor magenta is ignored for oral/lids; explicit original-owner fallback colors returned.",
+    "source_sha256": "7086bb5bad0c0ec85e15187baac6bb9fa6e6b5ea9b8988354d32aadc2dc20366",
+    "donor_sha256": "c4b4cc91a040eba6ef21ced8645d0f37a3d8a3400d57c4494f981cd7867e3777",
+    "baseColor_only": true,
+    "hidden_fallback_exact": {
+      "Pino_OralInterior": {
+        "triangles": 627,
+        "expected_rgb": [
+          57,
+          27,
+          39
+        ],
+        "max_abs_error": 0.0
+      },
+      "Pino_LidSkin": {
+        "triangles": 12288,
+        "expected_rgb": [
+          150,
+          201,
+          242
+        ],
+        "max_abs_error": 0.0
+      }
+    }
+  },
+  "original_seams": {
+    "Pino_Skin": {
+      "shared_seam_edges": 15674,
+      "max_channel_p50_p95_max": [
+        0.0,
+        0.0,
+        10.4793701171875
+      ],
+      "edges_above_20": 0
+    },
+    "Pino_Eye_L": {
+      "shared_seam_edges": 158,
+      "max_channel_p50_p95_max": [
+        0.23744261264801025,
+        1.7451353244483485,
+        6.5457844734191895
+      ],
+      "edges_above_20": 0
+    },
+    "Pino_Eye_R": {
+      "shared_seam_edges": 148,
+      "max_channel_p50_p95_max": [
+        0.2166748046875,
+        1.0,
+        8.201629877090454
+      ],
+      "edges_above_20": 0
+    }
+  },
+  "scope": "Local synthetic donors only; unchanged exact triangles. Real Tripo topology/UV/paint/4Mesh acceptance UNVERIFIED.",
+  "fallback_metric_note": "Oral/lid source-image differences are intentional fallback replacement, not donor color fidelity. hidden_fallback_exact tests the required result. All three actual tail shells are sampled by manifold-edge connectivity.",
+  "filtering_risk": "Changed-UV donor is a 0.84-scale affine image mock. Resampling high contrast details/subpixel islands is lossy; seam/texel errors are reported, not asserted as perfect or real Tripo quality.",
+  "unsupported_configuration_guards": {
+    "basecolor-factor": {
+      "result": "HOLD as intended",
+      "reason": "Bake/verify nonwhite baseColorFactor explicitly before image return."
+    },
+    "texture-transform": {
+      "result": "HOLD as intended",
+      "reason": "Only TEXCOORD_0 without texture transforms/extensions is supported."
+    },
+    "parent-transform": {
+      "result": "HOLD as intended",
+      "reason": "Nonidentity scene/parent transform: normalize and verify explicitly."
+    }
+  },
+  "cli_changed_uv_return_verified": {
+    "source_sha256": "7086bb5bad0c0ec85e15187baac6bb9fa6e6b5ea9b8988354d32aadc2dc20366",
+    "donor_sha256": "2f8b2874a35d167ab78a7cb278cc5a9ea078c0a17eef4b73e475009a05213261",
+    "output_sha256": "9253d53ed36410148a0f09948adbc0f440893d072e90c05f86cd6b4462a23010",
+    "matches_rendered_mock_output": true,
+    "sidecar_written": true
+  }
+}

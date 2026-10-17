@@ -1,0 +1,28 @@
+{
+  "source": "fe39c6d8aab1e550ee31823ca29e85b9b2658632",
+  "uv": "PinoUV_v005",
+  "records": [
+    {
+      "file": "pino-c-v005-tripo-input.glb",
+      "changed_binary_bytes": 994364,
+      "only_texcoord_bytes_changed": true,
+      "all_other_json_except_uv_bounds_and_v005_metadata_equal": true,
+      "uv_metadata_synchronized": true,
+      "meshes": 4,
+      "skins": 0,
+      "animations": 0,
+      "image_textures": 0
+    },
+    {
+      "file": "pino-c-v005-rigged-review.glb",
+      "changed_binary_bytes": 994364,
+      "only_texcoord_bytes_changed": true,
+      "all_other_json_except_uv_bounds_and_v005_metadata_equal": true,
+      "uv_metadata_synchronized": true,
+      "meshes": 4,
+      "skins": 1,
+      "animations": 0,
+      "image_textures": 0
+    }
+  ]
+}

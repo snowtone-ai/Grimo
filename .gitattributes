@@ -31,3 +31,11 @@ scripts/blender/pino-texture-handoff-v004*.py text eol=lf
 scripts/3d/*pino-texture-handoff-v004*.py text eol=lf
 scripts/3d/*pino-texture-handoff-v004*.js text eol=lf
 scripts/3d/pino-texture-handoff-v004-runtime.html text eol=lf
+
+# Pino v005 correspondence and review checksums use LF across checkouts.
+docs/production/pino/evidence/pretexture-reliability-v005/*.json text eol=lf
+docs/production/pino/evidence/pretexture-reliability-v005/*.md text eol=lf
+docs/production/pino/PINO_PRETEXTURE_RELIABILITY_V005_STATE.md text eol=lf
+assets/grimo/production/pino/candidate-c/pretexture-reliability-v005/README.md text eol=lf
+scripts/3d/pino-pretexture-v005*.py text eol=lf
+scripts/blender/pino-pretexture-v005*.py text eol=lf

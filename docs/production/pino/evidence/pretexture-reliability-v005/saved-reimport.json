@@ -1,0 +1,77 @@
+{
+  "records": [
+    {
+      "file": "pino-c-v005-tripo-input.glb",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error_m": 0.0,
+      "max_uv_error": 2.9802322387695312e-08,
+      "vertices": 113544,
+      "shape_keys": 0,
+      "material_face_ownership_exact": true
+    },
+    {
+      "file": "pino-c-v005-tripo-input.glb",
+      "object": "PinoOralLiner",
+      "max_position_error_m": 0.0,
+      "max_uv_error": 0.0,
+      "vertices": 1881,
+      "shape_keys": 0,
+      "material_face_ownership_exact": true
+    },
+    {
+      "file": "pino-c-v005-tripo-input.glb",
+      "object": "PinoSoftLids_L",
+      "max_position_error_m": 0.0,
+      "max_uv_error": 2.9802322387695312e-08,
+      "vertices": 12288,
+      "shape_keys": 0,
+      "material_face_ownership_exact": true
+    },
+    {
+      "file": "pino-c-v005-tripo-input.glb",
+      "object": "PinoSoftLids_R",
+      "max_position_error_m": 0.0,
+      "max_uv_error": 2.9802322387695312e-08,
+      "vertices": 12288,
+      "shape_keys": 0,
+      "material_face_ownership_exact": true
+    },
+    {
+      "file": "pino-c-v005-rigged-review.glb",
+      "object": "PINO_C_BASE_RIG_V001",
+      "max_position_error_m": 2.497889789080651e-07,
+      "max_uv_error": 2.9802322387695312e-08,
+      "vertices": 113544,
+      "shape_keys": 19,
+      "material_face_ownership_exact": true
+    },
+    {
+      "file": "pino-c-v005-rigged-review.glb",
+      "object": "PinoOralLiner",
+      "max_position_error_m": 7.92226579715935e-08,
+      "max_uv_error": 0.0,
+      "vertices": 1881,
+      "shape_keys": 4,
+      "material_face_ownership_exact": true
+    },
+    {
+      "file": "pino-c-v005-rigged-review.glb",
+      "object": "PinoSoftLids_L",
+      "max_position_error_m": 8.940696716308594e-08,
+      "max_uv_error": 2.9802322387695312e-08,
+      "vertices": 12288,
+      "shape_keys": 5,
+      "material_face_ownership_exact": true
+    },
+    {
+      "file": "pino-c-v005-rigged-review.glb",
+      "object": "PinoSoftLids_R",
+      "max_position_error_m": 8.462232866585662e-08,
+      "max_uv_error": 2.9802322387695312e-08,
+      "vertices": 12288,
+      "shape_keys": 5,
+      "material_face_ownership_exact": true
+    }
+  ],
+  "note": "Focused neutral and UV/material reimport. v004 POSITION/NORMAL/morph/skin bytes unchanged; no duplicate full-motion/runtime claim. Blender import alone still needs v004 morph-normal bridge."
+}
