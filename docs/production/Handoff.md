@@ -9,7 +9,7 @@
 
 ## Character execution routing (status requires recheck)
 - **Jill:** identify the selected Rig/Geometry branch among active `codex/jill-*` work; inspect actual rig, deforming renders, motion failures and scoped Human gate. Do not infer GO from branch labels.
-- **Pino:** identify the selected `codex/pino-*` branch; verify tail/short-arm/support rigs and evidence, including whether Motion references gained Human approval.
+- **Pino:** 2026-10-17 Human **GO for mouth-gem removal appearance only** on `codex/pino-gem-cleanup-v001-20261017`, corrected donor `pino-c-v005-tripo-gem-cleaned-v002.glb` (see [scoped v002 REVIEW](https://github.com/snowtone-ai/Grimo/blob/codex/pino-gem-cleanup-v001-20261017/docs/production/pino/evidence/tripo-gem-cleanup-v002/REVIEW.md), approval recorded in branch commit `029f0668`). **Texture image return to existing v005 Rig/Master remains HOLD** due to Tripo material/position correspondence; do not transplant donor Geometry. Tail/short-arm/support Motion and runtime remain independent gates.
 - **Shushu:** investigate `codex/shushu-*` candidate branches and their real evidence. The older v002/v003 Human FAIL/PENDING records are **historical**, not a current v004 quality verdict.
 
 ## Current operational gates
