@@ -1,0 +1,30 @@
+{
+  "donor": "c5bed8b7cf0e7963388f9d20699fedd2c08c2c44",
+  "note": "Git text checkout may use CRLF; adoptedLfSha256 hashes the committed LF source.",
+  "runtime": [
+    {
+      "file": "assets/grimo/production/shushu/runtime/shushu-standard-appearance-v001.mjs",
+      "donorSha256": "b66a452aa464f1e30aab259dcab6b8b3a90556b34dffa752961300d42d59407e",
+      "checkoutSha256": "ce7e5c4e28e29721b9826d6a533c6f4f53e9b1078793302ad02e01a92d1b9aef",
+      "adoptedLfSha256": "413ae3433bdc88f704797b8111acd60524cfa44087b389bad319fbd48979c4c1"
+    },
+    {
+      "file": "assets/grimo/production/shushu/runtime/shushu-standard-appearance-v002.mjs",
+      "donorSha256": "2e587f0dc87649fbcb0ead6d96e180939cfda49c417073d4ec7eb70cfc6de746",
+      "checkoutSha256": "847f0088cb74ca1338f172b7d8cac6146750ec6156b72290bbf966535f16fcd4",
+      "adoptedLfSha256": "0c94c58da8b47574089603d337e19205b064959a9c4b5e598333590ba87c4a86"
+    },
+    {
+      "file": "assets/grimo/production/shushu/runtime/shushu-v004-deformation-v003.mjs",
+      "donorSha256": "fd8755a6a12665eadfcfa81d92c03511ab84dc6e055d9a3f65d1248dd30ff74a",
+      "checkoutSha256": "81ded9aba31cc0285e4325a47e1197c6cb670e8577a725b28950303afd7c01cc",
+      "adoptedLfSha256": "fd8755a6a12665eadfcfa81d92c03511ab84dc6e055d9a3f65d1248dd30ff74a"
+    },
+    {
+      "file": "assets/grimo/production/shushu/runtime/shushu-v004-loader-v004.mjs",
+      "donorSha256": "e8269340a158f9e68b1316d61cb0988d28a070af7bd30d3a02c07553dc66773d",
+      "checkoutSha256": "b21a05d1cd36db5d37723cb349921062685e36c403a0671ef96cb9655b7d1e9b",
+      "adoptedLfSha256": "045e3ebdb8d5e9d898a46247b3e9ff0b5aff86895fe8aff17add8c1773c6477c"
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "base": "http://127.0.0.1:3187",
+  "cycles": [
+    {
+      "cycle": 1,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 1,
+        "activeContexts": 1,
+        "live": {
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15,
+          "Framebuffer": 25,
+          "VertexArray": 27,
+          "Renderbuffer": 2
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 201080377
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 1,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 202029847
+      }
+    },
+    {
+      "cycle": 2,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 2,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 201197892
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 2,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 205611703
+      }
+    },
+    {
+      "cycle": 3,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 3,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 204024300
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 3,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 204652696
+      }
+    },
+    {
+      "cycle": 4,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 4,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 218646236
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 4,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 219317356
+      }
+    },
+    {
+      "cycle": 5,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 5,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 219289492
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 5,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 219925980
+      }
+    },
+    {
+      "cycle": 6,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 6,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 220009720
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 6,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 220506484
+      }
+    },
+    {
+      "cycle": 7,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 7,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 220346188
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 7,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 220930480
+      }
+    },
+    {
+      "cycle": 8,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 8,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 220756680
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 8,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 221397004
+      }
+    },
+    {
+      "cycle": 9,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 9,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 221763900
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 9,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 222425876
+      }
+    },
+    {
+      "cycle": 10,
+      "loaded": {
+        "canvas": 1,
+        "contexts": 10,
+        "activeContexts": 1,
+        "live": {
+          "VertexArray": 27,
+          "Framebuffer": 25,
+          "Renderbuffer": 2,
+          "Buffer": 78,
+          "Texture": 67,
+          "Shader": 28,
+          "Program": 15
+        },
+        "listeners": 7,
+        "observers": 1,
+        "raf": 0,
+        "heap": 222243276
+      },
+      "released": {
+        "canvas": 0,
+        "contexts": 10,
+        "activeContexts": 0,
+        "live": {
+          "VertexArray": 0,
+          "Framebuffer": 0,
+          "Renderbuffer": 0
+        },
+        "listeners": 2,
+        "observers": 0,
+        "raf": 0,
+        "heap": 222689172
+      }
+    }
+  ],
+  "/tasks": {
+    "requests": [
+      "http://127.0.0.1:3187/tasks",
+      "http://127.0.0.1:3187/_next/static/css/df4c1591e161b2f4.css",
+      "http://127.0.0.1:3187/_next/static/chunks/webpack-0459b34e205ba8a7.js",
+      "http://127.0.0.1:3187/_next/static/chunks/6eb3d0dd-f942e63aca57f9d8.js",
+      "http://127.0.0.1:3187/_next/static/chunks/46ca85c4-faf4a27198874c78.js",
+      "http://127.0.0.1:3187/_next/static/chunks/964-4720472a5c617141.js",
+      "http://127.0.0.1:3187/_next/static/chunks/main-app-436e2b3a46390690.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/layout-ed2f09db65f0b5d7.js",
+      "http://127.0.0.1:3187/_next/static/chunks/101-263eec8c54451411.js",
+      "http://127.0.0.1:3187/_next/static/chunks/845-80851aa000ff490b.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/tasks/page-d640a8c03ac8d65c.js",
+      "https://accounts.google.com/gsi/client",
+      "http://127.0.0.1:3187/sw.js",
+      "http://127.0.0.1:3187/icons/grimo-icon-192.png",
+      "http://127.0.0.1:3187/settings?_rsc=P6r55Rb2Und8fdyh",
+      "http://127.0.0.1:3187/tasks?_rsc=P6r55Rb2Und8fdyh",
+      "http://127.0.0.1:3187/grimo?_rsc=P6r55Rb2Und8fdyh",
+      "http://127.0.0.1:3187/calendar?_rsc=P6r55Rb2Und8fdyh",
+      "http://127.0.0.1:3187/icons/grimo-icon-maskable-512.png",
+      "http://127.0.0.1:3187/icons/grimo-icon-512.png",
+      "http://127.0.0.1:3187/icons/grimo-icon-192.png",
+      "http://127.0.0.1:3187/icons/grimo-apple-touch-icon.png",
+      "http://127.0.0.1:3187/favicon.ico",
+      "http://127.0.0.1:3187/_next/static/css/df4c1591e161b2f4.css",
+      "http://127.0.0.1:3187/_next/static/css/794f633a644ce943.css",
+      "http://127.0.0.1:3187/_next/static/chunks/webpack-0459b34e205ba8a7.js",
+      "http://127.0.0.1:3187/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "http://127.0.0.1:3187/_next/static/chunks/next/dist/client/components/builtin/unauthorized-033d73643cc124b3.js",
+      "http://127.0.0.1:3187/tasks?_rsc=747WumL2m6hCOYGt",
+      "http://127.0.0.1:3187/_next/static/chunks/next/dist/client/components/builtin/not-found-033d73643cc124b3.js",
+      "http://127.0.0.1:3187/_next/static/chunks/next/dist/client/components/builtin/global-error-b55cf45c7c2dbf6c.js",
+      "http://127.0.0.1:3187/_next/static/chunks/next/dist/client/components/builtin/forbidden-033d73643cc124b3.js",
+      "http://127.0.0.1:3187/_next/static/chunks/next/dist/client/components/builtin/app-error-033d73643cc124b3.js",
+      "http://127.0.0.1:3187/_next/static/chunks/main-app-436e2b3a46390690.js",
+      "http://127.0.0.1:3187/_next/static/chunks/main-29bdab7a93e288d7.js",
+      "http://127.0.0.1:3187/_next/static/chunks/framework-9ab0c1bf6f122c5b.js",
+      "http://127.0.0.1:3187/settings?_rsc=ZrLUdEGLQe27fysf",
+      "http://127.0.0.1:3187/calendar?_rsc=HTZqicwwxUmHVWUF",
+      "http://127.0.0.1:3187/_next/static/chunks/app/tasks/page-d640a8c03ac8d65c.js",
+      "http://127.0.0.1:3187/_next/static/css/794f633a644ce943.css",
+      "http://127.0.0.1:3187/grimo?_rsc=rxn5639SgwSMVl4P",
+      "http://127.0.0.1:3187/_next/static/chunks/app/settings/page-baac10be6f2a34a5.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/page-07c4947d96bbb74c.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/settings/page-baac10be6f2a34a5.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/calendar/page-4d3cea246bcda6c4.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/manifest.webmanifest/route-033d73643cc124b3.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/grimo/page-30a7e4dcaed9202f.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/layout-ed2f09db65f0b5d7.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/grimo/page-30a7e4dcaed9202f.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/calendar/page-4d3cea246bcda6c4.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/api/gemini/generate/route-033d73643cc124b3.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/_not-found/page-27d908bc7dcf32ba.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/_global-error/page-033d73643cc124b3.js",
+      "http://127.0.0.1:3187/_next/static/chunks/964-4720472a5c617141.js",
+      "http://127.0.0.1:3187/_next/static/chunks/845-80851aa000ff490b.js",
+      "http://127.0.0.1:3187/_next/static/chunks/6eb3d0dd-f942e63aca57f9d8.js",
+      "http://127.0.0.1:3187/_next/static/chunks/539.5760928698f644bb.js",
+      "http://127.0.0.1:3187/_next/static/chunks/46ca85c4-faf4a27198874c78.js",
+      "http://127.0.0.1:3187/_next/static/chunks/286.fc63dda1c39b4257.js",
+      "http://127.0.0.1:3187/_next/static/chunks/101-263eec8c54451411.js",
+      "http://127.0.0.1:3187/_next/static/Ijkb_NWiRRvp0Neg-P-Wg/_ssgManifest.js",
+      "http://127.0.0.1:3187/_next/static/Ijkb_NWiRRvp0Neg-P-Wg/_buildManifest.js"
+    ],
+    "resources": {
+      "canvas": 0,
+      "contexts": 0,
+      "activeContexts": 0,
+      "live": {},
+      "listeners": 2,
+      "observers": 0,
+      "raf": 0,
+      "heap": 5826718
+    },
+    "serviceWorkers": [
+      {
+        "scope": "http://127.0.0.1:3187/",
+        "active": true
+      }
+    ]
+  },
+  "/calendar": {
+    "requests": [
+      "http://127.0.0.1:3187/calendar",
+      "http://127.0.0.1:3187/calendar",
+      "https://accounts.google.com/gsi/client",
+      "http://127.0.0.1:3187/_next/static/css/df4c1591e161b2f4.css",
+      "http://127.0.0.1:3187/_next/static/chunks/webpack-0459b34e205ba8a7.js",
+      "http://127.0.0.1:3187/_next/static/chunks/6eb3d0dd-f942e63aca57f9d8.js",
+      "http://127.0.0.1:3187/_next/static/chunks/46ca85c4-faf4a27198874c78.js",
+      "http://127.0.0.1:3187/_next/static/chunks/964-4720472a5c617141.js",
+      "http://127.0.0.1:3187/_next/static/chunks/main-app-436e2b3a46390690.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/layout-ed2f09db65f0b5d7.js",
+      "http://127.0.0.1:3187/_next/static/chunks/101-263eec8c54451411.js",
+      "http://127.0.0.1:3187/_next/static/chunks/845-80851aa000ff490b.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/calendar/page-4d3cea246bcda6c4.js",
+      "https://accounts.google.com/gsi/client",
+      "http://127.0.0.1:3187/settings?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/tasks?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/grimo?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/calendar?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/settings?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/tasks?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/icons/grimo-icon-192.png",
+      "http://127.0.0.1:3187/grimo?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/calendar?_rsc=vgVrlNteE-o2NTaI",
+      "http://127.0.0.1:3187/settings?_rsc=TY4RSm_CeIgH3MSG",
+      "http://127.0.0.1:3187/tasks?_rsc=-ATcuH2d7QZFjZOH",
+      "http://127.0.0.1:3187/settings?_rsc=TY4RSm_CeIgH3MSG",
+      "http://127.0.0.1:3187/tasks?_rsc=-ATcuH2d7QZFjZOH",
+      "http://127.0.0.1:3187/_next/static/css/794f633a644ce943.css",
+      "http://127.0.0.1:3187/grimo?_rsc=OsnuRsR367tvfzUv",
+      "http://127.0.0.1:3187/grimo?_rsc=OsnuRsR367tvfzUv",
+      "http://127.0.0.1:3187/calendar?_rsc=nuqlDJJ5VKB6khrO",
+      "http://127.0.0.1:3187/calendar?_rsc=nuqlDJJ5VKB6khrO",
+      "http://127.0.0.1:3187/_next/static/chunks/app/settings/page-baac10be6f2a34a5.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/tasks/page-d640a8c03ac8d65c.js",
+      "http://127.0.0.1:3187/_next/static/chunks/app/grimo/page-30a7e4dcaed9202f.js"
+    ],
+    "resources": {
+      "canvas": 0,
+      "contexts": 0,
+      "activeContexts": 0,
+      "live": {},
+      "listeners": 2,
+      "observers": 0,
+      "raf": 0,
+      "heap": 8661385
+    },
+    "serviceWorkers": [
+      {
+        "scope": "http://127.0.0.1:3187/",
+        "active": true
+      }
+    ]
+  },
+  "firstRender": {
+    "resources": {
+      "canvas": 1,
+      "contexts": 1,
+      "activeContexts": 1,
+      "live": {
+        "Buffer": 78,
+        "Texture": 67,
+        "Shader": 28,
+        "Program": 15,
+        "Framebuffer": 25,
+        "VertexArray": 27,
+        "Renderbuffer": 2
+      },
+      "listeners": 7,
+      "observers": 1,
+      "raf": 0,
+      "heap": 201080377
+    },
+    "timings": [
+      {
+        "name": "shushu:load-to-first-render",
+        "ms": 6590.199999988079
+      },
+      {
+        "name": "shushu:download:a0821951",
+        "ms": 2717
+      },
+      {
+        "name": "shushu:verify:a0821951",
+        "ms": 106.90000000596046
+      },
+      {
+        "name": "shushu:contract-decode",
+        "ms": 20.700000017881393
+      },
+      {
+        "name": "shushu:body-container-parse",
+        "ms": 662.4000000059605
+      },
+      {
+        "name": "shushu:deformation-setup",
+        "ms": 299
+      },
+      {
+        "name": "shushu:download:ed474a71",
+        "ms": 1204.7000000178814
+      },
+      {
+        "name": "shushu:verify:ed474a71",
+        "ms": 2.399999976158142
+      },
+      {
+        "name": "shushu:download:f5c4aa29",
+        "ms": 205.09999999403954
+      },
+      {
+        "name": "shushu:verify:f5c4aa29",
+        "ms": 4.200000017881393
+      },
+      {
+        "name": "shushu:first-frame-submit",
+        "ms": 1217.699999988079
+      }
+    ]
+  },
+  "status": "PASS",
+  "errors": [],
+  "scope": "Production PWA cold Task/Calendar and ten full real-GLB mount/unmount cycles only. Fault scenarios are recorded separately."
+}
