@@ -109,3 +109,22 @@ GrimoのローカルLFS全体は6,482,944,509 → 6,070,363,542 bytes。専用ob
 両repoの変更は専用branchへcommit/pushする。mainと他キャラ作業branchの過去共有docsは本タスクbranchを取り込むまで廃止前の記載を含む。sparse除外はローカル実体を減らす操作であり、履歴上の依存除去commitの代わりではない。
 
 無関係な歴史を保つため、Git commit/reflog/packと共有tag・複数キャラ画像・共有キャッシュは消去していない。remote LFS、Tripo等の外部生成物、所有不明の無名FBX/GLBは未削除。履歴rewriteは追加削減の可能性があるが、混在commit・共有画像・他branch・cloneとの整合を要する。安全な削減見込み量は未測定であり、今回実行しない。
+
+## 最終清算の再確認 — 2026-10-17
+
+上記は初回実行時の記録。再fetchしたremote mainは `28c1505b7aadf63db25f1be97eba8b99cd332cee`、task-plantは `6bca9b043196cce9941a8e4005c234938397e33b` で、廃止変更と恒久知見は既に統合済み。再merge/cherry-pickは行わない。
+
+| 分類 | 今回の確認・処理 |
+|---|---|
+| SAFE_DELETE | Grimoの旧 `codex/retire-carol-20261017` はmainと同一SHA。cleanな専用worktree（367ファイル、論理152,421,160 bytes）とlocal/remote branchを削除。worktreeはmainに保存された共有ファイルの重複checkoutであり、Carol資産の追加削減量とは別計上 |
+| SAFE_EDIT | 本監査の統合済み状態と残存境界を更新。コード・キャラクター資産変更なし |
+| PROTECT | Jill/Pino/Shushuのbranch/worktree/dirty・untracked、混在統合branch、共有tag・Git履歴・sparse設定。task-plant旧廃止branchはmain未包含の別作業3コミット（`1a47f03`, `3101399`, `84a759a`）を含むためlocal/remoteとworktreeを保持。廃止差分のみmainへ移植済みで、当該branch全体が統合済みとは扱わない |
+| UNKNOWN | 無名FBX/GLB、共有Git一時object、外部サービス資産。所有権・依存が証明できないため削除しない |
+
+初回inventoryの既存worktreeを対象に専用名の残存を再確認し、削除済みlocal pathの復活0、既知のCarol専用LFS 71 OIDのローカル復活0。mainに専用名の追跡pathはない。履歴全体の再走査や広域pruneは行わない。Git packや一時objectには他作業が混在し、Carol専有容量を確定できないため保護。共有履歴rewriteによる追加実容量削減はUNKNOWN（ローカルで初回回収した412,580,967 bytesをremote削減見込みとみなさない）。
+
+GitHub remote LFSは未削除。[公式案内](https://docs.github.com/en/repositories/working-with-files/managing-large-files/removing-files-from-git-large-file-storage)ではrepository削除・再作成、またはSupportへの相談が必要。共有repoの削除・履歴rewriteは本タスクではHOLD。管理者は初回OID台帳を添えてSupportへ個別purgeの可否と実容量を照会する。
+
+Tripoの接続済み専用ツールはなく、plugin検索も該当なし。ブラウザー接続の確認はtimeoutし、アカウント内資産の確認・削除はできていない。外部削除はHOLD。所有者がTripoの自身のLibrary/生成履歴でCarolの名前と画像を照合し、専用モデルと派生exportだけを削除する必要がある。共有projectと他キャラは保持。追加クレジット消費なし。
+
+task-plantのCI/保護設定は独立問題として別PRで記録・修正する。既存audit失敗を理由にmain保護をbypassしない。最終測定・保護設定前後・ref状態の機械証跡は `C:/Users/chidj/.codex/retire-carol-audit-20261017/final-*`。今回開始時のC空きは15,483,392,000 bytes。実空き差は並行作業を含むため上記論理削減量と同一視しない。
