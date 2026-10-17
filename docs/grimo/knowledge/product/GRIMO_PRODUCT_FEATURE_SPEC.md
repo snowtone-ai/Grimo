@@ -8,6 +8,8 @@
 
 **Initial-release amendment (Human, 2026-10-17):** 初回の実用版は**Shushuのみ**、Jill/Pinoは後日追加、Carolは廃止。個人・家族による非商用・端末ごとの独立利用で、クラウド同期と旧task-plantデータ移行は不要。3匹向けのCollection/Reactionルールは将来拡張の正式仕様として保持し、初回から未利用キャラの3DとMotionを要求しない。保存・配備は[Local-first Architecture](GRIMO_LOCAL_FIRST_ARCHITECTURE.md)に従う。
 
+**Visual-medium amendment (Human, 2026-10-17):** 相棒Shushu（将来Jill/Pino）と、身体に直接装着するWear・物理的な接触/転がりに立体が必須な小物だけをFull 3Dとする。背景、Food、その他の大半のアイテム、報酬・Collection・画面演出は**高品質な2D/2.5Dを原則**とし、実際の握り・遮蔽・奥行きが不可欠な場合のみ個別に3Dを認める。3Dキャラクター制作方針の撤回ではない。媒体別の判断・合成・検証は[DESIGN.md §1.2](../../../../DESIGN.md)を参照する。
+
 ---
 
 # 0. この資料の位置づけ

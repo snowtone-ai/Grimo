@@ -52,6 +52,29 @@ Pokémonのlogo、card art、character art、UI image asset、proprietary icon f
 
 `docs/grimo/knowledge/Goal√map.md`はキャラクター制作のWHYを説明し、技術手段や数値指標を上位目的化しない。旧`GRIMO_EXPERIENCE_MOTION_BIBLE.md`および`GRIMO_3D_BLENDER_PRODUCTION_BIBLE.md`は歴史的補助資料であり、上記の現行正本に優先しない。対象外の古いPixiJS / 2D / 2.5D前提、過去の研究・実装案も現在のAuthorityではない。
 
+## 1.2 Approved visual-medium contract — 2026-10-17
+
+**Human decision:** Grimo is a **Full-3D companion + premium 2D/2.5D surrounding-world** product, not an all-3D game and not a return to the retired 2D/2.5D *character* prototype. Shushu (later Jill/Pino) remains genuine deforming 3D with PlayCanvas motion, expression, contact, touch and approved body/face/flower identity. Supporting UI and items use the least costly medium that preserves their desired visual/interaction quality.
+
+| Surface / asset | Default representation |
+| --- | --- |
+| Living Shushu / future Jill & Pino | **Full 3D**; geometry/rig/morph/motion/physics-aware contact as genuinely needed |
+| Canonical attached ornaments, directly equipped Wear, articulated items that must follow and occlude with body parts | **3D when required for believable attachment/contact**; preserve approved Shushu flower v002 separately from collectible Wear |
+| Physically manipulated ball or Secret Motion prop that genuinely rolls, rotates in depth, passes behind limbs or needs real collisions | **3D only as justified by the interaction** |
+| Background, floor/ambient scenery, depth layers, decorative environment | **High-quality 2D illustration / 2.5D layered/parallax** by default; no 3D room by default |
+| Food, gifts and most collectible items | **High-quality 2D art / 2.5D sprite** by default, including projected hand/mouth alignment and limited 2.5D motion when convincing; 3D exception only if required for authentic visible grasp/bite/occlusion/depth movement |
+| Collection art/cards, reward chest and reveal, VFX, particles, navigation, Task, Calendar, settings | **2D UI/illustration** and restrained animation; 2.5D layering where it improves depth |
+
+**2.5D means** layered illustrated planes, perspective/scale/parallax, billboards or sprites in/over the 3D view, *not* forcing a flat Shushu model. Prefer accessible responsive React/CSS/SVG/optimized original raster images for document-like interface surfaces. Use PlayCanvas world-space/screen-space sprites only when visual attachment, sorting or interaction requires their scene coordinates. Avoid importing PlayCanvas into Task/Calendar/Collection solely for decorative 2D graphics.
+
+**Quality > dimensionality:** Original high-quality painted textures, gradients, shading, controlled shadows, compositing, soft edges and continuity between 2D art and the approved 3D Shushu. The cheap/unpolished look is a FAIL even if technically efficient. Conversely, a 3D item is justified when its visible depth, multi-angle appearance, surface contact, pivot, joint linkage or occlusion cannot be convincing in 2D/2.5D. Decide exceptions item by item with a short reason; do not blanket-model Food/background in Blender/Tripo.
+
+**Compositing gates:** correctly map projected mouth/hand/prop anchors through camera, DPI/orientation and safe areas; confirm front/behind occlusion and depth ordering, no sprite sliding, penetration or fake floating on head turns, sit, offer/hold and interruption. 2D rewards/food must remain screen-reader/input accessible where interactive, respect reduced-motion, and avoid excessive image decode/GPU texture memory. Test representative mobile performance/appearance, not source file size alone.
+
+**Production implication:** A Shushu-only launch should not wait on 3D room, 3D food catalog, 3D treasure chest or decorative props. Keep high-quality 2D/2.5D asset contracts independent of 3D motion; ship only real 3D exceptions verified against motion and appearance.
+
+---
+
 ---
 
 # 2. ポケポケReferenceのEvidence Model
