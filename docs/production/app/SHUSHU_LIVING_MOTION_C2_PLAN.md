@@ -2,6 +2,8 @@
 
 **Date:** 2026-10-18. **Status:** Human requested Codex-only Motion production, implementation not yet run. **Not** evidence of Human animation approval, smartphone PASS or release GO. Tripo upload/Animation step is no longer a prerequisite **for Shushu**; do not change the unrelated Jill/Pino plans without Human input.
 
+**Shushu-specific Motion evidence amendment (2026-10-18):** [Shushu Bear-Cub Motion Research & Performance Bible](../../grimo/knowledge/character-experience/SHUSHU_BEAR_CUB_MOTION_RESEARCH_AND_DIRECTION.md) is the evidence-backed *research and production-direction candidate* for sit→four-paw stand, stand→sit, walk start/stop, face/gaze/idle/touch mechanics. Use its evidence tags and contact/weight-shift QA; **all timing numbers are directorial hypotheses, not measured animal motion, and Human Motion approval is pending**. No full all-family expansion without gates. For C2 start with short idle; if adding a larger sit/stand movement, honor the transition and support constraints here.
+
 ## Fixed source-of-truth and branches
 
 - Latest shared main when planned: `534694dae8087dec852de0f26b472a6dcd26ca70` (Gate B and prior design contracts integrated). Recheck it.

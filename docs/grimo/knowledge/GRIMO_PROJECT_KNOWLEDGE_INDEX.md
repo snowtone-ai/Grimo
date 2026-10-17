@@ -33,6 +33,8 @@ Use this index to locate durable authority. Current execution truth is not durab
 
 - Jill's peach-colored head appendages are treated as **horn-like anatomy** by the latest Human interpretation; do not automatically recolor as ear backs. Final material identity (including canonical clover marking) still requires QA.
 
+- [Shushu Bear-Cub Motion Research & Performance Bible](character-experience/SHUSHU_BEAR_CUB_MOTION_RESEARCH_AND_DIRECTION.md) — keeper observations, adult bear biomechanics with limits, animation craft, sit→4-stand frame-by-frame candidate, walking/face/gaze/idle, uncertainty ledger and Human gates; **production direction not Human Motion GO**.
+
 ## Blender implementation reference (non-authoritative)
 
 - [Creature deformation and motion principles](character-production/GRIMO_CREATURE_DEFORMATION_AND_MOTION_PRINCIPLES.md) — three-character shoulder/elbow, jaw/mouth, abdomen and contact principles; observations, public primary sources, hypotheses and unknowns are distinguished. Does not override approved appearance or current production evidence.
