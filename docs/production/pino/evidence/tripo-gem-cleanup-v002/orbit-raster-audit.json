@@ -1,0 +1,82 @@
+{
+  "engine": "BLENDER_EEVEE",
+  "resolution": 512,
+  "views": [
+    {
+      "angle_degrees": -35.0,
+      "pixels_different_from_hidden_control": 190,
+      "max_channel_difference": 0.18431371450424194
+    },
+    {
+      "angle_degrees": -30.0,
+      "pixels_different_from_hidden_control": 177,
+      "max_channel_difference": 0.20392155647277832
+    },
+    {
+      "angle_degrees": -25.0,
+      "pixels_different_from_hidden_control": 157,
+      "max_channel_difference": 0.20392155647277832
+    },
+    {
+      "angle_degrees": -20.0,
+      "pixels_different_from_hidden_control": 132,
+      "max_channel_difference": 0.1921568512916565
+    },
+    {
+      "angle_degrees": -15.0,
+      "pixels_different_from_hidden_control": 105,
+      "max_channel_difference": 0.18823528289794922
+    },
+    {
+      "angle_degrees": -10.0,
+      "pixels_different_from_hidden_control": 74,
+      "max_channel_difference": 0.11372548341751099
+    },
+    {
+      "angle_degrees": -5.0,
+      "pixels_different_from_hidden_control": 52,
+      "max_channel_difference": 0.08235293626785278
+    },
+    {
+      "angle_degrees": 0.0,
+      "pixels_different_from_hidden_control": 1,
+      "max_channel_difference": 0.00784313678741455
+    },
+    {
+      "angle_degrees": 5.0,
+      "pixels_different_from_hidden_control": 35,
+      "max_channel_difference": 0.03529411554336548
+    },
+    {
+      "angle_degrees": 10.0,
+      "pixels_different_from_hidden_control": 97,
+      "max_channel_difference": 0.1450980305671692
+    },
+    {
+      "angle_degrees": 15.0,
+      "pixels_different_from_hidden_control": 131,
+      "max_channel_difference": 0.1921568512916565
+    },
+    {
+      "angle_degrees": 20.0,
+      "pixels_different_from_hidden_control": 159,
+      "max_channel_difference": 0.2078431248664856
+    },
+    {
+      "angle_degrees": 25.0,
+      "pixels_different_from_hidden_control": 177,
+      "max_channel_difference": 0.19607841968536377
+    },
+    {
+      "angle_degrees": 30.0,
+      "pixels_different_from_hidden_control": 224,
+      "max_channel_difference": 0.2392156720161438
+    },
+    {
+      "angle_degrees": 35.0,
+      "pixels_different_from_hidden_control": 244,
+      "max_channel_difference": 0.2392156720161438
+    }
+  ],
+  "control": "oral-hidden diagnostic only; final GLB retains all meshes"
+}

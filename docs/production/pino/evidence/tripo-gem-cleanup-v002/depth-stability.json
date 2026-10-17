@@ -1,0 +1,31 @@
+{
+  "engine": "BLENDER_EEVEE",
+  "resolution": 512,
+  "tests": [
+    {
+      "tag": "before",
+      "distances": [
+        2.95,
+        3.0,
+        3.05
+      ],
+      "orthographic_projection_identical": true,
+      "pixels_varying_over_5_of_255": 214,
+      "pixels_varying_over_20_of_255": 69,
+      "max_channel_variation": 0.3294118046760559
+    },
+    {
+      "tag": "after",
+      "distances": [
+        2.95,
+        3.0,
+        3.05
+      ],
+      "orthographic_projection_identical": true,
+      "pixels_varying_over_5_of_255": 0,
+      "pixels_varying_over_20_of_255": 0,
+      "max_channel_variation": 0.011764705181121826
+    }
+  ],
+  "scope": "static donor mouth, fixed front orthographic view; no Rig/runtime claims"
+}

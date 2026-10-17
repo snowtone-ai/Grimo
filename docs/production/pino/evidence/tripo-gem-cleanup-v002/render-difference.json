@@ -1,0 +1,70 @@
+[
+  {
+    "view": "front",
+    "changed_pixels": 3992,
+    "changed_bounds_xyxy": [
+      391,
+      518,
+      508,
+      591
+    ],
+    "allowed_mouth_rectangle_xyxy": [
+      385,
+      510,
+      515,
+      600
+    ],
+    "changed_pixels_outside_mouth": 0
+  },
+  {
+    "view": "face-close",
+    "changed_pixels": 30347,
+    "changed_bounds_xyxy": [
+      285,
+      405,
+      614,
+      611
+    ],
+    "allowed_mouth_rectangle_xyxy": [
+      275,
+      395,
+      625,
+      625
+    ],
+    "changed_pixels_outside_mouth": 0
+  },
+  {
+    "view": "left-3q",
+    "changed_pixels": 3330,
+    "changed_bounds_xyxy": [
+      655,
+      519,
+      756,
+      591
+    ],
+    "allowed_mouth_rectangle_xyxy": [
+      645,
+      510,
+      765,
+      600
+    ],
+    "changed_pixels_outside_mouth": 0
+  },
+  {
+    "view": "right-3q",
+    "changed_pixels": 3545,
+    "changed_bounds_xyxy": [
+      143,
+      519,
+      244,
+      592
+    ],
+    "allowed_mouth_rectangle_xyxy": [
+      135,
+      510,
+      255,
+      600
+    ],
+    "changed_pixels_outside_mouth": 0
+  }
+]

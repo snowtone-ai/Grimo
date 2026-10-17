@@ -1,5 +1,7 @@
 # Pino Tripo mouth artifact — HOLD
 
+Historical diagnosis. Human subsequently approved oral-only repaint; [v002 repair and evidence](../tripo-gem-cleanup-v002/REVIEW.md) supersede the texel-identification blocker below. This v001 archive remains unchanged.
+
 2026-10-17 JST. Base: `994b59e825c005210997a23f0c791eb5c9bd3489`.
 Branch: `codex/pino-gem-cleanup-v001-20261017`.
 

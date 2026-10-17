@@ -1,0 +1,104 @@
+{
+  "donor_sha256": "7ec49ea1e4f4f0fed87787e37856041c8ba4d41f816fd92b105098021aa0567f",
+  "candidate_sha256": "2c0543f00c35c60d86a5f18db1c172c64f09cede90843fa00703757870ea4ae7",
+  "oral_png_sha256": "a85e3f0745ac250df3cd5baedd822ba9f98e34170d9b8d162759ac27a3373bb4",
+  "image_size": [
+    2048,
+    2048
+  ],
+  "uv_covered_texels": 4024,
+  "oral_vertices": 1321,
+  "oral_triangles": 627,
+  "oral_depth_changed_vertices": 435,
+  "max_oral_depth_change": 0.005586415529251099,
+  "clearance_target": 0.001,
+  "oral_x_z_exact": true,
+  "mesh_deleted": false,
+  "uv_indices_other_accessors_exact": true,
+  "accessors": [
+    {
+      "accessor": 0,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 1,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 2,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 3,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 4,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 5,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 6,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 7,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 8,
+      "equal": false,
+      "allowed_oral_change": true
+    },
+    {
+      "accessor": 9,
+      "equal": false,
+      "allowed_oral_change": true
+    },
+    {
+      "accessor": 10,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 11,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 12,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 13,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 14,
+      "equal": true,
+      "allowed_oral_change": false
+    },
+    {
+      "accessor": 15,
+      "equal": true,
+      "allowed_oral_change": false
+    }
+  ],
+  "other_embedded_images_byte_exact": true,
+  "all_png_pixels_red_dominant_no_blue_purple": true,
+  "master_applied": false,
+  "image_return": "separate stage; existing v005 ownership/position HOLD remains"
+}

@@ -9,7 +9,7 @@
 
 ## Character execution routing (status requires recheck)
 - **Jill:** identify the selected Rig/Geometry branch among active `codex/jill-*` work; inspect actual rig, deforming renders, motion failures and scoped Human gate. Do not infer GO from branch labels.
-- **Pino (checked 2026-10-17):** active branch `codex/pino-pretexture-reliability-v005-20261017`; [v005 State](pino/PINO_PRETEXTURE_RELIABILITY_V005_STATE.md) points to the synchronized 4Mesh Texture input, image-only return contract and evidence. Human Pre-Texture Gate=PENDING; next is Tripo Texture after Human review. Actual Tripo compatibility and natural Motion acceptance remain unverified; recheck remote HEAD.
+- **Pino (checked 2026-10-17):** `codex/pino-gem-cleanup-v001-20261017` has the [v002 oral donor repair](pino/evidence/tripo-gem-cleanup-v002/REVIEW.md): Human-authorized oral Texture repaint + local oral depth separation; original tongue/rim, UV and Master protected. Static donor inspection complete; Human appearance=PENDING. Existing Rig image return is separate/HOLD for coordinate/material mismatch. [v005 State/contract](pino/PINO_PRETEXTURE_RELIABILITY_V005_STATE.md) remain the Master baseline; no Motion acceptance.
 - **Shushu:** investigate `codex/shushu-*` candidate branches and their real evidence. The older v002/v003 Human FAIL/PENDING records are **historical**, not a current v004 quality verdict.
 
 ## Current operational gates

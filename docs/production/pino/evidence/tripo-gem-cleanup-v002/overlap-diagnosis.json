@@ -1,0 +1,14 @@
+{
+  "oral_vertices": 1321,
+  "ray_hits": 1321,
+  "front_depth_gap_min": -0.00458642840385437,
+  "front_depth_gap_max": 0.027148544788360596,
+  "vertices_within_0_1mm_of_exterior": 431,
+  "vertices_in_front_of_exterior": 199,
+  "method": "front ray against existing main surface; diagnosis only, never Rig return",
+  "clearance_target": 0.001,
+  "post_min_vertex_front_clearance": 0.0009999871253967285,
+  "moved_vertices": 435,
+  "max_depth_change": 0.005586415529251099,
+  "cavity_not_forced_invisible": true
+}
