@@ -1,5 +1,7 @@
 # Jill — NOW
 
+**2026-10-17 上口W local fix：未達 / 修正候補FAIL・HOLD。** [最新原因/残欠陥/比較/再現](texture-return-v005/upper-w-local/REVIEW.md)。開始HEAD `c4043471dbac3e58a39603802ecd18794a2bb9d6`、同branch。cream帯の主因は元Wと追加mouth-skin上辺のずれ。texture単独/面隠し単独では裏の旧口内/歯が露出。別名 `jill-upper-w-local-v005.blend/.glb` と局所alpha maskを保存したが、閉/小開口の口角・下側追加面のしわ/交差、Side口腔面が残る。正式な修正版として採用しない。元v005/v004・元body全21key・UV/Rig/130骨39ch20Morph16anchor保持。fresh GLBと実PlayCanvasでも欠陥を確認、単なるHuman承認待ちではない。次は元v005から上口可視境界/閉口接触を再検討し、下側追加面をWへ大きく持ち上げる今回案を繰り返さない。全Motion量産HOLD。
+
 2026-10-17 / `codex/jill-texture-return-v005-20261017`。**Human v004形状GOを継承し、Tripo 4K Texture付きblend / GLB / 限定PlayCanvas候補を完成。新Textureの正式外観はHOLD。全Motion量産へ進まない。**
 
 [Evidence・残課題](texture-return-v005/Evidence.md) / [顔6状態×3視点](texture-return-v005/candidate-face-review.jpg) / [Canonical比較](texture-return-v005/authority-comparison.jpg) / [実PlayCanvas全閉眼](texture-return-v005/jill-v005-blink.png) / [成果README](../../../assets/grimo/production/jill/tripo/texture-return-v005/README.md) / [Gate](texture-return-v005/Gate.json) / [SHA](texture-return-v005/Manifest.json) / [remote照合](texture-return-v005/RemoteReceipt.json)。

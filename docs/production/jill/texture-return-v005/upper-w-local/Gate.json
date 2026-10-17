@@ -1,0 +1,33 @@
+{
+  "result": "HOLD_REPAIR_FAILED",
+  "task_complete": false,
+  "promote_candidate": false,
+  "human_visual_go": false,
+  "neutral_large_open_band": "Removed in the limited rendered views; upper contour follows W",
+  "closed_small": "FAIL: wrinkles/intersections at corners and auxiliary lower collar; visible in saved render and runtime",
+  "side": "HOLD: oral wall surface protrudes visibly",
+  "rig_counts": {
+    "bones": 130,
+    "channels": 39,
+    "morphs": 20,
+    "anchors": 16
+  },
+  "uv_topology_weights_drivers": "Preserved",
+  "original_body_all_21_keys": "Exact",
+  "fresh_glb": "PASS for data transport only; not appearance",
+  "runtime": "PASS bounded data integrity / FAIL visual closure",
+  "alpha_materials": [
+    {
+      "name": "JILL_body_skin",
+      "mode": "MASK",
+      "cutoff": 0.5
+    }
+  ],
+  "recovery": {
+    "front": true,
+    "side": true,
+    "3q": true,
+    "left3q": true
+  },
+  "scope_limitation": "Closed-contact trial affects auxiliary lower mouth collar; not accepted as a completed upper-mouth-only repair. Original source remains active."
+}

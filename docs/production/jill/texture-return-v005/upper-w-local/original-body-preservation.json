@@ -1,0 +1,90 @@
+{
+  "pass": true,
+  "keys": {
+    "Basis": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "FACE_MouthClose": {
+      "original_28050_exact": true,
+      "changed_vertices": 1314
+    },
+    "FACE_MouthOpen": {
+      "original_28050_exact": true,
+      "changed_vertices": 686
+    },
+    "FACE_Smile.L": {
+      "original_28050_exact": true,
+      "changed_vertices": 703
+    },
+    "TOUCH_Cheek.L": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "FACE_Smile.R": {
+      "original_28050_exact": true,
+      "changed_vertices": 703
+    },
+    "TOUCH_Cheek.R": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "TOUCH_Chest": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "TAIL_Curl": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "WING_Camber.L": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "WING_Camber.R": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_WingOpen.L": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_WingFold.L": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_Shoulder.L": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_WingOpen.R": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_WingFold.R": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_Shoulder.R": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_TailLeft": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "COR_TailRight": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "FACE_Blink.L": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    },
+    "FACE_Blink.R": {
+      "original_28050_exact": true,
+      "changed_vertices": 700
+    }
+  },
+  "scope": "All original 28050 vertices exact in all 21 key blocks. Only auxiliary mouth vertices change."
+}

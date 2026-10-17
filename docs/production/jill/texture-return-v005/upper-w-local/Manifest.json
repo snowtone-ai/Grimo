@@ -1,0 +1,649 @@
+{
+  "branch": "codex/jill-texture-return-v005-20261017",
+  "start_head": "c4043471dbac3e58a39603802ecd18794a2bb9d6",
+  "verified_main": "336997db2b95244c17774258e2f5ff874a2adbc1",
+  "result": "HOLD_REPAIR_FAILED",
+  "hash_scope": "Workspace bytes, excluding manifest and later remote receipt. Text may be normalized by Git.",
+  "files": [
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-basecolor-upper-w-local-v005.png",
+      "bytes": 13325955,
+      "sha256": "77575dc460af6fd1ed7673446bc50971795e861a18873dabccb27a1fa4f31ccf"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-upper-w-local-v005.blend",
+      "bytes": 29407451,
+      "sha256": "ba1acdfbf6399ae8636b5d144678cbc25fa01bc5585eb79600a174ed4453209b"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-upper-w-local-v005.glb",
+      "bytes": 33646972,
+      "sha256": "0ae1b257114d24a0643eaf2b685dda8a1c4a6bb81927a4f2e5c2c2e9364e3a12"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-upper-w-review-bounded-v005.glb",
+      "bytes": 33796332,
+      "sha256": "a3149151b3aa5d9d529e7b6e3d67bb3fe98617831dfb9a4c9834a7c302d0c589"
+    },
+    {
+      "path": "docs/production/jill/HANDOFF.md",
+      "bytes": 4058,
+      "sha256": "fc4af3ed35b0d5ccac087f951ec66226c18a0c878fedd1fe7bfe5aef73f97f5f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/Evidence.md",
+      "bytes": 8675,
+      "sha256": "98f94710170e4953fbb9bad3716e2edf75d424c3e988526b2690a34795256974"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/alpha-mask.json",
+      "bytes": 228,
+      "sha256": "4e07cfc96ae1af9c862b6c12f2e141ed61257865bf458fa1672dac021b35fd8b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/before-after-detail.jpg",
+      "bytes": 147573,
+      "sha256": "dd74dd2bdde2b87e74d37471ce6bd74aba93a266bc6d1d390179b2ecab772bfc"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/before-after-states.jpg",
+      "bytes": 379363,
+      "sha256": "7a7d325b5042a4cb26a7a43b3f757ebc8f44ed8a20b09f7bb2d355fe70027ee7"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/diagnosis-rays.json",
+      "bytes": 25373,
+      "sha256": "a5d488dc64594a90a610db562b665f12e31f8e08f7159d648a3a690f1a22bb12"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/Gate.json",
+      "bytes": 1117,
+      "sha256": "7ae060de2678557ae67d0ffd3c41fe8b645b6940437b6c7557715dd4f6a63f6a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/geometry-delta.json",
+      "bytes": 253670,
+      "sha256": "fe6799f6396b558f07b050c38e2de714a545430927eb39c68756a1a25249d41e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/host-profile.json",
+      "bytes": 2075678,
+      "sha256": "c4e092d7326deca43b8cbb887b10a94ffb147e2fa83778c266add95f7fb6421e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-blink-full.png",
+      "bytes": 781718,
+      "sha256": "075033f6c88c987b6e516a5926c1605565060c39030811a1babe26b1f29cf9cc"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-blink-half.png",
+      "bytes": 814814,
+      "sha256": "5549bf3beb2e8c3c070ddf5becd2aef4f3679d855bfc94e92d465f4fbb2e6efc"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-combined.png",
+      "bytes": 826455,
+      "sha256": "319a85c4860b09d23709ebfe6fbcb25353cfa50f33be319cd8c402e47be0dd28"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-mouth-closed.png",
+      "bytes": 822678,
+      "sha256": "1a87a85152976e2eeb99bf087400fe2a74f8936c9ee55a56383c19faebfa48ae"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-mouth-large.png",
+      "bytes": 826740,
+      "sha256": "a3f2867e4811e95f8f1888d101cd159ae38e68395e008ee843cee9aac169cb02"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-mouth-small.png",
+      "bytes": 824892,
+      "sha256": "e05d1758ba846af9bc0676e7fdb06ed27c4c6e619b211bc7d4525f49f6fd46fb"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-neutral.png",
+      "bytes": 825113,
+      "sha256": "1e872a3f3fa649022c226d97ecb6975b592c00d74327e21c9b11f4163a4ba479"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-recovery.png",
+      "bytes": 825113,
+      "sha256": "1e872a3f3fa649022c226d97ecb6975b592c00d74327e21c9b11f4163a4ba479"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-tail.png",
+      "bytes": 826304,
+      "sha256": "56a16e36d714f03a2f15fe31adbf3ee9cd2a0f42c4d045d29edbe47ac27c0bec"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-wings-fold.png",
+      "bytes": 822825,
+      "sha256": "d9b7ee4392c8a2140516cbf0a9295e09f6c02621ba518f01ee201212eba72a33"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/jill-upper-w-wings-open.png",
+      "bytes": 833701,
+      "sha256": "e6619b6e9d532d058836451c609d02bb958fde029b97b359e2fe2540d747cfda"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/legacy-internal-alpha-mask.png",
+      "bytes": 17628,
+      "sha256": "ffd441f2e7ea5f29cc4774f49c1d035383115130d3c24c7f9adab7f651cc89e9"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/original-body-preservation.json",
+      "bytes": 2240,
+      "sha256": "eb7079208a9599f7e6c33ec161ad61061c5f0fb304995182a6486ab458faceb4"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/playcanvas-runtime.json",
+      "bytes": 397703,
+      "sha256": "984b69fb96dedd14111f59c75e7929eba293887ac88d3b532cba81a4a6583da7"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/preservation.json",
+      "bytes": 1732390,
+      "sha256": "e9eec62ce3ef7312535d24e42bdf6933d2345d0e943c81d9319f6115084d24c2"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/protected-sources.json",
+      "bytes": 1427,
+      "sha256": "7812c8e21d09b21227f7708ab42ab45acb46680bffe3ba7e3de53d82ca90905f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/recovery.json",
+      "bytes": 132,
+      "sha256": "0b298addb083bb867559e9820f6319bd9a03290bc7cf7546a643d29090f417f9"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/reimport-proof.json",
+      "bytes": 1367,
+      "sha256": "c737fa5df6deb7bb0ebe34e6f37834c2c251d7e00bded95e2311e3cd3f74c64e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-combined-3q.png",
+      "bytes": 554104,
+      "sha256": "049009a251cfaf54f16d26c314ab9a7c00afd440da56b17029b5f0e292ccd9ad"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-combined-front.png",
+      "bytes": 554738,
+      "sha256": "e1e18967d5f3e93b09614495913304a82e195de2936e5daf92960c6022d777b0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-combined-left3q.png",
+      "bytes": 522819,
+      "sha256": "96b6b3929ee57e7ca25e09aff5f487a2e05093066ef4fdb1104b9f9c41ea237b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-combined-side.png",
+      "bytes": 511935,
+      "sha256": "1398ef7472f321b8994365db82f10d166afa5145c42d5a16319a62f60eaef9aa"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-detail-3q.png",
+      "bytes": 463561,
+      "sha256": "518ce94a7a60a3c7002fd0db538ca661427930d9badeafedfdc9835de02a83cb"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-detail-front.png",
+      "bytes": 460633,
+      "sha256": "8a7747b90f1e947614220a5684f8b2579864be0438db7d81bab2c8c31d00eeae"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-closed-3q.png",
+      "bytes": 537211,
+      "sha256": "9dc152dc4a252fd9e69005c5b5f0173dadeaa3f925f5e5aca7a0b25a19a330bf"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-closed-front.png",
+      "bytes": 551538,
+      "sha256": "d937e965b3ff6a4d2a672b284b5a09668536208f0cee84e724539ad13a1a4b00"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-closed-left3q.png",
+      "bytes": 516787,
+      "sha256": "46e74c8507d7952f288a84cd6aa20e125c448c622d02756887e5e16691fb5fcd"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-closed-side.png",
+      "bytes": 518178,
+      "sha256": "ce997669a222fa458eaa4fbd5d5950b4c33df60b7193d11fabafbd71f5879c9b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-large-3q.png",
+      "bytes": 542948,
+      "sha256": "6b1910f1bb96a6fa5ce3d46f20bd3e234a1efd325d30c0af74aa39ae8daa0a4c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-large-front.png",
+      "bytes": 557221,
+      "sha256": "c337c4903e79141d3cac0e94a66d02260f9f4a28d95e773daa3ab9feef2715b8"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-large-left3q.png",
+      "bytes": 522898,
+      "sha256": "cf58d4e3c0580efc97fa9ecd4da31c56688bdaa7979a17e78c285ecef6956fd0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-large-side.png",
+      "bytes": 518237,
+      "sha256": "14e163dac3f3a04a19d3b9b134a12328335e46be6cd5dfc3c567c6563596a340"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-small-3q.png",
+      "bytes": 540014,
+      "sha256": "1e2879fdbbdba4acb86047339e41c93ff633b56dfcbe3cd007694037b71ff68c"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-small-front.png",
+      "bytes": 554464,
+      "sha256": "1302dd75a175e211f78c29d39437df8e52c112f3cfc30150c050808f1c901449"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-small-left3q.png",
+      "bytes": 519759,
+      "sha256": "5cb40c76eb0a9109ba6db05190befcb58c44c9b0c95e1b648ff9e3019f016d60"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-mouth-small-side.png",
+      "bytes": 517820,
+      "sha256": "c353792ba173ffd7b5bc29b9fe02cbcb24f18e3d39f58925e1a61d90d423134a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-neutral-3q.png",
+      "bytes": 541833,
+      "sha256": "ec313577bd35d7921c7c1665ae1c90f8cde30faa9b8fda6c91be2848b713b90b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-neutral-front.png",
+      "bytes": 555951,
+      "sha256": "872dc6736dcafa8a8d416c96d182ecf7958b1076a106e3b2b2999aa5cf8e18f6"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-neutral-left3q.png",
+      "bytes": 521525,
+      "sha256": "86cbbe24cbb39a04070a670b4b535b2da4fdc41f8776ff7b27d9799e399771c6"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-neutral-side.png",
+      "bytes": 518295,
+      "sha256": "1deaec9479bd0c688352b41ed7dc2c5489d7a67bb69276f15cbc2bc13be932d5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-recovery-3q.png",
+      "bytes": 541833,
+      "sha256": "1d991d6969b48e543fff91529eaf50f421d2a57646e2c1eacdbc7b6b9dc9c1a8"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-recovery-front.png",
+      "bytes": 555951,
+      "sha256": "bf8d08d84440acbd0abdb6239e2a7c527aba767765398099e7cd88ce9a86dac7"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-recovery-left3q.png",
+      "bytes": 521525,
+      "sha256": "aae3775f2fb922f2f3ab2e5146752bc1729d4f10ee2c07ada7adbdc423e4c2c5"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/after-recovery-side.png",
+      "bytes": 518295,
+      "sha256": "5531b836b2457a0ee0e6fc43ecfcc88389c81b51902bdcc9f0f97ce921b08f1d"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-combined-3q.png",
+      "bytes": 550360,
+      "sha256": "e0533c9eca5dcdd988ef648901d03fd7686c08ed2fea41394b89ebdd9e022ba0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-combined-front.png",
+      "bytes": 551711,
+      "sha256": "825fa1cffbca0a8018f02f0918b77d56ee6f04b176156d41246c459fcd92bdd3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-combined-left3q.png",
+      "bytes": 519820,
+      "sha256": "7e4644da842ab49af9f2e9250d9d7388f35ae09a6c6fec53cf01d6d5d82964f4"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-combined-side.png",
+      "bytes": 511436,
+      "sha256": "e8c493a14947373d1dd3a103aebeeadd5d4cd8a183a7d2faba7e1e1a2b15b680"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-detail-3q.png",
+      "bytes": 456100,
+      "sha256": "4b283b98d55b98d27ec446c9d58f80eb8d1ea6b9057bb23fb872df90905db177"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-detail-front.png",
+      "bytes": 452350,
+      "sha256": "beaade43b65cd91b6fca63068b2cc08f4ce8b9bfb35113938b2ef6fb9f185ef0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-closed-3q.png",
+      "bytes": 535854,
+      "sha256": "c8a902ea9104703e47fdb4d50d606b804d750d67053b61a1fae1faf19e6dd03a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-closed-front.png",
+      "bytes": 549520,
+      "sha256": "84caac01f85386e6b02ea226c3e002dbeea56d3e97f1f55e5c6764e447e75b0e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-closed-left3q.png",
+      "bytes": 515440,
+      "sha256": "ed97705f0b071284eb7cc78a4017dcd5246d9751ecfff9b3defe8433d8317033"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-closed-side.png",
+      "bytes": 518262,
+      "sha256": "ec212b96b8bb64994d170f011d8613106f631191ab8d6032b0306fbab5be9cc0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-large-3q.png",
+      "bytes": 540467,
+      "sha256": "4ca733d6f6d839c798b2f08c8f1f08b13e7df8fbd2ac00fc1e9aeecfa9ed4879"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-large-front.png",
+      "bytes": 555220,
+      "sha256": "0c1ef40fc0df44931fcda1265b7df934ef81c9cc9925c923287e11c9225b5fc8"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-large-left3q.png",
+      "bytes": 520495,
+      "sha256": "7cdcf95cde41d94bbe82f0c50f3bffcf4226350eb6184db1f8ec2a01c3b00b48"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-large-side.png",
+      "bytes": 517931,
+      "sha256": "cdbae067d2df1b901062393db5d2017b8d25bdc4254194dc1e09aa184b8a6ebf"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-small-3q.png",
+      "bytes": 537374,
+      "sha256": "974157ba964e097fe7fa79c8949a9cbe55af4c7e4a616283e7fb3646ea74a715"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-small-front.png",
+      "bytes": 551922,
+      "sha256": "ba7d9d5e1a8a66702583d3fe72b2656e0cf63739a7ae562caaedd751cca719d9"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-small-left3q.png",
+      "bytes": 517367,
+      "sha256": "59deb24ed5c9d8011d8026f542f1c6b97a851a22f74ccaad394742c0abac0c2a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-mouth-small-side.png",
+      "bytes": 517893,
+      "sha256": "314f82e2a2a93873462284b3331ad00270e2f0affe0cc458d760c1c8512cb258"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-neutral-3q.png",
+      "bytes": 540083,
+      "sha256": "affab94032995bc83784e9273ff9096ecccdfb0e5875e5ed799fb14e20c9e1a0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-neutral-front.png",
+      "bytes": 553751,
+      "sha256": "6e845992d36b134154e665705a17f7f8f71ae0c0cd7d3ae7daf8285db0436296"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-neutral-left3q.png",
+      "bytes": 519994,
+      "sha256": "660fa6755084ed061a18fab040122b02edb786ea3d05ccbbcf75368047753809"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-neutral-side.png",
+      "bytes": 518113,
+      "sha256": "bdfbf29ae7bfef89fa455ea98eb485c06b38d61b9ef7efb254e6fed2c5d9fabe"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-recovery-3q.png",
+      "bytes": 540083,
+      "sha256": "1facec39527b8f8dbdec47046fd115911f2925ad22142cfcbef36abd1434e3bc"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-recovery-front.png",
+      "bytes": 553751,
+      "sha256": "4be4fbbd5fa04d5f0631b73c595e05682fa3bf7573d54cad6c702ba06dadfad3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-recovery-left3q.png",
+      "bytes": 519994,
+      "sha256": "8b6f9f25cf56227a3090d15abbdd482f6056056e7d811500be3ea7911f3741ee"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/before-recovery-side.png",
+      "bytes": 518113,
+      "sha256": "e1c4e0d3f6e7e6317e9eef4162cd3030f395078e9d65331e22f4fc420e16d32b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-clay-3q.png",
+      "bytes": 427990,
+      "sha256": "9dbf27bb62f240920071a7edf4729ab277d758c596d4c6529391e2b0bc3c5804"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-clay-front.png",
+      "bytes": 437763,
+      "sha256": "90a62d53cb17ca585c4b5105c3163597a32248b00d2856385e34bc66a5ea8756"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-owners-3q.png",
+      "bytes": 445671,
+      "sha256": "3814b8e9d900de5272cceda86f12a6b92e6bfc904ac6de3729b691e5ace6b8f0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-owners-front.png",
+      "bytes": 446392,
+      "sha256": "3b26bc342910ac16603d512e1da2c9ec8002aa110eb495c805d44e7f41871c69"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-texture-3q.png",
+      "bytes": 456100,
+      "sha256": "0577fa8ea64981741b4576227429a5db5461aa5836e3c9930d3fadec7afde34f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-texture-front.png",
+      "bytes": 452350,
+      "sha256": "c7f93d649132b158dcddbcbf4adb341b08354a20b13c22a98bfd2e1e5aa5b33a"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-upper-collar-removed-3q.png",
+      "bytes": 458527,
+      "sha256": "7e5e7bcf25ce24632bcefbae56f7545845bd07ecc0dc17855864c33975cf859f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/diagnosis-upper-collar-removed-front.png",
+      "bytes": 455574,
+      "sha256": "f8b58f0e6fdb4246d08df3ccc27922390ffc45527063fb05a27ddce352215e67"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/mask-trial-neutral-front.png",
+      "bytes": 455845,
+      "sha256": "977fd0f65b6e62db117a97954aeb9f693a72776b728cca1a4fb80bd6b34e3ada"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-blink-full-3q.png",
+      "bytes": 520227,
+      "sha256": "815e3337eef03bfb9a5d7de21d0f10616a8c42226b7196bad888dfe9d3359063"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-blink-full-front.png",
+      "bytes": 549473,
+      "sha256": "5b91bf57323f902a3a1731bc7aa4a998b416dc291361ba0a0fcff1d39df21f12"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-blink-full-side.png",
+      "bytes": 495651,
+      "sha256": "4cf8da70a6eb5035325bb71daec8956dfbd0bf77531bbb6dafcb166f2ceab687"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-blink-half-3q.png",
+      "bytes": 529898,
+      "sha256": "2fae839b39a0bd82fdc4ceb56d24d1f48fc90583d3bcd6bfd9cbd77d5c139429"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-blink-half-front.png",
+      "bytes": 558758,
+      "sha256": "fb6a921e34d68b12fc2f7146df49ab80d92c81860f9e426613b6c049f944d564"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-blink-half-side.png",
+      "bytes": 500208,
+      "sha256": "c251bc853debce1e5f14f4abbcc34b5ae433e01dd00f0a413d7a747a4a39817f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-closed-3q.png",
+      "bytes": 527963,
+      "sha256": "eab81f1e43667dac4721d398af3caf7f144c996e2880342f7cf7d718a9bd25e0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-closed-front.png",
+      "bytes": 556675,
+      "sha256": "80b5e4692f4eed3d4dfee5879d2deac4392147af0f35107a4b89b954b69dbbab"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-closed-side.png",
+      "bytes": 502653,
+      "sha256": "1e2d034b4e66cf0835cf93a8155fd1c5d159fd3d2ec555f4264513b7f12e491e"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-large-3q.png",
+      "bytes": 533829,
+      "sha256": "26dacc22cf9f68fd2d85fd03443782933a4d7aa803e36eeb9b82322b88cc82b8"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-large-front.png",
+      "bytes": 562721,
+      "sha256": "0051a475b38b299fb7be60cb6148fdb539aa0cada90a1a71e3db89546ec529ae"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-large-side.png",
+      "bytes": 503569,
+      "sha256": "773fe1ce1724413da2f2e76b93b92ac4eef07233f96de80c7b6a4e07a84fa5c0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-small-3q.png",
+      "bytes": 531062,
+      "sha256": "29d206073cc6eb41b084c9dcb5cb4a3d701db9613d66b37090a5d3abf0092c48"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-small-front.png",
+      "bytes": 559559,
+      "sha256": "69f876b3a389ba6eea90cfc45c3aebd02f4709116f37e330c2596ba371b0c112"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-mouth-small-side.png",
+      "bytes": 502333,
+      "sha256": "93723fccb5c128921ca0f18a7066a1093fe11068090da2c9359577f25dfa84a0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-neutral-3q.png",
+      "bytes": 532478,
+      "sha256": "047cd193d94bffac272f613b720ab802087a118112073adac9056ffbc7714165"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-neutral-front.png",
+      "bytes": 561016,
+      "sha256": "486ab2e80e06d8c54a38843066c457b6f659261bfeae6f75fc13f15670a4f77b"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-neutral-side.png",
+      "bytes": 503356,
+      "sha256": "d1cbf7c37a6fb1c80e930c08cdf07bb8866267231de0b81e3e56fa109e59c6b8"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-recovery-3q.png",
+      "bytes": 532478,
+      "sha256": "6ff6331d09ee71c17f2e8c8530f1244b3a402050c5bd8bed2d1718e5949e0b62"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-recovery-front.png",
+      "bytes": 561016,
+      "sha256": "093c985d4d16e487ac7de6a228bcc514789923576c6522e7a032c9e2fd058f83"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/renders/reimport-recovery-side.png",
+      "bytes": 503356,
+      "sha256": "79f0e6e03404d92e129e2945dc34e170ebe93c25fb2995673eb8ebf24c03a1aa"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/review-states.json",
+      "bytes": 428979,
+      "sha256": "44458abcb04838a49cf3396c8397c5bda402d652545b6d478996380388873fa3"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/REVIEW.md",
+      "bytes": 6968,
+      "sha256": "bb424ed26966bc40d8406deedc2c4bf1985fb10ef0ce68a3e606c3868cf1aff6"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/rim-targets.json",
+      "bytes": 7811,
+      "sha256": "a39cb6da30c86a24b0cf84aa9805b846048466e517a7df854aed2e9aaa0d4a6f"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/runtime-before.png",
+      "bytes": 821031,
+      "sha256": "be1bcbbbb4325e89ce1c525216924bf8da9a1412005430461ba2f6a2c8be0e2d"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/runtime-schedule.json",
+      "bytes": 1207,
+      "sha256": "3d8821a223abf9f5ce67f265d24946141eedc679e08d1099a0afc638a2b918b0"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/runtime-validation.json",
+      "bytes": 2069,
+      "sha256": "a120afc58b9cec577bf442a3bec4e9a89d78d7b0a125178e2fa4ab70947293b7"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/saved-states.jpg",
+      "bytes": 641555,
+      "sha256": "68a768e27cd9034606f19cd01432a4e28457c8ffe3abbd1e553340b0ad710aae"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/scene.json",
+      "bytes": 2860,
+      "sha256": "d7bb6d8467eb87e12368f6fea301f2c348411b1b26247f33426b393524bdb248"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/upper-w-local/texture-delta.json",
+      "bytes": 109,
+      "sha256": "024998cbd14b5cdf37852d900feb4954621e2158de4f3b7a40111ee53916b402"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/serve.mjs",
+      "bytes": 1979,
+      "sha256": "1883976b737b486d3f256d4c190c993d8d7bbdc83ad848c2c8b98228c8811c91"
+    },
+    {
+      "path": "scripts/blender/jill-upper-w-local-v005.py",
+      "bytes": 16197,
+      "sha256": "0204e53a62c9f19483bdf4dd52224f45aa4dd4b7f7400e2badd13efdc327e47e"
+    },
+    {
+      "path": "scripts/blender/verify-jill-upper-w-local-v005.py",
+      "bytes": 716,
+      "sha256": "9eb9d3ac8b1cfbc8759d51407445365cf79248e0994a83be528e587bd29a10f9"
+    },
+    {
+      "path": "scripts/qa/jill-upper-w-mask-v005.py",
+      "bytes": 1333,
+      "sha256": "79de756427589a0aafe40ee9a1798d74f5dea622de645322e1926ed7e67a4bcb"
+    },
+    {
+      "path": "scripts/qa/package-jill-upper-w-v005.py",
+      "bytes": 5825,
+      "sha256": "722fe37c8cbc9fb1875d481b3ff22bede82ebe72de7727e787e0c70fdf9b9e60"
+    },
+    {
+      "path": "scripts/qa/verify-jill-upper-w-runtime-v005.py",
+      "bytes": 520,
+      "sha256": "33700c2b43e10b847ac07a9fafac2871e8204630a86c6dd1fcbaa9f7ac0dd86a"
+    }
+  ]
+}
