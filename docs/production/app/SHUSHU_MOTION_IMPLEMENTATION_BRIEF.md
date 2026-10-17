@@ -82,6 +82,36 @@ This is a **priority of ownership and preemption**, not necessarily numeric laye
 
 **Critical layering test:** stand on 4 feet → upper attention → blink → ear+flower delayed → release all overlays → base pose unchanged; then sit with one free forepaw → touch opposite side → current pose retained without snap or 2-paw floor release. Verify in saved GLB + actual PlayCanvas, not isolated Blender posing only.
 
+## 4.1 Experience-directed behavior orchestration — ship feelings, not animation counts
+
+**Human-directed adopted design goal:** on first view the character is immediately adorable and unhurried; on touch she understands the specific location; while waiting she is content on her own; a rare soft invitation shows genuine agency; repeated encounters remain recognizably the same Shushu. See [Bible v002 §2.3–2.6](../../grimo/knowledge/character-experience/SHUSHU_MOTION_BIBLE_V002.md) and [Poseboard emotional storyboards SB01–SB07](SHUSHU_MOTION_POSEBOARD_SPEC.md). This is a **contract for animation orchestration**, not an authorization to change product inventory, rewards, memory or login rules.
+
+**Two conceptually separate state holders:**
+
+1. **Physical state:** support posture, planted foot/contact, actual world-locked root, available free forepaw, enabled morph/bone channels. Stable transitions and locomotion have exclusive support ownership.
+2. **Social/expressive state:** attention target/hold, user head/cheek touch intent, gesture type (tap/poke, slow pet, continuous stroke, back-and-forth pet), emotional intensity bounded to approved face, self-selected thought, small afterglow and safe intention to invite. This state **never invents items/rewards nor overrides physics**.
+
+**Control sequence:** real input or independent, justified Shushu intention → evaluate support and actual target → choose **lowest safe readable gesture** → local ACK where possible → stage coherent gaze/hold/body commitment → real contact/prop if applicable → settle and meaningful quiet. Strong emotion spends more channels only if justified; ordinary calm is valuable. No periodic 35-motion carousel.
+
+| Situation / action state | Cue and intended user reading | Selection / guard logic | Re-entry and cancellation |
+| --- | --- | --- | --- |
+| APP_VISIBLE_ENTER | “She's here, happily herself” | Load actual supported last safe/default pose; bounded slight recognition or calm independent gaze, do not run a compulsory multi-second welcome | Component visibility/loaded model required; route exit destroys owned timers and renderer |
+| IDLE_SELF_OCCUPIED | “She is comfortable without me” | Select rare tiny gaze or ear/chest from semantic scene/user context; preserve long quiet intervals; no sound/VFX crutch | Local touch preempts immediately at face ACK level |
+| TOUCH_ACK(zone, gesture) | “She felt my finger on *this* side” | Spatial hit-test with gesture and side; eyes/cheek first; support-safe head lean for slow pet; sustained stroke changes hold, **does not restart clip every frame** | Opposite side redirects from current pose; if body busy, face response without foot release |
+| INTENT_INVITE | “She is asking rather than obeying” | Enter only from peaceful, stable supported pose with an available free paw or cheek presentation and no input conflict. Face and gesture visible together; no pressure | Enter WAIT, no requested response assumed |
+| WAIT_FOR_RECIPROCITY | “She is patient” | Hold supported gesture ~1.5–4s *starting trial* with breathing/lid variation but no loop pulse or continuous baiting | Real reciprocal touch → warm local ACK and shared beat; timeout/ignored → nonjudgmental recover-to-idle |
+| GENTLE_BOUNDARY | “She has preferences but is kind” | Upon rapid repeated poke or disfavored semantic zone (if supported), small eye/head avoidance; do not interpret touch noise as aggression | Recovery to neutral comfort, not mood penalty, affection meter or lockout |
+| ACTUAL_ITEM_ACTION | “What she chooses has meaning” | Resolve product event ID, object existence, kind (Food/Wear/Secret/Gift) and compatible anchor **before** entering item stage | If invalid/unavailable, no simulated item motion or inventory change; keep simple attention |
+| LEAVE_AND_RETURN | “I can come back anytime” | No fictional all-night wait or negative absence emotion; return recognized with subtle contextual variation | Task/Calendar navigation stays immediate; no extra eager 3D fetch outside /grimo |
+
+**Selection policy:** First choose **semantic intent** (quiet/notice/ack/invite/recover/item) and **current safe posture**, then select minimal fitting repertoire primitives. Bound repeated identical gesture patterns *only when alternatives remain authentic*, not by selecting random emotion. No undocumented persistent intimacy/mood meter; short-lived pose/attention memory is animation continuity, not user-profile tracking. The permanent product contract explicitly forbids affection points and neglect penalties.
+
+**Gesture classification boundary:** input normalization must account for portrait display dimensions, CSS pixel scales/DPR and touch speed; do not bake human thresholds into the Bible as physical ground truth. A slow pet only becomes a lean after safe hit target and resolved direction. Do not leak contact coordinates to rewards. A rapid poke can produce gentle preference feedback but never stop basic navigation or punish.
+
+**Session-scale proof** (from real running app, not render still): (1) 0–10s open/recognition; (2) one 10–30s gentle touch→release; (3) self-initiated invite→WAIT→response and ignored variant separately; (4) at least 10 mixed short interactions without snap/copied cadence; (5) 2–5min autonomous quiet with occasional specific intention; (6) leave for Task and return without shame/friction; (7) item and Gift only when actual product event is implemented. These are **QA scenarios**, not fixed timelines or scripted in-game cutscenes.
+
+**Release-slice rules:** Stage one can ship emotional B01/B02 + I03 + E01/E06 + localized additives on the existing stable body without requiring a fresh Sit→Stand if it would threaten current identity. However do not claim full Companion Gate until autonomous INTENT_INVITE/WAIT/reciprocation and richer gesture semantics have actual evidence. The T01 mechanical support probe remains mandatory **before** exposing sit-to-four-stand or locomotion as user-visible motion. No secret forced 3D prop dependency from a Canonical bouquet image.
+
 ## 5. Clip, state and evidence naming
 
 **Naming principle:** short stable ASCII snake_case filenames, no ambiguous side or variant, with prefix and source ID. Examples are **proposed names**, not existing files.
@@ -112,11 +142,11 @@ This is a **priority of ownership and preemption**, not necessarily numeric laye
 | Phase | Smallest acceptable candidate | GO evidence / stop |
 | --- | --- | --- |
 | 0. Preflight | read **actual** current donor and active C1 branch; enumerate surviving bones, rest poses, morphs, eye/ear/flower and paw/seat controllers; inspect current installed PlayCanvas behavior | produce channel availability table + identity/rig HOLD findings; no invented API |
-| 1. Key-pose images | for only the prioritized motion, generate [Poseboard](SHUSHU_MOTION_POSEBOARD_SPEC.md) critical F/S/Q/C/P views against frozen Canonical; annotate real supports and times | HUMAN_POSE_GO for that family before authoring corresponding hero animation; status still not MOTION GO |
+| 1. Key-pose images | first SB01/SB02 emotional scenes on the frozen Canonical and donor, with critical F/C and S support; in parallel a separately gated T01 support probe with F/S/Q/P | HUMAN_POSE_GO for the specific family/scenario before corresponding animation; no blanket MOTION GO |
 | 2. Low-risk living slice | C2-A 15–30s calm idle with meaningful silence; genuine gaze/blink/controlled soft breath/ear/flower channels **where feasible** | real product animation and identity/Human slice gate; independently of large transitions |
 | 3. Mechanical hero | T01 SIT_RUMP→FORE_BRACE→RUMP_UNLOAD→HIND_GATHER→STAND_FOUR, full continuity; no new model | front/side/3Q/contact video + approved poseboard + HUMAN_MOTION_GO; if mechanics fail repair support capability only |
 | 4. Return and locomotion | T02 reverse first; L01 + L02 2–4 steps + L04 stop with contact phase | stable foot plant, no slide; side and front in saved GLB + actual PlayCanvas |
-| 5. First touch / intention | I03 gentle cheek touch, E01/E06 + A01/A02/A05, support-safe redirects | local ACK with opposite-side redirection and front-fixed readable capture; User behavior judged |
+| 5. Reciprocal agency | I03 gentle cheek touch + E01/E06 + A01/A02/A05, then B06/I05 invitation→WAIT→reciprocation/ignored recovery where support permits | local ACK, context-appropriate agency with gentle boundaries, no guilt, opposite-side redirection; Human judges emotional intent |
 | 6. Optional expansion | supported T03/T04, L03/L05/L06, T05, I01/I02/I05; then variants/emotions/prop-conditional I04/I06 | per-family poseboard and Human Gate; defer unneeded clips |
 | 7. Runtime + device | Integrate only accepted clips within visible /grimo, actual QA | compare device/browser screenshot, frame pacing, task/calendar cold-route isolation and disposal; PHONE UNKNOWN without actual device |
 
