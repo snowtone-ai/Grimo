@@ -6,7 +6,7 @@
 Shushu-only noncommercial personal/family PWA; local Dexie, manual backup; no legacy migration, sync/cloud or core login. Vercel `grimo` deploy unverified. [Contract](../grimo/knowledge/product/GRIMO_LOCAL_FIRST_ARCHITECTURE.md). Gate B [PR #10](https://github.com/snowtone-ai/Grimo/pull/10) merged (`919038cd`), CI PASS; [evidence](data/LOCAL_DATA_FOUNDATION_V001.md). Next: [Shushu Gate C1](app/SHUSHU_APP_RUNTIME_C1_PLAN.md). Rewards/release HOLD.
 
 ## Shared foundation verified
-- `main:AGENTS.md` was updated at [`da479113`](https://github.com/snowtone-ai/Grimo/commit/da4791135414a94951ed2d9ab51ca28da9ebcec8) to require GOAL-first, identity protection, targeted evidence, cause separation and minimal sufficient work. Next.js auto-generated rules were retained.
+- `main:AGENTS.md` — GOAL-first / Canonical保護 / 実物Evidence / 最小十分な検証が現行共通規則。
 - 2026-10-15 [shared-reference sync](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/character-production/SHARED_REFERENCE_SYNC_20261015.md) registered 15 Body-only PNGs and their hash manifest on main, shared Canonicals and other reusable knowledge. This **does not** confer Tripo preflight, 3D, Rig, Motion or Human acceptance.
 - [Project Knowledge Router](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/GRIMO_PROJECT_KNOWLEDGE_ROUTER.md) is the stable entrypoint; Goal√map is the WHY. Former `coord/grimo-ai-handoff` and old `GRIMO_AI_HANDOFF.md` are history, not active coordination.
 
@@ -15,7 +15,7 @@ Shushu-only noncommercial personal/family PWA; local Dexie, manual backup; no le
 - **Pino:** 2026-10-17 Human **GO for mouth-gem removal appearance only** on `codex/pino-gem-cleanup-v001-20261017`, corrected donor `pino-c-v005-tripo-gem-cleaned-v002.glb` (see [scoped v002 REVIEW](https://github.com/snowtone-ai/Grimo/blob/codex/pino-gem-cleanup-v001-20261017/docs/production/pino/evidence/tripo-gem-cleanup-v002/REVIEW.md), approval recorded in branch commit `029f0668`). **Human clarified:** Tripo Geometry and Texture generation are complete; **only basic animation generation remains within Tripo**. Separate **Codex/Blender** Texture image return to existing v005 Rig/Master remains HOLD due to donor material/position correspondence; do not transplant donor Geometry. Tail/short-arm/support Motion and runtime remain independent gates.
 - **Shushu:** donor `codex/shushu-abc-motion-repair-v004-20261017` (`c5bed8b7`); v004 body Human PASS, soles PASS, later Human flower v002 GO supersedes historical review PENDING; actual phone/Next runtime UNKNOWN.
 
-- **MERUNE (2026-10-18):** Human採用済み2D Canonical（猫×音楽）を文書化。[Identity Bible](../grimo/knowledge/character-identity/MERUNE_IDENTITY_AND_CHARACTER_BIBLE.md) / [Motion Draft](../grimo/knowledge/character-experience/MERUNE_MOTION_AND_INTERACTION_SPEC.md) / [State](merune/PRODUCTION_STATE.md)。**原本PNGとTripo Rig GLBはmainに未収録**（実SHA記録あり）。Tripo UV/8K Texture/Rig実施済み、GLBに62関節とWeight、Animationなし。bind pose/変形はHOLD、実機はUNKNOWN。初期Shushu-onlyに影響なし。
+- **MERUNE:** [State](merune/PRODUCTION_STATE.md)に採用済み2D Identity、Motion案、Tripo Rig事実を登録。原本PNG/GLBはmain未登録。変形HOLD、Shushu-only維持。
 
 ## Current operational gates
 User-visible Identity, cuteness, expression and natural support/contact require actual comparable renders and Human review. Geometry/Rig/GLB tests validate only their demonstrated scope; unverified runtime/credit/UI claims remain UNKNOWN. Keep accepted assets, other characters, source binaries and uncommitted work intact. No blind branch merges/rebases and no unapproved chargeable Tripo actions.
