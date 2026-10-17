@@ -77,6 +77,14 @@ Pokémonのlogo、card art、character art、UI image asset、proprietary icon f
 
 ---
 
+## 1.3 Implementation fidelity × performance — verified engineering boundary (2026-10-17)
+
+**Do not substitute a new design system:** This file's numbered color/material/typography/spacing/navigation/card/sheet/chest/sound/haptic/motion rules are the **current frontend authority** and should be reproduced faithfully through original Grimo assets and UI implementation. A generic “Pokepoke-inspired pastel UI” is not compliance. Apply the visual test and interaction test separately (§33); technical performance PASS cannot automatically confer visual fidelity PASS.
+
+Architectural placement, lazy 3D loading, mobile responsiveness and profiling are governed by [Engineering Architecture & Performance](docs/grimo/knowledge/product/GRIMO_ENGINEERING_ARCHITECTURE_AND_PERFORMANCE.md). Any optimization that visibly alters the DESIGN values needs before/after mobile evidence and explicit approval if quality regresses. Do not read this as permission to copy Pokémon's proprietary assets, exact sound recordings or licensed fonts.
+
+---
+
 # 2. ポケポケReferenceのEvidence Model
 
 推測値を「Pokémon内部の正確な値」として扱わない。

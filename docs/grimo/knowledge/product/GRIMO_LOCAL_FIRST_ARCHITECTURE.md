@@ -19,6 +19,8 @@ The companion itself remains **full 3D**. Backgrounds, Food, item illustrations,
 
 This is an incremental **rendering policy** for future app/companion/content work; it does not expand the next DB-only Codex task. The 3D companion and its rig remain genuinely full 3D; deprecated 2D/2.5D character reconstruction remains retired.
 
+**Engineering addendum (2026-10-17):** [GRIMO_ENGINEERING_ARCHITECTURE_AND_PERFORMANCE.md](GRIMO_ENGINEERING_ARCHITECTURE_AND_PERFORMANCE.md) selects the minimal modular-client architecture, code-splitting, input latency, 3D resource lifecycle, mobile benchmark/fidelity gates, preserving `DESIGN.md` as the exact frontend authority. This guidance does not expand the next database task.
+
 ## 2. Dependency and application topology
 
 ```text
