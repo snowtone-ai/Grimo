@@ -19,7 +19,7 @@ if(process.env.JILL_REVIEW_MOUTH_CONTROLS==='1'){
 }
 http.createServer(async(req,res)=>{
  try{
-  if(req.method==='GET'&&req.url==='/review-config.json'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({mouthControls:process.env.JILL_REVIEW_MOUTH_CONTROLS==='1'}));return;}
+  if(req.method==='GET'&&req.url==='/review-config.json'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({mouthControls:process.env.JILL_REVIEW_MOUTH_CONTROLS==='1',leftSide:process.env.JILL_REVIEW_LEFT_SIDE==='1',appearanceStatus:process.env.JILL_REVIEW_APPEARANCE_STATUS||null}));return;}
   if(req.method==='POST'&&req.url==='/evidence'){
    let data='';for await(const c of req){data+=c;if(data.length>3e6)throw Error('too large');}
    const result=JSON.parse(data);result.model_sha256=createHash('sha256').update(await readFile(routes['/model.glb'])).digest('hex');

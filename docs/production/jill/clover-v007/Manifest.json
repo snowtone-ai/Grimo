@@ -1,0 +1,403 @@
+{
+  "branch": "codex/jill-texture-return-v005-20261017",
+  "mouth_base_commit": "d4e73c1",
+  "human_decisions": "2026-10-18 mouth GO, clover OK, horns unchanged",
+  "scope": "Image-only clover derivative; full-model eye issue remains",
+  "files": [
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/canonical-clover-decal.png",
+      "bytes": 519922,
+      "sha256": "92e2c0dac88b5e3d82a5cf47c3ac2947c53c3826f8ef45cf0c2d0e480e2cfca7"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/jill-basecolor-v007.png",
+      "bytes": 11947318,
+      "sha256": "9464951f1143cb870f6ce57759bd6ed2a4199d0b7ec0bc60050fe4bfdeff8640"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/jill-textured-rig-v007.blend",
+      "bytes": 16105676,
+      "sha256": "9c2fd04484dcdac86dc490335235c9f50b365cd212e77811db3c76a60949c703"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/jill-textured-rig-v007.glb",
+      "bytes": 20097480,
+      "sha256": "eac4036d5937fa98343a57fe0e0139a84995eeb27460d979f815a0a8b0db8fc2"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/README.md",
+      "bytes": 1304,
+      "sha256": "984027c946e58a547f8f31745952abc6226134a5496c41fb635ebc81695be9fe"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/clover-detail-3q.png",
+      "bytes": 651533,
+      "sha256": "4e0cb4f002e7a3c6fd10ed8b9554c51d8b697933a2b896879c795fea5d30f0ad"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/clover-detail-front.png",
+      "bytes": 619491,
+      "sha256": "080b5e3a67804a42f3241d2272a3867a23a149137da3e8e8bf01ba24b8797484"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/clover-uv-mask.png",
+      "bytes": 17364,
+      "sha256": "5a6c0e389cf1c71c22060dff37016c9ada1387b42475e11fc5392707467b9456"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/Evidence.md",
+      "bytes": 4708,
+      "sha256": "6d03e8fa7f4d9594e9b868ffeab9e7af469412ffadc940976c7f8c775f7067da"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/Gate.json",
+      "bytes": 394,
+      "sha256": "9b25cc6a9f86504debc5b4deea7dcc4e92efc130b56f33d17f2917378c5fc205"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/imagegen-provenance.md",
+      "bytes": 1555,
+      "sha256": "bf214c9d329c3c630e8bcea8c8c82d55d924404415c3eae5a5f3809957c970ea"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/preservation.json",
+      "bytes": 1700311,
+      "sha256": "811d770a4aa6acbcd385dd4a1a5bd22fae3529e843c1a50851160a2dcb29f896"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/projection.json",
+      "bytes": 366,
+      "sha256": "7a1f4dc8f580e6a6a2635ab90ddde5561f798018e431c8b3f14248063a2fefff"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/reimport-proof.json",
+      "bytes": 1367,
+      "sha256": "6453ed27a3bcd167d8f325c458b2d6797e1c72cd01b47132a65080785586a696"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/combined-front.png",
+      "bytes": 396752,
+      "sha256": "1529631ed9986a87aec61a723ff71d2815f70062c027259a551956cc14de48ad"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/combined-left3q.png",
+      "bytes": 378759,
+      "sha256": "8c6ab604d7c3413885faaf6c0bf5ea594c0a911d52f2c094841ab4d0c4f25ea5"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/combined-side.png",
+      "bytes": 383956,
+      "sha256": "e5a1fd6fc51ba9d6bd5ba1acdfb98d889e00995b836d8f6d45e17fa992603349"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/face-mouth-closed-front.png",
+      "bytes": 547970,
+      "sha256": "8f97ac226686f42d182a802c359420c914b8ad91d5556a71aba85d030858bf26"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/face-mouth-large-front.png",
+      "bytes": 555941,
+      "sha256": "9246a83db20abf1bf9084cf596870538271ce333ba98ef4cdcf8ceea8b6cde02"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/face-mouth-small-front.png",
+      "bytes": 550970,
+      "sha256": "f4a62ea09abe7bd19cf7c52ca5d2747b7e137bd8c9ed7e3848b1b0d2fe9ef113"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/face-neutral-front.png",
+      "bytes": 554101,
+      "sha256": "ba37267577789fff1a73344a10fb23f3d2d419581b6fef5cee04094fb38b41e7"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/face-recovery-front.png",
+      "bytes": 554101,
+      "sha256": "9e4fa59ffc7d523bad68658b56d75dfda442fdbb29fd1284ec536d3f9f245ade"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-closed-front.png",
+      "bytes": 390453,
+      "sha256": "ed9e9778bce511a75dd1de2d5740aea7a5cfb1733bef1880aa46f6b6498c1c17"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-closed-left3q.png",
+      "bytes": 377672,
+      "sha256": "9d4afcb1fa8065de8c14f1697d4b834d57bddeebe6fa02d266f320b7decec900"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-closed-side.png",
+      "bytes": 387223,
+      "sha256": "6c91bfe29d30864753a425086c6ea84bab342720ece21e431e0a914c0717eab9"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-large-front.png",
+      "bytes": 392258,
+      "sha256": "10a57a3396db41f41409e32f095de99730665d9d86fbe53f531ecc4dc9eec547"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-large-left3q.png",
+      "bytes": 379459,
+      "sha256": "8e2eb035c56e9abbebebc42b58331780a3bfb37b4b2cdb259e13437c6c895ec1"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-large-side.png",
+      "bytes": 386841,
+      "sha256": "5a63beb1d43bb6c7e247ac5e3bd4496f309de26682d1fde79020772ab20ab912"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-small-front.png",
+      "bytes": 391368,
+      "sha256": "91de33ea75525decfc8bfc2309af4b5a6fd9bd615deef552c6bb6ebe891d8eed"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-small-left3q.png",
+      "bytes": 378295,
+      "sha256": "b725fd80a3db1fd2703ca0768cd07892040cf218c0265526bcae5a4a1c0a62c3"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/mouth-small-side.png",
+      "bytes": 387222,
+      "sha256": "ec609d35186a2b923dfa30d9a24184afaa02755d4beb12baf18dd045b31548c0"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/neutral-back.png",
+      "bytes": 379353,
+      "sha256": "3ea89ce4dcc57bb341016a62a85cfae127c5d674daced0d68911e4b49da292fc"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/neutral-front.png",
+      "bytes": 392011,
+      "sha256": "e8de9dc768da0a8f3e146b789885d9bad13ad4c6509f54986ce9dac93f6c254a"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/neutral-left.png",
+      "bytes": 366663,
+      "sha256": "5a76b58700ff2221dcfe1c4d4e455939bf3ce59ed91b1015677bd9fab5e0c19e"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/neutral-left3q.png",
+      "bytes": 378982,
+      "sha256": "de20f149512e831df2b9fe7f73589b07a134e131e17f10a817a7059371ea349c"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/neutral-side.png",
+      "bytes": 387256,
+      "sha256": "1d3b8158f765eee2ddd9a8d71588ad487d5a9cc5aff570888e08f7eba7e3559c"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/recovery-front.png",
+      "bytes": 392011,
+      "sha256": "4c082e2e89275958c7e99182022b2da623769c966eeb9ee5c28ea25cb9515991"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/recovery-left3q.png",
+      "bytes": 378982,
+      "sha256": "425c5b9f8628173d6873c972d17b0920a0e5d02c0de384d38201f99f1b3baf5b"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/recovery-side.png",
+      "bytes": 387256,
+      "sha256": "eab31dbff636d1f77962f64e7f9a41b57eb4e4610b537dbac6aad0232708add6"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-blink-full-3q.png",
+      "bytes": 334100,
+      "sha256": "cc755d420b0264b2f464e7c16dfd518f30521102815dd4a57721fa55ebe294a1"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-blink-full-front.png",
+      "bytes": 332926,
+      "sha256": "d2178201d0bcc940a6842f137dc9d3ab2699bfb9d98199e7ed2439b7eda10d5c"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-blink-full-side.png",
+      "bytes": 330549,
+      "sha256": "fae05cb9a3f55c627a57835ec5ee7ca06bacb733ca41874e2d63a3519d5ff57a"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-blink-half-3q.png",
+      "bytes": 336226,
+      "sha256": "31482522c9540150d2e7ee254c6d02b33237b1c06952cdf0d55321bad069720a"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-blink-half-front.png",
+      "bytes": 335474,
+      "sha256": "7490ce86ee5be737e6677a650c9e158c799d56a5366c3e8d781e6c4bd1e6efe7"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-blink-half-side.png",
+      "bytes": 331630,
+      "sha256": "f6ad5edbf275a50717d10cf263df34d96596d9c24257cc3233d2bbbf65241cf9"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-closed-3q.png",
+      "bytes": 335671,
+      "sha256": "cd23fd97d9783fd4bbd4f88c7d6008ee862ea2d304d2f4fa3c92da9c3e7a6f13"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-closed-front.png",
+      "bytes": 335467,
+      "sha256": "be9f6370c9a4d1b62bfa2b24bfe66540861b79e7c23eefc290a96c21a4b5ecbd"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-closed-side.png",
+      "bytes": 332243,
+      "sha256": "445e16125923faea0fc08c92ddd42000e2378555674f58866e2fe70c7f87a92d"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-large-3q.png",
+      "bytes": 337097,
+      "sha256": "aca606980e96eccd2ea8f28bb7206c7b709cf4ba9165cf95a3efe8de712c30c7"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-large-front.png",
+      "bytes": 336588,
+      "sha256": "aa6efe68d7ed1d625c0cb3247ffda4dbad6e3aac4c612eaf1fdd9a9f5523660a"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-large-side.png",
+      "bytes": 332311,
+      "sha256": "6a567c1408ce55650772b0654ae50337920599941a2e8df104508e62b3aa4149"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-small-3q.png",
+      "bytes": 335919,
+      "sha256": "b2191e11507925f6e16bce409e0fcc29b1e75d2cba418e92deed8b2af232cd14"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-small-front.png",
+      "bytes": 335849,
+      "sha256": "e89928189cf3e8ae648dc6fa141688e81a07b0fc7cd8a3fb8888f4143fff1d58"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-mouth-small-side.png",
+      "bytes": 332289,
+      "sha256": "435355a0ce0484d8aef886e7c516de2d4b509eaa22d839a17ba72c60bb7f8855"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-neutral-3q.png",
+      "bytes": 336816,
+      "sha256": "5c2e837907b2643e3ccd3cbf8fdf8c468bc1df36716e57849853aca1ea9ed4d7"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-neutral-front.png",
+      "bytes": 336288,
+      "sha256": "ffb17be55936eca63c9a83425384784be8434132334fb345112f3fbed244649d"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-neutral-side.png",
+      "bytes": 332311,
+      "sha256": "6e04ff76cc166b88a1a784535c2968ca00d4c8abde2a44509e60e7f21b307952"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-recovery-3q.png",
+      "bytes": 336816,
+      "sha256": "dd5468cded47fa91c2690b0b78726d88c7872d625944974a21bec79660c11411"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-recovery-front.png",
+      "bytes": 336288,
+      "sha256": "0b71a4d997d607792762cecf8a691d8fb7ed0ab73055456aa03dadeaf1126c0d"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/renders/reimport-recovery-side.png",
+      "bytes": 332311,
+      "sha256": "d06f58fcd831ea9900c021b9ef82aeab934a7a2755dd0db3f1d8da71b79fd20b"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/runtime-body.png",
+      "bytes": 461220,
+      "sha256": "9db5459a36e19dd1b9f13af4d79d88f480c0a65553e9ea509d6580fae517f3bb"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/runtime-closed.png",
+      "bytes": 460284,
+      "sha256": "3f7a5e53ef04672255d290165fd84ba7068545f68fbe738febdfb46607276eec"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/runtime-face.png",
+      "bytes": 808957,
+      "sha256": "860c711e020455af9a25b7d26f89e87466da95e71cfd877c462e53ec6fba51e1"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/runtime-large.png",
+      "bytes": 461773,
+      "sha256": "04529b18115ad51530cdadcc2a2f99f657ac25ccd672f30b7793550aae8d03c3"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/runtime-recovery.png",
+      "bytes": 461220,
+      "sha256": "9db5459a36e19dd1b9f13af4d79d88f480c0a65553e9ea509d6580fae517f3bb"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/runtime-small.png",
+      "bytes": 460992,
+      "sha256": "6436030877a2ea348351ad50e268c048d6c40d1e5f9492193de7746636369415"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/runtime-smile.png",
+      "bytes": 461717,
+      "sha256": "17a4a40c8063ed21f5ebc5d2e36eb2b34eb7a5a48756a34184114e82fb800dbe"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/static-runtime.json",
+      "bytes": 57325,
+      "sha256": "303820627e338cfbe0365bf35c02596d8ab9500191c6ca01f58011550a0968d3"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/texture-diff.json",
+      "bytes": 662,
+      "sha256": "7b9d3e4c6666e9e494b8ae604b0687582a785b353c56ddd96db423a3478aba50"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/thigh-surface.npz",
+      "bytes": 6631,
+      "sha256": "31d0b82d73d117c92beba79d8947cfee32932ced4d2adaf1029f349e8be59545"
+    },
+    {
+      "path": "docs/production/jill/clover-v007/verification.json",
+      "bytes": 2442,
+      "sha256": "4f796b3f6c6220793628767ea7788f07d2d4a4337039754409b852639d6ecdd8"
+    },
+    {
+      "path": "docs/production/jill/HANDOFF.md",
+      "bytes": 3919,
+      "sha256": "4b0789dd14be332470cca01fe0c1056aa7645780d671fd5dfbd5791fc26b4239"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/serve.mjs",
+      "bytes": 2850,
+      "sha256": "9e498592648a31254b5131d640e6e3e61dee0d6b67a7f39ca723c5b9f7a171f9"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/viewer.mjs",
+      "bytes": 5528,
+      "sha256": "3d2905a210692ed0354f23b93d5483e4d7e7d09d8ee6c237ac466a5ce77b01e7"
+    },
+    {
+      "path": "scripts/blender/jill-clover-v007.py",
+      "bytes": 5018,
+      "sha256": "5dd89cf4fa46ffea8733070296369bb0c1691efb6c2fb633e8d598c35c28649f"
+    },
+    {
+      "path": "scripts/blender/verify-jill-clover-v007.py",
+      "bytes": 972,
+      "sha256": "9003ca65117c4042a2e554473aecfbd594d92d7d8aa4bc6e4319dfe6f2d90a72"
+    },
+    {
+      "path": "scripts/qa/capture-jill-clover-v007.js",
+      "bytes": 1425,
+      "sha256": "901ab965f11b42c4bdb82c36eec311656904f6f7f17f508183ac2d686db8a3ea"
+    },
+    {
+      "path": "scripts/qa/package-jill-clover-v007.py",
+      "bytes": 4377,
+      "sha256": "b95da7bc113294af83fbdcb634b993519772fc21945fc1cc3211512d1e329572"
+    },
+    {
+      "path": "scripts/qa/project-jill-clover-v007.py",
+      "bytes": 3491,
+      "sha256": "8814d1b00900c34d273e83c1ec512ed2452173f7a23e27499a6786bcff1eee72"
+    }
+  ]
+}

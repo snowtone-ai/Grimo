@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "changed_pixels": 3485,
+  "mask_pixels": 3561,
+  "pixels_outside_local_mask_exact": true,
+  "xyz_min": [
+    -0.20943440524215307,
+    -0.22787827241912895,
+    0.16163921843118007
+  ],
+  "xyz_max": [
+    -0.14792365980573868,
+    -0.19082484297130672,
+    0.24953337683756818
+  ],
+  "source_sha256": "1d1c65ed7e08b0085b76e51205b6a5984181ed6e912f3050d8ad7555c83644a9",
+  "decal_sha256": "92e2c0dac88b5e3d82a5cf47c3ac2947c53c3826f8ef45cf0c2d0e480e2cfca7",
+  "method": "Existing thigh owner triangles only; barycentric UV0 projection, four-leaf extracted decal alpha composite; no geometry/UV change or opposite-side copy"
+}

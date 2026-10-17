@@ -1,0 +1,84 @@
+{
+  "pass": true,
+  "approved_v006_face_pixels_exact": {
+    "neutral": true,
+    "mouth-closed": true,
+    "mouth-small": true,
+    "mouth-large": true,
+    "recovery": true
+  },
+  "static_runtime": {
+    "engine": "2.22.2",
+    "skin": 23,
+    "morphs": 20,
+    "anchors": 16,
+    "model_sha256": "eac4036d5937fa98343a57fe0e0139a84995eeb27460d979f815a0a8b0db8fc2",
+    "simultaneous_inputs": [
+      {
+        "controls": {
+          "mouth_close": 1,
+          "mouth_open": 1,
+          "smile.L": 1,
+          "smile.R": 1
+        },
+        "max_delta": 0
+      },
+      {
+        "controls": {
+          "mouth_close": 0.5,
+          "mouth_open": 0,
+          "smile.L": 0,
+          "smile.R": 0
+        },
+        "max_delta": 0.0
+      },
+      {
+        "controls": {
+          "mouth_close": 0,
+          "mouth_open": 1,
+          "smile.L": 0,
+          "smile.R": 0
+        },
+        "max_delta": 0
+      },
+      {
+        "controls": {
+          "mouth_close": 0,
+          "mouth_open": 0.5,
+          "smile.L": 1,
+          "smile.R": 0.5
+        },
+        "max_delta": 0
+      }
+    ],
+    "neutral_recovery": true
+  },
+  "protected_sources": [
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/jill-textured-rig-v006.blend",
+      "sha256": "31589a239c1154a748db9f5ac511da664b6c7a26bf03d165f41882830a0c2a10",
+      "git_blob_unchanged": true
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/jill-textured-rig-v006.glb",
+      "sha256": "46af1faa2133c2c535e7a0ed9dc59ea6937c1ff2c8d0b421693f15261804e3fe",
+      "git_blob_unchanged": true
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-textured-rig-v005.blend",
+      "sha256": "457d0aed5e7e07d246f5be0bc1ba228d771b4ee8214c21a51b61c04941914dc3",
+      "git_blob_unchanged": true
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-textured-rig-v005.glb",
+      "sha256": "19b0a55dc997fd54a231acb1ed7ebd0bd5dc27df7fc23682443788934463b57d",
+      "git_blob_unchanged": true
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-basecolor-v005.png",
+      "sha256": "1d1c65ed7e08b0085b76e51205b6a5984181ed6e912f3050d8ad7555c83644a9",
+      "git_blob_unchanged": true
+    }
+  ],
+  "full_model_complete": false
+}

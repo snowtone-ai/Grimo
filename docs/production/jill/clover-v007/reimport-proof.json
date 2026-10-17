@@ -1,0 +1,60 @@
+{
+  "pass": true,
+  "source_vertices_covered": 30880,
+  "uv_max_delta": 6.052994763194874e-07,
+  "unmatched": 0,
+  "bones": [
+    130
+  ],
+  "anchors": 16,
+  "material_count": 23,
+  "morph_counts": [
+    20
+  ],
+  "uv_attributes": [
+    "TEXCOORD_0",
+    "TEXCOORD_1",
+    "TEXCOORD_2"
+  ],
+  "basecolor_texcoords": [
+    0
+  ],
+  "states": [
+    {
+      "state": "neutral",
+      "max_position_delta_m": 3.072856460109544e-07,
+      "pass": true
+    },
+    {
+      "state": "blink-half",
+      "max_position_delta_m": 3.072856460109544e-07,
+      "pass": true
+    },
+    {
+      "state": "blink-full",
+      "max_position_delta_m": 3.072856460109544e-07,
+      "pass": true
+    },
+    {
+      "state": "mouth-closed",
+      "max_position_delta_m": 3.072856460109544e-07,
+      "pass": true
+    },
+    {
+      "state": "mouth-small",
+      "max_position_delta_m": 3.072856460109544e-07,
+      "pass": true
+    },
+    {
+      "state": "mouth-large",
+      "max_position_delta_m": 3.072856460109544e-07,
+      "pass": true
+    },
+    {
+      "state": "recovery",
+      "max_position_delta_m": 3.072856460109544e-07,
+      "pass": true
+    }
+  ],
+  "scope": "Face Morph, UV/owner/materials/skin/anchors through actual fresh GLB import. Body motions are independently sampled in the bounded PlayCanvas clip."
+}

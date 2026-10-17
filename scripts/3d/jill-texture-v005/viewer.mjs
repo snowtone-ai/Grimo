@@ -3,7 +3,8 @@ const canvas=document.querySelector('canvas'),status=document.querySelector('#st
 const app=new Application(canvas,{graphicsDeviceOptions:{antialias:true,preserveDrawingBuffer:true,deviceTypes:['webgl2']}});
 app.scene.ambientLight=new Color(.65,.65,.65);app.setCanvasFillMode(FILLMODE_NONE);app.setCanvasResolution(RESOLUTION_AUTO);
 function resize(){const h=Math.min(640,Math.floor(innerHeight*.65));canvas.style.height=h+'px';app.resizeCanvas(innerWidth,h);}addEventListener('resize',resize);resize();
-const cameras=[],dirs=[new Vec3(0,0,3),new Vec3(3,0,0),new Vec3(1.5,.12,3)];let face=false,playing=false;
+const config=await(await fetch('/review-config.json')).json(),side=config.leftSide?-1:1;
+const cameras=[],dirs=[new Vec3(0,0,3),new Vec3(3*side,0,0),new Vec3(1.5*side,.12,3)];let face=false,playing=false;
 for(let i=0;i<3;i++){const c=new Entity(['Front','Side','3Q'][i]);c.addComponent('camera',{projection:PROJECTION_ORTHOGRAPHIC,orthoHeight:.61,clearColor:new Color(.87,.89,.85),rect:new Vec4(i/3,0,1/3,1),priority:i});app.root.addChild(c);cameras.push(c);}
 function aim(){cameras.forEach((c,i)=>{const target=face?new Vec3(0,.68,.24):new Vec3(0,.5,0);c.setPosition(target.clone().add(dirs[i]));c.lookAt(target);c.camera.orthoHeight=face?.245:.65;});}aim();
 for(const [i,rot] of [[0,[45,35,0]],[1,[35,160,0]]]){const e=new Entity('ReviewLight'+i);e.addComponent('light',{type:'directional',intensity:i?.45:1.1,color:new Color(1,1,1)});e.setEulerAngles(...rot);app.root.addChild(e);}
@@ -11,7 +12,7 @@ app.start();
 const load=(url,type)=>new Promise((resolve,reject)=>app.assets.loadFromUrl(url,type,(e,a)=>e?reject(e):resolve(a)));
 try{
  const asset=await load('/model.glb','container'),resource=asset.resource,entity=resource.instantiateRenderEntity();app.root.addChild(entity);
- const config=await(await fetch('/review-config.json')).json(),hasClip=resource.animations.length>0;
+ const hasClip=resource.animations.length>0;
  if(!hasClip&&!config.mouthControls)throw Error('Missing bounded review clip');
  let layer={activeStateCurrentTime:0};
  if(hasClip){entity.addComponent('anim',{activate:true});entity.anim.assignAnimation('Review',resource.animations[0].resource);layer=entity.anim.baseLayer;layer.play('Review');entity.anim.speed=0;}
@@ -34,6 +35,6 @@ try{
    const anchorPositions=anchors.map(n=>{const p=n.getPosition();return [p.x,p.y,p.z];});const weights=meshes[0]?.morphInstance?.morph.targets.map((_,i)=>meshes[0].morphInstance.getWeight(i));
    const row={tag,time,positions,anchorPositions,weights};if(!Number.isFinite(time)||anchorPositions.flat().some(x=>!Number.isFinite(x)))errors.push('nonfinite runtime state');samples.push(row);
   }
-  status.textContent=`Engine ${version} | ${meshes.length} materials / ${meshes.filter(m=>m.skinInstance).length} skins / ${anchors.length} anchors | ${tag} ${time.toFixed(3)}s\nHOLD: Human appearance, horn boundary/colour and clover placement require review.`;
+  status.textContent=`Engine ${version} | ${meshes.length} materials / ${meshes.filter(m=>m.skinInstance).length} skins / ${anchors.length} anchors | ${tag} ${time.toFixed(3)}s\n${config.appearanceStatus||'HOLD: Human appearance, horn boundary/colour and clover placement require review.'}`;
  });
 }catch(e){status.textContent=e.stack;throw e;}
