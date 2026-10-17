@@ -1,0 +1,35 @@
+{
+  "donorRevision": "c5bed8b7cf0e7963388f9d20699fedd2c08c2c44",
+  "results": [
+    {
+      "name": "body",
+      "url": "https://media.githubusercontent.com/media/snowtone-ai/Grimo/c5bed8b7cf0e7963388f9d20699fedd2c08c2c44/assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v004.glb",
+      "status": 200,
+      "bytes": 62567088,
+      "sha256": "a082195104713c21b9a219ff19bd9d37702486aaa4cdf2bbf2e9f0ad58b5c91f",
+      "magic": "676c544602000000b0b2ba03",
+      "cors": "*",
+      "etag": "\"a082195104713c21b9a219ff19bd9d37702486aaa4cdf2bbf2e9f0ad58b5c91f\""
+    },
+    {
+      "name": "flower",
+      "url": "https://media.githubusercontent.com/media/snowtone-ai/Grimo/c5bed8b7cf0e7963388f9d20699fedd2c08c2c44/assets/grimo/production/shushu/equipment/standard-v002/shushu-head-flower-v002.glb",
+      "status": 200,
+      "bytes": 1279984,
+      "sha256": "ed474a714105d9a8a853d5caf1db0268acb86890589d3354e322bd9351490e41",
+      "magic": "676c544602000000f0871300",
+      "cors": "*",
+      "etag": "\"ed474a714105d9a8a853d5caf1db0268acb86890589d3354e322bd9351490e41\""
+    },
+    {
+      "name": "pads",
+      "url": "https://raw.githubusercontent.com/snowtone-ai/Grimo/c5bed8b7cf0e7963388f9d20699fedd2c08c2c44/assets/grimo/production/shushu/equipment/standard-v001/shushu-hind-sole-pads-v001.png",
+      "status": 200,
+      "bytes": 2582567,
+      "sha256": "f5c4aa2969b9b4971e3926dfede7c56cc8211091b9c074a9c67bb0738a2f21fe",
+      "magic": "89504e470d0a1a0a0000000d",
+      "cors": "*",
+      "etag": "W/\"0e8036a971106f0793273f3909ab833468ab376caa953d1520c841b0f92090a5\""
+    }
+  ]
+}

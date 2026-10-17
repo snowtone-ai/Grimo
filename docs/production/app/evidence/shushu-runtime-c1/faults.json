@@ -1,0 +1,47 @@
+{
+  "base": "http://127.0.0.1:3187",
+  "cycles": [],
+  "failure": {
+    "canvas": 0,
+    "contexts": 1,
+    "activeContexts": 0,
+    "live": {},
+    "listeners": 2,
+    "observers": 0,
+    "raf": 0,
+    "heap": 15752246
+  },
+  "lfsPointerRejection": "PASS",
+  "retry": "PASS",
+  "contextLoss": {
+    "canvas": 0,
+    "contexts": 3,
+    "activeContexts": 0,
+    "live": {
+      "VertexArray": 0,
+      "Framebuffer": 0,
+      "Renderbuffer": 0
+    },
+    "listeners": 2,
+    "observers": 0,
+    "raf": 0,
+    "heap": 207554961
+  },
+  "contextRetry": "PASS",
+  "exitDuringDownload": {
+    "canvas": 0,
+    "contexts": 5,
+    "activeContexts": 0,
+    "live": {
+      "VertexArray": 0,
+      "Framebuffer": 0,
+      "Renderbuffer": 0
+    },
+    "listeners": 2,
+    "observers": 0,
+    "raf": 0,
+    "heap": 214394828
+  },
+  "status": "PASS",
+  "errors": []
+}
