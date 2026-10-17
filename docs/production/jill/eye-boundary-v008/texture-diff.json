@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "changed_pixels": 13379,
+  "mask_pixels": 14282,
+  "outside_local_mask_exact": true,
+  "source_sha256": "9464951f1143cb870f6ce57759bd6ed2a4199d0b7ec0bc60050fe4bfdeff8640",
+  "output_sha256": "b6fece1e9ead0acbf79a7241ea7dec0af82128128bae18d86b5dde44ffe3d34a",
+  "owner": "body_skin plus <=2 texel owner-free gutter; eye and lid artwork preserved",
+  "root_cause": "Old host-eye cleanup used front > .278 m and missed lateral dark eye art. It was visible beyond the real eye/lid edge.",
+  "method": "Existing local body triangles, bounded dark residual footprint, same green/cream skin field used by v005; no geometry or UV edits."
+}

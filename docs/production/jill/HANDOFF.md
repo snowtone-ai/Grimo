@@ -1,17 +1,15 @@
 # Jill — NOW
 
-**2026-10-18 / NOW v007: 口Human GO、Canonical腿クローバーOK、角は変更不要・現状維持。完全完成GOALは未達。** [v007 Evidence](clover-v007/Evidence.md) / [実全身PNG](clover-v007/runtime-body.png)。 [最新Evidence/差分/残作業](mouth-integration-v006/Evidence.md) / [口比較](mouth-integration-v006/mouth-detail.jpg) / [保存6状態×4視点](mouth-integration-v006/saved-states.jpg) / [実PlayCanvas閉口](mouth-integration-v006/runtime-mouth-closed.png) / [成果README](../../../assets/grimo/production/jill/tripo/mouth-integration-v006/README.md)。
+**2026-10-18 / NOW v009。口Human GO、Canonical腿クローバーHuman OK、目外観Human GO。角は変更不要・現状維持。** [最新Evidence](eye-join-v009/Evidence.md) / [実顔PNG](eye-join-v009/runtime-face.png) / [比較](eye-join-v009/eye-before-after.png) / [瞬きGIF](eye-join-v009/blink-runtime.gif)。各部位のGOをモデル全体のHuman完成GOへ読み替えない。
 
-branch `codex/jill-texture-return-v005-20261017`、開始 `74596c9673434f4120b300ec0c96fb9c663fc4d0` / remote一致 / clean（開始時）。最新main fetch `8b9d736abca118de5bd1e2e1f64b961e25f0ba42`。最新Human GOALはTexture込みJillがMotion/表情/中間/復帰でも承認外観を保ち、口周囲の派生不具合を解消した完全完成。技術PASSをHuman品質GOへ置換しない。
+branch `codex/jill-texture-return-v005-20261017`、今回開始 `cc080bc30590247d8604d94c0a5d5dced6f595a5`。main fetch `534694dae8087dec852de0f26b472a6dcd26ca70`。既存Jill worktreeで継続し、別checkoutのShushu/user変更を保護。最新GOALはTexture込みJillがMotion/表情/中間/復帰でも承認外観を維持する完全完成。技術PASS≠Human完成GO。公開commit/remoteは[receipt](eye-join-v009/RemoteReceipt.json)。
 
-根本原因は元Wと後付けmouth-skin/口腔の別境界・位置ずれ。Textureだけ/追加上縁だけの移動は前回試作で不足。元v005から鼻下〜口の局所511 polygonと重複口外皮/口腔を共有境界の一体面へ置換。961vertex追加、歯8点をWへ追従。新しい口UVは削除owner島を再利用/分割。残存30,425 faceの3UV・既存weights・130骨/39ch/20Morph/16anchor・packed Textureは保持。開口/左右smileの3driverに閉口優先ゲート。元v005/v004・Canonical/Body-only・他checkoutのuser変更は保護。
+Human screenshot593の指定は「両目外側の縦の紐を削除」。v008はhostの古い眼Textureを消しただけで帯を残しHuman FAIL。原因は後付け瞼の外周/中間面が肌・実眼面から浮くこと。外側だけの折込み試作は中間/閉眼の破綻で不採用。v009は既存左右瞼1,920頂点をbody_skinと実眼面へ沿わせ、Blink閉眼面も接続。原眼126頂点のBlink後退を解除。Topology追加削除なし。実眼Basis/他Geometry、3UV、weights、全driver、130骨/39ch/20Morph/16anchor保持。Blink以外の相対Morph差<2e-7m。
 
-保存blendの閉/小/大/combined/neutral/復帰をFront/Side/左右3Qで実レンダー。15同時入力中間、左右smile/頬接触/頭yaw-nod-tilt/呼吸との組合せを確認。前試作のcream帯・口角しわ・Side口腔露出は今回範囲で見えない。復帰は4視点画素一致。全39ch min/0/max有限/復帰と個別端点実画像を保存。fresh static GLBは使用30,880頂点被覆・10顔状態差最大3.073e-7m。実PlayCanvas2.22.2は13代表状態+neutral・連続再生/復帰、23skin/20Morph/16anchor/4K UV0、Morph差最大9.537e-7。
+保存blendのneutral・口閉/小/大/combined/復帰、Blink .25/.5/.75/1、左右wink、gaze両軸をFront/Side/左右3Qで実レンダー。fresh GLB再importは30,880使用頂点被覆・欠落0、7顔状態位置差<2e-6m。口5状態Front領域画素一致。実PlayCanvas2.22.2で23skin/Morph・20各・16anchor、左右Blink/口入力、21段階閉眼→開眼・復帰、頭/翼/尾/顔の限定clipも確認。復帰canvas画素一致。実画像を自分で開き、報告にも添付する。
 
-**Human決定:** 口の外観GO。腿クローバーはCanonical側だけ追加しHuman「クローバーはOK」（2026-10-18）。角は元v005から一切変えておらず、Human「変える必要はない」で現状維持。static GLBの15同時入力・21段階の連続開閉・復帰も実PlayCanvasで一致。4Morph用consumer controller同梱。
+**Human判断:** v006口GO。v007腿クローバーはCanonical側だけ追加し「クローバーはOK」。角はv005から一切変更しておらず「変える必要はない」で維持。v009比較の後「目の外見はOKだ。」を受領（2026-10-18）。この外観を固定して保存/GLB/runtimeの証明を完了する。
 
-**残作業/HOLD:** Humanがv007赤線画像で、眼の外側に肌との境界線がありその外にも眼球が残る不自然さを指定。「線を消すか、線より顔の外側の眼に皮膚膜」を希望。これを次の局所原因調査/修正対象にする。既存閉眼の外眼角/瞼縁も同じ境界原因との関係を確認。口/クローバー/角は保護。全Motion量産・実機mobileは今回の限定認証範囲外。完成モデルと自己認定しない。
+最新保存候補 `assets/grimo/production/jill/tripo/eye-join-v009/jill-textured-rig-v009.blend/.glb`、別bounded QA GLBあり。[成果README](../../../assets/grimo/production/jill/tripo/eye-join-v009/README.md)。v004 shape GO / v005 texture history / v006口 / v007クローバー原本は保護。v008は歴史的失敗候補として明記し、最新版扱いしない。
 
-最新候補 `mouth-integration-v006/jill-textured-rig-v006.blend/.glb`、別bounded QA clipあり。元形状正本v004はHuman GO、元v005TextureはHuman HOLDのまま。[v004履歴](mouth-profile-v004/Evidence.md) / [v005移植履歴](texture-return-v005/Evidence.md) / [前回失敗試作](texture-return-v005/upper-w-local/REVIEW.md)。前回の失敗候補を完成品として再採用しない。[Manifest](mouth-integration-v006/Manifest.json) / [remote照合](mouth-integration-v006/RemoteReceipt.json)。
-
-最新保存候補 `clover-v007/jill-textured-rig-v007.blend/.glb`。4K局所画素のみ、v006の全Geometry/UV/weights/Morph/driver/骨/anchor完全一致、口5状態Front画素一致。保存/GLB再import/実PlayCanvasを再確認。v006承認口公開 `d4e73c1`（remote一致）。v007 commit/remoteは[receipt](clover-v007/RemoteReceipt.json)。
+**残る判断:** 各部位のHuman GOは受領済み。全モデルのHuman完成GOは未受領のため捏造しない。全Motion量産・mobile実機認証は今回の限定範囲外。新しい外観指摘があれば、承認口/眼/クローバー/角を保護し局所対応する。

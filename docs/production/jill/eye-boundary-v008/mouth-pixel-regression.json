@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "roi_xyxy": [
+    225,
+    365,
+    415,
+    520
+  ],
+  "same_camera_front_exact": {
+    "neutral": true,
+    "mouth-closed": true,
+    "mouth-small": true,
+    "mouth-large": true,
+    "recovery": true
+  }
+}

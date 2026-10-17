@@ -1,0 +1,104 @@
+{
+  "pass": true,
+  "runtime": [
+    {
+      "file": "static-runtime.json",
+      "eye_samples_all_23_instances": 54,
+      "mouth_samples": 12
+    },
+    {
+      "file": "bounded-runtime.json",
+      "cases": [
+        {
+          "state": "mouth-closed",
+          "max_weight_delta": 3.973641571342057e-08
+        },
+        {
+          "state": "mouth-small",
+          "max_weight_delta": 3.973638729171114e-08
+        },
+        {
+          "state": "mouth-large",
+          "max_weight_delta": 0.0
+        },
+        {
+          "state": "blink-half",
+          "max_weight_delta": 1.5894532179316911e-07
+        },
+        {
+          "state": "blink-full",
+          "max_weight_delta": 3.1789087096001367e-07
+        },
+        {
+          "state": "wings-open",
+          "max_weight_delta": 0.0
+        },
+        {
+          "state": "wings-fold",
+          "max_weight_delta": 6.357781039412203e-07
+        },
+        {
+          "state": "tail",
+          "max_weight_delta": 4.450448773951621e-07
+        },
+        {
+          "state": "combined",
+          "max_weight_delta": 0.0
+        }
+      ],
+      "rendered_samples": 287
+    }
+  ],
+  "neutral_canvas_recovery_exact": true,
+  "mouth_pixels_exact": {
+    "neutral": true,
+    "mouth-closed": true,
+    "mouth-small": true,
+    "mouth-large": true,
+    "recovery": true
+  },
+  "protected_sources": [
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/jill-textured-rig-v007.blend",
+      "git_blob_exact": true,
+      "sha256": "9c2fd04484dcdac86dc490335235c9f50b365cd212e77811db3c76a60949c703"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/jill-textured-rig-v007.glb",
+      "git_blob_exact": true,
+      "sha256": "eac4036d5937fa98343a57fe0e0139a84995eeb27460d979f815a0a8b0db8fc2"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/clover-v007/jill-basecolor-v007.png",
+      "git_blob_exact": true,
+      "sha256": "9464951f1143cb870f6ce57759bd6ed2a4199d0b7ec0bc60050fe4bfdeff8640"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/jill-textured-rig-v006.blend",
+      "git_blob_exact": true,
+      "sha256": "31589a239c1154a748db9f5ac511da664b6c7a26bf03d165f41882830a0c2a10"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/jill-textured-rig-v006.glb",
+      "git_blob_exact": true,
+      "sha256": "46af1faa2133c2c535e7a0ed9dc59ea6937c1ff2c8d0b421693f15261804e3fe"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-textured-rig-v005.blend",
+      "git_blob_exact": true,
+      "sha256": "457d0aed5e7e07d246f5be0bc1ba228d771b4ee8214c21a51b61c04941914dc3"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-textured-rig-v005.glb",
+      "git_blob_exact": true,
+      "sha256": "19b0a55dc997fd54a231acb1ed7ebd0bd5dc27df7fc23682443788934463b57d"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/texture-return-v005/jill-basecolor-v005.png",
+      "git_blob_exact": true,
+      "sha256": "1d1c65ed7e08b0085b76e51205b6a5984181ed6e912f3050d8ad7555c83644a9"
+    }
+  ],
+  "full_model_complete": false,
+  "remaining": "Eye appearance Human GO. Full model acceptance is not inferred from the scoped feature approvals."
+}

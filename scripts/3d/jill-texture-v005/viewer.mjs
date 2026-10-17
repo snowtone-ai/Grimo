@@ -19,10 +19,11 @@ try{
  else{document.querySelector('#play').disabled=true;slider.disabled=true;}
  const meshes=entity.findComponents('render').flatMap(c=>c.meshInstances),anchors=entity.find(n=>n.name.startsWith('ANCHOR_')),schedule=hasClip?await(await fetch('/schedule.json')).json():{cases:[]};
  slider.max=hasClip?resource.animations[0].resource.duration:0;
- const samples=[],errors=[];let tag='neutral',elapsed=0,previous='',mouthReview=null;
+ const samples=[],errors=[];let tag='neutral',elapsed=0,previous='',mouthReview=null,eyeReview=null;
  if(config.mouthControls){const {installMouthReview}=await import('/mouth-review.mjs');mouthReview=installMouthReview({app,entity,onManual:()=>{playing=false;tag='direct-mouth';if(entity.anim)entity.anim.enabled=false;}});}
- const resumeClip=()=>{mouthReview?.stop();if(entity.anim)entity.anim.enabled=true;};
- const report=()=>({engine:version,scope:'Desktop WebGL2 bounded texture review; no general authoring solver or mobile certification',meshInstances:meshes.length,skinInstances:meshes.filter(m=>m.skinInstance).length,morphInstances:meshes.filter(m=>m.morphInstance).length,morphTargets:meshes.map(m=>m.morphInstance?.morph?.targets?.length??0),anchors:anchors.map(n=>n.name),materials:meshes.map(m=>({name:m.material.name,diffuseMapUv:m.material.diffuseMapUv,diffuseTexture:m.material.diffuseMap?{width:m.material.diffuseMap.width,height:m.material.diffuseMap.height}:null})),samples,errors,directMouth:mouthReview?.report(),human_visual_go:false});
+ if(config.eyeControls){const {installEyeReview}=await import('/eye-review.mjs');eyeReview=installEyeReview({app,entity,onManual:()=>{playing=false;tag='direct-eye';if(entity.anim)entity.anim.enabled=false;}});}
+ const resumeClip=()=>{mouthReview?.stop();eyeReview?.stop();if(entity.anim)entity.anim.enabled=true;};
+ const report=()=>({engine:version,scope:'Desktop WebGL2 bounded texture review; no general authoring solver or mobile certification',meshInstances:meshes.length,skinInstances:meshes.filter(m=>m.skinInstance).length,morphInstances:meshes.filter(m=>m.morphInstance).length,morphTargets:meshes.map(m=>m.morphInstance?.morph?.targets?.length??0),anchors:anchors.map(n=>n.name),materials:meshes.map(m=>({name:m.material.name,diffuseMapUv:m.material.diffuseMapUv,diffuseTexture:m.material.diffuseMap?{width:m.material.diffuseMap.width,height:m.material.diffuseMap.height}:null})),samples,errors,directMouth:mouthReview?.report(),directEye:eyeReview?.report(),human_visual_go:false});
  document.querySelector('#play').onclick=()=>{resumeClip();playing=!playing;};
  slider.oninput=()=>{resumeClip();playing=false;tag='manual';layer.activeStateCurrentTime=Number(slider.value);};
  document.querySelector('#face').onclick=()=>{face=!face;aim();};

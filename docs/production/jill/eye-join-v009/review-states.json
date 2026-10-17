@@ -1,0 +1,307 @@
+{
+  "neutral": {
+    "channels": {},
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  },
+  "blink-half": {
+    "channels": {
+      "blink.L": 0.5,
+      "blink.R": 0.5
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.4999999403953552,
+      "FACE_Blink.R": 0.4999999403953552
+    }
+  },
+  "blink-full": {
+    "channels": {
+      "blink.L": 1,
+      "blink.R": 1
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 1.0,
+      "FACE_Blink.R": 1.0
+    }
+  },
+  "mouth-closed": {
+    "channels": {
+      "mouth_close": 1
+    },
+    "morphs": {
+      "FACE_MouthClose": 1.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  },
+  "mouth-small": {
+    "channels": {
+      "mouth_close": 0.5
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.4999999403953552,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  },
+  "mouth-large": {
+    "channels": {
+      "mouth_open": 1
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 1.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  },
+  "wings-open": {
+    "channels": {
+      "wing_open.L": 1,
+      "wing_open.R": 1
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 1.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 1.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  },
+  "wings-fold": {
+    "channels": {
+      "wing_open.L": -1,
+      "wing_open.R": -1
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 1.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 1.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  },
+  "tail": {
+    "channels": {
+      "tail_sway": 0.7,
+      "tail_curl": 0.5,
+      "leaves_tail": 0.6
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.4999999403953552,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.7000000476837158,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  },
+  "combined": {
+    "channels": {
+      "blink.L": 0.5,
+      "blink.R": 0.5,
+      "mouth_open": 0.5,
+      "wing_open.L": 0.65,
+      "wing_open.R": 0.65,
+      "tail_sway": -0.5,
+      "head_yaw": 0.4
+    },
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.4999999403953552,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.6500000357627869,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.6500000357627869,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.4999999403953552,
+      "FACE_Blink.L": 0.4999999403953552,
+      "FACE_Blink.R": 0.4999999403953552
+    }
+  },
+  "recovery": {
+    "channels": {},
+    "morphs": {
+      "FACE_MouthClose": 0.0,
+      "FACE_MouthOpen": 0.0,
+      "FACE_Smile.L": 0.0,
+      "TOUCH_Cheek.L": 0.0,
+      "FACE_Smile.R": 0.0,
+      "TOUCH_Cheek.R": 0.0,
+      "TOUCH_Chest": 0.0,
+      "TAIL_Curl": 0.0,
+      "WING_Camber.L": 0.0,
+      "WING_Camber.R": 0.0,
+      "COR_WingOpen.L": 0.0,
+      "COR_WingFold.L": 0.0,
+      "COR_Shoulder.L": 0.0,
+      "COR_WingOpen.R": 0.0,
+      "COR_WingFold.R": 0.0,
+      "COR_Shoulder.R": 0.0,
+      "COR_TailLeft": 0.0,
+      "COR_TailRight": 0.0,
+      "FACE_Blink.L": 0.0,
+      "FACE_Blink.R": 0.0
+    }
+  }
+}

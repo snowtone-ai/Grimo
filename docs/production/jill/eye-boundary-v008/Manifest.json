@@ -1,0 +1,947 @@
+{
+  "branch": "codex/jill-texture-return-v005-20261017",
+  "base": "cc080bc",
+  "scope": "Historical texture-only trial; Human FAIL because physical cord remains",
+  "files": [
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-boundary-v008/jill-basecolor-v008.png",
+      "bytes": 11945409,
+      "sha256": "b6fece1e9ead0acbf79a7241ea7dec0af82128128bae18d86b5dde44ffe3d34a"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-boundary-v008/jill-review-bounded-v008.glb",
+      "bytes": 20244964,
+      "sha256": "45813ba94cc1957f28bcb04601a8e8b32c50da379a7e07671a9f218884ab2ead"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-boundary-v008/jill-textured-rig-v008.blend",
+      "bytes": 16103793,
+      "sha256": "8cbafe98c06dc33aa690a691f11fa9929a653023aa3f87aa8908ce631504c61b"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-boundary-v008/jill-textured-rig-v008.glb",
+      "bytes": 20095580,
+      "sha256": "9175db337368beefdde3c17b24c48ce49dbe92c0558dd07c1b94903be05bc054"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-boundary-v008/README.md",
+      "bytes": 1106,
+      "sha256": "e2388cc94ee350ca96767f66f5c573fa9e37323c318b5843f14a948d36ad10d1"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/blink-runtime.gif",
+      "bytes": 4333293,
+      "sha256": "ebb0fa4675929537a952188d24c7638c8f95c4b19485241add87313dd2ffec75"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-blink-full.png",
+      "bytes": 454333,
+      "sha256": "c2f3a1072578bbbfd6767aca9734d812c4f1f4e43e752924a62b08a21df1cf3d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-blink-half.png",
+      "bytes": 458664,
+      "sha256": "35bbac34d2b01a54a4c3b235ec61c2a4f8f9ea71d73d4c70c9275ef78bb09df4"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-combined.png",
+      "bytes": 464378,
+      "sha256": "702df811b05fdc11b149535a805531699d5045b89b9d2950fb7ea5bcd9550e8e"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-mouth-closed.png",
+      "bytes": 459638,
+      "sha256": "a8c8cb77d2eae34794f08094f75124b93ae42b77e29350e0b27d22bcd64a18e4"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-mouth-large.png",
+      "bytes": 461011,
+      "sha256": "2e09b490cc6d2107308bf860c8b65cff9f89262135b3773c3450641cbdfe5dd2"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-mouth-small.png",
+      "bytes": 460552,
+      "sha256": "5d05ae316b26d3e90463cbb30c854a17a692678f63c554bd8a4e24c486f1cd16"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-neutral.png",
+      "bytes": 460288,
+      "sha256": "e60f49ad838bfe72cb0b84abf65aa3aad2ff57a974caa31874ae320ccb186898"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-recovery.png",
+      "bytes": 460288,
+      "sha256": "e60f49ad838bfe72cb0b84abf65aa3aad2ff57a974caa31874ae320ccb186898"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-runtime.json",
+      "bytes": 675088,
+      "sha256": "e0ed89dbe316e941c90365d4eaaab972600894dbeb77005dc97bd4cd33a6d10a"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-tail.png",
+      "bytes": 462665,
+      "sha256": "e486f48932b04f58fbeaa112f6ac7a7ea229205b0c239864a09e698c216f22c2"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-wings-fold.png",
+      "bytes": 451144,
+      "sha256": "c0bbf9bd0f043698323b9dd18e65306c7fb7ba2c9b3c0a2f894fdfeed2d2ec75"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/bounded-wings-open.png",
+      "bytes": 471085,
+      "sha256": "f7d87df098eb379aaa007b9516452b3f3b8e0b7204016477c86323c9f9c1d1d9"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/diagnosis-owners-3q.png",
+      "bytes": 528576,
+      "sha256": "df0b7ca5c8b4b3f5bc5a5d274cdba388e2251337b94b09582da907cc510cb985"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/diagnosis-owners-left3q.png",
+      "bytes": 515206,
+      "sha256": "fbf6e27ba63a893442bfd48b8cdd2a8d17e1120dc05842237aab7dfec8d83b36"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/Evidence.md",
+      "bytes": 6146,
+      "sha256": "65998851f6bcdcaa80a7c952af11c23168f58c1fb7d8cb800ea8686e3574aa72"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/eye-before-after.png",
+      "bytes": 1566952,
+      "sha256": "9cec0f1c6065dcaebbbb9d8d3babf85ccf72782ad2a45d9850a631ce353ed625"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/eye-detail-before-after.png",
+      "bytes": 329069,
+      "sha256": "5590371581c02df700e1368a6ad72d8579819f21aa970b5a49e502266cd604be"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/Gate.json",
+      "bytes": 339,
+      "sha256": "6bd3adc2f0c67d932b0d69e3c5fec68eba3942c6ea6f07895f5a7e3701fd8984"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/glb-preservation.json",
+      "bytes": 227,
+      "sha256": "7c4b3aaf3e921968bcaf5409d1a5ff66ce97826b13ac79a450bbe70e4c184a2d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/host-eye-uv-mask.png",
+      "bytes": 19492,
+      "sha256": "132549f9c9dcc56348b5ccf43ac82ebb05dbd8d924e6e014aa6bb8a8904e51ac"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/host-surface.json",
+      "bytes": 176,
+      "sha256": "7d86e2eb197e91c877cfbddf70dab78d7b698ed721e3b4c0ff50e1331ab01181"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/host-surface.npz",
+      "bytes": 29421,
+      "sha256": "10df5ac73a549751e3a781e81f16cb9877fc16ef208d353e09cbf76bbc4cf54d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/human-markup-v007.png",
+      "bytes": 514353,
+      "sha256": "37b4ef02a1d9410fcd4731aaff9fa6a0786f5c9a8dcd4d7a99aa17563ec9569f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/mouth-pixel-regression.json",
+      "bytes": 245,
+      "sha256": "791ae358705ec0c904f711499deae0560d82564b02697dfcbfa28690d5e5a0c4"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/preservation.json",
+      "bytes": 1700356,
+      "sha256": "40c988dafc2f379ba1eb4f958e8ecf50ea40fe52078c0a77d9b054d651ebe365"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/reimport-proof.json",
+      "bytes": 1367,
+      "sha256": "6453ed27a3bcd167d8f325c458b2d6797e1c72cd01b47132a65080785586a696"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-full-3q.png",
+      "bytes": 522685,
+      "sha256": "8edab838b4284432f21ff2d29b2edc4b43dc46952b42b864720a5e257921206e"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-full-front.png",
+      "bytes": 539018,
+      "sha256": "d572854a88290c5db558943e562ad00dba84699a4e114fb4cfdeeab3e3b932af"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-full-left3q.png",
+      "bytes": 509123,
+      "sha256": "1878159017de053adc30f3a3c2aa7ff7d817b7d3a98fc6dc64048b51dd2f6e3c"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-full-side.png",
+      "bytes": 508779,
+      "sha256": "6aff2d2f6b01a3e7e2edeade3e2bf9b4c44649fedff855125649e1a5391da452"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-half-3q.png",
+      "bytes": 534375,
+      "sha256": "cc10e946f322f61afd412277d048f9a254315d9737f60766bb92886adc6974fe"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-half-front.png",
+      "bytes": 550752,
+      "sha256": "e5280eef0a23d0c3bccaecf66bf09efbbe81c5442de90ed529e5ab3b94c1dc39"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-half-left3q.png",
+      "bytes": 519438,
+      "sha256": "006e3a0d376e49b4f32304966e5a353e9e3820974f98b6ddea5b4ab01b5c7747"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-blink-half-side.png",
+      "bytes": 513952,
+      "sha256": "342c96612eef6562017800378056f8d9a24f9d43b0fdda73d0e6035494f1b085"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-neutral-3q.png",
+      "bytes": 538753,
+      "sha256": "fa8cc88f115707dcf2a3551e03861d74c82fd7ecf2ae63e58763867a95b1ee4f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-neutral-front.png",
+      "bytes": 554101,
+      "sha256": "c11ae9f6898f3a5eee7e59ed5149742e2cf660a36a1b2452e003a15297789be1"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-neutral-left3q.png",
+      "bytes": 519785,
+      "sha256": "7a0eff3c7acf7813991de8d6b9dff5f0537263c72ff39bdfc253d525c70af5f1"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/before-neutral-side.png",
+      "bytes": 516689,
+      "sha256": "ad4aa0597f2b3c5ffd6581a900f5b13ea0ae33f5167a4d045338e418e7bc6bd5"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.25-3q.png",
+      "bytes": 537759,
+      "sha256": "1032650914b01f54ebfc1c275d113418a1bd0fb23d662ef2b3f9b9ffd4a38364"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.25-front.png",
+      "bytes": 553915,
+      "sha256": "ef250400cdf5f97eeb8c3a8032b974418d3011e0e920d32e896564d530ee53b8"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.25-left3q.png",
+      "bytes": 520247,
+      "sha256": "b7abd35e348a0e060b87485f8fc86f13ae932d4312d8cd7aa560a4aa3e3ad414"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.25-side.png",
+      "bytes": 516395,
+      "sha256": "40cdf76285790bdc4bb2c20f1eb62874fa552b499f2f3a1c204697ce07744101"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.5-3q.png",
+      "bytes": 533505,
+      "sha256": "312a86489414eb337fed0da78a56a632de66d4b7ca056bc2fdf3f69c7bdf5b3c"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.5-front.png",
+      "bytes": 550676,
+      "sha256": "f4a230d86d27455616cc5c27e94114f988801537ee3733f2044c26a04b8b4c3b"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.5-left3q.png",
+      "bytes": 518649,
+      "sha256": "c658cb59845a954063cef2a14dd81463f130e20eb71717c5b87a57c238f0d464"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.5-side.png",
+      "bytes": 513958,
+      "sha256": "7d4ebd4308b4e87930aea2f1504251dad65be598436f4f1491face52766391c9"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.75-3q.png",
+      "bytes": 527713,
+      "sha256": "710292201f473c1e9552a9b42c1ecb397affe44e475f9bcdd8a340d7c6baeea4"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.75-front.png",
+      "bytes": 544397,
+      "sha256": "1eddd503e2995ee5cdf011e2dbeab1997a2d0ed76031185e0c6670520c57e127"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.75-left3q.png",
+      "bytes": 514185,
+      "sha256": "8f0019ab43ee228884445008655e2d6a01f46317bd25cc4b021fc558b85e3ed6"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-0.75-side.png",
+      "bytes": 510466,
+      "sha256": "8c6be96ebe2e0b221b764df8c751b1de5d21ae0e039a84dcba5b81208740409b"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-1-3q.png",
+      "bytes": 522302,
+      "sha256": "c71dfb142e554ba19a4ecaf0a5424528dafc554fa0200bfd5e3df3552b0fcbed"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-1-front.png",
+      "bytes": 538811,
+      "sha256": "45a4ad8f84a8df4e5c86f0e1fbd52058486ac8a3556ff82e4984ba4e6e04f648"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-1-left3q.png",
+      "bytes": 509066,
+      "sha256": "09e91371b0faea35ba235fe8e96bbec50fcb65f413bd1fae2ba81422ffbf104f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/blink-1-side.png",
+      "bytes": 508785,
+      "sha256": "f49124d155f795b859f7827a1a9e69af118becfb58b6e8789379a29b11d504b4"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/body-front.png",
+      "bytes": 392026,
+      "sha256": "981f7cb119e64d99a9f08288b25acc97fee4e9cb100004222abec9a0e6cad1c6"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/body-left3q.png",
+      "bytes": 378985,
+      "sha256": "39051273d0aee142b6c9d3bde0b2834707632bde39464eb8ab775271805f2869"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/body-side.png",
+      "bytes": 387262,
+      "sha256": "0df791f5ee8b4000d1dd564d7763d0c3b269cc11cc18001c51cbd0c9725ab2ae"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/combined-3q.png",
+      "bytes": 550281,
+      "sha256": "609b01998980cecbd2da493e47919c515fdea11cd0f32e673c0c1f648c6588cb"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/combined-front.png",
+      "bytes": 552152,
+      "sha256": "99a37991f82fa14248f16f63b9a25d6c21ad6e8407d57976d10c404b1ed05fb3"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/combined-left3q.png",
+      "bytes": 521011,
+      "sha256": "e61906077276b0b53b60c5a8bade82ff99f1d77f92c1fda7fcfa3d95e9632971"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/combined-side.png",
+      "bytes": 510305,
+      "sha256": "f28f64c16fd098ae74d43f826486cf37c48da4f91dfb53c036d439797c889a64"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x--1-3q.png",
+      "bytes": 538134,
+      "sha256": "862dd6070f056900455a0eeb7d10a70069cf864218a27d7079a54d1e3f70933d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x--1-front.png",
+      "bytes": 554447,
+      "sha256": "187af85f5f57fd2a7cff19bde85f958f880241bccacc5b9fbd56ca331c37a144"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x--1-left3q.png",
+      "bytes": 520281,
+      "sha256": "6c58c66bc1308d090b938acf4a58aad433bdd00962646951a5283e91fc6083bc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x--1-side.png",
+      "bytes": 516724,
+      "sha256": "5907e5b1b8798cf297f72f7ee60967cbbdaa647e7055c06dc4c965ecad79701d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x-1-3q.png",
+      "bytes": 538662,
+      "sha256": "64c81cca76d6ee7f7a7db55b6a1805a9eeae41280daeaf0210f7da7efaff2525"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x-1-front.png",
+      "bytes": 553604,
+      "sha256": "69102b5b8e184258c08909ea0acf17320f36f436b65ce47907ed6f1395120106"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x-1-left3q.png",
+      "bytes": 519673,
+      "sha256": "f7bfcb3bf2eca3f5e1e1011031a29bcc0cdf06360a87928230f83e0ee64a5785"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-x-1-side.png",
+      "bytes": 516755,
+      "sha256": "859197579e028cd0e6cedc0bf9c3439d34b1d3e146b4dba64c07980c177572f8"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y--1-3q.png",
+      "bytes": 538313,
+      "sha256": "59e41ee3ae9661e8faa53de6b2007d1b25605121de36c37a9669307d12320171"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y--1-front.png",
+      "bytes": 553820,
+      "sha256": "459acdecd3d2c5b81af18f922b5fb9b9fed08722cb700ce38e8937e1ba66b73a"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y--1-left3q.png",
+      "bytes": 519817,
+      "sha256": "ffc74cc769479a542d84cb81b92b2bca814537e96728c5e64275abf691dc8b8d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y--1-side.png",
+      "bytes": 516588,
+      "sha256": "68ee4aa0a969d14b0f00cdd88aebd9d920591fbd8a13b3ca73a5f149b718e289"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y-1-3q.png",
+      "bytes": 538783,
+      "sha256": "6f6939b82ed0c590e63501810474fc64ac101864c28ed52714e3aa280ee16cee"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y-1-front.png",
+      "bytes": 554325,
+      "sha256": "9b8280d18db3d04c6d67bf3507331337bee9b896d9c859a434fe57485f9c8bd7"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y-1-left3q.png",
+      "bytes": 519846,
+      "sha256": "c22e5ef2e5237c6c9610956d8e88160d954bb3e34625c86fd007dce787329826"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/gaze-y-1-side.png",
+      "bytes": 516913,
+      "sha256": "ac3f26776688b2871b0c6e596dd0d030f7ed1ee1eee0bbeaa2c9c41831791a19"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-closed-3q.png",
+      "bytes": 533520,
+      "sha256": "9ba0d72e5e0d6b21eead225e278dcf7f3be3addc4faac551147ff52d550cfb14"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-closed-front.png",
+      "bytes": 547846,
+      "sha256": "a92d1ec84dfaa6c80121013521ca6097de760412f030617219f6285c0bb7cb43"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-closed-left3q.png",
+      "bytes": 514797,
+      "sha256": "843bce21e60da588440931ab823402f0ebb292919c312d8d0054d08205a6d3da"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-closed-side.png",
+      "bytes": 517293,
+      "sha256": "90e451189b694568c83001a90138d618349f61ccde4e8430f42135ff2b6e347b"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-large-3q.png",
+      "bytes": 539306,
+      "sha256": "fe0fcc2e188f2f7131fbcbbaf1d5786606dd34590eb047c3491d8b30c434013c"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-large-front.png",
+      "bytes": 555944,
+      "sha256": "d5ab71dad43d7599b60dced25f685a5a7101b25e4ff0712b7fd81a6a7ba8707d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-large-left3q.png",
+      "bytes": 521077,
+      "sha256": "81a0f39e54932eada71ebd0a6c4cf81a7aa2a917e460641c25b76871326604b1"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-large-side.png",
+      "bytes": 516448,
+      "sha256": "ad72aacaf91611f7951211461f762628bca02de450947f8fdeb8e8e56a864997"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-small-3q.png",
+      "bytes": 536618,
+      "sha256": "460d430e8dd84a6b493e8295e5a75dfc3e1b99ee0fc866adb5b39a6f94cc46e4"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-small-front.png",
+      "bytes": 550833,
+      "sha256": "0006ee893ab9eb8f0bed023447be5dd1848bbfa28179e53d65fee7625e6fe7ec"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-small-left3q.png",
+      "bytes": 517764,
+      "sha256": "ede4052b0aa20df0bdd5dfa657cf9c8fba8eab111a940a0353e2f0f80dc1687b"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/mouth-small-side.png",
+      "bytes": 516892,
+      "sha256": "cf57c8524e72eaada20974dfb79634aac2b70ebd4c6236d1a698eec0e7932f28"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/neutral-3q.png",
+      "bytes": 538452,
+      "sha256": "f6dc95074ca21f53807b7e65168b7af7a0d15d84f946d69ceb2caab17d5dec0d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/neutral-front.png",
+      "bytes": 553931,
+      "sha256": "56a6ee0032596279bb65c645bc7fa23d94ea9f91c9db5ccc16c0f7be55c884b1"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/neutral-left3q.png",
+      "bytes": 519622,
+      "sha256": "9fad48d5b3755bf13499026729873cc7ac8aa4c5e96db9d61555496e0c687352"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/neutral-side.png",
+      "bytes": 516695,
+      "sha256": "bdd5c25466a80020dcfa5616c3b61385b27ef5f41132a9e5c428974b18002a60"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/recovery-3q.png",
+      "bytes": 538452,
+      "sha256": "0a37a76bcc9904e74a10243d478e6d68dbb38b076e2c0ecb966c9799ec4a7cc7"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/recovery-front.png",
+      "bytes": 553931,
+      "sha256": "7fd68e74a1778f0d9f8dac942c60209ac711f116f257e6161fa3feb271a2223e"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/recovery-left3q.png",
+      "bytes": 519622,
+      "sha256": "f290e581507b39e9c08b054aa5b8025815921629c6a3e88f257d83a21cca684b"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/recovery-side.png",
+      "bytes": 516695,
+      "sha256": "cc6b8c22611b4b3c29d537aee1bc8e0de54b7a6d4abff2e3e01ded3b1c5d67e2"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-blink-full-3q.png",
+      "bytes": 516437,
+      "sha256": "1ce876bc0137c1f9a9ff747bc62de9bc6269ae12af27a457f171649d9032dc4d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-blink-full-front.png",
+      "bytes": 546273,
+      "sha256": "417ce83cf2e6d6532aba52855af072d032bfe81d532a68c02cb638bf9141067f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-blink-full-side.png",
+      "bytes": 493738,
+      "sha256": "18868c5cbfe194cea0b24a9dbfb8ca026a25c75e130fb78f0924a903c73435a8"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-blink-half-3q.png",
+      "bytes": 525859,
+      "sha256": "296f982006c957254a61afc7618867998330b430520749aeee5b00fe6d45b9be"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-blink-half-front.png",
+      "bytes": 556372,
+      "sha256": "0ad1e6c67ceb9b8c26a65847b5bc901edd1d57b85ec79ebc95e92fefbe5bb668"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-blink-half-side.png",
+      "bytes": 498299,
+      "sha256": "772f22caaad479cf13258edbc1290e3369a37553ef82b9ad63950be1f9b02be2"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-closed-3q.png",
+      "bytes": 527145,
+      "sha256": "30cc8319f9db74545734a97b1f5ae411b51deca59aecab31d9549163e381f909"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-closed-front.png",
+      "bytes": 555992,
+      "sha256": "4e8234e84da1c2cfeb7a7032a730309f0b7223a821b2c466b78a7e1b9c3d0006"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-closed-side.png",
+      "bytes": 502631,
+      "sha256": "062c53efd72bc9671aa34d863e90b8da55d89b83077fab152c66c022a1fe7914"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-large-3q.png",
+      "bytes": 531534,
+      "sha256": "d9429edc26eb8fbd2a7b2400790dd6f717e8f22d5eff0eaf26da4645151e634d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-large-front.png",
+      "bytes": 561838,
+      "sha256": "ee564dfd3a7e773849f3b9eda2873078dd09e510c9b62e37f1ef497a0444ed09"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-large-side.png",
+      "bytes": 501499,
+      "sha256": "15433533cdefb0a1ca4d6fc6f67f5f4cfbcd3118f020f5cd1cd1cb0d5ce0b0fb"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-small-3q.png",
+      "bytes": 528776,
+      "sha256": "e2d9e83a6a5ab78ac26a660f73f2dad676dd432a2788085dfd342cb1a8f21880"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-small-front.png",
+      "bytes": 557590,
+      "sha256": "1e13e4ca6a964000ce17fd2c7118e3c3049944cb54dbc11b3f410c52d6b3ac7e"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-mouth-small-side.png",
+      "bytes": 501726,
+      "sha256": "869951960af1839fe25cfb0a4ad5136b931aa5eefbba71c47c48cd243d91efa4"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-neutral-3q.png",
+      "bytes": 529540,
+      "sha256": "131542eddbc7f5398c7a7c9023cba5218b8866c49ddb1f65505c5c7ff48cd55d"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-neutral-front.png",
+      "bytes": 559064,
+      "sha256": "67d02810438f47706281640a2a17d484d666ffa5741bf2e403a53eb4bc1a40d0"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-neutral-side.png",
+      "bytes": 501470,
+      "sha256": "eadd30db7a72de588c9b5d41846339762f2d39cd4a9662de0000c15ec016c15f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-recovery-3q.png",
+      "bytes": 529540,
+      "sha256": "02b408a3fe0ef5998b5d12bdade2656b04db3a192e6e8bb215a47e95fedb142f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-recovery-front.png",
+      "bytes": 559064,
+      "sha256": "b232ba405613a277519f8b3e7e5462f625b7b2d6787c69e0507cd6aae12bf0cf"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/reimport-recovery-side.png",
+      "bytes": 501470,
+      "sha256": "d07b09777f3bde649908edfdcb13dea5900c477b4038638a3a8564bb7d351b9b"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-L-3q.png",
+      "bytes": 526535,
+      "sha256": "4072e241054c0201e1e9b62f21481d54357dbf01ea11662e5ea70696c8743da9"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-L-front.png",
+      "bytes": 547067,
+      "sha256": "c0737c538b1e2d331d6240dc7eb7371ad02bb4aac713ec92d535bd8457c23340"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-L-left3q.png",
+      "bytes": 517159,
+      "sha256": "62966021d61a7f56c5c85711525c73cf8909a33d9844cca937d4a2e2ba3c93e9"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-L-side.png",
+      "bytes": 508785,
+      "sha256": "098200fd578e4dd8c3627db7ac45283e4a39442444a723615f060fb6f33ad13c"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-R-3q.png",
+      "bytes": 534902,
+      "sha256": "37648cd0020be6350b40ca0757026541e6c7a3569a8e20fbed21caf24c518f60"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-R-front.png",
+      "bytes": 547218,
+      "sha256": "b0307089320c5fd47f443757e12743ec18e10f1688e612b9271b468603c42147"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-R-left3q.png",
+      "bytes": 512096,
+      "sha256": "77f2e4c9160771683832360c7f21cc253d0e4d95ec913b3f3093400c53dbff42"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/renders/wink-R-side.png",
+      "bytes": 516695,
+      "sha256": "6a8d7079f4485c7bc3e9e4edfce456cc09f21de8e3461f3f5a74b55909730268"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/review-states.json",
+      "bytes": 7844,
+      "sha256": "7907ede22bbba0230f35868d1d605cd675d9d876a02dd7a7500b44485e60fb2e"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-before-body.png",
+      "bytes": 461220,
+      "sha256": "9db5459a36e19dd1b9f13af4d79d88f480c0a65553e9ea509d6580fae517f3bb"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-before-face.png",
+      "bytes": 809034,
+      "sha256": "90ce2bea7fe4876f837f8c07abf7b4170b4ebef13587d0aa416d3c7455e7f153"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-before-neutral-canvas.png",
+      "bytes": 776776,
+      "sha256": "2c106456369490f9ddf152927da25f26243fda1f8273bfafdeac6a1f21634e39"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-blink-0.25.png",
+      "bytes": 811285,
+      "sha256": "064596b2a58900b9b7a56385ae01cd96ad70caaafd19b5ce00f4fab3d229c96f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-blink-0.5.png",
+      "bytes": 802411,
+      "sha256": "9c1b1636b228e651e1e0102bc74bfc906b8097a1dcef06fc8b11859040047a01"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-blink-0.75.png",
+      "bytes": 788068,
+      "sha256": "1a848bc30538ba338b51825e5c09ad8e197c19a94837d98be52a325bbf9cbba3"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-blink-1.png",
+      "bytes": 772806,
+      "sha256": "76bb2faf7a1ccb434deddbfbcead8b827bd8e3ef116f6bbb7817a0faa7ced223"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-body.png",
+      "bytes": 466596,
+      "sha256": "5749c28692cc3f067fe5af2ed40530e54600b9edd94ea629b8506fadf2ce71f3"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-combined.png",
+      "bytes": 802619,
+      "sha256": "e4cd752a8c1cb79cedec43741fe9c8bc88d7782e5c0a8664f4241a1e061bc993"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-face.png",
+      "bytes": 814493,
+      "sha256": "891c422c4f45cf28dd89c20bb473addd85a41df08435fd42e4bdba89decd8990"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-mouth-closed.png",
+      "bytes": 809548,
+      "sha256": "4f4c3b2de224e854c3194b6716fac6d4fd80d5bcd9f2e8b9eaadef2ab9d0d054"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-mouth-large.png",
+      "bytes": 814974,
+      "sha256": "16e9695dc368edc48c4cb3b7ccef79cc0b2a74a4e299e93735c9f08a24fc00bc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-mouth-small.png",
+      "bytes": 812651,
+      "sha256": "025d91a7850b8eac812e623e777cb91fec216855a38a5f7db8f9660632a8af88"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-neutral-canvas.png",
+      "bytes": 776429,
+      "sha256": "c771ad225c2289864f92787f0c4a876ac4af050f15697dc0399be549404ce2cc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-recovery-canvas.png",
+      "bytes": 776429,
+      "sha256": "c771ad225c2289864f92787f0c4a876ac4af050f15697dc0399be549404ce2cc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-recovery.png",
+      "bytes": 814425,
+      "sha256": "f1e76efd24bc69e261156b69654fa8df9da6487fc0ada6ae85f4cff469387079"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-schedule.json",
+      "bytes": 1207,
+      "sha256": "3d8821a223abf9f5ce67f265d24946141eedc679e08d1099a0afc638a2b918b0"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-00.png",
+      "bytes": 776429,
+      "sha256": "c771ad225c2289864f92787f0c4a876ac4af050f15697dc0399be549404ce2cc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-01.png",
+      "bytes": 776722,
+      "sha256": "61d6b8457c04807feb813c6b46f9c2929a8ad5318917076d2c39e179f5f496b8"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-02.png",
+      "bytes": 774467,
+      "sha256": "a763ba94cab78b0f4e8befff4c6ba499e4369b00799765c0ea5c0456498d49b7"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-03.png",
+      "bytes": 771430,
+      "sha256": "1f9a030c2b46533efe52e6a778a030f95cb0a02d4c7242b735f586aa3cc88f6c"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-04.png",
+      "bytes": 768000,
+      "sha256": "a6317306125c90edd45d339e7f4e8461491f001090378e09f2c6e41704ad9b5a"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-05.png",
+      "bytes": 764458,
+      "sha256": "d97dd44da7e646b7778a6c0faa3844706d09194bc455e7489430e7f8ba34717f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-06.png",
+      "bytes": 760286,
+      "sha256": "9555a710f7edd94ea635a2642d199cf0e009621c286f0866fdff7098b934f423"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-07.png",
+      "bytes": 754466,
+      "sha256": "ed95ba8d1ede1c649f65c833c0bdf1ad76bb692d3ddbc95858b3067df560fefb"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-08.png",
+      "bytes": 747557,
+      "sha256": "c9c26f9631e11691c502d0eaddaf23f2fc69ef882384fe41e32176da70ec25bc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-09.png",
+      "bytes": 742386,
+      "sha256": "749e502425670d4fe00806a42ed4649b4c46d9b71f82b21197ae86a11a941389"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-10.png",
+      "bytes": 735457,
+      "sha256": "3610af5c9b2a4b06f5e6ecc62efa75e20ea1d312773d25a43f05d1e3ab1c4447"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-11.png",
+      "bytes": 742386,
+      "sha256": "749e502425670d4fe00806a42ed4649b4c46d9b71f82b21197ae86a11a941389"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-12.png",
+      "bytes": 747557,
+      "sha256": "c9c26f9631e11691c502d0eaddaf23f2fc69ef882384fe41e32176da70ec25bc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-13.png",
+      "bytes": 754466,
+      "sha256": "ed95ba8d1ede1c649f65c833c0bdf1ad76bb692d3ddbc95858b3067df560fefb"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-14.png",
+      "bytes": 760286,
+      "sha256": "9555a710f7edd94ea635a2642d199cf0e009621c286f0866fdff7098b934f423"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-15.png",
+      "bytes": 764458,
+      "sha256": "d97dd44da7e646b7778a6c0faa3844706d09194bc455e7489430e7f8ba34717f"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-16.png",
+      "bytes": 768000,
+      "sha256": "a6317306125c90edd45d339e7f4e8461491f001090378e09f2c6e41704ad9b5a"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-17.png",
+      "bytes": 771430,
+      "sha256": "1f9a030c2b46533efe52e6a778a030f95cb0a02d4c7242b735f586aa3cc88f6c"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-18.png",
+      "bytes": 774467,
+      "sha256": "a763ba94cab78b0f4e8befff4c6ba499e4369b00799765c0ea5c0456498d49b7"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-19.png",
+      "bytes": 776722,
+      "sha256": "61d6b8457c04807feb813c6b46f9c2929a8ad5318917076d2c39e179f5f496b8"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-sweep-20.png",
+      "bytes": 776429,
+      "sha256": "c771ad225c2289864f92787f0c4a876ac4af050f15697dc0399be549404ce2cc"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-wink-L.png",
+      "bytes": 799030,
+      "sha256": "261ed363fab17d4d4914a13ef5886e4519dab733a49187142c00589a0068c59a"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/runtime-wink-R.png",
+      "bytes": 788269,
+      "sha256": "bdb6cf11731d1df8e6da43ea657e19f10b724202ca7cc41297506c46067216a0"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/saved-states.json",
+      "bytes": 966,
+      "sha256": "9636584df2a1aee5b1954df1ca14eda9c49e58c09904c5976893b9a47063d6e7"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/static-runtime.json",
+      "bytes": 188353,
+      "sha256": "94e33930464677fa76c2a5f8f385f8d5f029f1ed48adb0d0e6a9095a7ad13448"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/surface-hit-diagnosis.json",
+      "bytes": 4734,
+      "sha256": "8ccd76602b96f7a37254aa65cd48c7f864a66aafe0742a4017ebc8d081880e31"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/texture-diff.json",
+      "bytes": 663,
+      "sha256": "681bd78711fb67bf7202207928bb5e9e2ba97095c2019337981e2d53e3433c39"
+    },
+    {
+      "path": "docs/production/jill/eye-boundary-v008/verification.json",
+      "bytes": 3402,
+      "sha256": "51df14e14dc2df7a32f3fe98259dbefdf6394ede03fe94cc65adbf82e3a85e3b"
+    },
+    {
+      "path": "docs/production/jill/HANDOFF.md",
+      "bytes": 2996,
+      "sha256": "3771357a488bfc606c9cdc5222d73971f189622b43a90383b0928e301d44b08a"
+    },
+    {
+      "path": "scripts/3d/jill-eye-v008/review-controls.mjs",
+      "bytes": 1859,
+      "sha256": "68cf815c2743c3fd6d3afb1d713d89777c287a201b8bc9f12f7ccafd7982dc9d"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/serve.mjs",
+      "bytes": 3041,
+      "sha256": "29c6923d34127aeb68c58f60c6033e118f0df4298a96c7803e79bf76313bacd8"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/viewer.mjs",
+      "bytes": 5803,
+      "sha256": "e718de00259aaf5bfb6ffa59c901452a1f8e6a37af9ab8eeb4e0a214aab95ccb"
+    },
+    {
+      "path": "scripts/blender/jill-eye-boundary-v008.py",
+      "bytes": 5210,
+      "sha256": "4e9e283c7f4574451d01568dfda8c5fe7dff446dc933d6f53b351c7f7e0bf000"
+    },
+    {
+      "path": "scripts/blender/verify-jill-eye-boundary-v008.py",
+      "bytes": 789,
+      "sha256": "4c6c25dd9537fc3b4e5ef9bddb75f87bca317773dc019417c847569e57505f2d"
+    },
+    {
+      "path": "scripts/qa/capture-jill-eye-v008-bounded.js",
+      "bytes": 1072,
+      "sha256": "b014e23ac0c3c47a9c43cf6107d5d57868157bd994b93ab44f248d1c7ebf9cd0"
+    },
+    {
+      "path": "scripts/qa/capture-jill-eye-v008.js",
+      "bytes": 3202,
+      "sha256": "0b609ca4c3a8c9e812c155e7a312ddf82fc75da6ea5524b9654f9ff7049b5a1b"
+    },
+    {
+      "path": "scripts/qa/package-jill-eye-v008.py",
+      "bytes": 7863,
+      "sha256": "a827842c48d9adecda086cb95724faa90a4e32f32bf33cd87d184018af7b61ae"
+    },
+    {
+      "path": "scripts/qa/repair-jill-eye-boundary-v008.py",
+      "bytes": 3003,
+      "sha256": "ec2527ebef7a865c3bf2eb4e875ed018a099d67fb77f1ff0765caadb5983e12e"
+    }
+  ]
+}

@@ -17,9 +17,10 @@ if(process.env.JILL_REVIEW_MOUTH_CONTROLS==='1'){
  routes['/mouth-controller.mjs']=path.join(root,'scripts/3d/jill-mouth-v006/mouth-controller.mjs');
  routes['/mouth-review.mjs']=path.join(root,'scripts/3d/jill-mouth-v006/review-controls.mjs');
 }
+if(process.env.JILL_REVIEW_EYE_CONTROLS==='1')routes['/eye-review.mjs']=path.join(root,'scripts/3d/jill-eye-v008/review-controls.mjs');
 http.createServer(async(req,res)=>{
  try{
-  if(req.method==='GET'&&req.url==='/review-config.json'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({mouthControls:process.env.JILL_REVIEW_MOUTH_CONTROLS==='1',leftSide:process.env.JILL_REVIEW_LEFT_SIDE==='1',appearanceStatus:process.env.JILL_REVIEW_APPEARANCE_STATUS||null}));return;}
+  if(req.method==='GET'&&req.url==='/review-config.json'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({mouthControls:process.env.JILL_REVIEW_MOUTH_CONTROLS==='1',eyeControls:process.env.JILL_REVIEW_EYE_CONTROLS==='1',leftSide:process.env.JILL_REVIEW_LEFT_SIDE==='1',appearanceStatus:process.env.JILL_REVIEW_APPEARANCE_STATUS||null}));return;}
   if(req.method==='POST'&&req.url==='/evidence'){
    let data='';for await(const c of req){data+=c;if(data.length>3e6)throw Error('too large');}
    const result=JSON.parse(data);result.model_sha256=createHash('sha256').update(await readFile(routes['/model.glb'])).digest('hex');

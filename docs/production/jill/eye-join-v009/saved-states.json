@@ -1,0 +1,60 @@
+{
+  "neutral": {},
+  "mouth-closed": {
+    "mouth_close": 1
+  },
+  "mouth-small": {
+    "mouth_close": 0.5
+  },
+  "mouth-large": {
+    "mouth_open": 1
+  },
+  "combined": {
+    "blink.L": 0.5,
+    "blink.R": 0.5,
+    "mouth_open": 0.5,
+    "wing_open.L": 0.65,
+    "wing_open.R": 0.65,
+    "tail_sway": -0.5,
+    "head_yaw": 0.4
+  },
+  "recovery": {},
+  "blink-0.25": {
+    "blink.L": 0.25,
+    "blink.R": 0.25
+  },
+  "blink-0.5": {
+    "blink.L": 0.5,
+    "blink.R": 0.5
+  },
+  "blink-0.75": {
+    "blink.L": 0.75,
+    "blink.R": 0.75
+  },
+  "blink-1": {
+    "blink.L": 1,
+    "blink.R": 1
+  },
+  "wink-L": {
+    "blink.L": 1
+  },
+  "wink-R": {
+    "blink.R": 1
+  },
+  "gaze-x--1": {
+    "gaze_x.L": -1,
+    "gaze_x.R": -1
+  },
+  "gaze-x-1": {
+    "gaze_x.L": 1,
+    "gaze_x.R": 1
+  },
+  "gaze-y--1": {
+    "gaze_y.L": -1,
+    "gaze_y.R": -1
+  },
+  "gaze-y-1": {
+    "gaze_y.L": 1,
+    "gaze_y.R": 1
+  }
+}
