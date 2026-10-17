@@ -33,6 +33,7 @@ Use this index to locate durable authority. Current execution truth is not durab
 
 - Jill's peach-colored head appendages are treated as **horn-like anatomy** by the latest Human interpretation; do not automatically recolor as ear backs. Final material identity (including canonical clover marking) still requires QA.
 
+- **Shushu Motion v002 — design contracts (all 35 entries, not Human Motion GO):** [Motion Bible v002](character-experience/SHUSHU_MOTION_BIBLE_V002.md) is the unified posture/transition/locomotion/interaction/emotion/additive authoring vocabulary; [Camera Language](character-experience/SHUSHU_CAMERA_LANGUAGE_AND_SHOT_GUIDE.md) defines front-fixed presentation and review shots; [Poseboard Spec](../../production/app/SHUSHU_MOTION_POSEBOARD_SPEC.md) defines pre-animation image views and Human pose gates; [Implementation Brief](../../production/app/SHUSHU_MOTION_IMPLEMENTATION_BRIEF.md) defines contact ownership, PlayCanvas graph/layers and implementation gates. Previous v001 research remains **evidence**, not superseded observational data. See active branch/rig for feasibility; source images and Human approvals retain precedence.
 - [Shushu Bear-Cub Motion Research & Performance Bible](character-experience/SHUSHU_BEAR_CUB_MOTION_RESEARCH_AND_DIRECTION.md) — keeper observations, adult bear biomechanics with limits, animation craft, sit→4-stand frame-by-frame candidate, walking/face/gaze/idle, uncertainty ledger and Human gates; **production direction not Human Motion GO**.
 
 ## Blender implementation reference (non-authoritative)
