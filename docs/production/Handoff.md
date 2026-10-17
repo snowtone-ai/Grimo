@@ -2,6 +2,9 @@
 
 **Checked:** 2026-10-17 / Codex retirement scope. **Canonical:** `main:docs/production/Handoff.md`. Main is the shared rules/knowledge base, **not** proof of the newest 3D state. For actual NOW, inspect the relevant feature branch remote HEAD, editable assets, production State, evidence, and Codex-local dirty changes. Human approval cannot be inferred from file names, dates or technical PASS.
 
+## App/backend decision (Human 2026-10-17)
+First launch = Shushu-only, new noncommercial family/personal PWA; local Dexie/IndexedDB, manual Grimo backup, no old app data migration, device sync, cloud DB or core login. Vercel existing `grimo` project; settings/deploy are unverified. [Implementation/merge gates](../grimo/knowledge/product/GRIMO_LOCAL_FIRST_ARCHITECTURE.md). Next: isolated new DB + Task event foundation; no bulk 3D branch merge.
+
 ## Shared foundation verified
 - `main:AGENTS.md` was updated at [`da479113`](https://github.com/snowtone-ai/Grimo/commit/da4791135414a94951ed2d9ab51ca28da9ebcec8) to require GOAL-first, identity protection, targeted evidence, cause separation and minimal sufficient work. Next.js auto-generated rules were retained.
 - 2026-10-15 [shared-reference sync](https://github.com/snowtone-ai/Grimo/blob/main/docs/grimo/knowledge/character-production/SHARED_REFERENCE_SYNC_20261015.md) registered 15 Body-only PNGs and their hash manifest on main, shared Canonicals and other reusable knowledge. This **does not** confer Tripo preflight, 3D, Rig, Motion or Human acceptance.

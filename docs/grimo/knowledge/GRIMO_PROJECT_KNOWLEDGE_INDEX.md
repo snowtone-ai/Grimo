@@ -21,6 +21,7 @@ Use this index to locate durable authority. Current execution truth is not durab
 
 - `GRIMO_PRODUCT_NORTH_STAR_AND_MINIMUM_REQUIREMENTS.md` — product goal and minimum experience requirements
 - `GRIMO_CHARACTER_EXPERIENCE_SPEC.md` — companion experience authority
+- [Grimo Local-first Backend Architecture](product/GRIMO_LOCAL_FIRST_ARCHITECTURE.md) — 2026-10-17 Human-confirmed fresh/local-only/independent Shushu launch, Dexie isolation, safety and execution/merge gates.
 - `GRIMO_CHARACTER_PRODUCTION_ARCHITECTURE.md` — durable visible-character requirements
 - `GRIMO_PRODUCTION_OPERATING_SYSTEM.md` — flexible production principles
 - [Living companion experience research](research/GRIMO_LIVING_COMPANION_EXPERIENCE_RESEARCH.md) — research evidence for companion experience design.
