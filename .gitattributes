@@ -15,3 +15,26 @@ scripts/blender/*carol-normal-semantic-v001.py text eol=lf
 # Shushu v003 runtime and crown planner hashes are evidence-bound byte streams.
 assets/grimo/production/shushu/runtime/*-v003.mjs text eol=lf
 scripts/3d/rebuild-shushu-crown-v003.py text eol=crlf
+
+# Shushu v004 candidate scripts and evidence are byte-bound in the delivery manifest.
+assets/grimo/production/shushu/runtime/*-v004.mjs text eol=lf
+scripts/3d/capture-shushu-abc-v004.mjs text eol=lf
+scripts/3d/review-shushu-abc-v004.mjs text eol=lf
+scripts/blender/audit-shushu-abc-v004.py text eol=lf
+scripts/blender/audit-shushu-contact-v004.py text eol=lf
+scripts/blender/audit-shushu-fk-contract-v004.py text eol=lf
+scripts/blender/audit-shushu-preservation-v004.py text eol=lf
+scripts/blender/compare-shushu-surface-v004.py text eol=lf
+scripts/blender/diagnose-shushu-abc-v004.py text eol=lf
+scripts/blender/inspect-shushu-surface-v004.py text eol=lf
+scripts/blender/plan-shushu-contact-v004.py text eol=lf
+scripts/blender/plan-shushu-elbow-v004.py text eol=lf
+scripts/blender/plan-shushu-shoulder-v004.py text eol=lf
+scripts/blender/probe-shushu-abc-structure-v004.py text eol=lf
+scripts/blender/prove-shushu-abc-v004.py text eol=lf
+scripts/blender/render-shushu-abc-v004.py text eol=lf
+scripts/blender/repair-shushu-abc-v004.py text eol=lf
+docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*.md text eol=lf
+docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*.json text eol=lf
+docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*.mjs text eol=lf
+docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/**/*.html text eol=lf
