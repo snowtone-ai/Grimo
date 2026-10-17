@@ -1,0 +1,72 @@
+{
+  "scope": "Local mouth repair and representative body/expression transport; not all production motions/mobile certification",
+  "time_basis": "Blender frame / 24 retained in glTF",
+  "duration": 11.708333333333334,
+  "cases": [
+    {
+      "name": "mouth-closed",
+      "peak_seconds": 0.375,
+      "peak_frame": 9
+    },
+    {
+      "name": "mouth-small",
+      "peak_seconds": 1.2916666666666667,
+      "peak_frame": 31
+    },
+    {
+      "name": "mouth-large",
+      "peak_seconds": 2.2083333333333335,
+      "peak_frame": 53
+    },
+    {
+      "name": "smile-L",
+      "peak_seconds": 3.125,
+      "peak_frame": 75
+    },
+    {
+      "name": "smile-R",
+      "peak_seconds": 4.041666666666667,
+      "peak_frame": 97
+    },
+    {
+      "name": "open-smile",
+      "peak_seconds": 4.958333333333333,
+      "peak_frame": 119
+    },
+    {
+      "name": "closed-open-smile",
+      "peak_seconds": 5.875,
+      "peak_frame": 141
+    },
+    {
+      "name": "blink-half",
+      "peak_seconds": 6.791666666666667,
+      "peak_frame": 163
+    },
+    {
+      "name": "blink-full",
+      "peak_seconds": 7.708333333333333,
+      "peak_frame": 185
+    },
+    {
+      "name": "wings-open",
+      "peak_seconds": 8.625,
+      "peak_frame": 207
+    },
+    {
+      "name": "wings-fold",
+      "peak_seconds": 9.541666666666666,
+      "peak_frame": 229
+    },
+    {
+      "name": "tail",
+      "peak_seconds": 10.458333333333334,
+      "peak_frame": 251
+    },
+    {
+      "name": "combined",
+      "peak_seconds": 11.375,
+      "peak_frame": 273
+    }
+  ]
+}

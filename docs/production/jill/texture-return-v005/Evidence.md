@@ -1,5 +1,7 @@
 # Jill v005 — Tripo 4K Texture移植 / 技術候補完成・外観HOLD
 
+**2026-10-18 NOW:** 元v005を保護した別名v006で、口の肌・W縁・口腔を一体化。前回の帯/閉口口角のしわ/Side口腔露出を指定状態で解消した候補を作成し、保存blend・fresh GLB・実PlayCanvasで確認。局所Geometry/UV/3 driver差分を明示した [v006 Evidence](../mouth-integration-v006/Evidence.md) を参照。Human外観GO pending、Texture込みモデル全体の完全完成は未達。以下はv005と不採用の前試作の履歴。
+
 **2026-10-17 上口W追加調査：Human指摘のcream帯はtextureだけでなく追加 `mouth-skin` 面がWの下を塞ぐ形状問題。局所mask＋補助形状候補を別名保存したが、閉口/小開口の口角に破綻が残り修正FAIL・HOLD。元v005は置換していない。最新の原因・比較・保存/GLB/runtime検証・未達は [上口W REVIEW](upper-w-local/REVIEW.md)。以下のimage-only保持記録は元v005の履歴であり、新しい局所Geometry候補の主張ではない。**
 
 2026-10-17。Human v004形状GOを継承しTexture付きblend / static GLB / 限定PlayCanvasレビューを作成。**正式外観GOはHuman専権、今回はHOLD。全Motion量産には進んでいない。**

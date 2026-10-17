@@ -1,0 +1,32 @@
+{
+  "result": "MOUTH_HUMAN_GO / FULL_MODEL_HOLD",
+  "full_goal_complete": false,
+  "human_visual_go": true,
+  "source_replaced": false,
+  "mouth_band_w": "Removed in inspected Front/Side/left/right3Q and runtime states; Human mouth appearance GO received 2026-10-18",
+  "closure_small_large_recovery": "No recurrence of preceding trial defects in inspected cases",
+  "saved_blend": true,
+  "local_preservation": true,
+  "fresh_glb": true,
+  "bounded_runtime": true,
+  "direct_runtime": true,
+  "static_glb_live_controls": true,
+  "invariants": {
+    "bones": 130,
+    "authoring_channels": 39,
+    "morphs": 20,
+    "anchors": 16
+  },
+  "human_decision": {
+    "date": "2026-10-18",
+    "mouth": "GO",
+    "clover": "Add according to Canonical"
+  },
+  "remaining": [
+    "Existing eyelid/outer-corner appearance HOLD",
+    "Horn provisional boundary/colour",
+    "Canonical thigh clover addition authorized, not yet implemented",
+    "Full model Human appearance GO"
+  ],
+  "certification_scope": "Focused authoring envelope and bounded desktop runtime; full motion production and real mobile are outside this repair certification"
+}

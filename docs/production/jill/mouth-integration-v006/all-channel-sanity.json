@@ -1,0 +1,631 @@
+{
+  "pass": true,
+  "samples": [
+    {
+      "channel": "chest_lift",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.038965054733163584
+    },
+    {
+      "channel": "chest_lift",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "chest_lift",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.038964955832954964
+    },
+    {
+      "channel": "breath",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.004355581168489504
+    },
+    {
+      "channel": "breath",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "breath",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.004355587823351504
+    },
+    {
+      "channel": "head_yaw",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.08112181640252192
+    },
+    {
+      "channel": "head_yaw",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "head_yaw",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.08072599572999334
+    },
+    {
+      "channel": "head_nod",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.06203841497201171
+    },
+    {
+      "channel": "head_nod",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "head_nod",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.062038352214239895
+    },
+    {
+      "channel": "head_tilt",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.05282462607350359
+    },
+    {
+      "channel": "head_tilt",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "head_tilt",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.05283684928409555
+    },
+    {
+      "channel": "tail_sway",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.05847350652442763
+    },
+    {
+      "channel": "tail_sway",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "tail_sway",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.058478585616572626
+    },
+    {
+      "channel": "tail_curl",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "tail_curl",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "tail_curl",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.009447752849985372
+    },
+    {
+      "channel": "leaves_head.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.010525146407963402
+    },
+    {
+      "channel": "leaves_head.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "leaves_head.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.010525047372864768
+    },
+    {
+      "channel": "leaves_head.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.011348956833685685
+    },
+    {
+      "channel": "leaves_head.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "leaves_head.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.011348977407780942
+    },
+    {
+      "channel": "leaves_neck.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.007693964004718397
+    },
+    {
+      "channel": "leaves_neck.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "leaves_neck.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.007693839286312967
+    },
+    {
+      "channel": "leaves_neck.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.010589623241263188
+    },
+    {
+      "channel": "leaves_neck.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "leaves_neck.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.010589580212411711
+    },
+    {
+      "channel": "leaves_tail",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.0045763609803629425
+    },
+    {
+      "channel": "leaves_tail",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "leaves_tail",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.004576340705304973
+    },
+    {
+      "channel": "wing_open.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.13416656797850177
+    },
+    {
+      "channel": "wing_open.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "wing_open.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.10932222144102983
+    },
+    {
+      "channel": "wing_flap.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.0365500805947904
+    },
+    {
+      "channel": "wing_flap.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "wing_flap.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.03655009331396112
+    },
+    {
+      "channel": "wing_camber.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.00675777044043491
+    },
+    {
+      "channel": "wing_camber.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "wing_camber.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.013393334663918517
+    },
+    {
+      "channel": "paw_offer.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.09039902340948343
+    },
+    {
+      "channel": "paw_offer.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "paw_offer.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.0921535198896841
+    },
+    {
+      "channel": "paw_turn.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.016855167670749467
+    },
+    {
+      "channel": "paw_turn.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "paw_turn.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.016855084757194473
+    },
+    {
+      "channel": "gaze_x.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.003148047938392382
+    },
+    {
+      "channel": "gaze_x.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "gaze_x.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.00314809404360468
+    },
+    {
+      "channel": "gaze_y.L",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.003143859617639221
+    },
+    {
+      "channel": "gaze_y.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "gaze_y.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.003143811896275763
+    },
+    {
+      "channel": "blink.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "blink.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.056131664285282
+    },
+    {
+      "channel": "smile.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "smile.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.00343930721282959
+    },
+    {
+      "channel": "cheek_touch.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "cheek_touch.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.0029963552951812744
+    },
+    {
+      "channel": "paw_ik.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "paw_ik.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.026625943678933065
+    },
+    {
+      "channel": "foot_ik.L",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "foot_ik.L",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.0054934528146127854
+    },
+    {
+      "channel": "wing_open.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.13416654535862113
+    },
+    {
+      "channel": "wing_open.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "wing_open.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.10928085191641962
+    },
+    {
+      "channel": "wing_flap.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.0365500805947904
+    },
+    {
+      "channel": "wing_flap.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "wing_flap.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.03655009331396112
+    },
+    {
+      "channel": "wing_camber.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.00675577279226703
+    },
+    {
+      "channel": "wing_camber.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "wing_camber.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.013393334663918517
+    },
+    {
+      "channel": "paw_offer.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.08584512743798274
+    },
+    {
+      "channel": "paw_offer.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "paw_offer.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.08795324086600166
+    },
+    {
+      "channel": "paw_turn.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.017568295359662936
+    },
+    {
+      "channel": "paw_turn.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "paw_turn.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.017568281969163796
+    },
+    {
+      "channel": "gaze_x.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.0031474572521656002
+    },
+    {
+      "channel": "gaze_x.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "gaze_x.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.0031474077328638573
+    },
+    {
+      "channel": "gaze_y.R",
+      "value": -1,
+      "finite": true,
+      "max_displacement_m": 0.0031431149321424156
+    },
+    {
+      "channel": "gaze_y.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "gaze_y.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.003143049018802596
+    },
+    {
+      "channel": "blink.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "blink.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.05610488830866112
+    },
+    {
+      "channel": "smile.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "smile.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.00343930721282959
+    },
+    {
+      "channel": "cheek_touch.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "cheek_touch.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.0029963552951812744
+    },
+    {
+      "channel": "paw_ik.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "paw_ik.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.019367001995539257
+    },
+    {
+      "channel": "foot_ik.R",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "foot_ik.R",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.005741379220248119
+    },
+    {
+      "channel": "mouth_close",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "mouth_close",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.07427393236551919
+    },
+    {
+      "channel": "mouth_open",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "mouth_open",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.016730566273362817
+    },
+    {
+      "channel": "chest_touch",
+      "value": 0,
+      "finite": true,
+      "max_displacement_m": 0.0
+    },
+    {
+      "channel": "chest_touch",
+      "value": 1,
+      "finite": true,
+      "max_displacement_m": 0.00399857759475708
+    }
+  ],
+  "neutral_recovery_max_delta_m": 0.0,
+  "scope": "All 39 authoring channels at declared min/zero/max: finite geometry and neutral recovery only. Visual motion GO is not inferred from this."
+}

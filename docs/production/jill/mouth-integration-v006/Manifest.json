@@ -1,0 +1,2144 @@
+{
+  "branch": "codex/jill-texture-return-v005-20261017",
+  "start_head": "74596c9673434f4120b300ec0c96fb9c663fc4d0",
+  "verified_main": "8b9d736abca118de5bd1e2e1f64b961e25f0ba42",
+  "status": "MOUTH_HUMAN_GO / FULL_MODEL_NOT_COMPLETE",
+  "hash_scope": "Workspace bytes excluding manifest/remote receipt; Git may normalize text endings",
+  "files": [
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/.gitignore",
+      "bytes": 103,
+      "sha256": "17714bec53796ca1b9425fa0a7c4c116eb18a39d4f49b8e45a248dbdbeaea969"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/jill-review-bounded-v006.glb",
+      "bytes": 20301212,
+      "sha256": "280bdeee1bb827bad325a7ec34613f6ed480fe2a3957342313585a751865a8e6"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/jill-textured-rig-v006.blend",
+      "bytes": 16099549,
+      "sha256": "31589a239c1154a748db9f5ac511da664b6c7a26bf03d165f41882830a0c2a10"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/jill-textured-rig-v006.glb",
+      "bytes": 20091904,
+      "sha256": "46af1faa2133c2c535e7a0ed9dc59ea6937c1ff2c8d0b421693f15261804e3fe"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/mouth-integration-v006/README.md",
+      "bytes": 1704,
+      "sha256": "8b6fec91835af1e7c21b16bb0e1c52cab8d78d3d3d5b2c2e4c594e67a9c6cfb3"
+    },
+    {
+      "path": "docs/production/jill/HANDOFF.md",
+      "bytes": 3144,
+      "sha256": "c0615d57fda8a7345409d4361ca35bc86eb0867f3911b8b77ff8c3a89c8ebbad"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/all-channel-sanity.json",
+      "bytes": 14012,
+      "sha256": "41a9927687255455a48a6519e482da8d070b84ebcdf3e047fc65b4e322e41414"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/before-after.jpg",
+      "bytes": 300501,
+      "sha256": "f50005a29acb4d8599cf6823051a6d45c443861df42f315374382509af6e1c78"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/border-triangulation.json",
+      "bytes": 88,
+      "sha256": "43659ef68667a539b1500c777791db0350acde7834853aa1d87bc558c0071e4d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/cut-probe.json",
+      "bytes": 13655,
+      "sha256": "ad1db2aa4a4cc2ec38bbd6387cf538f791500d42f604a7ed8eb42ec65b1ccecd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0-o0.5.png",
+      "bytes": 832225,
+      "sha256": "7684112358258b51a64034a3b9eacfff22feacaad432e7bbc44d084a03d539cf"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0-o0.png",
+      "bytes": 832130,
+      "sha256": "03a033766006bcd33c80044fb6a80b029420f4f67c6fac08556e576869056d4a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0-o1.png",
+      "bytes": 832531,
+      "sha256": "a42ad6c4e45d9240933e077b91e2a486676031f0970f338738cb2ec032f34d2d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.25-o0.5.png",
+      "bytes": 831219,
+      "sha256": "1e37ba50126e342f8e4cdeebdeddc3590d5eeb101f842f7e62dd2a610032c784"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.25-o0.png",
+      "bytes": 831208,
+      "sha256": "2069c2f5ff1b19fa6750c994977051eb7a0495384d5fd2e0588f96ac53a60071"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.25-o1.png",
+      "bytes": 831589,
+      "sha256": "d177ff9e0fd93bc7968193f8ffbdb63bb25deeb979da24b4732502132c26e58d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.5-o0.5.png",
+      "bytes": 830502,
+      "sha256": "23c80dfd09e7de261fb3e7dadb6a3020690e97129175a83d7d95d0e3f8c213b5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.5-o0.png",
+      "bytes": 830834,
+      "sha256": "58a9ffac321c7f9aae670432650a2124504e53824ba29e21735d0df18b52b3b8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.5-o1.png",
+      "bytes": 830822,
+      "sha256": "49dd63a2ae2505caf6e97f07c8fc5fdc236770d74e67e536c7cf3aae7dedd8ba"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.75-o0.5.png",
+      "bytes": 829404,
+      "sha256": "e68c795d8faf8c4fd83fa9865cf9f511cee8a6531b70c2e5033282f6792acda3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.75-o0.png",
+      "bytes": 829435,
+      "sha256": "bf93604d8ced991e005759341d4356d70ac84530eda696d9c58d1b15bca81a5f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c0.75-o1.png",
+      "bytes": 829805,
+      "sha256": "f87185ea3a7e7395fa9d129194da052adff79c416b6d7426ebf3259128e3f95e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c1-o0.5.png",
+      "bytes": 827363,
+      "sha256": "5733ad1b0438000037b73ca39724c49b2826a01360cfeaecbe91d69a3794ce74"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c1-o0.png",
+      "bytes": 827420,
+      "sha256": "787440d499f26fa9109551619ff1e8832d04b53c757c3cf9390a4bdd44b43eda"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-c1-o1.png",
+      "bytes": 827618,
+      "sha256": "d26c6e6da629df3a4187fb4efddacd75af8559549d109176ce2801f36b70e3ac"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/direct-mouth-runtime.json",
+      "bytes": 3546,
+      "sha256": "6edf1cdcae1f0a2a2b132a5261724ee02e0f8ac46638b6146ecdad9b57b46aa1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/Evidence.md",
+      "bytes": 12160,
+      "sha256": "602d459db5d3efb2583e6befc53153c5c77b5d22fcdf657c40bb57bda08f76f4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/expression-sweep.json",
+      "bytes": 6589,
+      "sha256": "72f4ac0ac37ae6b1fa2115d00fd4326bcf0ca0c81de91111cf784bc565af8636"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/Gate.json",
+      "bytes": 1166,
+      "sha256": "579489703396e3b8ec9b799fdc89cfbdde98ecbe8c4371db1ed6210660daf692"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/interaction.jpg",
+      "bytes": 403994,
+      "sha256": "7d363cdffd2e621d2e0bfa38f382ce886912384e4b48d2bbe1b053202cfc879c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/local-preservation.json",
+      "bytes": 13464,
+      "sha256": "8ff9961cbff4202d93f5bd6686918ff9a337d515e9ece87c4b8ed40cecd3c2d1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/motion-envelope-1.jpg",
+      "bytes": 516361,
+      "sha256": "17036c5a729ec8bb7c831685eed0ce9bb83098c793c29ffdf020f6e97fff2b0a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/motion-envelope-2.jpg",
+      "bytes": 524002,
+      "sha256": "9ea413ec49f762943290b0cc0e596963103633055c925deda8a7f124db27ce35"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/motion-envelope-3.jpg",
+      "bytes": 515741,
+      "sha256": "3a8aad82b1968809e5af4d9e1d2a6e5c76632522ec48c041be9609968fd35e52"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/motion-envelope-4.jpg",
+      "bytes": 519977,
+      "sha256": "e525f98b5cf5b286e1e426c41cf0fa238c19226bf7c42c9d24e668ea59418130"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/motion-envelope-5.jpg",
+      "bytes": 452668,
+      "sha256": "439f2d5325f5a3c391f12fb57b75c18422c9fc880423c7f298b1334e6659889e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/mouth-detail.jpg",
+      "bytes": 117668,
+      "sha256": "99f73a59ad0edeb13fb049e474796c86d203bf7c606f913a6c46427d2d572aa9"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/overlap-sweep.jpg",
+      "bytes": 391671,
+      "sha256": "9a385e5d0e177be4640123bb095b656427f6b084ded89012f2c4af76e6fe0d8e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/parameters.json",
+      "bytes": 2730,
+      "sha256": "fe689977c2405a653b42b66e9cee90aef4eeb1354af40b0e0fbf901ce3c09d2a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/patch-trial.json",
+      "bytes": 6511,
+      "sha256": "c62aa7d603c02df6064f390660dc2cd6634a1b4f1b767ca0e46afb34c456ea30"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/Plan.md",
+      "bytes": 3371,
+      "sha256": "e9ee72e20f5cf9d9c16163ec0858a9d06c6e669f4e1b32cb1284707169036fd8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/playcanvas-runtime.json",
+      "bytes": 932526,
+      "sha256": "4628835b7e343881daa550fa44c4d42de05cf3dec86a3e1bcee91a98baf28229"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/protected-sources.json",
+      "bytes": 1187,
+      "sha256": "cf8ea9c615131b7977631ce7b3d14b474e244fa12b8e35872bceee6179137393"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/recovery.json",
+      "bytes": 137,
+      "sha256": "3d5cbd5fe3870a94298b3ee3469551b236afcc60d996bd69962a642c2fb3a601"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/reimport-proof.json",
+      "bytes": 1729,
+      "sha256": "645c02e2773c8a557c6b851de04690918a668dcf73c584710c3daf17728b41cc"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-combined-3q.png",
+      "bytes": 551121,
+      "sha256": "15598f0ddb510fc0b407fd6354e0a1d78faaec9b4c4f7c721508f2f42d06bd27"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-combined-front.png",
+      "bytes": 552176,
+      "sha256": "d650d487cfba4bc4670c5cb3a4a874d815cda16b26c9aceb8756a5cd376c7cf5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-combined-left3q.png",
+      "bytes": 521642,
+      "sha256": "2620e0d4c4c3b9730737bcb6da358365f21dafa7b19b804b16a012d4b0453aee"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-combined-side.png",
+      "bytes": 510310,
+      "sha256": "203bae174ec63c982c5ec257d48f60d3ad6b5d65d53d80154c7e299e1229f4b9"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-closed-3q.png",
+      "bytes": 533790,
+      "sha256": "7dadc36b4bbf81abe39d6528fa7b70513fc5002925ba981b822bcf85a80840ce"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-closed-front.png",
+      "bytes": 547981,
+      "sha256": "6aa8abc8c189a565caafa31c6b0ee7400db7f3ffaca3a0b5a20a89f45425828c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-closed-left3q.png",
+      "bytes": 515027,
+      "sha256": "ea1ded5db5bea22caf87bb01145a5f3db944a0cdb2b5edbf98f4799708a8ba0a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-closed-side.png",
+      "bytes": 517298,
+      "sha256": "3a5fc9584050d8e1134af6510d1b6824352e0da4c51f08f2672f5ef5665c0ef3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-large-3q.png",
+      "bytes": 539594,
+      "sha256": "da8de844fbb05bf8a1adac409dcdd86010bc72d02a01a88c4fdab209d559b4a1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-large-front.png",
+      "bytes": 555952,
+      "sha256": "e3270c57fbad47ca29e4e6b0909b598781ba62d9f16d515d057ccc26f3f0e16f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-large-left3q.png",
+      "bytes": 521208,
+      "sha256": "a8056f2e6c3437dc7925eb3c4821be218d7ab1b99b78daa2d7d00f2945460150"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-large-side.png",
+      "bytes": 516453,
+      "sha256": "51b09a0775fa1747894b1f57af4bb4f06df73d474873b2163dd7f84643066cb4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-small-3q.png",
+      "bytes": 536898,
+      "sha256": "c90d38f3e6b4d14c9bda63a48bcfaba8c40585a5dae8af8c1fd8e6240d6e5c3d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-small-front.png",
+      "bytes": 550981,
+      "sha256": "4918f471251df976993cf9e9bf616c0e3c891e835c754dc2015aff82b6a5579f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-small-left3q.png",
+      "bytes": 517872,
+      "sha256": "2f644ec1f1be465784a8a8beaadf35448811977dcf0ecd0990fa81452c20dad7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-mouth-small-side.png",
+      "bytes": 516897,
+      "sha256": "1cda4968710f87f33259055f7805c3da8a85a1c43bbd6052541d244b8e4471e1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-neutral-3q.png",
+      "bytes": 538764,
+      "sha256": "136c3c97fa896341c3911ec31aa3defd2dbc219d11d959c614ff54197cd44336"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-neutral-front.png",
+      "bytes": 554112,
+      "sha256": "90e8edcdd8b840adc9a25cf76bbb7b3dc04d0c6fe67bb1f3e35cb1ae38dd2ff6"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-neutral-left3q.png",
+      "bytes": 519796,
+      "sha256": "70615934acfbe4010352df3cd5a9a10d306da9bbbe1dde795289371cca21c6ad"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-neutral-side.png",
+      "bytes": 516700,
+      "sha256": "cf375a8bf362cda0dc4f155f0521eee16d2a33c6f4f72d4bc30c6b1166d7e87d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-recovery-3q.png",
+      "bytes": 538764,
+      "sha256": "9acfb1e66395ef6ad0ff7eaed973c10fdfbb0c5a8095542b40bd5e9b33a086f5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-recovery-front.png",
+      "bytes": 554112,
+      "sha256": "e571c1b7aeb422ce0931ceec70a0461404d08532f126df4e87065e432091a3b3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-recovery-left3q.png",
+      "bytes": 519796,
+      "sha256": "c9c1aac0257253e0618b3bb4d27ef5a42120d9e9c238405f6b51299f0a154d66"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/after-recovery-side.png",
+      "bytes": 516700,
+      "sha256": "9fc38f6e00aebb6ee24bbcdf6ea0a329cc347a5c5d77a70326ad940653f4a2df"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-combined-3q.png",
+      "bytes": 551167,
+      "sha256": "2727f0ee0eef0c188c21da5ef25dd8ea9eb8e35df20a3b30f675665f63daebfd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-combined-front.png",
+      "bytes": 551711,
+      "sha256": "4928f5edb666f7b60cf7945d4964a3930afa0da66c146cc1b5b1154da7a84850"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-combined-left3q.png",
+      "bytes": 522104,
+      "sha256": "f74d8183c65abb656b1d5fc6de491fc7f1864f40115a89118c592484123b5733"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-combined-side.png",
+      "bytes": 511436,
+      "sha256": "7354649975408b8ffa6ac4cfe8ebe9d5fe42d1cd0b0567cea662f27e8bb609e3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-closed-3q.png",
+      "bytes": 535164,
+      "sha256": "82bac8adfe5529c16e397a897202f892cfd7bb89da36f8d617f3e5fb156b895d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-closed-front.png",
+      "bytes": 549520,
+      "sha256": "929df403d13169ce01b7c2a84bdb2665fc3e249808f648428bfc1c9db1edf7d1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-closed-left3q.png",
+      "bytes": 516642,
+      "sha256": "1fb0b9ac163c8bdd30120ecaff43f31465c26a2cf171a84a3bf4688f135a1452"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-closed-side.png",
+      "bytes": 518262,
+      "sha256": "42f412cefa6e5a51fe80cc32db56bcb0259965c873a6f37e67f6cb0aac1fc79e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-large-3q.png",
+      "bytes": 539883,
+      "sha256": "2aabaf7766f7cbb3d2a3924670a482f0a069540ec4863fc04aab577e441418d5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-large-front.png",
+      "bytes": 555220,
+      "sha256": "75118cce85073935efdb2930e014b493a709c56e395711c1c8ad343a078e98a2"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-large-left3q.png",
+      "bytes": 521637,
+      "sha256": "b9bc91202abd8c7399a9de986340d84b938b6a7ce80ec6dfa027e36101946992"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-large-side.png",
+      "bytes": 517931,
+      "sha256": "bdcea91940f5fab53136d4f66ee6bcbe2ff47d9887de29eb6fa8cfcd89e3be3f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-small-3q.png",
+      "bytes": 537559,
+      "sha256": "1d3fb041ebc10694dfaca265697b5cd98eab175b3a19fac5383336cea36b3357"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-small-front.png",
+      "bytes": 551922,
+      "sha256": "134d5e5a279fde6977ec31ab119337ef72f2ce49b444b47409b2a62a79ad3e8d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-small-left3q.png",
+      "bytes": 518718,
+      "sha256": "266f0b6de9c15464e876be9f93b2b4b24128ae9f55fc5e6bba99dfe68092a351"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-mouth-small-side.png",
+      "bytes": 517893,
+      "sha256": "911e4c50f971739c690ea51870d28d160ffd43e61d0ebc6c88ad5c287473c7dd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-neutral-3q.png",
+      "bytes": 539521,
+      "sha256": "63957db9566dcf6803a79715386a9a8259fb06da50b19e8a4daebccf7447115d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-neutral-front.png",
+      "bytes": 553751,
+      "sha256": "c8dd38d41366a4d000a25a0893ec799f9087920396d4e246dca092a554bf5690"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-neutral-left3q.png",
+      "bytes": 520644,
+      "sha256": "3967c6d4f49ecc62af7775ecb9b6e92068ff1c291f1a06fee044e7f6b3f400cf"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-neutral-side.png",
+      "bytes": 518113,
+      "sha256": "4fc69426636f69fe1d42cb25ab8211d5c95205bf8f1c9edb165ff7bf75728052"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-recovery-3q.png",
+      "bytes": 539521,
+      "sha256": "46b2f0d2366993972c86172d6d79fbe1c0c43a46d3565242702e28d7bb903cb7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-recovery-front.png",
+      "bytes": 553751,
+      "sha256": "ab1291c07371e7058d276eff148c478a4f530fc1f8e92d5d8701f831fd577d3a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-recovery-left3q.png",
+      "bytes": 520644,
+      "sha256": "f4db8069707b93c5df08b6796f639022f803b81be5551dd19a5e6592bfbf2226"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/before-recovery-side.png",
+      "bytes": 518113,
+      "sha256": "93132e4f803817fd85fe5348c1596cce345b74139722f7b90e7fd9dc044780cf"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-blink.L-1-3q.png",
+      "bytes": 388375,
+      "sha256": "0c96ec9f2aeca8971d9c6db78762e574002aae52117c5e8d92bc05d498abb4e5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-blink.L-1-front.png",
+      "bytes": 389620,
+      "sha256": "ab7b9c2a3d4338d5d14736f06d5cb8a716762ca28787428e7d7a60d4a8ecf7b5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-blink.L-1-side.png",
+      "bytes": 385144,
+      "sha256": "08a0a5cf760ad3ba700f2ff915ed2615eb12b778097cb411d6d5e554f8d4e8f9"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-blink.R-1-3q.png",
+      "bytes": 390144,
+      "sha256": "23be5540b2b065fabf02e2cde7df44aba863afa0976f23141e7dd8a9d58c9f94"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-blink.R-1-front.png",
+      "bytes": 389414,
+      "sha256": "d3e22df75feac435ebe6040320e24ba2f8a6cead3f514f8507f3be1e8af0880d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-blink.R-1-side.png",
+      "bytes": 387267,
+      "sha256": "add5c5f584c20b9d999377a326581e689f2067116ef6b84baaadb76898748086"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-breath--1-3q.png",
+      "bytes": 389890,
+      "sha256": "d88974ff5aac7564902c1e39a6c677b5ed3a6309c1721b34ec7693567ed62d16"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-breath--1-front.png",
+      "bytes": 391158,
+      "sha256": "80241bd88bd8f82c1673d2c71cbfd0804b1e99a5c1b1187a800b8e9bf3e16572"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-breath--1-side.png",
+      "bytes": 386360,
+      "sha256": "92d729b6a19700d56fbcd43ab1e852b0c563dd4fad98f1aad656546c18798504"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-breath-1-3q.png",
+      "bytes": 391342,
+      "sha256": "dbe2c2335734cb1871b56a0da5cfd60e3a6a106da39062408f1809935ea067dc"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-breath-1-front.png",
+      "bytes": 392790,
+      "sha256": "f5978a67f4b58352e8b1925196b55e91cd88733709ce800d64b416c1d1897244"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-breath-1-side.png",
+      "bytes": 387648,
+      "sha256": "22497d8f3dd026e055011c4865a06dcecf9828dd5be19d0fd2f7c126664e3a04"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-cheek_touch.L-1-3q.png",
+      "bytes": 391165,
+      "sha256": "acc00d11b112506a9485bef12f7ac55906adcb0ac63ae1feceffb70278686fdb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-cheek_touch.L-1-front.png",
+      "bytes": 391550,
+      "sha256": "a0dcd712c62f7e8154fbdf1528b021cd9a1507eafa40f9c9ceb24de6467761d0"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-cheek_touch.L-1-side.png",
+      "bytes": 387408,
+      "sha256": "dcf465a438b85f47a2cc4499cbe7f7b750f799085bf31fa36e23ed1767f326a4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-cheek_touch.R-1-3q.png",
+      "bytes": 391054,
+      "sha256": "3c1d9f22aadb93407f1b0911e8cc4e53944927374189a0f2d0f7c05e4c7c5b8d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-cheek_touch.R-1-front.png",
+      "bytes": 391477,
+      "sha256": "3e532be22de3432536e5d54f18157d7b739b661f1e7bd3e986d9ba2ecc9ab51f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-cheek_touch.R-1-side.png",
+      "bytes": 387267,
+      "sha256": "61f23e198f92fdcbab74ebb68b98905107281966f6e582d49aac261a049c05f4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_lift--1-3q.png",
+      "bytes": 391795,
+      "sha256": "92c2a7044288a4edf5b1547d0ac90b3d5385d050567ccabab72cdfa119edda6b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_lift--1-front.png",
+      "bytes": 392646,
+      "sha256": "b086df7abdb19acf24905b4f3cc599a980ef8f160fb126eaa43be317a1b858e2"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_lift--1-side.png",
+      "bytes": 390197,
+      "sha256": "17829e78824a2149f8977077db2f44f2f0581c9a6c24d07a257d84201560a662"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_lift-1-3q.png",
+      "bytes": 388837,
+      "sha256": "64f2eed2a8743ead3a0c1d429b84ed177602deaf94cac8e673bd484d1891fdf7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_lift-1-front.png",
+      "bytes": 390960,
+      "sha256": "e47710e6a06e6ab833e16213485ff60cedc3b312ffbee1d1d7593f1e06b5ac4e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_lift-1-side.png",
+      "bytes": 385087,
+      "sha256": "413c5bf3096f353737767f2189a74ca917901141ab2e2f1552f0743c0031e841"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_touch-1-3q.png",
+      "bytes": 390817,
+      "sha256": "ff1b5b8b9a418f44562f2723e4644f19118bf5128698aa895fb6cc91bd914f19"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_touch-1-front.png",
+      "bytes": 391547,
+      "sha256": "2ee840feedc769060c448bd1a06a5f36704e632beac729a3c8a13187e63113ee"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-chest_touch-1-side.png",
+      "bytes": 387200,
+      "sha256": "845c41481566c76bcce6942174f9a27a7ec394f5758498292d357f2a72b573ea"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-foot_ik.L-1-3q.png",
+      "bytes": 391148,
+      "sha256": "397baa64068b38166318d001bb5a5f700ae3ce04f83b7a2b2180b102edd3e663"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-foot_ik.L-1-front.png",
+      "bytes": 391262,
+      "sha256": "87ca4a4fe5c6d881eaa84c02c6d519a43784f6b11cb8a19114497f5adc64b612"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-foot_ik.L-1-side.png",
+      "bytes": 386891,
+      "sha256": "95eb312fb43166b41941640c6c017006ac201f801f5943429644787dfb1e04af"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-foot_ik.R-1-3q.png",
+      "bytes": 391416,
+      "sha256": "7dbb6bf19907a48c62f0cf1000887953dc6b5f8c5d1df7c5147911c061e48360"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-foot_ik.R-1-front.png",
+      "bytes": 391359,
+      "sha256": "bbc74207645dd9cd1cb0f59a8aede104b2b0f82acacc077379849c219e1ff933"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-foot_ik.R-1-side.png",
+      "bytes": 386979,
+      "sha256": "fca3ba2695c47394b54d3b31a9978e5f7f501500cb963ce78b12096279d3dcd8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.L--1-3q.png",
+      "bytes": 390946,
+      "sha256": "1f112cd855ed141b78ca6c0691a271b3c353d0c4f407258705a0e5ee4e5325f4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.L--1-front.png",
+      "bytes": 391474,
+      "sha256": "39b8a325c39214aaab466667ed55d00288f6fcacb9995a7f54562c84e43ab566"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.L--1-side.png",
+      "bytes": 387196,
+      "sha256": "05e610da11cf70e8117737b07a91d0d84a0ac7fe22e48d28502157d252517c9f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.L-1-3q.png",
+      "bytes": 390998,
+      "sha256": "d7743c01c82a49d9178cf867d3b78d57846ae324061e64ee8d2e552591167700"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.L-1-front.png",
+      "bytes": 391480,
+      "sha256": "db39fa3aa4958da5462bb4188cee29a594737967314c3c30523da0a192eed5cb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.L-1-side.png",
+      "bytes": 387219,
+      "sha256": "a7ca803c525a97359bfb288390e851052a11936e6bc06cfe9330b7cb1fbaff7e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.R--1-3q.png",
+      "bytes": 390986,
+      "sha256": "6f41151575c47a336d01889fba4c03e66580705c6999144f438f1c48782be274"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.R--1-front.png",
+      "bytes": 391297,
+      "sha256": "c9cc29bd53f63e9228f489389db81a13cfa2414d909113f2c80bbcaab177f492"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.R--1-side.png",
+      "bytes": 387267,
+      "sha256": "35f8cac97cb7417d44623cc8371370f2244d9abdbc9e8e7331af0be3d42c1edd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.R-1-3q.png",
+      "bytes": 390985,
+      "sha256": "04e7ea73d9b42f3501f08b8350bc54a0a670024fd14c53bf487246353521bd70"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.R-1-front.png",
+      "bytes": 391276,
+      "sha256": "b510da6b6017dc22615dfa31cfcef2539463391acfa967ed913b20e8f9b5d129"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_x.R-1-side.png",
+      "bytes": 387267,
+      "sha256": "c9ebdec044fa12f10e6a4ce7b90a2e667901ecd503c658848f22a9a46b8b1327"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.L--1-3q.png",
+      "bytes": 390872,
+      "sha256": "7f6743cf2fdc3e183de189bcffcdc83b5f8c3333085c79ef6892a16ababcb223"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.L--1-front.png",
+      "bytes": 391388,
+      "sha256": "5b77f4e0d466b54f8bbd86a77604cb97b8491bccee447761f45fb509ad445919"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.L--1-side.png",
+      "bytes": 387223,
+      "sha256": "09e7a5e770e7e2581807bdf25ddecaf432463307a7d15a4fb3f3d0196f30cf51"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.L-1-3q.png",
+      "bytes": 391064,
+      "sha256": "2d6e6c35cac23bedf90ae0aa0106721b089a726436bedb70c2929fd6349a7fbd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.L-1-front.png",
+      "bytes": 391422,
+      "sha256": "314be02e1e4ab670604634f5500e94e4508d70b74b3110edd00071695c40be56"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.L-1-side.png",
+      "bytes": 387249,
+      "sha256": "e480a32bfbbb124c172590c7a046c55014dc2db9ec38a31410adc3c4c6b84f45"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.R--1-3q.png",
+      "bytes": 391021,
+      "sha256": "ecb55024383461ec3c5b71d0b5bcc0a573992e446505e4bebf9ff1e5695b932a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.R--1-front.png",
+      "bytes": 391339,
+      "sha256": "dae7f8b64bfb1324fb2c1a88d723e9aba7e12d3dd0ff0e48281777b7259bc289"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.R--1-side.png",
+      "bytes": 387267,
+      "sha256": "15d343a591c17c93489247e60600ab6c839ebcc17c577059ddad1a0378d89c5b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.R-1-3q.png",
+      "bytes": 391031,
+      "sha256": "930a731a49350d161aa3c6cec7482b3bb8288d5bbc4db249d896b0338ca674c6"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.R-1-front.png",
+      "bytes": 391367,
+      "sha256": "04fa9607f2de028b7b24bc24326066485c2cc0ff6f3e1e1077972640fcb88e06"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-gaze_y.R-1-side.png",
+      "bytes": 387267,
+      "sha256": "15d343a591c17c93489247e60600ab6c839ebcc17c577059ddad1a0378d89c5b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_nod--1-3q.png",
+      "bytes": 386634,
+      "sha256": "a6d1224c4fb3ea9e2345bd693d702a31bd3374caae8d6aca8566345d46a4564d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_nod--1-front.png",
+      "bytes": 386540,
+      "sha256": "461e80cb7385438c36b6ba278343590afb0687d236a1e35f8d089305741863cd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_nod--1-side.png",
+      "bytes": 383910,
+      "sha256": "c8f7c5645818475ea75ae3c215792d796d93d89021a5c6c339c583e711c5fa2a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_nod-1-3q.png",
+      "bytes": 393397,
+      "sha256": "78a1949f222addcedd3881a0ca53b0073914aaa07b65281adf79292cb08473c3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_nod-1-front.png",
+      "bytes": 394936,
+      "sha256": "7e460dc4b72aef83c7fb2b29233cb7b9744a11aab50b92bcbebbbaed743ab270"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_nod-1-side.png",
+      "bytes": 389268,
+      "sha256": "51272345d9f2e9b46363c45f4b1a148bab7b7e2e0922d7ce2b83be9b82c700eb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_tilt--1-3q.png",
+      "bytes": 391466,
+      "sha256": "f756a0922e190cd94893894f8f70f9331cfbd804c81d3bcf22655753f6ebe3b5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_tilt--1-front.png",
+      "bytes": 391605,
+      "sha256": "a6e790f83f8eaa90dde89abeb2c32028eacc88e826d9c93f06fbb669f46d503c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_tilt--1-side.png",
+      "bytes": 387498,
+      "sha256": "15aa9c68f41a8055ee0504d82b1929db7d34e68f3073a8168f7a87e260a6191d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_tilt-1-3q.png",
+      "bytes": 390432,
+      "sha256": "21e832ba4146672a555a72c3bc6c6a5faeb5a7408b8f097e802b3f52a457135c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_tilt-1-front.png",
+      "bytes": 391634,
+      "sha256": "a2e17ce27ee723be803249659592edb28769c8071b87a6409a02dcce79a8f2a4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_tilt-1-side.png",
+      "bytes": 387632,
+      "sha256": "3b45b9a8eff47496b9c64b643a13a7ce8f56cbc2bc781f0101979333c423dfc7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_yaw--1-3q.png",
+      "bytes": 387325,
+      "sha256": "325ef499fc6927f319975ed6d86c8e90ed9e573cbbd960b5f0c8a85a4598c0a6"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_yaw--1-front.png",
+      "bytes": 390536,
+      "sha256": "d0300259ffff18bced8172281aa0bae54b49ca7c757b60d3582bf49c636d0496"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_yaw--1-side.png",
+      "bytes": 388289,
+      "sha256": "4a2d2796f2da515d77d152c82b22a8dd9f136599915b9cc915914638c15841e8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_yaw-1-3q.png",
+      "bytes": 394394,
+      "sha256": "4a33b71f8225dba7e80d947031407cc6c44088a20437506b2557ef5f37c917d5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_yaw-1-front.png",
+      "bytes": 390665,
+      "sha256": "369022f86b2988d9605977e16db5a70a53443f0dba30b86e5593339ed8a4b038"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-head_yaw-1-side.png",
+      "bytes": 386523,
+      "sha256": "e6eecff1aed3dc90aa7a68cdfde0b2eff889c0511e67fa56b1614b82fe739bcc"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.L--1-3q.png",
+      "bytes": 390383,
+      "sha256": "14b7fa93c2f4a2e59ab1ab408770ac5e2c53e6f54efb0637def381d9cb699796"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.L--1-front.png",
+      "bytes": 390997,
+      "sha256": "0f8fdef143b0cec3babacb9fe3a659417b35d0092a442caba3ab38e27c4b7f67"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.L--1-side.png",
+      "bytes": 386748,
+      "sha256": "8bce9fd1c1abd8f173777f4506a60c850bb0e9b88a047157eb51b837f33838ad"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.L-1-3q.png",
+      "bytes": 391392,
+      "sha256": "a78dc094840559d4b7e0d34555a88e3036bd53cb4284ae931f98d28f62f1d473"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.L-1-front.png",
+      "bytes": 392194,
+      "sha256": "80e795c8a848c4402fb2829f2d32eb071d7f98e20ca2789397d61505d1271ef2"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.L-1-side.png",
+      "bytes": 388341,
+      "sha256": "e86dd228d1bf1d04663df5033625eb2f9b92b53bfe1a287d21e45578a1bdd0d2"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.R--1-3q.png",
+      "bytes": 390493,
+      "sha256": "96fc65d80fca45e0c6f032cd2bc84f6f71b39192b942829ac592a7fc2ff40e81"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.R--1-front.png",
+      "bytes": 390583,
+      "sha256": "0b28fddfc2b3fd23c463df91e1de6610abbc1dfd1c67adfbf5b171e431423e72"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.R--1-side.png",
+      "bytes": 387482,
+      "sha256": "0c369ba870e01750a354f91fe25089b2191a804d30ad1d6d22f8501e16a49047"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.R-1-3q.png",
+      "bytes": 391373,
+      "sha256": "0d4258319aeae4dd80d2331f3337d3e22067f8bce8fc9f68f9c85784ccf14c3a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.R-1-front.png",
+      "bytes": 391925,
+      "sha256": "22b4b237b391b5a4fe2491f7745f1d635e2adf62c7bdec0bfd870af9624c487a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_head.R-1-side.png",
+      "bytes": 387777,
+      "sha256": "e562733ee64f496793f21199bc3b4747694ccbcfe09ec6d7a8e996325f383843"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.L--1-3q.png",
+      "bytes": 391143,
+      "sha256": "115f072445fc04c9840c5d3edcaeb4fd7e0aabeb59f560a7f898cd1b8772e181"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.L--1-front.png",
+      "bytes": 391588,
+      "sha256": "c7246ad8e72ab123fa98822b9d63efd63079c242eb1ddf76c244860e6e498105"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.L--1-side.png",
+      "bytes": 387332,
+      "sha256": "9ba7ed62630da143674892a8b10c5336a9183dbadc1c01fad727ccae593c08db"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.L-1-3q.png",
+      "bytes": 390975,
+      "sha256": "ced2b9bb6892bf75f64f4c9797142e87ee7505754c6047abfab70ea0a54ea2bb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.L-1-front.png",
+      "bytes": 391315,
+      "sha256": "cc71e789a6d21a83e7a88946c87f4d75c94dd71cbb30b02534130b39726293ce"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.L-1-side.png",
+      "bytes": 387023,
+      "sha256": "46caddfe7b98f410ac741be47364a2483a547b366f3f853def6842695f731a8c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.R--1-3q.png",
+      "bytes": 391142,
+      "sha256": "4982ac6db6238e1840b3ba53fb9177ea1b695cb22e8838870ad17b889f53f90f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.R--1-front.png",
+      "bytes": 391498,
+      "sha256": "1c211871f2f6c7ae50e97bcecf6704b32bee84b4dfa8131e7815ba913661c8e6"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.R--1-side.png",
+      "bytes": 386743,
+      "sha256": "a32e5b429983a58a0b5e3baf270a9de34e028794ee560cf1fca1d3e0d4083689"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.R-1-3q.png",
+      "bytes": 390998,
+      "sha256": "c703040970491697630df594b7448b8d488b8af3e936d227ae221ae91e53dd41"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.R-1-front.png",
+      "bytes": 391339,
+      "sha256": "77df210a9dc67ded4fcddd06096dbf0b429f0ebeba8f38ea825876a06ab01e06"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_neck.R-1-side.png",
+      "bytes": 387938,
+      "sha256": "c9d5fb368700ef4e2fd25b426d279f32af93e7ad5ebb38354b85c08e144a4391"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_tail--1-3q.png",
+      "bytes": 391068,
+      "sha256": "0d272958aee2254d63966308eab596bdc2f31032de78d6397a0dd66c83b3a276"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_tail--1-front.png",
+      "bytes": 391317,
+      "sha256": "e1e422331b6fc5363828c777d8f2b078f371fed81255f04dd7229cea78356e8a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_tail--1-side.png",
+      "bytes": 387173,
+      "sha256": "c2ee8646ee5395c8682b567e6ddc4da958b663f109abc61d21d7bf19a3161245"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_tail-1-3q.png",
+      "bytes": 391024,
+      "sha256": "3d1195810dfa13148694c16add0a6f68e7165cb747064f7e4381b843fbfb1f02"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_tail-1-front.png",
+      "bytes": 391317,
+      "sha256": "51c59b87c62835bc0cdac709afaf146528a13d4e67d71d27772fb322231dc4f2"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-leaves_tail-1-side.png",
+      "bytes": 387339,
+      "sha256": "ae4795f71bdaa9ae27907019acb36374736b198db5415bbaf8275911115824cf"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-mouth_close-1-3q.png",
+      "bytes": 389142,
+      "sha256": "418935a343bbecc195248855dba95bbfb527f93d63ecae06fb4de0fe60df1f05"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-mouth_close-1-front.png",
+      "bytes": 389738,
+      "sha256": "35daccefd8c872a390e6a3daed85e936287c01a1097b17b51334086c77ec109e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-mouth_close-1-side.png",
+      "bytes": 387234,
+      "sha256": "9ede08ded81ade217ccf0d9f1cb5da117dd370721f3d11596892f3554b2d5a9a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-mouth_open-1-3q.png",
+      "bytes": 391413,
+      "sha256": "7f71ec6a8d87c32f34de5a7a3a2f0862e5a16151d87a25e7e4d8b8b586f53733"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-mouth_open-1-front.png",
+      "bytes": 391553,
+      "sha256": "9f782147319c4a5aa9066469b1ca6adc2ff897cd713b6c67368eeab6f0f56e5a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-mouth_open-1-side.png",
+      "bytes": 386852,
+      "sha256": "1a357a193296663d56c35503f0b9362068a3c838c4007307846f03f50307a222"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_ik.L-1-3q.png",
+      "bytes": 391185,
+      "sha256": "b1940c08b837d88bed903182c12d123c09d3d34df835f94871a6851d5c01c5ef"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_ik.L-1-front.png",
+      "bytes": 391171,
+      "sha256": "6012ee66da84924369e165e386027a26e460d95ab5657673d1216ecc3f9eefb9"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_ik.L-1-side.png",
+      "bytes": 387035,
+      "sha256": "9b5a61ca3beb07e8216e1249b65076913e15daffccf85f793e7f7b4f33cfb42e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_ik.R-1-3q.png",
+      "bytes": 391031,
+      "sha256": "a22ec30be6f5793ba0a1ae210ef72e4b62a7933e9ddb7d80fab7eb1abdca337e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_ik.R-1-front.png",
+      "bytes": 391812,
+      "sha256": "ae01e2e5aac646fc8961f1c694113ceaa1488a7feb4b6a2e1db8a3ad7cb26788"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_ik.R-1-side.png",
+      "bytes": 387249,
+      "sha256": "11d418614b377d2ae05657bfd3641ef5d52b63e7b110075a0e48b0999ddac455"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.L--1-3q.png",
+      "bytes": 390441,
+      "sha256": "e9fdae04629d4b516730832af3bea13610c8a2b248ce4b4dc9d84e87fdaed867"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.L--1-front.png",
+      "bytes": 390555,
+      "sha256": "ca09340681c083ba092b8ee1faa17fd23f3c5415bb2c60ce9e85f607f019989a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.L--1-side.png",
+      "bytes": 387682,
+      "sha256": "e255702962f540a77a329fdc9e9c3c3a1ae9cf3f5e9e13e48b0bf3e3e4cbd915"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.L-1-3q.png",
+      "bytes": 390568,
+      "sha256": "127662077e8ae66e9441dd33ef2414153c1c4ac6662cbadb3ab32d97fdc88809"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.L-1-front.png",
+      "bytes": 390686,
+      "sha256": "aea26cd1a0ec331dca2a2b96654806bf4b2b9b55494b1e01923539b0587af510"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.L-1-side.png",
+      "bytes": 387252,
+      "sha256": "91487d0894bde217e496651363758ddeba07a72fddf1fdc45436da4c5b0c0584"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.R--1-3q.png",
+      "bytes": 389613,
+      "sha256": "44043fce44990133c56fed1da9ac6d1b8c5d5795f471fe541f229cbf7e562f70"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.R--1-front.png",
+      "bytes": 390780,
+      "sha256": "b92d1c63809a3e6d523da50bd2fe3b243728c7aa3bcd9fbf6116738f1287fd18"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.R--1-side.png",
+      "bytes": 387139,
+      "sha256": "c60bea84726af0daf067c69b18bf9340a70d6a8545b3e78194e96547fd2b828e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.R-1-3q.png",
+      "bytes": 390568,
+      "sha256": "bef7831b7da3ade7759c095a1c4c886eb63d75d3fb1870696ab6aaebfe788ebe"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.R-1-front.png",
+      "bytes": 390004,
+      "sha256": "a06e8274836b1e40f9bb52f9e41b5f21042bca57ef634e16334b36a64df9ff79"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_offer.R-1-side.png",
+      "bytes": 387292,
+      "sha256": "0752dcc7f3762ca1a35d5956c78d95de783afdb7dcb19df2107af5dee581c78a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.L--1-3q.png",
+      "bytes": 391002,
+      "sha256": "de14c58f6369d8c33c1a145249baffb08e943e36d519074fd7f24cf32dbf8be6"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.L--1-front.png",
+      "bytes": 391649,
+      "sha256": "04904cade357d35679990b460eae4f86f5d5bde4da7470bc816b19935045cab2"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.L--1-side.png",
+      "bytes": 387248,
+      "sha256": "a9e181a9d67a779c5f8f49e010a5a69461008e44dc51fce5f11f5dbf8bc9a1c4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.L-1-3q.png",
+      "bytes": 391003,
+      "sha256": "b7e47cc1d0a34fd0f6e77193ecfcf63d1a0bdbb79cc53ddb0a332f9c617454ea"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.L-1-front.png",
+      "bytes": 391424,
+      "sha256": "14792c5c4d6289244ad954f4cab378c87acf0bca39e5332155c923d1e84f6a75"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.L-1-side.png",
+      "bytes": 387223,
+      "sha256": "4486313bb4cbea62d43a1f68169139e9970e5cbfe8a1aab2818ff7b3a8400e80"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.R--1-3q.png",
+      "bytes": 391304,
+      "sha256": "cca8d6d6ceabb247ff61829cff779aea8878f1d80f0b8d6e637d49d12f1e603e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.R--1-front.png",
+      "bytes": 391519,
+      "sha256": "3c8140e011fbae19cff4627395b967c40a66cc675e2e2a2ba02b2e62ef18c043"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.R--1-side.png",
+      "bytes": 387267,
+      "sha256": "feb0c262887944421fe584776ba54b8cf0c4de2a1c96b1e2e2e74ff2a1f69841"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.R-1-3q.png",
+      "bytes": 390765,
+      "sha256": "bce3f980579990296268fc93d40ed83cbe2133d8f7d3c103d50b008adc10f8ef"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.R-1-front.png",
+      "bytes": 391019,
+      "sha256": "1cc6d29b734aea51fc6cddfacfc4798f475e419649e97b8af7f18fc9593d7b08"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-paw_turn.R-1-side.png",
+      "bytes": 387267,
+      "sha256": "cea45269b8a752942502e6c40b9171f2b27e1542d3c5f06a7d7c9bc64787d928"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-smile.L-1-3q.png",
+      "bytes": 391025,
+      "sha256": "254c60cde22b9033df275eddde98f478d44f50b6644ecac16ddfda0897a5c048"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-smile.L-1-front.png",
+      "bytes": 391362,
+      "sha256": "f8bbb31ff59b8db46be90d501090efbd7ec3d12dcc441f4470bcbd5ab238bb47"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-smile.L-1-side.png",
+      "bytes": 387136,
+      "sha256": "747bdd2bea879c4df0e82aafa39747da57fa884bec2be80b7853ceebd13ed478"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-smile.R-1-3q.png",
+      "bytes": 391141,
+      "sha256": "6dc1ba38db4f65f20a9387f8b0dc75307bd12dbfb22631bd3daa3b1a53df3e47"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-smile.R-1-front.png",
+      "bytes": 391476,
+      "sha256": "28278daca2bbb1aced98d9a3e0daff63e9b0304f807b2e0cdb312bbc159c1566"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-smile.R-1-side.png",
+      "bytes": 387263,
+      "sha256": "ae23755079415959cfb938a0419250c1564f42090eafb2768f44ffbce2937266"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_curl--1-3q.png",
+      "bytes": 391062,
+      "sha256": "b82d24c37a2e42f973125d1e447e964644acffa2984bd4599d689b201dc0012d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_curl--1-front.png",
+      "bytes": 391317,
+      "sha256": "3ee11dbc0ad04f48884e77b40ca5357d70dc2c624e2db27b8cb24f007ae91346"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_curl--1-side.png",
+      "bytes": 387267,
+      "sha256": "02e60e8158a080d6009b57a7ba91b63276009c4cd08d765a00927d258be8e71c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_curl-1-3q.png",
+      "bytes": 391039,
+      "sha256": "ba241400c168e9d6cfcc6e6bfd0aa4f17ab7f1dd6c87acbf4e37b634c3276845"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_curl-1-front.png",
+      "bytes": 391317,
+      "sha256": "3b969020f6f56fb2465374476d1a0bdaed284c8de4eed7ba842b3dc2f30c052b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_curl-1-side.png",
+      "bytes": 388276,
+      "sha256": "451f0fca1ba8a9e94688b76f572e0a9ec27f49f6fd2ed5f31e8437fca0398407"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_sway--1-3q.png",
+      "bytes": 393512,
+      "sha256": "472132af876075e898c8be1c8d0bfbc4dcc24d1f32d71c31bde0b1cc397b6322"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_sway--1-front.png",
+      "bytes": 391317,
+      "sha256": "090d4de2c791a28bc70f22435834ebc46e24eb6ef47b8f39d4563d87c1d21eab"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_sway--1-side.png",
+      "bytes": 387386,
+      "sha256": "9731fec5f6eb7599f5bae8ed7459f37cc00999e22788e0663bda7147e6e9940f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_sway-1-3q.png",
+      "bytes": 388895,
+      "sha256": "54eae192411a91452810b6d709130fb522c237f8ea86f7a3d5f055a21373f71a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_sway-1-front.png",
+      "bytes": 391317,
+      "sha256": "825eeb6ee595f23e3f614bf91523211473b92c7afad0d319b5b11df372891bd0"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-tail_sway-1-side.png",
+      "bytes": 386461,
+      "sha256": "b5e6b44757b4eab3f7a9312d16ab70d653c8a8def18ad5b9ce8252a02005da3b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.L--1-3q.png",
+      "bytes": 390626,
+      "sha256": "dff4ea908db74f44a46f46d9b0a5ecd5b9ececc75e6c53477fe1c53bfbe1afb8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.L--1-front.png",
+      "bytes": 391438,
+      "sha256": "0cade0f5e4480cd06cac079e1dbd9d968f498d45cb4d03b0019464adf07b306c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.L--1-side.png",
+      "bytes": 387171,
+      "sha256": "371ba08feb2fbe62a14927474dea753dbdabd4a636eaf937def464d92ba9bca0"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.L-1-3q.png",
+      "bytes": 390674,
+      "sha256": "af5629f10e17334577ce91858bd2b16d200d0a291e643e825d6a2436b4150297"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.L-1-front.png",
+      "bytes": 391476,
+      "sha256": "ca4245ec55d21a953a48b1236b33caad5d5f2075cbf027fde7ce24eeda168492"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.L-1-side.png",
+      "bytes": 386733,
+      "sha256": "d57a9cdfc0fb53d0b5389df4ccc4fe9d03bff5a6a7b178bf2bf7f446ac7f10bc"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.R--1-3q.png",
+      "bytes": 390922,
+      "sha256": "aa92664865f5123591d37c3a342eeda3aa096f8130beb05093137ec291e27fc5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.R--1-front.png",
+      "bytes": 391504,
+      "sha256": "19ac776cc57f0f52a1372bcfa5c5f23d5e306583a1e89b74a47b2fcf6c32deba"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.R--1-side.png",
+      "bytes": 386790,
+      "sha256": "10afa15adece23632b1803830f25efffd100065d1a31cb8377c0795fb482a73f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.R-1-3q.png",
+      "bytes": 391259,
+      "sha256": "97d0a0060c4c35e73a73c8dbae91f28e42ca0b2dea09cbaf18b87838bd15d6d7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.R-1-front.png",
+      "bytes": 391343,
+      "sha256": "dedf376584ad1deaf51dafa5e8c1da372bceb423249387c1d27afa6aed0f5edc"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_camber.R-1-side.png",
+      "bytes": 387144,
+      "sha256": "8620730df1966201ac2aeff0cff27de5021f4b76d7bcae29ffe9a29f2175ee65"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.L--1-3q.png",
+      "bytes": 390055,
+      "sha256": "78ecd8462cc11862c7296a98fcbe1ed9520c4287f8aecfa7325010086863527a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.L--1-front.png",
+      "bytes": 391170,
+      "sha256": "a974730070e2008f5f1578ea9f20b4d338ee5cad54a6ac9ceaf9636ee0c40a10"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.L--1-side.png",
+      "bytes": 387900,
+      "sha256": "cbea34dcd359e915738793194bf900a8acf10097c9385a23267c8b8405f78774"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.L-1-3q.png",
+      "bytes": 391058,
+      "sha256": "c54c957497da96425a19a55544b97e0af62a0bf9fb787a197d515e3de660cae5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.L-1-front.png",
+      "bytes": 392269,
+      "sha256": "99384ac0e08a8d752196b0225da3a4bcf1eb803aa2fc5ba96c18e6cbbef33255"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.L-1-side.png",
+      "bytes": 387480,
+      "sha256": "8c1a2476976e72d0f2eb35872723e16486bdd4a861f0f381d280e6f264305756"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.R--1-3q.png",
+      "bytes": 390565,
+      "sha256": "48116741660db3dba73aaaf9c3af1dc96537f66c87751487a1f47281a9a8fd76"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.R--1-front.png",
+      "bytes": 391845,
+      "sha256": "fb8deacab2c8ae9421dce458c411923d26eaece847791298dedd203847f4ea5a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.R--1-side.png",
+      "bytes": 387144,
+      "sha256": "1b333e0d009336d9ddcdfabfb7bfda62950e9704cdfa5aaa175b4cf955485c9f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.R-1-3q.png",
+      "bytes": 391000,
+      "sha256": "67153bd1109674b24abe1740812d06d74f0eb4aaa548b71c2eb186d681339fc1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.R-1-front.png",
+      "bytes": 391932,
+      "sha256": "01861d57af1dcbc6bd23e7a2042bd6ade80d1233b5085efba7371a6bd54d20fa"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_flap.R-1-side.png",
+      "bytes": 387940,
+      "sha256": "12612b825421022d3337140d037e348b89b18da7dcb1b3f0a2a3623a789e6440"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.L--1-3q.png",
+      "bytes": 388731,
+      "sha256": "6f33b2e432bcd7f1f720eccbf7215a8bfa745fe93850c2083ed2c765d8f46d95"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.L--1-front.png",
+      "bytes": 387149,
+      "sha256": "7d94c92b9993c17fd3160691b3ae558ab334db52b56ea934d512b57e501d4f9e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.L--1-side.png",
+      "bytes": 391819,
+      "sha256": "7c1b8a792655c079245ed3eed69421dbfac0f5118671716e88a264906812a003"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.L-1-3q.png",
+      "bytes": 392650,
+      "sha256": "2b64142f663f67f4d071774bcc4b643f2ca7998e6bfab5443b39a49a0c027189"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.L-1-front.png",
+      "bytes": 395292,
+      "sha256": "3aae9b6eb0e914ca8e7e39ed2f125f1f16c97b7d511f0d789b1cdaf45cb3812d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.L-1-side.png",
+      "bytes": 387274,
+      "sha256": "6201c375af59b89681076eba5d14a0c06b40a7e4fd116ab9ce0822119a45996b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.R--1-3q.png",
+      "bytes": 389741,
+      "sha256": "d104c843439da4b6adcd12500dbe812498122f5363a354092df9c6054d09eae3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.R--1-front.png",
+      "bytes": 387497,
+      "sha256": "79799a4cd0e969eaea111f22a47895ffb24978602da50a748244747a74d4ce81"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.R--1-side.png",
+      "bytes": 391364,
+      "sha256": "c2e77ae48bda8baae5bc38108092cfa9faea66c596c0523b61b90b5f99c85236"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.R-1-3q.png",
+      "bytes": 394266,
+      "sha256": "b40b25034dc43fd1df3b2a070d12ee65ef0b02f3b2f9140581eff5363bca3473"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.R-1-front.png",
+      "bytes": 394891,
+      "sha256": "78c5d05fbaef2586fc920bc0540578ffd4f7671302f93d50878d06eb5e4a7a6f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/channel-wing_open.R-1-side.png",
+      "bytes": 386511,
+      "sha256": "a7ca2354bce01e083d1cdc238e348b6757e58bd71aa9d297ed18475367ab8174"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-closed-open-smile-3q.png",
+      "bytes": 533790,
+      "sha256": "3f94d77e32263623458c47b5f56f8c127597007128e42375c78df5a362eb6a85"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-closed-open-smile-front.png",
+      "bytes": 547981,
+      "sha256": "2b2963337fae1150e8ef7baf60522b2fdcb1d9868df831d6a2aa468682fd2c63"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-closed-open-smile-side.png",
+      "bytes": 517298,
+      "sha256": "7cccbc4d9e2866ee33fe891487fb8096802d8a87787dc8c2f8233bc0a093ba84"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-open-smile-3q.png",
+      "bytes": 539564,
+      "sha256": "7859a10eefe3ccc4fba43f98683586ff2e49ca59b09392a537b6d4c3f06cfeeb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-open-smile-front.png",
+      "bytes": 556011,
+      "sha256": "24e939139ca30d29474fbc759f48c43854a6cfc1ce2b232f0da7c90c3039262f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-open-smile-side.png",
+      "bytes": 516418,
+      "sha256": "17c4904ea4357f38ddb765ba0323f1e8dce15e76ea015b4e7b9ddb6646cec07e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-recovery-3q.png",
+      "bytes": 538764,
+      "sha256": "aa747241759f07281c7b404e4364b9a89e018bc5a3707e1b8c5b5e9134d0b784"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-recovery-front.png",
+      "bytes": 554112,
+      "sha256": "a7462e83fb29a267503a7196d73838b3f086c634d6839d94261a8a65810c291b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-recovery-side.png",
+      "bytes": 516700,
+      "sha256": "aa8465f583bbe549c42feeb9c466bcf1e6443c65c7f89e8e63c61be80defd0f1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-both-3q.png",
+      "bytes": 538680,
+      "sha256": "d028d0cb11f1ca6d4faec19fe0a6e58343326be696b7cf8a5ae7293788881ffa"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-both-front.png",
+      "bytes": 553907,
+      "sha256": "bdd6ce8bb8706d94e5cf0e45ba39fe4a2d9e3272b76b73494e9e3561e5e60029"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-both-side.png",
+      "bytes": 516694,
+      "sha256": "566a4a970cec1582b6423adab59b0eb75a1ab378499c536fc02a68e565c462ef"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-L-3q.png",
+      "bytes": 538590,
+      "sha256": "14b6d07dbf7158c4bd300b4ac39476ae22d3b18970f77b3e3cfdf56cfaa05d50"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-L-front.png",
+      "bytes": 554194,
+      "sha256": "5bb377a78bf04f184073db368d18771186c9a4b42966e37d7dd20a560439c0ab"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-L-side.png",
+      "bytes": 516600,
+      "sha256": "8776f083b24e2135d7ff229b4233d2413f5a048235c38ba29d8ab557e46780fc"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-R-3q.png",
+      "bytes": 538630,
+      "sha256": "4f16ed3467c5df39fe493b927a7f73e5247e7e950a1fa5411e2eea28438d3357"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-R-front.png",
+      "bytes": 553834,
+      "sha256": "ef8895b67cbcfd7a0fb8e60ad0b2b69c3aadfdef3488f5a7c8f7b6dd2dd32b87"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/check-smile-R-side.png",
+      "bytes": 516751,
+      "sha256": "8cb20ee94354f07126add8fc5293900ba0981292ee34c24dc6c9140431fb8d41"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-breath-closed-3q.png",
+      "bytes": 530723,
+      "sha256": "f687c025fefd1d0989ad777070f715962ef3f1ed9bcf0f21e95a12d2b4f5ba43"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-breath-closed-front.png",
+      "bytes": 547712,
+      "sha256": "18b3f84db37f3e3eff9e151dc90e0b5b3fbccfa196d1a07231d78acb4e36980c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-breath-closed-side.png",
+      "bytes": 501948,
+      "sha256": "5b13c8f61b8aa82f01848e3431439152b11e9a315070a43817f67f26e2a65062"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-head-left-open-3q.png",
+      "bytes": 533479,
+      "sha256": "28a88ccd8e73773599e40a6ef86ba846e3b0db95699b800172c95be295157bc8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-head-left-open-front.png",
+      "bytes": 557559,
+      "sha256": "31f4b8a22c9646104d5fece86a52949def9b6ebe8c37385f79d8da5ab2ce49d6"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-head-left-open-side.png",
+      "bytes": 523149,
+      "sha256": "d611f86f7f2074331596d4448b458db07fbb7ee373295085bd846e07493e7efd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-head-right-closed-3q.png",
+      "bytes": 552428,
+      "sha256": "ff8483a7600f11798c0adf3307b6ad79bb20fa5c05a1a8e50c2c4684f0e8c812"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-head-right-closed-front.png",
+      "bytes": 548556,
+      "sha256": "b56fcc908a5283cc67b19b54abf9fe78c1162d88b0fea407434242fe85da580a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-head-right-closed-side.png",
+      "bytes": 508538,
+      "sha256": "6f38320c3f6af608fced5f18cd54c33c7ffd8b3f69eafe519d105197a5ed9152"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-both-closed-3q.png",
+      "bytes": 534410,
+      "sha256": "dfe6656a15a6a4d6dbd73b12b83138acdf96b7821fc55657c74d2ad932e07fba"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-both-closed-front.png",
+      "bytes": 548902,
+      "sha256": "b64dbb3814798e1167c369e9cb91785a0f5450f536ea7d3814dfabd7f49667a0"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-both-closed-side.png",
+      "bytes": 517475,
+      "sha256": "212e31e3300b0f646dfb8e30f9a1135abf4cf2c756954bad80280a4912a1ae5c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-L-3q.png",
+      "bytes": 539258,
+      "sha256": "2045b98bafd643153393ba6bbe4202cbef99e05aa8689e7f3873a62d4647284f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-L-front.png",
+      "bytes": 555586,
+      "sha256": "6f4d78252dd1bc496533d2aaee65d1a552d52e81362047cba5527fa25d8ea726"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-L-side.png",
+      "bytes": 516749,
+      "sha256": "213f0de78616138dc70aa5264c3e5197664d2ec0432a3700cd894880a6b5d9ad"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-R-3q.png",
+      "bytes": 536360,
+      "sha256": "95c3fa28ebc448e785ec34646784c6de1b79bdaba41ac374eda2566156ab886e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-R-front.png",
+      "bytes": 551333,
+      "sha256": "671277d3e6b022e8948f4d8fa83e15abde9acb07d36a2ccd7982a486acef97a4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/interaction-touch-R-side.png",
+      "bytes": 517122,
+      "sha256": "efc15145e55acb259c671a291fc98be317d962ab5af67a4cd9c8db9d67b88a9b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-blink-full-3q.png",
+      "bytes": 516778,
+      "sha256": "ded1281717d07ad56561d72938f0c269baa4cb505e276e99b85349cd27510170"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-blink-full-front.png",
+      "bytes": 546588,
+      "sha256": "e19567f2613dc53b99d8a31750fbd8ebdba94963d3fa0216177e8bcf6fe4da3d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-blink-full-side.png",
+      "bytes": 493738,
+      "sha256": "d564950dbe8e4134d8ea1cb001d7875edf551417e985bfbb8386478ecf644f3f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-blink-half-3q.png",
+      "bytes": 526686,
+      "sha256": "17fe7edd0642e672f0950fea2b7a7fa5ce2dc5ae3ab6b5ada3d803d6d12313db"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-blink-half-front.png",
+      "bytes": 556553,
+      "sha256": "7b3a2c833cceb7e6760ec118bc18b75809abcf70e14ffa0b38711a01d4a776fb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-blink-half-side.png",
+      "bytes": 498299,
+      "sha256": "d014b0953c6f2eeefda9091db2dbb4cc3530deedd9173d78c656a44c2d38086e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-closed-open-smile-3q.png",
+      "bytes": 527444,
+      "sha256": "d0074cb68781fc23205d96a111ec8e39df12be8f8afabd1df1f10c06c74ea3b1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-closed-open-smile-front.png",
+      "bytes": 556265,
+      "sha256": "46b3d3bf4aed38cabadf998c50d505b8ed0a2d67a559dd5d8b0b6d094b9ee311"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-closed-open-smile-side.png",
+      "bytes": 502631,
+      "sha256": "6567a995e6caa95e5d8973534686f43773d245ca9ab56453c842d99ef368269a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-combined-3q.png",
+      "bytes": 527610,
+      "sha256": "3424c68822497d3c75223c89b6e7e4d647c2dbf2c84f168993fd83c4f6f8771a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-combined-front.png",
+      "bytes": 557634,
+      "sha256": "6739a361591008fec6e3c9c58ce1220fd5d41be15ff3df9d2308e2f7748193bd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-combined-side.png",
+      "bytes": 498510,
+      "sha256": "936d73b5588d500f43f55faa0c51a368ef7df1a101a1ec23777ff22baec01b44"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-closed-3q.png",
+      "bytes": 527444,
+      "sha256": "e387810d1ae5e0efe186c7ecdaa96df3e3d48cdcecc7a5d8455cafa32359b341"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-closed-front.png",
+      "bytes": 556265,
+      "sha256": "e68f96bc6f267496ca918be7c60484fd806fc48f03f769a0b4632f46f8c23610"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-closed-side.png",
+      "bytes": 502631,
+      "sha256": "09dd09445997ffb34dd5016835fa18d34621159465811df305945a4e03dd1195"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-large-3q.png",
+      "bytes": 531935,
+      "sha256": "b0c9227d20446a3eb6e828870c380f05012246150654a99e82d2f3532f83c7d9"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-large-front.png",
+      "bytes": 562037,
+      "sha256": "4bbc8908553a864b77911ec261af90e0135e38ac60b551257e9ce6f7bdf34ff5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-large-side.png",
+      "bytes": 501499,
+      "sha256": "63689c0fbb8d260f8ed6e1a2559e165057a939a79b6e13bfcfbedfb5b7119039"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-small-3q.png",
+      "bytes": 529108,
+      "sha256": "2bc9904895567f4d93a5807cbbd15f985c11d30011cbae22fc21db343c2fe3b1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-small-front.png",
+      "bytes": 557725,
+      "sha256": "0958b2f1a794fb054fedf18f051eff3afd2e92bcbaff5bef47ed35bbfcd3b3b5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-mouth-small-side.png",
+      "bytes": 501726,
+      "sha256": "0dc4777d8009e32d65bbc9a1b78a79cb8d0fe53e4c85c1d905f0998342e683ad"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-neutral-3q.png",
+      "bytes": 529895,
+      "sha256": "f765d216f173365d704ebe23814bb47af24416d3256fd60a6309f2a5de887200"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-neutral-front.png",
+      "bytes": 559205,
+      "sha256": "08d387f033e4c0fbf4a456135b455b7d7586fd2956f9d399ded3558f076ea7c7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-neutral-side.png",
+      "bytes": 501470,
+      "sha256": "dd5d8d4dd19bc59af874e5baa8f97057785d2a2e3873bdbffec6a1e1d16ddf4d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-open-smile-3q.png",
+      "bytes": 532176,
+      "sha256": "319cdb818b9c6eed7fc084921cc75c0208bd969dcaf0952391f6e0bb32f15ce1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-open-smile-front.png",
+      "bytes": 561621,
+      "sha256": "ae68d6c420b3f4a47c4808460f78209776be970492eed87ebd6bd5a486f284ae"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-open-smile-side.png",
+      "bytes": 501602,
+      "sha256": "347f2e3ffc1db64322f759f7f3c4936cb28929bb1093d6462a5b9fdb77e05fd8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-recovery-3q.png",
+      "bytes": 529895,
+      "sha256": "599a66e58edd473d8ceec8bce997e0d379c3e04ac18b740e0e759ae2f98f6f88"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-recovery-front.png",
+      "bytes": 559205,
+      "sha256": "adc9195945a3f67f48e9901880175696c0a8cd8a774cf7553705e74af78c2daf"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/reimport-recovery-side.png",
+      "bytes": 501470,
+      "sha256": "8dcd3111e0ed1f99c512b20dc198f5c6eb39f703f478cc3bacdf608ed674561a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0-o0-3q.png",
+      "bytes": 538642,
+      "sha256": "93714b8f1408d3685e206334a639f256eb8db41269b33e3f26b558ab196d368a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0-o0.5-3q.png",
+      "bytes": 538681,
+      "sha256": "3737a992644a700dbc254e3557e3a83e4d10b0fbbc3e2ef3c0a131c984cb41a4"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0-o1-3q.png",
+      "bytes": 539578,
+      "sha256": "5f7e54a951aaf9902505e8db690b8e0ff4ff5e5f07cb467e20ac811718adcc22"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.25-o0-3q.png",
+      "bytes": 537584,
+      "sha256": "6466c20212eb109572606ee3ae3926d7685c4517ec4ea3806359822dbd25c3a5"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.25-o0.5-3q.png",
+      "bytes": 537863,
+      "sha256": "b954d59d19972fc44c0677d12118b52de31c16da50ec9657684d0f2364241fc2"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.25-o1-3q.png",
+      "bytes": 537975,
+      "sha256": "9921ade2dd46a2478a013cb09d068bd6b5b92e9b72167ba1c2a6c2174ffd35e8"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.5-o0-3q.png",
+      "bytes": 536674,
+      "sha256": "ad796a28c8e512c79a5d3c94b57e8c11ec8e6f110dac3269cb48e45ec7a4c5c7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.5-o0.5-3q.png",
+      "bytes": 536869,
+      "sha256": "75688892df1a3b6ac6fc100c375753e06b5bf955cbb05936296510ebc939428f"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.5-o1-3q.png",
+      "bytes": 537061,
+      "sha256": "c4181daa26c449e7889e5b65acba2161d829e368afeba45e8acb86608b7f465d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.75-o0-3q.png",
+      "bytes": 535791,
+      "sha256": "fe9785092b65c00dede0b6a74956a5f19fb7e113ca5b5d917e92bc04cbcc8b92"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.75-o0.5-3q.png",
+      "bytes": 535982,
+      "sha256": "6490a41baad7837100b3b06dbc3a2585f42e08436fe2083e805f25369cac601a"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c0.75-o1-3q.png",
+      "bytes": 536128,
+      "sha256": "874c0bddf4a053d08b5098793e002f9916c9b38155dfe1250ba29033294b2e61"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c1-o0-3q.png",
+      "bytes": 533790,
+      "sha256": "defef4b2f3e92cf45f4ed75d530a953413dc135cbec80fbf5708810f3a53de21"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c1-o0.5-3q.png",
+      "bytes": 533790,
+      "sha256": "c39694e078b4a45e4ecf36b5e81093209387077e5fc80cf917bcc31285cb337d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/sweep-c1-o1-3q.png",
+      "bytes": 533790,
+      "sha256": "d000cf2fbc67b5b609a32afdb06b7a77876da4ea0e29d93faa6736123bc8195b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/whole-neutral-3q.png",
+      "bytes": 391062,
+      "sha256": "d6210c1d3df28479e08cb29b9ef16ef90c972ec4d9b25bd2ff65f7661eb1d071"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/whole-neutral-back.png",
+      "bytes": 379364,
+      "sha256": "c47699efb79ffac96b95768437fdc5ebb470bddac26ea8e3094ac317523b8012"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/whole-neutral-back3q.png",
+      "bytes": 384451,
+      "sha256": "df16cb9bf83642cc21dad21c41c4d554169c98734ae3554b10d91841198166e1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/whole-neutral-front.png",
+      "bytes": 391317,
+      "sha256": "e06810b06aeb44c06f9ea19ec644d7ad67d25db6fcd3d79d594ee97113d01ea0"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/renders/whole-neutral-side.png",
+      "bytes": 387267,
+      "sha256": "e80ae31d2cdf3184f2f90164b839732e81c6200b9cd84eff5d4c8098d63fb3dd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/review-states.json",
+      "bytes": 623016,
+      "sha256": "197433de08fe31d8af1c30387e45ecd9c25dbe7f964ced8cbf52fe94ec4e1ae0"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-blink-full.png",
+      "bytes": 656085,
+      "sha256": "456c46605f00176ae27caf537c506eb92a34c519c6decb4faf80f65241da1275"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-blink-half.png",
+      "bytes": 682031,
+      "sha256": "16417c4d912b56348c380eb9cbbce54589d1714c7ba248c1642b82af7c560bde"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-closed-open-smile.png",
+      "bytes": 691730,
+      "sha256": "9396dc2ccacb56a013f4250d4f716ecbd0ba009ea579c4eb51da05a54e7b7a1e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-combined.png",
+      "bytes": 694673,
+      "sha256": "0c150275efc02054277a8dae648131814c9b3758f86e9b11cae20173e4f4e7b3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-direct-sweep.jpg",
+      "bytes": 842768,
+      "sha256": "ea74a97a58a85d4bcb45f2e939b062fe3b076fc623dd38d316851fb8032ead57"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-mouth-closed.png",
+      "bytes": 691093,
+      "sha256": "80b02e96506fbe1d8319b8743621d29e0f9682847bc84bc41ed8b8ae13b7ef9d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-mouth-large.png",
+      "bytes": 694924,
+      "sha256": "04e13219a8dd96286e4b3a418623f087bdfc60a5f9ffcd04830d176beb5f5d00"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-mouth-small.png",
+      "bytes": 693880,
+      "sha256": "4fc443695fcb6990be5493c350d6b6182796d2b4aefb8d0860f4672ad36f343d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-mouth-transition.gif",
+      "bytes": 6892514,
+      "sha256": "e5fb46dfcfb27ff70f887c1feb44d6455f9089f4064030fa154945038f4c0bb0"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-neutral.png",
+      "bytes": 694288,
+      "sha256": "229938f02934d4cd0ac7dad75413dfc35c6bb11c83037d196c2d3accf5021bcb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-open-smile.png",
+      "bytes": 695135,
+      "sha256": "5756084ed849960966487b9f61269fab7ab720ec63323495eaa04a8faf5f19c7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-recovery.png",
+      "bytes": 689849,
+      "sha256": "3d7c8a41d9a99e664a5637a7bba1e35068dbcccb6277f93e1990373e0794a60e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-schedule.json",
+      "bytes": 1621,
+      "sha256": "b56bff1d5d605e15e9d69025c7fecdb7d37edb47b1bb5ccec198d36176cb904d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-smile-L.png",
+      "bytes": 694347,
+      "sha256": "3fcfc4793934026b4af00557c394016dee532938140b2d5fcf88a07fec64900d"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-smile-R.png",
+      "bytes": 694622,
+      "sha256": "8f9e743fc6d90425ff1c3f6b130d7b1f55335d34de20b8968457300ef9861046"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-tail.png",
+      "bytes": 689396,
+      "sha256": "0966ab080e8e675b15219b0f6998eccec066ab13d6aa5b0cf13275907491c9f7"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-validation.json",
+      "bytes": 2570,
+      "sha256": "50cbb5c45a39865001d5388c1dc805e9e5f25c535dcda33ae74280d58f69b73e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-wings-fold.png",
+      "bytes": 687377,
+      "sha256": "288628f702f507234b7a0b9916a6209436e0459ab258b9e74bd3617a02a28092"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/runtime-wings-open.png",
+      "bytes": 697716,
+      "sha256": "6e72bdd7e3793d37a2ac4e92ccea46847137ef6176566136d2c9d09109ad6674"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/saved-blend-proof.json",
+      "bytes": 850633,
+      "sha256": "1301637574fd1fb1358dab06dd0ae5bb4e32a4447f05aa9576a3a0999697bd82"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/saved-states.jpg",
+      "bytes": 529051,
+      "sha256": "d0fb6b9862fd49c1c65fd0d01d9fff4502e44aa7e9d972c83d4a81a2a9cbc3db"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0-o0.5.png",
+      "bytes": 828901,
+      "sha256": "f1cd8ea62ba42db32e4636199c3c66ff48ab72c05891fa55f428309845c415d1"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0-o0.png",
+      "bytes": 828801,
+      "sha256": "05d03090698ca4a7d0766a23589bcf303b3e0a9275f97a235701814a3b3b96eb"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0-o1.png",
+      "bytes": 829143,
+      "sha256": "ee9fa4c52adc63447b4281998f6ea0c9bbd3dec1df3ba628f3aed06f9cb79e3c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.25-o0.5.png",
+      "bytes": 827959,
+      "sha256": "b00354371a41a2855978f708960406ac2ce146dd9daf2999df1a5b1543f22d60"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.25-o0.png",
+      "bytes": 827953,
+      "sha256": "5e7aa1befb8d65eafde2cae1a3426dfe9339057117da5ca21f54faf3ccb8ae22"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.25-o1.png",
+      "bytes": 828363,
+      "sha256": "82ef5e602a4578b3811c5d7f8217b23bf7f496ebf7d78896e90c7d1cc7641c74"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.5-o0.5.png",
+      "bytes": 827202,
+      "sha256": "e06e2e5b5f5fe57885d27949e40ba410e82bb86aedb5f47f27175043232e1645"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.5-o0.png",
+      "bytes": 827541,
+      "sha256": "90579737eb6781fe65621cd8934a0ad9dfd989c5a75417e73e564898a5ca4cbe"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.5-o1.png",
+      "bytes": 827520,
+      "sha256": "fe5880c9ceaeb904a69b203ff8b948439f84e1f1200ca1ea974914b40bf09389"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.75-o0.5.png",
+      "bytes": 826105,
+      "sha256": "30c111e9091c2b5daed8f6ebd48fbeb1add0370420f32ed07b195179249f4ccd"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.75-o0.png",
+      "bytes": 826137,
+      "sha256": "502dee08095c9e114b4e82814fc3ccbd7b56261bff8646107bca749ea9bc9868"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c0.75-o1.png",
+      "bytes": 826537,
+      "sha256": "955fef426b84129bb3246ae01d6268296e5eb363bb250b7102ba769d6933c208"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c1-o0.5.png",
+      "bytes": 824149,
+      "sha256": "342baabdbcf6ef1168dfb3077d81e8fded8a40782e4987c1cf3abb25dfdc79e3"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c1-o0.png",
+      "bytes": 824204,
+      "sha256": "ba8d2487b303eaf51654cd6fedb63f1812c0381246089f1fac41c1088cea401b"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-direct-c1-o1.png",
+      "bytes": 824398,
+      "sha256": "a525a24584465a1e397381e28ae68299b9e473b652a5a2a202f3a2ddbc82972c"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-mouth-runtime-proof.json",
+      "bytes": 3201,
+      "sha256": "8b4ac15cacd74b206433bcfc43e2960ca95aac27c3bccabc82ab060634ce26d9"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-mouth-runtime.json",
+      "bytes": 178781,
+      "sha256": "5609ad48d221601b742ea3919058f1203dcee04ea3036599701599835f04d3ad"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/static-runtime-mouth.jpg",
+      "bytes": 463300,
+      "sha256": "f481eb756a5757189463923c90382b434eb16800f392ac9e19062d7be6a33f3e"
+    },
+    {
+      "path": "docs/production/jill/mouth-integration-v006/w-profile.json",
+      "bytes": 15784,
+      "sha256": "445406a0c79c08bdadce111d0e4473cd4376f597f30d58ac256d90bc99e612af"
+    },
+    {
+      "path": "docs/production/jill/texture-return-v005/Evidence.md",
+      "bytes": 9171,
+      "sha256": "32add683edcec29782952b4bda83e6f89ea81903bf9a1b378a83cd4fc4e8dafa"
+    },
+    {
+      "path": "scripts/3d/jill-mouth-v006/mouth-controller.mjs",
+      "bytes": 1943,
+      "sha256": "445b3d03e7aff37c0626a865494668167b4081dc4e38cace7cd01f9b2f485eed"
+    },
+    {
+      "path": "scripts/3d/jill-mouth-v006/review-controls.mjs",
+      "bytes": 1857,
+      "sha256": "8a600adf46da8910f7f552e0d64a3bbdc57b2a185f36611236b20c28bd3c4dcd"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/serve.mjs",
+      "bytes": 2736,
+      "sha256": "1600be7127e2a6204ccb7ee4dcf1c776ff82bbb60dbc73c4841453c8d29c9dfc"
+    },
+    {
+      "path": "scripts/3d/jill-texture-v005/viewer.mjs",
+      "bytes": 5455,
+      "sha256": "ad522bacd8b6a05e9de0c4de26eb78d72c47e96aa2dc94fa58cfc9ed5a6a1487"
+    },
+    {
+      "path": "scripts/blender/audit-jill-mouth-v006.py",
+      "bytes": 4691,
+      "sha256": "f666c09dfae6746364805a52700eeecf400578fee2bab566cce7f6094f2ff953"
+    },
+    {
+      "path": "scripts/blender/jill-mouth-integration-v006.py",
+      "bytes": 17424,
+      "sha256": "db8cb654f6e7d4b04a8d459a30d53d3871fc20a6274a76fe6370b345d51f8e20"
+    },
+    {
+      "path": "scripts/blender/jill-mouth-validate-v006.py",
+      "bytes": 9089,
+      "sha256": "3f4abec2ebda08c49e4d792e0b9fafeb007e28809f26f57ba72c21608a880565"
+    },
+    {
+      "path": "scripts/blender/verify-jill-mouth-glb-v006.py",
+      "bytes": 1422,
+      "sha256": "75e969389d311343f732c71489a4f5ae55fddff7ca3b377595f1caa62a3b6f98"
+    },
+    {
+      "path": "scripts/qa/capture-jill-mouth-v006.js",
+      "bytes": 2718,
+      "sha256": "a6e193e6ebd2d95abca70a05aafbd76fc55cebbe7bb54e5f33920e693ef973fa"
+    },
+    {
+      "path": "scripts/qa/package-jill-mouth-v006.py",
+      "bytes": 7535,
+      "sha256": "857bd275b389a9d761c0106ce4db5cc15a1ee32ff19de8f03821e493fbbe6afc"
+    },
+    {
+      "path": "scripts/qa/verify-jill-mouth-runtime-v006.py",
+      "bytes": 3164,
+      "sha256": "64e0161547de0b8518b4c8f044fcadbe5f46677e37b12324d7127f58d1fa455d"
+    }
+  ]
+}

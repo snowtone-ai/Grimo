@@ -1,0 +1,144 @@
+{
+  "pass": true,
+  "scope": "Actual static GLB with no animation loaded; live simultaneous mouth controls, not baked poses",
+  "model_sha256": "46af1faa2133c2c535e7a0ed9dc59ea6937c1ff2c8d0b421693f15261804e3fe",
+  "states": [
+    {
+      "controls": {
+        "mouth_close": 0,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.25,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.25,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.25,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.5,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.5,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.5,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.75,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.75,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.75,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 1,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 0.0
+    },
+    {
+      "controls": {
+        "mouth_close": 1,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 0.0
+    },
+    {
+      "controls": {
+        "mouth_close": 1,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "max_morph_delta": 0.0
+    }
+  ],
+  "bones_max_position_delta_m": 0.0,
+  "neutral_recovery": true
+}

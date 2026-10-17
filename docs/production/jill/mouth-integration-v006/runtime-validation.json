@@ -1,0 +1,98 @@
+{
+  "pass": true,
+  "scope": "Real Desktop WebGL2 2.22.2; bounded baked clip only, no general channel solver/full motion/mobile claim",
+  "model_sha256": "280bdeee1bb827bad325a7ec34613f6ed480fe2a3957342313585a751865a8e6",
+  "states": [
+    {
+      "state": "neutral",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "mouth-closed",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "mouth-small",
+      "morph_max_delta": 5.9604474356156345e-08,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "mouth-large",
+      "morph_max_delta": 2.3841812479830082e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "smile-L",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "smile-R",
+      "morph_max_delta": 4.7683352111249633e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "open-smile",
+      "morph_max_delta": 4.7683352111249633e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "closed-open-smile",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "blink-half",
+      "morph_max_delta": 2.3841653318257272e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "blink-full",
+      "morph_max_delta": 4.7683352111249633e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "wings-open",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "wings-fold",
+      "morph_max_delta": 9.536670422249927e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "tail",
+      "morph_max_delta": 6.675672024059054e-07,
+      "anchor_positions_finite": true
+    },
+    {
+      "state": "combined",
+      "morph_max_delta": 0.0,
+      "anchor_positions_finite": true
+    }
+  ],
+  "representative_bone_motion": {
+    "wings-open": {
+      "bone": "DEF_wing_outer.L",
+      "world_displacement_m": 0.03141826317681382
+    },
+    "wings-fold": {
+      "bone": "DEF_wing_outer.R",
+      "world_displacement_m": 0.056806119707991924
+    },
+    "tail": {
+      "bone": "DEF_tail_02",
+      "world_displacement_m": 0.01175615828687722
+    },
+    "combined": {
+      "bone": "DEF_head",
+      "world_displacement_m": 0.0003299735921201101
+    }
+  },
+  "captured_samples": 290,
+  "neutral_recovery": true,
+  "human_visual_go": false
+}

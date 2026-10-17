@@ -1,0 +1,306 @@
+{
+  "states": [
+    {
+      "state": "neutral",
+      "morphs": {}
+    },
+    {
+      "state": "blink-half",
+      "morphs": {
+        "FACE_Blink.L": 0.4999999403953552,
+        "FACE_Blink.R": 0.4999999403953552
+      }
+    },
+    {
+      "state": "blink-full",
+      "morphs": {
+        "FACE_Blink.L": 1.0,
+        "FACE_Blink.R": 1.0
+      }
+    },
+    {
+      "state": "mouth-closed",
+      "morphs": {
+        "FACE_MouthClose": 1.0
+      }
+    },
+    {
+      "state": "mouth-small",
+      "morphs": {
+        "FACE_MouthClose": 0.4999999403953552
+      }
+    },
+    {
+      "state": "mouth-large",
+      "morphs": {
+        "FACE_MouthOpen": 1.0
+      }
+    },
+    {
+      "state": "wings-open",
+      "morphs": {
+        "COR_WingOpen.L": 1.0,
+        "COR_WingOpen.R": 1.0
+      }
+    },
+    {
+      "state": "wings-fold",
+      "morphs": {
+        "COR_WingFold.L": 1.0,
+        "COR_WingFold.R": 1.0
+      }
+    },
+    {
+      "state": "tail",
+      "morphs": {
+        "TAIL_Curl": 0.4999999403953552,
+        "COR_TailLeft": 0.7000000476837158
+      }
+    },
+    {
+      "state": "combined",
+      "morphs": {
+        "FACE_MouthOpen": 0.4999999403953552,
+        "COR_WingOpen.L": 0.6500000357627869,
+        "COR_WingOpen.R": 0.6500000357627869,
+        "COR_TailRight": 0.4999999403953552,
+        "FACE_Blink.L": 0.4999999403953552,
+        "FACE_Blink.R": 0.4999999403953552
+      }
+    },
+    {
+      "state": "recovery",
+      "morphs": {}
+    },
+    {
+      "state": "smile-L",
+      "morphs": {
+        "FACE_Smile.L": 1.0
+      }
+    },
+    {
+      "state": "smile-R",
+      "morphs": {
+        "FACE_Smile.R": 1.0
+      }
+    },
+    {
+      "state": "smile-both",
+      "morphs": {
+        "FACE_Smile.L": 1.0,
+        "FACE_Smile.R": 1.0
+      }
+    },
+    {
+      "state": "open-smile",
+      "morphs": {
+        "FACE_MouthOpen": 1.0,
+        "FACE_Smile.L": 1.0,
+        "FACE_Smile.R": 1.0
+      }
+    },
+    {
+      "state": "closed-open-smile",
+      "morphs": {
+        "FACE_MouthClose": 1.0
+      }
+    }
+  ],
+  "overlap_samples": [
+    {
+      "channels": {
+        "mouth_close": 0,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_Smile.L": 1.0,
+        "FACE_Smile.R": 0.4999999403953552
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthOpen": 0.4999999403953552,
+        "FACE_Smile.L": 1.0,
+        "FACE_Smile.R": 0.4999999403953552
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthOpen": 1.0,
+        "FACE_Smile.L": 1.0,
+        "FACE_Smile.R": 0.4999999403953552
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.25,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.2499999850988388,
+        "FACE_Smile.L": 0.75,
+        "FACE_Smile.R": 0.375
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.25,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.2499999850988388,
+        "FACE_MouthOpen": 0.375,
+        "FACE_Smile.L": 0.75,
+        "FACE_Smile.R": 0.375
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.25,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.2499999850988388,
+        "FACE_MouthOpen": 0.75,
+        "FACE_Smile.L": 0.75,
+        "FACE_Smile.R": 0.375
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.5,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.4999999403953552,
+        "FACE_Smile.L": 0.4999999403953552,
+        "FACE_Smile.R": 0.2499999850988388
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.5,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.4999999403953552,
+        "FACE_MouthOpen": 0.2499999850988388,
+        "FACE_Smile.L": 0.4999999403953552,
+        "FACE_Smile.R": 0.2499999850988388
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.5,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.4999999403953552,
+        "FACE_MouthOpen": 0.4999999403953552,
+        "FACE_Smile.L": 0.4999999403953552,
+        "FACE_Smile.R": 0.2499999850988388
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.75,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.75,
+        "FACE_Smile.L": 0.2499999850988388,
+        "FACE_Smile.R": 0.125
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.75,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.75,
+        "FACE_MouthOpen": 0.125,
+        "FACE_Smile.L": 0.2499999850988388,
+        "FACE_Smile.R": 0.125
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 0.75,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 0.75,
+        "FACE_MouthOpen": 0.2499999850988388,
+        "FACE_Smile.L": 0.2499999850988388,
+        "FACE_Smile.R": 0.125
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 1,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 1.0
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 1,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 1.0
+      }
+    },
+    {
+      "channels": {
+        "mouth_close": 1,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "morphs": {
+        "FACE_MouthClose": 1.0
+      }
+    }
+  ],
+  "recovery_max_delta_m": 1.1920928955078125e-07
+}

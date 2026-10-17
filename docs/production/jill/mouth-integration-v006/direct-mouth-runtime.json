@@ -1,0 +1,157 @@
+{
+  "pass": true,
+  "scope": "Live direct weights on all 23 morph instances, animation writer paused, 15 simultaneous-input cases compared against saved Blender driver results",
+  "model_sha256": "280bdeee1bb827bad325a7ec34613f6ed480fe2a3957342313585a751865a8e6",
+  "states": [
+    {
+      "controls": {
+        "mouth_close": 0,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.25,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.25,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.25,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.5,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.5,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.5,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 5.960464477539063e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.75,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.75,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 0.75,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 1.4901161193847656e-08
+    },
+    {
+      "controls": {
+        "mouth_close": 1,
+        "mouth_open": 0,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 0.0
+    },
+    {
+      "controls": {
+        "mouth_close": 1,
+        "mouth_open": 0.5,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 0.0
+    },
+    {
+      "controls": {
+        "mouth_close": 1,
+        "mouth_open": 1,
+        "smile.L": 1,
+        "smile.R": 0.5
+      },
+      "instances": 23,
+      "max_morph_delta": 0.0
+    }
+  ]
+}
