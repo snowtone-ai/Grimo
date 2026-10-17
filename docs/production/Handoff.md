@@ -3,7 +3,7 @@
 **Checked:** 2026-10-17 / Codex retirement scope. **Canonical:** `main:docs/production/Handoff.md`. Main is the shared rules/knowledge base, **not** proof of the newest 3D state. For actual NOW, inspect the relevant feature branch remote HEAD, editable assets, production State, evidence, and Codex-local dirty changes. Human approval cannot be inferred from file names, dates or technical PASS.
 
 ## App/backend decision (Human 2026-10-17)
-First launch = Shushu-only, new noncommercial family/personal PWA; local Dexie/IndexedDB, manual Grimo backup, no old app data migration, device sync, cloud DB or core login. Vercel existing `grimo` project; settings/deploy are unverified. [Implementation/merge gates](../grimo/knowledge/product/GRIMO_LOCAL_FIRST_ARCHITECTURE.md). Next: isolated new DB + Task event foundation; no bulk 3D branch merge.
+Shushu-only noncommercial personal/family PWA; local Dexie, manual backup; no legacy migration, sync/cloud or core login. Vercel `grimo` deploy unverified. [Contract](../grimo/knowledge/product/GRIMO_LOCAL_FIRST_ARCHITECTURE.md). Gate B implemented on `codex/grimo-local-data-foundation-v001`, unmerged: [verification](data/LOCAL_DATA_FOUNDATION_V001.md). Reward generation and release gates remain pending.
 
 ## Shared foundation verified
 - `main:AGENTS.md` was updated at [`da479113`](https://github.com/snowtone-ai/Grimo/commit/da4791135414a94951ed2d9ab51ca28da9ebcec8) to require GOAL-first, identity protection, targeted evidence, cause separation and minimal sufficient work. Next.js auto-generated rules were retained.
