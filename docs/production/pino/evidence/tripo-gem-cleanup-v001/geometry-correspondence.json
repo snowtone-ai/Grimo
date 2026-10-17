@@ -1,0 +1,47 @@
+{
+  "source_height": 0.99951171875,
+  "diagnostic_uniform_scale": 1.000488519668579,
+  "changes_to_assets": false,
+  "roles": {
+    "main": {
+      "source_faces": 37848,
+      "donor_faces": 37848,
+      "unique_source_faces_matched": 37848,
+      "max_vertex_error_after_diagnostic_scale": 2.136423427145928e-05,
+      "p95_vertex_error": 1.666922435106244e-05,
+      "source_name": "PINO_C_BASE_RIG_V001_TRIPO_INPUT",
+      "donor_name": "PINO_C_BASE_RIG_V001_TRIPO_INPUT",
+      "all_faces_bijective": true
+    },
+    "oral": {
+      "source_faces": 627,
+      "donor_faces": 627,
+      "unique_source_faces_matched": 627,
+      "max_vertex_error_after_diagnostic_scale": 1.54683966684388e-05,
+      "p95_vertex_error": 1.5229919881676324e-05,
+      "source_name": "PinoOralLiner_TRIPO_INPUT",
+      "donor_name": "PinoOralLiner_TRIPO_INPUT",
+      "all_faces_bijective": true
+    },
+    "lidL": {
+      "source_faces": 6144,
+      "donor_faces": 6144,
+      "unique_source_faces_matched": 6144,
+      "max_vertex_error_after_diagnostic_scale": 1.8143275156035088e-05,
+      "p95_vertex_error": 1.6266041711787693e-05,
+      "source_name": "PinoSoftLids_L_TRIPO_INPUT",
+      "donor_name": "PinoSoftLids_L_TRIPO_INPUT",
+      "all_faces_bijective": true
+    },
+    "lidR": {
+      "source_faces": 6144,
+      "donor_faces": 6144,
+      "unique_source_faces_matched": 6144,
+      "max_vertex_error_after_diagnostic_scale": 1.7543243302498013e-05,
+      "p95_vertex_error": 1.62464493769221e-05,
+      "source_name": "PinoSoftLids_R_TRIPO_INPUT",
+      "donor_name": "PinoSoftLids_R_TRIPO_INPUT",
+      "all_faces_bijective": true
+    }
+  }
+}

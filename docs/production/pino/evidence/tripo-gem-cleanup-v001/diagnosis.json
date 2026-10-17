@@ -1,0 +1,31 @@
+{
+  "source_sha256": "7086bb5bad0c0ec85e15187baac6bb9fa6e6b5ea9b8988354d32aadc2dc20366",
+  "donor_sha256": "7ec49ea1e4f4f0fed87787e37856041c8ba4d41f816fd92b105098021aa0567f",
+  "source_triangles": 50763,
+  "donor_triangles": 50763,
+  "exact_geometry_multiset_equal": false,
+  "extra_triangles": 50763,
+  "missing_triangles": 50763,
+  "ownership": [
+    {
+      "source": "NO MATCH",
+      "donor": "Pino_Skin",
+      "triangles": 37848
+    },
+    {
+      "source": "NO MATCH",
+      "donor": "Pino_LidSkin",
+      "triangles": 6144
+    },
+    {
+      "source": "NO MATCH",
+      "donor": "Pino_OralInterior",
+      "triangles": 627
+    },
+    {
+      "source": "NO MATCH",
+      "donor": "PinoSoftLids_R_TRIPO_INPUT_material",
+      "triangles": 6144
+    }
+  ]
+}
