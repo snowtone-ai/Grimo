@@ -1,0 +1,15 @@
+{
+  "result": "HOLD_REPAIR_FAILED",
+  "task_complete": false,
+  "promote_candidate": false,
+  "branch": "codex/jill-texture-return-v005-20261017",
+  "source_commit": "c4043471dbac3e58a39603802ecd18794a2bb9d6",
+  "verified_main": "336997db2b95244c17774258e2f5ff874a2adbc1",
+  "artifact_commit": "bbbba98e14e2e5b8c730c09e3648ea56d2d7b890",
+  "observed_remote_head": "bbbba98e14e2e5b8c730c09e3648ea56d2d7b890",
+  "artifact_commit_remote_match": true,
+  "observed_utc": "2026-10-17T12:40:26.6819609Z",
+  "original_sources_unchanged": true,
+  "source_evidence": "protected-sources.json",
+  "note": "This receipt records the artifact commit after successful push. The receipt itself is committed separately; final receipt commit remote equality is verified in the task tool output. Failed candidate must not replace the original v005."
+}
