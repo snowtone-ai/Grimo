@@ -13,6 +13,12 @@
 - Data belongs to the browser **origin + browser profile + installation storage**. Same URL in another browser/device does not share state. Users may manually transfer Grimo backups; that is **file restore**, not sync.
 - Remote integrations (e.g. optional Google Calendar, Gemini) are separate, gated functionality; core Task/Calendar/Grimo/Collection never depend on them. Do not store server secrets in client storage.
 
+## 1.1 Visual-medium boundary — Human approved 2026-10-17
+
+The companion itself remains **full 3D**. Backgrounds, Food, item illustrations, chest/reveal, collection cards and interface are **premium 2D/2.5D by default**. Use full 3D for directly body-attached ornaments/Wear and true spatial-contact Secret Motion props (e.g. rolling balls), or when a particular Food/prop's believable bite/grasp/occlusion cannot be achieved by projected sprites. The separate, approved Shushu flower v002 is canonical appearance, not an ordinary earned Wear. Original painted assets and cohesive premium lighting/animation are mandatory; reducing polygon count is not permission to degrade perceived quality. Keep asset/media type in static catalog metadata where needed; do not make storage schemas or reward domain logic depend on render technology. Detailed decision rules and mobile compositing tests: `DESIGN.md §1.2`.
+
+This is an incremental **rendering policy** for future app/companion/content work; it does not expand the next DB-only Codex task. The 3D companion and its rig remain genuinely full 3D; deprecated 2D/2.5D character reconstruction remains retired.
+
 ## 2. Dependency and application topology
 
 ```text
