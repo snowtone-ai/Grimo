@@ -10,6 +10,7 @@ export interface TaskDateFields {
   recurrence: Recurrence;
   recurrenceDayOfWeek?: number;
   recurrenceDayOfMonth?: number;
+  completionDates?: string[];
 }
 
 export const WEEKDAY_LABELS = ["日", "月", "火", "水", "木", "金", "土"] as const;
@@ -20,6 +21,10 @@ export function toDateStr(year: number, month: number, day: number): string {
 
 export function todayDateString(): string {
   const date = new Date();
+  return localDateString(date);
+}
+
+export function localDateString(date: Date): string {
   return toDateStr(date.getFullYear(), date.getMonth(), date.getDate());
 }
 
@@ -40,7 +45,9 @@ export function doesTaskApplyToDate(task: TaskDateFields, dateStr: string): bool
 
 export function taskForDisplayDate<T extends TaskDateFields>(task: T, dateStr: string): T {
   if (task.recurrence === "none") return task;
-  return { ...task, completed: task.completedAt?.slice(0, 10) === dateStr };
+  return { ...task, completed: task.completionDates
+    ? task.completionDates.includes(dateStr)
+    : (task.completedAt ? localDateString(new Date(task.completedAt)) === dateStr : false) };
 }
 
 function compareDueTime(a: TaskDateFields, b: TaskDateFields): number {
@@ -63,7 +70,8 @@ export function buildCalendarSummary(tasks: TaskDateFields[], year: number, mont
     const dateStr = toDateStr(year, month, day);
     let completed=0, pending=0;
     for (const task of tasks) {
-      if (task.completedAt?.slice(0,10) === dateStr) completed++;
+      if (task.completionDates ? task.completionDates.includes(dateStr) :
+        task.completedAt && localDateString(new Date(task.completedAt)) === dateStr) completed++;
       if (doesTaskApplyToDate(task,dateStr) && !taskForDisplayDate(task,dateStr).completed) pending++;
     }
     if (completed || pending) summary[dateStr] = {completed,pending};

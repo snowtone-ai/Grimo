@@ -1,12 +1,13 @@
 "use client";
 
-import { type FormEvent, useCallback, useEffect, useState } from "react";
+import { type FormEvent, useCallback, useEffect, useRef, useState } from "react";
+import { liveQuery } from "dexie";
 import { AppShell } from "@/components/app-shell/AppShell";
 import type { Task } from "@/data/db/types";
 import {
   createTask,
   getTasksForDate,
-  toggleTaskComplete,
+  setTaskCompleted,
 } from "@/data/repositories/task-repository";
 import { todayDateString } from "@/domain/task/task-date";
 
@@ -14,6 +15,8 @@ export default function TasksPage() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [title, setTitle] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const saving = useRef(false);
+  const registration = useRef<{ title: string; id: string } | null>(null);
 
   const refresh = useCallback(async () => {
     try {
@@ -26,41 +29,45 @@ export default function TasksPage() {
   }, []);
 
   useEffect(() => {
-    let active = true;
-
-    void getTasksForDate(todayDateString()).then(
-      (nextTasks) => {
-        if (!active) return;
+    const subscription = liveQuery(() => getTasksForDate(todayDateString())).subscribe({
+      next: (nextTasks) => {
         setTasks(nextTasks);
         setError(null);
       },
-      () => {
-        if (!active) return;
+      error: () => {
         setError("タスクを読み込めませんでした");
       },
-    );
+    });
 
     return () => {
-      active = false;
+      subscription.unsubscribe();
     };
   }, []);
 
   async function add(event: FormEvent) {
     event.preventDefault();
     const clean = title.trim();
-    if (!clean) return;
-
-    await createTask({
-      title: clean,
-      dueDate: todayDateString(),
-      dueTime: null,
-      category: "life",
-      completed: false,
-      completedAt: null,
-      recurrence: "none",
-    });
-    setTitle("");
-    await refresh();
+    if (!clean || saving.current) return;
+    saving.current = true;
+    if (registration.current?.title !== clean) registration.current = { title: clean, id: crypto.randomUUID() };
+    try {
+      await createTask({
+        title: clean,
+        dueDate: todayDateString(),
+        dueTime: null,
+        category: "life",
+        completed: false,
+        completedAt: null,
+        recurrence: "none",
+      }, registration.current.id);
+      registration.current = null;
+      setTitle("");
+      await refresh();
+    } catch {
+      setError("タスクを保存できませんでした。再度お試しください");
+    } finally {
+      saving.current = false;
+    }
   }
 
   return (
@@ -97,8 +104,12 @@ export default function TasksPage() {
               className="check"
               aria-label={`${task.title}を${task.completed ? "未完了" : "完了"}にする`}
               onClick={async () => {
-                await toggleTaskComplete(task.id);
-                await refresh();
+                try {
+                  await setTaskCompleted(task.id, !task.completed);
+                  await refresh();
+                } catch {
+                  setError("完了状態を保存できませんでした。再度お試しください");
+                }
               }}
             >
               {task.completed ? "✓" : ""}
