@@ -1,0 +1,10 @@
+{
+  "scope": "Additional full-character surface review after the first v004 PC capture, before final delivery",
+  "rejected": [
+    {"method": "2048 further Taubin iterations with larger displacement caps", "reason": "Actual clay renders worsened eye-surround transitions and foot contours; not applied to delivery asset."},
+    {"method": "Extend rest fairing to nearly the entire foot with stronger stable smoothing", "reason": "Rounded-foot identity became an angular flat-bottom contour in comparison. Rejected; retain approved sole region."},
+    {"method": "Stronger whole-surface low-pass with global bounding-box compensation", "reason": "Preserving overall bounds did not preserve appearance: the eye surroundings exposed a different rim and the facial depth changed. Rejected; no global fit or larger displacement adopted."}
+  ],
+  "selected": "Bounded low-pass rest cleanup, 24/32/48 iterations according to mesh, smooth tanh displacement limits, W/eye/nose and soles protected. Ignore isolated unused vertices in adjacency. Actual pose corrections use a separate balanced fairing pass and the causal belly displacement-field repair.",
+  "limits": "Selection is an agent geometry comparison, not Human aesthetic approval. All body regions and pose transitions remain in the Human re-review scope. No claim of exhaustive certification for infinitely many continuous control combinations."
+}

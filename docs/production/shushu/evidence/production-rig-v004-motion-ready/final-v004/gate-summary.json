@@ -1,0 +1,36 @@
+{
+  "status": "HOLD: Human appearance pending; mobile UNKNOWN",
+  "metrics": {
+    "paw_side_samples": 264,
+    "torso_confirmed_inside": 0,
+    "head_confirmed_inside": 0,
+    "fixture_radius_003_min_clearance_H": 0.00033788688480854145,
+    "anchor_author_max_error_H": 8.697704008153413e-08,
+    "volume_proxy_range": [
+      0.9911248351821726,
+      1.153320709894168
+    ],
+    "roundtrip_position_max": 9.227898090102826e-07,
+    "roundtrip_anchor_matrix_max": 8.940696716308594e-07,
+    "pc_raw_position_max": 4.38195247365325e-07,
+    "pc_raw_normal_max": 5.036592483520508e-06,
+    "pc_raw_anchor_max": 3.2007694244384766e-05,
+    "pc_return_to_clip": {
+      "frame": 1089,
+      "position": 0,
+      "anchor": 0
+    },
+    "distal_triangle_crossings": 0,
+    "contact_side_samples": 102,
+    "mouth_phases": 81,
+    "W_all_256_vertices_all_keys_error": 0,
+    "corrective_field_target_error": 5.939826125400671e-08,
+    "gpu_samples": 6,
+    "gpu_raw_position_max": 8.30419785591635e-05,
+    "gpu_raw_normal_deg_max": 0.03620757473960587,
+    "gpu_skin_only_position_max": 8.149352831847484e-08
+  },
+  "technical_scope": "Selected measured states only. Original Human FAIL is authoritative. No exhaustive all-input/all-item collision or appearance claim.",
+  "knowledge_main_publication": "8b5d13bc38061c0d574444416a039e70b9c61930",
+  "concurrent_main": "Later Carol retirement removed its application row. Preserve that Human decision; do not restore or overwrite main."
+}

@@ -1,0 +1,41 @@
+{
+  "frame": 1089,
+  "captures": [
+    {
+      "mesh": "ShushuStatic_Torso",
+      "count": 5621,
+      "maxPosition": 0.000012695489647582569,
+      "maxNormalDeg": 0.02856119009001644,
+      "skinOnlyPosition": 6.437182254881413e-8,
+      "skinOnlyNormalDeg": 0.000007393896667355497,
+      "normalOracle": "exported morph/skin normal",
+      "worstVertex": 3571,
+      "glError": 0,
+      "method": "Transform feedback: actual material vertex shader with extra local P/N outputs; current draw VAO/uniforms/textures. CPU 8-weight oracle also receives captured GPU Morph P/N to isolate Skin."
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "count": 1716,
+      "maxPosition": 0.00004168295252888824,
+      "maxNormalDeg": 0.0000019090959104164224,
+      "skinOnlyPosition": 3.333905268422089e-8,
+      "skinOnlyNormalDeg": null,
+      "normalOracle": "current evaluated surface NORMAL stream",
+      "worstVertex": 825,
+      "glError": 0,
+      "method": "Transform feedback: actual material vertex shader with extra local P/N outputs; current draw VAO/uniforms/textures. CPU 8-weight oracle also receives captured GPU Morph P/N to isolate Skin."
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "count": 1681,
+      "maxPosition": 0.00003938241870116226,
+      "maxNormalDeg": 0.0000019090959104164224,
+      "skinOnlyPosition": 3.114003016383962e-8,
+      "skinOnlyNormalDeg": null,
+      "normalOracle": "current evaluated surface NORMAL stream",
+      "worstVertex": 852,
+      "glError": 0,
+      "method": "Transform feedback: actual material vertex shader with extra local P/N outputs; current draw VAO/uniforms/textures. CPU 8-weight oracle also receives captured GPU Morph P/N to isolate Skin."
+    }
+  ]
+}

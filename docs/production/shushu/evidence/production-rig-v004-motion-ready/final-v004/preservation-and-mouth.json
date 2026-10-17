@@ -1,0 +1,3739 @@
+{
+  "meshes": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.002999987373674461,
+      "basis_bounds_old": [
+        [
+          0.10423274338245392,
+          -0.016784725710749626,
+          0.7560425400733948
+        ],
+        [
+          0.3533324599266052,
+          0.18815602362155914,
+          0.9998780488967896
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          0.1060650423169136,
+          -0.014461332000792027,
+          0.7588351368904114
+        ],
+        [
+          0.35090792179107666,
+          0.1852853149175644,
+          0.9977032542228699
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0030000074313302483,
+      "basis_bounds_old": [
+        [
+          -0.35333263874053955,
+          -0.016778917983174324,
+          0.75640869140625
+        ],
+        [
+          -0.10422524809837341,
+          0.1881408542394638,
+          1.0000001192092896
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.35082051157951355,
+          -0.014597511850297451,
+          0.759141743183136
+        ],
+        [
+          -0.10626494139432907,
+          0.18552742898464203,
+          0.9977964758872986
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          0.06338490545749664,
+          -0.19690127670764923,
+          0.5926513075828552
+        ],
+        [
+          0.19667048752307892,
+          -0.055444709956645966,
+          0.73773193359375
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          0.06338490545749664,
+          -0.19690127670764923,
+          0.5926513075828552
+        ],
+        [
+          0.19667048752307892,
+          -0.055444709956645966,
+          0.73773193359375
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          -0.19667066633701324,
+          -0.1969318389892578,
+          0.5926513075828552
+        ],
+        [
+          -0.06338512897491455,
+          -0.055448561906814575,
+          0.73773193359375
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.19667066633701324,
+          -0.1969318389892578,
+          0.5926513075828552
+        ],
+        [
+          -0.06338512897491455,
+          -0.055448561906814575,
+          0.73773193359375
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.005999922286719084,
+      "basis_bounds_old": [
+        [
+          -0.30444344878196716,
+          -0.2717549502849579,
+          0.47470083832740784
+        ],
+        [
+          0.3049926459789276,
+          0.2870787978172302,
+          0.9458009004592896
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.29887595772743225,
+          -0.2717549502849579,
+          0.4771656095981598
+        ],
+        [
+          0.2992211878299713,
+          0.2815949022769928,
+          0.9424854516983032
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": 256,
+      "W_all_keys_max_error": 0.0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          0.08183278143405914,
+          -0.1910552978515625,
+          0.6127318739891052
+        ],
+        [
+          0.17826835811138153,
+          -0.11813357472419739,
+          0.71759033203125
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          0.08183278143405914,
+          -0.1910552978515625,
+          0.6127318739891052
+        ],
+        [
+          0.17826835811138153,
+          -0.11813357472419739,
+          0.71759033203125
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          -0.17826855182647705,
+          -0.19122308492660522,
+          0.6127318739891052
+        ],
+        [
+          -0.08183300495147705,
+          -0.11818690598011017,
+          0.71759033203125
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.17826855182647705,
+          -0.19122308492660522,
+          0.6127318739891052
+        ],
+        [
+          -0.08183300495147705,
+          -0.11818690598011017,
+          0.71759033203125
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          -0.0430000014603138,
+          -0.26784953474998474,
+          0.6052800416946411
+        ],
+        [
+          0.04299956187605858,
+          -0.2299809604883194,
+          0.6160002946853638
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.0430000014603138,
+          -0.26784953474998474,
+          0.6052800416946411
+        ],
+        [
+          0.04299956187605858,
+          -0.2299809604883194,
+          0.6160002946853638
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          -0.018058914691209793,
+          -0.2870787978172302,
+          0.6062011122703552
+        ],
+        [
+          0.018058642745018005,
+          -0.2626342177391052,
+          0.6505126953125
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.018058914691209793,
+          -0.2870787978172302,
+          0.6062011122703552
+        ],
+        [
+          0.018058642745018005,
+          -0.2626342177391052,
+          0.6505126953125
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          -0.035259999334812164,
+          -0.2358495444059372,
+          0.6052800416946411
+        ],
+        [
+          0.03525964170694351,
+          -0.2221059948205948,
+          0.6140802502632141
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.035259999334812164,
+          -0.2358495444059372,
+          0.6052800416946411
+        ],
+        [
+          0.03525964170694351,
+          -0.2221059948205948,
+          0.6140802502632141
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.002998826326802373,
+      "basis_bounds_old": [
+        [
+          0.11193836480379105,
+          -0.11328888684511185,
+          0.2891235649585724
+        ],
+        [
+          0.3806151747703552,
+          0.09244530647993088,
+          0.5138550400733948
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          0.1144590675830841,
+          -0.11034378409385681,
+          0.29096856713294983
+        ],
+        [
+          0.3778322637081146,
+          0.0904812216758728,
+          0.5122617483139038
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0029994072392582893,
+      "basis_bounds_old": [
+        [
+          -0.38061532378196716,
+          -0.11328879743814468,
+          0.28912344574928284
+        ],
+        [
+          -0.11187749356031418,
+          0.0924530103802681,
+          0.5138549208641052
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.3785812556743622,
+          -0.11045008897781372,
+          0.29148414731025696
+        ],
+        [
+          -0.11440647393465042,
+          0.09061384201049805,
+          0.5111791491508484
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0,
+      "basis_bounds_old": [
+        [
+          -0.014000000432133675,
+          -0.24300000071525574,
+          0.6010000109672546
+        ],
+        [
+          0.014000000432133675,
+          -0.22499999403953552,
+          0.6069999933242798
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.014000000432133675,
+          -0.24300000071525574,
+          0.6010000109672546
+        ],
+        [
+          0.014000000432133675,
+          -0.22499999403953552,
+          0.6069999933242798
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "topology_exact": true,
+      "uv_exact": true,
+      "weight_exact": true,
+      "images_exact": true,
+      "basis_delta_max": 0.0059938207268714905,
+      "basis_bounds_old": [
+        [
+          -0.2447344809770584,
+          -0.24803157150745392,
+          1.0552838602961856e-08
+        ],
+        [
+          0.24470512568950653,
+          0.25241053104400635,
+          0.5185547471046448
+        ]
+      ],
+      "basis_bounds_new": [
+        [
+          -0.2442767471075058,
+          -0.24286353588104248,
+          1.0552838602961856e-08
+        ],
+        [
+          0.24368447065353394,
+          0.24739471077919006,
+          0.5151649117469788
+        ]
+      ],
+      "key_names_exact": true,
+      "W_ring_count": null,
+      "W_all_keys_max_error": null
+    }
+  ],
+  "bone_rest_and_parent_exact": true,
+  "obsolete_close_equals_basis_error": 0.0,
+  "mouth_sweep": [
+    {
+      "phase": 0.0,
+      "state": {
+        "MouthOpen": 0.0,
+        "MouthClose": 0,
+        "Tongue": 0.0,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.0
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.025,
+      "state": {
+        "MouthOpen": 0.025,
+        "MouthClose": 0,
+        "Tongue": 0.010000000000000002,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.02500000037252903
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.05,
+      "state": {
+        "MouthOpen": 0.05,
+        "MouthClose": 0,
+        "Tongue": 0.020000000000000004,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.05000000074505806
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07200000435113907
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.07500000000000001,
+      "state": {
+        "MouthOpen": 0.07500000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.030000000000000006,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07500000298023224,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.07500000298023224
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07500000298023224
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07500000298023224
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.07500000298023224
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.1,
+      "state": {
+        "MouthOpen": 0.1,
+        "MouthClose": 0,
+        "Tongue": 0.04000000000000001,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10000000149011612,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.10000000149011612
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10000000149011612
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10000000149011612
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10000000149011612
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.125,
+      "state": {
+        "MouthOpen": 0.125,
+        "MouthClose": 0,
+        "Tongue": 0.05,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.125,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.125
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.125
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.125
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.125
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.15000000000000002,
+      "state": {
+        "MouthOpen": 0.15000000000000002,
+        "MouthClose": 0,
+        "Tongue": 0.06000000000000001,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.15000000596046448,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.15000000596046448
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.15000000596046448
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.15000000596046448
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.15000000596046448
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.17500000000000002,
+      "state": {
+        "MouthOpen": 0.17500000000000002,
+        "MouthClose": 0,
+        "Tongue": 0.07,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.17499999701976776,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.17499999701976776
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.17499999701976776
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.17499999701976776
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.17499999701976776
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.2,
+      "state": {
+        "MouthOpen": 0.2,
+        "MouthClose": 0,
+        "Tongue": 0.08000000000000002,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20000000298023224,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.20000000298023224
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20000000298023224
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20000000298023224
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20000000298023224
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.225,
+      "state": {
+        "MouthOpen": 0.225,
+        "MouthClose": 0,
+        "Tongue": 0.09000000000000001,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22499999403953552,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.22499999403953552
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22499999403953552
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22499999403953552
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22499999403953552
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.25,
+      "state": {
+        "MouthOpen": 0.25,
+        "MouthClose": 0,
+        "Tongue": 0.1,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.2499999850988388
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.275,
+      "state": {
+        "MouthOpen": 0.275,
+        "MouthClose": 0,
+        "Tongue": 0.11000000000000001,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2750000059604645,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.2750000059604645
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2750000059604645
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2750000059604645
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2750000059604645
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.30000000000000004,
+      "state": {
+        "MouthOpen": 0.30000000000000004,
+        "MouthClose": 0,
+        "Tongue": 0.12000000000000002,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.29999998211860657,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.29999998211860657
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.29999998211860657
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.29999998211860657
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.29999998211860657
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.325,
+      "state": {
+        "MouthOpen": 0.325,
+        "MouthClose": 0,
+        "Tongue": 0.13,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.32499995827674866,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.32499995827674866
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.32499995827674866
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.32499995827674866
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.32499995827674866
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.35000000000000003,
+      "state": {
+        "MouthOpen": 0.35000000000000003,
+        "MouthClose": 0,
+        "Tongue": 0.14,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3499999940395355,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.3499999940395355
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3499999940395355
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3499999940395355
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3499999940395355
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.375,
+      "state": {
+        "MouthOpen": 0.375,
+        "MouthClose": 0,
+        "Tongue": 0.15000000000000002,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.375,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.375
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.375
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.375
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.375
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.4,
+      "state": {
+        "MouthOpen": 0.4,
+        "MouthClose": 0,
+        "Tongue": 0.16000000000000003,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4000000059604645,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.4000000059604645
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4000000059604645
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4000000059604645
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4000000059604645
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.42500000000000004,
+      "state": {
+        "MouthOpen": 0.42500000000000004,
+        "MouthClose": 0,
+        "Tongue": 0.17000000000000004,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42500001192092896,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.42500001192092896
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42500001192092896
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42500001192092896
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42500001192092896
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.45,
+      "state": {
+        "MouthOpen": 0.45,
+        "MouthClose": 0,
+        "Tongue": 0.18000000000000002,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.44999998807907104,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.44999998807907104
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.44999998807907104
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.44999998807907104
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.44999998807907104
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.47500000000000003,
+      "state": {
+        "MouthOpen": 0.47500000000000003,
+        "MouthClose": 0,
+        "Tongue": 0.19000000000000003,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4749999940395355,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.4749999940395355
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4749999940395355
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4749999940395355
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4749999940395355
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.5,
+      "state": {
+        "MouthOpen": 0.5,
+        "MouthClose": 0,
+        "Tongue": 0.2,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4999999403953552,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.4999999403953552
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4999999403953552
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4999999403953552
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4999999403953552
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.525,
+      "state": {
+        "MouthOpen": 0.525,
+        "MouthClose": 0,
+        "Tongue": 0.21000000000000002,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5249999761581421,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.5249999761581421
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5249999761581421
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5249999761581421
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5249999761581421
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.55,
+      "state": {
+        "MouthOpen": 0.55,
+        "MouthClose": 0,
+        "Tongue": 0.22000000000000003,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.550000011920929,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.550000011920929
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.550000011920929
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.550000011920929
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.550000011920929
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.5750000000000001,
+      "state": {
+        "MouthOpen": 0.5750000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.23000000000000004,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.574999988079071,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.574999988079071
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.574999988079071
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.574999988079071
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.574999988079071
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.6000000000000001,
+      "state": {
+        "MouthOpen": 0.6000000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.24000000000000005,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6000000238418579,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.6000000238418579
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6000000238418579
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6000000238418579
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6000000238418579
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.625,
+      "state": {
+        "MouthOpen": 0.625,
+        "MouthClose": 0,
+        "Tongue": 0.25,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.625,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.625
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.625
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.625
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.625
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.65,
+      "state": {
+        "MouthOpen": 0.65,
+        "MouthClose": 0,
+        "Tongue": 0.26,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6500000357627869,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.6500000357627869
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6500000357627869
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6500000357627869
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6500000357627869
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.675,
+      "state": {
+        "MouthOpen": 0.675,
+        "MouthClose": 0,
+        "Tongue": 0.27,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6750000715255737,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.6750000715255737
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6750000715255737
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6750000715255737
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6750000715255737
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.7000000000000001,
+      "state": {
+        "MouthOpen": 0.7000000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.28,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7000000476837158,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.7000000476837158
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7000000476837158
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7000000476837158
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7000000476837158
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.7250000000000001,
+      "state": {
+        "MouthOpen": 0.7250000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.29000000000000004,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7250000238418579,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.7250000238418579
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7250000238418579
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7250000238418579
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7250000238418579
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.75,
+      "state": {
+        "MouthOpen": 0.75,
+        "MouthClose": 0,
+        "Tongue": 0.30000000000000004,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.75,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.75
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.75
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.75
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.75
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.775,
+      "state": {
+        "MouthOpen": 0.775,
+        "MouthClose": 0,
+        "Tongue": 0.31000000000000005,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7749999761581421,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.7749999761581421
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7749999761581421
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7749999761581421
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7749999761581421
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.8,
+      "state": {
+        "MouthOpen": 0.8,
+        "MouthClose": 0,
+        "Tongue": 0.32000000000000006,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.800000011920929,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.800000011920929
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.800000011920929
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.800000011920929
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.800000011920929
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.8250000000000001,
+      "state": {
+        "MouthOpen": 0.8250000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.33000000000000007,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.824999988079071,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.824999988079071
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.824999988079071
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.824999988079071
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.824999988079071
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.8500000000000001,
+      "state": {
+        "MouthOpen": 0.8500000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.3400000000000001,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8500000238418579,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.8500000238418579
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8500000238418579
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8500000238418579
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8500000238418579
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.875,
+      "state": {
+        "MouthOpen": 0.875,
+        "MouthClose": 0,
+        "Tongue": 0.35000000000000003,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.875,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.875
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.875
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.875
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.875
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.9,
+      "state": {
+        "MouthOpen": 0.9,
+        "MouthClose": 0,
+        "Tongue": 0.36000000000000004,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8999999761581421,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.8999999761581421
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8999999761581421
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8999999761581421
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8999999761581421
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.925,
+      "state": {
+        "MouthOpen": 0.925,
+        "MouthClose": 0,
+        "Tongue": 0.37000000000000005,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.925000011920929,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.925000011920929
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.925000011920929
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.925000011920929
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.925000011920929
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.9500000000000001,
+      "state": {
+        "MouthOpen": 0.9500000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.38000000000000006,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.949999988079071,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.949999988079071
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.949999988079071
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.949999988079071
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.949999988079071
+          }
+        }
+      }
+    },
+    {
+      "phase": 0.9750000000000001,
+      "state": {
+        "MouthOpen": 0.9750000000000001,
+        "MouthClose": 0,
+        "Tongue": 0.39000000000000007,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9750000238418579,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 0.9750000238418579
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9750000238418579
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9750000238418579
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9750000238418579
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.0,
+      "state": {
+        "MouthOpen": 1.0,
+        "MouthClose": 0,
+        "Tongue": 0.4,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 1.0,
+            "MouthClose": 0.0,
+            "Corrective.MouthCavity": 1.0
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 1.0
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 1.0
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 1.0
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.0250000000000001,
+      "state": {
+        "MouthOpen": 0.9749999999999999,
+        "MouthClose": 0.025000000000000133,
+        "Tongue": 0.38999999999999996,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9506250023841858,
+            "MouthClose": 0.02500000037252903,
+            "Corrective.MouthCavity": 0.9506250023841858
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9506250023841858
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9506250023841858
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9506250023841858
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.05,
+      "state": {
+        "MouthOpen": 0.95,
+        "MouthClose": 0.050000000000000044,
+        "Tongue": 0.38,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9024999737739563,
+            "MouthClose": 0.05000000074505806,
+            "Corrective.MouthCavity": 0.9024999737739563
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9024999737739563
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9024999737739563
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.9024999737739563
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.075,
+      "state": {
+        "MouthOpen": 0.925,
+        "MouthClose": 0.07499999999999996,
+        "Tongue": 0.37000000000000005,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8556250333786011,
+            "MouthClose": 0.07500000298023224,
+            "Corrective.MouthCavity": 0.8556250333786011
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8556250333786011
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8556250333786011
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8556250333786011
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.1,
+      "state": {
+        "MouthOpen": 0.8999999999999999,
+        "MouthClose": 0.10000000000000009,
+        "Tongue": 0.36,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8100000023841858,
+            "MouthClose": 0.10000000149011612,
+            "Corrective.MouthCavity": 0.8100000023841858
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8100000023841858
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8100000023841858
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.8100000023841858
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.125,
+      "state": {
+        "MouthOpen": 0.875,
+        "MouthClose": 0.125,
+        "Tongue": 0.35000000000000003,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.765625,
+            "MouthClose": 0.125,
+            "Corrective.MouthCavity": 0.765625
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.765625
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.765625
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.765625
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.1500000000000001,
+      "state": {
+        "MouthOpen": 0.8499999999999999,
+        "MouthClose": 0.15000000000000013,
+        "Tongue": 0.33999999999999997,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7225000262260437,
+            "MouthClose": 0.15000000596046448,
+            "Corrective.MouthCavity": 0.7225000262260437
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7225000262260437
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7225000262260437
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.7225000262260437
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.175,
+      "state": {
+        "MouthOpen": 0.825,
+        "MouthClose": 0.17500000000000004,
+        "Tongue": 0.33,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6806250810623169,
+            "MouthClose": 0.17499999701976776,
+            "Corrective.MouthCavity": 0.6806250810623169
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6806250810623169
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6806250810623169
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6806250810623169
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.2000000000000002,
+      "state": {
+        "MouthOpen": 0.7999999999999998,
+        "MouthClose": 0.20000000000000018,
+        "Tongue": 0.31999999999999995,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.64000004529953,
+            "MouthClose": 0.20000000298023224,
+            "Corrective.MouthCavity": 0.64000004529953
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.64000004529953
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.64000004529953
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.64000004529953
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.225,
+      "state": {
+        "MouthOpen": 0.7749999999999999,
+        "MouthClose": 0.2250000000000001,
+        "Tongue": 0.31,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6006249785423279,
+            "MouthClose": 0.22499999403953552,
+            "Corrective.MouthCavity": 0.6006249785423279
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6006249785423279
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6006249785423279
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.6006249785423279
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.25,
+      "state": {
+        "MouthOpen": 0.75,
+        "MouthClose": 0.25,
+        "Tongue": 0.30000000000000004,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5625,
+            "MouthClose": 0.2499999850988388,
+            "Corrective.MouthCavity": 0.5625
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5625
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5625
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5625
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.2750000000000001,
+      "state": {
+        "MouthOpen": 0.7249999999999999,
+        "MouthClose": 0.27500000000000013,
+        "Tongue": 0.29,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5256249904632568,
+            "MouthClose": 0.2750000059604645,
+            "Corrective.MouthCavity": 0.5256249904632568
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5256249904632568
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5256249904632568
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.5256249904632568
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.3,
+      "state": {
+        "MouthOpen": 0.7,
+        "MouthClose": 0.30000000000000004,
+        "Tongue": 0.27999999999999997,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4899999797344208,
+            "MouthClose": 0.29999998211860657,
+            "Corrective.MouthCavity": 0.4899999797344208
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4899999797344208
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4899999797344208
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4899999797344208
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.3250000000000002,
+      "state": {
+        "MouthOpen": 0.6749999999999998,
+        "MouthClose": 0.3250000000000002,
+        "Tongue": 0.26999999999999996,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4556250274181366,
+            "MouthClose": 0.32499995827674866,
+            "Corrective.MouthCavity": 0.4556250274181366
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4556250274181366
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4556250274181366
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.4556250274181366
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.35,
+      "state": {
+        "MouthOpen": 0.6499999999999999,
+        "MouthClose": 0.3500000000000001,
+        "Tongue": 0.25999999999999995,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42249998450279236,
+            "MouthClose": 0.3499999940395355,
+            "Corrective.MouthCavity": 0.42249998450279236
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42249998450279236
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42249998450279236
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.42249998450279236
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.375,
+      "state": {
+        "MouthOpen": 0.625,
+        "MouthClose": 0.375,
+        "Tongue": 0.25,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.390625,
+            "MouthClose": 0.375,
+            "Corrective.MouthCavity": 0.390625
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.390625
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.390625
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.390625
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.4000000000000001,
+      "state": {
+        "MouthOpen": 0.5999999999999999,
+        "MouthClose": 0.40000000000000013,
+        "Tongue": 0.23999999999999996,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.36000001430511475,
+            "MouthClose": 0.4000000059604645,
+            "Corrective.MouthCavity": 0.36000001430511475
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.36000001430511475
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.36000001430511475
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.36000001430511475
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.425,
+      "state": {
+        "MouthOpen": 0.575,
+        "MouthClose": 0.42500000000000004,
+        "Tongue": 0.22999999999999998,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3306249976158142,
+            "MouthClose": 0.42500001192092896,
+            "Corrective.MouthCavity": 0.3306249976158142
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3306249976158142
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3306249976158142
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3306249976158142
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.4500000000000002,
+      "state": {
+        "MouthOpen": 0.5499999999999998,
+        "MouthClose": 0.4500000000000002,
+        "Tongue": 0.21999999999999995,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3024999797344208,
+            "MouthClose": 0.44999998807907104,
+            "Corrective.MouthCavity": 0.3024999797344208
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3024999797344208
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3024999797344208
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.3024999797344208
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.475,
+      "state": {
+        "MouthOpen": 0.5249999999999999,
+        "MouthClose": 0.4750000000000001,
+        "Tongue": 0.20999999999999996,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.27562499046325684,
+            "MouthClose": 0.4749999940395355,
+            "Corrective.MouthCavity": 0.27562499046325684
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.27562499046325684
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.27562499046325684
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.27562499046325684
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.5,
+      "state": {
+        "MouthOpen": 0.5,
+        "MouthClose": 0.5,
+        "Tongue": 0.2,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388,
+            "MouthClose": 0.4999999403953552,
+            "Corrective.MouthCavity": 0.2499999850988388
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.2499999850988388
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.5250000000000001,
+      "state": {
+        "MouthOpen": 0.47499999999999987,
+        "MouthClose": 0.5250000000000001,
+        "Tongue": 0.18999999999999995,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22562500834465027,
+            "MouthClose": 0.5249999761581421,
+            "Corrective.MouthCavity": 0.22562500834465027
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22562500834465027
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22562500834465027
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.22562500834465027
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.55,
+      "state": {
+        "MouthOpen": 0.44999999999999996,
+        "MouthClose": 0.55,
+        "Tongue": 0.18,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20249998569488525,
+            "MouthClose": 0.550000011920929,
+            "Corrective.MouthCavity": 0.20249998569488525
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20249998569488525
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20249998569488525
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.20249998569488525
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.5750000000000002,
+      "state": {
+        "MouthOpen": 0.4249999999999998,
+        "MouthClose": 0.5750000000000002,
+        "Tongue": 0.16999999999999993,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.18062500655651093,
+            "MouthClose": 0.574999988079071,
+            "Corrective.MouthCavity": 0.18062500655651093
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.18062500655651093
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.18062500655651093
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.18062500655651093
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.6,
+      "state": {
+        "MouthOpen": 0.3999999999999999,
+        "MouthClose": 0.6000000000000001,
+        "Tongue": 0.15999999999999998,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.1599999964237213,
+            "MouthClose": 0.6000000238418579,
+            "Corrective.MouthCavity": 0.1599999964237213
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.1599999964237213
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.1599999964237213
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.1599999964237213
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.625,
+      "state": {
+        "MouthOpen": 0.375,
+        "MouthClose": 0.625,
+        "Tongue": 0.15000000000000002,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.140625,
+            "MouthClose": 0.625,
+            "Corrective.MouthCavity": 0.140625
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.140625
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.140625
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.140625
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.6500000000000001,
+      "state": {
+        "MouthOpen": 0.34999999999999987,
+        "MouthClose": 0.6500000000000001,
+        "Tongue": 0.13999999999999996,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.12250000983476639,
+            "MouthClose": 0.6500000357627869,
+            "Corrective.MouthCavity": 0.12250000983476639
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.12250000983476639
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.12250000983476639
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.12250000983476639
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.675,
+      "state": {
+        "MouthOpen": 0.32499999999999996,
+        "MouthClose": 0.675,
+        "Tongue": 0.12999999999999998,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10562498867511749,
+            "MouthClose": 0.6750000715255737,
+            "Corrective.MouthCavity": 0.10562498867511749
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10562498867511749
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10562498867511749
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.10562498867511749
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.7000000000000002,
+      "state": {
+        "MouthOpen": 0.2999999999999998,
+        "MouthClose": 0.7000000000000002,
+        "Tongue": 0.11999999999999994,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.09000000357627869,
+            "MouthClose": 0.7000000476837158,
+            "Corrective.MouthCavity": 0.09000000357627869
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.09000000357627869
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.09000000357627869
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.09000000357627869
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.725,
+      "state": {
+        "MouthOpen": 0.2749999999999999,
+        "MouthClose": 0.7250000000000001,
+        "Tongue": 0.10999999999999997,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0756249949336052,
+            "MouthClose": 0.7250000238418579,
+            "Corrective.MouthCavity": 0.0756249949336052
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0756249949336052
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0756249949336052
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0756249949336052
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.75,
+      "state": {
+        "MouthOpen": 0.25,
+        "MouthClose": 0.75,
+        "Tongue": 0.1,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0625,
+            "MouthClose": 0.75,
+            "Corrective.MouthCavity": 0.0625
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0625
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0625
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0625
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.7750000000000001,
+      "state": {
+        "MouthOpen": 0.22499999999999987,
+        "MouthClose": 0.7750000000000001,
+        "Tongue": 0.08999999999999996,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.05062500387430191,
+            "MouthClose": 0.7749999761581421,
+            "Corrective.MouthCavity": 0.05062500387430191
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.05062500387430191
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.05062500387430191
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.05062500387430191
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.8,
+      "state": {
+        "MouthOpen": 0.19999999999999996,
+        "MouthClose": 0.8,
+        "Tongue": 0.07999999999999999,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.03999999910593033,
+            "MouthClose": 0.800000011920929,
+            "Corrective.MouthCavity": 0.03999999910593033
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.03999999910593033
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.03999999910593033
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.03999999910593033
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.8250000000000002,
+      "state": {
+        "MouthOpen": 0.17499999999999982,
+        "MouthClose": 0.8250000000000002,
+        "Tongue": 0.06999999999999994,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.030625002458691597,
+            "MouthClose": 0.824999988079071,
+            "Corrective.MouthCavity": 0.030625002458691597
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.030625002458691597
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.030625002458691597
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.030625002458691597
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.85,
+      "state": {
+        "MouthOpen": 0.1499999999999999,
+        "MouthClose": 0.8500000000000001,
+        "Tongue": 0.05999999999999997,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.022499997168779373,
+            "MouthClose": 0.8500000238418579,
+            "Corrective.MouthCavity": 0.022499997168779373
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.022499997168779373
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.022499997168779373
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.022499997168779373
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.875,
+      "state": {
+        "MouthOpen": 0.125,
+        "MouthClose": 0.875,
+        "Tongue": 0.05,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.015625,
+            "MouthClose": 0.875,
+            "Corrective.MouthCavity": 0.015625
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.015625
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.015625
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.015625
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.9000000000000001,
+      "state": {
+        "MouthOpen": 0.09999999999999987,
+        "MouthClose": 0.9000000000000001,
+        "Tongue": 0.03999999999999995,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.010000002570450306,
+            "MouthClose": 0.8999999761581421,
+            "Corrective.MouthCavity": 0.010000002570450306
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.010000002570450306
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.010000002570450306
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.010000002570450306
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.925,
+      "state": {
+        "MouthOpen": 0.07499999999999996,
+        "MouthClose": 0.925,
+        "Tongue": 0.029999999999999985,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.005624999292194843,
+            "MouthClose": 0.925000011920929,
+            "Corrective.MouthCavity": 0.005624999292194843
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.005624999292194843
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.005624999292194843
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.005624999292194843
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.9500000000000002,
+      "state": {
+        "MouthOpen": 0.04999999999999982,
+        "MouthClose": 0.9500000000000002,
+        "Tongue": 0.01999999999999993,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0036000008694827557,
+            "MouthClose": 0.949999988079071,
+            "Corrective.MouthCavity": 0.0025000006426125765
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0036000008694827557
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0036000008694827557
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0036000008694827557
+          }
+        }
+      }
+    },
+    {
+      "phase": 1.975,
+      "state": {
+        "MouthOpen": 0.02499999999999991,
+        "MouthClose": 0.9750000000000001,
+        "Tongue": 0.009999999999999966,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.001799998339265585,
+            "MouthClose": 0.9750000238418579,
+            "Corrective.MouthCavity": 0.0006249994039535522
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.001799998339265585
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.001799998339265585
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.001799998339265585
+          }
+        }
+      }
+    },
+    {
+      "phase": 2.0,
+      "state": {
+        "MouthOpen": 0.0,
+        "MouthClose": 1.0,
+        "Tongue": 0.0,
+        "Smile": 0.4,
+        "Joy": 0.2,
+        "Hold.L": 0.6,
+        "SelfContact.R": 0.5
+      },
+      "samples": {
+        "ShushuStatic_Head": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0,
+            "MouthClose": 1.0,
+            "Corrective.MouthCavity": 0.0
+          }
+        },
+        "ShushuStatic_MouthInterior": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0
+          }
+        },
+        "ShushuStatic_OralBowl": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0
+          }
+        },
+        "ShushuStatic_Tongue": {
+          "finite": true,
+          "mouth_weights": {
+            "MouthOpen": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "limits": "Full W boundary, UV, texture bytes, weights and topology compared; rest surface fairing intentionally changes Basis. Finite samples and preserved coordinates do not grant Human visual GO or prove every continuous combination."
+}

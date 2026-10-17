@@ -1,0 +1,797 @@
+{
+  "source": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v004.glb",
+  "source_sha256": "a082195104713c21b9a219ff19bd9d37702486aaa4cdf2bbf2e9f0ad58b5c91f",
+  "resolution": [
+    640,
+    640
+  ],
+  "fps": 24,
+  "images": [
+    {
+      "file": "output/shushu-abc-v004/saved/0993.png",
+      "frame": 993,
+      "sha256": "7bfba60fe4c892ab3a98f2124de1dced02120e7d25841b57b42b84ec7a2ea4e0"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/0994.png",
+      "frame": 994,
+      "sha256": "722eafacf15e91a0ca68deeb90c71526da18fe53abfd9f0574f9a5b924038746"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/0995.png",
+      "frame": 995,
+      "sha256": "7a73ed539318a90a3d1407eac933370cdff6bf9140e67cf91560659b4540b5a8"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/0996.png",
+      "frame": 996,
+      "sha256": "8de08be1ac84ebf7d7f2b8b8e5c570a998ad740044ae01388d70c6266bebf65e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/0997.png",
+      "frame": 997,
+      "sha256": "20c3b76c8eddda9987d0cd5d42c0189714e22799cfa0213cb7e1ee9f7efa6fa6"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/0998.png",
+      "frame": 998,
+      "sha256": "aca08596725821c0ecf1eeacf1831c40b3a56bfc341cf5fad9d20e42c7a4f2a4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/0999.png",
+      "frame": 999,
+      "sha256": "167e6aa2482a4927fa1b8cfb6401da92430aa3187c255529e5178e323a6bf8ac"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1000.png",
+      "frame": 1000,
+      "sha256": "371b08be2cd9b79d13d29141fa75d0f75fdc90f9abf9657ed3b3b745afc943a5"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1001.png",
+      "frame": 1001,
+      "sha256": "c65886824879f51a995cc3b5c37c4a2a0d1762f6d3473f723f7d9fa91e8ce00a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1002.png",
+      "frame": 1002,
+      "sha256": "417a7a6804789744012e3b17d4b09ad89db24a5c005b6f546a788b3441871b83"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1003.png",
+      "frame": 1003,
+      "sha256": "549753fc445ae66e34df06e0b3ee7513404be83940a2e06b2eb92377771c2a81"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1004.png",
+      "frame": 1004,
+      "sha256": "bbccaa180d8d6675f57098a4a7dbc651d38fabb27150613704fc313fb874ec87"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1005.png",
+      "frame": 1005,
+      "sha256": "952080e6bfac0ea16f52aaaaef0e93ba2bde28f827a5d4048e4752da5aabed5c"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1006.png",
+      "frame": 1006,
+      "sha256": "825836ed3522cc0d3ea537942e77460d0fe8b4c75c72150709fb3c237401ea47"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1007.png",
+      "frame": 1007,
+      "sha256": "04b6e0db9e4da783e664cdb64510cebb4ad837031904dbaa79becf783f625afe"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1008.png",
+      "frame": 1008,
+      "sha256": "ce436b1d1761db6642f9e1b0c3b91cdbf877dbbeef8c6342ff3dbfd69ab73fc3"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1009.png",
+      "frame": 1009,
+      "sha256": "342cc2f97257b1088b6177a1f6f158f48135754aad9b6dca3c61ee198d36d5d4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1010.png",
+      "frame": 1010,
+      "sha256": "f0f0ecc5f07bd4e1da7f5524d6e2a5acd9dbd2dd3b6883cd42e965d690d50e64"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1011.png",
+      "frame": 1011,
+      "sha256": "3d886130ce17336f765575680b8fa14c9d50e25504a6cd0112bfde351ec67fcc"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1012.png",
+      "frame": 1012,
+      "sha256": "eacf755b8143c4052ceb0e1d0de768cbf429919f2a2b7ed4242fd3dfce98b9b9"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1013.png",
+      "frame": 1013,
+      "sha256": "64800d31f9f8ddebbd183e6ee07d1d706ce9b94c9da2353ab8d32ef23347ceee"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1014.png",
+      "frame": 1014,
+      "sha256": "8fd22fbb55337c3273704fef71f65d0073e78c79c994c7e2da84b2c602241f08"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1015.png",
+      "frame": 1015,
+      "sha256": "c33f50c1da6fe8be5fcb5083ca5fe6bd0d144aa2f1524e0e89d9af0f20d5091b"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1016.png",
+      "frame": 1016,
+      "sha256": "4985743374c306e6302067111f2d227c3465c5d078377aecbb3824becac4d90b"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1017.png",
+      "frame": 1017,
+      "sha256": "c17796dcc9d815e45ac01c04cb2b2e6c6021d53c3794567cc01d9d680a220bca"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1018.png",
+      "frame": 1018,
+      "sha256": "997812e5851b66debb8acb6aab32df8d02dbff1071e3e34bf4f0bf740881b823"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1019.png",
+      "frame": 1019,
+      "sha256": "521c11cc0f5185d474ee4cad84d5d18ed047da80a3fd5af001c14dedd4dcd7be"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1020.png",
+      "frame": 1020,
+      "sha256": "5ce105e05096ed5b33fee2dc6d51361e7b405806f6a043a4163f69089f21ce63"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1021.png",
+      "frame": 1021,
+      "sha256": "676735c73c051bcafc63bc4ce7333039386b3e382d9afa32a0f8b077b224aefd"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1022.png",
+      "frame": 1022,
+      "sha256": "740a8718668e09581340f0ec60b79f1dc528d0feed1420ce5fe24e7f4ef66242"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1023.png",
+      "frame": 1023,
+      "sha256": "71997c661e4834173786dc70d32548ea6c2b98132e14aee2b77646dd43a80e88"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1024.png",
+      "frame": 1024,
+      "sha256": "74c071442d0f46965e5210bc3c1f85eaf80005d09135708dd45da0e19d9f8eda"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1025.png",
+      "frame": 1025,
+      "sha256": "084874130294cbe2fb8400117a3f7dffc737b432f45729dacba151252c52a63d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1026.png",
+      "frame": 1026,
+      "sha256": "5db608b81852a9b90284d3bcfb357f7df6948498250700d7f1da55c38616964d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1027.png",
+      "frame": 1027,
+      "sha256": "11214e8b1d5c6eb66ba2eaf7c2411ad0753b46ab5159e293b6f2fb1c7a4ff6a6"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1028.png",
+      "frame": 1028,
+      "sha256": "53fbfc0ffeb462362a171460cde7b8412e66319c2bd2c99a979f5b22f84f11cf"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1029.png",
+      "frame": 1029,
+      "sha256": "7f3a882049907e6a1e5092d1cdce81dd9e7d40676064a5202bc90a5f4fc460ce"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1030.png",
+      "frame": 1030,
+      "sha256": "dbb7ee0faf3ff0b72664c66c8ce4a4702f5954b1991c2e2c737480328563e13a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1031.png",
+      "frame": 1031,
+      "sha256": "875d39856c2cda51470529b13fedd9f862f50c45542cbb4ee2a7ac74db9cc43d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1032.png",
+      "frame": 1032,
+      "sha256": "4578351e0e9c53139c80e753120ba296142b940d6a8915de565009b158f281e6"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1033.png",
+      "frame": 1033,
+      "sha256": "146b8511e857b6e69dd894cbe7e61f57c5a90381ff83d84b92f1579b2feed372"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1034.png",
+      "frame": 1034,
+      "sha256": "62625ea470e823557bf172d194429ec8a4d4c37b944c44cd0b1665fd7b48fba6"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1035.png",
+      "frame": 1035,
+      "sha256": "7df3ba1ea95917c229536c6504f67f54dcb00367fc16df646ebbd630a12b0d4e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1036.png",
+      "frame": 1036,
+      "sha256": "f09a5b88262770d596092780ba8455a97116b5743e1a60dded43f7c795aef53a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1037.png",
+      "frame": 1037,
+      "sha256": "90444c1e1cefdd77a4faa2b294ca3f1118b0488946784bc5f1fad6ab63a8d0f1"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1038.png",
+      "frame": 1038,
+      "sha256": "4cf5adf683f9080dc5187ce4bbdbde9f1dbb69424492aa1aaa751a92864e0b47"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1039.png",
+      "frame": 1039,
+      "sha256": "0780da9561273a7502a129755ff66431549429a225e83ac637ecfb66013f308f"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1040.png",
+      "frame": 1040,
+      "sha256": "72d12584d2e75510c52e567636d116b70808eda1a2ee2fc902ddc752ad8e1199"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1041.png",
+      "frame": 1041,
+      "sha256": "83c290b48832e80b6757cd2e534b92367c451e7792b4aabb997f069f96c0171a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1042.png",
+      "frame": 1042,
+      "sha256": "a89b355c107c7293076650c1fa85e912cdbd8b50eeef0cfdbd4a105a58dbceec"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1043.png",
+      "frame": 1043,
+      "sha256": "95872192564ba8a305718289c576055aed42482e8e1515950543ec23db1fa46e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1044.png",
+      "frame": 1044,
+      "sha256": "4ef4ff2b89e70e0cc0d13e9937c5e8602123a1a64f51b809533e511250152766"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1045.png",
+      "frame": 1045,
+      "sha256": "523626e5659d89496bd97af60075e0db47dc14e1c45133ae31a608560f0d859c"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1046.png",
+      "frame": 1046,
+      "sha256": "9cc63c816eb9cadb169a3b54e30a5545c04c69f9b5400b62a0be3e8f0aefe357"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1047.png",
+      "frame": 1047,
+      "sha256": "b2d48c1df99f81857a6aff7104e735039fb1687a09225c0342c18913cf03d2b3"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1048.png",
+      "frame": 1048,
+      "sha256": "837201bcc99f5fe4c516ae649254847e956ed34745b4cfa322cc3c27670f181c"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1049.png",
+      "frame": 1049,
+      "sha256": "f67509063d924136ef2df4af3408a21ad21d56fec33c998bb4490f9d2b973227"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1050.png",
+      "frame": 1050,
+      "sha256": "efa1589b5f6356810c6d2a9a27df1acc7309db3393ab33df8a7e15d951f6598e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1051.png",
+      "frame": 1051,
+      "sha256": "b8e6d026d62051279502f2f9d8a5f57e3a142d4149766869e08436fbd17c1dbb"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1052.png",
+      "frame": 1052,
+      "sha256": "f8d863c6a45f6dafacd43a77e31bdfdbc4316e7430cb75d7c48598f42d093415"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1053.png",
+      "frame": 1053,
+      "sha256": "c1b09c610a26b51538de6ff6b7b81b12885ab48fffee06272a7da27cd973933b"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1054.png",
+      "frame": 1054,
+      "sha256": "2ef3fd9b3d8519417faf6f763ea709e78494b7c894cdae7e8d7e738fbc877459"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1055.png",
+      "frame": 1055,
+      "sha256": "60386dabf0d05d3ab4a2ae47702f05353eed508205bf47ef0917f84af4cd347e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1056.png",
+      "frame": 1056,
+      "sha256": "a18566592745b6457e6871861f97ec5a5377a7d513604672612d08e453151072"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1057.png",
+      "frame": 1057,
+      "sha256": "63158f10f73c93764939c1e5f891ac08431fa8c5a0d186e7fa69dee8602601f5"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1058.png",
+      "frame": 1058,
+      "sha256": "ec63be51d0a22be01811403dd4daabdebe2d25efeb7bfe08fce2d32e874f75a4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1059.png",
+      "frame": 1059,
+      "sha256": "3f7f530140966987d3f2a9d831346514b6c12be3e0dfbf1b6f40da3719edfc10"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1060.png",
+      "frame": 1060,
+      "sha256": "f4fbd3865d070f52a6fce180b011ec650bef904f9ed22ab623668ce8f9e69d4e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1061.png",
+      "frame": 1061,
+      "sha256": "ddff1618d7d48e8f95001dbf478bbc8e2c53ef4229c4e880b7c5bd5a66677405"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1062.png",
+      "frame": 1062,
+      "sha256": "fbdfe915b766241b05e87da78eaed0976c9e9ad6627e353331a2eafca949b4f5"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1063.png",
+      "frame": 1063,
+      "sha256": "14e7a1eed29fd4bdd300b51af189981763d96bf2f4ae5c2691eb797f81306e38"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1064.png",
+      "frame": 1064,
+      "sha256": "1944af98c4cbfa6b271e56065e862c06c344ae7499b958aca654227e01377a80"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1065.png",
+      "frame": 1065,
+      "sha256": "0e3fa3d3288d2dc62f6162a47ac480bb6695faac8e003d79c51b4b104bf03c47"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1066.png",
+      "frame": 1066,
+      "sha256": "e481225763996d8a84ab55fbd6f575f1884ed21c2a521c547701ca76472db2b4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1067.png",
+      "frame": 1067,
+      "sha256": "85598b4caa378a99ffe84ab78c2a92470274be75d7a14f9e754ce22bff09ba50"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1068.png",
+      "frame": 1068,
+      "sha256": "931e16668b531d3b0418a02052e6f6e21bb554367d2ce5446d8b9995056b49a2"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1069.png",
+      "frame": 1069,
+      "sha256": "5715f511c6d6ff1b0165ffca2d53dce8b75ec18854f25c034666fe5b0e93b958"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1070.png",
+      "frame": 1070,
+      "sha256": "45d62304722b6a2d796bd8a2e8a03680d6edb96423f084fc8d092bad7d731a1e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1071.png",
+      "frame": 1071,
+      "sha256": "6b4e2ab746a3ad2e52b974e7ed7e87db180b4bd76ac0ee37ecdcabea918e1633"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1072.png",
+      "frame": 1072,
+      "sha256": "ad0a026c2279870cb73513db43a54898bc9ee75d111a08961d3fb6eeed2a7709"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1073.png",
+      "frame": 1073,
+      "sha256": "1aacfaf1935cde2e25cc95a45dce86d67ce61c530318d5af6203a59cb3d88128"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1074.png",
+      "frame": 1074,
+      "sha256": "128e75e052c833df84a1ee45b702f7c4a18b0906e07fef6baa5e93388a43dd32"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1075.png",
+      "frame": 1075,
+      "sha256": "3c04676933eb278f1231226e01c7f149711937da5fc2800aacbd52a8820f4bc7"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1076.png",
+      "frame": 1076,
+      "sha256": "fdb27e67f9f454a39135160e3282c816f3f4a0dfd7d21d2ac426627f1be7f847"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1077.png",
+      "frame": 1077,
+      "sha256": "93d1b4bf3b6c8c47caa2fceab1f98625ec0bd61b9e3943ee8ec1d1aa6a463f9b"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1078.png",
+      "frame": 1078,
+      "sha256": "b0f25b96dc771fb38c2136dde63709e02c7447efc0f30a2457da8f6fb2cf2a1b"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1079.png",
+      "frame": 1079,
+      "sha256": "6b53fcec15f776a9689e9f8329c41cb895608cf36f247a54711be4f63c2f510f"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1080.png",
+      "frame": 1080,
+      "sha256": "ed2b1ef8c7ce29ad55f87499063f63acc2269293573f93d76ea61ed89965ddb9"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1081.png",
+      "frame": 1081,
+      "sha256": "8d92d89adf2d89807134aa61294c30c475ebc2b7e65bfd58a208ab4eea93ae22"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1082.png",
+      "frame": 1082,
+      "sha256": "64f2fe5622dae378ab85e563e327e69aec01246a012acdd5a1b8a600db176f08"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1083.png",
+      "frame": 1083,
+      "sha256": "b870aa77a560250c68dfe358e7bd8dd87f51272bcad5757437aad3b153f8b1a2"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1084.png",
+      "frame": 1084,
+      "sha256": "426e7aa59d146cf07529188b0e1f023c380f07538dc1bed28c0e8639ff42a3a3"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1085.png",
+      "frame": 1085,
+      "sha256": "62932eea3be00b08c5419a73b416cfa189811d0343c85e6f19e24e22b0f81ad4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1086.png",
+      "frame": 1086,
+      "sha256": "3a5aaf2151f304d922d58ba7273de40b6915761154782300595736fd0790726e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1087.png",
+      "frame": 1087,
+      "sha256": "b1348d56871aa1641eea29114be5be42c734fc6755e746d0091f84cc0e7cbeb6"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1088.png",
+      "frame": 1088,
+      "sha256": "af8fb37484c6a45cda9e40aafbf4b80181f684c5c5bc5820e89715041c4c88b4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1089.png",
+      "frame": 1089,
+      "sha256": "c8e206a37eece74f83561439abd17e573e3053001ef8d22437250cbb8260cf16"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1090.png",
+      "frame": 1090,
+      "sha256": "c328eedd6f6efd169283e7e1902bbf7209a226da8693fd635cdff3e3f8aad3e7"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1091.png",
+      "frame": 1091,
+      "sha256": "3d02bc9456cef3e6bc66f31d3827fc5bed15827bc763fdf1adf5d29ffba095ef"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1092.png",
+      "frame": 1092,
+      "sha256": "5ff6f44e81efdf81a11cf5f0b025980663ca8a1c1ae58467bc58b8690925d1b3"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1093.png",
+      "frame": 1093,
+      "sha256": "50d800f2d3292d12ebe8bb2f42c0b47b10b63398dc54e7aae4adbfbd8181ff35"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1094.png",
+      "frame": 1094,
+      "sha256": "f9f7bb420737a1b1a2697629624d742f6030ace16427565add47c5c9fd718bb1"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1095.png",
+      "frame": 1095,
+      "sha256": "ede43cb773794dfb74d96d49ed0110070934f481380c49630556e43525845b27"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1096.png",
+      "frame": 1096,
+      "sha256": "f675f87d74c382286d91dbfddf18025da10d6c44f86287e36fbeb3fd8feb4d2a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1097.png",
+      "frame": 1097,
+      "sha256": "efa57e6989daaa785f42860c487a4a151a01f7bc5e00d43fe69ad56e99d71cf8"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1098.png",
+      "frame": 1098,
+      "sha256": "f90f1c734dc4859177cd785afc42049b5bfabc3c72f2126afb126bb546df66fc"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1099.png",
+      "frame": 1099,
+      "sha256": "7135c3e0799664363ad0aec7beff55cf8658c73b9e207998d1acdff09753c645"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1100.png",
+      "frame": 1100,
+      "sha256": "4ac46cec0e4270b4698d2cbd0b4be9fa161e95b5cf6dbe24c582b591ed973bde"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1101.png",
+      "frame": 1101,
+      "sha256": "2efbc833d862e036ce64e4a631dc81fcf29f3bb0f72db65ca7fee9f3540eff7b"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1102.png",
+      "frame": 1102,
+      "sha256": "4961c9c940dcb7f6faed6089abbb41a7e39efcdfd4dacb56ff9ddcff08972545"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1103.png",
+      "frame": 1103,
+      "sha256": "8dafea65e6378c48de3bed048d517ac3b0f3a4db0b19178ea81bc81f478076d4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1104.png",
+      "frame": 1104,
+      "sha256": "ae76d3d70eceadecbb72a6b34cabbc7fd9cbd4408e49408331a7311a2597d497"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1105.png",
+      "frame": 1105,
+      "sha256": "c62e739af3259bd072c1a311ed70dcc91913897c9e966200c79369ab2fc170de"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1106.png",
+      "frame": 1106,
+      "sha256": "b8eeba192f3d4a0ffa7f4f8c5f94e270ca10cfd072ed4ad7161280de95647d3f"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1107.png",
+      "frame": 1107,
+      "sha256": "25fac9ec3c96b19d52f37b0ab57b56f582651ca222e5638978706276fd391d4e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1108.png",
+      "frame": 1108,
+      "sha256": "64fba5ff0439ee1c94471be1289a5aeae8c8f8d68c2efbe84367c88713114962"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1109.png",
+      "frame": 1109,
+      "sha256": "18de9fad500d4256e8f9b3e9ae3e042dde4872a12132cc3bcb246d59d6af86a1"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1110.png",
+      "frame": 1110,
+      "sha256": "39e54dc6a82d82243601dfcc5e8d3ac75a3792cd8e6183837b3fe9a985bd64d4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1111.png",
+      "frame": 1111,
+      "sha256": "57b9395037b1bd76e27d0113a9a2999642b2968ae022c7c9e99f63fa4ae4fb43"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1112.png",
+      "frame": 1112,
+      "sha256": "b37ea207c814fadb6be36ec7b6c39442df352e0af2247a9a513693dd42e3fa74"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1113.png",
+      "frame": 1113,
+      "sha256": "389bef0569e14f4e8020fd929ae9b52721f1d55dcbbb1c2fd33d00f0358fd61d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1114.png",
+      "frame": 1114,
+      "sha256": "6783054b08f922d5f330bc72149df591eb27dbc0bb15a1d2bb463d2c1d6fdafa"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1115.png",
+      "frame": 1115,
+      "sha256": "1b1cbf2d04c6b72e1dc3e5e96c683e959d39ccb356002f1cc333536a0357e961"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1116.png",
+      "frame": 1116,
+      "sha256": "31e3decbcb5726487a62ef5ac662d5c3986482e07260c36f5406af505d5c01f1"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1117.png",
+      "frame": 1117,
+      "sha256": "005fd42b089fac12b748212cdb0c33cc08a7fefb552715feaafb5c101be9bedf"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1118.png",
+      "frame": 1118,
+      "sha256": "f9713e0c9c0830427abc25be159873d17a4881a4f45d408bf9cc7f81da448a94"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1119.png",
+      "frame": 1119,
+      "sha256": "99f80bebbbf48e0d65a292fbece1deb7b1551f10b15c1c4f205add3103f96c37"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1120.png",
+      "frame": 1120,
+      "sha256": "dc7756a6916df89aa3e4c54f55f407dacffd2a1a6e737c7b9ce203c86887b171"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1121.png",
+      "frame": 1121,
+      "sha256": "4f3710ec5d9add3b504d4547a676e7460b098c3cbfd0f73b8389ca56a602cd13"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1122.png",
+      "frame": 1122,
+      "sha256": "1a3e1f7dfeea8a8cd9b0ece1e3b9ced4ecb594c7ee2e5225345ee21687666a8d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1123.png",
+      "frame": 1123,
+      "sha256": "e128d760de98adc00d6824c66f5a26304d332f5d375ee3f29d7238884fcef77e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1124.png",
+      "frame": 1124,
+      "sha256": "36c637306f32bc8625b6e3a9e597e650b0c83812c456b2a4d6a10aa34afca61d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1125.png",
+      "frame": 1125,
+      "sha256": "4f4cfa467f60561217b7e06fb11472b00d5cf82c4c4d9b06a810838cd64ade8a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1126.png",
+      "frame": 1126,
+      "sha256": "cd597ab2a34d0c7fb3fa8f2f47c3f790b29cf537a4ae0d5d153fa4d0ebddb1b8"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1127.png",
+      "frame": 1127,
+      "sha256": "f1f839952551db0c750cad4910a0dfec8bd58b27b20c6d45656986cc4ffcca81"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1128.png",
+      "frame": 1128,
+      "sha256": "b6eb2b0bdcd3ab0a43ca4d369743a0d00bc7b107080c838ca3748bdbc5c01fb4"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1129.png",
+      "frame": 1129,
+      "sha256": "685118437dd5fd1edee70ddf23a1fbe614ba39e54ba6bb10d9ad553d01a445c1"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1130.png",
+      "frame": 1130,
+      "sha256": "627fb471472c998afeb2e3e329324532c99f654b1e6d015e98738ef7cb433b9a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1131.png",
+      "frame": 1131,
+      "sha256": "7607fa9d27608d070c28603fc9fa821745ccf17d4dd8239cd1f1c62783e49d3d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1132.png",
+      "frame": 1132,
+      "sha256": "97ef47786ca9a3fac6a34b74539c69e6187a99f08d8ec0f6c9f19ca2aa7af1d3"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1133.png",
+      "frame": 1133,
+      "sha256": "1c02f8c9951a4c44b8cdee80343c3ed78ff5bf39605727ba5c375f2d64b96f0a"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1134.png",
+      "frame": 1134,
+      "sha256": "08e7c564f33fcf7c6faaac318ef2874f45105dbeadffc03ae216e6aa43ca1030"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1135.png",
+      "frame": 1135,
+      "sha256": "a550c1e85b8bfdedee000059b34b5017aed9e0ab4716539b061250ce497eb931"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1136.png",
+      "frame": 1136,
+      "sha256": "69dedcce0f4fe89aad8fddfc4e37e8114fd8534ade35160cf8175b92c564b2c7"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1137.png",
+      "frame": 1137,
+      "sha256": "7d88088243d6ace021ce9fc15770faa039c91edcaf0ba188de9a903b39e001c1"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1138.png",
+      "frame": 1138,
+      "sha256": "fb44bcb1116d291811efa3eb44852a2b78c3b7c081349986589c9ec7386f80b5"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1139.png",
+      "frame": 1139,
+      "sha256": "43bb8b9791db3d51f712af47da2828a6e0dedea264bebd9e1155a160a2694271"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1140.png",
+      "frame": 1140,
+      "sha256": "cb99c722dd94dd1b721c119355635c6d37ce187f41e0904ac38383565cec6f3d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1141.png",
+      "frame": 1141,
+      "sha256": "2fb1847be8b3439e4188dfb9e276cdd148c21bcd7f2b27298eb8774002d4ce0f"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1142.png",
+      "frame": 1142,
+      "sha256": "dca3e1f42f35c6debb10d1c904748f49f4b50986cc089207c5d53e163868aa93"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1143.png",
+      "frame": 1143,
+      "sha256": "2eae6a01f81301d1cfc862bb6632a3fc9246a9d679f76722a5bb23199135b06d"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1144.png",
+      "frame": 1144,
+      "sha256": "981a45be1072e194a03a19a97dc8b396af7379b7508f01cafc1b94033030028b"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1145.png",
+      "frame": 1145,
+      "sha256": "5c063350e69e3208fff0d2c3c02699af7e5f52b03508a89007e0b2634b24fa8f"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1146.png",
+      "frame": 1146,
+      "sha256": "df006ba80b0e5537f962b9271f8ce9c39451cd0f75c591f544484ced80ba5bb5"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1147.png",
+      "frame": 1147,
+      "sha256": "b6581149863eb3a7ae4e7f8bb31f0c557812b8b82588326f98833b1dd2a15b4e"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1148.png",
+      "frame": 1148,
+      "sha256": "d074f967f5e68bd9ae1cfb0e5575b45f13a85981c60d3bab09aee1f468616729"
+    },
+    {
+      "file": "output/shushu-abc-v004/saved/1149.png",
+      "frame": 1149,
+      "sha256": "49f2d0d1b7989505163a85330de55f276794e4e940549ecb96f6eaa71b4a81ff"
+    }
+  ],
+  "scope": "Actual evaluated saved frames, no synthetic interpolation; diagnostic excerpt only."
+}

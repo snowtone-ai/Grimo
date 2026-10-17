@@ -1,0 +1,797 @@
+{
+  "source": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v004-proof.blend",
+  "source_sha256": "73edc347f555dff0cafb6c16e49aa5391c904ce63c9f4b37e15843febfe0d68c",
+  "resolution": [
+    640,
+    640
+  ],
+  "fps": 24,
+  "images": [
+    {
+      "file": "output/shushu-abc-v004/author/0993.png",
+      "frame": 993,
+      "sha256": "cd33fed381de62f2d43e1ad468528455451fb5ff7074a4cdb4e37af2af1ac0c8"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/0994.png",
+      "frame": 994,
+      "sha256": "84ed0406b3bb76a010215b9cf01276ae1abe173609d2105108aa5cf5c7032c4e"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/0995.png",
+      "frame": 995,
+      "sha256": "e5501f14c07ba0e16ce57bf03d2571253d6db0171d21841a6bf970603da20c91"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/0996.png",
+      "frame": 996,
+      "sha256": "1985b89dba0c9d5c728e0c8ac93ff63d87d1c139260e891f7d4551838423fcc7"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/0997.png",
+      "frame": 997,
+      "sha256": "79c4b60371b1dcfd77bc4f7125ce59afb0732c0892e83a1aba2daff3e7a82390"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/0998.png",
+      "frame": 998,
+      "sha256": "cb5bba65a3da5623f21f31d7a92ec2530c9e43f9d9bccf44a76161c422ed2cb1"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/0999.png",
+      "frame": 999,
+      "sha256": "5975c1b89a15bc03633e0dd668643aa79b72603732c23e4ce1bb7b95d94c996b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1000.png",
+      "frame": 1000,
+      "sha256": "a93275ed51ff836fee5d5fbbda2317ce3e0562157dd2ec3438efcc91225b6f7c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1001.png",
+      "frame": 1001,
+      "sha256": "ddfa853dbf3b90b4040624105eaee08149d1c512715812436b3b7d2b67fa4572"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1002.png",
+      "frame": 1002,
+      "sha256": "db916b78d5e181859c37d372329b0e9cc5d44ed364952201e550ba038231f051"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1003.png",
+      "frame": 1003,
+      "sha256": "6dbc78408ba0a1b0559e4179f9ea3eb202a377542126c33dcd7b9e7a0e930d00"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1004.png",
+      "frame": 1004,
+      "sha256": "9c57cac07209e0535e8868f5c00f23f0b23d954550601ef54ff59d0eeff747ef"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1005.png",
+      "frame": 1005,
+      "sha256": "b8b7b10b01f581597b66f0c9ee4e69bb65d506d66824ef76ce20a2980f2577e2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1006.png",
+      "frame": 1006,
+      "sha256": "f8250794842aa96d80035cc2edd2c0844d8ebd3a6f7653d1b65ddd9d387da263"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1007.png",
+      "frame": 1007,
+      "sha256": "1a3bf245cb91f257bac35c3153d0e47422e343feca856534bbc21f905c16da3a"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1008.png",
+      "frame": 1008,
+      "sha256": "80db65cf0a39e80bf091e8ea23db045d99a44fae29e941251538d73b918186f2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1009.png",
+      "frame": 1009,
+      "sha256": "b47a52a2b9f53234054ca8e8d2f54ba0fc3bc241365cb1647b81acfc939e692d"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1010.png",
+      "frame": 1010,
+      "sha256": "94edc3ee6694705b53f92d7832ff232df021d63cdb4cdbe878b26e6c91bf16aa"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1011.png",
+      "frame": 1011,
+      "sha256": "002609f0fd27f150ed8bbac8c4b22913b3ea934f13e9442e1b209771a179a722"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1012.png",
+      "frame": 1012,
+      "sha256": "3de5d78f641a9e74d9a017745937a049280902aa1e67d2ad96762dabd1d547ae"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1013.png",
+      "frame": 1013,
+      "sha256": "9c6257b533ae501fb6de74b71ebb121f01224b8e0a4808642dc01803821fe437"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1014.png",
+      "frame": 1014,
+      "sha256": "aaa7d2b0628b5dd3ac25ef286aee8ff10583395be23bae70cb92d7a5cd8f24cd"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1015.png",
+      "frame": 1015,
+      "sha256": "edc418d4ea1907f837c43118a70eebbfe769bfca870e408b889793911d856421"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1016.png",
+      "frame": 1016,
+      "sha256": "71b72cec028f7a8a2da02d155021117fd08ae6bcb98e0655386e93e51e6d7743"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1017.png",
+      "frame": 1017,
+      "sha256": "b1658a18a8aba940f6daaeaff3dd310708b1885fc894316ccfad024d5ca2fd2c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1018.png",
+      "frame": 1018,
+      "sha256": "070f2c75546e25e165aaf652d4c0e07131e8534cbafe173adb7c27ad0a73cec4"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1019.png",
+      "frame": 1019,
+      "sha256": "9a00c0e167852af9fdefd41a6df36e4fe6d8550e2aa54abcac3bec17ecad0e9b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1020.png",
+      "frame": 1020,
+      "sha256": "106b528955dfaf7238eaeb9834de3b0bc6a4be9e0963f434bfee8aced665fb32"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1021.png",
+      "frame": 1021,
+      "sha256": "f38dffcb69ca47c775d25dff7eff8628b63db315b630c296216e86da79936edc"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1022.png",
+      "frame": 1022,
+      "sha256": "70030de763b0c2e3d00c08ce1fdf571fbd869a71b13f9ca508cbadc7e6137ab7"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1023.png",
+      "frame": 1023,
+      "sha256": "647b9b5f0eb776c98f45e9133cc968d4ae7e9d30d8838c49c29f7fbdbf88ccd9"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1024.png",
+      "frame": 1024,
+      "sha256": "d76153f9d01137ec063b388b1cfe7c9cae486d3d89d3d25cd42c5b05af83c0fd"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1025.png",
+      "frame": 1025,
+      "sha256": "bcfe63d90077ee5aa0e0458788a8c89c7089948841e46f5bd37c4f1aa1c7139c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1026.png",
+      "frame": 1026,
+      "sha256": "a393f37d225e9e2e85d4d74ad3926b11f5e23f9bc3c664ba5594d71d56b127fe"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1027.png",
+      "frame": 1027,
+      "sha256": "ae00ee6ce74a20a597d2da511b19fe382038890c9f63b8b09dfe07d48011c341"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1028.png",
+      "frame": 1028,
+      "sha256": "314ce5e7e7c28368157efaeb932349be988e011e4ddd22aafca640b33452f52a"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1029.png",
+      "frame": 1029,
+      "sha256": "53942df4bacbecfd65734e319765d62ceac2e13cb26a352c5759dab3bed20370"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1030.png",
+      "frame": 1030,
+      "sha256": "6182e9e2e1b88740ea0f0d2501c99caa1a20c62781d42d1b4da337b02ad40f7f"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1031.png",
+      "frame": 1031,
+      "sha256": "103086912390467287c6bad8a481dbd6f89bbef8ade3347c972d95820f0a3048"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1032.png",
+      "frame": 1032,
+      "sha256": "2bf0fa9a365d57d759fb9bb173e350579ceb7522d44aace4ee3804dc05aeb262"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1033.png",
+      "frame": 1033,
+      "sha256": "7a49f2e6057a8cda327d2b001e764d9acf95e268e07949a0450b9e17b960d789"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1034.png",
+      "frame": 1034,
+      "sha256": "0505515172ff4c9a806b36ba1b33a8b6b5f7410ed400f21be18b80c1594656ee"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1035.png",
+      "frame": 1035,
+      "sha256": "e4287047fcfcf3e05486177894856222b807a35786aba4a5114717081284fee6"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1036.png",
+      "frame": 1036,
+      "sha256": "20bcedc126005f27ac7d57f549f12dc5f39444226f49b12d53bf5413f73b8806"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1037.png",
+      "frame": 1037,
+      "sha256": "9d151011147f713c0cafc4028856650a6f868e69e2cde061ea14b2dfa7fbdadf"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1038.png",
+      "frame": 1038,
+      "sha256": "7ccb3cb6d9f62e4be19995bb4bc892d056df75f34e261a2a1e71e2ee89266607"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1039.png",
+      "frame": 1039,
+      "sha256": "dad060385a27470d971c9ac90e65fe742bc5d2697dcc0559777c7357573aae96"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1040.png",
+      "frame": 1040,
+      "sha256": "3650f715dd5ddd248214a0df64e012e32d0fae3bb901c8a51d25dc8a4dd51843"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1041.png",
+      "frame": 1041,
+      "sha256": "deacbc2a47887d08d233d28d75237fdfbdf90de29e164aab7f75b1b1142042ad"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1042.png",
+      "frame": 1042,
+      "sha256": "56b0fb508abf97c3e206a977331fbd7477b24878da9c6ffa2a8413597c930b35"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1043.png",
+      "frame": 1043,
+      "sha256": "8570938f9df799181ee649e1b9c86d0f1ea5b146de1bab5e96e204d547b3944f"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1044.png",
+      "frame": 1044,
+      "sha256": "660e984a2916dadc3d640ea8392eb6ffc439d3e6ccc30df5176274e8da420d2c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1045.png",
+      "frame": 1045,
+      "sha256": "5367773e47840141bb4fda8d09601fcde699e535bfc78ef798e2eece6165378c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1046.png",
+      "frame": 1046,
+      "sha256": "5a8da66d5473a41c35c413c38fc8bbe86aa25d8d76edb93e7f573256aa10793c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1047.png",
+      "frame": 1047,
+      "sha256": "1c15174487f5b61eb8d571f40d88b58bc02cdcaafa433ecfb768f430ea84b2b0"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1048.png",
+      "frame": 1048,
+      "sha256": "e49009badae1dfa47840837332ac2db312da08de05ef4016125569c738bbadc2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1049.png",
+      "frame": 1049,
+      "sha256": "c8baf342d3b21e1360aaa47925847aaebe123355e046679194f6d107a85b238a"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1050.png",
+      "frame": 1050,
+      "sha256": "a2d87bad22f34e877cda7c4a6e94a51b26ca59ebdc60d4f78a5364fd71b0e76e"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1051.png",
+      "frame": 1051,
+      "sha256": "3700ab053fb9d9f70dce1c2213c8169a3226c610f06e78ba6269da74c5e6a95b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1052.png",
+      "frame": 1052,
+      "sha256": "e99f4f7e4d78e7c211d2c2cb5de45f0fbdabefc9a57cb866304fb8b016c6942b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1053.png",
+      "frame": 1053,
+      "sha256": "d68488a3d185f04fb4f7a7864fb8a995152181c3705237deb573aa6de4200c1a"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1054.png",
+      "frame": 1054,
+      "sha256": "0b3fc1d9b9475de6c2e24108ecd88c7790b96c6029c01b01bcd601c90a0a9695"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1055.png",
+      "frame": 1055,
+      "sha256": "800167f06fb598ea09f4bb4fdc4936a64b78ceb01f21c5bf206bb9c59a780498"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1056.png",
+      "frame": 1056,
+      "sha256": "55ec2ea96b892b6e36d2353be8419a0f824fdfb5e573739aa52329e1fe7a91ff"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1057.png",
+      "frame": 1057,
+      "sha256": "cdd080eec21996393299d8d43454faa2e11fa4f9fd521408edd096030338e5c4"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1058.png",
+      "frame": 1058,
+      "sha256": "6c33c9361ef5ebf9260884c2f430dbdf70140afee817192afdc923b7de1baeb0"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1059.png",
+      "frame": 1059,
+      "sha256": "c4b8566203e7a4ec48824ea3010a93aace7d336c56fc0158f17c33870f5fb6cd"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1060.png",
+      "frame": 1060,
+      "sha256": "fa50add62f7eb16600c1e886371c5f9cb64ede9099ac373b4c61a46c0309cd08"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1061.png",
+      "frame": 1061,
+      "sha256": "903c5b37bbbf4285ad7a0b8fdf7200402d38641aa9c222ddd2bcd08a63b7bbfb"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1062.png",
+      "frame": 1062,
+      "sha256": "5edc5e72e2c5a549cf4b6d099558241c12b2c0f21a93fba80ca2b7463b4da729"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1063.png",
+      "frame": 1063,
+      "sha256": "208c0e0535a5fd9e09a16d4fcd634558bb4274a9d2fe69652c3545c4e2ef2090"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1064.png",
+      "frame": 1064,
+      "sha256": "15e88a20f658fa16ae102a85e3557759230b67d7ff5b877b9a04ac13a9ea5e99"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1065.png",
+      "frame": 1065,
+      "sha256": "4ebcdfe05577528203debb75d2b71ebd1bf0bc56a4e09023f1cc3b095e5733f3"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1066.png",
+      "frame": 1066,
+      "sha256": "4a3308cfe83b76e8399f029270bfba8ec837223136a88a2f7b63b90642a3c962"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1067.png",
+      "frame": 1067,
+      "sha256": "954a0741e4d0b9e91b63c284577a21866191f8f68da5c35f7033798c66c33757"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1068.png",
+      "frame": 1068,
+      "sha256": "71c80778909ec5eb964e821b70472990eb52c3f849086e53204924fd0bffe0d0"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1069.png",
+      "frame": 1069,
+      "sha256": "eb3972a1fac874392c22cc38e101fa22f6c1c42858e9d90892658601e32a9656"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1070.png",
+      "frame": 1070,
+      "sha256": "e701aa10c6ae5c388a4a949583aba1a9da4f991411786b94a33127882e43dbc5"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1071.png",
+      "frame": 1071,
+      "sha256": "57db242a6669ce34da4e680650e453c4caf00125f25b298c771212146c5789f2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1072.png",
+      "frame": 1072,
+      "sha256": "11385709334f990372a89bc6a666fec8e6cb3ba9adef7d8cc5e35f003d7954c3"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1073.png",
+      "frame": 1073,
+      "sha256": "8af6b1721f5600b823448ca78e40720c0266da2e5980304734337cf4e663a3ce"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1074.png",
+      "frame": 1074,
+      "sha256": "e5ecfc235218c4fc0c479298655440f1bda50ce05ff8cc69d3f825b5250c7846"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1075.png",
+      "frame": 1075,
+      "sha256": "149d5e578f0faff167690626701a13c5353fa4dc661e369cc52c5fb034980eb7"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1076.png",
+      "frame": 1076,
+      "sha256": "ed7f6fc78dd782ff1760f9cf2a7310bcf62fbfc5b86fa6d5458e10a83e4719db"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1077.png",
+      "frame": 1077,
+      "sha256": "7e8930c5aeca96f283879ca01f12c88bd6b5758c9c36a4368ab2baf04c73fb53"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1078.png",
+      "frame": 1078,
+      "sha256": "60611e58718cf668f7f47350207e31b868e14bfaabb8b830a3700bd7ca1543a2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1079.png",
+      "frame": 1079,
+      "sha256": "df6c064a816769d033cc298d20dcb7c25f9fafe658f62a36c78a36ebdf31a0b2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1080.png",
+      "frame": 1080,
+      "sha256": "670a517ee5e4c117dd0046b5c81d7747d63056ebab827270b2ceddcc538761ec"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1081.png",
+      "frame": 1081,
+      "sha256": "3b5bb16d6be46ea6e964177da5862cb84c057e4093a3a57b67420c7cb4c803b2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1082.png",
+      "frame": 1082,
+      "sha256": "b1cdd4382481f11bd421a8f797965876eff7bfbd93e0622349419483ac2c67f3"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1083.png",
+      "frame": 1083,
+      "sha256": "bfa27400e58df9d817314ba28ebd0c8cc62dc2c39047fa32c04ae7449cc974c3"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1084.png",
+      "frame": 1084,
+      "sha256": "946cbe4379297031bcd28c25cb4086d79c2c5f24a0aab0ce6c7f3377ecb1360a"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1085.png",
+      "frame": 1085,
+      "sha256": "7931b79cc0a4dee26cd2896f5b68fc264d6028bbdb66d868f00e82b382a61448"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1086.png",
+      "frame": 1086,
+      "sha256": "c714fd176c5377fbc831fd72041eb87eec77b4bf8b6d38d651e5ab3d860cfcd9"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1087.png",
+      "frame": 1087,
+      "sha256": "bd2ae1c7544b3e4edd1849d439961f0b7328e884ddb1cdb872281364ca1c3c34"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1088.png",
+      "frame": 1088,
+      "sha256": "b197990582f63b5e482be16483cf788ad144991b338b4c990cdb6d40b0c593cc"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1089.png",
+      "frame": 1089,
+      "sha256": "7229eeb6eaf3d7d9cda1dc4a0896bd0a654e6709769ed0f6e8320b226ea3baf2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1090.png",
+      "frame": 1090,
+      "sha256": "4471a315a58091b090d396a715639e953d0d60adc92c76effc6e589fe06be005"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1091.png",
+      "frame": 1091,
+      "sha256": "dcc9a70b590c5e4548cab8079f1499152c5c20a94d6b92d5de8bf39e81ed1e69"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1092.png",
+      "frame": 1092,
+      "sha256": "81c9385f4470352da591bd65699a17e93b3d6458c57384753199c83de81560ce"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1093.png",
+      "frame": 1093,
+      "sha256": "7cc22d564e4435fdcf577b8c157f99afe651a973012df18c009b85bb09edcea1"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1094.png",
+      "frame": 1094,
+      "sha256": "4c33c1ffc4549845b5ff38e3a160f4cad5a9c89d7d963f09daa3831325f3900b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1095.png",
+      "frame": 1095,
+      "sha256": "9c6b6d12f2e60e107bbca7ec023bee434baa3a8535644387e35058dfac162219"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1096.png",
+      "frame": 1096,
+      "sha256": "dab8fb9477bfcae085bd13162829f17a6b6a2b898f27653dfb1bb1a4efd36a90"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1097.png",
+      "frame": 1097,
+      "sha256": "f0fd35ce4f99ed20e2b9c2058540c06534474df61668bd3bbcdfbcdc6e86695e"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1098.png",
+      "frame": 1098,
+      "sha256": "8cd74d4c5b84c991f76a3129574a5d0a67569d8613da9edadf4f41050d6cb4ba"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1099.png",
+      "frame": 1099,
+      "sha256": "328a5e636961c7a5a4f48705226d8c04af84857f00198ed591995464d3f9560d"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1100.png",
+      "frame": 1100,
+      "sha256": "4839b55e0111ec95ccf5ff14aae46a8ac6573cd9d383ae6de53248442bd5014b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1101.png",
+      "frame": 1101,
+      "sha256": "8b4d9c24fbee40c7d52028d14e5b0216ebdaa131b51bd5d2f1d2590d8d258e3d"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1102.png",
+      "frame": 1102,
+      "sha256": "7ffd0b3ae14edbd8f95b40486d5be737190a10f1c32707f8b9a96ec80c601b86"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1103.png",
+      "frame": 1103,
+      "sha256": "829fef9b6de91d93b5128247bc8651121c90f2b084980013fe1c8ace23a3433c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1104.png",
+      "frame": 1104,
+      "sha256": "3c9d6fa7673ed117418edd38d29b951a34886294ae9ae29e963418dcf9ea59d2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1105.png",
+      "frame": 1105,
+      "sha256": "005db5c2b9bb33e9479babfb934616ed753f7b365054a07e9d3b0063c3abc6a4"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1106.png",
+      "frame": 1106,
+      "sha256": "939937a620f9ba76577d837507afec7362e6c0a8ab166d3bbcd9d03f861afeca"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1107.png",
+      "frame": 1107,
+      "sha256": "87411c6b3dd727ad9ad6ad6ee6319749ab73dbeed2650ef2aa612dd6f7ed0692"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1108.png",
+      "frame": 1108,
+      "sha256": "9f616b3d79bb905fc9b8396778eb4aaaf61ac9e0fceb8a000ac52a8c32b889dc"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1109.png",
+      "frame": 1109,
+      "sha256": "a9cef4dead654ff798bb437f48b3a5f0e9179b19fc8e4826071dc6ccc93cfce8"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1110.png",
+      "frame": 1110,
+      "sha256": "6514bdc084046853e66975fb76e00650cd579ba15dd4dc0d4c48f2a02fa7573b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1111.png",
+      "frame": 1111,
+      "sha256": "d5c8946489b8106b476855f4e86a3efda4dc64ab8ff81e796489208a90ca25a9"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1112.png",
+      "frame": 1112,
+      "sha256": "045f5dfcfd76c8ed606b56bf4b7673c4522d9ba9a9b2543200c47683a950ec0e"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1113.png",
+      "frame": 1113,
+      "sha256": "6bbc497752549e8bd5e2ae8d774ac36f9b6db337461cc699714bc2f4ade3db0d"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1114.png",
+      "frame": 1114,
+      "sha256": "32ffcb08226d547bcb54ab08fface37e5c7b9fbee8deb2fe5f83b5788d932774"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1115.png",
+      "frame": 1115,
+      "sha256": "bd81592fed47cd22fcddacfa0deb9ecc690770b512a3aae02515fb7ab66ce859"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1116.png",
+      "frame": 1116,
+      "sha256": "95b0c10f99100bc2e0a8c6c9c4aae020b6b2169dd73daed047fc224f543a1cd4"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1117.png",
+      "frame": 1117,
+      "sha256": "278aeae245def1ff02ebc87f235278d9fca46314b3dc0c4ce0482e86d4782717"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1118.png",
+      "frame": 1118,
+      "sha256": "df418b5f2ffdb2bd548bf0cad0f57aeabbb44908b9e67881065ea85108a9a85b"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1119.png",
+      "frame": 1119,
+      "sha256": "6ef53836ff1750e0b50e0dcdb98e9131d6d648713a7df4e4f360cf7ceb524ce2"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1120.png",
+      "frame": 1120,
+      "sha256": "9726f4348cdedade333aab751be3dc31d269c28b15633ac636864149961568cc"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1121.png",
+      "frame": 1121,
+      "sha256": "2d35250e14015e7079db8c57aab4767a58c6949063be0f60b535cefea46444ad"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1122.png",
+      "frame": 1122,
+      "sha256": "81645a6531436637f6c987b0e64cd063ed6a41e4d516dee3184257878056c6e0"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1123.png",
+      "frame": 1123,
+      "sha256": "4d5bad039e5b74f14282765f17f1f5a0acd60bc776588125990c3ea4c3885b5f"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1124.png",
+      "frame": 1124,
+      "sha256": "b046d213444fc05205472684de20e8d71bb24caacb61498607948b3872a85225"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1125.png",
+      "frame": 1125,
+      "sha256": "2fc3ab6097f71ed2bf13b8395f03ddf46e371422075da9527df7b2a1148f3425"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1126.png",
+      "frame": 1126,
+      "sha256": "a429a4e128adf552980c25c0294baab8bf9656b4b9d09c724c113e9e72280428"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1127.png",
+      "frame": 1127,
+      "sha256": "e53b1395cee8047106c6eab1642a08005f9eec6996a8d8c2b36e9135bb0dce04"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1128.png",
+      "frame": 1128,
+      "sha256": "446e3ed86c2ad44c7d7e4b2f2450167df89866248343d80e458d3875b23307af"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1129.png",
+      "frame": 1129,
+      "sha256": "143cc759ede4572fbd955217131e3edbac0438a207a471656c9909ea3fd419c5"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1130.png",
+      "frame": 1130,
+      "sha256": "60feaa9e1925caa404ff8bf3114f027436937e5d6093209bf138a54a27c9e801"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1131.png",
+      "frame": 1131,
+      "sha256": "6386caafad8ab6f0d4446e118adb21d997a25de595e759ca63be45250639ea7c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1132.png",
+      "frame": 1132,
+      "sha256": "13cab10eff3177e7c2bf92087c9c2e471e91ad52fa5fa3726e8bc1aaf8621ca0"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1133.png",
+      "frame": 1133,
+      "sha256": "339a22cf2416448997674a798025d99df1756ef600c1e0b29a72e7bd0238109a"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1134.png",
+      "frame": 1134,
+      "sha256": "4e8929a1e3519c603fcd7ae16b54e027ce388a739d05fd107c3d575a77adc46c"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1135.png",
+      "frame": 1135,
+      "sha256": "40700db2f1821b21ccd1a9683fa05b03f299c6c00671765b76322becf5fcefd6"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1136.png",
+      "frame": 1136,
+      "sha256": "f45464bd34429a9f3411be2403e9584f98022c623dc17474360004e24953338e"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1137.png",
+      "frame": 1137,
+      "sha256": "3cf17756f212429f3a45349fe88cea4aca3894081dbe8ff4605ebedad3e73057"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1138.png",
+      "frame": 1138,
+      "sha256": "320d51c1ea6b6e254d08ff9856ca6ee0317bc5a113e5b387cc4f334a4a030e90"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1139.png",
+      "frame": 1139,
+      "sha256": "4482cbeff6a27f3df9ea8449d25f34a1ddfe046cc75e5484c84b2d7f13bbc109"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1140.png",
+      "frame": 1140,
+      "sha256": "a9b4e9fe8ff23979ae0b0567efd5d04ad31cc52f2603d4ac2eb6d817fe223334"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1141.png",
+      "frame": 1141,
+      "sha256": "bd7ff08ee3a9404a4c1d47ed1b2b7c54775257b53793f7daf8cd81d5a90dc4ff"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1142.png",
+      "frame": 1142,
+      "sha256": "7c06660b37db25c3987111adb9890f61c8109d1b8880b30129089dccb092dde0"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1143.png",
+      "frame": 1143,
+      "sha256": "91dd4994fad907ea2dd3562bfcc1ae61663b62b041ec32428587b9a5ab8e4eb8"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1144.png",
+      "frame": 1144,
+      "sha256": "0d4658c87f9eca656011e20d282a18e384d1722a9ed1976742dbf4cb73db070e"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1145.png",
+      "frame": 1145,
+      "sha256": "38ac0e9d679d1a725c0bcb37c087cf8ae03e6ad43af253fd138b75f0dd212b23"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1146.png",
+      "frame": 1146,
+      "sha256": "6db146c4c807aabd71b5421ea3131269e1fa74a9de01dfcb7fc6fe469ad7ceda"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1147.png",
+      "frame": 1147,
+      "sha256": "b1c357e2118201d0a5d17a2a39b1a56ea74e0c96f010f324621557e04e8dde9a"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1148.png",
+      "frame": 1148,
+      "sha256": "521e6a7fcbf7d51670b5a6e9f9581fc0e3d017af11dc5ad0d527cb5f8ee84a01"
+    },
+    {
+      "file": "output/shushu-abc-v004/author/1149.png",
+      "frame": 1149,
+      "sha256": "f18be84ba03bb3672a25ff6bbb9e99c89a43f19e917e3d964870decc2afc02f3"
+    }
+  ],
+  "scope": "Actual evaluated saved frames, no synthetic interpolation; diagnostic excerpt only."
+}

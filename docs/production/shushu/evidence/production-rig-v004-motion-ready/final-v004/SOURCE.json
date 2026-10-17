@@ -1,0 +1,737 @@
+{
+  "authority_base": "56ffdc6356c8b3367990d30d6b50d6fcc011126e",
+  "screenshots": [
+    {
+      "file": "スクリーンショット (580).png",
+      "sha256": "830c39e7dd45324e7f234d8e180c6198df132dd2e2670c25bd973c10b4bd0fd4",
+      "displayed_elapsed_seconds": 7,
+      "observed_pose_family": "Seat1 + both Hold + MouthOpen",
+      "certainty": "Pose family matched against original desktop recording. Integer player time cannot uniquely determine source frame; interval and neighboring states retained."
+    },
+    {
+      "file": "スクリーンショット (581).png",
+      "sha256": "1bd94df6f703f374e37ae80c05c7bf70721d3d1f1b2a6a3b8e253acd22c32654",
+      "displayed_elapsed_seconds": 8,
+      "observed_pose_family": "Seat1 + Hold/SelfContact interruption + MouthClose",
+      "certainty": "Pose family matched against original desktop recording. Integer player time cannot uniquely determine source frame; interval and neighboring states retained."
+    },
+    {
+      "file": "スクリーンショット (582).png",
+      "sha256": "a8c285d3fb2c929de2ed1836956bb0bead705125a66984d1bb91fed4c48ffb3d",
+      "displayed_elapsed_seconds": 6,
+      "observed_pose_family": "Seat transition, arms lowered; lower-belly projections",
+      "certainty": "Pose family matched against original desktop recording. Integer player time cannot uniquely determine source frame; interval and neighboring states retained."
+    }
+  ],
+  "source_video": {
+    "path": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v003/desktop/composition-3q.webm",
+    "sha256": "e7dc1234a0cca366f0cc60d77258db360c945823c9b6047cc62f891ac04bfaca",
+    "resolution": [
+      640,
+      640
+    ],
+    "duration_seconds": 10.277646,
+    "first_frame": 993,
+    "first_ledger_utc": "2026-10-16T17:04:51.368Z",
+    "approximate_ledger_frame_at_elapsed_seconds": {
+      "6": 1088,
+      "6.5": 1096,
+      "7": 1104,
+      "7.5": 1112,
+      "8": 1119,
+      "8.5": 1127
+    },
+    "limits": "MediaRecorder wall clock plus screenshot rounding/player decoder latency. These approximate mappings are not exact frame identification."
+  },
+  "focused_interval": [
+    1085,
+    1127
+  ],
+  "reconstruction_frames": [
+    1089,
+    1095,
+    1101,
+    1107,
+    1110,
+    1113,
+    1117,
+    1119,
+    1125
+  ],
+  "actual_source_controls": [
+    {
+      "frame": 1,
+      "controls": {
+        "Seat": 0.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {},
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {},
+        "ShushuStatic_Paw_R": {},
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {}
+      }
+    },
+    {
+      "frame": 103,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.L": 0.4000000059604645,
+          "Blink.R": 0.4000000059604645,
+          "Corrective.HalfBlink.L": 0.2800000011920929,
+          "Corrective.HalfBlink.R": 0.2800000011920929
+        },
+        "ShushuStatic_LidWall_L": {
+          "Blink.L": 0.4000000059604645,
+          "Corrective.HalfBlink.L": 0.2800000011920929
+        },
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.4000000059604645,
+          "Corrective.HalfBlink.R": 0.2800000011920929
+        },
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {},
+        "ShushuStatic_Paw_R": {},
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1041,
+      "controls": {
+        "Seat": 0.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.5,
+        "MouthOpen": 0.550000011920929,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.550000011920929,
+          "Corrective.MouthCavity": 0.550000011920929
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Offer.500.S0.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Offer.500.S0.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Torso": {}
+      }
+    },
+    {
+      "frame": 1085,
+      "controls": {
+        "Seat": 0.3333333432674408,
+        "WeightShift": 0.0,
+        "Hold.L": 0.3333333432674408,
+        "Hold.R": 0.3333333432674408,
+        "SelfContact.R": 0.3333333134651184,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.36666667461395264,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.36666667461395264,
+          "Corrective.MouthCavity": 0.36666667461395264
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.500.S0.W0": 0.11111105233430862,
+          "PoseSpace.Hold.500.S0.5.W0": 0.22222213447093964,
+          "PoseSpace.Hold.625.S0.W0": 0.08888892084360123,
+          "PoseSpace.Hold.625.S0.5.W0": 0.17777785658836365,
+          "PoseSpace.SelfContact.500.S0.W0": 0.07407402992248535,
+          "PoseSpace.SelfContact.500.S0.5.W0": 0.1481480747461319,
+          "PoseSpace.SelfContact.625.S0.W0": 0.05925927683711052,
+          "PoseSpace.SelfContact.625.S0.5.W0": 0.11851856112480164,
+          "PoseSpace.Hold~SelfContact.500.S0.W0": 0.17777767777442932,
+          "PoseSpace.Hold~SelfContact.500.S0.5.W0": 0.35555538535118103,
+          "PoseSpace.Hold~SelfContact.625.S0.W0": 0.14222225546836853,
+          "PoseSpace.Hold~SelfContact.625.S0.5.W0": 0.28444454073905945
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.500.S0.W0": 0.11111105233430862,
+          "PoseSpace.Hold.500.S0.5.W0": 0.22222213447093964,
+          "PoseSpace.Hold.625.S0.W0": 0.08888892084360123,
+          "PoseSpace.Hold.625.S0.5.W0": 0.17777785658836365,
+          "PoseSpace.SelfContact.500.S0.W0": 0.07407402992248535,
+          "PoseSpace.SelfContact.500.S0.5.W0": 0.1481480747461319,
+          "PoseSpace.SelfContact.625.S0.W0": 0.05925927683711052,
+          "PoseSpace.SelfContact.625.S0.5.W0": 0.11851856112480164,
+          "PoseSpace.Hold~SelfContact.500.S0.W0": 0.17777767777442932,
+          "PoseSpace.Hold~SelfContact.500.S0.5.W0": 0.35555538535118103,
+          "PoseSpace.Hold~SelfContact.625.S0.W0": 0.14222225546836853,
+          "PoseSpace.Hold~SelfContact.625.S0.5.W0": 0.28444454073905945
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S0.3125.W0.0": 0.666666567325592,
+          "Corrective.TrueSeat.S0.3750.W0.0": 0.33333349227905273
+        }
+      }
+    },
+    {
+      "frame": 1089,
+      "controls": {
+        "Seat": 0.5,
+        "WeightShift": 0.0,
+        "Hold.L": 0.5,
+        "Hold.R": 0.5,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.550000011920929,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.550000011920929,
+          "Corrective.MouthCavity": 0.550000011920929
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.500.S0.5.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.500.S0.5.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S0.5000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1095,
+      "controls": {
+        "Seat": 0.75,
+        "WeightShift": 0.0,
+        "Hold.L": 0.75,
+        "Hold.R": 0.75,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.7749999761581421,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.7749999761581421,
+          "Corrective.MouthCavity": 0.7749999761581421
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.750.S0.5.W0": 0.4999999403953552,
+          "PoseSpace.Hold.750.S1.W0": 0.4999999403953552
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S0.5.W0": 0.4999999403953552,
+          "PoseSpace.Hold.750.S1.W0": 0.4999999403953552
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S0.7500.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1101,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 1.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 1.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 1.0,
+          "Corrective.MouthCavity": 1.0
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1107,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.5,
+        "SelfContact.R": 0.5,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.5,
+        "MouthClose": 0.5,
+        "Tongue": 0.0,
+        "Blink.R": 0.3499999940395355,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404,
+          "MouthOpen": 0.2499999850988388,
+          "MouthClose": 0.4999999403953552,
+          "Corrective.MouthCavity": 0.2499999850988388
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.6666666865348816,
+          "PoseSpace.SelfContact.750.S1.W0": 0.3333333730697632,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.8888888955116272
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1110,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.25,
+        "SelfContact.R": 0.75,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.25,
+        "MouthClose": 0.75,
+        "Tongue": 0.0,
+        "Blink.R": 0.5249999761581421,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.4204999804496765,
+          "Corrective.HalfBlink.R": 0.29434993863105774,
+          "MouthOpen": 0.0625,
+          "MouthClose": 0.75,
+          "Corrective.MouthCavity": 0.0625
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.4204999804496765,
+          "Corrective.HalfBlink.R": 0.29434993863105774
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.1538461297750473,
+          "PoseSpace.Hold.875.S1.W0": 0.1538461297750473,
+          "PoseSpace.SelfContact.750.S1.W0": 0.3461538851261139,
+          "PoseSpace.SelfContact.875.S1.W0": 0.3461538851261139,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.42603546380996704,
+          "PoseSpace.Hold~SelfContact.875.S1.W0": 0.42603546380996704
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1113,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 1.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 1.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.699999988079071,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {
+          "Corrective.ClosedRetraction.R": 0.18666663765907288
+        },
+        "ShushuStatic_Head": {
+          "Blink.R": 0.6340000629425049,
+          "Corrective.HalfBlink.R": 0.25620001554489136,
+          "MouthClose": 1.0
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.6340000629425049,
+          "Corrective.HalfBlink.R": 0.25620001554489136
+        },
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.SelfContact.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1117,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.3333333432674408,
+        "SelfContact.R": 0.6666666269302368,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.6666666269302368,
+        "Tongue": 0.3333333432674408,
+        "Blink.R": 0.46666663885116577,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.36399999260902405,
+          "Corrective.HalfBlink.R": 0.2547999918460846,
+          "MouthOpen": 0.06111111864447594,
+          "MouthClose": 0.6666666865348816,
+          "Corrective.MouthCavity": 0.1111111268401146
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.36399999260902405,
+          "Corrective.HalfBlink.R": 0.2547999918460846
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.06111111864447594
+        },
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.06111111864447594
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.333333283662796,
+          "PoseSpace.Hold.875.S1.W0": 0.09523814171552658,
+          "PoseSpace.SelfContact.750.S1.W0": 0.44444435834884644,
+          "PoseSpace.SelfContact.875.S1.W0": 0.12698417901992798,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.7619045972824097,
+          "PoseSpace.Hold~SelfContact.875.S1.W0": 0.21768715977668762
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.06111111864447594
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1119,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.5,
+        "SelfContact.R": 0.5,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.5,
+        "Tongue": 0.5,
+        "Blink.R": 0.3499999940395355,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404,
+          "MouthOpen": 0.13750000298023224,
+          "MouthClose": 0.4999999403953552,
+          "Corrective.MouthCavity": 0.2499999850988388
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.13750000298023224
+        },
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.13750000298023224
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.6666666865348816,
+          "PoseSpace.SelfContact.750.S1.W0": 0.3333333730697632,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.8888888955116272
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.13750000298023224
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1125,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 1.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 1.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.550000011920929,
+          "Corrective.MouthCavity": 1.0
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1149,
+      "controls": {
+        "Seat": 0.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {},
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {},
+        "ShushuStatic_Paw_R": {},
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {}
+      }
+    }
+  ],
+  "observation": "Desktop original near elapsed 6/7/8 seconds reproduces the three pose families. Original phone recording differs; no new mobile operation was performed. Face close defect isolated to actual Head.MouthClose delta, belly defect to actual Torso correction and triangles. See METHOD."
+}

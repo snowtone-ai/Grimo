@@ -1,0 +1,31 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><title>Shushu v004 再審査候補</title>
+<style>body{font:16px/1.65 system-ui,sans-serif;background:#17181d;color:#eee;margin:32px}a{color:#bfe1ff}h1{font-size:28px}h2{font-size:20px}p{max-width:1050px}.gate{border-left:5px solid #e6b46c;padding:12px 20px;background:#27232b}.grid{display:grid;grid-template-columns:repeat(3,minmax(260px,1fr));gap:18px;overflow:auto}video,img{width:100%;max-width:640px;display:block;background:#303039}figure{margin:0}figcaption{padding:8px 0;color:#c5c9d5}section{margin:34px 0}summary{cursor:pointer}button{padding:10px}code{font-size:14px}@media(max-width:900px){.grid{grid-template-columns:repeat(3,300px)}}
+</style>
+<h1>Shushu v004 · Motion Ready 再審査候補</h1>
+<p class="gate">Human外観GO待ち。原本置換・Motion量産HOLD。スマホ新候補UNKNOWN。v003の技術PASSに優先して、今回のHuman FAILから再修正しています。</p>
+<p><a href="REVIEW.md">判定・残項目</a> ／ <a href="METHOD.md">原因・棄却案・構造</a> ／ <a href="REPRODUCE.md">再現</a> ／ <a href="delivery-manifest.json">hashと証拠対応</a></p>
+<section><h2>連続比較 · 同じ診断姿勢列の993〜1149</h2><p>Blender/再読込GLBは実評価157枚を24fpsで収録。PCは実製品loader/controllerのMediaRecorder収録で、実時間のledgerを保存しています。プレイヤーの整数秒から単一フレームへ読み替えないでください。</p><div class="grid">
+<figure><video controls preload="metadata" src="author-composition-3q.mp4"></video><figcaption>Blender author</figcaption></figure>
+<figure><video controls preload="metadata" src="saved-composition-3q.mp4"></video><figcaption>保存GLBをBlender再読込</figcaption></figure>
+<figure><video controls preload="metadata" src="pc/composition-3q.webm"></video><figcaption>PC PlayCanvas 2.22.2 製品経路</figcaption></figure></div></section>
+<section><h2>指摘姿勢とその遷移 · 原寸ファイルをクリックして確認</h2><p>左は元v003、中央はv004 author、右はv004 PC製品経路。3経路で照明が異なるため、明暗差を形状差と断定しません。</p>
+<div class="grid">
+<figure><a href="source-v003/f1089-3q.png"><img src="source-v003/f1089-3q.png"></a><figcaption>元v003 f1089 · Seat/Hold中間</figcaption></figure>
+<figure><a href="author/f1089-3q.png"><img src="author/f1089-3q.png"></a><figcaption>v004 author f1089</figcaption></figure>
+<figure><a href="pc/f1089-3q.png"><img src="pc/f1089-3q.png"></a><figcaption>v004 PC f1089</figcaption></figure>
+<figure><a href="source-v003/f1101-3q.png"><img src="source-v003/f1101-3q.png"></a><figcaption>元v003 f1101 · 座位/Hold/開口</figcaption></figure>
+<figure><a href="author/f1101-3q.png"><img src="author/f1101-3q.png"></a><figcaption>v004 author f1101</figcaption></figure>
+<figure><a href="pc/f1101-3q.png"><img src="pc/f1101-3q.png"></a><figcaption>v004 PC f1101</figcaption></figure>
+<figure><a href="source-v003/f1113-3q.png"><img src="source-v003/f1113-3q.png"></a><figcaption>元v003 f1113 · 閉口/片側割込み</figcaption></figure>
+<figure><a href="author/f1113-3q.png"><img src="author/f1113-3q.png"></a><figcaption>v004 author f1113</figcaption></figure>
+<figure><a href="pc/f1113-3q.png"><img src="pc/f1113-3q.png"></a><figcaption>v004 PC f1113</figcaption></figure></div></section>
+<section><h2>承認済みv004と中立の比較</h2><div class="grid">
+<figure><a href="approved-v004/f1-front.png"><img src="approved-v004/f1-front.png"></a><figcaption>Human承認済みv004 proof</figcaption></figure>
+<figure><a href="author/f1-front.png"><img src="author/f1-front.png"></a><figcaption>新候補 正面 · 顔/短肢/腹/足</figcaption></figure>
+<figure><a href="author/f1-3q.png"><img src="author/f1-3q.png"></a><figcaption>新候補 3Q · 同一性はHuman判定</figcaption></figure></div></section>
+<section><h2>全身の実形状 · 診断用粘土表示</h2><p>納品モデルのmaterialを変更したものではありません。影や色で隠さず、頭/耳/頬/腹/脇/背中/足/腕を確認するための表示です。意図した丸みと不要な凹凸の最終区別はHumanが判定します。</p><div class="grid">
+<figure><a href="geometry-neutral-3q.png"><img src="geometry-neutral-3q.png"></a><figcaption>中立</figcaption></figure>
+<figure><a href="geometry-seat-3q.png"><img src="geometry-seat-3q.png"></a><figcaption>座位＋保持</figcaption></figure>
+<figure><a href="geometry-seat-back.png"><img src="geometry-seat-back.png"></a><figcaption>背面＋接地</figcaption></figure></div></section>
+<p><a href="runtime.html">保存GLBの診断Viewer</a>（製品経路そのものの証拠は上のPC収録とproduct-raw-controller.json）。旧arm FKの無変更再生は未対応。7 Anchor一致は接触/自然さのHuman GOを意味しません。</p>
+</html>

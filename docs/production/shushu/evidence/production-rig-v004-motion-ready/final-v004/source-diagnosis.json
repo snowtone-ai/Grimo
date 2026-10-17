@@ -1,0 +1,4935 @@
+{
+  "source_sha256": "3697d43e2dea0a77edf447f2cf2e58e75b2898ca284c5c941625bcc7fb745dc7",
+  "inventory": {
+    "ShushuStatic_Ear_L": {
+      "vertices": 2223,
+      "groups": [
+        "Ear.L",
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": []
+    },
+    "ShushuStatic_Ear_R": {
+      "vertices": 2199,
+      "groups": [
+        "Ear.R",
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": []
+    },
+    "ShushuStatic_Eye_L": {
+      "vertices": 779,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"GazeLeft.L\"].value",
+          "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"GazeRight.L\"].value",
+          "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"GazeUp.L\"].value",
+          "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"GazeDown.L\"].value",
+          "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"Corrective.ClosedRetraction.L\"].value",
+          "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.55)/.45)"
+        ],
+        [
+          "key_blocks[\"Corrective.ClosedSeal.L\"].value",
+          "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.LowHead\"].value",
+          "s*max(0,p)*max(0,1-abs(r-.4)/.4)*max(0,1-abs(b-.5)/.5)*max(0,1-abs(c-.5)/.5)*(1-j)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.ShiftL\"].value",
+          "s*max(0,w)*min(1,max(0,-h*2))*max(0,1-abs(j-.6)/.4)*(1-max(l,r))"
+        ]
+      ]
+    },
+    "ShushuStatic_Eye_R": {
+      "vertices": 801,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"GazeLeft.R\"].value",
+          "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"GazeRight.R\"].value",
+          "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"GazeUp.R\"].value",
+          "max(0,1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"GazeDown.R\"].value",
+          "max(0,-1*v)*(1-max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1))"
+        ],
+        [
+          "key_blocks[\"Corrective.ClosedRetraction.R\"].value",
+          "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.55)/.45)"
+        ],
+        [
+          "key_blocks[\"Corrective.ClosedSeal.R\"].value",
+          "max(0,(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.9)/.1)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.LowHead\"].value",
+          "s*max(0,p)*max(0,1-abs(r-.4)/.4)*max(0,1-abs(b-.5)/.5)*max(0,1-abs(c-.5)/.5)*(1-j)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.ShiftL\"].value",
+          "s*max(0,w)*min(1,max(0,-h*2))*max(0,1-abs(j-.6)/.4)*(1-max(l,r))"
+        ]
+      ]
+    },
+    "ShushuStatic_Head": {
+      "vertices": 38626,
+      "groups": [
+        "mixamorig:Head",
+        "mixamorig:Neck"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"Smile\"].value",
+          "min(1,s+j*.65)"
+        ],
+        [
+          "key_blocks[\"JoyLids\"].value",
+          "j*.55"
+        ],
+        [
+          "key_blocks[\"MouthOpen\"].value",
+          "max(o,t*.55,s*.18,j*.24,u*.65)*(1-c)"
+        ],
+        [
+          "key_blocks[\"Surprise\"].value",
+          "v"
+        ],
+        [
+          "key_blocks[\"CheekPressure.L\"].value",
+          "p"
+        ],
+        [
+          "key_blocks[\"CheekPressure.R\"].value",
+          "p"
+        ],
+        [
+          "key_blocks[\"Hesitate\"].value",
+          "v"
+        ],
+        [
+          "key_blocks[\"Discomfort\"].value",
+          "v"
+        ],
+        [
+          "key_blocks[\"MouthClose\"].value",
+          "c"
+        ],
+        [
+          "key_blocks[\"Corrective.MouthCavity\"].value",
+          "max(o,t)*(1-c)"
+        ],
+        [
+          "key_blocks[\"Blink.L\"].value",
+          "max(b*.78+max(0,b-.5)*.44,r*.40,j)"
+        ],
+        [
+          "key_blocks[\"Blink.R\"].value",
+          "max(b*.78+max(0,b-.5)*.44,r*.40,j)"
+        ],
+        [
+          "key_blocks[\"Corrective.HalfBlink.L\"].value",
+          ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)"
+        ],
+        [
+          "key_blocks[\"Corrective.HalfBlink.R\"].value",
+          ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.0.0\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.0.1\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.0.2\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.1.0\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.1.1\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.1.2\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.2.0\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.2.1\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Forehead.2.2\"].value",
+          "p*max(0,1-abs(z-0))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.0.0\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.0.1\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.0.2\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.1.0\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.1.1\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.1.2\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.2.0\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.2.1\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.L.2.2\"].value",
+          "p*max(0,1-abs(z-1))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.0.0\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.0.1\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.0.2\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.1.0\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.1.1\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.1.2\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.2.0\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.2.1\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Cheek.R.2.2\"].value",
+          "p*max(0,1-abs(z-2))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.LowHead\"].value",
+          "s*max(0,p)*max(0,1-abs(r-.4)/.4)*max(0,1-abs(b-.5)/.5)*max(0,1-abs(c-.5)/.5)*(1-j)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.ShiftL\"].value",
+          "s*max(0,w)*min(1,max(0,-h*2))*max(0,1-abs(j-.6)/.4)*(1-max(l,r))"
+        ]
+      ]
+    },
+    "ShushuStatic_LidWall_L": {
+      "vertices": 633,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"Smile\"].value",
+          "min(1,s+j*.65)"
+        ],
+        [
+          "key_blocks[\"JoyLids\"].value",
+          "j*.55"
+        ],
+        [
+          "key_blocks[\"Blink.L\"].value",
+          "max(b*.78+max(0,b-.5)*.44,r*.40,j)"
+        ],
+        [
+          "key_blocks[\"Corrective.HalfBlink.L\"].value",
+          ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.LowHead\"].value",
+          "s*max(0,p)*max(0,1-abs(r-.4)/.4)*max(0,1-abs(b-.5)/.5)*max(0,1-abs(c-.5)/.5)*(1-j)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.ShiftL\"].value",
+          "s*max(0,w)*min(1,max(0,-h*2))*max(0,1-abs(j-.6)/.4)*(1-max(l,r))"
+        ]
+      ]
+    },
+    "ShushuStatic_LidWall_R": {
+      "vertices": 723,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"Smile\"].value",
+          "min(1,s+j*.65)"
+        ],
+        [
+          "key_blocks[\"JoyLids\"].value",
+          "j*.55"
+        ],
+        [
+          "key_blocks[\"Blink.R\"].value",
+          "max(b*.78+max(0,b-.5)*.44,r*.40,j)"
+        ],
+        [
+          "key_blocks[\"Corrective.HalfBlink.R\"].value",
+          ".35*max(0,1-abs(max(b*.78+max(0,b-.5)*.44,r*.40,j)-.5)*2)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.LowHead\"].value",
+          "s*max(0,p)*max(0,1-abs(r-.4)/.4)*max(0,1-abs(b-.5)/.5)*max(0,1-abs(c-.5)/.5)*(1-j)"
+        ],
+        [
+          "key_blocks[\"Corrective.EyeIntegrity.ShiftL\"].value",
+          "s*max(0,w)*min(1,max(0,-h*2))*max(0,1-abs(j-.6)/.4)*(1-max(l,r))"
+        ]
+      ]
+    },
+    "ShushuStatic_MouthInterior": {
+      "vertices": 2304,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"MouthOpen\"].value",
+          "max(o,t*.55,s*.18,j*.24,u*.65)*(1-c)"
+        ]
+      ]
+    },
+    "ShushuStatic_Nose": {
+      "vertices": 3948,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"Smile\"].value",
+          "min(1,s+j*.65)"
+        ],
+        [
+          "key_blocks[\"MouthOpen\"].value",
+          "v*(1-c)"
+        ],
+        [
+          "key_blocks[\"Surprise\"].value",
+          "v"
+        ]
+      ]
+    },
+    "ShushuStatic_OralBowl": {
+      "vertices": 257,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Head owner",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"MouthOpen\"].value",
+          "max(o,t*.55,s*.18,j*.24,u*.65)*(1-c)"
+        ]
+      ]
+    },
+    "ShushuStatic_Paw_L": {
+      "vertices": 1681,
+      "groups": [
+        "mixamorig:Spine2"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ]
+      ]
+    },
+    "ShushuStatic_Paw_R": {
+      "vertices": 1716,
+      "groups": [
+        "mixamorig:Spine2"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Offer.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~SelfContact.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.Hold~Offer.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.125.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.125)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.250.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.25)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.375.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.375)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.500.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.5)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.625.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.625)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.750.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.75)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S1.W0\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.875.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.875)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.5.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S1.W-1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S1.W0\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(0)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.SelfContact~Offer.1000.S1.W1\"].value",
+          "a*max(0,1-abs(m-1.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.W-1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.5.W-1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S1.W-1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(-1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.W1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S0.5.W1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-0.5)*2)*max(0,1-abs(w-(1)))"
+        ],
+        [
+          "key_blocks[\"PoseSpace.NeutralWrist.0.S1.W1\"].value",
+          "a*max(0,1-abs(m-0.0)*8)*max(0,1-abs(s-1)*2)*max(0,1-abs(w-(1)))"
+        ]
+      ]
+    },
+    "ShushuStatic_Tongue": {
+      "vertices": 762,
+      "groups": [
+        "mixamorig:Head"
+      ],
+      "modifiers": [
+        [
+          "Head owner",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"MouthOpen\"].value",
+          "max(o,t*.55,s*.18,j*.24,u*.65)*(1-c)"
+        ]
+      ]
+    },
+    "ShushuStatic_Torso": {
+      "vertices": 5621,
+      "groups": [
+        "mixamorig:Spine2",
+        "mixamorig:Hips",
+        "mixamorig:Spine1",
+        "mixamorig:Spine",
+        "mixamorig:RightFoot",
+        "mixamorig:RightUpLeg",
+        "mixamorig:LeftFoot",
+        "mixamorig:LeftUpLeg",
+        "mixamorig:RightLeg",
+        "mixamorig:LeftLeg",
+        "mixamorig:Neck"
+      ],
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "drivers": [
+        [
+          "key_blocks[\"BellyPressure\"].value",
+          "v"
+        ],
+        [
+          "key_blocks[\"Breath\"].value",
+          "v"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.0.0\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.0.1\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.0.2\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-0))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.1.0\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.1.1\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.1.2\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-1))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.2.0\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-0))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.2.1\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-1))"
+        ],
+        [
+          "key_blocks[\"Stroke.Belly.2.2\"].value",
+          "p*max(0,1-abs(z-3))*max(0,1-abs(min(2,max(0,u+1))-2))*max(0,1-abs(min(2,max(0,v+1))-2))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.0625.W-1.0\"].value",
+          "max(0,1-abs(s-0.0625)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.1250.W-1.0\"].value",
+          "max(0,1-abs(s-0.125)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.1875.W-1.0\"].value",
+          "max(0,1-abs(s-0.1875)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.2500.W-1.0\"].value",
+          "max(0,1-abs(s-0.25)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.3125.W-1.0\"].value",
+          "max(0,1-abs(s-0.3125)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.3750.W-1.0\"].value",
+          "max(0,1-abs(s-0.375)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.4375.W-1.0\"].value",
+          "max(0,1-abs(s-0.4375)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.5000.W-1.0\"].value",
+          "max(0,1-abs(s-0.5)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.5625.W-1.0\"].value",
+          "max(0,1-abs(s-0.5625)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.6250.W-1.0\"].value",
+          "max(0,1-abs(s-0.625)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.6875.W-1.0\"].value",
+          "max(0,1-abs(s-0.6875)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.7500.W-1.0\"].value",
+          "max(0,1-abs(s-0.75)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.8125.W-1.0\"].value",
+          "max(0,1-abs(s-0.8125)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.8750.W-1.0\"].value",
+          "max(0,1-abs(s-0.875)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.9375.W-1.0\"].value",
+          "max(0,1-abs(s-0.9375)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S1.0000.W-1.0\"].value",
+          "max(0,1-abs(s-1.0)*16)*max(0,1-abs(w-(-1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.0625.W0.0\"].value",
+          "max(0,1-abs(s-0.0625)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.1250.W0.0\"].value",
+          "max(0,1-abs(s-0.125)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.1875.W0.0\"].value",
+          "max(0,1-abs(s-0.1875)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.2500.W0.0\"].value",
+          "max(0,1-abs(s-0.25)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.3125.W0.0\"].value",
+          "max(0,1-abs(s-0.3125)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.3750.W0.0\"].value",
+          "max(0,1-abs(s-0.375)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.4375.W0.0\"].value",
+          "max(0,1-abs(s-0.4375)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.5000.W0.0\"].value",
+          "max(0,1-abs(s-0.5)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.5625.W0.0\"].value",
+          "max(0,1-abs(s-0.5625)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.6250.W0.0\"].value",
+          "max(0,1-abs(s-0.625)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.6875.W0.0\"].value",
+          "max(0,1-abs(s-0.6875)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.7500.W0.0\"].value",
+          "max(0,1-abs(s-0.75)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.8125.W0.0\"].value",
+          "max(0,1-abs(s-0.8125)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.8750.W0.0\"].value",
+          "max(0,1-abs(s-0.875)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.9375.W0.0\"].value",
+          "max(0,1-abs(s-0.9375)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S1.0000.W0.0\"].value",
+          "max(0,1-abs(s-1.0)*16)*max(0,1-abs(w-(0.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.0625.W1.0\"].value",
+          "max(0,1-abs(s-0.0625)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.1250.W1.0\"].value",
+          "max(0,1-abs(s-0.125)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.1875.W1.0\"].value",
+          "max(0,1-abs(s-0.1875)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.2500.W1.0\"].value",
+          "max(0,1-abs(s-0.25)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.3125.W1.0\"].value",
+          "max(0,1-abs(s-0.3125)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.3750.W1.0\"].value",
+          "max(0,1-abs(s-0.375)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.4375.W1.0\"].value",
+          "max(0,1-abs(s-0.4375)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.5000.W1.0\"].value",
+          "max(0,1-abs(s-0.5)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.5625.W1.0\"].value",
+          "max(0,1-abs(s-0.5625)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.6250.W1.0\"].value",
+          "max(0,1-abs(s-0.625)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.6875.W1.0\"].value",
+          "max(0,1-abs(s-0.6875)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.7500.W1.0\"].value",
+          "max(0,1-abs(s-0.75)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.8125.W1.0\"].value",
+          "max(0,1-abs(s-0.8125)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.8750.W1.0\"].value",
+          "max(0,1-abs(s-0.875)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S0.9375.W1.0\"].value",
+          "max(0,1-abs(s-0.9375)*16)*max(0,1-abs(w-(1.0)))"
+        ],
+        [
+          "key_blocks[\"Corrective.TrueSeat.S1.0000.W1.0\"].value",
+          "max(0,1-abs(s-1.0)*16)*max(0,1-abs(w-(1.0)))"
+        ]
+      ]
+    }
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "controls": {
+        "Seat": 0.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {},
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {},
+        "ShushuStatic_Paw_R": {},
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {}
+      }
+    },
+    {
+      "frame": 103,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.L": 0.4000000059604645,
+          "Blink.R": 0.4000000059604645,
+          "Corrective.HalfBlink.L": 0.2800000011920929,
+          "Corrective.HalfBlink.R": 0.2800000011920929
+        },
+        "ShushuStatic_LidWall_L": {
+          "Blink.L": 0.4000000059604645,
+          "Corrective.HalfBlink.L": 0.2800000011920929
+        },
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.4000000059604645,
+          "Corrective.HalfBlink.R": 0.2800000011920929
+        },
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {},
+        "ShushuStatic_Paw_R": {},
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1041,
+      "controls": {
+        "Seat": 0.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.5,
+        "MouthOpen": 0.550000011920929,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.550000011920929,
+          "Corrective.MouthCavity": 0.550000011920929
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Offer.500.S0.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Offer.500.S0.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Torso": {}
+      }
+    },
+    {
+      "frame": 1085,
+      "controls": {
+        "Seat": 0.3333333432674408,
+        "WeightShift": 0.0,
+        "Hold.L": 0.3333333432674408,
+        "Hold.R": 0.3333333432674408,
+        "SelfContact.R": 0.3333333134651184,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.36666667461395264,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.36666667461395264,
+          "Corrective.MouthCavity": 0.36666667461395264
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.500.S0.W0": 0.11111105233430862,
+          "PoseSpace.Hold.500.S0.5.W0": 0.22222213447093964,
+          "PoseSpace.Hold.625.S0.W0": 0.08888892084360123,
+          "PoseSpace.Hold.625.S0.5.W0": 0.17777785658836365,
+          "PoseSpace.SelfContact.500.S0.W0": 0.07407402992248535,
+          "PoseSpace.SelfContact.500.S0.5.W0": 0.1481480747461319,
+          "PoseSpace.SelfContact.625.S0.W0": 0.05925927683711052,
+          "PoseSpace.SelfContact.625.S0.5.W0": 0.11851856112480164,
+          "PoseSpace.Hold~SelfContact.500.S0.W0": 0.17777767777442932,
+          "PoseSpace.Hold~SelfContact.500.S0.5.W0": 0.35555538535118103,
+          "PoseSpace.Hold~SelfContact.625.S0.W0": 0.14222225546836853,
+          "PoseSpace.Hold~SelfContact.625.S0.5.W0": 0.28444454073905945
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.500.S0.W0": 0.11111105233430862,
+          "PoseSpace.Hold.500.S0.5.W0": 0.22222213447093964,
+          "PoseSpace.Hold.625.S0.W0": 0.08888892084360123,
+          "PoseSpace.Hold.625.S0.5.W0": 0.17777785658836365,
+          "PoseSpace.SelfContact.500.S0.W0": 0.07407402992248535,
+          "PoseSpace.SelfContact.500.S0.5.W0": 0.1481480747461319,
+          "PoseSpace.SelfContact.625.S0.W0": 0.05925927683711052,
+          "PoseSpace.SelfContact.625.S0.5.W0": 0.11851856112480164,
+          "PoseSpace.Hold~SelfContact.500.S0.W0": 0.17777767777442932,
+          "PoseSpace.Hold~SelfContact.500.S0.5.W0": 0.35555538535118103,
+          "PoseSpace.Hold~SelfContact.625.S0.W0": 0.14222225546836853,
+          "PoseSpace.Hold~SelfContact.625.S0.5.W0": 0.28444454073905945
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.36666667461395264
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S0.3125.W0.0": 0.666666567325592,
+          "Corrective.TrueSeat.S0.3750.W0.0": 0.33333349227905273
+        }
+      }
+    },
+    {
+      "frame": 1089,
+      "controls": {
+        "Seat": 0.5,
+        "WeightShift": 0.0,
+        "Hold.L": 0.5,
+        "Hold.R": 0.5,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.550000011920929,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.550000011920929,
+          "Corrective.MouthCavity": 0.550000011920929
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.500.S0.5.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.500.S0.5.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S0.5000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1095,
+      "controls": {
+        "Seat": 0.75,
+        "WeightShift": 0.0,
+        "Hold.L": 0.75,
+        "Hold.R": 0.75,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.7749999761581421,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.7749999761581421,
+          "Corrective.MouthCavity": 0.7749999761581421
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.750.S0.5.W0": 0.4999999403953552,
+          "PoseSpace.Hold.750.S1.W0": 0.4999999403953552
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S0.5.W0": 0.4999999403953552,
+          "PoseSpace.Hold.750.S1.W0": 0.4999999403953552
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.7749999761581421
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S0.7500.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1101,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 1.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 1.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 1.0,
+          "Corrective.MouthCavity": 1.0
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 1.0
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1107,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.5,
+        "SelfContact.R": 0.5,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.5,
+        "MouthClose": 0.5,
+        "Tongue": 0.0,
+        "Blink.R": 0.3499999940395355,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404,
+          "MouthOpen": 0.2499999850988388,
+          "MouthClose": 0.4999999403953552,
+          "Corrective.MouthCavity": 0.2499999850988388
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.6666666865348816,
+          "PoseSpace.SelfContact.750.S1.W0": 0.3333333730697632,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.8888888955116272
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.2499999850988388
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1110,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.25,
+        "SelfContact.R": 0.75,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.25,
+        "MouthClose": 0.75,
+        "Tongue": 0.0,
+        "Blink.R": 0.5249999761581421,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.4204999804496765,
+          "Corrective.HalfBlink.R": 0.29434993863105774,
+          "MouthOpen": 0.0625,
+          "MouthClose": 0.75,
+          "Corrective.MouthCavity": 0.0625
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.4204999804496765,
+          "Corrective.HalfBlink.R": 0.29434993863105774
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_Nose": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.1538461297750473,
+          "PoseSpace.Hold.875.S1.W0": 0.1538461297750473,
+          "PoseSpace.SelfContact.750.S1.W0": 0.3461538851261139,
+          "PoseSpace.SelfContact.875.S1.W0": 0.3461538851261139,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.42603546380996704,
+          "PoseSpace.Hold~SelfContact.875.S1.W0": 0.42603546380996704
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.0625
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1113,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 1.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 1.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.699999988079071,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {
+          "Corrective.ClosedRetraction.R": 0.18666663765907288
+        },
+        "ShushuStatic_Head": {
+          "Blink.R": 0.6340000629425049,
+          "Corrective.HalfBlink.R": 0.25620001554489136,
+          "MouthClose": 1.0
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.6340000629425049,
+          "Corrective.HalfBlink.R": 0.25620001554489136
+        },
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.SelfContact.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1117,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.3333333432674408,
+        "SelfContact.R": 0.6666666269302368,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.6666666269302368,
+        "Tongue": 0.3333333432674408,
+        "Blink.R": 0.46666663885116577,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.36399999260902405,
+          "Corrective.HalfBlink.R": 0.2547999918460846,
+          "MouthOpen": 0.06111111864447594,
+          "MouthClose": 0.6666666865348816,
+          "Corrective.MouthCavity": 0.1111111268401146
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.36399999260902405,
+          "Corrective.HalfBlink.R": 0.2547999918460846
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.06111111864447594
+        },
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.06111111864447594
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.333333283662796,
+          "PoseSpace.Hold.875.S1.W0": 0.09523814171552658,
+          "PoseSpace.SelfContact.750.S1.W0": 0.44444435834884644,
+          "PoseSpace.SelfContact.875.S1.W0": 0.12698417901992798,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.7619045972824097,
+          "PoseSpace.Hold~SelfContact.875.S1.W0": 0.21768715977668762
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.06111111864447594
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1119,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 0.5,
+        "SelfContact.R": 0.5,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.5,
+        "Tongue": 0.5,
+        "Blink.R": 0.3499999940395355,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404,
+          "MouthOpen": 0.13750000298023224,
+          "MouthClose": 0.4999999403953552,
+          "Corrective.MouthCavity": 0.2499999850988388
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {
+          "Blink.R": 0.27300000190734863,
+          "Corrective.HalfBlink.R": 0.19110000133514404
+        },
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.13750000298023224
+        },
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.13750000298023224
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.750.S1.W0": 0.6666666865348816,
+          "PoseSpace.SelfContact.750.S1.W0": 0.3333333730697632,
+          "PoseSpace.Hold~SelfContact.750.S1.W0": 0.8888888955116272
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.13750000298023224
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1125,
+      "controls": {
+        "Seat": 1.0,
+        "WeightShift": 0.0,
+        "Hold.L": 1.0,
+        "Hold.R": 1.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 1.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {
+          "MouthOpen": 0.550000011920929,
+          "Corrective.MouthCavity": 1.0
+        },
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Paw_L": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Paw_R": {
+          "PoseSpace.Hold.1000.S1.W0": 1.0
+        },
+        "ShushuStatic_Tongue": {
+          "MouthOpen": 0.550000011920929
+        },
+        "ShushuStatic_Torso": {
+          "Corrective.TrueSeat.S1.0000.W0.0": 1.0
+        }
+      }
+    },
+    {
+      "frame": 1149,
+      "controls": {
+        "Seat": 0.0,
+        "WeightShift": 0.0,
+        "Hold.L": 0.0,
+        "Hold.R": 0.0,
+        "SelfContact.R": 0.0,
+        "Offer.L": 0.0,
+        "MouthOpen": 0.0,
+        "MouthClose": 0.0,
+        "Tongue": 0.0,
+        "Blink.R": 0.0,
+        "CheekPressure.R": 0.0
+      },
+      "active": {
+        "ShushuStatic_Eye_L": {},
+        "ShushuStatic_Eye_R": {},
+        "ShushuStatic_Head": {},
+        "ShushuStatic_LidWall_L": {},
+        "ShushuStatic_LidWall_R": {},
+        "ShushuStatic_MouthInterior": {},
+        "ShushuStatic_Nose": {},
+        "ShushuStatic_OralBowl": {},
+        "ShushuStatic_Paw_L": {},
+        "ShushuStatic_Paw_R": {},
+        "ShushuStatic_Tongue": {},
+        "ShushuStatic_Torso": {}
+      }
+    }
+  ]
+}

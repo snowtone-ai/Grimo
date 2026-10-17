@@ -1,0 +1,2658 @@
+{
+  "reference_sha256": "9b0f6402d98560056b14e19dad635b767491884a3a2e1b11df2bed47a1962814",
+  "rows": [
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.2760086710828227,
+      "oriented_volume_ratio_proxy": 0.9292648318260247,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 49,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395556676278683,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043994169704,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 177
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435022535860511,
+      "area_ratio_p99": 1.2760083925444758,
+      "oriented_volume_ratio_proxy": 0.9292647994424931,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 186
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 103,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557049331202,
+      "area_ratio_p99": 1.3232245227876065,
+      "oriented_volume_ratio_proxy": 0.9298044440321109,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 92
+        }
+      ]
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 169,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6291566116046257,
+      "area_ratio_p99": 1.4966669599905187,
+      "oriented_volume_ratio_proxy": 0.9709090443689358,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 206
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 477,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.627991260762922,
+      "area_ratio_p99": 1.491837470987137,
+      "oriented_volume_ratio_proxy": 0.9636191453880538,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 205
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 493,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.5745939468317888,
+      "area_ratio_p99": 1.5898538063308871,
+      "oriented_volume_ratio_proxy": 0.9752645844392217,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 186
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 109
+        }
+      ]
+    },
+    {
+      "frame": 505,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6258589580872862,
+      "area_ratio_p99": 1.373904405797315,
+      "oriented_volume_ratio_proxy": 0.9410128261617217,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 186
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.3901869592765742,
+      "area_ratio_p99": 1.9514041093982994,
+      "oriented_volume_ratio_proxy": 1.0099979477447025,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 183
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 109
+        }
+      ]
+    },
+    {
+      "frame": 508,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6385452481177848,
+      "area_ratio_p99": 1.318659618694188,
+      "oriented_volume_ratio_proxy": 0.9315253399641147,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 179
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.34101929787257884,
+      "area_ratio_p99": 2.095826113261121,
+      "oriented_volume_ratio_proxy": 1.0215635100351783,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 143
+        }
+      ]
+    },
+    {
+      "frame": 509,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.44455464947710316,
+      "area_ratio_p99": 1.8343732185840624,
+      "oriented_volume_ratio_proxy": 0.9984190660253206,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 179
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 109
+        }
+      ]
+    },
+    {
+      "frame": 511,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6366988542742829,
+      "area_ratio_p99": 1.3936574655804048,
+      "oriented_volume_ratio_proxy": 0.943681082966374,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 181
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6152489500711348,
+      "area_ratio_p99": 1.494107151540561,
+      "oriented_volume_ratio_proxy": 0.9637103242361734,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 184
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 514,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.5027498445759035,
+      "area_ratio_p99": 1.697504250639659,
+      "oriented_volume_ratio_proxy": 0.9646201529345391,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 184
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 95
+        }
+      ]
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 517,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.3314126011281707,
+      "area_ratio_p99": 2.0776140595130648,
+      "oriented_volume_ratio_proxy": 0.9855050865558559,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 162
+        }
+      ]
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6277794520007483,
+      "area_ratio_p99": 1.4800665670665816,
+      "oriented_volume_ratio_proxy": 0.9825124900286114,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 199
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 520,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.5027498445759035,
+      "area_ratio_p99": 1.697504250639659,
+      "oriented_volume_ratio_proxy": 0.9646201529345391,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 184
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 95
+        }
+      ]
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.5229022281997874,
+      "area_ratio_p99": 1.8328046387331027,
+      "oriented_volume_ratio_proxy": 1.036025419980665,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 208
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 523,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6366988542742829,
+      "area_ratio_p99": 1.3936574655804048,
+      "oriented_volume_ratio_proxy": 0.943681082966374,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 181
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 526,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6392551955732291,
+      "area_ratio_p99": 1.334239766643295,
+      "oriented_volume_ratio_proxy": 0.9455963462548337,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 177
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 529,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6011940505667,
+      "area_ratio_p99": 1.6412043700471701,
+      "oriented_volume_ratio_proxy": 0.9932895810773371,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 189
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 532,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.4533561443401626,
+      "area_ratio_p99": 2.0551270139304267,
+      "oriented_volume_ratio_proxy": 1.0412971214129403,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 213
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 533,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.41196443386164566,
+      "area_ratio_p99": 2.1987525121023723,
+      "oriented_volume_ratio_proxy": 1.057332454254945,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 227
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 535,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.4720980053870828,
+      "area_ratio_p99": 1.9659515422080622,
+      "oriented_volume_ratio_proxy": 1.0209068840229572,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 206
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 538,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.4624997529782788,
+      "area_ratio_p99": 1.8708483507352105,
+      "oriented_volume_ratio_proxy": 0.99509110529737,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 197
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 541,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.3314126011281707,
+      "area_ratio_p99": 2.0776140595130648,
+      "oriented_volume_ratio_proxy": 0.9855050865558559,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 162
+        }
+      ]
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.43700807396114794,
+      "area_ratio_p99": 2.0360217146295527,
+      "oriented_volume_ratio_proxy": 1.053588101574279,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 217
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 549,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.3314125438560179,
+      "area_ratio_p99": 2.0776165920056857,
+      "oriented_volume_ratio_proxy": 0.9855051332865368,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 162
+        }
+      ]
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 821,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 825,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 831,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 837,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 843,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 849,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 855,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 861,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 873,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 885,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 897,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435022535860511,
+      "area_ratio_p99": 1.2760083925444758,
+      "oriented_volume_ratio_proxy": 0.9292647994424931,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 909,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557049331202,
+      "area_ratio_p99": 1.3232245227876065,
+      "oriented_volume_ratio_proxy": 0.9298044440321109,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435022535860511,
+      "area_ratio_p99": 1.2760083925444758,
+      "oriented_volume_ratio_proxy": 0.9292647994424931,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 945,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557049331202,
+      "area_ratio_p99": 1.3232245227876065,
+      "oriented_volume_ratio_proxy": 0.9298044440321109,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435022535860511,
+      "area_ratio_p99": 1.2760083925444758,
+      "oriented_volume_ratio_proxy": 0.9292647994424931,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 969,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557049331202,
+      "area_ratio_p99": 1.3232245227876065,
+      "oriented_volume_ratio_proxy": 0.9298044440321109,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435022535860511,
+      "area_ratio_p99": 1.2760083925444758,
+      "oriented_volume_ratio_proxy": 0.9292647994424931,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 981,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557049331202,
+      "area_ratio_p99": 1.3232245227876065,
+      "oriented_volume_ratio_proxy": 0.9298044440321109,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 993,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1005,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.41196443386164566,
+      "area_ratio_p99": 2.1987525121023723,
+      "oriented_volume_ratio_proxy": 1.057332454254945,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 227
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1017,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.41196443386164566,
+      "area_ratio_p99": 2.1987525121023723,
+      "oriented_volume_ratio_proxy": 1.057332454254945,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 227
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.4227251062352507,
+      "area_ratio_p99": 2.0869231904394963,
+      "oriented_volume_ratio_proxy": 1.0717423687157186,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 216
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1029,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.3314126011281707,
+      "area_ratio_p99": 2.0776140595130648,
+      "oriented_volume_ratio_proxy": 0.9855050865558559,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 162
+        }
+      ]
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6401889511622791,
+      "area_ratio_p99": 1.3604750082488204,
+      "oriented_volume_ratio_proxy": 0.9500956620271606,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 196
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1041,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6314388691909295,
+      "area_ratio_p99": 1.3908565767808416,
+      "oriented_volume_ratio_proxy": 0.9485858714021436,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 186
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6286673436202771,
+      "area_ratio_p99": 1.4966669599905187,
+      "oriented_volume_ratio_proxy": 0.9680922619467757,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 204
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1053,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6306117311503757,
+      "area_ratio_p99": 1.5603464793032953,
+      "oriented_volume_ratio_proxy": 0.9644838207773239,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 194
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.5745939468317888,
+      "area_ratio_p99": 1.5898538063308871,
+      "oriented_volume_ratio_proxy": 0.9752645844392217,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 186
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 109
+        }
+      ]
+    },
+    {
+      "frame": 1065,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.5670169325362219,
+      "area_ratio_p99": 1.5769129029570899,
+      "oriented_volume_ratio_proxy": 0.9576350928925098,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 181
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.34101929787257884,
+      "area_ratio_p99": 2.095826113261121,
+      "oriented_volume_ratio_proxy": 1.0215635100351783,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 143
+        }
+      ]
+    },
+    {
+      "frame": 1077,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.3314126011281707,
+      "area_ratio_p99": 2.0776140595130648,
+      "oriented_volume_ratio_proxy": 0.9855050865558559,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 162
+        }
+      ]
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6076037107513105,
+      "area_ratio_p99": 1.5699861909861095,
+      "oriented_volume_ratio_proxy": 0.9958924304909155,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 197
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1089,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6029591301356001,
+      "area_ratio_p99": 1.6265555775859801,
+      "oriented_volume_ratio_proxy": 0.9887017902687298,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 183
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.43700807396114794,
+      "area_ratio_p99": 2.0360217146295527,
+      "oriented_volume_ratio_proxy": 1.053588101574279,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 217
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1101,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.4259145560447774,
+      "area_ratio_p99": 2.119718125847022,
+      "oriented_volume_ratio_proxy": 1.038621489841835,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 206
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.43700807396114794,
+      "area_ratio_p99": 2.0360217146295527,
+      "oriented_volume_ratio_proxy": 1.053588101574279,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 217
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1113,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.3314125438560179,
+      "area_ratio_p99": 2.0776165920056857,
+      "oriented_volume_ratio_proxy": 0.9855051332865368,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 162
+        }
+      ]
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.43700807396114794,
+      "area_ratio_p99": 2.0360217146295527,
+      "oriented_volume_ratio_proxy": 1.053588101574279,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 217
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 107
+        }
+      ]
+    },
+    {
+      "frame": 1125,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.4259145560447774,
+      "area_ratio_p99": 2.119718125847022,
+      "oriented_volume_ratio_proxy": 1.038621489841835,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 206
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.2760086710828227,
+      "oriented_volume_ratio_proxy": 0.9292648320523096,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 188
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 1137,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395556676278683,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043973005831,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 175
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Paw_L",
+      "finite": true,
+      "area_ratio_p01": 0.6435007893977006,
+      "area_ratio_p99": 1.276008594652465,
+      "oriented_volume_ratio_proxy": 0.9292648307339157,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 185
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 105
+        }
+      ]
+    },
+    {
+      "frame": 1149,
+      "mesh": "ShushuStatic_Paw_R",
+      "finite": true,
+      "area_ratio_p01": 0.6395557554073291,
+      "area_ratio_p99": 1.3232244956099601,
+      "oriented_volume_ratio_proxy": 0.9298043979813756,
+      "distal_nearest_signed_probes": [
+        {
+          "target": "ShushuStatic_Torso",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 180
+        },
+        {
+          "target": "ShushuStatic_Head",
+          "negative_side_vertices": 0,
+          "max_depth_H": 0,
+          "nearest_negative_examples": [],
+          "distal_triangle_crossings": [],
+          "bvh_candidate_pairs": 93
+        }
+      ]
+    }
+  ],
+  "scope": "Actual evaluated vertices for saved-roundtrip witnesses. Nearest-triangle signed distances can misclassify external points below the chin against an internal rim; retain raw values and witnesses. Distal triangle segment-crossing test after BVH broad phase excludes intentional shoulder attachment. Complement with 264-state ray parity and tip-gap audit. Volume is an oriented closed-surface proxy, not Human approval or all-space collision certification."
+}

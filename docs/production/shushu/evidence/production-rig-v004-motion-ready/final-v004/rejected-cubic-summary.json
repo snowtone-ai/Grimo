@@ -1,0 +1,11 @@
+{
+  "method": "Fixed root, endpoint-fitted length-constrained cubic",
+  "reason": "Low-amount curvature fold/collapse, distal penetration. Not adopted.",
+  "volume_range": [
+    0.7582373684233682,
+    1.1454144875855599
+  ],
+  "torso_inside_rows": 82,
+  "head_inside_rows": 25,
+  "anchor_origin_error": 0.0012378963232145227
+}

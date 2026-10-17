@@ -1,0 +1,2093 @@
+{
+  "inventory": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "vertices": 2223,
+      "triangles": 4204,
+      "shape_keys": 0,
+      "rest_bounds": [
+        [
+          0.1060650423169136,
+          -0.014461332000792027,
+          0.7588351368904114
+        ],
+        [
+          0.35090792179107666,
+          0.1852853149175644,
+          0.9977032542228699
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "vertices": 2199,
+      "triangles": 4238,
+      "shape_keys": 0,
+      "rest_bounds": [
+        [
+          -0.35082051157951355,
+          -0.014597511850297451,
+          0.759141743183136
+        ],
+        [
+          -0.10626494139432907,
+          0.18552742898464203,
+          0.9977964758872986
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "vertices": 779,
+      "triangles": 1408,
+      "shape_keys": 9,
+      "rest_bounds": [
+        [
+          0.06338490545749664,
+          -0.19690127670764923,
+          0.5926513075828552
+        ],
+        [
+          0.19667048752307892,
+          -0.055444709956645966,
+          0.73773193359375
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "vertices": 801,
+      "triangles": 1408,
+      "shape_keys": 9,
+      "rest_bounds": [
+        [
+          -0.19667066633701324,
+          -0.1969318389892578,
+          0.5926513075828552
+        ],
+        [
+          -0.06338512897491455,
+          -0.055448561906814575,
+          0.73773193359375
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "vertices": 38626,
+      "triangles": 39664,
+      "shape_keys": 44,
+      "rest_bounds": [
+        [
+          -0.29887595772743225,
+          -0.2717549502849579,
+          0.4771656095981598
+        ],
+        [
+          0.2992211878299713,
+          0.2815949022769928,
+          0.9424854516983032
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "vertices": 633,
+      "triangles": 832,
+      "shape_keys": 7,
+      "rest_bounds": [
+        [
+          0.08183278143405914,
+          -0.1910552978515625,
+          0.6127318739891052
+        ],
+        [
+          0.17826835811138153,
+          -0.11813357472419739,
+          0.71759033203125
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "vertices": 723,
+      "triangles": 840,
+      "shape_keys": 7,
+      "rest_bounds": [
+        [
+          -0.17826855182647705,
+          -0.19122308492660522,
+          0.6127318739891052
+        ],
+        [
+          -0.08183300495147705,
+          -0.11818690598011017,
+          0.71759033203125
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "vertices": 2304,
+      "triangles": 4096,
+      "shape_keys": 2,
+      "rest_bounds": [
+        [
+          -0.0430000014603138,
+          -0.26784953474998474,
+          0.6052800416946411
+        ],
+        [
+          0.04299956187605858,
+          -0.2299809604883194,
+          0.6160002946853638
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "vertices": 3948,
+      "triangles": 5790,
+      "shape_keys": 4,
+      "rest_bounds": [
+        [
+          -0.018058914691209793,
+          -0.2870787978172302,
+          0.6062011122703552
+        ],
+        [
+          0.018058642745018005,
+          -0.2626342177391052,
+          0.6505126953125
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 9
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "vertices": 257,
+      "triangles": 256,
+      "shape_keys": 2,
+      "rest_bounds": [
+        [
+          -0.035259999334812164,
+          -0.2358495444059372,
+          0.6052800416946411
+        ],
+        [
+          0.03525964170694351,
+          -0.2221059948205948,
+          0.6140802502632141
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "vertices": 1681,
+      "triangles": 2976,
+      "shape_keys": 439,
+      "rest_bounds": [
+        [
+          0.1144590675830841,
+          -0.11034378409385681,
+          0.29096856713294983
+        ],
+        [
+          0.3778322637081146,
+          0.0904812216758728,
+          0.5122617483139038
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "vertices": 1716,
+      "triangles": 2986,
+      "shape_keys": 439,
+      "rest_bounds": [
+        [
+          -0.3785812556743622,
+          -0.11045008897781372,
+          0.29148414731025696
+        ],
+        [
+          -0.11440647393465042,
+          0.09061384201049805,
+          0.5111791491508484
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "vertices": 762,
+      "triangles": 1520,
+      "shape_keys": 2,
+      "rest_bounds": [
+        [
+          -0.014000000432133675,
+          -0.24300000071525574,
+          0.6010000109672546
+        ],
+        [
+          0.014000000432133675,
+          -0.22499999403953552,
+          0.6069999933242798
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "vertices": 5621,
+      "triangles": 9278,
+      "shape_keys": 60,
+      "rest_bounds": [
+        [
+          -0.2442767471075058,
+          -0.24286353588104248,
+          1.0552838602961856e-08
+        ],
+        [
+          0.24368447065353394,
+          0.24739471077919006,
+          0.5151649117469788
+        ]
+      ],
+      "tiny_triangles_lt1e-10": 0
+    }
+  ],
+  "samples": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999915708725062,
+      "area_ratio_p99": 1.0000043392991036,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999915760988249,
+      "area_ratio_p99": 1.0000043206350626,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999908314192112,
+      "area_ratio_p99": 1.0000057919542449,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999924534885464,
+      "area_ratio_p99": 1.0000047225751751,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999915708725062,
+      "area_ratio_p99": 1.0000043392991036,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999915708725062,
+      "area_ratio_p99": 1.0000043392991036,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999915708725062,
+      "area_ratio_p99": 1.0000043392991036,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999915708725062,
+      "area_ratio_p99": 1.0000043392991036,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999924534885464,
+      "area_ratio_p99": 1.0000047225751751,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.999992283933741,
+      "area_ratio_p99": 1.0000043283760376,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999915708725062,
+      "area_ratio_p99": 1.0000043392991036,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999915708725062,
+      "area_ratio_p99": 1.0000043392991036,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999984450292223,
+      "area_ratio_p99": 1.0000020315478118,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999942072206152,
+      "area_ratio_p99": 1.0000021400994696,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999920565473696,
+      "area_ratio_p99": 1.0000070000926913,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999981464662078,
+      "area_ratio_p99": 1.0000021539300148,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999984450292223,
+      "area_ratio_p99": 1.0000020315478118,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999984450292223,
+      "area_ratio_p99": 1.0000020315478118,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999984450292223,
+      "area_ratio_p99": 1.0000020315478118,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999984450292223,
+      "area_ratio_p99": 1.0000020315478118,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999981464662078,
+      "area_ratio_p99": 1.0000021539300148,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.999998223210403,
+      "area_ratio_p99": 1.000002298941095,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999984450292223,
+      "area_ratio_p99": 1.0000020315478118,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999984450292223,
+      "area_ratio_p99": 1.0000020315478118,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999999140998416,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997214352866,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997270130964,
+      "area_ratio_p99": 1.0000096793051962,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999038434195,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999140998416,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999140998416,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999140998416,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999140998416,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999038434195,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997698199086,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999140998416,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999140998416,
+      "area_ratio_p99": 1.0000026182852055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999999186621831,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997349294375,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997470327725,
+      "area_ratio_p99": 1.0000091260352095,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999998848330403,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999186621831,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999186621831,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999186621831,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999186621831,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997516160858,
+      "area_ratio_p99": 1.0000023520789927,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997583309399,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999186621831,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999186621831,
+      "area_ratio_p99": 1.0000024421796265,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999979941582713,
+      "area_ratio_p99": 1.0000051598582906,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999955573070427,
+      "area_ratio_p99": 1.000007188731798,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999352331776867,
+      "area_ratio_p99": 1.000067292021089,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999975368925065,
+      "area_ratio_p99": 1.000005536190797,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.951439276152786,
+      "area_ratio_p99": 1.079142172133302,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.7597586014267532,
+      "area_ratio_p99": 1.404370094505808,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.5288119866345057,
+      "area_ratio_p99": 1.8268759299495712,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.8409797764325873,
+      "area_ratio_p99": 1.2643407134672568,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.54866162962812,
+      "area_ratio_p99": 1.868270810208045,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.5453176332401722,
+      "area_ratio_p99": 1.8384908575466492,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9001569193858525,
+      "area_ratio_p99": 1.200509048094412,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.6772978627293151,
+      "area_ratio_p99": 1.6034751338868016,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000013009369642,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.3237826042372039,
+      "area_ratio_p99": 1.03084820123675,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9966348278592789,
+      "area_ratio_p99": 1.002656029713535,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999262388233,
+      "area_ratio_p99": 1.0000012562581149,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999282212095,
+      "area_ratio_p99": 1.000001300620334,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.2354887931806468,
+      "area_ratio_p99": 1.0260455268096202,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.321946042524756,
+      "area_ratio_p99": 1.0308486169542972,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9966654702764818,
+      "area_ratio_p99": 1.0026534436833874,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999999275994286,
+      "area_ratio_p99": 1.0000012672414444,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999792327722947,
+      "area_ratio_p99": 1.000025341855967,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999435200905893,
+      "area_ratio_p99": 1.0000592553649825,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9995438098464892,
+      "area_ratio_p99": 1.0005103866702187,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999721958591191,
+      "area_ratio_p99": 1.0000210672721443,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9617564973700067,
+      "area_ratio_p99": 1.8600926005549872,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.8387513996173785,
+      "area_ratio_p99": 5.7736185323280225,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.7946582368345403,
+      "area_ratio_p99": 10.775075188782338,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.8840617997362463,
+      "area_ratio_p99": 4.088645637480638,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999721958591191,
+      "area_ratio_p99": 1.0000210672721443,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9190898077156248,
+      "area_ratio_p99": 3.0085643979992542,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9259025192243706,
+      "area_ratio_p99": 2.8153274103092003,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.8091193423119442,
+      "area_ratio_p99": 7.26973904171258,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999993710924526,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999993710924526,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999993737361317,
+      "area_ratio_p99": 1.0000228438989696,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999906308957126,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999993710924526,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999993710924526,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999993710924526,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999993710924526,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999906308957126,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9980729772264221,
+      "area_ratio_p99": 1.0007776275422529,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9941142117081282,
+      "area_ratio_p99": 1.0023400339628754,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999993710924526,
+      "area_ratio_p99": 1.0000006794118128,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999953311621803,
+      "area_ratio_p99": 1.0000097701264894,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9998503251115499,
+      "area_ratio_p99": 1.0000852559766773,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9990895298427311,
+      "area_ratio_p99": 1.00211197721915,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999903729883424,
+      "area_ratio_p99": 1.0000047086116575,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.8093801067938494,
+      "area_ratio_p99": 2.377595955230584,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.75879412285688,
+      "area_ratio_p99": 8.081214872126456,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.8687538551488483,
+      "area_ratio_p99": 15.267225080828387,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.6031622357741427,
+      "area_ratio_p99": 5.6499451255270055,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999903729883424,
+      "area_ratio_p99": 1.0000047086116575,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.6472063994853804,
+      "area_ratio_p99": 4.079950228954595,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.6676706476672516,
+      "area_ratio_p99": 3.7944510811797367,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.904892213879949,
+      "area_ratio_p99": 10.233056288668259,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999971372203353,
+      "area_ratio_p99": 1.00000253878573,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999971865151973,
+      "area_ratio_p99": 1.0000026098148056,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.999997126275673,
+      "area_ratio_p99": 1.0000026098148056,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999995363674191,
+      "area_ratio_p99": 1.000000828036963,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999971372203353,
+      "area_ratio_p99": 1.00000253878573,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999971372203353,
+      "area_ratio_p99": 1.00000253878573,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999971372203353,
+      "area_ratio_p99": 1.00000253878573,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999971372203353,
+      "area_ratio_p99": 1.00000253878573,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.4989486547878461,
+      "area_ratio_p99": 1.988330885924974,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.7936742791124017,
+      "area_ratio_p99": 1.3534611141086768,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999971372203353,
+      "area_ratio_p99": 1.00000253878573,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999971372203353,
+      "area_ratio_p99": 1.00000253878573,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999972176742753,
+      "area_ratio_p99": 1.0000027432293463,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972767555341,
+      "area_ratio_p99": 1.0000027028033458,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972767555341,
+      "area_ratio_p99": 1.0000027028033458,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999994429454138,
+      "area_ratio_p99": 1.000000414277832,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972176742753,
+      "area_ratio_p99": 1.0000027432293463,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972176742753,
+      "area_ratio_p99": 1.0000027432293463,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972176742753,
+      "area_ratio_p99": 1.0000027432293463,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972176742753,
+      "area_ratio_p99": 1.0000027432293463,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.3746366578827332,
+      "area_ratio_p99": 1.9758692462040743,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.5710797815959212,
+      "area_ratio_p99": 1.5924214133206236,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972176742753,
+      "area_ratio_p99": 1.0000027432293463,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999972176742753,
+      "area_ratio_p99": 1.0000027432293463,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999997883240193,
+      "area_ratio_p99": 1.0000002073319725,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999464256250532,
+      "area_ratio_p99": 1.00005608733215,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999331492547339,
+      "area_ratio_p99": 1.0001225005388896,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997883240193,
+      "area_ratio_p99": 1.0000002073319725,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 1.062853534980756,
+      "area_ratio_p99": 1.0975714369316982,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 1.3334196037723258,
+      "area_ratio_p99": 1.5303902608903204,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 1.7144595833666971,
+      "area_ratio_p99": 2.1668519294990953,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 1.214703255339764,
+      "area_ratio_p99": 1.3381191281513798,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999997883240193,
+      "area_ratio_p99": 1.0000002073319725,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 1.1408046229081759,
+      "area_ratio_p99": 1.2202015635178192,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 1.127632615739267,
+      "area_ratio_p99": 1.199418246367966,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 1.4427088326116988,
+      "area_ratio_p99": 1.71013174422397,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {},
+      "finite": true,
+      "area_ratio_p01": 0.9999958007003575,
+      "area_ratio_p99": 1.0000036726526114,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "Seat": 0.35
+      },
+      "finite": true,
+      "area_ratio_p01": 0.21260838117475614,
+      "area_ratio_p99": 2.2223105371534415,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "Seat": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.09809638581632726,
+      "area_ratio_p99": 2.2855715220932424,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "Seat": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.23297129211932743,
+      "area_ratio_p99": 3.9282726871519715,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "MouthOpen": 0.1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999958007003575,
+      "area_ratio_p99": 1.0000036726526114,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "MouthOpen": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999958007003575,
+      "area_ratio_p99": 1.0000036726526114,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "MouthOpen": 1
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999958007003575,
+      "area_ratio_p99": 1.0000036726526114,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "MouthOpen": 1,
+        "MouthClose": 0.67,
+        "Tongue": 0.33
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999958007003575,
+      "area_ratio_p99": 1.0000036726526114,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "Seat": 1,
+        "Hold.L": 1,
+        "SelfContact.R": 1,
+        "MouthClose": 1,
+        "Blink.R": 0.7
+      },
+      "finite": true,
+      "area_ratio_p01": 0.23297129211932743,
+      "area_ratio_p99": 3.9282726871519715,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "Seat": 0.73,
+        "Hold.L": 0.37,
+        "SelfContact.R": 0.63,
+        "Tongue": 0.4,
+        "Joy": 0.5
+      },
+      "finite": true,
+      "area_ratio_p01": 0.20976183724352096,
+      "area_ratio_p99": 3.2080684613424917,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "Smile": 1,
+        "MouthOpen": 0.2
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999958007003575,
+      "area_ratio_p99": 1.0000036726526114,
+      "collapse_new_lt1pct": 0
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "state": {
+        "Surprise": 1,
+        "MouthOpen": 0.6
+      },
+      "finite": true,
+      "area_ratio_p01": 0.9999958007003575,
+      "area_ratio_p99": 1.0000036726526114,
+      "collapse_new_lt1pct": 0
+    }
+  ],
+  "limits": "All 14 meshes inventoried; 12 focused states/mesh plus detailed paw/contact grid. Area ratios detect collapses, not aesthetic quality. Intentional eye/lid closures need visual interpretation; no assertion that arbitrary continuous inputs are defect-free."
+}

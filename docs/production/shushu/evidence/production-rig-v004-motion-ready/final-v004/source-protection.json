@@ -1,0 +1,42 @@
+{
+  "original_asset_checks": [
+    {
+      "checkout": "isolated",
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003.blend",
+      "sha256": "a2ae57d6ebc6f7b258005b38abe1823ce224ebf019bb5f9e0f4ccd0f6d752a80",
+      "unchanged_from_authority": true
+    },
+    {
+      "checkout": "source-production",
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003.blend",
+      "sha256": "a2ae57d6ebc6f7b258005b38abe1823ce224ebf019bb5f9e0f4ccd0f6d752a80",
+      "unchanged_from_authority": true
+    },
+    {
+      "checkout": "isolated",
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003-proof.blend",
+      "sha256": "3697d43e2dea0a77edf447f2cf2e58e75b2898ca284c5c941625bcc7fb745dc7",
+      "unchanged_from_authority": true
+    },
+    {
+      "checkout": "source-production",
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003-proof.blend",
+      "sha256": "3697d43e2dea0a77edf447f2cf2e58e75b2898ca284c5c941625bcc7fb745dc7",
+      "unchanged_from_authority": true
+    },
+    {
+      "checkout": "isolated",
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003.glb",
+      "sha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+      "unchanged_from_authority": true
+    },
+    {
+      "checkout": "source-production",
+      "path": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v004-motion-gate-v003.glb",
+      "sha256": "11dc599c13d14db8c6ddd68068059738cf4ec6ac81c7ff706530eff65578c892",
+      "unchanged_from_authority": true
+    }
+  ],
+  "protection": "New files only; source author/proof/GLB payloads remain authority bytes in both checkouts. Initial dirty assets/PNGs and concurrent Pino/Carol work were not edited. Main knowledge commit remains an ancestor of current main.",
+  "knowledge_main_commit": "8b5d13bc38061c0d574444416a039e70b9c61930"
+}

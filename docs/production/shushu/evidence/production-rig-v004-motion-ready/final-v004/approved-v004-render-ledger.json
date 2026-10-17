@@ -1,0 +1,52 @@
+{
+  "source": "assets/grimo/production/shushu/tripo/geometry-v003/rigging/shushu-v006-production-rig-v004-proof.blend",
+  "source_sha256": "0aa22cf6dc398ff73ba209d99b50b819635ae3d547f73e6bc9e795c8ce21cbf6",
+  "resolution": [
+    640,
+    640
+  ],
+  "fps": 24,
+  "images": [
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f1-front.png",
+      "frame": 1,
+      "sha256": "1021218e46fc475b89b7bb71ac456c8549a57455877035bd67dde17e11405bc8"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f1-side.png",
+      "frame": 1,
+      "sha256": "fd1395182404c65036c114313ecd6d686712301f4c2085b79db89cc2d74b3506"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f1-3q.png",
+      "frame": 1,
+      "sha256": "b8d942976b4488c1167bd4d2e62b9273382578f40593757baa479c71589536cd"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f1-3qR.png",
+      "frame": 1,
+      "sha256": "b67d52f590196bfe79c1ce7aa390e6e710726517c7234bfba9070e4fa5e52426"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f103-front.png",
+      "frame": 103,
+      "sha256": "fb96c89c5539f8726946eeba3d0a235935bf5c2a6bc15f70e69c4ea9c16bfeb9"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f103-side.png",
+      "frame": 103,
+      "sha256": "1cac4ae4677b00c563f150d964b4d63a7615ad902c597ffd7b53e2a2bfe0c2cc"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f103-3q.png",
+      "frame": 103,
+      "sha256": "2a7ca9034287b5c4e0578ac8f764b42146ddcdafc3ec89a83cb753f60f37f810"
+    },
+    {
+      "file": "docs/production/shushu/evidence/production-rig-v004-motion-ready/final-v004/approved-v004/f103-3qR.png",
+      "frame": 103,
+      "sha256": "3e89eed98d8831d31e42ce49daed6eef6c26323a5935df0fe557c9ae66099038"
+    }
+  ],
+  "scope": "Actual evaluated saved frames, no synthetic interpolation; diagnostic excerpt only."
+}

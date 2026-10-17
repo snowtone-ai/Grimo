@@ -1,0 +1,1175 @@
+{
+  "rest_all_meshes": [
+    {
+      "mesh": "ShushuStatic_Ear_L",
+      "changed_vertices": 2223,
+      "delta_max": 0.002999987373674461,
+      "adjacent_laplacian_p99_before": 0.009223989621692174,
+      "adjacent_laplacian_p99_after": 0.008754727447317626,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Ear_R",
+      "changed_vertices": 2199,
+      "delta_max": 0.0030000074313302483,
+      "adjacent_laplacian_p99_before": 0.008730755924862334,
+      "adjacent_laplacian_p99_after": 0.008308486218984263,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Eye_L",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.01968865927756644,
+      "adjacent_laplacian_p99_after": 0.01968865927756644,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Eye_R",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.03353461746623327,
+      "adjacent_laplacian_p99_after": 0.03353461746623327,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Head",
+      "changed_vertices": 17499,
+      "delta_max": 0.0059999222049084465,
+      "adjacent_laplacian_p99_before": 0.013399104431495465,
+      "adjacent_laplacian_p99_after": 0.012131632999677072,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_L",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.006496859073567946,
+      "adjacent_laplacian_p99_after": 0.006496859073567946,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_LidWall_R",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.012230608518268824,
+      "adjacent_laplacian_p99_after": 0.012230608518268824,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_MouthInterior",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.002123346648414999,
+      "adjacent_laplacian_p99_after": 0.002123346648414999,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Nose",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.000981847012717301,
+      "adjacent_laplacian_p99_after": 0.000981847012717301,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_OralBowl",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.012180177828860992,
+      "adjacent_laplacian_p99_after": 0.012180177828860992,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Paw_L",
+      "changed_vertices": 1681,
+      "delta_max": 0.0029988263229232333,
+      "adjacent_laplacian_p99_before": 0.01232989904567132,
+      "adjacent_laplacian_p99_after": 0.011059013895381513,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Paw_R",
+      "changed_vertices": 1716,
+      "delta_max": 0.0029994072475436648,
+      "adjacent_laplacian_p99_before": 0.01335166014273478,
+      "adjacent_laplacian_p99_after": 0.012850583972764567,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Tongue",
+      "changed_vertices": 0,
+      "delta_max": 0.0,
+      "adjacent_laplacian_p99_before": 0.00041599282842304594,
+      "adjacent_laplacian_p99_after": 0.00041599282842304594,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    },
+    {
+      "mesh": "ShushuStatic_Torso",
+      "changed_vertices": 5161,
+      "delta_max": 0.005993820727811522,
+      "adjacent_laplacian_p99_before": 0.01473860317157968,
+      "adjacent_laplacian_p99_after": 0.012535957427113964,
+      "limits": "Adjacent Laplacian is a geometric witness, includes intentional curvature and UV seams; no aesthetic PASS threshold."
+    }
+  ],
+  "lower_abdomen": [
+    {
+      "frame": 1,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 1.0000029888419641,
+      "candidate_edge_ratio_max": 1.0000063489810043,
+      "source_gt2": 0,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.0011369496351107955,
+            -0.09931177645921707,
+            0.13366693258285522
+          ],
+          "candidate": [
+            0.0026132212951779366,
+            -0.09395573288202286,
+            0.1357671022415161
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            0.0011921434197574854,
+            -0.10142511874437332,
+            0.13385003805160522
+          ],
+          "candidate": [
+            -0.0028574687894433737,
+            -0.09998949617147446,
+            0.13778197765350342
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09707632660865784,
+            -0.19432039558887482,
+            0.2053528130054474
+          ],
+          "candidate": [
+            -0.09626069664955139,
+            -0.18976382911205292,
+            0.2081039696931839
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.0952986627817154,
+            -0.1946408450603485,
+            0.204559326171875
+          ],
+          "candidate": [
+            -0.09093189239501953,
+            -0.19105127453804016,
+            0.204957515001297
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.02629667893052101,
+            -0.21958912909030914,
+            0.2049560546875
+          ],
+          "candidate": [
+            -0.026090871542692184,
+            -0.21636225283145905,
+            0.20959922671318054
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.023866716772317886,
+            -0.21975699067115784,
+            0.204681396484375
+          ],
+          "candidate": [
+            -0.021720854565501213,
+            -0.21447952091693878,
+            0.20560085773468018
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 103,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9366939913077985,
+      "candidate_edge_ratio_max": 1.6023967205945235,
+      "source_gt2": 61,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007068280130624771,
+            -0.1126774400472641,
+            0.08652633428573608
+          ],
+          "candidate": [
+            0.006811649538576603,
+            -0.11367631703615189,
+            0.09079829603433609
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.006873984355479479,
+            -0.12239013612270355,
+            0.08433619141578674
+          ],
+          "candidate": [
+            -0.00040603941306471825,
+            -0.11780983209609985,
+            0.0906539186835289
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09775788336992264,
+            -0.17788627743721008,
+            0.09470320492982864
+          ],
+          "candidate": [
+            -0.09504348039627075,
+            -0.1731693297624588,
+            0.0954848974943161
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.08902513980865479,
+            -0.17822621762752533,
+            0.09040378034114838
+          ],
+          "candidate": [
+            -0.08958128094673157,
+            -0.17692072689533234,
+            0.09331583231687546
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026145773008465767,
+            -0.20431232452392578,
+            0.09417937695980072
+          ],
+          "candidate": [
+            -0.026166750118136406,
+            -0.19877085089683533,
+            0.09533067792654037
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019439633935689926,
+            -0.1993693858385086,
+            0.08677912503480911
+          ],
+          "candidate": [
+            -0.022137193009257317,
+            -0.19765536487102509,
+            0.09250283986330032
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1085,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9665735818728125,
+      "candidate_edge_ratio_max": 1.4387044625970007,
+      "source_gt2": 60,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.005724572576582432,
+            -0.11546291410923004,
+            0.1256844401359558
+          ],
+          "candidate": [
+            0.004205125849694014,
+            -0.11910854279994965,
+            0.12593111395835876
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.004838134627789259,
+            -0.12935276329517365,
+            0.12563881278038025
+          ],
+          "candidate": [
+            -0.003729606047272682,
+            -0.1276402324438095,
+            0.12748225033283234
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09854015707969666,
+            -0.22978320717811584,
+            0.17831292748451233
+          ],
+          "candidate": [
+            -0.09572242200374603,
+            -0.22367192804813385,
+            0.17785808444023132
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.0910649523139,
+            -0.22826674580574036,
+            0.17216192185878754
+          ],
+          "candidate": [
+            -0.09007885307073593,
+            -0.22614893317222595,
+            0.17550872266292572
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026355700567364693,
+            -0.25637757778167725,
+            0.17906376719474792
+          ],
+          "candidate": [
+            -0.026269299909472466,
+            -0.2501550614833832,
+            0.1795574426651001
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019217532128095627,
+            -0.2514609098434448,
+            0.17096969485282898
+          ],
+          "candidate": [
+            -0.02214820496737957,
+            -0.2483450174331665,
+            0.1758899986743927
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1089,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.993428723621135,
+      "candidate_edge_ratio_max": 1.5550151334417948,
+      "source_gt2": 62,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007081795018166304,
+            -0.127376526594162,
+            0.12552466988563538
+          ],
+          "candidate": [
+            0.005381183233112097,
+            -0.131575807929039,
+            0.12494716048240662
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.005749159026890993,
+            -0.1413203775882721,
+            0.12455159425735474
+          ],
+          "candidate": [
+            -0.0023841417860239744,
+            -0.1389881819486618,
+            0.12581132352352142
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09845815598964691,
+            -0.2316615730524063,
+            0.15146873891353607
+          ],
+          "candidate": [
+            -0.09559372067451477,
+            -0.22616365551948547,
+            0.15162011981010437
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.09020496159791946,
+            -0.23076099157333374,
+            0.1461651474237442
+          ],
+          "candidate": [
+            -0.08999960124492645,
+            -0.22920694947242737,
+            0.1491629183292389
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026104414835572243,
+            -0.2583863139152527,
+            0.15157783031463623
+          ],
+          "candidate": [
+            -0.026260580867528915,
+            -0.25225600600242615,
+            0.15217523276805878
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.01910395920276642,
+            -0.2532612681388855,
+            0.14355254173278809
+          ],
+          "candidate": [
+            -0.02216457761824131,
+            -0.2506914436817169,
+            0.14874373376369476
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1095,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 5.103740359737395,
+      "candidate_edge_ratio_max": 1.8134150736796069,
+      "source_gt2": 68,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007561882957816124,
+            -0.13291674852371216,
+            0.10561478137969971
+          ],
+          "candidate": [
+            0.006701973266899586,
+            -0.13432303071022034,
+            0.10777892917394638
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.0064127822406589985,
+            -0.1444687843322754,
+            0.10379698872566223
+          ],
+          "candidate": [
+            -0.0005184994079172611,
+            -0.1398034691810608,
+            0.10782808065414429
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09802741557359695,
+            -0.21261103451251984,
+            0.11278937757015228
+          ],
+          "candidate": [
+            -0.09525103121995926,
+            -0.20789483189582825,
+            0.11353708803653717
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.089360810816288,
+            -0.21249336004257202,
+            0.10838718712329865
+          ],
+          "candidate": [
+            -0.08977177739143372,
+            -0.2117546647787094,
+            0.11140134930610657
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026021601632237434,
+            -0.2392345666885376,
+            0.11208143085241318
+          ],
+          "candidate": [
+            -0.026199301704764366,
+            -0.23342634737491608,
+            0.11301052570343018
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.01924727112054825,
+            -0.23419082164764404,
+            0.10451658070087433
+          ],
+          "candidate": [
+            -0.022152304649353027,
+            -0.23225921392440796,
+            0.11003187298774719
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1101,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9366939913077985,
+      "candidate_edge_ratio_max": 1.6023967205945235,
+      "source_gt2": 61,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007068280130624771,
+            -0.1126774400472641,
+            0.08652633428573608
+          ],
+          "candidate": [
+            0.006811649538576603,
+            -0.11367631703615189,
+            0.09079829603433609
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.006873984355479479,
+            -0.12239013612270355,
+            0.08433619141578674
+          ],
+          "candidate": [
+            -0.00040603941306471825,
+            -0.11780983209609985,
+            0.0906539186835289
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09775788336992264,
+            -0.17788627743721008,
+            0.09470320492982864
+          ],
+          "candidate": [
+            -0.09504348039627075,
+            -0.1731693297624588,
+            0.0954848974943161
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.08902513980865479,
+            -0.17822621762752533,
+            0.09040378034114838
+          ],
+          "candidate": [
+            -0.08958128094673157,
+            -0.17692072689533234,
+            0.09331583231687546
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026145773008465767,
+            -0.20431232452392578,
+            0.09417937695980072
+          ],
+          "candidate": [
+            -0.026166750118136406,
+            -0.19877085089683533,
+            0.09533067792654037
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019439633935689926,
+            -0.1993693858385086,
+            0.08677912503480911
+          ],
+          "candidate": [
+            -0.022137193009257317,
+            -0.19765536487102509,
+            0.09250283986330032
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1107,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9366939913077985,
+      "candidate_edge_ratio_max": 1.6023967205945235,
+      "source_gt2": 61,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007068280130624771,
+            -0.1126774400472641,
+            0.08652633428573608
+          ],
+          "candidate": [
+            0.006811649538576603,
+            -0.11367631703615189,
+            0.09079829603433609
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.006873984355479479,
+            -0.12239013612270355,
+            0.08433619141578674
+          ],
+          "candidate": [
+            -0.00040603941306471825,
+            -0.11780983209609985,
+            0.0906539186835289
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09775788336992264,
+            -0.17788627743721008,
+            0.09470320492982864
+          ],
+          "candidate": [
+            -0.09504348039627075,
+            -0.1731693297624588,
+            0.0954848974943161
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.08902513980865479,
+            -0.17822621762752533,
+            0.09040378034114838
+          ],
+          "candidate": [
+            -0.08958128094673157,
+            -0.17692072689533234,
+            0.09331583231687546
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026145773008465767,
+            -0.20431232452392578,
+            0.09417937695980072
+          ],
+          "candidate": [
+            -0.026166750118136406,
+            -0.19877085089683533,
+            0.09533067792654037
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019439633935689926,
+            -0.1993693858385086,
+            0.08677912503480911
+          ],
+          "candidate": [
+            -0.022137193009257317,
+            -0.19765536487102509,
+            0.09250283986330032
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1113,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9366939913077985,
+      "candidate_edge_ratio_max": 1.6023967205945235,
+      "source_gt2": 61,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007068280130624771,
+            -0.1126774400472641,
+            0.08652633428573608
+          ],
+          "candidate": [
+            0.006811649538576603,
+            -0.11367631703615189,
+            0.09079829603433609
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.006873984355479479,
+            -0.12239013612270355,
+            0.08433619141578674
+          ],
+          "candidate": [
+            -0.00040603941306471825,
+            -0.11780983209609985,
+            0.0906539186835289
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09775788336992264,
+            -0.17788627743721008,
+            0.09470320492982864
+          ],
+          "candidate": [
+            -0.09504348039627075,
+            -0.1731693297624588,
+            0.0954848974943161
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.08902513980865479,
+            -0.17822621762752533,
+            0.09040378034114838
+          ],
+          "candidate": [
+            -0.08958128094673157,
+            -0.17692072689533234,
+            0.09331583231687546
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026145773008465767,
+            -0.20431232452392578,
+            0.09417937695980072
+          ],
+          "candidate": [
+            -0.026166750118136406,
+            -0.19877085089683533,
+            0.09533067792654037
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019439633935689926,
+            -0.1993693858385086,
+            0.08677912503480911
+          ],
+          "candidate": [
+            -0.022137193009257317,
+            -0.19765536487102509,
+            0.09250283986330032
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1117,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9366939913077985,
+      "candidate_edge_ratio_max": 1.6023967205945235,
+      "source_gt2": 61,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007068280130624771,
+            -0.1126774400472641,
+            0.08652633428573608
+          ],
+          "candidate": [
+            0.006811649538576603,
+            -0.11367631703615189,
+            0.09079829603433609
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.006873984355479479,
+            -0.12239013612270355,
+            0.08433619141578674
+          ],
+          "candidate": [
+            -0.00040603941306471825,
+            -0.11780983209609985,
+            0.0906539186835289
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09775788336992264,
+            -0.17788627743721008,
+            0.09470320492982864
+          ],
+          "candidate": [
+            -0.09504348039627075,
+            -0.1731693297624588,
+            0.0954848974943161
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.08902513980865479,
+            -0.17822621762752533,
+            0.09040378034114838
+          ],
+          "candidate": [
+            -0.08958128094673157,
+            -0.17692072689533234,
+            0.09331583231687546
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026145773008465767,
+            -0.20431232452392578,
+            0.09417937695980072
+          ],
+          "candidate": [
+            -0.026166750118136406,
+            -0.19877085089683533,
+            0.09533067792654037
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019439633935689926,
+            -0.1993693858385086,
+            0.08677912503480911
+          ],
+          "candidate": [
+            -0.022137193009257317,
+            -0.19765536487102509,
+            0.09250283986330032
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1119,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9366939913077985,
+      "candidate_edge_ratio_max": 1.6023967205945235,
+      "source_gt2": 61,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007068280130624771,
+            -0.1126774400472641,
+            0.08652633428573608
+          ],
+          "candidate": [
+            0.006811649538576603,
+            -0.11367631703615189,
+            0.09079829603433609
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.006873984355479479,
+            -0.12239013612270355,
+            0.08433619141578674
+          ],
+          "candidate": [
+            -0.00040603941306471825,
+            -0.11780983209609985,
+            0.0906539186835289
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09775788336992264,
+            -0.17788627743721008,
+            0.09470320492982864
+          ],
+          "candidate": [
+            -0.09504348039627075,
+            -0.1731693297624588,
+            0.0954848974943161
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.08902513980865479,
+            -0.17822621762752533,
+            0.09040378034114838
+          ],
+          "candidate": [
+            -0.08958128094673157,
+            -0.17692072689533234,
+            0.09331583231687546
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026145773008465767,
+            -0.20431232452392578,
+            0.09417937695980072
+          ],
+          "candidate": [
+            -0.026166750118136406,
+            -0.19877085089683533,
+            0.09533067792654037
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019439633935689926,
+            -0.1993693858385086,
+            0.08677912503480911
+          ],
+          "candidate": [
+            -0.022137193009257317,
+            -0.19765536487102509,
+            0.09250283986330032
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1125,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 4.9366939913077985,
+      "candidate_edge_ratio_max": 1.6023967205945235,
+      "source_gt2": 61,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.007068280130624771,
+            -0.1126774400472641,
+            0.08652633428573608
+          ],
+          "candidate": [
+            0.006811649538576603,
+            -0.11367631703615189,
+            0.09079829603433609
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            -0.006873984355479479,
+            -0.12239013612270355,
+            0.08433619141578674
+          ],
+          "candidate": [
+            -0.00040603941306471825,
+            -0.11780983209609985,
+            0.0906539186835289
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09775788336992264,
+            -0.17788627743721008,
+            0.09470320492982864
+          ],
+          "candidate": [
+            -0.09504348039627075,
+            -0.1731693297624588,
+            0.0954848974943161
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.08902513980865479,
+            -0.17822621762752533,
+            0.09040378034114838
+          ],
+          "candidate": [
+            -0.08958128094673157,
+            -0.17692072689533234,
+            0.09331583231687546
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.026145773008465767,
+            -0.20431232452392578,
+            0.09417937695980072
+          ],
+          "candidate": [
+            -0.026166750118136406,
+            -0.19877085089683533,
+            0.09533067792654037
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.019439633935689926,
+            -0.1993693858385086,
+            0.08677912503480911
+          ],
+          "candidate": [
+            -0.022137193009257317,
+            -0.19765536487102509,
+            0.09250283986330032
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1149,
+      "region": "same original belly edges, rest z .17..27, y<-.08; each version normalized to its own repaired Basis",
+      "source_edge_ratio_max": 1.0000029888419641,
+      "candidate_edge_ratio_max": 1.0000063489810043,
+      "source_gt2": 0,
+      "candidate_gt2": 0,
+      "witness_vertices": [
+        {
+          "index": 1561,
+          "source": [
+            0.0011369496351107955,
+            -0.09931177645921707,
+            0.13366693258285522
+          ],
+          "candidate": [
+            0.0026132212951779366,
+            -0.09395573288202286,
+            0.1357671022415161
+          ]
+        },
+        {
+          "index": 1590,
+          "source": [
+            0.0011921434197574854,
+            -0.10142511874437332,
+            0.13385003805160522
+          ],
+          "candidate": [
+            -0.0028574687894433737,
+            -0.09998949617147446,
+            0.13778197765350342
+          ]
+        },
+        {
+          "index": 2406,
+          "source": [
+            -0.09707632660865784,
+            -0.19432039558887482,
+            0.2053528130054474
+          ],
+          "candidate": [
+            -0.09626069664955139,
+            -0.18976382911205292,
+            0.2081039696931839
+          ]
+        },
+        {
+          "index": 2411,
+          "source": [
+            -0.0952986627817154,
+            -0.1946408450603485,
+            0.204559326171875
+          ],
+          "candidate": [
+            -0.09093189239501953,
+            -0.19105127453804016,
+            0.204957515001297
+          ]
+        },
+        {
+          "index": 2577,
+          "source": [
+            -0.02629667893052101,
+            -0.21958912909030914,
+            0.2049560546875
+          ],
+          "candidate": [
+            -0.026090871542692184,
+            -0.21636225283145905,
+            0.20959922671318054
+          ]
+        },
+        {
+          "index": 2583,
+          "source": [
+            -0.023866716772317886,
+            -0.21975699067115784,
+            0.204681396484375
+          ],
+          "candidate": [
+            -0.021720854565501213,
+            -0.21447952091693878,
+            0.20560085773468018
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": "Actual vertex/edge measurements before shading. No universal certification of all continuous inputs; full native views and transitions remain a Human gate."
+}
