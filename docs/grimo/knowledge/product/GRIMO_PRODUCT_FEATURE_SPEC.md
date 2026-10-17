@@ -6,6 +6,8 @@
 **Scope:** Grimo画面、Collection画面、Task/Calendarとの報酬連動、Food/Wear/Special/Secret Motion/Gift、3匹の反応収集、MVP開発順。
 **Not in scope:** 最終的なデータベース製品、クラウド会社、コード構成、Blender実装手順の詳細。
 
+**Initial-release amendment (Human, 2026-10-17):** 初回の実用版は**Shushuのみ**、Jill/Pinoは後日追加、Carolは廃止。個人・家族による非商用・端末ごとの独立利用で、クラウド同期と旧task-plantデータ移行は不要。3匹向けのCollection/Reactionルールは将来拡張の正式仕様として保持し、初回から未利用キャラの3DとMotionを要求しない。保存・配備は[Local-first Architecture](GRIMO_LOCAL_FIRST_ARCHITECTURE.md)に従う。
+
 ---
 
 # 0. この資料の位置づけ
