@@ -99,6 +99,8 @@
       "sha256": "1d1c65ed7e08b0085b76e51205b6a5984181ed6e912f3050d8ad7555c83644a9"
     }
   ],
-  "full_model_complete": false,
-  "remaining": "Eye appearance Human GO. Full model acceptance is not inferred from the scoped feature approvals."
+  "full_model_complete": true,
+  "remaining": "None within the accepted v009 model delivery scope. Full motion-library production and mobile certification were outside this verification scope.",
+  "full_model_human_go": "Human GO: 2026-10-18; direct answer: モデル全体も完成GO",
+  "human_approval_record": "HumanApproval.json"
 }

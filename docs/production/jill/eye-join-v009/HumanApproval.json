@@ -1,0 +1,25 @@
+{
+  "date_jst": "2026-10-18",
+  "recorded_utc": "2026-10-17T17:27:56.607084+00:00",
+  "source": "Direct Human answer in this task",
+  "decision": "Human full model completion GO",
+  "answer": "モデル全体も完成GO",
+  "approved_revision": "5b21ce441e97ca98e8064b2376b3226fcf3b1cfc",
+  "scope": "Textured Jill v009 including shown full body, blink GIF, saved blend, GLB reimport and actual runtime verification",
+  "full_model_complete": true,
+  "artifacts": [
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-join-v009/jill-textured-rig-v009.blend",
+      "sha256": "aa527e94825a3daa126925b7e6ab6df225d36c8add980b23bd4fbd530ef7f339"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-join-v009/jill-textured-rig-v009.glb",
+      "sha256": "1ac1d143c644011d06d899c7accfa36ef225bebc16830c1d39540ef142dfce67"
+    },
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-join-v009/jill-basecolor-v009.png",
+      "sha256": "b6fece1e9ead0acbf79a7241ea7dec0af82128128bae18d86b5dde44ffe3d34a"
+    }
+  ],
+  "note": "Approval record only; model and texture binaries unchanged."
+}

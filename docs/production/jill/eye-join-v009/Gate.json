@@ -4,6 +4,8 @@
   "horns": "unchanged / no change needed",
   "eye_join_technical": true,
   "eye_appearance": "Human GO: 2026-10-18",
-  "full_model_complete": false,
-  "remaining": "Physical floating outer lid bands corrected bilaterally; Human eye appearance GO received. Full model acceptance is not inferred."
+  "full_model_complete": true,
+  "remaining": "None within the accepted v009 model delivery scope. Full motion-library production and mobile certification were outside this verification scope.",
+  "full_model_human_go": "Human GO: 2026-10-18; direct answer: モデル全体も完成GO",
+  "human_approval_record": "HumanApproval.json"
 }

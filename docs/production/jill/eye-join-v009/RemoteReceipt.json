@@ -4,13 +4,16 @@
   "artifact_commit": "9d319f3d2e352762b055e6d7fbbcfa172fb82217",
   "remote_head_at_artifact_publish": "9d319f3d2e352762b055e6d7fbbcfa172fb82217",
   "match": true,
-  "manifest_sha256": "04c003c8a511683fe58caf3932fd503cef1974b5f73486f6a76e40867a86c816",
   "human_decisions": {
     "mouth": "GO",
     "clover": "OK",
     "horns": "unchanged / no change needed",
-    "eyes": "GO (2026-10-18)"
+    "eyes": "GO (2026-10-18)",
+    "full_model": "Explicit Human completion GO: 2026-10-18"
   },
   "technical_verification": "saved blend / fresh GLB import / actual static and bounded PlayCanvas / recovery PASS",
-  "full_model_human_go": "not inferred from scoped approvals"
+  "full_model_human_go": "Explicitly received: モデル全体も完成GO",
+  "manifest_sha256_at_artifact_publish": "04c003c8a511683fe58caf3932fd503cef1974b5f73486f6a76e40867a86c816",
+  "completion_manifest_sha256": "30856fcc1b7914f1d4450a0b3f55466a61af70252ffeea1249c7d4acc3932a88",
+  "approval_record": "HumanApproval.json"
 }

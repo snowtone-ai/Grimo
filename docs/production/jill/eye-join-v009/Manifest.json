@@ -1,8 +1,13 @@
 {
   "branch": "codex/jill-texture-return-v005-20261017",
   "base": "cc080bc",
-  "scope": "Bilateral local lid/skin join and Blink correction; original eye Basis/approved mouth/clover/horns preserved; Human eye appearance GO",
+  "scope": "Jill v009 textured model: explicit Human full model completion GO 2026-10-18. Approval record only; approved model/texture binaries unchanged.",
   "files": [
+    {
+      "path": "assets/grimo/production/jill/tripo/eye-join-v009/README.md",
+      "bytes": 1319,
+      "sha256": "3584ebd7f7acf277d1b236812dded9f42382c348ad6ff81aaefbe70c39a129ac"
+    },
     {
       "path": "assets/grimo/production/jill/tripo/eye-join-v009/jill-basecolor-v009.png",
       "bytes": 11945409,
@@ -24,9 +29,24 @@
       "sha256": "1ac1d143c644011d06d899c7accfa36ef225bebc16830c1d39540ef142dfce67"
     },
     {
-      "path": "assets/grimo/production/jill/tripo/eye-join-v009/README.md",
-      "bytes": 1147,
-      "sha256": "e79c354dd45085cf286533123c0642a1926333e677ca415ecd5b8c0ad5adbc7c"
+      "path": "docs/production/jill/HANDOFF.md",
+      "bytes": 3168,
+      "sha256": "5c715d93ac1f180c5457ed2c081d32ff15a9bbc16687435690a93d23a9295f6e"
+    },
+    {
+      "path": "docs/production/jill/eye-join-v009/Evidence.md",
+      "bytes": 5336,
+      "sha256": "76bb351d6d5711a1fda0784c6cb841b402fcb810b5362c4a946a5317c8c7e7c6"
+    },
+    {
+      "path": "docs/production/jill/eye-join-v009/Gate.json",
+      "bytes": 514,
+      "sha256": "1028f5d43c07abd8c6e4cb0d42d939afe10064bfdcef8d6a28c9433a101ec378"
+    },
+    {
+      "path": "docs/production/jill/eye-join-v009/HumanApproval.json",
+      "bytes": 1135,
+      "sha256": "3b33fce370439c2458a056d6ea25e717b6dd36f0eaca1d6176cc65db204abdd2"
     },
     {
       "path": "docs/production/jill/eye-join-v009/blink-runtime.gif",
@@ -94,11 +114,6 @@
       "sha256": "3ea62c1e3e765ee53a6b191c608c402114f94e97ee466fc7a2e83a445a8669c1"
     },
     {
-      "path": "docs/production/jill/eye-join-v009/Evidence.md",
-      "bytes": 5095,
-      "sha256": "185a04d4c7d65ea45b723074e1919598c76cdd9b71d698046bbbb57f9e714fa7"
-    },
-    {
       "path": "docs/production/jill/eye-join-v009/eye-before-after.png",
       "bytes": 1565420,
       "sha256": "9c9ca2a139fcb2dd132e9e1594ae4bb5c3a8c4e5e41595c06f92d8dc4e7bc1c5"
@@ -107,11 +122,6 @@
       "path": "docs/production/jill/eye-join-v009/eye-detail-before-after.png",
       "bytes": 328349,
       "sha256": "8935ad8e41f090d42823d6e6c530f0c59e53c2dc702c471e12f3903aaefa3338"
-    },
-    {
-      "path": "docs/production/jill/eye-join-v009/Gate.json",
-      "bytes": 356,
-      "sha256": "690cf4b9be38c023fce6243a32da19451182aa07db855445a139414ef1806042"
     },
     {
       "path": "docs/production/jill/eye-join-v009/mouth-pixel-regression.json",
@@ -790,13 +800,8 @@
     },
     {
       "path": "docs/production/jill/eye-join-v009/verification.json",
-      "bytes": 3413,
-      "sha256": "5cd53d524b16fdf080e0366599434cdc1053e5db8d222a31307ba2331e483cd1"
-    },
-    {
-      "path": "docs/production/jill/HANDOFF.md",
-      "bytes": 2996,
-      "sha256": "3771357a488bfc606c9cdc5222d73971f189622b43a90383b0928e301d44b08a"
+      "bytes": 3603,
+      "sha256": "cb322af8fbf3f09ed0be04b525d29a9bb93f7206bd259085bd4832e359b6b1d4"
     },
     {
       "path": "scripts/3d/jill-eye-v008/review-controls.mjs",
@@ -835,8 +840,8 @@
     },
     {
       "path": "scripts/qa/package-jill-eye-v009.py",
-      "bytes": 6956,
-      "sha256": "133dea1816a60ed1f61c2b8fedd1fc5848eb8e614c94f94f9424b247bd371098"
+      "bytes": 7236,
+      "sha256": "0a4f419e33968ce31cd16658069910fed6286242316fa73d2d97288b4d56c7d8"
     }
   ]
 }

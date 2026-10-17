@@ -2,7 +2,7 @@
 
 2026-10-18。branch `codex/jill-texture-return-v005-20261017`、開始HEAD `cc080bc30590247d8604d94c0a5d5dced6f595a5`。最新mainはfetchして `534694dae8087dec852de0f26b472a6dcd26ca70` を確認。mainにJill HANDOFFはなく、Jill制作branchの実資産と最新Human判断を参照した。AGENTS、Goal√map、production pointer、Jill HANDOFF、v004 shape GO / v005 history / v006 mouth GO / v007 clover OKを継承。別checkoutのShushu/user変更を保護し、mainを混ぜていない。
 
-**Human最新判断:「目の外見はOKだ。」目外観GO（2026-10-18）。** 口Human GO、Canonical側の腿クローバーHuman OK、角は変更不要・元のまま。全体完成GOを各部位のGOから捏造しない。目視確認の報告には実画像を添える。
+**Human最新判断:「目の外見はOKだ。」目外観GO（2026-10-18）。** 口Human GO、Canonical側の腿クローバーHuman OK、角は変更不要・元のまま。その後、Humanより「モデル全体も完成GO」を明示受領。v009をテクスチャ込み完成モデルとして採用。[完成承認記録](HumanApproval.json)。目視確認の報告には実画像を添える。
 
 ## 根本原因
 
@@ -31,4 +31,4 @@ Humanのattached screenshot 593 (user message)は、両目外側に浮いてい�
 
 ## 判定
 
-**指定の両目外側の縦帯: 修正実施、Human目外観GO。** 口GO / クローバーOK / 角は変更不要を保持。今回の検証範囲に未解決の縦帯・眼の漏れ・復帰不良は見つからなかった。各部位の承認を、未受領のモデル全体のHuman完成GOへ読み替えない。[Gate](Gate.json) / [Manifest](Manifest.json)。commit/push/remote一致は[receipt](RemoteReceipt.json)。
+**指定の両目外側の縦帯: 修正実施、Human目外観GO。** 口GO / クローバーOK / 角は変更不要を保持。今回の検証範囲に未解決の縦帯・眼の漏れ・復帰不良は見つからなかった。**最終Human判断「モデル全体も完成GO」を受領（2026-10-18）。v009完成GO。** 今回は承認記録だけを更新し、承認されたblend/GLB/Texture本体を一切変更していない。[Gate](Gate.json) / [Manifest](Manifest.json)。commit/push/remote一致は[receipt](RemoteReceipt.json)。
